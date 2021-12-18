@@ -1,0 +1,59 @@
+---
+id: IETFRFC2308
+title:
+  type: main
+  content: Negative Caching of DNS Queries (DNS NCACHE)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc2308
+  type: src
+type: standard
+docid:
+- id: IETF RFC2308
+  type: IETF
+- id: 10.17487/RFC2308
+  type: DOI
+docnumber: RFC2308
+date:
+  type: published
+  value: 1998-03
+contributor:
+  person:
+    name:
+      completename:
+        content: M. Andrews
+        language: en
+        script: Latn
+  role: author
+revdate: 1998-03
+language: en
+script: Latn
+abstract:
+  content: RFC1034 provided a description of how to cache negative responses.  It
+    however had a fundamental flaw in that it did not allow a name server to hand
+    out those cached responses to other resolvers, thereby greatly reducing the effect
+    of the caching.  This document addresses issues raise in the light of experience
+    and replaces RFC1034 Section 4.3.4. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1034
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1035
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- DNS-NCACHE
+- Domain
+- Name
+- System
+- negative
+editorialgroup:
+  name: dnsind

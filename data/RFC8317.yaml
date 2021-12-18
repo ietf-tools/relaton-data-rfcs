@@ -1,0 +1,90 @@
+---
+id: IETFRFC8317
+title:
+  type: main
+  content: Ethernet-Tree (E-Tree) Support in Ethernet VPN (EVPN) and Provider Backbone
+    Bridging EVPN (PBB-EVPN)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8317
+  type: src
+type: standard
+docid:
+- id: IETF RFC8317
+  type: IETF
+- id: 10.17487/RFC8317
+  type: DOI
+docnumber: RFC8317
+date:
+  type: published
+  value: 2018-01
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Sajassi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Salam
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Drake
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Uttaro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Boutros
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Rabadan
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-01
+language: en
+script: Latn
+abstract:
+  content: The MEF Forum (MEF) has defined a rooted-multipoint Ethernet service known
+    as Ethernet-Tree (E-Tree).  A solution framework for supporting this service in
+    MPLS networks is described in RFC 7387, "A Framework for Ethernet-Tree (E-Tree)
+    Service over a Multiprotocol Label Switching (MPLS) Network".  This document discusses
+    how those functional requirements can be met with a solution based on RFC 7432,
+    "BGP MPLS Based Ethernet VPN (EVPN)", with some extensions and a description of
+    how such a solution can offer a more efficient implementation of these functions
+    than that of RFC 7796, "Ethernet-Tree (E-Tree) Support in Virtual Private LAN
+    Service (VPLS)".  This document makes use of the most significant bit of the Tunnel
+    Type field (in the P-Multicast Service Interface (PMSI) Tunnel attribute) governed
+    by the IANA registry created by RFC 7385; hence, it updates RFC 7385 accordingly.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC7385
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: bess

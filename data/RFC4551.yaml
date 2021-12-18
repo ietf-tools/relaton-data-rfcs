@@ -1,0 +1,67 @@
+---
+id: IETFRFC4551
+title:
+  type: main
+  content: IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4551
+  type: src
+type: standard
+docid:
+- id: IETF RFC4551
+  type: IETF
+- id: 10.17487/RFC4551
+  type: DOI
+docnumber: RFC4551
+date:
+  type: published
+  value: 2006-06
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Hole
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-06
+language: en
+script: Latn
+abstract:
+  content: Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a
+    common IMAP mailbox. Examples include different clients working on behalf of the
+    same user, and multiple users accessing shared mailboxes. These clients need a
+    mechanism to synchronize state changes for messages within the mailbox. They must
+    be able to guarantee that only one client can change message state (e.g., message
+    flags) at any time. An example of such an application is use of an IMAP mailbox
+    as a message queue with multiple dequeueing clients. The Conditional Store facility
+    provides a protected update mechanism for message state information that can detect
+    and resolve conflicts between multiple writing mail clients. The Conditional Store
+    facility also allows a client to quickly resynchronize mailbox flag changes. This
+    document defines an extension to IMAP (RFC 3501). [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC7162
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3501
+      format: text/plain
+fetched: '2021-12-18'
+keyword: internet mail access protocol
+editorialgroup:
+  name: imapext

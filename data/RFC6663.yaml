@@ -1,0 +1,78 @@
+---
+id: IETFRFC6663
+title:
+  type: main
+  content: Requirements for Signaling of Pre-Congestion Information in a Diffserv
+    Domain
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6663
+  type: src
+type: standard
+docid:
+- id: IETF RFC6663
+  type: IETF
+- id: 10.17487/RFC6663
+  type: DOI
+docnumber: RFC6663
+date:
+  type: published
+  value: 2012-07
+contributor:
+- person:
+    name:
+      completename:
+        content: G. Karagiannis
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Taylor
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Chan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Menth
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Eardley
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-07
+language: en
+script: Latn
+abstract:
+  content: 'Pre-Congestion Notification (PCN) is a means for protecting quality of
+    service for inelastic traffic admitted to a Diffserv domain.  The overall PCN
+    architecture is described in RFC 5559.  This memo describes the requirements for
+    the signaling applied within the PCN-domain: (1) PCN-feedback-information is carried
+    from the PCN-egress-node to the Decision Point; (2) the Decision Point may ask
+    the PCN-ingress-node to measure, and report back, the rate of sent PCN-traffic
+    between that PCN-ingress-node and PCN-egress-node.  The Decision Point may be
+    either collocated with the PCN-ingress-node or a centralized node (in the first
+    case, (2) is not required).  The signaling requirements pertain in particular
+    to two edge behaviors, Controlled Load (CL) and Single Marking (SM).  This document
+    is not an Internet Standards Track specification; it is published for informational
+    purposes.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: pcn

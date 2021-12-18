@@ -1,0 +1,77 @@
+---
+id: IETFRFC3758
+title:
+  type: main
+  content: Stream Control Transmission Protocol (SCTP) Partial Reliability Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3758
+  type: src
+type: standard
+docid:
+- id: IETF RFC3758
+  type: IETF
+- id: 10.17487/RFC3758
+  type: DOI
+docnumber: RFC3758
+date:
+  type: published
+  value: 2004-05
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Stewart
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Ramalho
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Xie
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Tuexen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Conrad
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-05
+language: en
+script: Latn
+abstract:
+  content: This memo describes an extension to the Stream Control Transmission Protocol
+    (SCTP) that allows an SCTP endpoint to signal to its peer that it should move
+    the cumulative ack point forward.  When both sides of an SCTP association support
+    this extension, it can be used by an SCTP implementation to provide partially
+    reliable data transmission service to an upper layer protocol.  This memo describes
+    the protocol extensions, which consist of a new parameter for INIT and INIT ACK,
+    and a new FORWARD TSN chunk type, and provides one example of a partially reliable
+    service that can be provided to the upper layer via this mechanism. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- init
+- init ack
+- forward tsn
+editorialgroup:
+  name: tsvwg

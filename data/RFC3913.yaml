@@ -1,0 +1,55 @@
+---
+id: IETFRFC3913
+title:
+  type: main
+  content: 'Border Gateway Multicast Protocol (BGMP): Protocol Specification'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3913
+  type: src
+type: standard
+docid:
+- id: IETF RFC3913
+  type: IETF
+- id: 10.17487/RFC3913
+  type: DOI
+docnumber: RFC3913
+date:
+  type: published
+  value: 2004-09
+contributor:
+  person:
+    name:
+      completename:
+        content: D. Thaler
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-09
+language: en
+script: Latn
+abstract:
+  content: This document describes the Border Gateway Multicast Protocol (BGMP), a
+    protocol for inter-domain multicast routing.  BGMP builds shared trees for active
+    multicast groups, and optionally allows receiver domains to build source-specific,
+    inter-domain, distribution branches where needed.  BGMP natively supports "source-specific
+    multicast" (SSM).  To also support "any-source multicast" (ASM), BGMP requires
+    that each multicast group be associated with a single root (in BGMP it is referred
+    to as the root domain).  It requires that different ranges of the multicast address
+    space are associated (e.g., with Unicast-Prefix-Based Multicast addressing) with
+    different domains.  Each of these domains then becomes the root of the shared
+    domain-trees for all groups in its range.  Multicast participants will generally
+    receive better multicast service if the session initiator's address allocator
+    selects addresses from its own domain's part of the space, thereby causing the
+    root domain to be local to at least one of the session participants.  This memo
+    provides information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- enter-domain
+- source-specific multicast
+- ssm
+editorialgroup:
+  name: bgmp

@@ -1,0 +1,91 @@
+---
+id: IETFRFC7771
+title:
+  type: main
+  content: Switching Provider Edge (S-PE) Protection for MPLS and MPLS Transport Profile
+    (MPLS-TP) Static Multi-Segment Pseudowires
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7771
+  type: src
+type: standard
+docid:
+- id: IETF RFC7771
+  type: IETF
+- id: 10.17487/RFC7771
+  type: DOI
+docnumber: RFC7771
+date:
+  type: published
+  value: 2016-01
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Malis
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Andersson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. van Helvoort
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Shin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Wang
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. D'Alessandro
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-01
+language: en
+script: Latn
+abstract:
+  content: In MPLS and MPLS Transport Profile (MPLS-TP) environments, statically provisioned
+    Single-Segment Pseudowires (SS-PWs) are protected against tunnel failure via MPLS-level
+    and MPLS-TP-level tunnel protection.  With statically provisioned Multi-Segment
+    Pseudowires (MS-PWs), each segment of the MS-PW is likewise protected from tunnel
+    failures via MPLS-level and MPLS-TP-level tunnel protection.  However, static
+    MS-PWs are not protected end-to-end against failure of one of the Switching Provider
+    Edge Routers (S-PEs) along the path of the MS-PW.  This document describes how
+    to achieve this protection via redundant MS-PWs by updating the existing procedures
+    in RFC 6870.  It also contains an optional approach based on MPLS-TP Linear Protection.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6870
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- end-to-end protection
+- linear protection
+editorialgroup:
+  name: pals

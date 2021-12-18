@@ -1,0 +1,76 @@
+---
+id: IETFRFC8108
+title:
+  type: main
+  content: Sending Multiple RTP Streams in a Single RTP Session
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8108
+  type: src
+type: standard
+docid:
+- id: IETF RFC8108
+  type: IETF
+- id: 10.17487/RFC8108
+  type: DOI
+docnumber: RFC8108
+date:
+  type: published
+  value: 2017-03
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Lennox
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Wu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Perkins
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-03
+language: en
+script: Latn
+abstract:
+  content: This memo expands and clarifies the behavior of Real-time Transport Protocol
+    (RTP) endpoints that use multiple synchronization sources (SSRCs).  This occurs,
+    for example, when an endpoint sends multiple RTP streams in a single RTP session.  This
+    memo updates RFC 3550 with regard to handling multiple SSRCs per endpoint in RTP
+    sessions, with a particular focus on RTP Control Protocol (RTCP) behavior.  It
+    also updates RFC 4585 to change and clarify the calculation of the timeout of
+    SSRCs and the inclusion of feedback messages.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3550
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4585
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: avtcore

@@ -1,0 +1,90 @@
+---
+id: IETFRFC4884
+title:
+  type: main
+  content: Extended ICMP to Support Multi-Part Messages
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4884
+  type: src
+type: standard
+docid:
+- id: IETF RFC4884
+  type: IETF
+- id: 10.17487/RFC4884
+  type: DOI
+docnumber: RFC4884
+date:
+  type: published
+  value: 2007-04
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Bonica
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Gan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Tappan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-04
+language: en
+script: Latn
+abstract:
+  content: This document redefines selected ICMP messages to support multi-part operation.
+    A multi-part ICMP message carries all of the information that ICMP messages carried
+    previously, as well as additional information that applications may require. Multi-part
+    messages are supported by an ICMP extension structure. The extension structure
+    is situated at the end of the ICMP message. It includes an extension header followed
+    by one or more extension objects. Each extension object contains an object header
+    and object payload. All object headers share a common format. This document further
+    redefines the above mentioned ICMP messages by specifying a length attribute.
+    All of the currently defined ICMP messages to which an extension structure can
+    be appended include an "original datagram" field. The "original datagram" field
+    contains the initial octets of the datagram that elicited the ICMP error message.
+    Although the original datagram field is of variable length, the ICMP message does
+    not include a field that specifies its length. Therefore, in order to facilitate
+    message parsing, this document allocates eight previously reserved bits to reflect
+    the length of the "original datagram" field. The proposed modifications change
+    the requirements for ICMP compliance. The impact of these changes on compliant
+    implementations is discussed, and new requirements for future implementations
+    are presented. This memo updates RFC 792 and RFC 4443. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC0792
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4443
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- internet control message protocol
+- length attribute
+editorialgroup:
+  name: NON WORKING GROUP

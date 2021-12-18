@@ -1,0 +1,72 @@
+---
+id: IETFRFC7767
+title:
+  type: main
+  content: Application-Initiated Check-Pointing via the Port Control Protocol (PCP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7767
+  type: src
+type: standard
+docid:
+- id: IETF RFC7767
+  type: IETF
+- id: 10.17487/RFC7767
+  type: DOI
+docnumber: RFC7767
+date:
+  type: published
+  value: 2016-02
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Vinapamula
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Sivakumar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Boucadair
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Reddy
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-02
+language: en
+script: Latn
+abstract:
+  content: This document specifies a mechanism for a host to indicate via the Port
+    Control Protocol (PCP) which connections should be protected against network failures.
+    These connections will then be subject to high-availability mechanisms enabled
+    on the network side. This approach assumes that applications and/or users have
+    more visibility about sensitive connections than any heuristic that can be enabled
+    on the network side to guess which connections should be check-pointed.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- serviceability
+- SDN
+- resilience
+- robustness
+- network programmability
+- network API
+- application control
+- service-aware networking
+- automation

@@ -1,0 +1,73 @@
+---
+id: IETFRFC8723
+title:
+  type: main
+  content: Double Encryption Procedures for the Secure Real-Time Transport Protocol
+    (SRTP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8723
+  type: src
+type: standard
+docid:
+- id: IETF RFC8723
+  type: IETF
+- id: 10.17487/RFC8723
+  type: DOI
+docnumber: RFC8723
+date:
+  type: published
+  value: 2020-04
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Jennings
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Jones
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Barnes
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A.B. Roach
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-04
+language: en
+script: Latn
+abstract:
+  content: In some conferencing scenarios, it is desirable for an intermediary to
+    be able to manipulate some parameters in Real-time Transport Protocol (RTP) packets,
+    while still providing strong end-to-end security guarantees.  This document defines
+    a cryptographic transform for the Secure Real-time Transport Protocol (SRTP) that
+    uses two separate but related cryptographic operations to provide hop-by-hop and
+    end-to-end security guarantees.  Both the end-to-end and hop-by-hop cryptographic
+    algorithms can utilize an authenticated encryption with associated data (AEAD)
+    algorithm or take advantage of future SRTP transforms with different properties.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- PERC
+- SRTP
+- RTP
+- conferencing
+- encryption
+editorialgroup:
+  name: perc

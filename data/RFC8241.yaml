@@ -1,0 +1,62 @@
+---
+id: IETFRFC8241
+title:
+  type: main
+  content: Interface to the Routing System (I2RS) Security-Related Requirements
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8241
+  type: src
+type: standard
+docid:
+- id: IETF RFC8241
+  type: IETF
+- id: 10.17487/RFC8241
+  type: DOI
+docnumber: RFC8241
+date:
+  type: published
+  value: 2017-09
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Hares
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Migault
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Halpern
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-09
+language: en
+script: Latn
+abstract:
+  content: 'This document presents security-related requirements for the Interface
+    to the Routing System (I2RS) protocol, which provides a new interface to the routing
+    system described in the I2RS architecture document (RFC 7921).  The I2RS protocol
+    is implemented by reusing portions of existing IETF protocols and adding new features
+    to them.  One such reuse is of the security features of a secure transport (e.g.,
+    Transport Layer Security (TLS), Secure SHell (SSH) Protocol, Datagram TLS (DTLS))
+    such as encryption, message integrity, mutual peer authentication, and anti-replay
+    protection.  The new I2RS features to consider from a security perspective are
+    as follows: a priority mechanism to handle multi-headed write transactions, an
+    opaque secondary identifier that identifies an application using the I2RS client,
+    and an extremely constrained read-only non-secure transport.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: i2rs

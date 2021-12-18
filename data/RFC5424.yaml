@@ -1,0 +1,59 @@
+---
+id: IETFRFC5424
+title:
+  type: main
+  content: The Syslog Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5424
+  type: src
+type: standard
+docid:
+- id: IETF RFC5424
+  type: IETF
+- id: 10.17487/RFC5424
+  type: DOI
+docnumber: RFC5424
+date:
+  type: published
+  value: 2009-03
+contributor:
+  person:
+    name:
+      completename:
+        content: R. Gerhards
+        language: en
+        script: Latn
+  role: author
+revdate: 2009-03
+language: en
+script: Latn
+abstract:
+  content: This document describes the syslog protocol, which is used to convey event
+    notification messages. This protocol utilizes a layered architecture, which allows
+    the use of any number of transport protocols for transmission of syslog messages.
+    It also provides a message format that allows vendor-specific extensions to be
+    provided in a structured way. This document has been written with the original
+    design goals for traditional syslog in mind. The need for a new layered specification
+    has arisen because standardization efforts for reliable and secure syslog extensions
+    suffer from the lack of a Standards-Track and transport-independent RFC. Without
+    this document, each other standard needs to define its own syslog packet format
+    and transport mechanism, which over time will introduce subtle compatibility issues.
+    This document tries to provide a foundation that syslog extensions can build on.
+    This layered architecture approach also provides a solid basis that allows code
+    to be written once for each syslog feature rather than once for each transport.
+    [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- event notification message
+- syslog message
+- berkeley
+- software
+- distribution
+- transmission
+- messages
+editorialgroup:
+  name: syslog

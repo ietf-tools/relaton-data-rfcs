@@ -1,0 +1,51 @@
+---
+id: IETFRFC7888
+title:
+  type: main
+  content: IMAP4 Non-synchronizing Literals
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7888
+  type: src
+type: standard
+docid:
+- id: IETF RFC7888
+  type: IETF
+- id: 10.17487/RFC7888
+  type: DOI
+docnumber: RFC7888
+date:
+  type: published
+  value: 2016-05
+contributor:
+  person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-05
+language: en
+script: Latn
+abstract:
+  content: 'The Internet Message Access Protocol (RFC 3501) contains the "literal"
+    syntactic construct for communicating strings. When sending a literal from client
+    to server, IMAP requires the client to wait for the server to send a command continuation
+    request between sending the octet count and the string data. This document specifies
+    an alternate form of literal that does not require this network round trip. This
+    document specifies 2 IMAP extensions: LITERAL+ and LITERAL-. LITERAL+ allows the
+    alternate form of literals in all IMAP commands. LITERAL- is the same as LITERAL+,
+    but it disallows the alternate form of literals unless they are 4096 bytes or
+    less. This document obsoletes RFC 2088.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- IMAP
+- LITERAL+
+- LITERAL-
+- APPENDLIMIT
+editorialgroup:
+  name: imapapnd

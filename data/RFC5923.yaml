@@ -1,0 +1,68 @@
+---
+id: IETFRFC5923
+title:
+  type: main
+  content: Connection Reuse in the Session Initiation Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5923
+  type: src
+type: standard
+docid:
+- id: IETF RFC5923
+  type: IETF
+- id: 10.17487/RFC5923
+  type: DOI
+docnumber: RFC5923
+date:
+  type: published
+  value: 2010-06
+contributor:
+- person:
+    name:
+      completename:
+        content: V. Gurbani
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Mahy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Tate
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-06
+language: en
+script: Latn
+abstract:
+  content: This document enables a pair of communicating proxies to reuse a congestion-controlled
+    connection between themselves for sending requests in the forwards and backwards
+    direction.  Because the connection is essentially aliased for requests going in
+    the backwards direction, reuse is predicated upon both the communicating endpoints
+    authenticating themselves using X.509 certificates through Transport Layer Security
+    (TLS).  For this reason, we only consider connection reuse for TLS over TCP and
+    TLS over Stream Control Transmission Protocol (SCTP).  This document also provides
+    guidelines on connection reuse and virtual SIP servers and the interaction of
+    connection reuse and DNS SRV lookups in SIP. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- TCP Connection
+- SCTP Connection
+- TLS Connection
+- Transport Connection
+- TLS
+- Virtual Server
+- Authentication
+editorialgroup:
+  name: sip

@@ -1,0 +1,74 @@
+---
+id: IETFRFC8661
+title:
+  type: main
+  content: Segment Routing MPLS Interworking with LDP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8661
+  type: src
+type: standard
+docid:
+- id: IETF RFC8661
+  type: IETF
+- id: 10.17487/RFC8661
+  type: DOI
+docnumber: RFC8661
+date:
+  type: published
+  value: 2019-12
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Bashandy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Filsfils
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Previdi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Decraene
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Litkowski
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-12
+language: en
+script: Latn
+abstract:
+  content: A Segment Routing (SR) node steers a packet through a controlled set of
+    instructions, called segments, by prepending the packet with an SR header. A segment
+    can represent any instruction, topological or service based. SR allows enforcing
+    a flow through any topological path while maintaining per-flow state only at the
+    ingress node to the SR domain. The Segment Routing architecture can be directly
+    applied to the MPLS data plane with no change in the forwarding plane. This document
+    describes how Segment Routing MPLS operates in a network where LDP is deployed
+    and in the case where SR-capable and non-SR-capable nodes coexist.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: SR-MPLS
+editorialgroup:
+  name: spring

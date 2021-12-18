@@ -1,0 +1,76 @@
+---
+id: IETFRFC8937
+title:
+  type: main
+  content: Randomness Improvements for Security Protocols
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8937
+  type: src
+type: standard
+docid:
+- id: IETF RFC8937
+  type: IETF
+- id: 10.17487/RFC8937
+  type: DOI
+docnumber: RFC8937
+date:
+  type: published
+  value: 2020-10
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Cremers
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Garratt
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Smyshlyaev
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Sullivan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Wood
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-10
+language: en
+script: Latn
+abstract:
+  content: Randomness is a crucial ingredient for Transport Layer Security (TLS) and
+    related security protocols. Weak or predictable "cryptographically secure" pseudorandom
+    number generators (CSPRNGs) can be abused or exploited for malicious purposes.
+    An initial entropy source that seeds a CSPRNG might be weak or broken as well,
+    which can also lead to critical and systemic security problems. This document
+    describes a way for security protocol implementations to augment their CSPRNGs
+    using long-term private keys. This improves randomness from broken or otherwise
+    subverted CSPRNGs. This document is a product of the Crypto Forum Research Group
+    (CFRG) in the IRTF.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Security
+- Cryptography
+- TLS

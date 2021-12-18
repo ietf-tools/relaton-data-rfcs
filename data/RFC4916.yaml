@@ -1,0 +1,61 @@
+---
+id: IETFRFC4916
+title:
+  type: main
+  content: Connected Identity in the Session Initiation Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4916
+  type: src
+type: standard
+docid:
+- id: IETF RFC4916
+  type: IETF
+- id: 10.17487/RFC4916
+  type: DOI
+docnumber: RFC4916
+date:
+  type: published
+  value: 2007-06
+contributor:
+  person:
+    name:
+      completename:
+        content: J. Elwell
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-06
+language: en
+script: Latn
+abstract:
+  content: This document provides a means for a Session Initiation Protocol (SIP)
+    User Agent (UA) that receives a dialog-forming request to supply its identity
+    to the peer UA by means of a request in the reverse direction, and for that identity
+    to be signed by an Authentication Service.  Because of retargeting of a dialog-forming
+    request (changing the value of the Request-URI), the UA that receives it (the
+    User Agent Server, UAS) can have a different identity from that in the To header
+    field.  The same mechanism can be used to indicate a change of identity during
+    a dialog, e.g., because of some action in the Public Switched Telephone Network
+    (PSTN) behind a gateway.  This document normatively updates RFC 3261 (SIP). [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3261
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- user agent
+- ua
+- application-layer
+- application
+- layer
+- multimedia
+- multicast
+- unicast
+editorialgroup:
+  name: sip

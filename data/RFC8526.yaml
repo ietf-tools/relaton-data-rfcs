@@ -1,0 +1,84 @@
+---
+id: IETFRFC8526
+title:
+  type: main
+  content: NETCONF Extensions to Support the Network Management Datastore Architecture
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8526
+  type: src
+type: standard
+docid:
+- id: IETF RFC8526
+  type: IETF
+- id: 10.17487/RFC8526
+  type: DOI
+docnumber: RFC8526
+date:
+  type: published
+  value: 2019-03
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Bjorklund
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Schoenwaelder
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Shafer
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Watsen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Wilton
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-03
+language: en
+script: Latn
+abstract:
+  content: This document extends the Network Configuration Protocol (NETCONF) defined
+    in RFC 6241 in order to support the Network Management Datastore Architecture
+    (NMDA) defined in RFC 8342. This document updates RFCs 6241 and 7950. The update
+    to RFC 6241 adds new <get-data> and <edit-data> operations and augments existing
+    <lock>, <unlock>, and <validate> operations. The update to RFC 7950 requires the
+    usage of the YANG library (described in RFC 8525) by NETCONF servers implementing
+    the NMDA.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6241
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7950
+      format: text/plain
+fetched: '2021-12-18'
+keyword: NMDA
+editorialgroup:
+  name: netconf

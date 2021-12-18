@@ -1,0 +1,76 @@
+---
+id: IETFRFC5837
+title:
+  type: main
+  content: Extending ICMP for Interface and Next-Hop Identification
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5837
+  type: src
+type: standard
+docid:
+- id: IETF RFC5837
+  type: IETF
+- id: 10.17487/RFC5837
+  type: DOI
+docnumber: RFC5837
+date:
+  type: published
+  value: 2010-04
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Atlas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Bonica
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Shen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: JR. Rivers
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-04
+language: en
+script: Latn
+abstract:
+  content: 'This memo defines a data structure that can be appended to selected ICMP
+    messages. The ICMP extension defined herein can be used to identify any combination
+    of the following: the IP interface upon which a datagram arrived, the sub-IP component
+    of an IP interface upon which a datagram arrived, the IP interface through which
+    the datagram would have been forwarded had it been forwardable, and the IP next
+    hop to which the datagram would have been forwarded. Devices can use this ICMP
+    extension to identify interfaces and their components by any combination of the
+    following: ifIndex, IPv4 address, IPv6 address, name, and MTU. ICMP-aware devices
+    can use these extensions to identify both numbered and unnumbered interfaces.
+    [STANDARDS-TRACK]'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: Internet Control Message Protocol
+editorialgroup:
+  name: NON WORKING GROUP

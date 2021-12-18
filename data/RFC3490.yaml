@@ -1,0 +1,75 @@
+---
+id: IETFRFC3490
+title:
+  type: main
+  content: Internationalizing Domain Names in Applications (IDNA)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3490
+  type: src
+type: standard
+docid:
+- id: IETF RFC3490
+  type: IETF
+- id: 10.17487/RFC3490
+  type: DOI
+docnumber: RFC3490
+date:
+  type: published
+  value: 2003-03
+contributor:
+- person:
+    name:
+      completename:
+        content: P. Faltstrom
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hoffman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Costello
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-03
+language: en
+script: Latn
+abstract:
+  content: Until now, there has been no standard method for domain names to use characters
+    outside the ASCII repertoire.  This document defines internationalized domain
+    names (IDNs) and a mechanism called Internationalizing Domain Names in Applications
+    (IDNA) for handling them in a standard fashion.  IDNs use characters drawn from
+    a large repertoire (Unicode), but IDNA allows the non-ASCII characters to be represented
+    using only the ASCII characters already allowed in so-called host names today.  This
+    backward-compatible representation is required in existing protocols like DNS,
+    so that IDNs can be introduced with no changes to the existing infrastructure.  IDNA
+    is only meant for processing domain names, not free text. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC5890
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC5891
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- idn
+- ascii
+- characters
+editorialgroup:
+  name: idn

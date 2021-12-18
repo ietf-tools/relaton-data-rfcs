@@ -1,0 +1,82 @@
+---
+id: IETFRFC7510
+title:
+  type: main
+  content: Encapsulating MPLS in UDP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7510
+  type: src
+type: standard
+docid:
+- id: IETF RFC7510
+  type: IETF
+- id: 10.17487/RFC7510
+  type: DOI
+docnumber: RFC7510
+date:
+  type: published
+  value: 2015-04
+contributor:
+- person:
+    name:
+      completename:
+        content: X. Xu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Sheth
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Yong
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Callon
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Black
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-04
+language: en
+script: Latn
+abstract:
+  content: This document specifies an IP-based encapsulation for MPLS, called MPLS-in-UDP
+    for situations where UDP (User Datagram Protocol) encapsulation is preferred to
+    direct use of MPLS, e.g., to enable UDP-based ECMP (Equal-Cost Multipath) or link
+    aggregation.  The MPLS- in-UDP encapsulation technology must only be deployed
+    within a single network (with a single network operator) or networks of an adjacent
+    set of cooperating network operators where traffic is managed to avoid congestion,
+    rather than over the Internet where congestion control is required.  Usage restrictions
+    apply to MPLS-in-UDP usage for traffic that is not congestion controlled and to
+    UDP zero checksum usage with IPv6.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- MPLS
+- UDP
+- Tunnel
+- Checksum
+- encapsulation
+- multipath
+- ECMP
+editorialgroup:
+  name: mpls

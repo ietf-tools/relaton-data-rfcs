@@ -1,0 +1,56 @@
+---
+id: IETFRFC8035
+title:
+  type: main
+  content: Session Description Protocol (SDP) Offer/Answer Clarifications for RTP/RTCP
+    Multiplexing
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8035
+  type: src
+type: standard
+docid:
+- id: IETF RFC8035
+  type: IETF
+- id: 10.17487/RFC8035
+  type: DOI
+docnumber: RFC8035
+date:
+  type: published
+  value: 2016-11
+contributor:
+  person:
+    name:
+      completename:
+        content: C. Holmberg
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-11
+language: en
+script: Latn
+abstract:
+  content: This document updates RFC 5761 by clarifying the SDP offer/answer negotiation
+    of RTP and RTP Control Protocol (RTCP) multiplexing.  It makes it clear that an
+    answerer can only include an "a=rtcp-mux" attribute in a Session Description Protocol
+    (SDP) answer if the associated SDP offer contained the attribute.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5761
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- RTP
+- RTCP
+- multiplex
+- rtcp-mux
+- SDP
+- offer
+- answer
+editorialgroup:
+  name: avtcore

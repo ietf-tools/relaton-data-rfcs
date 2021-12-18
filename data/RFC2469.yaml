@@ -1,0 +1,57 @@
+---
+id: IETFRFC2469
+title:
+  type: main
+  content: A Caution On The Canonical Ordering Of Link-Layer Addresses
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc2469
+  type: src
+type: standard
+docid:
+- id: IETF RFC2469
+  type: IETF
+- id: 10.17487/RFC2469
+  type: DOI
+docnumber: RFC2469
+date:
+  type: published
+  value: 1998-12
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Narten
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Burton
+        language: en
+        script: Latn
+  role: author
+revdate: 1998-12
+language: en
+script: Latn
+abstract:
+  content: Protocols such as ARP and Neighbor Discovery have data fields that contain
+    link-layer addresses.  In order to interoperate properly, a sender setting such
+    a field must insure that the receiver extracts those bits and interprets them
+    correctly.  In most cases, such fields must be in "canonical form".  Unfortunately,
+    not all LAN adaptors are consistent in their use of canonical form, and implementations
+    may need to explicitly bit swap individual bytes in order to obtain the correct
+    format.  This document provides information to implementors to help them avoid
+    the pitfall of using non-canonical forms when canonical forms are required.  This
+    memo provides information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- address
+- resolution
+- protocol
+- data
+- fields

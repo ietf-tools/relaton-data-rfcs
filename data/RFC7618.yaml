@@ -1,0 +1,81 @@
+---
+id: IETFRFC7618
+title:
+  type: main
+  content: Dynamic Allocation of Shared IPv4 Addresses
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7618
+  type: src
+type: standard
+docid:
+- id: IETF RFC7618
+  type: IETF
+- id: 10.17487/RFC7618
+  type: DOI
+docnumber: RFC7618
+date:
+  type: published
+  value: 2015-08
+contributor:
+- person:
+    name:
+      completename:
+        content: Y. Cui
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Sun
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: I. Farrer
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Lee
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Sun
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Boucadair
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-08
+language: en
+script: Latn
+abstract:
+  content: This memo describes the dynamic allocation of shared IPv4 addresses to
+    clients using DHCPv4. Address sharing allows a single IPv4 address to be allocated
+    to multiple active clients simultaneously, with each client being differentiated
+    by a unique set of transport- layer source port numbers. The necessary changes
+    to existing DHCPv4 client and server behavior are described, and a new DHCPv4
+    option for provisioning clients with shared IPv4 addresses is included. Due to
+    the nature of IP address sharing, some limitations to its applicability are necessary.
+    This memo describes these limitations and recommends suitable architectures and
+    technologies where address sharing may be utilized.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: dhc

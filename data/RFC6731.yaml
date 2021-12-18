@@ -1,0 +1,65 @@
+---
+id: IETFRFC6731
+title:
+  type: main
+  content: Improved Recursive DNS Server Selection for Multi-Interfaced Nodes
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6731
+  type: src
+type: standard
+docid:
+- id: IETF RFC6731
+  type: IETF
+- id: 10.17487/RFC6731
+  type: DOI
+docnumber: RFC6731
+date:
+  type: published
+  value: 2012-12
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Savolainen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Kato
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Lemon
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-12
+language: en
+script: Latn
+abstract:
+  content: A multi-interfaced node is connected to multiple networks, some of which
+    might be utilizing private DNS namespaces.  A node commonly receives recursive
+    DNS server configuration information from all connected networks.  Some of the
+    recursive DNS servers might have information about namespaces other servers do
+    not have.  When a multi-interfaced node needs to utilize DNS, the node has to
+    choose which of the recursive DNS servers to use.  This document describes DHCPv4
+    and DHCPv6 options that can be used to configure nodes with information required
+    to perform informed recursive DNS server selection decisions. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DNS
+- RDNSS
+- interface
+- FQDN
+- selection
+editorialgroup:
+  name: mif

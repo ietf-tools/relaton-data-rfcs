@@ -1,0 +1,67 @@
+---
+id: IETFRFC4076
+title:
+  type: main
+  content: Renumbering Requirements for Stateless Dynamic Host Configuration Protocol
+    for IPv6 (DHCPv6)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4076
+  type: src
+type: standard
+docid:
+- id: IETF RFC4076
+  type: IETF
+- id: 10.17487/RFC4076
+  type: DOI
+docnumber: RFC4076
+date:
+  type: published
+  value: 2005-05
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Chown
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Venaas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Vijayabhaskar
+        language: en
+        script: Latn
+  role: author
+revdate: 2005-05
+language: en
+script: Latn
+abstract:
+  content: IPv6 hosts using Stateless Address Autoconfiguration are able to configure
+    their IPv6 address and default router settings automatically.  However, further
+    settings are not available.  If these hosts wish to configure their DNS, NTP,
+    or other specific settings automatically, the stateless variant of the Dynamic
+    Host Configuration Protocol for IPv6 (DHCPv6) could be used.  This combination
+    of Stateless Address Autoconfiguration and stateless DHCPv6 could be used quite
+    commonly in IPv6 networks.  However, hosts using this combination currently have
+    no means by which to be informed of changes in stateless DHCPv6 option settings;
+    e.g., the addition of a new NTP server address, a change in DNS search paths,
+    or full site renumbering.  This document is presented as a problem statement from
+    which a solution should be proposed in a subsequent document.  This memo provides
+    information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- internet protocol
+- stateless address autoconfiguration
+editorialgroup:
+  name: dhc

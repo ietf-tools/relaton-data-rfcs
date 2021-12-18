@@ -1,0 +1,66 @@
+---
+id: IETFRFC7153
+title:
+  type: main
+  content: IANA Registries for BGP Extended Communities
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7153
+  type: src
+type: standard
+docid:
+- id: IETF RFC7153
+  type: IETF
+- id: 10.17487/RFC7153
+  type: DOI
+docnumber: RFC7153
+date:
+  type: published
+  value: 2014-03
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Rekhter
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-03
+language: en
+script: Latn
+abstract:
+  content: This document reorganizes the IANA registries for the type values and sub-type
+    values of the BGP Extended Communities attribute and the BGP IPv6-Address-Specific
+    Extended Communities attribute.  This is done in order to remove interdependencies
+    among the registries, thus making it easier for IANA to determine which codepoints
+    are available for assignment in which registries.  This document also clarifies
+    the information that must be provided to IANA when requesting an allocation from
+    one or more of these registries.  These changes are compatible with the existing
+    allocations and thus do not affect protocol implementations.  The changes will,
+    however, impact the "IANA Considerations" sections of future protocol specifications.  This
+    document updates RFC 4360 and RFC 5701.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4360
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5701
+      format: text/plain
+fetched: '2021-12-18'
+keyword: Border Gateway Protocol
+editorialgroup:
+  name: idr

@@ -1,0 +1,77 @@
+---
+id: IETFRFC9041
+title:
+  type: main
+  content: Updating the MPLS Label Switched Paths (LSPs) Ping Parameters IANA Registry
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9041
+  type: src
+type: standard
+docid:
+- id: IETF RFC9041
+  type: IETF
+- id: 10.17487/RFC9041
+  type: DOI
+docnumber: RFC9041
+date:
+  type: published
+  value: 2021-07
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Andersson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Chen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Saad
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-07
+language: en
+script: Latn
+abstract:
+  content: This document updates RFCs 8029 and 8611, both of which define IANA registries
+    for MPLS Label Switched Path (LSP) Ping. In particular, the registration procedure
+    "Private Use" (previously known as "Vendor Private Use") has been changed to "First
+    Come First Served" for the TLV and sub-TLV registries. It also updates the description
+    of the procedures for the responses sent when an unknown or erroneous code point
+    is found. The updates are to clarify and align this namespace with recent developments,
+    e.g., aligning terminology with RFC 8126 instead of the now obsoleted RFC 5226
+    (both titled "Guidelines for Writing an IANA Considerations Section in RFCs").
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8029
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8611
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: mpls

@@ -1,0 +1,57 @@
+---
+id: IETFRFC6951
+title:
+  type: main
+  content: UDP Encapsulation of Stream Control Transmission Protocol (SCTP) Packets
+    for End-Host to End-Host Communication
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6951
+  type: src
+type: standard
+docid:
+- id: IETF RFC6951
+  type: IETF
+- id: 10.17487/RFC6951
+  type: DOI
+docnumber: RFC6951
+date:
+  type: published
+  value: 2013-05
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Tuexen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Stewart
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-05
+language: en
+script: Latn
+abstract:
+  content: This document describes a simple method of encapsulating Stream Control
+    Transmission Protocol (SCTP) packets into UDP packets and its limitations. This
+    allows the usage of SCTP in networks with legacy NATs that do not support SCTP.
+    It can also be used to implement SCTP on hosts without directly accessing the
+    IP layer, for example, implementing it as part of the application without requiring
+    special privileges. Please note that this document only describes the functionality
+    required within an SCTP stack to add on UDP encapsulation, providing only those
+    mechanisms for two end-hosts to communicate with each other over UDP ports. In
+    particular, it does not provide mechanisms to determine whether UDP encapsulation
+    is being used by the peer, nor the mechanisms for determining which remote UDP
+    port number can be used. These functions are out of scope for this document. This
+    document covers only end-hosts and not tunneling (egress or ingress) endpoints.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: tsvwg

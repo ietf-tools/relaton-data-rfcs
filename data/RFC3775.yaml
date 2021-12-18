@@ -1,0 +1,71 @@
+---
+id: IETFRFC3775
+title:
+  type: main
+  content: Mobility Support in IPv6
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3775
+  type: src
+type: standard
+docid:
+- id: IETF RFC3775
+  type: IETF
+- id: 10.17487/RFC3775
+  type: DOI
+docnumber: RFC3775
+date:
+  type: published
+  value: 2004-06
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Johnson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Perkins
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Arkko
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-06
+language: en
+script: Latn
+abstract:
+  content: This document specifies a protocol which allows nodes to remain reachable
+    while moving around in the IPv6 Internet.  Each mobile node is always identified
+    by its home address, regardless of its current point of attachment to the Internet.  While
+    situated away from its home, a mobile node is also associated with a care-of address,
+    which provides information about the mobile node's current location.  IPv6 packets
+    addressed to a mobile node's home address are transparently routed to its care-of
+    address.  The protocol enables IPv6 nodes to cache the binding of a mobile node's
+    home address with its care-of address, and to then send any packets destined for
+    the mobile node directly to it at this care-of address.  To support this operation,
+    Mobile IPv6 defines a new IPv6 protocol and a new destination option.  All IPv6
+    nodes, whether mobile or stationary, can communicate with mobile nodes. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6275
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- internet protocol
+- nodes
+editorialgroup:
+  name: mobileip

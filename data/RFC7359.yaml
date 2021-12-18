@@ -1,0 +1,47 @@
+---
+id: IETFRFC7359
+title:
+  type: main
+  content: Layer 3 Virtual Private Network (VPN) Tunnel Traffic Leakages in Dual-Stack
+    Hosts/Networks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7359
+  type: src
+type: standard
+docid:
+- id: IETF RFC7359
+  type: IETF
+- id: 10.17487/RFC7359
+  type: DOI
+docnumber: RFC7359
+date:
+  type: published
+  value: 2014-08
+contributor:
+  person:
+    name:
+      completename:
+        content: F. Gont
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-08
+language: en
+script: Latn
+abstract:
+  content: The subtle way in which the IPv6 and IPv4 protocols coexist in typical
+    networks, together with the lack of proper IPv6 support in popular Virtual Private
+    Network (VPN) tunnel products, may inadvertently result in VPN tunnel traffic
+    leakages.  That is, traffic meant to be transferred over an encrypted and integrity-
+    protected VPN tunnel may leak out of such a tunnel and be sent in the clear on
+    the local network towards the final destination.  This document discusses some
+    scenarios in which such VPN tunnel traffic leakages may occur as a result of employing
+    IPv6-unaware VPN software.  Additionally, this document offers possible mitigations
+    for this issue.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: opsec

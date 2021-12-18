@@ -1,0 +1,67 @@
+---
+id: IETFRFC9055
+title:
+  type: main
+  content: Deterministic Networking (DetNet) Security Considerations
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9055
+  type: src
+type: standard
+docid:
+- id: IETF RFC9055
+  type: IETF
+- id: 10.17487/RFC9055
+  type: DOI
+docnumber: RFC9055
+date:
+  type: published
+  value: 2021-06
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Grossman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Mizrahi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Hacker
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-06
+language: en
+script: Latn
+abstract:
+  content: A DetNet (deterministic network) provides specific performance guarantees
+    to its data flows, such as extremely low data loss rates and bounded latency (including
+    bounded latency variation, i.e., "jitter"). As a result, securing a DetNet requires
+    that in addition to the best practice security measures taken for any mission-critical
+    network, additional security measures may be needed to secure the intended operation
+    of these novel service properties. This document addresses DetNet-specific security
+    considerations from the perspectives of both the DetNet system-level designer
+    and component designer. System considerations include a taxonomy of relevant threats
+    and attacks, and associations of threats versus use cases and service properties.
+    Component-level considerations include ingress filtering and packet arrival-time
+    violation detection. This document also addresses security considerations specific
+    to the IP and MPLS data plane technologies, thereby complementing the Security
+    Considerations sections of those documents.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DetNet
+- security
+editorialgroup:
+  name: detnet

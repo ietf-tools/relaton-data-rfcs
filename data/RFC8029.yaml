@@ -1,0 +1,89 @@
+---
+id: IETFRFC8029
+title:
+  type: main
+  content: Detecting Multiprotocol Label Switched (MPLS) Data-Plane Failures
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8029
+  type: src
+type: standard
+docid:
+- id: IETF RFC8029
+  type: IETF
+- id: 10.17487/RFC8029
+  type: DOI
+docnumber: RFC8029
+date:
+  type: published
+  value: 2017-03
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Kompella
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Swallow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Kumar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Aldrin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Chen
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-03
+language: en
+script: Latn
+abstract:
+  content: This document describes a simple and efficient mechanism to detect data-plane
+    failures in Multiprotocol Label Switching (MPLS) Label Switched Paths (LSPs).
+    It defines a probe message called an "MPLS echo request" and a response message
+    called an "MPLS echo reply" for returning the result of the probe. The MPLS echo
+    request is intended to contain sufficient information to check correct operation
+    of the data plane and to verify the data plane against the control plane, thereby
+    localizing faults. This document obsoletes RFCs 4379, 6424, 6829, and 7537, and
+    updates RFC 1122.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC1122
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- MPLS echo request
+- MPLS echo reply
+editorialgroup:
+  name: mpls

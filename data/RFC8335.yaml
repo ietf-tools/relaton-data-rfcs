@@ -1,0 +1,82 @@
+---
+id: IETFRFC8335
+title:
+  type: main
+  content: 'PROBE: A Utility for Probing Interfaces'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8335
+  type: src
+type: standard
+docid:
+- id: IETF RFC8335
+  type: IETF
+- id: 10.17487/RFC8335
+  type: DOI
+docnumber: RFC8335
+date:
+  type: published
+  value: 2018-02
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Bonica
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Thomas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Linkova
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Lenart
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Boucadair
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-02
+language: en
+script: Latn
+abstract:
+  content: This document describes a network diagnostic tool called PROBE.  PROBE
+    is similar to PING in that it can be used to query the status of a probed interface,
+    but it differs from PING in that it does not require bidirectional connectivity
+    between the probing and probed interfaces.  Instead, PROBE requires bidirectional
+    connectivity between the probing interface and a proxy interface.  The proxy interface
+    can reside on the same node as the probed interface, or it can reside on a node
+    to which the probed interface is directly connected.  This document updates RFC
+    4884.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4884
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Ping
+- ICMP
+editorialgroup:
+  name: intarea

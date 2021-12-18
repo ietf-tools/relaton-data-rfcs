@@ -1,0 +1,68 @@
+---
+id: IETFRFC7535
+title:
+  type: main
+  content: AS112 Redirection Using DNAME
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7535
+  type: src
+type: standard
+docid:
+- id: IETF RFC7535
+  type: IETF
+- id: 10.17487/RFC7535
+  type: DOI
+docnumber: RFC7535
+date:
+  type: published
+  value: 2015-05
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Abley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Dickson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Kumari
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Michaelson
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-05
+language: en
+script: Latn
+abstract:
+  content: AS112 provides a mechanism for handling reverse lookups on IP addresses
+    that are not unique (e.g., RFC 1918 addresses). This document describes modifications
+    to the deployment and use of AS112 infrastructure that will allow zones to be
+    added and dropped much more easily, using DNAME resource records. This approach
+    makes it possible for any DNS zone administrator to sink traffic relating to parts
+    of the global DNS namespace under their control to the AS112 infrastructure without
+    coordination with the operators of AS112 infrastructure.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DNS
+- root server
+editorialgroup:
+  name: dnsop

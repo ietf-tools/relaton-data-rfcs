@@ -1,0 +1,62 @@
+---
+id: IETFRFC3847
+title:
+  type: main
+  content: Restart Signaling for Intermediate System to Intermediate System (IS-IS)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3847
+  type: src
+type: standard
+docid:
+- id: IETF RFC3847
+  type: IETF
+- id: 10.17487/RFC3847
+  type: DOI
+docnumber: RFC3847
+date:
+  type: published
+  value: 2004-07
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Shand
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Ginsberg
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-07
+language: en
+script: Latn
+abstract:
+  content: This document describes a mechanism for a restarting router to signal to
+    its neighbors that it is restarting, allowing them to reestablish their adjacencies
+    without cycling through the down state, while still correctly initiating database
+    synchronization.  This document additionally describes a mechanism for a restarting
+    router to determine when it has achieved LSP database synchronization with its
+    neighbors and a mechanism to optimize LSP database synchronization, while minimizing
+    transient routing disruption when a router starts.  This memo provides information
+    for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC5306
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- LSP database synchronization
+- transient routing disruption
+- database synchronization
+editorialgroup:
+  name: isis

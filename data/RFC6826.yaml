@@ -1,0 +1,71 @@
+---
+id: IETFRFC6826
+title:
+  type: main
+  content: Multipoint LDP In-Band Signaling for Point-to-Multipoint and Multipoint-to-Multipoint
+    Label Switched Paths
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6826
+  type: src
+type: standard
+docid:
+- id: IETF RFC6826
+  type: IETF
+- id: 10.17487/RFC6826
+  type: DOI
+docnumber: RFC6826
+date:
+  type: published
+  value: 2013-01
+contributor:
+- person:
+    name:
+      completename:
+        content: IJ. Wijnands
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Eckert
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Leymann
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Napierala
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-01
+language: en
+script: Latn
+abstract:
+  content: Consider an IP multicast tree, constructed by Protocol Independent Multicast
+    (PIM), that needs to pass through an MPLS domain in which Multipoint LDP (mLDP)
+    point-to-multipoint and/or multipoint-to-multipoint Labels Switched Paths (LSPs)
+    can be created.  The part of the IP multicast tree that traverses the MPLS domain
+    can be instantiated as a multipoint LSP.  When a PIM Join message is received
+    at the border of the MPLS domain, information from that message is encoded into
+    mLDP messages.  When the mLDP messages reach the border of the next IP domain,
+    the encoded information is used to generate PIM messages that can be sent through
+    the IP domain.  The result is an IP multicast tree consisting of a set of IP multicast
+    sub-trees that are spliced together with a multipoint LSP.  This document describes
+    procedures regarding how IP multicast trees are spliced together with multipoint
+    LSPs. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: mpls

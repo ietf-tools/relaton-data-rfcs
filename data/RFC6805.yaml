@@ -1,0 +1,61 @@
+---
+id: IETFRFC6805
+title:
+  type: main
+  content: The Application of the Path Computation Element Architecture to the Determination
+    of a Sequence of Domains in MPLS and GMPLS
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6805
+  type: src
+type: standard
+docid:
+- id: IETF RFC6805
+  type: IETF
+- id: 10.17487/RFC6805
+  type: DOI
+docnumber: RFC6805
+date:
+  type: published
+  value: 2012-11
+contributor:
+- person:
+    name:
+      completename:
+        content: D. King
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-11
+language: en
+script: Latn
+abstract:
+  content: Computing optimum routes for Label Switched Paths (LSPs) across multiple
+    domains in MPLS Traffic Engineering (MPLS-TE) and GMPLS networks presents a problem
+    because no single point of path computation is aware of all of the links and resources
+    in each domain. A solution may be achieved using the Path Computation Element
+    (PCE) architecture. Where the sequence of domains is known a priori, various techniques
+    can be employed to derive an optimum path. If the domains are simply connected,
+    or if the preferred points of interconnection are also known, the Per-Domain Path
+    Computation technique can be used. Where there are multiple connections between
+    domains and there is no preference for the choice of points of interconnection,
+    the Backward-Recursive PCE-based Computation (BRPC) procedure can be used to derive
+    an optimal path. This document examines techniques to establish the optimum path
+    when the sequence of domains is not known in advance. The document shows how the
+    PCE architecture can be extended to allow the optimum sequence of domains to be
+    selected, and the optimum end-to-end path to be derived through the use of a hierarchical
+    relationship between domains. This document is not an Internet Standards Track
+    specification; it is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: pce

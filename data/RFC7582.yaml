@@ -1,0 +1,87 @@
+---
+id: IETFRFC7582
+title:
+  type: main
+  content: 'Multicast Virtual Private Network (MVPN): Using Bidirectional P-Tunnels'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7582
+  type: src
+type: standard
+docid:
+- id: IETF RFC7582
+  type: IETF
+- id: 10.17487/RFC7582
+  type: DOI
+docnumber: RFC7582
+date:
+  type: published
+  value: 2015-07
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: IJ. Wijnands
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Cai
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Boers
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-07
+language: en
+script: Latn
+abstract:
+  content: A set of prior RFCs specify procedures for supporting multicast in BGP/MPLS
+    IP VPNs.  These procedures allow customer multicast data to travel across a service
+    provider's backbone network through a set of multicast tunnels.  The tunnels are
+    advertised in certain BGP multicast auto-discovery routes, by means of a BGP attribute
+    known as the "Provider Multicast Service Interface (PMSI) Tunnel" attribute.  Encodings
+    have been defined that allow the PMSI Tunnel attribute to identify bidirectional
+    (multipoint-to-multipoint) multicast distribution trees.  However, the prior RFCs
+    do not provide all the necessary procedures for using bidirectional tunnels to
+    support multicast VPNs.  This document updates RFCs 6513, 6514, and 6625 by specifying
+    those procedures.  In particular, it specifies the procedures for assigning customer
+    multicast flows (unidirectional or bidirectional) to specific bidirectional tunnels
+    in the provider backbone, for advertising such assignments, and for determining
+    which flows have been assigned to which tunnels.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6513
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6514
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6625
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: bess

@@ -1,0 +1,68 @@
+---
+id: IETFRFC5961
+title:
+  type: main
+  content: Improving TCP's Robustness to Blind In-Window Attacks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5961
+  type: src
+type: standard
+docid:
+- id: IETF RFC5961
+  type: IETF
+- id: 10.17487/RFC5961
+  type: DOI
+docnumber: RFC5961
+date:
+  type: published
+  value: 2010-08
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Ramaiah
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Stewart
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Dalal
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-08
+language: en
+script: Latn
+abstract:
+  content: TCP has historically been considered to be protected against spoofed off-path
+    packet injection attacks by relying on the fact that it is difficult to guess
+    the 4-tuple (the source and destination IP addresses and the source and destination
+    ports) in combination with the 32-bit sequence number(s).  A combination of increasing
+    window sizes and applications using longer-term connections (e.g., H-323 or Border
+    Gateway Protocol (BGP) [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- RST
+- SYN
+- FIN
+- attack
+- Data Injection
+- vulnerability
+- blind attacks
+- BGP
+- spoof
+- mitigation
+editorialgroup:
+  name: tcpm

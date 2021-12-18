@@ -1,0 +1,75 @@
+---
+id: IETFRFC7953
+title:
+  type: main
+  content: Calendar Availability
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7953
+  type: src
+type: standard
+docid:
+- id: IETF RFC7953
+  type: IETF
+- id: 10.17487/RFC7953
+  type: DOI
+docnumber: RFC7953
+date:
+  type: published
+  value: 2016-08
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Daboo
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Douglass
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-08
+language: en
+script: Latn
+abstract:
+  content: This document specifies a new iCalendar (RFC 5545) component that allows
+    the publication of available and unavailable time periods associated with a calendar
+    user. This component can be used in standard iCalendar free-busy lookups, including
+    the iCalendar Transport-independent Interoperability Protocol (iTIP; RFC 5546)
+    free-busy requests, to generate repeating blocks of available or busy time with
+    exceptions as needed. This document also defines extensions to the Calendaring
+    Extensions to WebDAV (CalDAV) calendar access protocol (RFC 4791) and the associated
+    scheduling protocol (RFC 6638) to specify how this new calendar component can
+    be used when evaluating free-busy time.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4791
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5545
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6638
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- availability
+- calendaring
+- free-busy
+- iCalendar
+- CalDAV
+editorialgroup:
+  name: calext

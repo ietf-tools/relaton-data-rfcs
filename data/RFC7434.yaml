@@ -1,0 +1,56 @@
+---
+id: IETFRFC7434
+title:
+  type: main
+  content: Interworking ISDN Call Control User Information with SIP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7434
+  type: src
+type: standard
+docid:
+- id: IETF RFC7434
+  type: IETF
+- id: 10.17487/RFC7434
+  type: DOI
+docnumber: RFC7434
+date:
+  type: published
+  value: 2015-01
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Drage
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Johnston
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-01
+language: en
+script: Latn
+abstract:
+  content: The motivation and use cases for interworking and transporting User- to-User
+    Information (UUI) from the ITU-T Digital Subscriber Signalling System No. 1 (DSS1)
+    User-user information element within SIP are described in RFC 6567. As networks
+    move to SIP, it is important that applications requiring this data can continue
+    to function in SIP networks as well as have the ability to interwork with this
+    ISDN service for end-to-end transparency. This document defines a usage (a new
+    package called the ISDN UUI package) of the User-to-User header field to enable
+    interworking with this ISDN service. This document covers interworking with both
+    public ISDN and private ISDN capabilities, so the potential interworking with
+    QSIG will also be addressed. The package is identified by the new value "isdn-uui"
+    of the "purpose" header field parameter.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: UUS Supplementary Service
+editorialgroup:
+  name: cuss

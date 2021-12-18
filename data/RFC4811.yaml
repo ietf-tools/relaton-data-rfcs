@@ -1,0 +1,66 @@
+---
+id: IETFRFC4811
+title:
+  type: main
+  content: OSPF Out-of-Band Link State Database (LSDB) Resynchronization
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4811
+  type: src
+type: standard
+docid:
+- id: IETF RFC4811
+  type: IETF
+- id: 10.17487/RFC4811
+  type: DOI
+docnumber: RFC4811
+date:
+  type: published
+  value: 2007-03
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Nguyen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Roy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Zinin
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-03
+language: en
+script: Latn
+abstract:
+  content: OSPF is a link-state intra-domain routing protocol used in IP networks.
+    Link State Database (LSDB) synchronization in OSPF is achieved via two methods
+    -- initial LSDB synchronization when an OSPF router has just been connected to
+    the network and asynchronous flooding that ensures continuous LSDB synchronization
+    in the presence of topology changes after the initial procedure was completed.
+    It may sometime be necessary for OSPF routers to resynchronize their LSDBs. The
+    OSPF standard, however, does not allow routers to do so without actually changing
+    the topology view of the network. This memo describes a vendor-specific mechanism
+    to perform such a form of out-of-band LSDB synchronization. The mechanism described
+    in this document was proposed before Graceful OSPF Restart, as described in RFC
+    3623, came into existence. It is implemented/supported by at least one major vendor
+    and is currently deployed in the field. The purpose of this document is to capture
+    the details of this mechanism for public use. This mechanism is not an IETF standard.
+    This memo provides information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: open shortest path first
+editorialgroup:
+  name: NON WORKING GROUP

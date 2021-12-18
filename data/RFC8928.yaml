@@ -1,0 +1,79 @@
+---
+id: IETFRFC8928
+title:
+  type: main
+  content: Address-Protected Neighbor Discovery for Low-Power and Lossy Networks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8928
+  type: src
+type: standard
+docid:
+- id: IETF RFC8928
+  type: IETF
+- id: 10.17487/RFC8928
+  type: DOI
+docnumber: RFC8928
+date:
+  type: published
+  value: 2020-11
+contributor:
+- person:
+    name:
+      completename:
+        content: P. Thubert
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Sarikaya
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Sethi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Struik
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-11
+language: en
+script: Latn
+abstract:
+  content: This document updates the IPv6 over Low-Power Wireless Personal Area Network
+    (6LoWPAN) Neighbor Discovery (ND) protocol defined in RFCs 6775 and 8505.  The
+    new extension is called Address-Protected Neighbor Discovery (AP-ND), and it protects
+    the owner of an address against address theft and impersonation attacks in a Low-Power
+    and Lossy Network (LLN).  Nodes supporting this extension compute a cryptographic
+    identifier (Crypto-ID), and use it with one or more of their Registered Addresses.  The
+    Crypto-ID identifies the owner of the Registered Address and can be used to provide
+    proof of ownership of the Registered Addresses.  Once an address is registered
+    with the Crypto-ID and a proof of ownership is provided, only the owner of that
+    address can modify the registration information, thereby enforcing Source Address
+    Validation.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC8505
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Address registration
+- Network Overlay
+- host to router interface
+editorialgroup:
+  name: 6lo

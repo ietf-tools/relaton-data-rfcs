@@ -1,0 +1,78 @@
+---
+id: IETFRFC5236
+title:
+  type: main
+  content: Improved Packet Reordering Metrics
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5236
+  type: src
+type: standard
+docid:
+- id: IETF RFC5236
+  type: IETF
+- id: 10.17487/RFC5236
+  type: DOI
+docnumber: RFC5236
+date:
+  type: published
+  value: 2008-06
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Jayasumana
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Piratla
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Banka
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Bare
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Whitner
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-06
+language: en
+script: Latn
+abstract:
+  content: This document presents two improved metrics for packet reordering, namely,
+    Reorder Density (RD) and Reorder Buffer-occupancy Density (RBD). A threshold is
+    used to clearly define when a packet is considered lost, to bound computational
+    complexity at O(N), and to keep the memory requirement for evaluation independent
+    of N, where N is the length of the packet sequence. RD is a comprehensive metric
+    that captures the characteristics of reordering, while RBD evaluates the sequences
+    from the point of view of recovery from reordering. These metrics are simple to
+    compute yet comprehensive in their characterization of packet reordering. The
+    measures are robust and orthogonal to packet loss and duplication. This memo provides
+    information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- reorder density
+- rd
+- reorder buffer-occupancy density
+- rbd

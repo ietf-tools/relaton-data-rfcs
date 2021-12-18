@@ -1,0 +1,81 @@
+---
+id: IETFRFC5150
+title:
+  type: main
+  content: Label Switched Path Stitching with Generalized Multiprotocol Label Switching
+    Traffic Engineering (GMPLS TE)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5150
+  type: src
+type: standard
+docid:
+- id: IETF RFC5150
+  type: IETF
+- id: 10.17487/RFC5150
+  type: DOI
+docnumber: RFC5150
+date:
+  type: published
+  value: 2008-02
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Ayyangar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Kompella
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: JP. Vasseur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-02
+language: en
+script: Latn
+abstract:
+  content: In certain scenarios, there may be a need to combine several Generalized
+    Multiprotocol Label Switching (GMPLS) Label Switched Paths (LSPs) such that a
+    single end-to-end (e2e) LSP is realized and all traffic from one constituent LSP
+    is switched onto the next LSP. We will refer to this as "LSP stitching", the key
+    requirement being that a constituent LSP not be allocated to more than one e2e
+    LSP. The constituent LSPs will be referred to as "LSP segments" (S-LSPs). This
+    document describes extensions to the existing GMPLS signaling protocol (Resource
+    Reservation Protocol-Traffic Engineering (RSVP-TE)) to establish e2e LSPs created
+    from S-LSPs, and describes how the LSPs can be managed using the GMPLS signaling
+    and routing protocols. It may be possible to configure a GMPLS node to switch
+    the traffic from an LSP for which it is the egress, to another LSP for which it
+    is the ingress, without requiring any signaling or routing extensions whatsoever
+    and such that the operation is completely transparent to other nodes. This will
+    also result in LSP stitching in the data plane. However, this document does not
+    cover this scenario of LSP stitching. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- lsp
+- label switched paths
+- e2e lsp
+- lsp stitching
+- lsp segments
+- s-lsp
+editorialgroup:
+  name: ccamp

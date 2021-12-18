@@ -1,0 +1,81 @@
+---
+id: IETFRFC8767
+title:
+  type: main
+  content: Serving Stale Data to Improve DNS Resiliency
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8767
+  type: src
+type: standard
+docid:
+- id: IETF RFC8767
+  type: IETF
+- id: 10.17487/RFC8767
+  type: DOI
+docnumber: RFC8767
+date:
+  type: published
+  value: 2020-03
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Lawrence
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Kumari
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Sood
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-03
+language: en
+script: Latn
+abstract:
+  content: This document defines a method (serve-stale) for recursive resolvers to
+    use stale DNS data to avoid outages when authoritative nameservers cannot be reached
+    to refresh expired data.  One of the motivations for serve-stale is to make the
+    DNS more resilient to DoS attacks and thereby make them less attractive as an
+    attack vector.  This document updates the definitions of TTL from RFCs 1034 and
+    1035 so that data can be kept in the cache beyond the TTL expiry; it also updates
+    RFC 2181 by interpreting values with the high-order bit set as being positive,
+    rather than 0, and suggests a cap of 7 days.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1034
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1035
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2181
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- DNS
+- DDoS
+- Resiliency
+- Denial-of-Service
+- Expired
+editorialgroup:
+  name: dnsop

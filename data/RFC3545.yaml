@@ -1,0 +1,80 @@
+---
+id: IETFRFC3545
+title:
+  type: main
+  content: Enhanced Compressed RTP (CRTP) for Links with High Delay, Packet Loss and
+    Reordering
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3545
+  type: src
+type: standard
+docid:
+- id: IETF RFC3545
+  type: IETF
+- id: 10.17487/RFC3545
+  type: DOI
+docnumber: RFC3545
+date:
+  type: published
+  value: 2003-07
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Koren
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Casner
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Geevarghese
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Thompson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Ruddy
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-07
+language: en
+script: Latn
+abstract:
+  content: 'This document describes a header compression scheme for point to point
+    links with packet loss and long delays.  It is based on Compressed Real-time Transport
+    Protocol (CRTP), the IP/UDP/RTP header compression described in RFC 2508.  CRTP
+    does not perform well on such links: packet loss results in context corruption
+    and due to the long delay, many more packets are discarded before the context
+    is repaired.  To correct the behavior of CRTP over such links, a few extensions
+    to the protocol are specified here.  The extensions aim to reduce context corruption
+    by changing the way the compressor updates the context at the decompressor: updates
+    are repeated and include updates to full and differential context parameters.  With
+    these extensions, CRTP performs well over links with packet loss, packet reordering
+    and long delays. [STANDARDS-TRACK]'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- point to point
+- header
+editorialgroup:
+  name: avt

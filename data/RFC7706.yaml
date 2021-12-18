@@ -1,0 +1,58 @@
+---
+id: IETFRFC7706
+title:
+  type: main
+  content: Decreasing Access Time to Root Servers by Running One on Loopback
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7706
+  type: src
+type: standard
+docid:
+- id: IETF RFC7706
+  type: IETF
+- id: 10.17487/RFC7706
+  type: DOI
+docnumber: RFC7706
+date:
+  type: published
+  value: 2015-11
+contributor:
+- person:
+    name:
+      completename:
+        content: W. Kumari
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hoffman
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-11
+language: en
+script: Latn
+abstract:
+  content: Some DNS recursive resolvers have longer-than-desired round-trip times
+    to the closest DNS root server.  Some DNS recursive resolver operators want to
+    prevent snooping of requests sent to DNS root servers by third parties.  Such
+    resolvers can greatly decrease the round-trip time and prevent observation of
+    requests by running a copy of the full root zone on a loopback address (such as
+    127.0.0.1).  This document shows how to start and maintain such a copy of the
+    root zone that does not pose a threat to other users of the DNS, at the cost of
+    adding some operational fragility for the operator.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8806
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: dnsop

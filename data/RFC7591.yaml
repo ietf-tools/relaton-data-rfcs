@@ -1,0 +1,82 @@
+---
+id: IETFRFC7591
+title:
+  type: main
+  content: OAuth 2.0 Dynamic Client Registration Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7591
+  type: src
+type: standard
+docid:
+- id: IETF RFC7591
+  type: IETF
+- id: 10.17487/RFC7591
+  type: DOI
+docnumber: RFC7591
+date:
+  type: published
+  value: 2015-07
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Richer
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Jones
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Bradley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Machulak
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hunt
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-07
+language: en
+script: Latn
+abstract:
+  content: This specification defines mechanisms for dynamically registering OAuth
+    2.0 clients with authorization servers.  Registration requests send a set of desired
+    client metadata values to the authorization server.  The resulting registration
+    responses return a client identifier to use at the authorization server and the
+    client metadata values registered for the client.  The client can then use this
+    registration information to communicate with the authorization server using the
+    OAuth 2.0 protocol.  This specification also defines a set of common client metadata
+    fields and values for clients to use during registration.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- OpenID Connect Dynamic Client Registration
+- OpenID Connect
+- oidc
+- openid
+- user managed access
+- uma
+- Dynamic Registration
+- Dynamic Client Registration
+editorialgroup:
+  name: oauth

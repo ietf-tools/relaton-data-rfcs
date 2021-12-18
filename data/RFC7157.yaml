@@ -1,0 +1,78 @@
+---
+id: IETFRFC7157
+title:
+  type: main
+  content: IPv6 Multihoming without Network Address Translation
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7157
+  type: src
+type: standard
+docid:
+- id: IETF RFC7157
+  type: IETF
+- id: 10.17487/RFC7157
+  type: DOI
+docnumber: RFC7157
+date:
+  type: published
+  value: 2014-03
+contributor:
+- person:
+    name:
+      completename:
+        content: O. Troan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Miles
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Matsushima
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Okimoto
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Wing
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-03
+language: en
+script: Latn
+abstract:
+  content: 'Network Address and Port Translation (NAPT) works well for conserving
+    global addresses and addressing multihoming requirements because an IPv4 NAPT
+    router implements three functions: source address selection, next-hop resolution,
+    and (optionally) DNS resolution.  For IPv6 hosts, one approach could be the use
+    of IPv6-to-IPv6 Network Prefix Translation (NPTv6).  However, NAT and NPTv6 should
+    be avoided, if at all possible, to permit transparent end-to-end connectivity.  In
+    this document, we analyze the use cases of multihoming.  We also describe functional
+    requirements and possible solutions for multihoming without the use of NAT in
+    IPv6 for hosts and small IPv6 networks that would otherwise be unable to meet
+    minimum IPv6-allocation criteria.  We conclude that DHCPv6-based solutions are
+    suitable to solve the multihoming issues described in this document, but NPTv6
+    may be required as an intermediate solution.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: NPTv6
+editorialgroup:
+  name: v6ops

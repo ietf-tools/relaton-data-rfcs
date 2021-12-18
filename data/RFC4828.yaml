@@ -1,0 +1,62 @@
+---
+id: IETFRFC4828
+title:
+  type: main
+  content: 'TCP Friendly Rate Control (TFRC): The Small-Packet (SP) Variant'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4828
+  type: src
+type: standard
+docid:
+- id: IETF RFC4828
+  type: IETF
+- id: 10.17487/RFC4828
+  type: DOI
+docnumber: RFC4828
+date:
+  type: published
+  value: 2007-04
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Floyd
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Kohler
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-04
+language: en
+script: Latn
+abstract:
+  content: This document proposes a mechanism for further experimentation, but not
+    for widespread deployment at this time in the global Internet. TCP-Friendly Rate
+    Control (TFRC) is a congestion control mechanism for unicast flows operating in
+    a best-effort Internet environment (RFC 3448). TFRC was intended for applications
+    that use a fixed packet size, and was designed to be reasonably fair when competing
+    for bandwidth with TCP connections using the same packet size. This document proposes
+    TFRC-SP, a Small-Packet (SP) variant of TFRC, that is designed for applications
+    that send small packets. The design goal for TFRC-SP is to achieve the same bandwidth
+    in bps (bits per second) as a TCP flow using packets of up to 1500 bytes. TFRC-SP
+    enforces a minimum interval of 10 ms between data packets to prevent a single
+    flow from sending small packets arbitrarily frequently. Flows using TFRC-SP compete
+    reasonably fairly with large-packet TCP and TFRC flows in environments where large-packet
+    flows and small-packet flows experience similar packet drop rates. However, in
+    environments where small-packet flows experience lower packet drop rates than
+    large-packet flows (e.g., with Drop-Tail queues in units of bytes), TFRC-SP can
+    receive considerably more than its share of the bandwidth. This memo defines an
+    Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: transmission control protocol
+editorialgroup:
+  name: dccp

@@ -1,0 +1,75 @@
+---
+id: IETFRFC8104
+title:
+  type: main
+  content: Pseudowire (PW) Endpoint Fast Failure Protection
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8104
+  type: src
+type: standard
+docid:
+- id: IETF RFC8104
+  type: IETF
+- id: 10.17487/RFC8104
+  type: DOI
+docnumber: RFC8104
+date:
+  type: published
+  value: 2017-03
+contributor:
+- person:
+    name:
+      completename:
+        content: Y. Shen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Aggarwal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Henderickx
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Jiang
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-03
+language: en
+script: Latn
+abstract:
+  content: This document specifies a fast mechanism for protecting pseudowires (PWs)
+    transported by IP/MPLS tunnels against egress endpoint failures, including egress
+    attachment circuit (AC) failure, egress provider edge (PE) failure, multi-segment
+    PW terminating PE failure, and multi-segment PW switching PE failure.  Operating
+    on the basis of multihomed customer edge (CE), redundant PWs, upstream label assignment,
+    and context-specific label switching, the mechanism enables local repair to be
+    performed by the router upstream adjacent to a failure.  The router can restore
+    a PW in the order of tens of milliseconds, by rerouting traffic around the failure
+    to a protector through a pre-established bypass tunnel.  Therefore, the mechanism
+    can be used to reduce traffic loss before global repair reacts to the failure
+    and the network converges on the topology changes due to the failure.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- pseudowire
+- PW
+- protection
+- local repair
+- fast reroute
+editorialgroup:
+  name: pals

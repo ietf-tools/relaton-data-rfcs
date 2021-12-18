@@ -1,0 +1,68 @@
+---
+id: IETFRFC4489
+title:
+  type: main
+  content: A Method for Generating Link-Scoped IPv6 Multicast Addresses
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4489
+  type: src
+type: standard
+docid:
+- id: IETF RFC4489
+  type: IETF
+- id: 10.17487/RFC4489
+  type: DOI
+docnumber: RFC4489
+date:
+  type: published
+  value: 2006-04
+contributor:
+- person:
+    name:
+      completename:
+        content: J-S. Park
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M-K. Shin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H-J. Kim
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-04
+language: en
+script: Latn
+abstract:
+  content: This document specifies an extension to the multicast addressing architecture
+    of the IPv6 protocol.  The extension allows the use of Interface Identifiers (IIDs)
+    to allocate multicast addresses.  When a link-local unicast address is configured
+    at each interface of a node, an IID is uniquely determined.  After that, each
+    node can generate its unique multicast addresses automatically without conflicts.  The
+    alternative method for creating link-local multicast addresses proposed in this
+    document is better than known methods like unicast-prefix-based IPv6 multicast
+    addresses.  This memo updates RFC 3306. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3306
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- iid
+- interface identifiers
+editorialgroup:
+  name: ipv6

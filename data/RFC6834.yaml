@@ -1,0 +1,63 @@
+---
+id: IETFRFC6834
+title:
+  type: main
+  content: Locator/ID Separation Protocol (LISP) Map-Versioning
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6834
+  type: src
+type: standard
+docid:
+- id: IETF RFC6834
+  type: IETF
+- id: 10.17487/RFC6834
+  type: DOI
+docnumber: RFC6834
+date:
+  type: published
+  value: 2013-01
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Iannone
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Saucez
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: O. Bonaventure
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-01
+language: en
+script: Latn
+abstract:
+  content: This document describes the LISP (Locator/ID Separation Protocol) Map-Versioning
+    mechanism, which provides in-packet information about Endpoint ID to Routing Locator
+    (EID-to-RLOC) mappings used to encapsulate LISP data packets.  The proposed approach
+    is based on associating a version number to EID-to-RLOC mappings and the transport
+    of such a version number in the LISP-specific header of LISP-encapsulated packets.  LISP
+    Map-Versioning is particularly useful to inform communicating Ingress Tunnel Routers
+    (ITRs) and Egress Tunnel Routers (ETRs) about modifications of the mappings used
+    to encapsulate packets.  The mechanism is transparent to implementations not supporting
+    this feature, since in the LISP- specific header and in the Map Records, bits
+    used for Map-Versioning can be safely ignored by ITRs and ETRs that do not support
+    the mechanism.  This document defines an Experimental Protocol for the Internet
+    community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: lisp

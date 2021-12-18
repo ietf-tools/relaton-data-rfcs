@@ -1,0 +1,84 @@
+---
+id: IETFRFC6627
+title:
+  type: main
+  content: Overview of Pre-Congestion Notification Encoding
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6627
+  type: src
+type: standard
+docid:
+- id: IETF RFC6627
+  type: IETF
+- id: 10.17487/RFC6627
+  type: DOI
+docnumber: RFC6627
+date:
+  type: published
+  value: 2012-07
+contributor:
+- person:
+    name:
+      completename:
+        content: G. Karagiannis
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Chan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Moncaster
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Menth
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Eardley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Briscoe
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-07
+language: en
+script: Latn
+abstract:
+  content: The objective of Pre-Congestion Notification (PCN) is to protect the quality
+    of service (QoS) of inelastic flows within a Diffserv domain. On every link in
+    the PCN-domain, the overall rate of PCN-traffic is metered, and PCN-packets are
+    appropriately marked when certain configured rates are exceeded. Egress nodes
+    provide decision points with information about the PCN-marks of PCN-packets that
+    allows them to take decisions about whether to admit or block a new flow request,
+    and to terminate some already admitted flows during serious \%pre-congestion.
+    The PCN working group explored a number of approaches for encoding this pre-congestion
+    information into the IP header. This document provides details of those approaches
+    along with an explanation of the constraints that apply to any solution. This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: pcn

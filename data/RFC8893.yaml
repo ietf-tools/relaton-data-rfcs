@@ -1,0 +1,69 @@
+---
+id: IETFRFC8893
+title:
+  type: main
+  content: Resource Public Key Infrastructure (RPKI) Origin Validation for BGP Export
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8893
+  type: src
+type: standard
+docid:
+- id: IETF RFC8893
+  type: IETF
+- id: 10.17487/RFC8893
+  type: DOI
+docnumber: RFC8893
+date:
+  type: published
+  value: 2020-09
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Bush
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Volk
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Heitz
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-09
+language: en
+script: Latn
+abstract:
+  content: A BGP speaker may perform Resource Public Key Infrastructure (RPKI) origin
+    validation not only on routes received from BGP neighbors and routes that are
+    redistributed from other routing protocols, but also on routes it sends to BGP
+    neighbors.  For egress policy, it is important that the classification use the
+    'effective origin AS' of the processed route, which may specifically be altered
+    by the commonly available knobs, such as removing private ASes, confederation
+    handling, and other modifications of the origin AS.  This document updates RFC
+    6811.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6811
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- routing
+- security
+- RPKI
+editorialgroup:
+  name: sidrops

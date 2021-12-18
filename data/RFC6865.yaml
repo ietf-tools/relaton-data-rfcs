@@ -1,0 +1,77 @@
+---
+id: IETFRFC6865
+title:
+  type: main
+  content: Simple Reed-Solomon Forward Error Correction (FEC) Scheme for FECFRAME
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6865
+  type: src
+type: standard
+docid:
+- id: IETF RFC6865
+  type: IETF
+- id: 10.17487/RFC6865
+  type: DOI
+docnumber: RFC6865
+date:
+  type: published
+  value: 2013-02
+contributor:
+- person:
+    name:
+      completename:
+        content: V. Roca
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Cunche
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Lacan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Bouabdallah
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Matsuzono
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-02
+language: en
+script: Latn
+abstract:
+  content: This document describes a fully-specified simple Forward Error Correction
+    (FEC) scheme for Reed-Solomon codes over the finite field (also known as the Galois
+    Field) GF(2^^m), with 2 <= m <= 16, that can be used to protect arbitrary media
+    streams along the lines defined by FECFRAME.  The Reed-Solomon codes considered
+    have attractive properties, since they offer optimal protection against packet
+    erasures and the source symbols are part of the encoding symbols, which can greatly
+    simplify decoding.  However, the price to pay is a limit on the maximum source
+    block size, on the maximum number of encoding symbols, and a computational complexity
+    higher than that of the Low-Density Parity Check (LDPC) codes, for instance.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Forward Error Correction
+- Reed-Solomon
+editorialgroup:
+  name: fecframe

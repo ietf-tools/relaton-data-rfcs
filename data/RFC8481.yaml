@@ -1,0 +1,54 @@
+---
+id: IETFRFC8481
+title:
+  type: main
+  content: Clarifications to BGP Origin Validation Based on Resource Public Key Infrastructure
+    (RPKI)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8481
+  type: src
+type: standard
+docid:
+- id: IETF RFC8481
+  type: IETF
+- id: 10.17487/RFC8481
+  type: DOI
+docnumber: RFC8481
+date:
+  type: published
+  value: 2018-09
+contributor:
+  person:
+    name:
+      completename:
+        content: R. Bush
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-09
+language: en
+script: Latn
+abstract:
+  content: 'Deployment of BGP origin validation based on Resource Public Key Infrastructure
+    (RPKI) is hampered by, among other things, vendor misimplementations in two critical
+    areas: which routes are validated and whether policy is applied when not specified
+    by configuration.  This document is meant to clarify possible misunderstandings
+    causing those misimplementations; it thus updates RFC 6811 by clarifying that
+    all prefixes should have their validation state set and that policy must not be
+    applied without operator configuration.'
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6811
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- security
+- routing
+editorialgroup:
+  name: sidrops

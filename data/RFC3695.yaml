@@ -1,0 +1,67 @@
+---
+id: IETFRFC3695
+title:
+  type: main
+  content: Compact Forward Error Correction (FEC) Schemes
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3695
+  type: src
+type: standard
+docid:
+- id: IETF RFC3695
+  type: IETF
+- id: 10.17487/RFC3695
+  type: DOI
+docnumber: RFC3695
+date:
+  type: published
+  value: 2004-02
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Luby
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Vicisano
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-02
+language: en
+script: Latn
+abstract:
+  content: This document introduces some Forward Error Correction (FEC) schemes that
+    supplement the FEC schemes described in RFC 3452.  The primary benefits of these
+    additional FEC schemes are that they are designed for reliable bulk delivery of
+    large objects using a more compact FEC Payload ID, and they can be used to sequentially
+    deliver blocks of an object of indeterminate length.  Thus, they more flexibly
+    support different delivery models with less packet header overhead.  This document
+    also describes the Fully-Specified FEC scheme corresponding to FEC Encoding ID
+    0.  This Fully-Specified FEC scheme requires no FEC coding and is introduced primarily
+    to allow simple interoperability testing between different implementations of
+    protocol instantiations that use the FEC building block.  This memo defines an
+    Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC5445
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- content
+- stream
+- delivery
+- multicast
+- internet protocol
+editorialgroup:
+  name: rmt

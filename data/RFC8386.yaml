@@ -1,0 +1,62 @@
+---
+id: IETFRFC8386
+title:
+  type: main
+  content: Privacy Considerations for Protocols Relying on IP Broadcast or Multicast
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8386
+  type: src
+type: standard
+docid:
+- id: IETF RFC8386
+  type: IETF
+- id: 10.17487/RFC8386
+  type: DOI
+docnumber: RFC8386
+date:
+  type: published
+  value: 2018-05
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Winter
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Faath
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: F. Weisshaar
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-05
+language: en
+script: Latn
+abstract:
+  content: A number of application-layer protocols make use of IP broadcast or multicast
+    messages for functions such as local service discovery or name resolution.  Some
+    of these functions can only be implemented efficiently using such mechanisms.  When
+    using broadcast or multicast messages, a passive observer in the same broadcast
+    or multicast domain can trivially record these messages and analyze their content.  Therefore,
+    designers of protocols that make use of broadcast or multicast messages need to
+    take special care when designing their protocols.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- IP broadcasts
+- multicast
+- privacy considerations
+editorialgroup:
+  name: intarea

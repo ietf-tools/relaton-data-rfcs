@@ -1,0 +1,65 @@
+---
+id: IETFRFC7660
+title:
+  type: main
+  content: Diameter Congestion and Filter Attributes
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7660
+  type: src
+type: standard
+docid:
+- id: IETF RFC7660
+  type: IETF
+- id: 10.17487/RFC7660
+  type: DOI
+docnumber: RFC7660
+date:
+  type: published
+  value: 2015-10
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Bertz
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Manning
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Hirschman
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-10
+language: en
+script: Latn
+abstract:
+  content: This document defines optional Diameter attributes that can be used to
+    help manage networks that use Explicit Congestion Notification (ECN) or Diameter
+    traffic filters. These new attributes allow for improved data traffic identification,
+    support of ECN, and minimal Diameter filter administration. RFC 5777 defines a
+    Filter-Rule Attribute Value Pair (AVP) that accommodates extensions for classification,
+    conditions, and actions. It, however, does not support traffic identification
+    for packets using Explicit Congestion Notification as defined in RFC 3168 and
+    does not provide specific actions when the flow(s) described by the Filter-Rule
+    are congested. Further, a Filter-Rule can describe multiple flows but not the
+    exact number of flows. Flow count and other associated data (e.g., packets) are
+    not captured by accounting applications, leaving administrators without useful
+    information regarding the effectiveness or appropriateness of the filter definition.
+    The optional attributes defined in this document are forward and backwards compatible
+    with RFC 5777.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: dime

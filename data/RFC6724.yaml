@@ -1,0 +1,75 @@
+---
+id: IETFRFC6724
+title:
+  type: main
+  content: Default Address Selection for Internet Protocol Version 6 (IPv6)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6724
+  type: src
+type: standard
+docid:
+- id: IETF RFC6724
+  type: IETF
+- id: 10.17487/RFC6724
+  type: DOI
+docnumber: RFC6724
+date:
+  type: published
+  value: 2012-09
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Thaler
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Draves
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Matsumoto
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Chown
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-09
+language: en
+script: Latn
+abstract:
+  content: This document describes two algorithms, one for source address selection
+    and one for destination address selection. The algorithms specify default behavior
+    for all Internet Protocol version 6 (IPv6) implementations. They do not override
+    choices made by applications or upper-layer protocols, nor do they preclude the
+    development of more advanced mechanisms for address selection. The two algorithms
+    share a common context, including an optional mechanism for allowing administrators
+    to provide policy that can override the default behavior. In dual-stack implementations,
+    the destination address selection algorithm can consider both IPv4 and IPv6 addresses
+    -- depending on the available source addresses, the algorithm might prefer IPv6
+    addresses over IPv4 addresses, or vice versa. Default address selection as defined
+    in this specification applies to all IPv6 nodes, including both hosts and routers.
+    This document obsoletes RFC 3484. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- source
+- destination
+- sort
+- sorting
+editorialgroup:
+  name: 6man

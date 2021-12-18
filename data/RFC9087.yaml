@@ -1,0 +1,77 @@
+---
+id: IETFRFC9087
+title:
+  type: main
+  content: Segment Routing Centralized BGP Egress Peer Engineering
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9087
+  type: src
+type: standard
+docid:
+- id: IETF RFC9087
+  type: IETF
+- id: 10.17487/RFC9087
+  type: DOI
+docnumber: RFC9087
+date:
+  type: published
+  value: 2021-08
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Filsfils
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Previdi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Dawra
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Aries
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Afanasiev
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-08
+language: en
+script: Latn
+abstract:
+  content: Segment Routing (SR) leverages source routing. A node steers a packet through
+    a controlled set of instructions, called segments, by prepending the packet with
+    an SR header. A segment can represent any instruction, topological or service
+    based. SR allows for the enforcement of a flow through any topological path while
+    maintaining per-flow state only at the ingress node of the SR domain. The Segment
+    Routing architecture can be directly applied to the MPLS data plane with no change
+    on the forwarding plane. It requires a minor extension to the existing link-state
+    routing protocols. This document illustrates the application of Segment Routing
+    to solve the BGP Egress Peer Engineering (BGP-EPE) requirement. The SR-based BGP-EPE
+    solution allows a centralized (Software-Defined Networking, or SDN) controller
+    to program any egress peer policy at ingress border routers or at hosts within
+    the domain.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: spring

@@ -1,0 +1,56 @@
+---
+id: IETFRFC7924
+title:
+  type: main
+  content: Transport Layer Security (TLS) Cached Information Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7924
+  type: src
+type: standard
+docid:
+- id: IETF RFC7924
+  type: IETF
+- id: 10.17487/RFC7924
+  type: DOI
+docnumber: RFC7924
+date:
+  type: published
+  value: 2016-07
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Santesson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-07
+language: en
+script: Latn
+abstract:
+  content: Transport Layer Security (TLS) handshakes often include fairly static information,
+    such as the server certificate and a list of trusted certification authorities
+    (CAs). This information can be of considerable size, particularly if the server
+    certificate is bundled with a complete certificate chain (i.e., the certificates
+    of intermediate CAs up to the root CA). This document defines an extension that
+    allows a TLS client to inform a server of cached information, thereby enabling
+    the server to omit already available information.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- TLS Cached Information
+- TLS Cached Info
+- TLS Extension
+- TLS Optimization
+editorialgroup:
+  name: tls

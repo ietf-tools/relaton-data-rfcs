@@ -1,0 +1,65 @@
+---
+id: IETFRFC3626
+title:
+  type: main
+  content: Optimized Link State Routing Protocol (OLSR)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3626
+  type: src
+type: standard
+docid:
+- id: IETF RFC3626
+  type: IETF
+- id: 10.17487/RFC3626
+  type: DOI
+docnumber: RFC3626
+date:
+  type: published
+  value: 2003-10
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Clausen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Jacquet
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-10
+language: en
+script: Latn
+abstract:
+  content: This document describes the Optimized Link State Routing (OLSR) protocol
+    for mobile ad hoc networks.  The protocol is an optimization of the classical
+    link state algorithm tailored to the requirements of a mobile wireless LAN.  The
+    key concept used in the protocol is that of multipoint relays (MPRs).  MPRs are
+    selected nodes which forward broadcast messages during the flooding process.  This
+    technique substantially reduces the message overhead as compared to a classical
+    flooding mechanism, where every node retransmits each message when it receives
+    the first copy of the message.  In OLSR, link state information is generated only
+    by nodes elected as MPRs.  Thus, a second optimization is achieved by minimizing
+    the number of control messages flooded in the network.  As a third optimization,
+    an MPR node may chose to report only links between itself and its MPR selectors.  Hence,
+    as contrary to the classic link state algorithm, partial link state information
+    is distributed in the network.  This information is then used for route calculation.  OLSR
+    provides optimal routes (in terms of number of hops).  The protocol is particularly
+    suitable for large and dense networks as the technique of MPRs works well in this
+    context.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- mobile ad hoc
+- wireless multipoint relays
+- mpr
+- mprs
+editorialgroup:
+  name: manet

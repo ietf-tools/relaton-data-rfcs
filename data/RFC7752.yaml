@@ -1,0 +1,86 @@
+---
+id: IETFRFC7752
+title:
+  type: main
+  content: North-Bound Distribution of Link-State and Traffic Engineering (TE) Information
+    Using BGP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7752
+  type: src
+type: standard
+docid:
+- id: IETF RFC7752
+  type: IETF
+- id: 10.17487/RFC7752
+  type: DOI
+docnumber: RFC7752
+date:
+  type: published
+  value: 2016-03
+contributor:
+- person:
+    name:
+      completename:
+        content: H. Gredler
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Medved
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Previdi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Ray
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-03
+language: en
+script: Latn
+abstract:
+  content: In a number of environments, a component external to a network is called
+    upon to perform computations based on the network topology and current state of
+    the connections within the network, including Traffic Engineering (TE) information.
+    This is information typically distributed by IGP routing protocols within the
+    network. This document describes a mechanism by which link-state and TE information
+    can be collected from networks and shared with external components using the BGP
+    routing protocol. This is achieved using a new BGP Network Layer Reachability
+    Information (NLRI) encoding format. The mechanism is applicable to physical and
+    virtual IGP links. The mechanism described is subject to policy control. Applications
+    of this technique include Application-Layer Traffic Optimization (ALTO) servers
+    and Path Computation Elements (PCEs).
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- BGP
+- North-Bound
+- API
+- Link-State
+- Topology
+- Controller
+- Multi-Area
+- Multi-AS
+editorialgroup:
+  name: idr

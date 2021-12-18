@@ -1,0 +1,87 @@
+---
+id: IETFRFC4970
+title:
+  type: main
+  content: Extensions to OSPF for Advertising Optional Router Capabilities
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4970
+  type: src
+type: standard
+docid:
+- id: IETF RFC4970
+  type: IETF
+- id: 10.17487/RFC4970
+  type: DOI
+docnumber: RFC4970
+date:
+  type: published
+  value: 2007-07
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Lindem
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Shen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: JP. Vasseur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Aggarwal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Shaffer
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-07
+language: en
+script: Latn
+abstract:
+  content: It is useful for routers in an OSPFv2 or OSPFv3 routing domain to know
+    the capabilities of their neighbors and other routers in the routing domain.  This
+    document proposes extensions to OSPFv2 and OSPFv3 for advertising optional router
+    capabilities.  A new Router Information (RI) Link State Advertisement (LSA) is
+    proposed for this purpose.  In OSPFv2, the RI LSA will be implemented with a new
+    opaque LSA type ID.  In OSPFv3, the RI LSA will be implemented with a new LSA
+    type function code.  In both protocols, the RI LSA can be advertised at any of
+    the defined flooding scopes (link, area, or autonomous system (AS)). [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC7770
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- ospfv2
+- ospfv3
+- open shortest path first
+- ri
+- router information
+- lsa
+- link state advertisement
+editorialgroup:
+  name: ospf

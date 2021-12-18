@@ -1,0 +1,57 @@
+---
+id: IETFRFC8586
+title:
+  type: main
+  content: Loop Detection in Content Delivery Networks (CDNs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8586
+  type: src
+type: standard
+docid:
+- id: IETF RFC8586
+  type: IETF
+- id: 10.17487/RFC8586
+  type: DOI
+docnumber: RFC8586
+date:
+  type: published
+  value: 2019-04
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Ludin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Nottingham
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Sullivan
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-04
+language: en
+script: Latn
+abstract:
+  content: This document defines the CDN-Loop request header field for HTTP.  CDN-Loop
+    addresses an operational need that occurs when an HTTP request is intentionally
+    forwarded between Content Delivery Networks (CDNs), but is then accidentally or
+    maliciously re-routed back into the original CDN causing a non-terminating loop.  The
+    new header field can be used to identify the error and terminate the loop.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: CDN-Loop,
+editorialgroup:
+  name: httpbis

@@ -1,0 +1,75 @@
+---
+id: IETFRFC8824
+title:
+  type: main
+  content: Static Context Header Compression (SCHC) for the Constrained Application
+    Protocol (CoAP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8824
+  type: src
+type: standard
+docid:
+- id: IETF RFC8824
+  type: IETF
+- id: 10.17487/RFC8824
+  type: DOI
+docnumber: RFC8824
+date:
+  type: published
+  value: 2021-06
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Minaburo
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Toutain
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Andreasen
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-06
+language: en
+script: Latn
+abstract:
+  content: 'This document defines how to compress Constrained Application Protocol
+    (CoAP) headers using the Static Context Header Compression and fragmentation (SCHC)
+    framework.  SCHC defines a header compression mechanism adapted for Constrained
+    Devices.  SCHC uses a static description of the header to reduce the header''s
+    redundancy and size.  While RFC 8724 describes the SCHC compression and fragmentation
+    framework, and its application for IPv6/UDP headers, this document applies SCHC
+    to CoAP headers.  The CoAP header structure differs from IPv6 and UDP, since CoAP
+    uses a flexible header with a variable number of options, themselves of variable
+    length.  The CoAP message format is asymmetric: the request messages have a header
+    format different from the format in the response messages.  This specification
+    gives guidance on applying SCHC to flexible headers and how to leverage the asymmetry
+    for more efficient compression Rules.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- header compression
+- fragmentation
+- IoT
+- constrained networks
+- LPWAN
+- sensor network
+- constrained node
+- wireless sensor network
+- core
+- OSCORE
+editorialgroup:
+  name: lpwan

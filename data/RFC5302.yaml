@@ -1,0 +1,73 @@
+---
+id: IETFRFC5302
+title:
+  type: main
+  content: Domain-Wide Prefix Distribution with Two-Level IS-IS
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5302
+  type: src
+type: standard
+docid:
+- id: IETF RFC5302
+  type: IETF
+- id: 10.17487/RFC5302
+  type: DOI
+docnumber: RFC5302
+date:
+  type: published
+  value: 2008-10
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Smit
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Przygienda
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-10
+language: en
+script: Latn
+abstract:
+  content: This document describes extensions to the Intermediate System to Intermediate
+    System (IS-IS) protocol to support optimal routing within a two-level domain.
+    The IS-IS protocol is specified in ISO 10589, with extensions for supporting IPv4
+    (Internet Protocol) specified in RFC 1195. This document replaces RFC 2966. This
+    document extends the semantics presented in RFC 1195 so that a routing domain
+    running with both level 1 and level 2 Intermediate Systems (IS) (routers) can
+    distribute IP prefixes between level 1 and level 2, and vice versa. This distribution
+    requires certain restrictions to ensure that persistent forwarding loops do not
+    form. The goal of this domain-wide prefix distribution is to increase the granularity
+    of the routing information within the domain. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC1195
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- intermediate system to intermediate system
+- routers
+- loops
+- IP
+- internet protocol
+editorialgroup:
+  name: isis

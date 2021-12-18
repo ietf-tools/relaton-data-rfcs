@@ -1,0 +1,61 @@
+---
+id: IETFRFC6937
+title:
+  type: main
+  content: Proportional Rate Reduction for TCP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6937
+  type: src
+type: standard
+docid:
+- id: IETF RFC6937
+  type: IETF
+- id: 10.17487/RFC6937
+  type: DOI
+docnumber: RFC6937
+date:
+  type: published
+  value: 2013-05
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Mathis
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Dukkipati
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Cheng
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-05
+language: en
+script: Latn
+abstract:
+  content: This document describes an experimental Proportional Rate Reduction (PRR)
+    algorithm as an alternative to the widely deployed Fast Recovery and Rate-Halving
+    algorithms.  These algorithms determine the amount of data sent by TCP during
+    loss recovery.  PRR minimizes excess window adjustments, and the actual window
+    size at the end of recovery will be as close as possible to the ssthresh, as determined
+    by the congestion control algorithm.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- TCP loss recovery
+- packet conservation
+- self clock
+editorialgroup:
+  name: tcpm

@@ -1,0 +1,49 @@
+---
+id: IETFRFC3627
+title:
+  type: main
+  content: Use of /127 Prefix Length Between Routers Considered Harmful
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3627
+  type: src
+type: standard
+docid:
+- id: IETF RFC3627
+  type: IETF
+- id: 10.17487/RFC3627
+  type: DOI
+docnumber: RFC3627
+date:
+  type: published
+  value: 2003-09
+contributor:
+  person:
+    name:
+      completename:
+        content: P. Savola
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-09
+language: en
+script: Latn
+abstract:
+  content: In some cases, the operational decision may be to use IPv6 /127 prefix
+    lengths, especially on point-to-point links between routers.  Under certain situations,
+    this may lead to one router claiming both addresses due to subnet-router anycast
+    being implemented.  This document discusses the issue and offers a couple of solutions
+    to the problem; nevertheless, /127 should be avoided between two routers.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6547
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- address space
+- anycast

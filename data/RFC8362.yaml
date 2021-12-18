@@ -1,0 +1,86 @@
+---
+id: IETFRFC8362
+title:
+  type: main
+  content: OSPFv3 Link State Advertisement (LSA) Extensibility
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8362
+  type: src
+type: standard
+docid:
+- id: IETF RFC8362
+  type: IETF
+- id: 10.17487/RFC8362
+  type: DOI
+docnumber: RFC8362
+date:
+  type: published
+  value: 2018-04
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Lindem
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Roy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Goethals
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Reddy Vallem
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: F. Baker
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-04
+language: en
+script: Latn
+abstract:
+  content: OSPFv3 requires functional extension beyond what can readily be done with
+    the fixed-format Link State Advertisement (LSA) as described in RFC 5340. Without
+    LSA extension, attributes associated with OSPFv3 links and advertised IPv6 prefixes
+    must be advertised in separate LSAs and correlated to the fixed-format LSAs. This
+    document extends the LSA format by encoding the existing OSPFv3 LSA information
+    in Type-Length-Value (TLV) tuples and allowing advertisement of additional information
+    with additional TLVs. Backward-compatibility mechanisms are also described. This
+    document updates RFC 5340, "OSPF for IPv6", and RFC 5838, "Support of Address
+    Families in OSPFv3", by providing TLV-based encodings for the base OSPFv3 unicast
+    support and OSPFv3 address family support.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5340
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5838
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: ospf

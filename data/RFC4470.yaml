@@ -1,0 +1,63 @@
+---
+id: IETFRFC4470
+title:
+  type: main
+  content: Minimally Covering NSEC Records and DNSSEC On-line Signing
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4470
+  type: src
+type: standard
+docid:
+- id: IETF RFC4470
+  type: IETF
+- id: 10.17487/RFC4470
+  type: DOI
+docnumber: RFC4470
+date:
+  type: published
+  value: 2006-04
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Weiler
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Ihren
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-04
+language: en
+script: Latn
+abstract:
+  content: This document describes how to construct DNSSEC NSEC resource records that
+    cover a smaller range of names than called for by RFC 4034.  By generating and
+    signing these records on demand, authoritative name servers can effectively stop
+    the disclosure of zone contents otherwise made possible by walking the chain of
+    NSEC records in a signed zone. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4035
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4034
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- dns security
+- domain name system
+editorialgroup:
+  name: dnsext

@@ -1,0 +1,68 @@
+---
+id: IETFRFC8863
+title:
+  type: main
+  content: Interactive Connectivity Establishment Patiently Awaiting Connectivity
+    (ICE PAC)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8863
+  type: src
+type: standard
+docid:
+- id: IETF RFC8863
+  type: IETF
+- id: 10.17487/RFC8863
+  type: DOI
+docnumber: RFC8863
+date:
+  type: published
+  value: 2021-01
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Holmberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Uberti
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-01
+language: en
+script: Latn
+abstract:
+  content: During the process of establishing peer-to-peer connectivity, Interactive
+    Connectivity Establishment (ICE) agents can encounter situations where they have
+    no candidate pairs to check, and, as a result, conclude that ICE processing has
+    failed. However, because additional candidate pairs can be discovered during ICE
+    processing, declaring failure at this point may be premature. This document discusses
+    when these situations can occur. This document updates RFCs 8445 and 8838 by requiring
+    that an ICE agent wait a minimum amount of time before declaring ICE failure,
+    even if there are no candidate pairs left to check.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8445
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8838
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- ICE
+- PAC
+- Candidate
+editorialgroup:
+  name: ice

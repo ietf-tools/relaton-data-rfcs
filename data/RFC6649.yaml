@@ -1,0 +1,77 @@
+---
+id: IETFRFC6649
+title:
+  type: main
+  content: Deprecate DES, RC4-HMAC-EXP, and Other Weak Cryptographic Algorithms in
+    Kerberos
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6649
+  type: src
+type: standard
+docid:
+- id: IETF RFC6649
+  type: IETF
+- id: 10.17487/RFC6649
+  type: DOI
+docnumber: RFC6649
+date:
+  type: published
+  value: 2012-07
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Hornquist Astrand
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Yu
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-07
+language: en
+script: Latn
+abstract:
+  content: The Kerberos 5 network authentication protocol, originally specified in
+    RFC 1510, can use the Data Encryption Standard (DES) for encryption.  Almost 30
+    years after first publishing DES, the National Institute of Standards and Technology
+    (NIST) finally withdrew the standard in 2005, reflecting a long-established consensus
+    that DES is insufficiently secure.  By 2008, commercial hardware costing less
+    than USD 15,000 could break DES keys in less than a day on average.  DES is long
+    past its sell-by date.  Accordingly, this document updates RFC 1964, RFC 4120,
+    RFC 4121, and RFC 4757 to deprecate the use of DES, RC4-HMAC-EXP, and other weak
+    cryptographic algorithms in Kerberos.  Because RFC 1510 (obsoleted by RFC 4120)
+    supports only DES, this document recommends the reclassification of RFC 1510 as
+    Historic.  This memo documents an Internet Best Current Practice.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1964
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4120
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4121
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4757
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: krb-wg

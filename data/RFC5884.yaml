@@ -1,0 +1,79 @@
+---
+id: IETFRFC5884
+title:
+  type: main
+  content: Bidirectional Forwarding Detection (BFD) for MPLS Label Switched Paths
+    (LSPs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5884
+  type: src
+type: standard
+docid:
+- id: IETF RFC5884
+  type: IETF
+- id: 10.17487/RFC5884
+  type: DOI
+docnumber: RFC5884
+date:
+  type: published
+  value: 2010-06
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Aggarwal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Kompella
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Nadeau
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Swallow
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-06
+language: en
+script: Latn
+abstract:
+  content: One desirable application of Bidirectional Forwarding Detection (BFD) is
+    to detect a Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) data
+    plane failure.  LSP Ping is an existing mechanism for detecting MPLS data plane
+    failures and for verifying the MPLS LSP data plane against the control plane.  BFD
+    can be used for the former, but not for the latter.  However, the control plane
+    processing required for BFD Control packets is relatively smaller than the processing
+    required for LSP Ping messages.  A combination of LSP Ping and BFD can be used
+    to provide faster data plane failure detection and/or make it possible to provide
+    such detection on a greater number of LSPs.  This document describes the applicability
+    of BFD in relation to LSP Ping for this application.  It also describes procedures
+    for using BFD in this environment. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC1122
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Multiprotocol Label Switching
+- lsp ping
+editorialgroup:
+  name: bfd

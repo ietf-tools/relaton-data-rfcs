@@ -1,0 +1,51 @@
+---
+id: IETFRFC8851
+title:
+  type: main
+  content: RTP Payload Format Restrictions
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8851
+  type: src
+type: standard
+docid:
+- id: IETF RFC8851
+  type: IETF
+- id: 10.17487/RFC8851
+  type: DOI
+docnumber: RFC8851
+date:
+  type: published
+  value: 2021-01
+contributor:
+  person:
+    name:
+      completename:
+        content: A.B. Roach
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-01
+language: en
+script: Latn
+abstract:
+  content: In this specification, we define a framework for specifying restrictions
+    on RTP streams in the Session Description Protocol (SDP). This framework defines
+    a new "rid" ("restriction identifier") SDP attribute to unambiguously identify
+    the RTP streams within an RTP session and restrict the streams' payload format
+    parameters in a codec-agnostic way beyond what is provided with the regular payload
+    types. This specification updates RFC 4855 to give additional guidance on choice
+    of Format Parameter (fmtp) names and their relation to the restrictions defined
+    by this document.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4855
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: mmusic

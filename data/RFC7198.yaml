@@ -1,0 +1,58 @@
+---
+id: IETFRFC7198
+title:
+  type: main
+  content: Duplicating RTP Streams
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7198
+  type: src
+type: standard
+docid:
+- id: IETF RFC7198
+  type: IETF
+- id: 10.17487/RFC7198
+  type: DOI
+docnumber: RFC7198
+date:
+  type: published
+  value: 2014-04
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Begen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Perkins
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-04
+language: en
+script: Latn
+abstract:
+  content: Packet loss is undesirable for real-time multimedia sessions but can occur
+    due to a variety of reasons including unplanned network outages.  In unicast transmissions,
+    recovering from such an outage can be difficult depending on the outage duration,
+    due to the potentially large number of missing packets.  In multicast transmissions,
+    recovery is even more challenging as many receivers could be impacted by the outage.  For
+    this challenge, one solution that does not incur unbounded delay is to duplicate
+    the packets and send them in separate redundant streams, provided that the underlying
+    network satisfies certain requirements.  This document explains how Real-time
+    Transport Protocol (RTP) streams can be duplicated without breaking RTP or RTP
+    Control Protocol (RTCP) rules.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- RTP duplication
+- live/live
+- redundancy
+editorialgroup:
+  name: avtext

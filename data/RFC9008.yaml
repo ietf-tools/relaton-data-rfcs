@@ -1,0 +1,82 @@
+---
+id: IETFRFC9008
+title:
+  type: main
+  content: Using RPI Option Type, Routing Header for Source Routes, and IPv6-in-IPv6
+    Encapsulation in the RPL Data Plane
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9008
+  type: src
+type: standard
+docid:
+- id: IETF RFC9008
+  type: IETF
+- id: 10.17487/RFC9008
+  type: DOI
+docnumber: RFC9008
+date:
+  type: published
+  value: 2021-04
+contributor:
+- person:
+    name:
+      completename:
+        content: M.I. Robles
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Richardson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Thubert
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-04
+language: en
+script: Latn
+abstract:
+  content: This document looks at different data flows through Low-Power and Lossy
+    Networks (LLN) where RPL (IPv6 Routing Protocol for Low-Power and Lossy Networks)
+    is used to establish routing.  The document enumerates the cases where RPL Packet
+    Information (RPI) Option Type (RFC 6553), RPL Source Route Header (RFC 6554),
+    and IPv6-in-IPv6 encapsulation are required in the data plane.  This analysis
+    provides the basis upon which to design efficient compression of these headers.  This
+    document updates RFC 6553 by adding a change to the RPI Option Type.  Additionally,
+    this document updates RFC 6550 by defining a flag in the DODAG Information Object
+    (DIO) Configuration option to indicate this change and updates RFC 8138 as well
+    to consider the new Option Type when the RPL Option is decompressed.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6553
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6550
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8138
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- RPL Option
+- 6LoWPAN
+- RFC 6553
+editorialgroup:
+  name: roll

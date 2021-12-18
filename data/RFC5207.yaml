@@ -1,0 +1,73 @@
+---
+id: IETFRFC5207
+title:
+  type: main
+  content: NAT and Firewall Traversal Issues of Host Identity Protocol (HIP) Communication
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5207
+  type: src
+type: standard
+docid:
+- id: IETF RFC5207
+  type: IETF
+- id: 10.17487/RFC5207
+  type: DOI
+docnumber: RFC5207
+date:
+  type: published
+  value: 2008-04
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Stiemerling
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Quittek
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Eggert
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-04
+language: en
+script: Latn
+abstract:
+  content: The Host Identity Protocol (HIP) changes the way in which two Internet
+    hosts communicate.  One key advantage over other schemes is that HIP does not
+    require modifications to the traditional network- layer functionality of the Internet,
+    i.e., its routers.  In the current Internet, however, many devices other than
+    routers modify the traditional network-layer behavior of the Internet.  These
+    "middleboxes" are intermediary devices that perform functions other than the standard
+    functions of an IP router on the datagram path between source and destination
+    hosts.  Whereas some types of middleboxes may not interfere with HIP at all, others
+    can affect some aspects of HIP communication, and others can render HIP communication
+    impossible.  This document discusses the problems associated with HIP communication
+    across network paths that include specific types of middleboxes, namely, network
+    address translators and firewalls.  It identifies and discusses issues in the
+    current HIP specifications that affect communication across these types of middleboxes.  This
+    document is a product of the IRTF HIP Research Group.  This memo provides information
+    for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- HIP
+- host identity protocol
+- host identity payload
+- NAT traversal
+- middlebox traversal
+- firewall traversal
+- ID locator split
+- problem statement

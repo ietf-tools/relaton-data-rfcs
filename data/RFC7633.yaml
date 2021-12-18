@@ -1,0 +1,48 @@
+---
+id: IETFRFC7633
+title:
+  type: main
+  content: X.509v3 Transport Layer Security (TLS) Feature Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7633
+  type: src
+type: standard
+docid:
+- id: IETF RFC7633
+  type: IETF
+- id: 10.17487/RFC7633
+  type: DOI
+docnumber: RFC7633
+date:
+  type: published
+  value: 2015-10
+contributor:
+  person:
+    name:
+      completename:
+        content: P. Hallam-Baker
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-10
+language: en
+script: Latn
+abstract:
+  content: The purpose of the TLS feature extension is to prevent downgrade attacks
+    that are not otherwise prevented by the TLS protocol.  In particular, the TLS
+    feature extension may be used to mandate support for revocation checking features
+    in the TLS protocol such as Online Certificate Status Protocol (OCSP) stapling.  Informing
+    clients that an OCSP status response will always be stapled permits an immediate
+    failure in the case that the response is not stapled.  This in turn prevents a
+    denial-of-service attack that might otherwise be possible.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- PKIX
+- Transport Layer Security
+- Cryptography Certificate
+editorialgroup:
+  name: NON WORKING GROUP

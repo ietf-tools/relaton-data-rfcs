@@ -1,0 +1,51 @@
+---
+id: IETFRFC4951
+title:
+  type: main
+  content: Fail Over Extensions for Layer 2 Tunneling Protocol (L2TP) "failover"
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4951
+  type: src
+type: standard
+docid:
+- id: IETF RFC4951
+  type: IETF
+- id: 10.17487/RFC4951
+  type: DOI
+docnumber: RFC4951
+date:
+  type: published
+  value: 2007-08
+contributor:
+  person:
+    name:
+      completename:
+        content: V. Jain
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-08
+language: en
+script: Latn
+abstract:
+  content: Layer 2 Tunneling Protocol (L2TP) is a connection-oriented protocol that
+    has a shared state between active endpoints.  Some of this shared state is vital
+    for operation, but may be volatile in nature, such as packet sequence numbers
+    used on the L2TP Control Connection.  When failure of one side of a control connection
+    occurs, a new control connection is created and associated with the old connection
+    by exchanging information about the old connection.  Such a mechanism is not intended
+    as a replacement for an active fail over with some mirrored connection states,
+    but as an aid for those parameters that are particularly difficult to have immediately
+    available.  Protocol extensions to L2TP defined in this document are intended
+    to facilitate state recovery, providing additional resiliency in an L2TP network,
+    and improving a remote system's layer 2 connectivity. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- control connection
+- layer 2  connectivity
+editorialgroup:
+  name: l2tpext

@@ -1,0 +1,72 @@
+---
+id: IETFRFC6478
+title:
+  type: main
+  content: Pseudowire Status for Static Pseudowires
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6478
+  type: src
+type: standard
+docid:
+- id: IETF RFC6478
+  type: IETF
+- id: 10.17487/RFC6478
+  type: DOI
+docnumber: RFC6478
+date:
+  type: published
+  value: 2012-05
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Martini
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Swallow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Heron
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Bocci
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-05
+language: en
+script: Latn
+abstract:
+  content: This document specifies a mechanism to signal Pseudowire (PW) status messages
+    using a PW associated channel (ACh).  Such a mechanism is suitable for use where
+    no PW dynamic control plane exits, known as static PWs, or where a Terminating
+    Provider Edge (T-PE) needs to send a PW status message directly to a far-end T-PE.  The
+    mechanism allows PW Operations, Administration, and Maintenance (OAM) message
+    mapping and PW redundancy to operate on static PWs.  This document also updates
+    RFC 5885 in the case when Bi-directional Forwarding Detection (BFD) is used to
+    convey PW status-signaling information. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5885
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: pwe3

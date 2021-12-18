@@ -1,0 +1,76 @@
+---
+id: IETFRFC6775
+title:
+  type: main
+  content: Neighbor Discovery Optimization for IPv6 over Low-Power Wireless Personal
+    Area Networks (6LoWPANs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6775
+  type: src
+type: standard
+docid:
+- id: IETF RFC6775
+  type: IETF
+- id: 10.17487/RFC6775
+  type: DOI
+docnumber: RFC6775
+date:
+  type: published
+  value: 2012-11
+contributor:
+- person:
+    name:
+      completename:
+        content: Z. Shelby
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Chakrabarti
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Nordmark
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Bormann
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-11
+language: en
+script: Latn
+abstract:
+  content: The IETF work in IPv6 over Low-power Wireless Personal Area Network (6LoWPAN)
+    defines 6LoWPANs such as IEEE 802.15.4.  This and other similar link technologies
+    have limited or no usage of multicast signaling due to energy conservation.  In
+    addition, the wireless network may not strictly follow the traditional concept
+    of IP subnets and IP links.  IPv6 Neighbor Discovery was not designed for non-
+    transitive wireless links, as its reliance on the traditional IPv6 link concept
+    and its heavy use of multicast make it inefficient and sometimes impractical in
+    a low-power and lossy network.  This document describes simple optimizations to
+    IPv6 Neighbor Discovery, its addressing mechanisms, and duplicate address detection
+    for Low- power Wireless Personal Area Networks and similar networks.  The document
+    thus updates RFC 4944 to specify the use of the optimizations defined here. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4944
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: 6lowpan

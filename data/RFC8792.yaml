@@ -1,0 +1,70 @@
+---
+id: IETFRFC8792
+title:
+  type: main
+  content: Handling Long Lines in Content of Internet-Drafts and RFCs
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8792
+  type: src
+type: standard
+docid:
+- id: IETF RFC8792
+  type: IETF
+- id: 10.17487/RFC8792
+  type: DOI
+docnumber: RFC8792
+date:
+  type: published
+  value: 2020-06
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Watsen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Auerswald
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Wu
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-06
+language: en
+script: Latn
+abstract:
+  content: This document defines two strategies for handling long lines in width-bounded
+    text content.  One strategy, called the "single backslash" strategy, is based
+    on the historical use of a single backslash ('\') character to indicate where
+    line-folding has occurred, with the continuation occurring with the first character
+    that is not a space character (' ') on the next line.  The second strategy, called
+    the "double backslash" strategy, extends the first strategy by adding a second
+    backslash character to identify where the continuation begins and is thereby able
+    to handle cases not supported by the first strategy.  Both strategies use a self-describing
+    header enabling automated reconstitution of the original content.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- sourcecode
+- artwork
+editorialgroup:
+  name: netmod

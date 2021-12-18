@@ -1,0 +1,77 @@
+---
+id: IETFRFC6182
+title:
+  type: main
+  content: Architectural Guidelines for Multipath TCP Development
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6182
+  type: src
+type: standard
+docid:
+- id: IETF RFC6182
+  type: IETF
+- id: 10.17487/RFC6182
+  type: DOI
+docnumber: RFC6182
+date:
+  type: published
+  value: 2011-03
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Ford
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Raiciu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Handley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Barre
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Iyengar
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-03
+language: en
+script: Latn
+abstract:
+  content: Hosts are often connected by multiple paths, but TCP restricts communications
+    to a single path per transport connection. Resource usage within the network would
+    be more efficient were these multiple paths able to be used concurrently. This
+    should enhance user experience through improved resilience to network failure
+    and higher throughput. This document outlines architectural guidelines for the
+    development of a Multipath Transport Protocol, with references to how these architectural
+    components come together in the development of a Multipath TCP (MPTCP). This document
+    lists certain high-level design decisions that provide foundations for the design
+    of the MPTCP protocol, based upon these architectural requirements. This document
+    is not an Internet Standards Track specification; it is published for informational
+    purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: multipath tcp architecture
+editorialgroup:
+  name: mptcp

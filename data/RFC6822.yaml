@@ -1,0 +1,80 @@
+---
+id: IETFRFC6822
+title:
+  type: main
+  content: IS-IS Multi-Instance
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6822
+  type: src
+type: standard
+docid:
+- id: IETF RFC6822
+  type: IETF
+- id: 10.17487/RFC6822
+  type: DOI
+docnumber: RFC6822
+date:
+  type: published
+  value: 2012-12
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Previdi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Ginsberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Shand
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Roy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Ward
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-12
+language: en
+script: Latn
+abstract:
+  content: This document describes a mechanism that allows a single router to share
+    one or more circuits among multiple Intermediate System to Intermediate System
+    (IS-IS) routing protocol instances. Multiple instances allow the isolation of
+    resources associated with each instance. Routers will form instance-specific adjacencies.
+    Each instance can support multiple topologies. Each topology has a unique Link
+    State Database (LSDB). Each Protocol Data Unit (PDU) will contain a new Type-Length-Value
+    (TLV) identifying the instance and the topology (or topologies) to which the PDU
+    belongs.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8202
+      format: text/plain
+fetched: '2021-12-18'
+keyword: intermediate system to intermediate system
+editorialgroup:
+  name: isis

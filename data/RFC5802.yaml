@@ -1,0 +1,74 @@
+---
+id: IETFRFC5802
+title:
+  type: main
+  content: Salted Challenge Response Authentication Mechanism (SCRAM) SASL and GSS-API
+    Mechanisms
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5802
+  type: src
+type: standard
+docid:
+- id: IETF RFC5802
+  type: IETF
+- id: 10.17487/RFC5802
+  type: DOI
+docnumber: RFC5802
+date:
+  type: published
+  value: 2010-07
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Newman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Menon-Sen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Williams
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-07
+language: en
+script: Latn
+abstract:
+  content: The secure authentication mechanism most widely deployed and used by Internet
+    application protocols is the transmission of clear-text passwords over a channel
+    protected by Transport Layer Security (TLS). There are some significant security
+    concerns with that mechanism, which could be addressed by the use of a challenge
+    response authentication mechanism protected by TLS. Unfortunately, the challenge
+    response mechanisms presently on the standards track all fail to meet requirements
+    necessary for widespread deployment, and have had success only in limited use.
+    This specification describes a family of Simple Authentication and Security Layer
+    (SASL; RFC 4422) authentication mechanisms called the Salted Challenge Response
+    Authentication Mechanism (SCRAM), which addresses the security concerns and meets
+    the deployability requirements. When used in combination with TLS or an equivalent
+    security layer, a mechanism from this family could improve the status quo for
+    application protocol authentication and provide a suitable choice for a mandatory-to-implement
+    mechanism for future application protocol standards. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: simple authentication and security layer
+editorialgroup:
+  name: sasl

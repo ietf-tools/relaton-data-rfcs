@@ -1,0 +1,65 @@
+---
+id: IETFRFC5763
+title:
+  type: main
+  content: Framework for Establishing a Secure Real-time Transport Protocol (SRTP)
+    Security Context Using Datagram Transport Layer Security (DTLS)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5763
+  type: src
+type: standard
+docid:
+- id: IETF RFC5763
+  type: IETF
+- id: 10.17487/RFC5763
+  type: DOI
+docnumber: RFC5763
+date:
+  type: published
+  value: 2010-05
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Fischl
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rescorla
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-05
+language: en
+script: Latn
+abstract:
+  content: This document specifies how to use the Session Initiation Protocol (SIP)
+    to establish a Secure Real-time Transport Protocol (SRTP) security context using
+    the Datagram Transport Layer Security (DTLS) protocol.  It describes a mechanism
+    of transporting a fingerprint attribute in the Session Description Protocol (SDP)
+    that identifies the key that will be presented during the DTLS handshake.  The
+    key exchange travels along the media path as opposed to the signaling path.  The
+    SIP Identity mechanism can be used to protect the integrity of the fingerprint
+    attribute from modification by intermediate proxies. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- stip
+- session initiation protocol
+- fingerprint attribute
+- dtls handshake
+editorialgroup:
+  name: sip

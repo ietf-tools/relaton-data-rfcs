@@ -1,0 +1,67 @@
+---
+id: IETFRFC4736
+title:
+  type: main
+  content: Reoptimization of Multiprotocol Label Switching (MPLS) Traffic Engineering
+    (TE) Loosely Routed Label Switched Path (LSP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4736
+  type: src
+type: standard
+docid:
+- id: IETF RFC4736
+  type: IETF
+- id: 10.17487/RFC4736
+  type: DOI
+docnumber: RFC4736
+date:
+  type: published
+  value: 2006-11
+contributor:
+- person:
+    name:
+      completename:
+        content: JP. Vasseur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Ikejiri
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Zhang
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-11
+language: en
+script: Latn
+abstract:
+  content: This document defines a mechanism for the reoptimization of loosely routed
+    MPLS and GMPLS (Generalized Multiprotocol Label Switching) Traffic Engineering
+    (TE) Label Switched Paths (LSPs) signaled with Resource Reservation Protocol Traffic
+    Engineering (RSVP-TE).  This document proposes a mechanism that allows a TE LSP
+    head-end Label Switching Router (LSR) to trigger a new path re-evaluation on every
+    hop that has a next hop defined as a loose or abstract hop and a mid-point LSR
+    to signal to the head-end LSR that a better path exists (compared to the current
+    path) or that the TE LSP must be reoptimized (because of maintenance required
+    on the TE LSP path).  The proposed mechanism applies to the cases of intra- and
+    inter-domain (Interior Gateway Protocol area (IGP area) or Autonomous System)
+    packet and non-packet TE LSPs following a loosely routed path.  This memo provides
+    information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- rsvp-te
+- te lsp path
+editorialgroup:
+  name: ccamp

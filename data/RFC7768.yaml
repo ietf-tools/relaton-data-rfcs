@@ -1,0 +1,65 @@
+---
+id: IETFRFC7768
+title:
+  type: main
+  content: Port Management to Reduce Logging in Large-Scale NATs
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7768
+  type: src
+type: standard
+docid:
+- id: IETF RFC7768
+  type: IETF
+- id: 10.17487/RFC7768
+  type: DOI
+docnumber: RFC7768
+date:
+  type: published
+  value: 2016-01
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Tsou
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Taylor
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Huang
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-01
+language: en
+script: Latn
+abstract:
+  content: Various IPv6 transition strategies require the introduction of large- scale
+    NATs (e.g., AFTR and NAT64) to share the limited supply of IPv4 addresses available
+    in the network until transition is complete.  There has recently been debate over
+    how to manage the sharing of ports between different subscribers sharing the same
+    IPv4 address.  One factor in the discussion is the operational requirement to
+    log the assignment of transport addresses to subscribers.  It has been argued
+    that dynamic assignment of individual ports between subscribers requires the generation
+    of an excessive volume of logs.  This document suggests a way to achieve dynamic
+    port sharing while keeping log volumes low.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'

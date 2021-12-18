@@ -1,0 +1,84 @@
+---
+id: IETFRFC6971
+title:
+  type: main
+  content: Depth-First Forwarding (DFF) in Unreliable Networks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6971
+  type: src
+type: standard
+docid:
+- id: IETF RFC6971
+  type: IETF
+- id: 10.17487/RFC6971
+  type: DOI
+docnumber: RFC6971
+date:
+  type: published
+  value: 2013-06
+contributor:
+- person:
+    name:
+      completename:
+        content: U. Herberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Cardenas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Iwao
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Dow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Cespedes
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-06
+language: en
+script: Latn
+abstract:
+  content: This document specifies the Depth-First Forwarding (DFF) protocol for IPv6
+    networks, a data-forwarding mechanism that can increase reliability of data delivery
+    in networks with dynamic topology and/or lossy links.  The protocol operates entirely
+    on the forwarding plane but may interact with the routing plane.  DFF forwards
+    data packets using a mechanism similar to a "depth-first search" for the destination
+    of a packet.  The routing plane may be informed of failures to deliver a packet
+    or loops.  This document specifies the DFF mechanism both for IPv6 networks (as
+    specified in RFC 2460) and for "mesh-under" Low-Power Wireless Personal Area Networks
+    (LoWPANs), as specified in RFC 4944.  The design of DFF assumes that the underlying
+    link layer provides means to detect if a packet has been successfully delivered
+    to the Next Hop or not.  It is applicable for networks with little traffic and
+    is used for unicast transmissions only.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DFF
+- Depth first forwarding
+- IPv6
+- Forwarding plane
+- Lossy networks
+- Reliability
+editorialgroup:
+  name: NON WORKING GROUP

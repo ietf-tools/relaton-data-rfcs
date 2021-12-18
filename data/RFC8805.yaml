@@ -1,0 +1,77 @@
+---
+id: IETFRFC8805
+title:
+  type: main
+  content: A Format for Self-Published IP Geolocation Feeds
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8805
+  type: src
+type: standard
+docid:
+- id: IETF RFC8805
+  type: IETF
+- id: 10.17487/RFC8805
+  type: DOI
+docnumber: RFC8805
+date:
+  type: published
+  value: 2020-08
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Kline
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Duleba
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Z. Szamonek
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Moser
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Kumari
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-08
+language: en
+script: Latn
+abstract:
+  content: This document records a format whereby a network operator can publish a
+    mapping of IP address prefixes to simplified geolocation information, colloquially
+    termed a "geolocation feed". Interested parties can poll and parse these feeds
+    to update or merge with other geolocation data sources and procedures. This format
+    intentionally only allows specifying coarse-level location. Some technical organizations
+    operating networks that move from one conference location to the next have already
+    experimentally published small geolocation feeds. This document describes a currently
+    deployed format. At least one consumer (Google) has incorporated these feeds into
+    a geolocation data pipeline, and a significant number of ISPs are using it to
+    inform them where their prefixes should be geolocated.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- geo-location
+- geolocation
+- addresses

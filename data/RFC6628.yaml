@@ -1,0 +1,60 @@
+---
+id: IETFRFC6628
+title:
+  type: main
+  content: Efficient Augmented Password-Only Authentication and Key Exchange for IKEv2
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6628
+  type: src
+type: standard
+docid:
+- id: IETF RFC6628
+  type: IETF
+- id: 10.17487/RFC6628
+  type: DOI
+docnumber: RFC6628
+date:
+  type: published
+  value: 2012-06
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Shin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Kobara
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-06
+language: en
+script: Latn
+abstract:
+  content: This document describes an efficient augmented password-only authentication
+    and key exchange (AugPAKE) protocol where a user remembers a low-entropy password
+    and its verifier is registered in the intended server.  In general, the user password
+    is chosen from a small set of dictionary words that allows an attacker to perform
+    exhaustive searches (i.e., off-line dictionary attacks).  The AugPAKE protocol
+    described here is secure against passive attacks, active attacks, and off-line
+    dictionary attacks (on the obtained messages with passive/active attacks), and
+    also provides resistance to server compromise (in the context of augmented PAKE
+    security).  In addition, this document describes how the AugPAKE protocol is integrated
+    into the Internet Key Exchange Protocol version 2 (IKEv2).  This document defines
+    an Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- PAKE
+- augmented PAKE
+- off-line dictionary attacks
+- resistance to server compromise
+editorialgroup:
+  name: NON WORKING GROUP

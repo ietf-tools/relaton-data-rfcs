@@ -1,0 +1,92 @@
+---
+id: IETFRFC7852
+title:
+  type: main
+  content: Additional Data Related to an Emergency Call
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7852
+  type: src
+type: standard
+docid:
+- id: IETF RFC7852
+  type: IETF
+- id: 10.17487/RFC7852
+  type: DOI
+docnumber: RFC7852
+date:
+  type: published
+  value: 2016-07
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Gellens
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Marshall
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Winterbottom
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-07
+language: en
+script: Latn
+abstract:
+  content: When an emergency call is sent to a Public Safety Answering Point (PSAP),
+    the originating device, the access network provider to which the device is connected,
+    and all service providers in the path of the call have information about the call,
+    the caller, or the location, which is helpful for the PSAP to have in handling
+    the emergency. This document describes data structures and mechanisms to convey
+    such data to the PSAP. The intent is that every emergency call carry as much of
+    the information described here as possible using the mechanisms described here.
+    The mechanisms permit the data to be conveyed by reference (as an external resource)
+    or by value (within the body of a SIP message or a location object). This follows
+    the tradition of prior emergency services standardization work where data can
+    be conveyed by value within the call signaling (i.e., in the body of the SIP message)
+    or by reference.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6443
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6881
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Additional Call Data
+- Emergency Services
+- Call Information
+editorialgroup:
+  name: ecrit

@@ -1,0 +1,73 @@
+---
+id: IETFRFC7130
+title:
+  type: main
+  content: Bidirectional Forwarding Detection (BFD) on Link Aggregation Group (LAG)
+    Interfaces
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7130
+  type: src
+type: standard
+docid:
+- id: IETF RFC7130
+  type: IETF
+- id: 10.17487/RFC7130
+  type: DOI
+docnumber: RFC7130
+date:
+  type: published
+  value: 2014-02
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Bhatia
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Chen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Boutros
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Binderberger
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Haas
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-02
+language: en
+script: Latn
+abstract:
+  content: This document defines a mechanism to run Bidirectional Forwarding Detection
+    (BFD) on Link Aggregation Group (LAG) interfaces. It does so by running an independent
+    Asynchronous mode BFD session on every LAG member link. This mechanism allows
+    the verification of member link continuity, either in combination with, or in
+    absence of, Link Aggregation Control Protocol (LACP). It provides a shorter detection
+    time than what LACP offers. The continuity check can also cover elements of Layer
+    3 (L3) bidirectional forwarding.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: bfd

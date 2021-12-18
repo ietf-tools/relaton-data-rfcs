@@ -1,0 +1,79 @@
+---
+id: IETFRFC7956
+title:
+  type: main
+  content: Transparent Interconnection of Lots of Links (TRILL) Distributed Layer
+    3 Gateway
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7956
+  type: src
+type: standard
+docid:
+- id: IETF RFC7956
+  type: IETF
+- id: 10.17487/RFC7956
+  type: DOI
+docnumber: RFC7956
+date:
+  type: published
+  value: 2016-09
+contributor:
+- person:
+    name:
+      completename:
+        content: W. Hao
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Qu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Durrani
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Sivamurugan
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-09
+language: en
+script: Latn
+abstract:
+  content: 'The base TRILL (Transparent Interconnection of Lots of Links) protocol
+    provides optimal pair-wise data frame forwarding for Layer 2 intra-subnet traffic
+    but not for Layer 3 inter-subnet traffic. A centralized gateway solution is typically
+    used for Layer 3 inter-subnet traffic forwarding but has the following issues:
+    1. Sub-optimum forwarding paths for inter-subnet traffic. 2. A centralized gateway
+    that may need to support a very large number of gateway interfaces in a Data Center,
+    one per tenant per Data Label used by that tenant, to provide interconnect functionality
+    for all the Layer 2 Virtual Networks in a TRILL campus. 3. A traffic bottleneck
+    at the gateway. This document specifies an optional TRILL distributed gateway
+    solution that resolves these centralized gateway issues.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- tenant
+- " data center"
+editorialgroup:
+  name: trill

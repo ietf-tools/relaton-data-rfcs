@@ -1,0 +1,102 @@
+---
+id: IETFRFC7527
+title:
+  type: main
+  content: Enhanced Duplicate Address Detection
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7527
+  type: src
+type: standard
+docid:
+- id: IETF RFC7527
+  type: IETF
+- id: 10.17487/RFC7527
+  type: DOI
+docnumber: RFC7527
+date:
+  type: published
+  value: 2015-04
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Asati
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Singh
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Beebee
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Dart
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. George
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-04
+language: en
+script: Latn
+abstract:
+  content: IPv6 Loopback Suppression and Duplicate Address Detection (DAD) are discussed
+    in Appendix A of RFC 4862.  That specification mentions a hardware-assisted mechanism
+    to detect looped back DAD messages.  If hardware cannot suppress looped back DAD
+    messages, a software solution is required.  Several service provider communities
+    have expressed a need for automated detection of looped back Neighbor Discovery
+    (ND) messages used by DAD.  This document includes mitigation techniques and outlines
+    the Enhanced DAD algorithm to automate the detection of looped back IPv6 ND messages
+    used by DAD.  For network loopback tests, the Enhanced DAD algorithm allows IPv6
+    to self-heal after a loopback is placed and removed.  Further, for certain access
+    networks, this document automates resolving a specific duplicate address conflict.  This
+    document updates RFCs 4429, 4861, and 4862.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4429
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4861
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4862
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Automated DAD
+- loopback detection
+editorialgroup:
+  name: 6man

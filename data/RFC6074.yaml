@@ -1,0 +1,72 @@
+---
+id: IETFRFC6074
+title:
+  type: main
+  content: Provisioning, Auto-Discovery, and Signaling in Layer 2 Virtual Private
+    Networks (L2VPNs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6074
+  type: src
+type: standard
+docid:
+- id: IETF RFC6074
+  type: IETF
+- id: 10.17487/RFC6074
+  type: DOI
+docnumber: RFC6074
+date:
+  type: published
+  value: 2011-01
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Davie
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Radoaca
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Luo
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-01
+language: en
+script: Latn
+abstract:
+  content: Provider Provisioned Layer 2 Virtual Private Networks (L2VPNs) may have
+    different "provisioning models", i.e., models for what information needs to be
+    configured in what entities.  Once configured, the provisioning information is
+    distributed by a "discovery process".  When the discovery process is complete,
+    a signaling protocol is automatically invoked to set up the mesh of pseudowires
+    (PWs) that form the (virtual) backbone of the L2VPN.  This document specifies
+    a number of L2VPN provisioning models, and further specifies the semantic structure
+    of the endpoint identifiers required by each model.  It discusses the distribution
+    of these identifiers by the discovery process, especially when discovery is based
+    on the Border Gateway Protocol (BGP).  It then specifies how the endpoint identifiers
+    are carried in the two signaling protocols that are used to set up PWs, the Label
+    Distribution Protocol (LDP), and the Layer 2 Tunneling Protocol version 3 (L2TPv3).
+    [STANDARDS- TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: l2vpn

@@ -1,0 +1,76 @@
+---
+id: IETFRFC9012
+title:
+  type: main
+  content: The BGP Tunnel Encapsulation Attribute
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9012
+  type: src
+type: standard
+docid:
+- id: IETF RFC9012
+  type: IETF
+- id: 10.17487/RFC9012
+  type: DOI
+docnumber: RFC9012
+date:
+  type: published
+  value: 2021-04
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Patel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Van de Velde
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Sangli
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Scudder
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-04
+language: en
+script: Latn
+abstract:
+  content: This document defines a BGP path attribute known as the "Tunnel Encapsulation
+    attribute", which can be used with BGP UPDATEs of various Subsequent Address Family
+    Identifiers (SAFIs) to provide information needed to create tunnels and their
+    corresponding encapsulation headers. It provides encodings for a number of tunnel
+    types, along with procedures for choosing between alternate tunnels and routing
+    packets into tunnels. This document obsoletes RFC 5512, which provided an earlier
+    definition of the Tunnel Encapsulation attribute. RFC 5512 was never deployed
+    in production. Since RFC 5566 relies on RFC 5512, it is likewise obsoleted. This
+    document updates RFC 5640 by indicating that the Load-Balancing Block sub-TLV
+    may be included in any Tunnel Encapsulation attribute where load balancing is
+    desired.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5640
+      format: text/plain
+fetched: '2021-12-18'
+keyword: BGP
+editorialgroup:
+  name: idr

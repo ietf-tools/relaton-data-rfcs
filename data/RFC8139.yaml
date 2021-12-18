@@ -1,0 +1,91 @@
+---
+id: IETFRFC8139
+title:
+  type: main
+  content: 'Transparent Interconnection of Lots of Links (TRILL): Appointed Forwarders'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8139
+  type: src
+type: standard
+docid:
+- id: IETF RFC8139
+  type: IETF
+- id: 10.17487/RFC8139
+  type: DOI
+docnumber: RFC8139
+date:
+  type: published
+  value: 2017-06
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Eastlake 3rd
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Umair
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Banerjee
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: F. Hu
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-06
+language: en
+script: Latn
+abstract:
+  content: TRILL (Transparent Interconnection of Lots of Links) supports multi-access
+    LAN (Local Area Network) links where a single link can have multiple end stations
+    and TRILL switches attached.  Where multiple TRILL switches are attached to a
+    link, native traffic to and from end stations on that link is handled by a subset
+    of those TRILL switches called "Appointed Forwarders" as originally specified
+    in RFC 6325, with the intent that native traffic in each VLAN be handled by at
+    most one TRILL switch.  This document clarifies and updates the Appointed Forwarder
+    mechanism.  It updates RFCs 6325 and 7177 and obsoletes RFC 6439.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6325
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7177
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- DRB
+- VLAN mapping
+- inhibition
+- port shutdown
+- trill
+- TRansparent Interconnection of Lots of Links
+editorialgroup:
+  name: trill

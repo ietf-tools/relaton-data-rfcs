@@ -1,0 +1,58 @@
+---
+id: IETFRFC8094
+title:
+  type: main
+  content: DNS over Datagram Transport Layer Security (DTLS)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8094
+  type: src
+type: standard
+docid:
+- id: IETF RFC8094
+  type: IETF
+- id: 10.17487/RFC8094
+  type: DOI
+docnumber: RFC8094
+date:
+  type: published
+  value: 2017-02
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Reddy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Wing
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Patil
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-02
+language: en
+script: Latn
+abstract:
+  content: DNS queries and responses are visible to network elements on the path between
+    the DNS client and its server. These queries and responses can contain privacy-sensitive
+    information, which is valuable to protect. This document proposes the use of Datagram
+    Transport Layer Security (DTLS) for DNS, to protect against passive listeners
+    and certain active attacks. As latency is critical for DNS, this proposal also
+    discusses mechanisms to reduce DTLS round trips and reduce the DTLS handshake
+    size. The proposed mechanism runs over port 853.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: dprive

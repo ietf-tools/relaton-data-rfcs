@@ -1,0 +1,75 @@
+---
+id: IETFRFC4086
+title:
+  type: main
+  content: Randomness Requirements for Security
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4086
+  type: src
+type: standard
+docid:
+- id: IETF RFC4086
+  type: IETF
+- id: 10.17487/RFC4086
+  type: DOI
+docnumber: RFC4086
+date:
+  type: published
+  value: 2005-06
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Eastlake 3rd
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Schiller
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Crocker
+        language: en
+        script: Latn
+  role: author
+revdate: 2005-06
+language: en
+script: Latn
+abstract:
+  content: Security systems are built on strong cryptographic algorithms that foil
+    pattern analysis attempts. However, the security of these systems is dependent
+    on generating secret quantities for passwords, cryptographic keys, and similar
+    quantities. The use of pseudo-random processes to generate secret quantities can
+    result in pseudo-security. A sophisticated attacker may find it easier to reproduce
+    the environment that produced the secret quantities and to search the resulting
+    small set of possibilities than to locate the quantities in the whole of the potential
+    number space. Choosing random quantities to foil a resourceful and motivated adversary
+    is surprisingly difficult. This document points out many pitfalls in using poor
+    entropy sources or traditional pseudo-random number generation techniques for
+    generating such quantities. It recommends the use of truly random hardware techniques
+    and shows that the existing hardware on many systems can be used for this purpose.
+    It provides suggestions to ameliorate the problem when a hardware solution is
+    not available, and it gives examples of how large such quantities need to be for
+    some applications. This document specifies an Internet Best Current Practices
+    for the Internet Community, and requests discussion and suggestions for improvements.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- cryptographic algorithms
+- passwords
+- cryptographic keys
+- pseudo-random
+- random
+- numbers
+- seed
+editorialgroup:
+  name: NON WORKING GROUP

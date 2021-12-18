@@ -1,0 +1,61 @@
+---
+id: IETFRFC5473
+title:
+  type: main
+  content: Reducing Redundancy in IP Flow Information Export (IPFIX) and Packet Sampling
+    (PSAMP) Reports
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5473
+  type: src
+type: standard
+docid:
+- id: IETF RFC5473
+  type: IETF
+- id: 10.17487/RFC5473
+  type: DOI
+docnumber: RFC5473
+date:
+  type: published
+  value: 2009-03
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Boschi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Mark
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Claise
+        language: en
+        script: Latn
+  role: author
+revdate: 2009-03
+language: en
+script: Latn
+abstract:
+  content: This document describes a bandwidth saving method for exporting Flow or
+    packet information using the IP Flow Information eXport (IPFIX) protocol. As the
+    Packet Sampling (PSAMP) protocol is based on IPFIX, these considerations are valid
+    for PSAMP exports as well. This method works by separating information common
+    to several Flow Records from information specific to an individual Flow Record.
+    Common Flow information is exported only once in a Data Record defined by an Options
+    Template, while the rest of the specific Flow information is associated with the
+    common information via a unique identifier. This memo provides information for
+    the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: ipfix

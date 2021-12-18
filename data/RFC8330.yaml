@@ -1,0 +1,83 @@
+---
+id: IETFRFC8330
+title:
+  type: main
+  content: OSPF Traffic Engineering (OSPF-TE) Link Availability Extension for Links
+    with Variable Discrete Bandwidth
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8330
+  type: src
+type: standard
+docid:
+- id: IETF RFC8330
+  type: IETF
+- id: 10.17487/RFC8330
+  type: DOI
+docnumber: RFC8330
+date:
+  type: published
+  value: 2018-02
+contributor:
+- person:
+    name:
+      completename:
+        content: H. Long
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Ye
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Mirsky
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. D'Alessandro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Shah
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-02
+language: en
+script: Latn
+abstract:
+  content: A network may contain links with variable discrete bandwidth, e.g., microwave
+    and copper.  The bandwidth of such links may change discretely in response to
+    a changing external environment.  The word "availability" is typically used to
+    describe such links during network planning.  This document defines a new type
+    of Generalized Switching Capability-Specific Information (SCSI) TLV to extend
+    the Generalized Multiprotocol Label Switching (GMPLS) Open Shortest Path First
+    (OSPF) routing protocol.  The extension can be used for route computation in a
+    network that contains links with variable discrete bandwidth.  Note that this
+    document only covers the mechanisms by which the availability information is distributed.  The
+    mechanisms by which availability information of a link is determined and the use
+    of the distributed information for route computation are outside the scope of
+    this document.  It is intended that technology-specific documents will reference
+    this document to describe specific uses.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- microwave
+- copper
+- Generalized SCSI-TLV
+editorialgroup:
+  name: ccamp

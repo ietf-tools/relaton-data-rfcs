@@ -1,0 +1,69 @@
+---
+id: IETFRFC5710
+title:
+  type: main
+  content: PathErr Message Triggered MPLS and GMPLS LSP Reroutes
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5710
+  type: src
+type: standard
+docid:
+- id: IETF RFC5710
+  type: IETF
+- id: 10.17487/RFC5710
+  type: DOI
+docnumber: RFC5710
+date:
+  type: published
+  value: 2010-01
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Berger
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Papadimitriou
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: JP. Vasseur
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-01
+language: en
+script: Latn
+abstract:
+  content: This document describes how Resource ReserVation Protocol (RSVP) PathErr
+    messages may be used to trigger rerouting of Multi-Protocol Label Switching (MPLS)
+    and Generalized MPLS (GMPLS) point-to-point Traffic Engineering (TE) Label Switched
+    Paths (LSPs) without first removing LSP state or resources.  Such LSP rerouting
+    may be desirable in a number of cases, including, for example, soft-preemption
+    and graceful shutdown.  This document describes the usage of existing Standards
+    Track mechanisms to support LSP rerouting.  In this case, it relies on mechanisms
+    already defined as part of RSVP-TE and simply describes a sequence of actions
+    to be executed.  While existing protocol definitions can be used to support reroute
+    applications, this document also defines a new reroute-specific error code to
+    allow for the future definition of reroute-application-specific error values.
+    [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- resource reservation protocol
+- rsvp
+- multiprotocol label switching
+- generalized mpls
+- rsvp-te
+editorialgroup:
+  name: mpls

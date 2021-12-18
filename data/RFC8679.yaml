@@ -1,0 +1,86 @@
+---
+id: IETFRFC8679
+title:
+  type: main
+  content: MPLS Egress Protection Framework
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8679
+  type: src
+type: standard
+docid:
+- id: IETF RFC8679
+  type: IETF
+- id: 10.17487/RFC8679
+  type: DOI
+docnumber: RFC8679
+date:
+  type: published
+  value: 2019-12
+contributor:
+- person:
+    name:
+      completename:
+        content: Y. Shen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Jeganathan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Decraene
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Gredler
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Michel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Chen
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-12
+language: en
+script: Latn
+abstract:
+  content: This document specifies a fast reroute framework for protecting IP/MPLS
+    services and MPLS transport tunnels against egress node and egress link failures.  For
+    each type of egress failure, it defines the roles of Point of Local Repair (PLR),
+    protector, and backup egress router and the procedures of establishing a bypass
+    tunnel from a PLR to a protector.  It describes the behaviors of these routers
+    in handling an egress failure, including local repair on the PLR and context-based
+    forwarding on the protector.  The framework can be used to develop egress protection
+    mechanisms to reduce traffic loss before global repair reacts to an egress failure
+    and control-plane protocols converge on the topology changes due to the egress
+    failure.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- fast reroute
+- egress protection
+- local repair
+editorialgroup:
+  name: mpls

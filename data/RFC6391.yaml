@@ -1,0 +1,80 @@
+---
+id: IETFRFC6391
+title:
+  type: main
+  content: Flow-Aware Transport of Pseudowires over an MPLS Packet Switched Network
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6391
+  type: src
+type: standard
+docid:
+- id: IETF RFC6391
+  type: IETF
+- id: 10.17487/RFC6391
+  type: DOI
+docnumber: RFC6391
+date:
+  type: published
+  value: 2011-11
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Bryant
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Filsfils
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: U. Drafz
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Kompella
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Regan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Amante
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-11
+language: en
+script: Latn
+abstract:
+  content: Where the payload of a pseudowire comprises a number of distinct flows,
+    it can be desirable to carry those flows over the Equal Cost Multiple Paths (ECMPs)
+    that exist in the packet switched network. Most forwarding engines are able to
+    generate a hash of the MPLS label stack and use this mechanism to balance MPLS
+    flows over ECMPs. This document describes a method of identifying the flows, or
+    flow groups, within pseudowires such that Label Switching Routers can balance
+    flows at a finer granularity than individual pseudowires. The mechanism uses an
+    additional label in the MPLS label stack. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: pwe3

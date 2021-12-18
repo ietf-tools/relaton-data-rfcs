@@ -1,0 +1,70 @@
+---
+id: IETFRFC6806
+title:
+  type: main
+  content: Kerberos Principal Name Canonicalization and Cross-Realm Referrals
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6806
+  type: src
+type: standard
+docid:
+- id: IETF RFC6806
+  type: IETF
+- id: 10.17487/RFC6806
+  type: DOI
+docnumber: RFC6806
+date:
+  type: published
+  value: 2012-11
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Hartman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Raeburn
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Zhu
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-11
+language: en
+script: Latn
+abstract:
+  content: This memo documents a method for a Kerberos Key Distribution Center (KDC)
+    to respond to client requests for Kerberos tickets when the client does not have
+    detailed configuration information on the realms of users or services.  The KDC
+    will handle requests for principals in other realms by returning either a referral
+    error or a cross-realm Ticket-Granting Ticket (TGT) to another realm on the referral
+    path.  The clients will use this referral information to reach the realm of the
+    target principal and then receive the ticket.  This memo also provides a mechanism
+    for verifying that a request has not been tampered with in transit.  This memo
+    updates RFC 4120. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4120
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- authentication
+- security protocols
+- identity
+editorialgroup:
+  name: krb-wg

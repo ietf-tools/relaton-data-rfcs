@@ -1,0 +1,73 @@
+---
+id: IETFRFC8537
+title:
+  type: main
+  content: Updates to the Fast Reroute Procedures for Co-routed Associated Bidirectional
+    Label Switched Paths (LSPs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8537
+  type: src
+type: standard
+docid:
+- id: IETF RFC8537
+  type: IETF
+- id: 10.17487/RFC8537
+  type: DOI
+docnumber: RFC8537
+date:
+  type: published
+  value: 2019-02
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Gandhi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Shah
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Whittaker
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-02
+language: en
+script: Latn
+abstract:
+  content: Resource Reservation Protocol (RSVP) association signaling can be used
+    to bind two unidirectional Label Switched Paths (LSPs) into an associated bidirectional
+    LSP.  When an associated bidirectional LSP is co-routed, the reverse LSP follows
+    the same path as its forward LSP.  This document updates the fast reroute procedures
+    defined in RFC 4090 to support both single-sided and double-sided provisioned
+    associated bidirectional LSPs.  This document also updates the procedure for associating
+    two reverse LSPs defined in RFC 7551 to support co-routed bidirectional LSPs.  The
+    fast reroute procedures can ensure that, for the co-routed LSPs, traffic flows
+    on co-routed paths in the forward and reverse directions after a failure event.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4090
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7551
+      format: text/plain
+fetched: '2021-12-18'
+keyword: RSVP-TE LSP
+editorialgroup:
+  name: teas

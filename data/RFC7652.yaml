@@ -1,0 +1,74 @@
+---
+id: IETFRFC7652
+title:
+  type: main
+  content: Port Control Protocol (PCP) Authentication Mechanism
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7652
+  type: src
+type: standard
+docid:
+- id: IETF RFC7652
+  type: IETF
+- id: 10.17487/RFC7652
+  type: DOI
+docnumber: RFC7652
+date:
+  type: published
+  value: 2015-09
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Cullen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Hartman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Zhang
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Reddy
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-09
+language: en
+script: Latn
+abstract:
+  content: An IPv4 or IPv6 host can use the Port Control Protocol (PCP) to flexibly
+    manage the IP address-mapping and port-mapping information on Network Address
+    Translators (NATs) or firewalls to facilitate communication with remote hosts.
+    However, the uncontrolled generation or deletion of IP address mappings on such
+    network devices may cause security risks and should be avoided. In some cases,
+    the client may need to prove that it is authorized to modify, create, or delete
+    PCP mappings. This document describes an in-band authentication mechanism for
+    PCP that can be used in those cases. The Extensible Authentication Protocol (EAP)
+    is used to perform authentication between PCP devices. This document updates RFC
+    6887.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6887
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: pcp

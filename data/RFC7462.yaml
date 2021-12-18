@@ -1,0 +1,87 @@
+---
+id: IETFRFC7462
+title:
+  type: main
+  content: URNs for the Alert-Info Header Field of the Session Initiation Protocol
+    (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7462
+  type: src
+type: standard
+docid:
+- id: IETF RFC7462
+  type: IETF
+- id: 10.17487/RFC7462
+  type: DOI
+docnumber: RFC7462
+date:
+  type: published
+  value: 2015-03
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Liess
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Jesske
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Johnston
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Worley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Kyzivat
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-03
+language: en
+script: Latn
+abstract:
+  content: The Session Initiation Protocol (SIP) supports the capability to provide
+    a reference to a specific rendering to be used by the User Agent (UA) as an alerting
+    signal (e.g., a ring tone or ringback tone) when the user is alerted. This is
+    done using the Alert-Info header field. However, the reference (typically a URL)
+    addresses only a specific network resource with specific rendering properties.
+    There is currently no support for standard identifiers for describing the semantics
+    of the alerting situation or the characteristics of the alerting signal, without
+    being tied to a particular rendering. To overcome these limitations and support
+    new applications, a new family of URNs for use in Alert-Info header fields (and
+    situations with similar requirements) is defined in this specification. This document
+    normatively updates RFC 3261, which defines the Session Initiation Protocol (SIP).
+    It changes the usage of the Alert-Info header field defined in RFC 3261 by additionally
+    allowing its use in any non-100 provisional response to INVITE. This document
+    also permits proxies to add or remove an Alert-Info header field and to add or
+    remove Alert-Info header field values.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3261
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: salud

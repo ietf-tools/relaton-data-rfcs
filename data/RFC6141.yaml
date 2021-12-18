@@ -1,0 +1,69 @@
+---
+id: IETFRFC6141
+title:
+  type: main
+  content: Re-INVITE and Target-Refresh Request Handling in the Session Initiation
+    Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6141
+  type: src
+type: standard
+docid:
+- id: IETF RFC6141
+  type: IETF
+- id: 10.17487/RFC6141
+  type: DOI
+docnumber: RFC6141
+date:
+  type: published
+  value: 2011-03
+contributor:
+- person:
+    name:
+      completename:
+        content: G. Camarillo
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Holmberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Gao
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-03
+language: en
+script: Latn
+abstract:
+  content: The procedures for handling SIP re-INVITEs are described in RFC 3261.  Implementation
+    and deployment experience has uncovered a number of issues with the original documentation,
+    and this document provides additional procedures that update the original specification
+    to address those issues.  In particular, this document defines in which situations
+    a UAS (User Agent Server) should generate a success response and in which situations
+    a UAS should generate an error response to a re-INVITE.  Additionally, this document
+    defines further details of procedures related to target-refresh requests. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3261
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- re-INVITE
+- offer/answer
+- rollback
+editorialgroup:
+  name: sipcore

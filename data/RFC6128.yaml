@@ -1,0 +1,52 @@
+---
+id: IETFRFC6128
+title:
+  type: main
+  content: RTP Control Protocol (RTCP) Port for Source-Specific Multicast (SSM) Sessions
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6128
+  type: src
+type: standard
+docid:
+- id: IETF RFC6128
+  type: IETF
+- id: 10.17487/RFC6128
+  type: DOI
+docnumber: RFC6128
+date:
+  type: published
+  value: 2011-02
+contributor:
+  person:
+    name:
+      completename:
+        content: A. Begen
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-02
+language: en
+script: Latn
+abstract:
+  content: The Session Description Protocol (SDP) has an attribute that allows RTP
+    applications to specify an address and a port associated with the RTP Control
+    Protocol (RTCP) traffic.  In RTP-based source-specific multicast (SSM) sessions,
+    the same attribute is used to designate the address and the RTCP port of the Feedback
+    Target in the SDP description.  However, the RTCP port associated with the SSM
+    session itself cannot be specified by the same attribute to avoid ambiguity, and
+    thus, is required to be derived from the "m=" line of the media description.  Deriving
+    the RTCP port from the "m=" line imposes an unnecessary restriction.  This document
+    removes this restriction by introducing a new SDP attribute. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5760
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: avt

@@ -1,0 +1,57 @@
+---
+id: IETFRFC5879
+title:
+  type: main
+  content: Heuristics for Detecting ESP-NULL Packets
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5879
+  type: src
+type: standard
+docid:
+- id: IETF RFC5879
+  type: IETF
+- id: 10.17487/RFC5879
+  type: DOI
+docnumber: RFC5879
+date:
+  type: published
+  value: 2010-05
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Kivinen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. McDonald
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-05
+language: en
+script: Latn
+abstract:
+  content: This document describes a set of heuristics for distinguishing IPsec ESP-NULL
+    (Encapsulating Security Payload without encryption) packets from encrypted ESP
+    packets.  These heuristics can be used on intermediate devices, like traffic analyzers,
+    and deep-inspection engines, to quickly decide whether or not a given packet flow
+    is encrypted, i.e., whether or not it can be inspected.  Use of these heuristics
+    does not require any changes made on existing IPsec hosts that are compliant with
+    RFC 4303.  This document is not an Internet Standards Track specification; it
+    is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- IPsec
+- Wrapped ESP (WESP)
+- deep-inspection
+- packet inspection
+editorialgroup:
+  name: ipsecme

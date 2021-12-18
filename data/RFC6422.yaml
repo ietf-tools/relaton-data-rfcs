@@ -1,0 +1,60 @@
+---
+id: IETFRFC6422
+title:
+  type: main
+  content: Relay-Supplied DHCP Options
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6422
+  type: src
+type: standard
+docid:
+- id: IETF RFC6422
+  type: IETF
+- id: 10.17487/RFC6422
+  type: DOI
+docnumber: RFC6422
+date:
+  type: published
+  value: 2011-12
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Lemon
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Wu
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-12
+language: en
+script: Latn
+abstract:
+  content: DHCPv6 relay agents cannot communicate with DHCPv6 clients directly. However,
+    in some cases, the relay agent possesses some information that would be useful
+    to the DHCPv6 client. This document describes a mechanism whereby the DHCPv6 relay
+    agent can provide such information to the DHCPv6 server, which can, in turn, pass
+    this information on to the DHCP client. This document updates RFC 3315 (DHCPv6)
+    by making explicit the implicit requirement that relay agents not modify the content
+    of encapsulation payloads as they are relayed back toward clients. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3315
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- DHCPv6 Relay
+- DHCPv6 option
+editorialgroup:
+  name: dhc

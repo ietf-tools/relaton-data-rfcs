@@ -1,0 +1,78 @@
+---
+id: IETFRFC5863
+title:
+  type: main
+  content: DomainKeys Identified Mail (DKIM) Development, Deployment, and Operations
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5863
+  type: src
+type: standard
+docid:
+- id: IETF RFC5863
+  type: IETF
+- id: 10.17487/RFC5863
+  type: DOI
+docnumber: RFC5863
+date:
+  type: published
+  value: 2010-05
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Hansen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Siegel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hallam-Baker
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Crocker
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-05
+language: en
+script: Latn
+abstract:
+  content: DomainKeys Identified Mail (DKIM) allows an organization to claim responsibility
+    for transmitting a message, in a way that can be validated by a recipient.  The
+    organization can be the author's, the originating sending site, an intermediary,
+    or one of their agents.  A message can contain multiple signatures, from the same
+    or different organizations involved with the message.  DKIM defines a domain-level
+    digital signature authentication framework for email, using public key cryptography
+    and using the domain name service as its key server technology.  This permits
+    verification of a responsible organization, as well as the integrity of the message
+    content.  DKIM will also provide a mechanism that permits potential email signers
+    to publish information about their email signing practices; this will permit email
+    receivers to make additional assessments about messages.  DKIM's authentication
+    of email identity can assist in the global control of "spam" and "phishing".  This
+    document provides implementation, deployment, operational, and migration considerations
+    for DKIM.  This document is not an Internet Standards Track specification; it
+    is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Email
+- Electronic Mail
+- Internet Mail
+- Message Verification
+editorialgroup:
+  name: dkim

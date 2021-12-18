@@ -1,0 +1,48 @@
+---
+id: IETFRFC8833
+title:
+  type: main
+  content: Application-Layer Protocol Negotiation (ALPN) for WebRTC
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8833
+  type: src
+type: standard
+docid:
+- id: IETF RFC8833
+  type: IETF
+- id: 10.17487/RFC8833
+  type: DOI
+docnumber: RFC8833
+date:
+  type: published
+  value: 2021-01
+contributor:
+  person:
+    name:
+      completename:
+        content: M. Thomson
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-01
+language: en
+script: Latn
+abstract:
+  content: 'This document specifies two Application-Layer Protocol Negotiation (ALPN)
+    labels for use with Web Real-Time Communication (WebRTC).  The "webrtc" label
+    identifies regular WebRTC: a DTLS session that is used to establish keys for the
+    Secure Real-time Transport Protocol (SRTP) or to establish data channels using
+    the Stream Control Transmission Protocol (SCTP) over DTLS.  The "c-webrtc" label
+    describes the same protocol, but the peers also agree to maintain the confidentiality
+    of the media by not sharing it with other applications.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- ALPN
+- Protocol
+- Identifier
+editorialgroup:
+  name: rtcweb

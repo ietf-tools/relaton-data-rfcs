@@ -1,0 +1,81 @@
+---
+id: IETFRFC6736
+title:
+  type: main
+  content: Diameter Network Address and Port Translation Control Application
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6736
+  type: src
+type: standard
+docid:
+- id: IETF RFC6736
+  type: IETF
+- id: 10.17487/RFC6736
+  type: DOI
+docnumber: RFC6736
+date:
+  type: published
+  value: 2012-10
+contributor:
+- person:
+    name:
+      completename:
+        content: F. Brockners
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Bhandari
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Singh
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Fajardo
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-10
+language: en
+script: Latn
+abstract:
+  content: This document describes the framework, messages, and procedures for the
+    Diameter Network address and port translation Control Application.  This Diameter
+    application allows per-endpoint control of Network Address Translators and Network
+    Address and Port Translators, which are added to networks to cope with IPv4 address
+    space depletion.  This Diameter application allows external devices to configure
+    and manage a Network Address Translator device -- expanding the existing Diameter-based
+    Authentication, Authorization, and Accounting (AAA) and policy control capabilities
+    with a Network Address Translator and Network Address and Port Translator control
+    component.  These external devices can be network elements in the data plane such
+    as a Network Access Server, or can be more centralized control plane devices such
+    as AAA-servers.  This Diameter application establishes a context to commonly identify
+    and manage endpoints on a gateway or server and a Network Address Translator and
+    Network Address and Port Translator device.  This includes, for example, the control
+    of the total number of Network Address Translator bindings allowed or the allocation
+    of a specific Network Address Translator binding for a particular endpoint.  In
+    addition, it allows Network Address Translator devices to provide information
+    relevant to accounting purposes. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- NAT control
+- NAT44
+- NAT66
+- CGN
+- BNG
+editorialgroup:
+  name: dime

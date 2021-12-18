@@ -1,0 +1,52 @@
+---
+id: IETFRFC7821
+title:
+  type: main
+  content: UDP Checksum Complement in the Network Time Protocol (NTP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7821
+  type: src
+type: standard
+docid:
+- id: IETF RFC7821
+  type: IETF
+- id: 10.17487/RFC7821
+  type: DOI
+docnumber: RFC7821
+date:
+  type: published
+  value: 2016-03
+contributor:
+  person:
+    name:
+      completename:
+        content: T. Mizrahi
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-03
+language: en
+script: Latn
+abstract:
+  content: The Network Time Protocol (NTP) allows clients to synchronize to a time
+    server using timestamped protocol messages.  To facilitate accurate timestamping,
+    some implementations use hardware-based timestamping engines that integrate the
+    accurate transmission time into every outgoing NTP packet during transmission.  Since
+    these packets are transported over UDP, the UDP Checksum field is then updated
+    to reflect this modification.  This document proposes an extension field that
+    includes a 2-octet Checksum Complement, allowing timestamping engines to reflect
+    the checksum modification in the last 2 octets of the packet rather than in the
+    UDP Checksum field.  The behavior defined in this document is interoperable with
+    existing NTP implementations.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- NTP
+- UDP
+- Checksum
+- timestamping
+editorialgroup:
+  name: ntp

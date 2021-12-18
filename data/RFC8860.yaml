@@ -1,0 +1,71 @@
+---
+id: IETFRFC8860
+title:
+  type: main
+  content: Sending Multiple Types of Media in a Single RTP Session
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8860
+  type: src
+type: standard
+docid:
+- id: IETF RFC8860
+  type: IETF
+- id: 10.17487/RFC8860
+  type: DOI
+docnumber: RFC8860
+date:
+  type: published
+  value: 2021-01
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Perkins
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Lennox
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-01
+language: en
+script: Latn
+abstract:
+  content: This document specifies how an RTP session can contain RTP streams with
+    media from multiple media types such as audio, video, and text.  This has been
+    restricted by the RTP specifications (RFCs 3550 and 3551), and thus this document
+    updates RFCs 3550 and 3551 to enable this behaviour for applications that satisfy
+    the applicability for using multiple media types in a single RTP session.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3550
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3551
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Real-time
+- Multiplexing
+- Bundle
+editorialgroup:
+  name: avtcore

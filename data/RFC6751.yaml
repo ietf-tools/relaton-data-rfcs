@@ -1,0 +1,79 @@
+---
+id: IETFRFC6751
+title:
+  type: main
+  content: Native IPv6 behind IPv4-to-IPv4 NAT Customer Premises Equipment (6a44)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6751
+  type: src
+type: standard
+docid:
+- id: IETF RFC6751
+  type: IETF
+- id: 10.17487/RFC6751
+  type: DOI
+docnumber: RFC6751
+date:
+  type: published
+  value: 2012-10
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Despres
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Carpenter
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Wing
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Jiang
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-10
+language: en
+script: Latn
+abstract:
+  content: In customer sites having IPv4-only Customer Premises Equipment (CPE), Teredo
+    (RFC 4380, RFC 5991, RFC 6081) provides last-resort IPv6 connectivity.  However,
+    because it is designed to work without the involvement of Internet Service Providers,
+    it has significant limitations (connectivity between IPv6 native addresses and
+    Teredo addresses is uncertain; connectivity between Teredo addresses fails for
+    some combinations of NAT types).  6a44 is a complementary solution that, being
+    based on ISP cooperation, avoids these limitations.  At the beginning of 6a44
+    IPv6 addresses, it replaces the Teredo well-known prefix, present at the beginning
+    of Teredo IPv6 addresses, with network-specific /48 prefixes assigned by local
+    ISPs (an evolution similar to that from 6to4 to 6rd (IPv6 Rapid Deployment on
+    IPv4 Infrastructures)).  The specification is expected to be complete enough for
+    running code to be independently written and the solution to be incrementally
+    deployed and used.  This document defines an Experimental Protocol for the Internet
+    community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Coexistence
+- Transition
+- Interworking
+- Tunneling
+- Encapsulation
+- Mapping
+- map-and-encap
+- Global Addressing

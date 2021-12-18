@@ -1,0 +1,78 @@
+---
+id: IETFRFC8082
+title:
+  type: main
+  content: Using Codec Control Messages in the RTP Audio-Visual Profile with Feedback
+    with Layered Codecs
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8082
+  type: src
+type: standard
+docid:
+- id: IETF RFC8082
+  type: IETF
+- id: 10.17487/RFC8082
+  type: DOI
+docnumber: RFC8082
+date:
+  type: published
+  value: 2017-03
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Wenger
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Lennox
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Burman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-03
+language: en
+script: Latn
+abstract:
+  content: This document updates RFC 5104 by fixing a shortcoming in the specification
+    language of the Codec Control Message Full Intra Request (FIR) description when
+    using it with layered codecs.  In particular, a decoder refresh point needs to
+    be sent by a media sender when a FIR is received on any layer of the layered bitstream,
+    regardless of whether those layers are being sent in a single or in multiple RTP
+    flows.  The other payload-specific feedback messages defined in RFC 5104 and RFC
+    4585 (which was updated by RFC 5506) have also been analyzed, and no corresponding
+    shortcomings have been found.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5104
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Layered Codec
+- Full Intra Request
+- FIR
+- Decoder Refresh Point
+editorialgroup:
+  name: avtext

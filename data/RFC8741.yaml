@@ -1,0 +1,76 @@
+---
+id: IETFRFC8741
+title:
+  type: main
+  content: Ability for a Stateful Path Computation Element (PCE) to Request and Obtain
+    Control of a Label Switched Path (LSP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8741
+  type: src
+type: standard
+docid:
+- id: IETF RFC8741
+  type: IETF
+- id: 10.17487/RFC8741
+  type: DOI
+docnumber: RFC8741
+date:
+  type: published
+  value: 2020-03
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Raghuram
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Goddard
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Karthik
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Sivabalan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Negi
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-03
+language: en
+script: Latn
+abstract:
+  content: A stateful Path Computation Element (PCE) retains information about the
+    placement of Multiprotocol Label Switching (MPLS) Traffic Engineering Label Switched
+    Paths (TE LSPs). When a PCE has stateful control over LSPs, it may send indications
+    to LSP head-ends to modify the attributes (especially the paths) of the LSPs.
+    A Path Computation Client (PCC) that has set up LSPs under local configuration
+    may delegate control of those LSPs to a stateful PCE. There are use cases in which
+    a stateful PCE may wish to obtain control of locally configured LSPs that it is
+    aware of but have not been delegated to the PCE. This document describes an extension
+    to the Path Computation Element Communication Protocol (PCEP) to enable a PCE
+    to make requests for such control.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: pce

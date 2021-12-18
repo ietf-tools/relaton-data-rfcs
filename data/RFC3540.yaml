@@ -1,0 +1,63 @@
+---
+id: IETFRFC3540
+title:
+  type: main
+  content: Robust Explicit Congestion Notification (ECN) Signaling with Nonces
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3540
+  type: src
+type: standard
+docid:
+- id: IETF RFC3540
+  type: IETF
+- id: 10.17487/RFC3540
+  type: DOI
+docnumber: RFC3540
+date:
+  type: published
+  value: 2003-06
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Spring
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Wetherall
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Ely
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-06
+language: en
+script: Latn
+abstract:
+  content: This note describes the Explicit Congestion Notification (ECN)-nonce, an
+    optional addition to ECN that protects against accidental or malicious concealment
+    of marked packets from the TCP sender.  It improves the robustness of congestion
+    control by preventing receivers from exploiting ECN to gain an unfair share of
+    network bandwidth.  The ECN-nonce uses the two ECN-Capable Transport (ECT)codepoints
+    in the ECN field of the IP header, and requires a flag in the TCP header.  It
+    is computationally efficient for both routers and hosts.  This memo defines an
+    Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- congestion control
+- tcp
+- traffic control protocol
+editorialgroup:
+  name: tsvwg

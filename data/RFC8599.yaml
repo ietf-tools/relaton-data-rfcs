@@ -1,0 +1,57 @@
+---
+id: IETFRFC8599
+title:
+  type: main
+  content: Push Notification with the Session Initiation Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8599
+  type: src
+type: standard
+docid:
+- id: IETF RFC8599
+  type: IETF
+- id: 10.17487/RFC8599
+  type: DOI
+docnumber: RFC8599
+date:
+  type: published
+  value: 2019-05
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Holmberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Arnold
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-05
+language: en
+script: Latn
+abstract:
+  content: This document describes how a Push Notification Service (PNS) can be used
+    to wake a suspended Session Initiation Protocol (SIP) User Agent (UA) with push
+    notifications, and it also describes how the UA can send binding-refresh REGISTER
+    requests and receive incoming SIP requests in an environment in which the UA may
+    be suspended.  The document defines new SIP URI parameters to exchange PNS information
+    between the UA and the SIP entity that will then request that push notifications
+    be sent to the UA.  It also defines the parameters to trigger such push notification
+    requests.  The document also defines new feature-capability indicators that can
+    be used to indicate support of this mechanism.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- SIP
+- Push
+- Notification
+editorialgroup:
+  name: sipcore

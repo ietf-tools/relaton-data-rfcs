@@ -1,0 +1,90 @@
+---
+id: IETFRFC7524
+title:
+  type: main
+  content: Inter-Area Point-to-Multipoint (P2MP) Segmented Label Switched Paths (LSPs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7524
+  type: src
+type: standard
+docid:
+- id: IETF RFC7524
+  type: IETF
+- id: 10.17487/RFC7524
+  type: DOI
+docnumber: RFC7524
+date:
+  type: published
+  value: 2015-05
+contributor:
+- person:
+    name:
+      completename:
+        content: Y. Rekhter
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Aggarwal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Morin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: I. Grosclaude
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Leymann
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Saad
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-05
+language: en
+script: Latn
+abstract:
+  content: This document describes procedures for building inter-area point-to-multipoint
+    (P2MP) segmented service label switched paths (LSPs) by partitioning such LSPs
+    into intra-area segments and using BGP as the inter-area routing and Label Distribution
+    Protocol (LDP).  Within each IGP area, the intra-area segments are either carried
+    over intra-area P2MP LSPs, using P2MP LSP hierarchy, or instantiated using ingress
+    replication.  The intra-area P2MP LSPs may be signaled using P2MP RSVP-TE or P2MP
+    multipoint LDP (mLDP).  If ingress replication is used within an IGP area, then
+    (multipoint-to-point) LDP LSPs or (point-to-point) RSVP-TE LSPs may be used in
+    the IGP area.  The applications/services that use such inter-area service LSPs
+    may be BGP Multicast VPN, Virtual Private LAN Service (VPLS) multicast, or global
+    table multicast over MPLS.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: mpls

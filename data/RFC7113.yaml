@@ -1,0 +1,51 @@
+---
+id: IETFRFC7113
+title:
+  type: main
+  content: Implementation Advice for IPv6 Router Advertisement Guard (RA-Guard)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7113
+  type: src
+type: standard
+docid:
+- id: IETF RFC7113
+  type: IETF
+- id: 10.17487/RFC7113
+  type: DOI
+docnumber: RFC7113
+date:
+  type: published
+  value: 2014-02
+contributor:
+  person:
+    name:
+      completename:
+        content: F. Gont
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-02
+language: en
+script: Latn
+abstract:
+  content: The IPv6 Router Advertisement Guard (RA-Guard) mechanism is commonly employed
+    to mitigate attack vectors based on forged ICMPv6 Router Advertisement messages.  Many
+    existing IPv6 deployments rely on RA-Guard as the first line of defense against
+    the aforementioned attack vectors.  However, some implementations of RA-Guard
+    have been found to be prone to circumvention by employing IPv6 Extension Headers.  This
+    document describes the evasion techniques that affect the aforementioned implementations
+    and formally updates RFC 6105, such that the aforementioned RA-Guard evasion vectors
+    are eliminated.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6105
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: v6ops

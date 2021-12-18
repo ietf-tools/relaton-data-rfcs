@@ -1,0 +1,66 @@
+---
+id: IETFRFC6464
+title:
+  type: main
+  content: A Real-time Transport Protocol (RTP) Header Extension for Client-to-Mixer
+    Audio Level Indication
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6464
+  type: src
+type: standard
+docid:
+- id: IETF RFC6464
+  type: IETF
+- id: 10.17487/RFC6464
+  type: DOI
+docnumber: RFC6464
+date:
+  type: published
+  value: 2011-12
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Lennox
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Ivov
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Marocco
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-12
+language: en
+script: Latn
+abstract:
+  content: This document defines a mechanism by which packets of Real-time Transport
+    Protocol (RTP) audio streams can indicate, in an RTP header extension, the audio
+    level of the audio sample carried in the RTP packet.  In large conferences, this
+    can reduce the load on an audio mixer or other middlebox that wants to forward
+    only a few of the loudest audio streams, without requiring it to decode and measure
+    every stream that is received. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- ssrc-audio-level
+- ssrc
+- speech
+- sound
+- energy
+- conference
+- bridge
+editorialgroup:
+  name: avtext

@@ -1,0 +1,89 @@
+---
+id: IETFRFC9015
+title:
+  type: main
+  content: BGP Control Plane for the Network Service Header in Service Function Chaining
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9015
+  type: src
+type: standard
+docid:
+- id: IETF RFC9015
+  type: IETF
+- id: 10.17487/RFC9015
+  type: DOI
+docnumber: RFC9015
+date:
+  type: published
+  value: 2021-06
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Drake
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Uttaro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Jalil
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-06
+language: en
+script: Latn
+abstract:
+  content: This document describes the use of BGP as a control plane for networks
+    that support service function chaining. The document introduces a new BGP address
+    family called the "Service Function Chain (SFC) Address Family Identifier / Subsequent
+    Address Family Identifier" (SFC AFI/SAFI) with two Route Types. One Route Type
+    is originated by a node to advertise that it hosts a particular instance of a
+    specified service function. This Route Type also provides "instructions" on how
+    to send a packet to the hosting node in a way that indicates that the service
+    function has to be applied to the packet. The other Route Type is used by a controller
+    to advertise the paths of "chains" of service functions and give a unique designator
+    to each such path so that they can be used in conjunction with the Network Service
+    Header (NSH) defined in RFC 8300. This document adopts the service function chaining
+    architecture described in RFC 7665.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Service Function Chaining
+- Service Function Chain
+- Network Service Header
+- Service Function
+- " Service Function Forwarder"
+- Service Function Path
+- Service Function Path Route
+- Service Function Instance
+- Service Function Instance Route
+- Service Function Type
+- Control Plane
+editorialgroup:
+  name: bess

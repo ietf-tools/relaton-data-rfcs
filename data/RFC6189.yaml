@@ -1,0 +1,66 @@
+---
+id: IETFRFC6189
+title:
+  type: main
+  content: 'ZRTP: Media Path Key Agreement for Unicast Secure RTP'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6189
+  type: src
+type: standard
+docid:
+- id: IETF RFC6189
+  type: IETF
+- id: 10.17487/RFC6189
+  type: DOI
+docnumber: RFC6189
+date:
+  type: published
+  value: 2011-04
+contributor:
+- person:
+    name:
+      completename:
+        content: P. Zimmermann
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Johnston
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Callas
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-04
+language: en
+script: Latn
+abstract:
+  content: This document defines ZRTP, a protocol for media path Diffie-Hellman exchange
+    to agree on a session key and parameters for establishing unicast Secure Real-time
+    Transport Protocol (SRTP) sessions for Voice over IP (VoIP) applications.  The
+    ZRTP protocol is media path keying because it is multiplexed on the same port
+    as RTP and does not require support in the signaling protocol.  ZRTP does not
+    assume a Public Key Infrastructure (PKI) or require the complexity of certificates
+    in end devices.  For the media session, ZRTP provides confidentiality, protection
+    against man-in-the-middle (MiTM) attacks, and, in cases where the signaling protocol
+    provides end-to-end integrity protection, authentication.  ZRTP can utilize a
+    Session Description Protocol (SDP) attribute to provide discovery and authentication
+    through the signaling channel.  To provide best effort SRTP, ZRTP utilizes normal
+    RTP/AVP (Audio-Visual Profile) profiles.  ZRTP secures media sessions that include
+    a voice media stream and can also secure media sessions that do not include voice
+    by using an optional digital signature.  This document is not an Internet Standards
+    Track specification; it is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: NON WORKING GROUP

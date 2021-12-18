@@ -1,0 +1,83 @@
+---
+id: IETFRFC8223
+title:
+  type: main
+  content: Application-Aware Targeted LDP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8223
+  type: src
+type: standard
+docid:
+- id: IETF RFC8223
+  type: IETF
+- id: 10.17487/RFC8223
+  type: DOI
+docnumber: RFC8223
+date:
+  type: published
+  value: 2017-08
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Esale
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Torvi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Jalil
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: U. Chunduri
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Raza
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-08
+language: en
+script: Latn
+abstract:
+  content: Recent Targeted Label Distribution Protocol (tLDP) applications, such as
+    remote Loop-Free Alternates (LFAs) and BGP auto-discovered pseudowires, may automatically
+    establish a tLDP session with any Label Switching Router (LSR) in a network.  The
+    initiating LSR has information about the targeted applications to administratively
+    control initiation of the session.  However, the responding LSR has no such information
+    to control acceptance of this session.  This document defines a mechanism to advertise
+    and negotiate the Targeted Application Capability (TAC) during LDP session initialization.  As
+    the responding LSR becomes aware of targeted applications, it may establish a
+    limited number of tLDP sessions for certain applications.  In addition, each targeted
+    application is mapped to LDP Forwarding Equivalence Class (FEC) elements to advertise
+    only necessary LDP FEC label bindings over the session.  This document updates
+    RFC 7473 for enabling advertisement of LDP FEC label bindings over the session.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC7473
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: mpls

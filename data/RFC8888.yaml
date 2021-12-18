@@ -1,0 +1,72 @@
+---
+id: IETFRFC8888
+title:
+  type: main
+  content: RTP Control Protocol (RTCP) Feedback for Congestion Control
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8888
+  type: src
+type: standard
+docid:
+- id: IETF RFC8888
+  type: IETF
+- id: 10.17487/RFC8888
+  type: DOI
+docnumber: RFC8888
+date:
+  type: published
+  value: 2021-01
+contributor:
+- person:
+    name:
+      completename:
+        content: Z. Sarker
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Perkins
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Singh
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Ramalho
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-01
+language: en
+script: Latn
+abstract:
+  content: An effective RTP congestion control algorithm requires more fine-grained
+    feedback on packet loss, timing, and Explicit Congestion Notification (ECN) marks
+    than is provided by the standard RTP Control Protocol (RTCP) Sender Report (SR)
+    and Receiver Report (RR) packets.  This document describes an RTCP feedback message
+    intended to enable congestion control for interactive real-time traffic using
+    RTP.  The feedback message is designed for use with a sender-based congestion
+    control algorithm, in which the receiver of an RTP flow sends back to the sender
+    RTCP feedback packets containing the information the sender needs to perform congestion
+    control.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Congestion control
+- feedback message
+- RTP
+- RTCP
+editorialgroup:
+  name: avtcore

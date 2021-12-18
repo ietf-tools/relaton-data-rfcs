@@ -1,0 +1,62 @@
+---
+id: IETFRFC6277
+title:
+  type: main
+  content: Online Certificate Status Protocol Algorithm Agility
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6277
+  type: src
+type: standard
+docid:
+- id: IETF RFC6277
+  type: IETF
+- id: 10.17487/RFC6277
+  type: DOI
+docnumber: RFC6277
+date:
+  type: published
+  value: 2011-06
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Santesson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hallam-Baker
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-06
+language: en
+script: Latn
+abstract:
+  content: The Online Certificate Status Protocol (OCSP) requires server responses
+    to be signed but does not specify a mechanism for selecting the signature algorithm
+    to be used.  This may lead to avoidable interoperability failures in contexts
+    where multiple signature algorithms are in use.  This document specifies rules
+    for server signature algorithm selection and an extension that allows a client
+    to advise a server that specific signature algorithms are supported. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6960
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2560
+      format: text/plain
+fetched: '2021-12-18'
+keyword: ocsp
+editorialgroup:
+  name: pkix

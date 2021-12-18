@@ -1,0 +1,65 @@
+---
+id: IETFRFC3738
+title:
+  type: main
+  content: Wave and Equation Based Rate Control (WEBRC) Building Block
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3738
+  type: src
+type: standard
+docid:
+- id: IETF RFC3738
+  type: IETF
+- id: 10.17487/RFC3738
+  type: DOI
+docnumber: RFC3738
+date:
+  type: published
+  value: 2004-04
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Luby
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Goyal
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-04
+language: en
+script: Latn
+abstract:
+  content: This document specifies Wave and Equation Based Rate Control (WEBRC), which
+    provides rate and congestion control for data delivery.  WEBRC is specifically
+    designed to support protocols using IP multicast.  It provides multiple-rate,
+    congestion-controlled delivery to receivers, i.e., different receivers joined
+    to the same session may be receiving packets at different rates depending on the
+    bandwidths of their individual connections to the sender and on competing traffic
+    along these connections.  WEBRC requires no feedback from receivers to the sender,
+    i.e., it is a completely receiver-driven congestion control protocol.  Thus, it
+    is designed to scale to potentially massive numbers of receivers attached to a
+    session from a single sender.  Furthermore, because each individual receiver adjusts
+    to the available bandwidth between the sender and that receiver, there is the
+    potential to deliver data to each individual receiver at the fastest possible
+    rate for that receiver, even in a highly heterogeneous network architecture, using
+    a single sender.  This memo defines an Experimental Protocol for the Internet
+    community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- congestion control
+- data delivery
+- multicast
+- ip
+- internet protocol
+editorialgroup:
+  name: rmt

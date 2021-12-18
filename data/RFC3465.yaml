@@ -1,0 +1,47 @@
+---
+id: IETFRFC3465
+title:
+  type: main
+  content: TCP Congestion Control with Appropriate Byte Counting (ABC)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3465
+  type: src
+type: standard
+docid:
+- id: IETF RFC3465
+  type: IETF
+- id: 10.17487/RFC3465
+  type: DOI
+docnumber: RFC3465
+date:
+  type: published
+  value: 2003-02
+contributor:
+  person:
+    name:
+      completename:
+        content: M. Allman
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-02
+language: en
+script: Latn
+abstract:
+  content: This document proposes a small modification to the way TCP increases its
+    congestion window.  Rather than the traditional method of increasing the congestion
+    window by a constant amount for each arriving acknowledgment, the document suggests
+    basing the increase on the number of previously unacknowledged bytes each ACK
+    covers.  This change improves the performance of TCP, as well as closes a security
+    hole TCP receivers can use to induce the sender into increasing the sending rate
+    too rapidly.  This memo defines an Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- transmission control protocol
+- security performance
+editorialgroup:
+  name: NON WORKING GROUP

@@ -1,0 +1,88 @@
+---
+id: IETFRFC8012
+title:
+  type: main
+  content: Label Switched Path (LSP) and Pseudowire (PW) Ping/Trace over MPLS Networks
+    Using Entropy Labels (ELs)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8012
+  type: src
+type: standard
+docid:
+- id: IETF RFC8012
+  type: IETF
+- id: 10.17487/RFC8012
+  type: DOI
+docnumber: RFC8012
+date:
+  type: published
+  value: 2016-11
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Akiya
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Swallow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Malis
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Aldrin
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-11
+language: en
+script: Latn
+abstract:
+  content: Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) ping and
+    traceroute are methods used to test Equal-Cost Multipath (ECMP) paths. Ping is
+    known as a connectivity-verification method and traceroute is known as a fault-isolation
+    method, as described in RFC 4379. When an LSP is signaled using the Entropy Label
+    (EL) described in RFC 6790, the ability for LSP ping and traceroute operations
+    to discover and exercise ECMP paths is lost for scenarios where Label Switching
+    Routers (LSRs) apply different load-balancing techniques. One such scenario is
+    when some LSRs apply EL-based load balancing while other LSRs apply load balancing
+    that is not EL based (e.g., IP). Another scenario is when an EL-based LSP is stitched
+    with another LSP that can be EL based or not EL based. This document extends the
+    MPLS LSP ping and traceroute multipath mechanisms in RFC 6424 to allow the ability
+    of exercising LSPs that make use of the EL. This document updates RFC 6790.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6790
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- MPLS
+- LSP Ping
+- and Entropy
+editorialgroup:
+  name: mpls

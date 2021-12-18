@@ -1,0 +1,84 @@
+---
+id: IETFRFC8803
+title:
+  type: main
+  content: 0-RTT TCP Convert Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8803
+  type: src
+type: standard
+docid:
+- id: IETF RFC8803
+  type: IETF
+- id: 10.17487/RFC8803
+  type: DOI
+docnumber: RFC8803
+date:
+  type: published
+  value: 2020-07
+contributor:
+- person:
+    name:
+      completename:
+        content: O. Bonaventure
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Boucadair
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Gundavelli
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Seo
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Hesmans
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-07
+language: en
+script: Latn
+abstract:
+  content: This document specifies an application proxy, called Transport Converter,
+    to assist the deployment of TCP extensions such as Multipath TCP. A Transport
+    Converter may provide conversion service for one or more TCP extensions. The conversion
+    service is provided by means of the 0-RTT TCP Convert Protocol (Convert). This
+    protocol provides 0-RTT (Zero Round-Trip Time) conversion service since no extra
+    delay is induced by the protocol compared to connections that are not proxied.
+    Also, the Convert Protocol does not require any encapsulation (no tunnels whatsoever).
+    This specification assumes an explicit model, where the Transport Converter is
+    explicitly configured on hosts. As a sample applicability use case, this document
+    specifies how the Convert Protocol applies for Multipath TCP.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Hybrid access
+- aggregation
+- transport evolution
+- future internet
+- extension
+- Trafic Steering
+- ATSSS
+- Multipath TCP
+editorialgroup:
+  name: tcpm

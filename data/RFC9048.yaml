@@ -1,0 +1,91 @@
+---
+id: IETFRFC9048
+title:
+  type: main
+  content: Improved Extensible Authentication Protocol Method for 3GPP Mobile Network
+    Authentication and Key Agreement (EAP-AKA')
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9048
+  type: src
+type: standard
+docid:
+- id: IETF RFC9048
+  type: IETF
+- id: 10.17487/RFC9048
+  type: DOI
+docnumber: RFC9048
+date:
+  type: published
+  value: 2021-10
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Arkko
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Lehtovirta
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Torvinen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Eronen
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-10
+language: en
+script: Latn
+abstract:
+  content: The 3GPP mobile network Authentication and Key Agreement (AKA) is an authentication
+    mechanism for devices wishing to access mobile networks. RFC 4187 (EAP-AKA) made
+    the use of this mechanism possible within the Extensible Authentication Protocol
+    (EAP) framework. RFC 5448 (EAP-AKA') was an improved version of EAP-AKA. This
+    document is the most recent specification of EAP-AKA', including, for instance,
+    details about and references related to operating EAP-AKA' in 5G networks. EAP-AKA'
+    differs from EAP-AKA by providing a key derivation function that binds the keys
+    derived within the method to the name of the access network. The key derivation
+    function has been defined in the 3rd Generation Partnership Project (3GPP). EAP-AKA'
+    allows its use in EAP in an interoperable manner. EAP-AKA' also updates the algorithm
+    used in hash functions, as it employs SHA-256 / HMAC-SHA-256 instead of SHA-1
+    / HMAC-SHA-1, which is used in EAP-AKA. This version of the EAP-AKA' specification
+    defines the protocol behavior for both 4G and 5G deployments, whereas the previous
+    version defined protocol behavior for 4G deployments only. While EAP-AKA' as defined
+    in RFC 5448 is not obsolete, this document defines the most recent and fully backwards-compatible
+    specification of EAP-AKA'. This document updates both RFCs 4187 and 5448.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5448
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4187
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- EAP
+- AKA
+- AKA'
+- 3GPP
+editorialgroup:
+  name: emu

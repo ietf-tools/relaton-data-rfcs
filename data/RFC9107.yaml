@@ -1,0 +1,78 @@
+---
+id: IETFRFC9107
+title:
+  type: main
+  content: BGP Optimal Route Reflection (BGP ORR)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9107
+  type: src
+type: standard
+docid:
+- id: IETF RFC9107
+  type: IETF
+- id: 10.17487/RFC9107
+  type: DOI
+docnumber: RFC9107
+date:
+  type: published
+  value: 2021-08
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Raszuk
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Decraene
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Cassar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Åman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Wang
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-08
+language: en
+script: Latn
+abstract:
+  content: This document defines an extension to BGP route reflectors. On route reflectors,
+    BGP route selection is modified in order to choose the best route from the standpoint
+    of their clients, rather than from the standpoint of the route reflectors themselves.
+    Depending on the scaling and precision requirements, route selection can be specific
+    for one client, common for a set of clients, or common for all clients of a route
+    reflector. This solution is particularly applicable in deployments using centralized
+    route reflectors, where choosing the best route based on the route reflector's
+    IGP location is suboptimal. This facilitates, for example, a "best exit point"
+    policy ("hot potato routing"). The solution relies upon all route reflectors learning
+    all paths that are eligible for consideration. BGP route selection is performed
+    in the route reflectors based on the IGP cost from configured locations in the
+    link-state IGP.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: IDR
+editorialgroup:
+  name: idr

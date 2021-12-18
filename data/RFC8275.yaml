@@ -1,0 +1,51 @@
+---
+id: IETFRFC8275
+title:
+  type: main
+  content: Allowing Inheritable NFSv4 Access Control Entries to Override the Umask
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8275
+  type: src
+type: standard
+docid:
+- id: IETF RFC8275
+  type: IETF
+- id: 10.17487/RFC8275
+  type: DOI
+docnumber: RFC8275
+date:
+  type: published
+  value: 2017-12
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Fields
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Gruenbacher
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-12
+language: en
+script: Latn
+abstract:
+  content: In many environments, inheritable NFSv4 Access Control Entries (ACEs) can
+    be rendered ineffective by the application of the per-process file mode creation
+    mask (umask).  This can be addressed by transmitting the umask and create mode
+    as separate pieces of data, allowing the server to make more intelligent decisions
+    about the permissions to set on new files.  This document proposes a protocol
+    extension to accomplish that.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: NFSv4
+editorialgroup:
+  name: nfsv4

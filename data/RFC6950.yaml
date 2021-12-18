@@ -1,0 +1,66 @@
+---
+id: IETFRFC6950
+title:
+  type: main
+  content: Architectural Considerations on Application Features in the DNS
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6950
+  type: src
+type: standard
+docid:
+- id: IETF RFC6950
+  type: IETF
+- id: 10.17487/RFC6950
+  type: DOI
+docnumber: RFC6950
+date:
+  type: published
+  value: 2013-10
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Peterson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: O. Kolkman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Aboba
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-10
+language: en
+script: Latn
+abstract:
+  content: A number of Internet applications rely on the Domain Name System (DNS)
+    to support their operations.  Many applications use the DNS to locate services
+    for a domain; some, for example, transform identifiers other than domain names
+    into formats that the DNS can process, and then fetch application data or service
+    location data from the DNS.  Proposals incorporating sophisticated application
+    behavior using DNS as a substrate have raised questions about the role of the
+    DNS as an application platform.  This document explores the architectural consequences
+    of using the DNS to implement certain application features, and it provides guidance
+    to future application designers as to the limitations of the DNS as a substrate
+    and the situations in which alternative designs should be considered.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'

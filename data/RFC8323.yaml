@@ -1,0 +1,99 @@
+---
+id: IETFRFC8323
+title:
+  type: main
+  content: CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8323
+  type: src
+type: standard
+docid:
+- id: IETF RFC8323
+  type: IETF
+- id: 10.17487/RFC8323
+  type: DOI
+docnumber: RFC8323
+date:
+  type: published
+  value: 2018-02
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Bormann
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Lemay
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Hartke
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Silverajan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Raymor
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-02
+language: en
+script: Latn
+abstract:
+  content: The Constrained Application Protocol (CoAP), although inspired by HTTP,
+    was designed to use UDP instead of TCP. The message layer of CoAP over UDP includes
+    support for reliable delivery, simple congestion control, and flow control. Some
+    environments benefit from the availability of CoAP carried over reliable transports
+    such as TCP or Transport Layer Security (TLS). This document outlines the changes
+    required to use CoAP over TCP, TLS, and WebSockets transports. It also formally
+    updates RFC 7641 for use with these transports and RFC 7959 to enable the use
+    of larger messages over a reliable transport.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7641
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7959
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- CoAP
+- Constrained Application Protocol
+- REST
+- IoT
+- Internet of Things
+- NAT Traversal
+- CoAP in Browsers
+editorialgroup:
+  name: core

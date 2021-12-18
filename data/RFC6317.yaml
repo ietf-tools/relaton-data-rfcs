@@ -1,0 +1,65 @@
+---
+id: IETFRFC6317
+title:
+  type: main
+  content: Basic Socket Interface Extensions for the Host Identity Protocol (HIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6317
+  type: src
+type: standard
+docid:
+- id: IETF RFC6317
+  type: IETF
+- id: 10.17487/RFC6317
+  type: DOI
+docnumber: RFC6317
+date:
+  type: published
+  value: 2011-07
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Komu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Henderson
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-07
+language: en
+script: Latn
+abstract:
+  content: This document defines extensions to the current sockets API for the Host
+    Identity Protocol (HIP).  The extensions focus on the use of public-key-based
+    identifiers discovered via DNS resolution, but also define interfaces for manual
+    bindings between Host Identity Tags (HITs) and locators.  With the extensions,
+    the application can also support more relaxed security models where communication
+    can be non-HIP-based, according to local policies.  The extensions in this document
+    are experimental and provide basic tools for further experimentation with policies.  This
+    document defines an Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- host identity tag
+- cryptographic identity
+- cryptographic namespace
+- sockets API
+- Shim6
+- opportunistic mode
+- resolver
+- HIP wildcard address
+- ORCHID
+- source address selection
+- HIT prefix
+- locator handling
+editorialgroup:
+  name: hip

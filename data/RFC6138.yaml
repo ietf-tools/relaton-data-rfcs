@@ -1,0 +1,60 @@
+---
+id: IETFRFC6138
+title:
+  type: main
+  content: LDP IGP Synchronization for Broadcast Networks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6138
+  type: src
+type: standard
+docid:
+- id: IETF RFC6138
+  type: IETF
+- id: 10.17487/RFC6138
+  type: DOI
+docnumber: RFC6138
+date:
+  type: published
+  value: 2011-02
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Kini
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Lu
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-02
+language: en
+script: Latn
+abstract:
+  content: RFC 5443 describes a mechanism to achieve LDP IGP synchronization to prevent
+    black-holing traffic (e.g., VPN) when an Interior Gateway Protocol (IGP) is operational
+    on a link but Label Distribution Protocol (LDP) is not.  If this mechanism is
+    applied to broadcast links that have more than one LDP peer, the metric increase
+    procedure can only be applied to the link as a whole but not to an individual
+    peer.  When a new LDP peer comes up on a broadcast network, this can result in
+    loss of traffic through other established peers on that network.  This document
+    describes a mechanism to address that use-case without dropping traffic.  The
+    mechanism does not introduce any protocol message changes.  This document is not
+    an Internet Standards Track specification; it is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5443
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: mpls

@@ -1,0 +1,83 @@
+---
+id: IETFRFC6872
+title:
+  type: main
+  content: 'The Common Log Format (CLF) for the Session Initiation Protocol (SIP):
+    Framework and Information Model'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6872
+  type: src
+type: standard
+docid:
+- id: IETF RFC6872
+  type: IETF
+- id: 10.17487/RFC6872
+  type: DOI
+docnumber: RFC6872
+date:
+  type: published
+  value: 2013-02
+contributor:
+- person:
+    name:
+      completename:
+        content: V. Gurbani
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Burger
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Anjali
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Abdelnur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: O. Festor
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-02
+language: en
+script: Latn
+abstract:
+  content: Well-known web servers such as Apache and web proxies like Squid support
+    event logging using a common log format.  The logs produced using these de facto
+    standard formats are invaluable to system administrators for troubleshooting a
+    server and tool writers to craft tools that mine the log files and produce reports
+    and trends.  Furthermore, these log files can also be used to train anomaly detection
+    systems and feed events into a security event management system.  The Session
+    Initiation Protocol (SIP) does not have a common log format, and, as a result,
+    each server supports a distinct log format that makes it unnecessarily complex
+    to produce tools to do trend analysis and security detection.  This document describes
+    a framework, including requirements and analysis of existing approaches, and specifies
+    an information model for development of a SIP common log file format that can
+    be used uniformly by user agents, proxies, registrars, and redirect servers as
+    well as back-to-back user agents.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- logging
+- analytics
+- information model
+editorialgroup:
+  name: sipclf

@@ -1,0 +1,81 @@
+---
+id: IETFRFC5977
+title:
+  type: main
+  content: 'RMD-QOSM: The NSIS Quality-of-Service Model for Resource Management in
+    Diffserv'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5977
+  type: src
+type: standard
+docid:
+- id: IETF RFC5977
+  type: IETF
+- id: 10.17487/RFC5977
+  type: DOI
+docnumber: RFC5977
+date:
+  type: published
+  value: 2010-10
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Bader
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Westberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Karagiannis
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Kappler
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Phelan
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-10
+language: en
+script: Latn
+abstract:
+  content: This document describes a Next Steps in Signaling (NSIS) Quality-of-Service
+    (QoS) Model for networks that use the Resource Management in Diffserv (RMD) concept.  RMD
+    is a technique for adding admission control and preemption function to Differentiated
+    Services (Diffserv) networks.  The RMD QoS Model allows devices external to the
+    RMD network to signal reservation requests to Edge nodes in the RMD network.  The
+    RMD Ingress Edge nodes classify the incoming flows into traffic classes and signals
+    resource requests for the corresponding traffic class along the data path to the
+    Egress Edge nodes for each flow.  Egress nodes reconstitute the original requests
+    and continue forwarding them along the data path towards the final destination.  In
+    addition, RMD defines notification functions to indicate overload situations within
+    the domain to the Edge nodes.  This document defines an Experimental Protocol
+    for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- next steps in signaling
+- resource managment in diffserv
+editorialgroup:
+  name: nsis

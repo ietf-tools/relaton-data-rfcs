@@ -1,0 +1,61 @@
+---
+id: IETFRFC6398
+title:
+  type: main
+  content: IP Router Alert Considerations and Usage
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6398
+  type: src
+type: standard
+docid:
+- id: IETF RFC6398
+  type: IETF
+- id: 10.17487/RFC6398
+  type: DOI
+docnumber: RFC6398
+date:
+  type: published
+  value: 2011-10
+contributor:
+  person:
+    name:
+      completename:
+        content: F. Le Faucheur
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-10
+language: en
+script: Latn
+abstract:
+  content: The IP Router Alert Option is an IP option that alerts transit routers
+    to more closely examine the contents of an IP packet.  The Resource reSerVation
+    Protocol (RSVP), Pragmatic General Multicast (PGM), the Internet Group Management
+    Protocol (IGMP), Multicast Listener Discovery (MLD), Multicast Router Discovery
+    (MRD), and General Internet Signaling Transport (GIST) are some of the protocols
+    that make use of the IP Router Alert Option.  This document discusses security
+    aspects and usage guidelines around the use of the current IP Router Alert Option,
+    thereby updating RFC 2113 and RFC 2711.  Specifically, it provides recommendations
+    against using the Router Alert in the end-to-end open Internet and identifies
+    controlled environments where protocols depending on Router Alert can be used
+    safely.  It also provides recommendations about protection approaches for service
+    providers.  Finally, it provides brief guidelines for Router Alert implementation
+    on routers.  This memo documents an Internet Best Current Practice.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2113
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2711
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: intarea

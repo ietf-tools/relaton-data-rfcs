@@ -1,0 +1,62 @@
+---
+id: IETFRFC4474
+title:
+  type: main
+  content: Enhancements for Authenticated Identity Management in the Session Initiation
+    Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4474
+  type: src
+type: standard
+docid:
+- id: IETF RFC4474
+  type: IETF
+- id: 10.17487/RFC4474
+  type: DOI
+docnumber: RFC4474
+date:
+  type: published
+  value: 2006-08
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Peterson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Jennings
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-08
+language: en
+script: Latn
+abstract:
+  content: The existing security mechanisms in the Session Initiation Protocol (SIP)
+    are inadequate for cryptographically assuring the identity of the end users that
+    originate SIP requests, especially in an interdomain context.  This document defines
+    a mechanism for securely identifying originators of SIP messages.  It does so
+    by defining two new SIP header fields, Identity, for conveying a signature used
+    for validating the identity, and Identity-Info, for conveying a reference to the
+    certificate of the signer. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8224
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- security
+- identity
+- identity-info
+editorialgroup:
+  name: sip

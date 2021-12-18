@@ -1,0 +1,83 @@
+---
+id: IETFRFC7782
+title:
+  type: main
+  content: Transparent Interconnection of Lots of Links (TRILL) Active-Active Edge
+    Using Multiple MAC Attachments
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7782
+  type: src
+type: standard
+docid:
+- id: IETF RFC7782
+  type: IETF
+- id: 10.17487/RFC7782
+  type: DOI
+docnumber: RFC7782
+date:
+  type: published
+  value: 2016-02
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Zhang
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Perlman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Zhai
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Durrani
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Gupta
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-02
+language: en
+script: Latn
+abstract:
+  content: TRILL (Transparent Interconnection of Lots of Links) active-active service
+    provides end stations with flow-level load balance and resilience against link
+    failures at the edge of TRILL campuses, as described in RFC 7379. This document
+    specifies a method by which member RBridges (also referred to as Routing Bridges
+    or TRILL switches) in an active-active edge RBridge group use their own nicknames
+    as ingress RBridge nicknames to encapsulate frames from attached end systems.
+    Thus, remote edge RBridges (who are not in the group) will see one host Media
+    Access Control (MAC) address being associated with the multiple RBridges in the
+    group. Such remote edge RBridges are required to maintain all those associations
+    (i.e., MAC attachments) and to not flip-flop among them (as would occur prior
+    to the implementation of this specification). The design goals of this specification
+    are discussed herein.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- LAALP
+- vSwitch
+- MC-LAG
+- DRNI
+editorialgroup:
+  name: trill

@@ -1,0 +1,86 @@
+---
+id: IETFRFC6910
+title:
+  type: main
+  content: Completion of Calls for the Session Initiation Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6910
+  type: src
+type: standard
+docid:
+- id: IETF RFC6910
+  type: IETF
+- id: 10.17487/RFC6910
+  type: DOI
+docnumber: RFC6910
+date:
+  type: published
+  value: 2013-04
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Worley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Huelsemann
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Jesske
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Alexeitsev
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-04
+language: en
+script: Latn
+abstract:
+  content: The "completion of calls" feature defined in this specification allows
+    the caller of a failed call to be notified when the callee becomes available to
+    receive a call. For the realization of a basic solution without queuing, this
+    document references the usage of the dialog event package (RFC 4235) that is described
+    as 'Automatic Redial' in "Session Initiation Protocol Service Examples" (RFC 5359).
+    For the realization of a more comprehensive solution with queuing, this document
+    introduces an architecture for implementing these features in the Session Initiation
+    Protocol where "completion of calls" implementations associated with the caller's
+    and callee's endpoints cooperate to place the caller's request for completion
+    of calls into a queue at the callee's endpoint; when a caller's request is ready
+    to be serviced, re-attempt of the original, failed call is then made. The architecture
+    is designed to interoperate well with existing completion of calls solutions in
+    other networks.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- call completion
+- CC
+- SS7
+- Signaling System 7
+- purpose header parameter
+- m URI parameter
+- m header parameter
+- call-completion event package,Â CCBS
+- CCNR
+- CCNL
+- Call-Info header field
+- Presence Information Data Format
+- PIDF
+- P-Asserted-Identity header field
+editorialgroup:
+  name: bliss

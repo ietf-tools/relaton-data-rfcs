@@ -1,0 +1,78 @@
+---
+id: IETFRFC6625
+title:
+  type: main
+  content: Wildcards in Multicast VPN Auto-Discovery Routes
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6625
+  type: src
+type: standard
+docid:
+- id: IETF RFC6625
+  type: IETF
+- id: 10.17487/RFC6625
+  type: DOI
+docnumber: RFC6625
+date:
+  type: published
+  value: 2012-05
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Rekhter
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Hendrickx
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Qiu
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-05
+language: en
+script: Latn
+abstract:
+  content: In Multicast Virtual Private Networks (MVPNs), customer multicast flows
+    are carried in "tunnels" through a service provider's network.  The base specifications
+    for MVPN define BGP multicast VPN "auto-discovery routes" and specify how to use
+    an auto-discovery route to advertise the fact that an individual customer multicast
+    flow is being carried in a particular tunnel.  However, those specifications do
+    not provide a way to specify, in a single such route, that multiple customer flows
+    are being carried in a single tunnel.  Those specifications also do not provide
+    a way to advertise that a particular tunnel is to be used by default to carry
+    all customer flows, except in the case where that tunnel is joined by all the
+    provider edge routers of the MVPN.  This document eliminates these restrictions
+    by specifying the use of "wildcard" elements in the customer flow identifiers.  With
+    wildcard elements, a single auto-discovery route can refer to multiple customer
+    flows or even to all customer flows. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6514
+      format: text/plain
+fetched: '2021-12-18'
+keyword: mvpn
+editorialgroup:
+  name: l3vpn

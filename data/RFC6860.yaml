@@ -1,0 +1,72 @@
+---
+id: IETFRFC6860
+title:
+  type: main
+  content: Hiding Transit-Only Networks in OSPF
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6860
+  type: src
+type: standard
+docid:
+- id: IETF RFC6860
+  type: IETF
+- id: 10.17487/RFC6860
+  type: DOI
+docnumber: RFC6860
+date:
+  type: published
+  value: 2013-01
+contributor:
+- person:
+    name:
+      completename:
+        content: Y. Yang
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Retana
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Roy
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-01
+language: en
+script: Latn
+abstract:
+  content: A transit-only network is defined as a network connecting routers only.
+    In OSPF, transit-only networks are usually configured with routable IP addresses,
+    which are advertised in Link State Advertisements (LSAs) but are not needed for
+    data traffic. In addition, remote attacks can be launched against routers by sending
+    packets to these transit-only networks. This document presents a mechanism to
+    hide transit-only networks to speed up network convergence and reduce vulnerability
+    to remote attacks. In the context of this document, 'hiding' implies that the
+    prefixes are not installed in the routing tables on OSPF routers. In some cases,
+    IP addresses may still be visible when using OSPFv2. This document updates RFCs
+    2328 and 5340. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2328
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5340
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: ospf

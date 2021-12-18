@@ -1,0 +1,58 @@
+---
+id: IETFRFC7239
+title:
+  type: main
+  content: Forwarded HTTP Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7239
+  type: src
+type: standard
+docid:
+- id: IETF RFC7239
+  type: IETF
+- id: 10.17487/RFC7239
+  type: DOI
+docnumber: RFC7239
+date:
+  type: published
+  value: 2014-06
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Petersson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Nilsson
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-06
+language: en
+script: Latn
+abstract:
+  content: This document defines an HTTP extension header field that allows proxy
+    components to disclose information lost in the proxying process, for example,
+    the originating IP address of a request or IP address of the proxy on the user-agent-facing
+    interface. In a path of proxying components, this makes it possible to arrange
+    it so that each subsequent component will have access to, for example, all IP
+    addresses used in the chain of proxied HTTP requests. This document also specifies
+    guidelines for a proxy administrator to anonymize the origin of a request.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- proxy
+- x-forwarded-for
+- x-forwarded-by
+- x-forwarded-host
+- x-forwarded-proto
+- via
+editorialgroup:
+  name: appsawg

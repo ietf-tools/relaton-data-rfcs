@@ -1,0 +1,79 @@
+---
+id: IETFRFC4558
+title:
+  type: main
+  content: 'Node-ID Based Resource Reservation Protocol (RSVP) Hello: A Clarification
+    Statement'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4558
+  type: src
+type: standard
+docid:
+- id: IETF RFC4558
+  type: IETF
+- id: 10.17487/RFC4558
+  type: DOI
+docnumber: RFC4558
+date:
+  type: published
+  value: 2006-06
+contributor:
+- person:
+    name:
+      completename:
+        content: Z. Ali
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Rahman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Prairie
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Papadimitriou
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-06
+language: en
+script: Latn
+abstract:
+  content: Use of Node-ID based Resource Reservation Protocol (RSVP) Hello messages
+    is implied in a number of cases, e.g., when data and control planes are separated,
+    when TE links are unnumbered.  Furthermore, when link level failure detection
+    is performed by some means other than exchanging RSVP Hello messages, use of a
+    Node-ID based Hello session is optimal for detecting signaling adjacency failure
+    for Resource reSerVation Protocol-Traffic Engineering (RSVP-TE).  Nonetheless,
+    this implied behavior is unclear, and this document formalizes use of the Node-ID
+    based RSVP Hello session in some scenarios.  The procedure described in this document
+    applies to both Multi-Protocol Label Switching (MPLS) and Generalized MPLS (GMPLS)
+    capable nodes. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Multi-Protocol Label Switching
+- mpls
+- Generalized  Multi-Protocol Label Switching
+- gmpls
+- Traffic Engineering
+- te
+- rsvp-te
+- gr
+- graceful restart
+editorialgroup:
+  name: ccamp

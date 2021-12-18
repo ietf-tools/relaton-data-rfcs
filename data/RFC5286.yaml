@@ -1,0 +1,59 @@
+---
+id: IETFRFC5286
+title:
+  type: main
+  content: 'Basic Specification for IP Fast Reroute: Loop-Free Alternates'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5286
+  type: src
+type: standard
+docid:
+- id: IETF RFC5286
+  type: IETF
+- id: 10.17487/RFC5286
+  type: DOI
+docnumber: RFC5286
+date:
+  type: published
+  value: 2008-09
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Atlas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Zinin
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-09
+language: en
+script: Latn
+abstract:
+  content: This document describes the use of loop-free alternates to provide local
+    protection for unicast traffic in pure IP and MPLS/LDP networks in the event of
+    a single failure, whether link, node, or shared risk link group (SRLG).  The goal
+    of this technology is to reduce the packet loss that happens while routers converge
+    after a topology change due to a failure.  Rapid failure repair is achieved through
+    use of precalculated backup next-hops that are loop-free and safe to use until
+    the distributed network convergence process completes.  This simple approach does
+    not require any support from other routers.  The extent to which this goal can
+    be met by this specification is dependent on the topology of the network. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- FRR
+- LFA
+- recovery
+- failure
+- routing
+editorialgroup:
+  name: rtgwg

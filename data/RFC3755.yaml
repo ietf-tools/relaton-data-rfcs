@@ -1,0 +1,81 @@
+---
+id: IETFRFC3755
+title:
+  type: main
+  content: Legacy Resolver Compatibility for Delegation Signer (DS)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3755
+  type: src
+type: standard
+docid:
+- id: IETF RFC3755
+  type: IETF
+- id: 10.17487/RFC3755
+  type: DOI
+docnumber: RFC3755
+date:
+  type: published
+  value: 2004-05
+contributor:
+  person:
+    name:
+      completename:
+        content: S. Weiler
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-05
+language: en
+script: Latn
+abstract:
+  content: As the DNS Security (DNSSEC) specifications have evolved, the syntax and
+    semantics of the DNSSEC resource records (RRs) have changed.  Many deployed nameservers
+    understand variants of these semantics.  Dangerous interactions can occur when
+    a resolver that understands an earlier version of these semantics queries an authoritative
+    server that understands the new delegation signer semantics, including at least
+    one failure scenario that will cause an unsecured zone to be unresolvable.  This
+    document changes the type codes and mnemonics of the DNSSEC RRs (SIG, KEY, and
+    NXT) to avoid those interactions. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC4033
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC4034
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC4035
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3658
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2535
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- dnssec
+- DNS Security
+- rr
+- resource record
+- DNS-SECEXT
+- dns
+- authentication
+- nsec
+- nextsecure
+editorialgroup:
+  name: dnsext

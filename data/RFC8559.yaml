@@ -1,0 +1,67 @@
+---
+id: IETFRFC8559
+title:
+  type: main
+  content: Dynamic Authorization Proxying in the Remote Authentication Dial-In User
+    Service (RADIUS) Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8559
+  type: src
+type: standard
+docid:
+- id: IETF RFC8559
+  type: IETF
+- id: 10.17487/RFC8559
+  type: DOI
+docnumber: RFC8559
+date:
+  type: published
+  value: 2019-04
+contributor:
+- person:
+    name:
+      completename:
+        content: A. DeKok
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Korhonen
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-04
+language: en
+script: Latn
+abstract:
+  content: RFC 5176 defines Change-of-Authorization (CoA) and Disconnect Message (DM)
+    behavior for RADIUS.  RFC 5176 also suggests that proxying these messages is possible,
+    but it does not provide guidance as to how that is done.  This specification updates
+    RFC 5176 to correct that omission for scenarios where networks use realm-based
+    proxying as defined in RFC 7542.  This specification also updates RFC 5580 to
+    allow the Operator-Name attribute in CoA-Request and Disconnect-Request packets.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5176
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5580
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- RADIUS
+- Change of Authorization
+- CoA-Request
+- Disconnect-Request
+editorialgroup:
+  name: radext

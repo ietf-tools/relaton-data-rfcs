@@ -1,0 +1,68 @@
+---
+id: IETFRFC6515
+title:
+  type: main
+  content: IPv4 and IPv6 Infrastructure Addresses in BGP Updates for Multicast VPN
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6515
+  type: src
+type: standard
+docid:
+- id: IETF RFC6515
+  type: IETF
+- id: 10.17487/RFC6515
+  type: DOI
+docnumber: RFC6515
+date:
+  type: published
+  value: 2012-02
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Aggarwal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-02
+language: en
+script: Latn
+abstract:
+  content: To provide Multicast VPN (MVPN) service, Provider Edge routers originate
+    BGP Update messages that carry Multicast-VPN ("MCAST-VPN") BGP routes; they also
+    originate unicast VPN routes that carry MVPN-specific attributes.  These routes
+    encode addresses from the customer's address space, as well as addresses from
+    the provider's address space.  These two address spaces are independent, and the
+    address family (IPv4 or IPv6) of the two spaces may or may not be the same.  These
+    routes always contain an "address family" field that specifies whether the customer
+    addresses are IPv4 addresses or whether they are IPv6 addresses.  However, there
+    is no field that explicitly specifies the address family of the provider addresses.  To
+    ensure interoperability, this document specifies that provider IPv4 addresses
+    are always encoded in these update messages as 4-octet addresses, and that the
+    distinction between IPv4 and IPv6 is signaled solely by the length of the address
+    field.  Specific cases are explained in detail.  This document updates RFC 6514.
+    [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6514
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- mvpn
+- mcast-vpn
+- multicast-vpn
+editorialgroup:
+  name: l3vpn

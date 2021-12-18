@@ -1,0 +1,73 @@
+---
+id: IETFRFC7967
+title:
+  type: main
+  content: Constrained Application Protocol (CoAP) Option for No Server Response
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7967
+  type: src
+type: standard
+docid:
+- id: IETF RFC7967
+  type: IETF
+- id: 10.17487/RFC7967
+  type: DOI
+docnumber: RFC7967
+date:
+  type: published
+  value: 2016-08
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Bhattacharyya
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Bandyopadhyay
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Pal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Bose
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-08
+language: en
+script: Latn
+abstract:
+  content: There can be machine-to-machine (M2M) scenarios where server responses
+    to client requests are redundant. This kind of open-loop exchange (with no response
+    path from the server to the client) may be desired to minimize resource consumption
+    in constrained systems while updating many resources simultaneously or performing
+    high-frequency updates. CoAP already provides Non-confirmable (NON) messages that
+    are not acknowledged by the recipient. However, the request/response semantics
+    still require the server to respond with a status code indicating "the result
+    of the attempt to understand and satisfy the request", per RFC 7252. This specification
+    introduces a CoAP option called 'No-Response'. Using this option, the client can
+    explicitly express to the server its disinterest in all responses against the
+    particular request. This option also provides granular control to enable expression
+    of disinterest to a particular response class or a combination of response classes.
+    The server MAY decide to suppress the response by not transmitting it back to
+    the client according to the value of the No-Response option in the request. This
+    option may be effective for both unicast and multicast requests. This document
+    also discusses a few examples of applications that benefit from this option.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: No-Response

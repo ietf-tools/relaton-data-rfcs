@@ -1,0 +1,74 @@
+---
+id: IETFRFC3684
+title:
+  type: main
+  content: Topology Dissemination Based on Reverse-Path Forwarding (TBRPF)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3684
+  type: src
+type: standard
+docid:
+- id: IETF RFC3684
+  type: IETF
+- id: 10.17487/RFC3684
+  type: DOI
+docnumber: RFC3684
+date:
+  type: published
+  value: 2004-02
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Ogier
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: F. Templin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Lewis
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-02
+language: en
+script: Latn
+abstract:
+  content: Topology Dissemination Based on Reverse-Path Forwarding (TBRPF) is a proactive,
+    link-state routing protocol designed for mobile ad-hoc networks, which provides
+    hop-by-hop routing along shortest paths to each destination.  Each node running
+    TBRPF computes a source tree (providing paths to all reachable nodes) based on
+    partial topology information stored in its topology table, using a modification
+    of Dijkstra's algorithm.  To minimize overhead, each node reports only *part*
+    of its source tree to neighbors.  TBRPF uses a combination of periodic and differential
+    updates to keep all neighbors informed of the reported part of its source tree.  Each
+    node also has the option to report additional topology information (up to the
+    full topology), to provide improved robustness in highly mobile networks.  TBRPF
+    performs neighbor discovery using "differential" HELLO messages which report only
+    *changes* in the status of neighbors.  This results in HELLO messages that are
+    much smaller than those of other link-state routing protocols such as OSPF.  This
+    memo defines an Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- proactive routing
+- ad-hoc networks
+- neighbor discovery
+- link-state routing
+- mobile ad-hoc network
+- mobile mesh network
+- packet radio network
+- wireless communications
+editorialgroup:
+  name: manet

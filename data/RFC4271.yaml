@@ -1,0 +1,66 @@
+---
+id: IETFRFC4271
+title:
+  type: main
+  content: A Border Gateway Protocol 4 (BGP-4)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4271
+  type: src
+type: standard
+docid:
+- id: IETF RFC4271
+  type: IETF
+- id: 10.17487/RFC4271
+  type: DOI
+docnumber: RFC4271
+date:
+  type: published
+  value: 2006-01
+contributor:
+- person:
+    name:
+      completename:
+        content: Y. Rekhter
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Hares
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-01
+language: en
+script: Latn
+abstract:
+  content: This document discusses the Border Gateway Protocol (BGP), which is an
+    inter-Autonomous System routing protocol. The primary function of a BGP speaking
+    system is to exchange network reachability information with other BGP systems.
+    This network reachability information includes information on the list of Autonomous
+    Systems (ASes) that reachability information traverses. This information is sufficient
+    for constructing a graph of AS connectivity for this reachability from which routing
+    loops may be pruned, and, at the AS level, some policy decisions may be enforced.
+    BGP-4 provides a set of mechanisms for supporting Classless Inter-Domain Routing
+    (CIDR). These mechanisms include support for advertising a set of destinations
+    as an IP prefix, and eliminating the concept of network "class" within BGP. BGP-4
+    also introduces mechanisms that allow aggregation of routes, including aggregation
+    of AS paths. This document obsoletes RFC 1771. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- BGP-4
+- routing
+editorialgroup:
+  name: idr

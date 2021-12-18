@@ -1,0 +1,60 @@
+---
+id: IETFRFC5895
+title:
+  type: main
+  content: Mapping Characters for Internationalized Domain Names in Applications (IDNA)
+    2008
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5895
+  type: src
+type: standard
+docid:
+- id: IETF RFC5895
+  type: IETF
+- id: 10.17487/RFC5895
+  type: DOI
+docnumber: RFC5895
+date:
+  type: published
+  value: 2010-09
+contributor:
+- person:
+    name:
+      completename:
+        content: P. Resnick
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hoffman
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-09
+language: en
+script: Latn
+abstract:
+  content: In the original version of the Internationalized Domain Names in Applications
+    (IDNA) protocol, any Unicode code points taken from user input were mapped into
+    a set of Unicode code points that "made sense", and then encoded and passed to
+    the domain name system (DNS).  The IDNA2008 protocol (described in RFCs 5890,
+    5891, 5892, and 5893) presumes that the input to the protocol comes from a set
+    of "permitted" code points, which it then encodes and passes to the DNS, but does
+    not specify what to do with the result of user input.  This document describes
+    the actions that can be taken by an implementation between receiving user input
+    and passing permitted code points to the new IDNA protocol.  This document is
+    not an Internet Standards Track specification; it is published for informational
+    purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- user input
+- character mapping
+- locale
+- user interface
+- Unicode

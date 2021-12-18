@@ -1,0 +1,78 @@
+---
+id: IETFRFC9101
+title:
+  type: main
+  content: 'The OAuth 2.0 Authorization Framework: JWT-Secured Authorization Request
+    (JAR)'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9101
+  type: src
+type: standard
+docid:
+- id: IETF RFC9101
+  type: IETF
+- id: 10.17487/RFC9101
+  type: DOI
+docnumber: RFC9101
+date:
+  type: published
+  value: 2021-08
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Sakimura
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Bradley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Jones
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-08
+language: en
+script: Latn
+abstract:
+  content: The authorization request in OAuth 2.0 described in RFC 6749 utilizes query
+    parameter serialization, which means that authorization request parameters are
+    encoded in the URI of the request and sent through user agents such as web browsers.
+    While it is easy to implement, it means that a) the communication through the
+    user agents is not integrity protected and thus, the parameters can be tainted,
+    b) the source of the communication is not authenticated, and c) the communication
+    through the user agents can be monitored. Because of these weaknesses, several
+    attacks to the protocol have now been put forward. This document introduces the
+    ability to send request parameters in a JSON Web Token (JWT) instead, which allows
+    the request to be signed with JSON Web Signature (JWS) and encrypted with JSON
+    Web Encryption (JWE) so that the integrity, source authentication, and confidentiality
+    properties of the authorization request are attained. The request can be sent
+    by value or by reference.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Assertion
+- Claim
+- Security Token
+- OAuth
+- JavaScript Object Notation
+- JSON
+- JSON Web Token
+- JWT
+- JSON Web Signature
+- JWS
+- JSON Web Encryption
+- JWE
+editorialgroup:
+  name: oauth

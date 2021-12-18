@@ -1,0 +1,88 @@
+---
+id: IETFRFC8995
+title:
+  type: main
+  content: Bootstrapping Remote Secure Key Infrastructure (BRSKI)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8995
+  type: src
+type: standard
+docid:
+- id: IETF RFC8995
+  type: IETF
+- id: 10.17487/RFC8995
+  type: DOI
+docnumber: RFC8995
+date:
+  type: published
+  value: 2021-05
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Pritikin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Richardson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Eckert
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Behringer
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Watsen
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-05
+language: en
+script: Latn
+abstract:
+  content: This document specifies automated bootstrapping of an Autonomic Control
+    Plane.  To do this, a Secure Key Infrastructure is bootstrapped.  This is done
+    using manufacturer-installed X.509 certificates, in combination with a manufacturer's
+    authorizing service, both online and offline.  We call this process the Bootstrapping
+    Remote Secure Key Infrastructure (BRSKI) protocol.  Bootstrapping a new device
+    can occur when using a routable address and a cloud service, only link-local connectivity,
+    or limited/disconnected networks.  Support for deployment models with less stringent
+    security requirements is included.  Bootstrapping is complete when the cryptographic
+    identity of the new key infrastructure is successfully deployed to the device.  The
+    established secure connection can be used to deploy a locally issued certificate
+    to the device as well.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Autonomic Networking
+- Autonomous Operation
+- Self-Management
+- voucher-request
+- onboarding
+- zero-touch
+- voucher
+- RFC8366 voucher
+- IoT-onboarding
+- IoT-zero-touch
+- network-join
+editorialgroup:
+  name: anima

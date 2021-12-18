@@ -1,0 +1,86 @@
+---
+id: IETFRFC8736
+title:
+  type: main
+  content: PIM Message Type Space Extension and Reserved Bits
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8736
+  type: src
+type: standard
+docid:
+- id: IETF RFC8736
+  type: IETF
+- id: 10.17487/RFC8736
+  type: DOI
+docnumber: RFC8736
+date:
+  type: published
+  value: 2020-02
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Venaas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Retana
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-02
+language: en
+script: Latn
+abstract:
+  content: The PIM version 2 messages share a common message header format. The common
+    header definition contains eight reserved bits. This document specifies how these
+    bits may be used by individual message types and creates a registry containing
+    the per-message-type usage. This document also extends the PIM type space by defining
+    three new message types. For each of the new types, four of the previously reserved
+    bits are used to form an extended type range. This document updates RFCs 7761
+    and 3973 by defining the use of the currently Reserved field in the PIM common
+    header. This document further updates RFCs 7761 and 3973, along with RFCs 5015,
+    5059, 6754, and 8364, by specifying the use of the currently reserved bits for
+    each PIM message. This document obsoletes RFC 6166.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3973
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5015
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5059
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6754
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7761
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8364
+      format: text/plain
+fetched: '2021-12-18'
+keyword: Multicast
+editorialgroup:
+  name: pim

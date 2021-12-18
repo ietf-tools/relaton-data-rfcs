@@ -1,0 +1,82 @@
+---
+id: IETFRFC8705
+title:
+  type: main
+  content: OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access
+    Tokens
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8705
+  type: src
+type: standard
+docid:
+- id: IETF RFC8705
+  type: IETF
+- id: 10.17487/RFC8705
+  type: DOI
+docnumber: RFC8705
+date:
+  type: published
+  value: 2020-02
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Campbell
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Bradley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Sakimura
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Lodderstedt
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-02
+language: en
+script: Latn
+abstract:
+  content: This document describes OAuth client authentication and certificate-bound
+    access and refresh tokens using mutual Transport Layer Security (TLS) authentication
+    with X.509 certificates.  OAuth clients are provided a mechanism for authentication
+    to the authorization server using mutual TLS, based on either self-signed certificates
+    or public key infrastructure (PKI).  OAuth authorization servers are provided
+    a mechanism for binding access tokens to a client's mutual-TLS certificate, and
+    OAuth protected resources are provided a method for ensuring that such an access
+    token presented to it was issued to the client presenting the token.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- JSON Web Token
+- JWT
+- MTLS
+- Mutual TLS
+- proof-of-possession
+- proof-of-possession access token
+- key confirmed access token
+- certificate-bound access token
+- client certificate
+- X.509 Client Certificate Authentication
+- key confirmation
+- confirmation method
+- holder-of-key
+- OAuth
+editorialgroup:
+  name: oauth

@@ -1,0 +1,80 @@
+---
+id: IETFRFC8677
+title:
+  type: main
+  content: Name-Based Service Function Forwarder (nSFF) Component within a Service
+    Function Chaining (SFC) Framework
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8677
+  type: src
+type: standard
+docid:
+- id: IETF RFC8677
+  type: IETF
+- id: 10.17487/RFC8677
+  type: DOI
+docnumber: RFC8677
+date:
+  type: published
+  value: 2019-11
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Trossen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Purkayastha
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Rahman
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-11
+language: en
+script: Latn
+abstract:
+  content: Adoption of cloud and fog technology allows operators to deploy a single
+    "Service Function" (SF) to multiple "execution locations". The decision to steer
+    traffic to a specific location may change frequently based on load, proximity,
+    etc. Under the current Service Function Chaining (SFC) framework, steering traffic
+    dynamically to the different execution endpoints requires a specific "rechaining",
+    i.e., a change in the service function path reflecting the different IP endpoints
+    to be used for the new execution points. This procedure may be complex and take
+    time. In order to simplify rechaining and reduce the time to complete the procedure,
+    we discuss separating the logical Service Function Path (SFP) from the specific
+    execution endpoints. This can be done by identifying the SFs using a name rather
+    than a routable IP endpoint (or Layer 2 address). This document describes the
+    necessary extensions, additional functions, and protocol details in the Service
+    Function Forwarder (SFF) to handle name-based relationships. This document presents
+    InterDigital's approach to name-based SFC. It does not represent IETF consensus
+    and is presented here so that the SFC community may benefit from considering this
+    mechanism and the possibility of its use in the edge data centers.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- service function
+- SF
+- SFF
+- nSFF
+- SFC
+- SFP
+- NSH
+- FQDN
+- 5G
+- NSSAI
+- CCNF
+- NSSF
+- 3GPP

@@ -1,0 +1,68 @@
+---
+id: IETFRFC6093
+title:
+  type: main
+  content: On the Implementation of the TCP Urgent Mechanism
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6093
+  type: src
+type: standard
+docid:
+- id: IETF RFC6093
+  type: IETF
+- id: 10.17487/RFC6093
+  type: DOI
+docnumber: RFC6093
+date:
+  type: published
+  value: 2011-01
+contributor:
+- person:
+    name:
+      completename:
+        content: F. Gont
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Yourtchenko
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-01
+language: en
+script: Latn
+abstract:
+  content: This document analyzes how current TCP implementations process TCP urgent
+    indications and how the behavior of some widely deployed middleboxes affects how
+    end systems process urgent indications.  This document updates the relevant specifications
+    such that they accommodate current practice in processing TCP urgent indications,
+    raises awareness about the reliability of TCP urgent indications in the Internet,
+    and recommends against the use of urgent indications (but provides advice to applications
+    that do). [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC0793
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1011
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC1122
+      format: text/plain
+fetched: '2021-12-18'
+keyword: Transmission Control Protocol
+editorialgroup:
+  name: tcpm

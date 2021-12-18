@@ -1,0 +1,66 @@
+---
+id: IETFRFC7104
+title:
+  type: main
+  content: Duplication Grouping Semantics in the Session Description Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7104
+  type: src
+type: standard
+docid:
+- id: IETF RFC7104
+  type: IETF
+- id: 10.17487/RFC7104
+  type: DOI
+docnumber: RFC7104
+date:
+  type: published
+  value: 2014-01
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Begen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Cai
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Ou
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-01
+language: en
+script: Latn
+abstract:
+  content: Packet loss is undesirable for real-time multimedia sessions, but it can
+    occur due to congestion or other unplanned network outages.  This is especially
+    true for IP multicast networks, where packet loss patterns can vary greatly between
+    receivers.  One technique that can be used to recover from packet loss without
+    incurring unbounded delay for all the receivers is to duplicate the packets and
+    send them in separate redundant streams.  This document defines the semantics
+    for grouping redundant streams in the Session Description Protocol (SDP).  The
+    semantics defined in this document are to be used with the SDP Grouping Framework.  Grouping
+    semantics at the Synchronization Source (SSRC) level are also defined in this
+    document for RTP streams using SSRC multiplexing.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- SDP
+- ssrc
+- synchronization source
+- grouping framework
+editorialgroup:
+  name: mmusic

@@ -1,0 +1,68 @@
+---
+id: IETFRFC8678
+title:
+  type: main
+  content: 'Enterprise Multihoming using Provider-Assigned IPv6 Addresses without
+    Network Prefix Translation: Requirements and Solutions'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8678
+  type: src
+type: standard
+docid:
+- id: IETF RFC8678
+  type: IETF
+- id: 10.17487/RFC8678
+  type: DOI
+docnumber: RFC8678
+date:
+  type: published
+  value: 2019-12
+contributor:
+- person:
+    name:
+      completename:
+        content: F. Baker
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Bowers
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Linkova
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-12
+language: en
+script: Latn
+abstract:
+  content: Connecting an enterprise site to multiple ISPs over IPv6 using provider-assigned
+    addresses is difficult without the use of some form of Network Address Translation
+    (NAT). Much has been written on this topic over the last 10 to 15 years, but it
+    still remains a problem without a clearly defined or widely implemented solution.
+    Any multihoming solution without NAT requires hosts at the site to have addresses
+    from each ISP and to select the egress ISP by selecting a source address for outgoing
+    packets. It also requires routers at the site to take into account those source
+    addresses when forwarding packets out towards the ISPs. This document examines
+    currently available mechanisms for providing a solution to this problem for a
+    broad range of enterprise topologies. It covers the behavior of routers to forward
+    traffic by taking into account source address, and it covers the behavior of hosts
+    to select appropriate default source addresses. It also covers any possible role
+    that routers might play in providing information to hosts to help them select
+    appropriate source addresses. In the process of exploring potential solutions,
+    this document also makes explicit requirements for how the solution would be expected
+    to behave from the perspective of an enterprise site network administrator.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: rtgwg

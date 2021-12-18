@@ -1,0 +1,62 @@
+---
+id: IETFRFC8948
+title:
+  type: main
+  content: Structured Local Address Plan (SLAP) Quadrant Selection Option for DHCPv6
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8948
+  type: src
+type: standard
+docid:
+- id: IETF RFC8948
+  type: IETF
+- id: 10.17487/RFC8948
+  type: DOI
+docnumber: RFC8948
+date:
+  type: published
+  value: 2020-12
+contributor:
+- person:
+    name:
+      completename:
+        content: CJ. Bernardos
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Mourad
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-12
+language: en
+script: Latn
+abstract:
+  content: The IEEE originally structured the 48-bit Media Access Control (MAC) address
+    space in such a way that half of it was reserved for local use. In 2017, the IEEE
+    published a new standard (IEEE Std 802c) with a new optional Structured Local
+    Address Plan (SLAP). It specifies different assignment approaches in four specified
+    regions of the local MAC address space. The IEEE is developing protocols to assign
+    addresses (IEEE P802.1CQ). There is also work in the IETF on specifying a new
+    mechanism that extends DHCPv6 operation to handle the local MAC address assignments.
+    This document proposes extensions to DHCPv6 protocols to enable a DHCPv6 client
+    or a DHCPv6 relay to indicate a preferred SLAP quadrant to the server so that
+    the server may allocate MAC addresses in the quadrant requested by the relay or
+    client. A new DHCPv6 option (QUAD) is defined for this purpose.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- IEEE 802c
+- ELI
+- SAI
+- AAI
+- MAC address
+- LLADDR
+editorialgroup:
+  name: dhc

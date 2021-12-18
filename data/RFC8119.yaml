@@ -1,0 +1,60 @@
+---
+id: IETFRFC8119
+title:
+  type: main
+  content: SIP "cause" URI Parameter for Service Number Translation
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8119
+  type: src
+type: standard
+docid:
+- id: IETF RFC8119
+  type: IETF
+- id: 10.17487/RFC8119
+  type: DOI
+docnumber: RFC8119
+date:
+  type: published
+  value: 2017-03
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Mohali
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Barnes
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-03
+language: en
+script: Latn
+abstract:
+  content: RFC 4458 (regarding SIP URIs for applications) defines a "cause" URI parameter,
+    which may appear in the Request-URI of a SIP request, that is used to indicate
+    a reason why the request arrived to the User Agent Server (UAS) receiving the
+    message.  This document updates RFC 4458 by creating a new predefined value for
+    the "cause" URI parameter to cover service number translation for cases of retargeting
+    due to specific service action leading to the translation of a called service
+    access number.  This document also provides guidance, which was missing in RFC
+    4458, for using the "cause" URI parameter within the History-Info header field,
+    since this use is mandatory in some IP networks' implementations.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4458
+      format: text/plain
+fetched: '2021-12-18'
+keyword: Cause
+editorialgroup:
+  name: NON WORKING GROUP

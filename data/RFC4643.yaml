@@ -1,0 +1,64 @@
+---
+id: IETFRFC4643
+title:
+  type: main
+  content: Network News Transfer Protocol (NNTP) Extension for Authentication
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4643
+  type: src
+type: standard
+docid:
+- id: IETF RFC4643
+  type: IETF
+- id: 10.17487/RFC4643
+  type: DOI
+docnumber: RFC4643
+date:
+  type: published
+  value: 2006-10
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Vinocur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Murchison
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-10
+language: en
+script: Latn
+abstract:
+  content: This document defines an extension to the Network News Transfer Protocol
+    (NNTP) that allows a client to indicate an authentication mechanism to the server,
+    to perform an authentication protocol exchange, and optionally to negotiate a
+    security layer for subsequent protocol interactions during the remainder of an
+    NNTP session. This document updates and formalizes the AUTHINFO USER/PASS authentication
+    method specified in RFC 2980 and deprecates the AUTHINFO SIMPLE and AUTHINFO GENERIC
+    authentication methods. Additionally, this document defines a profile of the Simple
+    Authentication and Security Layer (SASL) for NNTP. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC2980
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- authinfo user/pass
+- authinfo simple
+- authinfo generic
+- sasl
+- simple authentication and security layer
+editorialgroup:
+  name: nntpext

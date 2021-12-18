@@ -1,0 +1,76 @@
+---
+id: IETFRFC6845
+title:
+  type: main
+  content: OSPF Hybrid Broadcast and Point-to-Multipoint Interface Type
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6845
+  type: src
+type: standard
+docid:
+- id: IETF RFC6845
+  type: IETF
+- id: 10.17487/RFC6845
+  type: DOI
+docnumber: RFC6845
+date:
+  type: published
+  value: 2013-01
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Sheth
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Wang
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Zhang
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-01
+language: en
+script: Latn
+abstract:
+  content: This document describes a mechanism to model a broadcast network as a hybrid
+    of broadcast and point-to-multipoint networks for purposes of OSPF operation.
+    Neighbor discovery and maintenance as well as Link State Advertisement (LSA) database
+    synchronization are performed using the broadcast model, but the network is represented
+    using the point-to-multipoint model in the router-LSAs of the routers connected
+    to it. This allows an accurate representation of the cost of communication between
+    different routers on the network, while maintaining the network efficiency of
+    broadcast operation. This approach is relatively simple and requires minimal changes
+    to OSPF. This document updates both OSPFv2 (RFC 2328) and OSPFv3 (RFC 5340). [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2328
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5340
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- OSPF
+- P2MP
+- Broadcast
+- Interface
+editorialgroup:
+  name: ospf

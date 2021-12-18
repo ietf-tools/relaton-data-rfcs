@@ -1,0 +1,76 @@
+---
+id: IETFRFC8076
+title:
+  type: main
+  content: A Usage for Shared Resources in RELOAD (ShaRe)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8076
+  type: src
+type: standard
+docid:
+- id: IETF RFC8076
+  type: IETF
+- id: 10.17487/RFC8076
+  type: DOI
+docnumber: RFC8076
+date:
+  type: published
+  value: 2017-03
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Knauf
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Schmidt
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Hege
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Waehlisch
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-03
+language: en
+script: Latn
+abstract:
+  content: This document defines a REsource LOcation And Discovery (RELOAD) Usage
+    for managing shared write access to RELOAD Resources.  Shared Resources in RELOAD
+    (ShaRe) form a basic primitive for enabling various coordination and notification
+    schemes among distributed peers.  Access in ShaRe is controlled by a hierarchical
+    trust delegation scheme maintained within an access list.  A new USER-CHAIN-ACL
+    access policy allows authorized peers to write a Shared Resource without owning
+    its corresponding certificate.  This specification also adds mechanisms to store
+    Resources with a variable name that is useful whenever peer-independent rendezvous
+    processes are required.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- P2PSIP
+- SIP
+- Conferencing
+- Voice over IP
+- Peer-to-Peer
+- Access Control
+- Group Management
+- Rendezvous
+editorialgroup:
+  name: p2psip

@@ -1,0 +1,48 @@
+---
+id: IETFRFC6197
+title:
+  type: main
+  content: Location-to-Service Translation (LoST) Service List Boundary Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6197
+  type: src
+type: standard
+docid:
+- id: IETF RFC6197
+  type: IETF
+- id: 10.17487/RFC6197
+  type: DOI
+docnumber: RFC6197
+date:
+  type: published
+  value: 2011-04
+contributor:
+  person:
+    name:
+      completename:
+        content: K. Wolf
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-04
+language: en
+script: Latn
+abstract:
+  content: Location-to-Service Translation (LoST) maps service identifiers and location
+    information to service contact URIs.  If a LoST client wants to discover available
+    services for a particular location, it will perform a <listServicesByLocation>
+    query to the LoST server.  However, the LoST server, in its response, does not
+    provide context information; that is, it does not provide any additional information
+    about the geographical region within which the returned list of services is considered
+    valid.  Therefore, this document defines a Service List Boundary that returns
+    a local context along with the list of services returned, in order to assist the
+    client in not missing a change in available services when moving.  This document
+    defines an Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: listservicesbylocation
+editorialgroup:
+  name: ecrit

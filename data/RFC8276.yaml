@@ -1,0 +1,52 @@
+---
+id: IETFRFC8276
+title:
+  type: main
+  content: File System Extended Attributes in NFSv4
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8276
+  type: src
+type: standard
+docid:
+- id: IETF RFC8276
+  type: IETF
+- id: 10.17487/RFC8276
+  type: DOI
+docnumber: RFC8276
+date:
+  type: published
+  value: 2017-12
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Naik
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Eshel
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-12
+language: en
+script: Latn
+abstract:
+  content: This document describes an optional feature extending the NFSv4 protocol.  This
+    feature allows extended attributes (hereinafter also referred to as xattrs) to
+    be interrogated and manipulated using NFSv4 clients.  Xattrs are provided by a
+    file system to associate opaque metadata, not interpreted by the file system,
+    with files and directories.  Such support is present in many modern local file
+    systems.  New file attributes are provided to allow clients to query the server
+    for xattr support, with that support consisting of new operations to get and set
+    xattrs on file system objects.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: nfsv4

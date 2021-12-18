@@ -1,0 +1,69 @@
+---
+id: IETFRFC5077
+title:
+  type: main
+  content: Transport Layer Security (TLS) Session Resumption without Server-Side State
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5077
+  type: src
+type: standard
+docid:
+- id: IETF RFC5077
+  type: IETF
+- id: 10.17487/RFC5077
+  type: DOI
+docnumber: RFC5077
+date:
+  type: published
+  value: 2008-01
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Salowey
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Zhou
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Eronen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-01
+language: en
+script: Latn
+abstract:
+  content: This document describes a mechanism that enables the Transport Layer Security
+    (TLS) server to resume sessions and avoid keeping per-client session state.  The
+    TLS server encapsulates the session state into a ticket and forwards it to the
+    client.  The client can subsequently resume a session using the obtained ticket.  This
+    document obsoletes RFC 4507. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8446
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: NON WORKING GROUP

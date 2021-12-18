@@ -1,0 +1,73 @@
+---
+id: IETFRFC6233
+title:
+  type: main
+  content: IS-IS Registry Extension for Purges
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6233
+  type: src
+type: standard
+docid:
+- id: IETF RFC6233
+  type: IETF
+- id: 10.17487/RFC6233
+  type: DOI
+docnumber: RFC6233
+date:
+  type: published
+  value: 2011-05
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Ginsberg
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-05
+language: en
+script: Latn
+abstract:
+  content: IANA maintains the "IS-IS TLV Codepoints" registry.  This registry documents
+    which TLVs can appear in different types of IS-IS Protocol Data Units (PDUs),
+    but does not document which TLVs can be found in zero Remaining Lifetime Link
+    State PDUs (LSPs), a.k.a.  purges.  This document extends the existing registry
+    to record the set of TLVs that are permissible in purges and updates the rules
+    for generating and processing purges in the presence of authentication.  This
+    document updates RFC 3563, RFC 5304, and RFC 5310. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3563
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5304
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5310
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Intermediate System to Intermediate System
+- LSP
+- security
+- authentication
+- IANA
+editorialgroup:
+  name: isis

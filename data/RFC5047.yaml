@@ -1,0 +1,80 @@
+---
+id: IETFRFC5047
+title:
+  type: main
+  content: 'DA: Datamover Architecture for the Internet Small Computer System Interface
+    (iSCSI)'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5047
+  type: src
+type: standard
+docid:
+- id: IETF RFC5047
+  type: IETF
+- id: 10.17487/RFC5047
+  type: DOI
+docnumber: RFC5047
+date:
+  type: published
+  value: 2007-10
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Chadalapaka
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Hufferd
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Satran
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Shah
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-10
+language: en
+script: Latn
+abstract:
+  content: The Internet Small Computer System Interface (iSCSI) is a SCSI transport
+    protocol that maps the SCSI family of application protocols onto TCP/IP.  Datamover
+    Architecture for iSCSI (DA) defines an abstract model in which the movement of
+    data between iSCSI end nodes is logically separated from the rest of the iSCSI
+    protocol in order to allow iSCSI to adapt to innovations available in new IP transports.  While
+    DA defines the architectural functions required of the class of Datamover protocols,
+    it does not define any specific Datamover protocols.  Each such Datamover protocol,
+    defined in a separate document, provides a reliable transport for all iSCSI PDUs,
+    but actually moves the data required for certain iSCSI PDUs without involving
+    the remote iSCSI layer itself.  This document begins with an introduction of a
+    few new abstractions, defines a layered architecture for iSCSI and Datamover protocols,
+    and then models the interactions within an iSCSI end node between the iSCSI layer
+    and the Datamover layer that happen in order to transparently perform remote data
+    movement within an IP fabric.  It is intended that this definition will help map
+    iSCSI to generic Remote Direct Memory Access (RDMA)-capable IP fabrics in the
+    future comprising TCP, the Stream Control Transmission Protocol (SCTP), and possibly
+    other underlying network transport layers, such as InfiniBand.  This memo provides
+    information for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- scsi transport protocol
+- tcp/ip
+editorialgroup:
+  name: ips

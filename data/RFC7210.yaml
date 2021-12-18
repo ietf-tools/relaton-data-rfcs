@@ -1,0 +1,67 @@
+---
+id: IETFRFC7210
+title:
+  type: main
+  content: Database of Long-Lived Symmetric Cryptographic Keys
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7210
+  type: src
+type: standard
+docid:
+- id: IETF RFC7210
+  type: IETF
+- id: 10.17487/RFC7210
+  type: DOI
+docnumber: RFC7210
+date:
+  type: published
+  value: 2014-04
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Housley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Polk
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Hartman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Zhang
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-04
+language: en
+script: Latn
+abstract:
+  content: This document specifies the information contained in a conceptual database
+    of long-lived cryptographic keys used by many different routing protocols for
+    message security.  The database is designed to support both manual and automated
+    key management.  In addition to describing the schema for the database, this document
+    describes the operations that can be performed on the database as well as the
+    requirements for the routing protocols that wish to use the database.  In many
+    typical scenarios, the protocols do not directly use the long-lived key, but rather
+    a key derivation function is used to derive a short-lived key from a long-lived
+    key.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: karp

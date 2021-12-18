@@ -1,0 +1,83 @@
+---
+id: IETFRFC8062
+title:
+  type: main
+  content: Anonymity Support for Kerberos
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8062
+  type: src
+type: standard
+docid:
+- id: IETF RFC8062
+  type: IETF
+- id: 10.17487/RFC8062
+  type: DOI
+docnumber: RFC8062
+date:
+  type: published
+  value: 2017-02
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Zhu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Leach
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Hartman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Emery
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-02
+language: en
+script: Latn
+abstract:
+  content: This document defines extensions to the Kerberos protocol to allow a Kerberos
+    client to securely communicate with a Kerberos application service without revealing
+    its identity, or without revealing more than its Kerberos realm.  It also defines
+    extensions that allow a Kerberos client to obtain anonymous credentials without
+    revealing its identity to the Kerberos Key Distribution Center (KDC).  This document
+    updates RFCs 4120, 4121, and 4556.  This document obsoletes RFC 6112 and reclassifies
+    that document as Historic.  RFC 6112 contained errors, and the protocol described
+    in that specification is not interoperable with any known implementation.  This
+    specification describes a protocol that interoperates with multiple implementations.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4120
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4121
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4556
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: kitten

@@ -1,0 +1,93 @@
+---
+id: IETFRFC6198
+title:
+  type: main
+  content: Requirements for the Graceful Shutdown of BGP Sessions
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6198
+  type: src
+type: standard
+docid:
+- id: IETF RFC6198
+  type: IETF
+- id: 10.17487/RFC6198
+  type: DOI
+docnumber: RFC6198
+date:
+  type: published
+  value: 2011-04
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Decraene
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Francois
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pelsser
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Z. Ahmad
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A.J. Elizondo Armengol
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Takeda
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-04
+language: en
+script: Latn
+abstract:
+  content: The Border Gateway Protocol (BGP) is heavily used in Service Provider networks
+    for both Internet and BGP/MPLS VPN services.  For resiliency purposes, redundant
+    routers and BGP sessions can be deployed to reduce the consequences of an Autonomous
+    System Border Router (ASBR) or BGP session breakdown on customers' or peers' traffic.  However,
+    simply taking down or even bringing up a BGP session for maintenance purposes
+    may still induce connectivity losses during the BGP convergence.  This is no longer
+    satisfactory for new applications (e.g., voice over IP, online gaming, VPN).  Therefore,
+    a solution is required for the graceful shutdown of a (set of) BGP session(s)
+    in order to limit the amount of traffic loss during a planned shutdown.  This
+    document expresses requirements for such a solution.  This document is not an
+    Internet Standards Track specification; it is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- routing
+- BGP
+- graceful
+- shutdown
+- connectivity loss
+- maintenance
+- network operation
+- make-before-break
+- planned
+editorialgroup:
+  name: grow

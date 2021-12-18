@@ -1,0 +1,71 @@
+---
+id: IETFRFC5749
+title:
+  type: main
+  content: Distribution of EAP-Based Keys for Handover and Re-Authentication
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5749
+  type: src
+type: standard
+docid:
+- id: IETF RFC5749
+  type: IETF
+- id: 10.17487/RFC5749
+  type: DOI
+docnumber: RFC5749
+date:
+  type: published
+  value: 2010-03
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Hoeper
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Nakhjiri
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Ohba
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-03
+language: en
+script: Latn
+abstract:
+  content: This document describes an abstract mechanism for delivering root keys
+    from an Extensible Authentication Protocol (EAP) server to another network server
+    that requires the keys for offering security protected services, such as re-authentication,
+    to an EAP peer.  The distributed root key can be either a usage-specific root
+    key (USRK), a domain-specific root key (DSRK), or a domain-specific usage- specific
+    root key (DSUSRK) that has been derived from an Extended Master Session Key (EMSK)
+    hierarchy previously established between the EAP server and an EAP peer.  This
+    document defines a template for a key distribution exchange (KDE) protocol that
+    can distribute these different types of root keys using a AAA (Authentication,
+    Authorization, and Accounting) protocol and discusses its security requirements.  The
+    described protocol template does not specify message formats, data encoding, or
+    other implementation details.  It thus needs to be instantiated with a specific
+    protocol (e.g., RADIUS or Diameter) before it can be used. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- security
+- authentication
+- mobility
+- EAP
+- key management
+- key distribution
+editorialgroup:
+  name: hokey

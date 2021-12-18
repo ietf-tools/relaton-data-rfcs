@@ -1,0 +1,62 @@
+---
+id: IETFRFC5906
+title:
+  type: main
+  content: 'Network Time Protocol Version 4: Autokey Specification'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5906
+  type: src
+type: standard
+docid:
+- id: IETF RFC5906
+  type: IETF
+- id: 10.17487/RFC5906
+  type: DOI
+docnumber: RFC5906
+date:
+  type: published
+  value: 2010-06
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Haberman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Mills
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-06
+language: en
+script: Latn
+abstract:
+  content: This memo describes the Autokey security model for authenticating servers
+    to clients using the Network Time Protocol (NTP) and public key cryptography.
+    Its design is based on the premise that IPsec schemes cannot be adopted intact,
+    since that would preclude stateless servers and severely compromise timekeeping
+    accuracy. In addition, Public Key Infrastructure (PKI) schemes presume authenticated
+    time values are always available to enforce certificate lifetimes; however, cryptographically
+    verified timestamps require interaction between the timekeeping and authentication
+    functions. This memo includes the Autokey requirements analysis, design principles,
+    and protocol specification. A detailed description of the protocol states, events,
+    and transition functions is included. A prototype of the Autokey design based
+    on this memo has been implemented, tested, and documented in the NTP version 4
+    (NTPv4) software distribution for the Unix, Windows, and Virtual Memory System
+    (VMS) operating systems at http://www.ntp.org. This document is not an Internet
+    Standards Track specification; it is published for informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- ntp
+- ntpv4
+- public key cryptography
+editorialgroup:
+  name: ntp

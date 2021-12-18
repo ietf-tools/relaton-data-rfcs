@@ -1,0 +1,54 @@
+---
+id: IETFRFC7505
+title:
+  type: main
+  content: A "Null MX" No Service Resource Record for Domains That Accept No Mail
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7505
+  type: src
+type: standard
+docid:
+- id: IETF RFC7505
+  type: IETF
+- id: 10.17487/RFC7505
+  type: DOI
+docnumber: RFC7505
+date:
+  type: published
+  value: 2015-06
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Levine
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Delany
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-06
+language: en
+script: Latn
+abstract:
+  content: Internet mail determines the address of a receiving server through the
+    DNS, first by looking for an MX record and then by looking for an A/AAAA record
+    as a fallback.  Unfortunately, this means that the A/AAAA record is taken to be
+    mail server address even when that address does not accept mail.  The No Service
+    MX RR, informally called "null MX", formalizes the existing mechanism by which
+    a domain announces that it accepts no mail, without having to provide a mail server;
+    this permits significant operational efficiencies.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DNS
+- e-mail
+editorialgroup:
+  name: appsawg

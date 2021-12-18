@@ -1,0 +1,71 @@
+---
+id: IETFRFC7046
+title:
+  type: main
+  content: A Common API for Transparent Hybrid Multicast
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7046
+  type: src
+type: standard
+docid:
+- id: IETF RFC7046
+  type: IETF
+- id: 10.17487/RFC7046
+  type: DOI
+docnumber: RFC7046
+date:
+  type: published
+  value: 2013-12
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Waehlisch
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Schmidt
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Venaas
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-12
+language: en
+script: Latn
+abstract:
+  content: Group communication services exist in a large variety of flavors and technical
+    implementations at different protocol layers.  Multicast data distribution is
+    most efficiently performed on the lowest available layer, but a heterogeneous
+    deployment status of multicast technologies throughout the Internet requires an
+    adaptive service binding at runtime.  Today, it is difficult to write an application
+    that runs everywhere and at the same time makes use of the most efficient multicast
+    service available in the network.  Facing robustness requirements, developers
+    are frequently forced to use a stable upper-layer protocol provided by the application
+    itself.  This document describes a common multicast API that is suitable for transparent
+    communication in underlay and overlay and that grants access to the different
+    flavors of multicast.  It proposes an abstract naming scheme that uses multicast
+    URIs, and it discusses mapping mechanisms between different namespaces and distribution
+    technologies.  Additionally, this document describes the application of this API
+    for building gateways that interconnect current Multicast Domains throughout the
+    Internet.  It reports on an implementation of the programming Interface, including
+    service middleware.  This document is a product of the Scalable Adaptive Multicast
+    (SAM) Research Group.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Peer-to-Peer (P2P)
+- adaptive multicast
+- multicast  naming
+- multicast addressing

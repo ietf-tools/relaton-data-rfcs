@@ -1,0 +1,71 @@
+---
+id: IETFRFC8353
+title:
+  type: main
+  content: 'Generic Security Service API Version 2: Java Bindings Update'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8353
+  type: src
+type: standard
+docid:
+- id: IETF RFC8353
+  type: IETF
+- id: 10.17487/RFC8353
+  type: DOI
+docnumber: RFC8353
+date:
+  type: published
+  value: 2018-05
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Upadhyay
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Malkani
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Wang
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-05
+language: en
+script: Latn
+abstract:
+  content: 'The Generic Security Services Application Programming Interface (GSS-API)
+    offers application programmers uniform access to security services atop a variety
+    of underlying cryptographic mechanisms. This document updates the Java bindings
+    for the GSS-API that are specified in "Generic Security Service API Version 2:
+    Java Bindings Update" (RFC 5653). This document obsoletes RFC 5653 by adding a
+    new output token field to the GSSException class so that when the initSecContext
+    or acceptSecContext methods of the GSSContext class fail, it has a chance to emit
+    an error token that can be sent to the peer for debugging or informational purpose.
+    The stream-based GSSContext methods are also removed in this version. The GSS-API
+    is described at a language-independent conceptual level in "Generic Security Service
+    Application Program Interface Version 2, Update 1" (RFC 2743). The GSS-API allows
+    a caller application to authenticate a principal identity, to delegate rights
+    to a peer, and to apply security services such as confidentiality and integrity
+    on a per-message basis. Examples of security mechanisms defined for GSS-API are
+    "The Simple Public-Key GSS-API Mechanism (SPKM)" (RFC 2025) and "The Kerberos
+    Version 5 Generic Security Service Application Program Interface (GSS-API) Mechanism:
+    Version 2" (RFC 4121).'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- JGSS
+- GSS-API
+editorialgroup:
+  name: kitten

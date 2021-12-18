@@ -1,0 +1,95 @@
+---
+id: IETFRFC5746
+title:
+  type: main
+  content: Transport Layer Security (TLS) Renegotiation Indication Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5746
+  type: src
+type: standard
+docid:
+- id: IETF RFC5746
+  type: IETF
+- id: 10.17487/RFC5746
+  type: DOI
+docnumber: RFC5746
+date:
+  type: published
+  value: 2010-02
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Rescorla
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Ray
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Dispensa
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Oskov
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-02
+language: en
+script: Latn
+abstract:
+  content: Secure Socket Layer (SSL) and Transport Layer Security (TLS) renegotiation
+    are vulnerable to an attack in which the attacker forms a TLS connection with
+    the target server, injects content of his choice, and then splices in a new TLS
+    connection from a client.  The server treats the client's initial TLS handshake
+    as a renegotiation and thus believes that the initial data transmitted by the
+    attacker is from the same entity as the subsequent client data.  This specification
+    defines a TLS extension to cryptographically tie renegotiations to the TLS connections
+    they are being performed over, thus preventing this attack. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5246
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4366
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4347
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4346
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2246
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- ssl
+- secure socket layer
+editorialgroup:
+  name: tls

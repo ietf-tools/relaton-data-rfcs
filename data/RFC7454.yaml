@@ -1,0 +1,61 @@
+---
+id: IETFRFC7454
+title:
+  type: main
+  content: BGP Operations and Security
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7454
+  type: src
+type: standard
+docid:
+- id: IETF RFC7454
+  type: IETF
+- id: 10.17487/RFC7454
+  type: DOI
+docnumber: RFC7454
+date:
+  type: published
+  value: 2015-02
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Durand
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: I. Pepelnjak
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Doering
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-02
+language: en
+script: Latn
+abstract:
+  content: The Border Gateway Protocol (BGP) is the protocol almost exclusively used
+    in the Internet to exchange routing information between network domains. Due to
+    this central nature, it is important to understand the security measures that
+    can and should be deployed to prevent accidental or intentional routing disturbances.
+    This document describes measures to protect the BGP sessions itself such as Time
+    to Live (TTL), the TCP Authentication Option (TCP-AO), and control-plane filtering.
+    It also describes measures to better control the flow of routing information,
+    using prefix filtering and automation of prefix filters, max-prefix filtering,
+    Autonomous System (AS) path filtering, route flap dampening, and BGP community
+    scrubbing.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: opsec

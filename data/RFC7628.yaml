@@ -1,0 +1,65 @@
+---
+id: IETFRFC7628
+title:
+  type: main
+  content: A Set of Simple Authentication and Security Layer (SASL) Mechanisms for
+    OAuth
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7628
+  type: src
+type: standard
+docid:
+- id: IETF RFC7628
+  type: IETF
+- id: 10.17487/RFC7628
+  type: DOI
+docnumber: RFC7628
+date:
+  type: published
+  value: 2015-08
+contributor:
+- person:
+    name:
+      completename:
+        content: W. Mills
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Showalter
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Tschofenig
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-08
+language: en
+script: Latn
+abstract:
+  content: OAuth enables a third-party application to obtain limited access to a protected
+    resource, either on behalf of a resource owner by orchestrating an approval interaction
+    or by allowing the third-party application to obtain access on its own behalf.
+    This document defines how an application client uses credentials obtained via
+    OAuth over the Simple Authentication and Security Layer (SASL) to access a protected
+    resource at a resource server. Thereby, it enables schemes defined within the
+    OAuth framework for non-HTTP-based application protocols. Clients typically store
+    the user's long-term credential. This does, however, lead to significant security
+    vulnerabilities, for example, when such a credential leaks. A significant benefit
+    of OAuth for usage in those clients is that the password is replaced by a shared
+    secret with higher entropy, i.e., the token. Tokens typically provide limited
+    access rights and can be managed and revoked separately from the user's long-term
+    password.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: kitten

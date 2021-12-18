@@ -1,0 +1,72 @@
+---
+id: IETFRFC3318
+title:
+  type: main
+  content: Framework Policy Information Base
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3318
+  type: src
+type: standard
+docid:
+- id: IETF RFC3318
+  type: IETF
+- id: 10.17487/RFC3318
+  type: DOI
+docnumber: RFC3318
+date:
+  type: published
+  value: 2003-03
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Sahita
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Hahn
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Chan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. McCloghrie
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-03
+language: en
+script: Latn
+abstract:
+  content: This document defines a set of PRovisioning Classes (PRCs) and textual
+    conventions that are common to all clients that provision policy using Common
+    Open Policy Service (COPS) protocol for Provisioning. Structure of Policy Provisioning
+    Information (SPPI) describes a structure for specifying policy information that
+    can then be transmitted to a network device for the purpose of configuring policy
+    at that device. The model underlying this structure is one of well-defined (PRCs)
+    and instances of these classes (PRIs) residing in a virtual information store
+    called the Policy Information Base (PIB). One way to provision policy is by means
+    of the (COPS) protocol with the extensions for provisioning. This protocol supports
+    multiple clients, each of which may provision policy for a specific policy domain
+    such as QoS, virtual private networks, or security. As described in COPS usage
+    for Policy Provisioning (COPS-PR), each client supports a non-overlapping and
+    independent set of PIB modules. However, some PRovisioning Classes are common
+    to all subject-categories (client-types) and need to be present in each.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: rap

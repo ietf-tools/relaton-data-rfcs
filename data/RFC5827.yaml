@@ -1,0 +1,75 @@
+---
+id: IETFRFC5827
+title:
+  type: main
+  content: Early Retransmit for TCP and Stream Control Transmission Protocol (SCTP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5827
+  type: src
+type: standard
+docid:
+- id: IETF RFC5827
+  type: IETF
+- id: 10.17487/RFC5827
+  type: DOI
+docnumber: RFC5827
+date:
+  type: published
+  value: 2010-05
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Allman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Avrachenkov
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: U. Ayesta
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Blanton
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Hurtig
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-05
+language: en
+script: Latn
+abstract:
+  content: This document proposes a new mechanism for TCP and Stream Control Transmission
+    Protocol (SCTP) that can be used to recover lost segments when a connection's
+    congestion window is small.  The "Early Retransmit" mechanism allows the transport
+    to reduce, in certain special circumstances, the number of duplicate acknowledgments
+    required to trigger a fast retransmission.  This allows the transport to use fast
+    retransmit to recover segment losses that would otherwise require a lengthy retransmission
+    timeout. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- transmission control protocol
+- fast retransmission
+editorialgroup:
+  name: tcpm

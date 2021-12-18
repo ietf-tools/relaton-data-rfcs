@@ -1,0 +1,77 @@
+---
+id: IETFRFC8098
+title:
+  type: main
+  content: Message Disposition Notification
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8098
+  type: src
+type: standard
+docid:
+- id: IETF RFC8098
+  type: IETF
+- id: 10.17487/RFC8098
+  type: DOI
+docnumber: RFC8098
+date:
+  type: published
+  value: 2017-02
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Hansen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-02
+language: en
+script: Latn
+abstract:
+  content: This memo defines a MIME content type that may be used by a Mail User Agent
+    (MUA) or electronic mail gateway to report the disposition of a message after
+    it has been successfully delivered to a recipient. This content type is intended
+    to be machine processable. Additional message header fields are also defined to
+    permit Message Disposition Notifications (MDNs) to be requested by the sender
+    of a message. The purpose is to extend Internet Mail to support functionality
+    often found in other messaging systems, such as X.400 and the proprietary "LAN-based"
+    systems, and are often referred to as "read receipts," "acknowledgements," or
+    "receipt notifications." The intention is to do this while respecting privacy
+    concerns, which have often been expressed when such functions have been discussed
+    in the past. Because many messages are sent between the Internet and other messaging
+    systems (such as X.400 or the proprietary "LAN-based" systems), the MDN protocol
+    is designed to be useful in a multiprotocol messaging environment. To this end,
+    the protocol described in this memo provides for the carriage of "foreign" addresses,
+    in addition to those normally used in Internet Mail. Additional attributes may
+    also be defined to support "tunneling" of foreign notifications through Internet
+    Mail. This document is an Internet Standard. It obsoletes RFC 3798 and updates
+    RFC 2046 (message/partial media type handling) and RFC 3461 (Original-Recipient
+    header field generation requirement).
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2046
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3461
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- delivery notification
+- mdn
+editorialgroup:
+  name: appsawg

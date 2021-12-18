@@ -1,0 +1,59 @@
+---
+id: IETFRFC0984
+title:
+  type: main
+  content: 'PCMAIL: A distributed mail system for personal computers'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc984
+  type: src
+type: standard
+docid:
+- id: IETF RFC0984
+  type: IETF
+- id: 10.17487/RFC0984
+  type: DOI
+docnumber: RFC0984
+date:
+  type: published
+  value: 1986-05
+contributor:
+- person:
+    name:
+      completename:
+        content: D.D. Clark
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M.L. Lambert
+        language: en
+        script: Latn
+  role: author
+revdate: 1986-05
+language: en
+script: Latn
+abstract:
+  content: This document is a preliminary discussion of the design of a personal-computer-based
+    distributed mail system.  Pcmail is a distributed mail system that provides mail
+    service to an arbitrary number of users, each of which owns one or more personal
+    computers (PCs).  The system is divided into two halves.  The first consists of
+    a single entity called the "repository".  The repository is a storage center for
+    incoming mail.  Mail for a Pcmail user can arrive externally from the Internet
+    or internally from other repository users.  The repository also maintains a stable
+    copy of each user's mail state.  The repository is therefore typically a computer
+    with a large amount of disk storage.  It is published for discussion and comment,
+    and does not constitute a standard.  As the proposal may change, implementation
+    of this document is not advised.  See RFC-993.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC0993
+      format: text/plain
+fetched: '2021-12-18'

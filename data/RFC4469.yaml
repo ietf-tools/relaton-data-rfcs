@@ -1,0 +1,55 @@
+---
+id: IETFRFC4469
+title:
+  type: main
+  content: Internet Message Access Protocol (IMAP) CATENATE Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4469
+  type: src
+type: standard
+docid:
+- id: IETF RFC4469
+  type: IETF
+- id: 10.17487/RFC4469
+  type: DOI
+docnumber: RFC4469
+date:
+  type: published
+  value: 2006-04
+contributor:
+  person:
+    name:
+      completename:
+        content: P. Resnick
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-04
+language: en
+script: Latn
+abstract:
+  content: The CATENATE extension to the Internet Message Access Protocol (IMAP) extends
+    the APPEND command to allow clients to create messages on the IMAP server that
+    may contain a combination of new data along with parts of (or entire) messages
+    already on the server.  Using this extension, the client can catenate parts of
+    an already existing message onto a new message without having to first download
+    the data and then upload it back to the server. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3501
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3502
+      format: text/plain
+fetched: '2021-12-18'
+keyword: append
+editorialgroup:
+  name: lemonade

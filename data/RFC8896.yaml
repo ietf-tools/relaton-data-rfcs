@@ -1,0 +1,74 @@
+---
+id: IETFRFC8896
+title:
+  type: main
+  content: Application-Layer Traffic Optimization (ALTO) Cost Calendar
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8896
+  type: src
+type: standard
+docid:
+- id: IETF RFC8896
+  type: IETF
+- id: 10.17487/RFC8896
+  type: DOI
+docnumber: RFC8896
+date:
+  type: published
+  value: 2020-11
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Randriamasy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Yang
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Wu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Deng
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Schwan
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-11
+language: en
+script: Latn
+abstract:
+  content: This document is an extension to the base Application-Layer Traffic Optimization
+    (ALTO) protocol.  It extends the ALTO cost information service so that applications
+    decide not only 'where' to connect but also 'when'.  This is useful for applications
+    that need to perform bulk data transfer and would like to schedule these transfers
+    during an off-peak hour, for example.  This extension introduces the ALTO Cost
+    Calendar with which an ALTO Server exposes ALTO cost values in JSON arrays where
+    each value corresponds to a given time interval.  The time intervals, as well
+    as other Calendar attributes, are specified in the Information Resources Directory
+    and ALTO Server responses.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: alto

@@ -1,0 +1,91 @@
+---
+id: IETFRFC6976
+title:
+  type: main
+  content: Framework for Loop-Free Convergence Using the Ordered Forwarding Information
+    Base (oFIB) Approach
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6976
+  type: src
+type: standard
+docid:
+- id: IETF RFC6976
+  type: IETF
+- id: 10.17487/RFC6976
+  type: DOI
+docnumber: RFC6976
+date:
+  type: published
+  value: 2013-07
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Shand
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Bryant
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Previdi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Filsfils
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Francois
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: O. Bonaventure
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-07
+language: en
+script: Latn
+abstract:
+  content: This document describes an illustrative framework of a mechanism for use
+    in conjunction with link-state routing protocols that prevents the transient loops
+    that would otherwise occur during topology changes. It does this by correctly
+    sequencing the forwarding information base (FIB) updates on the routers. This
+    mechanism can be used in the case of non-urgent (management action) link or node
+    shutdowns and restarts or link metric changes. It can also be used in conjunction
+    with a fast reroute mechanism that converts a sudden link or node failure into
+    a non-urgent topology change. This is possible where a complete repair path is
+    provided for all affected destinations. After a non-urgent topology change, each
+    router computes a rank that defines the time at which it can safely update its
+    FIB. A method for accelerating this loop-free convergence process by the use of
+    completion messages is also described. The technology described in this document
+    has been subject to extensive simulation using pathological convergence behavior
+    and real network topologies and costs. However, the mechanisms described in this
+    document are purely illustrative of the general approach and do not constitute
+    a protocol specification. This document represents a snapshot of the work of the
+    Routing Area Working Group at the time of publication and is published as a document
+    of record. Further work is needed before implementation or deployment.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: rtgwg

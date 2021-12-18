@@ -1,0 +1,95 @@
+---
+id: IETFRFC8534
+title:
+  type: main
+  content: Explicit Tracking with Wildcard Routes in Multicast VPN
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8534
+  type: src
+type: standard
+docid:
+- id: IETF RFC8534
+  type: IETF
+- id: 10.17487/RFC8534
+  type: DOI
+docnumber: RFC8534
+date:
+  type: published
+  value: 2019-02
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Dolganow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Kotalwar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Z. Zhang
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-02
+language: en
+script: Latn
+abstract:
+  content: The base Multicast VPN (MVPN) specifications (RFCs 6513 and 6514) provide
+    procedures to allow a multicast ingress node to invoke "explicit tracking" for
+    a multicast flow or set of flows, thus learning the egress nodes for that flow
+    or set of flows.  However, the specifications are not completely clear about how
+    the explicit tracking procedures work in certain scenarios.  This document provides
+    the necessary clarifications.  It also specifies a new, optimized explicit-tracking
+    procedure.  This new procedure allows an ingress node, by sending a single message,
+    to request explicit tracking of each of a set of flows, where the set of flows
+    is specified using a wildcard mechanism.  This document updates RFCs 6514, 6625,
+    7524, 7582, and 7900.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6514
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6625
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7524
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7582
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7900
+      format: text/plain
+fetched: '2021-12-18'
+keyword: Multicast MVPN
+editorialgroup:
+  name: bess

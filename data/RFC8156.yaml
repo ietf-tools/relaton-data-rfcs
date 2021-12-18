@@ -1,0 +1,53 @@
+---
+id: IETFRFC8156
+title:
+  type: main
+  content: DHCPv6 Failover Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8156
+  type: src
+type: standard
+docid:
+- id: IETF RFC8156
+  type: IETF
+- id: 10.17487/RFC8156
+  type: DOI
+docnumber: RFC8156
+date:
+  type: published
+  value: 2017-06
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Mrugalski
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Kinnear
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-06
+language: en
+script: Latn
+abstract:
+  content: DHCPv6 as defined in "Dynamic Host Configuration Protocol for IPv6 (DHCPv6)"
+    (RFC 3315) does not offer server redundancy.  This document defines a protocol
+    implementation to provide DHCPv6 failover, a mechanism for running two servers
+    with the capability for either server to take over clients' leases in case of
+    server failure or network partition.  It meets the requirements for DHCPv6 failover
+    detailed in "DHCPv6 Failover Requirements" (RFC 7031).
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DHCPv6
+- Failover
+editorialgroup:
+  name: dhc

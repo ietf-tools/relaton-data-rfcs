@@ -1,0 +1,45 @@
+---
+id: IETFRFC8558
+title:
+  type: main
+  content: Transport Protocol Path Signals
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8558
+  type: src
+type: standard
+docid:
+- id: IETF RFC8558
+  type: IETF
+- id: 10.17487/RFC8558
+  type: DOI
+docnumber: RFC8558
+date:
+  type: published
+  value: 2019-04
+contributor:
+  person:
+    name:
+      completename:
+        content: T. Hardie
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-04
+language: en
+script: Latn
+abstract:
+  content: This document discusses the nature of signals seen by on-path elements
+    examining transport protocols, contrasting implicit and explicit signals.  For
+    example, TCP's state machine uses a series of well-known messages that are exchanged
+    in the clear.  Because these are visible to network elements on the path between
+    the two nodes setting up the transport connection, they are often used as signals
+    by those network elements.  In transports that do not exchange these messages
+    in the clear, on-path network elements lack those signals.  Often, the removal
+    of those signals is intended by those moving the messages to confidential channels.  Where
+    the endpoints desire that network elements along the path receive these signals,
+    this document recommends explicit signals be used.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'

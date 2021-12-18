@@ -1,0 +1,56 @@
+---
+id: IETFRFC8765
+title:
+  type: main
+  content: DNS Push Notifications
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8765
+  type: src
+type: standard
+docid:
+- id: IETF RFC8765
+  type: IETF
+- id: 10.17487/RFC8765
+  type: DOI
+docnumber: RFC8765
+date:
+  type: published
+  value: 2020-06
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Pusateri
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Cheshire
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-06
+language: en
+script: Latn
+abstract:
+  content: The Domain Name System (DNS) was designed to return matching records efficiently
+    for queries for data that are relatively static.  When those records change frequently,
+    DNS is still efficient at returning the updated results when polled, as long as
+    the polling rate is not too high.  But, there exists no mechanism for a client
+    to be asynchronously notified when these changes occur.  This document defines
+    a mechanism for a client to be notified of such changes to DNS records, called
+    DNS Push Notifications.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- dns
+- update
+- push
+- notification
+editorialgroup:
+  name: dnssd

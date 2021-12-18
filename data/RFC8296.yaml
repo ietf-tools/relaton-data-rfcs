@@ -1,0 +1,86 @@
+---
+id: IETFRFC8296
+title:
+  type: main
+  content: Encapsulation for Bit Index Explicit Replication (BIER) in MPLS and Non-MPLS
+    Networks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8296
+  type: src
+type: standard
+docid:
+- id: IETF RFC8296
+  type: IETF
+- id: 10.17487/RFC8296
+  type: DOI
+docnumber: RFC8296
+date:
+  type: published
+  value: 2018-01
+contributor:
+- person:
+    name:
+      completename:
+        content: IJ. Wijnands
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Dolganow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Tantsura
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Aldrin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: I. Meilik
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-01
+language: en
+script: Latn
+abstract:
+  content: Bit Index Explicit Replication (BIER) is an architecture that provides
+    optimal multicast forwarding through a "multicast domain", without requiring intermediate
+    routers to maintain any per-flow state or to engage in an explicit tree-building
+    protocol.  When a multicast data packet enters the domain, the ingress router
+    determines the set of egress routers to which the packet needs to be sent.  The
+    ingress router then encapsulates the packet in a BIER header.  The BIER header
+    contains a bit string in which each bit represents exactly one egress router in
+    the domain; to forward the packet to a given set of egress routers, the bits corresponding
+    to those routers are set in the BIER header.  The details of the encapsulation
+    depend on the type of network used to realize the multicast domain.  This document
+    specifies a BIER encapsulation that can be used in an MPLS network or, with slight
+    differences, in a non-MPLS network.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: Multicast
+editorialgroup:
+  name: bier

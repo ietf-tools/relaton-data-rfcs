@@ -1,0 +1,61 @@
+---
+id: IETFRFC8270
+title:
+  type: main
+  content: Increase the Secure Shell Minimum Recommended Diffie-Hellman Modulus Size
+    to 2048 Bits
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8270
+  type: src
+type: standard
+docid:
+- id: IETF RFC8270
+  type: IETF
+- id: 10.17487/RFC8270
+  type: DOI
+docnumber: RFC8270
+date:
+  type: published
+  value: 2017-12
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Velvindron
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Baushke
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-12
+language: en
+script: Latn
+abstract:
+  content: The Diffie-Hellman (DH) Group Exchange for the Secure Shell (SSH) transport-layer
+    protocol specifies that servers and clients should support groups with a minimum
+    modulus group size of 1024 bits.  Recent security research has shown that the
+    minimum value of 1024 bits is insufficient to protect against state-sponsored
+    actors and any organization with enough computing resources.  This RFC updates
+    RFC 4419, which allowed for DH moduli less than 2048 bits; now, 2048 bits is the
+    minimum acceptable group size.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4419
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- SSH
+- DH
+editorialgroup:
+  name: curdle

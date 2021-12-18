@@ -1,0 +1,73 @@
+---
+id: IETFRFC4829
+title:
+  type: main
+  content: Label Switched Path (LSP) Preemption Policies for MPLS Traffic Engineering
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4829
+  type: src
+type: standard
+docid:
+- id: IETF RFC4829
+  type: IETF
+- id: 10.17487/RFC4829
+  type: DOI
+docnumber: RFC4829
+date:
+  type: published
+  value: 2007-04
+contributor:
+- person:
+    name:
+      completename:
+        content: J. de Oliveira
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: JP. Vasseur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Chen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Scoglio
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-04
+language: en
+script: Latn
+abstract:
+  content: 'When the establishment of a higher priority (Traffic Engineering Label
+    Switched Path) TE LSP requires the preemption of a set of lower priority TE LSPs,
+    a node has to make a local decision to select which TE LSPs will be preempted.  The
+    preempted LSPs are then rerouted by their respective \%Head-end Label Switch Router
+    (LSR).  This document presents a flexible policy that can be used to achieve different
+    objectives: preempt the lowest priority LSPs; preempt the minimum number of LSPs;
+    preempt the set of TE LSPs that provide the closest amount of bandwidth to the
+    required bandwidth for the preempting TE LSPs (to minimize bandwidth wastage);
+    preempt the LSPs that will have the maximum chance to get rerouted.  Simulation
+    results are given and a comparison among several different policies, with respect
+    to preemption cascading, number of preempted LSPs, priority, wasted bandwidth
+    and blocking probability is also included.  This memo provides information for
+    the Internet community.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- traffic engineering label switched path
+- te lsp
+- multiprotocol label switching protocol

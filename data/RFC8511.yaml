@@ -1,0 +1,70 @@
+---
+id: IETFRFC8511
+title:
+  type: main
+  content: TCP Alternative Backoff with ECN (ABE)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8511
+  type: src
+type: standard
+docid:
+- id: IETF RFC8511
+  type: IETF
+- id: 10.17487/RFC8511
+  type: DOI
+docnumber: RFC8511
+date:
+  type: published
+  value: 2018-12
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Khademi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Welzl
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Armitage
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Fairhurst
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-12
+language: en
+script: Latn
+abstract:
+  content: Active Queue Management (AQM) mechanisms allow for burst tolerance while
+    enforcing short queues to minimise the time that packets spend enqueued at a bottleneck.  This
+    can cause noticeable performance degradation for TCP connections traversing such
+    a bottleneck, especially if there are only a few flows or their bandwidth-delay
+    product (BDP) is large.  The reception of a Congestion Experienced (CE) Explicit
+    Congestion Notification (ECN) mark indicates that an AQM mechanism is used at
+    the bottleneck, and the bottleneck network queue is therefore likely to be short.  Feedback
+    of this signal allows the TCP sender-side ECN reaction in congestion avoidance
+    to reduce the Congestion Window (cwnd) by a smaller amount than the congestion
+    control algorithm's reaction to inferred packet loss.  Therefore, this specification
+    defines an experimental change to the TCP reaction specified in RFC 3168, as permitted
+    by RFC 8311.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: tcpm

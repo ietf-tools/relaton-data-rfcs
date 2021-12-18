@@ -1,0 +1,80 @@
+---
+id: IETFRFC3940
+title:
+  type: main
+  content: Negative-acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3940
+  type: src
+type: standard
+docid:
+- id: IETF RFC3940
+  type: IETF
+- id: 10.17487/RFC3940
+  type: DOI
+docnumber: RFC3940
+date:
+  type: published
+  value: 2004-11
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Adamson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Bormann
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Handley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Macker
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-11
+language: en
+script: Latn
+abstract:
+  content: This document describes the messages and procedures of the Negative-acknowledgment
+    (NACK) Oriented Reliable Multicast (NORM) protocol.  This protocol is designed
+    to provide end-to-end reliable transport of bulk data objects or streams over
+    generic IP multicast routing and forwarding services.  NORM uses a selective,
+    negative acknowledgment mechanism for transport reliability and offers additional
+    protocol mechanisms to allow for operation with minimal "a priori" coordination
+    among senders and receivers.  A congestion control scheme is specified to allow
+    the NORM protocol to fairly share available network bandwidth with other transport
+    protocols such as Transmission Control Protocol (TCP).  It is capable of operating
+    with both reciprocal multicast routing among senders and receivers and with asymmetric
+    connectivity (possibly a unicast return path) between the senders and receivers.  The
+    protocol offers a number of features to allow different types of applications
+    or possibly other higher level transport protocols to utilize its service in different
+    ways.  The protocol leverages the use of FEC-based repair and other IETF reliable
+    multicast transport (RMT) building blocks in its design.  This memo defines an
+    Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC5740
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: rmt

@@ -1,0 +1,82 @@
+---
+id: IETFRFC8704
+title:
+  type: main
+  content: Enhanced Feasible-Path Unicast Reverse Path Forwarding
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8704
+  type: src
+type: standard
+docid:
+- id: IETF RFC8704
+  type: IETF
+- id: 10.17487/RFC8704
+  type: DOI
+docnumber: RFC8704
+date:
+  type: published
+  value: 2020-02
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Sriram
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Montgomery
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Haas
+        language: en
+        script: Latn
+  role: author
+revdate: 2020-02
+language: en
+script: Latn
+abstract:
+  content: This document identifies a need for and proposes improvement of the unicast
+    Reverse Path Forwarding (uRPF) techniques (see RFC 3704) for detection and mitigation
+    of source address spoofing (see BCP 38).  Strict uRPF is inflexible about directionality,
+    the loose uRPF is oblivious to directionality, and the current feasible-path uRPF
+    attempts to strike a balance between the two (see RFC 3704).  However, as shown
+    in this document, the existing feasible-path uRPF still has shortcomings.  This
+    document describes enhanced feasible-path uRPF (EFP-uRPF) techniques that are
+    more flexible (in a meaningful way) about directionality than the feasible-path
+    uRPF (RFC 3704).  The proposed EFP-uRPF methods aim to significantly reduce false
+    positives regarding invalid detection in source address validation (SAV).  Hence,
+    they can potentially alleviate ISPs' concerns about the possibility of disrupting
+    service for their customers and encourage greater deployment of uRPF techniques.  This
+    document updates RFC 3704.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3704
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- BGP
+- source address spoofing
+- source address validation
+- SAV
+- Reverse Path Forwarding
+- RPF
+- unicast RPF
+- uRPF
+- DDoS mitigation
+- BCP 38
+- BCP 84
+editorialgroup:
+  name: opsec

@@ -1,0 +1,75 @@
+---
+id: IETFRFC7568
+title:
+  type: main
+  content: Deprecating Secure Sockets Layer Version 3.0
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7568
+  type: src
+type: standard
+docid:
+- id: IETF RFC7568
+  type: IETF
+- id: 10.17487/RFC7568
+  type: DOI
+docnumber: RFC7568
+date:
+  type: published
+  value: 2015-06
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Barnes
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Thomson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Pironti
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Langley
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-06
+language: en
+script: Latn
+abstract:
+  content: The Secure Sockets Layer version 3.0 (SSLv3), as specified in RFC 6101,
+    is not sufficiently secure. This document requires that SSLv3 not be used. The
+    replacement versions, in particular, Transport Layer Security (TLS) 1.2 (RFC 5246),
+    are considerably more secure and capable protocols. This document updates the
+    backward compatibility section of RFC 5246 and its predecessors to prohibit fallback
+    to SSLv3.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5246
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- SSL
+- TLS
+- insecure
+- diediedie
+editorialgroup:
+  name: tls

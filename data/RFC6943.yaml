@@ -1,0 +1,51 @@
+---
+id: IETFRFC6943
+title:
+  type: main
+  content: Issues in Identifier Comparison for Security Purposes
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6943
+  type: src
+type: standard
+docid:
+- id: IETF RFC6943
+  type: IETF
+- id: 10.17487/RFC6943
+  type: DOI
+docnumber: RFC6943
+date:
+  type: published
+  value: 2013-05
+contributor:
+  person:
+    name:
+      completename:
+        content: D. Thaler
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-05
+language: en
+script: Latn
+abstract:
+  content: Identifiers such as hostnames, URIs, IP addresses, and email addresses
+    are often used in security contexts to identify security principals and resources.  In
+    such contexts, an identifier presented via some protocol is often compared using
+    some policy to make security decisions such as whether the security principal
+    may access the resource, what level of authentication or encryption is required,
+    etc.  If the parties involved in a security decision use different algorithms
+    to compare identifiers, then failure scenarios ranging from denial of service
+    to elevation of privilege can result.  This document provides a discussion of
+    these issues that designers should consider when defining identifiers and protocols,
+    and when constructing architectures that use multiple protocols.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Canonicalization
+- Normalization
+- Hostname
+- URI
+- IRI

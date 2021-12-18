@@ -1,0 +1,74 @@
+---
+id: IETFRFC5696
+title:
+  type: main
+  content: Baseline Encoding and Transport of Pre-Congestion Information
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5696
+  type: src
+type: standard
+docid:
+- id: IETF RFC5696
+  type: IETF
+- id: 10.17487/RFC5696
+  type: DOI
+docnumber: RFC5696
+date:
+  type: published
+  value: 2009-11
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Moncaster
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Briscoe
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Menth
+        language: en
+        script: Latn
+  role: author
+revdate: 2009-11
+language: en
+script: Latn
+abstract:
+  content: 'The objective of the Pre-Congestion Notification (PCN) architecture is
+    to protect the quality of service (QoS) of inelastic flows within a Diffserv domain.  It
+    achieves this by marking packets belonging to PCN-flows when the rate of traffic
+    exceeds certain configured thresholds on links in the domain.  These marks can
+    then be evaluated to determine how close the domain is to being congested.  This
+    document specifies how such marks are encoded into the IP header by redefining
+    the Explicit Congestion Notification (ECN) codepoints within such domains.  The
+    baseline encoding described here provides only two PCN encoding states: Not-marked
+    and PCN-marked.  Future extensions to this encoding may be needed in order to
+    provide more than one level of marking severity. [STANDARDS-TRACK]'
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6660
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Quality of Service
+- QoS
+- Differentiated Services
+- Admission Control
+- Codepoint
+- Protocol
+editorialgroup:
+  name: pcn

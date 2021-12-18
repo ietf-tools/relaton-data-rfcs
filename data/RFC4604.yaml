@@ -1,0 +1,74 @@
+---
+id: IETFRFC4604
+title:
+  type: main
+  content: Using Internet Group Management Protocol Version 3 (IGMPv3) and Multicast
+    Listener Discovery Protocol Version 2 (MLDv2) for Source-Specific Multicast
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4604
+  type: src
+type: standard
+docid:
+- id: IETF RFC4604
+  type: IETF
+- id: 10.17487/RFC4604
+  type: DOI
+docnumber: RFC4604
+date:
+  type: published
+  value: 2006-08
+contributor:
+- person:
+    name:
+      completename:
+        content: H. Holbrook
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Cain
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Haberman
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-08
+language: en
+script: Latn
+abstract:
+  content: The Internet Group Management Protocol Version 3 (IGMPv3) and the Multicast
+    Listener Discovery Protocol Version 2 (MLDv2) are protocols that allow a host
+    to inform its neighboring routers of its desire to receive IPv4 and IPv6 multicast
+    transmissions, respectively.  Source-specific multicast (SSM) is a form of multicast
+    in which a receiver is required to specify both the network-layer address of the
+    source and the multicast destination address in order to receive the multicast
+    transmission.  This document defines the notion of an "SSM-aware" router and host,
+    and clarifies and (in some cases) modifies the behavior of IGMPv3 and MLDv2 on
+    SSM-aware routers and hosts to accommodate source-specific multicast.  This document
+    updates the IGMPv3 and MLDv2 specifications. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3376
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3810
+      format: text/plain
+fetched: '2021-12-18'
+keyword: ssm
+editorialgroup:
+  name: magma

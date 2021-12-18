@@ -1,0 +1,54 @@
+---
+id: IETFRFC6346
+title:
+  type: main
+  content: The Address plus Port (A+P) Approach to the IPv4 Address Shortage
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6346
+  type: src
+type: standard
+docid:
+- id: IETF RFC6346
+  type: IETF
+- id: 10.17487/RFC6346
+  type: DOI
+docnumber: RFC6346
+date:
+  type: published
+  value: 2011-08
+contributor:
+  person:
+    name:
+      completename:
+        content: R. Bush
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-08
+language: en
+script: Latn
+abstract:
+  content: We are facing the exhaustion of the IANA IPv4 free IP address pool. Unfortunately,
+    IPv6 is not yet deployed widely enough to fully replace IPv4, and it is unrealistic
+    to expect that this is going to change before the depletion of IPv4 addresses.
+    Letting hosts seamlessly communicate in an IPv4 world without assigning a unique
+    globally routable IPv4 address to each of them is a challenging problem. This
+    document proposes an IPv4 address sharing scheme, treating some of the port number
+    bits as part of an extended IPv4 address (Address plus Port, or A+P). Instead
+    of assigning a single IPv4 address to a single customer device, we propose to
+    extend the address field by using bits from the port number range in the TCP/UDP
+    header as additional endpoint identifiers, thus leaving a reduced range of ports
+    available to applications. This means assigning the same IPv4 address to multiple
+    clients (e.g., Customer Premises Equipment (CPE), mobile phones), each with its
+    assigned port range. In the face of IPv4 address exhaustion, the need for addresses
+    is stronger than the need to be able to address thousands of applications on a
+    single host. If address translation is needed, the end-user should be in control
+    of the translation process -- not some smart boxes in the core. This document
+    defines an Experimental Protocol for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: NON WORKING GROUP

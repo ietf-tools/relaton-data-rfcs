@@ -1,0 +1,74 @@
+---
+id: IETFRFC4659
+title:
+  type: main
+  content: BGP-MPLS IP Virtual Private Network (VPN) Extension for IPv6 VPN
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4659
+  type: src
+type: standard
+docid:
+- id: IETF RFC4659
+  type: IETF
+- id: 10.17487/RFC4659
+  type: DOI
+docnumber: RFC4659
+date:
+  type: published
+  value: 2006-09
+contributor:
+- person:
+    name:
+      completename:
+        content: J. De Clercq
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Ooms
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Carugi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: F. Le Faucheur
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-09
+language: en
+script: Latn
+abstract:
+  content: This document describes a method by which a Service Provider may use its
+    packet-switched backbone to provide Virtual Private Network (VPN) services for
+    its IPv6 customers. This method reuses, and extends where necessary, the "BGP/MPLS
+    IP VPN" method for support of IPv6. In BGP/MPLS IP VPN, "Multiprotocol BGP" is
+    used for distributing IPv4 VPN routes over the service provider backbone, and
+    MPLS is used to forward IPv4 VPN packets over the backbone. This document defines
+    an IPv6 VPN address family and describes the corresponding IPv6 VPN route distribution
+    in "Multiprotocol BGP". This document defines support of the IPv6 VPN service
+    over both an IPv4 and an IPv6 backbone, and for using various tunneling techniques
+    over the core, including MPLS, IP-in-IP, Generic Routing Encapsulation (GRE) and
+    IPsec protected tunnels. The inter-working between an IPv4 site and an IPv6 site
+    is outside the scope of this document. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- service provider
+- border gateway protocol
+- multiprotocol label switching
+editorialgroup:
+  name: l3vpn

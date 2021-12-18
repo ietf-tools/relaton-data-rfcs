@@ -1,0 +1,63 @@
+---
+id: IETFRFC8470
+title:
+  type: main
+  content: Using Early Data in HTTP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8470
+  type: src
+type: standard
+docid:
+- id: IETF RFC8470
+  type: IETF
+- id: 10.17487/RFC8470
+  type: DOI
+docnumber: RFC8470
+date:
+  type: published
+  value: 2018-09
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Thomson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Nottingham
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Tarreau
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-09
+language: en
+script: Latn
+abstract:
+  content: Using TLS early data creates an exposure to the possibility of a replay
+    attack.  This document defines mechanisms that allow clients to communicate with
+    servers about HTTP requests that are sent in early data.  Techniques are described
+    that use these mechanisms to mitigate the risk of replay.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- HTTP
+- TLS
+- replay
+- retry
+- 0-RTT
+- early data
+- status code
+editorialgroup:
+  name: httpbis

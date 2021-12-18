@@ -1,0 +1,67 @@
+---
+id: IETFRFC8654
+title:
+  type: main
+  content: Extended Message Support for BGP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8654
+  type: src
+type: standard
+docid:
+- id: IETF RFC8654
+  type: IETF
+- id: 10.17487/RFC8654
+  type: DOI
+docnumber: RFC8654
+date:
+  type: published
+  value: 2019-10
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Bush
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Patel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Ward
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-10
+language: en
+script: Latn
+abstract:
+  content: The BGP specification (RFC 4271) mandates a maximum BGP message size of
+    4,096 octets.  As BGP is extended to support new Address Family Identifiers (AFIs),
+    Subsequent AFIs (SAFIs), and other features, there is a need to extend the maximum
+    message size beyond 4,096 octets.  This document updates the BGP specification
+    by extending the maximum message size from 4,096 octets to 65,535 octets for all
+    messages except for OPEN and KEEPALIVE messages.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC4271
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- border gateway protocol
+- address family identifiers
+- afi
+editorialgroup:
+  name: idr

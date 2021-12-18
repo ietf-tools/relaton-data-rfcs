@@ -1,0 +1,63 @@
+---
+id: IETFRFC6961
+title:
+  type: main
+  content: The Transport Layer Security (TLS) Multiple Certificate Status Request
+    Extension
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6961
+  type: src
+type: standard
+docid:
+- id: IETF RFC6961
+  type: IETF
+- id: 10.17487/RFC6961
+  type: DOI
+docnumber: RFC6961
+date:
+  type: published
+  value: 2013-06
+contributor:
+  person:
+    name:
+      completename:
+        content: Y. Pettersen
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-06
+language: en
+script: Latn
+abstract:
+  content: This document defines the Transport Layer Security (TLS) Certificate Status
+    Version 2 Extension to allow clients to specify and support several certificate
+    status methods. (The use of the Certificate Status extension is commonly referred
+    to as "OCSP stapling".) Also defined is a new method based on the Online Certificate
+    Status Protocol (OCSP) that servers can use to provide status information about
+    not only the server's own certificate but also the status of intermediate certificates
+    in the chain.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8446
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- RFC 6066
+- RFC 2560
+- RFC 6960
+- RFC 5246
+- OCSP
+- OCSP stapling
+- multi-stapling
+- certificate status checking
+- revocation information
+- status_request
+- status_request_v2
+editorialgroup:
+  name: tls

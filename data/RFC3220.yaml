@@ -1,0 +1,56 @@
+---
+id: IETFRFC3220
+title:
+  type: main
+  content: IP Mobility Support for IPv4
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3220
+  type: src
+type: standard
+docid:
+- id: IETF RFC3220
+  type: IETF
+- id: 10.17487/RFC3220
+  type: DOI
+docnumber: RFC3220
+date:
+  type: published
+  value: 2002-01
+contributor:
+  person:
+    name:
+      completename:
+        content: C. Perkins
+        language: en
+        script: Latn
+  role: author
+revdate: 2002-01
+language: en
+script: Latn
+abstract:
+  content: This document specifies protocol enhancements that allow transparent routing
+    of IP datagrams to mobile nodes in the Internet.  Each mobile node is always identified
+    by its home address, regardless of its current point of attachment to the Internet.  While
+    situated away from its home, a mobile node is also associated with a care-of address,
+    which provides information about its current point of attachment to the Internet.  The
+    protocol provides for registering the care-of address with a home agent.  The
+    home agent sends datagrams destined for the mobile node through a tunnel to the
+    care-of address.  After arriving at the end of the tunnel, each datagram is then
+    delivered to the mobile node. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC3344
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- MOBILEIPSUPIP
+- Internet
+- Protocol
+editorialgroup:
+  name: mobileip

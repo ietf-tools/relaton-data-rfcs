@@ -1,0 +1,76 @@
+---
+id: IETFRFC8617
+title:
+  type: main
+  content: The Authenticated Received Chain (ARC) Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8617
+  type: src
+type: standard
+docid:
+- id: IETF RFC8617
+  type: IETF
+- id: 10.17487/RFC8617
+  type: DOI
+docnumber: RFC8617
+date:
+  type: published
+  value: 2019-07
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Andersen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Long
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Blank
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Kucherawy
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-07
+language: en
+script: Latn
+abstract:
+  content: The Authenticated Received Chain (ARC) protocol provides an authenticated
+    "chain of custody" for a message, allowing each entity that handles the message
+    to see what entities handled it before and what the message's authentication assessment
+    was at each step in the handling. ARC allows Internet Mail Handlers to attach
+    assertions of message authentication assessment to individual messages. As messages
+    traverse ARC-enabled Internet Mail Handlers, additional ARC assertions can be
+    attached to messages to form ordered sets of ARC assertions that represent the
+    authentication assessment at each step of the message-handling paths. ARC-enabled
+    Internet Mail Handlers can process sets of ARC assertions to inform message disposition
+    decisions, identify Internet Mail Handlers that might break existing authentication
+    mechanisms, and convey original authentication assessments across trust boundaries.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DKIM
+- DMARC
+- signature
+- email
+- domian authentication
+- email authentication
+editorialgroup:
+  name: dmarc

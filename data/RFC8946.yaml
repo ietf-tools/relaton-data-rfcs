@@ -1,0 +1,55 @@
+---
+id: IETFRFC8946
+title:
+  type: main
+  content: Personal Assertion Token (PASSporT) Extension for Diverted Calls
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8946
+  type: src
+type: standard
+docid:
+- id: IETF RFC8946
+  type: IETF
+- id: 10.17487/RFC8946
+  type: DOI
+docnumber: RFC8946
+date:
+  type: published
+  value: 2021-02
+contributor:
+  person:
+    name:
+      completename:
+        content: J. Peterson
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-02
+language: en
+script: Latn
+abstract:
+  content: The Personal Assertion Token (PASSporT) is specified in RFC 8225 to convey
+    cryptographically signed information about the people involved in personal communications.
+    This document extends PASSporT to include an indication that a call has been diverted
+    from its original destination to a new one. This information can greatly improve
+    the decisions made by verification services in call forwarding scenarios. Also
+    specified here is an encapsulation mechanism for nesting a PASSporT within another
+    PASSporT that assists relying parties in some diversion scenarios. This document
+    updates RFC 8224.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC8224
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- SIP
+- STIR
+- Identity
+editorialgroup:
+  name: stir

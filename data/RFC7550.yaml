@@ -1,0 +1,90 @@
+---
+id: IETFRFC7550
+title:
+  type: main
+  content: Issues and Recommendations with Multiple Stateful DHCPv6 Options
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7550
+  type: src
+type: standard
+docid:
+- id: IETF RFC7550
+  type: IETF
+- id: 10.17487/RFC7550
+  type: DOI
+docnumber: RFC7550
+date:
+  type: published
+  value: 2015-05
+contributor:
+- person:
+    name:
+      completename:
+        content: O. Troan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Volz
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Siodelski
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-05
+language: en
+script: Latn
+abstract:
+  content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification
+    defined two stateful options, IA_NA and IA_TA, but did not anticipate the development
+    of additional stateful options.  DHCPv6 Prefix Delegation added the IA_PD option,
+    which is stateful.  Applications that use IA_NA and IA_PD together have revealed
+    issues that need to be addressed.  This document updates RFCs 3315 and 3633 to
+    address these issues.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8415
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3315
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3633
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- CPE
+- CER
+- CE
+- Customer Edge Router
+- Prefix Delegation
+- IPv6 Address Option
+- Session
+- State Machine
+- Advertise
+- Time
+- Timer T1 T2
+- Renew
+- Rebind
+- Confirm
+- Decline
+- Provision
+editorialgroup:
+  name: dhc

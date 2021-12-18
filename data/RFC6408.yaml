@@ -1,0 +1,69 @@
+---
+id: IETFRFC6408
+title:
+  type: main
+  content: Diameter Straightforward-Naming Authority Pointer (S-NAPTR) Usage
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6408
+  type: src
+type: standard
+docid:
+- id: IETF RFC6408
+  type: IETF
+- id: 10.17487/RFC6408
+  type: DOI
+docnumber: RFC6408
+date:
+  type: published
+  value: 2011-11
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Jones
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Korhonen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Morand
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-11
+language: en
+script: Latn
+abstract:
+  content: The Diameter base protocol specifies mechanisms whereby a given realm may
+    advertise Diameter nodes and the supported transport protocol.  However, these
+    mechanisms do not reveal the Diameter applications that each node supports.  A
+    peer outside the realm would have to perform a Diameter capability exchange with
+    every node until it discovers one that supports the required application.  This
+    document updates RFC 3588, "Diameter Base Protocol", and describes an improvement
+    using an extended format for the Straightforward-Naming Authority Pointer (S-NAPTR)
+    application service tag that allows for discovery of the supported applications
+    without doing Diameter capability exchange beforehand. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC3588
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Services Field
+- Peer Discovery
+editorialgroup:
+  name: dime

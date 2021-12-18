@@ -1,0 +1,82 @@
+---
+id: IETFRFC5636
+title:
+  type: main
+  content: Traceable Anonymous Certificate
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5636
+  type: src
+type: standard
+docid:
+- id: IETF RFC5636
+  type: IETF
+- id: 10.17487/RFC5636
+  type: DOI
+docnumber: RFC5636
+date:
+  type: published
+  value: 2009-08
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Park
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Park
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Won
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Lee
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Kent
+        language: en
+        script: Latn
+  role: author
+revdate: 2009-08
+language: en
+script: Latn
+abstract:
+  content: 'This document defines a practical architecture and protocols for offering
+    privacy for a user who requests and uses an X.509 certificate containing a pseudonym,
+    while still retaining the ability to map such a certificate to the real user who
+    requested it.  The architecture is compatible with IETF certificate request formats
+    such as PKCS10 (RFC 2986) and CMC (RFC 5272).  The architecture separates the
+    authorities involved in issuing a certificate: one for verifying ownership of
+    a private key (Blind Issuer) and the other for validating the contents of a certificate
+    (Anonymity Issuer).  The end entity (EE) certificates issued under this model
+    are called Traceable Anonymous Certificates (TACs).  This memo defines an Experimental
+    Protocol for the Internet community.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- x.509 certificate
+- blind issuer
+- anonymity issuer
+- tacs
+- end entity
+- ee
+editorialgroup:
+  name: pkix

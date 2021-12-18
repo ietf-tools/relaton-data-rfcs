@@ -1,0 +1,80 @@
+---
+id: IETFRFC8220
+title:
+  type: main
+  content: Protocol Independent Multicast (PIM) over Virtual Private LAN Service (VPLS)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8220
+  type: src
+type: standard
+docid:
+- id: IETF RFC8220
+  type: IETF
+- id: 10.17487/RFC8220
+  type: DOI
+docnumber: RFC8220
+date:
+  type: published
+  value: 2017-09
+contributor:
+- person:
+    name:
+      completename:
+        content: O. Dornon
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Kotalwar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Hemige
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Qiu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Z. Zhang
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-09
+language: en
+script: Latn
+abstract:
+  content: This document describes the procedures and recommendations for Virtual
+    Private LAN Service (VPLS) Provider Edges (PEs) to facilitate replication of multicast
+    traffic to only certain ports (behind which there are interested Protocol Independent
+    Multicast (PIM) routers and/or Internet Group Management Protocol (IGMP) hosts)
+    via PIM snooping and proxying. With PIM snooping, PEs passively listen to certain
+    PIM control messages to build control and forwarding states while transparently
+    flooding those messages. With PIM proxying, PEs do not flood PIM Join/Prune messages
+    but only generate their own and send them out of certain ports, based on the control
+    states built from downstream Join/Prune messages. PIM proxying is required when
+    PIM Join suppression is enabled on the Customer Edge (CE) devices and is useful
+    for reducing PIM control traffic in a VPLS domain. This document also describes
+    PIM relay, which can be viewed as lightweight proxying, where all downstream Join/Prune
+    messages are simply forwarded out of certain ports and are not flooded, thereby
+    avoiding the triggering of PIM Join suppression on CE devices.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: multicast
+editorialgroup:
+  name: pals

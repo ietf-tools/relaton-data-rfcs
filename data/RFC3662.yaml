@@ -1,0 +1,69 @@
+---
+id: IETFRFC3662
+title:
+  type: main
+  content: A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3662
+  type: src
+type: standard
+docid:
+- id: IETF RFC3662
+  type: IETF
+- id: 10.17487/RFC3662
+  type: DOI
+docnumber: RFC3662
+date:
+  type: published
+  value: 2003-12
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Bless
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Nichols
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Wehrle
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-12
+language: en
+script: Latn
+abstract:
+  content: This document proposes a differentiated services per-domain behavior (PDB)
+    whose traffic may be "starved" (although starvation is not strictly required)
+    in a properly functioning network.  This is in contrast to the Internet's "best-effort"
+    or "normal Internet traffic" model, where prolonged starvation indicates network
+    problems.  In this sense, the proposed PDB's traffic is forwarded with a "lower"
+    priority than the normal "best-effort" Internet traffic, thus the PDB is called
+    "Lower Effort" (LE).  Use of this PDB permits a network operator to strictly limit
+    the effect of its traffic on "best-effort"/"normal" or all other Internet traffic.  This
+    document gives some example uses, but does not propose constraining the PDB's
+    use to any particular type of traffic.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC8622
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- traffic network
+- ds
+- le

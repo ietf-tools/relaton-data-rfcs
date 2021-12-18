@@ -1,0 +1,68 @@
+---
+id: IETFRFC2290
+title:
+  type: main
+  content: Mobile-IPv4 Configuration Option for PPP IPCP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc2290
+  type: src
+type: standard
+docid:
+- id: IETF RFC2290
+  type: IETF
+- id: 10.17487/RFC2290
+  type: DOI
+docnumber: RFC2290
+date:
+  type: published
+  value: 1998-02
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Solomon
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Glass
+        language: en
+        script: Latn
+  role: author
+revdate: 1998-02
+language: en
+script: Latn
+abstract:
+  content: Mobile IP [RFC 2002] defines media-independent procedures by which a Mobile
+    Node can maintain existing transport and application-layer connections despite
+    changing its point-of-attachment to the Internet and without changing its IP address.  PPP
+    [RFC 1661] provides a standard method for transporting multi-protocol packets
+    over point-to-point links.  As currently specified, Mobile IP Foreign Agents which
+    support Mobile Node connections via PPP can do so only by first assigning unique
+    addresses to those Mobile Nodes, defeating one of the primary advantages of Foreign
+    Agents.  This documents corrects this problem by defining the Mobile-IPv4 Configuration
+    Option to the Internet Protocol Control Protocol (IPCP) [RFC 1332].  Using this
+    option, two peers can communicate their support for Mobile IP during the IPCP
+    phase of PPP.  Familiarity with Mobile IP [RFC 2002], IPCP [RFC 1332], and PPP
+    [RFC 1661] is assumed. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC2002
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Internet
+- protocol
+- point-to-point
+- control
+- address
+editorialgroup:
+  name: pppext

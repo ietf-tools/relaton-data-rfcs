@@ -1,0 +1,85 @@
+---
+id: IETFRFC7728
+title:
+  type: main
+  content: RTP Stream Pause and Resume
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7728
+  type: src
+type: standard
+docid:
+- id: IETF RFC7728
+  type: IETF
+- id: 10.17487/RFC7728
+  type: DOI
+docnumber: RFC7728
+date:
+  type: published
+  value: 2016-02
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Burman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Akram
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Even
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-02
+language: en
+script: Latn
+abstract:
+  content: With the increased popularity of real-time multimedia applications, it
+    is desirable to provide good control of resource usage, and users also demand
+    more control over communication sessions.  This document describes how a receiver
+    in a multimedia conversation can pause and resume incoming data from a sender
+    by sending real-time feedback messages when using the Real-time Transport Protocol
+    (RTP) for real- time data transport.  This document extends the Codec Control
+    Message (CCM) RTP Control Protocol (RTCP) feedback package by explicitly allowing
+    and describing specific use of existing CCMs and adding a group of new real-time
+    feedback messages used to pause and resume RTP data streams.  This document updates
+    RFC 5104.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5104
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- CCM
+- RTCP
+- Feedback
+- Bandwidth
+- PAUSED
+- REFUSED
+- TMMBR
+- TMMBN
+- Mixer
+- MCU
+editorialgroup:
+  name: avtext

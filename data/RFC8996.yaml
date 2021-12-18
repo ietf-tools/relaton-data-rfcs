@@ -1,0 +1,484 @@
+---
+id: IETFRFC8996
+title:
+  type: main
+  content: Deprecating TLS 1.0 and TLS 1.1
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8996
+  type: src
+type: standard
+docid:
+- id: IETF RFC8996
+  type: IETF
+- id: 10.17487/RFC8996
+  type: DOI
+docnumber: RFC8996
+date:
+  type: published
+  value: 2021-03
+contributor:
+- person:
+    name:
+      completename:
+        content: K. Moriarty
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Farrell
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-03
+language: en
+script: Latn
+abstract:
+  content: This document formally deprecates Transport Layer Security (TLS) versions
+    1.0 (RFC 2246) and 1.1 (RFC 4346). Accordingly, those documents have been moved
+    to Historic status. These versions lack support for current and recommended cryptographic
+    algorithms and mechanisms, and various government and industry profiles of applications
+    using TLS now mandate avoiding these old TLS versions. TLS version 1.2 became
+    the recommended version for IETF protocols in 2008 (subsequently being obsoleted
+    by TLS version 1.3 in 2018), providing sufficient time to transition away from
+    older versions. Removing support for older versions from implementations reduces
+    the attack surface, reduces opportunity for misconfiguration, and streamlines
+    library and product maintenance. This document also deprecates Datagram TLS (DTLS)
+    version 1.0 (RFC 4347) but not DTLS version 1.2, and there is no DTLS version
+    1.1. This document updates many RFCs that normatively refer to TLS version 1.0
+    or TLS version 1.1, as described herein. This document also updates the best practices
+    for TLS usage in RFC 7525; hence, it is part of BCP 195.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3261
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3329
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3436
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3470
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3501
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3552
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3568
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3656
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3749
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3767
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3856
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3871
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3887
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3903
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3943
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3983
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4097
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4111
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4162
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4168
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4217
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4235
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4261
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4279
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4497
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4513
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4531
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4540
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4582
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4616
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4642
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4680
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4681
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4712
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4732
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4743
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4744
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4785
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4791
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4823
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4851
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4964
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4975
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4976
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4992
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5018
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5019
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5023
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5024
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5049
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5054
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5091
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5158
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5216
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5238
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5263
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5281
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5364
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5415
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5422
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5456
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5734
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5878
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5953
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6012
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6042
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6083
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6084
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6176
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6347
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6353
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6367
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6460
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6614
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6739
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6749
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6750
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7030
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7465
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7525
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7562
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC7568
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8261
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC8422
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- TLS
+- deprecate
+- TLSv1.0
+- TLSv1.1
+editorialgroup:
+  name: tls

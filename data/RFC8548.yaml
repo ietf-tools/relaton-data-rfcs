@@ -1,0 +1,85 @@
+---
+id: IETFRFC8548
+title:
+  type: main
+  content: Cryptographic Protection of TCP Streams (tcpcrypt)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8548
+  type: src
+type: standard
+docid:
+- id: IETF RFC8548
+  type: IETF
+- id: 10.17487/RFC8548
+  type: DOI
+docnumber: RFC8548
+date:
+  type: published
+  value: 2019-05
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Bittau
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Giffin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Handley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Mazieres
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Slack
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Smith
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-05
+language: en
+script: Latn
+abstract:
+  content: This document specifies "tcpcrypt", a TCP encryption protocol designed
+    for use in conjunction with the TCP Encryption Negotiation Option (TCP-ENO).  Tcpcrypt
+    coexists with middleboxes by tolerating resegmentation, NATs, and other manipulations
+    of the TCP header.  The protocol is self-contained and specifically tailored to
+    TCP implementations, which often reside in kernels or other environments in which
+    large external software dependencies can be undesirable.  Because the size of
+    TCP options is limited, the protocol requires one additional one-way message latency
+    to perform key exchange before application data can be transmitted.  However,
+    the extra latency can be avoided between two hosts that have recently established
+    a previous tcpcrypt connection.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- tcp
+- encryption
+editorialgroup:
+  name: tcpinc

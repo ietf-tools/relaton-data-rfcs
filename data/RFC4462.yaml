@@ -1,0 +1,71 @@
+---
+id: IETFRFC4462
+title:
+  type: main
+  content: Generic Security Service Application Program Interface (GSS-API) Authentication
+    and Key Exchange for the Secure Shell (SSH) Protocol
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4462
+  type: src
+type: standard
+docid:
+- id: IETF RFC4462
+  type: IETF
+- id: 10.17487/RFC4462
+  type: DOI
+docnumber: RFC4462
+date:
+  type: published
+  value: 2006-05
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Hutzelman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Salowey
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Galbraith
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: V. Welch
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-05
+language: en
+script: Latn
+abstract:
+  content: The Secure Shell protocol (SSH) is a protocol for secure remote login and
+    other secure network services over an insecure network. The Generic Security Service
+    Application Program Interface (GSS-API) provides security services to callers
+    in a mechanism-independent fashion. This memo describes methods for using the
+    GSS-API for authentication and key exchange in SSH. It defines an SSH user authentication
+    method that uses a specified GSS-API mechanism to authenticate a user, and a family
+    of SSH key exchange methods that use GSS-API to authenticate a Diffie-Hellman
+    key exchange. This memo also defines a new host public key algorithm that can
+    be used when no operations are needed using a host's public key, and a new user
+    authentication method that allows an authorization name to be used in conjunction
+    with any authentication that has already occurred as a side-effect of GSS-API-based
+    key exchange. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: secsh

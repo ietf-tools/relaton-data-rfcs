@@ -1,0 +1,52 @@
+---
+id: IETFRFC3890
+title:
+  type: main
+  content: A Transport Independent Bandwidth Modifier for the Session Description
+    Protocol (SDP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3890
+  type: src
+type: standard
+docid:
+- id: IETF RFC3890
+  type: IETF
+- id: 10.17487/RFC3890
+  type: DOI
+docnumber: RFC3890
+date:
+  type: published
+  value: 2004-09
+contributor:
+  person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+revdate: 2004-09
+language: en
+script: Latn
+abstract:
+  content: This document defines a Session Description Protocol (SDP) Transport Independent
+    Application Specific Maximum (TIAS) bandwidth modifier that does not include transport
+    overhead; instead an additional packet rate attribute is defined. The transport
+    independent bit-rate value together with the maximum packet rate can then be used
+    to calculate the real bit-rate over the transport actually used. The existing
+    SDP bandwidth modifiers and their values include the bandwidth needed for the
+    transport and IP layers. When using SDP with protocols like the Session Announcement
+    Protocol (SAP), the Session Initiation Protocol (SIP), and the Real-Time Streaming
+    Protocol (RTSP), and when the involved hosts has different transport overhead,
+    for example due to different IP versions, the interpretation of what lower layer
+    bandwidths are included is not clear. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- tias
+- application specific maximum
+editorialgroup:
+  name: mmusic

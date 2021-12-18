@@ -1,0 +1,92 @@
+---
+id: IETFRFC6697
+title:
+  type: main
+  content: Handover Keying (HOKEY) Architecture Design
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6697
+  type: src
+type: standard
+docid:
+- id: IETF RFC6697
+  type: IETF
+- id: 10.17487/RFC6697
+  type: DOI
+docnumber: RFC6697
+date:
+  type: published
+  value: 2012-07
+contributor:
+- person:
+    name:
+      completename:
+        content: G. Zorn
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Wu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Taylor
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Nir
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Hoeper
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Decugis
+        language: en
+        script: Latn
+  role: author
+revdate: 2012-07
+language: en
+script: Latn
+abstract:
+  content: 'The Handover Keying (HOKEY) Working Group seeks to minimize handover delay
+    due to authentication when a peer moves from one point of attachment to another.
+    Work has progressed on two different approaches to reduce handover delay: early
+    authentication (so that authentication does not need to be performed during handover),
+    and reuse of cryptographic material generated during an initial authentication
+    to save time during re-authentication. A basic assumption is that the mobile host
+    or "peer" is initially authenticated using the Extensible Authentication Protocol
+    (EAP), executed between the peer and an EAP server as defined in RFC 3748. This
+    document defines the HOKEY architecture. Specifically, it describes design objectives,
+    the functional environment within which handover keying operates, the functions
+    to be performed by the HOKEY architecture itself, and the assignment of those
+    functions to architectural components. It goes on to illustrate the operation
+    of the architecture within various deployment scenarios that are described more
+    fully in other documents produced by the HOKEY Working Group. This document is
+    not an Internet Standards Track specification; it is published for informational
+    purposes.'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Handover Keying Architecture
+- Re-authentication
+- Early authentication
+editorialgroup:
+  name: hokey

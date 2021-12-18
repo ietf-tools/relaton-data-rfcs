@@ -1,0 +1,87 @@
+---
+id: IETFRFC4920
+title:
+  type: main
+  content: Crankback Signaling Extensions for MPLS and GMPLS RSVP-TE
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4920
+  type: src
+type: standard
+docid:
+- id: IETF RFC4920
+  type: IETF
+- id: 10.17487/RFC4920
+  type: DOI
+docnumber: RFC4920
+date:
+  type: published
+  value: 2007-07
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Satyanarayana
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Iwata
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: N. Fujita
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Ash
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-07
+language: en
+script: Latn
+abstract:
+  content: 'In a distributed, constraint-based routing environment, the information
+    used to compute a path may be out of date. This means that Multiprotocol Label
+    Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineered (TE) Label Switched
+    Path (LSP) setup requests may be blocked by links or nodes without sufficient
+    resources. Crankback is a scheme whereby setup failure information is returned
+    from the point of failure to allow new setup attempts to be made avoiding the
+    blocked resources. Crankback can also be applied to LSP recovery to indicate the
+    location of the failed link or node. This document specifies crankback signaling
+    extensions for use in MPLS signaling using RSVP-TE as defined in "RSVP-TE: Extensions
+    to RSVP for LSP Tunnels", RFC 3209, and GMPLS signaling as defined in "Generalized
+    Multi-Protocol Label Switching (GMPLS) Signaling Functional Description", RFC
+    3473. These extensions mean that the LSP setup request can be retried on an alternate
+    path that detours around blocked links or nodes. This offers significant improvements
+    in the successful setup and recovery ratios for LSPs, especially in situations
+    where a large number of setup requests are triggered at the same time. [STANDARDS-TRACK]'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- multiprotocol label switching
+- generalized multiprotocol label switching
+- traffic engineered
+- te
+- lsp
+- label switched path
+editorialgroup:
+  name: ccamp

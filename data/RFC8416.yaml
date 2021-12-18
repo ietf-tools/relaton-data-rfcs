@@ -1,0 +1,64 @@
+---
+id: IETFRFC8416
+title:
+  type: main
+  content: Simplified Local Internet Number Resource Management with the RPKI (SLURM)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8416
+  type: src
+type: standard
+docid:
+- id: IETF RFC8416
+  type: IETF
+- id: 10.17487/RFC8416
+  type: DOI
+docnumber: RFC8416
+date:
+  type: published
+  value: 2018-08
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Ma
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Mandelberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Bruijnzeels
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-08
+language: en
+script: Latn
+abstract:
+  content: The Resource Public Key Infrastructure (RPKI) is a global authorization
+    infrastructure that allows the holder of Internet Number Resources (INRs) to make
+    verifiable statements about those resources.  Network operators, e.g., Internet
+    Service Providers (ISPs), can use the RPKI to validate BGP route origin assertions.  ISPs
+    can also use the RPKI to validate the path of a BGP route.  However, ISPs may
+    want to establish a local view of exceptions to the RPKI data in the form of local
+    filters and additions.  The mechanisms described in this document provide a simple
+    way to enable INR holders to establish a local, customized view of the RPKI, overriding
+    global RPKI repository data as needed.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- RPKI
+- Local Trust Anchor
+- BGPsec
+editorialgroup:
+  name: sidr

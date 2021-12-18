@@ -1,0 +1,84 @@
+---
+id: IETFRFC5337
+title:
+  type: main
+  content: Internationalized Delivery Status and Disposition Notifications
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5337
+  type: src
+type: standard
+docid:
+- id: IETF RFC5337
+  type: IETF
+- id: 10.17487/RFC5337
+  type: DOI
+docnumber: RFC5337
+date:
+  type: published
+  value: 2008-09
+contributor:
+- person:
+    name:
+      completename:
+        content: C. Newman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-09
+language: en
+script: Latn
+abstract:
+  content: Delivery status notifications (DSNs) are critical to the correct operation
+    of an email system. However, the existing Draft Standards (RFC 3461, RFC 3462,
+    RFC 3464) are presently limited to US-ASCII text in the machine-readable portions
+    of the protocol. This specification adds a new address type for international
+    email addresses so an original recipient address with non-US-ASCII characters
+    can be correctly preserved even after downgrading. This also provides updated
+    content return media types for delivery status notifications and message disposition
+    notifications to support use of the new address type. This document experimentally
+    extends RFC 3461, RFC 3464, and RFC 3798. This memo defines an Experimental Protocol
+    for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6533
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3461
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3462
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3464
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3798
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- EAI
+- DSN
+- SMTP
+editorialgroup:
+  name: eai

@@ -1,0 +1,83 @@
+---
+id: IETFRFC9089
+title:
+  type: main
+  content: Signaling Entropy Label Capability and Entropy Readable Label Depth Using
+    OSPF
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9089
+  type: src
+type: standard
+docid:
+- id: IETF RFC9089
+  type: IETF
+- id: 10.17487/RFC9089
+  type: DOI
+docnumber: RFC9089
+date:
+  type: published
+  value: 2021-08
+contributor:
+- person:
+    name:
+      completename:
+        content: X. Xu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Kini
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Psenak
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Filsfils
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Litkowski
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Bocci
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-08
+language: en
+script: Latn
+abstract:
+  content: Multiprotocol Label Switching (MPLS) has defined a mechanism to load-balance
+    traffic flows using Entropy Labels (EL).  An ingress Label Switching Router (LSR)
+    cannot insert ELs for packets going into a given Label Switched Path (LSP) unless
+    an egress LSR has indicated via signaling that it has the capability to process
+    ELs, referred to as the Entropy Label Capability (ELC), on that LSP.  In addition,
+    it would be useful for ingress LSRs to know each LSR's capability for reading
+    the maximum label stack depth and performing EL-based load-balancing, referred
+    to as Entropy Readable Label Depth (ERLD).  This document defines a mechanism
+    to signal these two capabilities using OSPFv2 and OSPFv3, and Border Gateway Protocol
+    - Link State (BGP-LS).
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: lsr

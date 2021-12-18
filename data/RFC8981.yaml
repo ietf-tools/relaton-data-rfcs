@@ -1,0 +1,73 @@
+---
+id: IETFRFC8981
+title:
+  type: main
+  content: Temporary Address Extensions for Stateless Address Autoconfiguration in
+    IPv6
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8981
+  type: src
+type: standard
+docid:
+- id: IETF RFC8981
+  type: IETF
+- id: 10.17487/RFC8981
+  type: DOI
+docnumber: RFC8981
+date:
+  type: published
+  value: 2021-02
+contributor:
+- person:
+    name:
+      completename:
+        content: F. Gont
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Krishnan
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Narten
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Draves
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-02
+language: en
+script: Latn
+abstract:
+  content: This document describes an extension to IPv6 Stateless Address Autoconfiguration
+    that causes hosts to generate temporary addresses with randomized interface identifiers
+    for each prefix advertised with autoconfiguration enabled.  Changing addresses
+    over time limits the window of time during which eavesdroppers and other information
+    collectors may trivially perform address-based network-activity correlation when
+    the same address is employed for multiple transactions by the same host.  Additionally,
+    it reduces the window of exposure of a host as being accessible via an address
+    that becomes revealed as a result of active communication.  This document obsoletes
+    RFC 4941.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- privacy
+- anonymity
+- unlinkability
+- crypto-based address changing
+editorialgroup:
+  name: 6man

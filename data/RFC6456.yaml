@@ -1,0 +1,77 @@
+---
+id: IETFRFC6456
+title:
+  type: main
+  content: Multi-Segment Pseudowires in Passive Optical Networks
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6456
+  type: src
+type: standard
+docid:
+- id: IETF RFC6456
+  type: IETF
+- id: 10.17487/RFC6456
+  type: DOI
+docnumber: RFC6456
+date:
+  type: published
+  value: 2011-11
+contributor:
+- person:
+    name:
+      completename:
+        content: H. Li
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Zheng
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-11
+language: en
+script: Latn
+abstract:
+  content: This document describes the application of MPLS multi-segment pseudowires
+    (MS-PWs) in a dual-technology environment comprising a Passive Optical Network
+    (PON) and an MPLS Packet Switched Network (PSN). PON technology may be used in
+    mobile backhaul networks to support the end segments closest to the aggregation
+    devices. In these cases, there may be a very large number of pseudowire (PW) Terminating
+    Provider Edge (T-PE) nodes. The MPLS control plane could be used to provision
+    these end segments, but support for the necessary protocols would complicate the
+    management of the T-PEs and would significantly increase their expense. Alternatively,
+    static, or management plane, configuration could be used to configure the end
+    segments, but the very large number of such segments in a PON places a very heavy
+    burden on the network manager. This document describes how to set up the end segment
+    of an end-to- end MPLS PW over a Gigabit-capable Passive Optical Network (G-PON)
+    or 10 Gigabit-capable Passive Optical Network (XG-PON) using the G-PON and XG-PON
+    management protocol, Optical Network Termination Management and Control Interface
+    (OMCI). This simplifies and speeds up PW provisioning compared with manual configuration.
+    This document also shows how an MS-PW may be constructed from an end segment supported
+    over a PON, and switched to one or more segments supported over an MPLS PSN. This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- MPLS
+- PSN
+- PON
+- G-PON
+- XG-PON
+- OMCI
+editorialgroup:
+  name: NON WORKING GROUP

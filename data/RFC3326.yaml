@@ -1,0 +1,65 @@
+---
+id: IETFRFC3326
+title:
+  type: main
+  content: The Reason Header Field for the Session Initiation Protocol (SIP)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3326
+  type: src
+type: standard
+docid:
+- id: IETF RFC3326
+  type: IETF
+- id: 10.17487/RFC3326
+  type: DOI
+docnumber: RFC3326
+date:
+  type: published
+  value: 2002-12
+contributor:
+- person:
+    name:
+      completename:
+        content: H. Schulzrinne
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Oran
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Camarillo
+        language: en
+        script: Latn
+  role: author
+revdate: 2002-12
+language: en
+script: Latn
+abstract:
+  content: 'The REGISTER function is used in a Session Initiation Protocol (SIP) system
+    primarily to associate a temporary contact address with an address-of-record.  This
+    contact is generally in the form of a Uniform Resource Identifier (URI), such
+    as Contact: <sip:alice@pc33.atlanta.com> and is generally dynamic and associated
+    with the IP address or hostname of the SIP User Agent (UA).  The problem is that
+    network topology may have one or more SIP proxies between the UA and the registrar,
+    such that any request traveling from the user''s home network to the registered
+    UA must traverse these proxies.  The REGISTER method does not give us a mechanism
+    to discover and record this sequence of proxies in the registrar for future use.  This
+    document defines an extension header field, "Path" which provides such a mechanism.
+    [STANDARDS-TRACK]'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- heterogeneous error response forking problem
+- herfp
+editorialgroup:
+  name: sip

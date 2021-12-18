@@ -1,0 +1,74 @@
+---
+id: IETFRFC5506
+title:
+  type: main
+  content: 'Support for Reduced-Size Real-Time Transport Control Protocol (RTCP):
+    Opportunities and Consequences'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5506
+  type: src
+type: standard
+docid:
+- id: IETF RFC5506
+  type: IETF
+- id: 10.17487/RFC5506
+  type: DOI
+docnumber: RFC5506
+date:
+  type: published
+  value: 2009-04
+contributor:
+- person:
+    name:
+      completename:
+        content: I. Johansson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+revdate: 2009-04
+language: en
+script: Latn
+abstract:
+  content: This memo discusses benefits and issues that arise when allowing Real-time
+    Transport Protocol (RTCP) packets to be transmitted with reduced size.  The size
+    can be reduced if the rules on how to create compound packets outlined in RFC
+    3550 are removed or changed.  Based on that analysis, this memo defines certain
+    changes to the rules to allow feedback messages to be sent as Reduced-Size RTCP
+    packets under certain conditions when using the RTP/AVPF (Real-time Transport
+    Protocol / Audio-Visual Profile with Feedback) profile (RFC 4585).  This document
+    updates RFC 3550, RFC 3711, and RFC 4585. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3550
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3711
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4585
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- AVPF
+- non-compound
+- non compound
+- compound
+editorialgroup:
+  name: avt

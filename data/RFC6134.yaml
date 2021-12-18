@@ -1,0 +1,53 @@
+---
+id: IETFRFC6134
+title:
+  type: main
+  content: 'Sieve Extension: Externally Stored Lists'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6134
+  type: src
+type: standard
+docid:
+- id: IETF RFC6134
+  type: IETF
+- id: 10.17487/RFC6134
+  type: DOI
+docnumber: RFC6134
+date:
+  type: published
+  value: 2011-07
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Leiba
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-07
+language: en
+script: Latn
+abstract:
+  content: The Sieve email filtering language can be used to implement email whitelisting,
+    blacklisting, personal distribution lists, and other sorts of list matching. Currently,
+    this requires that all members of such lists be hard-coded in the script itself.
+    Whenever a member of a list is added or deleted, the script needs to be updated
+    and possibly uploaded to a mail server. This document defines a Sieve extension
+    for accessing externally stored lists -- lists whose members are stored externally
+    to the script, such as using the Lightweight Directory Access Protocol (LDAP),
+    the Application Configuration Access Protocol (ACAP), vCard Extensions to WebDAV
+    (CardDAV), or relational databases. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: sieve

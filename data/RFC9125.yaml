@@ -1,0 +1,80 @@
+---
+id: IETFRFC9125
+title:
+  type: main
+  content: Gateway Auto-Discovery and Route Advertisement for Site Interconnection
+    Using Segment Routing
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9125
+  type: src
+type: standard
+docid:
+- id: IETF RFC9125
+  type: IETF
+- id: 10.17487/RFC9125
+  type: DOI
+docnumber: RFC9125
+date:
+  type: published
+  value: 2021-08
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Drake
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Patel
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Jalil
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-08
+language: en
+script: Latn
+abstract:
+  content: Data centers are attached to the Internet or a backbone network by gateway
+    routers. One data center typically has more than one gateway for commercial, load-balancing,
+    and resiliency reasons. Other sites, such as access networks, also need to be
+    connected across backbone networks through gateways. This document defines a mechanism
+    using the BGP Tunnel Encapsulation attribute to allow data center gateway routers
+    to advertise routes to the prefixes reachable in the site, including advertising
+    them on behalf of other gateways at the same site. This allows segment routing
+    to be used to identify multiple paths across the Internet or backbone network
+    between different gateways. The paths can be selected for load-balancing, resilience,
+    and quality purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- SR
+- GW
+- BGP
+editorialgroup:
+  name: bess

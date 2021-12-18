@@ -1,0 +1,78 @@
+---
+id: IETFRFC3445
+title:
+  type: main
+  content: Limiting the Scope of the KEY Resource Record (RR)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3445
+  type: src
+type: standard
+docid:
+- id: IETF RFC3445
+  type: IETF
+- id: 10.17487/RFC3445
+  type: DOI
+docnumber: RFC3445
+date:
+  type: published
+  value: 2002-12
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Massey
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Rose
+        language: en
+        script: Latn
+  role: author
+revdate: 2002-12
+language: en
+script: Latn
+abstract:
+  content: This document limits the Domain Name System (DNS) KEY Resource Record (RR)
+    to only keys used by the Domain Name System Security Extensions (DNSSEC).  The
+    original KEY RR used sub-typing to store both DNSSEC keys and arbitrary application
+    keys.  Storing both DNSSEC and application keys with the same record type is a
+    mistake.  This document removes application keys from the KEY record by redefining
+    the Protocol Octet field in the KEY RR Data.  As a result of removing application
+    keys, all but one of the flags in the KEY record become unnecessary and are redefined.  Three
+    existing application key sub-types are changed to reserved, but the format of
+    the KEY record is not changed.  This document updates RFC 2535. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC4033
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC4034
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC4035
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2535
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- DNS-SECEXT
+- dns
+- authentication
+editorialgroup:
+  name: dnsext

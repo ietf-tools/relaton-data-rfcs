@@ -1,0 +1,74 @@
+---
+id: IETFRFC8655
+title:
+  type: main
+  content: Deterministic Networking Architecture
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8655
+  type: src
+type: standard
+docid:
+- id: IETF RFC8655
+  type: IETF
+- id: 10.17487/RFC8655
+  type: DOI
+docnumber: RFC8655
+date:
+  type: published
+  value: 2019-10
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Finn
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Thubert
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Varga
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Farkas
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-10
+language: en
+script: Latn
+abstract:
+  content: This document provides the overall architecture for Deterministic Networking
+    (DetNet), which provides a capability to carry specified unicast or multicast
+    data flows for real-time applications with extremely low data loss rates and bounded
+    latency within a network domain.  Techniques used include 1) reserving data-plane
+    resources for individual (or aggregated) DetNet flows in some or all of the intermediate
+    nodes along the path of the flow, 2) providing explicit routes for DetNet flows
+    that do not immediately change with the network topology, and 3) distributing
+    data from DetNet flow packets over time and/or space to ensure delivery of each
+    packet's data in spite of the loss of a path.  DetNet operates at the IP layer
+    and delivers service over lower-layer technologies such as MPLS and Time- Sensitive
+    Networking (TSN) as defined by IEEE 802.1.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- TSN
+- Bounded Latency
+- Reliable Networking
+- Available Networking
+editorialgroup:
+  name: detnet

@@ -1,0 +1,74 @@
+---
+id: IETFRFC5945
+title:
+  type: main
+  content: Resource Reservation Protocol (RSVP) Proxy Approaches
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5945
+  type: src
+type: standard
+docid:
+- id: IETF RFC5945
+  type: IETF
+- id: 10.17487/RFC5945
+  type: DOI
+docnumber: RFC5945
+date:
+  type: published
+  value: 2010-10
+contributor:
+- person:
+    name:
+      completename:
+        content: F. Le Faucheur
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Manner
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Wing
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Guillou
+        language: en
+        script: Latn
+  role: author
+revdate: 2010-10
+language: en
+script: Latn
+abstract:
+  content: The Resource Reservation Protocol (RSVP) can be used to make end-to- end
+    resource reservations in an IP network in order to guarantee the quality of service
+    required by certain flows.  RSVP assumes that both the data sender and receiver
+    of a given flow take part in RSVP signaling.  Yet, there are use cases where resource
+    reservation is required, but the receiver, the sender, or both, is not RSVP-capable.  This
+    document presents RSVP proxy behaviors allowing RSVP routers to initiate or terminate
+    RSVP signaling on behalf of a receiver or a sender that is not RSVP-capable.  This
+    allows resource reservations to be established on a critical subset of the end-to-end
+    path.  This document reviews conceptual approaches for deploying RSVP proxies
+    and discusses how RSVP reservations can be synchronized with application requirements,
+    despite the sender, receiver, or both not participating in RSVP.  This document
+    also points out where extensions to RSVP (or to other protocols) may be needed
+    for deployment of a given RSVP proxy approach.  However, such extensions are outside
+    the scope of this document.  Finally, practical use cases for RSVP proxy are described.  This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: tsvwg

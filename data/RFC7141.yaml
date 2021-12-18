@@ -1,0 +1,79 @@
+---
+id: IETFRFC7141
+title:
+  type: main
+  content: Byte and Packet Congestion Notification
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7141
+  type: src
+type: standard
+docid:
+- id: IETF RFC7141
+  type: IETF
+- id: 10.17487/RFC7141
+  type: DOI
+docnumber: RFC7141
+date:
+  type: published
+  value: 2014-02
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Briscoe
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Manner
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-02
+language: en
+script: Latn
+abstract:
+  content: 'This document provides recommendations of best current practice for dropping
+    or marking packets using any active queue management (AQM) algorithm, including
+    Random Early Detection (RED), BLUE, Pre- Congestion Notification (PCN), and newer
+    schemes such as CoDel (Controlled Delay) and PIE (Proportional Integral controller
+    Enhanced).  We give three strong recommendations: (1) packet size should be taken
+    into account when transports detect and respond to congestion indications, (2)
+    packet size should not be taken into account when network equipment creates congestion
+    signals (marking, dropping), and therefore (3) in the specific case of RED, the
+    byte- mode packet drop variant that drops fewer small packets should not be used.  This
+    memo updates RFC 2309 to deprecate deliberate preferential treatment of small
+    packets in AQM algorithms.'
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2309
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC2914
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- active queue management
+- aqm
+- availability
+- denial of service
+- dos
+- quality of service
+- qos
+- congestion control
+- fairness
+- incentives
+- architecture layering
+- protocol
+editorialgroup:
+  name: tsvwg

@@ -1,0 +1,55 @@
+---
+id: IETFRFC7447
+title:
+  type: main
+  content: Deprecation of BGP Entropy Label Capability Attribute
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7447
+  type: src
+type: standard
+docid:
+- id: IETF RFC7447
+  type: IETF
+- id: 10.17487/RFC7447
+  type: DOI
+docnumber: RFC7447
+date:
+  type: published
+  value: 2015-02
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Scudder
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Kompella
+        language: en
+        script: Latn
+  role: author
+revdate: 2015-02
+language: en
+script: Latn
+abstract:
+  content: 'The BGP Entropy Label Capability attribute is defined in RFC 6790.  Regrettably,
+    it has a bug: although RFC 6790 mandates that routers incapable of processing
+    Entropy Labels must remove the attribute, fulfillment of this requirement cannot
+    be guaranteed in practice.  This specification deprecates the attribute.  A forthcoming
+    document will propose a replacement.'
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6790
+      format: text/plain
+fetched: '2021-12-18'
+editorialgroup:
+  name: mpls

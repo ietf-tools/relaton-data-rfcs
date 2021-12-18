@@ -1,0 +1,74 @@
+---
+id: IETFRFC4247
+title:
+  type: main
+  content: Requirements for Header Compression over MPLS
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4247
+  type: src
+type: standard
+docid:
+- id: IETF RFC4247
+  type: IETF
+- id: 10.17487/RFC4247
+  type: DOI
+docnumber: RFC4247
+date:
+  type: published
+  value: 2005-11
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Ash
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Goode
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Hand
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Zhang
+        language: en
+        script: Latn
+  role: author
+revdate: 2005-11
+language: en
+script: Latn
+abstract:
+  content: Voice over IP (VoIP) typically uses the encapsulation voice/RTP/UDP/IP.  When
+    MPLS labels are added, this becomes voice/RTP/UDP/IP/MPLS-labels.  For an MPLS
+    VPN, the packet header is typically 48 bytes, while the voice payload is often
+    no more than 30 bytes, for example.  Header compression can significantly reduce
+    the overhead through various compression mechanisms, such as enhanced compressed
+    RTP (ECRTP) and robust header compression (ROHC).  We consider using MPLS to route
+    compressed packets over an MPLS Label Switched Path (LSP) without compression/decompression
+    cycles at each router.  This approach can increase the bandwidth efficiency as
+    well as processing scalability of the maximum number of simultaneous flows that
+    use header compression at each router.  In this document, we give a problem statement,
+    goals and requirements, and an example scenario.  This memo provides information
+    for the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- multiprotocol label switching
+- voip
+- voice over ip
+editorialgroup:
+  name: avt

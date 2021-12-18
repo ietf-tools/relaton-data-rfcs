@@ -1,0 +1,69 @@
+---
+id: IETFRFC8509
+title:
+  type: main
+  content: A Root Key Trust Anchor Sentinel for DNSSEC
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8509
+  type: src
+type: standard
+docid:
+- id: IETF RFC8509
+  type: IETF
+- id: 10.17487/RFC8509
+  type: DOI
+docnumber: RFC8509
+date:
+  type: published
+  value: 2018-12
+contributor:
+- person:
+    name:
+      completename:
+        content: G. Huston
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Damas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: W. Kumari
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-12
+language: en
+script: Latn
+abstract:
+  content: The DNS Security Extensions (DNSSEC) were developed to provide origin authentication
+    and integrity protection for DNS data by using digital signatures.  These digital
+    signatures can be verified by building a chain of trust starting from a trust
+    anchor and proceeding down to a particular node in the DNS.  This document specifies
+    a mechanism that will allow an end user and third parties to determine the trusted
+    key state for the root key of the resolvers that handle that user's DNS queries.  Note
+    that this method is only applicable for determining which keys are in the trust
+    store for the root key.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- DNSSEC
+- KSK
+- RFC5011
+- DNS
+- rollover
+- root-key-sentinel-is-ta-
+- root-key-sentinel-not-ta-
+- root key
+- security
+editorialgroup:
+  name: dnsop

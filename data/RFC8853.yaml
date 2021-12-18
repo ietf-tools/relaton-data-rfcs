@@ -1,0 +1,67 @@
+---
+id: IETFRFC8853
+title:
+  type: main
+  content: Using Simulcast in Session Description Protocol (SDP) and RTP Sessions
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8853
+  type: src
+type: standard
+docid:
+- id: IETF RFC8853
+  type: IETF
+- id: 10.17487/RFC8853
+  type: DOI
+docnumber: RFC8853
+date:
+  type: published
+  value: 2021-01
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Burman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Westerlund
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Nandakumar
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Zanaty
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-01
+language: en
+script: Latn
+abstract:
+  content: In some application scenarios, it may be desirable to send multiple differently
+    encoded versions of the same media source in different RTP streams.  This is called
+    simulcast.  This document describes how to accomplish simulcast in RTP and how
+    to signal it in the Session Description Protocol (SDP).  The described solution
+    uses an RTP/RTCP identification method to identify RTP streams belonging to the
+    same media source and makes an extension to SDP to indicate that those RTP streams
+    are different simulcast formats of that media source.  The SDP extension consists
+    of a new media-level SDP attribute that expresses capability to send and/or receive
+    simulcast RTP streams.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+editorialgroup:
+  name: mmusic

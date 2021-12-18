@@ -1,0 +1,91 @@
+---
+id: IETFRFC8539
+title:
+  type: main
+  content: Softwire Provisioning Using DHCPv4 over DHCPv6
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8539
+  type: src
+type: standard
+docid:
+- id: IETF RFC8539
+  type: IETF
+- id: 10.17487/RFC8539
+  type: DOI
+docnumber: RFC8539
+date:
+  type: published
+  value: 2019-03
+contributor:
+- person:
+    name:
+      completename:
+        content: I. Farrer
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Q. Sun
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Cui
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Sun
+        language: en
+        script: Latn
+  role: author
+revdate: 2019-03
+language: en
+script: Latn
+abstract:
+  content: DHCPv4 over DHCPv6 (RFC 7341) is a mechanism for dynamically configuring
+    IPv4 for use as an over-the-top service in an IPv6-only network. Softwires are
+    an example of such a service. For DHCPv4 over DHCPv6 (DHCP 4o6) to function with
+    some IPv4-over-IPv6 softwire mechanisms and deployment scenarios (e.g., RFC 7596
+    or RFC 7597), the operator needs to know the IPv6 address that the client will
+    use as the source of an IPv4-in-IPv6 softwire tunnel. This address, in conjunction
+    with the client's IPv4 address, and (in some deployments) the Port Set ID are
+    used to create a binding table entry in the operator's softwire tunnel concentrator.
+    This memo defines a DHCPv6 option to convey IPv6 parameters for establishing the
+    softwire tunnel and a DHCPv4 option (to be used only with DHCP 4o6) to communicate
+    the source tunnel IPv6 address between the DHCP 4o6 client and server. It is designed
+    to work in conjunction with the IPv4 address allocation process. "DHCPv6 Options
+    for Configuration of Softwire Address and Port-Mapped Clients" (RFC 7598) describes
+    a deterministic DHCPv6-based mechanism for provisioning softwires. This document
+    updates RFC 7598, allowing OPTION_S46_BR (90) to be enumerated in the DHCPv6 client's
+    Option Request Option (ORO) request and to appear directly within subsequent messages
+    sent by the DHCPv6 server.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC7598
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Provisioning
+- Softwire
+- DHCP 4o6
+- IPv4 over IPv6
+- IPv4 service continuity
+- IPv4 address depletion
+- IPv4 over IPv6
+- MAP
+- Lightweight 4over6
+editorialgroup:
+  name: dhc

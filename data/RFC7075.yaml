@@ -1,0 +1,69 @@
+---
+id: IETFRFC7075
+title:
+  type: main
+  content: Realm-Based Redirection In Diameter
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7075
+  type: src
+type: standard
+docid:
+- id: IETF RFC7075
+  type: IETF
+- id: 10.17487/RFC7075
+  type: DOI
+docnumber: RFC7075
+date:
+  type: published
+  value: 2013-11
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Tsou
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Hao
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Taylor
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-11
+language: en
+script: Latn
+abstract:
+  content: The Diameter protocol includes a capability for message redirection, controlled
+    by an application-independent "redirect agent". In some circumstances, an operator
+    may wish to redirect messages to an alternate domain without specifying individual
+    hosts. This document specifies an application-specific mechanism by which a Diameter
+    server or proxy (node) can perform such a redirection when the Straightforward-Naming
+    Authority Pointer (S-NAPTR) is not used for dynamic peer discovery. A node performing
+    this new function is referred to as a "Realm-based Redirect Server". This memo
+    updates Sections 6.13 and 6.14 of RFC 6733 with respect to the usage of the Redirect-Host-Usage
+    and Redirect-Max-Cache-Time Attribute-Value Pairs (AVPs).
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6733
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Diameter
+- routing
+editorialgroup:
+  name: dime

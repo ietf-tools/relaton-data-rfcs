@@ -1,0 +1,74 @@
+---
+id: IETFRFC3517
+title:
+  type: main
+  content: A Conservative Selective Acknowledgment (SACK)-based Loss Recovery Algorithm
+    for TCP
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3517
+  type: src
+type: standard
+docid:
+- id: IETF RFC3517
+  type: IETF
+- id: 10.17487/RFC3517
+  type: DOI
+docnumber: RFC3517
+date:
+  type: published
+  value: 2003-04
+contributor:
+- person:
+    name:
+      completename:
+        content: E. Blanton
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Allman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Fall
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Wang
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-04
+language: en
+script: Latn
+abstract:
+  content: This document presents a conservative loss recovery algorithm for TCP that
+    is based on the use of the selective acknowledgment (SACK) TCP option.  The algorithm
+    presented in this document conforms to the spirit of the current congestion control
+    specification (RFC 2581), but allows TCP senders to recover more effectively when
+    multiple segments are lost from a single flight of data. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6675
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- transmission control protocol
+- retransmission
+- congestion control
+editorialgroup:
+  name: tsvwg

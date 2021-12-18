@@ -1,0 +1,63 @@
+---
+id: IETFRFC8521
+title:
+  type: main
+  content: Registration Data Access Protocol (RDAP) Object Tagging
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8521
+  type: src
+type: standard
+docid:
+- id: IETF RFC8521
+  type: IETF
+- id: 10.17487/RFC8521
+  type: DOI
+docnumber: RFC8521
+date:
+  type: published
+  value: 2018-11
+contributor:
+- person:
+    name:
+      completename:
+        content: S. Hollenbeck
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Newton
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-11
+language: en
+script: Latn
+abstract:
+  content: The Registration Data Access Protocol (RDAP) includes a method that can
+    be used to identify the authoritative server for processing domain name, IP address,
+    and autonomous system number queries.  The method does not describe how to identify
+    the authoritative server for processing other RDAP query types, such as entity
+    queries.  This limitation exists because the identifiers associated with these
+    query types are typically unstructured.  This document updates RFC 7484 by describing
+    an operational practice that can be used to add structure to RDAP identifiers
+    and that makes it possible to identify the authoritative server for additional
+    RDAP queries.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC7484
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- RDAP
+- Entity
+- Bootstrap
+editorialgroup:
+  name: regext

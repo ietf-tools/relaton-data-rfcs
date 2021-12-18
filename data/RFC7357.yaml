@@ -1,0 +1,89 @@
+---
+id: IETFRFC7357
+title:
+  type: main
+  content: 'Transparent Interconnection of Lots of Links (TRILL): End Station Address
+    Distribution Information (ESADI) Protocol'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7357
+  type: src
+type: standard
+docid:
+- id: IETF RFC7357
+  type: IETF
+- id: 10.17487/RFC7357
+  type: DOI
+docnumber: RFC7357
+date:
+  type: published
+  value: 2014-09
+contributor:
+- person:
+    name:
+      completename:
+        content: H. Zhai
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: F. Hu
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Perlman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Eastlake 3rd
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: O. Stokes
+        language: en
+        script: Latn
+  role: author
+revdate: 2014-09
+language: en
+script: Latn
+abstract:
+  content: The IETF TRILL (Transparent Interconnection of Lots of Links) protocol
+    provides least-cost pair-wise data forwarding without configuration in multi-hop
+    networks with arbitrary topologies and link technologies. TRILL supports multipathing
+    of both unicast and multicast traffic. Devices that implement the TRILL protocol
+    are called TRILL switches or RBridges (Routing Bridges). ESADI (End Station Address
+    Distribution Information) is an optional protocol by which a TRILL switch can
+    communicate, in a Data Label (VLAN or fine-grained label) scoped way, end station
+    address and reachability information to TRILL switches participating in ESADI
+    for the relevant Data Label. This document updates RFC 6325, specifically the
+    documentation of the ESADI protocol, and is not backwards compatible.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC6325
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- ESADI
+- TRILL
+- RBridge
+- Address Learning
+- Reachability
+- MAC Addresses
+editorialgroup:
+  name: trill

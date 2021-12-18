@@ -1,0 +1,76 @@
+---
+id: IETFRFC8311
+title:
+  type: main
+  content: Relaxing Restrictions on Explicit Congestion Notification (ECN) Experimentation
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8311
+  type: src
+type: standard
+docid:
+- id: IETF RFC8311
+  type: IETF
+- id: 10.17487/RFC8311
+  type: DOI
+docnumber: RFC8311
+date:
+  type: published
+  value: 2018-01
+contributor:
+  person:
+    name:
+      completename:
+        content: D. Black
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-01
+language: en
+script: Latn
+abstract:
+  content: This memo updates RFC 3168, which specifies Explicit Congestion Notification
+    (ECN) as an alternative to packet drops for indicating network congestion to endpoints.  It
+    relaxes restrictions in RFC 3168 that hinder experimentation towards benefits
+    beyond just removal of loss.  This memo summarizes the anticipated areas of experimentation
+    and updates RFC 3168 to enable experimentation in these areas.  An Experimental
+    RFC in the IETF document stream is required to take advantage of any of these
+    enabling updates.  In addition, this memo makes related updates to the ECN specifications
+    for RTP in RFC 6679 and for the Datagram Congestion Control Protocol (DCCP) in
+    RFCs 4341, 4342, and 5622.  This memo also records the conclusion of the ECN nonce
+    experiment in RFC 3540 and provides the rationale for reclassification of RFC
+    3540 from Experimental to Historic; this reclassification enables new experimental
+    use of the ECT(1) codepoint.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3168
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4341
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4342
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5622
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC6679
+      format: text/plain
+fetched: '2021-12-18'
+keyword: ECN
+editorialgroup:
+  name: tsvwg

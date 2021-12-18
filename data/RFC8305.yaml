@@ -1,0 +1,59 @@
+---
+id: IETFRFC8305
+title:
+  type: main
+  content: 'Happy Eyeballs Version 2: Better Connectivity Using Concurrency'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8305
+  type: src
+type: standard
+docid:
+- id: IETF RFC8305
+  type: IETF
+- id: 10.17487/RFC8305
+  type: DOI
+docnumber: RFC8305
+date:
+  type: published
+  value: 2017-12
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Schinazi
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Pauly
+        language: en
+        script: Latn
+  role: author
+revdate: 2017-12
+language: en
+script: Latn
+abstract:
+  content: Many communication protocols operating over the modern Internet use hostnames.  These
+    often resolve to multiple IP addresses, each of which may have different performance
+    and connectivity characteristics.  Since specific addresses or address families
+    (IPv4 or IPv6) may be blocked, broken, or sub-optimal on a network, clients that
+    attempt multiple connections in parallel have a chance of establishing a connection
+    more quickly.  This document specifies requirements for algorithms that reduce
+    this user-visible delay and provides an example algorithm, referred to as "Happy
+    Eyeballs".  This document obsoletes the original algorithm description in RFC
+    6555.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- IPv6
+- IPv4
+- TCP
+- DNS
+- NAT64
+editorialgroup:
+  name: v6ops

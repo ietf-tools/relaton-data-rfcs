@@ -1,0 +1,54 @@
+---
+id: IETFRFC3581
+title:
+  type: main
+  content: An Extension to the Session Initiation Protocol (SIP) for Symmetric Response
+    Routing
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3581
+  type: src
+type: standard
+docid:
+- id: IETF RFC3581
+  type: IETF
+- id: 10.17487/RFC3581
+  type: DOI
+docnumber: RFC3581
+date:
+  type: published
+  value: 2003-08
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Rosenberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Schulzrinne
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-08
+language: en
+script: Latn
+abstract:
+  content: The Session Initiation Protocol (SIP) operates over UDP and TCP, among
+    others.  When used with UDP, responses to requests are returned to the source
+    address the request came from, and to the port written into the topmost Via header
+    field value of the request.  This behavior is not desirable in many cases, most
+    notably, when the client is behind a Network Address Translator (NAT).  This extension
+    defines a new parameter for the Via header field, called "rport", that allows
+    a client to request that the server send the response back to the source IP address
+    and port from which the request originated. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword: report client server
+editorialgroup:
+  name: sip

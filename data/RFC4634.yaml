@@ -1,0 +1,72 @@
+---
+id: IETFRFC4634
+title:
+  type: main
+  content: US Secure Hash Algorithms (SHA and HMAC-SHA)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc4634
+  type: src
+type: standard
+docid:
+- id: IETF RFC4634
+  type: IETF
+- id: 10.17487/RFC4634
+  type: DOI
+docnumber: RFC4634
+date:
+  type: published
+  value: 2006-07
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Eastlake 3rd
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Hansen
+        language: en
+        script: Latn
+  role: author
+revdate: 2006-07
+language: en
+script: Latn
+abstract:
+  content: The United States of America has adopted a suite of Secure Hash Algorithms
+    (SHAs), including four beyond SHA-1, as part of a Federal Information Processing
+    Standard (FIPS), specifically SHA-224 (RFC 3874), SHA-256, SHA-384, and SHA-512.
+    The purpose of this document is to make source code performing these hash functions
+    conveniently available to the Internet community. The sample code supports input
+    strings of arbitrary bit length. SHA-1's sample code from RFC 3174 has also been
+    updated to handle input strings of arbitrary bit length. Most of the text herein
+    was adapted by the authors from FIPS 180-2. Code to perform SHA-based HMACs, with
+    arbitrary bit length text, is also included. This memo provides information for
+    the Internet community.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    formattedref:
+      content: RFC6234
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3174
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- fips
+- federal information processing standard
+- sha-224
+- sha-256
+- sha-384
+- sha-512
+editorialgroup:
+  name: NON WORKING GROUP

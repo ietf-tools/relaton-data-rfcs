@@ -1,0 +1,86 @@
+---
+id: IETFRFC5332
+title:
+  type: main
+  content: MPLS Multicast Encapsulations
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5332
+  type: src
+type: standard
+docid:
+- id: IETF RFC5332
+  type: IETF
+- id: 10.17487/RFC5332
+  type: DOI
+docnumber: RFC5332
+date:
+  type: published
+  value: 2008-08
+contributor:
+- person:
+    name:
+      completename:
+        content: T. Eckert
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: E. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Aggarwal
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: Y. Rekhter
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-08
+language: en
+script: Latn
+abstract:
+  content: RFC 3032 established two data link layer codepoints for MPLS, used to distinguish
+    whether the data link layer frame is carrying an MPLS unicast or an MPLS multicast
+    packet. However, this usage was never deployed. This specification updates RFC
+    3032 by redefining the meaning of these two codepoints. Both codepoints can now
+    be used to carry multicast packets. The second codepoint (formerly the "multicast
+    codepoint") is now to be used only on multiaccess media, and it is to mean "the
+    top label of the following label stack is an upstream-assigned label". RFC 3032
+    does not specify the destination address to be placed in the "MAC DA" (Medium
+    Access Layer Destination Address) field of an ethernet frame that carries an MPLS
+    multicast packet. This document provides that specification. This document updates
+    RFC 3032 and RFC 4023. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC3032
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4023
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- data link layer codepoint
+- multiaccess media
+- upstream-assigned label
+- mac da
+- medium access layer destination address
+editorialgroup:
+  name: mpls

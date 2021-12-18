@@ -1,0 +1,64 @@
+---
+id: IETFRFC3623
+title:
+  type: main
+  content: Graceful OSPF Restart
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3623
+  type: src
+type: standard
+docid:
+- id: IETF RFC3623
+  type: IETF
+- id: 10.17487/RFC3623
+  type: DOI
+docnumber: RFC3623
+date:
+  type: published
+  value: 2003-11
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Moy
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: P. Pillay-Esnault
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Lindem
+        language: en
+        script: Latn
+  role: author
+revdate: 2003-11
+language: en
+script: Latn
+abstract:
+  content: This memo documents an enhancement to the OSPF routing protocol, whereby
+    an OSPF router can stay on the forwarding path even as its OSPF software is restarted.  This
+    is called "graceful restart" or "non-stop forwarding".  A restarting router may
+    not be capable of adjusting its forwarding in a timely manner when the network
+    topology changes.  In order to avoid the possible resulting routing loops, the
+    procedure in this memo automatically reverts to a normal OSPF restart when such
+    a topology change is detected, or when one or more of the restarting router's
+    neighbors do not support the enhancements in this memo.  Proper network operation
+    during a graceful restart makes assumptions upon the operating environment of
+    the restarting router; these assumptions are also documented.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- open shortest path first
+- non-stop forwarding
+editorialgroup:
+  name: ospf

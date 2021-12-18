@@ -1,0 +1,57 @@
+---
+id: IETFRFC6409
+title:
+  type: main
+  content: Message Submission for Mail
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6409
+  type: src
+type: standard
+docid:
+- id: IETF RFC6409
+  type: IETF
+- id: 10.17487/RFC6409
+  type: DOI
+docnumber: RFC6409
+date:
+  type: published
+  value: 2011-11
+contributor:
+- person:
+    name:
+      completename:
+        content: R. Gellens
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Klensin
+        language: en
+        script: Latn
+  role: author
+revdate: 2011-11
+language: en
+script: Latn
+abstract:
+  content: This memo splits message submission from message relay, allowing each service
+    to operate according to its own rules (for security, policy, etc.), and specifies
+    what actions are to be taken by a submission server. Message relay is unaffected,
+    and continues to use SMTP over port 25. When conforming to this document, message
+    submission uses the protocol specified here, normally over port 587. This separation
+    of function offers a number of benefits, including the ability to apply specific
+    security or policy requirements. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Text
+- Internationalization
+- ASCII
+- Unicode
+- UTF-8
+editorialgroup:
+  name: yam

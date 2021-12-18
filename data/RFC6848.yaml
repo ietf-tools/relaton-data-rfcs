@@ -1,0 +1,92 @@
+---
+id: IETFRFC6848
+title:
+  type: main
+  content: Specifying Civic Address Extensions in the Presence Information Data Format
+    Location Object (PIDF-LO)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc6848
+  type: src
+type: standard
+docid:
+- id: IETF RFC6848
+  type: IETF
+- id: 10.17487/RFC6848
+  type: DOI
+docnumber: RFC6848
+date:
+  type: published
+  value: 2013-01
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Winterbottom
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Thomson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Barnes
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: B. Rosen
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. George
+        language: en
+        script: Latn
+  role: author
+revdate: 2013-01
+language: en
+script: Latn
+abstract:
+  content: New fields are occasionally added to civic addresses.  A backward- compatible
+    mechanism for adding civic address elements to the Geopriv civic address format
+    is described.  A formal mechanism for handling unsupported extensions when translating
+    between XML and DHCP civic address forms is defined for entities that need to
+    perform this translation.  Initial extensions for some new elements are also defined.  The
+    Location-to-Service Translation (LoST) protocol mechanism (defined in RFC 5222)
+    that returns civic address element names used for validation of location information
+    is clarified and is normatively updated to require a qualifying namespace identifier
+    on each civic address element returned as part of the validation process. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC4776
+      format: text/plain
+- type: updates
+  bibitem:
+    formattedref:
+      content: RFC5222
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- Extension
+- Local
+- Civic
+- Location
+- GEOPRIV
+editorialgroup:
+  name: geopriv

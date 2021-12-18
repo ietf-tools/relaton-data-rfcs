@@ -1,0 +1,71 @@
+---
+id: IETFRFC5015
+title:
+  type: main
+  content: Bidirectional Protocol Independent Multicast (BIDIR-PIM)
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5015
+  type: src
+type: standard
+docid:
+- id: IETF RFC5015
+  type: IETF
+- id: 10.17487/RFC5015
+  type: DOI
+docnumber: RFC5015
+date:
+  type: published
+  value: 2007-10
+contributor:
+- person:
+    name:
+      completename:
+        content: M. Handley
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: I. Kouvelas
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: T. Speakman
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Vicisano
+        language: en
+        script: Latn
+  role: author
+revdate: 2007-10
+language: en
+script: Latn
+abstract:
+  content: This document discusses Bidirectional PIM (BIDIR-PIM), a variant of PIM
+    Sparse-Mode that builds bidirectional shared trees connecting multicast sources
+    and receivers.  Bidirectional trees are built using a fail-safe Designated Forwarder
+    (DF) election mechanism operating on each link of a multicast topology.  With
+    the assistance of the DF, multicast data is natively forwarded from sources to
+    the Rendezvous-Point (RP) and hence along the shared tree to receivers without
+    requiring source-specific state.  The DF election takes place at RP discovery
+    time and provides the route to the RP, thus eliminating the requirement for data-driven
+    protocol events. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- pim
+- sparse-mode
+- shared trees
+editorialgroup:
+  name: pim

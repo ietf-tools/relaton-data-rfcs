@@ -1,0 +1,59 @@
+---
+id: IETFRFC5258
+title:
+  type: main
+  content: Internet Message Access Protocol version 4 - LIST Command Extensions
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc5258
+  type: src
+type: standard
+docid:
+- id: IETF RFC5258
+  type: IETF
+- id: 10.17487/RFC5258
+  type: DOI
+docnumber: RFC5258
+date:
+  type: published
+  value: 2008-06
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Leiba
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Melnikov
+        language: en
+        script: Latn
+  role: author
+revdate: 2008-06
+language: en
+script: Latn
+abstract:
+  content: 'IMAP4 has two commands for listing mailboxes: LIST and LSUB.  As we have
+    added extensions, such as Mailbox Referrals, that have required specialized lists
+    we have had to expand the number of list commands, since each extension must add
+    its function to both LIST and LSUB, and these commands are not, as they are defined,
+    extensible.  If we''ve needed the extensions to work together, we''ve had to add
+    a set of commands to mix the different options, the set increasing in size with
+    each new extension.  This document describes an extension to the base LIST command
+    that will allow these additions to be done with mutually compatible options to
+    the LIST command, avoiding the exponential increase in specialized list commands.
+    [STANDARDS-TRACK]'
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- imap4 ,list
+- lsub
+- extended list
+- email
+editorialgroup:
+  name: imapext

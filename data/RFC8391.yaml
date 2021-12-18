@@ -1,0 +1,91 @@
+---
+id: IETFRFC8391
+title:
+  type: main
+  content: 'XMSS: eXtended Merkle Signature Scheme'
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc8391
+  type: src
+type: standard
+docid:
+- id: IETF RFC8391
+  type: IETF
+- id: 10.17487/RFC8391
+  type: DOI
+docnumber: RFC8391
+date:
+  type: published
+  value: 2018-05
+contributor:
+- person:
+    name:
+      completename:
+        content: A. Huelsing
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Butin
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: S. Gazdag
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Rijneveld
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Mohaisen
+        language: en
+        script: Latn
+  role: author
+revdate: 2018-05
+language: en
+script: Latn
+abstract:
+  content: This note describes the eXtended Merkle Signature Scheme (XMSS), a hash-based
+    digital signature system that is based on existing descriptions in scientific
+    literature.  This note specifies Winternitz One-Time Signature Plus (WOTS+), a
+    one-time signature scheme; XMSS, a single-tree scheme; and XMSS^MT, a multi-tree
+    variant of XMSS.  Both XMSS and XMSS^MT use WOTS+ as a main building block.  XMSS
+    provides cryptographic digital signatures without relying on the conjectured hardness
+    of mathematical problems.  Instead, it is proven that it only relies on the properties
+    of cryptographic hash functions.  XMSS provides strong security guarantees and
+    is even secure when the collision resistance of the underlying hash function is
+    broken.  It is suitable for compact implementations, is relatively simple to implement,
+    and naturally resists side-channel attacks.  Unlike most other signature systems,
+    hash-based signatures can so far withstand known attacks using quantum computers.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- Digital signature
+- cryptography
+- post-quantum cryptography
+- Hash-based signatures
+- Merkle signatures
+- Merkle tree
+- hash function
+- Winternitz
+- Winternitz one-time signature scheme
+- WOTS
+- W-OTS
+- WOTS+
+- W-OTS+
+- XMSS-MT
+- multi-tree XMSS

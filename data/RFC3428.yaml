@@ -1,0 +1,79 @@
+---
+id: IETFRFC3428
+title:
+  type: main
+  content: Session Initiation Protocol (SIP) Extension for Instant Messaging
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc3428
+  type: src
+type: standard
+docid:
+- id: IETF RFC3428
+  type: IETF
+- id: 10.17487/RFC3428
+  type: DOI
+docnumber: RFC3428
+date:
+  type: published
+  value: 2002-12
+contributor:
+- person:
+    name:
+      completename:
+        content: B. Campbell
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: J. Rosenberg
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: H. Schulzrinne
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Huitema
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: D. Gurle
+        language: en
+        script: Latn
+  role: author
+revdate: 2002-12
+language: en
+script: Latn
+abstract:
+  content: Instant Messaging (IM) refers to the transfer of messages between users
+    in near real-time.  These messages are usually, but not required to be, short.  IMs
+    are often used in a conversational mode, that is, the transfer of messages back
+    and forth is fast enough for participants to maintain an interactive conversation.  This
+    document proposes the MESSAGE method, an extension to the Session Initiation Protocol
+    (SIP) that allows the transfer of Instant Messages.  Since the MESSAGE request
+    is an extension to SIP, it inherits all the request routing and security features
+    of that protocol.  MESSAGE requests carry the content in the form of MIME body
+    parts.  MESSAGE requests do not themselves initiate a SIP dialog; under normal
+    usage each Instant Message stands alone, much like pager messages.  MESSAGE requests
+    may be sent in the context of a dialog initiated by some other SIP request. [STANDARDS-TRACK]
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-18'
+keyword:
+- im
+- message method
+editorialgroup:
+  name: sip

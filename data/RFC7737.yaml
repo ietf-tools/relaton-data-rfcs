@@ -1,0 +1,82 @@
+---
+id: IETFRFC7737
+title:
+  type: main
+  content: Label Switched Path (LSP) Ping and Traceroute Reply Mode Simplification
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc7737
+  type: src
+type: standard
+docid:
+- id: IETF RFC7737
+  type: IETF
+- id: 10.17487/RFC7737
+  type: DOI
+docnumber: RFC7737
+date:
+  type: published
+  value: 2016-01
+contributor:
+- person:
+    name:
+      completename:
+        content: N. Akiya
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: G. Swallow
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: C. Pignataro
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: L. Andersson
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: M. Chen
+        language: en
+        script: Latn
+  role: author
+revdate: 2016-01
+language: en
+script: Latn
+abstract:
+  content: The Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) Ping
+    and Traceroute use the Reply Mode field to signal the method to be used in the
+    MPLS echo reply.  This document updates the procedures for the "Reply via Specified
+    Path" Reply Mode.  The value of this Reply Mode is 5.  The update creates a simple
+    way to indicate that the reverse LSP should be used as the return path.  This
+    document also adds an optional TLV that can carry an ordered list of Reply Mode
+    values.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC7110
+      format: text/plain
+fetched: '2021-12-18'
+keyword:
+- MPLS
+- LSP Ping
+- Reply Mode
+editorialgroup:
+  name: mpls
