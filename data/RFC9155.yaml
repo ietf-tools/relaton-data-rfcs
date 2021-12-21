@@ -1,0 +1,62 @@
+---
+id: IETFRFC9155
+title:
+  type: main
+  content: Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9155
+  type: src
+type: standard
+docid:
+- id: IETF RFC9155
+  type: IETF
+- id: 10.17487/RFC9155
+  type: DOI
+docnumber: RFC9155
+date:
+  type: published
+  value: 2021-12
+contributor:
+- person:
+    name:
+      completename:
+        content: L. Velvindron
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: K. Moriarty
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: A. Ghedini
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-12
+language: en
+script: Latn
+abstract:
+  content: The MD5 and SHA-1 hashing algorithms are increasingly vulnerable to attack,
+    and this document deprecates their use in TLS 1.2 and DTLS 1.2 digital signatures.  However,
+    this document does not deprecate SHA-1 with Hashed Message Authentication Code
+    (HMAC), as used in record protection.  This document updates RFC 5246.
+  language: en
+  script: Latn
+  format: text/html
+relation:
+  type: updates
+  bibitem:
+    formattedref:
+      content: RFC5246
+      format: text/plain
+fetched: '2021-12-21'
+keyword: tls
+editorialgroup:
+  name: tls
