@@ -1,0 +1,66 @@
+---
+id: RFC9154
+title:
+  type: main
+  content: Extensible Provisioning Protocol (EPP) Secure Authorization Information
+    for Transfer
+  format: text/plain
+link:
+  content: https://www.rfc-editor.org/info/rfc9154
+  type: src
+type: standard
+docid:
+- id: RFC 9154
+  type: IETF
+- id: RFC9154
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9154
+  type: DOI
+docnumber: RFC9154
+date:
+  type: published
+  value: 2021-12
+contributor:
+- person:
+    name:
+      completename:
+        content: J. Gould
+        language: en
+        script: Latn
+  role: author
+- person:
+    name:
+      completename:
+        content: R. Wilhelm
+        language: en
+        script: Latn
+  role: author
+revdate: 2021-12
+language: en
+script: Latn
+abstract:
+  content: The Extensible Provisioning Protocol (EPP) (RFC 5730) defines the use of
+    authorization information to authorize a transfer of an EPP object, such as a
+    domain name, between clients that are referred to as "registrars".  Object-specific,
+    password-based authorization information (see RFCs 5731 and 5733) is commonly
+    used but raises issues related to the security, complexity, storage, and lifetime
+    of authentication information.  This document defines an operational practice,
+    using the EPP RFCs, that leverages the use of strong random authorization information
+    values that are short lived, not stored by the client, and stored by the server
+    using a cryptographic hash that provides for secure authorization information
+    that can safely be used for object transfers.
+  language: en
+  script: Latn
+  format: text/html
+fetched: '2021-12-31'
+keyword:
+- EPP
+- authinfo
+- random
+- short-lived
+- strong
+- storing
+- securely
+editorialgroup:
+  name: regext
