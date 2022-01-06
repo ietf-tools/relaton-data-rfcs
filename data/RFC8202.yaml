@@ -1,11 +1,11 @@
 ---
 id: RFC8202
 title:
-  type: main
+- type: main
   content: IS-IS Multi-Instance
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8202
+- content: https://www.rfc-editor.org/info/rfc8202
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8202
 date:
-  type: published
+- type: published
   value: 2017-06
 contributor:
 - person:
     name:
       completename:
         content: L. Ginsberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Previdi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Henderickx
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a mechanism that allows a single router to share
+- content: This document describes a mechanism that allows a single router to share
     one or more circuits among multiple Intermediate System to Intermediate System
     (IS-IS) routing protocol instances. Multiple instances allow the isolation of
     resources associated with each instance. Routers will form instance-specific adjacencies.
@@ -54,9 +65,11 @@ abstract:
     State Database (LSDB). Each Protocol Data Unit (PDU) will contain a new Type-Length-Value
     (TLV) identifying the instance and the topology (or topologies) to which the PDU
     belongs. This document obsoletes RFC 6822.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: isis
+- name: isis

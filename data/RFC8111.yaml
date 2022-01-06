@@ -1,11 +1,11 @@
 ---
 id: RFC8111
 title:
-  type: main
+- type: main
   content: Locator/ID Separation Protocol Delegated Database Tree (LISP-DDT)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8111
+- content: https://www.rfc-editor.org/info/rfc8111
   type: src
 type: standard
 docid:
@@ -18,59 +18,78 @@ docid:
   type: DOI
 docnumber: RFC8111
 date:
-  type: published
+- type: published
   value: 2017-05
 contributor:
 - person:
     name:
       completename:
         content: V. Fuller
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Lewis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: V. Ermagan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Jain
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Smirnov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes the Locator/ID Separation Protocol Delegated Database
+- content: This document describes the Locator/ID Separation Protocol Delegated Database
     Tree (LISP-DDT), a hierarchical distributed database that embodies the delegation
     of authority to provide mappings from LISP Endpoint Identifiers (EIDs) to Routing
     Locators (RLOCs).  It is a statically defined distribution of the EID namespace
     among a set of LISP-speaking servers called "DDT nodes".  Each DDT node is configured
     as "authoritative" for one or more EID-prefixes, along with the set of RLOCs for
     Map-Servers or "child" DDT nodes to which more-specific EID-prefixes are delegated.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - LISP
 - DDT
@@ -81,4 +100,4 @@ keyword:
 - Map-Referral
 - Referral
 editorialgroup:
-  name: lisp
+- name: lisp

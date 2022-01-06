@@ -1,12 +1,12 @@
 ---
 id: RFC9061
 title:
-  type: main
+- type: main
   content: A YANG Data Model for IPsec Flow Protection Based on Software-Defined Networking
     (SDN)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc9061
+- content: https://www.rfc-editor.org/info/rfc9061
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC9061
 date:
-  type: published
+- type: published
   value: 2021-07
 contributor:
 - person:
     name:
       completename:
         content: R. Marin-Lopez
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Lopez-Millan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Pereniguez-Garcia
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document describes how to provide IPsec-based flow protection (integrity
+- content: 'This document describes how to provide IPsec-based flow protection (integrity
     and confidentiality) by means of an Interface to Network Security Function (I2NSF)
     Controller. It considers two main well-known scenarios in IPsec: gateway-to-gateway
     and host-to-host. The service described in this document allows the configuration
@@ -59,13 +70,15 @@ abstract:
     Database (PAD), and Internet Key Exchange Version 2 (IKEv2). This allows IPsec
     SA establishment with minimal intervention by the network administrator. This
     document defines three YANG modules, but it does not define any new protocol.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - NSF
 - SDN
 - IPsec
 editorialgroup:
-  name: i2nsf
+- name: i2nsf

@@ -1,11 +1,11 @@
 ---
 id: RFC4868
 title:
-  type: main
+- type: main
   content: Using HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 with IPsec
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4868
+- content: https://www.rfc-editor.org/info/rfc4868
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC4868
 date:
-  type: published
+- type: published
   value: 2007-05
 contributor:
 - person:
     name:
       completename:
         content: S. Kelly
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Frankel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This specification describes the use of Hashed Message Authentication Mode
+- content: This specification describes the use of Hashed Message Authentication Mode
     (HMAC) in conjunction with the SHA-256, SHA-384, and SHA-512 algorithms in IPsec.  These
     algorithms may be used as the basis for data origin authentication and integrity
     verification mechanisms for the Authentication Header (AH), Encapsulating Security
@@ -49,13 +57,15 @@ abstract:
     algorithms designated as HMAC-SHA-256-128, HMAC-SHA-384-192, and HMAC-SHA-512-256.  The
     PRF variants are not truncated, and are called PRF-HMAC-SHA-256, PRF-HMAC-SHA-384,
     and PRF-HMAC-SHA-512. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - hashed authentication mode
 - data authentication
 - integrity verification
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

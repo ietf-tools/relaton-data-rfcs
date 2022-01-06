@@ -1,11 +1,11 @@
 ---
 id: RFC7765
 title:
-  type: main
+- type: main
   content: TCP and Stream Control Transmission Protocol (SCTP) RTO Restart
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7765
+- content: https://www.rfc-editor.org/info/rfc7765
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7765
 date:
-  type: published
+- type: published
   value: 2016-02
 contributor:
 - person:
     name:
       completename:
         content: P. Hurtig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Brunstrom
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Petlund
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Welzl
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a modified sender-side algorithm for managing the
+- content: This document describes a modified sender-side algorithm for managing the
     TCP and Stream Control Transmission Protocol (SCTP) retransmission timers that
     provides faster loss recovery when there is a small amount of outstanding data
     for a connection.  The modification, RTO Restart (RTOR), allows the transport
@@ -61,13 +75,15 @@ abstract:
     the effective retransmission timeout (RTO) becomes more aggressive in situations
     where fast retransmit cannot be used.  This enables faster loss detection and
     recovery for connections that are short lived or application limited.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - tcp
 - retransmission timer
 - rtor
 editorialgroup:
-  name: tcpm
+- name: tcpm

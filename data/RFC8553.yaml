@@ -1,12 +1,12 @@
 ---
 id: RFC8553
 title:
-  type: main
+- type: main
   content: 'DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node
     Names'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8553
+- content: https://www.rfc-editor.org/info/rfc8553
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC8553
 date:
-  type: published
+- type: published
   value: 2019-03
 contributor:
-  person:
+- person:
     name:
       completename:
         content: D. Crocker
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Using an underscore for a prefix creates a space for constrained interoperation
+- content: Using an underscore for a prefix creates a space for constrained interoperation
     of resource records.  Original uses of an underscore character as a domain node
     name prefix were specified without the benefit of an IANA registry.  This produced
     an entirely uncoordinated set of name-creation activities, all drawing from the
@@ -42,8 +47,10 @@ abstract:
     order to be in line with the new registry.  This document specifies those changes.  The
     changes preserve existing software and operational practice, while adapting the
     specifications for those practices to the newer underscore registry model.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -211,9 +218,9 @@ relation:
     formattedref:
       content: RFC8145
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNS
 - Domain Name System
 editorialgroup:
-  name: dnsop
+- name: dnsop

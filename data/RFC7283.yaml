@@ -1,11 +1,11 @@
 ---
 id: RFC7283
 title:
-  type: main
+- type: main
   content: Handling Unknown DHCPv6 Messages
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7283
+- content: https://www.rfc-editor.org/info/rfc7283
   type: src
 type: standard
 docid:
@@ -18,42 +18,55 @@ docid:
   type: DOI
 docnumber: RFC7283
 date:
-  type: published
+- type: published
   value: 2014-07
 contributor:
 - person:
     name:
       completename:
         content: Y. Cui
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Q. Sun
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Lemon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: DHCPv6 is not specific about handling messages with unknown types.  This
+- content: DHCPv6 is not specific about handling messages with unknown types.  This
     memo describes the problems associated with receiving DHCPv6 messages with unknown
     types, and defines how a DHCPv6 server, client, or relay agent should behave when
     receiving unknown DHCPv6 messages.  This document also provides advice for authors
     of future documents that define new messages to be sent from DHCP servers to DHCP
     relay agents.  This document updates RFC 3315.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -66,9 +79,9 @@ relation:
     formattedref:
       content: RFC3315
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DHCPv6
 - Unknown Messages
 editorialgroup:
-  name: dhc
+- name: dhc

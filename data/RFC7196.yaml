@@ -1,11 +1,11 @@
 ---
 id: RFC7196
 title:
-  type: main
+- type: main
   content: Making Route Flap Damping Usable
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7196
+- content: https://www.rfc-editor.org/info/rfc7196
   type: src
 type: standard
 docid:
@@ -18,59 +18,79 @@ docid:
   type: DOI
 docnumber: RFC7196
 date:
-  type: published
+- type: published
   value: 2014-05
 contributor:
 - person:
     name:
       completename:
         content: C. Pelsser
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Bush
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Mohapatra
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: O. Maennel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Route Flap Damping (RFD) was first proposed to reduce BGP churn in routers.  Unfortunately,
+- content: Route Flap Damping (RFD) was first proposed to reduce BGP churn in routers.  Unfortunately,
     RFD was found to severely penalize sites for being well connected because topological
     richness amplifies the number of update messages exchanged.  Many operators have
     turned RFD off.  Based on experimental measurement, this document recommends adjusting
     a few RFD algorithmic constants and limits in order to reduce the high risks with
     RFD.  The result is damping a non-trivial amount of long-term churn without penalizing
     well-behaved prefixes' normal convergence process.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: rfd
+fetched: '2022-01-06'
+keyword:
+- rfd
 editorialgroup:
-  name: idr
+- name: idr

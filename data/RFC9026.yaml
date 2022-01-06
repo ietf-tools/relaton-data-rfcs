@@ -1,11 +1,11 @@
 ---
 id: RFC9026
 title:
-  type: main
+- type: main
   content: Multicast VPN Fast Upstream Failover
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc9026
+- content: https://www.rfc-editor.org/info/rfc9026
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC9026
 date:
-  type: published
+- type: published
   value: 2021-04
 contributor:
 - person:
     name:
       completename:
         content: T. Morin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Kebler
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Mirsky
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines Multicast Virtual Private Network (VPN) extensions
+- content: This document defines Multicast Virtual Private Network (VPN) extensions
     and procedures that allow fast failover for upstream failures by allowing downstream
     Provider Edges (PEs) to consider the status of Provider-Tunnels (P-tunnels) when
     selecting the Upstream PE for a VPN multicast flow.  The fast failover is enabled
@@ -54,12 +65,14 @@ abstract:
     8562) and the new BGP Attribute, BFD Discriminator.  Also, this document introduces
     a new BGP Community, Standby PE, extending BGP Multicast VPN (MVPN) routing so
     that a C-multicast route can be advertised toward a Standby Upstream PE.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - BFD
 - P2MP
 editorialgroup:
-  name: bess
+- name: bess

@@ -1,11 +1,11 @@
 ---
 id: RFC8770
 title:
-  type: main
+- type: main
   content: Host Router Support for OSPFv2
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8770
+- content: https://www.rfc-editor.org/info/rfc8770
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8770
 date:
-  type: published
+- type: published
   value: 2020-04
 contributor:
 - person:
     name:
       completename:
         content: K. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Pillay-Esnault
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Bhardwaj
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Bayraktar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Open Shortest Path First Version 2 (OSPFv2) protocol does not have
+- content: The Open Shortest Path First Version 2 (OSPFv2) protocol does not have
     a mechanism for a node to repel transit traffic if it is on the shortest path.  This
     document defines a bit called the Host-bit (H-bit).  This bit enables a router
     to advertise that it is a non-transit router.  This document also describes the
@@ -61,16 +75,19 @@ abstract:
     updates RFC 6987 to advertise Type 2 External and Not-So-Stubby Area (NSSA) Link
     State Advertisements (LSAs) (RFC 3101) with a high cost in order to repel traffic
     effectively.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6987
       format: text/plain
-fetched: '2022-01-05'
-keyword: non-transit
+fetched: '2022-01-06'
+keyword:
+- non-transit
 editorialgroup:
-  name: lsr
+- name: lsr

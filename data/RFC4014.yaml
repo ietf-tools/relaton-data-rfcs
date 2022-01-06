@@ -1,12 +1,12 @@
 ---
 id: RFC4014
 title:
-  type: main
+- type: main
   content: Remote Authentication Dial-In User Service (RADIUS) Attributes Suboption
     for the Dynamic Host Configuration Protocol (DHCP) Relay Agent Information Option
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4014
+- content: https://www.rfc-editor.org/info/rfc4014
   type: src
 type: standard
 docid:
@@ -19,35 +19,45 @@ docid:
   type: DOI
 docnumber: RFC4014
 date:
-  type: published
+- type: published
   value: 2005-02
 contributor:
 - person:
     name:
       completename:
         content: R. Droms
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Schnizlein
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The RADIUS Attributes suboption enables a network element to pass identification
+- content: The RADIUS Attributes suboption enables a network element to pass identification
     and authorization attributes received during RADIUS authentication to a DHCP server.  When
     the DHCP server receives a message from a relay agent containing a RADIUS Attributes
     suboption, it extracts the contents of the suboption and uses that information
     in selecting configuration parameters for the client. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: dhc
+- name: dhc

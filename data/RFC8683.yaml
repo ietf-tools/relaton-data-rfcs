@@ -1,12 +1,12 @@
 ---
 id: RFC8683
 title:
-  type: main
+- type: main
   content: Additional Deployment Guidelines for NAT64/464XLAT in Operator and Enterprise
     Networks
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8683
+- content: https://www.rfc-editor.org/info/rfc8683
   type: src
 type: standard
 docid:
@@ -19,31 +19,38 @@ docid:
   type: DOI
 docnumber: RFC8683
 date:
-  type: published
+- type: published
   value: 2019-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Palet Martinez
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document describes how Network Address and Protocol Translation from
+- content: 'This document describes how Network Address and Protocol Translation from
     IPv6 Clients to IPv4 Servers (NAT64) (including 464XLAT) can be deployed in an
     IPv6 network -- whether it''s cellular ISP, broadband ISP, or enterprise -- and
     the possible optimizations.  This document also discusses issues to be considered
     when having IPv6-only connectivity, such as: a) DNS64, b) applications or devices
     that use literal IPv4 addresses or non-IPv6-compliant APIs, and c) IPv4-only hosts
     or applications.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IPv6
 - DNSSEC
@@ -54,4 +61,4 @@ keyword:
 - NAT46
 - PLAT
 editorialgroup:
-  name: v6ops
+- name: v6ops

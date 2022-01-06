@@ -1,11 +1,11 @@
 ---
 id: RFC7089
 title:
-  type: main
+- type: main
   content: HTTP Framework for Time-Based Access to Resource States -- Memento
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7089
+- content: https://www.rfc-editor.org/info/rfc7089
   type: src
 type: standard
 docid:
@@ -18,45 +18,58 @@ docid:
   type: DOI
 docnumber: RFC7089
 date:
-  type: published
+- type: published
   value: 2013-12
 contributor:
 - person:
     name:
       completename:
         content: H. Van de Sompel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Nelson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Sanderson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The HTTP-based Memento framework bridges the present and past Web.  It
+- content: The HTTP-based Memento framework bridges the present and past Web.  It
     facilitates obtaining representations of prior states of a given resource by introducing
     datetime negotiation and TimeMaps.  Datetime negotiation is a variation on content
     negotiation that leverages the given resource's URI and a user agent's preferred
     datetime.  TimeMaps are lists that enumerate URIs of resources that encapsulate
     prior states of the given resource.  The framework also facilitates recognizing
     a resource that encapsulates a frozen prior state of another resource.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - HTTP
 - content negotiation

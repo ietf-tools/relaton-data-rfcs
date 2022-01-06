@@ -1,11 +1,11 @@
 ---
 id: RFC4653
 title:
-  type: main
+- type: main
   content: Improving the Robustness of TCP to Non-Congestion Events
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4653
+- content: https://www.rfc-editor.org/info/rfc4653
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC4653
 date:
-  type: published
+- type: published
   value: 2006-08
 contributor:
 - person:
     name:
       completename:
         content: S. Bhandarkar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. L. N. Reddy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Allman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Blanton
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies Non-Congestion Robustness (NCR) for TCP.  In the
+- content: This document specifies Non-Congestion Robustness (NCR) for TCP.  In the
     absence of explicit congestion notification from the network, TCP uses loss as
     an indication of congestion.  One of the ways TCP detects loss is using the arrival
     of three duplicate acknowledgments.  However, this heuristic is not always correct,
@@ -64,13 +78,15 @@ abstract:
     to better disambiguate true segment loss from segment reordering.  This document
     specifies the changes to TCP, as well as the costs and benefits of these modifications.  This
     memo defines an Experimental Protocol for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ncr
 - non-congestion robustness
 - transmission control protocol
 editorialgroup:
-  name: tcpm
+- name: tcpm

@@ -1,12 +1,12 @@
 ---
 id: RFC6643
 title:
-  type: main
+- type: main
   content: Translation of Structure of Management Information Version 2 (SMIv2) MIB
     Modules to YANG Modules
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6643
+- content: https://www.rfc-editor.org/info/rfc6643
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC6643
 date:
-  type: published
+- type: published
   value: 2012-07
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Schoenwaelder
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: YANG is a data modeling language used to model configuration and state
+- content: YANG is a data modeling language used to model configuration and state
     data manipulated by the Network Configuration Protocol (NETCONF), NETCONF remote
     procedure calls, and NETCONF notifications.  The Structure of Management Information
     (SMIv2) defines fundamental data types, an object model, and the rules for writing
@@ -41,13 +46,15 @@ abstract:
     document defines a translation of SMIv2 MIB modules into YANG modules, enabling
     read-only (config false) access to data objects defined in SMIv2 MIB modules via
     NETCONF. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SMIv2
 - YANG
 - data modeling
 editorialgroup:
-  name: netmod
+- name: netmod

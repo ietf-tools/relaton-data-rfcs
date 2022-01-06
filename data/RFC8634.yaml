@@ -1,11 +1,11 @@
 ---
 id: RFC8634
 title:
-  type: main
+- type: main
   content: BGPsec Router Certificate Rollover
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8634
+- content: https://www.rfc-editor.org/info/rfc8634
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8634
 date:
-  type: published
+- type: published
   value: 2019-08
 contributor:
 - person:
     name:
       completename:
         content: B. Weis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Gagliano
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Certification Authorities (CAs) within the Resource Public Key Infrastructure
+- content: Certification Authorities (CAs) within the Resource Public Key Infrastructure
     (RPKI) manage BGPsec router certificates as well as RPKI certificates.  The rollover
     of BGPsec router certificates must be carefully performed in order to synchronize
     the distribution of router public keys with BGPsec UPDATE messages verified with
@@ -54,9 +65,11 @@ abstract:
     it discusses when and why the rollover of BGPsec router certificates is necessary.  When
     this rollover process is followed, the rollover will be performed without routing
     information being lost.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: sidrops
+- name: sidrops

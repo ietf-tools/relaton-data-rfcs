@@ -1,11 +1,11 @@
 ---
 id: RFC5925
 title:
-  type: main
+- type: main
   content: The TCP Authentication Option
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5925
+- content: https://www.rfc-editor.org/info/rfc5925
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC5925
 date:
-  type: published
+- type: published
   value: 2010-06
 contributor:
 - person:
     name:
       completename:
         content: J. Touch
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Mankin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Bonica
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2010-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies the TCP Authentication Option (TCP-AO), which obsoletes
+- content: This document specifies the TCP Authentication Option (TCP-AO), which obsoletes
     the TCP MD5 Signature option of RFC 2385 (TCP MD5).  TCP-AO specifies the use
     of stronger Message Authentication Codes (MACs), protects against replays even
     for long-lived TCP connections, and provides more details on the association of
@@ -61,10 +72,12 @@ abstract:
     identifier than TCP MD5, even though TCP-AO and TCP MD5 are never permitted to
     be used simultaneously.  TCP-AO supports IPv6, and is fully compatible with the
     proposed requirements for the replacement of TCP MD5. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - transmission control protocol
 - border
@@ -74,4 +87,4 @@ keyword:
 - digest
 - algorithm
 editorialgroup:
-  name: tcpm
+- name: tcpm

@@ -1,11 +1,11 @@
 ---
 id: RFC3775
 title:
-  type: main
+- type: main
   content: Mobility Support in IPv6
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3775
+- content: https://www.rfc-editor.org/info/rfc3775
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC3775
 date:
-  type: published
+- type: published
   value: 2004-06
 contributor:
 - person:
     name:
       completename:
         content: D. Johnson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Perkins
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Arkko
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies a protocol which allows nodes to remain reachable
+- content: This document specifies a protocol which allows nodes to remain reachable
     while moving around in the IPv6 Internet.  Each mobile node is always identified
     by its home address, regardless of its current point of attachment to the Internet.  While
     situated away from its home, a mobile node is also associated with a care-of address,
@@ -57,18 +68,20 @@ abstract:
     the mobile node directly to it at this care-of address.  To support this operation,
     Mobile IPv6 defines a new IPv6 protocol and a new destination option.  All IPv6
     nodes, whether mobile or stationary, can communicate with mobile nodes. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC6275
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - internet protocol
 - nodes
 editorialgroup:
-  name: mobileip
+- name: mobileip

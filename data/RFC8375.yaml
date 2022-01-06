@@ -1,11 +1,11 @@
 ---
 id: RFC8375
 title:
-  type: main
+- type: main
   content: Special-Use Domain 'home.arpa.'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8375
+- content: https://www.rfc-editor.org/info/rfc8375
   type: src
 type: standard
 docid:
@@ -18,46 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8375
 date:
-  type: published
+- type: published
   value: 2018-05
 contributor:
 - person:
     name:
       completename:
         content: P. Pfister
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Lemon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies the behavior that is expected from the Domain Name
+- content: This document specifies the behavior that is expected from the Domain Name
     System with regard to DNS queries for names ending with '.home.arpa.' and designates
     this domain as a special-use domain name. 'home.arpa.' is designated for non-unique
     use in residential home networks.  The Home Networking Control Protocol (HNCP)
     is updated to use the 'home.arpa.' domain instead of '.home'.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC7788
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Homenet
 - TLD
 - RFC6761
 - ".home.arpa"
 editorialgroup:
-  name: homenet
+- name: homenet

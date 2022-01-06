@@ -1,11 +1,11 @@
 ---
 id: RFC8417
 title:
-  type: main
+- type: main
   content: Security Event Token (SET)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8417
+- content: https://www.rfc-editor.org/info/rfc8417
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8417
 date:
-  type: published
+- type: published
   value: 2018-07
 contributor:
 - person:
     name:
       completename:
         content: P. Hunt
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Jones
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Denniss
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Ansari
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This specification defines the Security Event Token (SET) data structure.  A
+- content: This specification defines the Security Event Token (SET) data structure.  A
     SET describes statements of fact from the perspective of an issuer about a subject.  These
     statements of fact represent an event that occurred directly to or about a security
     subject, for example, a statement about the issuance or revocation of a token
@@ -61,10 +75,12 @@ abstract:
     security- and identity-related events.  A SET is a JSON Web Token (JWT), which
     can be optionally signed and/or encrypted.  SETs can be distributed via protocols
     such as HTTP.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Identity
 - Security
@@ -75,4 +91,4 @@ keyword:
 - JSON Web Token
 - JWT
 editorialgroup:
-  name: secevent
+- name: secevent

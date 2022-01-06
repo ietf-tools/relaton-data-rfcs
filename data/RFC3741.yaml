@@ -1,11 +1,11 @@
 ---
 id: RFC3741
 title:
-  type: main
+- type: main
   content: Exclusive XML Canonicalization, Version 1.0
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3741
+- content: https://www.rfc-editor.org/info/rfc3741
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC3741
 date:
-  type: published
+- type: published
   value: 2004-03
 contributor:
 - person:
     name:
       completename:
         content: J. Boyer
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Eastlake 3rd
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Reagle
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Canonical XML specifies a standard serialization of XML that, when applied
+- content: Canonical XML specifies a standard serialization of XML that, when applied
     to a subdocument, includes the subdocument's ancestor context including all of
     the namespace declarations and attributes in the "xml:" namespace.  However, some
     applications require a method which, to the extent practical, excludes ancestor
@@ -55,12 +66,14 @@ abstract:
     when that subdocument is removed from its original message and/or inserted into
     a different context.  This requirement is satisfied by Exclusive XML Canonicalization.  This
     memo provides information for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - extensible markup language
 - namespace
 editorialgroup:
-  name: xmldsig
+- name: xmldsig

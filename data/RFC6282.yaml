@@ -1,11 +1,11 @@
 ---
 id: RFC6282
 title:
-  type: main
+- type: main
   content: Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6282
+- content: https://www.rfc-editor.org/info/rfc6282
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC6282
 date:
-  type: published
+- type: published
   value: 2011-09
 contributor:
 - person:
     name:
       completename:
         content: J. Hui
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Thubert
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document updates RFC 4944, "Transmission of IPv6 Packets over IEEE
+- content: This document updates RFC 4944, "Transmission of IPv6 Packets over IEEE
     802.15.4 Networks".  This document specifies an IPv6 header compression format
     for IPv6 packet delivery in Low Power Wireless Personal Area Networks (6LoWPANs).  The
     compression format relies on shared context to allow compression of arbitrary
@@ -47,16 +55,18 @@ abstract:
     scope.  This document specifies compression of multicast addresses and a framework
     for compressing next headers.  UDP header compression is specified within this
     framework. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4944
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - LLN
 - Low Power
@@ -65,4 +75,4 @@ keyword:
 - ISA100.11a
 - RFC 4944
 editorialgroup:
-  name: 6lowpan
+- name: 6lowpan

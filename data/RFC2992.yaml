@@ -1,11 +1,11 @@
 ---
 id: RFC2992
 title:
-  type: main
+- type: main
   content: Analysis of an Equal-Cost Multi-Path Algorithm
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc2992
+- content: https://www.rfc-editor.org/info/rfc2992
   type: src
 type: standard
 docid:
@@ -18,31 +18,38 @@ docid:
   type: DOI
 docnumber: RFC2992
 date:
-  type: published
+- type: published
   value: 2000-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: C. Hopps
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2000-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Equal-cost multi-path (ECMP) is a routing technique for routing packets
+- content: Equal-cost multi-path (ECMP) is a routing technique for routing packets
     along multiple paths of equal cost.  The forwarding engine identifies paths by
     next-hop.  When forwarding a packet the router must decide which next-hop (path)
     to use.  This document gives an analysis of one method for making that decision.  The
     analysis includes the performance of the algorithm and the disruption caused by
     changes to the set of next-hops.  This memo provides information for the Internet
     community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ECMP
 - routing

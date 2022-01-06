@@ -1,11 +1,11 @@
 ---
 id: RFC4806
 title:
-  type: main
+- type: main
   content: Online Certificate Status Protocol (OCSP) Extensions to IKEv2
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4806
+- content: https://www.rfc-editor.org/info/rfc4806
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC4806
 date:
-  type: published
+- type: published
   value: 2007-02
 contributor:
 - person:
     name:
       completename:
         content: M. Myers
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Tschofenig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: While the Internet Key Exchange Protocol version 2 (IKEv2) supports public
+- content: While the Internet Key Exchange Protocol version 2 (IKEv2) supports public
     key based authentication, the corresponding use of in-band Certificate Revocation
     Lists (CRL) is problematic due to unbounded CRL size. The size of an Online Certificate
     Status Protocol (OCSP) response is however well-bounded and small. This document
@@ -54,10 +62,13 @@ abstract:
     IKEv2 peers from accessing the relevant OCSP responder directly. Firewalls are
     often deployed in a manner that prevents such access by IKEv2 peers outside of
     an enterprise network. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: internet key exchange version 2
+fetched: '2022-01-06'
+keyword:
+- internet key exchange version 2
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

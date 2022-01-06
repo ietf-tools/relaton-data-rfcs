@@ -1,11 +1,11 @@
 ---
 id: RFC8622
 title:
-  type: main
+- type: main
   content: A Lower-Effort Per-Hop Behavior (LE PHB) for Differentiated Services
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8622
+- content: https://www.rfc-editor.org/info/rfc8622
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC8622
 date:
-  type: published
+- type: published
   value: 2019-06
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Bless
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies properties and characteristics of a Lower- Effort
+- content: This document specifies properties and characteristics of a Lower- Effort
     Per-Hop Behavior (LE PHB). The primary objective of this LE PHB is to protect
     Best-Effort (BE) traffic (packets forwarded with the default PHB) from LE traffic
     in congestion situations, i.e., when resources become scarce, BE traffic has precedence
@@ -45,8 +50,10 @@ abstract:
     Services Code Point (DSCP) value for the LE PHB. This specification obsoletes
     RFC 3662 and updates the DSCP recommended in RFCs 4594 and 8325 to use the DSCP
     assigned in this specification.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -59,10 +66,10 @@ relation:
     formattedref:
       content: RFC8325
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Lower Effort
 - Per-Hop Behavior
 - Scavenger Service
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

@@ -1,12 +1,12 @@
 ---
 id: RFC8664
 title:
-  type: main
+- type: main
   content: Path Computation Element Communication Protocol (PCEP) Extensions for Segment
     Routing
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8664
+- content: https://www.rfc-editor.org/info/rfc8664
   type: src
 type: standard
 docid:
@@ -19,49 +19,66 @@ docid:
   type: DOI
 docnumber: RFC8664
 date:
-  type: published
+- type: published
   value: 2019-12
 contributor:
 - person:
     name:
       completename:
         content: S. Sivabalan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Filsfils
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Tantsura
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Henderickx
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Hardwick
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Segment Routing (SR) enables any head-end node to select any path without
+- content: Segment Routing (SR) enables any head-end node to select any path without
     relying on a hop-by-hop signaling technique (e.g., LDP or RSVP-TE). It depends
     only on "segments" that are advertised by link-state Interior Gateway Protocols
     (IGPs). An SR path can be derived from a variety of mechanisms, including an IGP
@@ -71,19 +88,21 @@ abstract:
     (TE) paths, as well as a Path Computation Client (PCC) to request a path subject
     to certain constraints and optimization criteria in SR networks. This document
     updates RFC 8408.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC8408
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SR
 - Traffic-Engineering
 - PCE
 editorialgroup:
-  name: pce
+- name: pce

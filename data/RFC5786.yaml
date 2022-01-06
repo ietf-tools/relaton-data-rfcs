@@ -1,12 +1,12 @@
 ---
 id: RFC5786
 title:
-  type: main
+- type: main
   content: Advertising a Router's Local Addresses in OSPF Traffic Engineering (TE)
     Extensions
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5786
+- content: https://www.rfc-editor.org/info/rfc5786
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC5786
 date:
-  type: published
+- type: published
   value: 2010-03
 contributor:
 - person:
     name:
       completename:
         content: R. Aggarwal
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Kompella
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2010-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: OSPF Traffic Engineering (TE) extensions are used to advertise TE Link
+- content: OSPF Traffic Engineering (TE) extensions are used to advertise TE Link
     State Advertisements (LSAs) containing information about TE-enabled links. The
     only addresses belonging to a router that are advertised in TE LSAs are the local
     addresses corresponding to TE-enabled links, and the local address corresponding
@@ -49,15 +57,17 @@ abstract:
     given router's local addresses, those addresses must also be advertised by OSPF
     TE. This document describes procedures that enhance OSPF TE to advertise a router's
     local addresses. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC3630
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: ospf
+- name: ospf

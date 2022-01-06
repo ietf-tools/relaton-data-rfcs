@@ -1,11 +1,11 @@
 ---
 id: RFC8009
 title:
-  type: main
+- type: main
   content: AES Encryption with HMAC-SHA2 for Kerberos 5
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8009
+- content: https://www.rfc-editor.org/info/rfc8009
   type: src
 type: standard
 docid:
@@ -18,40 +18,53 @@ docid:
   type: DOI
 docnumber: RFC8009
 date:
-  type: published
+- type: published
   value: 2016-10
 contributor:
 - person:
     name:
       completename:
         content: M. Jenkins
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Peck
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Burgin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies two encryption types and two corresponding checksum
+- content: This document specifies two encryption types and two corresponding checksum
     types for Kerberos 5.  The new types use AES in CTS mode (CBC mode with ciphertext
     stealing) for confidentiality and HMAC with a SHA-2 hash for integrity.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: kitten
+- name: kitten

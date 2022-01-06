@@ -1,11 +1,11 @@
 ---
 id: RFC4781
 title:
-  type: main
+- type: main
   content: Graceful Restart Mechanism for BGP with MPLS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4781
+- content: https://www.rfc-editor.org/info/rfc4781
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC4781
 date:
-  type: published
+- type: published
   value: 2007-01
 contributor:
 - person:
     name:
       completename:
         content: Y. Rekhter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Aggarwal
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: A mechanism for BGP that helps minimize the negative effects on routing
+- content: A mechanism for BGP that helps minimize the negative effects on routing
     caused by BGP restart has already been developed and is described in a separate
     document ("Graceful Restart Mechanism for BGP"). This document extends this mechanism
     to minimize the negative effects on MPLS forwarding caused by the Label Switching
@@ -50,14 +58,16 @@ abstract:
     in the BGP Network Layer Reachability Information (NLRI) field. As such, it works
     in conjunction with any of the address families that could be carried in BGP (e.g.,
     IPv4, IPv6, etc.). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - border gateway protocol
 - multiprotocol label switching
 - nlri
 - bgp network layer reachability information
 editorialgroup:
-  name: mpls
+- name: mpls

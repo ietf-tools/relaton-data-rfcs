@@ -1,11 +1,11 @@
 ---
 id: RFC9107
 title:
-  type: main
+- type: main
   content: BGP Optimal Route Reflection (BGP ORR)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc9107
+- content: https://www.rfc-editor.org/info/rfc9107
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC9107
 date:
-  type: published
+- type: published
   value: 2021-08
 contributor:
 - person:
     name:
       completename:
         content: R. Raszuk
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Decraene
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Cassar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Åman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Wang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines an extension to BGP route reflectors. On route reflectors,
+- content: This document defines an extension to BGP route reflectors. On route reflectors,
     BGP route selection is modified in order to choose the best route from the standpoint
     of their clients, rather than from the standpoint of the route reflectors themselves.
     Depending on the scaling and precision requirements, route selection can be specific
@@ -72,10 +89,13 @@ abstract:
     all paths that are eligible for consideration. BGP route selection is performed
     in the route reflectors based on the IGP cost from configured locations in the
     link-state IGP.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: IDR
+fetched: '2022-01-06'
+keyword:
+- IDR
 editorialgroup:
-  name: idr
+- name: idr

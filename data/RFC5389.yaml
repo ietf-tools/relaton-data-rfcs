@@ -1,11 +1,11 @@
 ---
 id: RFC5389
 title:
-  type: main
+- type: main
   content: Session Traversal Utilities for NAT (STUN)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5389
+- content: https://www.rfc-editor.org/info/rfc5389
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC5389
 date:
-  type: published
+- type: published
   value: 2008-10
 contributor:
 - person:
     name:
       completename:
         content: J. Rosenberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Mahy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Matthews
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Wing
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Session Traversal Utilities for NAT (STUN) is a protocol that serves as
+- content: Session Traversal Utilities for NAT (STUN) is a protocol that serves as
     a tool for other protocols in dealing with Network Address Translator (NAT) traversal.
     It can be used by an endpoint to determine the IP address and port allocated to
     it by a NAT. It can also be used to check connectivity between two endpoints,
@@ -63,16 +77,18 @@ abstract:
     solution. This is an important change from the previous version of this specification
     (RFC 3489), which presented STUN as a complete solution. This document obsoletes
     RFC 3489. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC8489
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SIPs
 - NAT
@@ -83,4 +99,4 @@ keyword:
 - TURN
 - VOIP
 editorialgroup:
-  name: behave
+- name: behave

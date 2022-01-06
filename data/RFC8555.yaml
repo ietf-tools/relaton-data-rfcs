@@ -1,11 +1,11 @@
 ---
 id: RFC8555
 title:
-  type: main
+- type: main
   content: Automatic Certificate Management Environment (ACME)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8555
+- content: https://www.rfc-editor.org/info/rfc8555
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8555
 date:
-  type: published
+- type: published
   value: 2019-03
 contributor:
 - person:
     name:
       completename:
         content: R. Barnes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Hoffman-Andrews
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. McCarney
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Kasten
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Public Key Infrastructure using X.509 (PKIX) certificates are used for
+- content: Public Key Infrastructure using X.509 (PKIX) certificates are used for
     a number of purposes, the most significant of which is the authentication of domain
     names.  Thus, certification authorities (CAs) in the Web PKI are trusted to verify
     that an applicant for a certificate legitimately represents the domain name(s)
@@ -62,14 +76,16 @@ abstract:
     can use to automate the process of verification and certificate issuance.  The
     protocol also provides facilities for other certificate management functions,
     such as certificate revocation.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - certificate
 - HTTPS
 - PKI
 - X.509
 editorialgroup:
-  name: acme
+- name: acme

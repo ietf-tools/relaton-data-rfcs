@@ -1,11 +1,11 @@
 ---
 id: RFC8198
 title:
-  type: main
+- type: main
   content: Aggressive Use of DNSSEC-Validated Cache
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8198
+- content: https://www.rfc-editor.org/info/rfc8198
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8198
 date:
-  type: published
+- type: published
   value: 2017-07
 contributor:
 - person:
     name:
       completename:
         content: K. Fujiwara
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Kato
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Kumari
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The DNS relies upon caching to scale; however, the cache lookup generally
+- content: The DNS relies upon caching to scale; however, the cache lookup generally
     requires an exact match. This document specifies the use of NSEC/NSEC3 resource
     records to allow DNSSEC-validating resolvers to generate negative answers within
     a range and positive answers from wildcards. This increases performance, decreases
@@ -55,20 +66,22 @@ abstract:
     in some circumstances. This document updates RFC 4035 by allowing validating resolvers
     to generate negative answers based upon NSEC/NSEC3 records and positive answers
     in the presence of wildcards.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4035
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Negative cache
 - NCACHE
 - NSEC
 - NSEC3
 editorialgroup:
-  name: dnsop
+- name: dnsop

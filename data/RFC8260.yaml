@@ -1,12 +1,12 @@
 ---
 id: RFC8260
 title:
-  type: main
+- type: main
   content: Stream Schedulers and User Message Interleaving for the Stream Control
     Transmission Protocol
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8260
+- content: https://www.rfc-editor.org/info/rfc8260
   type: src
 type: standard
 docid:
@@ -19,42 +19,56 @@ docid:
   type: DOI
 docnumber: RFC8260
 date:
-  type: published
+- type: published
   value: 2017-11
 contributor:
 - person:
     name:
       completename:
         content: R. Stewart
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Tuexen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Loreto
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Seggelmann
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Stream Control Transmission Protocol (SCTP) is a message-oriented transport
+- content: The Stream Control Transmission Protocol (SCTP) is a message-oriented transport
     protocol supporting arbitrarily large user messages. This document adds a new
     chunk to SCTP for carrying payload data. This allows a sender to interleave different
     user messages that would otherwise result in head-of-line blocking at the sender.
@@ -63,9 +77,11 @@ abstract:
     SCTP streams. Multiple ways for performing this selection, called stream schedulers,
     are defined in this document. A stream scheduler can choose to either implement,
     or not implement, user message interleaving.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

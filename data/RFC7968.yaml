@@ -1,12 +1,12 @@
 ---
 id: RFC7968
 title:
-  type: main
+- type: main
   content: 'Transparent Interconnection of Lots of Links (TRILL): Using Data Labels
     for Tree Selection for Multi-Destination Data'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7968
+- content: https://www.rfc-editor.org/info/rfc7968
   type: src
 type: standard
 docid:
@@ -19,49 +19,66 @@ docid:
   type: DOI
 docnumber: RFC7968
 date:
-  type: published
+- type: published
   value: 2016-08
 contributor:
 - person:
     name:
       completename:
         content: Y. Li
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Eastlake 3rd
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Hao
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Chen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Chatterjee
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'TRILL (Transparent Interconnection of Lots of Links) uses distribution
+- content: 'TRILL (Transparent Interconnection of Lots of Links) uses distribution
     trees to deliver multi-destination frames. Multiple trees can be used by an ingress
     Routing Bridge (RBridge) for flows, regardless of the VLAN, Fine-Grained Label
     (FGL), and/or multicast group of the flow. Different ingress RBridges may choose
@@ -75,13 +92,15 @@ abstract:
     sent on particular distribution trees by VLAN, FGL, and/or multicast groups, thus
     reducing the total amount of pruning information so that it can more easily be
     accommodated by fast-path hardware.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - VLAN
 - fine-grained label
 - multicast
 editorialgroup:
-  name: trill
+- name: trill

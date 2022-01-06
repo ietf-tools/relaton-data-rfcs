@@ -1,12 +1,12 @@
 ---
 id: RFC4797
 title:
-  type: main
+- type: main
   content: Use of Provider Edge to Provider Edge (PE-PE) Generic Routing Encapsulation
     (GRE) or IP in BGP/MPLS IP Virtual Private Networks
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4797
+- content: https://www.rfc-editor.org/info/rfc4797
   type: src
 type: standard
 docid:
@@ -19,45 +19,59 @@ docid:
   type: DOI
 docnumber: RFC4797
 date:
-  type: published
+- type: published
   value: 2007-01
 contributor:
 - person:
     name:
       completename:
         content: Y. Rekhter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Bonica
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes an implementation strategy for BGP/MPLS IP Virtual
+- content: This document describes an implementation strategy for BGP/MPLS IP Virtual
     Private Networks (VPNs) in which the outermost MPLS label (i.e., the tunnel label)
     is replaced with either an IP header or an IP header with Generic Routing Encapsulation
     (GRE). The implementation strategy described herein enables the deployment of
     BGP/MPLS IP VPN technology in networks whose edge devices are MPLS and VPN aware,
     but whose interior devices are not. This memo provides information for the Internet
     community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: L3VPN GRE encapsulation
+fetched: '2022-01-06'
+keyword:
+- L3VPN GRE encapsulation
 editorialgroup:
-  name: l3vpn
+- name: l3vpn

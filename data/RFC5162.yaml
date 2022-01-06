@@ -1,11 +1,11 @@
 ---
 id: RFC5162
 title:
-  type: main
+- type: main
   content: IMAP4 Extensions for Quick Mailbox Resynchronization
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5162
+- content: https://www.rfc-editor.org/info/rfc5162
   type: src
 type: standard
 docid:
@@ -18,50 +18,64 @@ docid:
   type: DOI
 docnumber: RFC5162
 date:
-  type: published
+- type: published
   value: 2008-03
 contributor:
 - person:
     name:
       completename:
         content: A. Melnikov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Cridland
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Wilson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines an IMAP4 extension, which gives an IMAP client the
+- content: This document defines an IMAP4 extension, which gives an IMAP client the
     ability to quickly resynchronize any previously opened mailbox as part of the
     SELECT command, without the need for server-side state or additional client round-trips.  This
     extension also introduces a new response that allows for a more compact representation
     of a list of expunged messages (and always includes the Unique Identifiers (UIDs)
     expunged). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC7162
       format: text/plain
-fetched: '2022-01-05'
-keyword: Internet Message Access Protocol
+fetched: '2022-01-06'
+keyword:
+- Internet Message Access Protocol
 editorialgroup:
-  name: lemonade
+- name: lemonade

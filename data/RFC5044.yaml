@@ -1,11 +1,11 @@
 ---
 id: RFC5044
 title:
-  type: main
+- type: main
   content: Marker PDU Aligned Framing for TCP Specification
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5044
+- content: https://www.rfc-editor.org/info/rfc5044
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC5044
 date:
-  type: published
+- type: published
   value: 2007-10
 contributor:
 - person:
     name:
       completename:
         content: P. Culley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: U. Elzur
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Recio
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Bailey
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Carrier
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Marker PDU Aligned Framing (MPA) is designed to work as an "adaptation
+- content: Marker PDU Aligned Framing (MPA) is designed to work as an "adaptation
     layer" between TCP and the Direct Data Placement protocol (DDP) as described in
     RFC 5041.  It preserves the reliable, in-order delivery of TCP, while adding the
     preservation of higher-level protocol record boundaries that DDP requires.  MPA
@@ -68,10 +85,12 @@ abstract:
     TCP implementations.  MPA also supports integrated implementations that combine
     TCP, MPA and DDP to reduce buffering requirements in the implementation and improve
     performance at the system level. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - mpa
 - adaaptation layer
@@ -79,4 +98,4 @@ keyword:
 - direct data placement protocol
 - transmission
 editorialgroup:
-  name: rddp
+- name: rddp

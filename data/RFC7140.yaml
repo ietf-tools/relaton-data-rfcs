@@ -1,11 +1,11 @@
 ---
 id: RFC7140
 title:
-  type: main
+- type: main
   content: LDP Extensions for Hub and Spoke Multipoint Label Switched Path
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7140
+- content: https://www.rfc-editor.org/info/rfc7140
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7140
 date:
-  type: published
+- type: published
   value: 2014-03
 contributor:
 - person:
     name:
       completename:
         content: L. Jin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Jounay
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Leymann
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document introduces a hub and spoke multipoint (HSMP) Label Switched
+- content: This document introduces a hub and spoke multipoint (HSMP) Label Switched
     Path (LSP), which allows traffic from root to leaf through point-to-multipoint
     (P2MP) LSPs and also leaf to root along the reverse path.  That means traffic
     entering the HSMP LSP from the application/customer at the root node travels downstream
@@ -61,12 +75,14 @@ abstract:
     to each leaf node.  Upstream traffic entering the HSMP LSP at any leaf node travels
     upstream along the tree to the root, as if it were unicast to the root.  Direct
     communication among the leaf nodes is not allowed.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - P2MP LSP
 - MP2MP LSP
 editorialgroup:
-  name: mpls
+- name: mpls

@@ -1,11 +1,11 @@
 ---
 id: RFC4953
 title:
-  type: main
+- type: main
   content: Defending TCP Against Spoofing Attacks
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4953
+- content: https://www.rfc-editor.org/info/rfc4953
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC4953
 date:
-  type: published
+- type: published
   value: 2007-07
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Touch
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Recent analysis of potential attacks on core Internet infrastructure indicates
+- content: Recent analysis of potential attacks on core Internet infrastructure indicates
     an increased vulnerability of TCP connections to spurious resets (RSTs), sent
     with forged IP source addresses (spoofing).  TCP has always been susceptible to
     such RST spoofing attacks, which were indirectly protected by checking that the
@@ -49,12 +54,14 @@ abstract:
     document focuses on vulnerabilities due to spoofed TCP segments, and includes
     a discussion of related ICMP spoofing attacks on TCP connections.  This memo provides
     information for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - rst
 - transport control protocol
 editorialgroup:
-  name: tcpm
+- name: tcpm

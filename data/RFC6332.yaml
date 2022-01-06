@@ -1,12 +1,12 @@
 ---
 id: RFC6332
 title:
-  type: main
+- type: main
   content: Multicast Acquisition Report Block Type for RTP Control Protocol (RTCP)
     Extended Reports (XRs)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6332
+- content: https://www.rfc-editor.org/info/rfc6332
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC6332
 date:
-  type: published
+- type: published
   value: 2011-07
 contributor:
 - person:
     name:
       completename:
         content: A. Begen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Friedrich
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: In most RTP-based multicast applications, the RTP source sends inter- related
+- content: In most RTP-based multicast applications, the RTP source sends inter- related
     data.  Due to this interdependency, randomly joining RTP receivers usually cannot
     start consuming the multicast data right after they join the session.  Thus, they
     often experience a random acquisition delay.  An RTP receiver can use one or more
@@ -54,10 +62,12 @@ abstract:
     block, within the framework of RTP Control Protocol (RTCP) Extended Reports (XRs)
     (RFC 3611).  This document also defines the necessary signaling of the new MA
     report block type in the Session Description Protocol (SDP). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SSM
 - multicast
@@ -66,4 +76,4 @@ keyword:
 - rapid acquisition
 - fast channel change
 editorialgroup:
-  name: avtext
+- name: avtext

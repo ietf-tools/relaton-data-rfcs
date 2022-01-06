@@ -1,12 +1,12 @@
 ---
 id: RFC6854
 title:
-  type: main
+- type: main
   content: Update to Internet Message Format to Allow Group Syntax in the "From:"
     and "Sender:" Header Fields
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6854
+- content: https://www.rfc-editor.org/info/rfc6854
   type: src
 type: standard
 docid:
@@ -19,34 +19,41 @@ docid:
   type: DOI
 docnumber: RFC6854
 date:
-  type: published
+- type: published
   value: 2013-03
 contributor:
-  person:
+- person:
     name:
       completename:
         content: B. Leiba
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Internet Message Format (RFC 5322) allows "group" syntax in some email
+- content: The Internet Message Format (RFC 5322) allows "group" syntax in some email
     header fields, such as "To:" and "CC:", but not in "From:" or "Sender:".  This
     document updates RFC 5322 to relax that restriction, allowing group syntax in
     those latter fields, as well as in "Resent-From:" and "Resent-Sender:", in certain
     situations.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC5322
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

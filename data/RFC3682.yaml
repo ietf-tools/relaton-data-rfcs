@@ -1,11 +1,11 @@
 ---
 id: RFC3682
 title:
-  type: main
+- type: main
   content: The Generalized TTL Security Mechanism (GTSM)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3682
+- content: https://www.rfc-editor.org/info/rfc3682
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC3682
 date:
-  type: published
+- type: published
   value: 2004-02
 contributor:
 - person:
     name:
       completename:
         content: V. Gill
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Heasley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Meyer
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The use of a packet's Time to Live (TTL) (IPv4) or Hop Limit (IPv6) to
+- content: The use of a packet's Time to Live (TTL) (IPv4) or Hop Limit (IPv6) to
     protect a protocol stack from CPU-utilization based attacks has been proposed
     in many settings (see for example, RFC 2461).  This document generalizes these
     techniques for use by other protocols such as BGP (RFC 1771), Multicast Source
@@ -57,16 +68,18 @@ abstract:
     applicable to protocols employing flooding mechanisms (e.g., multicast), and use
     of multi-hop GTSM should be considered on a case-by-case basis.  This memo defines
     an Experimental Protocol for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC5082
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - time to live
 - packet hop limit

@@ -1,11 +1,11 @@
 ---
 id: RFC6946
 title:
-  type: main
+- type: main
   content: Processing of IPv6 "Atomic" Fragments
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6946
+- content: https://www.rfc-editor.org/info/rfc6946
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC6946
 date:
-  type: published
+- type: published
   value: 2013-05
 contributor:
-  person:
+- person:
     name:
       completename:
         content: F. Gont
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The IPv6 specification allows packets to contain a Fragment Header without
+- content: The IPv6 specification allows packets to contain a Fragment Header without
     the packet being actually fragmented into multiple pieces (we refer to these packets
     as "atomic fragments").  Such packets are typically sent by hosts that have received
     an ICMPv6 "Packet Too Big" error message that advertises a Next-Hop MTU smaller
@@ -46,8 +51,10 @@ abstract:
     RFC 2460 and RFC 5722, such that IPv6 atomic fragments are processed independently
     of any other fragments, thus completely eliminating the aforementioned attack
     vector.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -60,11 +67,11 @@ relation:
     formattedref:
       content: RFC5722
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - fragmentation
 - attacks
 - vulnerabilities
 - atomic fragments
 editorialgroup:
-  name: 6man
+- name: 6man

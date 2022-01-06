@@ -1,11 +1,11 @@
 ---
 id: RFC6891
 title:
-  type: main
+- type: main
   content: Extension Mechanisms for DNS (EDNS(0))
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6891
+- content: https://www.rfc-editor.org/info/rfc6891
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6891
 date:
-  type: published
+- type: published
   value: 2013-04
 contributor:
 - person:
     name:
       completename:
         content: J. Damas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Graff
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Vixie
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Domain Name System's wire protocol includes a number of fixed fields
+- content: The Domain Name System's wire protocol includes a number of fixed fields
     whose range has been or soon will be exhausted and does not allow requestors to
     advertise their capabilities to responders. This document describes backward-compatible
     mechanisms for allowing the protocol to grow. This document updates the Extension
@@ -54,14 +65,16 @@ abstract:
     from deployment experience in several implementations. It also obsoletes RFC 2673
     ("Binary Labels in the Domain Name System") and adds considerations on the use
     of extended labels in the DNS.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNS extensions
 - domain name system
 - resource records
 - opt
 editorialgroup:
-  name: dnsext
+- name: dnsext

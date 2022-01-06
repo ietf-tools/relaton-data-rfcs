@@ -1,11 +1,11 @@
 ---
 id: RFC8310
 title:
-  type: main
+- type: main
   content: Usage Profiles for DNS over TLS and DNS over DTLS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8310
+- content: https://www.rfc-editor.org/info/rfc8310
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8310
 date:
-  type: published
+- type: published
   value: 2018-03
 contributor:
 - person:
     name:
       completename:
         content: S. Dickinson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Gillmor
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Reddy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document discusses usage profiles, based on one or more authentication
+- content: This document discusses usage profiles, based on one or more authentication
     mechanisms, which can be used for DNS over Transport Layer Security (TLS) or Datagram
     TLS (DTLS).  These profiles can increase the privacy of DNS transactions compared
     to using only cleartext DNS.  This document also specifies new authentication
@@ -54,18 +65,20 @@ abstract:
     domain name to authenticate a (D)TLS connection to a DNS server.  Additionally,
     it defines (D)TLS protocol profiles for DNS clients and servers implementing DNS
     over (D)TLS.  This document updates RFC 7858.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC7858
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNS
 - transport
 editorialgroup:
-  name: dprive
+- name: dprive

@@ -1,11 +1,11 @@
 ---
 id: RFC8616
 title:
-  type: main
+- type: main
   content: Email Authentication for Internationalized Mail
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8616
+- content: https://www.rfc-editor.org/info/rfc8616
   type: src
 type: standard
 docid:
@@ -18,29 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8616
 date:
-  type: published
+- type: published
   value: 2019-06
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Levine
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Sender Policy Framework (SPF) (RFC 7208), DomainKeys Identified Mail (DKIM)
+- content: Sender Policy Framework (SPF) (RFC 7208), DomainKeys Identified Mail (DKIM)
     (RFC 6376), and Domain-based Message Authentication, Reporting, and Conformance
     (DMARC) (RFC 7489) enable a domain owner to publish email authentication and policy
     information in the DNS.  In internationalized email, domain names can occur both
     as U-labels and A-labels.  This specification updates the SPF, DKIM, and DMARC
     specifications to clarify which form of internationalized domain names to use
     in those specifications.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -58,9 +65,9 @@ relation:
     formattedref:
       content: RFC7489
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - email
 - internationalization
 editorialgroup:
-  name: dmarc
+- name: dmarc

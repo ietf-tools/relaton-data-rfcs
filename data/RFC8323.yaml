@@ -1,11 +1,11 @@
 ---
 id: RFC8323
 title:
-  type: main
+- type: main
   content: CoAP (Constrained Application Protocol) over TCP, TLS, and WebSockets
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8323
+- content: https://www.rfc-editor.org/info/rfc8323
   type: src
 type: standard
 docid:
@@ -18,56 +18,76 @@ docid:
   type: DOI
 docnumber: RFC8323
 date:
-  type: published
+- type: published
   value: 2018-02
 contributor:
 - person:
     name:
       completename:
         content: C. Bormann
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Lemay
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Tschofenig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Hartke
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Silverajan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Raymor
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Constrained Application Protocol (CoAP), although inspired by HTTP,
+- content: The Constrained Application Protocol (CoAP), although inspired by HTTP,
     was designed to use UDP instead of TCP. The message layer of CoAP over UDP includes
     support for reliable delivery, simple congestion control, and flow control. Some
     environments benefit from the availability of CoAP carried over reliable transports
@@ -75,8 +95,10 @@ abstract:
     required to use CoAP over TCP, TLS, and WebSockets transports. It also formally
     updates RFC 7641 for use with these transports and RFC 7959 to enable the use
     of larger messages over a reliable transport.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -89,7 +111,7 @@ relation:
     formattedref:
       content: RFC7959
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - CoAP
 - Constrained Application Protocol
@@ -99,4 +121,4 @@ keyword:
 - NAT Traversal
 - CoAP in Browsers
 editorialgroup:
-  name: core
+- name: core

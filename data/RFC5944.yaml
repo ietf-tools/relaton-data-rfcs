@@ -1,11 +1,11 @@
 ---
 id: RFC5944
 title:
-  type: main
+- type: main
   content: IP Mobility Support for IPv4, Revised
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5944
+- content: https://www.rfc-editor.org/info/rfc5944
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC5944
 date:
-  type: published
+- type: published
   value: 2010-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: C. Perkins
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2010-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies protocol enhancements that allow transparent routing
+- content: This document specifies protocol enhancements that allow transparent routing
     of IP datagrams to mobile nodes in the Internet.  Each mobile node is always identified
     by its home address, regardless of its current point of attachment to the Internet.  While
     situated away from its home, a mobile node is also associated with a care-of address,
@@ -41,13 +46,15 @@ abstract:
     home agent sends datagrams destined for the mobile node through a tunnel to the
     care-of address.  After arriving at the end of the tunnel, each datagram is then
     delivered to the mobile node. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MOBILEIPSUPIP
 - Internet Protocol
 - MIPv4
 editorialgroup:
-  name: mip4
+- name: mip4

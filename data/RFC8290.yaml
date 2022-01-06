@@ -1,11 +1,11 @@
 ---
 id: RFC8290
 title:
-  type: main
+- type: main
   content: The Flow Queue CoDel Packet Scheduler and Active Queue Management Algorithm
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8290
+- content: https://www.rfc-editor.org/info/rfc8290
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8290
 date:
-  type: published
+- type: published
   value: 2018-01
 contributor:
 - person:
     name:
       completename:
         content: T. Hoeiland-Joergensen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. McKenney
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Taht
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Gettys
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Dumazet
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo presents the FQ-CoDel hybrid packet scheduler and Active Queue
+- content: This memo presents the FQ-CoDel hybrid packet scheduler and Active Queue
     Management (AQM) algorithm, a powerful tool for fighting bufferbloat and reducing
     latency. FQ-CoDel mixes packets from multiple flows and reduces the impact of
     head-of-line blocking from bursty traffic. It provides isolation for low-rate
@@ -68,14 +85,16 @@ abstract:
     across the networking fabric, especially for bidirectional traffic, by keeping
     queue lengths short, and it can be implemented in a memory- and CPU-efficient
     fashion across a wide range of hardware.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - bufferbloat
 - aqm
 - fq_codel
 - fq-codel
 editorialgroup:
-  name: aqm
+- name: aqm

@@ -1,12 +1,12 @@
 ---
 id: RFC7740
 title:
-  type: main
+- type: main
   content: Simulating Partial Mesh of Multipoint-to-Multipoint (MP2MP) Provider Tunnels
     with Ingress Replication
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7740
+- content: https://www.rfc-editor.org/info/rfc7740
   type: src
 type: standard
 docid:
@@ -19,48 +19,61 @@ docid:
   type: DOI
 docnumber: RFC7740
 date:
-  type: published
+- type: published
   value: 2016-01
 contributor:
 - person:
     name:
       completename:
         content: Z. Zhang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Y. Rekhter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Dolganow
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 6513 ("Multicast in MPLS/BGP IP VPNs") describes a method to support
+- content: RFC 6513 ("Multicast in MPLS/BGP IP VPNs") describes a method to support
     bidirectional customer multicast flows using a partial mesh of Multipoint-to-Multipoint
     (MP2MP) tunnels.  This document specifies how a partial mesh of MP2MP tunnels
     can be simulated using Ingress Replication.  This solution enables a service provider
     to use Ingress Replication to offer transparent bidirectional multicast service
     to its VPN customers.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MVPN
 - Ingress Replication
 - Bidirectional C-flow
 - p-tunnel
 editorialgroup:
-  name: bess
+- name: bess

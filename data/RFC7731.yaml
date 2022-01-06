@@ -1,11 +1,11 @@
 ---
 id: RFC7731
 title:
-  type: main
+- type: main
   content: Multicast Protocol for Low-Power and Lossy Networks (MPL)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7731
+- content: https://www.rfc-editor.org/info/rfc7731
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC7731
 date:
-  type: published
+- type: published
   value: 2016-02
 contributor:
 - person:
     name:
       completename:
         content: J. Hui
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Kelsey
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies the Multicast Protocol for Low-Power and Lossy
+- content: This document specifies the Multicast Protocol for Low-Power and Lossy
     Networks (MPL), which provides IPv6 multicast forwarding in constrained networks.
     MPL avoids the need to construct or maintain any multicast forwarding topology,
     disseminating messages to all MPL Forwarders in an MPL Domain. MPL has two modes
@@ -48,10 +56,12 @@ abstract:
     sources. The other mode uses classic flooding. By providing both modes and parameterization
     of the Trickle algorithm, an MPL implementation can be used in a variety of multicast
     deployments and can trade between dissemination latency and transmission efficiency.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - 6lowpan
 - 802.15.4
@@ -63,4 +73,4 @@ keyword:
 - wsn
 - wireless sensor network
 editorialgroup:
-  name: roll
+- name: roll

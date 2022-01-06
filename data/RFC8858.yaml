@@ -1,12 +1,12 @@
 ---
 id: RFC8858
 title:
-  type: main
+- type: main
   content: Indicating Exclusive Support of RTP and RTP Control Protocol (RTCP) Multiplexing
     Using the Session Description Protocol (SDP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8858
+- content: https://www.rfc-editor.org/info/rfc8858
   type: src
 type: standard
 docid:
@@ -19,35 +19,42 @@ docid:
   type: DOI
 docnumber: RFC8858
 date:
-  type: published
+- type: published
   value: 2021-01
 contributor:
-  person:
+- person:
     name:
       completename:
         content: C. Holmberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a new Session Description Protocol (SDP) media-level
+- content: This document defines a new Session Description Protocol (SDP) media-level
     attribute, 'rtcp-mux-only', that can be used by an endpoint to indicate exclusive
     support of RTP and RTP Control Protocol (RTCP) multiplexing.  The document also
     updates RFC 5761 by clarifying that an offerer can use a mechanism to indicate
     that it is not able to send and receive RTCP on separate ports.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC5761
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - RTP
 - RTCP
@@ -60,4 +67,4 @@ keyword:
 - WebRTC
 - JSEP
 editorialgroup:
-  name: mmusic
+- name: mmusic

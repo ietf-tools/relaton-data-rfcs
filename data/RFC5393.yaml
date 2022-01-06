@@ -1,12 +1,12 @@
 ---
 id: RFC5393
 title:
-  type: main
+- type: main
   content: Addressing an Amplification Vulnerability in Session Initiation Protocol
     (SIP) Forking Proxies
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5393
+- content: https://www.rfc-editor.org/info/rfc5393
   type: src
 type: standard
 docid:
@@ -19,42 +19,56 @@ docid:
   type: DOI
 docnumber: RFC5393
 date:
-  type: published
+- type: published
   value: 2008-12
 contributor:
 - person:
     name:
       completename:
         content: R. Sparks
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Lawrence
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Hawrylyshen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Campen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document normatively updates RFC 3261, the Session Initiation Protocol
+- content: This document normatively updates RFC 3261, the Session Initiation Protocol
     (SIP), to address a security vulnerability identified in SIP proxy behavior. This
     vulnerability enables an attack against SIP networks where a small number of legitimate,
     even authorized, SIP requests can stimulate massive amounts of proxy-to-proxy
@@ -64,16 +78,18 @@ abstract:
     such proxies are required to implement. Additionally, this document defines a
     Max-Breadth mechanism for limiting the number of concurrent branches pursued for
     any given request. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC3261
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SIP
 - application-layer
@@ -83,4 +99,4 @@ keyword:
 - multicast
 - unicast
 editorialgroup:
-  name: sip
+- name: sip

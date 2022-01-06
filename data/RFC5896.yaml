@@ -1,12 +1,12 @@
 ---
 id: RFC5896
 title:
-  type: main
+- type: main
   content: 'Generic Security Service Application Program Interface (GSS-API): Delegate
     if Approved by Policy'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5896
+- content: https://www.rfc-editor.org/info/rfc5896
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC5896
 date:
-  type: published
+- type: published
   value: 2010-06
 contributor:
 - person:
     name:
       completename:
         content: L. Hornquist Astrand
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Hartman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2010-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Several Generic Security Service Application Program Interface (GSS-API)
+- content: Several Generic Security Service Application Program Interface (GSS-API)
     applications work in a multi-tiered architecture, where the server takes advantage
     of delegated user credentials to act on behalf of the user and contact additional
     servers.  In effect, the server acts as an agent on behalf of the user.  Examples
@@ -51,8 +59,10 @@ abstract:
     of a Kerberos realm to communicate that a particular service is trusted for delegation.  This
     specification adds support for this flag and similar facilities in other authentication
     mechanisms to GSS-API (RFC 2743). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -75,6 +85,6 @@ relation:
     formattedref:
       content: RFC4121
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

@@ -1,12 +1,12 @@
 ---
 id: RFC8033
 title:
-  type: main
+- type: main
   content: 'Proportional Integral Controller Enhanced (PIE): A Lightweight Control
     Scheme to Address the Bufferbloat Problem'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8033
+- content: https://www.rfc-editor.org/info/rfc8033
   type: src
 type: standard
 docid:
@@ -19,42 +19,56 @@ docid:
   type: DOI
 docnumber: RFC8033
 date:
-  type: published
+- type: published
   value: 2017-02
 contributor:
 - person:
     name:
       completename:
         content: R. Pan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Natarajan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Baker
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. White
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Bufferbloat is a phenomenon in which excess buffers in the network cause
+- content: Bufferbloat is a phenomenon in which excess buffers in the network cause
     high latency and latency variation. As more and more interactive applications
     (e.g., voice over IP, real-time video streaming, and financial transactions) run
     in the Internet, high latency and latency variation degrade application performance.
@@ -67,12 +81,14 @@ abstract:
     and achieve high link utilization under various congestion situations. The design
     does not require per-packet timestamps, so it incurs very little overhead and
     is simple enough to implement in both hardware and software.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - active queue management
 - AQM
 editorialgroup:
-  name: aqm
+- name: aqm

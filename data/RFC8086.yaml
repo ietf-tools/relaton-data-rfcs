@@ -1,11 +1,11 @@
 ---
 id: RFC8086
 title:
-  type: main
+- type: main
   content: GRE-in-UDP Encapsulation
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8086
+- content: https://www.rfc-editor.org/info/rfc8086
   type: src
 type: standard
 docid:
@@ -18,51 +18,67 @@ docid:
   type: DOI
 docnumber: RFC8086
 date:
-  type: published
+- type: published
   value: 2017-03
 contributor:
 - person:
     name:
       completename:
         content: L. Yong
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Crabbe
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: X. Xu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Herbert
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document specifies a method of encapsulating network protocol packets
+- content: 'This document specifies a method of encapsulating network protocol packets
     within GRE and UDP headers.  This GRE-in-UDP encapsulation allows the UDP source
     port field to be used as an entropy field.  This may be used for load-balancing
     of GRE traffic in transit networks using existing Equal-Cost Multipath (ECMP)
     mechanisms.  There are two applicability scenarios for GRE-in-UDP with different
     requirements: (1) general Internet and (2) a traffic-managed controlled environment.  The
     controlled environment has less restrictive requirements than the general Internet.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

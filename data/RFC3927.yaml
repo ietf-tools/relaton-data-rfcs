@@ -1,11 +1,11 @@
 ---
 id: RFC3927
 title:
-  type: main
+- type: main
   content: Dynamic Configuration of IPv4 Link-Local Addresses
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3927
+- content: https://www.rfc-editor.org/info/rfc3927
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC3927
 date:
-  type: published
+- type: published
   value: 2005-05
 contributor:
 - person:
     name:
       completename:
         content: S. Cheshire
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Aboba
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Guttman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: To participate in wide-area IP networking, a host needs to be configured
+- content: To participate in wide-area IP networking, a host needs to be configured
     with IP addresses for its interfaces, either manually by the user or automatically
     from a source on the network such as a Dynamic Host Configuration Protocol (DHCP)
     server. Unfortunately, such address configuration information may not always be
@@ -60,13 +71,15 @@ abstract:
     addresses are not available (such as on ad hoc or isolated networks). This document
     does not recommend that IPv4 Link-Local addresses and routable addresses be configured
     simultaneously on the same interface. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ip network
 - ip address
 - 169.254/16
 editorialgroup:
-  name: zeroconf
+- name: zeroconf

@@ -1,11 +1,11 @@
 ---
 id: RFC7923
 title:
-  type: main
+- type: main
   content: Requirements for Subscription to YANG Datastores
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7923
+- content: https://www.rfc-editor.org/info/rfc7923
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC7923
 date:
-  type: published
+- type: published
   value: 2016-06
 contributor:
 - person:
     name:
       completename:
         content: E. Voit
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Clemm
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Gonzalez Prieto
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document provides requirements for a service that allows client applications
+- content: 'This document provides requirements for a service that allows client applications
     to subscribe to updates of a YANG datastore.  Based on criteria negotiated as
     part of a subscription, updates will be pushed to targeted recipients.  Such a
     capability eliminates the need for periodic polling of YANG datastores by applications
@@ -56,12 +67,14 @@ abstract:
     service, various refinements are addressed.  These refinements include: periodicity
     of object updates, filtering out of objects underneath a requested a subtree,
     and delivery QoS guarantees.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - pub/sub
 - push updates
 editorialgroup:
-  name: i2rs
+- name: i2rs

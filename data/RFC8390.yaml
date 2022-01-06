@@ -1,11 +1,11 @@
 ---
 id: RFC8390
 title:
-  type: main
+- type: main
   content: RSVP-TE Path Diversity Using Exclude Route
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8390
+- content: https://www.rfc-editor.org/info/rfc8390
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8390
 date:
-  type: published
+- type: published
   value: 2018-07
 contributor:
 - person:
     name:
       completename:
         content: Z. Ali
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Swallow
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Zhang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Beller
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'RSVP-TE provides support for the communication of exclusion information
+- content: 'RSVP-TE provides support for the communication of exclusion information
     during Label Switched Path (LSP) setup. A typical LSP diversity use case is for
     protection, where two LSPs should follow different paths through the network in
     order to avoid single points of failure, thus greatly improving service availability.
@@ -68,16 +82,19 @@ abstract:
     will continue to exist and can be used as a reference when creating the new diverse
     path. Re-routing of the existing (reference) LSP, before the new path is established,
     is not considered.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4874
       format: text/plain
-fetched: '2022-01-05'
-keyword: LSP diversity
+fetched: '2022-01-06'
+keyword:
+- LSP diversity
 editorialgroup:
-  name: teas
+- name: teas

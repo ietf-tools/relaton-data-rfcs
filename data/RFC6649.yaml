@@ -1,12 +1,12 @@
 ---
 id: RFC6649
 title:
-  type: main
+- type: main
   content: Deprecate DES, RC4-HMAC-EXP, and Other Weak Cryptographic Algorithms in
     Kerberos
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6649
+- content: https://www.rfc-editor.org/info/rfc6649
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC6649
 date:
-  type: published
+- type: published
   value: 2012-07
 contributor:
 - person:
     name:
       completename:
         content: L. Hornquist Astrand
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Yu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Kerberos 5 network authentication protocol, originally specified in
+- content: The Kerberos 5 network authentication protocol, originally specified in
     RFC 1510, can use the Data Encryption Standard (DES) for encryption.  Almost 30
     years after first publishing DES, the National Institute of Standards and Technology
     (NIST) finally withdrew the standard in 2005, reflecting a long-established consensus
@@ -51,8 +59,10 @@ abstract:
     cryptographic algorithms in Kerberos.  Because RFC 1510 (obsoleted by RFC 4120)
     supports only DES, this document recommends the reclassification of RFC 1510 as
     Historic.  This memo documents an Internet Best Current Practice.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -75,6 +85,6 @@ relation:
     formattedref:
       content: RFC4757
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: krb-wg
+- name: krb-wg

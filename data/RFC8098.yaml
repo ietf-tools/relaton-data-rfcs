@@ -1,11 +1,11 @@
 ---
 id: RFC8098
 title:
-  type: main
+- type: main
   content: Message Disposition Notification
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8098
+- content: https://www.rfc-editor.org/info/rfc8098
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8098
 date:
-  type: published
+- type: published
   value: 2017-02
 contributor:
 - person:
     name:
       completename:
         content: T. Hansen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Melnikov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo defines a MIME content type that may be used by a Mail User Agent
+- content: This memo defines a MIME content type that may be used by a Mail User Agent
     (MUA) or electronic mail gateway to report the disposition of a message after
     it has been successfully delivered to a recipient. This content type is intended
     to be machine processable. Additional message header fields are also defined to
@@ -58,8 +66,10 @@ abstract:
     Mail. This document is an Internet Standard. It obsoletes RFC 3798 and updates
     RFC 2046 (message/partial media type handling) and RFC 3461 (Original-Recipient
     header field generation requirement).
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -72,9 +82,9 @@ relation:
     formattedref:
       content: RFC3461
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - delivery notification
 - mdn
 editorialgroup:
-  name: appsawg
+- name: appsawg

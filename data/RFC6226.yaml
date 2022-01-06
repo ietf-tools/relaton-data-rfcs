@@ -1,11 +1,11 @@
 ---
 id: RFC6226
 title:
-  type: main
+- type: main
   content: PIM Group-to-Rendezvous-Point Mapping
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6226
+- content: https://www.rfc-editor.org/info/rfc6226
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6226
 date:
-  type: published
+- type: published
   value: 2011-05
 contributor:
 - person:
     name:
       completename:
         content: B. Joshi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Kessler
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. McWalter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Each Protocol Independent Multicast - Sparse Mode (PIM-SM) router in a
+- content: Each Protocol Independent Multicast - Sparse Mode (PIM-SM) router in a
     PIM domain that supports Any Source Multicast (ASM) maintains Group-to-RP mappings
     that are used to identify a Rendezvous Point (RP) for a specific multicast group.
     PIM-SM has defined an algorithm to choose a RP from the Group-to-RP mappings learned
@@ -55,18 +66,20 @@ abstract:
     a standard algorithm to deterministically choose between several Group-to-RP mappings
     for a specific group. This document first explains the requirements to extend
     the Group-to-RP mapping algorithm and then proposes the new algorithm. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4601
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - auto-RP BSR hash
 - algorithm
 editorialgroup:
-  name: pim
+- name: pim

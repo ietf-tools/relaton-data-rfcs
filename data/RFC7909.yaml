@@ -1,12 +1,12 @@
 ---
 id: RFC7909
 title:
-  type: main
+- type: main
   content: Securing Routing Policy Specification Language (RPSL) Objects with Resource
     Public Key Infrastructure (RPKI) Signatures
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7909
+- content: https://www.rfc-editor.org/info/rfc7909
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC7909
 date:
-  type: published
+- type: published
   value: 2016-06
 contributor:
 - person:
     name:
       completename:
         content: R. Kisteleki
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Haberman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a method that allows parties to electronically
+- content: This document describes a method that allows parties to electronically
     sign Routing Policy Specification Language objects and validate such electronic
     signatures.  This allows relying parties to detect accidental or malicious modifications
     of such objects.  It also allows parties who run Internet Routing Registries or
@@ -49,8 +57,10 @@ abstract:
     or modifications of such database objects are done by the legitimate holder(s)
     of the Internet resources mentioned in those objects.  This document updates RFCs
     2622 and 4012 to add the signature attribute to supported RPSL objects.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -63,6 +73,6 @@ relation:
     formattedref:
       content: RFC4012
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: sidr
+- name: sidr

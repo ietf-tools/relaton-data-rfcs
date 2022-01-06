@@ -1,11 +1,11 @@
 ---
 id: RFC7746
 title:
-  type: main
+- type: main
   content: Label Switched Path (LSP) Self-Ping
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7746
+- content: https://www.rfc-editor.org/info/rfc7746
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC7746
 date:
-  type: published
+- type: published
   value: 2016-01
 contributor:
 - person:
     name:
       completename:
         content: R. Bonica
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Minei
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Conn
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Pacella
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Tomotaki
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: When certain RSVP-TE optimizations are implemented, ingress Label Switching
+- content: When certain RSVP-TE optimizations are implemented, ingress Label Switching
     Router (LSRs) can receive RSVP RESV messages before forwarding state has been
     installed on all downstream nodes. According to the RSVP-TE specification, the
     ingress LSR can forward traffic through a Label Switched Path (LSP) as soon as
@@ -73,9 +90,11 @@ abstract:
     similarly, each is designed for a unique purpose. Each protocol listens on its
     own UDP port and executes its own procedures. LSP Self-ping is an extremely lightweight
     mechanism. It does not consume control-plane resources on transit or egress LSRs.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: mpls
+- name: mpls

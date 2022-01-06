@@ -1,11 +1,11 @@
 ---
 id: RFC8805
 title:
-  type: main
+- type: main
   content: A Format for Self-Published IP Geolocation Feeds
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8805
+- content: https://www.rfc-editor.org/info/rfc8805
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8805
 date:
-  type: published
+- type: published
   value: 2020-08
 contributor:
 - person:
     name:
       completename:
         content: E. Kline
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Duleba
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Z. Szamonek
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Moser
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Kumari
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document records a format whereby a network operator can publish a
+- content: This document records a format whereby a network operator can publish a
     mapping of IP address prefixes to simplified geolocation information, colloquially
     termed a "geolocation feed". Interested parties can poll and parse these feeds
     to update or merge with other geolocation data sources and procedures. This format
@@ -70,10 +87,12 @@ abstract:
     deployed format. At least one consumer (Google) has incorporated these feeds into
     a geolocation data pipeline, and a significant number of ISPs are using it to
     inform them where their prefixes should be geolocated.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - geo-location
 - geolocation

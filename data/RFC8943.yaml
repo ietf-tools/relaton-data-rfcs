@@ -1,11 +1,11 @@
 ---
 id: RFC8943
 title:
-  type: main
+- type: main
   content: Concise Binary Object Representation (CBOR) Tags for Date
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8943
+- content: https://www.rfc-editor.org/info/rfc8943
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8943
 date:
-  type: published
+- type: published
   value: 2020-11
 contributor:
 - person:
     name:
       completename:
         content: M. Jones
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Nadalin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Richter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'The Concise Binary Object Representation (CBOR), as specified in RFC 7049,
+- content: 'The Concise Binary Object Representation (CBOR), as specified in RFC 7049,
     is a data format whose design goals include the possibility of extremely small
     code size, fairly small message size, and extensibility without the need for version
     negotiation. In CBOR, one point of extensibility is the definition of CBOR tags.
@@ -58,14 +69,16 @@ abstract:
     the date 1970-01-01 in the Gregorian calendar for applications needing a numeric
     date representation without a time. This specification is the reference document
     for IANA registration of the CBOR tags defined.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Compact Binary Object Representation
 - CBOR
 - Tag
 - Date
 editorialgroup:
-  name: cbor
+- name: cbor

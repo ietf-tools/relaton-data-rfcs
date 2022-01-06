@@ -1,12 +1,12 @@
 ---
 id: RFC8656
 title:
-  type: main
+- type: main
   content: 'Traversal Using Relays around NAT (TURN): Relay Extensions to Session
     Traversal Utilities for NAT (STUN)'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8656
+- content: https://www.rfc-editor.org/info/rfc8656
   type: src
 type: standard
 docid:
@@ -19,42 +19,56 @@ docid:
   type: DOI
 docnumber: RFC8656
 date:
-  type: published
+- type: published
   value: 2020-02
 contributor:
 - person:
     name:
       completename:
         content: T. Reddy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Johnston
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Matthews
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Rosenberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: If a host is located behind a NAT, it can be impossible for that host to
+- content: If a host is located behind a NAT, it can be impossible for that host to
     communicate directly with other hosts (peers) in certain situations. In these
     situations, it is necessary for the host to use the services of an intermediate
     node that acts as a communication relay. This specification defines a protocol,
@@ -65,14 +79,16 @@ abstract:
     was designed to be used as part of the Interactive Connectivity Establishment
     (ICE) approach to NAT traversal, though it can also be used without ICE. This
     document obsoletes RFCs 5766 and 6156.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - NAT
 - TURN
 - STUN
 - ICE
 editorialgroup:
-  name: tram
+- name: tram

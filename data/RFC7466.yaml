@@ -1,12 +1,12 @@
 ---
 id: RFC7466
 title:
-  type: main
+- type: main
   content: An Optimization for the Mobile Ad Hoc Network (MANET) Neighborhood Discovery
     Protocol (NHDP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7466
+- content: https://www.rfc-editor.org/info/rfc7466
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC7466
 date:
-  type: published
+- type: published
   value: 2015-03
 contributor:
 - person:
     name:
       completename:
         content: C. Dearlove
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Clausen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The link quality mechanism of the Mobile Ad Hoc Network (MANET) Neighborhood
+- content: The link quality mechanism of the Mobile Ad Hoc Network (MANET) Neighborhood
     Discovery Protocol (NHDP) enables "ignoring" some 1-hop neighbors if the measured
     link quality from that 1-hop neighbor is below an acceptable threshold while still
     retaining the corresponding link information as acquired from the HELLO message
@@ -58,8 +66,10 @@ abstract:
     1-hop neighbor drops below the acceptable threshold. This allows immediate reinstatement
     of the symmetric 2-hop neighbor if the link quality later improves sufficiently,
     thus making the symmetric 2-hop neighborhood more "robust".
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -72,11 +82,11 @@ relation:
     formattedref:
       content: RFC7181
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MANET
 - NHDP
 - OLSRv2
 - link quality
 editorialgroup:
-  name: manet
+- name: manet

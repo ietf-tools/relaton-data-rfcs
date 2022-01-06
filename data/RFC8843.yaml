@@ -1,11 +1,11 @@
 ---
 id: RFC8843
 title:
-  type: main
+- type: main
   content: Negotiating Media Multiplexing Using the Session Description Protocol (SDP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8843
+- content: https://www.rfc-editor.org/info/rfc8843
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8843
 date:
-  type: published
+- type: published
   value: 2021-01
 contributor:
 - person:
     name:
       completename:
         content: C. Holmberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Alvestrand
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Jennings
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This specification defines a new Session Description Protocol (SDP) Grouping
+- content: This specification defines a new Session Description Protocol (SDP) Grouping
     Framework extension called 'BUNDLE'. The extension can be used with the SDP offer/answer
     mechanism to negotiate the usage of a single transport (5-tuple) for sending and
     receiving media described by multiple SDP media descriptions ("m=" sections).
@@ -55,8 +66,10 @@ abstract:
     group. This specification defines a new RTP Control Protocol (RTCP) Source Description
     (SDES) item and a new RTP header extension. This specification updates RFCs 3264,
     5888, and 7941.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -74,7 +87,7 @@ relation:
     formattedref:
       content: RFC7941
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - RTP
 - SDP
@@ -87,4 +100,4 @@ keyword:
 - WEB
 - Browser
 editorialgroup:
-  name: mmusic
+- name: mmusic

@@ -1,12 +1,12 @@
 ---
 id: RFC7026
 title:
-  type: main
+- type: main
   content: Retiring TLVs from the Associated Channel Header of the MPLS Generic Associated
     Channel
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7026
+- content: https://www.rfc-editor.org/info/rfc7026
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC7026
 date:
-  type: published
+- type: published
   value: 2013-09
 contributor:
 - person:
     name:
       completename:
         content: A. Farrel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Bryant
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The MPLS Generic Associated Channel (G-ACh) is a generalization of the
+- content: The MPLS Generic Associated Channel (G-ACh) is a generalization of the
     applicability of the pseudowire (PW) Associated Channel Header (ACH). RFC 5586
     defines the concept of TLV constructs that can be carried in messages on the G-ACh
     by placing them in the ACH between the fixed header fields and the G-ACh message.
@@ -49,16 +57,18 @@ abstract:
     significant problems to the fast path, and since G-ACh messages are intended to
     be processed substantially in hardware, the use of ACH TLVs is undesirable. This
     document updates RFC 5586 by retiring ACH TLVs and removing the associated registry.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC5586
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ACH
 - G-ACh
@@ -66,4 +76,4 @@ keyword:
 - PW
 - MPLS-TP
 editorialgroup:
-  name: mpls
+- name: mpls

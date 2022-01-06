@@ -1,12 +1,12 @@
 ---
 id: RFC4701
 title:
-  type: main
+- type: main
   content: A DNS Resource Record (RR) for Encoding Dynamic Host Configuration Protocol
     (DHCP) Information (DHCID RR)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4701
+- content: https://www.rfc-editor.org/info/rfc4701
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC4701
 date:
-  type: published
+- type: published
   value: 2006-10
 contributor:
 - person:
     name:
       completename:
         content: M. Stapp
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Lemon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Gustafsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'It is possible for Dynamic Host Configuration Protocol (DHCP) clients
+- content: 'It is possible for Dynamic Host Configuration Protocol (DHCP) clients
     to attempt to update the same DNS Fully Qualified Domain Name (FQDN) or to update
     a DNS FQDN that has been added to the DNS for another purpose as they obtain DHCP
     leases.  Whether the DHCP server or the clients themselves perform the DNS updates,
@@ -55,12 +66,14 @@ abstract:
     identifiers in the DNS to unambiguously associate domain names with the DHCP clients
     to which they refer.  This memo defines a distinct Resource Record (RR) type for
     this purpose for use by DHCP clients and servers: the "DHCID" RR. [STANDARDS-TRACK]'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - dns fqdn
 - fully qualified domain name
 editorialgroup:
-  name: dnsext
+- name: dnsext

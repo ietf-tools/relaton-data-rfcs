@@ -1,11 +1,11 @@
 ---
 id: RFC2845
 title:
-  type: main
+- type: main
   content: Secret Key Transaction Authentication for DNS (TSIG)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc2845
+- content: https://www.rfc-editor.org/info/rfc2845
   type: src
 type: standard
 docid:
@@ -18,47 +18,63 @@ docid:
   type: DOI
 docnumber: RFC2845
 date:
-  type: published
+- type: published
   value: 2000-05
 contributor:
 - person:
     name:
       completename:
         content: P. Vixie
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: O. Gudmundsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Eastlake 3rd
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Wellington
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2000-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This protocol allows for transaction level authentication using shared
+- content: This protocol allows for transaction level authentication using shared
     secrets and one way hashing.  It can be used to authenticate dynamic updates as
     coming from an approved client, or to authenticate responses as coming from an
     approved recursive name server. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -71,7 +87,7 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - domain
 - name
@@ -79,4 +95,4 @@ keyword:
 - transaction
 - signature
 editorialgroup:
-  name: dnsext
+- name: dnsext

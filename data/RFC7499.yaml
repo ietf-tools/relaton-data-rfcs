@@ -1,11 +1,11 @@
 ---
 id: RFC7499
 title:
-  type: main
+- type: main
   content: Support of Fragmentation of RADIUS Packets
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7499
+- content: https://www.rfc-editor.org/info/rfc7499
   type: src
 type: standard
 docid:
@@ -18,56 +18,76 @@ docid:
   type: DOI
 docnumber: RFC7499
 date:
-  type: published
+- type: published
   value: 2015-04
 contributor:
 - person:
     name:
       completename:
         content: A. Perez-Mendez
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Marin-Lopez
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Pereniguez-Garcia
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Lopez-Millan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Lopez
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. DeKok
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Remote Authentication Dial-In User Service (RADIUS) protocol is limited
+- content: The Remote Authentication Dial-In User Service (RADIUS) protocol is limited
     to a total packet size of 4096 bytes.  Provisions exist for fragmenting large
     amounts of authentication data across multiple packets, via Access-Challenge packets.  No
     similar provisions exist for fragmenting large amounts of authorization data.  This
@@ -75,10 +95,12 @@ abstract:
     that functionality.  These mechanisms are largely compatible with existing implementations,
     and they are designed to be invisible to proxies and "fail-safe" to legacy RADIUS
     Clients and Servers.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - RADIUS
 - attribute
@@ -86,4 +108,4 @@ keyword:
 - fragmentation
 - chunk
 editorialgroup:
-  name: radext
+- name: radext

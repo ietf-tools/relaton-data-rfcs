@@ -1,12 +1,12 @@
 ---
 id: RFC7183
 title:
-  type: main
+- type: main
   content: Integrity Protection for the Neighborhood Discovery Protocol (NHDP) and
     Optimized Link State Routing Protocol Version 2 (OLSRv2)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7183
+- content: https://www.rfc-editor.org/info/rfc7183
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC7183
 date:
-  type: published
+- type: published
   value: 2014-04
 contributor:
 - person:
     name:
       completename:
         content: U. Herberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Dearlove
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Clausen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies integrity and replay protection for the Mobile
+- content: This document specifies integrity and replay protection for the Mobile
     Ad Hoc Network (MANET) Neighborhood Discovery Protocol (NHDP) and the Optimized
     Link State Routing Protocol version 2 (OLSRv2). This protection is achieved by
     using an HMAC-SHA-256 Integrity Check Value (ICV) TLV and a Timestamp TLV based
@@ -55,8 +66,10 @@ abstract:
     can also be used for other protocols that use the generalized packet/message format
     described in RFC 5444. This document updates RFC 6130 and RFC 7181 by mandating
     the implementation of this integrity and replay protection in NHDP and OLSRv2.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -69,7 +82,7 @@ relation:
     formattedref:
       content: RFC7181
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MANET
 - OLSRv2
@@ -77,4 +90,4 @@ keyword:
 - Integrity protection
 - ICV
 editorialgroup:
-  name: manet
+- name: manet

@@ -1,11 +1,11 @@
 ---
 id: RFC8688
 title:
-  type: main
+- type: main
   content: A Session Initiation Protocol (SIP) Response Code for Rejected Calls
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8688
+- content: https://www.rfc-editor.org/info/rfc8688
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8688
 date:
-  type: published
+- type: published
   value: 2019-12
 contributor:
 - person:
     name:
       completename:
         content: E.W. Burger
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Nagda
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines the 608 (Rejected) Session Initiation Protocol (SIP)
+- content: This document defines the 608 (Rejected) Session Initiation Protocol (SIP)
     response code.  This response code enables calling parties to learn that an intermediary
     rejected their call attempt.  No one will deliver, and thus answer, the call.  As
     a 6xx code, the caller will be aware that future attempts to contact the same
@@ -52,13 +60,15 @@ abstract:
     in 608 responses to enable rejected callers to contact entities that blocked their
     calls in error.  This provides a remediation mechanism for legal callers that
     find their calls blocked.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - STIR
 - SIPCORE
 - IANA
 editorialgroup:
-  name: sipcore
+- name: sipcore

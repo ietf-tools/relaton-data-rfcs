@@ -1,12 +1,12 @@
 ---
 id: RFC6720
 title:
-  type: main
+- type: main
   content: The Generalized TTL Security Mechanism (GTSM) for the Label Distribution
     Protocol (LDP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6720
+- content: https://www.rfc-editor.org/info/rfc6720
   type: src
 type: standard
 docid:
@@ -19,46 +19,56 @@ docid:
   type: DOI
 docnumber: RFC6720
 date:
-  type: published
+- type: published
   value: 2012-08
 contributor:
 - person:
     name:
       completename:
         content: C. Pignataro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Asati
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Generalized TTL Security Mechanism (GTSM) describes a generalized use
+- content: The Generalized TTL Security Mechanism (GTSM) describes a generalized use
     of a packet's Time to Live (TTL) (IPv4) or Hop Limit (IPv6) to verify that the
     packet was sourced by a node on a connected link, thereby protecting the router\'s
     IP control plane from CPU utilization-based attacks. This technique improves security
     and is used by many protocols. This document defines the GTSM use for the Label
     Distribution Protocol (LDP). This specification uses a bit reserved in RFC 5036
     and therefore updates RFC 5036. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC5036
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - GTSM
 - LDP
 editorialgroup:
-  name: mpls
+- name: mpls

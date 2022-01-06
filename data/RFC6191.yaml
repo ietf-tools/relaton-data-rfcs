@@ -1,11 +1,11 @@
 ---
 id: RFC6191
 title:
-  type: main
+- type: main
   content: Reducing the TIME-WAIT State Using TCP Timestamps
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6191
+- content: https://www.rfc-editor.org/info/rfc6191
   type: src
 type: standard
 docid:
@@ -18,29 +18,36 @@ docid:
   type: DOI
 docnumber: RFC6191
 date:
-  type: published
+- type: published
   value: 2011-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: F. Gont
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes an algorithm for processing incoming SYN segments
+- content: This document describes an algorithm for processing incoming SYN segments
     that allows higher connection-establishment rates between any two TCP endpoints
     when a TCP Timestamps option is present in the incoming SYN segment.  This document
     only modifies processing of SYN segments received for connections in the TIME-WAIT
     state; processing in all other states is unchanged.  This memo documents an Internet
     Best Current Practice.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: tcpm
+- name: tcpm

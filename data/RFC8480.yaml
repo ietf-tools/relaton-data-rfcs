@@ -1,11 +1,11 @@
 ---
 id: RFC8480
 title:
-  type: main
+- type: main
   content: 6TiSCH Operation Sublayer (6top) Protocol (6P)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8480
+- content: https://www.rfc-editor.org/info/rfc8480
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8480
 date:
-  type: published
+- type: published
   value: 2018-11
 contributor:
 - person:
     name:
       completename:
         content: Q. Wang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: X. Vilajosana
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Watteyne
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines the "IPv6 over the TSCH mode of IEEE 802.15.4e" (6TiSCH)
+- content: This document defines the "IPv6 over the TSCH mode of IEEE 802.15.4e" (6TiSCH)
     Operation Sublayer (6top) Protocol (6P), which enables distributed scheduling
     in 6TiSCH networks.  6P allows neighbor nodes to add/delete Time-Slotted Channel
     Hopping (TSCH) cells to/on one another.  6P is part of the 6TiSCH Operation Sublayer
@@ -55,13 +66,15 @@ abstract:
     Protocol defined in this document.  A 6top SF decides when to add/delete cells,
     and it triggers 6P Transactions.  The definition of SFs is out of scope for this
     document; however, this document provides the requirements for an SF.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - schedule management
 - distributed scheduling
 - time synchronized channel hopping scheduling
 editorialgroup:
-  name: 6tisch
+- name: 6tisch

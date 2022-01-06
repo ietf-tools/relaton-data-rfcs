@@ -1,11 +1,11 @@
 ---
 id: RFC7090
 title:
-  type: main
+- type: main
   content: Public Safety Answering Point (PSAP) Callback
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7090
+- content: https://www.rfc-editor.org/info/rfc7090
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7090
 date:
-  type: published
+- type: published
   value: 2014-04
 contributor:
 - person:
     name:
       completename:
         content: H. Schulzrinne
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Tschofenig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Holmberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: After an emergency call is completed (terminated either prematurely by
+- content: After an emergency call is completed (terminated either prematurely by
     the emergency caller or normally by the call taker), the call taker may feel the
     need for further communication. For example, the call may have been dropped by
     accident without the call taker having sufficient information about the current
@@ -69,10 +83,12 @@ abstract:
     and illustrates additional scenarios where better-than-normal call treatment behavior
     would be desirable. We describe a solution based on a new header field value for
     the SIP Priority header field, called "psap-callback", to mark PSAP callbacks.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - PSAP
 - callback
@@ -80,4 +96,4 @@ keyword:
 - emergency
 - VoIP
 editorialgroup:
-  name: ecrit
+- name: ecrit

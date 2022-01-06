@@ -1,11 +1,11 @@
 ---
 id: RFC8548
 title:
-  type: main
+- type: main
   content: Cryptographic Protection of TCP Streams (tcpcrypt)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8548
+- content: https://www.rfc-editor.org/info/rfc8548
   type: src
 type: standard
 docid:
@@ -18,56 +18,76 @@ docid:
   type: DOI
 docnumber: RFC8548
 date:
-  type: published
+- type: published
   value: 2019-05
 contributor:
 - person:
     name:
       completename:
         content: A. Bittau
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Giffin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Handley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Mazieres
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Q. Slack
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Smith
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies "tcpcrypt", a TCP encryption protocol designed
+- content: This document specifies "tcpcrypt", a TCP encryption protocol designed
     for use in conjunction with the TCP Encryption Negotiation Option (TCP-ENO).  Tcpcrypt
     coexists with middleboxes by tolerating resegmentation, NATs, and other manipulations
     of the TCP header.  The protocol is self-contained and specifically tailored to
@@ -77,12 +97,14 @@ abstract:
     to perform key exchange before application data can be transmitted.  However,
     the extra latency can be avoided between two hosts that have recently established
     a previous tcpcrypt connection.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - tcp
 - encryption
 editorialgroup:
-  name: tcpinc
+- name: tcpinc

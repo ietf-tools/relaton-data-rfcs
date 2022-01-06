@@ -1,11 +1,11 @@
 ---
 id: RFC3995
 title:
-  type: main
+- type: main
   content: 'Internet Printing Protocol (IPP): Event Notifications and Subscriptions'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3995
+- content: https://www.rfc-editor.org/info/rfc3995
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC3995
 date:
-  type: published
+- type: published
   value: 2005-03
 contributor:
 - person:
     name:
       completename:
         content: R. Herriot
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Hastings
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document describes an OPTIONAL extension to the Internet Printing
+- content: 'This document describes an OPTIONAL extension to the Internet Printing
     Protocol/1.1: Model and Semantics (RFC 2911, RFC 2910).  This extension allows
     a client to subscribe to printing related Events.  Subscriptions are modeled as
     Subscription Objects.  The Subscription Object specifies that when one of the
@@ -51,8 +59,10 @@ abstract:
     the Printer by performing a Create-Printer-Subscriptions operation.  Four other
     operations are defined for Subscription Objects: Get-Subscriptions-Attributes,
     Get-Subscriptions, Renew-Subscription, and Cancel-Subscription. [STANDARDS-TRACK]'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -65,11 +75,11 @@ relation:
     formattedref:
       content: RFC2910
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - optional
 - subscription events
 - subscription objects
 - asynchronous even notification
 editorialgroup:
-  name: ipp
+- name: ipp

@@ -1,12 +1,12 @@
 ---
 id: RFC8271
 title:
-  type: main
+- type: main
   content: Updates to the Resource Reservation Protocol for Fast Reroute of Traffic
     Engineering GMPLS Label Switched Paths (LSPs)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8271
+- content: https://www.rfc-editor.org/info/rfc8271
   type: src
 type: standard
 docid:
@@ -19,49 +19,66 @@ docid:
   type: DOI
 docnumber: RFC8271
 date:
-  type: published
+- type: published
   value: 2017-10
 contributor:
 - person:
     name:
       completename:
         content: M. Taillon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Saad
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Gandhi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Z. Ali
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Bhatia
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document updates the Resource Reservation Protocol - Traffic Engineering
+- content: This document updates the Resource Reservation Protocol - Traffic Engineering
     (RSVP-TE) Fast Reroute (FRR) procedures defined in RFC 4090 to support Packet
     Switch Capable (PSC) Generalized Multiprotocol Label Switching (GMPLS) Label Switched
     Paths (LSPs).  These updates allow the coordination of a bidirectional bypass
@@ -70,19 +87,21 @@ abstract:
     of bidirectional traffic onto bypass tunnels that ensure the co-routing of data
     paths in the forward and reverse directions after FRR and avoid RSVP soft-state
     timeout in the control plane.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4090
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Co-routed LSPs
 - Bypass assignment coordinate
 - Restore co-routing
 editorialgroup:
-  name: teas
+- name: teas

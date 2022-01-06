@@ -1,12 +1,12 @@
 ---
 id: RFC6394
 title:
-  type: main
+- type: main
   content: Use Cases and Requirements for DNS-Based Authentication of Named Entities
     (DANE)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6394
+- content: https://www.rfc-editor.org/info/rfc6394
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC6394
 date:
-  type: published
+- type: published
   value: 2011-10
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Barnes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Many current applications use the certificate-based authentication features
+- content: Many current applications use the certificate-based authentication features
     in Transport Layer Security (TLS) to allow clients to verify that a connected
     server properly represents a desired domain name.  Typically, this authentication
     has been based on PKIX certificate chains rooted in well-known certificate authorities
@@ -43,12 +48,14 @@ abstract:
     main focus of this document is TLS server authentication, but it also covers TLS
     client authentication for applications where TLS clients are identified by domain
     names. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - TLS
 - PKIX
 editorialgroup:
-  name: dane
+- name: dane

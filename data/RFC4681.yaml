@@ -1,11 +1,11 @@
 ---
 id: RFC4681
 title:
-  type: main
+- type: main
   content: TLS User Mapping Extension
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4681
+- content: https://www.rfc-editor.org/info/rfc4681
   type: src
 type: standard
 docid:
@@ -18,52 +18,65 @@ docid:
   type: DOI
 docnumber: RFC4681
 date:
-  type: published
+- type: published
   value: 2006-10
 contributor:
 - person:
     name:
       completename:
         content: S. Santesson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Medvinsky
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Ball
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies a TLS extension that enables clients to send generic
+- content: This document specifies a TLS extension that enables clients to send generic
     user mapping hints in a supplemental data handshake message defined in RFC 4680.  One
     such mapping hint is defined in an informative section, the UpnDomainHint, which
     may be used by a server to locate a user in a directory database.  Other mapping
     hints may be defined in other documents in the future. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4346
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - transport layer security
 - handshake message
 - upndomainhint
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

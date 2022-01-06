@@ -1,12 +1,12 @@
 ---
 id: RFC7441
 title:
-  type: main
+- type: main
   content: Encoding Multipoint LDP (mLDP) Forwarding Equivalence Classes (FECs) in
     the NLRI of BGP MCAST-VPN Routes
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7441
+- content: https://www.rfc-editor.org/info/rfc7441
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC7441
 date:
-  type: published
+- type: published
   value: 2015-01
 contributor:
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: U. Joorde
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Many service providers offer "BGP/MPLS IP VPN" service to their customers.  Existing
+- content: Many service providers offer "BGP/MPLS IP VPN" service to their customers.  Existing
     IETF standards specify the procedures and protocols that a service provider uses
     in order to offer this service to customers who have IP unicast and IP multicast
     traffic in their VPNs.  It is also desirable to be able to support customers who
@@ -58,15 +69,17 @@ abstract:
     restrictive set of circumstances.  This document generalizes the existing support
     to include all cases where the customer uses mLDP, without any restrictions.  This
     document updates RFC 6514.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6514
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: bess
+- name: bess

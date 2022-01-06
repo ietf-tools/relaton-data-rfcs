@@ -1,12 +1,12 @@
 ---
 id: RFC9118
 title:
-  type: main
+- type: main
   content: Enhanced JSON Web Token (JWT) Claim Constraints for Secure Telephone Identity
     Revisited (STIR) Certificates
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc9118
+- content: https://www.rfc-editor.org/info/rfc9118
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC9118
 date:
-  type: published
+- type: published
   value: 2021-08
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Housley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 8226 specifies the use of certificates for Secure Telephone Identity
+- content: RFC 8226 specifies the use of certificates for Secure Telephone Identity
     Credentials; these certificates are often called "Secure Telephone Identity Revisited
     (STIR) Certificates".  RFC 8226 provides a certificate extension to constrain
     the JSON Web Token (JWT) claims that can be included in the Personal Assertion
@@ -43,16 +48,19 @@ abstract:
     available in the original certificate extension as well as an additional way to
     constrain the allowable JWT claims.  The enhanced extension can also provide a
     list of claims that are not allowed to be included in the PASSporT.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC8226
       format: text/plain
-fetched: '2022-01-05'
-keyword: X.509 Certificate Extension
+fetched: '2022-01-06'
+keyword:
+- X.509 Certificate Extension
 editorialgroup:
-  name: stir
+- name: stir

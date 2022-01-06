@@ -1,11 +1,11 @@
 ---
 id: RFC8146
 title:
-  type: main
+- type: main
   content: Adding Support for Salted Password Databases to EAP-pwd
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8146
+- content: https://www.rfc-editor.org/info/rfc8146
   type: src
 type: standard
 docid:
@@ -18,40 +18,47 @@ docid:
   type: DOI
 docnumber: RFC8146
 date:
-  type: published
+- type: published
   value: 2017-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: D. Harkins
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: EAP-pwd is an Extensible Authentication Protocol (EAP) method that utilizes
+- content: EAP-pwd is an Extensible Authentication Protocol (EAP) method that utilizes
     a shared password for authentication using a technique that is resistant to dictionary
     attacks.  It includes support for raw keys and double hashing of a password in
     the style of Microsoft Challenge Handshake Authentication Protocol version 2 (MSCHAPv2),
     but it does not include support for salted passwords.  There are many existing
     databases of salted passwords, and it is desirable to allow their use with EAP-pwd.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC5931
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Password-Authenticated Key Exchange
 - PAKE
 - Dictionary Attack
 - Authentication EAP
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

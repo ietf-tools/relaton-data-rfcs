@@ -1,11 +1,11 @@
 ---
 id: RFC8736
 title:
-  type: main
+- type: main
   content: PIM Message Type Space Extension and Reserved Bits
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8736
+- content: https://www.rfc-editor.org/info/rfc8736
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8736
 date:
-  type: published
+- type: published
   value: 2020-02
 contributor:
 - person:
     name:
       completename:
         content: S. Venaas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Retana
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The PIM version 2 messages share a common message header format. The common
+- content: The PIM version 2 messages share a common message header format. The common
     header definition contains eight reserved bits. This document specifies how these
     bits may be used by individual message types and creates a registry containing
     the per-message-type usage. This document also extends the PIM type space by defining
@@ -49,8 +57,10 @@ abstract:
     header. This document further updates RFCs 7761 and 3973, along with RFCs 5015,
     5059, 6754, and 8364, by specifying the use of the currently reserved bits for
     each PIM message. This document obsoletes RFC 6166.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -83,7 +93,8 @@ relation:
     formattedref:
       content: RFC8364
       format: text/plain
-fetched: '2022-01-05'
-keyword: Multicast
+fetched: '2022-01-06'
+keyword:
+- Multicast
 editorialgroup:
-  name: pim
+- name: pim

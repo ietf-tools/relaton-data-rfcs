@@ -1,11 +1,11 @@
 ---
 id: RFC8405
 title:
-  type: main
+- type: main
   content: Shortest Path First (SPF) Back-Off Delay Algorithm for Link-State IGPs
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8405
+- content: https://www.rfc-editor.org/info/rfc8405
   type: src
 type: standard
 docid:
@@ -18,64 +18,86 @@ docid:
   type: DOI
 docnumber: RFC8405
 date:
-  type: published
+- type: published
   value: 2018-06
 contributor:
 - person:
     name:
       completename:
         content: B. Decraene
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Litkowski
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Gredler
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Lindem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Francois
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Bowers
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a standard algorithm to temporarily postpone or "back
+- content: This document defines a standard algorithm to temporarily postpone or "back
     off" link-state IGP Shortest Path First (SPF) computations. This reduces the computational
     load and churn on IGP nodes when multiple temporally close network events trigger
     multiple SPF computations. Having one standard algorithm improves interoperability
     by reducing the probability and/or duration of transient forwarding loops during
     the IGP convergence when the IGP reacts to multiple temporally close IGP events.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: rtgwg
+- name: rtgwg

@@ -1,11 +1,11 @@
 ---
 id: RFC8954
 title:
-  type: main
+- type: main
   content: Online Certificate Status Protocol (OCSP) Nonce Extension
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8954
+- content: https://www.rfc-editor.org/info/rfc8954
   type: src
 type: standard
 docid:
@@ -18,37 +18,44 @@ docid:
   type: DOI
 docnumber: RFC8954
 date:
-  type: published
+- type: published
   value: 2020-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: M. Sahni
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies the updated format of the Nonce extension in the
+- content: This document specifies the updated format of the Nonce extension in the
     Online Certificate Status Protocol (OCSP) request and response messages.  OCSP
     is used to check the status of a certificate, and the Nonce extension is used
     to cryptographically bind an OCSP response message to a particular OCSP request
     message.  This document updates RFC 6960.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6960
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - OCSP Nonce Length
 - OCSP Nonce Randomness
 editorialgroup:
-  name: lamps
+- name: lamps

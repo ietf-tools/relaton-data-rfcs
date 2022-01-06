@@ -1,11 +1,11 @@
 ---
 id: RFC7901
 title:
-  type: main
+- type: main
   content: CHAIN Query Requests in DNS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7901
+- content: https://www.rfc-editor.org/info/rfc7901
   type: src
 type: standard
 docid:
@@ -18,34 +18,41 @@ docid:
   type: DOI
 docnumber: RFC7901
 date:
-  type: published
+- type: published
   value: 2016-06
 contributor:
-  person:
+- person:
     name:
       completename:
         content: P. Wouters
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines an EDNS0 extension that can be used by a security-aware
+- content: This document defines an EDNS0 extension that can be used by a security-aware
     validating resolver configured to use a forwarding resolver to send a single query,
     requesting a complete validation path along with the regular query answer.  The
     reduction in queries potentially lowers the latency and reduces the need to send
     multiple queries at once.  This extension mandates the use of source-IP- verified
     transport such as TCP or UDP with EDNS-COOKIE, so it cannot be abused in amplification
     attacks.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNSSEC
 - EDNS0
 - latency
 editorialgroup:
-  name: dnsop
+- name: dnsop

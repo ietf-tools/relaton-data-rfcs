@@ -1,11 +1,11 @@
 ---
 id: RFC6549
 title:
-  type: main
+- type: main
   content: OSPFv2 Multi-Instance Extensions
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6549
+- content: https://www.rfc-editor.org/info/rfc6549
   type: src
 type: standard
 docid:
@@ -18,51 +18,65 @@ docid:
   type: DOI
 docnumber: RFC6549
 date:
-  type: published
+- type: published
   value: 2012-03
 contributor:
 - person:
     name:
       completename:
         content: A. Lindem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Roy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Mirtorabi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: OSPFv3 includes a mechanism to support multiple instances of the protocol
+- content: OSPFv3 includes a mechanism to support multiple instances of the protocol
     running on the same interface. OSPFv2 can utilize such a mechanism in order to
     support multiple routing domains on the same subnet. This document defines the
     OSPFv2 Instance ID to enable separate OSPFv2 protocol instances on the same interface.
     Unlike OSPFv3 where the Instance ID can be used for multiple purposes, such as
     putting the same interface in multiple areas, the OSPFv2 Instance ID is reserved
     for identifying protocol instances. This document updates RFC 2328. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC2328
       format: text/plain
-fetched: '2022-01-05'
-keyword: Instance ID
+fetched: '2022-01-06'
+keyword:
+- Instance ID
 editorialgroup:
-  name: ospf
+- name: ospf

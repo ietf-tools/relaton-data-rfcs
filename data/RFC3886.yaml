@@ -1,11 +1,11 @@
 ---
 id: RFC3886
 title:
-  type: main
+- type: main
   content: An Extensible Message Format for Message Tracking Responses
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3886
+- content: https://www.rfc-editor.org/info/rfc3886
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC3886
 date:
-  type: published
+- type: published
   value: 2004-09
 contributor:
-  person:
+- person:
     name:
       completename:
         content: E. Allman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Message Tracking is expected to be used to determine the status of undelivered
+- content: Message Tracking is expected to be used to determine the status of undelivered
     e-mail upon request. Tracking is used in conjunction with Delivery Status Notifications
     (DSN) and Message Disposition Notifications (MDN); generally, a message tracking
     request will be issued only when a DSN or MDN has not been received within a reasonable
@@ -42,20 +47,22 @@ abstract:
     Query Protocol". This memo defines only the format of the status information.
     An extension to SMTP to label messages for further tracking and request tracking
     status is defined in a separate memo. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC3463
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Delivery Status Notifications
 - DSN
 - Message Disposition Notifications
 - MDN
 editorialgroup:
-  name: msgtrk
+- name: msgtrk

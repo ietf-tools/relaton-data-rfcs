@@ -1,11 +1,11 @@
 ---
 id: RFC8022
 title:
-  type: main
+- type: main
   content: A YANG Data Model for Routing Management
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8022
+- content: https://www.rfc-editor.org/info/rfc8022
   type: src
 type: standard
 docid:
@@ -18,48 +18,58 @@ docid:
   type: DOI
 docnumber: RFC8022
 date:
-  type: published
+- type: published
   value: 2016-11
 contributor:
 - person:
     name:
       completename:
         content: L. Lhotka
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Lindem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document contains a specification of three YANG modules and one submodule.  Together
+- content: This document contains a specification of three YANG modules and one submodule.  Together
     they form the core routing data model that serves as a framework for configuring
     and managing a routing subsystem.  It is expected that these modules will be augmented
     by additional YANG modules defining data models for control-plane protocols, route
     filters, and other functions.  The core routing data model provides common building
     blocks for such extensions -- routes, Routing Information Bases (RIBs), and control-plane
     protocols.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC8349
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - configuration
 - IPv6 router advertisements
 - NETCONF
 - RESTCONF
 editorialgroup:
-  name: netmod
+- name: netmod

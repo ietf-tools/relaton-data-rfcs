@@ -1,11 +1,11 @@
 ---
 id: RFC6154
 title:
-  type: main
+- type: main
   content: IMAP LIST Extension for Special-Use Mailboxes
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6154
+- content: https://www.rfc-editor.org/info/rfc6154
   type: src
 type: standard
 docid:
@@ -18,40 +18,50 @@ docid:
   type: DOI
 docnumber: RFC6154
 date:
-  type: published
+- type: published
   value: 2011-03
 contributor:
 - person:
     name:
       completename:
         content: B. Leiba
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Nicolson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Some IMAP message stores include special-use mailboxes, such as those used
+- content: Some IMAP message stores include special-use mailboxes, such as those used
     to hold draft messages or sent messages.  Many mail clients allow users to specify
     where draft or sent messages should be put, but configuring them requires that
     the user know which mailboxes the server has set aside for these purposes.  This
     extension adds new optional mailbox attributes that a server may include in IMAP
     LIST command responses to identify special-use mailboxes to the client, easing
     configuration. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IMAP
 - email
 editorialgroup:
-  name: morg
+- name: morg

@@ -1,11 +1,11 @@
 ---
 id: RFC8364
 title:
-  type: main
+- type: main
   content: PIM Flooding Mechanism (PFM) and Source Discovery (SD)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8364
+- content: https://www.rfc-editor.org/info/rfc8364
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8364
 date:
-  type: published
+- type: published
   value: 2018-03
 contributor:
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Venaas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Brig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Jonasson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Protocol Independent Multicast - Sparse Mode (PIM-SM) uses a Rendezvous
+- content: Protocol Independent Multicast - Sparse Mode (PIM-SM) uses a Rendezvous
     Point (RP) and shared trees to forward multicast packets from new sources.  Once
     Last-Hop Routers (LHRs) receive packets from a new source, they may join the Shortest
     Path Tree (SPT) for the source for optimal forwarding.  This document defines
@@ -61,10 +75,13 @@ abstract:
     registers, RPs, or shared trees.  Multicast source information is flooded throughout
     the multicast domain using a new generic PIM Flooding Mechanism (PFM).  This allows
     LHRs to learn about new sources without receiving initial data packets.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: Multicast
+fetched: '2022-01-06'
+keyword:
+- Multicast
 editorialgroup:
-  name: pim
+- name: pim

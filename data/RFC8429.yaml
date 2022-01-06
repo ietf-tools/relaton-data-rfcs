@@ -1,11 +1,11 @@
 ---
 id: RFC8429
 title:
-  type: main
+- type: main
   content: Deprecate Triple-DES (3DES) and RC4 in Kerberos
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8429
+- content: https://www.rfc-editor.org/info/rfc8429
   type: src
 type: standard
 docid:
@@ -18,36 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8429
 date:
-  type: published
+- type: published
   value: 2018-10
 contributor:
 - person:
     name:
       completename:
         content: B. Kaduk
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Short
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The triple-DES (3DES) and RC4 encryption types are steadily weakening in
+- content: The triple-DES (3DES) and RC4 encryption types are steadily weakening in
     cryptographic strength, and the deprecation process should begin for their use
     in Kerberos.  Accordingly, RFC 4757 has been moved to Historic status, as none
     of the encryption types it specifies should be used, and RFC 3961 has been updated
     to note the deprecation of the triple-DES encryption types.  RFC 4120 is likewise
     updated to remove the recommendation to implement triple-DES encryption and checksum
     types.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -60,9 +70,9 @@ relation:
     formattedref:
       content: RFC4120
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - GSS-API
 - GSS
 editorialgroup:
-  name: curdle
+- name: curdle

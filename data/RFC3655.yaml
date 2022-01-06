@@ -1,11 +1,11 @@
 ---
 id: RFC3655
 title:
-  type: main
+- type: main
   content: Redefinition of DNS Authenticated Data (AD) bit
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3655
+- content: https://www.rfc-editor.org/info/rfc3655
   type: src
 type: standard
 docid:
@@ -18,34 +18,44 @@ docid:
   type: DOI
 docnumber: RFC3655
 date:
-  type: published
+- type: published
   value: 2003-11
 contributor:
 - person:
     name:
       completename:
         content: B. Wellington
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: O. Gudmundsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2003-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document alters the specification defined in RFC 2535.  Based on implementation
+- content: This document alters the specification defined in RFC 2535.  Based on implementation
     experience, the Authenticated Data (AD) bit in the DNS header is not useful.  This
     document redefines the AD bit such that it is only set if all answers or records
     proving that no answers exist in the response has been cryptographically verified
     or otherwise meets the server's local security policy.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -68,10 +78,10 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNS-SECEXT
 - dns
 - authentication
 editorialgroup:
-  name: dnsext
+- name: dnsext

@@ -1,11 +1,11 @@
 ---
 id: RFC7210
 title:
-  type: main
+- type: main
   content: Database of Long-Lived Symmetric Cryptographic Keys
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7210
+- content: https://www.rfc-editor.org/info/rfc7210
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7210
 date:
-  type: published
+- type: published
   value: 2014-04
 contributor:
 - person:
     name:
       completename:
         content: R. Housley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Polk
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Hartman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Zhang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies the information contained in a conceptual database
+- content: This document specifies the information contained in a conceptual database
     of long-lived cryptographic keys used by many different routing protocols for
     message security.  The database is designed to support both manual and automated
     key management.  In addition to describing the schema for the database, this document
@@ -62,9 +76,11 @@ abstract:
     typical scenarios, the protocols do not directly use the long-lived key, but rather
     a key derivation function is used to derive a short-lived key from a long-lived
     key.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: karp
+- name: karp

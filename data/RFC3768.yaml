@@ -1,11 +1,11 @@
 ---
 id: RFC3768
 title:
-  type: main
+- type: main
   content: Virtual Router Redundancy Protocol (VRRP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3768
+- content: https://www.rfc-editor.org/info/rfc3768
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC3768
 date:
-  type: published
+- type: published
   value: 2004-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Hinden
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo defines the Virtual Router Redundancy Protocol (VRRP).  VRRP
+- content: This memo defines the Virtual Router Redundancy Protocol (VRRP).  VRRP
     specifies an election protocol that dynamically assigns responsibility for a virtual
     router to one of the VRRP routers on a LAN.  The VRRP router controlling the IP
     address(es) associated with a virtual router is called the Master, and forwards
@@ -42,16 +47,18 @@ abstract:
     first hop router by end-hosts.  The advantage gained from using VRRP is a higher
     availability default path without requiring configuration of dynamic routing or
     router discovery protocols on every end-host. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC5798
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - VRRP
 - vrrp
@@ -63,4 +70,4 @@ keyword:
 - internet
 - protocol
 editorialgroup:
-  name: vrrp
+- name: vrrp

@@ -1,11 +1,11 @@
 ---
 id: RFC3736
 title:
-  type: main
+- type: main
   content: Stateless Dynamic Host Configuration Protocol (DHCP) Service for IPv6
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3736
+- content: https://www.rfc-editor.org/info/rfc3736
   type: src
 type: standard
 docid:
@@ -18,36 +18,43 @@ docid:
   type: DOI
 docnumber: RFC3736
 date:
-  type: published
+- type: published
   value: 2004-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Droms
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Stateless Dynamic Host Configuration Protocol service for IPv6 (DHCPv6)
+- content: Stateless Dynamic Host Configuration Protocol service for IPv6 (DHCPv6)
     is used by nodes to obtain configuration information, such as the addresses of
     DNS recursive name servers, that does not require the maintenance of any dynamic
     state for individual clients.  A node that uses stateless DHCP must have obtained
     its IPv6 addresses through some other mechanism, typically stateless address autoconfiguration.  This
     document explains which parts of RFC 3315 must be implemented in each of the different
     kinds of DHCP agents so that agent can support stateless DHCP. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC8415
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: dhc
+- name: dhc

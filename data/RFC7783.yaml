@@ -1,12 +1,12 @@
 ---
 id: RFC7783
 title:
-  type: main
+- type: main
   content: Coordinated Multicast Trees (CMT) for Transparent Interconnection of Lots
     of Links (TRILL)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7783
+- content: https://www.rfc-editor.org/info/rfc7783
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC7783
 date:
-  type: published
+- type: published
   value: 2016-02
 contributor:
 - person:
     name:
       completename:
         content: T. Senevirathne
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Pathangi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Hudson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: TRILL (Transparent Interconnection of Lots of Links) facilitates loop-free
+- content: TRILL (Transparent Interconnection of Lots of Links) facilitates loop-free
     connectivity to non-TRILL networks via a choice of an Appointed Forwarder for
     a set of VLANs.  Appointed Forwarders provide VLAN-based load sharing with an
     active-standby model.  High-performance applications require an active-active
@@ -60,18 +71,20 @@ abstract:
     to solve related RPF issues.  CMT, which only requires a software upgrade, provides
     flexibility to RBridges in selecting a desired path of association to a given
     TRILL multi-destination distribution tree.  This document updates RFC 6325.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6325
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Affinity
 - RPF
 editorialgroup:
-  name: trill
+- name: trill

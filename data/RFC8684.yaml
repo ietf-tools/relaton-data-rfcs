@@ -1,11 +1,11 @@
 ---
 id: RFC8684
 title:
-  type: main
+- type: main
   content: TCP Extensions for Multipath Operation with Multiple Addresses
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8684
+- content: https://www.rfc-editor.org/info/rfc8684
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8684
 date:
-  type: published
+- type: published
   value: 2020-03
 contributor:
 - person:
     name:
       completename:
         content: A. Ford
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Raiciu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Handley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: O. Bonaventure
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Paasch
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: TCP/IP communication is currently restricted to a single path per connection,
+- content: TCP/IP communication is currently restricted to a single path per connection,
     yet multiple paths often exist between peers. The simultaneous use of these multiple
     paths for a TCP/IP session would improve resource usage within the network and
     thus improve user experience through higher throughput and improved resilience
@@ -72,10 +89,12 @@ abstract:
     paths. This document specifies v1 of Multipath TCP, obsoleting v0 as specified
     in RFC 6824, through clarifications and modifications primarily driven by deployment
     experience.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - tcp
 - extensions
@@ -83,4 +102,4 @@ keyword:
 - multihomed
 - subflow
 editorialgroup:
-  name: mptcp
+- name: mptcp

@@ -1,11 +1,11 @@
 ---
 id: RFC4409
 title:
-  type: main
+- type: main
   content: Message Submission for Mail
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4409
+- content: https://www.rfc-editor.org/info/rfc4409
   type: src
 type: standard
 docid:
@@ -18,48 +18,58 @@ docid:
   type: DOI
 docnumber: RFC4409
 date:
-  type: published
+- type: published
   value: 2006-04
 contributor:
 - person:
     name:
       completename:
         content: R. Gellens
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Klensin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo splits message submission from message relay, allowing each service
+- content: This memo splits message submission from message relay, allowing each service
     to operate according to its own rules (for security, policy, etc.), and specifies
     what actions are to be taken by a submission server. Message relay and final delivery
     are unaffected, and continue to use SMTP over port 25. When conforming to this
     document, message submission uses the protocol specified here, normally over port
     587. This separation of function offers a number of benefits, including the ability
     to apply specific security or policy requirements. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC6409
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - smtp
 - simle mail transfer protocol
 - ua
 - user agent
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

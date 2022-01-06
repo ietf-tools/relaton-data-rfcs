@@ -1,11 +1,11 @@
 ---
 id: RFC5384
 title:
-  type: main
+- type: main
   content: The Protocol Independent Multicast (PIM) Join Attribute Format
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5384
+- content: https://www.rfc-editor.org/info/rfc5384
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC5384
 date:
-  type: published
+- type: published
   value: 2008-11
 contributor:
 - person:
     name:
       completename:
         content: A. Boers
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: A "Protocol Independent Multicast - Sparse Mode" Join message sent by a
+- content: A "Protocol Independent Multicast - Sparse Mode" Join message sent by a
     given node identifies one or more multicast distribution trees that that node
     wishes to join.  Each tree is identified by the combination of a multicast group
     address and a source address (where the source address is possibly a "wild card").  Under
@@ -55,14 +66,16 @@ abstract:
     no way to do so until now.  This document describes a modification of the Join
     message that allows a node to associate attributes with a particular tree.  The
     attributes are encoded in Type-Length-Value format. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - pim-sm
 - multicast distribution tree
 - pim join attribute
 - attr_type
 editorialgroup:
-  name: pim
+- name: pim

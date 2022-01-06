@@ -1,11 +1,11 @@
 ---
 id: RFC1779
 title:
-  type: main
+- type: main
   content: A String Representation of Distinguished Names
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc1779
+- content: https://www.rfc-editor.org/info/rfc1779
   type: src
 type: standard
 docid:
@@ -18,29 +18,36 @@ docid:
   type: DOI
 docnumber: RFC1779
 date:
-  type: published
+- type: published
   value: 1995-03
 contributor:
-  person:
+- person:
     name:
       completename:
         content: S. Kille
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 1995-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The OSI Directory uses distinguished names as the primary keys to entries
+- content: The OSI Directory uses distinguished names as the primary keys to entries
     in the directory.  Distinguished Names are encoded in ASN.1.  When a distinguished
     name is communicated between to users not using a directory protocol (e.g., in
     a mail message), there is a need to have a user-oriented string representation
     of distinguished name.  This specification defines a string format for representing
     names, which is designed to give a clean representation of commonly used names,
     whilst being able to represent any distinguished name. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -53,11 +60,11 @@ relation:
     formattedref:
       content: RFC3494
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - STR-REP
 - X.500
 - directory names
 - representing names
 editorialgroup:
-  name: asid
+- name: asid

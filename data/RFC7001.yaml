@@ -1,11 +1,11 @@
 ---
 id: RFC7001
 title:
-  type: main
+- type: main
   content: Message Header Field for Indicating Message Authentication Status
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7001
+- content: https://www.rfc-editor.org/info/rfc7001
   type: src
 type: standard
 docid:
@@ -18,35 +18,42 @@ docid:
   type: DOI
 docnumber: RFC7001
 date:
-  type: published
+- type: published
   value: 2013-09
 contributor:
-  person:
+- person:
     name:
       completename:
         content: M. Kucherawy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies a message header field called Authentication- Results
+- content: This document specifies a message header field called Authentication- Results
     for use with electronic mail messages to indicate the results of message authentication
     efforts.  Any receiver-side software, such as mail filters or Mail User Agents
     (MUAs), can use this header field to relay that information in a convenient and
     meaningful way to users or to make sorting and filtering decisions.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC7601
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DKIM
 - DomainKeys
@@ -58,4 +65,4 @@ keyword:
 - Authentication
 - Reputation
 editorialgroup:
-  name: appsawg
+- name: appsawg

@@ -1,11 +1,11 @@
 ---
 id: RFC8167
 title:
-  type: main
+- type: main
   content: Bidirectional Remote Procedure Call on RPC-over-RDMA Transports
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8167
+- content: https://www.rfc-editor.org/info/rfc8167
   type: src
 type: standard
 docid:
@@ -18,31 +18,38 @@ docid:
   type: DOI
 docnumber: RFC8167
 date:
-  type: published
+- type: published
   value: 2017-06
 contributor:
-  person:
+- person:
     name:
       completename:
         content: C. Lever
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Minor versions of Network File System (NFS) version 4 newer than minor
+- content: Minor versions of Network File System (NFS) version 4 newer than minor
     version 0 work best when Remote Procedure Call (RPC) transports can send RPC transactions
     in both directions on the same connection.  This document describes how RPC transport
     endpoints capable of Remote Direct Memory Access (RDMA) convey RPCs in both directions
     on a single connection.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - NFS-over-RDMA
 - RPC-over-RDMA
 editorialgroup:
-  name: nfsv4
+- name: nfsv4

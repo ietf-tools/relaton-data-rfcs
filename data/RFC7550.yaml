@@ -1,11 +1,11 @@
 ---
 id: RFC7550
 title:
-  type: main
+- type: main
   content: Issues and Recommendations with Multiple Stateful DHCPv6 Options
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7550
+- content: https://www.rfc-editor.org/info/rfc7550
   type: src
 type: standard
 docid:
@@ -18,42 +18,55 @@ docid:
   type: DOI
 docnumber: RFC7550
 date:
-  type: published
+- type: published
   value: 2015-05
 contributor:
 - person:
     name:
       completename:
         content: O. Troan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Volz
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Siodelski
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification
+- content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification
     defined two stateful options, IA_NA and IA_TA, but did not anticipate the development
     of additional stateful options.  DHCPv6 Prefix Delegation added the IA_PD option,
     which is stateful.  Applications that use IA_NA and IA_PD together have revealed
     issues that need to be addressed.  This document updates RFCs 3315 and 3633 to
     address these issues.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -71,7 +84,7 @@ relation:
     formattedref:
       content: RFC3633
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - CPE
 - CER
@@ -90,4 +103,4 @@ keyword:
 - Decline
 - Provision
 editorialgroup:
-  name: dhc
+- name: dhc

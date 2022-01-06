@@ -1,12 +1,12 @@
 ---
 id: RFC3579
 title:
-  type: main
+- type: main
   content: RADIUS (Remote Authentication Dial In User Service) Support For Extensible
     Authentication Protocol (EAP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3579
+- content: https://www.rfc-editor.org/info/rfc3579
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC3579
 date:
-  type: published
+- type: published
   value: 2003-09
 contributor:
 - person:
     name:
       completename:
         content: B. Aboba
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Calhoun
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2003-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines Remote Authentication Dial In User Service (RADIUS)
+- content: This document defines Remote Authentication Dial In User Service (RADIUS)
     support for the Extensible Authentication Protocol (EAP), an authentication framework
     which supports multiple authentication mechanisms.  In the proposed scheme, the
     Network Access Server (NAS) forwards EAP packets to and from the RADIUS server,
@@ -49,16 +57,18 @@ abstract:
     specific code, which resides on the RADIUS server.  While EAP was originally developed
     for use with PPP, it is now also in use with IEEE 802.  This memo provides information
     for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC2869
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - RADIUS
 - encryption

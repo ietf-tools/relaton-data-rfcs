@@ -1,11 +1,11 @@
 ---
 id: RFC8880
 title:
-  type: main
+- type: main
   content: Special Use Domain Name 'ipv4only.arpa'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8880
+- content: https://www.rfc-editor.org/info/rfc8880
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8880
 date:
-  type: published
+- type: published
   value: 2020-08
 contributor:
 - person:
     name:
       completename:
         content: S. Cheshire
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Schinazi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: NAT64 (Network Address and Protocol Translation from IPv6 Clients to IPv4
+- content: NAT64 (Network Address and Protocol Translation from IPv6 Clients to IPv4
     Servers) allows client devices using IPv6 to communicate with servers that have
     only IPv4 connectivity. The specification for how a client discovers its local
     network's NAT64 prefix (RFC 7050) defines the special name 'ipv4only.arpa' for
@@ -51,19 +59,21 @@ abstract:
     document updates RFC 7050. It describes the special treatment required and formally
     declares the special properties of the name. It also adds similar declarations
     for the corresponding reverse mapping names.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC7050
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IPv6
 - NAT64
 - DNS64
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

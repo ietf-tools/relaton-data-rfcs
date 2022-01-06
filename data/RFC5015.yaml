@@ -1,11 +1,11 @@
 ---
 id: RFC5015
 title:
-  type: main
+- type: main
   content: Bidirectional Protocol Independent Multicast (BIDIR-PIM)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5015
+- content: https://www.rfc-editor.org/info/rfc5015
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC5015
 date:
-  type: published
+- type: published
   value: 2007-10
 contributor:
 - person:
     name:
       completename:
         content: M. Handley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Kouvelas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Speakman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Vicisano
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document discusses Bidirectional PIM (BIDIR-PIM), a variant of PIM
+- content: This document discusses Bidirectional PIM (BIDIR-PIM), a variant of PIM
     Sparse-Mode that builds bidirectional shared trees connecting multicast sources
     and receivers.  Bidirectional trees are built using a fail-safe Designated Forwarder
     (DF) election mechanism operating on each link of a multicast topology.  With
@@ -62,13 +76,15 @@ abstract:
     requiring source-specific state.  The DF election takes place at RP discovery
     time and provides the route to the RP, thus eliminating the requirement for data-driven
     protocol events. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - pim
 - sparse-mode
 - shared trees
 editorialgroup:
-  name: pim
+- name: pim

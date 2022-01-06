@@ -1,11 +1,11 @@
 ---
 id: RFC6243
 title:
-  type: main
+- type: main
   content: With-defaults Capability for NETCONF
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6243
+- content: https://www.rfc-editor.org/info/rfc6243
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC6243
 date:
-  type: published
+- type: published
   value: 2011-06
 contributor:
 - person:
     name:
       completename:
         content: A. Bierman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Lengyel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Network Configuration Protocol (NETCONF) defines ways to read and edit
+- content: The Network Configuration Protocol (NETCONF) defines ways to read and edit
     configuration data from a NETCONF server.  In some cases, part of this data may
     not be set by the NETCONF client, but rather a default value known to the server
     is used instead.  In many situations the NETCONF client has a priori knowledge
@@ -50,10 +58,13 @@ abstract:
     defines a capability-based extension to the NETCONF protocol that allows the NETCONF
     client to identify how defaults are processed by the server, and also defines
     new mechanisms for client control of server processing of default data. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: network configuration protocol
+fetched: '2022-01-06'
+keyword:
+- network configuration protocol
 editorialgroup:
-  name: netconf
+- name: netconf

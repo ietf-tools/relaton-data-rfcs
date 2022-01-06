@@ -1,11 +1,11 @@
 ---
 id: RFC8690
 title:
-  type: main
+- type: main
   content: Clarification of Segment ID Sub-TLV Length for RFC 8287
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8690
+- content: https://www.rfc-editor.org/info/rfc8690
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8690
 date:
-  type: published
+- type: published
   value: 2019-12
 contributor:
 - person:
     name:
       completename:
         content: N. Nainar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Pignataro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Iqbal
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Vainshtein
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 8287 defines the extensions to perform LSP Ping and Traceroute for
+- content: RFC 8287 defines the extensions to perform LSP Ping and Traceroute for
     Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with the
     MPLS data plane. RFC 8287 proposes three Target Forwarding Equivalence Class (FEC)
     Stack sub-TLVs. While RFC 8287 defines the format and procedure to handle those
@@ -61,16 +75,19 @@ abstract:
     should be computed to be included in the Length field of the sub-TLVs. This ambiguity
     has resulted in interoperability issues. This document updates RFC 8287 by clarifying
     the length of each of the Segment ID sub-TLVs defined in RFC 8287.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC8287
       format: text/plain
-fetched: '2022-01-05'
-keyword: mpls
+fetched: '2022-01-06'
+keyword:
+- mpls
 editorialgroup:
-  name: mpls
+- name: mpls

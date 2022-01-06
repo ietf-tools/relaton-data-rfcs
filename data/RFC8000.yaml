@@ -1,11 +1,11 @@
 ---
 id: RFC8000
 title:
-  type: main
+- type: main
   content: Requirements for NFSv4 Multi-Domain Namespace Deployment
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8000
+- content: https://www.rfc-editor.org/info/rfc8000
   type: src
 type: standard
 docid:
@@ -18,41 +18,51 @@ docid:
   type: DOI
 docnumber: RFC8000
 date:
-  type: published
+- type: published
   value: 2016-11
 contributor:
 - person:
     name:
       completename:
         content: A. Adamson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Williams
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document presents requirements for the deployment of the NFSv4 protocols
+- content: This document presents requirements for the deployment of the NFSv4 protocols
     for the construction of an NFSv4 file namespace in environments with multiple
     NFSv4 Domains.  To participate in an NFSv4 multi-domain file namespace, the server
     must offer a multi-domain-capable file system and support RPCSEC_GSS for user
     authentication.  In most instances, the server must also support identity-mapping
     services.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - multi-domain
 - multi-domain-capable file system
 - Federated File System
 - FedFS
 editorialgroup:
-  name: nfsv4
+- name: nfsv4

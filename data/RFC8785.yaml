@@ -1,11 +1,11 @@
 ---
 id: RFC8785
 title:
-  type: main
+- type: main
   content: JSON Canonicalization Scheme (JCS)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8785
+- content: https://www.rfc-editor.org/info/rfc8785
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8785
 date:
-  type: published
+- type: published
   value: 2020-06
 contributor:
 - person:
     name:
       completename:
         content: A. Rundgren
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Jordan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Erdtman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Cryptographic operations like hashing and signing need the data to be expressed
+- content: Cryptographic operations like hashing and signing need the data to be expressed
     in an invariant format so that the operations are reliably repeatable. One way
     to address this is to create a canonical representation of the data. Canonicalization
     also permits data to be exchanged in its original form on the "wire" while cryptographic
@@ -56,10 +67,12 @@ abstract:
     canonical representation of JSON data by building on the strict serialization
     methods for JSON primitives defined by ECMAScript, constraining JSON data to the
     Internet JSON (I-JSON) subset, and by using deterministic property sorting.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - JSON
 - ECMAScript

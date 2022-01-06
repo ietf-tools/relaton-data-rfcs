@@ -1,11 +1,11 @@
 ---
 id: RFC6806
 title:
-  type: main
+- type: main
   content: Kerberos Principal Name Canonicalization and Cross-Realm Referrals
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6806
+- content: https://www.rfc-editor.org/info/rfc6806
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6806
 date:
-  type: published
+- type: published
   value: 2012-11
 contributor:
 - person:
     name:
       completename:
         content: S. Hartman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Raeburn
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Zhu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo documents a method for a Kerberos Key Distribution Center (KDC)
+- content: This memo documents a method for a Kerberos Key Distribution Center (KDC)
     to respond to client requests for Kerberos tickets when the client does not have
     detailed configuration information on the realms of users or services.  The KDC
     will handle requests for principals in other realms by returning either a referral
@@ -55,19 +66,21 @@ abstract:
     target principal and then receive the ticket.  This memo also provides a mechanism
     for verifying that a request has not been tampered with in transit.  This memo
     updates RFC 4120. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4120
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - authentication
 - security protocols
 - identity
 editorialgroup:
-  name: krb-wg
+- name: krb-wg

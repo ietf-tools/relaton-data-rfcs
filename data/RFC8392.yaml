@@ -1,11 +1,11 @@
 ---
 id: RFC8392
 title:
-  type: main
+- type: main
   content: CBOR Web Token (CWT)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8392
+- content: https://www.rfc-editor.org/info/rfc8392
   type: src
 type: standard
 docid:
@@ -18,52 +18,68 @@ docid:
   type: DOI
 docnumber: RFC8392
 date:
-  type: published
+- type: published
   value: 2018-05
 contributor:
 - person:
     name:
       completename:
         content: M. Jones
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Wahlstroem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Erdtman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Tschofenig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: CBOR Web Token (CWT) is a compact means of representing claims to be transferred
+- content: CBOR Web Token (CWT) is a compact means of representing claims to be transferred
     between two parties.  The claims in a CWT are encoded in the Concise Binary Object
     Representation (CBOR), and CBOR Object Signing and Encryption (COSE) is used for
     added application-layer security protection.  A claim is a piece of information
     asserted about a subject and is represented as a name/value pair consisting of
     a claim name and a claim value.  CWT is derived from JSON Web Token (JWT) but
     uses CBOR rather than JSON.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - JSON Web Token
 - JWT
@@ -75,4 +91,4 @@ keyword:
 - OAuth
 - ACE
 editorialgroup:
-  name: ace
+- name: ace

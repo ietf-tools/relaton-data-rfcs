@@ -1,11 +1,11 @@
 ---
 id: RFC8220
 title:
-  type: main
+- type: main
   content: Protocol Independent Multicast (PIM) over Virtual Private LAN Service (VPLS)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8220
+- content: https://www.rfc-editor.org/info/rfc8220
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8220
 date:
-  type: published
+- type: published
   value: 2017-09
 contributor:
 - person:
     name:
       completename:
         content: O. Dornon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Kotalwar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: V. Hemige
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Qiu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Z. Zhang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes the procedures and recommendations for Virtual
+- content: This document describes the procedures and recommendations for Virtual
     Private LAN Service (VPLS) Provider Edges (PEs) to facilitate replication of multicast
     traffic to only certain ports (behind which there are interested Protocol Independent
     Multicast (PIM) routers and/or Internet Group Management Protocol (IGMP) hosts)
@@ -74,10 +91,13 @@ abstract:
     PIM relay, which can be viewed as lightweight proxying, where all downstream Join/Prune
     messages are simply forwarded out of certain ports and are not flooded, thereby
     avoiding the triggering of PIM Join suppression on CE devices.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: multicast
+fetched: '2022-01-06'
+keyword:
+- multicast
 editorialgroup:
-  name: pals
+- name: pals

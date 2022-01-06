@@ -1,11 +1,11 @@
 ---
 id: RFC3230
 title:
-  type: main
+- type: main
   content: Instance Digests in HTTP
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3230
+- content: https://www.rfc-editor.org/info/rfc3230
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC3230
 date:
-  type: published
+- type: published
   value: 2002-01
 contributor:
 - person:
     name:
       completename:
         content: J. Mogul
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Van Hoff
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2002-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: HTTP/1.1 defines a Content-MD5 header that allows a server to include a
+- content: HTTP/1.1 defines a Content-MD5 header that allows a server to include a
     digest of the response body.  However, this is specifically defined to cover the
     body of the actual message, not the contents of the full file (which might be
     quite different, if the response is a Content-Range, or uses a delta encoding).  Also,
@@ -47,10 +55,12 @@ abstract:
     such as SHA-1 (Secure Hash Standard), may be more appropriate in some circumstances.  Finally,
     HTTP/1.1 provides no explicit mechanism by which a client may request a digest.  This
     document proposes HTTP extensions that solve these problems. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - hyper
 - text

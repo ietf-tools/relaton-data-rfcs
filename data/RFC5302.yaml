@@ -1,11 +1,11 @@
 ---
 id: RFC5302
 title:
-  type: main
+- type: main
   content: Domain-Wide Prefix Distribution with Two-Level IS-IS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5302
+- content: https://www.rfc-editor.org/info/rfc5302
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC5302
 date:
-  type: published
+- type: published
   value: 2008-10
 contributor:
 - person:
     name:
       completename:
         content: T. Li
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Smit
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Przygienda
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes extensions to the Intermediate System to Intermediate
+- content: This document describes extensions to the Intermediate System to Intermediate
     System (IS-IS) protocol to support optimal routing within a two-level domain.
     The IS-IS protocol is specified in ISO 10589, with extensions for supporting IPv4
     (Internet Protocol) specified in RFC 1195. This document replaces RFC 2966. This
@@ -56,16 +67,18 @@ abstract:
     requires certain restrictions to ensure that persistent forwarding loops do not
     form. The goal of this domain-wide prefix distribution is to increase the granularity
     of the routing information within the domain. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC1195
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - intermediate system to intermediate system
 - routers
@@ -73,4 +86,4 @@ keyword:
 - IP
 - internet protocol
 editorialgroup:
-  name: isis
+- name: isis

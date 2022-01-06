@@ -1,11 +1,11 @@
 ---
 id: RFC5641
 title:
-  type: main
+- type: main
   content: Layer 2 Tunneling Protocol Version 3 (L2TPv3) Extended Circuit Status Values
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5641
+- content: https://www.rfc-editor.org/info/rfc5641
   type: src
 type: standard
 docid:
@@ -18,35 +18,45 @@ docid:
   type: DOI
 docnumber: RFC5641
 date:
-  type: published
+- type: published
   value: 2009-08
 contributor:
 - person:
     name:
       completename:
         content: N. McGill
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Pignataro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2009-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines additional Layer 2 Tunneling Protocol Version 3 (L2TPv3)
+- content: This document defines additional Layer 2 Tunneling Protocol Version 3 (L2TPv3)
     bit values to be used within the "Circuit Status" Attribute Value Pair (AVP) to
     communicate finer-grained error states for Attachment Circuits (ACs) and pseudowires
     (PWs).  It also generalizes the Active bit and deprecates the use of the New bit
     in the Circuit Status AVP, updating RFC 3931, RFC 4349, RFC 4454, RFC 4591, and
     RFC 4719. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -74,7 +84,7 @@ relation:
     formattedref:
       content: RFC4719
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - attachment circuits
 - acs
@@ -84,4 +94,4 @@ keyword:
 - new bit
 - circuit status avp
 editorialgroup:
-  name: l2tpext
+- name: l2tpext

@@ -1,11 +1,11 @@
 ---
 id: RFC7103
 title:
-  type: main
+- type: main
   content: Advice for Safe Handling of Malformed Messages
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7103
+- content: https://www.rfc-editor.org/info/rfc7103
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC7103
 date:
-  type: published
+- type: published
   value: 2014-01
 contributor:
 - person:
     name:
       completename:
         content: M. Kucherawy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Shapiro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Freed
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Although Internet message formats have been precisely defined since the
+- content: Although Internet message formats have been precisely defined since the
     1970s, authoring and handling software often shows only mild conformance to the
     specifications.  The malformed messages that result are non-standard.  Nonetheless,
     decades of experience have shown that using some tolerance in the handling of
@@ -54,12 +65,14 @@ abstract:
     rejecting the messages outright as nonconformant.  This document includes a collection
     of the best advice available regarding a variety of common malformed mail situations;
     it is to be used as implementation guidance.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MTA
 - SMTP
 editorialgroup:
-  name: appsawg
+- name: appsawg

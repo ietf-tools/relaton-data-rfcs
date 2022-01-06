@@ -1,11 +1,11 @@
 ---
 id: RFC930
 title:
-  type: main
+- type: main
   content: Telnet terminal type option
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc930
+- content: https://www.rfc-editor.org/info/rfc930
   type: src
 type: standard
 docid:
@@ -18,39 +18,49 @@ docid:
   type: DOI
 docnumber: RFC0930
 date:
-  type: published
+- type: published
   value: 1985-01
 contributor:
 - person:
     name:
       completename:
         content: M. Solomon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Wimmers
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 1985-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This RFC specifies a standard for the ARPA Internet community.  Hosts on
+- content: This RFC specifies a standard for the ARPA Internet community.  Hosts on
     the ARPA Internet that exchange terminal type information within the Telnet protocol
     are expected to adopt and implement this standard.  This standard supersedes RFC-884.  The
     only change is to specify that the TERMINAL-TYPE IS sub-negotiation should be
     sent only in response to the TERMINAL-TYPE SEND sub-negotiation.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC1091
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'

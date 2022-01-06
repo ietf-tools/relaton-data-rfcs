@@ -1,11 +1,11 @@
 ---
 id: RFC3883
 title:
-  type: main
+- type: main
   content: Detecting Inactive Neighbors over OSPF Demand Circuits (DC)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3883
+- content: https://www.rfc-editor.org/info/rfc3883
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC3883
 date:
-  type: published
+- type: published
   value: 2004-10
 contributor:
 - person:
     name:
       completename:
         content: S. Rao
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Zinin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Roy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF
+- content: OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF
     behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the amount
     of overhead traffic.  A part of the OSPF demand circuit extensions is the Hello
     suppression mechanism.  This technique allows a demand circuit to go down when
@@ -54,18 +65,20 @@ abstract:
     a problem, where it becomes impossible to detect an OSPF-inactive neighbor over
     such a link.  This memo introduces a new mechanism called "neighbor probing" to
     address the above problem. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC1793
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - OSPF-DC
 - Open Shortest Path First
 editorialgroup:
-  name: ospf
+- name: ospf

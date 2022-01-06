@@ -1,11 +1,11 @@
 ---
 id: RFC6148
 title:
-  type: main
+- type: main
   content: DHCPv4 Lease Query by Relay Agent Remote ID
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6148
+- content: https://www.rfc-editor.org/info/rfc6148
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6148
 date:
-  type: published
+- type: published
   value: 2011-02
 contributor:
 - person:
     name:
       completename:
         content: P. Kurapati
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Desetti
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Joshi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Some relay agents extract lease information from the DHCP messages exchanged
+- content: Some relay agents extract lease information from the DHCP messages exchanged
     between the client and DHCP server.  This lease information is used by relay agents
     for various purposes like antispoofing and prevention of flooding.  RFC 4388 defines
     a mechanism for relay agents to retrieve the lease information from the DHCP server
@@ -55,16 +66,19 @@ abstract:
     receiving data to and from the clients.  In certain scenarios, this model is not
     scalable.  This document first looks at issues in the existing mechanism and then
     proposes a new query type, query by Remote ID, to address these issues. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4388
       format: text/plain
-fetched: '2022-01-05'
-keyword: dynamic host configuration protocol
+fetched: '2022-01-06'
+keyword:
+- dynamic host configuration protocol
 editorialgroup:
-  name: dhc
+- name: dhc

@@ -1,11 +1,11 @@
 ---
 id: RFC2109
 title:
-  type: main
+- type: main
   content: HTTP State Management Mechanism
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc2109
+- content: https://www.rfc-editor.org/info/rfc2109
   type: src
 type: standard
 docid:
@@ -18,42 +18,52 @@ docid:
   type: DOI
 docnumber: RFC2109
 date:
-  type: published
+- type: published
   value: 1997-02
 contributor:
 - person:
     name:
       completename:
         content: D. Kristol
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Montulli
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 1997-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies a way to create a stateful session with HTTP requests
+- content: This document specifies a way to create a stateful session with HTTP requests
     and responses.  It describes two new headers, Cookie and Set- Cookie, which carry
     state information between participating origin servers and user agents.  The method
     described here differs from Netscape's Cookie proposal, but it can interoperate
     with HTTP/1.0 user agents that use Netscape's method. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC2965
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - HTTP-STATE
 - Hypertext
@@ -61,4 +71,4 @@ keyword:
 - Protocol
 - cookie
 editorialgroup:
-  name: http
+- name: http

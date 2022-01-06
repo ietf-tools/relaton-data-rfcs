@@ -1,11 +1,11 @@
 ---
 id: RFC8877
 title:
-  type: main
+- type: main
   content: Guidelines for Defining Packet Timestamps
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8877
+- content: https://www.rfc-editor.org/info/rfc8877
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8877
 date:
-  type: published
+- type: published
   value: 2020-09
 contributor:
 - person:
     name:
       completename:
         content: T. Mizrahi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Fabini
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Morton
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Various network protocols make use of binary-encoded timestamps that are
+- content: Various network protocols make use of binary-encoded timestamps that are
     incorporated in the protocol packet format, referred to as "packet timestamps"
     for short.  This document specifies guidelines for defining packet timestamp formats
     in networking protocols at various layers.  It also presents three recommended
@@ -56,10 +67,13 @@ abstract:
     none of the recommended formats fits the protocol requirements, the new protocol
     specification should specify the format of the packet timestamp according to the
     guidelines in this document.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: Timestamps
+fetched: '2022-01-06'
+keyword:
+- Timestamps
 editorialgroup:
-  name: ntp
+- name: ntp

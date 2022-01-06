@@ -1,12 +1,12 @@
 ---
 id: RFC3771
 title:
-  type: main
+- type: main
   content: The Lightweight Directory Access Protocol (LDAP) Intermediate Response
     Message
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3771
+- content: https://www.rfc-editor.org/info/rfc3771
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC3771
 date:
-  type: published
+- type: published
   value: 2004-04
 contributor:
 - person:
     name:
       completename:
         content: R. Harrison
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Zeilenga
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines and describes the IntermediateResponse message, a
+- content: This document defines and describes the IntermediateResponse message, a
     general mechanism for defining single-request/multiple-response operations in
     Lightweight Directory Access Protocol (LDAP).  The IntermediateResponse message
     is defined in such a way that the protocol behavior of existing LDAP operations
@@ -48,8 +56,10 @@ abstract:
     ExtendedRequest and ExtendedResponse to define new single-request/multiple-response
     operations or in conjunction with a control when extending existing LDAP operations
     in a way that requires them to return intermediate response information. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -67,10 +77,10 @@ relation:
     formattedref:
       content: RFC2251
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - LDAPv3
 - LDAv3
 - x.500
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

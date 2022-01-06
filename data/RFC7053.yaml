@@ -1,11 +1,11 @@
 ---
 id: RFC7053
 title:
-  type: main
+- type: main
   content: SACK-IMMEDIATELY Extension for the Stream Control Transmission Protocol
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7053
+- content: https://www.rfc-editor.org/info/rfc7053
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC7053
 date:
-  type: published
+- type: published
   value: 2013-11
 contributor:
 - person:
     name:
       completename:
         content: M. Tuexen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Ruengeler
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Stewart
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document updates RFC 4960 by defining a method for the sender of a
+- content: This document updates RFC 4960 by defining a method for the sender of a
     DATA chunk to indicate that the corresponding Selective Acknowledgment (SACK)
     chunk should be sent back immediately and should not be delayed.  It is done by
     specifying a bit in the DATA chunk header, called the (I)mmediate bit, which can
@@ -54,15 +65,17 @@ abstract:
     or the application using an SCTP stack.  Since unknown flags in chunk headers
     are ignored by SCTP implementations, this extension does not introduce any interoperability
     problems.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4960
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

@@ -1,11 +1,11 @@
 ---
 id: RFC7858
 title:
-  type: main
+- type: main
   content: Specification for DNS over Transport Layer Security (TLS)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7858
+- content: https://www.rfc-editor.org/info/rfc7858
   type: src
 type: standard
 docid:
@@ -18,56 +18,76 @@ docid:
   type: DOI
 docnumber: RFC7858
 date:
-  type: published
+- type: published
   value: 2016-05
 contributor:
 - person:
     name:
       completename:
         content: Z. Hu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Zhu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Heidemann
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Mankin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Wessels
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Hoffman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes the use of Transport Layer Security (TLS) to provide
+- content: This document describes the use of Transport Layer Security (TLS) to provide
     privacy for DNS. Encryption provided by TLS eliminates opportunities for eavesdropping
     and on-path tampering with DNS queries in the network, such as discussed in RFC
     7626. In addition, this document specifies two usage profiles for DNS over TLS
@@ -75,12 +95,14 @@ abstract:
     TCP and TLS with DNS. This document focuses on securing stub-to-recursive traffic,
     as per the charter of the DPRIVE Working Group. It does not prevent future applications
     of the protocol to recursive-to-authoritative traffic.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNS encryption
 - DNS privacy
 editorialgroup:
-  name: dprive
+- name: dprive

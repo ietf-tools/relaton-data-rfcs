@@ -1,11 +1,11 @@
 ---
 id: RFC4724
 title:
-  type: main
+- type: main
   content: Graceful Restart Mechanism for BGP
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4724
+- content: https://www.rfc-editor.org/info/rfc4724
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC4724
 date:
-  type: published
+- type: published
   value: 2007-01
 contributor:
 - person:
     name:
       completename:
         content: S. Sangli
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Chen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Fernando
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Scudder
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Y. Rekhter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a mechanism for BGP that would help minimize the
+- content: This document describes a mechanism for BGP that would help minimize the
     negative effects on routing caused by BGP restart. An End-of-RIB marker is specified
     and can be used to convey routing convergence information. A new BGP capability,
     termed "Graceful Restart Capability", is defined that would allow a BGP speaker
@@ -70,13 +87,15 @@ abstract:
     are applicable to all routers, both those with the ability to preserve forwarding
     state during BGP restart and those without (although the latter need to implement
     only a subset of the mechanisms described in this document). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - border gateway protocol
 - end-of-rib
 - bgp restart
 editorialgroup:
-  name: idr
+- name: idr

@@ -1,12 +1,12 @@
 ---
 id: RFC3757
 title:
-  type: main
+- type: main
   content: Domain Name System KEY (DNSKEY) Resource Record (RR) Secure Entry Point
     (SEP) Flag
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3757
+- content: https://www.rfc-editor.org/info/rfc3757
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC3757
 date:
-  type: published
+- type: published
   value: 2004-04
 contributor:
 - person:
     name:
       completename:
         content: O. Kolkman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Schlyter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Lewis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: With the Delegation Signer (DS) resource record (RR), the concept of a
+- content: With the Delegation Signer (DS) resource record (RR), the concept of a
     public key acting as a secure entry point (SEP) has been introduced.  During exchanges
     of public keys with the parent there is a need to differentiate SEP keys from
     other public keys in the Domain Name System KEY (DNSKEY) resource record set.  A
@@ -56,8 +67,10 @@ abstract:
     generate DS resource records, or to indicate what DNSKEYs are intended for static
     configuration.  The flag bit is not to be used in the DNS verification protocol.  This
     document updates RFC 2535 and RFC 3755. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -85,7 +98,8 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-05'
-keyword: dnssec
+fetched: '2022-01-06'
+keyword:
+- dnssec
 editorialgroup:
-  name: dnsext
+- name: dnsext

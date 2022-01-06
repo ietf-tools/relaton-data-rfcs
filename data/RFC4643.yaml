@@ -1,11 +1,11 @@
 ---
 id: RFC4643
 title:
-  type: main
+- type: main
   content: Network News Transfer Protocol (NNTP) Extension for Authentication
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4643
+- content: https://www.rfc-editor.org/info/rfc4643
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC4643
 date:
-  type: published
+- type: published
   value: 2006-10
 contributor:
 - person:
     name:
       completename:
         content: J. Vinocur
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Murchison
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines an extension to the Network News Transfer Protocol
+- content: This document defines an extension to the Network News Transfer Protocol
     (NNTP) that allows a client to indicate an authentication mechanism to the server,
     to perform an authentication protocol exchange, and optionally to negotiate a
     security layer for subsequent protocol interactions during the remainder of an
@@ -47,16 +55,18 @@ abstract:
     method specified in RFC 2980 and deprecates the AUTHINFO SIMPLE and AUTHINFO GENERIC
     authentication methods. Additionally, this document defines a profile of the Simple
     Authentication and Security Layer (SASL) for NNTP. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC2980
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - authinfo user/pass
 - authinfo simple
@@ -64,4 +74,4 @@ keyword:
 - sasl
 - simple authentication and security layer
 editorialgroup:
-  name: nntpext
+- name: nntpext

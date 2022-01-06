@@ -1,11 +1,11 @@
 ---
 id: RFC7504
 title:
-  type: main
+- type: main
   content: SMTP 521 and 556 Reply Codes
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7504
+- content: https://www.rfc-editor.org/info/rfc7504
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC7504
 date:
-  type: published
+- type: published
   value: 2015-06
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Klensin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo defines two Simple Mail Transfer Protocol (SMTP) reply codes,
+- content: This memo defines two Simple Mail Transfer Protocol (SMTP) reply codes,
     521 and 556.  The 521 code was originally described in an Experimental RFC in
     1995 and is in wide use, but has not previously been formally incorporated into
     SMTP.  The 556 code was created to support the new tests and actions specified
@@ -40,8 +45,10 @@ abstract:
     accept incoming mail at all.  This specification is not applicable when the host
     sometimes accepts mail but may reject particular messages, or even all messages,
     under specific circumstances.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -54,11 +61,11 @@ relation:
     formattedref:
       content: RFC5321
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Reply code
 - Email
 - Server
 - No Mail
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

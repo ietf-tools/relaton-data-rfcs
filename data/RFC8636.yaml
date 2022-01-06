@@ -1,12 +1,12 @@
 ---
 id: RFC8636
 title:
-  type: main
+- type: main
   content: Public Key Cryptography for Initial Authentication in Kerberos (PKINIT)
     Algorithm Agility
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8636
+- content: https://www.rfc-editor.org/info/rfc8636
   type: src
 type: standard
 docid:
@@ -19,57 +19,73 @@ docid:
   type: DOI
 docnumber: RFC8636
 date:
-  type: published
+- type: published
   value: 2019-07
 contributor:
 - person:
     name:
       completename:
         content: L. Hornquist Astrand
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Zhu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Cullen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Hudson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document updates the Public Key Cryptography for Initial Authentication
+- content: This document updates the Public Key Cryptography for Initial Authentication
     in Kerberos (PKINIT) standard (RFC 4556) to remove protocol structures tied to
     specific cryptographic algorithms. The PKINIT key derivation function is made
     negotiable, and the digest algorithms for signing the pre-authentication data
     and the client's X.509 certificates are made discoverable. These changes provide
     preemptive protection against vulnerabilities discovered in the future in any
     specific cryptographic algorithm and allow incremental deployment of newer algorithms.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4556
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: kitten
+- name: kitten

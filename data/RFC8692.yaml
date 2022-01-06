@@ -1,12 +1,12 @@
 ---
 id: RFC8692
 title:
-  type: main
+- type: main
   content: 'Internet X.509 Public Key Infrastructure: Additional Algorithm Identifiers
     for RSASSA-PSS and ECDSA Using SHAKEs'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8692
+- content: https://www.rfc-editor.org/info/rfc8692
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC8692
 date:
-  type: published
+- type: published
   value: 2019-12
 contributor:
 - person:
     name:
       completename:
         content: P. Kampanakis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Q. Dang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Digital signatures are used to sign messages, X.509 certificates, and Certificate
+- content: Digital signatures are used to sign messages, X.509 certificates, and Certificate
     Revocation Lists (CRLs).  This document updates the "Algorithms and Identifiers
     for the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation
     List (CRL) Profile" (RFC 3279) and describes the conventions for using the SHAKE
@@ -48,19 +56,21 @@ abstract:
     hash functions with the RSA Probabilistic signature and Elliptic Curve Digital
     Signature Algorithm (ECDSA) signature algorithms.  The conventions for the associated
     subject public keys are also described.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC3279
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SHAKE in X.509
 - SHAKEs in PKIX
 - certificates with SHAKE hashes
 editorialgroup:
-  name: lamps
+- name: lamps

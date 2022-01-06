@@ -1,11 +1,11 @@
 ---
 id: RFC8538
 title:
-  type: main
+- type: main
   content: Notification Message Support for BGP Graceful Restart
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8538
+- content: https://www.rfc-editor.org/info/rfc8538
   type: src
 type: standard
 docid:
@@ -18,60 +18,76 @@ docid:
   type: DOI
 docnumber: RFC8538
 date:
-  type: published
+- type: published
   value: 2019-03
 contributor:
 - person:
     name:
       completename:
         content: K. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Fernando
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Scudder
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Haas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The BGP Graceful Restart mechanism defined in RFC 4724 limits the usage
+- content: The BGP Graceful Restart mechanism defined in RFC 4724 limits the usage
     of BGP Graceful Restart to BGP messages other than BGP NOTIFICATION messages.  This
     document updates RFC 4724 by defining an extension that permits the Graceful Restart
     procedures to be performed when the BGP speaker receives a BGP NOTIFICATION message
     or the Hold Time expires.  This document also defines a new subcode for BGP Cease
     NOTIFICATION messages; this new subcode requests a full session restart instead
     of a Graceful Restart.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4724
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IDR
 - BGP
 editorialgroup:
-  name: idr
+- name: idr

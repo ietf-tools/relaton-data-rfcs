@@ -1,11 +1,11 @@
 ---
 id: RFC8572
 title:
-  type: main
+- type: main
   content: Secure Zero Touch Provisioning (SZTP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8572
+- content: https://www.rfc-editor.org/info/rfc8572
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8572
 date:
-  type: published
+- type: published
   value: 2019-04
 contributor:
 - person:
     name:
       completename:
         content: K. Watsen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Farrer
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Abrahamsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document presents a technique to securely provision a networking device
+- content: This document presents a technique to securely provision a networking device
     when it is booting in a factory-default state.  Variations in the solution enable
     it to be used on both public and private networks.  The provisioning steps are
     able to update the boot image, commit an initial configuration, and execute arbitrary
@@ -54,14 +65,16 @@ abstract:
     establish secure connections with other systems.  For instance, a device may establish
     NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific
     network management systems.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - zerotouch
 - bootstrap
 - sztp
 - ztp
 editorialgroup:
-  name: netconf
+- name: netconf

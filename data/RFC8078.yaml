@@ -1,11 +1,11 @@
 ---
 id: RFC8078
 title:
-  type: main
+- type: main
   content: Managing DS Records from the Parent via CDS/CDNSKEY
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8078
+- content: https://www.rfc-editor.org/info/rfc8078
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8078
 date:
-  type: published
+- type: published
   value: 2017-03
 contributor:
 - person:
     name:
       completename:
         content: O. Gudmundsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Wouters
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 7344 specifies how DNS trust can be maintained across key rollovers
+- content: RFC 7344 specifies how DNS trust can be maintained across key rollovers
     in-band between parent and child. This document elevates RFC 7344 from Informational
     to Standards Track. It also adds a method for initial trust setup and removal
     of a secure entry point. Changing a domain's DNSSEC status can be a complicated
@@ -56,18 +64,20 @@ abstract:
     This leaves the domain temporarily unsigned and vulnerable to DNS spoofing, but
     that is preferred over the alternative of validation failures due to a mismatched
     DS and DNSKEY record.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC7344
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - dnssec
 - trust maintenance
 editorialgroup:
-  name: dnsop
+- name: dnsop

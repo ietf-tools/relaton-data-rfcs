@@ -1,12 +1,12 @@
 ---
 id: RFC7829
 title:
-  type: main
+- type: main
   content: 'SCTP-PF: A Quick Failover Algorithm for the Stream Control Transmission
     Protocol'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7829
+- content: https://www.rfc-editor.org/info/rfc7829
   type: src
 type: standard
 docid:
@@ -19,49 +19,66 @@ docid:
   type: DOI
 docnumber: RFC7829
 date:
-  type: published
+- type: published
   value: 2016-04
 contributor:
 - person:
     name:
       completename:
         content: Y. Nishida
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Natarajan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Caro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Amer
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Nielsen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Stream Control Transmission Protocol (SCTP) supports multihoming. However,
+- content: The Stream Control Transmission Protocol (SCTP) supports multihoming. However,
     when the failover operation specified in RFC 4960 is followed, there can be significant
     delay and performance degradation in the data transfer path failover. This document
     specifies a quick failover algorithm and introduces the SCTP Potentially Failed
@@ -74,10 +91,12 @@ abstract:
     implementation and an SCTP-PF implementation. The procedures defined in the document
     require only minimal modifications to the specification in RFC 4960. The procedures
     are sender-side only and do not impact the SCTP receiver.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SCTP
 - Failover
@@ -85,4 +104,4 @@ keyword:
 - multihoming
 - Potentially Failed
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

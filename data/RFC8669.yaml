@@ -1,11 +1,11 @@
 ---
 id: RFC8669
 title:
-  type: main
+- type: main
   content: Segment Routing Prefix Segment Identifier Extensions for BGP
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8669
+- content: https://www.rfc-editor.org/info/rfc8669
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8669
 date:
-  type: published
+- type: published
   value: 2019-12
 contributor:
 - person:
     name:
       completename:
         content: S. Previdi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Filsfils
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Lindem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Sreekantiah
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Gredler
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Segment Routing (SR) leverages the source-routing paradigm. A node steers
+- content: Segment Routing (SR) leverages the source-routing paradigm. A node steers
     a packet through an ordered list of instructions called "segments". A segment
     can represent any instruction, topological or service based. The ingress node
     prepends an SR header to a packet containing a set of segment identifiers (SIDs).
@@ -69,10 +86,12 @@ abstract:
     as a single administrative domain for global SID assignment. This document defines
     an optional, transitive BGP attribute for announcing information about BGP Prefix
     Segment Identifiers (BGP Prefix-SIDs) and the specification for SR-MPLS SIDs.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SR
 - MPLS
@@ -81,4 +100,4 @@ keyword:
 - Label-Index
 - SRGB
 editorialgroup:
-  name: idr
+- name: idr

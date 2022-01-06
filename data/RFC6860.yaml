@@ -1,11 +1,11 @@
 ---
 id: RFC6860
 title:
-  type: main
+- type: main
   content: Hiding Transit-Only Networks in OSPF
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6860
+- content: https://www.rfc-editor.org/info/rfc6860
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6860
 date:
-  type: published
+- type: published
   value: 2013-01
 contributor:
 - person:
     name:
       completename:
         content: Y. Yang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Retana
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Roy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: A transit-only network is defined as a network connecting routers only.
+- content: A transit-only network is defined as a network connecting routers only.
     In OSPF, transit-only networks are usually configured with routable IP addresses,
     which are advertised in Link State Advertisements (LSAs) but are not needed for
     data traffic. In addition, remote attacks can be launched against routers by sending
@@ -56,8 +67,10 @@ abstract:
     prefixes are not installed in the routing tables on OSPF routers. In some cases,
     IP addresses may still be visible when using OSPFv2. This document updates RFCs
     2328 and 5340. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -70,6 +83,6 @@ relation:
     formattedref:
       content: RFC5340
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: ospf
+- name: ospf

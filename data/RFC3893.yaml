@@ -1,11 +1,11 @@
 ---
 id: RFC3893
 title:
-  type: main
+- type: main
   content: Session Initiation Protocol (SIP) Authenticated Identity Body (AIB) Format
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3893
+- content: https://www.rfc-editor.org/info/rfc3893
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC3893
 date:
-  type: published
+- type: published
   value: 2004-09
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Peterson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 3261 introduces the concept of adding an S/MIME body to a Session Initiation
+- content: RFC 3261 introduces the concept of adding an S/MIME body to a Session Initiation
     Protocol (SIP) request or response in order to provide reference integrity over
     its headers.  This document provides a more specific mechanism to derive integrity
     and authentication properties from an 'authenticated identity body', a digitally-signed
@@ -40,10 +45,12 @@ abstract:
     Authenticated Identity Bodies, or AIBs) is given in this document.  Some considerations
     for the processing of AIBs by recipients of SIP messages with such bodies are
     also given. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - authenticated identity body
 - digitally-signed SIP message
@@ -51,4 +58,4 @@ keyword:
 - Authenticated Identity Bodies
 - AIB
 editorialgroup:
-  name: sip
+- name: sip

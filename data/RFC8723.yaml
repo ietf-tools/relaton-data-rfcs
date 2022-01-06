@@ -1,12 +1,12 @@
 ---
 id: RFC8723
 title:
-  type: main
+- type: main
   content: Double Encryption Procedures for the Secure Real-Time Transport Protocol
     (SRTP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8723
+- content: https://www.rfc-editor.org/info/rfc8723
   type: src
 type: standard
 docid:
@@ -19,42 +19,56 @@ docid:
   type: DOI
 docnumber: RFC8723
 date:
-  type: published
+- type: published
   value: 2020-04
 contributor:
 - person:
     name:
       completename:
         content: C. Jennings
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Jones
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Barnes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A.B. Roach
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: In some conferencing scenarios, it is desirable for an intermediary to
+- content: In some conferencing scenarios, it is desirable for an intermediary to
     be able to manipulate some parameters in Real-time Transport Protocol (RTP) packets,
     while still providing strong end-to-end security guarantees.  This document defines
     a cryptographic transform for the Secure Real-time Transport Protocol (SRTP) that
@@ -62,10 +76,12 @@ abstract:
     end-to-end security guarantees.  Both the end-to-end and hop-by-hop cryptographic
     algorithms can utilize an authenticated encryption with associated data (AEAD)
     algorithm or take advantage of future SRTP transforms with different properties.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - PERC
 - SRTP
@@ -73,4 +89,4 @@ keyword:
 - conferencing
 - encryption
 editorialgroup:
-  name: perc
+- name: perc

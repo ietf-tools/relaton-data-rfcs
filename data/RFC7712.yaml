@@ -1,12 +1,12 @@
 ---
 id: RFC7712
 title:
-  type: main
+- type: main
   content: Domain Name Associations (DNA) in the Extensible Messaging and Presence
     Protocol (XMPP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7712
+- content: https://www.rfc-editor.org/info/rfc7712
   type: src
 type: standard
 docid:
@@ -19,45 +19,58 @@ docid:
   type: DOI
 docnumber: RFC7712
 date:
-  type: published
+- type: published
   value: 2015-11
 contributor:
 - person:
     name:
       completename:
         content: P. Saint-Andre
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Miller
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Hancke
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document improves the security of the Extensible Messaging and Presence
+- content: This document improves the security of the Extensible Messaging and Presence
     Protocol (XMPP) in two ways.  First, it specifies how to establish a strong association
     between a domain name and an XML stream, using the concept of "prooftypes".  Second,
     it describes how to securely delegate a service domain name (e.g., example.com)
     to a target server hostname (e.g., hosting.example.net); this is especially important
     in multi-tenanted environments where the same target server hosts a large number
     of domains.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - XMPP
 - Extensible Messaging and Presence Protocol
@@ -66,4 +79,4 @@ keyword:
 - delegation
 - security
 editorialgroup:
-  name: xmpp
+- name: xmpp

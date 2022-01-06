@@ -1,11 +1,11 @@
 ---
 id: RFC8123
 title:
-  type: main
+- type: main
   content: Requirements for Marking SIP Messages to be Logged
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8123
+- content: https://www.rfc-editor.org/info/rfc8123
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8123
 date:
-  type: published
+- type: published
   value: 2017-03
 contributor:
 - person:
     name:
       completename:
         content: P. Dawes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Arunachalam
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: SIP networks use signaling monitoring tools to debug customer- reported
+- content: SIP networks use signaling monitoring tools to debug customer- reported
     problems and for regression testing if network or client software is upgraded.
     As networks grow and become interconnected, including connection via transit networks,
     it becomes impractical to predict the path that SIP signaling will take between
@@ -50,14 +58,16 @@ abstract:
     by the network operator and not used in regular client signaling. However, such
     a marking can be carried end-to-end, including the SIP terminals, even if a session
     originates and terminates in different networks.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - logme
 - troubleshooting
 - debug
 - logging
 editorialgroup:
-  name: insipid
+- name: insipid

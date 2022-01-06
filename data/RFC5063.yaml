@@ -1,11 +1,11 @@
 ---
 id: RFC5063
 title:
-  type: main
+- type: main
   content: Extensions to GMPLS Resource Reservation Protocol (RSVP) Graceful Restart
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5063
+- content: https://www.rfc-editor.org/info/rfc5063
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC5063
 date:
-  type: published
+- type: published
   value: 2007-10
 contributor:
 - person:
     name:
       completename:
         content: A. Satyanarayana
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Rahman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes extensions to the Resource Reservation Protocol
+- content: This document describes extensions to the Resource Reservation Protocol
     (RSVP) Graceful Restart mechanisms defined in RFC 3473. The extensions enable
     the recovery of RSVP signaling state based on the Path message last sent by the
     node being restarted. Previously defined Graceful Restart mechanisms, also called
@@ -57,8 +65,10 @@ abstract:
     the number of messages exchanged during the Recovery Phase when the restarting
     node has recovered signaling state locally for one or more Label Switched Paths
     (LSPs). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -71,10 +81,10 @@ relation:
     formattedref:
       content: RFC3473
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - nodal faults
 - rsvp hello
 - state recovery
 editorialgroup:
-  name: ccamp
+- name: ccamp

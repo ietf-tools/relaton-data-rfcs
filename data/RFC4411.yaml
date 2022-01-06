@@ -1,12 +1,12 @@
 ---
 id: RFC4411
 title:
-  type: main
+- type: main
   content: Extending the Session Initiation Protocol (SIP) Reason Header for Preemption
     Events
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4411
+- content: https://www.rfc-editor.org/info/rfc4411
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC4411
 date:
-  type: published
+- type: published
   value: 2006-02
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Polk
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document proposes an IANA Registration extension to the Session Initiation
+- content: This document proposes an IANA Registration extension to the Session Initiation
     Protocol (SIP) Reason Header to be included in a BYE Method Request as a result
     of a session preemption event, either at a user agent (UA), or somewhere in the
     network involving a reservation-based protocol such as the Resource ReSerVation
@@ -41,10 +46,12 @@ abstract:
     to address routers failing in the packet path; instead, it addresses a deliberate
     tear down of a flow between UAs, and informs the terminated UA(s) with an indication
     of what occurred. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Resource-Priority
 - preempt
@@ -52,4 +59,4 @@ keyword:
 - Q.850
 - preconditions
 editorialgroup:
-  name: sipping
+- name: sipping

@@ -1,12 +1,12 @@
 ---
 id: RFC4635
 title:
-  type: main
+- type: main
   content: HMAC SHA (Hashed Message Authentication Code, Secure Hash Algorithm) TSIG
     Algorithm Identifiers
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4635
+- content: https://www.rfc-editor.org/info/rfc4635
   type: src
 type: standard
 docid:
@@ -19,29 +19,36 @@ docid:
   type: DOI
 docnumber: RFC4635
 date:
-  type: published
+- type: published
   value: 2006-08
 contributor:
-  person:
+- person:
     name:
       completename:
         content: D. Eastlake 3rd
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Use of the Domain Name System TSIG resource record requires specification
+- content: Use of the Domain Name System TSIG resource record requires specification
     of a cryptographic message authentication code.  Currently, identifiers have been
     specified only for HMAC MD5 (Hashed Message Authentication Code, Message Digest
     5) and GSS (Generic Security Service) TSIG algorithms.  This document standardizes
     identifiers and implementation requirements for additional HMAC SHA (Secure Hash
     Algorithm) TSIG algorithms and standardizes how to specify and handle the truncation
     of HMAC values in TSIG. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -54,7 +61,7 @@ relation:
     formattedref:
       content: RFC2845
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - dns
 - resource record
@@ -62,4 +69,4 @@ keyword:
 - cryptographic message authentication code
 - cmac
 editorialgroup:
-  name: dnsext
+- name: dnsext

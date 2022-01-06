@@ -1,11 +1,11 @@
 ---
 id: RFC802
 title:
-  type: main
+- type: main
   content: ARPANET 1822L Host Access Protocol
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc802
+- content: https://www.rfc-editor.org/info/rfc802
   type: src
 type: standard
 docid:
@@ -18,34 +18,41 @@ docid:
   type: DOI
 docnumber: RFC0802
 date:
-  type: published
+- type: published
   value: 1981-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: A.G. Malis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 1981-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document proposed two major changes to the current ARPANET host access
+- content: This document proposed two major changes to the current ARPANET host access
     protocol.  The first change will allow hosts to use logical addressing (i.e.,
     host addresses that are independent of their physical location on the ARPANET)
     to communicate with each other, and the second will allow a host to shorten the
     amount of time that it may be blocked by its IMP after it presents a message to
     the network (currently, the IMP can block further input from a host for up to
     15 seconds).  See RFCs 852 and 851.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC0851
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'

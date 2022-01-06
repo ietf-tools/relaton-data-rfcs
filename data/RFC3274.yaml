@@ -1,11 +1,11 @@
 ---
 id: RFC3274
 title:
-  type: main
+- type: main
   content: Compressed Data Content Type for Cryptographic Message Syntax (CMS)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3274
+- content: https://www.rfc-editor.org/info/rfc3274
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC3274
 date:
-  type: published
+- type: published
   value: 2002-06
 contributor:
-  person:
+- person:
     name:
       completename:
         content: P. Gutmann
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2002-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a format for using compressed data as a Cryptographic
+- content: This document defines a format for using compressed data as a Cryptographic
     Message Syntax (CMS) content type.  Compressing data before transmission provides
     a number of advantages, including the elimination of data redundancy which could
     help an attacker, speeding up processing by reducing the amount of data to be
@@ -41,10 +46,13 @@ abstract:
     levels (for example at the MIME or SSL level), these don't address the problem
     of compression of CMS content unless the compression is supplied by an external
     means (for example by intermixing MIME and CMS). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: content info type
+fetched: '2022-01-06'
+keyword:
+- content info type
 editorialgroup:
-  name: smime
+- name: smime

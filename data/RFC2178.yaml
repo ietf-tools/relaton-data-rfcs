@@ -1,11 +1,11 @@
 ---
 id: RFC2178
 title:
-  type: main
+- type: main
   content: OSPF Version 2
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc2178
+- content: https://www.rfc-editor.org/info/rfc2178
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC2178
 date:
-  type: published
+- type: published
   value: 1997-07
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Moy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 1997-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo documents version 2 of the OSPF protocol. OSPF is a link-state
+- content: This memo documents version 2 of the OSPF protocol. OSPF is a link-state
     routing protocol. It is designed to be run internal to a single Autonomous System.
     Each OSPF router maintains an identical database describing the Autonomous System's
     topology. From this database, a routing table is calculated by constructing a
@@ -41,16 +46,18 @@ abstract:
     for equal-cost multipath. An area routing capability is provided, enabling an
     additional level of routing protection and a reduction in routing protocol traffic.
     In addition, all OSPF routing protocol exchanges are authenticated. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC2328
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Open
 - Shortest
@@ -61,4 +68,4 @@ keyword:
 - system
 - AS
 editorialgroup:
-  name: ospf
+- name: ospf

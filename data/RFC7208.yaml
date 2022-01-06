@@ -1,12 +1,12 @@
 ---
 id: RFC7208
 title:
-  type: main
+- type: main
   content: Sender Policy Framework (SPF) for Authorizing Use of Domains in Email,
     Version 1
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7208
+- content: https://www.rfc-editor.org/info/rfc7208
   type: src
 type: standard
 docid:
@@ -19,35 +19,42 @@ docid:
   type: DOI
 docnumber: RFC7208
 date:
-  type: published
+- type: published
   value: 2014-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: S. Kitterman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Email on the Internet can be forged in a number of ways. In particular,
+- content: Email on the Internet can be forged in a number of ways. In particular,
     existing protocols place no restriction on what a sending host can use as the
     "MAIL FROM" of a message or the domain given on the SMTP HELO/EHLO commands. This
     document describes version 1 of the Sender Policy Framework (SPF) protocol, whereby
     ADministrative Management Domains (ADMDs) can explicitly authorize the hosts that
     are allowed to use their domain names, and a receiving host can check such authorization.
     This document obsoletes RFC 4408.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - spoofing
 - spf
 - anti-forgery
 - authentication
 editorialgroup:
-  name: spfbis
+- name: spfbis

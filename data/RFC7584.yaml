@@ -1,12 +1,12 @@
 ---
 id: RFC7584
 title:
-  type: main
+- type: main
   content: Session Traversal Utilities for NAT (STUN) Message Handling for SIP Back-to-Back
     User Agents (B2BUAs)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7584
+- content: https://www.rfc-editor.org/info/rfc7584
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC7584
 date:
-  type: published
+- type: published
   value: 2015-07
 contributor:
 - person:
     name:
       completename:
         content: R. Ravindranath
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Reddy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Salgueiro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs) are
+- content: Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs) are
     often designed to be on the media path rather than just intercepting signaling.
     This means that B2BUAs often act on the media path leading to separate media legs
     that the B2BUA correlates and bridges together. When acting on the media path,
@@ -57,9 +68,11 @@ abstract:
     is to ensure that B2BUAs properly handle SIP messages that carry ICE semantics
     in Session Description Protocol (SDP) and STUN messages received as part of the
     ICE procedures for NAT and Firewall traversal of multimedia sessions.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: straw
+- name: straw

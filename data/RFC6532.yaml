@@ -1,11 +1,11 @@
 ---
 id: RFC6532
 title:
-  type: main
+- type: main
   content: Internationalized Email Headers
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6532
+- content: https://www.rfc-editor.org/info/rfc6532
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6532
 date:
-  type: published
+- type: published
   value: 2012-02
 contributor:
 - person:
     name:
       completename:
         content: A. Yang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Steele
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Freed
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Internet mail was originally limited to 7-bit ASCII. MIME added support
+- content: Internet mail was originally limited to 7-bit ASCII. MIME added support
     for the use of 8-bit character sets in body parts, and also defined an encoded-word
     construct so other character sets could be used in certain header field values.
     However, full internationalization of electronic mail requires additional enhancements
@@ -58,15 +69,17 @@ abstract:
     specification updates Section 6.4 of RFC 2045 to eliminate the restriction prohibiting
     the use of non-identity content-transfer- encodings on subtypes of "message/".
     [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC2045
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: eai
+- name: eai

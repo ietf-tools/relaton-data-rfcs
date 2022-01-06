@@ -1,11 +1,11 @@
 ---
 id: RFC5566
 title:
-  type: main
+- type: main
   content: BGP IPsec Tunnel Encapsulation Attribute
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5566
+- content: https://www.rfc-editor.org/info/rfc5566
   type: src
 type: standard
 docid:
@@ -18,53 +18,66 @@ docid:
   type: DOI
 docnumber: RFC5566
 date:
-  type: published
+- type: published
   value: 2009-06
 contributor:
 - person:
     name:
       completename:
         content: L. Berger
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. White
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2009-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The BGP Encapsulation Subsequent Address Family Identifier (SAFI) provides
+- content: The BGP Encapsulation Subsequent Address Family Identifier (SAFI) provides
     a method for the dynamic exchange of encapsulation information and for the indication
     of encapsulation protocol types to be used for different next hops.  Currently,
     support for Generic Routing Encapsulation (GRE), Layer 2 Tunneling Protocol (L2TPv3),
     and IP in IP tunnel types are defined.  This document defines support for IPsec
     tunnel types. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC9012
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - border gateway protocol
 - safi
 - subsequent address family identifier
 editorialgroup:
-  name: softwire
+- name: softwire

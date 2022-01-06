@@ -1,11 +1,11 @@
 ---
 id: RFC3706
 title:
-  type: main
+- type: main
   content: A Traffic-Based Method of Detecting Dead Internet Key Exchange (IKE) Peers
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3706
+- content: https://www.rfc-editor.org/info/rfc3706
   type: src
 type: standard
 docid:
@@ -18,48 +18,61 @@ docid:
   type: DOI
 docnumber: RFC3706
 date:
-  type: published
+- type: published
   value: 2004-02
 contributor:
 - person:
     name:
       completename:
         content: G. Huang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Beaulieu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Rochefort
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes the method detecting a dead Internet Key Exchange
+- content: This document describes the method detecting a dead Internet Key Exchange
     (IKE) peer that is presently in use by a number of vendors.  The method, called
     Dead Peer Detection (DPD) uses IPSec traffic patterns to minimize the number of
     IKE messages that are needed to confirm liveness.  DPD, like other keepalive mechanisms,
     is needed to determine when to perform IKE peer failover, and to reclaim lost
     resources.  This memo provides information for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - security authentication
 - dead peer detection
 - dpd
 - keepalive
 editorialgroup:
-  name: ipsec
+- name: ipsec

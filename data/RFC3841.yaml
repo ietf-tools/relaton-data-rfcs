@@ -1,11 +1,11 @@
 ---
 id: RFC3841
 title:
-  type: main
+- type: main
   content: Caller Preferences for the Session Initiation Protocol (SIP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3841
+- content: https://www.rfc-editor.org/info/rfc3841
   type: src
 type: standard
 docid:
@@ -18,45 +18,58 @@ docid:
   type: DOI
 docnumber: RFC3841
 date:
-  type: published
+- type: published
   value: 2004-08
 contributor:
 - person:
     name:
       completename:
         content: J. Rosenberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Schulzrinne
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Kyzivat
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a set of extensions to the Session Initiation Protocol
+- content: This document describes a set of extensions to the Session Initiation Protocol
     (SIP) which allow a caller to express preferences about request handling in servers.  These
     preferences include the ability to select which Uniform Resource Identifiers (URI)
     a request gets routed to, and to specify certain request handling directives in
     proxies and redirect servers.  It does so by defining three new request header
     fields, Accept-Contact, Reject-Contact, and Request-Disposition, which specify
     the caller's preferences. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Uniform Resource Identifiers
 - URI
@@ -64,4 +77,4 @@ keyword:
 - Reject-Contact
 - Request-Disposition
 editorialgroup:
-  name: sip
+- name: sip

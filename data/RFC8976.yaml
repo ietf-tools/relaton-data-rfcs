@@ -1,11 +1,11 @@
 ---
 id: RFC8976
 title:
-  type: main
+- type: main
   content: Message Digest for DNS Zones
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8976
+- content: https://www.rfc-editor.org/info/rfc8976
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8976
 date:
-  type: published
+- type: published
   value: 2021-02
 contributor:
 - person:
     name:
       completename:
         content: D. Wessels
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Barber
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Weinberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Kumari
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Hardaker
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document describes a protocol and new DNS Resource Record that provides
+- content: 'This document describes a protocol and new DNS Resource Record that provides
     a cryptographic message digest over DNS zone data at rest. The ZONEMD Resource
     Record conveys the digest data in the zone itself. When used in combination with
     DNSSEC, ZONEMD allows recipients to verify the zone contents for data integrity
@@ -74,10 +91,12 @@ abstract:
     dynamic zones due to the time and resources required for digest calculation. However,
     the ZONEMD record is extensible so that new digest schemes may be added in the
     future to support large, dynamic zones.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNS
 - DNSSEC
@@ -85,4 +104,4 @@ keyword:
 - Hash
 - Zone Transfer
 editorialgroup:
-  name: dnsop
+- name: dnsop

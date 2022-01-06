@@ -1,11 +1,11 @@
 ---
 id: RFC8764
 title:
-  type: main
+- type: main
   content: Apple's DNS Long-Lived Queries Protocol
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8764
+- content: https://www.rfc-editor.org/info/rfc8764
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8764
 date:
-  type: published
+- type: published
   value: 2020-06
 contributor:
 - person:
     name:
       completename:
         content: S. Cheshire
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Krochmal
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Apple's DNS Long-Lived Queries (LLQ) is a mechanism for extending the DNS
+- content: Apple's DNS Long-Lived Queries (LLQ) is a mechanism for extending the DNS
     protocol to support change notification, thus allowing clients to learn about
     changes to DNS data without polling the server. From 2005 onwards, LLQ was implemented
     in Apple products including Mac OS X, Bonjour for Windows, and AirPort wireless
@@ -49,10 +57,12 @@ abstract:
     and used from 2005 to 2020 is documented here to give background regarding the
     operational experience that informed the development of DNS Push Notifications,
     and to help facilitate a smooth transition from LLQ to DNS Push Notifications.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Async
 - Asynchronous

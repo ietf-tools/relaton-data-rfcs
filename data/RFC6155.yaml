@@ -1,11 +1,11 @@
 ---
 id: RFC6155
 title:
-  type: main
+- type: main
   content: Use of Device Identity in HTTP-Enabled Location Delivery (HELD)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6155
+- content: https://www.rfc-editor.org/info/rfc6155
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC6155
 date:
-  type: published
+- type: published
   value: 2011-03
 contributor:
 - person:
     name:
       completename:
         content: J. Winterbottom
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Thomson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Tschofenig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Barnes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: When a Location Information Server receives a request for location information
+- content: When a Location Information Server receives a request for location information
     (using the locationRequest message), described in the base HTTP-Enabled Location
     Delivery (HELD) specification, it uses the source IP address of the arriving message
     as a pointer to the location determination process. This is sufficient in environments
@@ -64,9 +78,11 @@ abstract:
     of the Device. This document extends the HELD protocol to allow the location request
     message to carry Device identifiers. Privacy and security considerations describe
     the conditions where requests containing identifiers are permitted. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: geopriv
+- name: geopriv

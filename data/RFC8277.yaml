@@ -1,11 +1,11 @@
 ---
 id: RFC8277
 title:
-  type: main
+- type: main
   content: Using BGP to Bind MPLS Labels to Address Prefixes
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8277
+- content: https://www.rfc-editor.org/info/rfc8277
   type: src
 type: standard
 docid:
@@ -18,31 +18,38 @@ docid:
   type: DOI
 docnumber: RFC8277
 date:
-  type: published
+- type: published
   value: 2017-10
 contributor:
-  person:
+- person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies a set of procedures for using BGP to advertise
+- content: This document specifies a set of procedures for using BGP to advertise
     that a specified router has bound a specified MPLS label (or a specified sequence
     of MPLS labels organized as a contiguous part of a label stack) to a specified
     address prefix.  This can be done by sending a BGP UPDATE message whose Network
     Layer Reachability Information field contains both the prefix and the MPLS label(s)
     and whose Next Hop field identifies the node at which said prefix is bound to
     said label(s).  This document obsoletes RFC 3107.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - asynchronous
 - transfer
@@ -52,4 +59,4 @@ keyword:
 - adaption
 - layer
 editorialgroup:
-  name: mpls
+- name: mpls

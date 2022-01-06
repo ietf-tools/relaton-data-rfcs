@@ -1,11 +1,11 @@
 ---
 id: RFC6962
 title:
-  type: main
+- type: main
   content: Certificate Transparency
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6962
+- content: https://www.rfc-editor.org/info/rfc6962
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6962
 date:
-  type: published
+- type: published
   value: 2013-06
 contributor:
 - person:
     name:
       completename:
         content: B. Laurie
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Langley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Kasper
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes an experimental protocol for publicly logging the
+- content: This document describes an experimental protocol for publicly logging the
     existence of Transport Layer Security (TLS) certificates as they are issued or
     observed, in a manner that allows anyone to audit certificate authority (CA) activity
     and notice the issuance of suspect certificates as well as to audit the certificate
@@ -54,16 +65,19 @@ abstract:
     that do not appear in a log, effectively forcing CAs to add all issued certificates
     to the logs. Logs are network services that implement the protocol operations
     for submissions and queries that are defined in this document.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC9162
       format: text/plain
-fetched: '2022-01-05'
-keyword: TLS certificates
+fetched: '2022-01-06'
+keyword:
+- TLS certificates
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

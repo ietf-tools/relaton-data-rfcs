@@ -1,11 +1,11 @@
 ---
 id: RFC8473
 title:
-  type: main
+- type: main
   content: Token Binding over HTTP
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8473
+- content: https://www.rfc-editor.org/info/rfc8473
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8473
 date:
-  type: published
+- type: published
   value: 2018-10
 contributor:
 - person:
     name:
       completename:
         content: A. Popov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Nystroem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Balfanz
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Harper
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Hodges
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a collection of mechanisms that allow HTTP servers
+- content: This document describes a collection of mechanisms that allow HTTP servers
     to cryptographically bind security tokens (such as cookies and OAuth tokens) to
     TLS connections. We describe both first-party and federated scenarios. In a first-
     party scenario, an HTTP server is able to cryptographically bind the security
@@ -72,10 +89,12 @@ abstract:
     bind security tokens to a TLS connection that the client has with a different
     server than the one issuing the token. This document is a companion document to
     "The Token Binding Protocol Version 1.0" (RFC 8471).
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Cookie
 - TLS
@@ -83,4 +102,4 @@ keyword:
 - export
 - replay
 editorialgroup:
-  name: tokbind
+- name: tokbind

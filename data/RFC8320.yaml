@@ -1,11 +1,11 @@
 ---
 id: RFC8320
 title:
-  type: main
+- type: main
   content: LDP Extensions to Support Maximally Redundant Trees
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8320
+- content: https://www.rfc-editor.org/info/rfc8320
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8320
 date:
-  type: published
+- type: published
   value: 2018-02
 contributor:
 - person:
     name:
       completename:
         content: A. Atlas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Tiruveedhula
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Bowers
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Tantsura
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies extensions to the Label Distribution Protocol (LDP)
+- content: This document specifies extensions to the Label Distribution Protocol (LDP)
     to support the creation of Label Switched Paths (LSPs) for Maximally Redundant
     Trees (MRTs). A prime use of MRTs is for unicast and multicast IP/LDP Fast Reroute,
     which we will refer to as "MRT-FRR". The sole protocol extension to LDP is simply
@@ -69,13 +86,15 @@ abstract:
     Edge Routers (LERs) advertising the MRT Capability. MRT-FRR uses LDP multi-topology
     extensions, so three multi-topology IDs have been allocated from the MPLS MT-ID
     space.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - fast-reroute
 - MRT
 - MRT-FRR
 editorialgroup:
-  name: mpls
+- name: mpls

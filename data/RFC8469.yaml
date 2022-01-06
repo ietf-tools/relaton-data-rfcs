@@ -1,11 +1,11 @@
 ---
 id: RFC8469
 title:
-  type: main
+- type: main
   content: Recommendation to Use the Ethernet Control Word
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8469
+- content: https://www.rfc-editor.org/info/rfc8469
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC8469
 date:
-  type: published
+- type: published
   value: 2018-11
 contributor:
 - person:
     name:
       completename:
         content: S. Bryant
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Malis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Bagdonas
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The pseudowire (PW) encapsulation of Ethernet, as defined in RFC 4448,
+- content: The pseudowire (PW) encapsulation of Ethernet, as defined in RFC 4448,
     specifies that the use of the control word (CW) is optional. In the absence of
     the CW, an Ethernet PW packet can be misidentified as an IP packet by a label
     switching router (LSR). This may lead to the selection of the wrong equal-cost
@@ -56,16 +67,18 @@ abstract:
     Ethernet PW CW addresses this problem. This document RECOMMENDS the use of the
     Ethernet PW CW in all but exceptional circumstances. This document updates RFC
     4448.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4448
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - pseudowire
 - PW
@@ -75,4 +88,4 @@ keyword:
 - out of order
 - ordering
 editorialgroup:
-  name: pals
+- name: pals

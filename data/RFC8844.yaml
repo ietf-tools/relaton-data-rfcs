@@ -1,12 +1,12 @@
 ---
 id: RFC8844
 title:
-  type: main
+- type: main
   content: Unknown Key-Share Attacks on Uses of TLS with the Session Description Protocol
     (SDP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8844
+- content: https://www.rfc-editor.org/info/rfc8844
   type: src
 type: standard
 docid:
@@ -19,44 +19,54 @@ docid:
   type: DOI
 docnumber: RFC8844
 date:
-  type: published
+- type: published
   value: 2021-01
 contributor:
 - person:
     name:
       completename:
         content: M. Thomson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rescorla
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes unknown key-share attacks on the use of Datagram
+- content: This document describes unknown key-share attacks on the use of Datagram
     Transport Layer Security for the Secure Real-Time Transport Protocol (DTLS-SRTP).  Similar
     attacks are described on the use of DTLS-SRTP with the identity bindings used
     in Web Real-Time Communications (WebRTC) and SIP identity.  These attacks are
     difficult to mount, but they cause a victim to be misled about the identity of
     a communicating peer.  This document defines mitigation techniques that implementations
     of RFC 8122 are encouraged to deploy.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC8122
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Unknown Key-Share Attack
 - SDP
@@ -64,4 +74,4 @@ keyword:
 - WebRTC
 - SIP identity
 editorialgroup:
-  name: mmusic
+- name: mmusic

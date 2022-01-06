@@ -1,11 +1,11 @@
 ---
 id: RFC7653
 title:
-  type: main
+- type: main
   content: DHCPv6 Active Leasequery
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7653
+- content: https://www.rfc-editor.org/info/rfc7653
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC7653
 date:
-  type: published
+- type: published
   value: 2015-10
 contributor:
 - person:
     name:
       completename:
         content: D. Raghuvanshi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Kinnear
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Kukrety
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) has been extended
+- content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) has been extended
     with a Leasequery capability that allows a requestor to request information about
     DHCPv6 bindings.  That mechanism is limited to queries for DHCPv6 binding data
     updates prior to the time the DHCPv6 server receives the Leasequery request.  Continuous
@@ -54,20 +65,22 @@ abstract:
     document expands on the DHCPv6 Leasequery protocol and allows for active transfer
     of real-time DHCPv6 binding information data via TCP.  This document also updates
     DHCPv6 Bulk Leasequery (RFC 5460) by adding new options.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC5460
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DHCP
 - IPv6
 - ACTIVELEASEQUERY
 - DHCPv6
 editorialgroup:
-  name: dhc
+- name: dhc

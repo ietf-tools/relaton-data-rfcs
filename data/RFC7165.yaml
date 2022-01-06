@@ -1,11 +1,11 @@
 ---
 id: RFC7165
 title:
-  type: main
+- type: main
   content: Use Cases and Requirements for JSON Object Signing and Encryption (JOSE)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7165
+- content: https://www.rfc-editor.org/info/rfc7165
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC7165
 date:
-  type: published
+- type: published
   value: 2014-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Barnes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Many Internet applications have a need for object-based security mechanisms
+- content: Many Internet applications have a need for object-based security mechanisms
     in addition to security mechanisms at the network layer or transport layer.  For
     many years, the Cryptographic Message Syntax (CMS) has provided a binary secure
     object format based on ASN.1.  Over time, binary object encodings such as ASN.1
@@ -40,10 +45,12 @@ abstract:
     Notation (JSON).  This document defines a set of use cases and requirements for
     a secure object format encoded using JSON, drawn from a variety of application
     security mechanisms currently in development.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - JWS
 - JWE
@@ -57,4 +64,4 @@ keyword:
 - ALTO
 - OAuth
 editorialgroup:
-  name: jose
+- name: jose

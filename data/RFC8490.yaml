@@ -1,11 +1,11 @@
 ---
 id: RFC8490
 title:
-  type: main
+- type: main
   content: DNS Stateful Operations
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8490
+- content: https://www.rfc-editor.org/info/rfc8490
   type: src
 type: standard
 docid:
@@ -18,56 +18,76 @@ docid:
   type: DOI
 docnumber: RFC8490
 date:
-  type: published
+- type: published
   value: 2019-03
 contributor:
 - person:
     name:
       completename:
         content: R. Bellis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Cheshire
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Dickinson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Dickinson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Lemon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Pusateri
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a new DNS OPCODE for DNS Stateful Operations (DSO).  DSO
+- content: This document defines a new DNS OPCODE for DNS Stateful Operations (DSO).  DSO
     messages communicate operations within persistent stateful sessions using Type
     Length Value (TLV) syntax.  Three TLVs are defined that manage session timeouts,
     termination, and encryption padding, and a framework is defined for extensions
@@ -75,8 +95,10 @@ abstract:
     new DNS header OPCODE that has both different message semantics and a new result
     code.  This document updates RFC 7766 by redefining a session, providing new guidance
     on connection reuse, and providing a new mechanism for handling session idle timeouts.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -89,6 +111,6 @@ relation:
     formattedref:
       content: RFC7766
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: dnsop
+- name: dnsop

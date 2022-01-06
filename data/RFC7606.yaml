@@ -1,11 +1,11 @@
 ---
 id: RFC7606
 title:
-  type: main
+- type: main
   content: Revised Error Handling for BGP UPDATE Messages
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7606
+- content: https://www.rfc-editor.org/info/rfc7606
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7606
 date:
-  type: published
+- type: published
   value: 2015-08
 contributor:
 - person:
     name:
       completename:
         content: E. Chen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Scudder
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Mohapatra
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: According to the base BGP specification, a BGP speaker that receives an
+- content: According to the base BGP specification, a BGP speaker that receives an
     UPDATE message containing a malformed attribute is required to reset the session
     over which the offending attribute was received. This behavior is undesirable
     because a session reset would impact not only routes with the offending attribute
@@ -62,8 +76,10 @@ abstract:
     authors of documents defining new attributes. Finally, it revises the error handling
     procedures for a number of existing attributes. This document updates error handling
     for RFCs 1997, 4271, 4360, 4456, 4760, 5543, 5701, and 6368.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -106,7 +122,8 @@ relation:
     formattedref:
       content: RFC6368
       format: text/plain
-fetched: '2022-01-05'
-keyword: BGP
+fetched: '2022-01-06'
+keyword:
+- BGP
 editorialgroup:
-  name: idr
+- name: idr

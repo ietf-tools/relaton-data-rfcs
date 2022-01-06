@@ -1,11 +1,11 @@
 ---
 id: RFC5504
 title:
-  type: main
+- type: main
   content: Downgrading Mechanism for Email Address Internationalization
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5504
+- content: https://www.rfc-editor.org/info/rfc5504
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC5504
 date:
-  type: published
+- type: published
   value: 2009-03
 contributor:
 - person:
     name:
       completename:
         content: K. Fujiwara
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Y. Yoneya
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2009-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Traditional mail systems handle only ASCII characters in SMTP envelope
+- content: Traditional mail systems handle only ASCII characters in SMTP envelope
     and mail header fields.  The Email Address Internationalization (UTF8SMTP) extension
     allows UTF-8 characters in SMTP envelope and mail header fields.  To avoid rejecting
     internationalized email messages when a server in the delivery path does not support
@@ -49,20 +57,22 @@ abstract:
     mechanism, although internationalized email clients might use original internationalized
     addresses or other data when displaying or replying to downgraded messages.  This
     memo defines an Experimental Protocol for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC6530
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - EAI
 - Email Address Internationalization
 - Downgrade
 - MAIL
 editorialgroup:
-  name: eai
+- name: eai

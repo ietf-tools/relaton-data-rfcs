@@ -1,11 +1,11 @@
 ---
 id: RFC4362
 title:
-  type: main
+- type: main
   content: 'RObust Header Compression (ROHC): A Link-Layer Assisted Profile for IP/UDP/RTP'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4362
+- content: https://www.rfc-editor.org/info/rfc4362
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC4362
 date:
-  type: published
+- type: published
   value: 2006-01
 contributor:
 - person:
     name:
       completename:
         content: L-E. Jonsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Pelletier
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Sandlund
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a ROHC (Robust Header Compression) profile for compression
+- content: This document defines a ROHC (Robust Header Compression) profile for compression
     of IP/UDP/RTP (Internet Protocol/User Datagram Protocol/Real-Time Transport Protocol)
     packets, utilizing functionality provided by the lower layers to increase compression
     efficiency by completely eliminating the header for most packets during optimal
@@ -55,13 +66,15 @@ abstract:
     layer to guarantee transparency, and specifies general logic for compression and
     decompression related to the usage of the header-free packet format.  This document
     is a replacement for RFC 3242, which it obsoletes. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - internet protocol
 - user datagram protocol
 - real-time transport protocol
 editorialgroup:
-  name: rohc
+- name: rohc

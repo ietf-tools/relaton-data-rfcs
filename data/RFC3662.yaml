@@ -1,11 +1,11 @@
 ---
 id: RFC3662
 title:
-  type: main
+- type: main
   content: A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3662
+- content: https://www.rfc-editor.org/info/rfc3662
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC3662
 date:
-  type: published
+- type: published
   value: 2003-12
 contributor:
 - person:
     name:
       completename:
         content: R. Bless
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Nichols
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Wehrle
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2003-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document proposes a differentiated services per-domain behavior (PDB)
+- content: This document proposes a differentiated services per-domain behavior (PDB)
     whose traffic may be "starved" (although starvation is not strictly required)
     in a properly functioning network.  This is in contrast to the Internet's "best-effort"
     or "normal Internet traffic" model, where prolonged starvation indicates network
@@ -56,16 +67,18 @@ abstract:
     the effect of its traffic on "best-effort"/"normal" or all other Internet traffic.  This
     document gives some example uses, but does not propose constraining the PDB's
     use to any particular type of traffic.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC8622
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - traffic network
 - ds

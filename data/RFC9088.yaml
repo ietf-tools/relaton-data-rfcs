@@ -1,12 +1,12 @@
 ---
 id: RFC9088
 title:
-  type: main
+- type: main
   content: Signaling Entropy Label Capability and Entropy Readable Label Depth Using
     IS-IS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc9088
+- content: https://www.rfc-editor.org/info/rfc9088
   type: src
 type: standard
 docid:
@@ -19,56 +19,76 @@ docid:
   type: DOI
 docnumber: RFC9088
 date:
-  type: published
+- type: published
   value: 2021-08
 contributor:
 - person:
     name:
       completename:
         content: X. Xu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Kini
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Psenak
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Filsfils
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Litkowski
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Bocci
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Multiprotocol Label Switching (MPLS) has defined a mechanism to load-balance
+- content: Multiprotocol Label Switching (MPLS) has defined a mechanism to load-balance
     traffic flows using Entropy Labels (EL).  An ingress Label Switching Router (LSR)
     cannot insert ELs for packets going into a given Label Switched Path (LSP) unless
     an egress LSR has indicated via signaling that it has the capability to process
@@ -78,9 +98,11 @@ abstract:
     to as Entropy Readable Label Depth (ERLD).  This document defines a mechanism
     to signal these two capabilities using IS-IS and Border Gateway Protocol - Link
     State (BGP-LS).
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: lsr
+- name: lsr

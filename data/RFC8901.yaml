@@ -1,11 +1,11 @@
 ---
 id: RFC8901
 title:
-  type: main
+- type: main
   content: Multi-Signer DNSSEC Models
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8901
+- content: https://www.rfc-editor.org/info/rfc8901
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8901
 date:
-  type: published
+- type: published
   value: 2020-09
 contributor:
 - person:
     name:
       completename:
         content: S. Huque
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Aras
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Dickinson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Vcelak
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Blacka
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Many enterprises today employ the service of multiple DNS providers to
+- content: Many enterprises today employ the service of multiple DNS providers to
     distribute their authoritative DNS service.  Deploying DNSSEC in such an environment
     may present some challenges, depending on the configuration and feature set in
     use.  In particular, when each DNS provider independently signs zone data with
@@ -69,10 +86,12 @@ abstract:
     key-management requirements.  These models do not require any changes to the behavior
     of validating resolvers, nor do they impose the new key-management requirements
     on authoritative servers not involved in multi-signer configurations.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DNSSEC
 - Multiple
@@ -80,4 +99,4 @@ keyword:
 - Signer
 - Models
 editorialgroup:
-  name: dnsop
+- name: dnsop

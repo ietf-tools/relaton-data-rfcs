@@ -1,11 +1,11 @@
 ---
 id: RFC8547
 title:
-  type: main
+- type: main
   content: 'TCP-ENO: Encryption Negotiation Option'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8547
+- content: https://www.rfc-editor.org/info/rfc8547
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8547
 date:
-  type: published
+- type: published
   value: 2019-05
 contributor:
 - person:
     name:
       completename:
         content: A. Bittau
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Giffin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Handley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Mazieres
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Smith
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Despite growing adoption of TLS, a significant fraction of TCP traffic
+- content: Despite growing adoption of TLS, a significant fraction of TCP traffic
     on the Internet remains unencrypted.  The persistence of unencrypted traffic can
     be attributed to at least two factors.  First, some legacy protocols lack a signaling
     mechanism (such as a STARTTLS command) by which to convey support for encryption,
@@ -69,12 +86,14 @@ abstract:
     transparently entirely within the transport layer.  The TCP Encryption Negotiation
     Option (TCP-ENO) addresses both of these problems through a new TCP option kind
     providing out-of-band, fully backward-compatible negotiation of encryption.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - tcp
 - encryption
 editorialgroup:
-  name: tcpinc
+- name: tcpinc

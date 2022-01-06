@@ -1,12 +1,12 @@
 ---
 id: RFC4307
 title:
-  type: main
+- type: main
   content: Cryptographic Algorithms for Use in the Internet Key Exchange Version 2
     (IKEv2)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4307
+- content: https://www.rfc-editor.org/info/rfc4307
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC4307
 date:
-  type: published
+- type: published
   value: 2005-12
 contributor:
-  person:
+- person:
     name:
       completename:
         content: J. Schiller
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The IPsec series of protocols makes use of various cryptographic algorithms
+- content: The IPsec series of protocols makes use of various cryptographic algorithms
     in order to provide security services.  The Internet Key Exchange (IKE (RFC 2409)
     and IKEv2) provide a mechanism to negotiate which algorithms should be used in
     any given association.  However, to ensure interoperability between disparate
@@ -42,19 +47,21 @@ abstract:
     available.  This document defines the current set of algorithms that are mandatory
     to implement as part of IKEv2, as well as algorithms that should be implemented
     because they may be promoted to mandatory at some future time. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC8247
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ipsec
 - ike
 - internet key exchange
 editorialgroup:
-  name: ipsec
+- name: ipsec

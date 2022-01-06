@@ -1,11 +1,11 @@
 ---
 id: RFC6754
 title:
-  type: main
+- type: main
   content: Protocol Independent Multicast Equal-Cost Multipath (ECMP) Redirect
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6754
+- content: https://www.rfc-editor.org/info/rfc6754
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC6754
 date:
-  type: published
+- type: published
   value: 2012-10
 contributor:
 - person:
     name:
       completename:
         content: Y. Cai
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Wei
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: H. Ou
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: V. Arya
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Jethwani
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: A Protocol Independent Multicast (PIM) router uses the Reverse Path Forwarding
+- content: A Protocol Independent Multicast (PIM) router uses the Reverse Path Forwarding
     (RPF) procedure to select an upstream interface and router in order to build forwarding
     state.  When there are equal cost multipaths (ECMPs), existing implementations
     often use hash algorithms to select a path.  Such algorithms do not allow the
@@ -69,9 +86,11 @@ abstract:
     the ECMP Redirect, a mechanism to improve the RPF procedure over ECMPs.  It allows
     ECMP selection to be based on administratively selected metrics, such as data
     transmission delays, path preferences, and routing metrics. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: pim
+- name: pim

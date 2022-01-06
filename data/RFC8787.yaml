@@ -1,11 +1,11 @@
 ---
 id: RFC8787
 title:
-  type: main
+- type: main
   content: Location Source Parameter for the SIP Geolocation Header Field
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8787
+- content: https://www.rfc-editor.org/info/rfc8787
   type: src
 type: standard
 docid:
@@ -18,61 +18,77 @@ docid:
   type: DOI
 docnumber: RFC8787
 date:
-  type: published
+- type: published
   value: 2020-05
 contributor:
 - person:
     name:
       completename:
         content: J. Winterbottom
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Jesske
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Chatras
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Hutton
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: There are some circumstances where a Geolocation header field may contain
+- content: There are some circumstances where a Geolocation header field may contain
     more than one locationValue.  Knowing the identity of the node adding the locationValue
     allows the recipient more freedom in selecting the value to look at first rather
     than relying solely on the order of the locationValues.  This document defines
     the "loc-src" parameter so that the entity adding the locationValue to the Geolocation
     header field can identify itself using its hostname.  This document updates RFC
     6442.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6442
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Emergency
 - Call
 - Location
 editorialgroup:
-  name: sipcore
+- name: sipcore

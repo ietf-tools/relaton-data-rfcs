@@ -1,11 +1,11 @@
 ---
 id: RFC7050
 title:
-  type: main
+- type: main
   content: Discovery of the IPv6 Prefix Used for IPv6 Address Synthesis
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7050
+- content: https://www.rfc-editor.org/info/rfc7050
   type: src
 type: standard
 docid:
@@ -18,48 +18,61 @@ docid:
   type: DOI
 docnumber: RFC7050
 date:
-  type: published
+- type: published
   value: 2013-11
 contributor:
 - person:
     name:
       completename:
         content: T. Savolainen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Korhonen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Wing
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a method for detecting the presence of DNS64 and
+- content: This document describes a method for detecting the presence of DNS64 and
     for learning the IPv6 prefix used for protocol translation on an access network.  The
     method depends on the existence of a well-known IPv4-only fully qualified domain
     name "ipv4only.arpa.".  The information learned enables nodes to perform local
     IPv6 address synthesis and to potentially avoid NAT64 on dual-stack and multi-interface
     deployments.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - NAT64
 - DNS64
 - 464XLAT
 - Pref64::/n
 editorialgroup:
-  name: behave
+- name: behave

@@ -1,12 +1,12 @@
 ---
 id: RFC8812
 title:
-  type: main
+- type: main
   content: CBOR Object Signing and Encryption (COSE) and JSON Object Signing and Encryption
     (JOSE) Registrations for Web Authentication (WebAuthn) Algorithms
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8812
+- content: https://www.rfc-editor.org/info/rfc8812
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC8812
 date:
-  type: published
+- type: published
   value: 2020-08
 contributor:
-  person:
+- person:
     name:
       completename:
         content: M. Jones
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'The W3C Web Authentication (WebAuthn) specification and the FIDO Alliance
+- content: 'The W3C Web Authentication (WebAuthn) specification and the FIDO Alliance
     FIDO2 Client to Authenticator Protocol (CTAP) specification use CBOR Object Signing
     and Encryption (COSE) algorithm identifiers.  This specification registers the
     following algorithms (which are used by WebAuthn and CTAP implementations) in
@@ -44,10 +49,12 @@ abstract:
     and Encryption (JOSE), it registers the algorithm ECDSA using the secp256k1 curve
     and SHA-256 in the IANA "JSON Web Signature and Encryption Algorithms" registry
     and the secp256k1 elliptic curve in the IANA "JSON Web Key Elliptic Curve" registry.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Cryptography
 - Digital Signature
@@ -62,4 +69,4 @@ keyword:
 - CTAP
 - CTAP2
 editorialgroup:
-  name: cose
+- name: cose

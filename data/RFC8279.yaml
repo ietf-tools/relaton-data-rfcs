@@ -1,11 +1,11 @@
 ---
 id: RFC8279
 title:
-  type: main
+- type: main
   content: Multicast Using Bit Index Explicit Replication (BIER)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8279
+- content: https://www.rfc-editor.org/info/rfc8279
   type: src
 type: standard
 docid:
@@ -18,49 +18,66 @@ docid:
   type: DOI
 docnumber: RFC8279
 date:
-  type: published
+- type: published
   value: 2017-11
 contributor:
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Dolganow
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Przygienda
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Aldrin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document specifies a new architecture for the forwarding of multicast
+- content: This document specifies a new architecture for the forwarding of multicast
     data packets.  It provides optimal forwarding of multicast packets through a "multicast
     domain".  However, it does not require a protocol for explicitly building multicast
     distribution trees, nor does it require intermediate nodes to maintain any per-flow
@@ -73,10 +90,13 @@ abstract:
     are set in the BIER header.  The procedures for forwarding a packet based on its
     BIER header are specified in this document.  Elimination of the per-flow state
     and the explicit tree-building protocols results in a considerable simplification.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: Multicast
+fetched: '2022-01-06'
+keyword:
+- Multicast
 editorialgroup:
-  name: bier
+- name: bier

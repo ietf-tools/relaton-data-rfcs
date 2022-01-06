@@ -1,11 +1,11 @@
 ---
 id: RFC3847
 title:
-  type: main
+- type: main
   content: Restart Signaling for Intermediate System to Intermediate System (IS-IS)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3847
+- content: https://www.rfc-editor.org/info/rfc3847
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC3847
 date:
-  type: published
+- type: published
   value: 2004-07
 contributor:
 - person:
     name:
       completename:
         content: M. Shand
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Ginsberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2004-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a mechanism for a restarting router to signal to
+- content: This document describes a mechanism for a restarting router to signal to
     its neighbors that it is restarting, allowing them to reestablish their adjacencies
     without cycling through the down state, while still correctly initiating database
     synchronization.  This document additionally describes a mechanism for a restarting
@@ -47,19 +55,21 @@ abstract:
     neighbors and a mechanism to optimize LSP database synchronization, while minimizing
     transient routing disruption when a router starts.  This memo provides information
     for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC5306
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - LSP database synchronization
 - transient routing disruption
 - database synchronization
 editorialgroup:
-  name: isis
+- name: isis

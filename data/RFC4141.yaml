@@ -1,11 +1,11 @@
 ---
 id: RFC4141
 title:
-  type: main
+- type: main
   content: SMTP and MIME Extensions for Content Conversion
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4141
+- content: https://www.rfc-editor.org/info/rfc4141
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC4141
 date:
-  type: published
+- type: published
   value: 2005-11
 contributor:
 - person:
     name:
       completename:
         content: K. Toyoda
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Crocker
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: A message originator sometimes sends content in a form the recipient cannot
+- content: A message originator sometimes sends content in a form the recipient cannot
     process or would prefer not to process a form of lower quality than is preferred.  Such
     content needs to be converted to an acceptable form, with the same information
     or constrained information (e.g., changing from color to black and white).  In
@@ -47,14 +55,16 @@ abstract:
     performed by an intermediary.  This specification integrates two ESMTP extensions
     and three MIME content header fields, which defines a cooperative service that
     permits authorized, accountable content form conversion by intermediaries. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - esmtp
 - simple mail transfer protocol
 - extended simple mail transfer protocol
 - multipurpose internet mail extensions
 editorialgroup:
-  name: fax
+- name: fax

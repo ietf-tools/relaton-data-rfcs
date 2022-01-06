@@ -1,11 +1,11 @@
 ---
 id: RFC8520
 title:
-  type: main
+- type: main
   content: Manufacturer Usage Description Specification
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8520
+- content: https://www.rfc-editor.org/info/rfc8520
   type: src
 type: standard
 docid:
@@ -18,48 +18,61 @@ docid:
   type: DOI
 docnumber: RFC8520
 date:
-  type: published
+- type: published
   value: 2019-03
 contributor:
 - person:
     name:
       completename:
         content: E. Lear
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Droms
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Romascanu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo specifies a component-based architecture for Manufacturer Usage
+- content: This memo specifies a component-based architecture for Manufacturer Usage
     Descriptions (MUDs). The goal of MUD is to provide a means for end devices to
     signal to the network what sort of access and network functionality they require
     to properly function. The initial focus is on access control. Later work can delve
     into other aspects. This memo specifies two YANG modules, IPv4 and IPv6 DHCP options,
     a Link Layer Discovery Protocol (LLDP) TLV, a URL, an X.509 certificate extension,
     and a means to sign and verify the descriptions.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MUD
 - IoT Security
 - Access Policy
 editorialgroup:
-  name: opsawg
+- name: opsawg

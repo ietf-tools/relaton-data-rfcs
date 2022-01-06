@@ -1,12 +1,12 @@
 ---
 id: RFC7673
 title:
-  type: main
+- type: main
   content: Using DNS-Based Authentication of Named Entities (DANE) TLSA Records with
     SRV Records
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7673
+- content: https://www.rfc-editor.org/info/rfc7673
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC7673
 date:
-  type: published
+- type: published
   value: 2015-10
 contributor:
 - person:
     name:
       completename:
         content: T. Finch
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Miller
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Saint-Andre
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The DNS-Based Authentication of Named Entities (DANE) specification (RFC
+- content: The DNS-Based Authentication of Named Entities (DANE) specification (RFC
     6698) describes how to use TLSA resource records secured by DNSSEC (RFC 4033)
     to associate a server's connection endpoint with its Transport Layer Security
     (TLS) certificate (thus enabling administrators of domain names to specify the
@@ -56,9 +67,11 @@ abstract:
     for a service domain name cannot apply the rules from RFC 6698.  Therefore, this
     document provides guidelines that enable such protocols to locate and use TLSA
     records.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: dane
+- name: dane

@@ -1,12 +1,12 @@
 ---
 id: RFC4138
 title:
-  type: main
+- type: main
   content: 'Forward RTO-Recovery (F-RTO): An Algorithm for Detecting Spurious Retransmission
     Timeouts with TCP and the Stream Control Transmission Protocol (SCTP)'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4138
+- content: https://www.rfc-editor.org/info/rfc4138
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC4138
 date:
-  type: published
+- type: published
   value: 2005-08
 contributor:
 - person:
     name:
       completename:
         content: P. Sarolahti
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Kojo
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Spurious retransmission timeouts cause suboptimal TCP performance because
+- content: Spurious retransmission timeouts cause suboptimal TCP performance because
     they often result in unnecessary retransmission of the last window of data.  This
     document describes the F-RTO detection algorithm for detecting spurious TCP retransmission
     timeouts.  F-RTO is a TCP sender-only algorithm that does not require any TCP
@@ -52,12 +60,14 @@ abstract:
     performance in the case of a spurious timeout.  The F-RTO algorithm can also be
     applied to the Stream Control Transmission Protocol (SCTP).  This memo defines
     an Experimental Protocol for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - tcp
 - transmission control protocol
 editorialgroup:
-  name: tcpm
+- name: tcpm

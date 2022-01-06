@@ -1,12 +1,12 @@
 ---
 id: RFC8209
 title:
-  type: main
+- type: main
   content: A Profile for BGPsec Router Certificates, Certificate Revocation Lists,
     and Certification Requests
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8209
+- content: https://www.rfc-editor.org/info/rfc8209
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC8209
 date:
-  type: published
+- type: published
   value: 2017-09
 contributor:
 - person:
     name:
       completename:
         content: M. Reynolds
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Turner
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Kent
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a standard profile for X.509 certificates used to
+- content: This document defines a standard profile for X.509 certificates used to
     enable validation of Autonomous System (AS) paths in the Border Gateway Protocol
     (BGP), as part of an extension to that protocol known as BGPsec.  BGP is the standard
     for inter-domain routing in the Internet; it is the "glue" that holds the Internet
@@ -64,15 +75,17 @@ abstract:
     and specifies Relying Party (RP) certificate path validation procedures for these
     EE certificates.  This document extends the RPKI; therefore, this document updates
     the RPKI Resource Certificates Profile (RFC 6487).
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6487
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: sidr
+- name: sidr

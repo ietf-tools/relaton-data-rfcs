@@ -1,11 +1,11 @@
 ---
 id: RFC8189
 title:
-  type: main
+- type: main
   content: Multi-Cost Application-Layer Traffic Optimization (ALTO)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8189
+- content: https://www.rfc-editor.org/info/rfc8189
   type: src
 type: standard
 docid:
@@ -18,45 +18,58 @@ docid:
   type: DOI
 docnumber: RFC8189
 date:
-  type: published
+- type: published
   value: 2017-10
 contributor:
 - person:
     name:
       completename:
         content: S. Randriamasy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Roome
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Schwan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Application-Layer Traffic Optimization (ALTO) protocol, specified in
+- content: The Application-Layer Traffic Optimization (ALTO) protocol, specified in
     RFC 7285, defines several services that return various metrics describing the
     costs between network endpoints. This document defines a new service that allows
     an ALTO Client to retrieve several cost metrics in a single request for an ALTO
     filtered cost map and endpoint cost map. In addition, it extends the constraints
     to further filter those maps by allowing an ALTO Client to specify a logical combination
     of tests on several cost metrics.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ALTO Information Resources
 - Network Map
@@ -70,4 +83,4 @@ keyword:
 - Testable Cost Types
 - or-constraints
 editorialgroup:
-  name: alto
+- name: alto

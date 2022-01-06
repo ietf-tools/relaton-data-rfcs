@@ -1,12 +1,12 @@
 ---
 id: RFC6944
 title:
-  type: main
+- type: main
   content: 'Applicability Statement: DNS Security (DNSSEC) DNSKEY Algorithm Implementation
     Status'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6944
+- content: https://www.rfc-editor.org/info/rfc6944
   type: src
 type: standard
 docid:
@@ -19,21 +19,26 @@ docid:
   type: DOI
 docnumber: RFC6944
 date:
-  type: published
+- type: published
   value: 2013-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: S. Rose
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The DNS Security Extensions (DNSSEC) requires the use of cryptographic
+- content: The DNS Security Extensions (DNSSEC) requires the use of cryptographic
     algorithm suites for generating digital signatures over DNS data.  There is currently
     an IANA registry for these algorithms, but there is no record of the recommended
     implementation status of each algorithm.  This document provides an applicability
@@ -42,8 +47,10 @@ abstract:
     case that an algorithm is specified without an implementation status, this document
     assigns one.  This document updates RFCs 2536, 2539, 3110, 4034, 4398, 5155, 5702,
     and 5933.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -91,6 +98,6 @@ relation:
     formattedref:
       content: RFC5933
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: dnsext
+- name: dnsext

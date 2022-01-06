@@ -1,11 +1,11 @@
 ---
 id: RFC4015
 title:
-  type: main
+- type: main
   content: The Eifel Response Algorithm for TCP
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4015
+- content: https://www.rfc-editor.org/info/rfc4015
   type: src
 type: standard
 docid:
@@ -18,37 +18,48 @@ docid:
   type: DOI
 docnumber: RFC4015
 date:
-  type: published
+- type: published
   value: 2005-02
 contributor:
 - person:
     name:
       completename:
         content: R. Ludwig
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Gurtov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Based on an appropriate detection algorithm, the Eifel response algorithm
+- content: Based on an appropriate detection algorithm, the Eifel response algorithm
     provides a way for a TCP sender to respond to a detected spurious timeout.  It
     adapts the retransmission timer to avoid further spurious timeouts and (depending
     on the detection algorithm) can avoid the often unnecessary go-back-N retransmits
     that would otherwise be sent.  In addition, the Eifel response algorithm restores
     the congestion control state in such a way that packet bursts are avoided. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: transmision control protocol
+fetched: '2022-01-06'
+keyword:
+- transmision control protocol
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

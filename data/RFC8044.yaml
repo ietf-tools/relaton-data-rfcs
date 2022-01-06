@@ -1,11 +1,11 @@
 ---
 id: RFC8044
 title:
-  type: main
+- type: main
   content: Data Types in RADIUS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8044
+- content: https://www.rfc-editor.org/info/rfc8044
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC8044
 date:
-  type: published
+- type: published
   value: 2017-01
 contributor:
-  person:
+- person:
     name:
       completename:
         content: A. DeKok
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RADIUS specifications have used data types for two decades without defining
+- content: RADIUS specifications have used data types for two decades without defining
     them as managed entities.  During this time, RADIUS implementations have named
     the data types and have used them in attribute definitions.  This document updates
     the specifications to better follow established practice.  We do this by naming
@@ -42,8 +47,10 @@ abstract:
     we recommend that authors of RADIUS specifications use these types in preference
     to existing practice.  This document updates RFCs 2865, 3162, 4072, 6158, 6572,
     and 7268.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -76,6 +83,6 @@ relation:
     formattedref:
       content: RFC7268
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: radext
+- name: radext

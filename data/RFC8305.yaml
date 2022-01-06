@@ -1,11 +1,11 @@
 ---
 id: RFC8305
 title:
-  type: main
+- type: main
   content: 'Happy Eyeballs Version 2: Better Connectivity Using Concurrency'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8305
+- content: https://www.rfc-editor.org/info/rfc8305
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8305
 date:
-  type: published
+- type: published
   value: 2017-12
 contributor:
 - person:
     name:
       completename:
         content: D. Schinazi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Pauly
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Many communication protocols operating over the modern Internet use hostnames.  These
+- content: Many communication protocols operating over the modern Internet use hostnames.  These
     often resolve to multiple IP addresses, each of which may have different performance
     and connectivity characteristics.  Since specific addresses or address families
     (IPv4 or IPv6) may be blocked, broken, or sub-optimal on a network, clients that
@@ -48,10 +56,12 @@ abstract:
     this user-visible delay and provides an example algorithm, referred to as "Happy
     Eyeballs".  This document obsoletes the original algorithm description in RFC
     6555.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IPv6
 - IPv4
@@ -59,4 +69,4 @@ keyword:
 - DNS
 - NAT64
 editorialgroup:
-  name: v6ops
+- name: v6ops

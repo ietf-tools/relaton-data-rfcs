@@ -1,12 +1,12 @@
 ---
 id: RFC8950
 title:
-  type: main
+- type: main
   content: Advertising IPv4 Network Layer Reachability Information (NLRI) with an
     IPv6 Next Hop
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8950
+- content: https://www.rfc-editor.org/info/rfc8950
   type: src
 type: standard
 docid:
@@ -19,42 +19,56 @@ docid:
   type: DOI
 docnumber: RFC8950
 date:
-  type: published
+- type: published
   value: 2020-11
 contributor:
 - person:
     name:
       completename:
         content: S. Litkowski
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Agrawal
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Ananthamurthy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Patel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Multiprotocol BGP (MP-BGP) specifies that the set of usable next-hop address
+- content: Multiprotocol BGP (MP-BGP) specifies that the set of usable next-hop address
     families is determined by the Address Family Identifier (AFI) and the Subsequent
     Address Family Identifier (SAFI). The AFI/SAFI definitions for the IPv4 address
     family only have provisions for advertising a next-hop address that belongs to
@@ -67,14 +81,16 @@ abstract:
     the address actually belongs to, and a BGP Capability allowing MP-BGP peers to
     dynamically discover whether they can exchange IPv4 NLRI and VPN-IPv4 NLRI with
     an IPv6 next hop. This document obsoletes RFC 5549.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - bgp
 - mvpn
 - vpnv4
 - vpnv6
 editorialgroup:
-  name: bess
+- name: bess

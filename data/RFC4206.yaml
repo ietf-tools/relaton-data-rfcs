@@ -1,12 +1,12 @@
 ---
 id: RFC4206
 title:
-  type: main
+- type: main
   content: Label Switched Paths (LSP) Hierarchy with Generalized Multi-Protocol Label
     Switching (GMPLS) Traffic Engineering (TE)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4206
+- content: https://www.rfc-editor.org/info/rfc4206
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC4206
 date:
-  type: published
+- type: published
   value: 2005-10
 contributor:
 - person:
     name:
       completename:
         content: K. Kompella
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Y. Rekhter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: To improve scalability of Generalized Multi-Protocol Label Switching (GMPLS)
+- content: To improve scalability of Generalized Multi-Protocol Label Switching (GMPLS)
     it may be useful to aggregate Label Switched Paths (LSPs) by creating a hierarchy
     of such LSPs. A way to create such a hierarchy is by (a) a Label Switching Router
     (LSR) creating a Traffic Engineering Label Switched Path (TE LSP), (b) the LSR
@@ -50,10 +58,12 @@ abstract:
     path computation, and (d) nesting of LSPs originated by other LSRs into that LSP
     (by using the label stack construct). This document describes the mechanisms to
     accomplish this. [PROPOSED STANDARD]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - lsr
 - label switching router
@@ -61,4 +71,4 @@ keyword:
 - fa
 - forwarding adjacency
 editorialgroup:
-  name: mpls
+- name: mpls

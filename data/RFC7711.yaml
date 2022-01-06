@@ -1,11 +1,11 @@
 ---
 id: RFC7711
 title:
-  type: main
+- type: main
   content: PKIX over Secure HTTP (POSH)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7711
+- content: https://www.rfc-editor.org/info/rfc7711
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC7711
 date:
-  type: published
+- type: published
   value: 2015-11
 contributor:
 - person:
     name:
       completename:
         content: M. Miller
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Saint-Andre
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Experience has shown that it is difficult to deploy proper PKIX certificates
+- content: Experience has shown that it is difficult to deploy proper PKIX certificates
     for Transport Layer Security (TLS) in multi-tenanted environments.  As a result,
     domains hosted in such environments often deploy applications using certificates
     that identify the hosting service, not the hosted domain.  Such deployments force
@@ -49,13 +57,15 @@ abstract:
     protocols.  Although these methods were developed for use in the Extensible Messaging
     and Presence Protocol (XMPP) as a Domain Name Association (DNA) prooftype, they
     might also be usable in other non-HTTP application protocols.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Extensible Messaging and Presence Protocol
 - Jabber
 - federation
 editorialgroup:
-  name: xmpp
+- name: xmpp

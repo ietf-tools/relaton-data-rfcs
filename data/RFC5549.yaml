@@ -1,12 +1,12 @@
 ---
 id: RFC5549
 title:
-  type: main
+- type: main
   content: Advertising IPv4 Network Layer Reachability Information with an IPv6 Next
     Hop
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5549
+- content: https://www.rfc-editor.org/info/rfc5549
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC5549
 date:
-  type: published
+- type: published
   value: 2009-05
 contributor:
 - person:
     name:
       completename:
         content: F. Le Faucheur
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2009-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Multiprotocol BGP (MP-BGP) specifies that the set of network-layer protocols
+- content: Multiprotocol BGP (MP-BGP) specifies that the set of network-layer protocols
     to which the address carried in the Next Hop field may belong is determined by
     the Address Family Identifier (AFI) and the Subsequent Address Family Identifier
     (SAFI).  The current AFI/SAFI definitions for the IPv4 address family only have
@@ -54,19 +62,21 @@ abstract:
     actually belongs to, and a new BGP Capability allowing MP-BGP Peers to dynamically
     discover whether they can exchange IPv4 NLRI and VPN-IPv4 NLRI with an IPv6 Next
     Hop. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC8950
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - BGP
 - IPv6
 - IPv4
 editorialgroup:
-  name: softwire
+- name: softwire

@@ -1,11 +1,11 @@
 ---
 id: RFC8433
 title:
-  type: main
+- type: main
   content: A Simpler Method for Resolving Alert-Info URNs
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8433
+- content: https://www.rfc-editor.org/info/rfc8433
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC8433
 date:
-  type: published
+- type: published
   value: 2018-08
 contributor:
-  person:
+- person:
     name:
       completename:
         content: D. Worley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'The "alert" namespace of Uniform Resource Names (URNs) can be used in
+- content: 'The "alert" namespace of Uniform Resource Names (URNs) can be used in
     the Alert-Info header field of Session Initiation Protocol (SIP) requests and
     responses to inform a voice over IP (VoIP) telephone (user agent) of the characteristics
     of the call that the user agent has originated or terminated. The user agent must
@@ -43,10 +48,12 @@ abstract:
     agent''s signals and their meanings, construct a finite state machine (FSM) to
     process the URNs to select a signal in a way that obeys the restrictions given
     in the definition of the "alert" URN namespace.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Alert-Info
 - audio signals

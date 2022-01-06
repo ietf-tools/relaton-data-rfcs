@@ -1,11 +1,11 @@
 ---
 id: RFC6232
 title:
-  type: main
+- type: main
   content: Purge Originator Identification TLV for IS-IS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6232
+- content: https://www.rfc-editor.org/info/rfc6232
   type: src
 type: standard
 docid:
@@ -18,57 +18,76 @@ docid:
   type: DOI
 docnumber: RFC6232
 date:
-  type: published
+- type: published
   value: 2011-05
 contributor:
 - person:
     name:
       completename:
         content: F. Wei
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Y. Qin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Z. Li
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Li
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Dong
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: At present, an IS-IS purge does not contain any information identifying
+- content: At present, an IS-IS purge does not contain any information identifying
     the Intermediate System (IS) that generates the purge. This makes it difficult
     to locate the source IS. To address this issue, this document defines a TLV to
     be added to purges to record the system ID of the IS generating it. Since normal
     Link State Protocol Data Unit (LSP) flooding does not change LSP contents, this
     TLV should propagate with the purge. This document updates RFC 5301, RFC 5304,
     and RFC 5310. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -86,7 +105,7 @@ relation:
     formattedref:
       content: RFC5310
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Purge Originator Identification
 - IIH:n
@@ -94,4 +113,4 @@ keyword:
 - SNP:n
 - Purge:y
 editorialgroup:
-  name: isis
+- name: isis

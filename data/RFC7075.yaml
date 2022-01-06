@@ -1,11 +1,11 @@
 ---
 id: RFC7075
 title:
-  type: main
+- type: main
   content: Realm-Based Redirection In Diameter
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7075
+- content: https://www.rfc-editor.org/info/rfc7075
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC7075
 date:
-  type: published
+- type: published
   value: 2013-11
 contributor:
 - person:
     name:
       completename:
         content: T. Tsou
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Hao
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Taylor
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Diameter protocol includes a capability for message redirection, controlled
+- content: The Diameter protocol includes a capability for message redirection, controlled
     by an application-independent "redirect agent". In some circumstances, an operator
     may wish to redirect messages to an alternate domain without specifying individual
     hosts. This document specifies an application-specific mechanism by which a Diameter
@@ -55,18 +66,20 @@ abstract:
     this new function is referred to as a "Realm-based Redirect Server". This memo
     updates Sections 6.13 and 6.14 of RFC 6733 with respect to the usage of the Redirect-Host-Usage
     and Redirect-Max-Cache-Time Attribute-Value Pairs (AVPs).
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6733
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Diameter
 - routing
 editorialgroup:
-  name: dime
+- name: dime

@@ -1,11 +1,11 @@
 ---
 id: RFC5739
 title:
-  type: main
+- type: main
   content: IPv6 Configuration in Internet Key Exchange Protocol Version 2 (IKEv2)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5739
+- content: https://www.rfc-editor.org/info/rfc5739
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC5739
 date:
-  type: published
+- type: published
   value: 2010-02
 contributor:
 - person:
     name:
       completename:
         content: P. Eronen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Laganier
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Madson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2010-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: When Internet Key Exchange Protocol version 2 (IKEv2) is used for remote
+- content: When Internet Key Exchange Protocol version 2 (IKEv2) is used for remote
     VPN access (client to VPN gateway), the gateway assigns the client an IP address
     from the internal network using IKEv2 configuration payloads.  The configuration
     payloads specified in RFC 4306 work well for IPv4 but make it difficult to use
@@ -54,13 +65,15 @@ abstract:
     for IKEv2 that allows the VPN gateway to assign IPv6 prefixes to clients, enabling
     all features of IPv6 to be used with the client-gateway "virtual link".  This
     document defines an Experimental Protocol for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - remote vpn access
 - vpn gateway
 - virtual link
 editorialgroup:
-  name: ipsecme
+- name: ipsecme

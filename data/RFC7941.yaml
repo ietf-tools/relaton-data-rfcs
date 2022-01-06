@@ -1,12 +1,12 @@
 ---
 id: RFC7941
 title:
-  type: main
+- type: main
   content: RTP Header Extension for the RTP Control Protocol (RTCP) Source Description
     Items
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7941
+- content: https://www.rfc-editor.org/info/rfc7941
   type: src
 type: standard
 docid:
@@ -19,51 +19,67 @@ docid:
   type: DOI
 docnumber: RFC7941
 date:
-  type: published
+- type: published
   value: 2016-08
 contributor:
 - person:
     name:
       completename:
         content: M. Westerlund
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Burman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Even
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Zanaty
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Source Description (SDES) items are normally transported in the RTP Control
+- content: Source Description (SDES) items are normally transported in the RTP Control
     Protocol (RTCP).  In some cases, it can be beneficial to speed up the delivery
     of these items.  The main case is when a new synchronization source (SSRC) joins
     an RTP session and the receivers need this source's identity, relation to other
     sources, or its synchronization context, all of which may be fully or partially
     identified using SDES items.  To enable this optimization, this document specifies
     a new RTP header extension that can carry SDES items.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: avtext
+- name: avtext

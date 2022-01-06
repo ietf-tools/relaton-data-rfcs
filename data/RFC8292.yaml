@@ -1,11 +1,11 @@
 ---
 id: RFC8292
 title:
-  type: main
+- type: main
   content: Voluntary Application Server Identification (VAPID) for Web Push
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8292
+- content: https://www.rfc-editor.org/info/rfc8292
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8292
 date:
-  type: published
+- type: published
   value: 2017-11
 contributor:
 - person:
     name:
       completename:
         content: M. Thomson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Beverloo
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: An application server can use the Voluntary Application Server Identification
+- content: An application server can use the Voluntary Application Server Identification
     (VAPID) method described in this document to voluntarily identify itself to a
     push service.  The "vapid" authentication scheme allows a client to include its
     identity in a signed token with requests that it makes.  The signature can be
@@ -48,14 +56,16 @@ abstract:
     of a push service to contact the operator of the application server.  The signature
     can be used to restrict the use of a push message subscription to a single application
     server.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - authentication
 - restricted
 - restriction
 - signature
 editorialgroup:
-  name: webpush
+- name: webpush

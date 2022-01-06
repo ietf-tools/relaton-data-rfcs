@@ -1,11 +1,11 @@
 ---
 id: RFC8942
 title:
-  type: main
+- type: main
   content: HTTP Client Hints
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8942
+- content: https://www.rfc-editor.org/info/rfc8942
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8942
 date:
-  type: published
+- type: published
   value: 2021-02
 contributor:
 - person:
     name:
       completename:
         content: I. Grigorik
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: Y. Weiss
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: HTTP defines proactive content negotiation to allow servers to select the
+- content: HTTP defines proactive content negotiation to allow servers to select the
     appropriate response for a given request, based upon the user agent's characteristics,
     as expressed in request headers. In practice, user agents are often unwilling
     to send those request headers, because it is not clear whether they will be used,
@@ -47,10 +55,13 @@ abstract:
     Accept-CH response header that servers can use to advertise their use of request
     headers for proactive content negotiation, along with a set of guidelines for
     the creation of such headers, colloquially known as "Client Hints."
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: Content Negotiation
+fetched: '2022-01-06'
+keyword:
+- Content Negotiation
 editorialgroup:
-  name: httpbis
+- name: httpbis

@@ -1,11 +1,11 @@
 ---
 id: RFC7474
 title:
-  type: main
+- type: main
   content: Security Extension for OSPFv2 When Using Manual Key Management
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7474
+- content: https://www.rfc-editor.org/info/rfc7474
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7474
 date:
-  type: published
+- type: published
   value: 2015-04
 contributor:
 - person:
     name:
       completename:
         content: M. Bhatia
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Hartman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Zhang
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Lindem
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The current OSPFv2 cryptographic authentication mechanism as defined in
+- content: The current OSPFv2 cryptographic authentication mechanism as defined in
     RFCs 2328 and 5709 is vulnerable to both inter-session and intra- session replay
     attacks when using manual keying. Additionally, the existing cryptographic authentication
     mechanism does not cover the IP header. This omission can be exploited to carry
@@ -63,8 +77,10 @@ abstract:
     packets. Additionally, we also describe some changes in the cryptographic hash
     computation that will eliminate attacks resulting from OSPFv2 not protecting the
     IP header.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -77,11 +93,11 @@ relation:
     formattedref:
       content: RFC5709
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - OSPF
 - cryptographic authentication
 - security
 - replay attacks
 editorialgroup:
-  name: ospf
+- name: ospf

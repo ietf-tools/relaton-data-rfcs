@@ -1,12 +1,12 @@
 ---
 id: RFC7802
 title:
-  type: main
+- type: main
   content: A Pseudo-Random Function (PRF) for the Kerberos V Generic Security Service
     Application Program Interface (GSS-API) Mechanism
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7802
+- content: https://www.rfc-editor.org/info/rfc7802
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC7802
 date:
-  type: published
+- type: published
   value: 2016-03
 contributor:
 - person:
     name:
       completename:
         content: S. Emery
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Williams
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines the Pseudo-Random Function (PRF) for the Kerberos
+- content: This document defines the Pseudo-Random Function (PRF) for the Kerberos
     V mechanism for the Generic Security Service Application Program Interface (GSS-API),
     based on the PRF defined for the Kerberos V cryptographic framework, for keying
     application protocols given an established Kerberos V GSS-API security context.
@@ -48,9 +56,11 @@ abstract:
     4402 starts the PRF+ counter at 1; however, a number of implementations start
     the counter at 0. As a result, the original specification would not be interoperable
     with existing implementations.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: kitten
+- name: kitten

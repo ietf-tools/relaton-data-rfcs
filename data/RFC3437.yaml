@@ -1,11 +1,11 @@
 ---
 id: RFC3437
 title:
-  type: main
+- type: main
   content: Layer-Two Tunneling Protocol Extensions for PPP Link Control Protocol Negotiation
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3437
+- content: https://www.rfc-editor.org/info/rfc3437
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC3437
 date:
-  type: published
+- type: published
   value: 2002-12
 contributor:
 - person:
     name:
       completename:
         content: W. Palter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Townsley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2002-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines extensions to the Layer Two Tunneling Protocol (L2TP)
+- content: This document defines extensions to the Layer Two Tunneling Protocol (L2TP)
     for enhanced support of link-specific Point to Point Protocol (PPP) options.  PPP
     endpoints typically have direct access to the common physical media connecting
     them and thus have detailed knowledge about the media that is in use.  When the
@@ -53,12 +61,14 @@ abstract:
     endpoints in advance of PPP LCP negotiation at the far end of an L2TP tunnel,
     as well as a mechanism for communicating the negotiated LCP options back to where
     the native PPP link resides. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - l2tp
 - lcp
 editorialgroup:
-  name: l2tpext
+- name: l2tpext

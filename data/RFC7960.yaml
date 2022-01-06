@@ -1,12 +1,12 @@
 ---
 id: RFC7960
 title:
-  type: main
+- type: main
   content: Interoperability Issues between Domain-based Message Authentication, Reporting,
     and Conformance (DMARC) and Indirect Email Flows
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7960
+- content: https://www.rfc-editor.org/info/rfc7960
   type: src
 type: standard
 docid:
@@ -19,63 +19,82 @@ docid:
   type: DOI
 docnumber: RFC7960
 date:
-  type: published
+- type: published
   value: 2016-09
 contributor:
 - person:
     name:
       completename:
         content: F. Martin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Lear
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Draegen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Zwicky
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Andersen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-09
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+- content: Domain-based Message Authentication, Reporting, and Conformance (DMARC)
     introduces a mechanism for expressing domain-level policies and preferences for
     email message validation, disposition, and reporting.  However, the DMARC mechanism
     enables potentially disruptive interoperability issues when messages do not flow
     directly from the author's administrative domain to the final Recipients.  Collectively,
     these email flows are referred to as "indirect email flows".  This document describes
     these interoperability issues and presents possible methods for addressing them.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - DMARC
 - SMTP
 - DKIM
 - SPF
 editorialgroup:
-  name: dmarc
+- name: dmarc

@@ -1,12 +1,12 @@
 ---
 id: RFC4771
 title:
-  type: main
+- type: main
   content: Integrity Transform Carrying Roll-Over Counter for the Secure Real-time
     Transport Protocol (SRTP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4771
+- content: https://www.rfc-editor.org/info/rfc4771
   type: src
 type: standard
 docid:
@@ -19,45 +19,59 @@ docid:
   type: DOI
 docnumber: RFC4771
 date:
-  type: published
+- type: published
   value: 2007-01
 contributor:
 - person:
     name:
       completename:
         content: V. Lehtovirta
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Naslund
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Norrman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2007-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines an integrity transform for Secure Real-time Transport
+- content: This document defines an integrity transform for Secure Real-time Transport
     Protocol (SRTP; see RFC 3711), which allows the roll-over counter (ROC) to be
     transmitted in SRTP packets as part of the authentication tag.  The need for sending
     the ROC in SRTP packets arises in situations where the receiver joins an ongoing
     SRTP session and needs to quickly and robustly synchronize.  The mechanism also
     enhances SRTP operation in cases where there is a risk of losing sender-receiver
     synchronization. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
-keyword: roc
+fetched: '2022-01-06'
+keyword:
+- roc
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

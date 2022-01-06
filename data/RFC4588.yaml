@@ -1,11 +1,11 @@
 ---
 id: RFC4588
 title:
-  type: main
+- type: main
   content: RTP Retransmission Payload Format
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4588
+- content: https://www.rfc-editor.org/info/rfc4588
   type: src
 type: standard
 docid:
@@ -18,63 +18,82 @@ docid:
   type: DOI
 docnumber: RFC4588
 date:
-  type: published
+- type: published
   value: 2006-07
 contributor:
 - person:
     name:
       completename:
         content: J. Rey
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Leon
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Miyazaki
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: V. Varsa
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Hakenberg
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RTP retransmission is an effective packet loss recovery technique for real-time
+- content: RTP retransmission is an effective packet loss recovery technique for real-time
     applications with relaxed delay bounds.  This document describes an RTP payload
     format for performing retransmissions.  Retransmitted RTP packets are sent in
     a separate stream from the original RTP stream.  It is assumed that feedback from
     receivers to senders is available.  In particular, it is assumed that Real-time
     Transport Control Protocol (RTCP) feedback as defined in the extended RTP profile
     for RTCP-based feedback (denoted RTP/AVPF) is available in this memo. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - real time transport protocol
 - rtcp
 - real-time transport control protocol
 - RTP/AVPF
 editorialgroup:
-  name: avt
+- name: avt

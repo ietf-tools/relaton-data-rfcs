@@ -1,11 +1,11 @@
 ---
 id: RFC8497
 title:
-  type: main
+- type: main
   content: Marking SIP Messages to Be Logged
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8497
+- content: https://www.rfc-editor.org/info/rfc8497
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8497
 date:
-  type: published
+- type: published
   value: 2018-11
 contributor:
 - person:
     name:
       completename:
         content: P. Dawes
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Arunachalam
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: SIP networks use signaling monitoring tools to diagnose user-reported problems
+- content: SIP networks use signaling monitoring tools to diagnose user-reported problems
     and to perform regression testing if network or user agent (UA) software is upgraded.
     As networks grow and become interconnected, including connection via transit networks,
     it becomes impractical to predict the path that SIP signaling will take between
@@ -50,10 +58,12 @@ abstract:
     in normal user agent signaling. Operators of all networks on the signaling path
     can agree to carry such marking end to end, including the originating and terminating
     SIP user agents, even if a session originates and terminates in different networks.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - SIP
 - logme
@@ -62,4 +72,4 @@ keyword:
 - debugging
 - logging
 editorialgroup:
-  name: insipid
+- name: insipid

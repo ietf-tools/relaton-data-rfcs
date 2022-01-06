@@ -1,11 +1,11 @@
 ---
 id: RFC5250
 title:
-  type: main
+- type: main
   content: The OSPF Opaque LSA Option
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5250
+- content: https://www.rfc-editor.org/info/rfc5250
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC5250
 date:
-  type: published
+- type: published
   value: 2008-07
 contributor:
 - person:
     name:
       completename:
         content: L. Berger
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: I. Bryskin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Zinin
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Coltun
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines enhancements to the OSPF protocol to support a new
+- content: This document defines enhancements to the OSPF protocol to support a new
     class of link state advertisements (LSAs) called Opaque LSAs. Opaque LSAs provide
     a generalized mechanism to allow for the future extensibility of OSPF. Opaque
     LSAs consist of a standard LSA header followed by application-specific information.
@@ -62,14 +76,16 @@ abstract:
     to all or some limited portion of the OSPF topology. This document replaces RFC
     2370 and adds to it a mechanism to enable an OSPF router to validate Autonomous
     System (AS)-scope Opaque LSAs originated outside of the router's OSPF area. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - OSPF-LSA]
 - open shortest path first
 - link state advertisement
 - opaque lsas
 editorialgroup:
-  name: ospf
+- name: ospf

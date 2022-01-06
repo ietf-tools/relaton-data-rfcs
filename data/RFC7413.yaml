@@ -1,11 +1,11 @@
 ---
 id: RFC7413
 title:
-  type: main
+- type: main
   content: TCP Fast Open
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7413
+- content: https://www.rfc-editor.org/info/rfc7413
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC7413
 date:
-  type: published
+- type: published
   value: 2014-12
 contributor:
 - person:
     name:
       completename:
         content: Y. Cheng
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Chu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Radhakrishnan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Jain
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes an experimental TCP mechanism called TCP Fast Open
+- content: This document describes an experimental TCP mechanism called TCP Fast Open
     (TFO).  TFO allows data to be carried in the SYN and SYN-ACK packets and consumed
     by the receiving end during the initial connection handshake, and saves up to
     one full round-trip time (RTT) compared to the standard TCP, which requires a
@@ -62,9 +76,11 @@ abstract:
     be replayed to an application in some rare circumstances.  Applications should
     not use TFO unless they can tolerate this issue, as detailed in the Applicability
     section.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: tcpm
+- name: tcpm

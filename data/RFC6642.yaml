@@ -1,11 +1,11 @@
 ---
 id: RFC6642
 title:
-  type: main
+- type: main
   content: RTP Control Protocol (RTCP) Extension for a Third-Party Loss Report
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6642
+- content: https://www.rfc-editor.org/info/rfc6642
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6642
 date:
-  type: published
+- type: published
   value: 2012-06
 contributor:
 - person:
     name:
       completename:
         content: Q. Wu
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: F. Xia
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Even
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism
+- content: In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism
     defined in RFC 4585, a feedback target may experience transient overload if some
     event causes a large number of receivers to send feedback at once.  This overload
     is usually avoided by ensuring that feedback reports are forwarded to all receivers,
@@ -56,13 +67,15 @@ abstract:
     Loss Report that can be used to inform receivers that the feedback target is aware
     of some loss event, allowing them to suppress feedback.  Associated Session Description
     Protocol (SDP) signaling is also defined. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Feedback Suppression
 - NACK
 - Retransmission
 editorialgroup:
-  name: avtcore
+- name: avtcore

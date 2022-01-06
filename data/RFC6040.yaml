@@ -1,11 +1,11 @@
 ---
 id: RFC6040
 title:
-  type: main
+- type: main
   content: Tunnelling of Explicit Congestion Notification
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6040
+- content: https://www.rfc-editor.org/info/rfc6040
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC6040
 date:
-  type: published
+- type: published
   value: 2010-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: B. Briscoe
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2010-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document redefines how the explicit congestion notification (ECN)
+- content: This document redefines how the explicit congestion notification (ECN)
     field of the IP header should be constructed on entry to and exit from any IP-in-IP
     tunnel.  On encapsulation, it updates RFC 3168 to bring all IP-in-IP tunnels (v4
     or v6) into line with RFC 4301 IPsec ECN processing.  On decapsulation, it updates
@@ -47,8 +52,10 @@ abstract:
     and the implications is included.  In the unlikely event that the new rules do
     not meet a specific need, RFC 4774 gives guidance on designing alternate ECN semantics,
     and this document extends that to include tunnelling issues. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -66,7 +73,7 @@ relation:
     formattedref:
       content: RFC4774
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Congestion Control and Management
 - Congestion Notification
@@ -78,4 +85,4 @@ keyword:
 - ECN
 - IPsec
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

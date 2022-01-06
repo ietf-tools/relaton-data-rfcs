@@ -1,11 +1,11 @@
 ---
 id: RFC7427
 title:
-  type: main
+- type: main
   content: Signature Authentication in the Internet Key Exchange Version 2 (IKEv2)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7427
+- content: https://www.rfc-editor.org/info/rfc7427
   type: src
 type: standard
 docid:
@@ -18,44 +18,54 @@ docid:
   type: DOI
 docnumber: RFC7427
 date:
-  type: published
+- type: published
   value: 2015-01
 contributor:
 - person:
     name:
       completename:
         content: T. Kivinen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Snyder
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Internet Key Exchange Version 2 (IKEv2) protocol has limited support
+- content: The Internet Key Exchange Version 2 (IKEv2) protocol has limited support
     for the Elliptic Curve Digital Signature Algorithm (ECDSA).  The current version
     only includes support for three Elliptic Curve groups, and there is a fixed hash
     algorithm tied to each group.  This document generalizes IKEv2 signature support
     to allow any signature method supported by PKIX and also adds signature hash algorithm
     negotiation.  This is a generic mechanism and is not limited to ECDSA; it can
     also be used with other signature algorithms.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC7296
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IPsec
 - IKE
@@ -69,4 +79,4 @@ keyword:
 - SASSA-PSS
 - PKIX
 editorialgroup:
-  name: ipsecme
+- name: ipsecme

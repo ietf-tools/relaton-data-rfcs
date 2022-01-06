@@ -1,11 +1,11 @@
 ---
 id: RFC8028
 title:
-  type: main
+- type: main
   content: First-Hop Router Selection by Hosts in a Multi-Prefix Network
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8028
+- content: https://www.rfc-editor.org/info/rfc8028
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8028
 date:
-  type: published
+- type: published
   value: 2016-11
 contributor:
 - person:
     name:
       completename:
         content: F. Baker
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Carpenter
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes expected IPv6 host behavior in a scenario that
+- content: This document describes expected IPv6 host behavior in a scenario that
     has more than one prefix, each allocated by an upstream network that is assumed
     to implement BCP 38 ingress filtering, when the host has multiple routers to choose
     from.  It also applies to other scenarios such as the usage of stateful firewalls
@@ -52,15 +60,17 @@ abstract:
     routers are advertising that prefix in their Router Advertisement Prefix Information
     Options, this document specifies to which router a host should present its transmission.  It
     updates RFC 4861.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC4861
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: 6man
+- name: 6man

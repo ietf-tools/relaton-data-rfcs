@@ -1,11 +1,11 @@
 ---
 id: RFC4551
 title:
-  type: main
+- type: main
   content: IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4551
+- content: https://www.rfc-editor.org/info/rfc4551
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC4551
 date:
-  type: published
+- type: published
   value: 2006-06
 contributor:
 - person:
     name:
       completename:
         content: A. Melnikov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Hole
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2006-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a
+- content: Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a
     common IMAP mailbox. Examples include different clients working on behalf of the
     same user, and multiple users accessing shared mailboxes. These clients need a
     mechanism to synchronize state changes for messages within the mailbox. They must
@@ -50,8 +58,10 @@ abstract:
     and resolve conflicts between multiple writing mail clients. The Conditional Store
     facility also allows a client to quickly resynchronize mailbox flag changes. This
     document defines an extension to IMAP (RFC 3501). [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -64,7 +74,8 @@ relation:
     formattedref:
       content: RFC3501
       format: text/plain
-fetched: '2022-01-05'
-keyword: internet mail access protocol
+fetched: '2022-01-06'
+keyword:
+- internet mail access protocol
 editorialgroup:
-  name: imapext
+- name: imapext

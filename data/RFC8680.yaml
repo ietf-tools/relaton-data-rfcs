@@ -1,11 +1,11 @@
 ---
 id: RFC8680
 title:
-  type: main
+- type: main
   content: Forward Error Correction (FEC) Framework Extension to Sliding Window Codes
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8680
+- content: https://www.rfc-editor.org/info/rfc8680
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8680
 date:
-  type: published
+- type: published
   value: 2020-01
 contributor:
 - person:
     name:
       completename:
         content: V. Roca
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Begen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 6363 describes a framework for using Forward Error Correction (FEC)
+- content: RFC 6363 describes a framework for using Forward Error Correction (FEC)
     codes to provide protection against packet loss.  The framework supports applying
     FEC to arbitrary packet flows over unreliable transport and is primarily intended
     for real-time, or streaming, media.  However, FECFRAME as per RFC 6363 is restricted
@@ -48,16 +56,18 @@ abstract:
     way.  During multicast/broadcast real-time content delivery, the use of sliding
     window codes significantly improves robustness in harsh environments, with less
     repair traffic and lower FEC-related added latency.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6363
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - FEC
 - FECFRAME
@@ -65,4 +75,4 @@ keyword:
 - RLC
 - Sliding Window FEC Codes
 editorialgroup:
-  name: tsvwg
+- name: tsvwg

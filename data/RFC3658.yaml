@@ -1,11 +1,11 @@
 ---
 id: RFC3658
 title:
-  type: main
+- type: main
   content: Delegation Signer (DS) Resource Record (RR)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3658
+- content: https://www.rfc-editor.org/info/rfc3658
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC3658
 date:
-  type: published
+- type: published
   value: 2003-12
 contributor:
-  person:
+- person:
     name:
       completename:
         content: O. Gudmundsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2003-12
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The delegation signer (DS) resource record (RR) is inserted at a zone cut
+- content: The delegation signer (DS) resource record (RR) is inserted at a zone cut
     (i.e., a delegation point) to indicate that the delegated zone is digitally signed
     and that the delegated zone recognizes the indicated key as a valid zone key for
     the delegated zone.  The DS RR is a modification to the DNS Security Extensions
@@ -41,8 +46,10 @@ abstract:
     on inference.  This document defines the DS RR, gives examples of how it is used
     and describes the implications on resolvers.  This change is not backwards compatible
     with RFC 2535.  This document updates RFC 1035, RFC 2535, RFC 3008 and RFC 3090.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -80,7 +87,7 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - zone cut
 - zone key
@@ -88,4 +95,4 @@ keyword:
 - dns
 - domain name system
 editorialgroup:
-  name: dnsext
+- name: dnsext

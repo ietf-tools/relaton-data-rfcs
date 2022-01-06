@@ -1,12 +1,12 @@
 ---
 id: RFC7162
 title:
-  type: main
+- type: main
   content: 'IMAP Extensions: Quick Flag Changes Resynchronization (CONDSTORE) and
     Quick Mailbox Resynchronization (QRESYNC)'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7162
+- content: https://www.rfc-editor.org/info/rfc7162
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC7162
 date:
-  type: published
+- type: published
   value: 2014-05
 contributor:
 - person:
     name:
       completename:
         content: A. Melnikov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Cridland
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-05
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a
+- content: Often, multiple IMAP (RFC 3501) clients need to coordinate changes to a
     common IMAP mailbox. Examples include different clients working on behalf of the
     same user and multiple users accessing shared mailboxes. These clients need a
     mechanism to efficiently synchronize state changes for messages within the mailbox.
@@ -54,16 +62,18 @@ abstract:
     server-side state or client round trips. Hence, this memo obsoletes RFC 5162.
     Finally, this document also updates the line-length recommendation in Section
     3.2.1.5 of RFC 2683.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC2683
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IMAP
 - CONDSTORE
@@ -72,4 +82,4 @@ keyword:
 - EXPUNGE
 - quick resynchronization
 editorialgroup:
-  name: qresync
+- name: qresync

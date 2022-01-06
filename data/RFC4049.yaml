@@ -1,11 +1,11 @@
 ---
 id: RFC4049
 title:
-  type: main
+- type: main
   content: 'BinaryTime: An Alternate Format for Representing Date and Time in ASN.1'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc4049
+- content: https://www.rfc-editor.org/info/rfc4049
   type: src
 type: standard
 docid:
@@ -18,36 +18,43 @@ docid:
   type: DOI
 docnumber: RFC4049
 date:
-  type: published
+- type: published
   value: 2005-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Housley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document specifies a new ASN.1 type for representing time: BinaryTime.  This
+- content: 'This document specifies a new ASN.1 type for representing time: BinaryTime.  This
     document also specifies an alternate to the signing-time attribute for use with
     the Cryptographic Message Syntax(CMS) SignedData and AuthenticatedData content
     types; the binary-signing-time attribute uses BinaryTime.  CMS and the signing-time
     attribute are defined in RFC 3852.  This memo defines an Experimental Protocol
     for the Internet community.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: obsoletedBy
+- type: obsoletedBy
   bibitem:
     formattedref:
       content: RFC6019
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - signing-time attribute
 - cryptographic message syntax
@@ -55,4 +62,4 @@ keyword:
 - SignedData
 - AuthenticatedData
 editorialgroup:
-  name: NON WORKING GROUP
+- name: NON WORKING GROUP

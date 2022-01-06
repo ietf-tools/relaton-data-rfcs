@@ -1,11 +1,11 @@
 ---
 id: RFC6481
 title:
-  type: main
+- type: main
   content: A Profile for Resource Certificate Repository Structure
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6481
+- content: https://www.rfc-editor.org/info/rfc6481
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6481
 date:
-  type: published
+- type: published
   value: 2012-02
 contributor:
 - person:
     name:
       completename:
         content: G. Huston
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Loomans
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Michaelson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document defines a profile for the structure of the Resource Public
+- content: This document defines a profile for the structure of the Resource Public
     Key Infrastructure (RPKI) distributed repository.  Each individual repository
     publication point is a directory that contains files that correspond to X.509/PKIX
     Resource Certificates, Certificate Revocation Lists and signed objects.  This
@@ -55,12 +66,14 @@ abstract:
     cache that is intended to facilitate synchronization across a distributed collection
     of repository publication points and to facilitate certification path construction.
     [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - rpki
 - Resource Public Key Infrastructure
 editorialgroup:
-  name: sidr
+- name: sidr

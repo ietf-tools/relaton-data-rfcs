@@ -1,11 +1,11 @@
 ---
 id: RFC7129
 title:
-  type: main
+- type: main
   content: Authenticated Denial of Existence in the DNS
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7129
+- content: https://www.rfc-editor.org/info/rfc7129
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC7129
 date:
-  type: published
+- type: published
   value: 2014-02
 contributor:
 - person:
     name:
       completename:
         content: R. Gieben
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: W. Mekking
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Authenticated denial of existence allows a resolver to validate that a
+- content: Authenticated denial of existence allows a resolver to validate that a
     certain domain name does not exist. It is also used to signal that a domain name
     exists but does not have the specific resource record (RR) type you were asking
     for. When returning a negative DNS Security Extensions (DNSSEC) response, a name
@@ -47,10 +55,12 @@ abstract:
     amount is three. This document provides additional background commentary and some
     context for the NSEC and NSEC3 mechanisms used by DNSSEC to provide authenticated
     denial-of-existence responses.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Internet
 - DNSSEC

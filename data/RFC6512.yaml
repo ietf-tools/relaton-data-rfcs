@@ -1,11 +1,11 @@
 ---
 id: RFC6512
 title:
-  type: main
+- type: main
   content: Using Multipoint LDP When the Backbone Has No Route to the Root
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6512
+- content: https://www.rfc-editor.org/info/rfc6512
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC6512
 date:
-  type: published
+- type: published
   value: 2012-02
 contributor:
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Rosen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Napierala
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: N. Leymann
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The control protocol used for constructing Point-to-Multipoint and Multipoint-to-Multipoint
+- content: The control protocol used for constructing Point-to-Multipoint and Multipoint-to-Multipoint
     Label Switched Paths ("MP LSPs") contains a field that identifies the address
     of a "root node".  Intermediate nodes are expected to be able to look up that
     address in their routing tables.  However, this is not possible if the route to
@@ -62,9 +76,11 @@ abstract:
     through a BGP-free core.  In these procedures, the root node address is temporarily
     replaced by an address that is known to the intermediate nodes and is on the path
     to the true root node. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: mpls
+- name: mpls

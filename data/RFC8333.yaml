@@ -1,11 +1,11 @@
 ---
 id: RFC8333
 title:
-  type: main
+- type: main
   content: Micro-loop Prevention by Introducing a Local Convergence Delay
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8333
+- content: https://www.rfc-editor.org/info/rfc8333
   type: src
 type: standard
 docid:
@@ -18,42 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8333
 date:
-  type: published
+- type: published
   value: 2018-03
 contributor:
 - person:
     name:
       completename:
         content: S. Litkowski
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: B. Decraene
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Filsfils
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: P. Francois
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a mechanism for link-state routing protocols that
+- content: This document describes a mechanism for link-state routing protocols that
     prevents local transient forwarding loops in case of link failure. This mechanism
     proposes a two-step convergence by introducing a delay between the convergence
     of the node adjacent to the topology change and the network-wide convergence.
@@ -63,9 +77,11 @@ abstract:
     event in order to keep the mechanism simple. Simulations using real network topologies
     have been performed and show that local loops are a significant portion (>50%)
     of the total forwarding loops.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: rtgwg
+- name: rtgwg

@@ -1,12 +1,12 @@
 ---
 id: RFC8302
 title:
-  type: main
+- type: main
   content: 'Transparent Interconnection of Lots of Links (TRILL): ARP and Neighbor
     Discovery (ND) Optimization'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8302
+- content: https://www.rfc-editor.org/info/rfc8302
   type: src
 type: standard
 docid:
@@ -19,49 +19,66 @@ docid:
   type: DOI
 docnumber: RFC8302
 date:
-  type: published
+- type: published
   value: 2018-01
 contributor:
 - person:
     name:
       completename:
         content: Y. Li
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Eastlake 3rd
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Dunbar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Perlman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Umair
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2018-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes mechanisms to optimize the Address Resolution Protocol
+- content: This document describes mechanisms to optimize the Address Resolution Protocol
     (ARP) and Neighbor Discovery (ND) traffic in a Transparent Interconnection of
     Lots of Links (TRILL) campus.  TRILL switches maintain a cache of IP / Media Access
     Control (MAC) address / Data Label bindings that are learned from ARP/ND requests
@@ -69,10 +86,12 @@ abstract:
     Routing Bridge (RBridge) to avoid flooding an ARP/ND request by either responding
     to it directly or encapsulating it and unicasting it.  Such optimization reduces
     packet flooding over a TRILL campus.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - proxy
 - RARP
@@ -81,4 +100,4 @@ keyword:
 - DHCP
 - flooding
 editorialgroup:
-  name: trill
+- name: trill

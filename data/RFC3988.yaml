@@ -1,12 +1,12 @@
 ---
 id: RFC3988
 title:
-  type: main
+- type: main
   content: Maximum Transmission Unit Signalling Extensions for the Label Distribution
     Protocol
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc3988
+- content: https://www.rfc-editor.org/info/rfc3988
   type: src
 type: standard
 docid:
@@ -19,28 +19,36 @@ docid:
   type: DOI
 docnumber: RFC3988
 date:
-  type: published
+- type: published
   value: 2005-01
 contributor:
 - person:
     name:
       completename:
         content: B. Black
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Kompella
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2005-01
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: Proper functioning of RFC 1191 path Maximum Transmission Unit (MTU) discovery
+- content: Proper functioning of RFC 1191 path Maximum Transmission Unit (MTU) discovery
     requires that IP routers have knowledge of the MTU for each link to which they
     are connected.  As currently specified, the Label Distribution Protocol (LDP)
     does not have the ability to signal the MTU for a Label Switched Path (LSP) to
@@ -49,10 +57,12 @@ abstract:
     equivalent off-line mechanisms.  This document specifies experimental extensions
     to LDP in support of LSP MTU discovery.  This memo defines an Experimental Protocol
     for the Internet community.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - mtu
 - ldp
@@ -61,4 +71,4 @@ keyword:
 - label switching router
 - lsr
 editorialgroup:
-  name: mpls
+- name: mpls

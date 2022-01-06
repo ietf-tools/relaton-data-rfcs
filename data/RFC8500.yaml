@@ -1,11 +1,11 @@
 ---
 id: RFC8500
 title:
-  type: main
+- type: main
   content: IS-IS Routing with Reverse Metric
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8500
+- content: https://www.rfc-editor.org/info/rfc8500
   type: src
 type: standard
 docid:
@@ -18,43 +18,56 @@ docid:
   type: DOI
 docnumber: RFC8500
 date:
-  type: published
+- type: published
   value: 2019-02
 contributor:
 - person:
     name:
       completename:
         content: N. Shen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Amante
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Abrahamsson
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2019-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes a mechanism to allow IS-IS routing to quickly and
+- content: This document describes a mechanism to allow IS-IS routing to quickly and
     accurately shift traffic away from either a point-to-point or multi-access LAN
     interface during network maintenance or other operational events.  This is accomplished
     by signaling adjacent IS-IS neighbors with a higher reverse metric, i.e., the
     metric towards the signaling IS-IS router.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IGP
 - IS-IS
@@ -62,4 +75,4 @@ keyword:
 - Reverse-Metric
 - IIH
 editorialgroup:
-  name: lsr
+- name: lsr

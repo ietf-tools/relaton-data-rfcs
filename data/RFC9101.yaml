@@ -1,12 +1,12 @@
 ---
 id: RFC9101
 title:
-  type: main
+- type: main
   content: 'The OAuth 2.0 Authorization Framework: JWT-Secured Authorization Request
     (JAR)'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc9101
+- content: https://www.rfc-editor.org/info/rfc9101
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC9101
 date:
-  type: published
+- type: published
   value: 2021-08
 contributor:
 - person:
     name:
       completename:
         content: N. Sakimura
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Bradley
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Jones
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The authorization request in OAuth 2.0 described in RFC 6749 utilizes query
+- content: The authorization request in OAuth 2.0 described in RFC 6749 utilizes query
     parameter serialization, which means that authorization request parameters are
     encoded in the URI of the request and sent through user agents such as web browsers.
     While it is easy to implement, it means that a) the communication through the
@@ -60,10 +71,12 @@ abstract:
     Web Encryption (JWE) so that the integrity, source authentication, and confidentiality
     properties of the authorization request are attained. The request can be sent
     by value or by reference.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Assertion
 - Claim
@@ -78,4 +91,4 @@ keyword:
 - JSON Web Encryption
 - JWE
 editorialgroup:
-  name: oauth
+- name: oauth

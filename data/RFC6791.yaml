@@ -1,11 +1,11 @@
 ---
 id: RFC6791
 title:
-  type: main
+- type: main
   content: Stateless Source Address Mapping for ICMPv6 Packets
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6791
+- content: https://www.rfc-editor.org/info/rfc6791
   type: src
 type: standard
 docid:
@@ -18,67 +18,86 @@ docid:
   type: DOI
 docnumber: RFC6791
 date:
-  type: published
+- type: published
   value: 2012-11
 contributor:
 - person:
     name:
       completename:
         content: X. Li
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Bao
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Wing
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Vaithianathan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Huston
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing
+- content: A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing
     non-IPv4-translatable addresses as the source.  These packets should be passed
     across the translator as ICMP packets directed to the IPv4 destination.  This
     document presents recommendations for source address translation in ICMPv6 headers
     to handle such cases. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6145
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - IP/ICMP Translation Algorithm
 - IPv4-translatable IPv6 addresses
 - ICMPv6
 - traceroute
 editorialgroup:
-  name: v6ops
+- name: v6ops

@@ -1,11 +1,11 @@
 ---
 id: RFC6384
 title:
-  type: main
+- type: main
   content: An FTP Application Layer Gateway (ALG) for IPv6-to-IPv4 Translation
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6384
+- content: https://www.rfc-editor.org/info/rfc6384
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC6384
 date:
-  type: published
+- type: published
   value: 2011-10
 contributor:
-  person:
+- person:
     name:
       completename:
         content: I. van Beijnum
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The File Transfer Protocol (FTP) has a very long history, and despite the
+- content: The File Transfer Protocol (FTP) has a very long history, and despite the
     fact that today other options exist to perform file transfers, FTP is still in
     common use. As such, in situations where some client computers only have IPv6
     connectivity while many servers are still IPv4-only and IPv6-to-IPv4 translators
@@ -43,13 +48,15 @@ abstract:
     translator is extended passive. However, many existing FTP servers do not support
     this mode, and some clients do not ask for it. This document specifies a middlebox
     that may solve this mismatch. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - FTP
 - SIIT
 - NAT64
 editorialgroup:
-  name: behave
+- name: behave

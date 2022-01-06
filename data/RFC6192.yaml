@@ -1,11 +1,11 @@
 ---
 id: RFC6192
 title:
-  type: main
+- type: main
   content: Protecting the Router Control Plane
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6192
+- content: https://www.rfc-editor.org/info/rfc6192
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC6192
 date:
-  type: published
+- type: published
   value: 2011-03
 contributor:
 - person:
     name:
       completename:
         content: D. Dugal
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: C. Pignataro
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Dunn
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This memo provides a method for protecting a router's control plane from
+- content: This memo provides a method for protecting a router's control plane from
     undesired or malicious traffic. In this approach, all legitimate router control
     plane traffic is identified. Once legitimate traffic has been identified, a filter
     is deployed in the router's forwarding plane. That filter prevents traffic not
@@ -55,13 +66,15 @@ abstract:
     in this memo are applied only to traffic that is destined for the router, and
     not to all traffic that is passing through the router. This document is not an
     Internet Standards Track specification; it is published for informational purposes.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - ACL
 - Router Control Plane Protection
 - Filter
 editorialgroup:
-  name: opsec
+- name: opsec

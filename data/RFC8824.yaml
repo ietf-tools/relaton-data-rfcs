@@ -1,12 +1,12 @@
 ---
 id: RFC8824
 title:
-  type: main
+- type: main
   content: Static Context Header Compression (SCHC) for the Constrained Application
     Protocol (CoAP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8824
+- content: https://www.rfc-editor.org/info/rfc8824
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC8824
 date:
-  type: published
+- type: published
   value: 2021-06
 contributor:
 - person:
     name:
       completename:
         content: A. Minaburo
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: L. Toutain
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Andreasen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'This document defines how to compress Constrained Application Protocol
+- content: 'This document defines how to compress Constrained Application Protocol
     (CoAP) headers using the Static Context Header Compression and fragmentation (SCHC)
     framework.  SCHC defines a header compression mechanism adapted for Constrained
     Devices.  SCHC uses a static description of the header to reduce the header''s
@@ -59,10 +70,12 @@ abstract:
     format different from the format in the response messages.  This specification
     gives guidance on applying SCHC to flexible headers and how to leverage the asymmetry
     for more efficient compression Rules.'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - header compression
 - fragmentation
@@ -75,4 +88,4 @@ keyword:
 - core
 - OSCORE
 editorialgroup:
-  name: lpwan
+- name: lpwan

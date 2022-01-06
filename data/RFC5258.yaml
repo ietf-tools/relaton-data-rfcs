@@ -1,11 +1,11 @@
 ---
 id: RFC5258
 title:
-  type: main
+- type: main
   content: Internet Message Access Protocol version 4 - LIST Command Extensions
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc5258
+- content: https://www.rfc-editor.org/info/rfc5258
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC5258
 date:
-  type: published
+- type: published
   value: 2008-06
 contributor:
 - person:
     name:
       completename:
         content: B. Leiba
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Melnikov
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2008-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'IMAP4 has two commands for listing mailboxes: LIST and LSUB.  As we have
+- content: 'IMAP4 has two commands for listing mailboxes: LIST and LSUB.  As we have
     added extensions, such as Mailbox Referrals, that have required specialized lists
     we have had to expand the number of list commands, since each extension must add
     its function to both LIST and LSUB, and these commands are not, as they are defined,
@@ -49,14 +57,16 @@ abstract:
     that will allow these additions to be done with mutually compatible options to
     the LIST command, avoiding the exponential increase in specialized list commands.
     [STANDARDS-TRACK]'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - imap4 ,list
 - lsub
 - extended list
 - email
 editorialgroup:
-  name: imapext
+- name: imapext

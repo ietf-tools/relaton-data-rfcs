@@ -1,12 +1,12 @@
 ---
 id: RFC6660
 title:
-  type: main
+- type: main
   content: Encoding Three Pre-Congestion Notification (PCN) States in the IP Header
     Using a Single Diffserv Codepoint (DSCP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6660
+- content: https://www.rfc-editor.org/info/rfc6660
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC6660
 date:
-  type: published
+- type: published
   value: 2012-07
 contributor:
 - person:
     name:
       completename:
         content: B. Briscoe
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Moncaster
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Menth
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2012-07
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: 'The objective of Pre-Congestion Notification (PCN) is to protect the quality
+- content: 'The objective of Pre-Congestion Notification (PCN) is to protect the quality
     of service (QoS) of inelastic flows within a Diffserv domain. The overall rate
     of PCN-traffic is metered on every link in the PCN- domain, and PCN-packets are
     appropriately marked when certain configured rates are exceeded. Egress nodes
@@ -61,10 +72,12 @@ abstract:
     up to three different PCN marking states using a single Diffserv codepoint (DSCP):
     not-marked (NM), threshold-marked (ThM), and excess-traffic-marked (ETM). Hence,
     it is called the 3-in-1 PCN encoding. This document obsoletes RFC 5696. [STANDARDS-TRACK]'
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Quality of Service
 - QoS
@@ -79,4 +92,4 @@ keyword:
 - Flow Admission Control
 - Flow Termination
 editorialgroup:
-  name: pcn
+- name: pcn

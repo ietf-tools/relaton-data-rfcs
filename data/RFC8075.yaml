@@ -1,12 +1,12 @@
 ---
 id: RFC8075
 title:
-  type: main
+- type: main
   content: 'Guidelines for Mapping Implementations: HTTP to the Constrained Application
     Protocol (CoAP)'
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8075
+- content: https://www.rfc-editor.org/info/rfc8075
   type: src
 type: standard
 docid:
@@ -19,63 +19,82 @@ docid:
   type: DOI
 docnumber: RFC8075
 date:
-  type: published
+- type: published
   value: 2017-02
 contributor:
 - person:
     name:
       completename:
         content: A. Castellani
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Loreto
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Rahman
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: T. Fossati
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: E. Dijk
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2017-02
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document provides reference information for implementing a cross-protocol
+- content: This document provides reference information for implementing a cross-protocol
     network proxy that performs translation from the HTTP protocol to the Constrained
     Application Protocol (CoAP).  This will enable an HTTP client to access resources
     on a CoAP server through the proxy.  This document describes how an HTTP request
     is mapped to a CoAP request and how a CoAP response is mapped back to an HTTP
     response.  This includes guidelines for status code, URI, and media type mappings,
     as well as additional interworking advice.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - CoAP
 - HTTP-CoAP mapping
 - HTTP-CoAP translation
 - proxy implementation
 editorialgroup:
-  name: core
+- name: core

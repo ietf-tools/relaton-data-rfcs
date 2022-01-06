@@ -1,11 +1,11 @@
 ---
 id: RFC8996
 title:
-  type: main
+- type: main
   content: Deprecating TLS 1.0 and TLS 1.1
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8996
+- content: https://www.rfc-editor.org/info/rfc8996
   type: src
 type: standard
 docid:
@@ -18,28 +18,36 @@ docid:
   type: DOI
 docnumber: RFC8996
 date:
-  type: published
+- type: published
   value: 2021-03
 contributor:
 - person:
     name:
       completename:
         content: K. Moriarty
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Farrell
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2021-03
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document formally deprecates Transport Layer Security (TLS) versions
+- content: This document formally deprecates Transport Layer Security (TLS) versions
     1.0 (RFC 2246) and 1.1 (RFC 4346). Accordingly, those documents have been moved
     to Historic status. These versions lack support for current and recommended cryptographic
     algorithms and mechanisms, and various government and industry profiles of applications
@@ -53,8 +61,10 @@ abstract:
     1.1. This document updates many RFCs that normatively refer to TLS version 1.0
     or TLS version 1.1, as described herein. This document also updates the best practices
     for TLS usage in RFC 7525; hence, it is part of BCP 195.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: updates
@@ -477,11 +487,11 @@ relation:
     formattedref:
       content: RFC8422
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - TLS
 - deprecate
 - TLSv1.0
 - TLSv1.1
 editorialgroup:
-  name: tls
+- name: tls

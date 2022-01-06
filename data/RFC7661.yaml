@@ -1,11 +1,11 @@
 ---
 id: RFC7661
 title:
-  type: main
+- type: main
   content: Updating TCP to Support Rate-Limited Traffic
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7661
+- content: https://www.rfc-editor.org/info/rfc7661
   type: src
 type: standard
 docid:
@@ -18,35 +18,46 @@ docid:
   type: DOI
 docnumber: RFC7661
 date:
-  type: published
+- type: published
   value: 2015-10
 contributor:
 - person:
     name:
       completename:
         content: G. Fairhurst
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Sathiaseelan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Secchi
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2015-10
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document provides a mechanism to address issues that arise when TCP
+- content: This document provides a mechanism to address issues that arise when TCP
     is used for traffic that exhibits periods where the sending rate is limited by
     the application rather than the congestion window. It provides an experimental
     update to TCP that allows a TCP sender to restart quickly following a rate-limited
@@ -57,12 +68,14 @@ abstract:
     2861 sought to address important issues but failed to deliver a widely used solution.
     This document therefore reclassifies the status of RFC 2861 from Experimental
     to Historic. This document obsoletes RFC 2861.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - CWV
 - TCP
 editorialgroup:
-  name: tcpm
+- name: tcpm

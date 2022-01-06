@@ -1,12 +1,12 @@
 ---
 id: RFC6424
 title:
-  type: main
+- type: main
   content: Mechanism for Performing Label Switched Path Ping (LSP Ping) over MPLS
     Tunnels
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6424
+- content: https://www.rfc-editor.org/info/rfc6424
   type: src
 type: standard
 docid:
@@ -19,35 +19,46 @@ docid:
   type: DOI
 docnumber: RFC6424
 date:
-  type: published
+- type: published
   value: 2011-11
 contributor:
 - person:
     name:
       completename:
         content: N. Bahadur
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: K. Kompella
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: G. Swallow
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2011-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: This document describes methods for performing LSP ping (specified in RFC
+- content: This document describes methods for performing LSP ping (specified in RFC
     4379) traceroute over MPLS tunnels and for traceroute of stitched MPLS Label Switched
     Paths (LSPs).  The techniques outlined in RFC 4379 are insufficient to perform
     traceroute Forwarding Equivalency Class (FEC) validation and path discovery for
@@ -55,8 +66,10 @@ abstract:
     deprecates the Downstream Mapping TLV (defined in RFC 4379) in favor of a new
     TLV that, along with other procedures outlined in this document, can be used to
     trace such LSPs. [STANDARDS-TRACK]
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
 - type: obsoletedBy
@@ -69,10 +82,10 @@ relation:
     formattedref:
       content: RFC4379
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - MPLS OAM
 - lsp ping
 - LSP-Ping
 editorialgroup:
-  name: mpls
+- name: mpls

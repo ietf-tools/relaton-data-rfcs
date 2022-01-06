@@ -1,11 +1,11 @@
 ---
 id: RFC6915
 title:
-  type: main
+- type: main
   content: Flow Identity Extension for HTTP-Enabled Location Delivery (HELD)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc6915
+- content: https://www.rfc-editor.org/info/rfc6915
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC6915
 date:
-  type: published
+- type: published
   value: 2013-04
 contributor:
-  person:
+- person:
     name:
       completename:
         content: R. Bellis
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2013-04
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: RFC 6155 specifies an extension for the HTTP-Enabled Location Delivery
+- content: RFC 6155 specifies an extension for the HTTP-Enabled Location Delivery
     (HELD) protocol, allowing the use of an IP address and port number to request
     a Device location based on an individual packet flow. However, certain kinds of
     NAT require that identifiers for both ends of the packet flow must be specified
@@ -40,18 +45,20 @@ abstract:
     an XML Schema and a URN Sub-Namespace for a Flow Identity Extension for HELD to
     support this requirement. This document updates RFC 6155 by deprecating the port
     number elements specified therein.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
 relation:
-  type: updates
+- type: updates
   bibitem:
     formattedref:
       content: RFC6155
       format: text/plain
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - HELD
 - Flow
 editorialgroup:
-  name: geopriv
+- name: geopriv

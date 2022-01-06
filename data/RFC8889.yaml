@@ -1,12 +1,12 @@
 ---
 id: RFC8889
 title:
-  type: main
+- type: main
   content: Multipoint Alternate-Marking Method for Passive and Hybrid Performance
     Monitoring
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc8889
+- content: https://www.rfc-editor.org/info/rfc8889
   type: src
 type: standard
 docid:
@@ -19,56 +19,72 @@ docid:
   type: DOI
 docnumber: RFC8889
 date:
-  type: published
+- type: published
   value: 2020-08
 contributor:
 - person:
     name:
       completename:
         content: G. Fioccola
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: M. Cociglio
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Sapio
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: R. Sisto
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2020-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The Alternate-Marking method, as presented in RFC 8321, can only be applied
+- content: The Alternate-Marking method, as presented in RFC 8321, can only be applied
     to point-to-point flows, because it assumes that all the packets of the flow measured
     on one node are measured again by a single second node.  This document generalizes
     and expands this methodology to measure any kind of unicast flow whose packets
     can follow several different paths in the network -- in wider terms, a multipoint-to-multipoint
     network.  For this reason, the technique here described is called "Multipoint
     Alternate Marking".
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Clustered Alternate Marking
 - Multipoint Marking Method
 - Multipoint Coloring Technique
 - Network Clustering
 editorialgroup:
-  name: ippm
+- name: ippm

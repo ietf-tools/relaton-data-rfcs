@@ -1,11 +1,11 @@
 ---
 id: RFC7403
 title:
-  type: main
+- type: main
   content: A Media-Based Traceroute Function for the Session Initiation Protocol (SIP)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7403
+- content: https://www.rfc-editor.org/info/rfc7403
   type: src
 type: standard
 docid:
@@ -18,21 +18,26 @@ docid:
   type: DOI
 docnumber: RFC7403
 date:
-  type: published
+- type: published
   value: 2014-11
 contributor:
-  person:
+- person:
     name:
       completename:
         content: H. Kaplan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2014-11
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: SIP already provides the ability to perform hop-by-hop traceroute for SIP
+- content: SIP already provides the ability to perform hop-by-hop traceroute for SIP
     messages using the Max-Forwards header field to determine the reachability path
     of requests to a target.  A mechanism for media-loopback calls has also been defined
     separately, which enables test calls to be generated that result in media being
@@ -40,9 +45,11 @@ abstract:
     hop-by-hop traceroute-style test calls using the media-loopback mechanism to test
     the media path when SIP sessions go through media-relaying back-to-back user agents
     (B2BUAs).
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 editorialgroup:
-  name: straw
+- name: straw

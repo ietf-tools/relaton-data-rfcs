@@ -1,11 +1,11 @@
 ---
 id: RFC1692
 title:
-  type: main
+- type: main
   content: Transport Multiplexing Protocol (TMux)
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc1692
+- content: https://www.rfc-editor.org/info/rfc1692
   type: src
 type: standard
 docid:
@@ -18,50 +18,66 @@ docid:
   type: DOI
 docnumber: RFC1692
 date:
-  type: published
+- type: published
   value: 1994-08
 contributor:
 - person:
     name:
       completename:
         content: P. Cameron
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Crocker
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: D. Cohen
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: J. Postel
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 1994-08
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: One of the problems with the use of terminal servers is the large number
+- content: One of the problems with the use of terminal servers is the large number
     of small packets they can generate.  Frequently, most of these packets are destined
     for only one or two hosts.  TMux is a protocol which allows multiple short transport
     segments, independent of application type, to be combined between a server and
     host pair.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - TMUX
 - Internet

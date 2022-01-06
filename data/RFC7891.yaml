@@ -1,11 +1,11 @@
 ---
 id: RFC7891
 title:
-  type: main
+- type: main
   content: Explicit Reverse Path Forwarding (RPF) Vector
   format: text/plain
 link:
-  content: https://www.rfc-editor.org/info/rfc7891
+- content: https://www.rfc-editor.org/info/rfc7891
   type: src
 type: standard
 docid:
@@ -18,61 +18,80 @@ docid:
   type: DOI
 docnumber: RFC7891
 date:
-  type: published
+- type: published
   value: 2016-06
 contributor:
 - person:
     name:
       completename:
         content: J. Asghar
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: IJ. Wijnands
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: S. Krishnaswamy
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: A. Karan
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 - person:
     name:
       completename:
         content: V. Arya
-        language: en
-        script: Latn
-  role: author
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
 revdate: 2016-06
-language: en
-script: Latn
+language:
+- en
+script:
+- Latn
 abstract:
-  content: The PIM Reverse Path Forwarding (RPF) Vector TLV defined in RFC 5496 can
+- content: The PIM Reverse Path Forwarding (RPF) Vector TLV defined in RFC 5496 can
     be included in a PIM Join Attribute such that the RPF neighbor is selected based
     on the unicast reachability of the RPF Vector instead of the source or Rendezvous
     Point associated with the multicast tree. This document defines a new RPF Vector
     Attribute type such that an explicit RPF neighbor list can be encoded in the PIM
     Join Attribute, thus bypassing the unicast route lookup.
-  language: en
-  script: Latn
+  language:
+  - en
+  script:
+  - Latn
   format: text/html
-fetched: '2022-01-05'
+fetched: '2022-01-06'
 keyword:
 - Path diversity
 - MoFRR
 - Maximally redundant paths
 editorialgroup:
-  name: pim
+- name: pim
