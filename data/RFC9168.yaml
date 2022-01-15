@@ -1,0 +1,89 @@
+---
+id: RFC9168
+title:
+- type: main
+  content: Path Computation Element Communication Protocol (PCEP) Extension for Flow
+    Specification
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9168
+  type: src
+type: standard
+docid:
+- id: RFC 9168
+  type: IETF
+- id: RFC9168
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9168
+  type: DOI
+docnumber: RFC9168
+date:
+- type: published
+  value: 2022-01
+contributor:
+- person:
+    name:
+      completename:
+        content: D. Dhody
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      completename:
+        content: A. Farrel
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      completename:
+        content: Z. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: The Path Computation Element (PCE) is a functional component capable of
+    selecting paths through a traffic engineering (TE) network. These paths may be
+    supplied in response to requests for computation or may be unsolicited requests
+    issued by the PCE to network elements. Both approaches use the PCE Communication
+    Protocol (PCEP) to convey the details of the computed path. Traffic flows may
+    be categorized and described using "Flow Specifications". RFC 8955 defines the
+    Flow Specification and describes how Flow Specification components are used to
+    describe traffic flows. RFC 8955 also defines how Flow Specifications may be distributed
+    in BGP to allow specific traffic flows to be associated with routes. This document
+    specifies a set of extensions to PCEP to support dissemination of Flow Specifications.
+    This allows a PCE to indicate what traffic should be placed on each path that
+    it is aware of. The extensions defined in this document include the creation,
+    update, and withdrawal of Flow Specifications via PCEP and can be applied to tunnels
+    initiated by the PCE or to tunnels where control is delegated to the PCE by the
+    Path Computation Client (PCC). Furthermore, a PCC requesting a new path can include
+    Flow Specifications in the request to indicate the purpose of the tunnel allowing
+    the PCE to factor this into the path computation.
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+fetched: '2022-01-15'
+keyword:
+- PCE
+- FlowSpec
+- Flow Spec
+editorialgroup:
+- name: pce
