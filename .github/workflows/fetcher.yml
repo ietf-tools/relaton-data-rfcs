@@ -20,7 +20,9 @@ jobs:
         run: |
           gem install relaton-cli
       - name: Fetch documents
-        run: relaton fetch-data ietf-rfc-entries
+        run: |
+          rm -f data/*
+          relaton fetch-data ietf-rfc-entries
       - name: Push data
         run: |
           echo `date` > flag.txt
