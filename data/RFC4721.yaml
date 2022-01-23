@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Calhoun
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Calhoun
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bharatia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Bharatia
         language:
@@ -57,21 +93,21 @@ language:
 script:
 - Latn
 abstract:
-- content: Mobile IP, as originally specified, defines an authentication extension
+- content: "<p>Mobile IP, as originally specified, defines an authentication extension
     (the Mobile-Foreign Authentication extension) by which a mobile node can authenticate
     itself to a foreign agent. Unfortunately, that extension does not provide the
     foreign agent any direct guarantee that the protocol is protected from replays
     and does not allow for the use of existing techniques (such as Challenge Handshake
-    Authentication Protocol (CHAP)) for authenticating portable computer devices.
-    In this specification, we define extensions for the Mobile IP Agent Advertisements
+    Authentication Protocol (CHAP)) for authenticating portable computer devices.</p><p>In
+    this specification, we define extensions for the Mobile IP Agent Advertisements
     and the Registration Request that allow a foreign agent to use a challenge/response
-    mechanism to authenticate the mobile node. Furthermore, this document updates
+    mechanism to authenticate the mobile node.</p><p>Furthermore, this document updates
     RFC 3344 by including a new authentication extension called the Mobile-Authentication,
     Authorization, and Accounting (AAA) Authentication extension. This new extension
     is provided so that a mobile node can supply credentials for authorization, using
     commonly available AAA infrastructure elements. This authorization-enabling extension
     MAY co-exist in the same Registration Request with authentication extensions defined
-    for Mobile IP Registration by RFC 3344. This document obsoletes RFC 3012. [STANDARDS-TRACK]
+    for Mobile IP Registration by RFC 3344. This document obsoletes RFC 3012. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -83,7 +119,12 @@ relation:
     formattedref:
       content: RFC3344
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4721'
+fetched: '2022-01-23'
 keyword:
 - chap
 editorialgroup:

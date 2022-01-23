@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Psenak
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Psenak
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Kumar
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dolganow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Dolganow
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Przygienda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Przygienda
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Zhang
         language:
@@ -83,6 +155,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aldrin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Aldrin
         language:
@@ -97,7 +181,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Bit Index Explicit Replication (BIER) is an architecture that provides
+- content: <p>Bit Index Explicit Replication (BIER) is an architecture that provides
     optimal multicast forwarding through a "BIER domain" without requiring intermediate
     routers to maintain multicast-related, per- flow state. BIER also does not require
     an explicit tree-building protocol for its operation. A multicast data packet
@@ -106,15 +190,20 @@ abstract:
     a BIER packet header to the packet. The BIER packet header contains a BitString
     in which each bit represents exactly one BFER to forward the packet to. The set
     of BFERs to which the multicast packet needs to be forwarded is expressed by the
-    set of bits in the BIER packet header. This document describes the OSPF protocol
-    extension (from RFC 2328) that is required for BIER with MPLS encapsulation (which
-    is defined in RFC 8296). Support for other encapsulation types and the use of
-    multiple encapsulation types are outside the scope of this document.
+    set of bits in the BIER packet header.</p><p>This document describes the OSPF
+    protocol extension (from RFC 2328) that is required for BIER with MPLS encapsulation
+    (which is defined in RFC 8296). Support for other encapsulation types and the
+    use of multiple encapsulation types are outside the scope of this document.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8444'
+fetched: '2022-01-23'
 editorialgroup:
 - name: bier

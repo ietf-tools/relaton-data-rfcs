@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Casner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Casner
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Frederick
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Frederick
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jacobson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Jacobson
         language:
@@ -67,8 +115,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This memorandum describes RTP, the real-time transport protocol.  RTP provides
-    end-to-end network transport functions suitable for applications transmitting
+- content: "<p>This memorandum describes RTP, the real-time transport protocol.  RTP
+    provides end-to-end network transport functions suitable for applications transmitting
     real-time data, such as audio, video or simulation data, over multicast or unicast
     network services.  RTP does not address resource reservation and does not guarantee
     quality-of- service for real-time services.  The data transport is augmented by
@@ -81,13 +129,22 @@ abstract:
     to the rules and algorithms governing how the protocol is used.  The biggest change
     is an enhancement to the scalable timer algorithm for calculating when to send
     RTCP packets in order to minimize transmission in excess of the intended rate
-    when many participants join a session simultaneously. [STANDARDS-TRACK]
+    when many participants join a session simultaneously. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '64'
+- title:
+    content: RFC
+    format: text/plain
+  number: '3550'
+fetched: '2022-01-23'
 keyword:
 - RTP
 - end-to-end

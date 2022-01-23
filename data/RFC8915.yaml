@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Franke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Franke
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sibold
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Sibold
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Teichel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Teichel
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dansarie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Dansarie
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sundblad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sundblad
         language:
@@ -77,21 +137,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo specifies Network Time Security (NTS), a mechanism for using
+- content: "<p>This memo specifies Network Time Security (NTS), a mechanism for using
     Transport Layer Security (TLS) and Authenticated Encryption with Associated Data
     (AEAD) to provide cryptographic security for the client-server mode of the Network
-    Time Protocol (NTP). NTS is structured as a suite of two loosely coupled sub-protocols.
-    The first (NTS Key Establishment (NTS-KE)) handles initial authentication and
-    key establishment over TLS. The second (NTS Extension Fields for NTPv4) handles
+    Time Protocol (NTP).</p><p>NTS is structured as a suite of two loosely coupled
+    sub-protocols. The first (NTS Key Establishment (NTS-KE)) handles initial authentication
+    and key establishment over TLS. The second (NTS Extension Fields for NTPv4) handles
     encryption and authentication during NTP time synchronization via extension fields
     in the NTP packets, and holds all required state only on the client via opaque
-    cookies.
+    cookies.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8915'
+fetched: '2022-01-23'
 keyword:
 - Integrity
 - Authentication

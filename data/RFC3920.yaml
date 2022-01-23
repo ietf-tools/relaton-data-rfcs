@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Saint-Andre
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Saint-Andre
         language:
@@ -37,12 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines the core features of the Extensible Messaging and Presence
-    Protocol (XMPP), a protocol for streaming Extensible Markup Language (XML) elements
-    in order to exchange structured information in close to real time between any
-    two network endpoints.  While XMPP provides a generalized, extensible framework
-    for exchanging XML data, it is used mainly for the purpose of building instant
-    messaging and presence applications that meet the requirements of RFC 2779. [STANDARDS-TRACK]
+- content: "<p>This memo defines the core features of the Extensible Messaging and
+    Presence Protocol (XMPP), a protocol for streaming Extensible Markup Language
+    (XML) elements in order to exchange structured information in close to real time
+    between any two network endpoints.  While XMPP provides a generalized, extensible
+    framework for exchanging XML data, it is used mainly for the purpose of building
+    instant messaging and presence applications that meet the requirements of RFC
+    2779. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -54,7 +67,12 @@ relation:
     formattedref:
       content: RFC6120
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3920'
+fetched: '2022-01-23'
 keyword:
 - instant messaging
 - im

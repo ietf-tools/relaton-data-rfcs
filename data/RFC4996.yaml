@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pelletier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Pelletier
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sandlund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Sandlund
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L-E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jonsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L-E. Jonsson
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: West
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. West
         language:
@@ -67,13 +115,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a ROHC (Robust Header Compression) profile for
-    compression of TCP/IP packets. The profile, called ROHC-TCP, provides efficient
+- content: "<p>This document specifies a ROHC (Robust Header Compression) profile
+    for compression of TCP/IP packets. The profile, called ROHC-TCP, provides efficient
     and robust compression of TCP headers, including frequently used TCP options such
-    as SACK (Selective Acknowledgments) and Timestamps. ROHC-TCP works well when used
-    over links with significant error rates and long round-trip times. For many bandwidth-limited
-    links where header compression is essential, such characteristics are common.
-    [STANDARDS-TRACK]
+    as SACK (Selective Acknowledgments) and Timestamps.</p><p>ROHC-TCP works well
+    when used over links with significant error rates and long round-trip times. For
+    many bandwidth-limited links where header compression is essential, such characteristics
+    are common. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -85,6 +133,11 @@ relation:
     formattedref:
       content: RFC6846
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4996'
+fetched: '2022-01-23'
 editorialgroup:
 - name: rohc

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shah
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Shah
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Le Faucheur
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Heron
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Heron
         language:
@@ -67,9 +115,9 @@ language:
 script:
 - Latn
 abstract:
-- content: A Virtual Private LAN Service (VPLS) is used to interconnect systems across
-    a wide-area or metropolitan-area network, making it appear that they are on a
-    private LAN. The systems that are interconnected may themselves be LAN switches.
+- content: <p>A Virtual Private LAN Service (VPLS) is used to interconnect systems
+    across a wide-area or metropolitan-area network, making it appear that they are
+    on a private LAN. The systems that are interconnected may themselves be LAN switches.
     If, however, they are IP hosts or IP routers, certain simplifications to the operation
     of the VPLS are possible. We call this simplified type of VPLS an "IP-only LAN
     Service" (IPLS). In an IPLS, as in a VPLS, LAN interfaces are run in promiscuous
@@ -77,19 +125,24 @@ abstract:
     (MAC) addresses. However, the maintenance of the MAC forwarding tables is done
     via signaling, rather than via the MAC address learning procedures specified in
     the IEEE's "Media Access Control (MAC) Bridges". This document specifies the protocol
-    extensions and procedures for support of the IPLS service. The original intent
-    was to provide an alternate solution to VPLS for those Provider Edge (PE) routers
-    that were not capable of learning MAC addresses through data plane. This became
-    a non-issue with newer hardware. The concepts put forth by this document are still
-    valuable and are adopted in one form or other by newer work such as Ethernet VPN
-    in L2VPN working group and possible data center applications. At this point, no
-    further action is planned to update this document and it is published simply as
-    a historic record of the ideas.
+    extensions and procedures for support of the IPLS service.</p><p>The original
+    intent was to provide an alternate solution to VPLS for those Provider Edge (PE)
+    routers that were not capable of learning MAC addresses through data plane. This
+    became a non-issue with newer hardware. The concepts put forth by this document
+    are still valuable and are adopted in one form or other by newer work such as
+    Ethernet VPN in L2VPN working group and possible data center applications. At
+    this point, no further action is planned to update this document and it is published
+    simply as a historic record of the ideas.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7436'
+fetched: '2022-01-23'
 editorialgroup:
 - name: l2vpn

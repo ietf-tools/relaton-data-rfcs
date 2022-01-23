@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Turner
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Brown
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Brown
         language:
@@ -48,8 +72,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to use Elliptic Curve Cryptography (ECC) public
-    key algorithms in the Cryptographic Message Syntax (CMS).  The ECC algorithms
+- content: "<p>This document describes how to use Elliptic Curve Cryptography (ECC)
+    public key algorithms in the Cryptographic Message Syntax (CMS).  The ECC algorithms
     support the creation of digital signatures and the exchange of keys to encrypt
     or authenticate content.  The definition of the algorithm processing is based
     on the NIST FIPS 186-3 for digital signature, NIST SP800-56A and SEC1 for key
@@ -57,13 +81,18 @@ abstract:
     180-3 for message digest, SEC1 for key derivation, and RFC 2104 and RFC 4231 for
     message authentication code standards.  This document obsoletes RFC 3278.  This
     document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5753'
+fetched: '2022-01-23'
 keyword:
 - public key
 - digital signatures

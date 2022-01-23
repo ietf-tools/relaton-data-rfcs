@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sweet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Sweet
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McDonald
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. McDonald
         language:
@@ -47,24 +71,33 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The Internet Printing Protocol (IPP) is an application-level protocol
+- content: '<p>The Internet Printing Protocol (IPP) is an application-level protocol
     for distributed printing using Internet tools and technologies. This document
     describes a simplified model consisting of abstract objects, attributes, and operations
     that is independent of encoding and transport. The model consists of several objects,
-    including Printers and Jobs. Jobs optionally support multiple Documents. IPP semantics
-    allow End Users and Operators to query Printer capabilities; submit Print Jobs;
-    inquire about the status of Print Jobs and Printers; and cancel, hold, and release
-    Print Jobs. IPP semantics also allow Operators to pause and resume Jobs and Printers.
-    Security, internationalization, and directory issues are also addressed by the
-    model and semantics. The IPP message encoding and transport are described in "Internet
-    Printing Protocol/1.1: Encoding and Transport" (RFC 8010). This document obsoletes
-    RFCs 2911, 3381, and 3382.'
+    including Printers and Jobs. Jobs optionally support multiple Documents.</p><p>IPP
+    semantics allow End Users and Operators to query Printer capabilities; submit
+    Print Jobs; inquire about the status of Print Jobs and Printers; and cancel, hold,
+    and release Print Jobs. IPP semantics also allow Operators to pause and resume
+    Jobs and Printers.</p><p>Security, internationalization, and directory issues
+    are also addressed by the model and semantics. The IPP message encoding and transport
+    are described in "Internet Printing Protocol/1.1: Encoding and Transport" (RFC
+    8010).</p><p>This document obsoletes RFCs 2911, 3381, and 3382.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '92'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8011'
+fetched: '2022-01-23'
 keyword:
 - IPP
 - Printer

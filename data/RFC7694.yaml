@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reschke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Reschke
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: In HTTP, content codings allow for payload encodings such as for compression
+- content: <p>In HTTP, content codings allow for payload encodings such as for compression
     or integrity checks. In particular, the "gzip" content coding is widely used for
-    payload data sent in response messages. Content codings can be used in request
+    payload data sent in response messages.</p><p>Content codings can be used in request
     messages as well; however, discoverability is not on par with response messages.
     This document extends the HTTP "Accept-Encoding" header field for use in responses,
-    to indicate the content codings that are supported in requests.
+    to indicate the content codings that are supported in requests.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7694'
+fetched: '2022-01-23'
 keyword:
 - HTTP
 - content-encoding

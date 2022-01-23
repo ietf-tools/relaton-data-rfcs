@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Woolf
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Woolf
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Conrad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Conrad
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: With the increased use of DNS anycast, load balancing, and other mechanisms
+- content: "<p>With the increased use of DNS anycast, load balancing, and other mechanisms
     allowing more than one DNS name server to share a single IP address, it is sometimes
-    difficult to tell which of a pool of name servers has answered a particular query.  A
-    standardized mechanism to determine the identity of a name server responding to
-    a particular query would be useful, particularly as a diagnostic aid for administrators.  Existing
-    ad hoc mechanisms for addressing this need have some shortcomings, not the least
-    of which is the lack of prior analysis of exactly how such a mechanism should
-    be designed and deployed.  This document describes the existing convention used
-    in some widely deployed implementations of the DNS protocol, including advantages
+    difficult to tell which of a pool of name servers has answered a particular query.
+    \ A standardized mechanism to determine the identity of a name server responding
+    to a particular query would be useful, particularly as a diagnostic aid for administrators.
+    \ Existing ad hoc mechanisms for addressing this need have some shortcomings,
+    not the least of which is the lack of prior analysis of exactly how such a mechanism
+    should be designed and deployed.  This document describes the existing convention
+    used in some widely deployed implementations of the DNS protocol, including advantages
     and disadvantages, and discusses some attributes of an improved mechanism.  This
-    memo provides information for the Internet community.
+    memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4892'
+fetched: '2022-01-23'
 keyword:
 - domain name service
 - dns name server

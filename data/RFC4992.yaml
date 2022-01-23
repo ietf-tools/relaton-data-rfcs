@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newton
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Newton
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a simple TCP transfer protocol for the Internet
+- content: "<p>This document describes a simple TCP transfer protocol for the Internet
     Registry Information Service (IRIS).  Data is transferred between clients and
-    servers using chunks to achieve pipelining. [STANDARDS-TRACK]
+    servers using chunks to achieve pipelining. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC3981
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4992'
+fetched: '2022-01-23'
 keyword:
 - tcp
 - transport control protocol

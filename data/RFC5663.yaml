@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Black
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Black
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fridella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Fridella
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Glasgow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Glasgow
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Parallel NFS (pNFS) extends Network File Sharing version 4 (NFSv4) to allow
-    clients to directly access file data on the storage used by the NFSv4 server.  This
-    ability to bypass the server for data access can increase both performance and
-    parallelism, but requires additional client functionality for data access, some
-    of which is dependent on the class of storage used.  The main pNFS operations
+- content: "<p>Parallel NFS (pNFS) extends Network File Sharing version 4 (NFSv4)
+    to allow clients to directly access file data on the storage used by the NFSv4
+    server.  This ability to bypass the server for data access can increase both performance
+    and parallelism, but requires additional client functionality for data access,
+    some of which is dependent on the class of storage used.  The main pNFS operations
     document specifies storage-class-independent extensions to NFS; this document
     specifies the additional extensions (primarily data structures) for use of pNFS
-    with block- and volume-based storage. [STANDARDS-TRACK]
+    with block- and volume-based storage. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5663'
+fetched: '2022-01-23'
 keyword:
 - nfsv4
 - network file sharing version 4

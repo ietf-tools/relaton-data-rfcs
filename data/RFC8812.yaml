@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Jones
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The W3C Web Authentication (WebAuthn) specification and the FIDO Alliance
+- content: '<p>The W3C Web Authentication (WebAuthn) specification and the FIDO Alliance
     FIDO2 Client to Authenticator Protocol (CTAP) specification use CBOR Object Signing
     and Encryption (COSE) algorithm identifiers.  This specification registers the
     following algorithms (which are used by WebAuthn and CTAP implementations) in
@@ -48,13 +60,18 @@ abstract:
     the IANA "COSE Elliptic Curves" registry.  Also, for use with JSON Object Signing
     and Encryption (JOSE), it registers the algorithm ECDSA using the secp256k1 curve
     and SHA-256 in the IANA "JSON Web Signature and Encryption Algorithms" registry
-    and the secp256k1 elliptic curve in the IANA "JSON Web Key Elliptic Curve" registry.'
+    and the secp256k1 elliptic curve in the IANA "JSON Web Key Elliptic Curve" registry.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8812'
+fetched: '2022-01-23'
 keyword:
 - Cryptography
 - Digital Signature

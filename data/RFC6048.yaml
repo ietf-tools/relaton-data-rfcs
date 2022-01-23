@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Elie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Elie
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a set of enhancements to the Network News Transfer
+- content: "<p>This document defines a set of enhancements to the Network News Transfer
     Protocol (NNTP) that allow a client to request extended information from NNTP
     servers regarding server status, policy, and other aspects of local configuration.
     These enhancements are made as new keywords to the existing LIST capability described
-    in RFC 3977. This memo updates and formalizes the LIST DISTRIBUTIONS and LIST
-    SUBSCRIPTIONS commands defined in RFC 2980. It also adds the LIST COUNTS, LIST
-    MODERATORS, and LIST MOTD commands, and specifies additional values returned by
-    the existing LIST ACTIVE command for the status of a newsgroup. [STANDARDS-TRACK]
+    in RFC 3977.</p><p>This memo updates and formalizes the LIST DISTRIBUTIONS and
+    LIST SUBSCRIPTIONS commands defined in RFC 2980. It also adds the LIST COUNTS,
+    LIST MODERATORS, and LIST MOTD commands, and specifies additional values returned
+    by the existing LIST ACTIVE command for the status of a newsgroup. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -61,7 +73,12 @@ relation:
     formattedref:
       content: RFC3977
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6048'
+fetched: '2022-01-23'
 keyword:
 - Usenet
 - NetNews

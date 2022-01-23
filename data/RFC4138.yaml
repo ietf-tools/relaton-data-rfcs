@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sarolahti
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Sarolahti
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kojo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Kojo
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Spurious retransmission timeouts cause suboptimal TCP performance because
+- content: "<p>Spurious retransmission timeouts cause suboptimal TCP performance because
     they often result in unnecessary retransmission of the last window of data.  This
     document describes the F-RTO detection algorithm for detecting spurious TCP retransmission
     timeouts.  F-RTO is a TCP sender-only algorithm that does not require any TCP
@@ -59,13 +83,18 @@ abstract:
     helps to avoid additional unnecessary retransmissions and thereby improves TCP
     performance in the case of a spurious timeout.  The F-RTO algorithm can also be
     applied to the Stream Control Transmission Protocol (SCTP).  This memo defines
-    an Experimental Protocol for the Internet community.
+    an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4138'
+fetched: '2022-01-23'
 keyword:
 - tcp
 - transmission control protocol

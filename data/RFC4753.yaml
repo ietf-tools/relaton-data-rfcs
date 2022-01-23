@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Fu
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Solinas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Solinas
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes new Elliptic Curve Cryptography (ECC) groups for
-    use in the Internet Key Exchange (IKE) and Internet Key Exchange version 2 (IKEv2)
-    protocols in addition to previously defined groups.  Specifically, the new curve
-    groups are based on modular arithmetic rather than binary arithmetic.  These new
-    groups are defined to align IKE and IKEv2 with other ECC implementations and standards,
-    particularly NIST standards.  In addition, the curves defined here can provide
-    more efficient implementation than previously defined ECC groups.  This memo provides
-    information for the Internet community.
+- content: "<p>This document describes new Elliptic Curve Cryptography (ECC) groups
+    for use in the Internet Key Exchange (IKE) and Internet Key Exchange version 2
+    (IKEv2) protocols in addition to previously defined groups.  Specifically, the
+    new curve groups are based on modular arithmetic rather than binary arithmetic.
+    \ These new groups are defined to align IKE and IKEv2 with other ECC implementations
+    and standards, particularly NIST standards.  In addition, the curves defined here
+    can provide more efficient implementation than previously defined ECC groups.
+    \ This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC5903
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4753'
+fetched: '2022-01-23'
 keyword:
 - elliptic curve
 - Diffie-Hellman

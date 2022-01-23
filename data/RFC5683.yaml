@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Brusilovsky
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Brusilovsky
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Faynberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Faynberg
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zeltsan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Zeltsan
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Patel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Patel
         language:
@@ -67,18 +115,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes to add mutual authentication, based on a human-memorizable
+- content: "<p>This document proposes to add mutual authentication, based on a human-memorizable
     password, to the basic, unauthenticated Diffie-Hellman key exchange. The proposed
     algorithm is called the Password-Authenticated Key (PAK) exchange. PAK allows
-    two parties to authenticate themselves while performing the Diffie-Hellman exchange.
-    The protocol is secure against all passive and active attacks. In particular,
-    it does not allow either type of attacker to obtain any information that would
-    enable an offline dictionary attack on the password. PAK provides Forward Secrecy.
-    This document is not an Internet Standards Track specification; it is published
-    for informational purposes.
+    two parties to authenticate themselves while performing the Diffie-Hellman exchange.</p><p>The
+    protocol is secure against all passive and active attacks. In particular, it does
+    not allow either type of attacker to obtain any information that would enable
+    an offline dictionary attack on the password. PAK provides Forward Secrecy. This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5683'
+fetched: '2022-01-23'

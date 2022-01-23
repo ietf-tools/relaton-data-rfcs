@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Marshall
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Marshall
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andreasen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Andreasen
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: In order to deploy a residential telephone service at very large scale
+- content: "<p>In order to deploy a residential telephone service at very large scale
     across different domains, it is necessary for trusted elements owned by different
     service providers to exchange trusted information that conveys customer-specific
     information and expectations about the parties involved in the call.  This document
@@ -57,10 +81,10 @@ abstract:
     trusted entities in the PacketCable Distributed Call Signaling Architecture.  These
     extensions provide mechanisms for access network coordination to prevent theft
     of service, customer originated trace of harassing calls, support for operator
-    services and emergency services, and support for various other regulatory issues.  The
-    use of the extensions is only applicable within closed administrative domains,
+    services and emergency services, and support for various other regulatory issues.
+    \ The use of the extensions is only applicable within closed administrative domains,
     or among federations of administrative domains with previously agreed-upon policies
-    where coordination of charging and other functions is required.
+    where coordination of charging and other functions is required.</p>"
   language:
   - en
   script:
@@ -72,6 +96,11 @@ relation:
     formattedref:
       content: RFC5503
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3603'
+fetched: '2022-01-23'
 keyword:
 - network access coordination

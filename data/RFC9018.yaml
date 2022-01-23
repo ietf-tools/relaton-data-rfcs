@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sury
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Sury
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Toorop
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Toorop
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andrews
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Andrews
         language:
@@ -67,17 +115,17 @@ language:
 script:
 - Latn
 abstract:
-- content: DNS Cookies, as specified in RFC 7873, are a lightweight DNS transaction
+- content: "<p>DNS Cookies, as specified in RFC 7873, are a lightweight DNS transaction
     security mechanism that provide limited protection to DNS servers and clients
     against a variety of denial-of-service amplification, forgery, or cache-poisoning
-    attacks by off-path attackers. This document updates RFC 7873 with precise directions
-    for creating Server Cookies so that an anycast server set including diverse implementations
-    will interoperate with standard clients, with suggestions for constructing Client
-    Cookies in a privacy-preserving fashion, and with suggestions on how to update
-    a Server Secret. An IANA registry listing the methods and associated pseudorandom
-    function suitable for creating DNS Server Cookies has been created with the method
-    described in this document as the first and, as of the time of publication, only
-    entry.
+    attacks by off-path attackers.</p><p>This document updates RFC 7873 with precise
+    directions for creating Server Cookies so that an anycast server set including
+    diverse implementations will interoperate with standard clients, with suggestions
+    for constructing Client Cookies in a privacy-preserving fashion, and with suggestions
+    on how to update a Server Secret. An IANA registry listing the methods and associated
+    pseudorandom function suitable for creating DNS Server Cookies has been created
+    with the method described in this document as the first and, as of the time of
+    publication, only entry.</p>"
   language:
   - en
   script:
@@ -89,7 +137,12 @@ relation:
     formattedref:
       content: RFC7873
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9018'
+fetched: '2022-01-23'
 keyword:
 - Client
 - Hash

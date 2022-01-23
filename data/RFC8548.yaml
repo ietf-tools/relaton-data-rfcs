@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bittau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bittau
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Giffin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Giffin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Handley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Handley
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mazieres
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Mazieres
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Slack
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Slack
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Smith
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Smith
         language:
@@ -87,7 +159,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies "tcpcrypt", a TCP encryption protocol designed
+- content: <p>This document specifies "tcpcrypt", a TCP encryption protocol designed
     for use in conjunction with the TCP Encryption Negotiation Option (TCP-ENO).  Tcpcrypt
     coexists with middleboxes by tolerating resegmentation, NATs, and other manipulations
     of the TCP header.  The protocol is self-contained and specifically tailored to
@@ -96,13 +168,18 @@ abstract:
     TCP options is limited, the protocol requires one additional one-way message latency
     to perform key exchange before application data can be transmitted.  However,
     the extra latency can be avoided between two hosts that have recently established
-    a previous tcpcrypt connection.
+    a previous tcpcrypt connection.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8548'
+fetched: '2022-01-23'
 keyword:
 - tcp
 - encryption

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Polk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Polk
         language:
@@ -38,20 +50,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes an IANA Registration extension to the Session Initiation
-    Protocol (SIP) Reason Header to be included in a BYE Method Request as a result
-    of a session preemption event, either at a user agent (UA), or somewhere in the
-    network involving a reservation-based protocol such as the Resource ReSerVation
+- content: "<p>This document proposes an IANA Registration extension to the Session
+    Initiation Protocol (SIP) Reason Header to be included in a BYE Method Request
+    as a result of a session preemption event, either at a user agent (UA), or somewhere
+    in the network involving a reservation-based protocol such as the Resource ReSerVation
     Protocol (RSVP) or Next Steps in Signaling (NSIS).  This document does not attempt
     to address routers failing in the packet path; instead, it addresses a deliberate
     tear down of a flow between UAs, and informs the terminated UA(s) with an indication
-    of what occurred. [STANDARDS-TRACK]
+    of what occurred. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4411'
+fetched: '2022-01-23'
 keyword:
 - Resource-Priority
 - preempt

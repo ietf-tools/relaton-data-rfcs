@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eubanks
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Eubanks
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chimento
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Chimento
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Westerlund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Westerlund
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the IPv6 specification (RFC 2460) to improve performance
+- content: <p>This document updates the IPv6 specification (RFC 2460) to improve performance
     when a tunnel protocol uses UDP with IPv6 to tunnel packets.  The performance
     improvement is obtained by relaxing the IPv6 UDP checksum requirement for tunnel
     protocols whose header information is protected on the "inner" packet being carried.  Relaxing
@@ -65,7 +101,7 @@ abstract:
     on IPv6 packets that carry the tunnel protocol packets.  This specification describes
     how the IPv6 UDP checksum requirement can be relaxed when the encapsulated packet
     itself contains a checksum.  It also describes the limitations and risks of this
-    approach and discusses the restrictions on the use of this method.
+    approach and discusses the restrictions on the use of this method.</p>
   language:
   - en
   script:
@@ -77,7 +113,12 @@ relation:
     formattedref:
       content: RFC2460
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6935'
+fetched: '2022-01-23'
 keyword:
 - Tunnel
 - Encapsulation

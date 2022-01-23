@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kaufman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Kaufman
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The Domain Name System (DNS) has become a critical operational part of
-    the Internet infrastructure yet it has no strong security mechanisms to assure
+- content: "<p>The Domain Name System (DNS) has become a critical operational part
+    of the Internet infrastructure yet it has no strong security mechanisms to assure
     data integrity or authentication.  Extensions to the DNS are described that provide
     these services to security aware resolvers or applications through the use of
-    cryptographic digital signatures. [STANDARDS-TRACK]
+    cryptographic digital signatures. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -73,7 +97,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2065'
+fetched: '2022-01-23'
 keyword:
 - DNS-SEC
 - DNS

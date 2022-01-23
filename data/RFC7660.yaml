@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bertz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Bertz
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manning
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Manning
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hirschman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Hirschman
         language:
@@ -57,25 +93,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines optional Diameter attributes that can be used to
-    help manage networks that use Explicit Congestion Notification (ECN) or Diameter
+- content: "<p>This document defines optional Diameter attributes that can be used
+    to help manage networks that use Explicit Congestion Notification (ECN) or Diameter
     traffic filters. These new attributes allow for improved data traffic identification,
-    support of ECN, and minimal Diameter filter administration. RFC 5777 defines a
-    Filter-Rule Attribute Value Pair (AVP) that accommodates extensions for classification,
+    support of ECN, and minimal Diameter filter administration.</p><p>RFC 5777 defines
+    a Filter-Rule Attribute Value Pair (AVP) that accommodates extensions for classification,
     conditions, and actions. It, however, does not support traffic identification
     for packets using Explicit Congestion Notification as defined in RFC 3168 and
     does not provide specific actions when the flow(s) described by the Filter-Rule
-    are congested. Further, a Filter-Rule can describe multiple flows but not the
-    exact number of flows. Flow count and other associated data (e.g., packets) are
-    not captured by accounting applications, leaving administrators without useful
-    information regarding the effectiveness or appropriateness of the filter definition.
-    The optional attributes defined in this document are forward and backwards compatible
-    with RFC 5777.
+    are congested.</p><p>Further, a Filter-Rule can describe multiple flows but not
+    the exact number of flows. Flow count and other associated data (e.g., packets)
+    are not captured by accounting applications, leaving administrators without useful
+    information regarding the effectiveness or appropriateness of the filter definition.</p><p>The
+    optional attributes defined in this document are forward and backwards compatible
+    with RFC 5777.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7660'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dime

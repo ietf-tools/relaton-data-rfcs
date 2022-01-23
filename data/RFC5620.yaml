@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kolkman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Kolkman
         language:
@@ -31,14 +43,9 @@ contributor:
         - Latn
   role:
   - author
-- person:
+- organization:
     name:
-      completename:
-        content: IAB
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 revdate: 2009-08
@@ -47,7 +54,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The RFC Editor performs a number of functions that may be carried out
+- content: "<p>The RFC Editor performs a number of functions that may be carried out
     by various persons or entities.  The RFC Editor model presented in this document
     divides the responsibilities for the RFC Series into four functions: The RFC Series
     Editor, the Independent Submission Editor, the RFC Production Center, and the
@@ -57,7 +64,7 @@ abstract:
     succession of the RFC Editor, and ensure the continuity of the RFC series, while
     maintaining RFC quality and timely processing, ensuring document accessibility,
     reducing costs, and increasing cost transparency.  This memo provides information
-    for the Internet community.'
+    for the Internet community.</p>"
   language:
   - en
   script:
@@ -74,7 +81,12 @@ relation:
     formattedref:
       content: RFC6635
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5620'
+fetched: '2022-01-23'
 keyword:
 - RFC Series Editor
 - Independent Stream Editor

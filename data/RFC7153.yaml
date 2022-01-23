@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -47,8 +71,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document reorganizes the IANA registries for the type values and sub-type
-    values of the BGP Extended Communities attribute and the BGP IPv6-Address-Specific
+- content: <p>This document reorganizes the IANA registries for the type values and
+    sub-type values of the BGP Extended Communities attribute and the BGP IPv6-Address-Specific
     Extended Communities attribute.  This is done in order to remove interdependencies
     among the registries, thus making it easier for IANA to determine which codepoints
     are available for assignment in which registries.  This document also clarifies
@@ -56,7 +80,7 @@ abstract:
     one or more of these registries.  These changes are compatible with the existing
     allocations and thus do not affect protocol implementations.  The changes will,
     however, impact the "IANA Considerations" sections of future protocol specifications.  This
-    document updates RFC 4360 and RFC 5701.
+    document updates RFC 4360 and RFC 5701.</p>
   language:
   - en
   script:
@@ -73,7 +97,12 @@ relation:
     formattedref:
       content: RFC5701
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7153'
+fetched: '2022-01-23'
 keyword:
 - Border Gateway Protocol
 editorialgroup:

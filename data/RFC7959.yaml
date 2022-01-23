@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bormann
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shelby
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Shelby
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The Constrained Application Protocol (CoAP) is a RESTful transfer protocol
+- content: '<p>The Constrained Application Protocol (CoAP) is a RESTful transfer protocol
     for constrained nodes and networks. Basic CoAP messages work well for small payloads
     from sensors and actuators; however, applications will need to transfer larger
     payloads occasionally -- for instance, for firmware updates. In contrast to HTTP,
@@ -55,17 +79,17 @@ abstract:
     datagram transports such as UDP or Datagram Transport Layer Security (DTLS). These
     transports only offer fragmentation, which is even more problematic in constrained
     nodes and networks, limiting the maximum size of resource representations that
-    can practically be transferred. Instead of relying on IP fragmentation, this specification
-    extends basic CoAP with a pair of "Block" options for transferring multiple blocks
-    of information from a resource representation in multiple request-response pairs.
-    In many important cases, the Block options enable a server to be truly stateless:
-    the server can handle each block transfer separately, with no need for a connection
-    setup or other server-side memory of previous block transfers. Essentially, the
-    Block options provide a minimal way to transfer larger representations in a block-wise
-    fashion. A CoAP implementation that does not support these options generally is
-    limited in the size of the representations that can be exchanged, so there is
-    an expectation that the Block options will be widely used in CoAP implementations.
-    Therefore, this specification updates RFC 7252.'
+    can practically be transferred.</p><p>Instead of relying on IP fragmentation,
+    this specification extends basic CoAP with a pair of "Block" options for transferring
+    multiple blocks of information from a resource representation in multiple request-response
+    pairs. In many important cases, the Block options enable a server to be truly
+    stateless: the server can handle each block transfer separately, with no need
+    for a connection setup or other server-side memory of previous block transfers.
+    Essentially, the Block options provide a minimal way to transfer larger representations
+    in a block-wise fashion.</p><p>A CoAP implementation that does not support these
+    options generally is limited in the size of the representations that can be exchanged,
+    so there is an expectation that the Block options will be widely used in CoAP
+    implementations. Therefore, this specification updates RFC 7252.</p>'
   language:
   - en
   script:
@@ -77,7 +101,12 @@ relation:
     formattedref:
       content: RFC7252
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7959'
+fetched: '2022-01-23'
 keyword:
 - CoAP
 - Constrained Application Protocol

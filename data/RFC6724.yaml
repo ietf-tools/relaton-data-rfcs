@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thaler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Thaler
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Draves
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Draves
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Matsumoto
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Matsumoto
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chown
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Chown
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes two algorithms, one for source address selection
+- content: "<p>This document describes two algorithms, one for source address selection
     and one for destination address selection. The algorithms specify default behavior
     for all Internet Protocol version 6 (IPv6) implementations. They do not override
     choices made by applications or upper-layer protocols, nor do they preclude the
@@ -76,15 +124,20 @@ abstract:
     to provide policy that can override the default behavior. In dual-stack implementations,
     the destination address selection algorithm can consider both IPv4 and IPv6 addresses
     -- depending on the available source addresses, the algorithm might prefer IPv6
-    addresses over IPv4 addresses, or vice versa. Default address selection as defined
-    in this specification applies to all IPv6 nodes, including both hosts and routers.
-    This document obsoletes RFC 3484. [STANDARDS-TRACK]
+    addresses over IPv4 addresses, or vice versa.</p><p>Default address selection
+    as defined in this specification applies to all IPv6 nodes, including both hosts
+    and routers. This document obsoletes RFC 3484. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6724'
+fetched: '2022-01-23'
 keyword:
 - source
 - destination

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Litkowski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Litkowski
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Decraene
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Filsfils
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Francois
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Francois
         language:
@@ -67,21 +115,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism for link-state routing protocols that
-    prevents local transient forwarding loops in case of link failure. This mechanism
+- content: "<p>This document describes a mechanism for link-state routing protocols
+    that prevents local transient forwarding loops in case of link failure. This mechanism
     proposes a two-step convergence by introducing a delay between the convergence
-    of the node adjacent to the topology change and the network-wide convergence.
-    Because this mechanism delays the IGP convergence, it may only be used for planned
-    maintenance or when Fast Reroute (FRR) protects the traffic during the time between
-    the link failure and the IGP convergence. The mechanism is limited to the link-down
-    event in order to keep the mechanism simple. Simulations using real network topologies
-    have been performed and show that local loops are a significant portion (>50%)
-    of the total forwarding loops.
+    of the node adjacent to the topology change and the network-wide convergence.</p><p>Because
+    this mechanism delays the IGP convergence, it may only be used for planned maintenance
+    or when Fast Reroute (FRR) protects the traffic during the time between the link
+    failure and the IGP convergence.</p><p>The mechanism is limited to the link-down
+    event in order to keep the mechanism simple.</p><p>Simulations using real network
+    topologies have been performed and show that local loops are a significant portion
+    (>50%) of the total forwarding loops.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8333'
+fetched: '2022-01-23'
 editorialgroup:
 - name: rtgwg

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Postel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Postel
         language:
@@ -33,6 +45,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reynolds
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J.K. Reynolds
         language:
@@ -47,7 +76,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This is the specification of the Telnet protocol used for remote terminal
+- content: <p>This is the specification of the Telnet protocol used for remote terminal
     access in the ARPA Internet.  The purpose of the TELNET Protocol is to provide
     a fairly general, bi-directional, eight-bit byte oriented communications facility.  Its
     primary goal is to allow a standard method of interfacing terminal devices and
@@ -55,12 +84,21 @@ abstract:
     may also be used for terminal-terminal communication ("linking") and process-process
     communication (distributed computation).  This RFC specifies a standard for the
     ARPA Internet community.  Hosts on the ARPA Internet are expected to adopt and
-    implement this standard.  Obsoletes NIC 18639.
+    implement this standard.  Obsoletes NIC 18639.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '8'
+- title:
+    content: RFC
+    format: text/plain
+  number: '854'
+fetched: '2022-01-23'
 keyword:
 - TELNET

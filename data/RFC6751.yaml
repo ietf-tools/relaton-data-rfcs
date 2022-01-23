@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Despres
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Despres
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Carpenter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Carpenter
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wing
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wing
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jiang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Jiang
         language:
@@ -67,26 +115,31 @@ language:
 script:
 - Latn
 abstract:
-- content: In customer sites having IPv4-only Customer Premises Equipment (CPE), Teredo
-    (RFC 4380, RFC 5991, RFC 6081) provides last-resort IPv6 connectivity.  However,
-    because it is designed to work without the involvement of Internet Service Providers,
-    it has significant limitations (connectivity between IPv6 native addresses and
-    Teredo addresses is uncertain; connectivity between Teredo addresses fails for
-    some combinations of NAT types).  6a44 is a complementary solution that, being
-    based on ISP cooperation, avoids these limitations.  At the beginning of 6a44
-    IPv6 addresses, it replaces the Teredo well-known prefix, present at the beginning
-    of Teredo IPv6 addresses, with network-specific /48 prefixes assigned by local
-    ISPs (an evolution similar to that from 6to4 to 6rd (IPv6 Rapid Deployment on
-    IPv4 Infrastructures)).  The specification is expected to be complete enough for
-    running code to be independently written and the solution to be incrementally
+- content: "<p>In customer sites having IPv4-only Customer Premises Equipment (CPE),
+    Teredo (RFC 4380, RFC 5991, RFC 6081) provides last-resort IPv6 connectivity.
+    \ However, because it is designed to work without the involvement of Internet
+    Service Providers, it has significant limitations (connectivity between IPv6 native
+    addresses and Teredo addresses is uncertain; connectivity between Teredo addresses
+    fails for some combinations of NAT types).  6a44 is a complementary solution that,
+    being based on ISP cooperation, avoids these limitations.  At the beginning of
+    6a44 IPv6 addresses, it replaces the Teredo well-known prefix, present at the
+    beginning of Teredo IPv6 addresses, with network-specific /48 prefixes assigned
+    by local ISPs (an evolution similar to that from 6to4 to 6rd (IPv6 Rapid Deployment
+    on IPv4 Infrastructures)).  The specification is expected to be complete enough
+    for running code to be independently written and the solution to be incrementally
     deployed and used.  This document defines an Experimental Protocol for the Internet
-    community.
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6751'
+fetched: '2022-01-23'
 keyword:
 - Coexistence
 - Transition

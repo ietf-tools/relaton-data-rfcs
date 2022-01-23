@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Jones
         language:
@@ -37,18 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The CBOR Object Signing and Encryption (COSE) specification defines cryptographic
-    message encodings using Concise Binary Object Representation (CBOR).  This specification
-    defines algorithm encodings and representations enabling RSA algorithms to be
-    used for COSE messages.  Encodings are specified for the use of RSA Probabilistic
-    Signature Scheme (RSASSA-PSS) signatures, RSA Encryption Scheme - Optimal Asymmetric
-    Encryption Padding (RSAES-OAEP) encryption, and RSA keys.
+- content: "<p>The CBOR Object Signing and Encryption (COSE) specification defines
+    cryptographic message encodings using Concise Binary Object Representation (CBOR).
+    \ This specification defines algorithm encodings and representations enabling
+    RSA algorithms to be used for COSE messages.  Encodings are specified for the
+    use of RSA Probabilistic Signature Scheme (RSASSA-PSS) signatures, RSA Encryption
+    Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) encryption, and RSA
+    keys.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8230'
+fetched: '2022-01-23'
 keyword:
 - Cryptography
 - Digital Signature

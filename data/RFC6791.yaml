@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: X
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: X. Li
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bao
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wing
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wing
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vaithianathan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Vaithianathan
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -77,11 +137,11 @@ language:
 script:
 - Latn
 abstract:
-- content: A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing
+- content: "<p>A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing
     non-IPv4-translatable addresses as the source.  These packets should be passed
     across the translator as ICMP packets directed to the IPv4 destination.  This
     document presents recommendations for source address translation in ICMPv6 headers
-    to handle such cases. [STANDARDS-TRACK]
+    to handle such cases. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -93,7 +153,12 @@ relation:
     formattedref:
       content: RFC6145
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6791'
+fetched: '2022-01-23'
 keyword:
 - IP/ICMP Translation Algorithm
 - IPv4-translatable IPv6 addresses

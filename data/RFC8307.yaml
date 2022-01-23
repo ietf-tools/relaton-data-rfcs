@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bormann
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 5785 defines a path prefix, "/.well-known/", that can be used by well-known
-    URIs.  It was specifically defined for the "http" and "https" URI schemes.  The
+- content: <p>RFC 5785 defines a path prefix, "/.well-known/", that can be used by
+    well-known URIs.  It was specifically defined for the "http" and "https" URI schemes.  The
     present memo formally updates RFC 6455, which defines the URI schemes defined
     for the WebSocket Protocol, to extend the use of these well-known URIs to those
-    URI schemes.
+    URI schemes.</p>
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC6455
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8307'
+fetched: '2022-01-23'
 keyword:
 - URI
 - Web

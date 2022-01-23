@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Byrne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Byrne
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: Dual-Stack Lite (DS-Lite), defined in RFC 6333, directs IANA to reserve
+- content: "<p>Dual-Stack Lite (DS-Lite), defined in RFC 6333, directs IANA to reserve
     192.0.0.0/29 for the Basic Bridging BroadBand (B4) element.  Per this memo, IANA
     has generalized that reservation to include other cases where a non-routed IPv4
-    interface must be numbered as part of an IPv6 transition solution.
+    interface must be numbered as part of an IPv6 transition solution.</p>"
   language:
   - en
   script:
@@ -52,6 +64,11 @@ relation:
     formattedref:
       content: RFC6333
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7335'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

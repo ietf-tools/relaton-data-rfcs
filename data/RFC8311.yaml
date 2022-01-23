@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Black
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Black
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo updates RFC 3168, which specifies Explicit Congestion Notification
-    (ECN) as an alternative to packet drops for indicating network congestion to endpoints.  It
-    relaxes restrictions in RFC 3168 that hinder experimentation towards benefits
+- content: "<p>This memo updates RFC 3168, which specifies Explicit Congestion Notification
+    (ECN) as an alternative to packet drops for indicating network congestion to endpoints.
+    \ It relaxes restrictions in RFC 3168 that hinder experimentation towards benefits
     beyond just removal of loss.  This memo summarizes the anticipated areas of experimentation
     and updates RFC 3168 to enable experimentation in these areas.  An Experimental
     RFC in the IETF document stream is required to take advantage of any of these
@@ -48,7 +60,7 @@ abstract:
     RFCs 4341, 4342, and 5622.  This memo also records the conclusion of the ECN nonce
     experiment in RFC 3540 and provides the rationale for reclassification of RFC
     3540 from Experimental to Historic; this reclassification enables new experimental
-    use of the ECT(1) codepoint.
+    use of the ECT(1) codepoint.</p>"
   language:
   - en
   script:
@@ -80,7 +92,12 @@ relation:
     formattedref:
       content: RFC6679
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8311'
+fetched: '2022-01-23'
 keyword:
 - ECN
 editorialgroup:

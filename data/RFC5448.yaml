@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arkko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Arkko
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lehtovirta
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Lehtovirta
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eronen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Eronen
         language:
@@ -58,15 +94,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines a new EAP method, EAP-AKA', which is a small
+- content: "<p>This specification defines a new EAP method, EAP-AKA', which is a small
     revision of the EAP-AKA (Extensible Authentication Protocol Method for 3rd Generation
     Authentication and Key Agreement) method. The change is a new key derivation function
     that binds the keys derived within the method to the name of the access network.
     The new key derivation mechanism has been defined in the 3rd Generation Partnership
     Project (3GPP). This specification allows its use in EAP in an interoperable manner.
-    In addition, EAP-AKA' employs SHA-256 instead of SHA-1. This specification also
-    updates RFC 4187, EAP-AKA, to prevent bidding down attacks from EAP-AKA'. This
-    memo provides information for the Internet community.
+    In addition, EAP-AKA' employs SHA-256 instead of SHA-1.</p><p>This specification
+    also updates RFC 4187, EAP-AKA, to prevent bidding down attacks from EAP-AKA'.
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -78,7 +114,12 @@ relation:
     formattedref:
       content: RFC4187
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5448'
+fetched: '2022-01-23'
 keyword:
 - EAP
 - AKA

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kuzmanovic
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Kuzmanovic
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mondal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Mondal
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Floyd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Floyd
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ramakrishnan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Ramakrishnan
         language:
@@ -68,10 +116,10 @@ language:
 script:
 - Latn
 abstract:
-- content: The proposal in this document is Experimental. While it may be deployed
+- content: "<p>The proposal in this document is Experimental. While it may be deployed
     in the current Internet, it does not represent a consensus that this is the best
     possible mechanism for the use of Explicit Congestion Notification (ECN) in TCP
-    SYN/ACK packets. This document describes an optional, experimental modification
+    SYN/ACK packets.</p><p>This document describes an optional, experimental modification
     to RFC 3168 to allow TCP SYN/ACK packets to be ECN-Capable. For TCP, RFC 3168
     specifies setting an ECN-Capable codepoint on data packets, but not on SYN and
     SYN/ACK packets. However, because of the high cost to the TCP transfer of having
@@ -89,13 +137,18 @@ abstract:
     SYN/ACK packet is dropped, or for some other reason the TCP responder does not
     receive an acknowledgement in the specified time, the TCP responder follows TCP
     standards for a dropped SYN/ACK packet (setting the retransmission timer). This
-    memo defines an Experimental Protocol for the Internet community.
+    memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5562'
+fetched: '2022-01-23'
 keyword:
 - ecn-capable
 editorialgroup:

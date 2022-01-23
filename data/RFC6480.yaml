@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lepinski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Lepinski
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kent
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kent
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an architecture for an infrastructure to support
+- content: "<p>This document describes an architecture for an infrastructure to support
     improved security of Internet routing.  The foundation of this architecture is
     a Resource Public Key Infrastructure (RPKI) that represents the allocation hierarchy
     of IP address space and Autonomous System (AS) numbers; and a distributed repository
@@ -58,13 +82,18 @@ abstract:
     ASes to originate routes to that address space.  Such verifiable authorizations
     could be used, for example, to more securely construct BGP route filters.  This
     document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6480'
+fetched: '2022-01-23'
 keyword:
 - RPKI
 - BGP

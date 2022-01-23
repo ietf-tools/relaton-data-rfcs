@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Davie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Davie
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Briscoe
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tay
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Tay
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3270 defines how to support the Diffserv architecture in MPLS networks,
+- content: "<p>RFC 3270 defines how to support the Diffserv architecture in MPLS networks,
     including how to encode Diffserv Code Points (DSCPs) in an MPLS header.  DSCPs
-    may be encoded in the EXP field, while other uses of that field are not precluded.  RFC
-    3270 makes no statement about how Explicit Congestion Notification (ECN) marking
-    might be encoded in the MPLS header.  This document defines how an operator might
-    define some of the EXP codepoints for explicit congestion notification, without
-    precluding other uses. [STANDARDS-TRACK]
+    may be encoded in the EXP field, while other uses of that field are not precluded.
+    \ RFC 3270 makes no statement about how Explicit Congestion Notification (ECN)
+    marking might be encoded in the MPLS header.  This document defines how an operator
+    might define some of the EXP codepoints for explicit congestion notification,
+    without precluding other uses. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -75,7 +111,12 @@ relation:
     formattedref:
       content: RFC3032
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5129'
+fetched: '2022-01-23'
 keyword:
 - Diffserv
 - Differentiated Services

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jennings
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Jennings
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mahy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Mahy
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Audet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Audet
         language:
@@ -58,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Initiation Protocol (SIP) allows proxy servers to initiate
+- content: "<p>The Session Initiation Protocol (SIP) allows proxy servers to initiate
     TCP connections or to send asynchronous UDP datagrams to User Agents in order
     to deliver requests.  However, in a large number of real deployments, many practical
     considerations, such as the existence of firewalls and Network Address Translators
@@ -67,7 +103,7 @@ abstract:
     User Agents, registrars, and proxy servers that allow requests to be delivered
     on existing connections established by the User Agent.  It also defines keep-alive
     behaviors needed to keep NAT bindings open and specifies the usage of multiple
-    connections from the User Agent to its registrar. [STANDARDS-TRACK]
+    connections from the User Agent to its registrar. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -84,6 +120,11 @@ relation:
     formattedref:
       content: RFC3327
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5626'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sip

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bumgardner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Bumgardner
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes Automatic Multicast Tunneling (AMT), a protocol
+- content: "<p>This document describes Automatic Multicast Tunneling (AMT), a protocol
     for delivering multicast traffic from sources in a multicast-enabled network to
     receivers that lack multicast connectivity to the source network. The protocol
-    uses UDP encapsulation and unicast replication to provide this functionality.
-    The AMT protocol is specifically designed to support rapid deployment by requiring
-    minimal changes to existing network infrastructure.
+    uses UDP encapsulation and unicast replication to provide this functionality.</p><p>The
+    AMT protocol is specifically designed to support rapid deployment by requiring
+    minimal changes to existing network infrastructure.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7450'
+fetched: '2022-01-23'
 keyword:
 - AMT
 - IGMPv2

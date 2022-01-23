@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atlas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Atlas
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zinin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zinin
         language:
@@ -47,21 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the use of loop-free alternates to provide local
-    protection for unicast traffic in pure IP and MPLS/LDP networks in the event of
-    a single failure, whether link, node, or shared risk link group (SRLG).  The goal
-    of this technology is to reduce the packet loss that happens while routers converge
-    after a topology change due to a failure.  Rapid failure repair is achieved through
-    use of precalculated backup next-hops that are loop-free and safe to use until
-    the distributed network convergence process completes.  This simple approach does
-    not require any support from other routers.  The extent to which this goal can
-    be met by this specification is dependent on the topology of the network. [STANDARDS-TRACK]
+- content: "<p>This document describes the use of loop-free alternates to provide
+    local protection for unicast traffic in pure IP and MPLS/LDP networks in the event
+    of a single failure, whether link, node, or shared risk link group (SRLG).  The
+    goal of this technology is to reduce the packet loss that happens while routers
+    converge after a topology change due to a failure.  Rapid failure repair is achieved
+    through use of precalculated backup next-hops that are loop-free and safe to use
+    until the distributed network convergence process completes.  This simple approach
+    does not require any support from other routers.  The extent to which this goal
+    can be met by this specification is dependent on the topology of the network.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5286'
+fetched: '2022-01-23'
 keyword:
 - FRR
 - LFA

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dolganow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Dolganow
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kotalwar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Kotalwar
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Zhang
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The base Multicast VPN (MVPN) specifications (RFCs 6513 and 6514) provide
+- content: <p>The base Multicast VPN (MVPN) specifications (RFCs 6513 and 6514) provide
     procedures to allow a multicast ingress node to invoke "explicit tracking" for
     a multicast flow or set of flows, thus learning the egress nodes for that flow
     or set of flows.  However, the specifications are not completely clear about how
@@ -76,7 +124,7 @@ abstract:
     procedure.  This new procedure allows an ingress node, by sending a single message,
     to request explicit tracking of each of a set of flows, where the set of flows
     is specified using a wildcard mechanism.  This document updates RFCs 6514, 6625,
-    7524, 7582, and 7900.
+    7524, 7582, and 7900.</p>
   language:
   - en
   script:
@@ -108,7 +156,12 @@ relation:
     formattedref:
       content: RFC7900
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8534'
+fetched: '2022-01-23'
 keyword:
 - Multicast MVPN
 editorialgroup:

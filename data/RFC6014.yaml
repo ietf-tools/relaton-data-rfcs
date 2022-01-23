@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoffman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hoffman
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies how DNSSEC cryptographic algorithm identifiers
+- content: <p>This document specifies how DNSSEC cryptographic algorithm identifiers
     in the IANA registries are allocated.  It changes the requirement from "standard
     required" to "RFC Required".  It does not change the list of algorithms that are
-    recommended or required for DNSSEC implementations. [STANDARDS-TRACK]
+    recommended or required for DNSSEC implementations. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -62,7 +74,12 @@ relation:
     formattedref:
       content: RFC4035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6014'
+fetched: '2022-01-23'
 keyword:
 - DNSSEC
 - digital signatures

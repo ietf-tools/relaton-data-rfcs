@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Turk
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an operational technique that uses BGP communities
+- content: "<p>This document describes an operational technique that uses BGP communities
     to remotely trigger black-holing of a particular destination network to block
     denial-of-service attacks.  Black-holing can be applied on a selection of routers
     rather than all BGP-speaking routers in the network.  The document also describes
     a sinkhole tunnel technique using BGP communities and tunnels to pull traffic
     into a sinkhole router for analysis.  This memo provides information for the Internet
-    community.
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3882'
+fetched: '2022-01-23'
 keyword:
 - dos
 - border gateway protocol

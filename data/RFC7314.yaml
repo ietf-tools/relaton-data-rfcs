@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andrews
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Andrews
         language:
@@ -37,15 +49,20 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a method for secondary DNS servers to honour the
-    SOA EXPIRE field as if they were always transferring from the primary, even when
-    using other secondaries to perform indirect transfers and refresh queries.
+- content: "<p>This document specifies a method for secondary DNS servers to honour
+    the SOA EXPIRE field as if they were always transferring from the primary, even
+    when using other secondaries to perform indirect transfers and refresh queries.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7314'
+fetched: '2022-01-23'
 keyword:
 - IXFR
 - AXFR

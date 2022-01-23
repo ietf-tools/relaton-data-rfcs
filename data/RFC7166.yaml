@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bhatia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bhatia
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manral
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Manral
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -57,21 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Currently, OSPF for IPv6 (OSPFv3) uses IPsec as the only mechanism for
-    authenticating protocol packets. This behavior is different from authentication
+- content: "<p>Currently, OSPF for IPv6 (OSPFv3) uses IPsec as the only mechanism
+    for authenticating protocol packets. This behavior is different from authentication
     mechanisms present in other routing protocols (OSPFv2, Intermediate System to
     Intermediate System (IS-IS), RIP, and Routing Information Protocol Next Generation
     (RIPng)). In some environments, it has been found that IPsec is difficult to configure
     and maintain and thus cannot be used. This document defines an alternative mechanism
     to authenticate OSPFv3 protocol packets so that OSPFv3 does not depend only upon
-    IPsec for authentication. The OSPFv3 Authentication Trailer was originally defined
-    in RFC 6506. This document obsoletes RFC 6506 by providing a revised definition,
-    including clarifications and refinements of the procedures.
+    IPsec for authentication.</p><p>The OSPFv3 Authentication Trailer was originally
+    defined in RFC 6506. This document obsoletes RFC 6506 by providing a revised definition,
+    including clarifications and refinements of the procedures.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7166'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ospf

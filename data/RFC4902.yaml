@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Stecher
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Stecher
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Open Pluggable Edge Services (OPES) framework is application agnostic.
+- content: <p>The Open Pluggable Edge Services (OPES) framework is application agnostic.
     Application-specific adaptations extend that framework. Previous work has focused
     on HTTP and work for SMTP is in progress. These protocols differ fundamentally
     in the way data flows, and it turns out that existing OPES requirements and IAB
@@ -46,16 +58,21 @@ abstract:
     for SMTP adaptation. This document analyzes aspects about the integrity of SMTP
     and mail message adaptation by OPES systems and about privacy and security issues
     when the OPES framework is adapted to SMTP. It also lists requirements that must
-    be considered when creating the "SMTP adaptation with OPES" document. The intent
-    of this document is to capture this information before the current OPES working
-    group shuts down. This is to provide input for subsequent working groups or individual
-    contributors that may pick up the OPES/SMTP work at a later date. This memo provides
-    information for the Internet community.
+    be considered when creating the "SMTP adaptation with OPES" document.</p><p>The
+    intent of this document is to capture this information before the current OPES
+    working group shuts down. This is to provide input for subsequent working groups
+    or individual contributors that may pick up the OPES/SMTP work at a later date.
+    This memo provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4902'
+fetched: '2022-01-23'
 editorialgroup:
 - name: opes

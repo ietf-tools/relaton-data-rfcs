@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Floyd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Floyd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Henderson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gurtov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Gurtov
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The purpose of this document is to advance NewReno TCP's Fast Retransmit
+- content: <p>The purpose of this document is to advance NewReno TCP's Fast Retransmit
     and Fast Recovery algorithms in RFC 2582 from Experimental to Standards Track
     status.  The main change in this document relative to RFC 2582 is to specify the
     Careful variant of NewReno's Fast Retransmit and Fast Recovery algorithms.  The
@@ -65,7 +101,7 @@ abstract:
     Fast Retransmits that can occur after a timeout.  However, RFC 2582 also defined
     "Careful" and "Less Careful" variants that avoid these unnecessary Fast Retransmits,
     and recommended the Careful variant.  This document specifies the previously-named
-    "Careful" variant as the basic version of NewReno TCP. [STANDARDS-TRACK]
+    "Careful" variant as the basic version of NewReno TCP. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -77,7 +113,12 @@ relation:
     formattedref:
       content: RFC6582
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3782'
+fetched: '2022-01-23'
 keyword:
 - Transmission
 - Control

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Denis-Courmont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Denis-Courmont
         language:
@@ -38,20 +50,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a set of requirements for NATs handling the Datagram
+- content: "<p>This document defines a set of requirements for NATs handling the Datagram
     Congestion Control Protocol (DCCP).  These requirements allow DCCP applications,
     such as streaming applications, to operate consistently, and they are very similar
-    to the TCP requirements for NATs, which have already been published by the IETF.  Ensuring
-    that NATs meet this set of requirements will greatly increase the likelihood that
-    applications using DCCP will function properly.  This document specifies an Internet
-    Best Current Practices for the Internet Community, and requests discussion and
-    suggestions for improvements.
+    to the TCP requirements for NATs, which have already been published by the IETF.
+    \ Ensuring that NATs meet this set of requirements will greatly increase the likelihood
+    that applications using DCCP will function properly.  This document specifies
+    an Internet Best Current Practices for the Internet Community, and requests discussion
+    and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '150'
+- title:
+    content: RFC
+    format: text/plain
+  number: '5597'
+fetched: '2022-01-23'
 keyword:
 - dccp
 editorialgroup:

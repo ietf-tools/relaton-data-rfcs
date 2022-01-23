@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: West
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. West
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McCann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. McCann
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes TCP/IP field behavior in the context of header compression.  Header
-    compression is possible because most header fields do not vary randomly from packet
-    to packet.  Many of the fields exhibit static behavior or change in a more or
-    less predictable way.  When a header compression scheme is designed, it is of
-    fundamental importance to understand the behavior of the fields in detail.  An
-    example of this analysis can be seen in RFC 3095.  This memo performs a similar
-    role for the compression of TCP/IP headers.  This memo provides information for
-    the Internet community.
+- content: "<p>This memo describes TCP/IP field behavior in the context of header
+    compression.  Header compression is possible because most header fields do not
+    vary randomly from packet to packet.  Many of the fields exhibit static behavior
+    or change in a more or less predictable way.  When a header compression scheme
+    is designed, it is of fundamental importance to understand the behavior of the
+    fields in detail.  An example of this analysis can be seen in RFC 3095.  This
+    memo performs a similar role for the compression of TCP/IP headers.  This memo
+    provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4413'
+fetched: '2022-01-23'
 keyword:
 - transmission control protocol
 - header compression

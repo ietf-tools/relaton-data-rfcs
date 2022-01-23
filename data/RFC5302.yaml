@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Li
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Smit
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Smit
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Przygienda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Przygienda
         language:
@@ -57,16 +93,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes extensions to the Intermediate System to Intermediate
+- content: "<p>This document describes extensions to the Intermediate System to Intermediate
     System (IS-IS) protocol to support optimal routing within a two-level domain.
     The IS-IS protocol is specified in ISO 10589, with extensions for supporting IPv4
-    (Internet Protocol) specified in RFC 1195. This document replaces RFC 2966. This
+    (Internet Protocol) specified in RFC 1195. This document replaces RFC 2966.</p><p>This
     document extends the semantics presented in RFC 1195 so that a routing domain
     running with both level 1 and level 2 Intermediate Systems (IS) (routers) can
     distribute IP prefixes between level 1 and level 2, and vice versa. This distribution
     requires certain restrictions to ensure that persistent forwarding loops do not
     form. The goal of this domain-wide prefix distribution is to increase the granularity
-    of the routing information within the domain. [STANDARDS-TRACK]
+    of the routing information within the domain. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -78,7 +114,12 @@ relation:
     formattedref:
       content: RFC1195
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5302'
+fetched: '2022-01-23'
 keyword:
 - intermediate system to intermediate system
 - routers

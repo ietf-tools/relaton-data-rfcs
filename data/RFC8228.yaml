@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Freytag
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Freytag
         language:
@@ -38,20 +50,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Rules for validating identifier labels and alternate representations of
-    those labels (variants) are known as Label Generation Rulesets (LGRs); they are
-    used for the implementation of identifier systems such as Internationalized Domain
-    Names (IDNs).  This document describes ways to design LGRs to support variant
+- content: "<p>Rules for validating identifier labels and alternate representations
+    of those labels (variants) are known as Label Generation Rulesets (LGRs); they
+    are used for the implementation of identifier systems such as Internationalized
+    Domain Names (IDNs).  This document describes ways to design LGRs to support variant
     labels.  In designing LGRs, it is important to ensure that the label generation
     rules are consistent and well behaved in the presence of variants.  The design
     decisions can then be expressed using the XML representation of LGRs that is defined
-    in RFC 7940.
+    in RFC 7940.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8228'
+fetched: '2022-01-23'
 keyword:
 - LGR
 - Variant

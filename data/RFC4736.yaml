@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ikejiri
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Ikejiri
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Zhang
         language:
@@ -58,8 +94,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a mechanism for the reoptimization of loosely routed
-    MPLS and GMPLS (Generalized Multiprotocol Label Switching) Traffic Engineering
+- content: "<p>This document defines a mechanism for the reoptimization of loosely
+    routed MPLS and GMPLS (Generalized Multiprotocol Label Switching) Traffic Engineering
     (TE) Label Switched Paths (LSPs) signaled with Resource Reservation Protocol Traffic
     Engineering (RSVP-TE).  This document proposes a mechanism that allows a TE LSP
     head-end Label Switching Router (LSR) to trigger a new path re-evaluation on every
@@ -69,13 +105,18 @@ abstract:
     on the TE LSP path).  The proposed mechanism applies to the cases of intra- and
     inter-domain (Interior Gateway Protocol area (IGP area) or Autonomous System)
     packet and non-packet TE LSPs following a loosely routed path.  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4736'
+fetched: '2022-01-23'
 keyword:
 - rsvp-te
 - te lsp path

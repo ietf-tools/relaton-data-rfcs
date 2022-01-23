@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bless
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bless
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nichols
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Nichols
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wehrle
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Wehrle
         language:
@@ -57,8 +93,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a differentiated services per-domain behavior (PDB)
-    whose traffic may be "starved" (although starvation is not strictly required)
+- content: <p>This document proposes a differentiated services per-domain behavior
+    (PDB) whose traffic may be "starved" (although starvation is not strictly required)
     in a properly functioning network.  This is in contrast to the Internet's "best-effort"
     or "normal Internet traffic" model, where prolonged starvation indicates network
     problems.  In this sense, the proposed PDB's traffic is forwarded with a "lower"
@@ -66,7 +102,7 @@ abstract:
     "Lower Effort" (LE).  Use of this PDB permits a network operator to strictly limit
     the effect of its traffic on "best-effort"/"normal" or all other Internet traffic.  This
     document gives some example uses, but does not propose constraining the PDB's
-    use to any particular type of traffic.
+    use to any particular type of traffic.</p>
   language:
   - en
   script:
@@ -78,7 +114,12 @@ relation:
     formattedref:
       content: RFC8622
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3662'
+fetched: '2022-01-23'
 keyword:
 - traffic network
 - ds

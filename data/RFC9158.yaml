@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 7299 describes the object identifiers that were assigned by the Public
-    Key Infrastructure using X.509 (PKIX) Working Group in an arc that was allocated
-    by IANA (1.3.6.1.5.5.7).  A small number of object identifiers that were assigned
-    in RFC 4212 are omitted from RFC 7299, and this document updates RFC 7299 to correct
-    that oversight.
+- content: "<p>RFC 7299 describes the object identifiers that were assigned by the
+    Public Key Infrastructure using X.509 (PKIX) Working Group in an arc that was
+    allocated by IANA (1.3.6.1.5.5.7).  A small number of object identifiers that
+    were assigned in RFC 4212 are omitted from RFC 7299, and this document updates
+    RFC 7299 to correct that oversight.</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC7299
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9158'
+fetched: '2022-01-23'
 keyword:
 - Certificate Request Message Format
 - CRMF

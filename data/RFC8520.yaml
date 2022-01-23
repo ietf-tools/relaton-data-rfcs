@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lear
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Lear
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Droms
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Droms
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Romascanu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Romascanu
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo specifies a component-based architecture for Manufacturer Usage
-    Descriptions (MUDs). The goal of MUD is to provide a means for end devices to
-    signal to the network what sort of access and network functionality they require
+- content: "<p>This memo specifies a component-based architecture for Manufacturer
+    Usage Descriptions (MUDs). The goal of MUD is to provide a means for end devices
+    to signal to the network what sort of access and network functionality they require
     to properly function. The initial focus is on access control. Later work can delve
-    into other aspects. This memo specifies two YANG modules, IPv4 and IPv6 DHCP options,
-    a Link Layer Discovery Protocol (LLDP) TLV, a URL, an X.509 certificate extension,
-    and a means to sign and verify the descriptions.
+    into other aspects.</p><p>This memo specifies two YANG modules, IPv4 and IPv6
+    DHCP options, a Link Layer Discovery Protocol (LLDP) TLV, a URL, an X.509 certificate
+    extension, and a means to sign and verify the descriptions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8520'
+fetched: '2022-01-23'
 keyword:
 - MUD
 - IoT Security

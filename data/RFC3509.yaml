@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zinin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zinin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yeung
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Yeung
         language:
@@ -57,21 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Open Shortest Path First (OSPF) is a link-state intra-domain routing protocol
-    used for routing in IP networks.  Though the definition of the Area Border Router
-    (ABR) in the OSPF specification does not require a router with multiple attached
-    areas to have a backbone connection, it is actually necessary to provide successful
-    routing to the inter-area and external destinations.  If this requirement is not
-    met, all traffic destined for the areas not connected to such an ABR or out of
-    the OSPF domain, is dropped.  This document describes alternative ABR behaviors
+- content: "<p>Open Shortest Path First (OSPF) is a link-state intra-domain routing
+    protocol used for routing in IP networks.  Though the definition of the Area Border
+    Router (ABR) in the OSPF specification does not require a router with multiple
+    attached areas to have a backbone connection, it is actually necessary to provide
+    successful routing to the inter-area and external destinations.  If this requirement
+    is not met, all traffic destined for the areas not connected to such an ABR or
+    out of the OSPF domain, is dropped.  This document describes alternative ABR behaviors
     implemented in Cisco and IBM routers.  This memo provides information for the
-    Internet community.
+    Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3509'
+fetched: '2022-01-23'
 keyword:
 - traffic
 - backbone

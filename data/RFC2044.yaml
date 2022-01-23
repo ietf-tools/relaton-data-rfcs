@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yergeau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Yergeau
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The Unicode Standard, version 1.1, and ISO/IEC 10646-1:1993 jointly define
-    a 16 bit character set which encompasses most of the world's writing systems.  UTF-8,
-    the object of this memo, has the characteristic of preserving the full US-ASCII
-    range.  This memo provides information for the Internet community.  This memo
-    does not specify an Internet standard of any kind.
+- content: "<p>The Unicode Standard, version 1.1, and ISO/IEC 10646-1:1993 jointly
+    define a 16 bit character set which encompasses most of the world's writing systems.
+    \ UTF-8, the object of this memo, has the characteristic of preserving the full
+    US-ASCII range.  This memo provides information for the Internet community.  This
+    memo does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC2279
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2044'
+fetched: '2022-01-23'
 keyword:
 - UCS
 - Transformation

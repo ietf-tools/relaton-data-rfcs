@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoeper
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Hoeper
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nakhjiri
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Nakhjiri
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ohba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Ohba
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an abstract mechanism for delivering root keys
+- content: "<p>This document describes an abstract mechanism for delivering root keys
     from an Extensible Authentication Protocol (EAP) server to another network server
     that requires the keys for offering security protected services, such as re-authentication,
     to an EAP peer.  The distributed root key can be either a usage-specific root
@@ -66,16 +102,21 @@ abstract:
     hierarchy previously established between the EAP server and an EAP peer.  This
     document defines a template for a key distribution exchange (KDE) protocol that
     can distribute these different types of root keys using a AAA (Authentication,
-    Authorization, and Accounting) protocol and discusses its security requirements.  The
-    described protocol template does not specify message formats, data encoding, or
-    other implementation details.  It thus needs to be instantiated with a specific
-    protocol (e.g., RADIUS or Diameter) before it can be used. [STANDARDS-TRACK]
+    Authorization, and Accounting) protocol and discusses its security requirements.
+    \ The described protocol template does not specify message formats, data encoding,
+    or other implementation details.  It thus needs to be instantiated with a specific
+    protocol (e.g., RADIUS or Diameter) before it can be used. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5749'
+fetched: '2022-01-23'
 keyword:
 - security
 - authentication

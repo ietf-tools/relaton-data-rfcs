@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bhatia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bhatia
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Zhang
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -67,16 +115,16 @@ language:
 script:
 - Latn
 abstract:
-- content: The current OSPFv2 cryptographic authentication mechanism as defined in
-    RFCs 2328 and 5709 is vulnerable to both inter-session and intra- session replay
+- content: "<p>The current OSPFv2 cryptographic authentication mechanism as defined
+    in RFCs 2328 and 5709 is vulnerable to both inter-session and intra- session replay
     attacks when using manual keying. Additionally, the existing cryptographic authentication
     mechanism does not cover the IP header. This omission can be exploited to carry
-    out various types of attacks. This document defines changes to the authentication
+    out various types of attacks.</p><p>This document defines changes to the authentication
     sequence number mechanism that will protect OSPFv2 from both inter-session and
     intra- session replay attacks when using manual keys for securing OSPFv2 protocol
     packets. Additionally, we also describe some changes in the cryptographic hash
     computation that will eliminate attacks resulting from OSPFv2 not protecting the
-    IP header.
+    IP header.</p>"
   language:
   - en
   script:
@@ -93,7 +141,12 @@ relation:
     formattedref:
       content: RFC5709
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7474'
+fetched: '2022-01-23'
 keyword:
 - OSPF
 - cryptographic authentication

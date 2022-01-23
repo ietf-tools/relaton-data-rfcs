@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Friend
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Friend
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Transport Layer Security (TLS) protocol (RFC 2246) includes features
+- content: "<p>The Transport Layer Security (TLS) protocol (RFC 2246) includes features
     to negotiate selection of a lossless data compression method as part of the TLS
     Handshake Protocol and then to apply the algorithm associated with the selected
     method as part of the TLS Record Protocol.  TLS defines one standard compression
@@ -46,13 +58,18 @@ abstract:
     compressed.  This document describes an additional compression method associated
     with the Lempel-Ziv-Stac (LZS) lossless data compression algorithm for use with
     TLS.  This document also defines the application of the LZS algorithm to the TLS
-    Record Protocol.  This memo provides information for the Internet community.
+    Record Protocol.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3943'
+fetched: '2022-01-23'
 keyword:
 - lossless data compression algorithm
 - TLS Record Protocol

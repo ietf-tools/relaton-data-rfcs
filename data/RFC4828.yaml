@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Floyd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Floyd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kohler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Kohler
         language:
@@ -47,29 +71,34 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a mechanism for further experimentation, but not
-    for widespread deployment at this time in the global Internet. TCP-Friendly Rate
-    Control (TFRC) is a congestion control mechanism for unicast flows operating in
-    a best-effort Internet environment (RFC 3448). TFRC was intended for applications
+- content: "<p>This document proposes a mechanism for further experimentation, but
+    not for widespread deployment at this time in the global Internet.</p><p>TCP-Friendly
+    Rate Control (TFRC) is a congestion control mechanism for unicast flows operating
+    in a best-effort Internet environment (RFC 3448). TFRC was intended for applications
     that use a fixed packet size, and was designed to be reasonably fair when competing
     for bandwidth with TCP connections using the same packet size. This document proposes
     TFRC-SP, a Small-Packet (SP) variant of TFRC, that is designed for applications
     that send small packets. The design goal for TFRC-SP is to achieve the same bandwidth
     in bps (bits per second) as a TCP flow using packets of up to 1500 bytes. TFRC-SP
     enforces a minimum interval of 10 ms between data packets to prevent a single
-    flow from sending small packets arbitrarily frequently. Flows using TFRC-SP compete
-    reasonably fairly with large-packet TCP and TFRC flows in environments where large-packet
-    flows and small-packet flows experience similar packet drop rates. However, in
-    environments where small-packet flows experience lower packet drop rates than
-    large-packet flows (e.g., with Drop-Tail queues in units of bytes), TFRC-SP can
-    receive considerably more than its share of the bandwidth. This memo defines an
-    Experimental Protocol for the Internet community.
+    flow from sending small packets arbitrarily frequently.</p><p>Flows using TFRC-SP
+    compete reasonably fairly with large-packet TCP and TFRC flows in environments
+    where large-packet flows and small-packet flows experience similar packet drop
+    rates. However, in environments where small-packet flows experience lower packet
+    drop rates than large-packet flows (e.g., with Drop-Tail queues in units of bytes),
+    TFRC-SP can receive considerably more than its share of the bandwidth. This memo
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4828'
+fetched: '2022-01-23'
 keyword:
 - transmission control protocol
 editorialgroup:

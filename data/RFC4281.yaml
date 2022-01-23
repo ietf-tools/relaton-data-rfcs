@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Singer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Singer
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Frojdh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Frojdh
         language:
@@ -57,20 +93,20 @@ language:
 script:
 - Latn
 abstract:
-- content: Several MIME type/subtype combinations exist that can contain different
+- content: <p>Several MIME type/subtype combinations exist that can contain different
     media formats. A receiving agent thus needs to examine the details of such media
     content to determine if the specific elements can be rendered given an available
     set of codecs. Especially when the end system has limited resources, or the connection
     to the end system has limited bandwidth, it would be helpful to know from the
-    Content-Type alone if the content can be rendered. This document adds a new parameter,
-    "codecs", to various type/subtype combinations to allow for unambiguous specification
-    of the codecs indicated by the media formats contained within. By labeling content
-    with the specific codecs indicated to render the contained media, receiving systems
-    can determine if the codecs are supported by the end system, and if not, can take
-    appropriate action (such as rejecting the content, sending notification of the
-    situation, transcoding the content to a supported type, fetching and installing
-    the required codecs, further inspection to determine if it will be sufficient
-    to support a subset of the indicated codecs, etc.) [STANDARDS-TRACK]
+    Content-Type alone if the content can be rendered.</p><p>This document adds a
+    new parameter, "codecs", to various type/subtype combinations to allow for unambiguous
+    specification of the codecs indicated by the media formats contained within.</p><p>By
+    labeling content with the specific codecs indicated to render the contained media,
+    receiving systems can determine if the codecs are supported by the end system,
+    and if not, can take appropriate action (such as rejecting the content, sending
+    notification of the situation, transcoding the content to a supported type, fetching
+    and installing the required codecs, further inspection to determine if it will
+    be sufficient to support a subset of the indicated codecs, etc.) [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -82,7 +118,12 @@ relation:
     formattedref:
       content: RFC6381
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4281'
+fetched: '2022-01-23'
 keyword:
 - codec
 - container

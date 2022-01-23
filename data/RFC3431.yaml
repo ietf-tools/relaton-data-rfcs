@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Segmuller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Segmuller
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the RELATIONAL extension to the Sieve mail filtering
-    language defined in RFC 3028.  This extension extends existing conditional tests
-    in Sieve to allow relational operators.  In addition to testing their content,
+- content: "<p>This document describes the RELATIONAL extension to the Sieve mail
+    filtering language defined in RFC 3028.  This extension extends existing conditional
+    tests in Sieve to allow relational operators.  In addition to testing their content,
     it also allows for testing of the number of entities in header and envelope fields.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC5231
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3431'
+fetched: '2022-01-23'
 keyword:
 - sieve mail
 - filtering language

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chuang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Chuang
         language:
@@ -47,10 +71,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new name form for inclusion in the otherName field
-    of an X.509 Subject Alternative Name and Issuer Alternative Name extension that
-    allows a certificate subject to be associated with an internationalized email
-    address. This document updates RFC 5280.
+- content: "<p>This document defines a new name form for inclusion in the otherName
+    field of an X.509 Subject Alternative Name and Issuer Alternative Name extension
+    that allows a certificate subject to be associated with an internationalized email
+    address.</p><p>This document updates RFC 5280.</p>"
   language:
   - en
   script:
@@ -62,7 +86,12 @@ relation:
     formattedref:
       content: RFC5280
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8398'
+fetched: '2022-01-23'
 keyword:
 - EAI
 - PKIX

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cameron
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Cameron
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cohen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Cohen
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Postel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Postel
         language:
@@ -67,17 +115,22 @@ language:
 script:
 - Latn
 abstract:
-- content: One of the problems with the use of terminal servers is the large number
+- content: "<p>One of the problems with the use of terminal servers is the large number
     of small packets they can generate.  Frequently, most of these packets are destined
     for only one or two hosts.  TMux is a protocol which allows multiple short transport
     segments, independent of application type, to be combined between a server and
-    host pair.
+    host pair.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1692'
+fetched: '2022-01-23'
 keyword:
 - TMUX
 - Internet

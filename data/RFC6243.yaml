@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bierman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bierman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lengyel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Lengyel
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The Network Configuration Protocol (NETCONF) defines ways to read and edit
-    configuration data from a NETCONF server.  In some cases, part of this data may
-    not be set by the NETCONF client, but rather a default value known to the server
-    is used instead.  In many situations the NETCONF client has a priori knowledge
+- content: "<p>The Network Configuration Protocol (NETCONF) defines ways to read and
+    edit configuration data from a NETCONF server.  In some cases, part of this data
+    may not be set by the NETCONF client, but rather a default value known to the
+    server is used instead.  In many situations the NETCONF client has a priori knowledge
     about default data, so the NETCONF server does not need to save it in a NETCONF
-    configuration datastore or send it to the client in a retrieval operation reply.  In
-    other situations the NETCONF client will need this data from the server.  Not
-    all server implementations treat this default data the same way.  This document
+    configuration datastore or send it to the client in a retrieval operation reply.
+    \ In other situations the NETCONF client will need this data from the server.
+    \ Not all server implementations treat this default data the same way.  This document
     defines a capability-based extension to the NETCONF protocol that allows the NETCONF
     client to identify how defaults are processed by the server, and also defines
-    new mechanisms for client control of server processing of default data. [STANDARDS-TRACK]
+    new mechanisms for client control of server processing of default data. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6243'
+fetched: '2022-01-23'
 keyword:
 - network configuration protocol
 editorialgroup:

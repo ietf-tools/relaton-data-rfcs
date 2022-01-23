@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mohali
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Mohali
         language:
@@ -38,26 +50,32 @@ language:
 script:
 - Latn
 abstract:
-- content: Although the SIP History-Info header field described in RFC 7044 is the
-    solution adopted in IETF, the non-standard Diversion header field described, as
-    Historic, in RFC 5806 is nevertheless already implemented and used for conveying
-    call-diversion-related information in Session Initiation Protocol (SIP) signaling.
-    RFC 7044 obsoletes the original RFC 4244 and redefines the History-Info header
-    field for capturing the history information in requests. Since the Diversion header
+- content: "<p>Although the SIP History-Info header field described in RFC 7044 is
+    the solution adopted in IETF, the non-standard Diversion header field described,
+    as Historic, in RFC 5806 is nevertheless already implemented and used for conveying
+    call-diversion-related information in Session Initiation Protocol (SIP) signaling.</p><p>RFC
+    7044 obsoletes the original RFC 4244 and redefines the History-Info header field
+    for capturing the history information in requests.</p><p>Since the Diversion header
     field is used in existing network implementations for the transport of call diversion
     information, its interworking with the SIP History-Info standardized solution
     is needed. This document describes a recommended interworking guideline between
     the Diversion header field and the History-Info header field to handle call diversion
     information. This work is intended to enable the migration from non-standard implementations
-    toward IETF specification-based implementations. This document obsoletes RFC 6044,
-    which describes the interworking between the Diversion header field defined in
-    RFC 5806 and the obsoleted History-Info header field defined on RFC 4244.
+    toward IETF specification-based implementations.</p><p>This document obsoletes
+    RFC 6044, which describes the interworking between the Diversion header field
+    defined in RFC 5806 and the obsoleted History-Info header field defined on RFC
+    4244.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7544'
+fetched: '2022-01-23'
 keyword:
 - Diversion
 - History-Info

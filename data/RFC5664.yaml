@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Halevy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Halevy
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Welch
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Welch
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zelenka
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Zelenka
         language:
@@ -57,22 +93,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to allow
-    clients to directly access file data on the storage used by the NFSv4 server.  This
-    ability to bypass the server for data access can increase both performance and
-    parallelism, but requires additional client functionality for data access, some
-    of which is dependent on the class of storage used, a.k.a.  the Layout Type.  The
-    main pNFS operations and data types in NFSv4 Minor version 1 specify a layout-
+- content: "<p>Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to
+    allow clients to directly access file data on the storage used by the NFSv4 server.
+    \ This ability to bypass the server for data access can increase both performance
+    and parallelism, but requires additional client functionality for data access,
+    some of which is dependent on the class of storage used, a.k.a.  the Layout Type.
+    \ The main pNFS operations and data types in NFSv4 Minor version 1 specify a layout-
     type-independent layer; layout-type-specific information is conveyed using opaque
     data structures whose internal structure is further defined by the particular
     layout type specification.  This document specifies the NFSv4.1 Object-Based pNFS
-    Layout Type as a companion to the main NFSv4 Minor version 1 specification. [STANDARDS-TRACK]
+    Layout Type as a companion to the main NFSv4 Minor version 1 specification. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5664'
+fetched: '2022-01-23'
 keyword:
 - OSD
 - storage device

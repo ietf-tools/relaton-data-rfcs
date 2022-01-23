@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Shen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Lee
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Bang
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: NSIS Quality of Service (QoS) signaling enables applications to perform
+- content: "<p>NSIS Quality of Service (QoS) signaling enables applications to perform
     QoS reservation along a data flow path.  When the data flow path contains IP tunnel
     segments, NSIS QoS signaling has no effect within those tunnel segments.  Therefore,
     the resulting tunnel segments could become the weakest QoS link and invalidate
@@ -78,13 +126,18 @@ abstract:
     to this problem by mapping end-to-end QoS session requests to corresponding QoS
     sessions in the tunnel, thus extending the end-to-end QoS signaling into the IP
     tunnel segments.  This document defines an Experimental Protocol for the Internet
-    community.
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5979'
+fetched: '2022-01-23'
 keyword:
 - nsis qos
 - next steps in signaling

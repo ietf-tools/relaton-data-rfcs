@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kaplan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Kaplan
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: SIP already provides the ability to perform hop-by-hop traceroute for SIP
-    messages using the Max-Forwards header field to determine the reachability path
-    of requests to a target.  A mechanism for media-loopback calls has also been defined
-    separately, which enables test calls to be generated that result in media being
-    looped back to the originator.  This document describes a means of performing
+- content: "<p>SIP already provides the ability to perform hop-by-hop traceroute for
+    SIP messages using the Max-Forwards header field to determine the reachability
+    path of requests to a target.  A mechanism for media-loopback calls has also been
+    defined separately, which enables test calls to be generated that result in media
+    being looped back to the originator.  This document describes a means of performing
     hop-by-hop traceroute-style test calls using the media-loopback mechanism to test
     the media path when SIP sessions go through media-relaying back-to-back user agents
-    (B2BUAs).
+    (B2BUAs).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7403'
+fetched: '2022-01-23'
 editorialgroup:
 - name: straw

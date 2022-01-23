@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bakke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bakke
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Muchow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Muchow
         language:
@@ -47,8 +71,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines a portion of the Management Information Base (MIB) for
-    use with network management protocols in TCP/IP-based internets.  In particular,
+- content: "<p>This memo defines a portion of the Management Information Base (MIB)
+    for use with network management protocols in TCP/IP-based internets.  In particular,
     it defines objects for managing user identities and the names, addresses, and
     credentials required manage access control, for use with various protocols.  This
     document was motivated by the need for the configuration of authorized user identities
@@ -56,13 +80,18 @@ abstract:
     that have similar requirements.  It is important to note that this MIB module
     provides only the set of identities to be used within access lists; it is the
     responsibility of other MIB modules making use of this one to tie them to their
-    own access lists or other authorization control methods. [STANDARDS-TRACK]
+    own access lists or other authorization control methods. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4545'
+fetched: '2022-01-23'
 keyword:
 - mib
 - management information base

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Garcia-Martin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Garcia-Martin
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Isomaki
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Isomaki
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Camarillo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Camarillo
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Loreto
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Loreto
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kyzivat
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Kyzivat
         language:
@@ -78,22 +138,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides a mechanism to negotiate the transfer of one or
-    more files between two endpoints by using the Session Description Protocol (SDP)
-    offer/answer model specified in RFC 3264.  SDP is extended to describe the attributes
-    of the files to be transferred.  The offerer can describe either the files it
-    wants to send or the files it would like to receive.  The answerer can either
-    accept or reject the offer separately for each individual file.  The transfer
+- content: "<p>This document provides a mechanism to negotiate the transfer of one
+    or more files between two endpoints by using the Session Description Protocol
+    (SDP) offer/answer model specified in RFC 3264.  SDP is extended to describe the
+    attributes of the files to be transferred.  The offerer can describe either the
+    files it wants to send or the files it would like to receive.  The answerer can
+    either accept or reject the offer separately for each individual file.  The transfer
     of one or more files is initiated after a successful negotiation.  The Message
     Session Relay Protocol (MSRP) is defined as the default mechanism to actually
     carry the files between the endpoints.  The conventions on how to use MSRP for
-    file transfer are also provided in this document. [STANDARDS-TRACK]
+    file transfer are also provided in this document. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5547'
+fetched: '2022-01-23'
 keyword:
 - msrp
 - message session relay protocol

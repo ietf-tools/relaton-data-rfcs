@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kempf
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Kempf
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: The Seamoby Candidate Access Router Discovery (CARD) protocol and the Context
-    Transfer Protocol (CXTP) are experimental protocols designed to accelerate IP
-    handover between wireless access routers.  These protocols require IANA allocations
+- content: "<p>The Seamoby Candidate Access Router Discovery (CARD) protocol and the
+    Context Transfer Protocol (CXTP) are experimental protocols designed to accelerate
+    IP handover between wireless access routers.  These protocols require IANA allocations
     for ICMP type and options, Stream Control Transmission Protocol (SCTP) Payload
     Protocol Identifiers, port numbers, and registries for certain formatted message
     options.  This document contains instructions to IANA about which allocations
@@ -47,13 +59,18 @@ abstract:
     Seamoby has been additionally designed so that it can be utilized by other experimental
     mobility protocols, and the SCTP port number is also available for other experimental
     mobility protocols.  This memo defines an Experimental Protocol for the Internet
-    community.
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4065'
+fetched: '2022-01-23'
 keyword:
 - candidate access router discovery
 - card

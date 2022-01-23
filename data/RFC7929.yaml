@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wouters
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Wouters
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: OpenPGP is a message format for email (and file) encryption that lacks
+- content: <p>OpenPGP is a message format for email (and file) encryption that lacks
     a standardized lookup mechanism to securely obtain OpenPGP public keys.  DNS-Based
     Authentication of Named Entities (DANE) is a method for publishing public keys
     in DNS.  This document specifies a DANE method for publishing and locating OpenPGP
@@ -45,13 +57,18 @@ abstract:
     record.  Security is provided via Secure DNS, however the OPENPGPKEY record is
     not a replacement for verification of authenticity via the "web of trust" or manual
     verification.  The OPENPGPKEY record can be used to encrypt an email that would
-    otherwise have to be sent unencrypted.
+    otherwise have to be sent unencrypted.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7929'
+fetched: '2022-01-23'
 keyword:
 - opportunistic security
 - encrypted email

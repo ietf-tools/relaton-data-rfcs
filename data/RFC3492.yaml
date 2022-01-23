@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Costello
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Costello
         language:
@@ -38,22 +50,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Punycode is a simple and efficient transfer encoding syntax designed for
-    use with Internationalized Domain Names in Applications (IDNA).  It uniquely and
-    reversibly transforms a Unicode string into an ASCII string.  ASCII characters
+- content: "<p>Punycode is a simple and efficient transfer encoding syntax designed
+    for use with Internationalized Domain Names in Applications (IDNA).  It uniquely
+    and reversibly transforms a Unicode string into an ASCII string.  ASCII characters
     in the Unicode string are represented literally, and non-ASCII characters are
     represented by ASCII characters that are allowed in host name labels (letters,
     digits, and hyphens).  This document defines a general algorithm called Bootstring
     that allows a string of basic code points to uniquely represent any string of
     code points drawn from a larger set.  Punycode is an instance of Bootstring that
     uses particular parameter values specified by this document, appropriate for IDNA.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3492'
+fetched: '2022-01-23'
 keyword:
 - syntax
 - string host label

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Handley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Handley
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rescorla
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rescorla
         language:
@@ -41,14 +65,9 @@ contributor:
         - Latn
   role:
   - author
-- person:
+- organization:
     name:
-      completename:
-        content: IAB
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 revdate: 2006-12
@@ -57,17 +76,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides an overview of possible avenues for denial-of-service
+- content: "<p>This document provides an overview of possible avenues for denial-of-service
     (DoS) attack on Internet systems.  The aim is to encourage protocol designers
     and network engineers towards designs that are more robust.  We discuss partial
     solutions that reduce the effectiveness of attacks, and how some solutions might
     inadvertently open up alternative vulnerabilities.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4732'
+fetched: '2022-01-23'
 keyword:
 - dos

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hollenbeck
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hollenbeck
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how an Extensible Provisioning Protocol (EPP) session
-    is mapped onto a single Transmission Control Protocol (TCP) connection.  This
-    mapping requires use of the Transport Layer Security (TLS) protocol to protect
-    information exchanged between an EPP client and an EPP server. [STANDARDS-TRACK]
+- content: "<p>This document describes how an Extensible Provisioning Protocol (EPP)
+    session is mapped onto a single Transmission Control Protocol (TCP) connection.
+    \ This mapping requires use of the Transport Layer Security (TLS) protocol to
+    protect information exchanged between an EPP client and an EPP server. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC4934
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3734'
+fetched: '2022-01-23'
 keyword:
 - mapping
 - client

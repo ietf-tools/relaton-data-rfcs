@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kaplan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Kaplan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pascual
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Pascual
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: In many SIP deployments, SIP entities exist in the SIP signaling path between
-    the originating and final terminating endpoints, which go beyond the definition
+- content: "<p>In many SIP deployments, SIP entities exist in the SIP signaling path
+    between the originating and final terminating endpoints, which go beyond the definition
     of a SIP proxy, performing functions not defined in Standards Track RFCs. The
     only term for such devices provided in RFC 3261 is for a Back-to-Back User Agent
     (B2BUA), which is defined as the logical concatenation of a SIP User Agent Server
-    (UAS) and User Agent Client (UAC). There are numerous types of SIP B2BUAs performing
-    different roles in different ways; for example, IP Private Branch Exchanges (IPBXs),
-    Session Border Controllers (SBCs), and Application Servers (ASs). This document
-    identifies several common B2BUA roles in order to provide taxonomy other documents
-    can use and reference.
+    (UAS) and User Agent Client (UAC).</p><p>There are numerous types of SIP B2BUAs
+    performing different roles in different ways; for example, IP Private Branch Exchanges
+    (IPBXs), Session Border Controllers (SBCs), and Application Servers (ASs). This
+    document identifies several common B2BUA roles in order to provide taxonomy other
+    documents can use and reference.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7092'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - B2BUA

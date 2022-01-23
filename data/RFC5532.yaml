@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Talpey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Talpey
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Juszczak
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Juszczak
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document addresses enabling the use of Remote Direct Memory Access
+- content: "<p>This document addresses enabling the use of Remote Direct Memory Access
     (RDMA) by the Network File System (NFS) protocols.  NFS implementations historically
     incur significant overhead due to data copies on end-host systems, as well as
     other processing overhead.  This document explores the potential benefits of RDMA
     to these implementations and evaluates the reasons why RDMA is especially well-suited
     to NFS and network file protocols in general.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5532'
+fetched: '2022-01-23'
 keyword:
 - RPC
 - XDR

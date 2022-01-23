@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lear
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Lear
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Eggert
         language:
@@ -47,9 +71,9 @@ language:
 script:
 - Latn
 abstract:
-- content: Two common ways to communicate timezone information are POSIX 1003.1 timezone
-    strings and timezone database names.  This memo specifies DHCP options for each
-    of those methods.  The DHCPv4 time offset option is deprecated. [STANDARDS-TRACK]
+- content: "<p>Two common ways to communicate timezone information are POSIX 1003.1
+    timezone strings and timezone database names.  This memo specifies DHCP options
+    for each of those methods.  The DHCPv4 time offset option is deprecated. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -61,7 +85,12 @@ relation:
     formattedref:
       content: RFC2132
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4833'
+fetched: '2022-01-23'
 keyword:
 - time offset
 - posix

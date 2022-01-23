@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Newman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Duerst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Duerst
         language:
@@ -43,6 +67,12 @@ contributor:
   - author
 - person:
     name:
+      surname:
+        content: " A. Gulbrandsen"
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: " A. Gulbrandsen"
         language:
@@ -57,19 +87,24 @@ language:
 script:
 - Latn
 abstract:
-- content: Many Internet application protocols include string-based lookup, searching,
+- content: "<p>Many Internet application protocols include string-based lookup, searching,
     or sorting operations.  However, the problem space for searching and sorting international
     strings is large, not fully explored, and is outside the area of expertise for
     the Internet Engineering Task Force (IETF).  Rather than attempt to solve such
     a large problem, this specification creates an abstraction framework so that application
     protocols can precisely identify a comparison function, and the repertoire of
-    comparison functions can be extended in the future. [STANDARDS-TRACK]
+    comparison functions can be extended in the future. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4790'
+fetched: '2022-01-23'
 keyword:
 - collation
 - sorting

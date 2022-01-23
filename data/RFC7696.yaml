@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -38,16 +50,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Many IETF protocols use cryptographic algorithms to provide confidentiality,
+- content: "<p>Many IETF protocols use cryptographic algorithms to provide confidentiality,
     integrity, authentication, or digital signature.  Communicating peers must support
-    a common set of cryptographic algorithms for these mechanisms to work properly.  This
-    memo provides guidelines to ensure that protocols have the ability to migrate
-    from one mandatory-to-implement algorithm suite to another over time.
+    a common set of cryptographic algorithms for these mechanisms to work properly.
+    \ This memo provides guidelines to ensure that protocols have the ability to migrate
+    from one mandatory-to-implement algorithm suite to another over time.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '201'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7696'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

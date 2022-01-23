@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Freed
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Freed
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the "envelope-dsn", "redirect-dsn", "envelope-deliverby",
+- content: <p>This document describes the "envelope-dsn", "redirect-dsn", "envelope-deliverby",
     and "redirect-deliverby" extensions to the Sieve email filtering language.  The
     "envelope-dsn" and "envelope- deliverby" extensions provide access to additional
     envelope information provided by the delivery status notification (DSN) and Deliver-By
     SMTP extensions, respectively.  The "redirect-dsn" and "redirect-deliverby" extensions
     extend Sieve's redirect action to provide control over delivery status notification
-    and Deliver-By parameters, respectively. [STANDARDS-TRACK]
+    and Deliver-By parameters, respectively. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6009'
+fetched: '2022-01-23'
 keyword:
 - SMTP
 - ESMTP

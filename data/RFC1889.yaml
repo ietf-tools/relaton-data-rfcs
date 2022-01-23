@@ -21,18 +21,25 @@ date:
 - type: published
   value: 1996-01
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: Audio-Video Transport Working Group
-        language:
-        - en
-        script:
-        - Latn
+    - Audio-Video Transport Working Group
   role:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -43,6 +50,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Casner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Casner
         language:
@@ -53,6 +72,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Frederick
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Frederick
         language:
@@ -63,6 +94,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jacobson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Jacobson
         language:
@@ -77,10 +120,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This memorandum describes RTP, the real-time transport protocol.  RTP provides
-    end-to-end network transport functions suitable for applications transmitting
+- content: "<p>This memorandum describes RTP, the real-time transport protocol.  RTP
+    provides end-to-end network transport functions suitable for applications transmitting
     real-time data, such as audio, video or simulation data, over multicast or unicast
-    network services. [STANDARDS-TRACK]
+    network services. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -92,7 +135,12 @@ relation:
     formattedref:
       content: RFC3550
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1889'
+fetched: '2022-01-23'
 keyword:
 - RTP
 - end-to-end

@@ -21,24 +21,14 @@ date:
 - type: published
   value: 1986-05
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: National Science Foundation
-        language:
-        - en
-        script:
-        - Latn
+    - National Science Foundation
   role:
   - author
-- person:
+- organization:
     name:
-      completename:
-        content: Network Technical Advisory Group
-        language:
-        - en
-        script:
-        - Latn
+    - Network Technical Advisory Group
   role:
   - author
 revdate: 1986-05
@@ -47,14 +37,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This RFC summarizes the requirements for gateways to be used on networks
+- content: "<p>This RFC summarizes the requirements for gateways to be used on networks
     supporting the DARPA Internet protocols.  While it applies specifically to National
     Science Foundation research programs, the requirements are stated in a general
     context and are believed applicable throughout the Internet community.  The purpose
     of this document is to present guidance for vendors offering products that might
     be used or adapted for use in an Internet application.  It enumerates the protocols
     required and gives references to RFCs and other documents describing the current
-    specification.
+    specification.</p>"
   language:
   - en
   script:
@@ -66,7 +56,12 @@ relation:
     formattedref:
       content: RFC1009
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '985'
+fetched: '2022-01-23'
 keyword:
 - Requirements
 - Internet

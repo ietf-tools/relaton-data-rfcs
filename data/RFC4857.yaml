@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fogelstroem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Fogelstroem
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jonsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Jonsson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Using Mobile IP, a mobile node registers with its home agent each time
+- content: <p>Using Mobile IP, a mobile node registers with its home agent each time
     it changes care-of address.  This document describes a new kind of "regional registrations",
     i.e., registrations local to the visited domain.  The regional registrations are
     performed via a new network entity called a Gateway Foreign Agent (GFA) and introduce
@@ -65,13 +101,18 @@ abstract:
     number of signaling messages to the home network, and reduce the signaling delay
     when a mobile node moves from one foreign agent to another within the same visited
     domain.  This document is an optional extension to the Mobile IPv4 protocol.  This
-    memo defines an Experimental Protocol for the Internet community.
+    memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4857'
+fetched: '2022-01-23'
 keyword:
 - GFA
 - gateway foreign agent

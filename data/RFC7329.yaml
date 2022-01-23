@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kaplan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Kaplan
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: 'There is a need for having a globally unique session identifier for the
-    same SIP session that can be consistently maintained across SIP Proxies, Back-to-Back
+- content: "<p>There is a need for having a globally unique session identifier for
+    the same SIP session that can be consistently maintained across SIP Proxies, Back-to-Back
     User Agents (B2BUAs), and other SIP middleboxes, for the purpose of troubleshooting.
-    This document proposes a new SIP header to carry such a value: Session-ID. The
+    This document proposes a new SIP header to carry such a value: Session-ID.</p><p>The
     mechanism defined in this document has been widely deployed, and is being followed
     in a backward-compatible fashion for a new Standards Track document produced by
-    the INSIPID Working Group.'
+    the INSIPID Working Group.</p>"
   language:
   - en
   script:
@@ -55,6 +67,11 @@ relation:
     formattedref:
       content: RFC7989
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7329'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Asghar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Asghar
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Krishnaswamy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Krishnaswamy
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Karan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Karan
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arya
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Arya
         language:
@@ -77,18 +137,23 @@ language:
 script:
 - Latn
 abstract:
-- content: The PIM Reverse Path Forwarding (RPF) Vector TLV defined in RFC 5496 can
-    be included in a PIM Join Attribute such that the RPF neighbor is selected based
-    on the unicast reachability of the RPF Vector instead of the source or Rendezvous
-    Point associated with the multicast tree. This document defines a new RPF Vector
-    Attribute type such that an explicit RPF neighbor list can be encoded in the PIM
-    Join Attribute, thus bypassing the unicast route lookup.
+- content: "<p>The PIM Reverse Path Forwarding (RPF) Vector TLV defined in RFC 5496
+    can be included in a PIM Join Attribute such that the RPF neighbor is selected
+    based on the unicast reachability of the RPF Vector instead of the source or Rendezvous
+    Point associated with the multicast tree.</p><p>This document defines a new RPF
+    Vector Attribute type such that an explicit RPF neighbor list can be encoded in
+    the PIM Join Attribute, thus bypassing the unicast route lookup.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7891'
+fetched: '2022-01-23'
 keyword:
 - Path diversity
 - MoFRR

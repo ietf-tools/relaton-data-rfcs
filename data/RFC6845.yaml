@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sheth
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Sheth
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Wang
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Zhang
         language:
@@ -57,15 +93,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism to model a broadcast network as a hybrid
-    of broadcast and point-to-multipoint networks for purposes of OSPF operation.
+- content: "<p>This document describes a mechanism to model a broadcast network as
+    a hybrid of broadcast and point-to-multipoint networks for purposes of OSPF operation.
     Neighbor discovery and maintenance as well as Link State Advertisement (LSA) database
     synchronization are performed using the broadcast model, but the network is represented
     using the point-to-multipoint model in the router-LSAs of the routers connected
     to it. This allows an accurate representation of the cost of communication between
     different routers on the network, while maintaining the network efficiency of
     broadcast operation. This approach is relatively simple and requires minimal changes
-    to OSPF. This document updates both OSPFv2 (RFC 2328) and OSPFv3 (RFC 5340). [STANDARDS-TRACK]
+    to OSPF.</p><p>This document updates both OSPFv2 (RFC 2328) and OSPFv3 (RFC 5340).
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -82,7 +119,12 @@ relation:
     formattedref:
       content: RFC5340
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6845'
+fetched: '2022-01-23'
 keyword:
 - OSPF
 - P2MP

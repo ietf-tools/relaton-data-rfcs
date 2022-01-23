@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fields
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Fields
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gruenbacher
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Gruenbacher
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: In many environments, inheritable NFSv4 Access Control Entries (ACEs) can
-    be rendered ineffective by the application of the per-process file mode creation
+- content: "<p>In many environments, inheritable NFSv4 Access Control Entries (ACEs)
+    can be rendered ineffective by the application of the per-process file mode creation
     mask (umask).  This can be addressed by transmitting the umask and create mode
     as separate pieces of data, allowing the server to make more intelligent decisions
     about the permissions to set on new files.  This document proposes a protocol
-    extension to accomplish that.
+    extension to accomplish that.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8275'
+fetched: '2022-01-23'
 keyword:
 - NFSv4
 editorialgroup:

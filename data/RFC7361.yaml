@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dutta
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Dutta
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Balus
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Balus
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Stokes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Stokes
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Calvignac
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Calvignac
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fedyk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Fedyk
         language:
@@ -78,7 +138,7 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 4762 describes a mechanism to remove or unlearn Media Access Control
+- content: "<p>RFC 4762 describes a mechanism to remove or unlearn Media Access Control
     (MAC) addresses that have been dynamically learned in a Virtual Private LAN Service
     (VPLS) instance for faster convergence on topology changes.  The procedure also
     removes MAC addresses in the VPLS that do not require relearning due to such topology
@@ -86,13 +146,18 @@ abstract:
     with an empty MAC list (RFC 4762); this enhancement enables a Provider Edge (PE)
     device to remove only the MAC addresses that need to be relearned.  Additional
     extensions to RFC 4762 MAC withdraw procedures are specified to provide an optimized
-    MAC flushing for the Provider Backbone Bridging (PBB) VPLS specified in RFC 7041.
+    MAC flushing for the Provider Backbone Bridging (PBB) VPLS specified in RFC 7041.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7361'
+fetched: '2022-01-23'
 keyword:
 - MAC flush message
 - MAC Flush TLV

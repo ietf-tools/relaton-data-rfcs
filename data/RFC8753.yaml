@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fältström
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Fältström
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The standards for Internationalized Domain Names in Applications (IDNA)
+- content: "<p>The standards for Internationalized Domain Names in Applications (IDNA)
     require a review of each new version of Unicode to determine whether incompatibilities
     with prior versions or other issues exist and, where appropriate, to allow the
     IETF to decide on the trade-offs between compatibility with prior IDNA versions
@@ -57,7 +81,7 @@ abstract:
     document makes adjustments to the review procedure based on experience and updates
     IDNA, specifically RFC 5892, to reflect those changes and to clarify the various
     relationships involved.  It also makes other minor adjustments to align that document
-    with experience.
+    with experience.</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC5892
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8753'
+fetched: '2022-01-23'
 keyword:
 - IDNA2008
 - IDN

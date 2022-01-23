@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Garcia-Martin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Garcia-Martin
         language:
@@ -37,23 +49,29 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Initiation Protocol (SIP) is a text-based protocol for initiating
-    and managing communication sessions.  The protocol is extended by the SIP-events
-    notification framework to provide subscriptions and notifications of SIP events.  One
-    example of such event notification mechanism is presence, which is expressed in
-    XML documents called presence documents.  SIP can be compressed by using Signaling
-    Compression (SigComp), which is enhanced by using the SIP/ Session Description
-    Protocol (SDP) dictionary to achieve better compression rates.  However, the SIP/SDP
-    dictionary is not able to increase the compression factor of (typically lengthy)
-    presence documents.  This memo defines the presence-specific static dictionary
-    that SigComp can use in order to compress presence documents to achieve higher
-    efficiency.  The dictionary is compression-algorithm independent. [STANDARDS-TRACK]
+- content: "<p>The Session Initiation Protocol (SIP) is a text-based protocol for
+    initiating and managing communication sessions.  The protocol is extended by the
+    SIP-events notification framework to provide subscriptions and notifications of
+    SIP events.  One example of such event notification mechanism is presence, which
+    is expressed in XML documents called presence documents.  SIP can be compressed
+    by using Signaling Compression (SigComp), which is enhanced by using the SIP/
+    Session Description Protocol (SDP) dictionary to achieve better compression rates.
+    \ However, the SIP/SDP dictionary is not able to increase the compression factor
+    of (typically lengthy) presence documents.  This memo defines the presence-specific
+    static dictionary that SigComp can use in order to compress presence documents
+    to achieve higher efficiency.  The dictionary is compression-algorithm independent.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5112'
+fetched: '2022-01-23'
 keyword:
 - communication session
 - event notification

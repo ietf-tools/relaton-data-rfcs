@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Culley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Culley
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: U
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Elzur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: U. Elzur
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Recio
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Recio
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bailey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bailey
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Carrier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Carrier
         language:
@@ -77,20 +137,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Marker PDU Aligned Framing (MPA) is designed to work as an "adaptation
+- content: <p>Marker PDU Aligned Framing (MPA) is designed to work as an "adaptation
     layer" between TCP and the Direct Data Placement protocol (DDP) as described in
     RFC 5041.  It preserves the reliable, in-order delivery of TCP, while adding the
     preservation of higher-level protocol record boundaries that DDP requires.  MPA
     is fully compliant with applicable TCP RFCs and can be utilized with existing
     TCP implementations.  MPA also supports integrated implementations that combine
     TCP, MPA and DDP to reduce buffering requirements in the implementation and improve
-    performance at the system level. [STANDARDS-TRACK]
+    performance at the system level. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5044'
+fetched: '2022-01-23'
 keyword:
 - mpa
 - adaaptation layer

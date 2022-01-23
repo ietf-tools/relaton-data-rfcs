@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Uberti
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Uberti
         language:
@@ -48,14 +72,14 @@ language:
 script:
 - Latn
 abstract:
-- content: During the process of establishing peer-to-peer connectivity, Interactive
+- content: "<p>During the process of establishing peer-to-peer connectivity, Interactive
     Connectivity Establishment (ICE) agents can encounter situations where they have
     no candidate pairs to check, and, as a result, conclude that ICE processing has
     failed. However, because additional candidate pairs can be discovered during ICE
     processing, declaring failure at this point may be premature. This document discusses
-    when these situations can occur. This document updates RFCs 8445 and 8838 by requiring
-    that an ICE agent wait a minimum amount of time before declaring ICE failure,
-    even if there are no candidate pairs left to check.
+    when these situations can occur.</p><p>This document updates RFCs 8445 and 8838
+    by requiring that an ICE agent wait a minimum amount of time before declaring
+    ICE failure, even if there are no candidate pairs left to check.</p>"
   language:
   - en
   script:
@@ -72,7 +96,12 @@ relation:
     formattedref:
       content: RFC8838
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8863'
+fetched: '2022-01-23'
 keyword:
 - ICE
 - PAC

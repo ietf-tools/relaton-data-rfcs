@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Peterson
         language:
@@ -38,10 +50,10 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3261 currently specifies 3DES as the mandatory-to-implement ciphersuite
+- content: "<p>RFC 3261 currently specifies 3DES as the mandatory-to-implement ciphersuite
     for implementations of S/MIME in the Session Initiation Protocol (SIP).  This
     document updates the normative guidance of RFC 3261 to require the Advanced Encryption
-    Standard (AES) for S/MIME. [STANDARDS-TRACK]
+    Standard (AES) for S/MIME. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC3261
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3853'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - application-layer

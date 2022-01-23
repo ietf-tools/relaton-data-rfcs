@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Briscoe
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moncaster
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Moncaster
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Menth
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Menth
         language:
@@ -58,26 +94,32 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The objective of Pre-Congestion Notification (PCN) is to protect the quality
-    of service (QoS) of inelastic flows within a Diffserv domain. The overall rate
-    of PCN-traffic is metered on every link in the PCN- domain, and PCN-packets are
-    appropriately marked when certain configured rates are exceeded. Egress nodes
+- content: "<p>The objective of Pre-Congestion Notification (PCN) is to protect the
+    quality of service (QoS) of inelastic flows within a Diffserv domain. The overall
+    rate of PCN-traffic is metered on every link in the PCN- domain, and PCN-packets
+    are appropriately marked when certain configured rates are exceeded. Egress nodes
     pass information about these PCN-marks to Decision Points that then decide whether
     to admit or block new flow requests or to terminate some already admitted flows
-    during serious pre-congestion. This document specifies how PCN-marks are to be
-    encoded into the IP header by reusing the Explicit Congestion Notification (ECN)
-    codepoints within a PCN-domain. The PCN wire protocol for non-IP protocol headers
-    will need to be defined elsewhere. Nonetheless, this document clarifies the PCN
-    encoding for MPLS in an informational appendix. The encoding for IP provides for
-    up to three different PCN marking states using a single Diffserv codepoint (DSCP):
-    not-marked (NM), threshold-marked (ThM), and excess-traffic-marked (ETM). Hence,
-    it is called the 3-in-1 PCN encoding. This document obsoletes RFC 5696. [STANDARDS-TRACK]'
+    during serious pre-congestion.</p><p>This document specifies how PCN-marks are
+    to be encoded into the IP header by reusing the Explicit Congestion Notification
+    (ECN) codepoints within a PCN-domain. The PCN wire protocol for non-IP protocol
+    headers will need to be defined elsewhere. Nonetheless, this document clarifies
+    the PCN encoding for MPLS in an informational appendix. The encoding for IP provides
+    for up to three different PCN marking states using a single Diffserv codepoint
+    (DSCP): not-marked (NM), threshold-marked (ThM), and excess-traffic-marked (ETM).
+    Hence, it is called the 3-in-1 PCN encoding. This document obsoletes RFC 5696.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6660'
+fetched: '2022-01-23'
 keyword:
 - Quality of Service
 - QoS

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Narten
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Narten
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Draves
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Draves
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Krishnan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Krishnan
         language:
@@ -57,20 +93,20 @@ language:
 script:
 - Latn
 abstract:
-- content: Nodes use IPv6 stateless address autoconfiguration to generate addresses
+- content: "<p>Nodes use IPv6 stateless address autoconfiguration to generate addresses
     using a combination of locally available information and information advertised
     by routers.  Addresses are formed by combining network prefixes with an interface
     identifier.  On an interface that contains an embedded IEEE Identifier, the interface
     identifier is typically derived from it.  On other interface types, the interface
-    identifier is generated through other means, for example, via random number generation.  This
-    document describes an extension to IPv6 stateless address autoconfiguration for
-    interfaces whose interface identifier is derived from an IEEE identifier.  Use
-    of the extension causes nodes to generate global scope addresses from interface
+    identifier is generated through other means, for example, via random number generation.
+    \ This document describes an extension to IPv6 stateless address autoconfiguration
+    for interfaces whose interface identifier is derived from an IEEE identifier.
+    \ Use of the extension causes nodes to generate global scope addresses from interface
     identifiers that change over time, even in cases where the interface contains
     an embedded IEEE identifier.  Changing the interface identifier (and the global
     scope addresses generated from it) over time makes it more difficult for eavesdroppers
     and other information collectors to identify when different addresses used in
-    different transactions actually correspond to the same node. [STANDARDS-TRACK]
+    different transactions actually correspond to the same node. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -82,7 +118,12 @@ relation:
     formattedref:
       content: RFC8981
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4941'
+fetched: '2022-01-23'
 keyword:
 - privacy
 - anonymity

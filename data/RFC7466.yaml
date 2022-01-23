@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dearlove
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Dearlove
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Clausen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Clausen
         language:
@@ -48,24 +72,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The link quality mechanism of the Mobile Ad Hoc Network (MANET) Neighborhood
+- content: <p>The link quality mechanism of the Mobile Ad Hoc Network (MANET) Neighborhood
     Discovery Protocol (NHDP) enables "ignoring" some 1-hop neighbors if the measured
     link quality from that 1-hop neighbor is below an acceptable threshold while still
     retaining the corresponding link information as acquired from the HELLO message
     exchange. This allows immediate reinstatement of the 1-hop neighbor if the link
-    quality later improves sufficiently. NHDP also collects information about symmetric
-    2-hop neighbors. However, it specifies that if a link from a symmetric 1-hop neighbor
-    ceases being symmetric, including while "ignored" (as described above), then corresponding
-    symmetric 2-hop neighbors are removed. This may lead to symmetric 2-hop neighborhood
-    information being permanently removed (until further HELLO messages are received)
-    if the link quality of a symmetric 1-hop neighbor drops below the acceptable threshold,
-    even if only for a moment. This specification updates RFC 6130 "Mobile Ad Hoc
-    Network (MANET) Neighborhood Discovery Protocol (NHDP)" and RFC 7181 "The Optimized
-    Link State Routing Protocol Version 2 (OLSRv2)" to permit, as an option, retaining,
-    but ignoring, symmetric 2-hop information when the link quality from the corresponding
-    1-hop neighbor drops below the acceptable threshold. This allows immediate reinstatement
-    of the symmetric 2-hop neighbor if the link quality later improves sufficiently,
-    thus making the symmetric 2-hop neighborhood more "robust".
+    quality later improves sufficiently.</p><p>NHDP also collects information about
+    symmetric 2-hop neighbors. However, it specifies that if a link from a symmetric
+    1-hop neighbor ceases being symmetric, including while "ignored" (as described
+    above), then corresponding symmetric 2-hop neighbors are removed. This may lead
+    to symmetric 2-hop neighborhood information being permanently removed (until further
+    HELLO messages are received) if the link quality of a symmetric 1-hop neighbor
+    drops below the acceptable threshold, even if only for a moment.</p><p>This specification
+    updates RFC 6130 "Mobile Ad Hoc Network (MANET) Neighborhood Discovery Protocol
+    (NHDP)" and RFC 7181 "The Optimized Link State Routing Protocol Version 2 (OLSRv2)"
+    to permit, as an option, retaining, but ignoring, symmetric 2-hop information
+    when the link quality from the corresponding 1-hop neighbor drops below the acceptable
+    threshold. This allows immediate reinstatement of the symmetric 2-hop neighbor
+    if the link quality later improves sufficiently, thus making the symmetric 2-hop
+    neighborhood more "robust".</p>
   language:
   - en
   script:
@@ -82,7 +107,12 @@ relation:
     formattedref:
       content: RFC7181
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7466'
+fetched: '2022-01-23'
 keyword:
 - MANET
 - NHDP

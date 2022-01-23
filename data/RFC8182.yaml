@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bruijnzeels
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Bruijnzeels
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Muravskiy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Muravskiy
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Weber
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Weber
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Austein
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Austein
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: In the Resource Public Key Infrastructure (RPKI), Certificate Authorities
+- content: "<p>In the Resource Public Key Infrastructure (RPKI), Certificate Authorities
     (CAs) publish certificates, including end-entity certificates, Certificate Revocation
     Lists (CRLs), and RPKI signed objects to repositories.  Relying Parties retrieve
     the published information from those repositories.  This document specifies a
@@ -75,12 +123,17 @@ abstract:
     designed for scaling.  It relies on an Update Notification File which lists the
     current Snapshot and Delta Files that can be retrieved using HTTPS (HTTP over
     Transport Layer Security (TLS)), and it enables the use of Content Distribution
-    Networks (CDNs) or other caching infrastructures for the retrieval of these files.
+    Networks (CDNs) or other caching infrastructures for the retrieval of these files.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8182'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sidr

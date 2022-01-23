@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -38,11 +50,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The Internet Message Format (RFC 5322) allows "group" syntax in some email
-    header fields, such as "To:" and "CC:", but not in "From:" or "Sender:".  This
+- content: <p>The Internet Message Format (RFC 5322) allows "group" syntax in some
+    email header fields, such as "To:" and "CC:", but not in "From:" or "Sender:".  This
     document updates RFC 5322 to relax that restriction, allowing group syntax in
     those latter fields, as well as in "Resent-From:" and "Resent-Sender:", in certain
-    situations.
+    situations.</p>
   language:
   - en
   script:
@@ -54,6 +66,11 @@ relation:
     formattedref:
       content: RFC5322
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6854'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Boschi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Boschi
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mark
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Mark
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Claise
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Claise
         language:
@@ -58,20 +94,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a bandwidth saving method for exporting Flow or
-    packet information using the IP Flow Information eXport (IPFIX) protocol. As the
-    Packet Sampling (PSAMP) protocol is based on IPFIX, these considerations are valid
-    for PSAMP exports as well. This method works by separating information common
-    to several Flow Records from information specific to an individual Flow Record.
-    Common Flow information is exported only once in a Data Record defined by an Options
-    Template, while the rest of the specific Flow information is associated with the
-    common information via a unique identifier. This memo provides information for
-    the Internet community.
+- content: "<p>This document describes a bandwidth saving method for exporting Flow
+    or packet information using the IP Flow Information eXport (IPFIX) protocol. As
+    the Packet Sampling (PSAMP) protocol is based on IPFIX, these considerations are
+    valid for PSAMP exports as well.</p><p>This method works by separating information
+    common to several Flow Records from information specific to an individual Flow
+    Record. Common Flow information is exported only once in a Data Record defined
+    by an Options Template, while the rest of the specific Flow information is associated
+    with the common information via a unique identifier. This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5473'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ipfix

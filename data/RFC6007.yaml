@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nishioka
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Nishioka
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: King
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. King
         language:
@@ -48,25 +72,30 @@ language:
 script:
 - Latn
 abstract:
-- content: A Path Computation Element (PCE) may be required to perform dependent path
-    computations. Dependent path computations are requests that need to be synchronized
+- content: "<p>A Path Computation Element (PCE) may be required to perform dependent
+    path computations. Dependent path computations are requests that need to be synchronized
     in order to meet specific objectives. An example of a dependent request would
     be a PCE computing a set of services that are required to be diverse (disjointed)
     from each other. When a PCE computes sets of dependent path computation requests
     concurrently, use of the Synchronization VECtor (SVEC) list is required for association
     among the sets of dependent path computation requests. The SVEC object is optional
     and carried within the Path Computation Element Communication Protocol (PCEP)
-    PCRequest (PCReq) message. This document does not specify the PCEP SVEC object
-    or procedure. This informational document clarifies the use of the SVEC list for
-    synchronized path computations when computing dependent requests. The document
-    also describes a number of usage scenarios for SVEC lists within single-domain
+    PCRequest (PCReq) message.</p><p>This document does not specify the PCEP SVEC
+    object or procedure. This informational document clarifies the use of the SVEC
+    list for synchronized path computations when computing dependent requests. The
+    document also describes a number of usage scenarios for SVEC lists within single-domain
     and multi-domain environments. This document is not an Internet Standards Track
-    specification; it is published for informational purposes.
+    specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6007'
+fetched: '2022-01-23'
 editorialgroup:
 - name: pce

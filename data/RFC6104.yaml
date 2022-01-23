@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chown
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Chown
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Venaas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Venaas
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: When deploying IPv6, whether IPv6-only or dual-stack, routers are configured
+- content: "<p>When deploying IPv6, whether IPv6-only or dual-stack, routers are configured
     to send IPv6 Router Advertisements (RAs) to convey information to nodes that enable
     them to autoconfigure on the network.  This information includes the implied default
     router address taken from the observed source address of the RA message, as well
@@ -59,13 +83,18 @@ abstract:
     on the unintended causes of rogue RAs in the text.  The goal of this text is to
     be Informational, and as such to present a framework around which solutions can
     be proposed and discussed.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.
+    it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6104'
+fetched: '2022-01-23'
 keyword:
 - RA
 - rogue ra

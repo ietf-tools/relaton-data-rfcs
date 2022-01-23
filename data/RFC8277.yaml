@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a set of procedures for using BGP to advertise
+- content: "<p>This document specifies a set of procedures for using BGP to advertise
     that a specified router has bound a specified MPLS label (or a specified sequence
     of MPLS labels organized as a contiguous part of a label stack) to a specified
     address prefix.  This can be done by sending a BGP UPDATE message whose Network
     Layer Reachability Information field contains both the prefix and the MPLS label(s)
     and whose Next Hop field identifies the node at which said prefix is bound to
-    said label(s).  This document obsoletes RFC 3107.
+    said label(s).  This document obsoletes RFC 3107.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8277'
+fetched: '2022-01-23'
 keyword:
 - asynchronous
 - transfer

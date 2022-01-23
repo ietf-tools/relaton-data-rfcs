@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gandhi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gandhi
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Barth
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Barth
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Wen
         language:
@@ -58,18 +94,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines Path Computation Element Communication Protocol (PCEP)
-    extensions for grouping two unidirectional MPLS-TE Label Switched Paths (LSPs),
-    one in each direction in the network, into an associated bidirectional LSP.  These
-    PCEP extensions can be applied either using a stateful PCE for both PCE-initiated
-    and PCC-initiated LSPs or using a stateless PCE.  The PCEP procedures defined
-    are applicable to the LSPs using RSVP-TE for signaling.
+- content: "<p>This document defines Path Computation Element Communication Protocol
+    (PCEP) extensions for grouping two unidirectional MPLS-TE Label Switched Paths
+    (LSPs), one in each direction in the network, into an associated bidirectional
+    LSP.  These PCEP extensions can be applied either using a stateful PCE for both
+    PCE-initiated and PCC-initiated LSPs or using a stateless PCE.  The PCEP procedures
+    defined are applicable to the LSPs using RSVP-TE for signaling.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9059'
+fetched: '2022-01-23'
 keyword:
 - RSVP-TE LSP
 - Co-routed LSP

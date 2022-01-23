@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McGrew
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. McGrew
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoffman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hoffman
         language:
@@ -48,10 +72,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the Cryptographic Algorithm Implementation Requirements
+- content: "<p>This document updates the Cryptographic Algorithm Implementation Requirements
     for the Encapsulating Security Payload (ESP) and Authentication Header (AH). It
-    also adds usage guidance to help in the selection of these algorithms. ESP and
-    AH protocols make use of various cryptographic algorithms to provide confidentiality
+    also adds usage guidance to help in the selection of these algorithms.</p><p>ESP
+    and AH protocols make use of various cryptographic algorithms to provide confidentiality
     and/or data origin authentication to protected data communications in the IP Security
     (IPsec) architecture. To ensure interoperability between disparate implementations,
     the IPsec standard specifies a set of mandatory-to- implement algorithms. This
@@ -60,7 +84,7 @@ abstract:
     to mandatory at some future time, and also recommends against the implementation
     of some obsolete algorithms. Usage guidance is also provided to help the user
     of ESP and AH best achieve their security goals through appropriate choices of
-    cryptographic algorithms.
+    cryptographic algorithms.</p>"
   language:
   - en
   script:
@@ -72,6 +96,11 @@ relation:
     formattedref:
       content: RFC8221
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7321'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ipsecme

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Briscoe
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document redefines how the explicit congestion notification (ECN)
+- content: "<p>This document redefines how the explicit congestion notification (ECN)
     field of the IP header should be constructed on entry to and exit from any IP-in-IP
     tunnel.  On encapsulation, it updates RFC 3168 to bring all IP-in-IP tunnels (v4
     or v6) into line with RFC 4301 IPsec ECN processing.  On decapsulation, it updates
@@ -51,7 +63,7 @@ abstract:
     with this new specification.  A thorough analysis of the reasoning for these changes
     and the implications is included.  In the unlikely event that the new rules do
     not meet a specific need, RFC 4774 gives guidance on designing alternate ECN semantics,
-    and this document extends that to include tunnelling issues. [STANDARDS-TRACK]
+    and this document extends that to include tunnelling issues. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -73,7 +85,12 @@ relation:
     formattedref:
       content: RFC4774
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6040'
+fetched: '2022-01-23'
 keyword:
 - Congestion Control and Management
 - Congestion Notification

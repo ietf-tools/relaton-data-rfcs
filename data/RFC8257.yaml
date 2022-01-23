@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bensley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bensley
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thaler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Thaler
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Balasubramanian
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Balasubramanian
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Eggert
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Judd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Judd
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This Informational RFC describes Data Center TCP (DCTCP): a TCP congestion
+- content: "<p>This Informational RFC describes Data Center TCP (DCTCP): a TCP congestion
     control scheme for data-center traffic.  DCTCP extends the Explicit Congestion
     Notification (ECN) processing to estimate the fraction of bytes that encounter
     congestion rather than simply detecting that some congestion has occurred.  DCTCP
@@ -89,13 +149,18 @@ abstract:
     DCTCP as currently implemented by several major operating systems.  DCTCP, as
     described in this specification, is applicable to deployments in controlled environments
     like data centers, but it must not be deployed over the public Internet without
-    additional measures.'
+    additional measures.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8257'
+fetched: '2022-01-23'
 keyword:
 - TCP
 - ECN

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Martini
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Martini
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Swallow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Swallow
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellagamba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Bellagamba
         language:
@@ -58,19 +94,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a method for generating an aggregated pseudowire
+- content: "<p>This document describes a method for generating an aggregated pseudowire
     (PW) status message transmitted for a statically configured PW on a Multiprotocol
     Label Switching (MPLS) Label Switched Path (LSP) to indicate the status of one
-    or more PWs carried on the LSP. The method for transmitting the PW status information
-    is not new; however, this protocol extension allows a Service Provider (SP) to
-    reliably monitor the individual PW status while not overwhelming the network with
-    multiple periodic status messages. This is achieved by sending a single cumulative
-    summary status verification message for all the PWs grouped in the same LSP.
+    or more PWs carried on the LSP.</p><p>The method for transmitting the PW status
+    information is not new; however, this protocol extension allows a Service Provider
+    (SP) to reliably monitor the individual PW status while not overwhelming the network
+    with multiple periodic status messages. This is achieved by sending a single cumulative
+    summary status verification message for all the PWs grouped in the same LSP.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8237'
+fetched: '2022-01-23'
 editorialgroup:
 - name: pals

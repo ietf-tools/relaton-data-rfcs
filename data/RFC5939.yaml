@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andreasen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Andreasen
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Description Protocol (SDP) was intended to describe multimedia
+- content: "<p>The Session Description Protocol (SDP) was intended to describe multimedia
     sessions for the purposes of session announcement, session invitation, and other
     forms of multimedia session initiation. SDP was not intended to provide capability
     indication or capability negotiation; however, over the years, SDP has seen widespread
@@ -47,19 +59,24 @@ abstract:
     (e.g., RTP profiles) or attributes. This makes it difficult to deploy new RTP
     profiles such as Secure RTP or RTP with RTCP-based feedback, negotiate use of
     different security keying mechanisms, etc. It also presents problems for some
-    forms of media negotiation. The purpose of this document is to address these shortcomings
-    by extending SDP with capability negotiation parameters and associated offer/answer
-    procedures to use those parameters in a backwards compatible manner. The document
-    defines a general SDP Capability Negotiation framework. It also specifies how
-    to provide attributes and transport protocols as capabilities and negotiate them
-    using the framework. Extensions for other types of capabilities (e.g., media types
-    and media formats) may be provided in other documents. [STANDARDS-TRACK]
+    forms of media negotiation.</p><p>The purpose of this document is to address these
+    shortcomings by extending SDP with capability negotiation parameters and associated
+    offer/answer procedures to use those parameters in a backwards compatible manner.</p><p>The
+    document defines a general SDP Capability Negotiation framework. It also specifies
+    how to provide attributes and transport protocols as capabilities and negotiate
+    them using the framework. Extensions for other types of capabilities (e.g., media
+    types and media formats) may be provided in other documents. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5939'
+fetched: '2022-01-23'
 keyword:
 - multimedia session
 - session announcement

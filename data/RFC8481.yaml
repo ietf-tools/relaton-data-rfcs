@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bush
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bush
         language:
@@ -38,13 +50,13 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Deployment of BGP origin validation based on Resource Public Key Infrastructure
+- content: "<p>Deployment of BGP origin validation based on Resource Public Key Infrastructure
     (RPKI) is hampered by, among other things, vendor misimplementations in two critical
     areas: which routes are validated and whether policy is applied when not specified
     by configuration.  This document is meant to clarify possible misunderstandings
     causing those misimplementations; it thus updates RFC 6811 by clarifying that
     all prefixes should have their validation state set and that policy must not be
-    applied without operator configuration.'
+    applied without operator configuration.</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC6811
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8481'
+fetched: '2022-01-23'
 keyword:
 - security
 - routing

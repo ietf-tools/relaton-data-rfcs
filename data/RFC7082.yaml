@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shekh-Yusef
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Shekh-Yusef
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Barnes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Barnes
         language:
@@ -48,22 +72,27 @@ language:
 script:
 - Latn
 abstract:
-- content: The Centralized Conferencing Manipulation Protocol (CCMP) document (RFC
+- content: <p>The Centralized Conferencing Manipulation Protocol (CCMP) document (RFC
     6503) defines a way for a client to discover a conference control server that
     supports CCMP. However, it does not define a way for a client involved in a conference
     to determine if the conference focus supports CCMP. This information would allow
     a CCMP-enabled client that joins a conference using SIP to also register for the
     Centralized Conferencing (XCON) conference event package and take advantage of
-    CCMP operations on the conference. This document describes two mechanisms, depending
-    upon the need of the User Agent (UA), to address the above limitation. The first
-    mechanism uses the Call-Info header field, and the second mechanism defines a
-    new value for the "purpose" header field parameter in the <service-uris> element
-    in the SIP conferencing event package.
+    CCMP operations on the conference.</p><p>This document describes two mechanisms,
+    depending upon the need of the User Agent (UA), to address the above limitation.
+    The first mechanism uses the Call-Info header field, and the second mechanism
+    defines a new value for the "purpose" header field parameter in the <service-uris>
+    element in the SIP conferencing event package.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7082'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

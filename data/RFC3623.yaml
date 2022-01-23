@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Moy
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pillay-Esnault
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Pillay-Esnault
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo documents an enhancement to the OSPF routing protocol, whereby
+- content: <p>This memo documents an enhancement to the OSPF routing protocol, whereby
     an OSPF router can stay on the forwarding path even as its OSPF software is restarted.  This
     is called "graceful restart" or "non-stop forwarding".  A restarting router may
     not be capable of adjusting its forwarding in a timely manner when the network
@@ -66,13 +102,18 @@ abstract:
     a topology change is detected, or when one or more of the restarting router's
     neighbors do not support the enhancements in this memo.  Proper network operation
     during a graceful restart makes assumptions upon the operating environment of
-    the restarting router; these assumptions are also documented.
+    the restarting router; these assumptions are also documented.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3623'
+fetched: '2022-01-23'
 keyword:
 - open shortest path first
 - non-stop forwarding

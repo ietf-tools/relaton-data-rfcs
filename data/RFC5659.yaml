@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bocci
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bocci
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bryant
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bryant
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an architecture for extending pseudowire emulation
+- content: "<p>This document describes an architecture for extending pseudowire emulation
     across multiple packet switched network (PSN) segments.  Scenarios are discussed
     where each segment of a given edge-to-edge emulated service spans a different
     provider's PSN, as are other scenarios where the emulated service originates and
     terminates on the same provider's PSN, but may pass through several PSN tunnel
     segments in that PSN.  It presents an architectural framework for such multi-segment
     pseudowires, defines terminology, and specifies the various protocol elements
-    and their functions.  This memo provides information for the Internet community.
+    and their functions.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5659'
+fetched: '2022-01-23'
 keyword:
 - psn
 - packet switched network

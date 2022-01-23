@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zorn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Zorn
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The Point-to-Point Protocol (PPP) provides a standard method for transporting
+- content: "<p>The Point-to-Point Protocol (PPP) provides a standard method for transporting
     multi-protocol datagrams over point-to-point links.  PPP also defines an extensible
     Link Control Protocol (LCP), which allows negotiation of an Authentication Protocol
     for authenticating its peer before allowing Network Layer protocols to transmit
-    over the link. [STANDARDS-TRACK]
+    over the link. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +75,12 @@ relation:
     formattedref:
       content: RFC1570
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2484'
+fetched: '2022-01-23'
 keyword:
 - point-to-point
 - protocol

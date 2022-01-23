@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dawes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Dawes
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arunachalam
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Arunachalam
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: SIP networks use signaling monitoring tools to debug customer- reported
+- content: "<p>SIP networks use signaling monitoring tools to debug customer- reported
     problems and for regression testing if network or client software is upgraded.
     As networks grow and become interconnected, including connection via transit networks,
     it becomes impractical to predict the path that SIP signaling will take between
-    clients and, therefore, impractical to monitor SIP signaling end-to-end. This
+    clients and, therefore, impractical to monitor SIP signaling end-to-end.</p><p>This
     document describes the requirements for adding an indicator to the SIP Protocol
     Data Unit (PDU) or a SIP message that marks the PDU as a candidate for logging.
     Such a marking will typically be applied as part of network testing controlled
     by the network operator and not used in regular client signaling. However, such
     a marking can be carried end-to-end, including the SIP terminals, even if a session
-    originates and terminates in different networks.
+    originates and terminates in different networks.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8123'
+fetched: '2022-01-23'
 keyword:
 - logme
 - troubleshooting

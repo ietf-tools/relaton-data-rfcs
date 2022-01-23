@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Garcia-Martin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Garcia-Martin
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Camarillo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Camarillo
         language:
@@ -48,18 +72,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a mechanism that allows a SIP User Agent Client
+- content: "<p>This document specifies a mechanism that allows a SIP User Agent Client
     (UAC) to send a SIP MESSAGE request to a set of destinations, by using a SIP URI-list
     (Uniform Resource Identifier list) service.  The UAC sends a SIP MESSAGE request
     that includes the payload along with the URI list to the MESSAGE URI-list service,
     which sends a MESSAGE request including the payload to each of the URIs included
-    in the list. [STANDARDS-TRACK]
+    in the list. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5365'
+fetched: '2022-01-23'
 keyword:
 - user agent client
 - uac

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jeng
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Jeng
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Uttaro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Uttaro
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jalil
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Jalil
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Decraene
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aggarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Aggarwal
         language:
@@ -87,21 +159,26 @@ language:
 script:
 - Latn
 abstract:
-- content: With BGP/MPLS Virtual Private Networks (VPNs), providing any-to-any connectivity
-    among sites of a given VPN would require each Provider Edge (PE) router connected
-    to one or more of these sites to hold all the routes of that VPN. The approach
-    described in this document allows the VPN service provider to reduce the number
-    of PE routers that have to maintain all these routes by requiring only a subset
-    of these routers to maintain all these routes. Furthermore, when PE routers use
-    ingress replication to carry the multicast traffic of VPN customers, the approach
-    described in this document may, under certain circumstances, reduce bandwidth
-    inefficiency associated with ingress replication and redistribute the replication
-    load among PE routers.
+- content: "<p>With BGP/MPLS Virtual Private Networks (VPNs), providing any-to-any
+    connectivity among sites of a given VPN would require each Provider Edge (PE)
+    router connected to one or more of these sites to hold all the routes of that
+    VPN. The approach described in this document allows the VPN service provider to
+    reduce the number of PE routers that have to maintain all these routes by requiring
+    only a subset of these routers to maintain all these routes.</p><p>Furthermore,
+    when PE routers use ingress replication to carry the multicast traffic of VPN
+    customers, the approach described in this document may, under certain circumstances,
+    reduce bandwidth inefficiency associated with ingress replication and redistribute
+    the replication load among PE routers.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7024'
+fetched: '2022-01-23'
 editorialgroup:
 - name: l3vpn

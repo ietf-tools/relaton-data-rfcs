@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Carpenter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Carpenter
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes expected IPv6 host behavior in a scenario that
+- content: "<p>This document describes expected IPv6 host behavior in a scenario that
     has more than one prefix, each allocated by an upstream network that is assumed
     to implement BCP 38 ingress filtering, when the host has multiple routers to choose
     from.  It also applies to other scenarios such as the usage of stateful firewalls
@@ -58,8 +82,8 @@ abstract:
     to be, multihomed with multiple provider-allocated addresses, that the host has
     elected to use a source address in a given prefix, and that some but not all neighboring
     routers are advertising that prefix in their Router Advertisement Prefix Information
-    Options, this document specifies to which router a host should present its transmission.  It
-    updates RFC 4861.
+    Options, this document specifies to which router a host should present its transmission.
+    \ It updates RFC 4861.</p>"
   language:
   - en
   script:
@@ -71,6 +95,11 @@ relation:
     formattedref:
       content: RFC4861
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8028'
+fetched: '2022-01-23'
 editorialgroup:
 - name: 6man

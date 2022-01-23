@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gustafsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Gustafsson
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: Extending the Domain Name System (DNS) with new Resource Record (RR) types
-    currently requires changes to name server software.  This document specifies the
-    changes necessary to allow future DNS implementations to handle new RR types transparently.
-    [STANDARDS-TRACK]
+- content: "<p>Extending the Domain Name System (DNS) with new Resource Record (RR)
+    types currently requires changes to name server software.  This document specifies
+    the changes necessary to allow future DNS implementations to handle new RR types
+    transparently. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -57,7 +69,12 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3597'
+fetched: '2022-01-23'
 keyword:
 - domain name system
 - name server software

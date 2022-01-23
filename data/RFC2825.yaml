@@ -21,18 +21,25 @@ date:
 - type: published
   value: 2000-05
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: IAB
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Daigle
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Daigle
         language:
@@ -47,16 +54,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is a statement by the Internet Architecture Board.  It is
-    not a protocol specification, but an attempt to clarify the range of architectural
+- content: "<p>This document is a statement by the Internet Architecture Board.  It
+    is not a protocol specification, but an attempt to clarify the range of architectural
     issues that the internationalization of domain names faces.  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2825'
+fetched: '2022-01-23'
 keyword:
 - character sets
 - e-commerce

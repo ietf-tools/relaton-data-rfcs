@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blanchet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Blanchet
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Seite
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Seite
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes issues encountered by a node attached to multiple
+- content: "<p>This document describes issues encountered by a node attached to multiple
     provisioning domains.  This node receives configuration information from each
     of its provisioning domains, where some configuration objects are global to the
     node and others are local to the interface.  Issues such as selecting the wrong
@@ -58,13 +82,18 @@ abstract:
     provisioning domains are typically seen on nodes with multiple interfaces, this
     document also discusses situations involving single-interface nodes.  This document
     is not an Internet Standards Track specification; it is published for informational
-    purposes.
+    purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6418'
+fetched: '2022-01-23'
 keyword:
 - multi-homing
 - MIF

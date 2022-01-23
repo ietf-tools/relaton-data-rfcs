@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Filsfils
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Previdi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Previdi
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ginsberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Ginsberg
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Decraene
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Litkowski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Litkowski
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shakir
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Shakir
         language:
@@ -87,26 +159,31 @@ language:
 script:
 - Latn
 abstract:
-- content: Segment Routing (SR) leverages the source routing paradigm. A node steers
+- content: <p>Segment Routing (SR) leverages the source routing paradigm. A node steers
     a packet through an ordered list of instructions, called "segments". A segment
     can represent any instruction, topological or service based. A segment can have
     a semantic local to an SR node or global within an SR domain. SR provides a mechanism
     that allows a flow to be restricted to a specific topological path, while maintaining
-    per-flow state only at the ingress node(s) to the SR domain. SR can be directly
+    per-flow state only at the ingress node(s) to the SR domain.</p><p>SR can be directly
     applied to the MPLS architecture with no change to the forwarding plane. A segment
     is encoded as an MPLS label. An ordered list of segments is encoded as a stack
     of labels. The segment to process is on the top of the stack. Upon completion
-    of a segment, the related label is popped from the stack. SR can be applied to
-    the IPv6 architecture, with a new type of routing header. A segment is encoded
+    of a segment, the related label is popped from the stack.</p><p>SR can be applied
+    to the IPv6 architecture, with a new type of routing header. A segment is encoded
     as an IPv6 address. An ordered list of segments is encoded as an ordered list
     of IPv6 addresses in the routing header. The active segment is indicated by the
     Destination Address (DA) of the packet. The next active segment is indicated by
-    a pointer in the new routing header.
+    a pointer in the new routing header.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8402'
+fetched: '2022-01-23'
 editorialgroup:
 - name: spring

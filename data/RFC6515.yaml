@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aggarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Aggarwal
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: To provide Multicast VPN (MVPN) service, Provider Edge routers originate
+- content: <p>To provide Multicast VPN (MVPN) service, Provider Edge routers originate
     BGP Update messages that carry Multicast-VPN ("MCAST-VPN") BGP routes; they also
     originate unicast VPN routes that carry MVPN-specific attributes.  These routes
     encode addresses from the customer's address space, as well as addresses from
@@ -60,7 +84,7 @@ abstract:
     are always encoded in these update messages as 4-octet addresses, and that the
     distinction between IPv4 and IPv6 is signaled solely by the length of the address
     field.  Specific cases are explained in detail.  This document updates RFC 6514.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -72,7 +96,12 @@ relation:
     formattedref:
       content: RFC6514
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6515'
+fetched: '2022-01-23'
 keyword:
 - mvpn
 - mcast-vpn

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Mills
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This memorandum describes the Simple Network Time Protocol (SNTP), which
-    is an adaptation of the Network Time Protocol (NTP) used to synchronize computer
-    clocks in the Internet.  This memorandum does not obsolete or update any RFC.  This
-    memo provides information for the Internet community.  It does not specify an
-    Internet standard.  Discussion of the standardization process and the RFC document
-    series is presented first, followed by an explanation of the terms.  Sections
-    6.2 - 6.9 contain the lists of protocols in each stage of standardization.  Finally
-    come pointers to references and contacts for further information. [STANDARDS-TRACK]
+- content: "<p>This memorandum describes the Simple Network Time Protocol (SNTP),
+    which is an adaptation of the Network Time Protocol (NTP) used to synchronize
+    computer clocks in the Internet.  This memorandum does not obsolete or update
+    any RFC.  This memo provides information for the Internet community.  It does
+    not specify an Internet standard.  Discussion of the standardization process and
+    the RFC document series is presented first, followed by an explanation of the
+    terms.  Sections 6.2 - 6.9 contain the lists of protocols in each stage of standardization.
+    \ Finally come pointers to references and contacts for further information. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC1769
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1361'
+fetched: '2022-01-23'
 keyword:
 - Clocks
 - Synchronization

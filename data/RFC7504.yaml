@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines two Simple Mail Transfer Protocol (SMTP) reply codes,
+- content: "<p>This memo defines two Simple Mail Transfer Protocol (SMTP) reply codes,
     521 and 556.  The 521 code was originally described in an Experimental RFC in
     1995 and is in wide use, but has not previously been formally incorporated into
     SMTP.  The 556 code was created to support the new tests and actions specified
     in RFC 7505.  These codes are used to indicate that an Internet host does not
     accept incoming mail at all.  This specification is not applicable when the host
     sometimes accepts mail but may reject particular messages, or even all messages,
-    under specific circumstances.
+    under specific circumstances.</p>"
   language:
   - en
   script:
@@ -61,7 +73,12 @@ relation:
     formattedref:
       content: RFC5321
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7504'
+fetched: '2022-01-23'
 keyword:
 - Reply code
 - Email

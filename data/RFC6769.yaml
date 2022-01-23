@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raszuk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Raszuk
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Heitz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Heitz
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lo
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Zhang
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: X
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Xu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: X. Xu
         language:
@@ -77,25 +137,30 @@ language:
 script:
 - Latn
 abstract:
-- content: All BGP routers in the Default-Free Zone (DFZ) are required to carry all
-    routes in the Default-Free Routing Table (DFRT). This document describes a technique,
-    Simple Virtual Aggregation (S-VA), that allows some BGP routers not to install
-    all of those routes into the Forwarding Information Base (FIB). Some routers in
-    an Autonomous System (AS) announce an aggregate (the VA prefix) in addition to
-    the routes they already announce. This enables other routers not to install the
-    routes covered by the VA prefix into the FIB as long as those routes have the
-    same next-hop as the VA prefix. The VA prefixes that are announced within an AS
-    are not announced to any other AS. The described functionality is of very low
-    operational complexity, as it proposes a confined BGP speaker solution without
-    any dependency on network-wide configuration or requirement for any form of intra-domain
-    tunneling. This document is not an Internet Standards Track specification; it
-    is published for informational purposes.
+- content: "<p>All BGP routers in the Default-Free Zone (DFZ) are required to carry
+    all routes in the Default-Free Routing Table (DFRT). This document describes a
+    technique, Simple Virtual Aggregation (S-VA), that allows some BGP routers not
+    to install all of those routes into the Forwarding Information Base (FIB).</p><p>Some
+    routers in an Autonomous System (AS) announce an aggregate (the VA prefix) in
+    addition to the routes they already announce. This enables other routers not to
+    install the routes covered by the VA prefix into the FIB as long as those routes
+    have the same next-hop as the VA prefix.</p><p>The VA prefixes that are announced
+    within an AS are not announced to any other AS. The described functionality is
+    of very low operational complexity, as it proposes a confined BGP speaker solution
+    without any dependency on network-wide configuration or requirement for any form
+    of intra-domain tunneling. This document is not an Internet Standards Track specification;
+    it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6769'
+fetched: '2022-01-23'
 keyword:
 - BGP
 - aggregation

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Droms
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Droms
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schnizlein
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schnizlein
         language:
@@ -48,16 +72,21 @@ language:
 script:
 - Latn
 abstract:
-- content: The RADIUS Attributes suboption enables a network element to pass identification
-    and authorization attributes received during RADIUS authentication to a DHCP server.  When
-    the DHCP server receives a message from a relay agent containing a RADIUS Attributes
-    suboption, it extracts the contents of the suboption and uses that information
-    in selecting configuration parameters for the client. [STANDARDS-TRACK]
+- content: "<p>The RADIUS Attributes suboption enables a network element to pass identification
+    and authorization attributes received during RADIUS authentication to a DHCP server.
+    \ When the DHCP server receives a message from a relay agent containing a RADIUS
+    Attributes suboption, it extracts the contents of the suboption and uses that
+    information in selecting configuration parameters for the client. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4014'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dhc

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shepard
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Shepard
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Partridge
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Partridge
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo is to document a simple experiment.  The experiment showed that
-    in the case of a TCP receiver behind a 9600 bps modem link at the edge of a fast
-    Internet where there are only 3 buffers before the modem (and the fourth packet
-    of a four-packet start will surely be dropped), no significant degradation in
-    performance is experienced by a TCP sending with a four-packet start when compared
+- content: "<p>This memo is to document a simple experiment.  The experiment showed
+    that in the case of a TCP receiver behind a 9600 bps modem link at the edge of
+    a fast Internet where there are only 3 buffers before the modem (and the fourth
+    packet of a four-packet start will surely be dropped), no significant degradation
+    in performance is experienced by a TCP sending with a four-packet start when compared
     with a normal slow start (which starts with just one packet).  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2416'
+fetched: '2022-01-23'
 keyword:
 - transmission
 - control

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Proust
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Proust
         language:
@@ -37,18 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: To ensure a baseline of interoperability between WebRTC endpoints, a minimum
-    set of required codecs is specified. However, to maximize the possibility of establishing
-    the session without the need for audio transcoding, it is also recommended to
-    include in the offer other suitable audio codecs that are available to the browser.
-    This document provides some guidelines on the suitable codecs to be considered
-    for WebRTC endpoints to address the use cases most relevant to interoperability.
+- content: "<p>To ensure a baseline of interoperability between WebRTC endpoints,
+    a minimum set of required codecs is specified. However, to maximize the possibility
+    of establishing the session without the need for audio transcoding, it is also
+    recommended to include in the offer other suitable audio codecs that are available
+    to the browser.</p><p>This document provides some guidelines on the suitable codecs
+    to be considered for WebRTC endpoints to address the use cases most relevant to
+    interoperability.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7875'
+fetched: '2022-01-23'
 keyword:
 - WebRTC
 - audio

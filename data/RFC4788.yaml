@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Xie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Xie
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kapoor
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Kapoor
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the Enhanced Variable Rate Codec (EVRC) RTP payload
+- content: "<p>This document updates the Enhanced Variable Rate Codec (EVRC) RTP payload
     formats defined in RFC 3558 with several enhancements and extensions.  In particular,
     it defines support for the header-free and interleaved/bundled packet formats
     for the EVRC-B codec, a new compact bundled format for the EVRC and EVRC-B codecs,
     as well as discontinuous transmission (DTX) support for EVRC and EVRC-B-encoded
     speech transported via RTP.  Voice over IP (VoIP) applications operating over
     low bandwidth dial-up and wireless networks require such enhancements for efficient
-    use of the bandwidth. [STANDARDS-TRACK]
+    use of the bandwidth. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC3558
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4788'
+fetched: '2022-01-23'
 keyword:
 - enhanced variable rate codec
 - real time transmission protocol

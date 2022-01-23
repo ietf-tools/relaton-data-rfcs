@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Shen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aggarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Aggarwal
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shaffer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Shaffer
         language:
@@ -77,14 +137,14 @@ language:
 script:
 - Latn
 abstract:
-- content: It is useful for routers in an OSPFv2 or OSPFv3 routing domain to know
+- content: "<p>It is useful for routers in an OSPFv2 or OSPFv3 routing domain to know
     the capabilities of their neighbors and other routers in the routing domain.  This
     document proposes extensions to OSPFv2 and OSPFv3 for advertising optional router
     capabilities.  A new Router Information (RI) Link State Advertisement (LSA) is
     proposed for this purpose.  In OSPFv2, the RI LSA will be implemented with a new
     opaque LSA type ID.  In OSPFv3, the RI LSA will be implemented with a new LSA
     type function code.  In both protocols, the RI LSA can be advertised at any of
-    the defined flooding scopes (link, area, or autonomous system (AS)). [STANDARDS-TRACK]
+    the defined flooding scopes (link, area, or autonomous system (AS)). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -96,7 +156,12 @@ relation:
     formattedref:
       content: RFC7770
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4970'
+fetched: '2022-01-23'
 keyword:
 - ospfv2
 - ospfv3

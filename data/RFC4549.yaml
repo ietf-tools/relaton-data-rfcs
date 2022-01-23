@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -37,22 +49,28 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document attempts to address some of the issues involved in building
+- content: '<p>This document attempts to address some of the issues involved in building
     a disconnected IMAP4 client. In particular, it deals with the issues of what might
     be called the "driver" portion of the synchronization tool: the portion of the
     code responsible for issuing the correct set of IMAP4 commands to synchronize
     the disconnected client in the way that is most likely to make the human who uses
-    the disconnected client happy. This note describes different strategies that can
-    be used by disconnected clients and shows how to use IMAP protocol in order to
-    minimize the time of the synchronization process. This note also lists IMAP extensions
-    that a server should implement in order to provide better synchronization facilities
-    to disconnected clients. This memo provides information for the Internet community.'
+    the disconnected client happy.</p><p>This note describes different strategies
+    that can be used by disconnected clients and shows how to use IMAP protocol in
+    order to minimize the time of the synchronization process.</p><p>This note also
+    lists IMAP extensions that a server should implement in order to provide better
+    synchronization facilities to disconnected clients. This memo provides information
+    for the Internet community.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4549'
+fetched: '2022-01-23'
 keyword:
 - internet message access protocol
 editorialgroup:

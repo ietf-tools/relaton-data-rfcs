@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Zhang
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: X
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: X. Zhang
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perlman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Perlman
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chatterjee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Chatterjee
         language:
@@ -77,14 +137,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The base IETF TRILL (Transparent Interconnection of Lots of Links) protocol
-    has a TRILL campus-wide MTU feature, specified in RFCs 6325 and 7177, that assures
-    that link-state changes can be successfully flooded throughout the campus while
-    being able to take advantage of a campus-wide capability to support jumbo packets.  This
-    document specifies recommended updates to that MTU feature to take advantage,
-    for appropriate link-local packets, of link-local MTUs that exceed the TRILL campus
-    MTU.  In addition, it specifies an efficient algorithm for local MTU testing.  This
-    document updates RFCs 6325, 7177, and 7780.
+- content: "<p>The base IETF TRILL (Transparent Interconnection of Lots of Links)
+    protocol has a TRILL campus-wide MTU feature, specified in RFCs 6325 and 7177,
+    that assures that link-state changes can be successfully flooded throughout the
+    campus while being able to take advantage of a campus-wide capability to support
+    jumbo packets.  This document specifies recommended updates to that MTU feature
+    to take advantage, for appropriate link-local packets, of link-local MTUs that
+    exceed the TRILL campus MTU.  In addition, it specifies an efficient algorithm
+    for local MTU testing.  This document updates RFCs 6325, 7177, and 7780.</p>"
   language:
   - en
   script:
@@ -106,6 +166,11 @@ relation:
     formattedref:
       content: RFC7780
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8249'
+fetched: '2022-01-23'
 editorialgroup:
 - name: trill

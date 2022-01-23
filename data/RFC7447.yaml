@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scudder
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Scudder
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kompella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kompella
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The BGP Entropy Label Capability attribute is defined in RFC 6790.  Regrettably,
-    it has a bug: although RFC 6790 mandates that routers incapable of processing
-    Entropy Labels must remove the attribute, fulfillment of this requirement cannot
-    be guaranteed in practice.  This specification deprecates the attribute.  A forthcoming
-    document will propose a replacement.'
+- content: "<p>The BGP Entropy Label Capability attribute is defined in RFC 6790.
+    \ Regrettably, it has a bug: although RFC 6790 mandates that routers incapable
+    of processing Entropy Labels must remove the attribute, fulfillment of this requirement
+    cannot be guaranteed in practice.  This specification deprecates the attribute.
+    \ A forthcoming document will propose a replacement.</p>"
   language:
   - en
   script:
@@ -63,6 +87,11 @@ relation:
     formattedref:
       content: RFC6790
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7447'
+fetched: '2022-01-23'
 editorialgroup:
 - name: mpls

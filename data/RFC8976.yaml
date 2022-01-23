@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wessels
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wessels
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Barber
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Barber
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Weinberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Weinberg
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Kumari
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hardaker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Hardaker
         language:
@@ -77,26 +137,31 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes a protocol and new DNS Resource Record that provides
-    a cryptographic message digest over DNS zone data at rest. The ZONEMD Resource
-    Record conveys the digest data in the zone itself. When used in combination with
-    DNSSEC, ZONEMD allows recipients to verify the zone contents for data integrity
+- content: "<p>This document describes a protocol and new DNS Resource Record that
+    provides a cryptographic message digest over DNS zone data at rest. The ZONEMD
+    Resource Record conveys the digest data in the zone itself. When used in combination
+    with DNSSEC, ZONEMD allows recipients to verify the zone contents for data integrity
     and origin authenticity. This provides assurance that received zone data matches
     published data, regardless of how the zone data has been transmitted and received.
     When used without DNSSEC, ZONEMD functions as a checksum, guarding only against
-    unintentional changes. ZONEMD does not replace DNSSEC: DNSSEC protects individual
-    RRsets (DNS data with fine granularity), whereas ZONEMD protects a zone''s data
+    unintentional changes.</p><p>ZONEMD does not replace DNSSEC: DNSSEC protects individual
+    RRsets (DNS data with fine granularity), whereas ZONEMD protects a zone's data
     as a whole, whether consumed by authoritative name servers, recursive name servers,
-    or any other applications. As specified herein, ZONEMD is impractical for large,
-    dynamic zones due to the time and resources required for digest calculation. However,
-    the ZONEMD record is extensible so that new digest schemes may be added in the
-    future to support large, dynamic zones.'
+    or any other applications.</p><p>As specified herein, ZONEMD is impractical for
+    large, dynamic zones due to the time and resources required for digest calculation.
+    However, the ZONEMD record is extensible so that new digest schemes may be added
+    in the future to support large, dynamic zones.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8976'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - DNSSEC

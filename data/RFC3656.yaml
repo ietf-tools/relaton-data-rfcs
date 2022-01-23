@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Siemborski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Siemborski
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: As the demand for high-performance mail delivery agents increases, it becomes
-    apparent that single-machine solutions are inadequate to the task, both because
-    of capacity limits and that the failure of the single machine means a loss of
-    mail delivery for all users.  It is preferable to allow many machines to share
-    the responsibility of mail delivery.  The Mailbox Update (MUPDATE) protocol allows
-    a group of Internet Message Access Protocol (IMAP) or Post Office Protocol - Version
-    3 (POP3) servers to function with a unified mailbox namespace.  This document
-    is intended to serve as a reference guide to that protocol.
+- content: "<p>As the demand for high-performance mail delivery agents increases,
+    it becomes apparent that single-machine solutions are inadequate to the task,
+    both because of capacity limits and that the failure of the single machine means
+    a loss of mail delivery for all users.  It is preferable to allow many machines
+    to share the responsibility of mail delivery.  The Mailbox Update (MUPDATE) protocol
+    allows a group of Internet Message Access Protocol (IMAP) or Post Office Protocol
+    - Version 3 (POP3) servers to function with a unified mailbox namespace.  This
+    document is intended to serve as a reference guide to that protocol.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3656'
+fetched: '2022-01-23'
 keyword:
 - imap
 - pop3

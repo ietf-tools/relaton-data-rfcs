@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L-E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jonsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L-E. Jonsson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pelletier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Pelletier
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The original RObust Header Compression (ROHC) RFC (RFC 3095) defines a
-    framework for header compression, along with compression protocols (profiles)
+- content: "<p>The original RObust Header Compression (ROHC) RFC (RFC 3095) defines
+    a framework for header compression, along with compression protocols (profiles)
     for IP/UDP/RTP, IP/ESP (Encapsulating Security Payload), IP/UDP, and also a profile
     for uncompressed packet streams.  However, no profile was defined for compression
     of IP only, which has been identified as a missing piece in RFC 3095.  This document
     defines a ROHC compression profile for IP, similar to the IP/UDP profile defined
     by RFC 3095, but simplified to exclude UDP, and enhanced to compress IP header
-    chains of arbitrary length. [STANDARDS-TRACK]
+    chains of arbitrary length. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3843'
+fetched: '2022-01-23'
 keyword:
 - compression protocols
 editorialgroup:

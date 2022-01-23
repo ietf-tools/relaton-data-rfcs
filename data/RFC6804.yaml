@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manning
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Manning
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the DISCOVER opcode, an experimental extension
-    to the Domain Name System (DNS) to use multicast queries for resource discovery.  This
-    opcode was tested in experiments run during 1995 and 1996 for the Topology Based
-    Domain Search (TBDS) project.  This project is no longer active and there are
-    no current plans to restart it.  TBDS was the first known use of multicast transport
-    for DNS.  A client multicasts a DNS query using the DISCOVER opcode and processes
-    the multiple responses that may result.  This document defines a Historic Document
-    for the Internet community.
+- content: "<p>This document describes the DISCOVER opcode, an experimental extension
+    to the Domain Name System (DNS) to use multicast queries for resource discovery.
+    \ This opcode was tested in experiments run during 1995 and 1996 for the Topology
+    Based Domain Search (TBDS) project.  This project is no longer active and there
+    are no current plans to restart it.  TBDS was the first known use of multicast
+    transport for DNS.  A client multicasts a DNS query using the DISCOVER opcode
+    and processes the multiple responses that may result.  This document defines a
+    Historic Document for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6804'
+fetched: '2022-01-23'

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pelletier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Pelletier
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L-E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jonsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L-E. Jonsson
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sandlund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Sandlund
         language:
@@ -58,19 +94,24 @@ language:
 script:
 - Latn
 abstract:
-- content: RObust Header Compression (ROHC), RFC 3095, defines a framework for header
-    compression, along with a number of compression protocols (profiles).  One operating
-    assumption for the profiles defined in RFC 3095 is that the channel between compressor
-    and decompressor is required to maintain packet ordering.  This document discusses
-    aspects of using ROHC over channels that can reorder packets.  It provides guidelines
-    on how to implement existing profiles over such channels, as well as suggestions
-    for the design of new profiles.  This memo provides information for the Internet
-    community.
+- content: "<p>RObust Header Compression (ROHC), RFC 3095, defines a framework for
+    header compression, along with a number of compression protocols (profiles).  One
+    operating assumption for the profiles defined in RFC 3095 is that the channel
+    between compressor and decompressor is required to maintain packet ordering.  This
+    document discusses aspects of using ROHC over channels that can reorder packets.
+    \ It provides guidelines on how to implement existing profiles over such channels,
+    as well as suggestions for the design of new profiles.  This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4224'
+fetched: '2022-01-23'
 editorialgroup:
 - name: rohc

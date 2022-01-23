@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Touch
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Touch
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mankin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Mankin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bonica
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bonica
         language:
@@ -57,11 +93,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the TCP Authentication Option (TCP-AO), which obsoletes
-    the TCP MD5 Signature option of RFC 2385 (TCP MD5).  TCP-AO specifies the use
-    of stronger Message Authentication Codes (MACs), protects against replays even
-    for long-lived TCP connections, and provides more details on the association of
-    security with TCP connections than TCP MD5.  TCP-AO is compatible with either
+- content: "<p>This document specifies the TCP Authentication Option (TCP-AO), which
+    obsoletes the TCP MD5 Signature option of RFC 2385 (TCP MD5).  TCP-AO specifies
+    the use of stronger Message Authentication Codes (MACs), protects against replays
+    even for long-lived TCP connections, and provides more details on the association
+    of security with TCP connections than TCP MD5.  TCP-AO is compatible with either
     a static Master Key Tuple (MKT) configuration or an external, out-of-band MKT
     management mechanism; in either case, TCP-AO also protects connections when using
     the same MKT across repeated instances of a connection, using traffic keys derived
@@ -71,13 +107,18 @@ abstract:
     with minimal other system and operational changes.  TCP-AO uses a different option
     identifier than TCP MD5, even though TCP-AO and TCP MD5 are never permitted to
     be used simultaneously.  TCP-AO supports IPv6, and is fully compatible with the
-    proposed requirements for the replacement of TCP MD5. [STANDARDS-TRACK]
+    proposed requirements for the replacement of TCP MD5. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5925'
+fetched: '2022-01-23'
 keyword:
 - transmission control protocol
 - border

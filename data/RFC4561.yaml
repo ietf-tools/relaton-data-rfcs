@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J.-P. Vasseur
         language:
@@ -33,6 +50,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ali
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Ali
         language:
@@ -43,6 +72,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sivabalan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Sivabalan
         language:
@@ -57,8 +98,8 @@ language:
 script:
 - Latn
 abstract:
-- content: In the context of MPLS TE Fast Reroute, the Merge Point (MP) address is
-    required at the Point of Local Repair (PLR) in order to select a backup tunnel
+- content: <p>In the context of MPLS TE Fast Reroute, the Merge Point (MP) address
+    is required at the Point of Local Repair (PLR) in order to select a backup tunnel
     intersecting a fast reroutable Traffic Engineering Label Switched Path (TE LSP)
     on a downstream Label Switching Router (LSR).  However, existing protocol mechanisms
     are not sufficient to find an MP address in multi-domain routing networks where
@@ -69,13 +110,18 @@ abstract:
     use of existing Record Route Object (RRO) IPv4 and IPv6 sub-objects (with a new
     flag defined) thus defining the node-id sub-object in order to solve this issue.  The
     MPLS Fast Reroute mechanism mentioned in this document refers to the "Facility
-    backup" MPLS TE Fast Reroute method. [STANDARDS-TRACK]
+    backup" MPLS TE Fast Reroute method. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4561'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching traffic engineering
 - plr

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vesely
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Vesely
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an email authentication method compliant with RFC
-    8601. The method consists of looking up the sender's IP address in a DNS whitelist.
+- content: "<p>This document describes an email authentication method compliant with
+    RFC 8601. The method consists of looking up the sender's IP address in a DNS whitelist.
     This document provides information in case the method is seen in the field, suggests
-    a useful practice, and registers the relevant keywords. This document does not
-    consider blacklists.
+    a useful practice, and registers the relevant keywords.</p><p>This document does
+    not consider blacklists.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8904'
+fetched: '2022-01-23'
 keyword:
 - DNSWL
 - EMAIL

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reddy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Reddy
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wallace
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Wallace
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: A trust anchor represents an authoritative entity via a public key and
-    associated data.  The public key is used to verify digital signatures, and the
-    associated data is used to constrain the types of information for which the trust
-    anchor is authoritative.  A relying party uses trust anchors to determine if a
-    digitally signed object is valid by verifying a digital signature using the trust
-    anchor's public key, and by enforcing the constraints expressed in the associated
+- content: "<p>A trust anchor represents an authoritative entity via a public key
+    and associated data.  The public key is used to verify digital signatures, and
+    the associated data is used to constrain the types of information for which the
+    trust anchor is authoritative.  A relying party uses trust anchors to determine
+    if a digitally signed object is valid by verifying a digital signature using the
+    trust anchor's public key, and by enforcing the constraints expressed in the associated
     data for the trust anchor.  This document describes some of the problems associated
     with the lack of a standard trust anchor management mechanism and defines requirements
-    for data formats and push-based protocols designed to address these problems.  This
-    document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    for data formats and push-based protocols designed to address these problems.
+    \ This document is not an Internet Standards Track specification; it is published
+    for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6024'
+fetched: '2022-01-23'
 keyword:
 - PKI
 - certificates

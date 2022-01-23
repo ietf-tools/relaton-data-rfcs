@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sahni
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Sahni
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the updated format of the Nonce extension in the
-    Online Certificate Status Protocol (OCSP) request and response messages.  OCSP
+- content: "<p>This document specifies the updated format of the Nonce extension in
+    the Online Certificate Status Protocol (OCSP) request and response messages.  OCSP
     is used to check the status of a certificate, and the Nonce extension is used
     to cryptographically bind an OCSP response message to a particular OCSP request
-    message.  This document updates RFC 6960.
+    message.  This document updates RFC 6960.</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC6960
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8954'
+fetched: '2022-01-23'
 keyword:
 - OCSP Nonce Length
 - OCSP Nonce Randomness

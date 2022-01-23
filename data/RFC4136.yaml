@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pillay-Esnault
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Pillay-Esnault
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an extension to the OSPF protocol to reduce periodic
-    flooding of Link State Advertisements (LSAs) in stable topologies. Current OSPF
-    behavior requires that all LSAs, except DoNotAge LSAs, to be refreshed every 30
-    minutes. This document proposes to generalize the use of DoNotAge LSAs in order
+- content: "<p>This document describes an extension to the OSPF protocol to reduce
+    periodic flooding of Link State Advertisements (LSAs) in stable topologies.</p><p>Current
+    OSPF behavior requires that all LSAs, except DoNotAge LSAs, to be refreshed every
+    30 minutes. This document proposes to generalize the use of DoNotAge LSAs in order
     to reduce protocol traffic in stable topologies. This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4136'
+fetched: '2022-01-23'
 keyword:
 - open shortest path first
 - link state advertisement

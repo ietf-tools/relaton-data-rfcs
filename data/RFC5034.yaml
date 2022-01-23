@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Siemborski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Siemborski
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Menon-Sen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Menon-Sen
         language:
@@ -48,14 +72,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a profile of the Simple Authentication and Security
+- content: "<p>This document defines a profile of the Simple Authentication and Security
     Layer (SASL) for the Post Office Protocol (POP3). This extension allows a POP3
     client to indicate an authentication mechanism to the server, perform an authentication
     protocol exchange, and optionally negotiate a security layer for subsequent protocol
-    interactions during this session. This document seeks to consolidate the information
-    related to POP3 AUTH into a single document. To this end, this document obsoletes
-    and replaces RFC 1734, and updates the information contained in Section 6.3 of
-    RFC 2449. [STANDARDS-TRACK]
+    interactions during this session.</p><p>This document seeks to consolidate the
+    information related to POP3 AUTH into a single document. To this end, this document
+    obsoletes and replaces RFC 1734, and updates the information contained in Section
+    6.3 of RFC 2449. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -67,7 +91,12 @@ relation:
     formattedref:
       content: RFC2449
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5034'
+fetched: '2022-01-23'
 keyword:
 - POP3-AUTH
 - Post

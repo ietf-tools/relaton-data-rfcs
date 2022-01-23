@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Stevens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Stevens
         language:
@@ -38,9 +50,9 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Modern implementations of TCP contain four intertwined algorithms that
+- content: "<p>Modern implementations of TCP contain four intertwined algorithms that
     have never been fully documented as Internet standards: slow start, congestion
-    avoidance, fast retransmit, and fast recovery. [STANDARDS-TRACK]'
+    avoidance, fast retransmit, and fast recovery. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC2581
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2001'
+fetched: '2022-01-23'
 keyword:
 - TCPSLOWSRT
 - Transmission

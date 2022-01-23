@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gandhi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gandhi
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shah
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Shah
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Whittaker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Whittaker
         language:
@@ -58,15 +94,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Resource Reservation Protocol (RSVP) association signaling can be used
+- content: "<p>Resource Reservation Protocol (RSVP) association signaling can be used
     to bind two unidirectional Label Switched Paths (LSPs) into an associated bidirectional
     LSP.  When an associated bidirectional LSP is co-routed, the reverse LSP follows
     the same path as its forward LSP.  This document updates the fast reroute procedures
     defined in RFC 4090 to support both single-sided and double-sided provisioned
     associated bidirectional LSPs.  This document also updates the procedure for associating
-    two reverse LSPs defined in RFC 7551 to support co-routed bidirectional LSPs.  The
-    fast reroute procedures can ensure that, for the co-routed LSPs, traffic flows
-    on co-routed paths in the forward and reverse directions after a failure event.
+    two reverse LSPs defined in RFC 7551 to support co-routed bidirectional LSPs.
+    \ The fast reroute procedures can ensure that, for the co-routed LSPs, traffic
+    flows on co-routed paths in the forward and reverse directions after a failure
+    event.</p>"
   language:
   - en
   script:
@@ -83,7 +120,12 @@ relation:
     formattedref:
       content: RFC7551
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8537'
+fetched: '2022-01-23'
 keyword:
 - RSVP-TE LSP
 editorialgroup:

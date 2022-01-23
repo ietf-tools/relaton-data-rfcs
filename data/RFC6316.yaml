@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Komu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Komu
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bagnulo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bagnulo
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Slavov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Slavov
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sugimoto
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Sugimoto
         language:
@@ -67,21 +115,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies sockets API extensions for the multihoming shim
+- content: <p>This document specifies sockets API extensions for the multihoming shim
     layer. The API aims to enable interactions between applications and the multihoming
     shim layer for advanced locator management, and access to information about failure
-    detection and path exploration. This document is based on an assumption that a
-    multihomed host is equipped with a conceptual sub-layer (hereafter called "shim
-    sub- layer") inside the IP layer that maintains mappings between identifiers and
-    locators. Examples of the shim are Shim6 and the Host Identity Protocol (HIP).
+    detection and path exploration.</p><p>This document is based on an assumption
+    that a multihomed host is equipped with a conceptual sub-layer (hereafter called
+    "shim sub- layer") inside the IP layer that maintains mappings between identifiers
+    and locators. Examples of the shim are Shim6 and the Host Identity Protocol (HIP).
     This document is not an Internet Standards Track specification; it is published
-    for informational purposes.
+    for informational purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6316'
+fetched: '2022-01-23'
 keyword:
 - Shim6
 - HIP

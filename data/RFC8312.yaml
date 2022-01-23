@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rhee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Rhee
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Xu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Xu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ha
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Ha
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zimmermann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zimmermann
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Eggert
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scheffenegger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Scheffenegger
         language:
@@ -87,19 +159,24 @@ language:
 script:
 - Latn
 abstract:
-- content: CUBIC is an extension to the current TCP standards.  It differs from the
-    current TCP standards only in the congestion control algorithm on the sender side.  In
-    particular, it uses a cubic function instead of a linear window increase function
-    of the current TCP standards to improve scalability and stability under fast and
-    long-distance networks.  CUBIC and its predecessor algorithm have been adopted
-    as defaults by Linux and have been used for many years.  This document provides
-    a specification of CUBIC to enable third-party implementations and to solicit
-    community feedback through experimentation on the performance of CUBIC.
+- content: "<p>CUBIC is an extension to the current TCP standards.  It differs from
+    the current TCP standards only in the congestion control algorithm on the sender
+    side.  In particular, it uses a cubic function instead of a linear window increase
+    function of the current TCP standards to improve scalability and stability under
+    fast and long-distance networks.  CUBIC and its predecessor algorithm have been
+    adopted as defaults by Linux and have been used for many years.  This document
+    provides a specification of CUBIC to enable third-party implementations and to
+    solicit community feedback through experimentation on the performance of CUBIC.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8312'
+fetched: '2022-01-23'
 editorialgroup:
 - name: tcpm

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Laurie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Laurie
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Langley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Langley
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kasper
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Kasper
         language:
@@ -57,14 +93,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an experimental protocol for publicly logging the
-    existence of Transport Layer Security (TLS) certificates as they are issued or
-    observed, in a manner that allows anyone to audit certificate authority (CA) activity
-    and notice the issuance of suspect certificates as well as to audit the certificate
-    logs themselves. The intent is that eventually clients would refuse to honor certificates
-    that do not appear in a log, effectively forcing CAs to add all issued certificates
-    to the logs. Logs are network services that implement the protocol operations
-    for submissions and queries that are defined in this document.
+- content: "<p>This document describes an experimental protocol for publicly logging
+    the existence of Transport Layer Security (TLS) certificates as they are issued
+    or observed, in a manner that allows anyone to audit certificate authority (CA)
+    activity and notice the issuance of suspect certificates as well as to audit the
+    certificate logs themselves. The intent is that eventually clients would refuse
+    to honor certificates that do not appear in a log, effectively forcing CAs to
+    add all issued certificates to the logs.</p><p>Logs are network services that
+    implement the protocol operations for submissions and queries that are defined
+    in this document.</p>"
   language:
   - en
   script:
@@ -76,7 +113,12 @@ relation:
     formattedref:
       content: RFC9162
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6962'
+fetched: '2022-01-23'
 keyword:
 - TLS certificates
 editorialgroup:

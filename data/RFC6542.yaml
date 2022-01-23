@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Emery
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Emery
         language:
@@ -38,13 +50,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Currently, channel bindings are implemented using an MD5 hash in the Kerberos
-    Version 5 Generic Security Service Application Programming Interface (GSS-API)
-    mechanism (RFC 4121).  This document updates RFC 4121 to allow channel bindings
-    using algorithms negotiated based on Kerberos crypto framework as defined in RFC
-    3961.  In addition, because this update makes use of the last extensible field
-    in the Kerberos client-server exchange message, extensions are defined to allow
-    future protocol extensions. [STANDARDS-TRACK]
+- content: "<p>Currently, channel bindings are implemented using an MD5 hash in the
+    Kerberos Version 5 Generic Security Service Application Programming Interface
+    (GSS-API) mechanism (RFC 4121).  This document updates RFC 4121 to allow channel
+    bindings using algorithms negotiated based on Kerberos crypto framework as defined
+    in RFC 3961.  In addition, because this update makes use of the last extensible
+    field in the Kerberos client-server exchange message, extensions are defined to
+    allow future protocol extensions. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -56,6 +68,11 @@ relation:
     formattedref:
       content: RFC4121
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6542'
+fetched: '2022-01-23'
 editorialgroup:
 - name: krb-wg

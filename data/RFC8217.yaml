@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sparks
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sparks
         language:
@@ -37,16 +49,17 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3261 constrained several SIP header fields whose grammar contains the
-    "name-addr / addr-spec" alternative to use name-addr when certain characters appear.
-    Unfortunately, it expressed the constraints with prose copied into each header
-    field definition, and at least one header field was missed. Further, the constraint
-    has not been copied into documents defining extension headers whose grammar contains
-    the alternative. This document updates RFC 3261 to state the constraint generically
-    and clarifies that the constraint applies to all SIP header fields where there
-    is a choice between using name-addr or addr-spec. It also updates the RFCs that
-    define extension SIP header fields using the alternative to clarify that the constraint
-    applies (RFCs 3325, 3515, 3892, 4508, 5002, 5318, 5360, and 5502).
+- content: <p>RFC 3261 constrained several SIP header fields whose grammar contains
+    the "name-addr / addr-spec" alternative to use name-addr when certain characters
+    appear. Unfortunately, it expressed the constraints with prose copied into each
+    header field definition, and at least one header field was missed. Further, the
+    constraint has not been copied into documents defining extension headers whose
+    grammar contains the alternative.</p><p>This document updates RFC 3261 to state
+    the constraint generically and clarifies that the constraint applies to all SIP
+    header fields where there is a choice between using name-addr or addr-spec. It
+    also updates the RFCs that define extension SIP header fields using the alternative
+    to clarify that the constraint applies (RFCs 3325, 3515, 3892, 4508, 5002, 5318,
+    5360, and 5502).</p>
   language:
   - en
   script:
@@ -98,6 +111,11 @@ relation:
     formattedref:
       content: RFC5502
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8217'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sipcore

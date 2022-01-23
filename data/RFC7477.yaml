@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hardaker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Hardaker
         language:
@@ -37,15 +49,20 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies how a child zone in the DNS can publish a record
+- content: "<p>This document specifies how a child zone in the DNS can publish a record
     to indicate to a parental agent that the parental agent may copy and process certain
     records from the child zone.  The existence of the record and any change in its
-    value can be monitored by a parental agent and acted on depending on local policy.
+    value can be monitored by a parental agent and acted on depending on local policy.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7477'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dnsop

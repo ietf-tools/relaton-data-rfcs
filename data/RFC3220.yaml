@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -37,15 +49,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies protocol enhancements that allow transparent routing
-    of IP datagrams to mobile nodes in the Internet.  Each mobile node is always identified
-    by its home address, regardless of its current point of attachment to the Internet.  While
-    situated away from its home, a mobile node is also associated with a care-of address,
-    which provides information about its current point of attachment to the Internet.  The
-    protocol provides for registering the care-of address with a home agent.  The
-    home agent sends datagrams destined for the mobile node through a tunnel to the
-    care-of address.  After arriving at the end of the tunnel, each datagram is then
-    delivered to the mobile node. [STANDARDS-TRACK]
+- content: "<p>This document specifies protocol enhancements that allow transparent
+    routing of IP datagrams to mobile nodes in the Internet.  Each mobile node is
+    always identified by its home address, regardless of its current point of attachment
+    to the Internet.  While situated away from its home, a mobile node is also associated
+    with a care-of address, which provides information about its current point of
+    attachment to the Internet.  The protocol provides for registering the care-of
+    address with a home agent.  The home agent sends datagrams destined for the mobile
+    node through a tunnel to the care-of address.  After arriving at the end of the
+    tunnel, each datagram is then delivered to the mobile node. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -57,7 +69,12 @@ relation:
     formattedref:
       content: RFC3344
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3220'
+fetched: '2022-01-23'
 keyword:
 - MOBILEIPSUPIP
 - Internet

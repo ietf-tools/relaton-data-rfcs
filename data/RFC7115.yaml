@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bush
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bush
         language:
@@ -38,16 +50,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Deployment of BGP origin validation that is based on the Resource Public
+- content: "<p>Deployment of BGP origin validation that is based on the Resource Public
     Key Infrastructure (RPKI) has many operational considerations.  This document
     attempts to collect and present those that are most critical.  It is expected
     to evolve as RPKI-based origin validation continues to be deployed and the dynamics
-    are better understood.
+    are better understood.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '185'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7115'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sidr

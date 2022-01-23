@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Yee
         language:
@@ -38,13 +50,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 5280, the "Internet X.509 Public Key Infrastructure
+- content: <p>This document updates RFC 5280, the "Internet X.509 Public Key Infrastructure
     Certificate and Certificate Revocation List (CRL) Profile".  This document changes
     the set of acceptable encoding methods for the explicitText field of the user
     notice policy qualifier and clarifies the rules for converting internationalized
     domain name labels to ASCII.  This document also provides some clarifications
     on the use of self-signed certificates, trust anchors, and some updated security
-    considerations. [STANDARDS-TRACK]
+    considerations. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -56,6 +68,11 @@ relation:
     formattedref:
       content: RFC5280
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6818'
+fetched: '2022-01-23'
 editorialgroup:
 - name: pkix

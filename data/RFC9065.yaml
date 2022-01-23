@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -48,22 +72,27 @@ language:
 script:
 - Latn
 abstract:
-- content: To protect user data and privacy, Internet transport protocols have supported
-    payload encryption and authentication for some time. Such encryption and authentication
-    are now also starting to be applied to the transport protocol headers. This helps
-    avoid transport protocol ossification by middleboxes, mitigate attacks against
-    the transport protocol, and protect metadata about the communication. Current
-    operational practice in some networks inspect transport header information within
-    the network, but this is no longer possible when those transport headers are encrypted.
-    This document discusses the possible impact when network traffic uses a protocol
-    with an encrypted transport header. It suggests issues to consider when designing
-    new transport protocols or features.
+- content: "<p>To protect user data and privacy, Internet transport protocols have
+    supported payload encryption and authentication for some time. Such encryption
+    and authentication are now also starting to be applied to the transport protocol
+    headers. This helps avoid transport protocol ossification by middleboxes, mitigate
+    attacks against the transport protocol, and protect metadata about the communication.
+    Current operational practice in some networks inspect transport header information
+    within the network, but this is no longer possible when those transport headers
+    are encrypted.</p><p>This document discusses the possible impact when network
+    traffic uses a protocol with an encrypted transport header. It suggests issues
+    to consider when designing new transport protocols or features.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9065'
+fetched: '2022-01-23'
 keyword:
 - transport design
 - operations and management

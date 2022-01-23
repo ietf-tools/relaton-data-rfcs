@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gavron
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Gavron
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document discusses a flaw in some of the currently distributed name
-    resolver clients.  The flaw exposes a security weakness related to the search
+- content: "<p>This document discusses a flaw in some of the currently distributed
+    name resolver clients.  The flaw exposes a security weakness related to the search
     heuristic invoked by these same resolvers when users provide a partial domain
     name, and which is easy to exploit.  This document points out the flaw, a case
-    in point, and a solution.  This memo provides information for the Internet community.  It
-    does not specify an Internet standard.
+    in point, and a solution.  This memo provides information for the Internet community.
+    \ It does not specify an Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1535'
+fetched: '2022-01-23'
 keyword:
 - Domain
 - Name

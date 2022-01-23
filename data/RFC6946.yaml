@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPv6 specification allows packets to contain a Fragment Header without
+- content: <p>The IPv6 specification allows packets to contain a Fragment Header without
     the packet being actually fragmented into multiple pieces (we refer to these packets
     as "atomic fragments").  Such packets are typically sent by hosts that have received
     an ICMPv6 "Packet Too Big" error message that advertises a Next-Hop MTU smaller
@@ -50,7 +62,7 @@ abstract:
     corresponding security implications.  Additionally, this document formally updates
     RFC 2460 and RFC 5722, such that IPv6 atomic fragments are processed independently
     of any other fragments, thus completely eliminating the aforementioned attack
-    vector.
+    vector.</p>
   language:
   - en
   script:
@@ -67,7 +79,12 @@ relation:
     formattedref:
       content: RFC5722
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6946'
+fetched: '2022-01-23'
 keyword:
 - fragmentation
 - attacks

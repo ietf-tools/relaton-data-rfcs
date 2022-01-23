@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ghedini
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Ghedini
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasiliev
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Vasiliev
         language:
@@ -47,15 +71,20 @@ language:
 script:
 - Latn
 abstract:
-- content: In TLS handshakes, certificate chains often take up the majority of the
-    bytes transmitted. This document describes how certificate chains can be compressed
-    to reduce the amount of data transmitted and avoid some round trips.
+- content: "<p>In TLS handshakes, certificate chains often take up the majority of
+    the bytes transmitted.</p><p>This document describes how certificate chains can
+    be compressed to reduce the amount of data transmitted and avoid some round trips.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8879'
+fetched: '2022-01-23'
 keyword:
 - zlib
 - brotli

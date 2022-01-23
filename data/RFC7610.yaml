@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Liu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Liu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Van de Velde
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Van de Velde
         language:
@@ -57,17 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a mechanism for protecting hosts connected to a
-    switched network against rogue DHCPv6 servers.  It is based on DHCPv6 packet filtering
-    at the layer 2 device at which the packets are received.  A similar mechanism
-    has been widely deployed in IPv4 networks ('DHCP snooping'); hence, it is desirable
-    that similar functionality be provided for IPv6 networks.  This document specifies
-    a Best Current Practice for the implementation of DHCPv6-Shield.
+- content: "<p>This document specifies a mechanism for protecting hosts connected
+    to a switched network against rogue DHCPv6 servers.  It is based on DHCPv6 packet
+    filtering at the layer 2 device at which the packets are received.  A similar
+    mechanism has been widely deployed in IPv4 networks ('DHCP snooping'); hence,
+    it is desirable that similar functionality be provided for IPv6 networks.  This
+    document specifies a Best Current Practice for the implementation of DHCPv6-Shield.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '199'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7610'
+fetched: '2022-01-23'
 editorialgroup:
 - name: opsec

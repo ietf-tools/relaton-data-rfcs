@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Balakrishnan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Balakrishnan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Padmanabhan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Padmanabhan
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sooriyabandara
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Sooriyabandara
         language:
@@ -67,8 +115,8 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes TCP performance problems that arise because of
-    asymmetric effects.  These problems arise in several access networks, including
+- content: "<p>This document describes TCP performance problems that arise because
+    of asymmetric effects.  These problems arise in several access networks, including
     bandwidth-asymmetric networks and packet radio subnetworks, for different underlying
     reasons.  However, the end result on TCP performance is the same in both cases:
     performance often degrades significantly because of imperfection and variability
@@ -79,19 +127,28 @@ abstract:
     consisting of: (i) techniques to manage the channel used for the upstream bottleneck
     link carrying the ACKs, typically using header compression or reducing the frequency
     of TCP ACKs, (ii) techniques to handle this reduced ACK frequency to retain the
-    TCP sender''s acknowledgment-triggered self- clocking and (iii) techniques to
-    schedule the data and ACK packets in the reverse direction to improve performance
-    in the presence of two-way traffic.  Each technique is described, together with
-    known issues, and recommendations for use.  A summary of the recommendations is
-    provided at the end of the document.  This document specifies an Internet Best
-    Current Practices for the Internet Community, and requests discussion and suggestions
-    for improvements.'
+    TCP sender's acknowledgment-triggered self- clocking and (iii) techniques to schedule
+    the data and ACK packets in the reverse direction to improve performance in the
+    presence of two-way traffic.  Each technique is described, together with known
+    issues, and recommendations for use.  A summary of the recommendations is provided
+    at the end of the document.  This document specifies an Internet Best Current
+    Practices for the Internet Community, and requests discussion and suggestions
+    for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '69'
+- title:
+    content: RFC
+    format: text/plain
+  number: '3449'
+fetched: '2022-01-23'
 keyword:
 - links
 - sender

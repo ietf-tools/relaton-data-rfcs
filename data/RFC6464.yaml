@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lennox
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lennox
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ivov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Ivov
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Marocco
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Marocco
         language:
@@ -58,18 +94,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a mechanism by which packets of Real-time Transport
+- content: "<p>This document defines a mechanism by which packets of Real-time Transport
     Protocol (RTP) audio streams can indicate, in an RTP header extension, the audio
     level of the audio sample carried in the RTP packet.  In large conferences, this
     can reduce the load on an audio mixer or other middlebox that wants to forward
     only a few of the loudest audio streams, without requiring it to decode and measure
-    every stream that is received. [STANDARDS-TRACK]
+    every stream that is received. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6464'
+fetched: '2022-01-23'
 keyword:
 - ssrc-audio-level
 - ssrc

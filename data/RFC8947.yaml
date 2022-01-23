@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Volz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Volz
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mrugalski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Mrugalski
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bernardos
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bernardos
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: In certain environments, e.g., large-scale virtualization deployments,
+- content: "<p>In certain environments, e.g., large-scale virtualization deployments,
     new devices are created in an automated manner.  Such devices may have their link-layer
     addresses assigned in an automated fashion.  With sufficient scale, the likelihood
-    of a collision using random assignment without duplication detection is not acceptable.  Therefore,
-    an allocation mechanism is required.  This document proposes an extension to DHCPv6
-    that allows a scalable approach to link-layer address assignments where preassigned
-    link-layer address assignments (such as by a manufacturer) are not possible or
-    are unnecessary.
+    of a collision using random assignment without duplication detection is not acceptable.
+    \ Therefore, an allocation mechanism is required.  This document proposes an extension
+    to DHCPv6 that allows a scalable approach to link-layer address assignments where
+    preassigned link-layer address assignments (such as by a manufacturer) are not
+    possible or are unnecessary.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8947'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dhc

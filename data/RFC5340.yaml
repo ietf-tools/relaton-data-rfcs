@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Coltun
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Coltun
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ferguson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ferguson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Moy
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -67,32 +115,37 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the modifications to OSPF to support version 6
-    of the Internet Protocol (IPv6). The fundamental mechanisms of OSPF (flooding,
+- content: "<p>This document describes the modifications to OSPF to support version
+    6 of the Internet Protocol (IPv6). The fundamental mechanisms of OSPF (flooding,
     Designated Router (DR) election, area support, Short Path First (SPF) calculations,
     etc.) remain unchanged. However, some changes have been necessary, either due
     to changes in protocol semantics between IPv4 and IPv6, or simply to handle the
     increased address size of IPv6. These modifications will necessitate incrementing
     the protocol version from version 2 to version 3. OSPF for IPv6 is also referred
-    to as OSPF version 3 (OSPFv3). Changes between OSPF for IPv4, OSPF Version 2,
-    and OSPF for IPv6 as described herein include the following. Addressing semantics
+    to as OSPF version 3 (OSPFv3).</p><p>Changes between OSPF for IPv4, OSPF Version
+    2, and OSPF for IPv6 as described herein include the following. Addressing semantics
     have been removed from OSPF packets and the basic Link State Advertisements (LSAs).
     New LSAs have been created to carry IPv6 addresses and prefixes. OSPF now runs
     on a per-link basis rather than on a per-IP-subnet basis. Flooding scope for LSAs
     has been generalized. Authentication has been removed from the OSPF protocol and
     instead relies on IPv6's Authentication Header and Encapsulating Security Payload
-    (ESP). Even with larger IPv6 addresses, most packets in OSPF for IPv6 are almost
-    as compact as those in OSPF for IPv4. Most fields and packet- size limitations
+    (ESP).</p><p>Even with larger IPv6 addresses, most packets in OSPF for IPv6 are
+    almost as compact as those in OSPF for IPv4. Most fields and packet- size limitations
     present in OSPF for IPv4 have been relaxed. In addition, option handling has been
-    made more flexible. All of OSPF for IPv4's optional capabilities, including demand
-    circuit support and Not-So-Stubby Areas (NSSAs), are also supported in OSPF for
-    IPv6. [STANDARDS-TRACK]
+    made more flexible.</p><p>All of OSPF for IPv4's optional capabilities, including
+    demand circuit support and Not-So-Stubby Areas (NSSAs), are also supported in
+    OSPF for IPv6. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5340'
+fetched: '2022-01-23'
 keyword:
 - open shortest path first
 - ospfv3

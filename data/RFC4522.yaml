@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Legg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Legg
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Each attribute stored in a Lightweight Directory Access Protocol (LDAP)
+- content: "<p>Each attribute stored in a Lightweight Directory Access Protocol (LDAP)
     directory has a defined syntax (i.e., data type).  A syntax definition specifies
     how attribute values conforming to the syntax are normally represented when transferred
-    in LDAP operations.  This representation is referred to as the LDAP\-specific
+    in LDAP operations.  This representation is referred to as the LDAP\\-specific
     encoding to distinguish it from other methods of encoding attribute values.  This
     document defines an attribute option, the binary option, that can be used to specify
     that the associated attribute values are instead encoded according to the Basic
-    Encoding Rules (BER) used by X.500 directories. [STANDARDS-TRACK]
+    Encoding Rules (BER) used by X.500 directories. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4522'
+fetched: '2022-01-23'
 keyword:
 - ber
 - ldap-specific encoding

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hornquist Astrand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Hornquist Astrand
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Several Generic Security Service Application Program Interface (GSS-API)
+- content: "<p>Several Generic Security Service Application Program Interface (GSS-API)
     applications work in a multi-tiered architecture, where the server takes advantage
     of delegated user credentials to act on behalf of the user and contact additional
     servers.  In effect, the server acts as an agent on behalf of the user.  Examples
@@ -56,9 +80,9 @@ abstract:
     CIFS (Common Internet File System) file servers.  However, delegating the user
     credentials to a party who is not sufficiently trusted is problematic from a security
     standpoint.  Kerberos provides a flag called OK-AS-DELEGATE that allows the administrator
-    of a Kerberos realm to communicate that a particular service is trusted for delegation.  This
-    specification adds support for this flag and similar facilities in other authentication
-    mechanisms to GSS-API (RFC 2743). [STANDARDS-TRACK]
+    of a Kerberos realm to communicate that a particular service is trusted for delegation.
+    \ This specification adds support for this flag and similar facilities in other
+    authentication mechanisms to GSS-API (RFC 2743). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -85,6 +109,11 @@ relation:
     formattedref:
       content: RFC4121
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5896'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

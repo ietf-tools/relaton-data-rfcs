@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Haberman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Haberman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Mills
         language:
@@ -47,26 +71,32 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes the Autokey security model for authenticating servers
+- content: "<p>This memo describes the Autokey security model for authenticating servers
     to clients using the Network Time Protocol (NTP) and public key cryptography.
     Its design is based on the premise that IPsec schemes cannot be adopted intact,
     since that would preclude stateless servers and severely compromise timekeeping
     accuracy. In addition, Public Key Infrastructure (PKI) schemes presume authenticated
     time values are always available to enforce certificate lifetimes; however, cryptographically
     verified timestamps require interaction between the timekeeping and authentication
-    functions. This memo includes the Autokey requirements analysis, design principles,
-    and protocol specification. A detailed description of the protocol states, events,
-    and transition functions is included. A prototype of the Autokey design based
-    on this memo has been implemented, tested, and documented in the NTP version 4
-    (NTPv4) software distribution for the Unix, Windows, and Virtual Memory System
-    (VMS) operating systems at http://www.ntp.org. This document is not an Internet
-    Standards Track specification; it is published for informational purposes.
+    functions.</p><p>This memo includes the Autokey requirements analysis, design
+    principles, and protocol specification. A detailed description of the protocol
+    states, events, and transition functions is included. A prototype of the Autokey
+    design based on this memo has been implemented, tested, and documented in the
+    NTP version 4 (NTPv4) software distribution for the Unix, Windows, and Virtual
+    Memory System (VMS) operating systems at http://www.ntp.org. This document is
+    not an Internet Standards Track specification; it is published for informational
+    purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5906'
+fetched: '2022-01-23'
 keyword:
 - ntp
 - ntpv4

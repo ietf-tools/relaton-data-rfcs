@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nielsen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Nielsen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Leach
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lawrence
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Lawrence
         language:
@@ -57,23 +93,28 @@ language:
 script:
 - Latn
 abstract:
-- content: A wide range of applications have proposed various extensions of the HTTP
-    protocol.  Current efforts span an enormous range, including distributed authoring,
-    collaboration, printing, and remote procedure call mechanisms.  These HTTP extensions
-    are not coordinated, since there has been no standard framework for defining extensions
-    and thus, separation of concerns.  This document describes a generic extension
-    mechanism for HTTP, which is designed to address the tension between private agreement
-    and public specification and to accommodate extension of applications using HTTP
-    clients, servers, and proxies.  The proposal associates each extension with a
-    globally unique identifier, and uses HTTP header fields to carry the extension
-    identifier and related information between the parties involved in the extended
-    communication.
+- content: "<p>A wide range of applications have proposed various extensions of the
+    HTTP protocol.  Current efforts span an enormous range, including distributed
+    authoring, collaboration, printing, and remote procedure call mechanisms.  These
+    HTTP extensions are not coordinated, since there has been no standard framework
+    for defining extensions and thus, separation of concerns.  This document describes
+    a generic extension mechanism for HTTP, which is designed to address the tension
+    between private agreement and public specification and to accommodate extension
+    of applications using HTTP clients, servers, and proxies.  The proposal associates
+    each extension with a globally unique identifier, and uses HTTP header fields
+    to carry the extension identifier and related information between the parties
+    involved in the extended communication.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2774'
+fetched: '2022-01-23'
 keyword:
 - hyper-text
 - transfer

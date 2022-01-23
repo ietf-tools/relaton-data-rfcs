@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kyzivat
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Kyzivat
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document extends the base definition of ABNF (Augmented Backus-Naur
+- content: "<p>This document extends the base definition of ABNF (Augmented Backus-Naur
     Form) to include a way to specify US-ASCII string literals that are matched in
-    a case-sensitive manner.
+    a case-sensitive manner.</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC5234
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7405'
+fetched: '2022-01-23'
 keyword:
 - BNF
 - ABNF Syntax

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yizhou
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Yizhou
         language:
@@ -48,8 +72,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a TRILL (Transparent Interconnection of Lots of
-    Links) IS-IS application sub-TLV that enables the reporting by a TRILL switch
+- content: "<p>This document specifies a TRILL (Transparent Interconnection of Lots
+    of Links) IS-IS application sub-TLV that enables the reporting by a TRILL switch
     of sets of addresses.  Each set of addresses reports all of the addresses that
     designate the same interface (port) and also reports the TRILL switch by which
     that interface is reachable.  For example, a 48-bit MAC (Media Access Control)
@@ -57,13 +81,18 @@ abstract:
     the same interface reachable by a particular TRILL switch.  Such information could
     be used in some cases to synthesize responses to, or bypass the need for, the
     Address Resolution Protocol (ARP), the IPv6 Neighbor Discovery (ND) protocol,
-    or the flooding of unknown MAC addresses.
+    or the flooding of unknown MAC addresses.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7961'
+fetched: '2022-01-23'
 keyword:
 - reachability
 - AFN

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Newman
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification extends the Internet Message Access Protocol (IMAP)
+- content: "<p>This specification extends the Internet Message Access Protocol (IMAP)
     to allow an administrative client to reuse the same IMAP connection on behalf
-    of multiple IMAP user identities.
+    of multiple IMAP user identities.</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC3501
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8437'
+fetched: '2022-01-23'
 keyword:
 - IMAP
 - unauthenticate

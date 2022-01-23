@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ludwig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Ludwig
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gurtov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Gurtov
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: Based on an appropriate detection algorithm, the Eifel response algorithm
+- content: "<p>Based on an appropriate detection algorithm, the Eifel response algorithm
     provides a way for a TCP sender to respond to a detected spurious timeout.  It
     adapts the retransmission timer to avoid further spurious timeouts and (depending
     on the detection algorithm) can avoid the often unnecessary go-back-N retransmits
     that would otherwise be sent.  In addition, the Eifel response algorithm restores
-    the congestion control state in such a way that packet bursts are avoided. [STANDARDS-TRACK]
+    the congestion control state in such a way that packet bursts are avoided. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4015'
+fetched: '2022-01-23'
 keyword:
 - transmision control protocol
 editorialgroup:

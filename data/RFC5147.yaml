@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wilde
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Wilde
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Duerst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Duerst
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines URI fragment identifiers for text/plain MIME entities.  These
-    fragment identifiers make it possible to refer to parts of a text/plain MIME entity,
-    either identified by character position or range, or by line position or range.  Fragment
-    identifiers may also contain information for integrity checks to make them more
-    robust. [STANDARDS-TRACK]
+- content: "<p>This memo defines URI fragment identifiers for text/plain MIME entities.
+    \ These fragment identifiers make it possible to refer to parts of a text/plain
+    MIME entity, either identified by character position or range, or by line position
+    or range.  Fragment identifiers may also contain information for integrity checks
+    to make them more robust. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC2046
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5147'
+fetched: '2022-01-23'
 keyword:
 - uniform resource identifier
 - mime entity

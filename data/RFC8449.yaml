@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Thomson
         language:
@@ -37,9 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: An extension to Transport Layer Security (TLS) is defined that allows endpoints
-    to negotiate the maximum size of protected records that each will send the other.
-    This replaces the maximum fragment length extension defined in RFC 6066.
+- content: "<p>An extension to Transport Layer Security (TLS) is defined that allows
+    endpoints to negotiate the maximum size of protected records that each will send
+    the other.</p><p>This replaces the maximum fragment length extension defined in
+    RFC 6066.</p>"
   language:
   - en
   script:
@@ -51,7 +64,12 @@ relation:
     formattedref:
       content: RFC6066
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8449'
+fetched: '2022-01-23'
 keyword:
 - TLS
 - record

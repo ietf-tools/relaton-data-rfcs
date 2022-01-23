@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roca
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Roca
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Teibi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Teibi
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes two fully specified Forward Erasure Correction
+- content: "<p>This document describes two fully specified Forward Erasure Correction
     (FEC) Schemes for Sliding Window Random Linear Codes (RLC), one for RLC over the
     Galois Field (a.k.a., Finite Field) GF(2), a second one for RLC over the Galois
     Field GF(2), each time with the possibility of controlling the code density.  They
@@ -57,13 +81,18 @@ abstract:
     window that slides over the source symbols, generating new repair symbols whenever
     needed.  Compared to block FEC codes, these Sliding Window FEC Codes offer key
     advantages with real-time flows in terms of reduced FEC-related latency while
-    often providing improved packet erasure recovery capabilities.
+    often providing improved packet erasure recovery capabilities.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8681'
+fetched: '2022-01-23'
 keyword:
 - RLC
 - FEC

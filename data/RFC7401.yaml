@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moskowitz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Moskowitz
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Heer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Heer
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jokela
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Jokela
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Henderson
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the details of the Host Identity Protocol (HIP).
+- content: "<p>This document specifies the details of the Host Identity Protocol (HIP).
     HIP allows consenting hosts to securely establish and maintain shared IP-layer
     state, allowing separation of the identifier and locator roles of IP addresses,
     thereby enabling continuity of communications across IP address changes. HIP is
@@ -76,15 +124,21 @@ abstract:
     to be resistant to denial-of-service (DoS) and man-in-the-middle (MitM) attacks.
     When used together with another suitable security protocol, such as the Encapsulating
     Security Payload (ESP), it provides integrity protection and optional encryption
-    for upper-layer protocols, such as TCP and UDP. This document obsoletes RFC 5201
-    and addresses the concerns raised by the IESG, particularly that of crypto agility.
-    It also incorporates lessons learned from the implementations of RFC 5201.
+    for upper-layer protocols, such as TCP and UDP.</p><p>This document obsoletes
+    RFC 5201 and addresses the concerns raised by the IESG, particularly that of crypto
+    agility. It also incorporates lessons learned from the implementations of RFC
+    5201.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7401'
+fetched: '2022-01-23'
 keyword:
 - HIP
 - IP-layer state

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Malamud
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Malamud
         language:
@@ -37,25 +49,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a mechanism for finding a URI associated with a
-    solicitation class keyword, which is defined in RFC 3865, the No Soliciting SMTP
-    Service Extension. Solicitation class keywords are simple labels consisting of
-    a domain name that has been reversed, such as "org.example.adv". These solicitation
+- content: <p>This document proposes a mechanism for finding a URI associated with
+    a solicitation class keyword, which is defined in RFC 3865, the No Soliciting
+    SMTP Service Extension. Solicitation class keywords are simple labels consisting
+    of a domain name that has been reversed, such as "org.example.adv". These solicitation
     class keywords are inserted in selected header fields or used in the ESMTP service
     extension, including a new \%"No-Solicit:" header, which can contain one or more
-    solicitation class keywords inserted by the sender. This document specifies an
-    application based on the Dynamic Delegation Discovery System (DDDS) described
+    solicitation class keywords inserted by the sender.</p><p>This document specifies
+    an application based on the Dynamic Delegation Discovery System (DDDS) described
     in RFC 3401 and related documents. An algorithm is specified to associate a solicitation
     class keyword with a URI which contains further information about the meaning
     and usage of that solicitation class keyword. For example, the registrant of the
     "example.org" domain could use this mechanism to create a URI which contains detailed
-    information about the "org.example.adv" solicitation class keyword. [STANDARDS-TRACK]
+    information about the "org.example.adv" solicitation class keyword. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4095'
+fetched: '2022-01-23'
 keyword:
 - uri
 - uniform resource identifier

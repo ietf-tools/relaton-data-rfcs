@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. DeKok
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The Remote Authentication Dial-In User Server (RADIUS) protocol has, until
-    now, required the User Datagram Protocol (UDP) as the underlying transport layer.  This
-    document defines RADIUS over the Transmission Control Protocol (RADIUS/TCP), in
-    order to address handling issues related to RADIUS over Transport Layer Security
+- content: "<p>The Remote Authentication Dial-In User Server (RADIUS) protocol has,
+    until now, required the User Datagram Protocol (UDP) as the underlying transport
+    layer.  This document defines RADIUS over the Transmission Control Protocol (RADIUS/TCP),
+    in order to address handling issues related to RADIUS over Transport Layer Security
     (RADIUS/TLS).  It permits TCP to be used as a transport protocol for RADIUS only
-    when a transport layer such as TLS or IPsec provides confidentiality and security.  This
-    document defines an Experimental Protocol for the Internet community.
+    when a transport layer such as TLS or IPsec provides confidentiality and security.
+    \ This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6613'
+fetched: '2022-01-23'
 keyword:
 - Remote Authentication Dial-In User Server
 - Transmission Control Protocol

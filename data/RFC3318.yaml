@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sahita
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sahita
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hahn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hahn
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Chan
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McCloghrie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. McCloghrie
         language:
@@ -67,25 +115,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a set of PRovisioning Classes (PRCs) and textual
+- content: "<p>This document defines a set of PRovisioning Classes (PRCs) and textual
     conventions that are common to all clients that provision policy using Common
-    Open Policy Service (COPS) protocol for Provisioning. Structure of Policy Provisioning
-    Information (SPPI) describes a structure for specifying policy information that
-    can then be transmitted to a network device for the purpose of configuring policy
-    at that device. The model underlying this structure is one of well-defined (PRCs)
-    and instances of these classes (PRIs) residing in a virtual information store
-    called the Policy Information Base (PIB). One way to provision policy is by means
-    of the (COPS) protocol with the extensions for provisioning. This protocol supports
-    multiple clients, each of which may provision policy for a specific policy domain
-    such as QoS, virtual private networks, or security. As described in COPS usage
-    for Policy Provisioning (COPS-PR), each client supports a non-overlapping and
-    independent set of PIB modules. However, some PRovisioning Classes are common
-    to all subject-categories (client-types) and need to be present in each.
+    Open Policy Service (COPS) protocol for Provisioning.</p><p>Structure of Policy
+    Provisioning Information (SPPI) describes a structure for specifying policy information
+    that can then be transmitted to a network device for the purpose of configuring
+    policy at that device. The model underlying this structure is one of well-defined
+    (PRCs) and instances of these classes (PRIs) residing in a virtual information
+    store called the Policy Information Base (PIB).</p><p>One way to provision policy
+    is by means of the (COPS) protocol with the extensions for provisioning. This
+    protocol supports multiple clients, each of which may provision policy for a specific
+    policy domain such as QoS, virtual private networks, or security.</p><p>As described
+    in COPS usage for Policy Provisioning (COPS-PR), each client supports a non-overlapping
+    and independent set of PIB modules. However, some PRovisioning Classes are common
+    to all subject-categories (client-types) and need to be present in each.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3318'
+fetched: '2022-01-23'
 editorialgroup:
 - name: rap

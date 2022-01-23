@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ould-Brahim
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Ould-Brahim
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fedyk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Fedyk
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -57,21 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: The purpose of this document is to define a BGP-based auto-discovery mechanism
-    for Layer-1 VPNs (L1VPNs).  The auto-discovery mechanism for L1VPNs allows the
-    provider network devices to dynamically discover the set of Provider Edges (PEs)
-    having ports attached to Customer Edge (CE) members of the same VPN.  That information
-    is necessary for completing the signaling phase of L1VPN connections.  One main
-    objective of a L1VPN auto-discovery mechanism is to support the "single-end provisioning"
-    model, where addition of a new port to a given L1VPN would involve configuration
-    changes only on the PE that has this port and on the CE that is connected to the
-    PE via this port. [STANDARDS-TRACK]
+- content: <p>The purpose of this document is to define a BGP-based auto-discovery
+    mechanism for Layer-1 VPNs (L1VPNs).  The auto-discovery mechanism for L1VPNs
+    allows the provider network devices to dynamically discover the set of Provider
+    Edges (PEs) having ports attached to Customer Edge (CE) members of the same VPN.  That
+    information is necessary for completing the signaling phase of L1VPN connections.  One
+    main objective of a L1VPN auto-discovery mechanism is to support the "single-end
+    provisioning" model, where addition of a new port to a given L1VPN would involve
+    configuration changes only on the PE that has this port and on the CE that is
+    connected to the PE via this port. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5195'
+fetched: '2022-01-23'
 keyword:
 - import route target
 - l1vpn

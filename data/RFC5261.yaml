@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Urpalainen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Urpalainen
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Extensible Markup Language (XML) documents are widely used as containers
+- content: "<p>Extensible Markup Language (XML) documents are widely used as containers
     for the exchange and storage of arbitrary data in today's systems.  In order to
     send changes to an XML document, an entire copy of the new version must be sent,
     unless there is a means of indicating only the portions that have changed.  This
@@ -46,12 +58,17 @@ abstract:
     selectors.  These selector values and updated new data content constitute the
     basis of patch operations described in this document.  In addition to them, with
     basic &lt;add&gt;, &lt;replace&gt;, and &lt;remove&gt; directives a set of patches
-    can then be applied to update an existing XML document. [STANDARDS-TRACK]
+    can then be applied to update an existing XML document. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5261'
+fetched: '2022-01-23'
 editorialgroup:
 - name: simple

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Farrell
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes a protocol whereby a user can acquire cryptographic
+- content: "<p>This document describes a protocol whereby a user can acquire cryptographic
     credentials (e.g., private keys, PKCS #15 structures) from a credential server,
     using a workstation that has locally trusted software installed, but with no user-specific
-    configuration.  The protocol''s payloads are described in XML.  This memo also
-    specifies a Blocks Extensible Exchange Protocol (BEEP) profile of the protocol.  Security
-    requirements are met by mandating support for TLS and/or DIGEST-MD5 (through BEEP).
-    [STANDARDS-TRACK]'
+    configuration.  The protocol's payloads are described in XML.  This memo also
+    specifies a Blocks Extensible Exchange Protocol (BEEP) profile of the protocol.
+    \ Security requirements are met by mandating support for TLS and/or DIGEST-MD5
+    (through BEEP). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3767'
+fetched: '2022-01-23'
 keyword:
 - beep
 - blocks extensible exchange protocol

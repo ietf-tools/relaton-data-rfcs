@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pusateri
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Pusateri
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cheshire
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Cheshire
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The Domain Name System (DNS) was designed to return matching records efficiently
-    for queries for data that are relatively static.  When those records change frequently,
-    DNS is still efficient at returning the updated results when polled, as long as
-    the polling rate is not too high.  But, there exists no mechanism for a client
-    to be asynchronously notified when these changes occur.  This document defines
-    a mechanism for a client to be notified of such changes to DNS records, called
-    DNS Push Notifications.
+- content: "<p>The Domain Name System (DNS) was designed to return matching records
+    efficiently for queries for data that are relatively static.  When those records
+    change frequently, DNS is still efficient at returning the updated results when
+    polled, as long as the polling rate is not too high.  But, there exists no mechanism
+    for a client to be asynchronously notified when these changes occur.  This document
+    defines a mechanism for a client to be notified of such changes to DNS records,
+    called DNS Push Notifications.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8765'
+fetched: '2022-01-23'
 keyword:
 - dns
 - update

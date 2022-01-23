@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Shen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aggarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Aggarwal
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderickx
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Henderickx
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jiang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Jiang
         language:
@@ -67,9 +115,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a fast mechanism for protecting pseudowires (PWs)
-    transported by IP/MPLS tunnels against egress endpoint failures, including egress
-    attachment circuit (AC) failure, egress provider edge (PE) failure, multi-segment
+- content: "<p>This document specifies a fast mechanism for protecting pseudowires
+    (PWs) transported by IP/MPLS tunnels against egress endpoint failures, including
+    egress attachment circuit (AC) failure, egress provider edge (PE) failure, multi-segment
     PW terminating PE failure, and multi-segment PW switching PE failure.  Operating
     on the basis of multihomed customer edge (CE), redundant PWs, upstream label assignment,
     and context-specific label switching, the mechanism enables local repair to be
@@ -77,13 +125,18 @@ abstract:
     a PW in the order of tens of milliseconds, by rerouting traffic around the failure
     to a protector through a pre-established bypass tunnel.  Therefore, the mechanism
     can be used to reduce traffic loss before global repair reacts to the failure
-    and the network converges on the topology changes due to the failure.
+    and the network converges on the topology changes due to the failure.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8104'
+fetched: '2022-01-23'
 keyword:
 - pseudowire
 - PW

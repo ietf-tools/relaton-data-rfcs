@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perrig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Perrig
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Song
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Song
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Canetti
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Canetti
         language:
@@ -54,6 +90,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tygar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. D. Tygar
         language:
@@ -64,6 +117,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Briscoe
         language:
@@ -78,7 +143,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document introduces Timed Efficient Stream Loss-tolerant Authentication
+- content: "<p>This document introduces Timed Efficient Stream Loss-tolerant Authentication
     (TESLA). TESLA allows all receivers to check the integrity and authenticate the
     source of each packet in multicast or broadcast data streams. TESLA requires no
     trust between receivers, uses low-cost operations per packet at both sender and
@@ -87,15 +152,20 @@ abstract:
     of service attacks in certain circumstances. Each receiver must be loosely time-synchronized
     with the source in order to verify messages, but otherwise receivers do not have
     to send any messages. TESLA alone cannot support non-repudiation of the data source
-    to third parties. This informational document is intended to assist in writing
+    to third parties.</p><p>This informational document is intended to assist in writing
     standardizable and secure specifications for protocols based on TESLA in different
-    contexts. This memo provides information for the Internet community.
+    contexts. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4082'
+fetched: '2022-01-23'
 keyword:
 - data streams
 editorialgroup:

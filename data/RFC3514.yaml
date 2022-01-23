@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellovin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bellovin
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: Firewalls, packet filters, intrusion detection systems, and the like often
-    have difficulty distinguishing between packets that have malicious intent and
-    those that are merely unusual.  We define a security flag in the IPv4 header as
-    a means of distinguishing the two cases.  This memo provides information for the
-    Internet community.
+- content: "<p>Firewalls, packet filters, intrusion detection systems, and the like
+    often have difficulty distinguishing between packets that have malicious intent
+    and those that are merely unusual.  We define a security flag in the IPv4 header
+    as a means of distinguishing the two cases.  This memo provides information for
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3514'
+fetched: '2022-01-23'
 keyword:
 - evil
 - evil bit

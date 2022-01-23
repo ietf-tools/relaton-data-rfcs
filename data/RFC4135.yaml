@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: JH
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Choi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JH. Choi
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Daley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Daley
         language:
@@ -47,21 +71,26 @@ language:
 script:
 - Latn
 abstract:
-- content: When a host establishes a new link-layer connection, it may or may not
-    have a valid IP configuration for Internet connectivity.  The host may check for
-    link change (i.e., determine whether a link change has occurred), and then, based
-    on the result, it can automatically decide whether its IP configuration is still
-    valid.  During link identity detection, the host may also collect necessary information
-    to initiate a new IP configuration if the IP subnet has changed.  In this memo,
-    this procedure is called Detecting Network Attachment (DNA).  DNA schemes should
-    be precise, sufficiently fast, secure, and of limited signaling.  This memo provides
-    information for the Internet community.
+- content: "<p>When a host establishes a new link-layer connection, it may or may
+    not have a valid IP configuration for Internet connectivity.  The host may check
+    for link change (i.e., determine whether a link change has occurred), and then,
+    based on the result, it can automatically decide whether its IP configuration
+    is still valid.  During link identity detection, the host may also collect necessary
+    information to initiate a new IP configuration if the IP subnet has changed.  In
+    this memo, this procedure is called Detecting Network Attachment (DNA).  DNA schemes
+    should be precise, sufficiently fast, secure, and of limited signaling.  This
+    memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4135'
+fetched: '2022-01-23'
 keyword:
 - dna
 - detecting attachment links

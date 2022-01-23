@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Senevirathne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Senevirathne
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pathangi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Pathangi
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hudson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Hudson
         language:
@@ -58,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: TRILL (Transparent Interconnection of Lots of Links) facilitates loop-free
+- content: "<p>TRILL (Transparent Interconnection of Lots of Links) facilitates loop-free
     connectivity to non-TRILL networks via a choice of an Appointed Forwarder for
     a set of VLANs.  Appointed Forwarders provide VLAN-based load sharing with an
     active-standby model.  High-performance applications require an active-active
@@ -70,7 +106,7 @@ abstract:
     enhancements to build Coordinated Multicast Trees (CMT) within the TRILL campus
     to solve related RPF issues.  CMT, which only requires a software upgrade, provides
     flexibility to RBridges in selecting a desired path of association to a given
-    TRILL multi-destination distribution tree.  This document updates RFC 6325.
+    TRILL multi-destination distribution tree.  This document updates RFC 6325.</p>"
   language:
   - en
   script:
@@ -82,7 +118,12 @@ relation:
     formattedref:
       content: RFC6325
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7783'
+fetched: '2022-01-23'
 keyword:
 - Affinity
 - RPF

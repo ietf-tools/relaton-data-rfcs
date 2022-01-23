@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Durand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Durand
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pepelnjak
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Pepelnjak
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Doering
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Doering
         language:
@@ -57,21 +93,30 @@ language:
 script:
 - Latn
 abstract:
-- content: The Border Gateway Protocol (BGP) is the protocol almost exclusively used
-    in the Internet to exchange routing information between network domains. Due to
-    this central nature, it is important to understand the security measures that
-    can and should be deployed to prevent accidental or intentional routing disturbances.
-    This document describes measures to protect the BGP sessions itself such as Time
-    to Live (TTL), the TCP Authentication Option (TCP-AO), and control-plane filtering.
+- content: "<p>The Border Gateway Protocol (BGP) is the protocol almost exclusively
+    used in the Internet to exchange routing information between network domains.
+    Due to this central nature, it is important to understand the security measures
+    that can and should be deployed to prevent accidental or intentional routing disturbances.</p><p>This
+    document describes measures to protect the BGP sessions itself such as Time to
+    Live (TTL), the TCP Authentication Option (TCP-AO), and control-plane filtering.
     It also describes measures to better control the flow of routing information,
     using prefix filtering and automation of prefix filters, max-prefix filtering,
     Autonomous System (AS) path filtering, route flap dampening, and BGP community
-    scrubbing.
+    scrubbing.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '194'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7454'
+fetched: '2022-01-23'
 editorialgroup:
 - name: opsec

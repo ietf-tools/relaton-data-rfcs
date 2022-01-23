@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Williams
         language:
@@ -37,24 +49,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies, abstractly, how to interface applications and
+- content: <p>This document specifies, abstractly, how to interface applications and
     transport protocols with IPsec so as to create "channels" by latching "connections"
     (packet flows) to certain IPsec Security Association (SA) parameters for the lifetime
     of the connections. Connection latching is layered on top of IPsec and does not
-    modify the underlying IPsec architecture. Connection latching can be used to protect
-    applications against accidentally exposing live packet flows to unintended peers,
-    whether as the result of a reconfiguration of IPsec or as the result of using
-    weak peer identity to peer address associations. Weak association of peer ID and
-    peer addresses is at the core of Better Than Nothing Security (BTNS); thus, connection
-    latching can add a significant measure of protection to BTNS IPsec nodes. Finally,
-    the availability of IPsec channels will make it possible to use channel binding
-    to IPsec channels. [STANDARDS-TRACK]
+    modify the underlying IPsec architecture.</p><p>Connection latching can be used
+    to protect applications against accidentally exposing live packet flows to unintended
+    peers, whether as the result of a reconfiguration of IPsec or as the result of
+    using weak peer identity to peer address associations. Weak association of peer
+    ID and peer addresses is at the core of Better Than Nothing Security (BTNS); thus,
+    connection latching can add a significant measure of protection to BTNS IPsec
+    nodes.</p><p>Finally, the availability of IPsec channels will make it possible
+    to use channel binding to IPsec channels. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5660'
+fetched: '2022-01-23'
 keyword:
 - IPsec
 - connection latching

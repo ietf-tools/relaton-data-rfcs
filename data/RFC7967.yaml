@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bhattacharyya
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bhattacharyya
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bandyopadhyay
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bandyopadhyay
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Pal
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bose
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Bose
         language:
@@ -67,27 +115,33 @@ language:
 script:
 - Latn
 abstract:
-- content: There can be machine-to-machine (M2M) scenarios where server responses
+- content: <p>There can be machine-to-machine (M2M) scenarios where server responses
     to client requests are redundant. This kind of open-loop exchange (with no response
     path from the server to the client) may be desired to minimize resource consumption
     in constrained systems while updating many resources simultaneously or performing
     high-frequency updates. CoAP already provides Non-confirmable (NON) messages that
     are not acknowledged by the recipient. However, the request/response semantics
     still require the server to respond with a status code indicating "the result
-    of the attempt to understand and satisfy the request", per RFC 7252. This specification
-    introduces a CoAP option called 'No-Response'. Using this option, the client can
-    explicitly express to the server its disinterest in all responses against the
-    particular request. This option also provides granular control to enable expression
-    of disinterest to a particular response class or a combination of response classes.
-    The server MAY decide to suppress the response by not transmitting it back to
-    the client according to the value of the No-Response option in the request. This
-    option may be effective for both unicast and multicast requests. This document
-    also discusses a few examples of applications that benefit from this option.
+    of the attempt to understand and satisfy the request", per RFC 7252.</p><p>This
+    specification introduces a CoAP option called 'No-Response'. Using this option,
+    the client can explicitly express to the server its disinterest in all responses
+    against the particular request. This option also provides granular control to
+    enable expression of disinterest to a particular response class or a combination
+    of response classes. The server MAY decide to suppress the response by not transmitting
+    it back to the client according to the value of the No-Response option in the
+    request. This option may be effective for both unicast and multicast requests.
+    This document also discusses a few examples of applications that benefit from
+    this option.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7967'
+fetched: '2022-01-23'
 keyword:
 - No-Response

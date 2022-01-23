@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Turner
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Borchert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Borchert
         language:
@@ -47,12 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the algorithms, algorithm parameters, asymmetric
+- content: <p>This document specifies the algorithms, algorithm parameters, asymmetric
     key formats, asymmetric key sizes, and signature formats used in BGPsec (Border
     Gateway Protocol Security). This document updates RFC 7935 ("The Profile for Algorithms
-    and Key Sizes for Use in the Resource Public Key Infrastructure"). This document
-    also includes example BGPsec UPDATE messages as well as the private keys used
-    to generate the messages and the certificates necessary to validate those signatures.
+    and Key Sizes for Use in the Resource Public Key Infrastructure").</p><p>This
+    document also includes example BGPsec UPDATE messages as well as the private keys
+    used to generate the messages and the certificates necessary to validate those
+    signatures.</p>
   language:
   - en
   script:
@@ -69,6 +94,11 @@ relation:
     formattedref:
       content: RFC7935
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8208'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sidr

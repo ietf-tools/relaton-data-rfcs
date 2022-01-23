@@ -21,14 +21,9 @@ date:
 - type: published
   value: 1991-09
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: The North American Directory Forum
-        language:
-        - en
-        script:
-        - Latn
+    - The North American Directory Forum
   role:
   - author
 revdate: 1991-09
@@ -37,9 +32,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo documents the NADF's agreement as to how entries are named in
-    the public portions of the North American Directory.  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.
+- content: "<p>This memo documents the NADF's agreement as to how entries are named
+    in the public portions of the North American Directory.  This memo provides information
+    for the Internet community.  It does not specify an Internet standard.</p>"
   language:
   - en
   script:
@@ -51,7 +46,12 @@ relation:
     formattedref:
       content: RFC1417
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1255'
+fetched: '2022-01-23'
 keyword:
 - naming
 - NADF

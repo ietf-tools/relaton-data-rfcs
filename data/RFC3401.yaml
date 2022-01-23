@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mealling
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Mealling
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the exact documents that make up the complete Dynamic
-    Delegation Discovery System (DDDS).  DDDS is an abstract algorithm for applying
-    dynamically retrieved string transformation rules to an application-unique string.  This
-    document along with RFC 3402, RFC 3403 and RFC 3404 obsolete RFC 2168 and RFC
-    2915, as well as updates RFC 2276.  This memo provides information for the Internet
-    community.
+- content: "<p>This document specifies the exact documents that make up the complete
+    Dynamic Delegation Discovery System (DDDS).  DDDS is an abstract algorithm for
+    applying dynamically retrieved string transformation rules to an application-unique
+    string.  This document along with RFC 3402, RFC 3403 and RFC 3404 obsolete RFC
+    2168 and RFC 2915, as well as updates RFC 2276.  This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC2276
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3401'
+fetched: '2022-01-23'
 keyword:
 - NAPTR
 - domain name system

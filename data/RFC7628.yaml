@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Mills
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Showalter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Showalter
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Tschofenig
         language:
@@ -58,24 +94,29 @@ language:
 script:
 - Latn
 abstract:
-- content: OAuth enables a third-party application to obtain limited access to a protected
-    resource, either on behalf of a resource owner by orchestrating an approval interaction
-    or by allowing the third-party application to obtain access on its own behalf.
-    This document defines how an application client uses credentials obtained via
-    OAuth over the Simple Authentication and Security Layer (SASL) to access a protected
-    resource at a resource server. Thereby, it enables schemes defined within the
-    OAuth framework for non-HTTP-based application protocols. Clients typically store
-    the user's long-term credential. This does, however, lead to significant security
-    vulnerabilities, for example, when such a credential leaks. A significant benefit
-    of OAuth for usage in those clients is that the password is replaced by a shared
-    secret with higher entropy, i.e., the token. Tokens typically provide limited
-    access rights and can be managed and revoked separately from the user's long-term
-    password.
+- content: "<p>OAuth enables a third-party application to obtain limited access to
+    a protected resource, either on behalf of a resource owner by orchestrating an
+    approval interaction or by allowing the third-party application to obtain access
+    on its own behalf.</p><p>This document defines how an application client uses
+    credentials obtained via OAuth over the Simple Authentication and Security Layer
+    (SASL) to access a protected resource at a resource server. Thereby, it enables
+    schemes defined within the OAuth framework for non-HTTP-based application protocols.</p><p>Clients
+    typically store the user's long-term credential. This does, however, lead to significant
+    security vulnerabilities, for example, when such a credential leaks. A significant
+    benefit of OAuth for usage in those clients is that the password is replaced by
+    a shared secret with higher entropy, i.e., the token. Tokens typically provide
+    limited access rights and can be managed and revoked separately from the user's
+    long-term password.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7628'
+fetched: '2022-01-23'
 editorialgroup:
 - name: kitten

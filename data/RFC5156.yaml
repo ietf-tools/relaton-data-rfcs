@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blanchet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Blanchet
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is a compilation of special IPv6 addresses defined in other
-    RFCs.  It can be used as a checklist of invalid routing prefixes for developing
+- content: "<p>This document is a compilation of special IPv6 addresses defined in
+    other RFCs.  It can be used as a checklist of invalid routing prefixes for developing
     filtering policies for routes and IP packets.  It does not discuss addresses that
-    are assigned to operators and users through the Regional Internet Registries.  This
-    memo provides information for the Internet community.
+    are assigned to operators and users through the Regional Internet Registries.
+    \ This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC6890
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5156'
+fetched: '2022-01-23'
 keyword:
 - invalid routing prefix
 editorialgroup:

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Droms
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Droms
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Stateless Dynamic Host Configuration Protocol service for IPv6 (DHCPv6)
+- content: "<p>Stateless Dynamic Host Configuration Protocol service for IPv6 (DHCPv6)
     is used by nodes to obtain configuration information, such as the addresses of
     DNS recursive name servers, that does not require the maintenance of any dynamic
     state for individual clients.  A node that uses stateless DHCP must have obtained
-    its IPv6 addresses through some other mechanism, typically stateless address autoconfiguration.  This
-    document explains which parts of RFC 3315 must be implemented in each of the different
-    kinds of DHCP agents so that agent can support stateless DHCP. [STANDARDS-TRACK]
+    its IPv6 addresses through some other mechanism, typically stateless address autoconfiguration.
+    \ This document explains which parts of RFC 3315 must be implemented in each of
+    the different kinds of DHCP agents so that agent can support stateless DHCP. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,6 +67,11 @@ relation:
     formattedref:
       content: RFC8415
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3736'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dhc

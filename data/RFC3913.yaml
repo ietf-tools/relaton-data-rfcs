@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thaler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Thaler
         language:
@@ -37,8 +49,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the Border Gateway Multicast Protocol (BGMP), a
-    protocol for inter-domain multicast routing.  BGMP builds shared trees for active
+- content: <p>This document describes the Border Gateway Multicast Protocol (BGMP),
+    a protocol for inter-domain multicast routing.  BGMP builds shared trees for active
     multicast groups, and optionally allows receiver domains to build source-specific,
     inter-domain, distribution branches where needed.  BGMP natively supports "source-specific
     multicast" (SSM).  To also support "any-source multicast" (ASM), BGMP requires
@@ -50,13 +62,18 @@ abstract:
     receive better multicast service if the session initiator's address allocator
     selects addresses from its own domain's part of the space, thereby causing the
     root domain to be local to at least one of the session participants.  This memo
-    provides information for the Internet community.
+    provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3913'
+fetched: '2022-01-23'
 keyword:
 - enter-domain
 - source-specific multicast

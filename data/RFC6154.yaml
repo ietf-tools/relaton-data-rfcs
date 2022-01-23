@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nicolson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Nicolson
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: Some IMAP message stores include special-use mailboxes, such as those used
-    to hold draft messages or sent messages.  Many mail clients allow users to specify
-    where draft or sent messages should be put, but configuring them requires that
-    the user know which mailboxes the server has set aside for these purposes.  This
-    extension adds new optional mailbox attributes that a server may include in IMAP
-    LIST command responses to identify special-use mailboxes to the client, easing
-    configuration. [STANDARDS-TRACK]
+- content: "<p>Some IMAP message stores include special-use mailboxes, such as those
+    used to hold draft messages or sent messages.  Many mail clients allow users to
+    specify where draft or sent messages should be put, but configuring them requires
+    that the user know which mailboxes the server has set aside for these purposes.
+    \ This extension adds new optional mailbox attributes that a server may include
+    in IMAP LIST command responses to identify special-use mailboxes to the client,
+    easing configuration. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6154'
+fetched: '2022-01-23'
 keyword:
 - IMAP
 - email

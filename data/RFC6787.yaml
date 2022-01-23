@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burnett
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Burnett
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shanmugham
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Shanmugham
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The Media Resource Control Protocol Version 2 (MRCPv2) allows client hosts
-    to control media service resources such as speech synthesizers, recognizers, verifiers,
-    and identifiers residing in servers on the network.  MRCPv2 is not a "stand-alone"
-    protocol -- it relies on other protocols, such as the Session Initiation Protocol
-    (SIP), to coordinate MRCPv2 clients and servers and manage sessions between them,
-    and the Session Description Protocol (SDP) to describe, discover, and exchange
-    capabilities.  It also depends on SIP and SDP to establish the media sessions
-    and associated parameters between the media source or sink and the media server.  Once
-    this is done, the MRCPv2 exchange operates over the control session established
-    above, allowing the client to control the media processing resources on the speech
-    resource server. [STANDARDS-TRACK]
+- content: <p>The Media Resource Control Protocol Version 2 (MRCPv2) allows client
+    hosts to control media service resources such as speech synthesizers, recognizers,
+    verifiers, and identifiers residing in servers on the network.  MRCPv2 is not
+    a "stand-alone" protocol -- it relies on other protocols, such as the Session
+    Initiation Protocol (SIP), to coordinate MRCPv2 clients and servers and manage
+    sessions between them, and the Session Description Protocol (SDP) to describe,
+    discover, and exchange capabilities.  It also depends on SIP and SDP to establish
+    the media sessions and associated parameters between the media source or sink
+    and the media server.  Once this is done, the MRCPv2 exchange operates over the
+    control session established above, allowing the client to control the media processing
+    resources on the speech resource server. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6787'
+fetched: '2022-01-23'
 keyword:
 - mrcp
 - speechsc

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Borman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Borman
         language:
@@ -37,12 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: IPv6 supports datagrams larger than 65535 bytes long, often referred to
-    as jumbograms, through use of the Jumbo Payload hop-by-hop option.  The UDP protocol
-    has a 16-bit length field that keeps it from being able to make use of jumbograms,
-    and though TCP does not have a length field, both the MSS option and the Urgent
-    field are constrained by 16-bits.  This document describes some simple changes
-    that can be made to allow TCP and UDP to make use of IPv6 jumbograms. [STANDARDS-TRACK]
+- content: "<p>IPv6 supports datagrams larger than 65535 bytes long, often referred
+    to as jumbograms, through use of the Jumbo Payload hop-by-hop option.  The UDP
+    protocol has a 16-bit length field that keeps it from being able to make use of
+    jumbograms, and though TCP does not have a length field, both the MSS option and
+    the Urgent field are constrained by 16-bits.  This document describes some simple
+    changes that can be made to allow TCP and UDP to make use of IPv6 jumbograms.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -54,7 +67,12 @@ relation:
     formattedref:
       content: RFC2675
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2147'
+fetched: '2022-01-23'
 keyword:
 - IPv6-Jumbo
 - User

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Singh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Singh
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kalyani
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Kalyani
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nir
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Nir
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sheffer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Sheffer
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Zhang
         language:
@@ -77,24 +137,29 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPsec protocol suite is widely used for business-critical network traffic.
-    In order to make IPsec deployments highly available, more scalable, and failure-resistant,
-    they are often implemented as IPsec High Availability (HA) clusters. However,
-    there are many issues in IPsec HA clustering, and in particular in Internet Key
-    Exchange Protocol version 2 (IKEv2) clustering. An earlier document, "IPsec Cluster
-    Problem Statement", enumerates the issues encountered in the IKEv2/IPsec HA cluster
-    environment. This document resolves these issues with the least possible change
-    to the protocol. This document defines an extension to the IKEv2 protocol to solve
-    the main issues of "IPsec Cluster Problem Statement" in the commonly deployed
-    hot standby cluster, and provides implementation advice for other issues. The
-    main issues solved are the synchronization of IKEv2 Message ID counters, and of
-    IPsec replay counters. [STANDARDS-TRACK]
+- content: <p>The IPsec protocol suite is widely used for business-critical network
+    traffic. In order to make IPsec deployments highly available, more scalable, and
+    failure-resistant, they are often implemented as IPsec High Availability (HA)
+    clusters. However, there are many issues in IPsec HA clustering, and in particular
+    in Internet Key Exchange Protocol version 2 (IKEv2) clustering. An earlier document,
+    "IPsec Cluster Problem Statement", enumerates the issues encountered in the IKEv2/IPsec
+    HA cluster environment. This document resolves these issues with the least possible
+    change to the protocol.</p><p>This document defines an extension to the IKEv2
+    protocol to solve the main issues of "IPsec Cluster Problem Statement" in the
+    commonly deployed hot standby cluster, and provides implementation advice for
+    other issues. The main issues solved are the synchronization of IKEv2 Message
+    ID counters, and of IPsec replay counters. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6311'
+fetched: '2022-01-23'
 keyword:
 - IPsec high availability
 - load sharing

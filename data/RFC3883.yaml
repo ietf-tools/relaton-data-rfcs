@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Rao
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zinin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zinin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Roy
         language:
@@ -57,14 +93,14 @@ language:
 script:
 - Latn
 abstract:
-- content: OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF
+- content: <p>OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF
     behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the amount
     of overhead traffic.  A part of the OSPF demand circuit extensions is the Hello
     suppression mechanism.  This technique allows a demand circuit to go down when
     no interesting traffic is going through the link.  However, it also introduces
     a problem, where it becomes impossible to detect an OSPF-inactive neighbor over
     such a link.  This memo introduces a new mechanism called "neighbor probing" to
-    address the above problem. [STANDARDS-TRACK]
+    address the above problem. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -76,7 +112,12 @@ relation:
     formattedref:
       content: RFC1793
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3883'
+fetched: '2022-01-23'
 keyword:
 - OSPF-DC
 - Open Shortest Path First

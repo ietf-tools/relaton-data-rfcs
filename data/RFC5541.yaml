@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: JL
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Roux
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JL. Le Roux
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Lee
         language:
@@ -58,30 +94,35 @@ language:
 script:
 - Latn
 abstract:
-- content: The computation of one or a set of Traffic Engineering Label Switched Paths
-    (TE LSPs) in MultiProtocol Label Switching (MPLS) and Generalized MPLS (GMPLS)
+- content: "<p>The computation of one or a set of Traffic Engineering Label Switched
+    Paths (TE LSPs) in MultiProtocol Label Switching (MPLS) and Generalized MPLS (GMPLS)
     networks is subject to a set of one or more specific optimization criteria, referred
-    to as objective functions (e.g., minimum cost path, widest path, etc.). In the
-    Path Computation Element (PCE) architecture, a Path Computation Client (PCC) may
-    want a path to be computed for one or more TE LSPs according to a specific objective
-    function. Thus, the PCC needs to instruct the PCE to use the correct objective
-    function. Furthermore, it is possible that not all PCEs support the same set of
-    objective functions; therefore, it is useful for the PCC to be able to automatically
-    discover the set of objective functions supported by each PCE. This document defines
-    extensions to the PCE communication Protocol (PCEP) to allow a PCE to indicate
-    the set of objective functions it supports. Extensions are also defined so that
-    a PCC can indicate in a path computation request the required objective function,
-    and a PCE can report in a path computation reply the objective function that was
-    used for path computation. This document defines objective function code types
-    for six objective functions previously listed in the PCE requirements work, and
-    provides the definition of four new metric types that apply to a set of synchronized
-    requests. [STANDARDS-TRACK]
+    to as objective functions (e.g., minimum cost path, widest path, etc.).</p><p>In
+    the Path Computation Element (PCE) architecture, a Path Computation Client (PCC)
+    may want a path to be computed for one or more TE LSPs according to a specific
+    objective function. Thus, the PCC needs to instruct the PCE to use the correct
+    objective function. Furthermore, it is possible that not all PCEs support the
+    same set of objective functions; therefore, it is useful for the PCC to be able
+    to automatically discover the set of objective functions supported by each PCE.</p><p>This
+    document defines extensions to the PCE communication Protocol (PCEP) to allow
+    a PCE to indicate the set of objective functions it supports. Extensions are also
+    defined so that a PCC can indicate in a path computation request the required
+    objective function, and a PCE can report in a path computation reply the objective
+    function that was used for path computation.</p><p>This document defines objective
+    function code types for six objective functions previously listed in the PCE requirements
+    work, and provides the definition of four new metric types that apply to a set
+    of synchronized requests. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5541'
+fetched: '2022-01-23'
 keyword:
 - pcc
 - path computation client

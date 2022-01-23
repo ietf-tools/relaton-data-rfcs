@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Caviglia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Caviglia
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ceccarelli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ceccarelli
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bramanti
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Bramanti
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Li
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bardalai
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bardalai
         language:
@@ -78,26 +138,31 @@ language:
 script:
 - Latn
 abstract:
-- content: In a transport network scenario, Data Plane connections controlled by either
-    a Generalized Multiprotocol Label Switching (GMPLS) Control Plane (Soft Permanent
-    Connections - SPC) or a Management System (Permanent Connections - PC) may independently
-    coexist. The ability of transforming an existing PC into an SPC and vice versa
-    -- without actually affecting Data Plane traffic being carried over it -- is a
-    requirement. The requirements for the conversion between permanent connections
-    and switched connections in a GMPLS Network are defined in RFC 5493. This memo
-    describes an extension to GMPLS Resource Reservation Protocol - Traffic Engineering
+- content: "<p>In a transport network scenario, Data Plane connections controlled
+    by either a Generalized Multiprotocol Label Switching (GMPLS) Control Plane (Soft
+    Permanent Connections - SPC) or a Management System (Permanent Connections - PC)
+    may independently coexist. The ability of transforming an existing PC into an
+    SPC and vice versa -- without actually affecting Data Plane traffic being carried
+    over it -- is a requirement. The requirements for the conversion between permanent
+    connections and switched connections in a GMPLS Network are defined in RFC 5493.</p><p>This
+    memo describes an extension to GMPLS Resource Reservation Protocol - Traffic Engineering
     (RSVP-TE) signaling that enables the transfer of connection ownership between
     the Management and the Control Planes. Such a transfer is referred to as a Handover.
     This document defines all Handover-related procedures. This includes the handling
     of failure conditions and subsequent reversion to original state. A basic premise
     of the extension is that the Handover procedures must never impact an already
-    established Data Plane connection. [STANDARDS-TRACK]
+    established Data Plane connection. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5852'
+fetched: '2022-01-23'
 keyword:
 - resource reservation protocol
 - handover procedures

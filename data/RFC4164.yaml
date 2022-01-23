@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pelletier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Pelletier
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines context replication, a complement to the context
+- content: "<p>This document defines context replication, a complement to the context
     initialization procedure found in Robust Header Compression (ROHC), as specified
     in RFC 3095.  Profiles defining support for context replication may use the mechanism
     described herein to establish a new context based on another already existing
     context.  Context replication is introduced to reduce the overhead of the context
     establishment procedure.  It may be especially useful for the compression of multiple
     short-lived flows that may be occurring simultaneously or near-simultaneously,
-    such as short-lived TCP flows. [STANDARDS-TRACK]
+    such as short-lived TCP flows. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4164'
+fetched: '2022-01-23'
 keyword:
 - context initialization
 - short-lived

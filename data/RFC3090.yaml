@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lewis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Lewis
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The definition of a secured zone is presented, clarifying and updating
+- content: <p>The definition of a secured zone is presented, clarifying and updating
     sections of RFC 2535.  RFC 2535 defines a zone to be secured based on a per algorithm
     basis, e.g., a zone can be secured with RSA keys, and not secured with DSA keys.  This
     document changes this to define a zone to be secured or not secured regardless
     of the key algorithm used (or not used).  To further simplify the determination
-    of a zone's status, "experimentally secure" status is deprecated. [STANDARDS-TRACK]
+    of a zone's status, "experimentally secure" status is deprecated. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -69,7 +81,12 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3090'
+fetched: '2022-01-23'
 keyword:
 - domain
 - name

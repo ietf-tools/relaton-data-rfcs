@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -38,11 +50,11 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3967 specifies a process for allowing normative references to documents
+- content: <p>RFC 3967 specifies a process for allowing normative references to documents
     at lower maturity levels ("downrefs"), which involves calling out the downref
     explicitly in the Last Call notice.  That requirement has proven to be unnecessarily
     strict, and this document updates RFC 3967, allowing the IESG more flexibility
-    in accepting downrefs in Standards Track documents.
+    in accepting downrefs in Standards Track documents.</p>
   language:
   - en
   script:
@@ -54,7 +66,16 @@ relation:
     formattedref:
       content: RFC3967
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '97'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8067'
+fetched: '2022-01-23'
 keyword:
 - downref
 - maturity

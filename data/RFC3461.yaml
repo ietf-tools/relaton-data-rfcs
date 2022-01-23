@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moore
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Moore
         language:
@@ -38,19 +50,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines an extension to the Simple Mail Transfer Protocol (SMTP)
-    service, which allows an SMTP client to specify (a) that Delivery Status Notifications
-    (DSNs) should be generated under certain conditions, (b) whether such notifications
-    should return the contents of the message, and (c) additional information, to
-    be returned with a DSN, that allows the sender to identify both the recipient(s)
-    for which the DSN was issued, and the transaction in which the original message
-    was sent. [STANDARDS-TRACK]
+- content: "<p>This memo defines an extension to the Simple Mail Transfer Protocol
+    (SMTP) service, which allows an SMTP client to specify (a) that Delivery Status
+    Notifications (DSNs) should be generated under certain conditions, (b) whether
+    such notifications should return the contents of the message, and (c) additional
+    information, to be returned with a DSN, that allows the sender to identify both
+    the recipient(s) for which the DSN was issued, and the transaction in which the
+    original message was sent. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3461'
+fetched: '2022-01-23'
 keyword:
 - SMTP-DSN
 - simple

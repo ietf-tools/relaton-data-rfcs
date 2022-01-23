@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Harris
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Harris
         language:
@@ -37,16 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes a key-exchange method for the Secure Shell (SSH) protocol
-    based on Rivest-Shamir-Adleman (RSA) public-key encryption.  It uses much less
-    client CPU time than the Diffie-Hellman algorithm specified as part of the core
-    protocol, and hence is particularly suitable for slow client systems. [STANDARDS-TRACK]
+- content: "<p>This memo describes a key-exchange method for the Secure Shell (SSH)
+    protocol based on Rivest-Shamir-Adleman (RSA) public-key encryption.  It uses
+    much less client CPU time than the Diffie-Hellman algorithm specified as part
+    of the core protocol, and hence is particularly suitable for slow client systems.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4432'
+fetched: '2022-01-23'
 keyword:
 - rivest-sharmir-adleman
 - public key encryption

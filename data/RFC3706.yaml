@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huang
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Beaulieu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Beaulieu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rochefort
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Rochefort
         language:
@@ -57,18 +93,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the method detecting a dead Internet Key Exchange
+- content: "<p>This document describes the method detecting a dead Internet Key Exchange
     (IKE) peer that is presently in use by a number of vendors.  The method, called
     Dead Peer Detection (DPD) uses IPSec traffic patterns to minimize the number of
     IKE messages that are needed to confirm liveness.  DPD, like other keepalive mechanisms,
     is needed to determine when to perform IKE peer failover, and to reclaim lost
-    resources.  This memo provides information for the Internet community.
+    resources.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3706'
+fetched: '2022-01-23'
 keyword:
 - security authentication
 - dead peer detection

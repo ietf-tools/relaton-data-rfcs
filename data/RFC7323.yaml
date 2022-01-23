@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Borman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Borman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Braden
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Braden
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jacobson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Jacobson
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scheffenegger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Scheffenegger
         language:
@@ -67,20 +115,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a set of TCP extensions to improve performance
+- content: "<p>This document specifies a set of TCP extensions to improve performance
     over paths with a large bandwidth * delay product and to provide reliable operation
     over very high-speed paths. It defines the TCP Window Scale (WS) option and the
     TCP Timestamps (TS) option and their semantics. The Window Scale option is used
     to support larger receive windows, while the Timestamps option can be used for
     at least two distinct mechanisms, Protection Against Wrapped Sequences (PAWS)
-    and Round-Trip Time Measurement (RTTM), that are also described herein. This document
-    obsoletes RFC 1323 and describes changes from it.
+    and Round-Trip Time Measurement (RTTM), that are also described herein.</p><p>This
+    document obsoletes RFC 1323 and describes changes from it.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7323'
+fetched: '2022-01-23'
 keyword:
 - Timestamps
 - Timestamp

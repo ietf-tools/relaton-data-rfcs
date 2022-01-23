@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bowers
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bowers
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Linkova
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Linkova
         language:
@@ -58,14 +94,14 @@ language:
 script:
 - Latn
 abstract:
-- content: Connecting an enterprise site to multiple ISPs over IPv6 using provider-assigned
+- content: "<p>Connecting an enterprise site to multiple ISPs over IPv6 using provider-assigned
     addresses is difficult without the use of some form of Network Address Translation
     (NAT). Much has been written on this topic over the last 10 to 15 years, but it
     still remains a problem without a clearly defined or widely implemented solution.
     Any multihoming solution without NAT requires hosts at the site to have addresses
     from each ISP and to select the egress ISP by selecting a source address for outgoing
     packets. It also requires routers at the site to take into account those source
-    addresses when forwarding packets out towards the ISPs. This document examines
+    addresses when forwarding packets out towards the ISPs.</p><p>This document examines
     currently available mechanisms for providing a solution to this problem for a
     broad range of enterprise topologies. It covers the behavior of routers to forward
     traffic by taking into account source address, and it covers the behavior of hosts
@@ -73,12 +109,17 @@ abstract:
     that routers might play in providing information to hosts to help them select
     appropriate source addresses. In the process of exploring potential solutions,
     this document also makes explicit requirements for how the solution would be expected
-    to behave from the perspective of an enterprise site network administrator.
+    to behave from the perspective of an enterprise site network administrator.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8678'
+fetched: '2022-01-23'
 editorialgroup:
 - name: rtgwg

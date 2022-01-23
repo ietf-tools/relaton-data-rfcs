@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nir
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Nir
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Josefsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Josefsson
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pegourie-Gonnard
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Pegourie-Gonnard
         language:
@@ -58,18 +94,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes key exchange algorithms based on Elliptic Curve
+- content: "<p>This document describes key exchange algorithms based on Elliptic Curve
     Cryptography (ECC) for the Transport Layer Security (TLS) protocol. In particular,
     it specifies the use of Ephemeral Elliptic Curve Diffie-Hellman (ECDHE) key agreement
     in a TLS handshake and the use of the Elliptic Curve Digital Signature Algorithm
     (ECDSA) and Edwards-curve Digital Signature Algorithm (EdDSA) as authentication
-    mechanisms. This document obsoletes RFC 4492.
+    mechanisms.</p><p>This document obsoletes RFC 4492.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8422'
+fetched: '2022-01-23'
 keyword:
 - ECDSA
 - EdDSA

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Eggert
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shepherd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Shepherd
         language:
@@ -57,27 +93,36 @@ language:
 script:
 - Latn
 abstract:
-- content: The User Datagram Protocol (UDP) provides a minimal message-passing transport
-    that has no inherent congestion control mechanisms. This document provides guidelines
-    on the use of UDP for the designers of applications, tunnels, and other protocols
-    that use UDP. Congestion control guidelines are a primary focus, but the document
-    also provides guidance on other topics, including message sizes, reliability,
-    checksums, middlebox traversal, the use of Explicit Congestion Notification (ECN),
-    Differentiated Services Code Points (DSCPs), and ports. Because congestion control
-    is critical to the stable operation of the Internet, applications and other protocols
-    that choose to use UDP as an Internet transport must employ mechanisms to prevent
-    congestion collapse and to establish some degree of fairness with concurrent traffic.
-    They may also need to implement additional mechanisms, depending on how they use
-    UDP. Some guidance is also applicable to the design of other protocols (e.g.,
-    protocols layered directly on IP or via IP-based tunnels), especially when these
-    protocols do not themselves provide congestion control. This document obsoletes
-    RFC 5405 and adds guidelines for multicast UDP usage.
+- content: "<p>The User Datagram Protocol (UDP) provides a minimal message-passing
+    transport that has no inherent congestion control mechanisms. This document provides
+    guidelines on the use of UDP for the designers of applications, tunnels, and other
+    protocols that use UDP. Congestion control guidelines are a primary focus, but
+    the document also provides guidance on other topics, including message sizes,
+    reliability, checksums, middlebox traversal, the use of Explicit Congestion Notification
+    (ECN), Differentiated Services Code Points (DSCPs), and ports.</p><p>Because congestion
+    control is critical to the stable operation of the Internet, applications and
+    other protocols that choose to use UDP as an Internet transport must employ mechanisms
+    to prevent congestion collapse and to establish some degree of fairness with concurrent
+    traffic. They may also need to implement additional mechanisms, depending on how
+    they use UDP.</p><p>Some guidance is also applicable to the design of other protocols
+    (e.g., protocols layered directly on IP or via IP-based tunnels), especially when
+    these protocols do not themselves provide congestion control.</p><p>This document
+    obsoletes RFC 5405 and adds guidelines for multicast UDP usage.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '145'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8085'
+fetched: '2022-01-23'
 keyword:
 - UDP
 - guidelines

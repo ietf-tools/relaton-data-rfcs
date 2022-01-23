@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Finn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Finn
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Thubert
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Varga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Varga
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farkas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Farkas
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides the overall architecture for Deterministic Networking
+- content: "<p>This document provides the overall architecture for Deterministic Networking
     (DetNet), which provides a capability to carry specified unicast or multicast
     data flows for real-time applications with extremely low data loss rates and bounded
     latency within a network domain.  Techniques used include 1) reserving data-plane
@@ -77,13 +125,18 @@ abstract:
     data from DetNet flow packets over time and/or space to ensure delivery of each
     packet's data in spite of the loss of a path.  DetNet operates at the IP layer
     and delivers service over lower-layer technologies such as MPLS and Time- Sensitive
-    Networking (TSN) as defined by IEEE 802.1.
+    Networking (TSN) as defined by IEEE 802.1.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8655'
+fetched: '2022-01-23'
 keyword:
 - TSN
 - Bounded Latency

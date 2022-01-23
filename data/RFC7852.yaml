@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Rosen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Tschofenig
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Marshall
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Marshall
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Winterbottom
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Winterbottom
         language:
@@ -77,18 +137,18 @@ language:
 script:
 - Latn
 abstract:
-- content: When an emergency call is sent to a Public Safety Answering Point (PSAP),
+- content: "<p>When an emergency call is sent to a Public Safety Answering Point (PSAP),
     the originating device, the access network provider to which the device is connected,
     and all service providers in the path of the call have information about the call,
     the caller, or the location, which is helpful for the PSAP to have in handling
     the emergency. This document describes data structures and mechanisms to convey
     such data to the PSAP. The intent is that every emergency call carry as much of
-    the information described here as possible using the mechanisms described here.
-    The mechanisms permit the data to be conveyed by reference (as an external resource)
+    the information described here as possible using the mechanisms described here.</p><p>The
+    mechanisms permit the data to be conveyed by reference (as an external resource)
     or by value (within the body of a SIP message or a location object). This follows
     the tradition of prior emergency services standardization work where data can
     be conveyed by value within the call signaling (i.e., in the body of the SIP message)
-    or by reference.
+    or by reference.</p>"
   language:
   - en
   script:
@@ -105,7 +165,12 @@ relation:
     formattedref:
       content: RFC6881
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7852'
+fetched: '2022-01-23'
 keyword:
 - Additional Call Data
 - Emergency Services

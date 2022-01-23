@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allocchio
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Allocchio
         language:
@@ -38,18 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This memo describes the full set of notations needed to represent a text
-    string in a Dial Sequence.  A Dial Sequence is normally composed of Dual Tone
-    Multi Frequency (DTMF) elements, plus separators and additional "actions" (such
-    as "wait for dialtone", "pause for N secs", etc.) which could be needed to successfully
-    establish the connection with the target service: this includes the cases where
-    subaddresses or DTMF menu navigation apply.'
+- content: '<p>This memo describes the full set of notations needed to represent a
+    text string in a Dial Sequence.  A Dial Sequence is normally composed of Dual
+    Tone Multi Frequency (DTMF) elements, plus separators and additional "actions"
+    (such as "wait for dialtone", "pause for N secs", etc.) which could be needed
+    to successfully establish the connection with the target service: this includes
+    the cases where subaddresses or DTMF menu navigation apply.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3601'
+fetched: '2022-01-23'
 keyword:
 - notations
 - dtmf

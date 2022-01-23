@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eardley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Eardley
         language:
@@ -37,21 +49,26 @@ language:
 script:
 - Latn
 abstract:
-- content: The objective of Pre-Congestion Notification (PCN) is to protect the quality
-    of service (QoS) of inelastic flows within a Diffserv domain in a simple, scalable,
-    and robust fashion.  This document defines the two metering and marking behaviours
-    of PCN-nodes.  Threshold-metering and -marking marks all PCN-packets if the rate
-    of PCN-traffic is greater than a configured rate ("PCN-threshold-rate").  Excess-
+- content: <p>The objective of Pre-Congestion Notification (PCN) is to protect the
+    quality of service (QoS) of inelastic flows within a Diffserv domain in a simple,
+    scalable, and robust fashion.  This document defines the two metering and marking
+    behaviours of PCN-nodes.  Threshold-metering and -marking marks all PCN-packets
+    if the rate of PCN-traffic is greater than a configured rate ("PCN-threshold-rate").  Excess-
     traffic-metering and -marking marks a proportion of PCN-packets, such that the
     amount marked equals the rate of PCN-traffic in excess of a configured rate ("PCN-excess-rate").  The
     level of marking allows PCN-boundary-nodes to make decisions about whether to
-    admit or terminate PCN-flows. [STANDARDS-TRACK]
+    admit or terminate PCN-flows. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5670'
+fetched: '2022-01-23'
 keyword:
 - pre-congestion notification
 - threshold metering

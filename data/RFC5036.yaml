@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andersson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Andersson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Minei
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Minei
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Thomas
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The architecture for Multiprotocol Label Switching (MPLS) is described
+- content: "<p>The architecture for Multiprotocol Label Switching (MPLS) is described
     in RFC 3031.  A fundamental concept in MPLS is that two Label Switching Routers
     (LSRs) must agree on the meaning of the labels used to forward traffic between
     and through them.  This common understanding is achieved by using a set of procedures,
     called a label distribution protocol, by which one LSR informs another of label
     bindings it has made.  This document defines a set of such procedures called LDP
     (for Label Distribution Protocol) by which LSRs distribute labels to support MPLS
-    forwarding along normally routed paths. [STANDARDS-TRACK]
+    forwarding along normally routed paths. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5036'
+fetched: '2022-01-23'
 keyword:
 - label
 - distribution

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pinkas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Pinkas
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gindin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Gindin
         language:
@@ -47,22 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new form of name, called permanent identifier,
+- content: "<p>This document defines a new form of name, called permanent identifier,
     that may be included in the subjectAltName extension of a public key certificate
-    issued to an entity. The permanent identifier is an optional feature that may
-    be used by a CA to indicate that two or more certificates relate to the same entity,
-    even if they contain different subject name (DNs) or different names in the subjectAltName
-    extension, or if the name or the affiliation of that entity stored in the subject
-    or another name form in the subjectAltName extension has changed. The subject
-    name, carried in the subject field, is only unique for each subject entity certified
-    by the one CA as defined by the issuer name field. However, the new name form
-    can carry a name that is unique for each subject entity certified by a CA. [STANDARDS-TRACK]
+    issued to an entity.</p><p>The permanent identifier is an optional feature that
+    may be used by a CA to indicate that two or more certificates relate to the same
+    entity, even if they contain different subject name (DNs) or different names in
+    the subjectAltName extension, or if the name or the affiliation of that entity
+    stored in the subject or another name form in the subjectAltName extension has
+    changed.</p><p>The subject name, carried in the subject field, is only unique
+    for each subject entity certified by the one CA as defined by the issuer name
+    field. However, the new name form can carry a name that is unique for each subject
+    entity certified by a CA. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4043'
+fetched: '2022-01-23'
 keyword:
 - subjectAltName extension
 - dn

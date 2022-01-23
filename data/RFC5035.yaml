@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schaad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schaad
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: In the original Enhanced Security Services for S/MIME document (RFC 2634),
-    a structure for cryptographically linking the certificate to be used in validation
-    with the signature was introduced; this structure was hardwired to use SHA-1.  This
-    document allows for the structure to have algorithm agility and defines a new
-    attribute for this purpose. [STANDARDS-TRACK]
+- content: "<p>In the original Enhanced Security Services for S/MIME document (RFC
+    2634), a structure for cryptographically linking the certificate to be used in
+    validation with the signature was introduced; this structure was hardwired to
+    use SHA-1.  This document allows for the structure to have algorithm agility and
+    defines a new attribute for this purpose. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC2634
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5035'
+fetched: '2022-01-23'
 keyword:
 - validation
 - signature

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lemon
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Lemon
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cheshire
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Cheshire
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Volz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Volz
         language:
@@ -58,10 +94,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new Dynamic Host Configuration Protocol (DHCP)
+- content: "<p>This document defines a new Dynamic Host Configuration Protocol (DHCP)
     option which is passed from the DHCP Server to the DHCP Client to configure a
     list of static routes in the client.  The network destinations in these routes
-    are classless - each routing table entry includes a subnet mask. [STANDARDS-TRACK]
+    are classless - each routing table entry includes a subnet mask. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -73,7 +109,12 @@ relation:
     formattedref:
       content: RFC2132
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3442'
+fetched: '2022-01-23'
 keyword:
 - Dynamic
 - Host

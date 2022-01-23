@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atlas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Atlas
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tiruveedhula
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Tiruveedhula
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bowers
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bowers
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tantsura
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Tantsura
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -77,21 +137,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies extensions to the Label Distribution Protocol (LDP)
-    to support the creation of Label Switched Paths (LSPs) for Maximally Redundant
+- content: <p>This document specifies extensions to the Label Distribution Protocol
+    (LDP) to support the creation of Label Switched Paths (LSPs) for Maximally Redundant
     Trees (MRTs). A prime use of MRTs is for unicast and multicast IP/LDP Fast Reroute,
-    which we will refer to as "MRT-FRR". The sole protocol extension to LDP is simply
-    the ability to advertise an MRT Capability. This document describes that extension
-    and the associated behavior expected for Label Switching Routers (LSRs) and Label
-    Edge Routers (LERs) advertising the MRT Capability. MRT-FRR uses LDP multi-topology
-    extensions, so three multi-topology IDs have been allocated from the MPLS MT-ID
-    space.
+    which we will refer to as "MRT-FRR".</p><p>The sole protocol extension to LDP
+    is simply the ability to advertise an MRT Capability. This document describes
+    that extension and the associated behavior expected for Label Switching Routers
+    (LSRs) and Label Edge Routers (LERs) advertising the MRT Capability.</p><p>MRT-FRR
+    uses LDP multi-topology extensions, so three multi-topology IDs have been allocated
+    from the MPLS MT-ID space.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8320'
+fetched: '2022-01-23'
 keyword:
 - fast-reroute
 - MRT

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Adamson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Adamson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Williams
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document presents requirements for the deployment of the NFSv4 protocols
-    for the construction of an NFSv4 file namespace in environments with multiple
-    NFSv4 Domains.  To participate in an NFSv4 multi-domain file namespace, the server
-    must offer a multi-domain-capable file system and support RPCSEC_GSS for user
-    authentication.  In most instances, the server must also support identity-mapping
-    services.
+- content: "<p>This document presents requirements for the deployment of the NFSv4
+    protocols for the construction of an NFSv4 file namespace in environments with
+    multiple NFSv4 Domains.  To participate in an NFSv4 multi-domain file namespace,
+    the server must offer a multi-domain-capable file system and support RPCSEC_GSS
+    for user authentication.  In most instances, the server must also support identity-mapping
+    services.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8000'
+fetched: '2022-01-23'
 keyword:
 - multi-domain
 - multi-domain-capable file system

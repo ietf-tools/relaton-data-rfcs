@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jayasumana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Jayasumana
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Piratla
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Piratla
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Banka
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Banka
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bare
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bare
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Whitner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Whitner
         language:
@@ -77,22 +137,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document presents two improved metrics for packet reordering, namely,
-    Reorder Density (RD) and Reorder Buffer-occupancy Density (RBD). A threshold is
-    used to clearly define when a packet is considered lost, to bound computational
+- content: "<p>This document presents two improved metrics for packet reordering,
+    namely, Reorder Density (RD) and Reorder Buffer-occupancy Density (RBD). A threshold
+    is used to clearly define when a packet is considered lost, to bound computational
     complexity at O(N), and to keep the memory requirement for evaluation independent
     of N, where N is the length of the packet sequence. RD is a comprehensive metric
     that captures the characteristics of reordering, while RBD evaluates the sequences
-    from the point of view of recovery from reordering. These metrics are simple to
-    compute yet comprehensive in their characterization of packet reordering. The
+    from the point of view of recovery from reordering.</p><p>These metrics are simple
+    to compute yet comprehensive in their characterization of packet reordering. The
     measures are robust and orthogonal to packet loss and duplication. This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5236'
+fetched: '2022-01-23'
 keyword:
 - reorder density
 - rd

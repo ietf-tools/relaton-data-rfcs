@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nadeau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Nadeau
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Martini
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Martini
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bryant
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bryant
         language:
@@ -58,21 +94,26 @@ language:
 script:
 - Latn
 abstract:
-- content: The Virtual Circuit Connectivity Verification (VCCV) protocol specified
+- content: "<p>The Virtual Circuit Connectivity Verification (VCCV) protocol specified
     in RFC 5085 provides a control channel (CC) that is associated with a pseudowire
     (PW).  This document specifies an additional VCCV control channel type to be used
     with pseudowires that do not use the PW Control Word and that are carried over
     an MPLS network.  This new VCCV CC type uses the Generic Associated Channel Label
-    defined in RFC 5586 to distinguish VCCV packets from packets carrying user data.  This
-    new VCCV CC type introduces compatibility with the method of MPLS Label Switched
-    Path Operations, Administration, and Maintenance (OAM) identification, particularly
-    in MPLS Transport Profile (MPLS-TP) networks (RFC 5921).
+    defined in RFC 5586 to distinguish VCCV packets from packets carrying user data.
+    \ This new VCCV CC type introduces compatibility with the method of MPLS Label
+    Switched Path Operations, Administration, and Maintenance (OAM) identification,
+    particularly in MPLS Transport Profile (MPLS-TP) networks (RFC 5921).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7708'
+fetched: '2022-01-23'
 keyword:
 - VCCV
 - GAL

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Rosen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Tschofenig
         language:
@@ -57,18 +93,18 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to use IP-based emergency services mechanisms
+- content: <p>This document describes how to use IP-based emergency services mechanisms
     to support the next generation of emergency calls placed by vehicles (automatically
     in the event of a crash or serious incident, or manually invoked by a vehicle
     occupant) and conveying vehicle, sensor, and location data related to the crash
     or incident. Such calls are often referred to as "Automatic Crash Notification"
     (ACN), or "Advanced Automatic Crash Notification" (AACN), even in the case of
     manual trigger. The "Advanced" qualifier refers to the ability to carry a richer
-    set of data. This document also registers a MIME media type and Emergency Call
-    Data Type for the vehicle, sensor, and location data (often referred to as "crash
-    data" even though there is not necessarily a crash) and an INFO package to enable
-    carrying this and related data in SIP INFO requests. An external specification
-    for the data format, contents, and structure is referenced in this document. This
+    set of data.</p><p>This document also registers a MIME media type and Emergency
+    Call Data Type for the vehicle, sensor, and location data (often referred to as
+    "crash data" even though there is not necessarily a crash) and an INFO package
+    to enable carrying this and related data in SIP INFO requests. An external specification
+    for the data format, contents, and structure is referenced in this document.</p><p>This
     document reuses the technical aspects of next-generation Pan- European eCall (a
     mandated and standardized system for emergency calls by in-vehicle systems (IVSs)
     within Europe and other regions). However, this document specifies use of a different
@@ -80,13 +116,18 @@ abstract:
     registers a new INFO package (identical to that registered for eCall but with
     the addition of the VEDS MIME type). This document also describes legacy (circuit-switched)
     ACN systems and their migration to next-generation emergency calling, to provide
-    background information and context.
+    background information and context.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8148'
+fetched: '2022-01-23'
 keyword:
 - emergency
 - call

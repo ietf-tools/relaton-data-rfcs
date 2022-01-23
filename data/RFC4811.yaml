@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nguyen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Nguyen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Roy
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zinin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zinin
         language:
@@ -57,26 +93,31 @@ language:
 script:
 - Latn
 abstract:
-- content: OSPF is a link-state intra-domain routing protocol used in IP networks.
+- content: "<p>OSPF is a link-state intra-domain routing protocol used in IP networks.
     Link State Database (LSDB) synchronization in OSPF is achieved via two methods
     -- initial LSDB synchronization when an OSPF router has just been connected to
     the network and asynchronous flooding that ensures continuous LSDB synchronization
     in the presence of topology changes after the initial procedure was completed.
     It may sometime be necessary for OSPF routers to resynchronize their LSDBs. The
     OSPF standard, however, does not allow routers to do so without actually changing
-    the topology view of the network. This memo describes a vendor-specific mechanism
-    to perform such a form of out-of-band LSDB synchronization. The mechanism described
-    in this document was proposed before Graceful OSPF Restart, as described in RFC
-    3623, came into existence. It is implemented/supported by at least one major vendor
-    and is currently deployed in the field. The purpose of this document is to capture
-    the details of this mechanism for public use. This mechanism is not an IETF standard.
-    This memo provides information for the Internet community.
+    the topology view of the network.</p><p>This memo describes a vendor-specific
+    mechanism to perform such a form of out-of-band LSDB synchronization. The mechanism
+    described in this document was proposed before Graceful OSPF Restart, as described
+    in RFC 3623, came into existence. It is implemented/supported by at least one
+    major vendor and is currently deployed in the field. The purpose of this document
+    is to capture the details of this mechanism for public use. This mechanism is
+    not an IETF standard. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4811'
+fetched: '2022-01-23'
 keyword:
 - open shortest path first
 editorialgroup:

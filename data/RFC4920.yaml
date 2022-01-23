@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Satyanarayana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Satyanarayana
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Iwata
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Iwata
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fujita
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Fujita
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ash
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Ash
         language:
@@ -77,27 +137,32 @@ language:
 script:
 - Latn
 abstract:
-- content: 'In a distributed, constraint-based routing environment, the information
+- content: '<p>In a distributed, constraint-based routing environment, the information
     used to compute a path may be out of date. This means that Multiprotocol Label
     Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineered (TE) Label Switched
     Path (LSP) setup requests may be blocked by links or nodes without sufficient
     resources. Crankback is a scheme whereby setup failure information is returned
     from the point of failure to allow new setup attempts to be made avoiding the
     blocked resources. Crankback can also be applied to LSP recovery to indicate the
-    location of the failed link or node. This document specifies crankback signaling
+    location of the failed link or node.</p><p>This document specifies crankback signaling
     extensions for use in MPLS signaling using RSVP-TE as defined in "RSVP-TE: Extensions
     to RSVP for LSP Tunnels", RFC 3209, and GMPLS signaling as defined in "Generalized
     Multi-Protocol Label Switching (GMPLS) Signaling Functional Description", RFC
     3473. These extensions mean that the LSP setup request can be retried on an alternate
     path that detours around blocked links or nodes. This offers significant improvements
     in the successful setup and recovery ratios for LSPs, especially in situations
-    where a large number of setup requests are triggered at the same time. [STANDARDS-TRACK]'
+    where a large number of setup requests are triggered at the same time. [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4920'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching
 - generalized multiprotocol label switching

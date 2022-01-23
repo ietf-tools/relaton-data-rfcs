@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Berger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Berger
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bryskin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Bryskin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zinin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zinin
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Coltun
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Coltun
         language:
@@ -67,21 +115,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines enhancements to the OSPF protocol to support a new
-    class of link state advertisements (LSAs) called Opaque LSAs. Opaque LSAs provide
-    a generalized mechanism to allow for the future extensibility of OSPF. Opaque
-    LSAs consist of a standard LSA header followed by application-specific information.
-    The information field may be used directly by OSPF or by other applications. Standard
-    OSPF link-state database flooding mechanisms are used to distribute Opaque LSAs
-    to all or some limited portion of the OSPF topology. This document replaces RFC
-    2370 and adds to it a mechanism to enable an OSPF router to validate Autonomous
-    System (AS)-scope Opaque LSAs originated outside of the router's OSPF area. [STANDARDS-TRACK]
+- content: "<p>This document defines enhancements to the OSPF protocol to support
+    a new class of link state advertisements (LSAs) called Opaque LSAs. Opaque LSAs
+    provide a generalized mechanism to allow for the future extensibility of OSPF.
+    Opaque LSAs consist of a standard LSA header followed by application-specific
+    information. The information field may be used directly by OSPF or by other applications.
+    Standard OSPF link-state database flooding mechanisms are used to distribute Opaque
+    LSAs to all or some limited portion of the OSPF topology.</p><p>This document
+    replaces RFC 2370 and adds to it a mechanism to enable an OSPF router to validate
+    Autonomous System (AS)-scope Opaque LSAs originated outside of the router's OSPF
+    area. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5250'
+fetched: '2022-01-23'
 keyword:
 - OSPF-LSA]
 - open shortest path first

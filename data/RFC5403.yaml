@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eisler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Eisler
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes version 2 of the RPCSEC_GSS protocol.  Version
+- content: "<p>This document describes version 2 of the RPCSEC_GSS protocol.  Version
     2 is the same as version 1 (specified in RFC 2203) except that support for channel
     bindings has been added.  RPCSEC_GSS allows remote procedure call (RPC) protocols
     to access the Generic Security Services Application Programming Interface (GSS-API).
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC2203
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5403'
+fetched: '2022-01-23'
 keyword:
 - Kerberos
 - ONC

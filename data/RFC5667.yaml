@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Talpey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Talpey
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Callaghan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Callaghan
         language:
@@ -47,11 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the bindings of the various Network File System (NFS)
-    versions to the Remote Direct Memory Access (RDMA) operations supported by the
-    RPC/RDMA transport protocol.  It describes the use of direct data placement by
-    means of server-initiated RDMA operations into client-supplied buffers for implementations
-    of NFS versions 2, 3, 4, and 4.1 over such an RDMA transport. [STANDARDS-TRACK]
+- content: "<p>This document defines the bindings of the various Network File System
+    (NFS) versions to the Remote Direct Memory Access (RDMA) operations supported
+    by the RPC/RDMA transport protocol.  It describes the use of direct data placement
+    by means of server-initiated RDMA operations into client-supplied buffers for
+    implementations of NFS versions 2, 3, 4, and 4.1 over such an RDMA transport.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +88,12 @@ relation:
     formattedref:
       content: RFC8267
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5667'
+fetched: '2022-01-23'
 keyword:
 - Network File System
 - NFS

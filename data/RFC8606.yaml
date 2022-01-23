@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jesske
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Jesske
         language:
@@ -38,11 +50,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The SIP Reason header field is defined to carry ISUP (ISDN User Part) cause
-    values as well as SIP response codes.  Some services in SIP networks may need
-    to know the ISUP location where the call was released in the PSTN (Public Switched
-    Telephone Network) to correctly interpret the reason of release.  This document
-    updates RFC 3326 by adding a location parameter for this purpose.
+- content: "<p>The SIP Reason header field is defined to carry ISUP (ISDN User Part)
+    cause values as well as SIP response codes.  Some services in SIP networks may
+    need to know the ISUP location where the call was released in the PSTN (Public
+    Switched Telephone Network) to correctly interpret the reason of release.  This
+    document updates RFC 3326 by adding a location parameter for this purpose.</p>"
   language:
   - en
   script:
@@ -54,7 +66,12 @@ relation:
     formattedref:
       content: RFC3326
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8606'
+fetched: '2022-01-23'
 keyword:
 - Reason
 - Call

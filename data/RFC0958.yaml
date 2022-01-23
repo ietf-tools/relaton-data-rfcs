@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D.L. Mills
         language:
@@ -37,13 +54,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the Network Time Protocol (NTP), a protocol for
-    synchronizing a set of network clocks using a set of distributed clients and servers.  NTP
-    is built on the User Datagram Protocol (UDP), which provides a connectionless
+- content: "<p>This document describes the Network Time Protocol (NTP), a protocol
+    for synchronizing a set of network clocks using a set of distributed clients and
+    servers.  NTP is built on the User Datagram Protocol (UDP), which provides a connectionless
     transport mechanism.  It is evolved from the Time Protocol and the ICMP Timestamp
     message and is a suitable replacement for both.  This RFC suggests a proposed
     protocol for the ARPA-Internet community, and requests discussion and suggestions
-    for improvements.
+    for improvements.</p>"
   language:
   - en
   script:
@@ -65,7 +82,12 @@ relation:
     formattedref:
       content: RFC1305
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '958'
+fetched: '2022-01-23'
 keyword:
 - NTP
 - time

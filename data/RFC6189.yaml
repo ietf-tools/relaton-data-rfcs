@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zimmermann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Zimmermann
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Johnston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Johnston
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Callas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Callas
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines ZRTP, a protocol for media path Diffie-Hellman exchange
-    to agree on a session key and parameters for establishing unicast Secure Real-time
-    Transport Protocol (SRTP) sessions for Voice over IP (VoIP) applications.  The
-    ZRTP protocol is media path keying because it is multiplexed on the same port
-    as RTP and does not require support in the signaling protocol.  ZRTP does not
-    assume a Public Key Infrastructure (PKI) or require the complexity of certificates
+- content: "<p>This document defines ZRTP, a protocol for media path Diffie-Hellman
+    exchange to agree on a session key and parameters for establishing unicast Secure
+    Real-time Transport Protocol (SRTP) sessions for Voice over IP (VoIP) applications.
+    \ The ZRTP protocol is media path keying because it is multiplexed on the same
+    port as RTP and does not require support in the signaling protocol.  ZRTP does
+    not assume a Public Key Infrastructure (PKI) or require the complexity of certificates
     in end devices.  For the media session, ZRTP provides confidentiality, protection
     against man-in-the-middle (MiTM) attacks, and, in cases where the signaling protocol
     provides end-to-end integrity protection, authentication.  ZRTP can utilize a
@@ -71,12 +107,17 @@ abstract:
     RTP/AVP (Audio-Visual Profile) profiles.  ZRTP secures media sessions that include
     a voice media stream and can also secure media sessions that do not include voice
     by using an optional digital signature.  This document is not an Internet Standards
-    Track specification; it is published for informational purposes.
+    Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6189'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gudmundsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Gudmundsson
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document mandates support for EDNS0 (Extension Mechanisms for DNS)
-    in DNS entities claiming to support either DNS Security Extensions or A6 records.  This
-    requirement is necessary because these new features increase the size of DNS messages.  If
-    EDNS0 is not supported fall back to TCP will happen, having a detrimental impact
-    on query latency and DNS server load.  This document updates RFC 2535 and RFC
-    2874, by adding new requirements. [STANDARDS-TRACK]
+- content: "<p>This document mandates support for EDNS0 (Extension Mechanisms for
+    DNS) in DNS entities claiming to support either DNS Security Extensions or A6
+    records.  This requirement is necessary because these new features increase the
+    size of DNS messages.  If EDNS0 is not supported fall back to TCP will happen,
+    having a detrimental impact on query latency and DNS server load.  This document
+    updates RFC 2535 and RFC 2874, by adding new requirements. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -59,7 +71,12 @@ relation:
     formattedref:
       content: RFC2874
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3226'
+fetched: '2022-01-23'
 keyword:
 - domain
 - name

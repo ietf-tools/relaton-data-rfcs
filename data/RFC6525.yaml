@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Stewart
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Stewart
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tuexen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Tuexen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lei
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Lei
         language:
@@ -57,9 +93,9 @@ language:
 script:
 - Latn
 abstract:
-- content: Many applications that use the Stream Control Transmission Protocol (SCTP)
-    want the ability to "reset" a stream.  The intention of resetting a stream is
-    to set the numbering sequence of the stream back to 'zero' with a corresponding
+- content: <p>Many applications that use the Stream Control Transmission Protocol
+    (SCTP) want the ability to "reset" a stream.  The intention of resetting a stream
+    is to set the numbering sequence of the stream back to 'zero' with a corresponding
     notification to the application layer that the reset has been performed.  Applications
     requiring this feature want it so that they can "reuse" streams for different
     purposes but still utilize the stream sequence number so that the application
@@ -67,12 +103,17 @@ abstract:
     stream would result in message numbers greater than expected, unless there is
     a protocol mechanism to "reset the streams back to zero".  This document also
     includes methods for resetting the transmission sequence numbers, adding additional
-    streams, and resetting all stream sequence numbers. [STANDARDS-TRACK]
+    streams, and resetting all stream sequence numbers. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6525'
+fetched: '2022-01-23'
 editorialgroup:
 - name: tsvwg

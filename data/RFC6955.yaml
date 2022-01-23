@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schaad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schaad
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Prafullchandra
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Prafullchandra
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes two methods for producing an integrity check value
-    from a Diffie-Hellman key pair and one method for producing an integrity check
-    value from an Elliptic Curve key pair. This behavior is needed for such operations
-    as creating the signature of a Public-Key Cryptography Standards (PKCS) #10 Certification
-    Request. These algorithms are designed to provide a Proof-of-Possession of the
-    private key and not to be a general purpose signing algorithm. This document obsoletes
-    RFC 2875.'
+- content: "<p>This document describes two methods for producing an integrity check
+    value from a Diffie-Hellman key pair and one method for producing an integrity
+    check value from an Elliptic Curve key pair. This behavior is needed for such
+    operations as creating the signature of a Public-Key Cryptography Standards (PKCS)
+    #10 Certification Request. These algorithms are designed to provide a Proof-of-Possession
+    of the private key and not to be a general purpose signing algorithm.</p><p>This
+    document obsoletes RFC 2875.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6955'
+fetched: '2022-01-23'
 keyword:
 - POP
 - ECDH

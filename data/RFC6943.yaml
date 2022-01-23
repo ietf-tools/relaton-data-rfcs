@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thaler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Thaler
         language:
@@ -37,22 +49,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Identifiers such as hostnames, URIs, IP addresses, and email addresses
-    are often used in security contexts to identify security principals and resources.  In
-    such contexts, an identifier presented via some protocol is often compared using
-    some policy to make security decisions such as whether the security principal
+- content: "<p>Identifiers such as hostnames, URIs, IP addresses, and email addresses
+    are often used in security contexts to identify security principals and resources.
+    \ In such contexts, an identifier presented via some protocol is often compared
+    using some policy to make security decisions such as whether the security principal
     may access the resource, what level of authentication or encryption is required,
     etc.  If the parties involved in a security decision use different algorithms
     to compare identifiers, then failure scenarios ranging from denial of service
     to elevation of privilege can result.  This document provides a discussion of
     these issues that designers should consider when defining identifiers and protocols,
-    and when constructing architectures that use multiple protocols.
+    and when constructing architectures that use multiple protocols.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6943'
+fetched: '2022-01-23'
 keyword:
 - Canonicalization
 - Normalization

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Trossen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Trossen
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Purkayastha
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Purkayastha
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rahman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Rahman
         language:
@@ -58,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Adoption of cloud and fog technology allows operators to deploy a single
+- content: <p>Adoption of cloud and fog technology allows operators to deploy a single
     "Service Function" (SF) to multiple "execution locations". The decision to steer
     traffic to a specific location may change frequently based on load, proximity,
     etc. Under the current Service Function Chaining (SFC) framework, steering traffic
@@ -70,16 +106,21 @@ abstract:
     execution endpoints. This can be done by identifying the SFs using a name rather
     than a routable IP endpoint (or Layer 2 address). This document describes the
     necessary extensions, additional functions, and protocol details in the Service
-    Function Forwarder (SFF) to handle name-based relationships. This document presents
-    InterDigital's approach to name-based SFC. It does not represent IETF consensus
-    and is presented here so that the SFC community may benefit from considering this
-    mechanism and the possibility of its use in the edge data centers.
+    Function Forwarder (SFF) to handle name-based relationships.</p><p>This document
+    presents InterDigital's approach to name-based SFC. It does not represent IETF
+    consensus and is presented here so that the SFC community may benefit from considering
+    this mechanism and the possibility of its use in the edge data centers.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8677'
+fetched: '2022-01-23'
 keyword:
 - service function
 - SF

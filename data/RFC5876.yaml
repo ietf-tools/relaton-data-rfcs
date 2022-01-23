@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Elwell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Elwell
         language:
@@ -37,17 +49,18 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Initiation Protocol (SIP) has a mechanism for conveying the
-    identity of the originator of a request by means of the P-Asserted-Identity and
-    P-Preferred-Identity header fields.  These header fields are specified for use
-    in requests using a number of SIP methods, in particular the INVITE method.  However,
-    RFC 3325 does not specify the insertion of the P-Asserted-Identity header field
-    by a trusted User Agent Client (UAC), does not specify the use of P-Asserted-Identity
-    and P-Preferred-Identity header fields with certain SIP methods such as UPDATE,
-    REGISTER, MESSAGE, and PUBLISH, and does not specify how to handle an unexpected
-    number of URIs or unexpected URI schemes in these header fields.  This document
-    extends RFC 3325 to cover these situations.  This document is not an Internet
-    Standards Track specification; it is published for informational purposes.
+- content: "<p>The Session Initiation Protocol (SIP) has a mechanism for conveying
+    the identity of the originator of a request by means of the P-Asserted-Identity
+    and P-Preferred-Identity header fields.  These header fields are specified for
+    use in requests using a number of SIP methods, in particular the INVITE method.
+    \ However, RFC 3325 does not specify the insertion of the P-Asserted-Identity
+    header field by a trusted User Agent Client (UAC), does not specify the use of
+    P-Asserted-Identity and P-Preferred-Identity header fields with certain SIP methods
+    such as UPDATE, REGISTER, MESSAGE, and PUBLISH, and does not specify how to handle
+    an unexpected number of URIs or unexpected URI schemes in these header fields.
+    \ This document extends RFC 3325 to cover these situations.  This document is
+    not an Internet Standards Track specification; it is published for informational
+    purposes.</p>"
   language:
   - en
   script:
@@ -59,7 +72,12 @@ relation:
     formattedref:
       content: RFC3325
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5876'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - P-Asserted-Identity

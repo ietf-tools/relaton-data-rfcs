@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Generic Security Services API (GSS-API) provides a naming architecture
+- content: "<p>The Generic Security Services API (GSS-API) provides a naming architecture
     that supports name-based authorization.  GSS-API authenticates two named parties
     to each other.  Names can be stored on access control lists (ACLs) to make authorization
     decisions.  Advances in security mechanisms and the way implementers wish to use
@@ -49,13 +61,18 @@ abstract:
     name to be used across all environments.  Other mechanisms, such as Kerberos,
     may include group membership or role information as part of authentication.  This
     document motivates extensions to GSS-API naming and describes the extensions under
-    discussion.  This memo provides information for the Internet community.
+    discussion.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4768'
+fetched: '2022-01-23'
 keyword:
 - acl
 - access control list

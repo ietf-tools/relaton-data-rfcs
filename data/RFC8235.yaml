@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Hao
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the Schnorr non-interactive zero-knowledge (NIZK)
-    proof, a non-interactive variant of the three-pass Schnorr identification scheme.  The
-    Schnorr NIZK proof allows one to prove the knowledge of a discrete logarithm without
-    leaking any information about its value.  It can serve as a useful building block
-    for many cryptographic protocols to ensure that participants follow the protocol
-    specification honestly.  This document specifies the Schnorr NIZK proof in both
-    the finite field and the elliptic curve settings.
+- content: "<p>This document describes the Schnorr non-interactive zero-knowledge
+    (NIZK) proof, a non-interactive variant of the three-pass Schnorr identification
+    scheme.  The Schnorr NIZK proof allows one to prove the knowledge of a discrete
+    logarithm without leaking any information about its value.  It can serve as a
+    useful building block for many cryptographic protocols to ensure that participants
+    follow the protocol specification honestly.  This document specifies the Schnorr
+    NIZK proof in both the finite field and the elliptic curve settings.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8235'
+fetched: '2022-01-23'
 keyword:
 - Zero-Knowledge Proof
 - Schnorr NIZK proof

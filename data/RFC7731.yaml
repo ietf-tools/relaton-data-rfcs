@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Hui
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kelsey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Kelsey
         language:
@@ -47,21 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the Multicast Protocol for Low-Power and Lossy
+- content: "<p>This document specifies the Multicast Protocol for Low-Power and Lossy
     Networks (MPL), which provides IPv6 multicast forwarding in constrained networks.
     MPL avoids the need to construct or maintain any multicast forwarding topology,
-    disseminating messages to all MPL Forwarders in an MPL Domain. MPL has two modes
-    of operation. One mode uses the Trickle algorithm to manage control-plane and
-    data-plane message transmissions and is applicable for deployments with few multicast
-    sources. The other mode uses classic flooding. By providing both modes and parameterization
-    of the Trickle algorithm, an MPL implementation can be used in a variety of multicast
-    deployments and can trade between dissemination latency and transmission efficiency.
+    disseminating messages to all MPL Forwarders in an MPL Domain.</p><p>MPL has two
+    modes of operation. One mode uses the Trickle algorithm to manage control-plane
+    and data-plane message transmissions and is applicable for deployments with few
+    multicast sources. The other mode uses classic flooding. By providing both modes
+    and parameterization of the Trickle algorithm, an MPL implementation can be used
+    in a variety of multicast deployments and can trade between dissemination latency
+    and transmission efficiency.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7731'
+fetched: '2022-01-23'
 keyword:
 - 6lowpan
 - 802.15.4

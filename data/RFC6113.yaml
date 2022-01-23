@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Zhu
         language:
@@ -47,20 +71,20 @@ language:
 script:
 - Latn
 abstract:
-- content: Kerberos is a protocol for verifying the identity of principals (e.g.,
+- content: "<p>Kerberos is a protocol for verifying the identity of principals (e.g.,
     a workstation user or a network server) on an open network. The Kerberos protocol
     provides a facility called pre-authentication. Pre-authentication mechanisms can
     use this facility to extend the Kerberos protocol and prove the identity of a
-    principal. This document describes a more formal model for this facility. The
-    model describes what state in the Kerberos request a pre-authentication mechanism
+    principal.</p><p>This document describes a more formal model for this facility.
+    The model describes what state in the Kerberos request a pre-authentication mechanism
     is likely to change. It also describes how multiple pre-authentication mechanisms
-    used in the same request will interact. This document also provides common tools
-    needed by multiple pre-authentication mechanisms. One of these tools is a secure
-    channel between the client and the key distribution center with a reply key strengthening
-    mechanism; this secure channel can be used to protect the authentication exchange
-    and thus eliminate offline dictionary attacks. With these tools, it is relatively
-    straightforward to chain multiple authentication mechanisms, utilize a different
-    key management system, or support a new key agreement algorithm. [STANDARDS-TRACK]
+    used in the same request will interact.</p><p>This document also provides common
+    tools needed by multiple pre-authentication mechanisms. One of these tools is
+    a secure channel between the client and the key distribution center with a reply
+    key strengthening mechanism; this secure channel can be used to protect the authentication
+    exchange and thus eliminate offline dictionary attacks. With these tools, it is
+    relatively straightforward to chain multiple authentication mechanisms, utilize
+    a different key management system, or support a new key agreement algorithm. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -72,6 +96,11 @@ relation:
     formattedref:
       content: RFC4120
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6113'
+fetched: '2022-01-23'
 editorialgroup:
 - name: krb-wg

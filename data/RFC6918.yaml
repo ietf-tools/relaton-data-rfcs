@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: A number of ICMPv4 message types have become obsolete in practice, but
-    have never been formally deprecated.  This document deprecates such ICMPv4 message
-    types, thus cleaning up the corresponding IANA registry.  Additionally, it updates
-    RFC 792 and RFC 950, obsoletes RFC 1788, and requests the RFC Editor to change
-    the status of RFC 1788 to Historic.
+- content: "<p>A number of ICMPv4 message types have become obsolete in practice,
+    but have never been formally deprecated.  This document deprecates such ICMPv4
+    message types, thus cleaning up the corresponding IANA registry.  Additionally,
+    it updates RFC 792 and RFC 950, obsoletes RFC 1788, and requests the RFC Editor
+    to change the status of RFC 1788 to Historic.</p>"
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC0950
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6918'
+fetched: '2022-01-23'
 keyword:
 - IANA
 - IPv4 Options

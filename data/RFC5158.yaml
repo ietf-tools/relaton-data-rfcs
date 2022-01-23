@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -37,21 +49,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes the service mechanism for entering a delegation of
-    DNS servers that provide reverse lookup of 6to4 IPv6 addresses into the 6to4 reverse
-    zone file.  The mechanism is based on a conventional DNS delegation service interface,
-    allowing the service client to enter the details of a number of DNS servers for
-    the delegated domain.  In the context of a 6to4 reverse delegation, the client
-    is primarily authenticated by its source address used in the delegation request,
-    and is authorized to use the function if its IPv6 address prefix corresponds to
-    an address from within the requested 6to4 delegation address block.  This memo
-    provides information for the Internet community.
+- content: "<p>This memo describes the service mechanism for entering a delegation
+    of DNS servers that provide reverse lookup of 6to4 IPv6 addresses into the 6to4
+    reverse zone file.  The mechanism is based on a conventional DNS delegation service
+    interface, allowing the service client to enter the details of a number of DNS
+    servers for the delegated domain.  In the context of a 6to4 reverse delegation,
+    the client is primarily authenticated by its source address used in the delegation
+    request, and is authorized to use the function if its IPv6 address prefix corresponds
+    to an address from within the requested 6to4 delegation address block.  This memo
+    provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5158'
+fetched: '2022-01-23'
 keyword:
 - dns
 - domain name system

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Harkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Harkins
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zorn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Zorn
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes an Extensible Authentication Protocol (EAP) method,
+- content: "<p>This memo describes an Extensible Authentication Protocol (EAP) method,
     EAP-pwd, which uses a shared password for authentication.  The password may be
     a low-entropy one and may be drawn from some set of possible passwords, like a
     dictionary, which is available to an attacker.  The underlying key exchange is
     resistant to active attack, passive attack, and dictionary attack.  This document
     is not an Internet Standards Track specification; it is published for informational
-    purposes.
+    purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5931'
+fetched: '2022-01-23'
 keyword:
 - Password Authenticated Key Exchange
 - Dictionary Attack

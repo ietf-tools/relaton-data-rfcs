@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo splits message submission from message relay, allowing each service
-    to operate according to its own rules (for security, policy, etc.), and specifies
-    what actions are to be taken by a submission server. Message relay and final delivery
-    are unaffected, and continue to use SMTP over port 25. When conforming to this
-    document, message submission uses the protocol specified here, normally over port
-    587. This separation of function offers a number of benefits, including the ability
-    to apply specific security or policy requirements. [STANDARDS-TRACK]
+- content: "<p>This memo splits message submission from message relay, allowing each
+    service to operate according to its own rules (for security, policy, etc.), and
+    specifies what actions are to be taken by a submission server.</p><p>Message relay
+    and final delivery are unaffected, and continue to use SMTP over port 25.</p><p>When
+    conforming to this document, message submission uses the protocol specified here,
+    normally over port 587.</p><p>This separation of function offers a number of benefits,
+    including the ability to apply specific security or policy requirements. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC6409
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4409'
+fetched: '2022-01-23'
 keyword:
 - smtp
 - simle mail transfer protocol

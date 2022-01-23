@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Worster
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Worster
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -57,17 +93,22 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Various applications of MPLS make use of label stacks with multiple entries.  In
-    some cases, it is possible to replace the top label of the stack with an IP-based
-    encapsulation, thereby enabling the application to run over networks that do not
-    have MPLS enabled in their core routers.  This document specifies two IP-based
-    encapsulations: MPLS-in-IP and MPLS-in-GRE (Generic Routing Encapsulation).  Each
-    of these is applicable in some circumstances. [STANDARDS-TRACK]'
+- content: "<p>Various applications of MPLS make use of label stacks with multiple
+    entries.  In some cases, it is possible to replace the top label of the stack
+    with an IP-based encapsulation, thereby enabling the application to run over networks
+    that do not have MPLS enabled in their core routers.  This document specifies
+    two IP-based encapsulations: MPLS-in-IP and MPLS-in-GRE (Generic Routing Encapsulation).
+    \ Each of these is applicable in some circumstances. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4023'
+fetched: '2022-01-23'
 editorialgroup:
 - name: mpls

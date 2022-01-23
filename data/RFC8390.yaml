@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ali
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Ali
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Swallow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Swallow
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Zhang
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Beller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Beller
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'RSVP-TE provides support for the communication of exclusion information
+- content: "<p>RSVP-TE provides support for the communication of exclusion information
     during Label Switched Path (LSP) setup. A typical LSP diversity use case is for
     protection, where two LSPs should follow different paths through the network in
     order to avoid single points of failure, thus greatly improving service availability.
@@ -76,12 +124,12 @@ abstract:
     the path. Three types of abstract identifiers are specified: client based, Path
     Computation Element (PCE) based, and network based. This document specifies two
     new diversity subobjects for the RSVP eXclude Route Object (XRO) and the Explicit
-    Exclusion Route Subobject (EXRS). For the protection use case, LSPs are typically
-    created at a slow rate and exist for a long time so that it is reasonable to assume
-    that a given (reference) path currently existing (with a well-known identifier)
-    will continue to exist and can be used as a reference when creating the new diverse
-    path. Re-routing of the existing (reference) LSP, before the new path is established,
-    is not considered.'
+    Exclusion Route Subobject (EXRS).</p><p>For the protection use case, LSPs are
+    typically created at a slow rate and exist for a long time so that it is reasonable
+    to assume that a given (reference) path currently existing (with a well-known
+    identifier) will continue to exist and can be used as a reference when creating
+    the new diverse path. Re-routing of the existing (reference) LSP, before the new
+    path is established, is not considered.</p>"
   language:
   - en
   script:
@@ -93,7 +141,12 @@ relation:
     formattedref:
       content: RFC4874
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8390'
+fetched: '2022-01-23'
 keyword:
 - LSP diversity
 editorialgroup:

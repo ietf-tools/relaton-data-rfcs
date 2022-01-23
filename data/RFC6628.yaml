@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Shin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kobara
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kobara
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an efficient augmented password-only authentication
+- content: "<p>This document describes an efficient augmented password-only authentication
     and key exchange (AugPAKE) protocol where a user remembers a low-entropy password
     and its verifier is registered in the intended server.  In general, the user password
     is chosen from a small set of dictionary words that allows an attacker to perform
@@ -57,13 +81,18 @@ abstract:
     also provides resistance to server compromise (in the context of augmented PAKE
     security).  In addition, this document describes how the AugPAKE protocol is integrated
     into the Internet Key Exchange Protocol version 2 (IKEv2).  This document defines
-    an Experimental Protocol for the Internet community.
+    an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6628'
+fetched: '2022-01-23'
 keyword:
 - PAKE
 - augmented PAKE

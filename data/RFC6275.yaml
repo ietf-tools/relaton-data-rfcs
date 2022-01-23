@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Johnson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Johnson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arkko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Arkko
         language:
@@ -57,9 +93,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies Mobile IPv6, a protocol that allows nodes to remain
-    reachable while moving around in the IPv6 Internet.  Each mobile node is always
-    identified by its home address, regardless of its current point of attachment
+- content: "<p>This document specifies Mobile IPv6, a protocol that allows nodes to
+    remain reachable while moving around in the IPv6 Internet.  Each mobile node is
+    always identified by its home address, regardless of its current point of attachment
     to the Internet.  While situated away from its home, a mobile node is also associated
     with a care-of address, which provides information about the mobile node's current
     location.  IPv6 packets addressed to a mobile node's home address are transparently
@@ -68,13 +104,18 @@ abstract:
     packets destined for the mobile node directly to it at this care-of address.  To
     support this operation, Mobile IPv6 defines a new IPv6 protocol and a new destination
     option.  All IPv6 nodes, whether mobile or stationary, can communicate with mobile
-    nodes.  This document obsoletes RFC 3775. [STANDARDS-TRACK]
+    nodes.  This document obsoletes RFC 3775. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6275'
+fetched: '2022-01-23'
 keyword:
 - MIPv6
 - mobility

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Begen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Begen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Packet loss is undesirable for real-time multimedia sessions but can occur
-    due to a variety of reasons including unplanned network outages.  In unicast transmissions,
-    recovering from such an outage can be difficult depending on the outage duration,
-    due to the potentially large number of missing packets.  In multicast transmissions,
-    recovery is even more challenging as many receivers could be impacted by the outage.  For
-    this challenge, one solution that does not incur unbounded delay is to duplicate
-    the packets and send them in separate redundant streams, provided that the underlying
-    network satisfies certain requirements.  This document explains how Real-time
-    Transport Protocol (RTP) streams can be duplicated without breaking RTP or RTP
-    Control Protocol (RTCP) rules.
+- content: "<p>Packet loss is undesirable for real-time multimedia sessions but can
+    occur due to a variety of reasons including unplanned network outages.  In unicast
+    transmissions, recovering from such an outage can be difficult depending on the
+    outage duration, due to the potentially large number of missing packets.  In multicast
+    transmissions, recovery is even more challenging as many receivers could be impacted
+    by the outage.  For this challenge, one solution that does not incur unbounded
+    delay is to duplicate the packets and send them in separate redundant streams,
+    provided that the underlying network satisfies certain requirements.  This document
+    explains how Real-time Transport Protocol (RTP) streams can be duplicated without
+    breaking RTP or RTP Control Protocol (RTCP) rules.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7198'
+fetched: '2022-01-23'
 keyword:
 - RTP duplication
 - live/live

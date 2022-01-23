@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rescorla
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rescorla
         language:
@@ -38,18 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 4492 describes elliptic curve cipher suites for Transport Layer Security
-    (TLS).  However, all those cipher suites use HMAC-SHA-1 as their Message Authentication
-    Code (MAC) algorithm.  This document describes sixteen new cipher suites for TLS
-    that specify stronger MAC algorithms.  Eight use Hashed Message Authentication
-    Code (HMAC) with SHA-256 or SHA-384, and eight use AES in Galois Counter Mode
-    (GCM).  This memo provides information for the Internet community.
+- content: "<p>RFC 4492 describes elliptic curve cipher suites for Transport Layer
+    Security (TLS).  However, all those cipher suites use HMAC-SHA-1 as their Message
+    Authentication Code (MAC) algorithm.  This document describes sixteen new cipher
+    suites for TLS that specify stronger MAC algorithms.  Eight use Hashed Message
+    Authentication Code (HMAC) with SHA-256 or SHA-384, and eight use AES in Galois
+    Counter Mode (GCM).  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5289'
+fetched: '2022-01-23'
 keyword:
 - transport layer security
 - mac algorithm

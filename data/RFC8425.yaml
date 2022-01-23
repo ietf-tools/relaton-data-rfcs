@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Troan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Troan
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The Prefix Information Option (PIO) in the IPv6 Neighbor Discovery Router
-    Advertisement message defines an 8-bit flag field; this field has two flags defined,
-    and the remaining 6 bits are reserved (Reserved1).  RFC 6275 defines a flag from
-    this field without creating an IANA registry or updating RFC 4861.  The purpose
-    of this document is to create an IANA registry for the PIO flags.  This document
-    updates RFC 4861.
+- content: "<p>The Prefix Information Option (PIO) in the IPv6 Neighbor Discovery
+    Router Advertisement message defines an 8-bit flag field; this field has two flags
+    defined, and the remaining 6 bits are reserved (Reserved1).  RFC 6275 defines
+    a flag from this field without creating an IANA registry or updating RFC 4861.
+    \ The purpose of this document is to create an IANA registry for the PIO flags.
+    \ This document updates RFC 4861.</p>"
   language:
   - en
   script:
@@ -55,6 +67,11 @@ relation:
     formattedref:
       content: RFC4861
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8425'
+fetched: '2022-01-23'
 editorialgroup:
 - name: 6man

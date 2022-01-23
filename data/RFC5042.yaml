@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pinkerton
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Pinkerton
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Deleganes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Deleganes
         language:
@@ -48,8 +72,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document analyzes security issues around implementation and use of
-    the Direct Data Placement Protocol (DDP) and Remote Direct Memory Access Protocol
+- content: "<p>This document analyzes security issues around implementation and use
+    of the Direct Data Placement Protocol (DDP) and Remote Direct Memory Access Protocol
     (RDMAP).  It first defines an architectural model for an RDMA Network Interface
     Card (RNIC), which can implement DDP or RDMAP and DDP.  The document reviews various
     attacks against the resources defined in the architectural model and the countermeasures
@@ -57,13 +81,18 @@ abstract:
     be mitigated by using secure communication channels across the network, attacks
     from Remote Peers, and attacks from Local Peers.  Attack categories include spoofing,
     tampering, information disclosure, denial of service, and elevation of privilege.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5042'
+fetched: '2022-01-23'
 keyword:
 - rdma network interface card
 - rnic

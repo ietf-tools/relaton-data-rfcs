@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Foster
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Foster
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andreasen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Andreasen
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: A Media Gateway Control Protocol (MGCP) endpoint that has encountered an
-    adverse failure condition (such as being involved in a transient call when a Call
-    Agent failover occurred) could be left in a lockstep state whereby events are
-    quarantined but not notified.  The MGCP package described in this document provides
-    a mechanism for reporting these situations so that the new Call Agent can take
-    the necessary fault recovery procedures.  This memo provides information for the
-    Internet community.
+- content: "<p>A Media Gateway Control Protocol (MGCP) endpoint that has encountered
+    an adverse failure condition (such as being involved in a transient call when
+    a Call Agent failover occurred) could be left in a lockstep state whereby events
+    are quarantined but not notified.  The MGCP package described in this document
+    provides a mechanism for reporting these situations so that the new Call Agent
+    can take the necessary fault recovery procedures.  This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3992'
+fetched: '2022-01-23'
 keyword:
 - fault recovery

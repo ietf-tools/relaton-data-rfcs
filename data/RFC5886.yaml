@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JL
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Roux
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JL. Le Roux
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ikejiri
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Ikejiri
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'A Path Computation Element (PCE)-based architecture has been specified
+- content: '<p>A Path Computation Element (PCE)-based architecture has been specified
     for the computation of Traffic Engineering (TE) Label Switched Paths (LSPs) in
     Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) networks in
     the context of single or multiple domains (where a domain refers to a collection
@@ -65,18 +101,23 @@ abstract:
     responsibility such as Interior Gateway Protocol (IGP) areas and Autonomous Systems).
     Path Computation Clients (PCCs) send computation requests to PCEs, and these may
     forward the requests to and cooperate with other PCEs forming a "path computation
-    chain". In PCE-based environments, it is thus critical to monitor the state of
-    the path computation chain for troubleshooting and performance monitoring purposes:
+    chain".</p><p>In PCE-based environments, it is thus critical to monitor the state
+    of the path computation chain for troubleshooting and performance monitoring purposes:
     liveness of each element (PCE) involved in the PCE chain and detection of potential
     resource contention states and statistics in terms of path computation times are
     examples of such metrics of interest. This document specifies procedures and extensions
     to the Path Computation Element Protocol (PCEP) in order to gather such information.
-    [STANDARDS-TRACK]'
+    [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5886'
+fetched: '2022-01-23'
 editorialgroup:
 - name: pce

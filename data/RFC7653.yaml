@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raghuvanshi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Raghuvanshi
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kinnear
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kinnear
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kukrety
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Kukrety
         language:
@@ -57,14 +93,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) has been extended
-    with a Leasequery capability that allows a requestor to request information about
-    DHCPv6 bindings.  That mechanism is limited to queries for DHCPv6 binding data
-    updates prior to the time the DHCPv6 server receives the Leasequery request.  Continuous
-    update of an external requestor with Leasequery data is sometimes desired.  This
-    document expands on the DHCPv6 Leasequery protocol and allows for active transfer
-    of real-time DHCPv6 binding information data via TCP.  This document also updates
-    DHCPv6 Bulk Leasequery (RFC 5460) by adding new options.
+- content: "<p>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) has been
+    extended with a Leasequery capability that allows a requestor to request information
+    about DHCPv6 bindings.  That mechanism is limited to queries for DHCPv6 binding
+    data updates prior to the time the DHCPv6 server receives the Leasequery request.
+    \ Continuous update of an external requestor with Leasequery data is sometimes
+    desired.  This document expands on the DHCPv6 Leasequery protocol and allows for
+    active transfer of real-time DHCPv6 binding information data via TCP.  This document
+    also updates DHCPv6 Bulk Leasequery (RFC 5460) by adding new options.</p>"
   language:
   - en
   script:
@@ -76,7 +112,12 @@ relation:
     formattedref:
       content: RFC5460
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7653'
+fetched: '2022-01-23'
 keyword:
 - DHCP
 - IPv6

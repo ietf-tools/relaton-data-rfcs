@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Venaas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Venaas
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Retana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Retana
         language:
@@ -47,16 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: The PIM version 2 messages share a common message header format. The common
-    header definition contains eight reserved bits. This document specifies how these
-    bits may be used by individual message types and creates a registry containing
-    the per-message-type usage. This document also extends the PIM type space by defining
-    three new message types. For each of the new types, four of the previously reserved
-    bits are used to form an extended type range. This document updates RFCs 7761
-    and 3973 by defining the use of the currently Reserved field in the PIM common
-    header. This document further updates RFCs 7761 and 3973, along with RFCs 5015,
-    5059, 6754, and 8364, by specifying the use of the currently reserved bits for
-    each PIM message. This document obsoletes RFC 6166.
+- content: "<p>The PIM version 2 messages share a common message header format. The
+    common header definition contains eight reserved bits. This document specifies
+    how these bits may be used by individual message types and creates a registry
+    containing the per-message-type usage. This document also extends the PIM type
+    space by defining three new message types. For each of the new types, four of
+    the previously reserved bits are used to form an extended type range.</p><p>This
+    document updates RFCs 7761 and 3973 by defining the use of the currently Reserved
+    field in the PIM common header. This document further updates RFCs 7761 and 3973,
+    along with RFCs 5015, 5059, 6754, and 8364, by specifying the use of the currently
+    reserved bits for each PIM message.</p><p>This document obsoletes RFC 6166.</p>"
   language:
   - en
   script:
@@ -93,7 +117,12 @@ relation:
     formattedref:
       content: RFC8364
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8736'
+fetched: '2022-01-23'
 keyword:
 - Multicast
 editorialgroup:

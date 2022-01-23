@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Welzl
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Welzl
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ros
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ros
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides a survey of transport protocols that are designed
+- content: <p>This document provides a survey of transport protocols that are designed
     to have a smaller bandwidth and/or delay impact on standard TCP than standard
     TCP itself when they share a bottleneck with it.  Such protocols could be used
     for delay-insensitive "background" traffic, as they provide what is sometimes
     called a "less than" (or "lower than") best-effort service.  This document is
     not an Internet Standards Track specification; it is published for informational
-    purposes.
+    purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6297'
+fetched: '2022-01-23'
 keyword:
 - Less-than-Best-Effort
 - Congestion Control

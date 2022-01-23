@@ -24,6 +24,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Robles
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M.I. Robles
         language:
@@ -34,6 +51,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Richardson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Richardson
         language:
@@ -44,6 +73,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Thubert
         language:
@@ -58,16 +99,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This document looks at different data flows through Low-Power and Lossy
+- content: "<p>This document looks at different data flows through Low-Power and Lossy
     Networks (LLN) where RPL (IPv6 Routing Protocol for Low-Power and Lossy Networks)
     is used to establish routing.  The document enumerates the cases where RPL Packet
     Information (RPI) Option Type (RFC 6553), RPL Source Route Header (RFC 6554),
     and IPv6-in-IPv6 encapsulation are required in the data plane.  This analysis
-    provides the basis upon which to design efficient compression of these headers.  This
-    document updates RFC 6553 by adding a change to the RPI Option Type.  Additionally,
+    provides the basis upon which to design efficient compression of these headers.
+    \ This document updates RFC 6553 by adding a change to the RPI Option Type.  Additionally,
     this document updates RFC 6550 by defining a flag in the DODAG Information Object
     (DIO) Configuration option to indicate this change and updates RFC 8138 as well
-    to consider the new Option Type when the RPL Option is decompressed.
+    to consider the new Option Type when the RPL Option is decompressed.</p>"
   language:
   - en
   script:
@@ -89,7 +130,12 @@ relation:
     formattedref:
       content: RFC8138
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9008'
+fetched: '2022-01-23'
 keyword:
 - RPL Option
 - 6LoWPAN

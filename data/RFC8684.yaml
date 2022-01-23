@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ford
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Ford
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raiciu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Raiciu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Handley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Handley
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bonaventure
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Bonaventure
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Paasch
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Paasch
         language:
@@ -77,24 +137,29 @@ language:
 script:
 - Latn
 abstract:
-- content: TCP/IP communication is currently restricted to a single path per connection,
+- content: "<p>TCP/IP communication is currently restricted to a single path per connection,
     yet multiple paths often exist between peers. The simultaneous use of these multiple
     paths for a TCP/IP session would improve resource usage within the network and
     thus improve user experience through higher throughput and improved resilience
-    to network failure. Multipath TCP provides the ability to simultaneously use multiple
-    paths between peers. This document presents a set of extensions to traditional
-    TCP to support multipath operation. The protocol offers the same type of service
-    to applications as TCP (i.e., a reliable bytestream), and it provides the components
-    necessary to establish and use multiple TCP flows across potentially disjoint
-    paths. This document specifies v1 of Multipath TCP, obsoleting v0 as specified
-    in RFC 6824, through clarifications and modifications primarily driven by deployment
-    experience.
+    to network failure.</p><p>Multipath TCP provides the ability to simultaneously
+    use multiple paths between peers. This document presents a set of extensions to
+    traditional TCP to support multipath operation. The protocol offers the same type
+    of service to applications as TCP (i.e., a reliable bytestream), and it provides
+    the components necessary to establish and use multiple TCP flows across potentially
+    disjoint paths.</p><p>This document specifies v1 of Multipath TCP, obsoleting
+    v0 as specified in RFC 6824, through clarifications and modifications primarily
+    driven by deployment experience.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8684'
+fetched: '2022-01-23'
 keyword:
 - tcp
 - extensions

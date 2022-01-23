@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sofia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sofia
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nesser
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Nesser
         language:
@@ -44,6 +68,12 @@ contributor:
   - author
 - person:
     name:
+      surname:
+        content: II
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: II
         language:
@@ -58,23 +88,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes IPv4 addressing dependencies in an attempt to clarify
-    the necessary steps in re-designing and re-implementing specifications to become
-    network address independent, or at least, to dually support IPv4 and IPv6.  This
-    transition requires several interim steps, one of them being the evolution of
-    current IPv4 dependent specifications to a format independent of the type of IP
-    addressing schema used.  Hence, it is hoped that specifications will be re-designed
+- content: "<p>This document describes IPv4 addressing dependencies in an attempt
+    to clarify the necessary steps in re-designing and re-implementing specifications
+    to become network address independent, or at least, to dually support IPv4 and
+    IPv6.  This transition requires several interim steps, one of them being the evolution
+    of current IPv4 dependent specifications to a format independent of the type of
+    IP addressing schema used.  Hence, it is hoped that specifications will be re-designed
     and re-implemented to become network address independent, or at least to dually
     support IPv4 and IPv6.  To achieve that step, it is necessary to survey and document
     all IPv4 dependencies experienced by current standards (Full, Draft, and Proposed)
     as well as Experimental RFCs.  Hence, this document describes IPv4 addressing
-    dependencies that deployed IETF Application Area documented Standards may experience.  This
-    memo provides information for the Internet community.
+    dependencies that deployed IETF Application Area documented Standards may experience.
+    \ This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3795'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Muley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Muley
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aissaoui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Aissaoui
         language:
@@ -47,17 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism for signaling the active and standby
+- content: "<p>This document describes a mechanism for signaling the active and standby
     status of redundant Pseudowires (PWs) between their termination points. A set
     of Redundant PWs is configured between Provider Edge (PE) nodes in single-segment
     pseudowire (SS-PW) applications or between Terminating Provider Edge (T-PE) nodes
-    in Multi-Segment Pseudowire (MS-PW) applications. In order for the PE/T-PE nodes
-    to indicate the preferred PW to use for forwarding PW packets to one another,
+    in Multi-Segment Pseudowire (MS-PW) applications.</p><p>In order for the PE/T-PE
+    nodes to indicate the preferred PW to use for forwarding PW packets to one another,
     a new status bit is defined. This bit indicates a Preferential Forwarding status
-    with a value of active or standby for each PW in a redundant set. In addition,
+    with a value of active or standby for each PW in a redundant set.</p><p>In addition,
     a second status bit is defined to allow peer PE nodes to coordinate a switchover
-    operation of the PW. Finally, this document updates RFC 4447 by adding details
-    to the handling of the PW status code bits in the PW Status TLV.
+    operation of the PW.</p><p>Finally, this document updates RFC 4447 by adding details
+    to the handling of the PW status code bits in the PW Status TLV.</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC4447
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6870'
+fetched: '2022-01-23'
 keyword:
 - PW redundancy
 - active PW

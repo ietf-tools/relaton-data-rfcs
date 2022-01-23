@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kisteleki
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Kisteleki
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Haberman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Haberman
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a method that allows parties to electronically
+- content: "<p>This document describes a method that allows parties to electronically
     sign Routing Policy Specification Language objects and validate such electronic
     signatures.  This allows relying parties to detect accidental or malicious modifications
     of such objects.  It also allows parties who run Internet Routing Registries or
@@ -56,7 +80,7 @@ abstract:
     System Security) of the maintainers of certain objects, to verify that the additions
     or modifications of such database objects are done by the legitimate holder(s)
     of the Internet resources mentioned in those objects.  This document updates RFCs
-    2622 and 4012 to add the signature attribute to supported RPSL objects.
+    2622 and 4012 to add the signature attribute to supported RPSL objects.</p>"
   language:
   - en
   script:
@@ -73,6 +97,11 @@ relation:
     formattedref:
       content: RFC4012
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7909'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sidr

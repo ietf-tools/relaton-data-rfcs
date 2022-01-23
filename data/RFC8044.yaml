@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. DeKok
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: RADIUS specifications have used data types for two decades without defining
+- content: <p>RADIUS specifications have used data types for two decades without defining
     them as managed entities.  During this time, RADIUS implementations have named
     the data types and have used them in attribute definitions.  This document updates
     the specifications to better follow established practice.  We do this by naming
@@ -46,7 +58,7 @@ abstract:
     Attribute Types" registry to include a Data Type field for each attribute.  Finally,
     we recommend that authors of RADIUS specifications use these types in preference
     to existing practice.  This document updates RFCs 2865, 3162, 4072, 6158, 6572,
-    and 7268.
+    and 7268.</p>
   language:
   - en
   script:
@@ -83,6 +95,11 @@ relation:
     formattedref:
       content: RFC7268
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8044'
+fetched: '2022-01-23'
 editorialgroup:
 - name: radext

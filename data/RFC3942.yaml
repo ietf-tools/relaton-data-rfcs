@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Volz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Volz
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 2132 to reclassify Dynamic Host Configuration
+- content: "<p>This document updates RFC 2132 to reclassify Dynamic Host Configuration
     Protocol version 4 (DHCPv4) option codes 128 to 223 (decimal) as publicly defined
     options to be managed by IANA in accordance with RFC 2939.  This document directs
     IANA to make these option codes available for assignment as publicly defined DHCP
-    options for future options. [STANDARDS-TRACK]
+    options for future options. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC2132
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3942'
+fetched: '2022-01-23'
 keyword:
 - DHCP-BOOTP
 - Bootstrap

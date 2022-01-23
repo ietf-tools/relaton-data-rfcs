@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hitchen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hitchen
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leymann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Leymann
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderickx
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Henderickx
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gulko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Gulko
         language:
@@ -74,6 +134,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tantsura
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Tantsura
         language:
@@ -88,7 +160,7 @@ language:
 script:
 - Latn
 abstract:
-- content: An IP Multicast Distribution Tree (MDT) may traverse both label switching
+- content: <p>An IP Multicast Distribution Tree (MDT) may traverse both label switching
     (i.e., Multiprotocol Label Switching, or MPLS) and non-label switching regions
     of a network.  Typically, the MDT begins and ends in non-MPLS regions, but travels
     through an MPLS region.  In such cases, it can be useful to begin building the
@@ -101,12 +173,17 @@ abstract:
     handle the case where the link connecting the two regions is a Virtual Routing
     and Forwarding (VRF) table link, as defined in the "BGP IP/MPLS VPN" specification.  However,
     this document is primarily aimed at particular use cases where VRFs are used to
-    support multicast applications other than multicast VPN.
+    support multicast applications other than multicast VPN.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7246'
+fetched: '2022-01-23'
 editorialgroup:
 - name: l3vpn

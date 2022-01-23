@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rose
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Rose
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijngaards
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Wijngaards
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The DNAME record provides redirection for a subtree of the domain name
+- content: "<p>The DNAME record provides redirection for a subtree of the domain name
     tree in the DNS.  That is, all names that end with a particular suffix are redirected
     to another part of the DNS.  This document obsoletes the original specification
     in RFC 2672 as well as updates the document on representing IPv6 addresses in
-    DNS (RFC 3363). [STANDARDS-TRACK]
+    DNS (RFC 3363). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,6 +87,11 @@ relation:
     formattedref:
       content: RFC3363
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6672'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dnsext

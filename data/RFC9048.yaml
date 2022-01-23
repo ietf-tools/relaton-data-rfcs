@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arkko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Arkko
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lehtovirta
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Lehtovirta
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Torvinen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Torvinen
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eronen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Eronen
         language:
@@ -68,22 +116,22 @@ language:
 script:
 - Latn
 abstract:
-- content: The 3GPP mobile network Authentication and Key Agreement (AKA) is an authentication
-    mechanism for devices wishing to access mobile networks. RFC 4187 (EAP-AKA) made
-    the use of this mechanism possible within the Extensible Authentication Protocol
-    (EAP) framework. RFC 5448 (EAP-AKA') was an improved version of EAP-AKA. This
+- content: "<p>The 3GPP mobile network Authentication and Key Agreement (AKA) is an
+    authentication mechanism for devices wishing to access mobile networks. RFC 4187
+    (EAP-AKA) made the use of this mechanism possible within the Extensible Authentication
+    Protocol (EAP) framework. RFC 5448 (EAP-AKA') was an improved version of EAP-AKA.</p><p>This
     document is the most recent specification of EAP-AKA', including, for instance,
-    details about and references related to operating EAP-AKA' in 5G networks. EAP-AKA'
+    details about and references related to operating EAP-AKA' in 5G networks.</p><p>EAP-AKA'
     differs from EAP-AKA by providing a key derivation function that binds the keys
     derived within the method to the name of the access network. The key derivation
     function has been defined in the 3rd Generation Partnership Project (3GPP). EAP-AKA'
     allows its use in EAP in an interoperable manner. EAP-AKA' also updates the algorithm
     used in hash functions, as it employs SHA-256 / HMAC-SHA-256 instead of SHA-1
-    / HMAC-SHA-1, which is used in EAP-AKA. This version of the EAP-AKA' specification
+    / HMAC-SHA-1, which is used in EAP-AKA.</p><p>This version of the EAP-AKA' specification
     defines the protocol behavior for both 4G and 5G deployments, whereas the previous
     version defined protocol behavior for 4G deployments only. While EAP-AKA' as defined
     in RFC 5448 is not obsolete, this document defines the most recent and fully backwards-compatible
-    specification of EAP-AKA'. This document updates both RFCs 4187 and 5448.
+    specification of EAP-AKA'. This document updates both RFCs 4187 and 5448.</p>"
   language:
   - en
   script:
@@ -100,7 +148,12 @@ relation:
     formattedref:
       content: RFC4187
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9048'
+fetched: '2022-01-23'
 keyword:
 - EAP
 - AKA

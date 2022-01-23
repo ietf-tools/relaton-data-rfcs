@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moreno
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Moreno
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farinacci
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Farinacci
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: When multicast sources and receivers are active at Locator/ID Separation
+- content: "<p>When multicast sources and receivers are active at Locator/ID Separation
     Protocol (LISP) sites, the core network is required to use native multicast so
     packets can be delivered from sources to group members.  When multicast is not
     available to connect the multicast sites together, a signal-free mechanism can
@@ -55,13 +79,18 @@ abstract:
     document uses unicast replication and encapsulation over the core network for
     the data plane and uses the LISP mapping database system so encapsulators at the
     source LISP multicast site can find decapsulators at the receiver LISP multicast
-    sites.
+    sites.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8378'
+fetched: '2022-01-23'
 keyword:
 - LISP
 - deployment

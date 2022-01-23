@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Initiation Protocol (SIP) allows for users to make anonymous
+- content: "<p>The Session Initiation Protocol (SIP) allows for users to make anonymous
     calls.  However, users receiving such calls have the right to reject them because
     they are anonymous.  SIP has no way to indicate to the caller that the reason
     for call rejection was that the call was anonymous.  Such an indication is useful
     to allow the call to be retried without anonymity.  This specification defines
-    a new SIP response code for this purpose. [STANDARDS-TRACK]
+    a new SIP response code for this purpose. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5079'
+fetched: '2022-01-23'
 keyword:
 - anonymous calls
 editorialgroup:

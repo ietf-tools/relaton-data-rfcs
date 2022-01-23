@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Li
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Umair
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Umair
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Banerjee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Banerjee
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Hu
         language:
@@ -77,14 +137,14 @@ language:
 script:
 - Latn
 abstract:
-- content: TRILL (Transparent Interconnection of Lots of Links) supports multi-access
+- content: <p>TRILL (Transparent Interconnection of Lots of Links) supports multi-access
     LAN (Local Area Network) links where a single link can have multiple end stations
     and TRILL switches attached.  Where multiple TRILL switches are attached to a
     link, native traffic to and from end stations on that link is handled by a subset
     of those TRILL switches called "Appointed Forwarders" as originally specified
     in RFC 6325, with the intent that native traffic in each VLAN be handled by at
     most one TRILL switch.  This document clarifies and updates the Appointed Forwarder
-    mechanism.  It updates RFCs 6325 and 7177 and obsoletes RFC 6439.
+    mechanism.  It updates RFCs 6325 and 7177 and obsoletes RFC 6439.</p>
   language:
   - en
   script:
@@ -101,7 +161,12 @@ relation:
     formattedref:
       content: RFC7177
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8139'
+fetched: '2022-01-23'
 keyword:
 - DRB
 - VLAN mapping

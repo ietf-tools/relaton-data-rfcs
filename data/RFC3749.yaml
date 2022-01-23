@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hollenbeck
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hollenbeck
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The Transport Layer Security (TLS) protocol (RFC 2246) includes features
+- content: "<p>The Transport Layer Security (TLS) protocol (RFC 2246) includes features
     to negotiate selection of a lossless data compression method as part of the TLS
     Handshake Protocol and to then apply the algorithm associated with the selected
     method as part of the TLS Record Protocol.  TLS defines one standard compression
     method which specifies that data exchanged via the record protocol will not be
     compressed.  This document describes an additional compression method associated
     with a lossless data compression algorithm for use with TLS, and it describes
-    a method for the specification of additional TLS compression methods. [STANDARDS-TRACK]
+    a method for the specification of additional TLS compression methods. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3749'
+fetched: '2022-01-23'
 keyword:
 - tls
 - lossless data compression

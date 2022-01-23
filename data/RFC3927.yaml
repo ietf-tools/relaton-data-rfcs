@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cheshire
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Cheshire
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aboba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Aboba
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Guttman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Guttman
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: To participate in wide-area IP networking, a host needs to be configured
+- content: "<p>To participate in wide-area IP networking, a host needs to be configured
     with IP addresses for its interfaces, either manually by the user or automatically
     from a source on the network such as a Dynamic Host Configuration Protocol (DHCP)
     server. Unfortunately, such address configuration information may not always be
@@ -65,18 +101,23 @@ abstract:
     subset of IP networking functions even when no address configuration is available.
     This document describes how a host may automatically configure an interface with
     an IPv4 address within the 169.254/16 prefix that is valid for communication with
-    other devices connected to the same physical (or logical) link. IPv4 Link-Local
+    other devices connected to the same physical (or logical) link.</p><p>IPv4 Link-Local
     addresses are not suitable for communication with devices not directly connected
     to the same physical (or logical) link, and are only used where stable, routable
     addresses are not available (such as on ad hoc or isolated networks). This document
     does not recommend that IPv4 Link-Local addresses and routable addresses be configured
-    simultaneously on the same interface. [STANDARDS-TRACK]
+    simultaneously on the same interface. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3927'
+fetched: '2022-01-23'
 keyword:
 - ip network
 - ip address

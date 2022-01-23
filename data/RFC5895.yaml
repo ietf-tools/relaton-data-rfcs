@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Resnick
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Resnick
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoffman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hoffman
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: In the original version of the Internationalized Domain Names in Applications
+- content: <p>In the original version of the Internationalized Domain Names in Applications
     (IDNA) protocol, any Unicode code points taken from user input were mapped into
     a set of Unicode code points that "made sense", and then encoded and passed to
     the domain name system (DNS).  The IDNA2008 protocol (described in RFCs 5890,
@@ -58,13 +82,18 @@ abstract:
     the actions that can be taken by an implementation between receiving user input
     and passing permitted code points to the new IDNA protocol.  This document is
     not an Internet Standards Track specification; it is published for informational
-    purposes.
+    purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5895'
+fetched: '2022-01-23'
 keyword:
 - user input
 - character mapping

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tsou
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Tsou
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Hao
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Taylor
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Taylor
         language:
@@ -57,15 +93,16 @@ language:
 script:
 - Latn
 abstract:
-- content: The Diameter protocol includes a capability for message redirection, controlled
-    by an application-independent "redirect agent". In some circumstances, an operator
-    may wish to redirect messages to an alternate domain without specifying individual
-    hosts. This document specifies an application-specific mechanism by which a Diameter
-    server or proxy (node) can perform such a redirection when the Straightforward-Naming
-    Authority Pointer (S-NAPTR) is not used for dynamic peer discovery. A node performing
-    this new function is referred to as a "Realm-based Redirect Server". This memo
-    updates Sections 6.13 and 6.14 of RFC 6733 with respect to the usage of the Redirect-Host-Usage
-    and Redirect-Max-Cache-Time Attribute-Value Pairs (AVPs).
+- content: <p>The Diameter protocol includes a capability for message redirection,
+    controlled by an application-independent "redirect agent". In some circumstances,
+    an operator may wish to redirect messages to an alternate domain without specifying
+    individual hosts. This document specifies an application-specific mechanism by
+    which a Diameter server or proxy (node) can perform such a redirection when the
+    Straightforward-Naming Authority Pointer (S-NAPTR) is not used for dynamic peer
+    discovery. A node performing this new function is referred to as a "Realm-based
+    Redirect Server".</p><p>This memo updates Sections 6.13 and 6.14 of RFC 6733 with
+    respect to the usage of the Redirect-Host-Usage and Redirect-Max-Cache-Time Attribute-Value
+    Pairs (AVPs).</p>
   language:
   - en
   script:
@@ -77,7 +114,12 @@ relation:
     formattedref:
       content: RFC6733
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7075'
+fetched: '2022-01-23'
 keyword:
 - Diameter
 - routing

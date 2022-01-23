@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lazzaro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lazzaro
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wawrzynek
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Wawrzynek
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes a Real-time Transport Protocol (RTP) payload format
+- content: "<p>This memo describes a Real-time Transport Protocol (RTP) payload format
     for the MIDI (Musical Instrument Digital Interface) command language.  The format
     encodes all commands that may legally appear on a MIDI 1.0 DIN cable.  The format
     is suitable for interactive applications (such as network musical performance)
@@ -56,7 +80,7 @@ abstract:
     recovery from packet loss.  Stream behavior, including the MIDI rendering method,
     may be customized during session setup.  The format also serves as a mode for
     the mpeg4-generic format, to support the MPEG 4 Audio Object Types for General
-    MIDI, Downloadable Sounds Level 2, and Structured Audio. [STANDARDS-TRACK]
+    MIDI, Downloadable Sounds Level 2, and Structured Audio. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC6295
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4695'
+fetched: '2022-01-23'
 keyword:
 - asc
 - content streaming

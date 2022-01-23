@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ripke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Ripke
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Winter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Winter
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dietz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Dietz
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Quittek
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Quittek
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: da Silva
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. da Silva
         language:
@@ -77,12 +137,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a new Port Control Protocol (PCP) option called
+- content: "<p>This document describes a new Port Control Protocol (PCP) option called
     the THIRD_PARTY_ID option. It is designed to be used together with the THIRD_PARTY
-    option specified in RFC 6887. The THIRD_PARTY_ID option serves to identify a third
-    party in situations where a third party's IP address contained in the THIRD_PARTY
-    option does not provide sufficient information to create requested mappings in
-    a PCP-controlled device.
+    option specified in RFC 6887.</p><p>The THIRD_PARTY_ID option serves to identify
+    a third party in situations where a third party's IP address contained in the
+    THIRD_PARTY option does not provide sufficient information to create requested
+    mappings in a PCP-controlled device.</p>"
   language:
   - en
   script:
@@ -94,7 +154,12 @@ relation:
     formattedref:
       content: RFC6887
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7843'
+fetched: '2022-01-23'
 keyword:
 - PCP
 - option

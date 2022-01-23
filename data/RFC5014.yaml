@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nordmark
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Nordmark
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chakrabarti
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Chakrabarti
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Laganier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Laganier
         language:
@@ -57,26 +93,31 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPv6 default address selection document (RFC 3484) describes the rules
-    for selecting source and destination IPv6 addresses, and indicates that applications
-    should be able to reverse the sense of some of the address selection rules through
-    some unspecified API.  However, no such socket API exists in the basic (RFC 3493)
-    or advanced (RFC 3542) IPv6 socket API documents.  This document fills that gap
-    partially by specifying new socket-level options for source address selection
-    and flags for the getaddrinfo() API to specify address selection based on the
-    source address preference in accordance with the socket-level options that modify
-    the default source address selection algorithm.  The socket API described in this
-    document will be particularly useful for IPv6 applications that want to choose
-    between temporary and public addresses, and for Mobile IPv6 aware applications
+- content: "<p>The IPv6 default address selection document (RFC 3484) describes the
+    rules for selecting source and destination IPv6 addresses, and indicates that
+    applications should be able to reverse the sense of some of the address selection
+    rules through some unspecified API.  However, no such socket API exists in the
+    basic (RFC 3493) or advanced (RFC 3542) IPv6 socket API documents.  This document
+    fills that gap partially by specifying new socket-level options for source address
+    selection and flags for the getaddrinfo() API to specify address selection based
+    on the source address preference in accordance with the socket-level options that
+    modify the default source address selection algorithm.  The socket API described
+    in this document will be particularly useful for IPv6 applications that want to
+    choose between temporary and public addresses, and for Mobile IPv6 aware applications
     that want to use the care-of address for communication.  It also specifies socket
     options and flags for selecting Cryptographically Generated Address (CGA) or non-CGA
-    source addresses.  This memo provides information for the Internet community.
+    source addresses.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5014'
+fetched: '2022-01-23'
 keyword:
 - getaddrinfo()cga
 - cryptographically generated address

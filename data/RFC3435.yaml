@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andreasen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Andreasen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Foster
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Foster
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an application programming interface and a corresponding
+- content: <p>This document describes an application programming interface and a corresponding
     protocol (MGCP) which is used between elements of a decomposed multimedia gateway.  The
     decomposed multimedia gateway consists of a Call Agent, which contains the call
     control "intelligence", and a media gateway which contains the media functions,
@@ -61,13 +85,18 @@ abstract:
     gateways will need to implement one or more MGCP packages, which define extensions
     to the protocol suitable for use with specific types of media gateways.  Such
     packages are defined in separate documents.  This memo provides information for
-    the Internet community.
+    the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3435'
+fetched: '2022-01-23'
 keyword:
 - voice
 - IP

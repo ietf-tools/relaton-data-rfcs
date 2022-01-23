@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Weiler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Weiler
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ihren
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Ihren
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to construct DNSSEC NSEC resource records that
-    cover a smaller range of names than called for by RFC 4034.  By generating and
-    signing these records on demand, authoritative name servers can effectively stop
-    the disclosure of zone contents otherwise made possible by walking the chain of
-    NSEC records in a signed zone. [STANDARDS-TRACK]
+- content: "<p>This document describes how to construct DNSSEC NSEC resource records
+    that cover a smaller range of names than called for by RFC 4034.  By generating
+    and signing these records on demand, authoritative name servers can effectively
+    stop the disclosure of zone contents otherwise made possible by walking the chain
+    of NSEC records in a signed zone. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC4034
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4470'
+fetched: '2022-01-23'
 keyword:
 - dns security
 - domain name system

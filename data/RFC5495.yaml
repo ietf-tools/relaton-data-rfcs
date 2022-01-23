@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Li
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Gao
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Satyanarayana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Satyanarayana
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bardalai
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bardalai
         language:
@@ -68,27 +116,33 @@ language:
 script:
 - Latn
 abstract:
-- content: The Hello message for the Resource Reservation Protocol (RSVP) has been
-    defined to establish and maintain basic signaling node adjacencies for Label Switching
-    Routers (LSRs) participating in a Multiprotocol Label Switching (MPLS) traffic-engineered
-    (TE) network. The Hello message has been extended for use in Generalized MPLS
-    (GMPLS) networks for state recovery of control channel or nodal faults. The GMPLS
-    protocol definitions for RSVP also allow a restarting node to learn which label
-    it previously allocated for use on a Label Switched Path (LSP). Further RSVP protocol
-    extensions have been defined to enable a restarting node to recover full control
-    plane state by exchanging RSVP messages with its upstream and downstream neighbors.
-    This document provides an informational clarification of the control plane procedures
-    for a GMPLS network when there are multiple node failures, and describes how full
-    control plane state can be recovered in different scenarios where the order in
-    which the nodes restart is different. This document does not define any new processes
-    or procedures. All protocol mechanisms are already defined in the referenced documents.
-    This memo provides information for the Internet community.
+- content: "<p>The Hello message for the Resource Reservation Protocol (RSVP) has
+    been defined to establish and maintain basic signaling node adjacencies for Label
+    Switching Routers (LSRs) participating in a Multiprotocol Label Switching (MPLS)
+    traffic-engineered (TE) network. The Hello message has been extended for use in
+    Generalized MPLS (GMPLS) networks for state recovery of control channel or nodal
+    faults.</p><p>The GMPLS protocol definitions for RSVP also allow a restarting
+    node to learn which label it previously allocated for use on a Label Switched
+    Path (LSP).</p><p>Further RSVP protocol extensions have been defined to enable
+    a restarting node to recover full control plane state by exchanging RSVP messages
+    with its upstream and downstream neighbors.</p><p>This document provides an informational
+    clarification of the control plane procedures for a GMPLS network when there are
+    multiple node failures, and describes how full control plane state can be recovered
+    in different scenarios where the order in which the nodes restart is different.</p><p>This
+    document does not define any new processes or procedures. All protocol mechanisms
+    are already defined in the referenced documents. This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5495'
+fetched: '2022-01-23'
 keyword:
 - Hello message
 - gmpls

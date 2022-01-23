@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Berger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Berger
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Papadimitriou
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Papadimitriou
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how Resource ReserVation Protocol (RSVP) PathErr
+- content: "<p>This document describes how Resource ReserVation Protocol (RSVP) PathErr
     messages may be used to trigger rerouting of Multi-Protocol Label Switching (MPLS)
     and Generalized MPLS (GMPLS) point-to-point Traffic Engineering (TE) Label Switched
     Paths (LSPs) without first removing LSP state or resources.  Such LSP rerouting
@@ -68,13 +104,18 @@ abstract:
     to be executed.  While existing protocol definitions can be used to support reroute
     applications, this document also defines a new reroute-specific error code to
     allow for the future definition of reroute-application-specific error values.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5710'
+fetched: '2022-01-23'
 keyword:
 - resource reservation protocol
 - rsvp

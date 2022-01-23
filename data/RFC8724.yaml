@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Minaburo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Minaburo
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Toutain
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Toutain
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gomez
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Gomez
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Barthel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Barthel
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JC
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zuniga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JC. Zuniga
         language:
@@ -77,29 +137,34 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the Static Context Header Compression and fragmentation
+- content: "<p>This document defines the Static Context Header Compression and fragmentation
     (SCHC) framework, which provides both a header compression mechanism and an optional
     fragmentation mechanism. SCHC has been designed with Low-Power Wide Area Networks
-    (LPWANs) in mind. SCHC compression is based on a common static context stored
+    (LPWANs) in mind.</p><p>SCHC compression is based on a common static context stored
     both in the LPWAN device and in the network infrastructure side. This document
     defines a generic header compression mechanism and its application to compress
-    IPv6/UDP headers. This document also specifies an optional fragmentation and reassembly
-    mechanism. It can be used to support the IPv6 MTU requirement over the LPWAN technologies.
-    Fragmentation is needed for IPv6 datagrams that, after SCHC compression or when
-    such compression was not possible, still exceed the Layer 2 maximum payload size.
-    The SCHC header compression and fragmentation mechanisms are independent of the
-    specific LPWAN technology over which they are used. This document defines generic
-    functionalities and offers flexibility with regard to parameter settings and mechanism
-    choices. This document standardizes the exchange over the LPWAN between two SCHC
-    entities. Settings and choices specific to a technology or a product are expected
-    to be grouped into profiles, which are specified in other documents. Data models
-    for the context and profiles are out of scope.
+    IPv6/UDP headers.</p><p>This document also specifies an optional fragmentation
+    and reassembly mechanism. It can be used to support the IPv6 MTU requirement over
+    the LPWAN technologies. Fragmentation is needed for IPv6 datagrams that, after
+    SCHC compression or when such compression was not possible, still exceed the Layer
+    2 maximum payload size.</p><p>The SCHC header compression and fragmentation mechanisms
+    are independent of the specific LPWAN technology over which they are used. This
+    document defines generic functionalities and offers flexibility with regard to
+    parameter settings and mechanism choices. This document standardizes the exchange
+    over the LPWAN between two SCHC entities. Settings and choices specific to a technology
+    or a product are expected to be grouped into profiles, which are specified in
+    other documents. Data models for the context and profiles are out of scope.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8724'
+fetched: '2022-01-23'
 keyword:
 - header compression
 - compression

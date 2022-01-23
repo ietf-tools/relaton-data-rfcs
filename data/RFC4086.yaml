@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schiller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schiller
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Crocker
         language:
@@ -57,28 +93,38 @@ language:
 script:
 - Latn
 abstract:
-- content: Security systems are built on strong cryptographic algorithms that foil
-    pattern analysis attempts. However, the security of these systems is dependent
+- content: "<p>Security systems are built on strong cryptographic algorithms that
+    foil pattern analysis attempts. However, the security of these systems is dependent
     on generating secret quantities for passwords, cryptographic keys, and similar
     quantities. The use of pseudo-random processes to generate secret quantities can
     result in pseudo-security. A sophisticated attacker may find it easier to reproduce
     the environment that produced the secret quantities and to search the resulting
     small set of possibilities than to locate the quantities in the whole of the potential
-    number space. Choosing random quantities to foil a resourceful and motivated adversary
-    is surprisingly difficult. This document points out many pitfalls in using poor
-    entropy sources or traditional pseudo-random number generation techniques for
-    generating such quantities. It recommends the use of truly random hardware techniques
-    and shows that the existing hardware on many systems can be used for this purpose.
-    It provides suggestions to ameliorate the problem when a hardware solution is
-    not available, and it gives examples of how large such quantities need to be for
-    some applications. This document specifies an Internet Best Current Practices
-    for the Internet Community, and requests discussion and suggestions for improvements.
+    number space.</p><p>Choosing random quantities to foil a resourceful and motivated
+    adversary is surprisingly difficult. This document points out many pitfalls in
+    using poor entropy sources or traditional pseudo-random number generation techniques
+    for generating such quantities. It recommends the use of truly random hardware
+    techniques and shows that the existing hardware on many systems can be used for
+    this purpose. It provides suggestions to ameliorate the problem when a hardware
+    solution is not available, and it gives examples of how large such quantities
+    need to be for some applications. This document specifies an Internet Best Current
+    Practices for the Internet Community, and requests discussion and suggestions
+    for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '106'
+- title:
+    content: RFC
+    format: text/plain
+  number: '4086'
+fetched: '2022-01-23'
 keyword:
 - cryptographic algorithms
 - passwords

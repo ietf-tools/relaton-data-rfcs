@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vinocur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Vinocur
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Murchison
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Murchison
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines an extension to the Network News Transfer Protocol
+- content: "<p>This document defines an extension to the Network News Transfer Protocol
     (NNTP) that allows a client to indicate an authentication mechanism to the server,
     to perform an authentication protocol exchange, and optionally to negotiate a
     security layer for subsequent protocol interactions during the remainder of an
-    NNTP session. This document updates and formalizes the AUTHINFO USER/PASS authentication
-    method specified in RFC 2980 and deprecates the AUTHINFO SIMPLE and AUTHINFO GENERIC
-    authentication methods. Additionally, this document defines a profile of the Simple
-    Authentication and Security Layer (SASL) for NNTP. [STANDARDS-TRACK]
+    NNTP session.</p><p>This document updates and formalizes the AUTHINFO USER/PASS
+    authentication method specified in RFC 2980 and deprecates the AUTHINFO SIMPLE
+    and AUTHINFO GENERIC authentication methods. Additionally, this document defines
+    a profile of the Simple Authentication and Security Layer (SASL) for NNTP. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC2980
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4643'
+fetched: '2022-01-23'
 keyword:
 - authinfo user/pass
 - authinfo simple

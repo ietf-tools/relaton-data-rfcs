@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Black
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Black
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kompella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kompella
         language:
@@ -48,21 +72,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Proper functioning of RFC 1191 path Maximum Transmission Unit (MTU) discovery
-    requires that IP routers have knowledge of the MTU for each link to which they
-    are connected.  As currently specified, the Label Distribution Protocol (LDP)
-    does not have the ability to signal the MTU for a Label Switched Path (LSP) to
-    the ingress Label Switching Router (LSR).  In the absence of this functionality,
+- content: "<p>Proper functioning of RFC 1191 path Maximum Transmission Unit (MTU)
+    discovery requires that IP routers have knowledge of the MTU for each link to
+    which they are connected.  As currently specified, the Label Distribution Protocol
+    (LDP) does not have the ability to signal the MTU for a Label Switched Path (LSP)
+    to the ingress Label Switching Router (LSR).  In the absence of this functionality,
     the MTU for each LSP must be statically configured by network operators or by
     equivalent off-line mechanisms.  This document specifies experimental extensions
     to LDP in support of LSP MTU discovery.  This memo defines an Experimental Protocol
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3988'
+fetched: '2022-01-23'
 keyword:
 - mtu
 - ldp

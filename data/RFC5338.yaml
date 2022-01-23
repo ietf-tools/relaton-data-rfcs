@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Henderson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nikander
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Nikander
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Komu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Komu
         language:
@@ -57,9 +93,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is an informative overview of how legacy applications can
-    be made to work with the Host Identity Protocol (HIP).  HIP proposes to add a
-    cryptographic name space for network stack names.  From an application viewpoint,
+- content: "<p>This document is an informative overview of how legacy applications
+    can be made to work with the Host Identity Protocol (HIP).  HIP proposes to add
+    a cryptographic name space for network stack names.  From an application viewpoint,
     HIP-enabled systems support a new address family of host identifiers, but it may
     be a long time until such HIP-aware applications are widely deployed even if host
     systems are upgraded.  This informational document discusses implementation and
@@ -67,13 +103,18 @@ abstract:
     in which the system is HIP-aware but the applications are not, and is intended
     to aid implementors and early adopters in thinking about and locally solving systems
     issues regarding the incremental deployment of HIP.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5338'
+fetched: '2022-01-23'
 keyword:
 - hip
 - cryptographic name space

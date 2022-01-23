@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Rosen
         language:
@@ -38,18 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3966 explicitly states that 'tel' URIs may not represent a dial string.  That
-    leaves no way specify a dial string in a standardized way.  Great confusion exists
-    with the SIP URI parameter "user=phone", and specifically, if it can represent
-    a dial string.  This memo creates a new value for the user parameter "dialstring",
-    so that one may specify "user=dialstring" to encode a dial string as a 'sip:'
-    or 'sips:' URI. [STANDARDS-TRACK]
+- content: <p>RFC 3966 explicitly states that 'tel' URIs may not represent a dial
+    string.  That leaves no way specify a dial string in a standardized way.  Great
+    confusion exists with the SIP URI parameter "user=phone", and specifically, if
+    it can represent a dial string.  This memo creates a new value for the user parameter
+    "dialstring", so that one may specify "user=dialstring" to encode a dial string
+    as a 'sip:' or 'sips:' URI. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4967'
+fetched: '2022-01-23'
 keyword:
 - dialstring
 editorialgroup:

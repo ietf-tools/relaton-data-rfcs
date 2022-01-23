@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Srisuresh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Srisuresh
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ford
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Ford
         language:
@@ -47,8 +71,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document identifies two deployment scenarios that have arisen from
-    the unconventional network topologies formed using Network Address Translator
+- content: "<p>This document identifies two deployment scenarios that have arisen
+    from the unconventional network topologies formed using Network Address Translator
     (NAT) devices.  First, the simplicity of administering networks through the combination
     of NAT and DHCP has increasingly lead to the deployment of multi-level inter-connected
     private networks involving overlapping private IP address spaces.  Second, the
@@ -57,14 +81,19 @@ abstract:
     intranet from remote locations has increasingly lead to overlapping private IP
     address space between remote and corporate networks.  This document does not dismiss
     these unconventional scenarios as invalid, but recognizes them as real and offers
-    recommendations to help ensure these deployments can function without a meltdown.  This
-    document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    recommendations to help ensure these deployments can function without a meltdown.
+    \ This document is not an Internet Standards Track specification; it is published
+    for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5684'
+fetched: '2022-01-23'
 keyword:
 - network address translator

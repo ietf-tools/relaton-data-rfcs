@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -33,6 +50,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nandakumar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Nandakumar
         language:
@@ -43,6 +72,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thatcher
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Thatcher
         language:
@@ -57,16 +98,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines and registers two new Real-time Transport Control
+- content: "<p>This document defines and registers two new Real-time Transport Control
     Protocol (RTCP) Stream Identifier Source Description (SDES) items.  One, named
     RtpStreamId, is used for unique identification of RTP streams.  The other, RepairedRtpStreamId,
     can be used to identify which stream is to be repaired using a redundancy RTP
-    stream.
+    stream.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8852'
+fetched: '2022-01-23'
 editorialgroup:
 - name: avtext

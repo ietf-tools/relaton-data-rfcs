@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -38,9 +50,10 @@ language:
 script:
 - Latn
 abstract:
-- content: The RFC Payload Format for Uncompressed Video, RFC 4175, defines a scheme
-    to packetise uncompressed, studio-quality, video streams for transport using RTP.  This
-    memo extends the format to support additional colour sampling modes. [STANDARDS-TRACK]
+- content: "<p>The RFC Payload Format for Uncompressed Video, RFC 4175, defines a
+    scheme to packetise uncompressed, studio-quality, video streams for transport
+    using RTP.  This memo extends the format to support additional colour sampling
+    modes. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +65,12 @@ relation:
     formattedref:
       content: RFC4175
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4421'
+fetched: '2022-01-23'
 keyword:
 - realtime transport protocol
 - video stream

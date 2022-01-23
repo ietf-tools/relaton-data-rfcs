@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ogier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Ogier
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a backward-compatible optimization for the Database
-    Exchange process in OSPFv2 and OSPFv3.  In this optimization, a router does not
-    list a Link State Advertisement (LSA) in Database Description packets sent to
-    a neighbor, if the same or a more recent instance of the LSA was listed in a Database
-    Description packet already received from the neighbor.  This optimization reduces
-    Database Description overhead by about 50% in large networks.  This optimization
+- content: "<p>This document describes a backward-compatible optimization for the
+    Database Exchange process in OSPFv2 and OSPFv3.  In this optimization, a router
+    does not list a Link State Advertisement (LSA) in Database Description packets
+    sent to a neighbor, if the same or a more recent instance of the LSA was listed
+    in a Database Description packet already received from the neighbor.  This optimization
+    reduces Database Description overhead by about 50% in large networks.  This optimization
     does not affect synchronization, since it only omits unnecessary information from
     Database Description packets.  This memo provides information for the Internet
-    community.
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5243'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wellington
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Wellington
         language:
@@ -37,10 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a revised model of Domain Name System Security (DNSSEC)
-    Signing Authority.  The revised model is designed to clarify earlier documents
-    and add additional restrictions to simplify the secure resolution process.  Specifically,
-    this affects the authorization of keys to sign sets of records. [STANDARDS-TRACK]
+- content: "<p>This document proposes a revised model of Domain Name System Security
+    (DNSSEC) Signing Authority.  The revised model is designed to clarify earlier
+    documents and add additional restrictions to simplify the secure resolution process.
+    \ Specifically, this affects the authorization of keys to sign sets of records.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -67,7 +80,12 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3008'
+fetched: '2022-01-23'
 keyword:
 - DNSSEC
 - authentication

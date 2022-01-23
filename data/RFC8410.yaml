@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Josefsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Josefsson
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schaad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schaad
         language:
@@ -48,17 +72,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies algorithm identifiers and ASN.1 encoding formats
+- content: "<p>This document specifies algorithm identifiers and ASN.1 encoding formats
     for elliptic curve constructs using the curve25519 and curve448 curves.  The signature
     algorithms covered are Ed25519 and Ed448.  The key agreement algorithms covered
     are X25519 and X448.  The encoding for public key, private key, and Edwards-curve
-    Digital Signature Algorithm (EdDSA) structures is provided.
+    Digital Signature Algorithm (EdDSA) structures is provided.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8410'
+fetched: '2022-01-23'
 keyword:
 - Elliptic Curve Cryptography
 - Curve25519

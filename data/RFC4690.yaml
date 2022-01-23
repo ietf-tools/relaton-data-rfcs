@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Faltstrom
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Faltstrom
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Karp
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Karp
         language:
@@ -51,14 +87,9 @@ contributor:
         - Latn
   role:
   - author
-- person:
+- organization:
     name:
-      completename:
-        content: IAB
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 revdate: 2006-09
@@ -67,7 +98,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This note describes issues raised by the deployment and use of Internationalized
+- content: "<p>This note describes issues raised by the deployment and use of Internationalized
     Domain Names.  It describes problems both at the time of registration and for
     use of those names in the DNS.  It recommends that IETF should update the RFCs
     relating to IDNs and a framework to be followed in doing so, as well as summarizing
@@ -75,13 +106,18 @@ abstract:
     proposes that some changes be investigated for the Internationalizing Domain Names
     in Applications (IDNA) standard and its supporting tables, based on experience
     gained since those standards were completed.  This memo provides information for
-    the Internet community.
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4690'
+fetched: '2022-01-23'
 keyword:
 - dns
 - domain namespace

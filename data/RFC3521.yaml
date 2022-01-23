@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L-N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hamer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L-N. Hamer
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gage
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Gage
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shieh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Shieh
         language:
@@ -57,8 +93,8 @@ language:
 script:
 - Latn
 abstract:
-- content: Establishing multimedia streams must take into account requirements for
-    end-to-end QoS, authorization of network resource usage and accurate accounting
+- content: "<p>Establishing multimedia streams must take into account requirements
+    for end-to-end QoS, authorization of network resource usage and accurate accounting
     for resources used.  During session set up, policies may be enforced to ensure
     that the media streams being requested lie within the bounds of the service profile
     established for the requesting host.  Similarly, when a host requests resources
@@ -68,13 +104,18 @@ abstract:
     document describes various scenarios and mechanisms that provide the linkage required
     to verify that the resources being used to provide a requested QoS are in- line
     with the media streams requested (and authorized) for the session.  This memo
-    provides information for the Internet community.
+    provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3521'
+fetched: '2022-01-23'
 keyword:
 - qos
 - quality of service

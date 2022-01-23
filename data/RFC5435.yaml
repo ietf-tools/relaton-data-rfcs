@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Segmuller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Segmuller
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Martin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Martin
         language:
@@ -67,21 +115,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Users go to great lengths to be notified as quickly as possible that they
-    have received new mail.  Most of these methods involve polling to check for new
-    messages periodically.  A push method handled by the final delivery agent gives
-    users quicker notifications and saves server resources.  This document does not
-    specify the notification method, but it is expected that using existing instant
+- content: "<p>Users go to great lengths to be notified as quickly as possible that
+    they have received new mail.  Most of these methods involve polling to check for
+    new messages periodically.  A push method handled by the final delivery agent
+    gives users quicker notifications and saves server resources.  This document does
+    not specify the notification method, but it is expected that using existing instant
     messaging infrastructure such as Extensible Messaging and Presence Protocol (XMPP),
     or Global System for Mobile Communications (GSM) Short Message Service (SMS) messages
     will be popular.  This document describes an extension to the Sieve mail filtering
     language that allows users to give specific rules for how and when notifications
-    should be sent. [STANDARDS-TRACK]
+    should be sent. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5435'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sieve

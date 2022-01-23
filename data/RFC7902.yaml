@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Morin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Morin
         language:
@@ -48,14 +72,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The BGP-based control procedures for Multicast Virtual Private Networks
+- content: <p>The BGP-based control procedures for Multicast Virtual Private Networks
     (MVPNs) make use of a BGP attribute known as the "P-Multicast Service Interface
     (PMSI) Tunnel" attribute.  The attribute contains a one-octet "Flags" field.  The
     purpose of this document is to establish an IANA registry for the assignment of
     the bits in this field.  Since the "Flags" field contains only eight bits, this
     document also defines a new BGP Extended Community, "Additional PMSI Tunnel Attribute
     Flags", that can be used to carry additional flags for the "P-Multicast Service
-    Interface (PMSI) Tunnel" attribute.  This document updates RFC 6514.
+    Interface (PMSI) Tunnel" attribute.  This document updates RFC 6514.</p>
   language:
   - en
   script:
@@ -67,6 +91,11 @@ relation:
     formattedref:
       content: RFC6514
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7902'
+fetched: '2022-01-23'
 editorialgroup:
 - name: bess

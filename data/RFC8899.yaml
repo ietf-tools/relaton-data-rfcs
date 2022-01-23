@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Jones
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tüxen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Tüxen
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rüngeler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Rüngeler
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Völker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Völker
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies Datagram Packetization Layer Path MTU Discovery
+- content: "<p>This document specifies Datagram Packetization Layer Path MTU Discovery
     (DPLPMTUD). This is a robust method for Path MTU Discovery (PMTUD) for datagram
     Packetization Layers (PLs). It allows a PL, or a datagram application that uses
     a PL, to discover whether a network path can support the current size of datagram.
@@ -86,10 +146,10 @@ abstract:
     maximum packet size can be increased. This provides functionality for datagram
     transports that is equivalent to the PLPMTUD specification for TCP, specified
     in RFC 4821, which it updates. It also updates the UDP Usage Guidelines to refer
-    to this method for use with UDP datagrams and updates SCTP. The document provides
-    implementation notes for incorporating Datagram PMTUD into IETF datagram transports
-    or applications that use datagram transports. This specification updates RFC 4960,
-    RFC 4821, RFC 6951, RFC 8085, and RFC 8261.
+    to this method for use with UDP datagrams and updates SCTP.</p><p>The document
+    provides implementation notes for incorporating Datagram PMTUD into IETF datagram
+    transports or applications that use datagram transports.</p><p>This specification
+    updates RFC 4960, RFC 4821, RFC 6951, RFC 8085, and RFC 8261.</p>"
   language:
   - en
   script:
@@ -121,7 +181,12 @@ relation:
     formattedref:
       content: RFC8261
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8899'
+fetched: '2022-01-23'
 keyword:
 - UDP
 - SCTP

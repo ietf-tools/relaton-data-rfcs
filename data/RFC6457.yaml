@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Takeda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Takeda
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -48,26 +72,31 @@ language:
 script:
 - Latn
 abstract:
-- content: The Path Computation Element (PCE) provides functions of path computation
+- content: <p>The Path Computation Element (PCE) provides functions of path computation
     in support of traffic engineering in networks controlled by Multi-Protocol Label
-    Switching (MPLS) and Generalized MPLS (GMPLS). MPLS and GMPLS networks may be
-    constructed from layered client/server networks. It is advantageous for overall
+    Switching (MPLS) and Generalized MPLS (GMPLS).</p><p>MPLS and GMPLS networks may
+    be constructed from layered client/server networks. It is advantageous for overall
     network efficiency to provide end-to-end traffic engineering across multiple network
-    layers. PCE is a candidate solution for such requirements. Generic requirements
+    layers. PCE is a candidate solution for such requirements.</p><p>Generic requirements
     for a communication protocol between Path Computation Clients (PCCs) and PCEs
     are presented in RFC 4657, "Path Computation Element (PCE) Communication Protocol
     Generic Requirements". Generic requirements for a PCE discovery protocol are presented
-    in RFC 4674, "Requirements for Path Computation Element (PCE) Discovery". This
+    in RFC 4674, "Requirements for Path Computation Element (PCE) Discovery".</p><p>This
     document complements the generic requirements and presents detailed sets of PCC-PCE
     communication protocol requirements and PCE discovery protocol requirements for
     inter-layer traffic engineering. This document is not an Internet Standards Track
-    specification; it is published for informational purposes.
+    specification; it is published for informational purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6457'
+fetched: '2022-01-23'
 keyword:
 - PCEP
 - inter-layer

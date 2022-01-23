@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Doi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Doi
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gillmore
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Gillmore
         language:
@@ -48,19 +72,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a way to configure a parameter set for MPL (Multicast
+- content: "<p>This document defines a way to configure a parameter set for MPL (Multicast
     Protocol for Low-Power and Lossy Networks) via a DHCPv6 option.  MPL has a set
     of parameters to control its behavior, and the parameter set is often configured
     as a network-wide parameter because the parameter set should be identical for
     each MPL Forwarder in an MPL Domain.  Using the MPL Parameter Configuration Option
     defined in this document, a network can easily be configured with a single set
-    of MPL parameters.
+    of MPL parameters.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7774'
+fetched: '2022-01-23'
 keyword:
 - MPL
 - DHCPv6

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Brown
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Brown
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies authorization extensions to the Transport Layer
+- content: "<p>This document specifies authorization extensions to the Transport Layer
     Security (TLS) Handshake Protocol.  Extensions are carried in the client and server
     hello messages to confirm that both parties support the desired authorization
     data types.  Then, if supported by both the client and the server, authorization
     information, such as attribute certificates (ACs) or Security Assertion Markup
-    Language (SAML) assertions, is exchanged in the supplemental data handshake message.  This
-    document defines an Experimental Protocol for the Internet community.
+    Language (SAML) assertions, is exchanged in the supplemental data handshake message.
+    \ This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC5246
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5878'
+fetched: '2022-01-23'
 keyword:
 - handshake protocol
 editorialgroup:

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perlman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Perlman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Hu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Liao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Liao
         language:
@@ -67,19 +115,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document addresses the problem of the size and freshness of the endnode
-    learning table in edge Routing Bridges (RBridges), by allowing endnodes to volunteer
-    for endnode learning and encapsulation/decapsulation.  Such an endnode is known
-    as a "Smart Endnode".  Only the attached edge RBridge can distinguish a "Smart
-    Endnode" from a "normal endnode".  The Smart Endnode uses the nickname of the
-    attached edge RBridge, so this solution does not consume extra nicknames.  The
-    solution also enables endnodes that are Fine-Grained Label (FGL) aware.
+- content: <p>This document addresses the problem of the size and freshness of the
+    endnode learning table in edge Routing Bridges (RBridges), by allowing endnodes
+    to volunteer for endnode learning and encapsulation/decapsulation.  Such an endnode
+    is known as a "Smart Endnode".  Only the attached edge RBridge can distinguish
+    a "Smart Endnode" from a "normal endnode".  The Smart Endnode uses the nickname
+    of the attached edge RBridge, so this solution does not consume extra nicknames.  The
+    solution also enables endnodes that are Fine-Grained Label (FGL) aware.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8384'
+fetched: '2022-01-23'
 keyword:
 - TRILL
 - Smart Endnode

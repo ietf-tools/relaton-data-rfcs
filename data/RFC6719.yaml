@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gnawali
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Gnawali
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Levis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Levis
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The Routing Protocol for Low-Power and Lossy Networks (RPL) constructs
+- content: "<p>The Routing Protocol for Low-Power and Lossy Networks (RPL) constructs
     routes by using Objective Functions that optimize or constrain the routes it selects
     and uses.  This specification describes the Minimum Rank with Hysteresis Objective
     Function (MRHOF), an Objective Function that selects routes that minimize a metric,
     while using hysteresis to reduce churn in response to small metric changes.  MRHOF
     works with additive metrics along a route, and the metrics it uses are determined
     by the metrics that the RPL Destination Information Object (DIO) messages advertise.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6719'
+fetched: '2022-01-23'
 keyword:
 - Routing Protocol for Low Power and Lossy Networks
 - RPL

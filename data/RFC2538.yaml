@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gudmundsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Gudmundsson
         language:
@@ -47,10 +71,10 @@ language:
 script:
 - Latn
 abstract:
-- content: Cryptographic public key are frequently published and their authenticity
+- content: "<p>Cryptographic public key are frequently published and their authenticity
     demonstrated by certificates.  A CERT resource record (RR) is defined so that
     such certificates and related certificate revocation lists can be stored in the
-    Domain Name System (DNS). [STANDARDS-TRACK]
+    Domain Name System (DNS). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -62,7 +86,12 @@ relation:
     formattedref:
       content: RFC4398
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2538'
+fetched: '2022-01-23'
 keyword:
 - SC-DNS
 - cryptology

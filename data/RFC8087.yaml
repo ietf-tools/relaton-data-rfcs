@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Welzl
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Welzl
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The goal of this document is to describe the potential benefits of applications
-    using a transport that enables Explicit Congestion Notification (ECN).  The document
-    outlines the principal gains in terms of increased throughput, reduced delay,
-    and other benefits when ECN is used over a network path that includes equipment
-    that supports Congestion Experienced (CE) marking.  It also discusses challenges
-    for successful deployment of ECN.  It does not propose new algorithms to use ECN
-    nor does it describe the details of implementation of ECN in endpoint devices
-    (Internet hosts), routers, or other network devices.
+- content: "<p>The goal of this document is to describe the potential benefits of
+    applications using a transport that enables Explicit Congestion Notification (ECN).
+    \ The document outlines the principal gains in terms of increased throughput,
+    reduced delay, and other benefits when ECN is used over a network path that includes
+    equipment that supports Congestion Experienced (CE) marking.  It also discusses
+    challenges for successful deployment of ECN.  It does not propose new algorithms
+    to use ECN nor does it describe the details of implementation of ECN in endpoint
+    devices (Internet hosts), routers, or other network devices.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8087'
+fetched: '2022-01-23'
 keyword:
 - ecn
 - aqm

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Thomas
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andersson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Andersson
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Multiprotocol Label Switching (MPLS), described in RFC 3031, is a method
+- content: "<p>Multiprotocol Label Switching (MPLS), described in RFC 3031, is a method
     for forwarding packets that uses short, fixed-length values carried by packets,
     called labels, to determine packet next hops.  A fundamental concept in MPLS is
     that two Label Switching Routers (LSRs) must agree on the meaning of the labels
@@ -58,13 +82,18 @@ abstract:
     to support MPLS forwarding along normally routed paths.  This document reports
     on a survey of LDP implementations conducted in August 2002 as part of the process
     of advancing LDP from Proposed to Draft Standard.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5038'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching
 - mpls

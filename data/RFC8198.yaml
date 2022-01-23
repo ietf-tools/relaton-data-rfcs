@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fujiwara
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Fujiwara
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kato
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Kato
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Kumari
         language:
@@ -57,15 +93,15 @@ language:
 script:
 - Latn
 abstract:
-- content: The DNS relies upon caching to scale; however, the cache lookup generally
+- content: "<p>The DNS relies upon caching to scale; however, the cache lookup generally
     requires an exact match. This document specifies the use of NSEC/NSEC3 resource
     records to allow DNSSEC-validating resolvers to generate negative answers within
     a range and positive answers from wildcards. This increases performance, decreases
     latency, decreases resource utilization on both authoritative and recursive servers,
     and increases privacy. Also, it may help increase resilience to certain DoS attacks
-    in some circumstances. This document updates RFC 4035 by allowing validating resolvers
-    to generate negative answers based upon NSEC/NSEC3 records and positive answers
-    in the presence of wildcards.
+    in some circumstances.</p><p>This document updates RFC 4035 by allowing validating
+    resolvers to generate negative answers based upon NSEC/NSEC3 records and positive
+    answers in the presence of wildcards.</p>"
   language:
   - en
   script:
@@ -77,7 +113,12 @@ relation:
     formattedref:
       content: RFC4035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8198'
+fetched: '2022-01-23'
 keyword:
 - Negative cache
 - NCACHE

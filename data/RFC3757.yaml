@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kolkman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Kolkman
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schlyter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schlyter
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lewis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Lewis
         language:
@@ -58,15 +94,15 @@ language:
 script:
 - Latn
 abstract:
-- content: With the Delegation Signer (DS) resource record (RR), the concept of a
-    public key acting as a secure entry point (SEP) has been introduced.  During exchanges
-    of public keys with the parent there is a need to differentiate SEP keys from
-    other public keys in the Domain Name System KEY (DNSKEY) resource record set.  A
-    flag bit in the DNSKEY RR is defined to indicate that DNSKEY is to be used as
-    a SEP.  The flag bit is intended to assist in operational procedures to correctly
-    generate DS resource records, or to indicate what DNSKEYs are intended for static
-    configuration.  The flag bit is not to be used in the DNS verification protocol.  This
-    document updates RFC 2535 and RFC 3755. [STANDARDS-TRACK]
+- content: "<p>With the Delegation Signer (DS) resource record (RR), the concept of
+    a public key acting as a secure entry point (SEP) has been introduced.  During
+    exchanges of public keys with the parent there is a need to differentiate SEP
+    keys from other public keys in the Domain Name System KEY (DNSKEY) resource record
+    set.  A flag bit in the DNSKEY RR is defined to indicate that DNSKEY is to be
+    used as a SEP.  The flag bit is intended to assist in operational procedures to
+    correctly generate DS resource records, or to indicate what DNSKEYs are intended
+    for static configuration.  The flag bit is not to be used in the DNS verification
+    protocol.  This document updates RFC 2535 and RFC 3755. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -98,7 +134,12 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3757'
+fetched: '2022-01-23'
 keyword:
 - dnssec
 editorialgroup:

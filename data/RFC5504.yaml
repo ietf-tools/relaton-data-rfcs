@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fujiwara
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Fujiwara
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yoneya
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Yoneya
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Traditional mail systems handle only ASCII characters in SMTP envelope
+- content: "<p>Traditional mail systems handle only ASCII characters in SMTP envelope
     and mail header fields.  The Email Address Internationalization (UTF8SMTP) extension
     allows UTF-8 characters in SMTP envelope and mail header fields.  To avoid rejecting
     internationalized email messages when a server in the delivery path does not support
@@ -56,7 +80,7 @@ abstract:
     that this is a way to downgrade, not tunnel.  There is no associated up-conversion
     mechanism, although internationalized email clients might use original internationalized
     addresses or other data when displaying or replying to downgraded messages.  This
-    memo defines an Experimental Protocol for the Internet community.
+    memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC6530
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5504'
+fetched: '2022-01-23'
 keyword:
 - EAI
 - Email Address Internationalization

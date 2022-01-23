@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kitterman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kitterman
         language:
@@ -38,10 +50,10 @@ language:
 script:
 - Latn
 abstract:
-- content: The cryptographic algorithm and key size requirements included when DomainKeys
-    Identified Mail (DKIM) was designed a decade ago are functionally obsolete and
-    in need of immediate revision.  This document updates DKIM requirements to those
-    minimally suitable for operation with currently specified algorithms.
+- content: "<p>The cryptographic algorithm and key size requirements included when
+    DomainKeys Identified Mail (DKIM) was designed a decade ago are functionally obsolete
+    and in need of immediate revision.  This document updates DKIM requirements to
+    those minimally suitable for operation with currently specified algorithms.</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC6376
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8301'
+fetched: '2022-01-23'
 keyword:
 - email
 - authentication

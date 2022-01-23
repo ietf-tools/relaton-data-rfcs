@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Allman
         language:
@@ -37,16 +49,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Message Tracking is expected to be used to determine the status of undelivered
+- content: <p>Message Tracking is expected to be used to determine the status of undelivered
     e-mail upon request. Tracking is used in conjunction with Delivery Status Notifications
     (DSN) and Message Disposition Notifications (MDN); generally, a message tracking
     request will be issued only when a DSN or MDN has not been received within a reasonable
-    timeout period. This memo defines a MIME content-type for message tracking status
-    in the same spirit as RFC 3464, "An Extensible Message Format for Delivery Status
-    Notifications". It is to be issued upon a request as described in "Message Tracking
-    Query Protocol". This memo defines only the format of the status information.
+    timeout period.</p><p>This memo defines a MIME content-type for message tracking
+    status in the same spirit as RFC 3464, "An Extensible Message Format for Delivery
+    Status Notifications". It is to be issued upon a request as described in "Message
+    Tracking Query Protocol". This memo defines only the format of the status information.
     An extension to SMTP to label messages for further tracking and request tracking
-    status is defined in a separate memo. [STANDARDS-TRACK]
+    status is defined in a separate memo. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -58,7 +70,12 @@ relation:
     formattedref:
       content: RFC3463
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3886'
+fetched: '2022-01-23'
 keyword:
 - Delivery Status Notifications
 - DSN

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: van der Stok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. van der Stok
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bormann
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sehgal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Sehgal
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The methods defined in RFC 7252 for the Constrained Application Protocol
+- content: "<p>The methods defined in RFC 7252 for the Constrained Application Protocol
     (CoAP) only allow access to a complete resource, not to parts of a resource. In
     case of resources with larger or complex data, or in situations where resource
     continuity is required, replacing or requesting the whole resource is undesirable.
-    Several applications using CoAP need to access parts of the resources. This specification
-    defines the new CoAP methods, FETCH, PATCH, and iPATCH, which are used to access
-    and update parts of a resource.
+    Several applications using CoAP need to access parts of the resources.</p><p>This
+    specification defines the new CoAP methods, FETCH, PATCH, and iPATCH, which are
+    used to access and update parts of a resource.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8132'
+fetched: '2022-01-23'
 keyword:
 - CoAP
 editorialgroup:

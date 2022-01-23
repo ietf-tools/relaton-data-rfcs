@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thaler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Thaler
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cheshire
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Cheshire
         language:
@@ -57,11 +93,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document explores issues with Internationalized Domain Names (IDNs)
+- content: "<p>This document explores issues with Internationalized Domain Names (IDNs)
     that result from the use of various encoding schemes such as UTF-8 and the ASCII-Compatible
     Encoding produced by the Punycode algorithm.  It focuses on the importance of
     agreeing on a single encoding and how complicated the state of affairs ends up
-    being as a result of using different encodings today.
+    being as a result of using different encodings today.</p>"
   language:
   - en
   script:
@@ -73,7 +109,12 @@ relation:
     formattedref:
       content: RFC2130
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6055'
+fetched: '2022-01-23'
 keyword:
 - Unicode
 - UTF-8,

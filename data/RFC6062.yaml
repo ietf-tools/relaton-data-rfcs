@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perreault
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Perreault
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines an extension of Traversal Using Relays around
+- content: "<p>This specification defines an extension of Traversal Using Relays around
     NAT (TURN), a relay protocol for Network Address Translator (NAT) traversal.  This
     extension allows a TURN client to request TCP allocations, and defines new requests
     and indications for the TURN server to open and accept TCP connections with the
-    client\'s peers.  TURN and this extension both purposefully restrict the ways
+    client\\'s peers.  TURN and this extension both purposefully restrict the ways
     in which the relayed address can be used.  In particular, it prevents users from
-    running general-purpose servers from ports obtained from the TURN server. [STANDARDS-TRACK]
+    running general-purpose servers from ports obtained from the TURN server. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6062'
+fetched: '2022-01-23'
 keyword:
 - NAT
 - TURN

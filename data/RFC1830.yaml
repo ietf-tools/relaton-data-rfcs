@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vaudreuil
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Vaudreuil
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines two extensions to the SMTP service.  The first service
+- content: <p>This memo defines two extensions to the SMTP service.  The first service
     enables a SMTP client and server to negotiate the use of an alternate DATA command
     "BDAT" for efficiently sending large MIME messages.  The second extension takes
     advantage of the BDAT command to permit the negotiated sending of unencoded binary
-    data.  This memo defines an Experimental Protocol for the Internet community.
+    data.  This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC3030
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1830'
+fetched: '2022-01-23'
 keyword:
 - Simple
 - Mail

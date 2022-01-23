@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Anderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Anderson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiva Popper
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Leiva Popper
         language:
@@ -47,10 +71,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document extends the Stateless IP/ICMP Translation Algorithm (SIIT)
-    with an Explicit Address Mapping (EAM) algorithm and formally updates RFC 6145.  The
-    EAM algorithm facilitates stateless IP/ICMP translation between arbitrary (non-IPv4-translatable)
-    IPv6 endpoints and IPv4.
+- content: "<p>This document extends the Stateless IP/ICMP Translation Algorithm (SIIT)
+    with an Explicit Address Mapping (EAM) algorithm and formally updates RFC 6145.
+    \ The EAM algorithm facilitates stateless IP/ICMP translation between arbitrary
+    (non-IPv4-translatable) IPv6 endpoints and IPv4.</p>"
   language:
   - en
   script:
@@ -62,7 +86,12 @@ relation:
     formattedref:
       content: RFC6145
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7757'
+fetched: '2022-01-23'
 keyword:
 - Dual Stack
 - Single Stack

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hinden
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Hinden
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines the Virtual Router Redundancy Protocol (VRRP).  VRRP
+- content: "<p>This memo defines the Virtual Router Redundancy Protocol (VRRP).  VRRP
     specifies an election protocol that dynamically assigns responsibility for a virtual
     router to one of the VRRP routers on a LAN.  The VRRP router controlling the IP
     address(es) associated with a virtual router is called the Master, and forwards
@@ -46,7 +58,7 @@ abstract:
     allows any of the virtual router IP addresses on the LAN to be used as the default
     first hop router by end-hosts.  The advantage gained from using VRRP is a higher
     availability default path without requiring configuration of dynamic routing or
-    router discovery protocols on every end-host. [STANDARDS-TRACK]
+    router discovery protocols on every end-host. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -58,7 +70,12 @@ relation:
     formattedref:
       content: RFC5798
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3768'
+fetched: '2022-01-23'
 keyword:
 - VRRP
 - vrrp

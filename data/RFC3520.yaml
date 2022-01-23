@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L-N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hamer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L-N. Hamer
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gage
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Gage
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kosinski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Kosinski
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shieh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Shieh
         language:
@@ -67,11 +115,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the representation of a session authorization policy
-    element for supporting policy-based per-session authorization and admission control.  The
-    goal of session authorization is to allow the exchange of information between
-    network elements in order to authorize the use of resources for a service and
-    to co-ordinate actions between the signaling and transport planes.  This document
+- content: "<p>This document describes the representation of a session authorization
+    policy element for supporting policy-based per-session authorization and admission
+    control.  The goal of session authorization is to allow the exchange of information
+    between network elements in order to authorize the use of resources for a service
+    and to co-ordinate actions between the signaling and transport planes.  This document
     describes how a process on a system authorizes the reservation of resources by
     a host and then provides that host with a session authorization policy element
     which can be inserted into a resource reservation protocol (e.g., the Resource
@@ -79,13 +127,18 @@ abstract:
     of those resources within the network.  We describe the encoding of session authorization
     information as a policy element conforming to the format of a Policy Data object
     (RFC 2750) and provide details relating to operations, processing rules and error
-    scenarios. [STANDARDS-TRACK]
+    scenarios. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3520'
+fetched: '2022-01-23'
 keyword:
 - admission control
 - resource reservation

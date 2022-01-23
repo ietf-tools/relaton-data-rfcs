@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Haleplidis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Haleplidis
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This memo extends the Forwarding and Control Element Separation (ForCES)
+- content: "<p>This memo extends the Forwarding and Control Element Separation (ForCES)
     model defined in RFC 5812 and updates that RFC to allow complex data types for
     metadata, optional default values for data types, and optional access types for
     structures.  It also fixes an issue with Logical Functional Block (LFB) inheritance
     and introduces two new features: a new event condition called eventBecomesEqualTo
     and LFB properties.  The changes introduced in this memo do not alter the protocol
-    and retain backward compatibility with older LFB models.'
+    and retain backward compatibility with older LFB models.</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC5812
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7408'
+fetched: '2022-01-23'
 keyword:
 - ForCES
 - Model

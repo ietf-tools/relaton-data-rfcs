@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Harkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Harkins
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines several new ciphersuites for the Transport Layer Security
+- content: <p>This memo defines several new ciphersuites for the Transport Layer Security
     (TLS) protocol to support certificateless, secure authentication using only a
     simple, low-entropy password.  The exchange is called "TLS-PWD".  The ciphersuites
     are all based on an authentication and key exchange protocol, named "dragonfly",
-    that is resistant to offline dictionary attacks.
+    that is resistant to offline dictionary attacks.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8492'
+fetched: '2022-01-23'
 keyword:
 - Password Authenticated Key Exchange
 - Dictionary Attack

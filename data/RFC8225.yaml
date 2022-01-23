@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wendt
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Wendt
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Peterson
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a method for creating and validating a token that
-    cryptographically verifies an originating identity or, more generally, a URI or
-    telephone number representing the originator of personal communications.  The
-    Personal Assertion Token, PASSporT, is cryptographically signed to protect the
-    integrity of the identity of the originator and to verify the assertion of the
-    identity information at the destination.  The cryptographic signature is defined
+- content: "<p>This document defines a method for creating and validating a token
+    that cryptographically verifies an originating identity or, more generally, a
+    URI or telephone number representing the originator of personal communications.
+    \ The Personal Assertion Token, PASSporT, is cryptographically signed to protect
+    the integrity of the identity of the originator and to verify the assertion of
+    the identity information at the destination.  The cryptographic signature is defined
     with the intention that it can confidently verify the originating persona even
-    when the signature is sent to the destination party over an insecure channel.  PASSporT
-    is particularly useful for many personal-communications applications over IP networks
-    and other multi-hop interconnection scenarios where the originating and destination
-    parties may not have a direct trusted relationship.
+    when the signature is sent to the destination party over an insecure channel.
+    \ PASSporT is particularly useful for many personal-communications applications
+    over IP networks and other multi-hop interconnection scenarios where the originating
+    and destination parties may not have a direct trusted relationship.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8225'
+fetched: '2022-01-23'
 editorialgroup:
 - name: stir

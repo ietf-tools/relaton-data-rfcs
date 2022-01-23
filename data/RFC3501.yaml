@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crispin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Crispin
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Internet Message Access Protocol, Version 4rev1 (IMAP4rev1) allows
+- content: "<p>The Internet Message Access Protocol, Version 4rev1 (IMAP4rev1) allows
     a client to access and manipulate electronic mail messages on a server.  IMAP4rev1
     permits manipulation of mailboxes (remote message folders) in a way that is functionally
     equivalent to local folders.  IMAP4rev1 also provides the capability for an offline
@@ -49,7 +61,7 @@ abstract:
     sequence numbers or unique identifiers.  IMAP4rev1 supports a single server.  A
     mechanism for accessing configuration information to support multiple IMAP4rev1
     servers is discussed in RFC 2244.  IMAP4rev1 does not specify a means of posting
-    mail; this function is handled by a mail transfer protocol such as RFC 2821. [STANDARDS-TRACK]
+    mail; this function is handled by a mail transfer protocol such as RFC 2821. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -61,7 +73,12 @@ relation:
     formattedref:
       content: RFC9051
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3501'
+fetched: '2022-01-23'
 keyword:
 - IMAPv4
 - imap

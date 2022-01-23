@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kaliski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Kaliski
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document represents a republication of PKCS #8 v1.2 from RSA Laboratories''
+- content: "<p>This document represents a republication of PKCS #8 v1.2 from RSA Laboratories'
     Public Key Cryptography Standard (PKCS) series. Change control is transferred
     to the IETF. The body of this document, except for the security considerations
-    section, is taken directly from the PKCS #8 v1.2 specification. This document
+    section, is taken directly from the PKCS #8 v1.2 specification.</p><p>This document
     describes a syntax for private-key information. This memo provides information
-    for the Internet community.'
+    for the Internet community.</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC5958
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5208'
+fetched: '2022-01-23'
 keyword:
 - rsa laboratories
 - private-key syntax

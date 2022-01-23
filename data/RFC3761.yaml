@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Faltstrom
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Faltstrom
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mealling
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Mealling
         language:
@@ -48,13 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document discusses the use of the Domain Name System (DNS) for storage
-    of E.164 numbers.  More specifically, how DNS can be used for identifying available
-    services connected to one E.164 number.  It specifically obsoletes RFC 2916 to
-    bring it in line with the Dynamic Delegation Discovery System (DDDS) Application
+- content: "<p>This document discusses the use of the Domain Name System (DNS) for
+    storage of E.164 numbers.  More specifically, how DNS can be used for identifying
+    available services connected to one E.164 number.  It specifically obsoletes RFC
+    2916 to bring it in line with the Dynamic Delegation Discovery System (DDDS) Application
     specification found in the document series specified in RFC 3401.  It is very
     important to note that it is impossible to read and understand this document without
-    reading the documents discussed in RFC 3401. [STANDARDS-TRACK]
+    reading the documents discussed in RFC 3401. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -71,7 +95,12 @@ relation:
     formattedref:
       content: RFC6117
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3761'
+fetched: '2022-01-23'
 keyword:
 - domain name system
 editorialgroup:

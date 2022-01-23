@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Claise
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Claise
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aitken
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Aitken
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Johnson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Johnson
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Muenz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Muenz
         language:
@@ -68,21 +116,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies an extension to the specifications in RFC 5101,
+- content: "<p>This document specifies an extension to the specifications in RFC 5101,
     IP Flow Information Export (IPFIX), when using the Partial Reliability extension
-    of SCTP (PR-SCTP, Partial Reliability Stream Control Transmission Protocol). When
+    of SCTP (PR-SCTP, Partial Reliability Stream Control Transmission Protocol).</p><p>When
     implemented at both the Exporting Process and Collecting Process, this method
     offers several advantages, such as the ability to calculate Data Record losses
     for PR-SCTP per Template, immediate export of Template Withdrawal Messages, immediate
     reuse of Template IDs within an SCTP stream, reduced likelihood of Data Record
     loss, and reduced demands on the Collecting Process. When implemented in only
     the Collecting Process or Exporting Process, then normal IPFIX behavior will be
-    seen without all of the additional benefits. [STANDARDS-TRACK]
+    seen without all of the additional benefits. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6526'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ipfix

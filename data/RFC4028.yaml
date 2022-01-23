@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Donovan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Donovan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -47,18 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document defines an extension to the Session Initiation Protocol
+- content: "<p>This document defines an extension to the Session Initiation Protocol
     (SIP).  This extension allows for a periodic refresh of SIP sessions through a
-    \%re-INVITE or UPDATE request.  The refresh allows both user agents and proxies
+    \\%re-INVITE or UPDATE request.  The refresh allows both user agents and proxies
     to determine whether the SIP session is still active.  The extension defines two
-    new header fields: \%Session-Expires, which conveys the lifetime of the session,
-    and \%Min-SE, which conveys the minimum allowed value for the session timer. [STANDARDS-TRACK]'
+    new header fields: \\%Session-Expires, which conveys the lifetime of the session,
+    and \\%Min-SE, which conveys the minimum allowed value for the session timer.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4028'
+fetched: '2022-01-23'
 keyword:
 - re-invite request
 - update request

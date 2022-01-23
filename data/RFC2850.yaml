@@ -21,18 +21,25 @@ date:
 - type: published
   value: 2000-05
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: Internet Architecture Board
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Carpenter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Carpenter
         language:
@@ -47,16 +54,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo documents the composition, selection, roles, and organization
+- content: "<p>This memo documents the composition, selection, roles, and organization
     of the Internet Architecture Board.  It replaces RFC 1601.  This document specifies
     an Internet Best Current Practices for the Internet Community, and requests discussion
-    and suggestions for improvements.
+    and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '39'
+- title:
+    content: RFC
+    format: text/plain
+  number: '2850'
+fetched: '2022-01-23'
 keyword:
 - ISOC
 - Internet Society

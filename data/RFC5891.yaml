@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is the revised protocol definition for Internationalized
+- content: "<p>This document is the revised protocol definition for Internationalized
     Domain Names (IDNs).  The rationale for changes, the relationship to the older
     specification, and important terminology are provided in other documents.  This
     document specifies the protocol mechanism, called Internationalized Domain Names
     in Applications (IDNA), for registering and looking up IDNs in a way that does
     not require changes to the DNS itself.  IDNA is only meant for processing domain
-    names, not free text. [STANDARDS-TRACK]
+    names, not free text. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC3492
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5891'
+fetched: '2022-01-23'
 keyword:
 - IDNA2008
 - idn

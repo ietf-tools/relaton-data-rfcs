@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Polk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Polk
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: RFCs 3689 and 3690 detail requirements for an Emergency Telecommunications
+- content: "<p>RFCs 3689 and 3690 detail requirements for an Emergency Telecommunications
     Service (ETS), of which an Internet Emergency Preparedness Service (IEPS) would
     be a part. Some of these types of services require call preemption; others require
     call queuing or other mechanisms. IEPS requires a Call Admission Control (CAC)
@@ -56,17 +80,22 @@ abstract:
     architecture. Such a CAC procedure and PHB is appropriate to any service that
     might use H.323 or SIP to set up real-time sessions. The key requirement is to
     guarantee an elevated probability of call completion to an authorized user in
-    time of crisis. This document primarily discusses supporting ETS in the context
-    of the US Government and NATO, because it focuses on the Multi-Level Precedence
+    time of crisis.</p><p>This document primarily discusses supporting ETS in the
+    context of the US Government and NATO, because it focuses on the Multi-Level Precedence
     and Preemption (MLPP) and Government Emergency Telecommunication Service (GETS)
     standards. The architectures described here are applicable beyond these organizations.
-    This memo provides information for the Internet community.
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4542'
+fetched: '2022-01-23'
 keyword:
 - ieps
 - internet emergency preparedness service

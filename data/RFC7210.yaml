@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Polk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Polk
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Zhang
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the information contained in a conceptual database
+- content: "<p>This document specifies the information contained in a conceptual database
     of long-lived cryptographic keys used by many different routing protocols for
     message security.  The database is designed to support both manual and automated
     key management.  In addition to describing the schema for the database, this document
@@ -75,12 +123,17 @@ abstract:
     requirements for the routing protocols that wish to use the database.  In many
     typical scenarios, the protocols do not directly use the long-lived key, but rather
     a key derivation function is used to derive a short-lived key from a long-lived
-    key.
+    key.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7210'
+fetched: '2022-01-23'
 editorialgroup:
 - name: karp

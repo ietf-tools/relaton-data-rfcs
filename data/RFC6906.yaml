@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wilde
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Wilde
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines the 'profile' link relation type that allows
-    resource representations to indicate that they are following one or more profiles.  A
-    profile is defined not to alter the semantics of the resource representation itself,
-    but to allow clients to learn about additional semantics (constraints, conventions,
-    extensions) that are associated with the resource representation, in addition
-    to those defined by the media type and possibly other mechanisms.
+- content: "<p>This specification defines the 'profile' link relation type that allows
+    resource representations to indicate that they are following one or more profiles.
+    \ A profile is defined not to alter the semantics of the resource representation
+    itself, but to allow clients to learn about additional semantics (constraints,
+    conventions, extensions) that are associated with the resource representation,
+    in addition to those defined by the media type and possibly other mechanisms.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6906'
+fetched: '2022-01-23'
 keyword:
 - application profile
 - profile identifier

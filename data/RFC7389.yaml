@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wakikawa
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Wakikawa
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pazhyannur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Pazhyannur
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gundavelli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Gundavelli
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Perkins
         language:
@@ -67,23 +115,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a method to split the control plane (CP) and user
-    plane (UP) for a network infrastructure based on Proxy Mobile IPv6 (PMIPv6).  Existing
-    specifications allow a mobile access gateway (MAG) to separate its control and
-    user plane using the Alternate Care-of Address mobility option for IPv6 or Alternate
-    IPv4 Care-of Address option for IPv4.  However, the current specification does
-    not provide any mechanism allowing the local mobility anchor (LMA) to perform
-    an analogous functional split.  To remedy that shortcoming, this document specifies
-    a mobility option enabling an LMA to provide an alternate LMA address to be used
-    for the bidirectional user-plane traffic between the MAG and LMA.  With this new
-    option, an LMA will be able to use an IP address for its user plane that is different
-    than the IP address used for the control plane.
+- content: "<p>This document specifies a method to split the control plane (CP) and
+    user plane (UP) for a network infrastructure based on Proxy Mobile IPv6 (PMIPv6).
+    \ Existing specifications allow a mobile access gateway (MAG) to separate its
+    control and user plane using the Alternate Care-of Address mobility option for
+    IPv6 or Alternate IPv4 Care-of Address option for IPv4.  However, the current
+    specification does not provide any mechanism allowing the local mobility anchor
+    (LMA) to perform an analogous functional split.  To remedy that shortcoming, this
+    document specifies a mobility option enabling an LMA to provide an alternate LMA
+    address to be used for the bidirectional user-plane traffic between the MAG and
+    LMA.  With this new option, an LMA will be able to use an IP address for its user
+    plane that is different than the IP address used for the control plane.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7389'
+fetched: '2022-01-23'
 keyword:
 - Control and User Plane Split
 - Control and User Plane Separation

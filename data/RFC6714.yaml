@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Blau
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Burger
         language:
@@ -58,19 +94,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a Message Session Relay Protocol (MSRP) extension,
+- content: "<p>This document defines a Message Session Relay Protocol (MSRP) extension,
     Connection Establishment for Media Anchoring (CEMA).  Support of this extension
     is OPTIONAL.  The extension allows middleboxes to anchor the MSRP connection,
     without the need for middleboxes to modify the MSRP messages; thus, it also enables
-    secure end-to-end MSRP communication in networks where such middleboxes are deployed.  This
-    document also defines a Session Description Protocol (SDP) attribute, 'msrp-cema',
-    that MSRP endpoints use to indicate support of the CEMA extension. [STANDARDS-TRACK]
+    secure end-to-end MSRP communication in networks where such middleboxes are deployed.
+    \ This document also defines a Session Description Protocol (SDP) attribute, 'msrp-cema',
+    that MSRP endpoints use to indicate support of the CEMA extension. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6714'
+fetched: '2022-01-23'
 keyword:
 - Middlebox
 - IBCF

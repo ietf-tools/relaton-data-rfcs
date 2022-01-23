@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -38,15 +50,16 @@ language:
 script:
 - Latn
 abstract:
-- content: The Differentiated Services (Diffserv) architecture specifies use of the
-    DS field in the IPv4 and IPv6 packet headers to carry one of 64 distinct differentiated
+- content: "<p>The Differentiated Services (Diffserv) architecture specifies use of
+    the DS field in the IPv4 and IPv6 packet headers to carry one of 64 distinct differentiated
     services field codepoint (DSCP) values. The Internet Assigned Numbers Authority
-    (IANA) maintains a registry of assigned DSCP values. This update to RFC 2474 changes
-    the IANA registration policy for Pool 3 of the registry (i.e., DSCP values of
-    the form xxxx01) to Standards Action, i.e., values are assigned through a Standards
-    Track or Best Current Practice RFC. The update also removes permission for experimental
-    and local use of the codepoints that form Pool 3 of the DSCP registry; Pool 2
-    Codepoints (i.e., DSCP values of the form xxxx11) remain available for these purposes.
+    (IANA) maintains a registry of assigned DSCP values.</p><p>This update to RFC
+    2474 changes the IANA registration policy for Pool 3 of the registry (i.e., DSCP
+    values of the form xxxx01) to Standards Action, i.e., values are assigned through
+    a Standards Track or Best Current Practice RFC. The update also removes permission
+    for experimental and local use of the codepoints that form Pool 3 of the DSCP
+    registry; Pool 2 Codepoints (i.e., DSCP values of the form xxxx11) remain available
+    for these purposes.</p>"
   language:
   - en
   script:
@@ -58,7 +71,12 @@ relation:
     formattedref:
       content: RFC2474
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8436'
+fetched: '2022-01-23'
 keyword:
 - Diffserv
 - DSCP

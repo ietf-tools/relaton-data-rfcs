@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the use of a scope control Border Gateway Protocol
+- content: "<p>This document describes the use of a scope control Border Gateway Protocol
     (BGP) community.  This well-known advisory transitive community allows an origin
-    AS to specify the extent to which a specific route should be externally propagated.  In
-    particular this community, NOPEER, allows an origin AS to specify that a route
-    with this attribute need not be advertised across bilateral peer connections.  This
-    memo provides information for the Internet community.
+    AS to specify the extent to which a specific route should be externally propagated.
+    \ In particular this community, NOPEER, allows an origin AS to specify that a
+    route with this attribute need not be advertised across bilateral peer connections.
+    \ This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3765'
+fetched: '2022-01-23'
 keyword:
 - peer connections
 - propagated

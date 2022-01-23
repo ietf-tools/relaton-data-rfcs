@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Wu
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Xia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Xia
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Even
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Even
         language:
@@ -57,22 +93,27 @@ language:
 script:
 - Latn
 abstract:
-- content: In a large RTP session using the RTP Control Protocol (RTCP) feedback mechanism
-    defined in RFC 4585, a feedback target may experience transient overload if some
-    event causes a large number of receivers to send feedback at once.  This overload
-    is usually avoided by ensuring that feedback reports are forwarded to all receivers,
-    allowing them to avoid sending duplicate feedback reports.  However, there are
-    cases where it is not recommended to forward feedback reports, and this may allow
-    feedback implosion.  This memo discusses these cases and defines a new RTCP Third-Party
-    Loss Report that can be used to inform receivers that the feedback target is aware
-    of some loss event, allowing them to suppress feedback.  Associated Session Description
-    Protocol (SDP) signaling is also defined. [STANDARDS-TRACK]
+- content: "<p>In a large RTP session using the RTP Control Protocol (RTCP) feedback
+    mechanism defined in RFC 4585, a feedback target may experience transient overload
+    if some event causes a large number of receivers to send feedback at once.  This
+    overload is usually avoided by ensuring that feedback reports are forwarded to
+    all receivers, allowing them to avoid sending duplicate feedback reports.  However,
+    there are cases where it is not recommended to forward feedback reports, and this
+    may allow feedback implosion.  This memo discusses these cases and defines a new
+    RTCP Third-Party Loss Report that can be used to inform receivers that the feedback
+    target is aware of some loss event, allowing them to suppress feedback.  Associated
+    Session Description Protocol (SDP) signaling is also defined. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6642'
+fetched: '2022-01-23'
 keyword:
 - Feedback Suppression
 - NACK

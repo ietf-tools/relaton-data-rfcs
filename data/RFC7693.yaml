@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M-J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Saarinen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M-J. Saarinen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J-P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aumasson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J-P. Aumasson
         language:
@@ -47,17 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes the cryptographic hash function BLAKE2 and makes
-    the algorithm specification and C source code conveniently available to the Internet
-    community.  BLAKE2 comes in two main flavors: BLAKE2b is optimized for 64-bit
-    platforms and BLAKE2s for smaller architectures.  BLAKE2 can be directly keyed,
-    making it functionally equivalent to a Message Authentication Code (MAC).'
+- content: "<p>This document describes the cryptographic hash function BLAKE2 and
+    makes the algorithm specification and C source code conveniently available to
+    the Internet community.  BLAKE2 comes in two main flavors: BLAKE2b is optimized
+    for 64-bit platforms and BLAKE2s for smaller architectures.  BLAKE2 can be directly
+    keyed, making it functionally equivalent to a Message Authentication Code (MAC).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7693'
+fetched: '2022-01-23'
 keyword:
 - BLAKE2
 - Cryptographic Hash

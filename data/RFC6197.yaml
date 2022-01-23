@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wolf
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Wolf
         language:
@@ -37,22 +49,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Location-to-Service Translation (LoST) maps service identifiers and location
-    information to service contact URIs.  If a LoST client wants to discover available
-    services for a particular location, it will perform a <listServicesByLocation>
+- content: "<p>Location-to-Service Translation (LoST) maps service identifiers and
+    location information to service contact URIs.  If a LoST client wants to discover
+    available services for a particular location, it will perform a <listServicesByLocation>
     query to the LoST server.  However, the LoST server, in its response, does not
     provide context information; that is, it does not provide any additional information
     about the geographical region within which the returned list of services is considered
     valid.  Therefore, this document defines a Service List Boundary that returns
     a local context along with the list of services returned, in order to assist the
     client in not missing a change in available services when moving.  This document
-    defines an Experimental Protocol for the Internet community.
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6197'
+fetched: '2022-01-23'
 keyword:
 - listservicesbylocation
 editorialgroup:

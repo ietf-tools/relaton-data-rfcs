@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andrews
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Andrews
         language:
@@ -37,16 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 6598 specifies that "Reverse DNS queries for Shared Address Space addresses
-    [100.64.0.0/10] MUST NOT be forwarded to the global DNS infrastructure." This
+- content: <p>RFC 6598 specifies that "Reverse DNS queries for Shared Address Space
+    addresses [100.64.0.0/10] MUST NOT be forwarded to the global DNS infrastructure."</p><p>This
     document formally directs IANA to add the associated zones to the "IPv4 Locally-Served
     DNS Zones Registry" to prevent such queries from accidentally leaking to the global
-    DNS infrastructure.
+    DNS infrastructure.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '163'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7793'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dnsop

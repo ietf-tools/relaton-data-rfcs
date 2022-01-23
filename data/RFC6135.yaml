@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Blau
         language:
@@ -48,18 +72,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines an alternative connection model for Message Session
+- content: "<p>This document defines an alternative connection model for Message Session
     Relay Protocol (MSRP) User Agents (UAs); this model uses the connection-oriented
     media (COMEDIA) mechanism in order to create the MSRP transport connection.  The
     model allows MSRP UAs behind Network Address Translators (NATs) to negotiate which
     endpoint initiates the establishment of the Transmission Control Protocol (TCP)
-    connection, in order for MSRP messages to traverse the NAT. [STANDARDS-TRACK]
+    connection, in order for MSRP messages to traverse the NAT. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6135'
+fetched: '2022-01-23'
 keyword:
 - comedia
 - comedia-tls

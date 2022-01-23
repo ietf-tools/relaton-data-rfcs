@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: A standard method for storing RSA keys and and RSA/MD5 based signatures
+- content: "<p>A standard method for storing RSA keys and and RSA/MD5 based signatures
     in the Domain Name System is described which utilizes DNS KEY and SIG resource
-    records. [STANDARDS-TRACK]
+    records. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC3110
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2537'
+fetched: '2022-01-23'
 keyword:
 - message
 - digest

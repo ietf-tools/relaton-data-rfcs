@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Uijterwaal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Uijterwaal
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: 'When a packet is sent from one host to the other, one normally expects
+- content: "<p>When a packet is sent from one host to the other, one normally expects
     that exactly one copy of the packet that was sent arrives at the destination.
     It is, however, possible that a packet is either lost or that multiple copies
-    arrive. In earlier work, a metric for packet loss was defined. This metric quantifies
-    the case where a packet that is sent does not arrive at its destination within
-    a reasonable time. In this memo, a metric for another case is defined: a packet
-    is sent, but multiple copies arrive. The document also discusses streams and methods
-    to summarize the results of streams. [STANDARDS-TRACK]'
+    arrive.</p><p>In earlier work, a metric for packet loss was defined. This metric
+    quantifies the case where a packet that is sent does not arrive at its destination
+    within a reasonable time. In this memo, a metric for another case is defined:
+    a packet is sent, but multiple copies arrive. The document also discusses streams
+    and methods to summarize the results of streams. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5560'
+fetched: '2022-01-23'
 keyword:
 - performance metrics
 - packet duplication

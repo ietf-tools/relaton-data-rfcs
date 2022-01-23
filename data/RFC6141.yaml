@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Camarillo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Camarillo
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Gao
         language:
@@ -58,13 +94,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The procedures for handling SIP re-INVITEs are described in RFC 3261.  Implementation
-    and deployment experience has uncovered a number of issues with the original documentation,
-    and this document provides additional procedures that update the original specification
-    to address those issues.  In particular, this document defines in which situations
-    a UAS (User Agent Server) should generate a success response and in which situations
-    a UAS should generate an error response to a re-INVITE.  Additionally, this document
-    defines further details of procedures related to target-refresh requests. [STANDARDS-TRACK]
+- content: "<p>The procedures for handling SIP re-INVITEs are described in RFC 3261.
+    \ Implementation and deployment experience has uncovered a number of issues with
+    the original documentation, and this document provides additional procedures that
+    update the original specification to address those issues.  In particular, this
+    document defines in which situations a UAS (User Agent Server) should generate
+    a success response and in which situations a UAS should generate an error response
+    to a re-INVITE.  Additionally, this document defines further details of procedures
+    related to target-refresh requests. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -76,7 +113,12 @@ relation:
     formattedref:
       content: RFC3261
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6141'
+fetched: '2022-01-23'
 keyword:
 - re-INVITE
 - offer/answer

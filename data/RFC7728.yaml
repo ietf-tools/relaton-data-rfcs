@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Burman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Akram
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Akram
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Even
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Even
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Westerlund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Westerlund
         language:
@@ -67,8 +115,8 @@ language:
 script:
 - Latn
 abstract:
-- content: With the increased popularity of real-time multimedia applications, it
-    is desirable to provide good control of resource usage, and users also demand
+- content: "<p>With the increased popularity of real-time multimedia applications,
+    it is desirable to provide good control of resource usage, and users also demand
     more control over communication sessions.  This document describes how a receiver
     in a multimedia conversation can pause and resume incoming data from a sender
     by sending real-time feedback messages when using the Real-time Transport Protocol
@@ -76,7 +124,7 @@ abstract:
     Message (CCM) RTP Control Protocol (RTCP) feedback package by explicitly allowing
     and describing specific use of existing CCMs and adding a group of new real-time
     feedback messages used to pause and resume RTP data streams.  This document updates
-    RFC 5104.
+    RFC 5104.</p>"
   language:
   - en
   script:
@@ -88,7 +136,12 @@ relation:
     formattedref:
       content: RFC5104
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7728'
+fetched: '2022-01-23'
 keyword:
 - CCM
 - RTCP

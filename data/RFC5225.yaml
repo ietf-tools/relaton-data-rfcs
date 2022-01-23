@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pelletier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Pelletier
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sandlund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Sandlund
         language:
@@ -48,24 +72,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies ROHC (Robust Header Compression) profiles that
+- content: "<p>This document specifies ROHC (Robust Header Compression) profiles that
     efficiently compress RTP/UDP/IP (Real-Time Transport Protocol, User Datagram Protocol,
     Internet Protocol), RTP/UDP-Lite/IP (User Datagram Protocol Lite), UDP/IP, UDP-Lite/IP,
-    IP and ESP/IP (Encapsulating Security Payload) headers. This specification defines
-    a second version of the profiles found in RFC 3095, RFC 3843 and RFC 4019; it
-    supersedes their definition, but does not obsolete them. The ROHCv2 profiles introduce
-    a number of simplifications to the rules and algorithms that govern the behavior
-    of the compression endpoints. It also defines robustness mechanisms that may be
-    used by a compressor implementation to increase the probability of decompression
-    success when packets can be lost and/or reordered on the ROHC channel. Finally,
-    the ROHCv2 profiles define their own specific set of header formats, using the
-    ROHC formal notation. [STANDARDS-TRACK]
+    IP and ESP/IP (Encapsulating Security Payload) headers.</p><p>This specification
+    defines a second version of the profiles found in RFC 3095, RFC 3843 and RFC 4019;
+    it supersedes their definition, but does not obsolete them.</p><p>The ROHCv2 profiles
+    introduce a number of simplifications to the rules and algorithms that govern
+    the behavior of the compression endpoints. It also defines robustness mechanisms
+    that may be used by a compressor implementation to increase the probability of
+    decompression success when packets can be lost and/or reordered on the ROHC channel.
+    Finally, the ROHCv2 profiles define their own specific set of header formats,
+    using the ROHC formal notation. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5225'
+fetched: '2022-01-23'
 keyword:
 - rohc
 - '3095'

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoenes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Hoenes
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Every version of the FTP specification has added a few new commands, with
-    the early ones summarized in RFC 959.  RFC 2389 established a mechanism for specifying
-    and negotiating FTP extensions.  The number of extensions, both those supported
-    by the mechanism and some that are not, continues to increase.  An IANA registry
-    of FTP Command and Feature names is established to reduce the likelihood of conflict
-    of names and the consequent ambiguity.  This specification establishes that registry.
-    [STANDARDS-TRACK]
+- content: "<p>Every version of the FTP specification has added a few new commands,
+    with the early ones summarized in RFC 959.  RFC 2389 established a mechanism for
+    specifying and negotiating FTP extensions.  The number of extensions, both those
+    supported by the mechanism and some that are not, continues to increase.  An IANA
+    registry of FTP Command and Feature names is established to reduce the likelihood
+    of conflict of names and the consequent ambiguity.  This specification establishes
+    that registry. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC0959
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5797'
+fetched: '2022-01-23'
 keyword:
 - FTP FEAT command
 - FTP FEAT response

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bosch
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bosch
         language:
@@ -37,16 +49,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This document adds a new capability called "STATUS=SIZE" to the Internet
+- content: <p>This document adds a new capability called "STATUS=SIZE" to the Internet
     Message Access Protocol (IMAP).  It allows retrieving the total storage size of
     a mailbox with a single STATUS command rather than retrieving and summing the
-    sizes of all individual messages in that mailbox.
+    sizes of all individual messages in that mailbox.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8438'
+fetched: '2022-01-23'
 keyword:
 - imap
 - status

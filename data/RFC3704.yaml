@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Savola
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Savola
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: BCP 38, RFC 2827, is designed to limit the impact of distributed denial
+- content: "<p>BCP 38, RFC 2827, is designed to limit the impact of distributed denial
     of service attacks, by denying traffic with spoofed addresses access to the network,
     and to help ensure that traffic is traceable to its correct source network.  As
     a side effect of protecting the Internet against such attacks, the network implementing
@@ -57,7 +81,7 @@ abstract:
     filtering operational mechanisms, examines generic issues related to ingress filtering,
     and delves into the effects on multihoming in particular.  This memo updates RFC
     2827.  This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.
+    Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -69,7 +93,16 @@ relation:
     formattedref:
       content: RFC2827
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '84'
+- title:
+    content: RFC
+    format: text/plain
+  number: '3704'
+fetched: '2022-01-23'
 keyword:
 - ISP
 - Internet Service Provider

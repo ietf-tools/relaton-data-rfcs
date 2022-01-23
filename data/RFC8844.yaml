@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Thomson
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rescorla
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rescorla
         language:
@@ -48,13 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes unknown key-share attacks on the use of Datagram
-    Transport Layer Security for the Secure Real-Time Transport Protocol (DTLS-SRTP).  Similar
-    attacks are described on the use of DTLS-SRTP with the identity bindings used
-    in Web Real-Time Communications (WebRTC) and SIP identity.  These attacks are
-    difficult to mount, but they cause a victim to be misled about the identity of
-    a communicating peer.  This document defines mitigation techniques that implementations
-    of RFC 8122 are encouraged to deploy.
+- content: "<p>This document describes unknown key-share attacks on the use of Datagram
+    Transport Layer Security for the Secure Real-Time Transport Protocol (DTLS-SRTP).
+    \ Similar attacks are described on the use of DTLS-SRTP with the identity bindings
+    used in Web Real-Time Communications (WebRTC) and SIP identity.  These attacks
+    are difficult to mount, but they cause a victim to be misled about the identity
+    of a communicating peer.  This document defines mitigation techniques that implementations
+    of RFC 8122 are encouraged to deploy.</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC8122
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8844'
+fetched: '2022-01-23'
 keyword:
 - Unknown Key-Share Attack
 - SDP

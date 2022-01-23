@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Thubert
         language:
@@ -33,6 +45,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C.E. Perkins
         language:
@@ -43,6 +72,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Levy-Abegnoli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Levy-Abegnoli
         language:
@@ -57,10 +98,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFCs 6775 and 8505 in order to enable proxy services
+- content: <p>This document updates RFCs 6775 and 8505 in order to enable proxy services
     for IPv6 Neighbor Discovery by Routing Registrars called "Backbone Routers".  Backbone
     Routers are placed along the wireless edge of a backbone and federate multiple
-    wireless links to form a single Multi-Link Subnet (MLSN).
+    wireless links to form a single Multi-Link Subnet (MLSN).</p>
   language:
   - en
   script:
@@ -77,7 +118,12 @@ relation:
     formattedref:
       content: RFC8505
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8929'
+fetched: '2022-01-23'
 keyword:
 - ND Proxy
 - Routing Proxy

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lennox
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lennox
         language:
@@ -38,14 +50,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The Secure Real-time Transport Protocol (SRTP) provides authentication,
+- content: "<p>The Secure Real-time Transport Protocol (SRTP) provides authentication,
     but not encryption, of the headers of Real-time Transport Protocol (RTP) packets.
     However, RTP header extensions may carry sensitive information for which participants
     in multimedia sessions want confidentiality. This document provides a mechanism,
     extending the mechanisms of SRTP, to selectively encrypt RTP header extensions
-    in SRTP. This document updates RFC 3711, the Secure Real-time Transport Protocol
-    specification, to require that all future SRTP encryption transforms specify how
-    RTP header extensions are to be encrypted.
+    in SRTP.</p><p>This document updates RFC 3711, the Secure Real-time Transport
+    Protocol specification, to require that all future SRTP encryption transforms
+    specify how RTP header extensions are to be encrypted.</p>"
   language:
   - en
   script:
@@ -57,7 +69,12 @@ relation:
     formattedref:
       content: RFC3711
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6904'
+fetched: '2022-01-23'
 keyword:
 - real-time transport protocol
 - rtp

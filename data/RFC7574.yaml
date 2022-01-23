@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bakker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bakker
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Petrocco
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Petrocco
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Grishchenko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Grishchenko
         language:
@@ -57,26 +93,32 @@ language:
 script:
 - Latn
 abstract:
-- content: The Peer-to-Peer Streaming Peer Protocol (PPSPP) is a protocol for disseminating
-    the same content to a group of interested parties in a streaming fashion.  PPSPP
-    supports streaming of both prerecorded (on- demand) and live audio/video content.  It
-    is based on the peer-to- peer paradigm, where clients consuming the content are
-    put on equal footing with the servers initially providing the content, to create
-    a system where everyone can potentially provide upload bandwidth.  It has been
-    designed to provide short time-till-playback for the end user and to prevent disruption
-    of the streams by malicious peers.  PPSPP has also been designed to be flexible
-    and extensible.  It can use different mechanisms to optimize peer uploading, prevent
-    freeriding, and work with different peer discovery schemes (centralized trackers
-    or Distributed Hash Tables).  It supports multiple methods for content integrity
-    protection and chunk addressing.  Designed as a generic protocol that can run
-    on top of various transport protocols, it currently runs on top of UDP using Low
-    Extra Delay Background Transport (LEDBAT) for congestion control.
+- content: "<p>The Peer-to-Peer Streaming Peer Protocol (PPSPP) is a protocol for
+    disseminating the same content to a group of interested parties in a streaming
+    fashion.  PPSPP supports streaming of both prerecorded (on- demand) and live audio/video
+    content.  It is based on the peer-to- peer paradigm, where clients consuming the
+    content are put on equal footing with the servers initially providing the content,
+    to create a system where everyone can potentially provide upload bandwidth.  It
+    has been designed to provide short time-till-playback for the end user and to
+    prevent disruption of the streams by malicious peers.  PPSPP has also been designed
+    to be flexible and extensible.  It can use different mechanisms to optimize peer
+    uploading, prevent freeriding, and work with different peer discovery schemes
+    (centralized trackers or Distributed Hash Tables).  It supports multiple methods
+    for content integrity protection and chunk addressing.  Designed as a generic
+    protocol that can run on top of various transport protocols, it currently runs
+    on top of UDP using Low Extra Delay Background Transport (LEDBAT) for congestion
+    control.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7574'
+fetched: '2022-01-23'
 keyword:
 - video on demand
 - live streaming

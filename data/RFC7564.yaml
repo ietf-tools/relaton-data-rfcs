@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Saint-Andre
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Saint-Andre
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blanchet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Blanchet
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Application protocols using Unicode characters in protocol strings need
+- content: <p>Application protocols using Unicode characters in protocol strings need
     to properly handle such strings in order to enforce internationalization rules
     for strings placed in various protocol slots (such as addresses and identifiers)
     and to perform valid comparison operations (e.g., for purposes of authentication
@@ -58,7 +82,7 @@ abstract:
     is agile with respect to versions of Unicode.  As a result, this framework provides
     a more sustainable approach to the handling of internationalized strings than
     the previous framework, known as Stringprep (RFC 3454).  This document obsoletes
-    RFC 3454.
+    RFC 3454.</p>
   language:
   - en
   script:
@@ -70,7 +94,12 @@ relation:
     formattedref:
       content: RFC8264
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7564'
+fetched: '2022-01-23'
 keyword:
 - internationalization
 - i18n

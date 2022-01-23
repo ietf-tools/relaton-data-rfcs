@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sollaud
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Sollaud
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the Real-time Transport Protocol (RTP) payload format
-    to be used for the International Telecommunication Union (ITU-T) Recommendation
+- content: "<p>This document updates the Real-time Transport Protocol (RTP) payload
+    format to be used for the International Telecommunication Union (ITU-T) Recommendation
     G.729.1 audio codec.  It adds Discontinuous Transmission (DTX) support to the
     RFC 4749 specification, in a backward-compatible way.  An updated media type registration
-    is included for this payload format. [STANDARDS-TRACK]
+    is included for this payload format. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC4749
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5459'
+fetched: '2022-01-23'
 keyword:
 - real-time transport protocol
 - rtp

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Willis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Willis
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Allen
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document extends SIP with two header fields and associated option
+- content: <p>This document extends SIP with two header fields and associated option
     tags that can be used in INVITE requests to convey the requester's preference
     for user-interface handling related to answering of that request.  The first header,
     "Answer-Mode", expresses a preference as to whether the target node's user interface
@@ -57,13 +81,18 @@ abstract:
     additional authentication and authorization requirements.  These behaviors have
     applicability to applications such as push-to-talk and to diagnostics like loop-back.  Usage
     of each header field in a response to indicate how the request was handled is
-    also defined. [STANDARDS-TRACK]
+    also defined. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5373'
+fetched: '2022-01-23'
 keyword:
 - PoC
 - PTT

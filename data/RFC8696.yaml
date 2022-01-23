@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -37,23 +49,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The invention of a large-scale quantum computer would pose a serious challenge
-    for the cryptographic algorithms that are widely deployed today.  The Cryptographic
-    Message Syntax (CMS) supports key transport and key agreement algorithms that
-    could be broken by the invention of such a quantum computer.  By storing communications
-    that are protected with the CMS today, someone could decrypt them in the future
-    when a large-scale quantum computer becomes available.  Once quantum-secure key
-    management algorithms are available, the CMS will be extended to support the new
-    algorithms if the existing syntax does not accommodate them.  This document describes
-    a mechanism to protect today's communication from the future invention of a large-scale
-    quantum computer by mixing the output of key transport and key agreement algorithms
-    with a pre-shared key.
+- content: "<p>The invention of a large-scale quantum computer would pose a serious
+    challenge for the cryptographic algorithms that are widely deployed today.  The
+    Cryptographic Message Syntax (CMS) supports key transport and key agreement algorithms
+    that could be broken by the invention of such a quantum computer.  By storing
+    communications that are protected with the CMS today, someone could decrypt them
+    in the future when a large-scale quantum computer becomes available.  Once quantum-secure
+    key management algorithms are available, the CMS will be extended to support the
+    new algorithms if the existing syntax does not accommodate them.  This document
+    describes a mechanism to protect today's communication from the future invention
+    of a large-scale quantum computer by mixing the output of key transport and key
+    agreement algorithms with a pre-shared key.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8696'
+fetched: '2022-01-23'
 keyword:
 - quantum-resistant
 editorialgroup:

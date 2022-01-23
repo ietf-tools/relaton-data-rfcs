@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yourtchenko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Yourtchenko
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document analyzes how current TCP implementations process TCP urgent
-    indications and how the behavior of some widely deployed middleboxes affects how
-    end systems process urgent indications.  This document updates the relevant specifications
-    such that they accommodate current practice in processing TCP urgent indications,
-    raises awareness about the reliability of TCP urgent indications in the Internet,
-    and recommends against the use of urgent indications (but provides advice to applications
-    that do). [STANDARDS-TRACK]
+- content: "<p>This document analyzes how current TCP implementations process TCP
+    urgent indications and how the behavior of some widely deployed middleboxes affects
+    how end systems process urgent indications.  This document updates the relevant
+    specifications such that they accommodate current practice in processing TCP urgent
+    indications, raises awareness about the reliability of TCP urgent indications
+    in the Internet, and recommends against the use of urgent indications (but provides
+    advice to applications that do). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -75,7 +99,12 @@ relation:
     formattedref:
       content: RFC1122
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6093'
+fetched: '2022-01-23'
 keyword:
 - Transmission Control Protocol
 editorialgroup:

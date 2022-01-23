@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Whitehead
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Whitehead
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reschke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Reschke
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification extends the Web Distributed Authoring and Versioning
+- content: "<p>This specification extends the Web Distributed Authoring and Versioning
     (WebDAV) Protocol to support the server-side ordering of collection members.  Of
     particular interest are orderings that are not based on property values, and so
     cannot be achieved using a search protocol's ordering option and cannot be maintained
     automatically by the server.  Protocol elements are defined to let clients specify
     the position in the ordering of each collection member, as well as the semantics
-    governing the ordering.
+    governing the ordering.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3648'
+fetched: '2022-01-23'
 keyword:
 - server client semantics
 - ordering

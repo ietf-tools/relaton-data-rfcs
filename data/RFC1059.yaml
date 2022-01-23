@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D.L. Mills
         language:
@@ -37,21 +54,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes the Network Time Protocol (NTP), specifies its formal
-    structure and summarizes information useful for its implementation.  NTP provides
-    the mechanisms to synchronize time and coordinate time distribution in a large,
-    diverse internet operating at rates from mundane to lightwave.  It uses a returnable-time
-    design in which a distributed subnet of time servers operating in a self- organizing,
-    hierarchical master-slave configuration synchronizes logical clocks within the
-    subnet and to national time standards via wire or radio.  The servers can also
-    redistribute reference time via local routing algorithms and time daemons.  The
-    NTP architectures, algorithms and protocols which have evolved over several years
-    of implementation and refinement are described in this document.  The prototype
-    system, which has been in regular operation in the Internet for the last two years,
-    is described in an Appendix along with performance data which shows that timekeeping
-    accuracy throughout most portions of the Internet can be ordinarily maintained
-    to within a few tens of milliseconds, even the cases of failure or disruption
-    of clocks, time servers or nets.  This is a Draft Standard for an Elective protocol.
+- content: "<p>This memo describes the Network Time Protocol (NTP), specifies its
+    formal structure and summarizes information useful for its implementation.  NTP
+    provides the mechanisms to synchronize time and coordinate time distribution in
+    a large, diverse internet operating at rates from mundane to lightwave.  It uses
+    a returnable-time design in which a distributed subnet of time servers operating
+    in a self- organizing, hierarchical master-slave configuration synchronizes logical
+    clocks within the subnet and to national time standards via wire or radio.  The
+    servers can also redistribute reference time via local routing algorithms and
+    time daemons.  The NTP architectures, algorithms and protocols which have evolved
+    over several years of implementation and refinement are described in this document.
+    \ The prototype system, which has been in regular operation in the Internet for
+    the last two years, is described in an Appendix along with performance data which
+    shows that timekeeping accuracy throughout most portions of the Internet can be
+    ordinarily maintained to within a few tens of milliseconds, even the cases of
+    failure or disruption of clocks, time servers or nets.  This is a Draft Standard
+    for an Elective protocol.</p>"
   language:
   - en
   script:
@@ -68,7 +86,12 @@ relation:
     formattedref:
       content: RFC1305
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1059'
+fetched: '2022-01-23'
 keyword:
 - NTP
 - NTPv1

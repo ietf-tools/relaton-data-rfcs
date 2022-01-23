@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schiller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schiller
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPsec series of protocols makes use of various cryptographic algorithms
+- content: "<p>The IPsec series of protocols makes use of various cryptographic algorithms
     in order to provide security services.  The Internet Key Exchange (IKE (RFC 2409)
     and IKEv2) provide a mechanism to negotiate which algorithms should be used in
     any given association.  However, to ensure interoperability between disparate
@@ -46,7 +58,7 @@ abstract:
     to ensure that there is at least one algorithm that all implementations will have
     available.  This document defines the current set of algorithms that are mandatory
     to implement as part of IKEv2, as well as algorithms that should be implemented
-    because they may be promoted to mandatory at some future time. [STANDARDS-TRACK]
+    because they may be promoted to mandatory at some future time. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -58,7 +70,12 @@ relation:
     formattedref:
       content: RFC8247
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4307'
+fetched: '2022-01-23'
 keyword:
 - ipsec
 - ike

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Henderson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Floyd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Floyd
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gurtov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Gurtov
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nishida
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Nishida
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: 'RFC 5681 documents the following four intertwined TCP congestion control
+- content: '<p>RFC 5681 documents the following four intertwined TCP congestion control
     algorithms: slow start, congestion avoidance, fast retransmit, and fast recovery.  RFC
     5681 explicitly allows certain modifications of these algorithms, including modifications
     that use the TCP Selective Acknowledgment (SACK) option (RFC 2883), and modifications
@@ -75,13 +123,18 @@ abstract:
     the data outstanding when loss was detected) in the absence of SACK.  This document
     describes a specific algorithm for responding to partial acknowledgments, referred
     to as "NewReno".  This response to partial acknowledgments was first proposed
-    by Janey Hoe.  This document obsoletes RFC 3782. [STANDARDS-TRACK]'
+    by Janey Hoe.  This document obsoletes RFC 3782. [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6582'
+fetched: '2022-01-23'
 keyword:
 - congestion avoidance
 - congestion control

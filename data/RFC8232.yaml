@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crabbe
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Crabbe
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Minei
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Minei
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Medved
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Medved
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Varga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Varga
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: X
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: X. Zhang
         language:
@@ -74,6 +134,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dhody
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Dhody
         language:
@@ -88,23 +160,28 @@ language:
 script:
 - Latn
 abstract:
-- content: A stateful Path Computation Element (PCE) has access to not only the information
-    disseminated by the network's Interior Gateway Protocol (IGP) but also the set
-    of active paths and their reserved resources for its computation.  The additional
-    Label Switched Path (LSP) state information allows the PCE to compute constrained
-    paths while considering individual LSPs and their interactions.  This requires
-    a State Synchronization mechanism between the PCE and the network, the PCE and
-    Path Computation Clients (PCCs), and cooperating PCEs.  The basic mechanism for
-    State Synchronization is part of the stateful PCE specification.  This document
-    presents motivations for optimizations to the base State Synchronization procedure
-    and specifies the required Path Computation Element Communication Protocol (PCEP)
-    extensions.
+- content: "<p>A stateful Path Computation Element (PCE) has access to not only the
+    information disseminated by the network's Interior Gateway Protocol (IGP) but
+    also the set of active paths and their reserved resources for its computation.
+    \ The additional Label Switched Path (LSP) state information allows the PCE to
+    compute constrained paths while considering individual LSPs and their interactions.
+    \ This requires a State Synchronization mechanism between the PCE and the network,
+    the PCE and Path Computation Clients (PCCs), and cooperating PCEs.  The basic
+    mechanism for State Synchronization is part of the stateful PCE specification.
+    \ This document presents motivations for optimizations to the base State Synchronization
+    procedure and specifies the required Path Computation Element Communication Protocol
+    (PCEP) extensions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8232'
+fetched: '2022-01-23'
 keyword:
 - Stateful PCE
 - state synchronization

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Roy
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chandra
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Chandra
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes extensions to OSPF to support mobile ad hoc networks
-    (MANETs).  The extensions, called OSPF-OR (OSPF-Overlapping Relay), include mechanisms
-    for link-local signaling (LLS), an OSPF-MANET interface, a simple technique to
-    reduce the size of Hello packets by only transmitting incremental state changes,
+- content: "<p>This document describes extensions to OSPF to support mobile ad hoc
+    networks (MANETs).  The extensions, called OSPF-OR (OSPF-Overlapping Relay), include
+    mechanisms for link-local signaling (LLS), an OSPF-MANET interface, a simple technique
+    to reduce the size of Hello packets by only transmitting incremental state changes,
     and a method for optimized flooding of routing updates.  OSPF-OR also provides
-    a means to reduce unnecessary adjacencies to support larger MANETs. [STANDARDS-TRACK]
+    a means to reduce unnecessary adjacencies to support larger MANETs. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5820'
+fetched: '2022-01-23'
 keyword:
 - open shortest path first
 - manet

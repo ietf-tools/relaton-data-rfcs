@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kompella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kompella
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -48,22 +72,27 @@ language:
 script:
 - Latn
 abstract:
-- content: To improve scalability of Generalized Multi-Protocol Label Switching (GMPLS)
-    it may be useful to aggregate Label Switched Paths (LSPs) by creating a hierarchy
-    of such LSPs. A way to create such a hierarchy is by (a) a Label Switching Router
-    (LSR) creating a Traffic Engineering Label Switched Path (TE LSP), (b) the LSR
-    forming a forwarding adjacency (FA) out of that LSP (by advertising this LSP as
-    a Traffic Engineering (TE) link into the same instance of ISIS/OSPF as the one
-    that was used to create the LSP), (c) allowing other LSRs to use FAs for their
-    path computation, and (d) nesting of LSPs originated by other LSRs into that LSP
-    (by using the label stack construct). This document describes the mechanisms to
-    accomplish this. [PROPOSED STANDARD]
+- content: "<p>To improve scalability of Generalized Multi-Protocol Label Switching
+    (GMPLS) it may be useful to aggregate Label Switched Paths (LSPs) by creating
+    a hierarchy of such LSPs. A way to create such a hierarchy is by (a) a Label Switching
+    Router (LSR) creating a Traffic Engineering Label Switched Path (TE LSP), (b)
+    the LSR forming a forwarding adjacency (FA) out of that LSP (by advertising this
+    LSP as a Traffic Engineering (TE) link into the same instance of ISIS/OSPF as
+    the one that was used to create the LSP), (c) allowing other LSRs to use FAs for
+    their path computation, and (d) nesting of LSPs originated by other LSRs into
+    that LSP (by using the label stack construct).</p><p>This document describes the
+    mechanisms to accomplish this. [PROPOSED STANDARD]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4206'
+fetched: '2022-01-23'
 keyword:
 - lsr
 - label switching router

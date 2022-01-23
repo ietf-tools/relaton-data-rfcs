@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Venaas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Venaas
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Brig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Brig
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jonasson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Jonasson
         language:
@@ -67,20 +115,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Protocol Independent Multicast - Sparse Mode (PIM-SM) uses a Rendezvous
+- content: "<p>Protocol Independent Multicast - Sparse Mode (PIM-SM) uses a Rendezvous
     Point (RP) and shared trees to forward multicast packets from new sources.  Once
     Last-Hop Routers (LHRs) receive packets from a new source, they may join the Shortest
     Path Tree (SPT) for the source for optimal forwarding.  This document defines
     a new mechanism that provides a way to support PIM-SM without the need for PIM
     registers, RPs, or shared trees.  Multicast source information is flooded throughout
     the multicast domain using a new generic PIM Flooding Mechanism (PFM).  This allows
-    LHRs to learn about new sources without receiving initial data packets.
+    LHRs to learn about new sources without receiving initial data packets.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8364'
+fetched: '2022-01-23'
 keyword:
 - Multicast
 editorialgroup:

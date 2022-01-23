@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Haberman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Haberman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hinden
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Hinden
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPv6 Neighbor Discovery's Router Advertisement message contains an
-    8-bit field reserved for single-bit flags.  Several protocols have reserved flags
-    in this field and others are preparing to reserve a sufficient number of flags
-    to exhaust the field.  This document defines an option to the Router Advertisement
-    message that expands the available number of flag bits available. [STANDARDS-TRACK]
+- content: "<p>The IPv6 Neighbor Discovery's Router Advertisement message contains
+    an 8-bit field reserved for single-bit flags.  Several protocols have reserved
+    flags in this field and others are preparing to reserve a sufficient number of
+    flags to exhaust the field.  This document defines an option to the Router Advertisement
+    message that expands the available number of flag bits available. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC5175
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5075'
+fetched: '2022-01-23'
 keyword:
 - neighbor discovery protocol
 - ndp

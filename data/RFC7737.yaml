@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Akiya
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Akiya
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Swallow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Swallow
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andersson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Andersson
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Chen
         language:
@@ -77,13 +137,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) Ping
+- content: <p>The Multiprotocol Label Switching (MPLS) Label Switched Path (LSP) Ping
     and Traceroute use the Reply Mode field to signal the method to be used in the
     MPLS echo reply.  This document updates the procedures for the "Reply via Specified
     Path" Reply Mode.  The value of this Reply Mode is 5.  The update creates a simple
     way to indicate that the reverse LSP should be used as the return path.  This
     document also adds an optional TLV that can carry an ordered list of Reply Mode
-    values.
+    values.</p>
   language:
   - en
   script:
@@ -95,7 +155,12 @@ relation:
     formattedref:
       content: RFC7110
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7737'
+fetched: '2022-01-23'
 keyword:
 - MPLS
 - LSP Ping

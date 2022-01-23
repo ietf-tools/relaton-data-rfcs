@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vixie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Vixie
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: The Domain Name System's wire protocol includes a number of fixed fields
+- content: "<p>The Domain Name System's wire protocol includes a number of fixed fields
     whose range has been or soon will be exhausted and does not allow clients to advertise
     their capabilities to servers.  This document describes backward compatible mechanisms
-    for allowing the protocol to grow. [STANDARDS-TRACK]
+    for allowing the protocol to grow. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC6891
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2671'
+fetched: '2022-01-23'
 keyword:
 - EDNS0
 - domain

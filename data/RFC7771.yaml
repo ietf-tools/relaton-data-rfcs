@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Malis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Malis
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andersson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Andersson
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: van Helvoort
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. van Helvoort
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Shin
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Wang
         language:
@@ -74,6 +134,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: D'Alessandro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. D'Alessandro
         language:
@@ -88,15 +160,15 @@ language:
 script:
 - Latn
 abstract:
-- content: In MPLS and MPLS Transport Profile (MPLS-TP) environments, statically provisioned
-    Single-Segment Pseudowires (SS-PWs) are protected against tunnel failure via MPLS-level
-    and MPLS-TP-level tunnel protection.  With statically provisioned Multi-Segment
-    Pseudowires (MS-PWs), each segment of the MS-PW is likewise protected from tunnel
-    failures via MPLS-level and MPLS-TP-level tunnel protection.  However, static
-    MS-PWs are not protected end-to-end against failure of one of the Switching Provider
-    Edge Routers (S-PEs) along the path of the MS-PW.  This document describes how
-    to achieve this protection via redundant MS-PWs by updating the existing procedures
-    in RFC 6870.  It also contains an optional approach based on MPLS-TP Linear Protection.
+- content: "<p>In MPLS and MPLS Transport Profile (MPLS-TP) environments, statically
+    provisioned Single-Segment Pseudowires (SS-PWs) are protected against tunnel failure
+    via MPLS-level and MPLS-TP-level tunnel protection.  With statically provisioned
+    Multi-Segment Pseudowires (MS-PWs), each segment of the MS-PW is likewise protected
+    from tunnel failures via MPLS-level and MPLS-TP-level tunnel protection.  However,
+    static MS-PWs are not protected end-to-end against failure of one of the Switching
+    Provider Edge Routers (S-PEs) along the path of the MS-PW.  This document describes
+    how to achieve this protection via redundant MS-PWs by updating the existing procedures
+    in RFC 6870.  It also contains an optional approach based on MPLS-TP Linear Protection.</p>"
   language:
   - en
   script:
@@ -108,7 +180,12 @@ relation:
     formattedref:
       content: RFC6870
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7771'
+fetched: '2022-01-23'
 keyword:
 - end-to-end protection
 - linear protection

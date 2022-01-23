@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roca
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Roca
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cunche
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Cunche
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lacan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lacan
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bouabdallah
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bouabdallah
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Matsuzono
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Matsuzono
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a fully-specified simple Forward Error Correction
+- content: "<p>This document describes a fully-specified simple Forward Error Correction
     (FEC) scheme for Reed-Solomon codes over the finite field (also known as the Galois
     Field) GF(2^^m), with 2 <= m <= 16, that can be used to protect arbitrary media
     streams along the lines defined by FECFRAME.  The Reed-Solomon codes considered
@@ -85,13 +145,18 @@ abstract:
     erasures and the source symbols are part of the encoding symbols, which can greatly
     simplify decoding.  However, the price to pay is a limit on the maximum source
     block size, on the maximum number of encoding symbols, and a computational complexity
-    higher than that of the Low-Density Parity Check (LDPC) codes, for instance.
+    higher than that of the Low-Density Parity Check (LDPC) codes, for instance.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6865'
+fetched: '2022-01-23'
 keyword:
 - Forward Error Correction
 - Reed-Solomon

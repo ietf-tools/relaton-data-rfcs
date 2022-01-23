@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Newman
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: OTP provides a useful authentication mechanism for situations where there
-    is limited client or server trust.  Currently, OTP is added to protocols in an
-    ad-hoc fashion with heuristic parsing.  This specification defines an OTP SASL
-    mechanism so it can be easily and formally integrated into many application protocols.
-    [STANDARDS-TRACK]
+- content: "<p>OTP provides a useful authentication mechanism for situations where
+    there is limited client or server trust.  Currently, OTP is added to protocols
+    in an ad-hoc fashion with heuristic parsing.  This specification defines an OTP
+    SASL mechanism so it can be easily and formally integrated into many application
+    protocols. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC2222
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2444'
+fetched: '2022-01-23'
 keyword:
 - OTP-SASL
 - otp

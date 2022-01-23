@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -38,15 +50,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Using an underscore for a prefix creates a space for constrained interoperation
+- content: "<p>Using an underscore for a prefix creates a space for constrained interoperation
     of resource records.  Original uses of an underscore character as a domain node
     name prefix were specified without the benefit of an IANA registry.  This produced
     an entirely uncoordinated set of name-creation activities, all drawing from the
-    same namespace.  A registry for these names has now been defined by RFC 8552.  However,
-    the existing specifications that use underscored naming need to be modified in
-    order to be in line with the new registry.  This document specifies those changes.  The
-    changes preserve existing software and operational practice, while adapting the
-    specifications for those practices to the newer underscore registry model.
+    same namespace.  A registry for these names has now been defined by RFC 8552.
+    \ However, the existing specifications that use underscored naming need to be
+    modified in order to be in line with the new registry.  This document specifies
+    those changes.  The changes preserve existing software and operational practice,
+    while adapting the specifications for those practices to the newer underscore
+    registry model.</p>"
   language:
   - en
   script:
@@ -218,7 +231,16 @@ relation:
     formattedref:
       content: RFC8145
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '222'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8553'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - Domain Name System

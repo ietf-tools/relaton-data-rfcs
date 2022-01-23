@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lhotka
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Lhotka
         language:
@@ -38,21 +50,26 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document specifies the mapping rules for translating YANG data models
-    into Document Schema Definition Languages (DSDL), a coordinated set of XML schema
-    languages standardized as ISO/IEC 19757.  The following DSDL schema languages
-    are addressed by the mapping: Regular Language for XML Next Generation (RELAX
-    NG), Schematron, and Schematron and Document Schema Renaming Language (DSRL).  The
-    mapping takes one or more YANG modules and produces a set of DSDL schemas for
-    a selected target document type -- datastore content, Network Configuration Protocol
-    (NETCONF) messages, etc.  Procedures for schema-based validation of such documents
-    are also discussed. [STANDARDS-TRACK]'
+- content: "<p>This document specifies the mapping rules for translating YANG data
+    models into Document Schema Definition Languages (DSDL), a coordinated set of
+    XML schema languages standardized as ISO/IEC 19757.  The following DSDL schema
+    languages are addressed by the mapping: Regular Language for XML Next Generation
+    (RELAX NG), Schematron, and Schematron and Document Schema Renaming Language (DSRL).
+    \ The mapping takes one or more YANG modules and produces a set of DSDL schemas
+    for a selected target document type -- datastore content, Network Configuration
+    Protocol (NETCONF) messages, etc.  Procedures for schema-based validation of such
+    documents are also discussed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6110'
+fetched: '2022-01-23'
 keyword:
 - DSDL
 - validation

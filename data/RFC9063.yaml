@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moskowitz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Moskowitz
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Komu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Komu
         language:
@@ -47,24 +71,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes the Host Identity (HI) namespace, which provides a
-    cryptographic namespace to applications, and the associated protocol layer, the
-    Host Identity Protocol, located between the internetworking and transport layers,
-    that supports end-host mobility, multihoming, and NAT traversal. Herein are presented
-    the basics of the current namespaces, their strengths and weaknesses, and how
-    a HI namespace will add completeness to them. The roles of the HI namespace in
-    the protocols are defined. This document obsoletes RFC 4423 and addresses the
-    concerns raised by the IESG, particularly that of crypto agility. The Security
+- content: "<p>This memo describes the Host Identity (HI) namespace, which provides
+    a cryptographic namespace to applications, and the associated protocol layer,
+    the Host Identity Protocol, located between the internetworking and transport
+    layers, that supports end-host mobility, multihoming, and NAT traversal. Herein
+    are presented the basics of the current namespaces, their strengths and weaknesses,
+    and how a HI namespace will add completeness to them. The roles of the HI namespace
+    in the protocols are defined.</p><p>This document obsoletes RFC 4423 and addresses
+    the concerns raised by the IESG, particularly that of crypto agility. The Security
     Considerations section also describes measures against flooding attacks, usage
     of identities in access control lists, weaker types of identifiers, and trust
     on first use. This document incorporates lessons learned from the implementations
-    of RFC 7401 and goes further to explain how HIP works as a secure signaling channel.
+    of RFC 7401 and goes further to explain how HIP works as a secure signaling channel.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9063'
+fetched: '2022-01-23'
 keyword:
 - cryptographic identity
 - cryptographic namespace

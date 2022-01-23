@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -38,18 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a procedure for when a Military Message Handling
+- content: "<p>This document describes a procedure for when a Military Message Handling
     System (MMHS) message is composed by one user and is only released to the mail
     transfer system when one or more Authorizing Users authorize release of the message
     by adding the MMHS-Authorizing-Users header field.  The resulting message can
     be optionally signed by the sender and/or reviewer, allowing recipients to verify
-    both the original signature (if any) and the review signatures.
+    both the original signature (if any) and the review signatures.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7912'
+fetched: '2022-01-23'
 keyword:
 - MMHS
 - S/MIME

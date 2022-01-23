@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schoenwaelder
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schoenwaelder
         language:
@@ -38,20 +50,25 @@ language:
 script:
 - Latn
 abstract:
-- content: YANG is a data modeling language used to model configuration and state
+- content: "<p>YANG is a data modeling language used to model configuration and state
     data manipulated by the Network Configuration Protocol (NETCONF), NETCONF remote
     procedure calls, and NETCONF notifications.  The Structure of Management Information
     (SMIv2) defines fundamental data types, an object model, and the rules for writing
-    and revising MIB modules for use with the Simple Network Management Protocol (SNMP).  This
-    document defines a translation of SMIv2 MIB modules into YANG modules, enabling
-    read-only (config false) access to data objects defined in SMIv2 MIB modules via
-    NETCONF. [STANDARDS-TRACK]
+    and revising MIB modules for use with the Simple Network Management Protocol (SNMP).
+    \ This document defines a translation of SMIv2 MIB modules into YANG modules,
+    enabling read-only (config false) access to data objects defined in SMIv2 MIB
+    modules via NETCONF. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6643'
+fetched: '2022-01-23'
 keyword:
 - SMIv2
 - YANG

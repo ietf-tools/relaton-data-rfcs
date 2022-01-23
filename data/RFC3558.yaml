@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Li
         language:
@@ -38,18 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the RTP payload format for Enhanced Variable Rate
-    Codec (EVRC) Speech and Selectable Mode Vocoder (SMV) Speech.  Two sub-formats
+- content: "<p>This document describes the RTP payload format for Enhanced Variable
+    Rate Codec (EVRC) Speech and Selectable Mode Vocoder (SMV) Speech.  Two sub-formats
     are specified for different application scenarios.  A bundled/interleaved format
     is included to reduce the effect of packet loss on speech quality and amortize
     the overhead of the RTP header over more than one speech frame.  A non-bundled
-    format is also supported for conversational applications. [STANDARDS-TRACK]
+    format is also supported for conversational applications. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3558'
+fetched: '2022-01-23'
 keyword:
 - real time transport protocol
 - real-time

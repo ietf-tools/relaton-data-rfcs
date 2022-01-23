@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D.L. Mills
         language:
@@ -37,15 +54,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the Network Time Protocol (NTP), specifies its
-    formal structure and summarizes information useful for its implementation.  NTP
-    provides the mechanisms to synchronize time and coordinate time distribution in
-    a large, diverse internet operating at rates from mundane to lightwave.  It uses
-    a returnable-time design in which a distributed subnet of time servers operating
+- content: "<p>This document describes the Network Time Protocol (NTP), specifies
+    its formal structure and summarizes information useful for its implementation.
+    \ NTP provides the mechanisms to synchronize time and coordinate time distribution
+    in a large, diverse internet operating at rates from mundane to lightwave.  It
+    uses a returnable-time design in which a distributed subnet of time servers operating
     in a self- organizing, hierarchical-master-slave configuration synchronizes local
     clocks within the subnet and to national time standards via wire or radio.  The
     servers can also redistribute reference time via local routing algorithms and
-    time daemons. [STANDARDS-TRACK]
+    time daemons. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -57,7 +74,12 @@ relation:
     formattedref:
       content: RFC1305
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1119'
+fetched: '2022-01-23'
 keyword:
 - NTP
 - NTPv2

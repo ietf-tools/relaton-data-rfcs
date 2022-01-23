@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -38,19 +50,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The Message Disposition Notification (MDN) facility defined in RFC 2298
-    provides a means by which a message can request that message processing by the
-    recipient be acknowledged as well as a format to be used for such acknowledgements.  However,
-    it doesn't describe how multiple Mail User Agents (MUAs) should handle the generation
-    of MDNs in an Internet Message Access Protocol (IMAP4) environment.  This document
-    describes how to handle MDNs in such an environment and provides guidelines for
-    implementers of IMAP4 that want to add MDN support to their products. [STANDARDS-TRACK]
+- content: "<p>The Message Disposition Notification (MDN) facility defined in RFC
+    2298 provides a means by which a message can request that message processing by
+    the recipient be acknowledged as well as a format to be used for such acknowledgements.
+    \ However, it doesn't describe how multiple Mail User Agents (MUAs) should handle
+    the generation of MDNs in an Internet Message Access Protocol (IMAP4) environment.
+    \ This document describes how to handle MDNs in such an environment and provides
+    guidelines for implementers of IMAP4 that want to add MDN support to their products.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3503'
+fetched: '2022-01-23'
 keyword:
 - mua
 - mail user agent

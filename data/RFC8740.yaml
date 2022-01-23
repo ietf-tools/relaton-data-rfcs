@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Benjamin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Benjamin
         language:
@@ -37,8 +49,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 7540 by forbidding TLS 1.3 post-handshake authentication,
-    as an analog to the existing TLS 1.2 renegotiation restriction.
+- content: "<p>This document updates RFC 7540 by forbidding TLS 1.3 post-handshake
+    authentication, as an analog to the existing TLS 1.2 renegotiation restriction.</p>"
   language:
   - en
   script:
@@ -50,7 +62,12 @@ relation:
     formattedref:
       content: RFC7540
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8740'
+fetched: '2022-01-23'
 keyword:
 - HTTP
 - renegotiation

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Zhu
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jaganathan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Jaganathan
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -58,13 +94,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines protocols, procedures, and conventions to be employed
-    by peers implementing the Generic Security Service Application Program Interface
-    (GSS-API) when using the Kerberos Version 5 mechanism. RFC 1964 is updated and
-    incremental changes are proposed in response to recent developments such as the
-    introduction of Kerberos cryptosystem framework. These changes support the inclusion
-    of new cryptosystems, by defining new per-message tokens along with their encryption
-    and checksum algorithms based on the cryptosystem profiles. [STANDARDS-TRACK]
+- content: "<p>This document defines protocols, procedures, and conventions to be
+    employed by peers implementing the Generic Security Service Application Program
+    Interface (GSS-API) when using the Kerberos Version 5 mechanism.</p><p>RFC 1964
+    is updated and incremental changes are proposed in response to recent developments
+    such as the introduction of Kerberos cryptosystem framework. These changes support
+    the inclusion of new cryptosystems, by defining new per-message tokens along with
+    their encryption and checksum algorithms based on the cryptosystem profiles. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -76,7 +112,12 @@ relation:
     formattedref:
       content: RFC1964
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4121'
+fetched: '2022-01-23'
 keyword:
 - GSSAPI-KER
 - cryptosystem

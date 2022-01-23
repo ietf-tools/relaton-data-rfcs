@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoffman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hoffman
         language:
@@ -37,10 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an extension to the SMTP service that allows an
-    SMTP server and client to use transport-layer security to provide private, authenticated
-    communication over the Internet.  This gives SMTP agents the ability to protect
-    some or all of their communications from eavesdroppers and attackers. [STANDARDS-TRACK]
+- content: "<p>This document describes an extension to the SMTP service that allows
+    an SMTP server and client to use transport-layer security to provide private,
+    authenticated communication over the Internet.  This gives SMTP agents the ability
+    to protect some or all of their communications from eavesdroppers and attackers.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +65,12 @@ relation:
     formattedref:
       content: RFC3207
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2487'
+fetched: '2022-01-23'
 keyword:
 - simple
 - mail

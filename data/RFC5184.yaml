@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Teraoka
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Teraoka
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gogo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Gogo
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mitsuya
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Mitsuya
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shibui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Shibui
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mitani
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Mitani
         language:
@@ -77,24 +137,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes unified Layer 2 (L2) abstractions for Layer 3 (L3)-driven
-    fast handovers.  For efficient network communication, it is vital for a protocol
-    layer to know or utilize other layers' information, such as the form of L2 triggers.  However,
-    each protocol layer is basically designed independently.  Since each protocol
-    layer is also implemented independently in current operating systems, it is very
-    hard to exchange control information between protocol layers.  This document defines
-    nine kinds of L2 abstractions in the form of "primitives" to achieve fast handovers
-    in the network layer as a means of solving the problem.  This mechanism is called
-    "L3-driven fast handovers" because the network layer initiates L2 and L3 handovers
-    by using the primitives.  This document is a product of the IP Mobility Optimizations
-    (MobOpts) Research Group.  This memo defines an Experimental Protocol for the
-    Internet community.
+- content: <p>This document proposes unified Layer 2 (L2) abstractions for Layer 3
+    (L3)-driven fast handovers.  For efficient network communication, it is vital
+    for a protocol layer to know or utilize other layers' information, such as the
+    form of L2 triggers.  However, each protocol layer is basically designed independently.  Since
+    each protocol layer is also implemented independently in current operating systems,
+    it is very hard to exchange control information between protocol layers.  This
+    document defines nine kinds of L2 abstractions in the form of "primitives" to
+    achieve fast handovers in the network layer as a means of solving the problem.  This
+    mechanism is called "L3-driven fast handovers" because the network layer initiates
+    L2 and L3 handovers by using the primitives.  This document is a product of the
+    IP Mobility Optimizations (MobOpts) Research Group.  This memo defines an Experimental
+    Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5184'
+fetched: '2022-01-23'
 keyword:
 - l2 triggers
 - primitives

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wallace
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Wallace
         language:
@@ -38,25 +50,30 @@ language:
 script:
 - Latn
 abstract:
-- content: The Server-based Certificate Validation Protocol (SCVP) defines an extensible
-    means of delegating the development and validation of certification paths to a
-    server.  It can be used to support the development and validation of certification
-    paths well after the expiration of the certificates in the path by specifying
-    a time of interest in the past.  The Evidence Record Syntax (ERS) defines structures,
-    called evidence records, to support the non-repudiation of the existence of data.  Evidence
-    records can be used to preserve materials that comprise a certification path such
-    that trust in the certificates can be established after the expiration of the
-    certificates in the path and after the cryptographic algorithms used to sign the
-    certificates in the path are no longer secure.  This document describes usage
-    of the SCVP WantBack feature to convey evidence records, enabling SCVP responders
-    to provide preservation evidence for certificates and certificate revocation lists
-    (CRLs). [STANDARDS-TRACK]
+- content: "<p>The Server-based Certificate Validation Protocol (SCVP) defines an
+    extensible means of delegating the development and validation of certification
+    paths to a server.  It can be used to support the development and validation of
+    certification paths well after the expiration of the certificates in the path
+    by specifying a time of interest in the past.  The Evidence Record Syntax (ERS)
+    defines structures, called evidence records, to support the non-repudiation of
+    the existence of data.  Evidence records can be used to preserve materials that
+    comprise a certification path such that trust in the certificates can be established
+    after the expiration of the certificates in the path and after the cryptographic
+    algorithms used to sign the certificates in the path are no longer secure.  This
+    document describes usage of the SCVP WantBack feature to convey evidence records,
+    enabling SCVP responders to provide preservation evidence for certificates and
+    certificate revocation lists (CRLs). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5276'
+fetched: '2022-01-23'
 keyword:
 - ERS
 - Evidence Record

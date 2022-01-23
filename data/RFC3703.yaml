@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Strassner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Strassner
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moore
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Moore
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moats
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Moats
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ellesson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Ellesson
         language:
@@ -67,22 +115,27 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document defines a mapping of the Policy Core Information Model to
-    a form that can be implemented in a directory that uses Lightweight Directory
+- content: "<p>This document defines a mapping of the Policy Core Information Model
+    to a form that can be implemented in a directory that uses Lightweight Directory
     Access Protocol (LDAP) as its access protocol.  This model defines two hierarchies
     of object classes: structural classes representing information for representing
     and controlling policy data as specified in RFC 3060, and relationship classes
-    that indicate how instances of the structural classes are related to each other.  Classes
-    are also added to the LDAP schema to improve the performance of a client''s interactions
-    with an LDAP server when the client is retrieving large amounts of policy-related
-    information.  These classes exist only to optimize LDAP retrievals: there are
-    no classes in the information model that correspond to them. [STANDARDS-TRACK]'
+    that indicate how instances of the structural classes are related to each other.
+    \ Classes are also added to the LDAP schema to improve the performance of a client's
+    interactions with an LDAP server when the client is retrieving large amounts of
+    policy-related information.  These classes exist only to optimize LDAP retrievals:
+    there are no classes in the information model that correspond to them. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3703'
+fetched: '2022-01-23'
 keyword:
 - mapping classes
 editorialgroup:

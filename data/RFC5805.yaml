@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zeilenga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Zeilenga
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: Lightweight Directory Access Protocol (LDAP) update operations, such as
-    Add, Delete, and Modify operations, have atomic, consistency, isolation, durability
+- content: "<p>Lightweight Directory Access Protocol (LDAP) update operations, such
+    as Add, Delete, and Modify operations, have atomic, consistency, isolation, durability
     (ACID) properties.  Each of these update operations act upon an entry.  It is
     often desirable to update two or more entries in a single unit of interaction,
     a transaction.  Transactions are necessary to support a number of applications
-    including resource provisioning.  This document extends LDAP to support transactions.  This
-    document defines an Experimental Protocol for the Internet community.
+    including resource provisioning.  This document extends LDAP to support transactions.
+    \ This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5805'
+fetched: '2022-01-23'
 keyword:
 - acid
 - atomic consistency isolation durability

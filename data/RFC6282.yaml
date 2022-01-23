@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Hui
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Thubert
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 4944, "Transmission of IPv6 Packets over IEEE
+- content: <p>This document updates RFC 4944, "Transmission of IPv6 Packets over IEEE
     802.15.4 Networks".  This document specifies an IPv6 header compression format
     for IPv6 packet delivery in Low Power Wireless Personal Area Networks (6LoWPANs).  The
     compression format relies on shared context to allow compression of arbitrary
     prefixes.  How the information is maintained in that shared context is out of
     scope.  This document specifies compression of multicast addresses and a framework
     for compressing next headers.  UDP header compression is specified within this
-    framework. [STANDARDS-TRACK]
+    framework. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC4944
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6282'
+fetched: '2022-01-23'
 keyword:
 - LLN
 - Low Power

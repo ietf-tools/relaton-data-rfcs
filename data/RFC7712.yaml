@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Saint-Andre
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Saint-Andre
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Miller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Miller
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hancke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hancke
         language:
@@ -58,19 +94,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document improves the security of the Extensible Messaging and Presence
-    Protocol (XMPP) in two ways.  First, it specifies how to establish a strong association
-    between a domain name and an XML stream, using the concept of "prooftypes".  Second,
-    it describes how to securely delegate a service domain name (e.g., example.com)
-    to a target server hostname (e.g., hosting.example.net); this is especially important
-    in multi-tenanted environments where the same target server hosts a large number
-    of domains.
+- content: <p>This document improves the security of the Extensible Messaging and
+    Presence Protocol (XMPP) in two ways.  First, it specifies how to establish a
+    strong association between a domain name and an XML stream, using the concept
+    of "prooftypes".  Second, it describes how to securely delegate a service domain
+    name (e.g., example.com) to a target server hostname (e.g., hosting.example.net);
+    this is especially important in multi-tenanted environments where the same target
+    server hosts a large number of domains.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7712'
+fetched: '2022-01-23'
 keyword:
 - XMPP
 - Extensible Messaging and Presence Protocol

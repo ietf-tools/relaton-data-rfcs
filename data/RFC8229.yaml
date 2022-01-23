@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pauly
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Pauly
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Touati
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Touati
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mantha
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Mantha
         language:
@@ -57,18 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a method to transport Internet Key Exchange Protocol
-    (IKE) and IPsec packets over a TCP connection for traversing network middleboxes
-    that may block IKE negotiation over UDP.  This method, referred to as "TCP encapsulation",
-    involves sending both IKE packets for Security Association establishment and Encapsulating
-    Security Payload (ESP) packets over a TCP connection.  This method is intended
-    to be used as a fallback option when IKE cannot be negotiated over UDP.
+- content: <p>This document describes a method to transport Internet Key Exchange
+    Protocol (IKE) and IPsec packets over a TCP connection for traversing network
+    middleboxes that may block IKE negotiation over UDP.  This method, referred to
+    as "TCP encapsulation", involves sending both IKE packets for Security Association
+    establishment and Encapsulating Security Payload (ESP) packets over a TCP connection.  This
+    method is intended to be used as a fallback option when IKE cannot be negotiated
+    over UDP.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8229'
+fetched: '2022-01-23'
 keyword:
 - IKE
 - IKEv2

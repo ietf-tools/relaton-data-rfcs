@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Watsen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Watsen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Farrer
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Abrahamsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Abrahamsson
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document presents a technique to securely provision a networking device
-    when it is booting in a factory-default state.  Variations in the solution enable
-    it to be used on both public and private networks.  The provisioning steps are
-    able to update the boot image, commit an initial configuration, and execute arbitrary
-    scripts to address auxiliary needs.  The updated device is subsequently able to
-    establish secure connections with other systems.  For instance, a device may establish
-    NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific
-    network management systems.
+- content: "<p>This document presents a technique to securely provision a networking
+    device when it is booting in a factory-default state.  Variations in the solution
+    enable it to be used on both public and private networks.  The provisioning steps
+    are able to update the boot image, commit an initial configuration, and execute
+    arbitrary scripts to address auxiliary needs.  The updated device is subsequently
+    able to establish secure connections with other systems.  For instance, a device
+    may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific
+    network management systems.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8572'
+fetched: '2022-01-23'
 keyword:
 - zerotouch
 - bootstrap

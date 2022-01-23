@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Li
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atkinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Atkinson
         language:
@@ -47,16 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the authentication of Intermediate System to Intermediate
-    System (IS-IS) Protocol Data Units (PDUs) using the Hashed Message Authentication
-    Codes - Message Digest 5 (HMAC-MD5) algorithm as found in RFC 2104. IS-IS is specified
-    in International Standards Organization (ISO) 10589, with extensions to support
-    Internet Protocol version 4 (IPv4) described in RFC 1195. The base specification
-    includes an authentication mechanism that allows for multiple authentication algorithms.
-    The base specification only specifies the algorithm for cleartext passwords. This
-    document replaces RFC 3567. This document proposes an extension to that specification
-    that allows the use of the HMAC-MD5 authentication algorithm to be used in conjunction
-    with the existing authentication mechanisms. [STANDARDS-TRACK]
+- content: "<p>This document describes the authentication of Intermediate System to
+    Intermediate System (IS-IS) Protocol Data Units (PDUs) using the Hashed Message
+    Authentication Codes - Message Digest 5 (HMAC-MD5) algorithm as found in RFC 2104.
+    IS-IS is specified in International Standards Organization (ISO) 10589, with extensions
+    to support Internet Protocol version 4 (IPv4) described in RFC 1195. The base
+    specification includes an authentication mechanism that allows for multiple authentication
+    algorithms. The base specification only specifies the algorithm for cleartext
+    passwords. This document replaces RFC 3567.</p><p>This document proposes an extension
+    to that specification that allows the use of the HMAC-MD5 authentication algorithm
+    to be used in conjunction with the existing authentication mechanisms. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC1195
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5304'
+fetched: '2022-01-23'
 keyword:
 - intermediate system to intermediate system
 - IS-IS authentication

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lever
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Lever
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Noveck
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Noveck
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: In NFS version 4.0, the fs_locations attribute informs clients about alternate
-    locations of file systems.  An NFS version 4.0 client can use this information
+- content: "<p>In NFS version 4.0, the fs_locations attribute informs clients about
+    alternate locations of file systems.  An NFS version 4.0 client can use this information
     to handle migration and replication of server file systems.  This document describes
     how an NFS version 4.0 client can also use this information to discover an NFS
-    version 4.0 server's trunking capabilities.  This document updates RFC 7530.
+    version 4.0 server's trunking capabilities.  This document updates RFC 7530.</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC7530
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8587'
+fetched: '2022-01-23'
 keyword:
 - NFSv4.0
 - migration

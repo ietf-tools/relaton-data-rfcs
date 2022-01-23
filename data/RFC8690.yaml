@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nainar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Nainar
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Iqbal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Iqbal
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vainshtein
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Vainshtein
         language:
@@ -67,14 +115,15 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 8287 defines the extensions to perform LSP Ping and Traceroute for
-    Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with the
-    MPLS data plane. RFC 8287 proposes three Target Forwarding Equivalence Class (FEC)
-    Stack sub-TLVs. While RFC 8287 defines the format and procedure to handle those
-    sub-TLVs, it does not sufficiently clarify how the length of the Segment ID sub-TLVs
-    should be computed to be included in the Length field of the sub-TLVs. This ambiguity
-    has resulted in interoperability issues. This document updates RFC 8287 by clarifying
-    the length of each of the Segment ID sub-TLVs defined in RFC 8287.
+- content: "<p>RFC 8287 defines the extensions to perform LSP Ping and Traceroute
+    for Segment Routing IGP-Prefix and IGP-Adjacency Segment Identifiers (SIDs) with
+    the MPLS data plane. RFC 8287 proposes three Target Forwarding Equivalence Class
+    (FEC) Stack sub-TLVs. While RFC 8287 defines the format and procedure to handle
+    those sub-TLVs, it does not sufficiently clarify how the length of the Segment
+    ID sub-TLVs should be computed to be included in the Length field of the sub-TLVs.
+    This ambiguity has resulted in interoperability issues.</p><p>This document updates
+    RFC 8287 by clarifying the length of each of the Segment ID sub-TLVs defined in
+    RFC 8287.</p>"
   language:
   - en
   script:
@@ -86,7 +135,12 @@ relation:
     formattedref:
       content: RFC8287
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8690'
+fetched: '2022-01-23'
 keyword:
 - mpls
 editorialgroup:

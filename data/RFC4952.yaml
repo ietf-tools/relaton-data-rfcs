@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Ko
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: Full use of electronic mail throughout the world requires that people be
-    able to use their own names, written correctly in their own languages and scripts,
+- content: "<p>Full use of electronic mail throughout the world requires that people
+    be able to use their own names, written correctly in their own languages and scripts,
     as mailbox names in email addresses.  This document introduces a series of specifications
     that define mechanisms and protocol extensions needed to fully support internationalized
     email addresses.  These changes include an SMTP extension and extension of email
     header syntax to accommodate UTF-8 data.  The document set also includes discussion
     of key assumptions and issues in deploying fully internationalized email.  This
-    memo provides information for the Internet community.
+    memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC6530
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4952'
+fetched: '2022-01-23'
 keyword:
 - smtp
 editorialgroup:

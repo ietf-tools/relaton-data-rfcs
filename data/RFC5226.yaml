@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Narten
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Narten
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Alvestrand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Alvestrand
         language:
@@ -47,22 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: Many protocols make use of identifiers consisting of constants and other
-    well-known values. Even after a protocol has been defined and deployment has begun,
-    new values may need to be assigned (e.g., for a new option type in DHCP, or a
-    new encryption or authentication transform for IPsec). To ensure that such quantities
-    have consistent values and interpretations across all implementations, their assignment
-    must be administered by a central authority. For IETF protocols, that role is
-    provided by the Internet Assigned Numbers Authority (IANA). In order for IANA
-    to manage a given namespace prudently, it needs guidelines describing the conditions
-    under which new values can be assigned or when modifications to existing values
-    can be made. If IANA is expected to play a role in the management of a namespace,
-    IANA must be given clear and concise instructions describing that role. This document
-    discusses issues that should be considered in formulating a policy for assigning
-    values to a namespace and provides guidelines for authors on the specific text
-    that must be included in documents that place demands on IANA. This document obsoletes
-    RFC 2434. This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.
+- content: "<p>Many protocols make use of identifiers consisting of constants and
+    other well-known values. Even after a protocol has been defined and deployment
+    has begun, new values may need to be assigned (e.g., for a new option type in
+    DHCP, or a new encryption or authentication transform for IPsec). To ensure that
+    such quantities have consistent values and interpretations across all implementations,
+    their assignment must be administered by a central authority. For IETF protocols,
+    that role is provided by the Internet Assigned Numbers Authority (IANA).</p><p>In
+    order for IANA to manage a given namespace prudently, it needs guidelines describing
+    the conditions under which new values can be assigned or when modifications to
+    existing values can be made. If IANA is expected to play a role in the management
+    of a namespace, IANA must be given clear and concise instructions describing that
+    role. This document discusses issues that should be considered in formulating
+    a policy for assigning values to a namespace and provides guidelines for authors
+    on the specific text that must be included in documents that place demands on
+    IANA.</p><p>This document obsoletes RFC 2434. This document specifies an Internet
+    Best Current Practices for the Internet Community, and requests discussion and
+    suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -74,7 +99,12 @@ relation:
     formattedref:
       content: RFC8126
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5226'
+fetched: '2022-01-23'
 keyword:
 - internet assigned numbers authority
 - values

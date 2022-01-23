@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rose
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M.T. Rose
         language:
@@ -37,7 +54,7 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 1006 describes a mechanism for providing the ISO transport service
+- content: <p>RFC 1006 describes a mechanism for providing the ISO transport service
     on top of TCP/IP.  Once this method is applied, one may implement "real" ISO applications
     on top of TCP/IP-based internets, by simply implementing OSI session, presentation,
     and application services on top of the transport service access point which is
@@ -47,10 +64,15 @@ abstract:
     the presentation, session, and transport services on top of the TCP).  This memo
     describes an approach for providing "stream-lined" support of OSI application
     services on top of TCP/IP-based internets for such constrained environments.  This
-    memo proposes a standard for the Internet community.
+    memo proposes a standard for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1085'
+fetched: '2022-01-23'

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Daboo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Daboo
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The SIEVE mail filtering language "spamtest" and "virustest" extensions
+- content: <p>The SIEVE mail filtering language "spamtest" and "virustest" extensions
     permit users to use simple, portable commands for spam and virus tests on email
     messages.  Each extension provides a new test using matches against numeric 'scores'.  It
     is the responsibility of the underlying SIEVE implementation to do the actual
-    checks that result in values returned by the tests. [PROPOSED STANDARD]
+    checks that result in values returned by the tests. [PROPOSED STANDARD]</p>
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC5235
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3685'
+fetched: '2022-01-23'
 keyword:
 - messages
 - portable commands

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Black
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Black
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McGrew
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. McGrew
         language:
@@ -48,16 +72,16 @@ language:
 script:
 - Latn
 abstract:
-- content: An authenticated encryption algorithm combines encryption and integrity
+- content: "<p>An authenticated encryption algorithm combines encryption and integrity
     into a single operation; such algorithms may also be referred to as combined modes
     of an encryption cipher or as combined mode algorithms. This document describes
     the use of authenticated encryption algorithms with the Encrypted Payload of the
-    Internet Key Exchange version 2 (IKEv2) protocol. The use of two specific authenticated
-    encryption algorithms with the IKEv2 Encrypted Payload is also described; these
-    two algorithms are the Advanced Encryption Standard (AES) in Galois/Counter Mode
-    (AES GCM) and AES in Counter with CBC-MAC Mode (AES CCM). Additional documents
+    Internet Key Exchange version 2 (IKEv2) protocol.</p><p>The use of two specific
+    authenticated encryption algorithms with the IKEv2 Encrypted Payload is also described;
+    these two algorithms are the Advanced Encryption Standard (AES) in Galois/Counter
+    Mode (AES GCM) and AES in Counter with CBC-MAC Mode (AES CCM). Additional documents
     may describe the use of other authenticated encryption algorithms with the IKEv2
-    Encrypted Payload. [STANDARDS-TRACK]
+    Encrypted Payload. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC4306
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5282'
+fetched: '2022-01-23'
 keyword:
 - encryption cipher
 - combined mode algorithms

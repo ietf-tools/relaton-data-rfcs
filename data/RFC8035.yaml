@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -38,10 +50,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 5761 by clarifying the SDP offer/answer negotiation
+- content: <p>This document updates RFC 5761 by clarifying the SDP offer/answer negotiation
     of RTP and RTP Control Protocol (RTCP) multiplexing.  It makes it clear that an
     answerer can only include an "a=rtcp-mux" attribute in a Session Description Protocol
-    (SDP) answer if the associated SDP offer contained the attribute.
+    (SDP) answer if the associated SDP offer contained the attribute.</p>
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC5761
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8035'
+fetched: '2022-01-23'
 keyword:
 - RTP
 - RTCP

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hendrickx
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Hendrickx
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Qiu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Qiu
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: In Multicast Virtual Private Networks (MVPNs), customer multicast flows
+- content: <p>In Multicast Virtual Private Networks (MVPNs), customer multicast flows
     are carried in "tunnels" through a service provider's network.  The base specifications
     for MVPN define BGP multicast VPN "auto-discovery routes" and specify how to use
     an auto-discovery route to advertise the fact that an individual customer multicast
@@ -79,7 +127,7 @@ abstract:
     provider edge routers of the MVPN.  This document eliminates these restrictions
     by specifying the use of "wildcard" elements in the customer flow identifiers.  With
     wildcard elements, a single auto-discovery route can refer to multiple customer
-    flows or even to all customer flows. [STANDARDS-TRACK]
+    flows or even to all customer flows. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -91,7 +139,12 @@ relation:
     formattedref:
       content: RFC6514
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6625'
+fetched: '2022-01-23'
 keyword:
 - mvpn
 editorialgroup:

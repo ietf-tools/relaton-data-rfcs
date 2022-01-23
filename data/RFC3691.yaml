@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines an UNSELECT command that can be used to close the
-    current mailbox in an Internet Message Access Protocol - version 4 (IMAP4) session
-    without expunging it.  Certain types of IMAP clients need to release resources
+- content: "<p>This document defines an UNSELECT command that can be used to close
+    the current mailbox in an Internet Message Access Protocol - version 4 (IMAP4)
+    session without expunging it.  Certain types of IMAP clients need to release resources
     associated with the selected mailbox without selecting a different mailbox.  While
     IMAP4 provides this functionality (via a SELECT command with a nonexistent mailbox
     name or reselecting the same mailbox with EXAMINE command), a more clean solution
-    is desirable. [STANDARDS-TRACK]
+    is desirable. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3691'
+fetched: '2022-01-23'
 keyword:
 - mailbox session client
 editorialgroup:

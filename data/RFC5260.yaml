@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Freed
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Freed
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the "date" and "index" extensions to the Sieve
+- content: <p>This document describes the "date" and "index" extensions to the Sieve
     email filtering language.  The "date" extension gives Sieve the ability to test
     date and time values in various ways.  The "index" extension provides a means
     to limit header and address tests to specific instances of header fields when
-    header fields are repeated. [STANDARDS-TRACK]
+    header fields are repeated. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5260'
+fetched: '2022-01-23'
 keyword:
 - smtp
 - esmtp

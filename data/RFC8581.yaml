@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Donovan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Donovan
         language:
@@ -37,10 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification documents an extension to the Diameter Overload Indication
-    Conveyance (DOIC), a base solution for Diameter overload defined in RFC 7683.  The
-    extension defines the Peer Overload report type.  The initial use case for the
-    peer report is the handling of occurrences of overload of a Diameter Agent.
+- content: "<p>This specification documents an extension to the Diameter Overload
+    Indication Conveyance (DOIC), a base solution for Diameter overload defined in
+    RFC 7683.  The extension defines the Peer Overload report type.  The initial use
+    case for the peer report is the handling of occurrences of overload of a Diameter
+    Agent.</p>"
   language:
   - en
   script:
@@ -52,7 +65,12 @@ relation:
     formattedref:
       content: RFC7683
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8581'
+fetched: '2022-01-23'
 keyword:
 - Diameter
 - Overload

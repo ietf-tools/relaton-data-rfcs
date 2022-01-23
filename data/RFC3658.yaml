@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gudmundsson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Gudmundsson
         language:
@@ -37,15 +49,15 @@ language:
 script:
 - Latn
 abstract:
-- content: The delegation signer (DS) resource record (RR) is inserted at a zone cut
-    (i.e., a delegation point) to indicate that the delegated zone is digitally signed
-    and that the delegated zone recognizes the indicated key as a valid zone key for
-    the delegated zone.  The DS RR is a modification to the DNS Security Extensions
+- content: "<p>The delegation signer (DS) resource record (RR) is inserted at a zone
+    cut (i.e., a delegation point) to indicate that the delegated zone is digitally
+    signed and that the delegated zone recognizes the indicated key as a valid zone
+    key for the delegated zone.  The DS RR is a modification to the DNS Security Extensions
     definition, motivated by operational considerations.  The intent is to use this
     resource record as an explicit statement about the delegation, rather than relying
     on inference.  This document defines the DS RR, gives examples of how it is used
     and describes the implications on resolvers.  This change is not backwards compatible
-    with RFC 2535.  This document updates RFC 1035, RFC 2535, RFC 3008 and RFC 3090.
+    with RFC 2535.  This document updates RFC 1035, RFC 2535, RFC 3008 and RFC 3090.</p>"
   language:
   - en
   script:
@@ -87,7 +99,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3658'
+fetched: '2022-01-23'
 keyword:
 - zone cut
 - zone key

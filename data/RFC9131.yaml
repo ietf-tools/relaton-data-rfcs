@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Linkova
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Linkova
         language:
@@ -38,14 +50,14 @@ language:
 script:
 - Latn
 abstract:
-- content: Neighbor Discovery (RFC 4861) is used by IPv6 nodes to determine the link-layer
-    addresses of neighboring nodes as well as to discover and maintain reachability
-    information.  This document updates RFC 4861 to allow routers to proactively create
-    a Neighbor Cache entry when a new IPv6 address is assigned to a node.  It also
-    updates RFC 4861 and recommends that nodes send unsolicited Neighbor Advertisements
-    upon assigning a new IPv6 address.  These changes will minimize the delay and
-    packet loss when a node initiates connections to an off-link destination from
-    a new IPv6 address.
+- content: "<p>Neighbor Discovery (RFC 4861) is used by IPv6 nodes to determine the
+    link-layer addresses of neighboring nodes as well as to discover and maintain
+    reachability information.  This document updates RFC 4861 to allow routers to
+    proactively create a Neighbor Cache entry when a new IPv6 address is assigned
+    to a node.  It also updates RFC 4861 and recommends that nodes send unsolicited
+    Neighbor Advertisements upon assigning a new IPv6 address.  These changes will
+    minimize the delay and packet loss when a node initiates connections to an off-link
+    destination from a new IPv6 address.</p>"
   language:
   - en
   script:
@@ -57,7 +69,12 @@ relation:
     formattedref:
       content: RFC4861
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9131'
+fetched: '2022-01-23'
 keyword:
 - IPv6
 - SLAAC

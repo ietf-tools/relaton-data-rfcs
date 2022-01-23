@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. DeKok
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: The RADIUS protocol defined in RFC 2865 has limited support for authentication
+- content: "<p>The RADIUS protocol defined in RFC 2865 has limited support for authentication
     and encryption of RADIUS packets.  The protocol transports data in the clear,
     although some parts of the packets can have obfuscated content.  Packets may be
     replayed verbatim by an attacker, and client-server authentication is based on
     fixed shared secrets.  This document specifies how the Datagram Transport Layer
     Security (DTLS) protocol may be used as a fix for these problems.  It also describes
-    how implementations of this proposal can coexist with current RADIUS systems.
+    how implementations of this proposal can coexist with current RADIUS systems.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7360'
+fetched: '2022-01-23'
 editorialgroup:
 - name: radext

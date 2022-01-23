@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burleigh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Burleigh
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ramadas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Ramadas
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Farrell
         language:
@@ -57,26 +93,31 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the motivation for the development of the Licklider
+- content: <p>This document describes the motivation for the development of the Licklider
     Transmission Protocol (LTP) designed to provide retransmission-based reliability
     over links characterized by extremely long message round-trip times (RTTs) and/or
     frequent interruptions in connectivity. Since communication across interplanetary
     space is the most prominent example of this sort of environment, LTP is principally
     aimed at supporting "long-haul" reliable transmission in interplanetary space,
-    but it has applications in other environments as well. In an Interplanetary Internet
-    setting deploying the Bundle protocol, LTP is intended to serve as a reliable
-    convergence layer over single-hop deep-space radio frequency (RF) links. LTP does
-    Automatic Repeat reQuest (ARQ) of data transmissions by soliciting selective-acknowledgment
-    reception reports. It is stateful and has no negotiation or handshakes. This document
-    is a product of the Delay Tolerant Networking Research Group and has been reviewed
-    by that group. No objections to its publication as an RFC were raised. This memo
-    defines an Experimental Protocol for the Internet community.
+    but it has applications in other environments as well.</p><p>In an Interplanetary
+    Internet setting deploying the Bundle protocol, LTP is intended to serve as a
+    reliable convergence layer over single-hop deep-space radio frequency (RF) links.
+    LTP does Automatic Repeat reQuest (ARQ) of data transmissions by soliciting selective-acknowledgment
+    reception reports. It is stateful and has no negotiation or handshakes.</p><p>This
+    document is a product of the Delay Tolerant Networking Research Group and has
+    been reviewed by that group. No objections to its publication as an RFC were raised.
+    This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5325'
+fetched: '2022-01-23'
 keyword:
 - ltp
 - round-trip times

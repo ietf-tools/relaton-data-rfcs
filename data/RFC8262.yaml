@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sedlacek
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Sedlacek
         language:
@@ -47,12 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the Content-ID header field for usage in the Session
-    Initiation Protocol (SIP). This document also updates RFC 5621, which only allows
-    a Content-ID URL to reference a body part that is part of a multipart message-body.
-    This update enables a Content-ID URL to reference a complete message-body and
-    metadata provided by some additional SIP header fields. This document updates
-    RFC 5368 and RFC 6442 by clarifying their usage of the SIP Content-ID header field.
+- content: "<p>This document specifies the Content-ID header field for usage in the
+    Session Initiation Protocol (SIP). This document also updates RFC 5621, which
+    only allows a Content-ID URL to reference a body part that is part of a multipart
+    message-body. This update enables a Content-ID URL to reference a complete message-body
+    and metadata provided by some additional SIP header fields.</p><p>This document
+    updates RFC 5368 and RFC 6442 by clarifying their usage of the SIP Content-ID
+    header field.</p>"
   language:
   - en
   script:
@@ -74,7 +99,12 @@ relation:
     formattedref:
       content: RFC6442
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8262'
+fetched: '2022-01-23'
 keyword:
 - SIP
 editorialgroup:

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shekh-Yusef
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Shekh-Yusef
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pascual
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Pascual
         language:
@@ -58,12 +94,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the "Bearer" authentication scheme for the Session
+- content: <p>This document defines the "Bearer" authentication scheme for the Session
     Initiation Protocol (SIP) and a mechanism by which user authentication and SIP
     registration authorization is delegated to a third party, using the OAuth 2.0
     framework and OpenID Connect Core 1.0.  This document updates RFC 3261 to provide
     guidance on how a SIP User Agent Client (UAC) responds to a SIP 401/407 response
-    that contains multiple WWW-Authenticate/Proxy-Authenticate header fields.
+    that contains multiple WWW-Authenticate/Proxy-Authenticate header fields.</p>
   language:
   - en
   script:
@@ -75,7 +111,12 @@ relation:
     formattedref:
       content: RFC3261
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8898'
+fetched: '2022-01-23'
 keyword:
 - SIP OAuth
 - 3rd party authentication

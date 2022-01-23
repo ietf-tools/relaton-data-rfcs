@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Touch
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Touch
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perlman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Perlman
         language:
@@ -48,22 +72,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Current IEEE 802.1 LANs use spanning tree protocols that have a number
+- content: "<p>Current IEEE 802.1 LANs use spanning tree protocols that have a number
     of challenges.  These protocols need to strictly avoid loops, even temporary ones,
-    during route propagation, because of the lack of header loop detection support.  Routing
-    tends not to take full advantage of alternate paths, or even non-overlapping pairwise
-    paths (in the case of spanning trees).  This document addresses these concerns
-    and suggests applying modern network-layer routing protocols at the link layer.  This
-    document assumes that solutions would not address issues of scalability beyond
-    that of existing IEEE 802.1 bridged links, but that a solution would be backward
-    compatible with 802.1, including hubs, bridges, and their existing plug-and-play
-    capabilities.  This memo provides information for the Internet community.
+    during route propagation, because of the lack of header loop detection support.
+    \ Routing tends not to take full advantage of alternate paths, or even non-overlapping
+    pairwise paths (in the case of spanning trees).  This document addresses these
+    concerns and suggests applying modern network-layer routing protocols at the link
+    layer.  This document assumes that solutions would not address issues of scalability
+    beyond that of existing IEEE 802.1 bridged links, but that a solution would be
+    backward compatible with 802.1, including hubs, bridges, and their existing plug-and-play
+    capabilities.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5556'
+fetched: '2022-01-23'
 keyword:
 - spanning tree protocol
 - ieee 802.1

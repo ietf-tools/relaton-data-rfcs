@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Harrison
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Harrison
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zeilenga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Zeilenga
         language:
@@ -48,14 +72,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines and describes the IntermediateResponse message, a
-    general mechanism for defining single-request/multiple-response operations in
+- content: "<p>This document defines and describes the IntermediateResponse message,
+    a general mechanism for defining single-request/multiple-response operations in
     Lightweight Directory Access Protocol (LDAP).  The IntermediateResponse message
     is defined in such a way that the protocol behavior of existing LDAP operations
     is maintained.  This message is intended to be used in conjunction with the LDAP
     ExtendedRequest and ExtendedResponse to define new single-request/multiple-response
     operations or in conjunction with a control when extending existing LDAP operations
-    in a way that requires them to return intermediate response information. [STANDARDS-TRACK]
+    in a way that requires them to return intermediate response information. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -77,7 +101,12 @@ relation:
     formattedref:
       content: RFC2251
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3771'
+fetched: '2022-01-23'
 keyword:
 - LDAPv3
 - LDAv3

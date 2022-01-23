@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aggarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Aggarwal
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: A mechanism for BGP that helps minimize the negative effects on routing
+- content: <p>A mechanism for BGP that helps minimize the negative effects on routing
     caused by BGP restart has already been developed and is described in a separate
     document ("Graceful Restart Mechanism for BGP"). This document extends this mechanism
     to minimize the negative effects on MPLS forwarding caused by the Label Switching
     Router's (LSR's) control plane restart, and specifically by the restart of its
     BGP component when BGP is used to carry MPLS labels and the LSR is capable of
-    preserving the MPLS forwarding state across the restart. The mechanism described
+    preserving the MPLS forwarding state across the restart.</p><p>The mechanism described
     in this document is agnostic with respect to the types of the addresses carried
     in the BGP Network Layer Reachability Information (NLRI) field. As such, it works
     in conjunction with any of the address families that could be carried in BGP (e.g.,
-    IPv4, IPv6, etc.). [STANDARDS-TRACK]
+    IPv4, IPv6, etc.). [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4781'
+fetched: '2022-01-23'
 keyword:
 - border gateway protocol
 - multiprotocol label switching

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nadas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Nadas
         language:
@@ -37,28 +49,34 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines the Virtual Router Redundancy Protocol (VRRP) for IPv4
-    and IPv6.  It is version three (3) of the protocol, and it is based on VRRP (version
-    2) for IPv4 that is defined in RFC 3768 and in "Virtual Router Redundancy Protocol
-    for IPv6".  VRRP specifies an election protocol that dynamically assigns responsibility
-    for a virtual router to one of the VRRP routers on a LAN.  The VRRP router controlling
-    the IPv4 or IPv6 address(es) associated with a virtual router is called the Master,
-    and it forwards packets sent to these IPv4 or IPv6 addresses.  VRRP Master routers
-    are configured with virtual IPv4 or IPv6 addresses, and VRRP Backup routers infer
-    the address family of the virtual addresses being carried based on the transport
-    protocol.  Within a VRRP router, the virtual routers in each of the IPv4 and IPv6
-    address families are a domain unto themselves and do not overlap.  The election
-    process provides dynamic failover in the forwarding responsibility should the
-    Master become unavailable.  For IPv4, the advantage gained from using VRRP is
-    a higher-availability default path without requiring configuration of dynamic
-    routing or router discovery protocols on every end-host.  For IPv6, the advantage
-    gained from using VRRP for IPv6 is a quicker switchover to Backup routers than
-    can be obtained with standard IPv6 Neighbor Discovery mechanisms. [STANDARDS-TRACK]
+- content: <p>This memo defines the Virtual Router Redundancy Protocol (VRRP) for
+    IPv4 and IPv6.  It is version three (3) of the protocol, and it is based on VRRP
+    (version 2) for IPv4 that is defined in RFC 3768 and in "Virtual Router Redundancy
+    Protocol for IPv6".  VRRP specifies an election protocol that dynamically assigns
+    responsibility for a virtual router to one of the VRRP routers on a LAN.  The
+    VRRP router controlling the IPv4 or IPv6 address(es) associated with a virtual
+    router is called the Master, and it forwards packets sent to these IPv4 or IPv6
+    addresses.  VRRP Master routers are configured with virtual IPv4 or IPv6 addresses,
+    and VRRP Backup routers infer the address family of the virtual addresses being
+    carried based on the transport protocol.  Within a VRRP router, the virtual routers
+    in each of the IPv4 and IPv6 address families are a domain unto themselves and
+    do not overlap.  The election process provides dynamic failover in the forwarding
+    responsibility should the Master become unavailable.  For IPv4, the advantage
+    gained from using VRRP is a higher-availability default path without requiring
+    configuration of dynamic routing or router discovery protocols on every end-host.  For
+    IPv6, the advantage gained from using VRRP for IPv6 is a quicker switchover to
+    Backup routers than can be obtained with standard IPv6 Neighbor Discovery mechanisms.
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5798'
+fetched: '2022-01-23'
 editorialgroup:
 - name: vrrp

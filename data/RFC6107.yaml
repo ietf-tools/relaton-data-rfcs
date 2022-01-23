@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shiomoto
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Shiomoto
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: Label Switched Paths (LSPs) set up in Multiprotocol Label Switching (MPLS)
-    or Generalized MPLS (GMPLS) networks can be used to form links to carry traffic
-    in those networks or in other (client) networks. Protocol mechanisms already exist
-    to facilitate the establishment of such LSPs and to bundle traffic engineering
-    (TE) links to reduce the load on routing protocols. This document defines extensions
-    to those mechanisms to support identifying the use to which such LSPs are to be
-    put and to enable the TE link endpoints to be assigned addresses or unnumbered
-    identifiers during the signaling process. [STANDARDS-TRACK]
+- content: "<p>Label Switched Paths (LSPs) set up in Multiprotocol Label Switching
+    (MPLS) or Generalized MPLS (GMPLS) networks can be used to form links to carry
+    traffic in those networks or in other (client) networks.</p><p>Protocol mechanisms
+    already exist to facilitate the establishment of such LSPs and to bundle traffic
+    engineering (TE) links to reduce the load on routing protocols. This document
+    defines extensions to those mechanisms to support identifying the use to which
+    such LSPs are to be put and to enable the TE link endpoints to be assigned addresses
+    or unnumbered identifiers during the signaling process. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -71,7 +95,12 @@ relation:
     formattedref:
       content: RFC4206
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6107'
+fetched: '2022-01-23'
 keyword:
 - TE links
 - Bundled links

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Pan
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Natarajan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Natarajan
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: White
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. White
         language:
@@ -68,25 +116,30 @@ language:
 script:
 - Latn
 abstract:
-- content: Bufferbloat is a phenomenon in which excess buffers in the network cause
+- content: <p>Bufferbloat is a phenomenon in which excess buffers in the network cause
     high latency and latency variation. As more and more interactive applications
     (e.g., voice over IP, real-time video streaming, and financial transactions) run
     in the Internet, high latency and latency variation degrade application performance.
     There is a pressing need to design intelligent queue management schemes that can
     control latency and latency variation, and hence provide desirable quality of
-    service to users. This document presents a lightweight active queue management
+    service to users.</p><p>This document presents a lightweight active queue management
     design called "PIE" (Proportional Integral controller Enhanced) that can effectively
     control the average queuing latency to a target value. Simulation results, theoretical
     analysis, and Linux testbed results have shown that PIE can ensure low latency
     and achieve high link utilization under various congestion situations. The design
     does not require per-packet timestamps, so it incurs very little overhead and
-    is simple enough to implement in both hardware and software.
+    is simple enough to implement in both hardware and software.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8033'
+fetched: '2022-01-23'
 keyword:
 - active queue management
 - AQM

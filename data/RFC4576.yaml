@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Psenak
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Psenak
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pillay-Esnault
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Pillay-Esnault
         language:
@@ -58,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a procedure that deals with a particular issue
+- content: <p>This document specifies a procedure that deals with a particular issue
     that may arise when a Service Provider (SP) provides "BGP/MPLS IP VPN" service
     to a customer and the customer uses OSPFv2 to advertise its routes to the SP.  In
     this situation, a Customer Edge (CE) Router and a Provider Edge (PE) Router are
@@ -71,13 +107,18 @@ abstract:
     PE that receives it back from a CE.  This document specifies the necessary procedure,
     using one of the options bits in the LSA (Link State Advertisements) to indicate
     that an LSA has already been forwarded by a PE and should be ignored by any other
-    PEs that see it. [STANDARDS-TRACK]
+    PEs that see it. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4576'
+fetched: '2022-01-23'
 keyword:
 - service provider
 - sp

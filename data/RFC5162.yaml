@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cridland
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Cridland
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wilson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Wilson
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines an IMAP4 extension, which gives an IMAP client the
-    ability to quickly resynchronize any previously opened mailbox as part of the
-    SELECT command, without the need for server-side state or additional client round-trips.  This
-    extension also introduces a new response that allows for a more compact representation
-    of a list of expunged messages (and always includes the Unique Identifiers (UIDs)
-    expunged). [STANDARDS-TRACK]
+- content: "<p>This document defines an IMAP4 extension, which gives an IMAP client
+    the ability to quickly resynchronize any previously opened mailbox as part of
+    the SELECT command, without the need for server-side state or additional client
+    round-trips.  This extension also introduces a new response that allows for a
+    more compact representation of a list of expunged messages (and always includes
+    the Unique Identifiers (UIDs) expunged). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -74,7 +110,12 @@ relation:
     formattedref:
       content: RFC7162
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5162'
+fetched: '2022-01-23'
 keyword:
 - Internet Message Access Protocol
 editorialgroup:

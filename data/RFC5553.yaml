@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bradford
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bradford
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -57,25 +93,30 @@ language:
 script:
 - Latn
 abstract:
-- content: The paths taken by Multiprotocol Label Switching (MPLS) and Generalized
+- content: "<p>The paths taken by Multiprotocol Label Switching (MPLS) and Generalized
     MPLS (GMPLS) Traffic Engineering (TE) Label Switched Paths (LSPs) may be computed
     by Path Computation Elements (PCEs). Where the TE LSP crosses multiple domains,
     such as Autonomous Systems (ASes), the path may be computed by multiple PCEs that
-    cooperate, with each responsible for computing a segment of the path. To preserve
-    confidentiality of topology within each AS, the PCEs support a mechanism to hide
-    the contents of a segment of a path (such as the segment of the path that traverses
-    an AS), called the Confidential Path Segment (CPS), by encoding the contents as
-    a Path Key Subobject (PKS) and embedding this subobject within the result of its
-    path computation. This document describes how to carry Path Key Subobjects in
-    the Resource Reservation Protocol (RSVP) Explicit Route Objects (EROs) and Record
-    Route Objects (RROs) so as to facilitate confidentiality in the signaling of inter-domain
-    TE LSPs. [STANDARDS-TRACK]
+    cooperate, with each responsible for computing a segment of the path.</p><p>To
+    preserve confidentiality of topology within each AS, the PCEs support a mechanism
+    to hide the contents of a segment of a path (such as the segment of the path that
+    traverses an AS), called the Confidential Path Segment (CPS), by encoding the
+    contents as a Path Key Subobject (PKS) and embedding this subobject within the
+    result of its path computation.</p><p>This document describes how to carry Path
+    Key Subobjects in the Resource Reservation Protocol (RSVP) Explicit Route Objects
+    (EROs) and Record Route Objects (RROs) so as to facilitate confidentiality in
+    the signaling of inter-domain TE LSPs. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5553'
+fetched: '2022-01-23'
 keyword:
 - pks
 - path key subobject

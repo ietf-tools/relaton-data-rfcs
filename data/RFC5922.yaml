@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gurbani
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Gurbani
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lawrence
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Lawrence
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jeffrey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Jeffrey
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to construct and interpret certain information
+- content: "<p>This document describes how to construct and interpret certain information
     in a PKIX-compliant (Public Key Infrastructure using X.509) certificate for use
-    in a Session Initiation Protocol (SIP) over Transport Layer Security (TLS) connection.  More
-    specifically, this document describes how to encode and extract the identity of
-    a SIP domain in a certificate and how to use that identity for SIP domain authentication.  As
-    such, this document is relevant both to implementors of SIP and to issuers of
-    certificates. [STANDARDS-TRACK]
+    in a Session Initiation Protocol (SIP) over Transport Layer Security (TLS) connection.
+    \ More specifically, this document describes how to encode and extract the identity
+    of a SIP domain in a certificate and how to use that identity for SIP domain authentication.
+    \ As such, this document is relevant both to implementors of SIP and to issuers
+    of certificates. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -75,7 +111,12 @@ relation:
     formattedref:
       content: RFC3261
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5922'
+fetched: '2022-01-23'
 keyword:
 - PKIX
 - Authentication

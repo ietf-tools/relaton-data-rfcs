@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Niemi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Niemi
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Willis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Willis
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Initiation Protocol (SIP) events framework enables receiving
+- content: "<p>The Session Initiation Protocol (SIP) events framework enables receiving
     asynchronous notification of various events from other SIP user agents.  This
     framework defines the procedures for creating, refreshing, and terminating subscriptions,
     as well as fetching and periodic polling of resource state.  These procedures
@@ -57,13 +81,18 @@ abstract:
     the subscriber to condition the subscription request to whether the state has
     changed since the previous notification was received.  When such a condition is
     true, either the body of a resulting event notification or the entire notification
-    message is suppressed. [STANDARDS-TRACK]
+    message is suppressed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5839'
+fetched: '2022-01-23'
 keyword:
 - SIP events
 - subnot-etags

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Johnston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Johnston
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aboba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Aboba
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hutton
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Hutton
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jesske
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Jesske
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Stach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Stach
         language:
@@ -77,22 +137,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Opportunistic Secure Real-time Transport Protocol (OSRTP) is an implementation
+- content: "<p>Opportunistic Secure Real-time Transport Protocol (OSRTP) is an implementation
     of the Opportunistic Security mechanism, as defined in RFC 7435, applied to the
     Real-time Transport Protocol (RTP).  OSRTP allows encrypted media to be used in
-    environments where support for encryption is not known in advance and is not required.  OSRTP
-    does not require Session Description Protocol (SDP) extensions or features and
-    is fully backwards compatible with existing implementations using encrypted and
-    authenticated media and implementations that do not encrypt or authenticate media
-    packets.  OSRTP is not specific to any key management technique for Secure RTP
-    (SRTP).  OSRTP is a transitional approach useful for migrating existing deployments
-    of real-time communications to a fully encrypted and authenticated state.
+    environments where support for encryption is not known in advance and is not required.
+    \ OSRTP does not require Session Description Protocol (SDP) extensions or features
+    and is fully backwards compatible with existing implementations using encrypted
+    and authenticated media and implementations that do not encrypt or authenticate
+    media packets.  OSRTP is not specific to any key management technique for Secure
+    RTP (SRTP).  OSRTP is a transitional approach useful for migrating existing deployments
+    of real-time communications to a fully encrypted and authenticated state.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8643'
+fetched: '2022-01-23'
 keyword:
 - srtp
 - opportunistic security

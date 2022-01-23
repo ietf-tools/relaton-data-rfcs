@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: U
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Carion
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: U. Carion
         language:
@@ -37,21 +49,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a format, called JSON Type Definition (JTD), for
-    describing the shape of JavaScript Object Notation (JSON) messages. Its main goals
-    are to enable code generation from schemas as well as portable validation with
-    standardized error indicators. To this end, JTD is intentionally limited to be
-    no more expressive than the type systems of mainstream programming languages.
+- content: "<p>This document proposes a format, called JSON Type Definition (JTD),
+    for describing the shape of JavaScript Object Notation (JSON) messages. Its main
+    goals are to enable code generation from schemas as well as portable validation
+    with standardized error indicators. To this end, JTD is intentionally limited
+    to be no more expressive than the type systems of mainstream programming languages.
     This intentional limitation, as well as the decision to make JTD schemas be JSON
-    documents, makes tooling atop of JTD easier to build. This document does not have
-    IETF consensus and is presented here to facilitate experimentation with the concept
-    of JTD.
+    documents, makes tooling atop of JTD easier to build.</p><p>This document does
+    not have IETF consensus and is presented here to facilitate experimentation with
+    the concept of JTD.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8927'
+fetched: '2022-01-23'
 keyword:
 - data interchange format
 - description language

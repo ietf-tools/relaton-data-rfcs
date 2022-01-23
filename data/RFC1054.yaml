@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Deering
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S.E. Deering
         language:
@@ -37,13 +54,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo specifies the extensions required of a host implementation of
-    the Internet Protocol (IP) to support multicasting.  IP multicasting is the transmission
-    of an IP datagram to a "host group", a set hosts identified by a single IP destination
-    address.  A multicast datagram is delivered to all members of its destination
-    host group with the same "best-efforts" reliability as regular unicast IP datagrams.  It
-    is proposed as a standard for IP multicasting in the Internet.  This specification
-    is a major revision of RFC-988.
+- content: <p>This memo specifies the extensions required of a host implementation
+    of the Internet Protocol (IP) to support multicasting.  IP multicasting is the
+    transmission of an IP datagram to a "host group", a set hosts identified by a
+    single IP destination address.  A multicast datagram is delivered to all members
+    of its destination host group with the same "best-efforts" reliability as regular
+    unicast IP datagrams.  It is proposed as a standard for IP multicasting in the
+    Internet.  This specification is a major revision of RFC-988.</p>
   language:
   - en
   script:
@@ -55,4 +72,9 @@ relation:
     formattedref:
       content: RFC1112
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1054'
+fetched: '2022-01-23'

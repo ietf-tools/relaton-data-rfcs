@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eckert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Eckert
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Behringer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Behringer
         language:
@@ -48,23 +72,28 @@ language:
 script:
 - Latn
 abstract:
-- content: Operations, Administration, and Maintenance (OAM), as per BCP 161, for
-    data networks is often subject to the problem of circular dependencies when relying
-    on connectivity provided by the network to be managed for the OAM purposes. Provisioning
+- content: "<p>Operations, Administration, and Maintenance (OAM), as per BCP 161,
+    for data networks is often subject to the problem of circular dependencies when
+    relying on connectivity provided by the network to be managed for the OAM purposes.</p><p>Provisioning
     while bringing up devices and networks tends to be more difficult to automate
     than service provisioning later on. Changes in core network functions impacting
     reachability cannot be automated because of ongoing connectivity requirements
     for the OAM equipment itself, and widely used OAM protocols are not secure enough
-    to be carried across the network without security concerns. This document describes
-    how to integrate OAM processes with an autonomic control plane in order to provide
-    stable and secure connectivity for those OAM processes. This connectivity is not
-    subject to the aforementioned circular dependencies.
+    to be carried across the network without security concerns.</p><p>This document
+    describes how to integrate OAM processes with an autonomic control plane in order
+    to provide stable and secure connectivity for those OAM processes. This connectivity
+    is not subject to the aforementioned circular dependencies.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8368'
+fetched: '2022-01-23'
 keyword:
 - autonomic networking
 - autonomous operation

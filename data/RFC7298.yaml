@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ovsienko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ovsienko
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a cryptographic authentication mechanism for the
-    Babel routing protocol.  This document updates RFC 6126.  The mechanism allocates
+- content: "<p>This document describes a cryptographic authentication mechanism for
+    the Babel routing protocol.  This document updates RFC 6126.  The mechanism allocates
     two new TLV types for the authentication data, uses Hashed Message Authentication
-    Code (HMAC), and is both optional and backward compatible.
+    Code (HMAC), and is both optional and backward compatible.</p>"
   language:
   - en
   script:
@@ -57,7 +69,12 @@ relation:
     formattedref:
       content: RFC6126
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7298'
+fetched: '2022-01-23'
 keyword:
 - routing protocol
 - authentication

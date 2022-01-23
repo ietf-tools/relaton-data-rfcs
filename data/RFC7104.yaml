@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Begen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Begen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cai
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Cai
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ou
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Ou
         language:
@@ -57,22 +93,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Packet loss is undesirable for real-time multimedia sessions, but it can
-    occur due to congestion or other unplanned network outages.  This is especially
+- content: "<p>Packet loss is undesirable for real-time multimedia sessions, but it
+    can occur due to congestion or other unplanned network outages.  This is especially
     true for IP multicast networks, where packet loss patterns can vary greatly between
     receivers.  One technique that can be used to recover from packet loss without
     incurring unbounded delay for all the receivers is to duplicate the packets and
     send them in separate redundant streams.  This document defines the semantics
     for grouping redundant streams in the Session Description Protocol (SDP).  The
-    semantics defined in this document are to be used with the SDP Grouping Framework.  Grouping
-    semantics at the Synchronization Source (SSRC) level are also defined in this
-    document for RTP streams using SSRC multiplexing.
+    semantics defined in this document are to be used with the SDP Grouping Framework.
+    \ Grouping semantics at the Synchronization Source (SSRC) level are also defined
+    in this document for RTP streams using SSRC multiplexing.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7104'
+fetched: '2022-01-23'
 keyword:
 - SDP
 - ssrc

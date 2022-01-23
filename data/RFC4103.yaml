@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hellstrom
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Hellstrom
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Jones
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo obsoletes RFC 2793; it describes how to carry real-time text
+- content: "<p>This memo obsoletes RFC 2793; it describes how to carry real-time text
     conversation session contents in RTP packets. Text conversation session contents
-    are specified in ITU-T Recommendation T.140. One payload format is described for
-    transmitting text on a separate RTP session dedicated for the transmission of
-    text. This RTP payload description recommends a method to include redundant text
-    from already transmitted packets in order to reduce the risk of text loss caused
-    by packet loss. [STANDARDS-TRACK]
+    are specified in ITU-T Recommendation T.140.</p><p>One payload format is described
+    for transmitting text on a separate RTP session dedicated for the transmission
+    of text.</p><p>This RTP payload description recommends a method to include redundant
+    text from already transmitted packets in order to reduce the risk of text loss
+    caused by packet loss. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4103'
+fetched: '2022-01-23'
 keyword:
 - real-time
 - applications

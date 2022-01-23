@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Farrer
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sun
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Sun
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Cui
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sun
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Sun
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: DHCPv4 over DHCPv6 (RFC 7341) is a mechanism for dynamically configuring
+- content: <p>DHCPv4 over DHCPv6 (RFC 7341) is a mechanism for dynamically configuring
     IPv4 for use as an over-the-top service in an IPv6-only network. Softwires are
     an example of such a service. For DHCPv4 over DHCPv6 (DHCP 4o6) to function with
     some IPv4-over-IPv6 softwire mechanisms and deployment scenarios (e.g., RFC 7596
@@ -78,12 +126,12 @@ abstract:
     This memo defines a DHCPv6 option to convey IPv6 parameters for establishing the
     softwire tunnel and a DHCPv4 option (to be used only with DHCP 4o6) to communicate
     the source tunnel IPv6 address between the DHCP 4o6 client and server. It is designed
-    to work in conjunction with the IPv4 address allocation process. "DHCPv6 Options
-    for Configuration of Softwire Address and Port-Mapped Clients" (RFC 7598) describes
-    a deterministic DHCPv6-based mechanism for provisioning softwires. This document
-    updates RFC 7598, allowing OPTION_S46_BR (90) to be enumerated in the DHCPv6 client's
-    Option Request Option (ORO) request and to appear directly within subsequent messages
-    sent by the DHCPv6 server.
+    to work in conjunction with the IPv4 address allocation process.</p><p>"DHCPv6
+    Options for Configuration of Softwire Address and Port-Mapped Clients" (RFC 7598)
+    describes a deterministic DHCPv6-based mechanism for provisioning softwires. This
+    document updates RFC 7598, allowing OPTION_S46_BR (90) to be enumerated in the
+    DHCPv6 client's Option Request Option (ORO) request and to appear directly within
+    subsequent messages sent by the DHCPv6 server.</p>
   language:
   - en
   script:
@@ -95,7 +143,12 @@ relation:
     formattedref:
       content: RFC7598
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8539'
+fetched: '2022-01-23'
 keyword:
 - Provisioning
 - Softwire

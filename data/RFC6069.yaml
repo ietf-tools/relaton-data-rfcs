@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zimmermann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zimmermann
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hannemann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Hannemann
         language:
@@ -47,27 +71,32 @@ language:
 script:
 - Latn
 abstract:
-- content: Disruptions in end-to-end path connectivity, which last longer than one
-    retransmission timeout, cause suboptimal TCP performance. The reason for this
+- content: "<p>Disruptions in end-to-end path connectivity, which last longer than
+    one retransmission timeout, cause suboptimal TCP performance. The reason for this
     performance degradation is that TCP interprets segment loss induced by long connectivity
     disruptions as a sign of congestion, resulting in repeated retransmission timer
     backoffs. This, in turn, leads to a delayed detection of the re-establishment
     of the connection since TCP waits for the next retransmission timeout before it
-    attempts a retransmission. This document proposes an algorithm to make TCP more
-    robust to long connectivity disruptions (TCP-LCD). It describes how standard ICMP
-    messages can be exploited during timeout-based loss recovery to disambiguate true
-    congestion loss from non-congestion loss caused by connectivity disruptions. Moreover,
-    a reversion strategy of the retransmission timer is specified that enables a more
-    prompt detection of whether or not the connectivity to a previously disconnected
+    attempts a retransmission.</p><p>This document proposes an algorithm to make TCP
+    more robust to long connectivity disruptions (TCP-LCD). It describes how standard
+    ICMP messages can be exploited during timeout-based loss recovery to disambiguate
+    true congestion loss from non-congestion loss caused by connectivity disruptions.
+    Moreover, a reversion strategy of the retransmission timer is specified that enables
+    a more prompt detection of whether or not the connectivity to a previously disconnected
     peer node has been restored. TCP-LCD is a TCP sender- only modification that effectively
     improves TCP performance in the case of connectivity disruptions. This document
-    defines an Experimental Protocol for the Internet community.
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6069'
+fetched: '2022-01-23'
 keyword:
 - Internet Control Message Protocol (ICMP)
 - Retranmission Timeout (RTO)

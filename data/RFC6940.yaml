@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jennings
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Jennings
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lowekamp
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Lowekamp
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rescorla
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rescorla
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baset
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Baset
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -77,8 +137,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines REsource LOcation And Discovery (RELOAD), a
-    peer-to-peer (P2P) signaling protocol for use on the Internet.  A P2P signaling
+- content: <p>This specification defines REsource LOcation And Discovery (RELOAD),
+    a peer-to-peer (P2P) signaling protocol for use on the Internet.  A P2P signaling
     protocol provides its clients with an abstract storage and messaging service between
     a set of cooperating peers that form the overlay network.  RELOAD is designed
     to support a P2P Session Initiation Protocol (P2PSIP) network, but can be utilized
@@ -87,13 +147,18 @@ abstract:
     defines a security model based on a certificate enrollment service that provides
     unique identities.  NAT traversal is a fundamental service of the protocol.  RELOAD
     also allows access from "client" nodes that do not need to route traffic or store
-    data for others.
+    data for others.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6940'
+fetched: '2022-01-23'
 keyword:
 - p2p
 - dht

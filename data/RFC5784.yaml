@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Freed
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Freed
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vedam
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Vedam
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a way to represent Sieve email filtering language
+- content: "<p>This document describes a way to represent Sieve email filtering language
     scripts in XML. Representing Sieves in XML is intended not as an alternate storage
     format for Sieve but rather as a means to facilitate manipulation of scripts using
-    XML tools. The XML representation also defines additional elements that have no
-    counterparts in the regular Sieve language. These elements are intended for use
-    by graphical user interfaces and provide facilities for labeling or grouping sections
-    of a script so they can be displayed more conveniently. These elements are represented
-    as specially structured comments in regular Sieve format. [STANDARDS-TRACK]
+    XML tools.</p><p>The XML representation also defines additional elements that
+    have no counterparts in the regular Sieve language. These elements are intended
+    for use by graphical user interfaces and provide facilities for labeling or grouping
+    sections of a script so they can be displayed more conveniently. These elements
+    are represented as specially structured comments in regular Sieve format. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5784'
+fetched: '2022-01-23'
 keyword:
 - SMTP
 - ESMTP

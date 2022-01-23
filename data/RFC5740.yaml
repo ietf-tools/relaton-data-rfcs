@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Adamson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Adamson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bormann
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Handley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Handley
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Macker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Macker
         language:
@@ -67,28 +115,33 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the messages and procedures of the Negative- ACKnowledgment
-    (NACK) Oriented Reliable Multicast (NORM) protocol.  This protocol can provide
-    end-to-end reliable transport of bulk data objects or streams over generic IP
-    multicast routing and forwarding services.  NORM uses a selective, negative acknowledgment
-    mechanism for transport reliability and offers additional protocol mechanisms
-    to allow for operation with minimal a priori coordination among senders and receivers.  A
-    congestion control scheme is specified to allow the NORM protocol to fairly share
-    available network bandwidth with other transport protocols such as Transmission
-    Control Protocol (TCP).  It is capable of operating with both reciprocal multicast
-    routing among senders and receivers and with asymmetric connectivity (possibly
-    a unicast return path) between the senders and receivers.  The protocol offers
-    a number of features to allow different types of applications or possibly other
-    higher-level transport protocols to utilize its service in different ways.  The
-    protocol leverages the use of FEC-based (forward error correction) repair and
-    other IETF Reliable Multicast Transport (RMT) building blocks in its design.  This
-    document obsoletes RFC 3940. [STANDARDS-TRACK]
+- content: "<p>This document describes the messages and procedures of the Negative-
+    ACKnowledgment (NACK) Oriented Reliable Multicast (NORM) protocol.  This protocol
+    can provide end-to-end reliable transport of bulk data objects or streams over
+    generic IP multicast routing and forwarding services.  NORM uses a selective,
+    negative acknowledgment mechanism for transport reliability and offers additional
+    protocol mechanisms to allow for operation with minimal a priori coordination
+    among senders and receivers.  A congestion control scheme is specified to allow
+    the NORM protocol to fairly share available network bandwidth with other transport
+    protocols such as Transmission Control Protocol (TCP).  It is capable of operating
+    with both reciprocal multicast routing among senders and receivers and with asymmetric
+    connectivity (possibly a unicast return path) between the senders and receivers.
+    \ The protocol offers a number of features to allow different types of applications
+    or possibly other higher-level transport protocols to utilize its service in different
+    ways.  The protocol leverages the use of FEC-based (forward error correction)
+    repair and other IETF Reliable Multicast Transport (RMT) building blocks in its
+    design.  This document obsoletes RFC 3940. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5740'
+fetched: '2022-01-23'
 keyword:
 - multicast
 - reliable multicast

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: de Oliveira
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. de Oliveira
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Chen
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scoglio
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Scoglio
         language:
@@ -67,25 +115,30 @@ language:
 script:
 - Latn
 abstract:
-- content: 'When the establishment of a higher priority (Traffic Engineering Label
+- content: "<p>When the establishment of a higher priority (Traffic Engineering Label
     Switched Path) TE LSP requires the preemption of a set of lower priority TE LSPs,
-    a node has to make a local decision to select which TE LSPs will be preempted.  The
-    preempted LSPs are then rerouted by their respective \%Head-end Label Switch Router
-    (LSR).  This document presents a flexible policy that can be used to achieve different
-    objectives: preempt the lowest priority LSPs; preempt the minimum number of LSPs;
-    preempt the set of TE LSPs that provide the closest amount of bandwidth to the
-    required bandwidth for the preempting TE LSPs (to minimize bandwidth wastage);
+    a node has to make a local decision to select which TE LSPs will be preempted.
+    \ The preempted LSPs are then rerouted by their respective \\%Head-end Label Switch
+    Router (LSR).  This document presents a flexible policy that can be used to achieve
+    different objectives: preempt the lowest priority LSPs; preempt the minimum number
+    of LSPs; preempt the set of TE LSPs that provide the closest amount of bandwidth
+    to the required bandwidth for the preempting TE LSPs (to minimize bandwidth wastage);
     preempt the LSPs that will have the maximum chance to get rerouted.  Simulation
     results are given and a comparison among several different policies, with respect
     to preemption cascading, number of preempted LSPs, priority, wasted bandwidth
     and blocking probability is also included.  This memo provides information for
-    the Internet community.'
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4829'
+fetched: '2022-01-23'
 keyword:
 - traffic engineering label switched path
 - te lsp

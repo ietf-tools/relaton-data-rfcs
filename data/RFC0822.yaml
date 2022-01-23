@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document revises the specifications in RFC 733, in order to serve
+- content: "<p>This document revises the specifications in RFC 733, in order to serve
     the needs of the larger and more complex ARPA Internet.  Some of RFC 733's features
     failed to gain adequate acceptance.  In order to simplify the standard and the
     software that follows it, these features have been removed.  A different addressing
     scheme is used, to handle the case of internetwork mail; and the concept of re-transmission
-    has been introduced.  Obsoletes RFC 733, NIC 41952.
+    has been introduced.  Obsoletes RFC 733, NIC 41952.</p>"
   language:
   - en
   script:
@@ -54,6 +66,15 @@ relation:
     formattedref:
       content: RFC2822
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '11'
+- title:
+    content: RFC
+    format: text/plain
+  number: '822'
+fetched: '2022-01-23'
 keyword:
 - MAIL

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: De Clercq
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. De Clercq
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ooms
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ooms
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Prevost
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Prevost
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Le Faucheur
         language:
@@ -68,7 +116,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document explains how to interconnect IPv6 islands over a Multiprotocol
+- content: "<p>This document explains how to interconnect IPv6 islands over a Multiprotocol
     Label Switching (MPLS)-enabled IPv4 cloud.  This approach relies on IPv6 Provider
     Edge routers (6PE), which are Dual Stack in order to connect to IPv6 islands and
     to the MPLS core, which is only required to run IPv4 MPLS.  The 6PE routers exchange
@@ -76,13 +124,18 @@ abstract:
     Border Gateway Protocol (MP-BGP) over IPv4.  In doing so, the BGP Next Hop field
     is used to convey the IPv4 address of the 6PE router so that dynamically established
     IPv4-signaled MPLS Label Switched Paths (LSPs) can be used without explicit tunnel
-    configuration. [STANDARDS-TRACK]
+    configuration. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4798'
+fetched: '2022-01-23'
 keyword:
 - mp-bgp
 editorialgroup:

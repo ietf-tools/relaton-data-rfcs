@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sisson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Sisson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Laurie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Laurie
         language:
@@ -47,17 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes two methods for deriving the canonically-ordered
+- content: "<p>This document describes two methods for deriving the canonically-ordered
     predecessor and successor of a DNS name.  These methods may be used for dynamic
     NSEC resource record synthesis, enabling security-aware name servers to provide
     authenticated denial of existence without disclosing other owner names in a DNSSEC
-    secured zone.  This memo defines an Experimental Protocol for the Internet community.
+    secured zone.  This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4471'
+fetched: '2022-01-23'
 keyword:
 - domain namespace
 - dynamic nsec

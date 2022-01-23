@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hancock
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Hancock
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies protocol stacks for the routing and transport of
-    per-flow signalling messages along the path taken by that flow through the network.  The
-    design uses existing transport and security protocols under a common messaging
-    layer, the General Internet Signalling Transport (GIST), which provides a common
-    service for diverse signalling applications.  GIST does not handle signalling
+- content: <p>This document specifies protocol stacks for the routing and transport
+    of per-flow signalling messages along the path taken by that flow through the
+    network.  The design uses existing transport and security protocols under a common
+    messaging layer, the General Internet Signalling Transport (GIST), which provides
+    a common service for diverse signalling applications.  GIST does not handle signalling
     application state itself, but manages its own internal state and the configuration
     of the underlying transport and security protocols to enable the transfer of messages
     in both directions along the flow path.  The combination of GIST and the lower
     layer transport and security protocols provides a solution for the base protocol
     component of the "Next Steps in Signalling" (NSIS) framework.  This document defines
-    an Experimental Protocol for the Internet community.
+    an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5971'
+fetched: '2022-01-23'
 keyword:
 - nsis
 - next steps in signaling

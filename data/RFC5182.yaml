@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -37,17 +49,17 @@ language:
 script:
 - Latn
 abstract:
-- content: Many IMAP clients use the result of a SEARCH command as the input to perform
-    another operation, for example, fetching the found messages, deleting them, or
-    copying them to another mailbox. This can be achieved using standard IMAP operations
-    described in RFC 3501; however, this would be suboptimal. The server will send
-    the list of found messages to the client; after that, the client will have to
-    parse the list, reformat it, and send it back to the server. The client can't
-    pipeline the SEARCH command with the subsequent command, and, as a result, the
-    server might not be able to perform some optimizations. This document proposes
-    an IMAP extension that allows a client to tell a server to use the result of a
-    SEARCH (or Unique Identifier (UID) SEARCH) command as an input to any subsequent
-    command. [STANDARDS-TRACK]
+- content: "<p>Many IMAP clients use the result of a SEARCH command as the input to
+    perform another operation, for example, fetching the found messages, deleting
+    them, or copying them to another mailbox.</p><p>This can be achieved using standard
+    IMAP operations described in RFC 3501; however, this would be suboptimal. The
+    server will send the list of found messages to the client; after that, the client
+    will have to parse the list, reformat it, and send it back to the server. The
+    client can't pipeline the SEARCH command with the subsequent command, and, as
+    a result, the server might not be able to perform some optimizations.</p><p>This
+    document proposes an IMAP extension that allows a client to tell a server to use
+    the result of a SEARCH (or Unique Identifier (UID) SEARCH) command as an input
+    to any subsequent command. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -59,7 +71,12 @@ relation:
     formattedref:
       content: RFC3501
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5182'
+fetched: '2022-01-23'
 keyword:
 - uid
 - unique identifier

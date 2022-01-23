@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vixie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Vixie
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Thomson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bound
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Bound
         language:
@@ -67,10 +115,10 @@ language:
 script:
 - Latn
 abstract:
-- content: Using this specification of the UPDATE opcode, it is possible to add or
-    delete RRs or RRsets from a specified zone.  Prerequisites are specified separately
+- content: "<p>Using this specification of the UPDATE opcode, it is possible to add
+    or delete RRs or RRsets from a specified zone.  Prerequisites are specified separately
     from update operations, and can specify a dependency upon either the previous
-    existence or nonexistence of an RRset, or the existence of a single RR. [STANDARDS-TRACK]
+    existence or nonexistence of an RRset, or the existence of a single RR. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -82,7 +130,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2136'
+fetched: '2022-01-23'
 keyword:
 - DNS-UPDATE
 - database

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bhatia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bhatia
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manral
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Manral
         language:
@@ -48,30 +72,35 @@ language:
 script:
 - Latn
 abstract:
-- content: The routing protocols Open Shortest Path First version 2 (OSPFv2), Intermediate
-    System to Intermediate System (IS-IS), and Routing Information Protocol (RIP)
-    currently define cleartext and MD5 (Message Digest 5) methods for authenticating
+- content: "<p>The routing protocols Open Shortest Path First version 2 (OSPFv2),
+    Intermediate System to Intermediate System (IS-IS), and Routing Information Protocol
+    (RIP) currently define cleartext and MD5 (Message Digest 5) methods for authenticating
     protocol packets. Recently, effort has been made to add support for the SHA (Secure
     Hash Algorithm) family of hash functions for the purpose of authenticating routing
-    protocol packets for RIP, IS-IS, and OSPF. To encourage interoperability between
-    disparate implementations, it is imperative that we specify the expected minimal
-    set of algorithms, thereby ensuring that there is at least one algorithm that
-    all implementations will have in common. Similarly, RIP for IPv6 (RIPng) and OSPFv3
-    support IPsec algorithms for authenticating their protocol packets. This document
-    examines the current set of available algorithms, with interoperability and effective
-    cryptographic authentication protection being the principal considerations. Cryptographic
-    authentication of these routing protocols requires the availability of the same
-    algorithms in disparate implementations. It is desirable that newly specified
-    algorithms should be implemented and available in routing protocol implementations
+    protocol packets for RIP, IS-IS, and OSPF.</p><p>To encourage interoperability
+    between disparate implementations, it is imperative that we specify the expected
+    minimal set of algorithms, thereby ensuring that there is at least one algorithm
+    that all implementations will have in common.</p><p>Similarly, RIP for IPv6 (RIPng)
+    and OSPFv3 support IPsec algorithms for authenticating their protocol packets.</p><p>This
+    document examines the current set of available algorithms, with interoperability
+    and effective cryptographic authentication protection being the principal considerations.
+    Cryptographic authentication of these routing protocols requires the availability
+    of the same algorithms in disparate implementations. It is desirable that newly
+    specified algorithms should be implemented and available in routing protocol implementations
     because they may be promoted to requirements at some future time. This document
     is not an Internet Standards Track specification; it is published for informational
-    purposes.
+    purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6094'
+fetched: '2022-01-23'
 keyword:
 - IGP security
 editorialgroup:

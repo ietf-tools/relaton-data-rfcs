@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The Sieve email filtering language can be used to implement email whitelisting,
+- content: "<p>The Sieve email filtering language can be used to implement email whitelisting,
     blacklisting, personal distribution lists, and other sorts of list matching. Currently,
     this requires that all members of such lists be hard-coded in the script itself.
     Whenever a member of a list is added or deleted, the script needs to be updated
-    and possibly uploaded to a mail server. This document defines a Sieve extension
+    and possibly uploaded to a mail server.</p><p>This document defines a Sieve extension
     for accessing externally stored lists -- lists whose members are stored externally
     to the script, such as using the Lightweight Directory Access Protocol (LDAP),
     the Application Configuration Access Protocol (ACAP), vCard Extensions to WebDAV
-    (CardDAV), or relational databases. [STANDARDS-TRACK]
+    (CardDAV), or relational databases. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6134'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sieve

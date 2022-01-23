@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sivakumar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Sivakumar
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Penno
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Penno
         language:
@@ -48,21 +72,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Network operators require NAT devices to log events like creation and deletion
-    of translations and information about the resources that the NAT device is managing.  In
-    many cases, the logs are essential to identify an attacker or a host that was
-    used to launch malicious attacks and for various other purposes of accounting.  Since
-    there is no standard way of logging this information, different NAT devices use
-    proprietary formats; hence, it is difficult to expect consistent behavior.  This
-    lack of standardization makes it difficult to write the Collector applications
-    that would receive this data and process it to present useful information.  This
-    document describes the formats for logging NAT events.
+- content: "<p>Network operators require NAT devices to log events like creation and
+    deletion of translations and information about the resources that the NAT device
+    is managing.  In many cases, the logs are essential to identify an attacker or
+    a host that was used to launch malicious attacks and for various other purposes
+    of accounting.  Since there is no standard way of logging this information, different
+    NAT devices use proprietary formats; hence, it is difficult to expect consistent
+    behavior.  This lack of standardization makes it difficult to write the Collector
+    applications that would receive this data and process it to present useful information.
+    \ This document describes the formats for logging NAT events.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8158'
+fetched: '2022-01-23'
 keyword:
 - template
 editorialgroup:

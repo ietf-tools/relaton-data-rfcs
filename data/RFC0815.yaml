@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Clark
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D.D. Clark
         language:
@@ -37,15 +54,20 @@ language:
 script:
 - Latn
 abstract:
-- content: This RFC describes an alternate approach of dealing with reassembly which
-    reduces the bookkeeping problem to a minimum, and requires only one buffer for
-    storage equal in size to the final datagram being reassembled, which can reassemble
+- content: "<p>This RFC describes an alternate approach of dealing with reassembly
+    which reduces the bookkeeping problem to a minimum, and requires only one buffer
+    for storage equal in size to the final datagram being reassembled, which can reassemble
     a datagram from any number of fragments arriving in any order with any possible
     pattern of overlap and duplication, and which is appropriate for almost any sort
-    of operating system.
+    of operating system.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '815'
+fetched: '2022-01-23'

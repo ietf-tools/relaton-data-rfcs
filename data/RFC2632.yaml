@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ramsdell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Ramsdell
         language:
@@ -37,11 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: S/MIME (Secure/Multipurpose Internet Mail Extensions), provides a method
+- content: "<p>S/MIME (Secure/Multipurpose Internet Mail Extensions), provides a method
     to send and receive secure MIME messages.  Before using a public key to provide
-    security services, the S/MIME agent MUST certify that the public key is valid.  S/MIME
-    agents MUST use PKIX certificates to validate public keys as described in the
-    Internet X.509 Public Key Infrastructure (PKIX) Certificate and CRL Profile. [STANDARDS-TRACK]
+    security services, the S/MIME agent MUST certify that the public key is valid.
+    \ S/MIME agents MUST use PKIX certificates to validate public keys as described
+    in the Internet X.509 Public Key Infrastructure (PKIX) Certificate and CRL Profile.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +66,12 @@ relation:
     formattedref:
       content: RFC3850
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2632'
+fetched: '2022-01-23'
 keyword:
 - encryption
 - certificate

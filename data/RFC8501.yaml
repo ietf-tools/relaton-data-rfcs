@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Howard
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Howard
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: In IPv4, Internet Service Providers (ISPs) commonly provide IN-ADDR.ARPA
+- content: "<p>In IPv4, Internet Service Providers (ISPs) commonly provide IN-ADDR.ARPA
     information for their customers by prepopulating the zone with one PTR record
     for every available address.  This practice does not scale in IPv6.  This document
     analyzes different approaches and considerations for ISPs in managing the IP6.ARPA
-    zone.
+    zone.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8501'
+fetched: '2022-01-23'
 keyword:
 - IPv6
 - PTR

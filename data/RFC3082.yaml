@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kempf
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Kempf
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Goldschmidt
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Goldschmidt
         language:
@@ -47,21 +71,26 @@ language:
 script:
 - Latn
 abstract:
-- content: The Service Location Protocol (SLP) provides mechanisms whereby service
+- content: "<p>The Service Location Protocol (SLP) provides mechanisms whereby service
     agent clients can advertise and user agent clients can query for services.  The
     design is very much demand-driven, so that user agents only obtain service information
     when they specifically ask for it.  There exists another class of user agent applications,
-    however, that requires notification when a new service appears or disappears.  In
-    the RFC 2608 design, these applications are forced to poll the network to catch
-    changes.  In this document, we describe a protocol for allowing such clients to
-    be notified when a change occurs, removing the need for polling.  This memo defines
-    an Experimental Protocol for the Internet community.
+    however, that requires notification when a new service appears or disappears.
+    \ In the RFC 2608 design, these applications are forced to poll the network to
+    catch changes.  In this document, we describe a protocol for allowing such clients
+    to be notified when a change occurs, removing the need for polling.  This memo
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3082'
+fetched: '2022-01-23'
 keyword:
 - service
 - location

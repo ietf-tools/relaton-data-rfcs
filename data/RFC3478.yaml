@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leelanivas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Leelanivas
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aggarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Aggarwal
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism that helps to minimize the negative
+- content: "<p>This document describes a mechanism that helps to minimize the negative
     effects on MPLS traffic caused by Label Switching Router's (LSR's) control plane
     restart, specifically by the restart of its Label Distribution Protocol (LDP)
     component, on LSRs that are capable of preserving the MPLS forwarding component
@@ -72,16 +108,21 @@ abstract:
     plane and implement the mechanism described here.  The mechanism makes minimalistic
     assumptions on what has to be preserved across restart - the mechanism assumes
     that only the actual MPLS forwarding state has to be preserved; the mechanism
-    does not require any of the LDP-related states to be preserved across the restart.  The
-    procedures described in this document apply to downstream unsolicited label distribution.  Extending
-    these procedures to downstream on demand label distribution is for further study.
-    [STANDARDS-TRACK]
+    does not require any of the LDP-related states to be preserved across the restart.
+    \ The procedures described in this document apply to downstream unsolicited label
+    distribution.  Extending these procedures to downstream on demand label distribution
+    is for further study. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3478'
+fetched: '2022-01-23'
 keyword:
 - ldp
 - mpls

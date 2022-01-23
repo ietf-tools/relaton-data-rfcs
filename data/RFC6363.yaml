@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Watson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Watson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Begen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Begen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roca
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Roca
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a framework for using Forward Error Correction
+- content: "<p>This document describes a framework for using Forward Error Correction
     (FEC) codes with applications in public and private IP networks to provide protection
     against packet loss.  The framework supports applying FEC to arbitrary packet
     flows over unreliable transport and is primarily intended for real-time, or streaming,
@@ -67,13 +103,18 @@ abstract:
     that is compliant with various requirements defined in this document.  Thus, Content
     Delivery Protocols can be defined that are not specific to a particular FEC scheme,
     and FEC schemes can be defined that are not specific to a particular Content Delivery
-    Protocol. [STANDARDS-TRACK]
+    Protocol. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6363'
+fetched: '2022-01-23'
 keyword:
 - Reliable streaming
 - content delivery

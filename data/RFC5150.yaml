@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ayyangar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Ayyangar
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kompella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kompella
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -68,27 +116,32 @@ language:
 script:
 - Latn
 abstract:
-- content: In certain scenarios, there may be a need to combine several Generalized
+- content: <p>In certain scenarios, there may be a need to combine several Generalized
     Multiprotocol Label Switching (GMPLS) Label Switched Paths (LSPs) such that a
     single end-to-end (e2e) LSP is realized and all traffic from one constituent LSP
     is switched onto the next LSP. We will refer to this as "LSP stitching", the key
     requirement being that a constituent LSP not be allocated to more than one e2e
-    LSP. The constituent LSPs will be referred to as "LSP segments" (S-LSPs). This
+    LSP. The constituent LSPs will be referred to as "LSP segments" (S-LSPs).</p><p>This
     document describes extensions to the existing GMPLS signaling protocol (Resource
     Reservation Protocol-Traffic Engineering (RSVP-TE)) to establish e2e LSPs created
     from S-LSPs, and describes how the LSPs can be managed using the GMPLS signaling
-    and routing protocols. It may be possible to configure a GMPLS node to switch
+    and routing protocols.</p><p>It may be possible to configure a GMPLS node to switch
     the traffic from an LSP for which it is the egress, to another LSP for which it
     is the ingress, without requiring any signaling or routing extensions whatsoever
     and such that the operation is completely transparent to other nodes. This will
     also result in LSP stitching in the data plane. However, this document does not
-    cover this scenario of LSP stitching. [STANDARDS-TRACK]
+    cover this scenario of LSP stitching. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5150'
+fetched: '2022-01-23'
 keyword:
 - lsp
 - label switched paths

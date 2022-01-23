@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wilson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wilson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Allied Communications Publication (ACP) 142 defines P_MUL, which is a protocol
-    for reliable multicast suitable for bandwidth-constrained and delayed acknowledgement
-    (Emissions Control or "EMCON") environments running over UDP. This document defines
-    MULE (Multicast Email), an application protocol for transferring Internet Mail
-    messages (as described in RFC 5322) over P_MUL (as defined in ACP 142). MULE enables
-    transfer between Message Transfer Agents (MTAs). It doesn't provide a service
-    similar to SMTP Submission (as described in RFC 6409). This document explains
-    how MULE can be used in conjunction with SMTP (RFC 5321), including some common
-    SMTP extensions, to provide an alternate MTA-to-MTA transfer mechanism. This is
-    not an IETF specification; it describes an existing implementation. It is provided
-    in order to facilitate interoperable implementations and third-party diagnostics.
+- content: <p>Allied Communications Publication (ACP) 142 defines P_MUL, which is
+    a protocol for reliable multicast suitable for bandwidth-constrained and delayed
+    acknowledgement (Emissions Control or "EMCON") environments running over UDP.
+    This document defines MULE (Multicast Email), an application protocol for transferring
+    Internet Mail messages (as described in RFC 5322) over P_MUL (as defined in ACP
+    142). MULE enables transfer between Message Transfer Agents (MTAs). It doesn't
+    provide a service similar to SMTP Submission (as described in RFC 6409).</p><p>This
+    document explains how MULE can be used in conjunction with SMTP (RFC 5321), including
+    some common SMTP extensions, to provide an alternate MTA-to-MTA transfer mechanism.</p><p>This
+    is not an IETF specification; it describes an existing implementation. It is provided
+    in order to facilitate interoperable implementations and third-party diagnostics.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8494'
+fetched: '2022-01-23'
 keyword:
 - P_MUL

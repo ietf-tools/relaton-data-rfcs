@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Van de Sompel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Van de Sompel
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nelson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Nelson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sanderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sanderson
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The HTTP-based Memento framework bridges the present and past Web.  It
-    facilitates obtaining representations of prior states of a given resource by introducing
-    datetime negotiation and TimeMaps.  Datetime negotiation is a variation on content
-    negotiation that leverages the given resource's URI and a user agent's preferred
-    datetime.  TimeMaps are lists that enumerate URIs of resources that encapsulate
-    prior states of the given resource.  The framework also facilitates recognizing
-    a resource that encapsulates a frozen prior state of another resource.
+- content: "<p>The HTTP-based Memento framework bridges the present and past Web.
+    \ It facilitates obtaining representations of prior states of a given resource
+    by introducing datetime negotiation and TimeMaps.  Datetime negotiation is a variation
+    on content negotiation that leverages the given resource's URI and a user agent's
+    preferred datetime.  TimeMaps are lists that enumerate URIs of resources that
+    encapsulate prior states of the given resource.  The framework also facilitates
+    recognizing a resource that encapsulates a frozen prior state of another resource.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7089'
+fetched: '2022-01-23'
 keyword:
 - HTTP
 - content negotiation

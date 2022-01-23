@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andreasen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Andreasen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wing
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wing
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new security precondition for the Session Description
+- content: "<p>This document defines a new security precondition for the Session Description
     Protocol (SDP) precondition framework described in RFCs 3312 and 4032.  A security
     precondition can be used to delay session establishment or modification until
     media stream security for a secure media stream has been negotiated successfully.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC3312
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5027'
+fetched: '2022-01-23'
 keyword:
 - DTLS
 - DTLS-SRTP

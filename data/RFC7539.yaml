@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nir
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Nir
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Langley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Langley
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the ChaCha20 stream cipher as well as the use of
-    the Poly1305 authenticator, both as stand-alone algorithms and as a "combined
-    mode", or Authenticated Encryption with Associated Data (AEAD) algorithm. This
+- content: <p>This document defines the ChaCha20 stream cipher as well as the use
+    of the Poly1305 authenticator, both as stand-alone algorithms and as a "combined
+    mode", or Authenticated Encryption with Associated Data (AEAD) algorithm.</p><p>This
     document does not introduce any new crypto, but is meant to serve as a stable
     reference and an implementation guide. It is a product of the Crypto Forum Research
-    Group (CFRG).
+    Group (CFRG).</p>
   language:
   - en
   script:
@@ -64,6 +88,11 @@ relation:
     formattedref:
       content: RFC8439
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7539'
+fetched: '2022-01-23'
 keyword:
 - AEAD

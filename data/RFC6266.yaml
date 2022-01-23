@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reschke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Reschke
         language:
@@ -38,10 +50,10 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 2616 defines the Content-Disposition response header field, but points
-    out that it is not part of the HTTP/1.1 Standard.  This specification takes over
-    the definition and registration of Content-Disposition, as used in HTTP, and clarifies
-    internationalization aspects. [STANDARDS-TRACK]
+- content: "<p>RFC 2616 defines the Content-Disposition response header field, but
+    points out that it is not part of the HTTP/1.1 Standard.  This specification takes
+    over the definition and registration of Content-Disposition, as used in HTTP,
+    and clarifies internationalization aspects. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC2616
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6266'
+fetched: '2022-01-23'
 keyword:
 - filename
 - attachment

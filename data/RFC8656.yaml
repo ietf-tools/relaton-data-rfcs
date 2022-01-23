@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reddy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Reddy
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Johnston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Johnston
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Matthews
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Matthews
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -68,23 +116,28 @@ language:
 script:
 - Latn
 abstract:
-- content: If a host is located behind a NAT, it can be impossible for that host to
-    communicate directly with other hosts (peers) in certain situations. In these
+- content: <p>If a host is located behind a NAT, it can be impossible for that host
+    to communicate directly with other hosts (peers) in certain situations. In these
     situations, it is necessary for the host to use the services of an intermediate
     node that acts as a communication relay. This specification defines a protocol,
     called "Traversal Using Relays around NAT" (TURN), that allows the host to control
     the operation of the relay and to exchange packets with its peers using the relay.
     TURN differs from other relay control protocols in that it allows a client to
-    communicate with multiple peers using a single relay address. The TURN protocol
+    communicate with multiple peers using a single relay address.</p><p>The TURN protocol
     was designed to be used as part of the Interactive Connectivity Establishment
-    (ICE) approach to NAT traversal, though it can also be used without ICE. This
-    document obsoletes RFCs 5766 and 6156.
+    (ICE) approach to NAT traversal, though it can also be used without ICE.</p><p>This
+    document obsoletes RFCs 5766 and 6156.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8656'
+fetched: '2022-01-23'
 keyword:
 - NAT
 - TURN

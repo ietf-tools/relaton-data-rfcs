@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Turner
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The EST (Enrollment over Secure Transport) protocol defines the Well-Known
+- content: "<p>The EST (Enrollment over Secure Transport) protocol defines the Well-Known
     URI (Uniform Resource Identifier) -- /.well-known/est -- along with a number of
     other path components that clients use for PKI (Public Key Infrastructure) services,
     namely certificate enrollment (e.g., /simpleenroll).  This document defines a
@@ -46,13 +58,18 @@ abstract:
     document also specifies the PAL (Package Availability List), which is an XML (Extensible
     Markup Language) file or JSON (JavaScript Object Notation) object that clients
     use to retrieve packages available and authorized for them.  This document extends
-    the EST server path components to provide these additional services.
+    the EST server path components to provide these additional services.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8295'
+fetched: '2022-01-23'
 keyword:
 - Firmware
 - TAMP

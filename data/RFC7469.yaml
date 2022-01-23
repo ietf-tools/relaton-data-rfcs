@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Evans
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Evans
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Palmer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Palmer
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sleevi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sleevi
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new HTTP header that allows web host operators
+- content: <p>This document defines a new HTTP header that allows web host operators
     to instruct user agents to remember ("pin") the hosts' cryptographic identities
     over a period of time.  During that time, user agents (UAs) will require that
     the host presents a certificate chain including at least one Subject Public Key
     Info structure whose fingerprint matches one of the pinned fingerprints for that
     host.  By effectively reducing the number of trusted authorities who can authenticate
     the domain during the lifetime of the pin, pinning may reduce the incidence of
-    man-in-the-middle attacks due to compromised Certification Authorities.
+    man-in-the-middle attacks due to compromised Certification Authorities.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7469'
+fetched: '2022-01-23'
 keyword:
 - pin
 editorialgroup:

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hethmon
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hethmon
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies new FTP commands to obtain listings of remote directories
-    in a defined format, and to permit restarts of interrupted data transfers in STREAM
-    mode.  It allows character sets other than US-ASCII, and also defines an optional
-    virtual file storage structure. [STANDARDS-TRACK]
+- content: "<p>This document specifies new FTP commands to obtain listings of remote
+    directories in a defined format, and to permit restarts of interrupted data transfers
+    in STREAM mode.  It allows character sets other than US-ASCII, and also defines
+    an optional virtual file storage structure. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC0959
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3659'
+fetched: '2022-01-23'
 keyword:
 - FTP
 - file transfer protocol

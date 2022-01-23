@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raszuk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Raszuk
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fernando
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Fernando
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Patel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Patel
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McPherson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. McPherson
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumaki
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kumaki
         language:
@@ -77,23 +137,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The BGP4 protocol specifies the selection and propagation of a single best
-    path for each prefix. As defined and widely deployed today, BGP has no mechanisms
+- content: "<p>The BGP4 protocol specifies the selection and propagation of a single
+    best path for each prefix. As defined and widely deployed today, BGP has no mechanisms
     to distribute alternate paths that are not considered best path between its speakers.
-    This behavior results in a number of disadvantages for new applications and services.
-    The main objective of this document is to observe that by simply adding a new
-    session between a route reflector and its client, the Nth best path can be distributed.
+    This behavior results in a number of disadvantages for new applications and services.</p><p>The
+    main objective of this document is to observe that by simply adding a new session
+    between a route reflector and its client, the Nth best path can be distributed.
     This document also compares existing solutions and proposed ideas that enable
-    distribution of more paths than just the best path. This proposal does not specify
-    any changes to the BGP protocol definition. It does not require a software upgrade
-    of provider edge (PE) routers acting as route reflector clients. This document
-    is not an Internet Standards Track specification; it is published for informational
-    purposes.
+    distribution of more paths than just the best path.</p><p>This proposal does not
+    specify any changes to the BGP protocol definition. It does not require a software
+    upgrade of provider edge (PE) routers acting as route reflector clients. This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6774'
+fetched: '2022-01-23'
 editorialgroup:
 - name: grow

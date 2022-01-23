@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bosch
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bosch
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document adds a new capability called "SAVEDATE" to the Internet Message
-    Access Protocol (IMAP).  It defines a new IMAP message attribute called "save
-    date" that, unlike the existing "internal date" attribute, always indicates the
-    moment at which the message was saved in its current mailbox.  The SAVEDATE capability
-    extends the FETCH command with the means to retrieve the save date attribute and
-    extends the SEARCH command to allow using the save date attribute in searching
-    criteria.
+- content: <p>This document adds a new capability called "SAVEDATE" to the Internet
+    Message Access Protocol (IMAP).  It defines a new IMAP message attribute called
+    "save date" that, unlike the existing "internal date" attribute, always indicates
+    the moment at which the message was saved in its current mailbox.  The SAVEDATE
+    capability extends the FETCH command with the means to retrieve the save date
+    attribute and extends the SEARCH command to allow using the save date attribute
+    in searching criteria.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8514'
+fetched: '2022-01-23'
 keyword:
 - imap
 - savedate

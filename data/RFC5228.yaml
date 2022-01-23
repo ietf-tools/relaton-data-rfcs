@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Guenther
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Guenther
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Showalter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Showalter
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a language for filtering email messages at time
-    of final delivery.  It is designed to be implementable on either a mail client
+- content: "<p>This document describes a language for filtering email messages at
+    time of final delivery.  It is designed to be implementable on either a mail client
     or mail server.  It is meant to be extensible, simple, and independent of access
     protocol, mail architecture, and operating system.  It is suitable for running
     on a mail server where users may not be allowed to execute arbitrary programs,
     such as on black box Internet Message Access Protocol (IMAP) servers, as the base
     language has no variables, loops, or ability to shell out to external programs.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5228'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sieve

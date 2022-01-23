@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bradford
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bradford
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -58,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic
+- content: "<p>Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic
     Engineering (TE) Label Switched Paths (LSPs) may be computed by Path Computation
     Elements (PCEs). Where the TE LSP crosses multiple domains, such as Autonomous
     Systems (ASes), the path may be computed by multiple PCEs that cooperate, with
@@ -69,17 +105,22 @@ abstract:
     a loose hop and by invoking a new path computation from the domain boundary Label
     Switching Router (LSR) during TE LSP setup as the signaling message enters the
     second domain, but this technique has several issues including the problem of
-    maintaining path diversity. This document defines a mechanism to hide the contents
-    of a segment of a path, called the Confidential Path Segment (CPS). The CPS may
-    be replaced by a path-key that can be conveyed in the PCE Communication Protocol
-    (PCEP) and signaled within in a Resource Reservation Protocol TE (RSVP-TE) explicit
-    route object. [STANDARDS-TRACK]
+    maintaining path diversity.</p><p>This document defines a mechanism to hide the
+    contents of a segment of a path, called the Confidential Path Segment (CPS). The
+    CPS may be replaced by a path-key that can be conveyed in the PCE Communication
+    Protocol (PCEP) and signaled within in a Resource Reservation Protocol TE (RSVP-TE)
+    explicit route object. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5520'
+fetched: '2022-01-23'
 keyword:
 - confidential path segment
 - cps

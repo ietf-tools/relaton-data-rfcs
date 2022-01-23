@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Chen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sangli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Sangli
         language:
@@ -47,17 +71,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new Outbound Router Filter (ORF) type for BGP,
+- content: <p>This document defines a new Outbound Router Filter (ORF) type for BGP,
     termed "Address Prefix Outbound Route Filter", that can be used to perform address-prefix-based
     route filtering.  This ORF-type supports prefix-length- or range-based matching,
     wild-card-based address prefix matching, as well as the exact address prefix matching
-    for address families. [STANDARDS-TRACK]
+    for address families. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5292'
+fetched: '2022-01-23'
 keyword:
 - orf
 - border gateway protocol

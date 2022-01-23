@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sheffer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Sheffer
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: López
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. López
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pastor Perales
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Pastor Perales
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fossati
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Fossati
         language:
@@ -68,7 +116,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a profile of the Automatic Certificate Management
+- content: "<p>This document defines a profile of the Automatic Certificate Management
     Environment (ACME) protocol by which the holder of an identifier (e.g., a domain
     name) can allow a third party to obtain an X.509 certificate such that the certificate
     subject is the delegated identifier while the certified public key corresponds
@@ -77,13 +125,18 @@ abstract:
     behalf of a content provider (the holder of a domain name).  The presented mechanism
     allows the holder of the identifier to retain control over the delegation and
     revoke it at any time.  Importantly, this mechanism does not require any modification
-    to the deployed TLS clients and servers.
+    to the deployed TLS clients and servers.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9115'
+fetched: '2022-01-23'
 keyword:
 - Content Delivery Network
 - CDN

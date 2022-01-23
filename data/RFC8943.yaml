@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Jones
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nadalin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Nadalin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Richter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Richter
         language:
@@ -57,24 +93,29 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The Concise Binary Object Representation (CBOR), as specified in RFC 7049,
-    is a data format whose design goals include the possibility of extremely small
-    code size, fairly small message size, and extensibility without the need for version
-    negotiation. In CBOR, one point of extensibility is the definition of CBOR tags.
-    RFC 7049 defines two tags for time: CBOR tag 0 (date/time string as per RFC 3339)
-    and tag 1 (POSIX "seconds since the epoch"). Since then, additional requirements
-    have become known. This specification defines a CBOR tag for a date text string
-    (as per RFC 3339) for applications needing a textual date representation within
-    the Gregorian calendar without a time. It also defines a CBOR tag for days since
-    the date 1970-01-01 in the Gregorian calendar for applications needing a numeric
-    date representation without a time. This specification is the reference document
-    for IANA registration of the CBOR tags defined.'
+- content: '<p>The Concise Binary Object Representation (CBOR), as specified in RFC
+    7049, is a data format whose design goals include the possibility of extremely
+    small code size, fairly small message size, and extensibility without the need
+    for version negotiation.</p><p>In CBOR, one point of extensibility is the definition
+    of CBOR tags. RFC 7049 defines two tags for time: CBOR tag 0 (date/time string
+    as per RFC 3339) and tag 1 (POSIX "seconds since the epoch"). Since then, additional
+    requirements have become known. This specification defines a CBOR tag for a date
+    text string (as per RFC 3339) for applications needing a textual date representation
+    within the Gregorian calendar without a time. It also defines a CBOR tag for days
+    since the date 1970-01-01 in the Gregorian calendar for applications needing a
+    numeric date representation without a time. This specification is the reference
+    document for IANA registration of the CBOR tags defined.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8943'
+fetched: '2022-01-23'
 keyword:
 - Compact Binary Object Representation
 - CBOR

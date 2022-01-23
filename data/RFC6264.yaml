@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jiang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Jiang
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Guo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Guo
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Carpenter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Carpenter
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Global IPv6 deployment was slower than originally expected. As IPv4 address
-    exhaustion approaches, IPv4 to IPv6 transition issues become more critical and
-    less tractable. Host-based transition mechanisms used in dual-stack environments
+- content: "<p>Global IPv6 deployment was slower than originally expected. As IPv4
+    address exhaustion approaches, IPv4 to IPv6 transition issues become more critical
+    and less tractable. Host-based transition mechanisms used in dual-stack environments
     cannot meet all transition requirements. Most end users are not sufficiently expert
     to configure or maintain host-based transition mechanisms. Carrier-Grade NAT (CGN)
     devices with integrated transition mechanisms can reduce the operational changes
-    required during the IPv4 to IPv6 migration or coexistence period. This document
+    required during the IPv4 to IPv6 migration or coexistence period.</p><p>This document
     proposes an incremental CGN approach for IPv6 transition. It can provide IPv6
     access services for IPv6 hosts and IPv4 access services for IPv4 hosts while leaving
     much of a legacy ISP network unchanged during the initial stage of IPv4 to IPv6
@@ -73,12 +109,17 @@ abstract:
     during different transition phases, avoiding multiple upgrades. This enables IPv6
     migration to be incrementally achieved according to real user requirements. This
     document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6264'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

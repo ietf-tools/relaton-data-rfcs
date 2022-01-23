@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Keromytis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Keromytis
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the use of the KeyNote trust-management system
+- content: "<p>This document specifies the use of the KeyNote trust-management system
     as an authorization extension in the Transport Layer Security (TLS) Handshake
     Protocol, according to guidelines in RFC 5878.  Extensions carried in the client
     and server hello messages confirm that both parties support the desired authorization
     data types.  Then, if supported by both the client and the server, KeyNote credentials
     are exchanged in the supplemental data handshake message.  This document is not
-    an Internet Standards Track specification; it is published for informational purposes.
+    an Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6042'
+fetched: '2022-01-23'
 keyword:
 - trust management
 - authorization

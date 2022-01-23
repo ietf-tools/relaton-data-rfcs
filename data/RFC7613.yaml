@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Saint-Andre
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Saint-Andre
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -48,13 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes updated methods for handling Unicode strings representing
-    usernames and passwords.  The previous approach was known as SASLprep (RFC 4013)
-    and was based on stringprep (RFC 3454).  The methods specified in this document
-    provide a more sustainable approach to the handling of internationalized usernames
-    and passwords.  The preparation, enforcement, and comparison of internationalized
+- content: "<p>This document describes updated methods for handling Unicode strings
+    representing usernames and passwords.  The previous approach was known as SASLprep
+    (RFC 4013) and was based on stringprep (RFC 3454).  The methods specified in this
+    document provide a more sustainable approach to the handling of internationalized
+    usernames and passwords.  The preparation, enforcement, and comparison of internationalized
     strings (PRECIS) framework, RFC 7564, obsoletes RFC 3454, and this document obsoletes
-    RFC 4013.
+    RFC 4013.</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC8265
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7613'
+fetched: '2022-01-23'
 keyword:
 - Username
 - Password

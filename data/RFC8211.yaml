@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kent
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kent
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ma
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ma
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document analyzes actions by or against a Certification Authority
+- content: "<p>This document analyzes actions by or against a Certification Authority
     (CA) or an independent repository manager in the RPKI that can adversely affect
     the Internet Number Resources (INRs) associated with that CA or its subordinate
     CAs.  The analysis is done from the perspective of an affected INR holder.  The
@@ -57,13 +81,18 @@ abstract:
     Parties (RPs).  The analysis does not purport to be comprehensive; it does represent
     an orderly way to analyze a number of ways that errors by or attacks against a
     CA or repository manager can affect the RPKI and routing decisions based on RPKI
-    data.
+    data.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8211'
+fetched: '2022-01-23'
 keyword:
 - BGP Security
 editorialgroup:

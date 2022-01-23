@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Allman
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a small modification to the way TCP increases its
-    congestion window.  Rather than the traditional method of increasing the congestion
+- content: "<p>This document proposes a small modification to the way TCP increases
+    its congestion window.  Rather than the traditional method of increasing the congestion
     window by a constant amount for each arriving acknowledgment, the document suggests
     basing the increase on the number of previously unacknowledged bytes each ACK
     covers.  This change improves the performance of TCP, as well as closes a security
     hole TCP receivers can use to induce the sender into increasing the sending rate
-    too rapidly.  This memo defines an Experimental Protocol for the Internet community.
+    too rapidly.  This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3465'
+fetched: '2022-01-23'
 keyword:
 - transmission control protocol
 - security performance

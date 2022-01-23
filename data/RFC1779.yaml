@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kille
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kille
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The OSI Directory uses distinguished names as the primary keys to entries
+- content: "<p>The OSI Directory uses distinguished names as the primary keys to entries
     in the directory.  Distinguished Names are encoded in ASN.1.  When a distinguished
     name is communicated between to users not using a directory protocol (e.g., in
     a mail message), there is a need to have a user-oriented string representation
     of distinguished name.  This specification defines a string format for representing
     names, which is designed to give a clean representation of commonly used names,
-    whilst being able to represent any distinguished name. [STANDARDS-TRACK]
+    whilst being able to represent any distinguished name. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -60,7 +72,12 @@ relation:
     formattedref:
       content: RFC3494
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1779'
+fetched: '2022-01-23'
 keyword:
 - STR-REP
 - X.500

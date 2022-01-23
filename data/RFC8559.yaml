@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. DeKok
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Korhonen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Korhonen
         language:
@@ -48,12 +72,12 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 5176 defines Change-of-Authorization (CoA) and Disconnect Message (DM)
-    behavior for RADIUS.  RFC 5176 also suggests that proxying these messages is possible,
-    but it does not provide guidance as to how that is done.  This specification updates
-    RFC 5176 to correct that omission for scenarios where networks use realm-based
+- content: "<p>RFC 5176 defines Change-of-Authorization (CoA) and Disconnect Message
+    (DM) behavior for RADIUS.  RFC 5176 also suggests that proxying these messages
+    is possible, but it does not provide guidance as to how that is done.  This specification
+    updates RFC 5176 to correct that omission for scenarios where networks use realm-based
     proxying as defined in RFC 7542.  This specification also updates RFC 5580 to
-    allow the Operator-Name attribute in CoA-Request and Disconnect-Request packets.
+    allow the Operator-Name attribute in CoA-Request and Disconnect-Request packets.</p>"
   language:
   - en
   script:
@@ -70,7 +94,12 @@ relation:
     formattedref:
       content: RFC5580
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8559'
+fetched: '2022-01-23'
 keyword:
 - RADIUS
 - Change of Authorization

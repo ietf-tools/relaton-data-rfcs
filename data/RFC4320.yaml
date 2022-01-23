@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sparks
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sparks
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes modifications to the Session Initiation Protocol
-    (SIP) to address problems that have been identified with the SIP non-INVITE transaction.  These
-    modifications reduce the probability of messages losing the race condition inherent
-    in the non-INVITE transaction and reduce useless network traffic.  They also improve
-    the robustness of SIP networks when elements stop responding.  These changes update
-    behavior defined in RFC 3261. [STANDARDS-TRACK]
+- content: "<p>This document describes modifications to the Session Initiation Protocol
+    (SIP) to address problems that have been identified with the SIP non-INVITE transaction.
+    \ These modifications reduce the probability of messages losing the race condition
+    inherent in the non-INVITE transaction and reduce useless network traffic.  They
+    also improve the robustness of SIP networks when elements stop responding.  These
+    changes update behavior defined in RFC 3261. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,6 +67,11 @@ relation:
     formattedref:
       content: RFC3261
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4320'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sip

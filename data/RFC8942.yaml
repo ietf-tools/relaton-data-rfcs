@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Grigorik
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Grigorik
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Weiss
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Weiss
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: HTTP defines proactive content negotiation to allow servers to select the
-    appropriate response for a given request, based upon the user agent's characteristics,
+- content: <p>HTTP defines proactive content negotiation to allow servers to select
+    the appropriate response for a given request, based upon the user agent's characteristics,
     as expressed in request headers. In practice, user agents are often unwilling
     to send those request headers, because it is not clear whether they will be used,
-    and sending them impacts both performance and privacy. This document defines an
-    Accept-CH response header that servers can use to advertise their use of request
+    and sending them impacts both performance and privacy.</p><p>This document defines
+    an Accept-CH response header that servers can use to advertise their use of request
     headers for proactive content negotiation, along with a set of guidelines for
-    the creation of such headers, colloquially known as "Client Hints."
+    the creation of such headers, colloquially known as "Client Hints."</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8942'
+fetched: '2022-01-23'
 keyword:
 - Content Negotiation
 editorialgroup:

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a non-standard, but widely implemented, modification
+- content: "<p>This document describes a non-standard, but widely implemented, modification
     to TCP's handling of ICMP soft error messages that rejects pending connection-requests
     when those error messages are received.  This behavior reduces the likelihood
     of long delays between connection-establishment attempts that may arise in a number
     of scenarios, including one in which dual-stack nodes that have IPv6 enabled by
     default are deployed in IPv4 or mixed IPv4 and IPv6 environments.  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5461'
+fetched: '2022-01-23'
 keyword:
 - icmp
 - Internet Control Message Protocol

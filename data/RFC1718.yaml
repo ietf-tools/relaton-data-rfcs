@@ -22,18 +22,25 @@ date:
 - type: published
   value: 1994-11
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: IETF Secretariat
-        language:
-        - en
-        script:
-        - Latn
+    - IETF Secretariat
   role:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Malkin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Malkin
         language:
@@ -48,9 +55,9 @@ language:
 script:
 - Latn
 abstract:
-- content: The purpose of this For Your Information (FYI) RFC is to explain to the
-    newcomers how the IETF works.  This memo provides information for the Internet
-    community.  It does not specify an Internet standard. [FYI 17]
+- content: "<p>The purpose of this For Your Information (FYI) RFC is to explain to
+    the newcomers how the IETF works.  This memo provides information for the Internet
+    community.  It does not specify an Internet standard. [FYI 17]</p>"
   language:
   - en
   script:
@@ -62,7 +69,12 @@ relation:
     formattedref:
       content: RFC3160
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1718'
+fetched: '2022-01-23'
 keyword:
 - Internet
 - Engineering

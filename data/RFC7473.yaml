@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raza
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Raza
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Boutros
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Boutros
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: There is no capability negotiation done for Label Distribution Protocol
+- content: "<p>There is no capability negotiation done for Label Distribution Protocol
     (LDP) applications that set up Label Switched Paths (LSPs) for IP prefixes or
     that signal point-to-point (P2P) Pseudowires (PWs) for Layer 2 Virtual Private
     Networks (L2VPNs).  When an LDP session comes up, an LDP speaker may unnecessarily
@@ -56,12 +80,17 @@ abstract:
     Communication Protocol (ICCP).  This document defines a solution by which an LDP
     speaker announces to its peer its disinterest in such non-negotiated applications,
     thus disabling the unnecessary advertisement of corresponding application state,
-    which would have otherwise been advertised over the established LDP session.
+    which would have otherwise been advertised over the established LDP session.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7473'
+fetched: '2022-01-23'
 editorialgroup:
 - name: mpls

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Congdon
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Congdon
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sanchez
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Sanchez
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aboba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Aboba
         language:
@@ -57,19 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: While RFC 2865 defines the Filter-Id attribute, it requires that the Network
-    Access Server (NAS) be pre-populated with the desired filters.  However, in situations
-    where the server operator does not know which filters have been pre-populated,
-    it is useful to specify filter rules explicitly.  This document defines the NAS-Filter-Rule
-    attribute within the Remote Authentication Dial In User Service (RADIUS).  This
-    attribute is based on the Diameter NAS-Filter-Rule Attribute Value Pair (AVP)
-    described in RFC 4005, and the IPFilterRule syntax defined in RFC 3588. [STANDARDS-TRACK]
+- content: "<p>While RFC 2865 defines the Filter-Id attribute, it requires that the
+    Network Access Server (NAS) be pre-populated with the desired filters.  However,
+    in situations where the server operator does not know which filters have been
+    pre-populated, it is useful to specify filter rules explicitly.  This document
+    defines the NAS-Filter-Rule attribute within the Remote Authentication Dial In
+    User Service (RADIUS).  This attribute is based on the Diameter NAS-Filter-Rule
+    Attribute Value Pair (AVP) described in RFC 4005, and the IPFilterRule syntax
+    defined in RFC 3588. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4849'
+fetched: '2022-01-23'
 keyword:
 - remote authentication dial in user service
 - nas-filter-rule

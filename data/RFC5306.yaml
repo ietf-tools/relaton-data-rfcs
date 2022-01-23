@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Shand
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ginsberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Ginsberg
         language:
@@ -47,14 +71,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism for a restarting router to signal to
-    its neighbors that it is restarting, allowing them to reestablish their adjacencies
+- content: "<p>This document describes a mechanism for a restarting router to signal
+    to its neighbors that it is restarting, allowing them to reestablish their adjacencies
     without cycling through the down state, while still correctly initiating database
-    synchronization. This document additionally describes a mechanism for a restarting
-    router to determine when it has achieved Link State Protocol Data Unit (LSP) database
-    synchronization with its neighbors and a mechanism to optimize LSP database synchronization,
-    while minimizing transient routing disruption when a router starts. This document
-    obsoletes RFC 3847. [STANDARDS-TRACK]
+    synchronization.</p><p>This document additionally describes a mechanism for a
+    restarting router to determine when it has achieved Link State Protocol Data Unit
+    (LSP) database synchronization with its neighbors and a mechanism to optimize
+    LSP database synchronization, while minimizing transient routing disruption when
+    a router starts. This document obsoletes RFC 3847. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC8706
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5306'
+fetched: '2022-01-23'
 keyword:
 - intermediate system to intermediate system
 - LSP database synchronization

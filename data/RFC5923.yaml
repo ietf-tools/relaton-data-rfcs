@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gurbani
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Gurbani
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mahy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Mahy
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tate
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Tate
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document enables a pair of communicating proxies to reuse a congestion-controlled
+- content: "<p>This document enables a pair of communicating proxies to reuse a congestion-controlled
     connection between themselves for sending requests in the forwards and backwards
     direction.  Because the connection is essentially aliased for requests going in
     the backwards direction, reuse is predicated upon both the communicating endpoints
@@ -65,13 +101,18 @@ abstract:
     (TLS).  For this reason, we only consider connection reuse for TLS over TCP and
     TLS over Stream Control Transmission Protocol (SCTP).  This document also provides
     guidelines on connection reuse and virtual SIP servers and the interaction of
-    connection reuse and DNS SRV lookups in SIP. [STANDARDS-TRACK]
+    connection reuse and DNS SRV lookups in SIP. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5923'
+fetched: '2022-01-23'
 keyword:
 - TCP Connection
 - SCTP Connection

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kent
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kent
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kong
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Kong
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Seo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Seo
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Watro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Watro
         language:
@@ -67,20 +115,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the certificate policy for a Public Key Infrastructure
-    (PKI) used to support attestations about Internet Number Resource (INR) holdings.  Each
-    organization that distributes IP addresses or Autonomous System (AS) numbers to
-    an organization will, in parallel, issue a (public key) certificate reflecting
+- content: "<p>This document describes the certificate policy for a Public Key Infrastructure
+    (PKI) used to support attestations about Internet Number Resource (INR) holdings.
+    \ Each organization that distributes IP addresses or Autonomous System (AS) numbers
+    to an organization will, in parallel, issue a (public key) certificate reflecting
     this distribution.  These certificates will enable verification that the resources
     indicated in the certificate have been distributed to the holder of the associated
     private key and that this organization is the current, unique holder of these
-    resources.  This memo documents an Internet Best Current Practice.
+    resources.  This memo documents an Internet Best Current Practice.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '173'
+- title:
+    content: RFC
+    format: text/plain
+  number: '6484'
+fetched: '2022-01-23'
 keyword:
 - Certification Practice Statement
 - CPS

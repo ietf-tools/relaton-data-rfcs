@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gomez
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Gomez
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crowcroft
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Crowcroft
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scharf
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Scharf
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides guidance on how to implement and use the Transmission
+- content: "<p>This document provides guidance on how to implement and use the Transmission
     Control Protocol (TCP) in Constrained-Node Networks (CNNs), which are a characteristic
     of the Internet of Things (IoT).  Such environments require a lightweight TCP
     implementation and may not make use of optional functionality.  This document
     explains a number of known and deployed techniques to simplify a TCP stack as
     well as corresponding trade-offs.  The objective is to help embedded developers
-    with decisions on which TCP features to use.
+    with decisions on which TCP features to use.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9006'
+fetched: '2022-01-23'
 keyword:
 - constrained node networks
 - CNNs

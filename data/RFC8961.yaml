@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Allman
         language:
@@ -37,22 +49,31 @@ language:
 script:
 - Latn
 abstract:
-- content: Many protocols must detect packet loss for various reasons (e.g., to ensure
-    reliability using retransmissions or to understand the level of congestion along
-    a network path).  While many mechanisms have been designed to detect loss, ultimately,
-    protocols can only count on the passage of time without delivery confirmation
+- content: <p>Many protocols must detect packet loss for various reasons (e.g., to
+    ensure reliability using retransmissions or to understand the level of congestion
+    along a network path).  While many mechanisms have been designed to detect loss,
+    ultimately, protocols can only count on the passage of time without delivery confirmation
     to declare a packet "lost".  Each implementation of a time-based loss detection
     mechanism represents a balance between correctness and timeliness; therefore,
     no implementation suits all situations.  This document provides high-level requirements
     for time-based loss detectors appropriate for general use in unicast communication
     across the Internet.  Within the requirements, implementations have latitude to
-    define particulars that best address each situation.
+    define particulars that best address each situation.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '233'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8961'
+fetched: '2022-01-23'
 keyword:
 - retransmission timeout
 - " packet loss"

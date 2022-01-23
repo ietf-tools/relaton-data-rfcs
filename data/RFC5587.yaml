@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Williams
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document introduces new application programming interfaces (APIs)
+- content: "<p>This document introduces new application programming interfaces (APIs)
     to the Generic Security Services API (GSS-API) for extended mechanism attribute
     inquiry. These interfaces are primarily intended to reduce instances of hardcoding
-    of mechanism identifiers in GSS applications. These interfaces include mechanism
+    of mechanism identifiers in GSS applications.</p><p>These interfaces include mechanism
     attributes and attribute sets, a function for inquiring the attributes of a mechanism,
     a function for indicating mechanisms that possess given attributes, and a function
-    for displaying mechanism attributes. [STANDARDS-TRACK]
+    for displaying mechanism attributes. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5587'
+fetched: '2022-01-23'
 keyword:
 - GSS-API
 - mechanism

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sury
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Sury
         language:
@@ -38,18 +50,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the IANA registries in RFC 4255, which defines SSHFP,
-    a DNS Resource Record (RR) that contains a standard Secure Shell (SSH) key fingerprint
-    used to verify SSH host keys using DNS Security Extensions (DNSSEC).  This document
-    defines additional options supporting SSH public keys applying the Elliptic Curve
-    Digital Signature Algorithm (ECDSA) and the implementation of fingerprints computed
-    using the SHA-256 message digest algorithm in SSHFP Resource Records. [STANDARDS-TRACK]
+- content: "<p>This document updates the IANA registries in RFC 4255, which defines
+    SSHFP, a DNS Resource Record (RR) that contains a standard Secure Shell (SSH)
+    key fingerprint used to verify SSH host keys using DNS Security Extensions (DNSSEC).
+    \ This document defines additional options supporting SSH public keys applying
+    the Elliptic Curve Digital Signature Algorithm (ECDSA) and the implementation
+    of fingerprints computed using the SHA-256 message digest algorithm in SSHFP Resource
+    Records. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6594'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - Domain Name System

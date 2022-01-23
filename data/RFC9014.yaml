@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rabadan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sathappan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Sathappan
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderickx
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Henderickx
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sajassi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Sajassi
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Drake
         language:
@@ -77,25 +137,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how Network Virtualization Overlays (NVOs) can
-    be connected to a Wide Area Network (WAN) in order to extend the Layer 2 connectivity
+- content: "<p>This document describes how Network Virtualization Overlays (NVOs)
+    can be connected to a Wide Area Network (WAN) in order to extend the Layer 2 connectivity
     required for some tenants.  The solution analyzes the interaction between NVO
     networks running Ethernet Virtual Private Networks (EVPNs) and other Layer 2 VPN
     (L2VPN) technologies used in the WAN, such as Virtual Private LAN Services (VPLSs),
-    VPLS extensions for Provider Backbone Bridging (PBB-VPLS), EVPN, or PBB-EVPN.  It
-    also describes how the existing technical specifications apply to the interconnection
+    VPLS extensions for Provider Backbone Bridging (PBB-VPLS), EVPN, or PBB-EVPN.
+    \ It also describes how the existing technical specifications apply to the interconnection
     and extends the EVPN procedures needed in some cases.  In particular, this document
     describes how EVPN routes are processed on Gateways (GWs) that interconnect EVPN-Overlay
     and EVPN-MPLS networks, as well as the Interconnect Ethernet Segment (I-ES), to
     provide multihoming.  This document also describes the use of the Unknown MAC
     Route (UMR) to avoid issues of a Media Access Control (MAC) scale on Data Center
-    Network Virtualization Edge (NVE) devices.
+    Network Virtualization Edge (NVE) devices.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9014'
+fetched: '2022-01-23'
 keyword:
 - DCI
 - UMR

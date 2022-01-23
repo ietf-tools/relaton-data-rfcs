@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eronen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Eronen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Tschofenig
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sheffer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Sheffer
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: IKEv2 specifies that Extensible Authentication Protocol (EAP) authentication
+- content: "<p>IKEv2 specifies that Extensible Authentication Protocol (EAP) authentication
     must be used together with responder authentication based on public key signatures.
     This is necessary with old EAP methods that provide only unilateral authentication
-    using, e.g., one- time passwords or token cards. This document specifies how EAP
-    methods that provide mutual authentication and key agreement can be used to provide
-    extensible responder authentication for IKEv2 based on methods other than public
-    key signatures. [STANDARDS-TRACK]
+    using, e.g., one- time passwords or token cards.</p><p>This document specifies
+    how EAP methods that provide mutual authentication and key agreement can be used
+    to provide extensible responder authentication for IKEv2 based on methods other
+    than public key signatures. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -75,7 +111,12 @@ relation:
     formattedref:
       content: RFC5996
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5998'
+fetched: '2022-01-23'
 keyword:
 - mutual authentication
 - password

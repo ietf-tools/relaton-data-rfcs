@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Berners-Lee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Berners-Lee
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fielding
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Fielding
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Masinter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Masinter
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: A Uniform Resource Identifier (URI) is a compact sequence of characters
+- content: "<p>A Uniform Resource Identifier (URI) is a compact sequence of characters
     that identifies an abstract or physical resource.  This specification defines
     the generic URI syntax and a process for resolving URI references that might be
     in relative form, along with guidelines and security considerations for the use
@@ -65,7 +101,7 @@ abstract:
     of all valid URIs, allowing an implementation to parse the common components of
     a URI reference without knowing the scheme-specific requirements of every possible
     identifier.  This specification does not define a generative grammar for URIs;
-    that task is performed by the individual specifications of each URI scheme. [STANDARDS-TRACK]
+    that task is performed by the individual specifications of each URI scheme. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -77,7 +113,16 @@ relation:
     formattedref:
       content: RFC1738
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '66'
+- title:
+    content: RFC
+    format: text/plain
+  number: '3986'
+fetched: '2022-01-23'
 keyword:
 - Internet
 - protocol

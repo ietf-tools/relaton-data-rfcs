@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Boers
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Boers
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Wijnands
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -57,21 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: A "Protocol Independent Multicast - Sparse Mode" Join message sent by a
-    given node identifies one or more multicast distribution trees that that node
+- content: <p>A "Protocol Independent Multicast - Sparse Mode" Join message sent by
+    a given node identifies one or more multicast distribution trees that that node
     wishes to join.  Each tree is identified by the combination of a multicast group
     address and a source address (where the source address is possibly a "wild card").  Under
     certain conditions it can be useful, when joining a tree, to specify additional
     information related to the construction of the tree.  However, there has been
     no way to do so until now.  This document describes a modification of the Join
     message that allows a node to associate attributes with a particular tree.  The
-    attributes are encoded in Type-Length-Value format. [STANDARDS-TRACK]
+    attributes are encoded in Type-Length-Value format. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5384'
+fetched: '2022-01-23'
 keyword:
 - pim-sm
 - multicast distribution tree

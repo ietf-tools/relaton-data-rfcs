@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Harkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Harkins
         language:
@@ -38,19 +50,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes SIV (Synthetic Initialization Vector), a block cipher
-    mode of operation.  SIV takes a key, a plaintext, and multiple variable-length
+- content: "<p>This memo describes SIV (Synthetic Initialization Vector), a block
+    cipher mode of operation.  SIV takes a key, a plaintext, and multiple variable-length
     octet strings that will be authenticated but not encrypted.  It produces a ciphertext
-    having the same length as the plaintext and a synthetic initialization vector.  Depending
-    on how it is used, SIV achieves either the goal of deterministic authenticated
-    encryption or the goal of nonce-based, misuse-resistant authenticated encryption.  This
-    memo provides information for the Internet community.
+    having the same length as the plaintext and a synthetic initialization vector.
+    \ Depending on how it is used, SIV achieves either the goal of deterministic authenticated
+    encryption or the goal of nonce-based, misuse-resistant authenticated encryption.
+    \ This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5297'
+fetched: '2022-01-23'
 keyword:
 - authenticated encryption
 - key wrapping

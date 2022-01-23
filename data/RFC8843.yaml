@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Alvestrand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Alvestrand
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jennings
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Jennings
         language:
@@ -57,15 +93,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines a new Session Description Protocol (SDP) Grouping
-    Framework extension called 'BUNDLE'. The extension can be used with the SDP offer/answer
-    mechanism to negotiate the usage of a single transport (5-tuple) for sending and
-    receiving media described by multiple SDP media descriptions ("m=" sections).
-    Such transport is referred to as a BUNDLE transport, and the media is referred
-    to as bundled media. The "m=" sections that use the BUNDLE transport form a BUNDLE
-    group. This specification defines a new RTP Control Protocol (RTCP) Source Description
-    (SDES) item and a new RTP header extension. This specification updates RFCs 3264,
-    5888, and 7941.
+- content: <p>This specification defines a new Session Description Protocol (SDP)
+    Grouping Framework extension called 'BUNDLE'. The extension can be used with the
+    SDP offer/answer mechanism to negotiate the usage of a single transport (5-tuple)
+    for sending and receiving media described by multiple SDP media descriptions ("m="
+    sections). Such transport is referred to as a BUNDLE transport, and the media
+    is referred to as bundled media. The "m=" sections that use the BUNDLE transport
+    form a BUNDLE group.</p><p>This specification defines a new RTP Control Protocol
+    (RTCP) Source Description (SDES) item and a new RTP header extension.</p><p>This
+    specification updates RFCs 3264, 5888, and 7941.</p>
   language:
   - en
   script:
@@ -87,7 +123,12 @@ relation:
     formattedref:
       content: RFC7941
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8843'
+fetched: '2022-01-23'
 keyword:
 - RTP
 - SDP

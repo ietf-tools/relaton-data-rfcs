@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoeiland-Joergensen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Hoeiland-Joergensen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McKenney
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. McKenney
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Taht
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Taht
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gettys
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Gettys
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dumazet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Dumazet
         language:
@@ -77,20 +137,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo presents the FQ-CoDel hybrid packet scheduler and Active Queue
-    Management (AQM) algorithm, a powerful tool for fighting bufferbloat and reducing
-    latency. FQ-CoDel mixes packets from multiple flows and reduces the impact of
-    head-of-line blocking from bursty traffic. It provides isolation for low-rate
-    traffic such as DNS, web, and videoconferencing traffic. It improves utilisation
-    across the networking fabric, especially for bidirectional traffic, by keeping
-    queue lengths short, and it can be implemented in a memory- and CPU-efficient
-    fashion across a wide range of hardware.
+- content: "<p>This memo presents the FQ-CoDel hybrid packet scheduler and Active
+    Queue Management (AQM) algorithm, a powerful tool for fighting bufferbloat and
+    reducing latency.</p><p>FQ-CoDel mixes packets from multiple flows and reduces
+    the impact of head-of-line blocking from bursty traffic. It provides isolation
+    for low-rate traffic such as DNS, web, and videoconferencing traffic. It improves
+    utilisation across the networking fabric, especially for bidirectional traffic,
+    by keeping queue lengths short, and it can be implemented in a memory- and CPU-efficient
+    fashion across a wide range of hardware.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8290'
+fetched: '2022-01-23'
 keyword:
 - bufferbloat
 - aqm

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Demjanenko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Demjanenko
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Punaro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Punaro
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Satterlee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Satterlee
         language:
@@ -58,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the RTP payload format for the Tactical Secure
+- content: "<p>This document describes the RTP payload format for the Tactical Secure
     Voice Cryptographic Interoperability Specification (TSVCIS) speech coder.  TSVCIS
     is a scalable narrowband voice coder supporting varying encoder data rates and
     fallbacks.  It is implemented as an augmentation to the Mixed Excitation Linear
@@ -66,13 +102,18 @@ abstract:
     parameters to enhance voice quality.  TSVCIS augmented speech data is processed
     in conjunction with its temporally matched Mixed Excitation Linear Prediction
     (MELP) 2400 speech data.  The RTP packetization of TSVCIS and MELPe speech coder
-    data is described in detail.
+    data is described in detail.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8817'
+fetched: '2022-01-23'
 keyword:
 - MELP
 - MELPe

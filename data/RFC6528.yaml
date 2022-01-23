@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellovin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bellovin
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies an algorithm for the generation of TCP Initial
+- content: "<p>This document specifies an algorithm for the generation of TCP Initial
     Sequence Numbers (ISNs), such that the chances of an off-path attacker guessing
     the sequence numbers in use by a target connection are reduced.  This document
     revises (and formally obsoletes) RFC 1948, and takes the ISN generation algorithm
     originally proposed in that document to Standards Track, formally updating RFC
-    793. [STANDARDS-TRACK]
+    793. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -64,7 +88,12 @@ relation:
     formattedref:
       content: RFC0793
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6528'
+fetched: '2022-01-23'
 keyword:
 - TCP security
 - TCP Sequence Numbers

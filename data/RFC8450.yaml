@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Weaver
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Weaver
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes an RTP payload format for the High Quality (HQ) profile
-    of Society of Motion Picture and Television Engineers Standard ST 2042-1, known
-    as VC-2. This document describes the transport of HQ Profile VC-2 in RTP packets
-    and has applications for low-complexity, high-bandwidth streaming of both lossless
-    and lossy compressed video. The HQ profile of VC-2 is intended for low-latency
-    video compression (with latency potentially on the order of lines of video) at
-    high data rates (with compression ratios on the order of 2:1 or 4:1).
+- content: "<p>This memo describes an RTP payload format for the High Quality (HQ)
+    profile of Society of Motion Picture and Television Engineers Standard ST 2042-1,
+    known as VC-2. This document describes the transport of HQ Profile VC-2 in RTP
+    packets and has applications for low-complexity, high-bandwidth streaming of both
+    lossless and lossy compressed video.</p><p>The HQ profile of VC-2 is intended
+    for low-latency video compression (with latency potentially on the order of lines
+    of video) at high data rates (with compression ratios on the order of 2:1 or 4:1).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8450'
+fetched: '2022-01-23'
 keyword:
 - rtp
 - vc-2

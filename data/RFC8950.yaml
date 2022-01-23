@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Litkowski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Litkowski
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Agrawal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Agrawal
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ananthamurthy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Ananthamurthy
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Patel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Patel
         language:
@@ -68,25 +116,30 @@ language:
 script:
 - Latn
 abstract:
-- content: Multiprotocol BGP (MP-BGP) specifies that the set of usable next-hop address
-    families is determined by the Address Family Identifier (AFI) and the Subsequent
-    Address Family Identifier (SAFI). The AFI/SAFI definitions for the IPv4 address
-    family only have provisions for advertising a next-hop address that belongs to
-    the IPv4 protocol when advertising IPv4 Network Layer Reachability Information
-    (NLRI) or VPN-IPv4 NLRI. This document specifies the extensions necessary to allow
-    the advertising of IPv4 NLRI or VPN-IPv4 NLRI with a next-hop address that belongs
-    to the IPv6 protocol. This comprises an extension of the AFI/SAFI definitions
-    to allow the address of the next hop for IPv4 NLRI or VPN-IPv4 NLRI to also belong
-    to the IPv6 protocol, the encoding of the next hop to determine which of the protocols
-    the address actually belongs to, and a BGP Capability allowing MP-BGP peers to
-    dynamically discover whether they can exchange IPv4 NLRI and VPN-IPv4 NLRI with
-    an IPv6 next hop. This document obsoletes RFC 5549.
+- content: "<p>Multiprotocol BGP (MP-BGP) specifies that the set of usable next-hop
+    address families is determined by the Address Family Identifier (AFI) and the
+    Subsequent Address Family Identifier (SAFI). The AFI/SAFI definitions for the
+    IPv4 address family only have provisions for advertising a next-hop address that
+    belongs to the IPv4 protocol when advertising IPv4 Network Layer Reachability
+    Information (NLRI) or VPN-IPv4 NLRI.</p><p>This document specifies the extensions
+    necessary to allow the advertising of IPv4 NLRI or VPN-IPv4 NLRI with a next-hop
+    address that belongs to the IPv6 protocol. This comprises an extension of the
+    AFI/SAFI definitions to allow the address of the next hop for IPv4 NLRI or VPN-IPv4
+    NLRI to also belong to the IPv6 protocol, the encoding of the next hop to determine
+    which of the protocols the address actually belongs to, and a BGP Capability allowing
+    MP-BGP peers to dynamically discover whether they can exchange IPv4 NLRI and VPN-IPv4
+    NLRI with an IPv6 next hop. This document obsoletes RFC 5549.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8950'
+fetched: '2022-01-23'
 keyword:
 - bgp
 - mvpn

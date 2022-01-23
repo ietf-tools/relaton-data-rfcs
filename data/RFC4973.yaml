@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Srisuresh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Srisuresh
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Joseph
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Joseph
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines OSPF-xTE, an experimental traffic engineering (TE)
-    extension to the link-state routing protocol OSPF.  OSPF-xTE defines new TE Link
-    State Advertisements (LSAs) to disseminate TE metrics within an autonomous System
-    (AS), which may consist of multiple areas.  When an AS consists of TE and non-TE
-    nodes, OSPF-xTE ensures that non-TE nodes in the AS are unaffected by the TE LSAs.  OSPF-xTE
-    generates a stand-alone TE Link State Database (TE-LSDB), distinct from the native
-    OSPF LSDB, for computation of TE circuit paths.  OSPF-xTE is versatile and extendible
-    to non-packet networks such as Synchronous Optical Network (SONET) / Time Division
-    Multiplexing (TDM) and optical networks.  This memo defines an Experimental Protocol
-    for the Internet community.
+- content: "<p>This document defines OSPF-xTE, an experimental traffic engineering
+    (TE) extension to the link-state routing protocol OSPF.  OSPF-xTE defines new
+    TE Link State Advertisements (LSAs) to disseminate TE metrics within an autonomous
+    System (AS), which may consist of multiple areas.  When an AS consists of TE and
+    non-TE nodes, OSPF-xTE ensures that non-TE nodes in the AS are unaffected by the
+    TE LSAs.  OSPF-xTE generates a stand-alone TE Link State Database (TE-LSDB), distinct
+    from the native OSPF LSDB, for computation of TE circuit paths.  OSPF-xTE is versatile
+    and extendible to non-packet networks such as Synchronous Optical Network (SONET)
+    / Time Division Multiplexing (TDM) and optical networks.  This memo defines an
+    Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4973'
+fetched: '2022-01-23'
 keyword:
 - ospf-te
 - link state advertisement

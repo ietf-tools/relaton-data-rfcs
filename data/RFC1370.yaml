@@ -21,18 +21,25 @@ date:
 - type: published
   value: 1992-10
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: Internet Architecture Board
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chapin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Chapin
         language:
@@ -47,15 +54,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This Applicability Statement places a requirement on vendors claiming conformance
-    to this standard, in order to assure that users will have the option of deploying
-    OSPF when they need a multivendor, interoperable IGP in their environment. [STANDARDS-TRACK]
+- content: "<p>This Applicability Statement places a requirement on vendors claiming
+    conformance to this standard, in order to assure that users will have the option
+    of deploying OSPF when they need a multivendor, interoperable IGP in their environment.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1370'
+fetched: '2022-01-23'
 keyword:
 - routing
 - open

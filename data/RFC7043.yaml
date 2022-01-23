@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Abley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Abley
         language:
@@ -37,21 +49,26 @@ language:
 script:
 - Latn
 abstract:
-- content: 48-bit Extended Unique Identifier (EUI-48) and 64-bit Extended Unique Identifier
-    (EUI-64) are address formats specified by the IEEE for use in various layer-2
-    networks, e.g., Ethernet. This document describes two new DNS resource record
-    types, EUI48 and EUI64, for encoding Ethernet addresses in the DNS. This document
-    describes potentially severe privacy implications resulting from indiscriminate
+- content: "<p>48-bit Extended Unique Identifier (EUI-48) and 64-bit Extended Unique
+    Identifier (EUI-64) are address formats specified by the IEEE for use in various
+    layer-2 networks, e.g., Ethernet.</p><p>This document describes two new DNS resource
+    record types, EUI48 and EUI64, for encoding Ethernet addresses in the DNS.</p><p>This
+    document describes potentially severe privacy implications resulting from indiscriminate
     publication of link-layer addresses in the DNS. EUI-48 or EUI-64 addresses SHOULD
     NOT be published in the public DNS. This document specifies an interoperable encoding
     of these address types for use in private DNS namespaces, where the privacy concerns
-    can be constrained and mitigated.
+    can be constrained and mitigated.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7043'
+fetched: '2022-01-23'
 keyword:
 - IEEE
 - ethernet

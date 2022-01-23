@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Enns
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Enns
         language:
@@ -37,11 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The Network Configuration Protocol (NETCONF) defined in this document provides
-    mechanisms to install, manipulate, and delete the configuration of network devices.  It
-    uses an Extensible Markup Language (XML)-based data encoding for the configuration
-    data as well as the protocol messages.  The NETCONF protocol operations are realized
-    on top of a simple Remote Procedure Call (RPC) layer. [STANDARDS-TRACK]
+- content: "<p>The Network Configuration Protocol (NETCONF) defined in this document
+    provides mechanisms to install, manipulate, and delete the configuration of network
+    devices.  It uses an Extensible Markup Language (XML)-based data encoding for
+    the configuration data as well as the protocol messages.  The NETCONF protocol
+    operations are realized on top of a simple Remote Procedure Call (RPC) layer.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -53,7 +66,12 @@ relation:
     formattedref:
       content: RFC6241
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4741'
+fetched: '2022-01-23'
 keyword:
 - network configuration protocol
 - network device

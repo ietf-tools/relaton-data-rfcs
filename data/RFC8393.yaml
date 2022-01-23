@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Drake
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a network that supports Service Function Chaining
+- content: <p>This document describes a network that supports Service Function Chaining
     (SFC) using the Network Service Header (NSH) with no payload data and carrying
     only metadata. This is achieved by defining a new NSH "Next Protocol" type value
-    of "None". This document illustrates some of the functions that may be achieved
+    of "None".</p><p>This document illustrates some of the functions that may be achieved
     or enhanced by this mechanism, but it does not provide an exhaustive list of use
     cases, nor is it intended to be definitive about the functions it describes. It
     is expected that other documents will describe specific use cases in more detail
-    and will define the protocol mechanics for each use case.
+    and will define the protocol mechanics for each use case.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8393'
+fetched: '2022-01-23'
 keyword:
 - Service Function Chaining
 - Network Service Header

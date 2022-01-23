@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bellis
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cheshire
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Cheshire
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dickinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Dickinson
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dickinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Dickinson
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lemon
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Lemon
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pusateri
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Pusateri
         language:
@@ -87,14 +159,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new DNS OPCODE for DNS Stateful Operations (DSO).  DSO
-    messages communicate operations within persistent stateful sessions using Type
-    Length Value (TLV) syntax.  Three TLVs are defined that manage session timeouts,
-    termination, and encryption padding, and a framework is defined for extensions
-    to enable new stateful operations.  This document updates RFC 1035 by adding a
-    new DNS header OPCODE that has both different message semantics and a new result
-    code.  This document updates RFC 7766 by redefining a session, providing new guidance
-    on connection reuse, and providing a new mechanism for handling session idle timeouts.
+- content: "<p>This document defines a new DNS OPCODE for DNS Stateful Operations
+    (DSO).  DSO messages communicate operations within persistent stateful sessions
+    using Type Length Value (TLV) syntax.  Three TLVs are defined that manage session
+    timeouts, termination, and encryption padding, and a framework is defined for
+    extensions to enable new stateful operations.  This document updates RFC 1035
+    by adding a new DNS header OPCODE that has both different message semantics and
+    a new result code.  This document updates RFC 7766 by redefining a session, providing
+    new guidance on connection reuse, and providing a new mechanism for handling session
+    idle timeouts.</p>"
   language:
   - en
   script:
@@ -111,6 +184,11 @@ relation:
     formattedref:
       content: RFC7766
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8490'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dnsop

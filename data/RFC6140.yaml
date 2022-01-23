@@ -24,6 +24,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -38,14 +55,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a mechanism by which a Session Initiation Protocol
+- content: "<p>This document defines a mechanism by which a Session Initiation Protocol
     (SIP) server acting as a traditional Private Branch Exchange (PBX) can register
-    with a SIP Service Provider (SSP) to receive phone calls for SIP User Agents (UAs).  In
-    order to function properly, this mechanism requires that each of the Addresses
+    with a SIP Service Provider (SSP) to receive phone calls for SIP User Agents (UAs).
+    \ In order to function properly, this mechanism requires that each of the Addresses
     of Record (AORs) registered in bulk map to a unique set of contacts.  This requirement
     is satisfied by AORs representing phone numbers regardless of the domain, since
     phone numbers are fully qualified and globally unique.  This document therefore
-    focuses on this use case. [STANDARDS-TRACK]
+    focuses on this use case. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -57,7 +74,12 @@ relation:
     formattedref:
       content: RFC3680
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6140'
+fetched: '2022-01-23'
 keyword:
 - Bulk Registration
 - Implicit Registration

@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Anderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B.A. Anderson
         language:
@@ -37,17 +54,22 @@ language:
 script:
 - Latn
 abstract:
-- content: The following is the description of a TELNET option designed to facilitate
+- content: "<p>The following is the description of a TELNET option designed to facilitate
     double login avoidance.  It is intended primarily for TAC connections to target
-    hosts on behalf of TAC users, but it can be used between any two consenting hosts.  For
-    example, all hosts at one site (e.g., BBN) can use this option to avoid double
-    login when TELNETing to one another.  This RFC suggests a proposed protocol for
-    the ARPA-Internet community, and requests discussion and suggestions for improvements.
+    hosts on behalf of TAC users, but it can be used between any two consenting hosts.
+    \ For example, all hosts at one site (e.g., BBN) can use this option to avoid
+    double login when TELNETing to one another.  This RFC suggests a proposed protocol
+    for the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '927'
+fetched: '2022-01-23'
 keyword:
 - TOPT-TACACS

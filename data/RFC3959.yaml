@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Camarillo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Camarillo
         language:
@@ -38,17 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a new disposition type (early-session) for the Content-Disposition
-    header field in the Session Initiation Protocol (SIP).  The treatment of "early-session"
-    bodies is similar to the treatment of "session" bodies.  That is, they follow
-    the offer/answer model.  Their only difference is that session descriptions whose
-    disposition type is "early-session" are used to establish early media sessions
-    within early dialogs, as opposed to regular sessions within regular dialogs. [STANDARDS-TRACK]
+- content: <p>This document defines a new disposition type (early-session) for the
+    Content-Disposition header field in the Session Initiation Protocol (SIP).  The
+    treatment of "early-session" bodies is similar to the treatment of "session" bodies.  That
+    is, they follow the offer/answer model.  Their only difference is that session
+    descriptions whose disposition type is "early-session" are used to establish early
+    media sessions within early dialogs, as opposed to regular sessions within regular
+    dialogs. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3959'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sipping

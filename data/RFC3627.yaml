@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Savola
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Savola
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: In some cases, the operational decision may be to use IPv6 /127 prefix
+- content: "<p>In some cases, the operational decision may be to use IPv6 /127 prefix
     lengths, especially on point-to-point links between routers.  Under certain situations,
     this may lead to one router claiming both addresses due to subnet-router anycast
     being implemented.  This document discusses the issue and offers a couple of solutions
-    to the problem; nevertheless, /127 should be avoided between two routers.
+    to the problem; nevertheless, /127 should be avoided between two routers.</p>"
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC6547
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3627'
+fetched: '2022-01-23'
 keyword:
 - address space
 - anycast

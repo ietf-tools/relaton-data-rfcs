@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kristol
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Kristol
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Montulli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Montulli
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a way to create a stateful session with HTTP requests
-    and responses.  It describes two new headers, Cookie and Set- Cookie, which carry
-    state information between participating origin servers and user agents.  The method
-    described here differs from Netscape's Cookie proposal, but it can interoperate
-    with HTTP/1.0 user agents that use Netscape's method. [STANDARDS-TRACK]
+- content: "<p>This document specifies a way to create a stateful session with HTTP
+    requests and responses.  It describes two new headers, Cookie and Set- Cookie,
+    which carry state information between participating origin servers and user agents.
+    \ The method described here differs from Netscape's Cookie proposal, but it can
+    interoperate with HTTP/1.0 user agents that use Netscape's method. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC2965
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2109'
+fetched: '2022-01-23'
 keyword:
 - HTTP-STATE
 - Hypertext

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Curtin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Curtin
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document addresses the internationalization (I18n) of FTP, which includes
-    supporting the multiple character sets and languages found throughout the Internet
-    community.  This is achieved by extending the FTP specification and giving recommendations
-    for proper internationalization support. [STANDARDS-TRACK]
+- content: "<p>This document addresses the internationalization (I18n) of FTP, which
+    includes supporting the multiple character sets and languages found throughout
+    the Internet community.  This is achieved by extending the FTP specification and
+    giving recommendations for proper internationalization support. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC0959
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2640'
+fetched: '2022-01-23'
 keyword:
 - ftp
 - character sets

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Santesson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Santesson
         language:
@@ -48,11 +72,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the handling of DirectoryString in the Internet X.509
-    Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile,
-    which is published in RFC 3280.  The use of UTF8String and PrintableString are
-    the preferred encoding.  The requirement for exclusive use of UTF8String after
-    December 31, 2003 is removed. [STANDARDS-TRACK]
+- content: "<p>This document updates the handling of DirectoryString in the Internet
+    X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL)
+    Profile, which is published in RFC 3280.  The use of UTF8String and PrintableString
+    are the preferred encoding.  The requirement for exclusive use of UTF8String after
+    December 31, 2003 is removed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC3280
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4630'
+fetched: '2022-01-23'
 keyword:
 - utf8string
 - printablestring

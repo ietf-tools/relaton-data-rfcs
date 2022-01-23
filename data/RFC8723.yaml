@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jennings
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Jennings
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Jones
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Barnes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Barnes
         language:
@@ -54,6 +90,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -68,20 +121,26 @@ language:
 script:
 - Latn
 abstract:
-- content: In some conferencing scenarios, it is desirable for an intermediary to
-    be able to manipulate some parameters in Real-time Transport Protocol (RTP) packets,
-    while still providing strong end-to-end security guarantees.  This document defines
-    a cryptographic transform for the Secure Real-time Transport Protocol (SRTP) that
-    uses two separate but related cryptographic operations to provide hop-by-hop and
-    end-to-end security guarantees.  Both the end-to-end and hop-by-hop cryptographic
-    algorithms can utilize an authenticated encryption with associated data (AEAD)
-    algorithm or take advantage of future SRTP transforms with different properties.
+- content: "<p>In some conferencing scenarios, it is desirable for an intermediary
+    to be able to manipulate some parameters in Real-time Transport Protocol (RTP)
+    packets, while still providing strong end-to-end security guarantees.  This document
+    defines a cryptographic transform for the Secure Real-time Transport Protocol
+    (SRTP) that uses two separate but related cryptographic operations to provide
+    hop-by-hop and end-to-end security guarantees.  Both the end-to-end and hop-by-hop
+    cryptographic algorithms can utilize an authenticated encryption with associated
+    data (AEAD) algorithm or take advantage of future SRTP transforms with different
+    properties.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8723'
+fetched: '2022-01-23'
 keyword:
 - PERC
 - SRTP

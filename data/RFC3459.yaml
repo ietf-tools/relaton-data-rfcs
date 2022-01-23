@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Burger
         language:
@@ -37,19 +49,19 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the use of a mechanism for identifying body parts
-    that a sender deems critical in a multi-part Internet mail message.  The mechanism
-    described is a parameter to Content-Disposition, as described by RFC 3204.  By
-    knowing what parts of a message the sender deems critical, a content gateway can
-    intelligently handle multi-part messages when providing gateway services to systems
-    of lesser capability.  Critical content can help a content gateway to decide what
-    parts to forward.  It can indicate how hard a gateway should try to deliver a
-    body part.  It can help the gateway to pick body parts that are safe to silently
-    delete when a system of lesser capability receives a message.  In addition, critical
-    content can help the gateway chose the notification strategy for the receiving
-    system.  Likewise, if the sender expects the destination to do some processing
-    on a body part, critical content allows the sender to mark body parts that the
-    receiver must process. [STANDARDS-TRACK]
+- content: "<p>This document describes the use of a mechanism for identifying body
+    parts that a sender deems critical in a multi-part Internet mail message.  The
+    mechanism described is a parameter to Content-Disposition, as described by RFC
+    3204.  By knowing what parts of a message the sender deems critical, a content
+    gateway can intelligently handle multi-part messages when providing gateway services
+    to systems of lesser capability.  Critical content can help a content gateway
+    to decide what parts to forward.  It can indicate how hard a gateway should try
+    to deliver a body part.  It can help the gateway to pick body parts that are safe
+    to silently delete when a system of lesser capability receives a message.  In
+    addition, critical content can help the gateway chose the notification strategy
+    for the receiving system.  Likewise, if the sender expects the destination to
+    do some processing on a body part, critical content allows the sender to mark
+    body parts that the receiver must process. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -61,7 +73,12 @@ relation:
     formattedref:
       content: RFC3204
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3459'
+fetched: '2022-01-23'
 keyword:
 - body parts
 - content-disposition

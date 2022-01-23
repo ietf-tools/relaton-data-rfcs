@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Montville
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Montville
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Black
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Black
         language:
@@ -48,25 +72,30 @@ language:
 script:
 - Latn
 abstract:
-- content: The Incident Object Description Exchange Format (IODEF) is an XML data
+- content: "<p>The Incident Object Description Exchange Format (IODEF) is an XML data
     representation framework for sharing information about computer security incidents.
     In IODEF, the Reference class provides references to externally specified information
     such as a vulnerability, Intrusion Detection System (IDS) alert, malware sample,
     advisory, or attack technique. In practice, these references are based on external
     enumeration specifications that define both the enumeration format and the specific
     enumeration values, but the IODEF Reference class (as specified in IODEF v1 in
-    RFC 5070) does not indicate how to include both of these important pieces of information.
-    This document establishes a stand-alone data format to include both the external
-    specification and specific enumeration identification value, and establishes an
-    IANA registry to manage external enumeration specifications. While this document
-    does not update IODEF v1, this enumeration reference format is used in IODEF v2
-    and is applicable to other formats that support this class of enumeration references.
+    RFC 5070) does not indicate how to include both of these important pieces of information.</p><p>This
+    document establishes a stand-alone data format to include both the external specification
+    and specific enumeration identification value, and establishes an IANA registry
+    to manage external enumeration specifications. While this document does not update
+    IODEF v1, this enumeration reference format is used in IODEF v2 and is applicable
+    to other formats that support this class of enumeration references.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7495'
+fetched: '2022-01-23'
 keyword:
 - IODEF
 - Incident

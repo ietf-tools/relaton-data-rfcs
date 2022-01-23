@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Meyer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Meyer
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies Multiprotocol Label Switching (MPLS) Traffic Engineering
-    Soft Preemption, a suite of protocol modifications extending the concept of preemption
-    with the goal of reducing or eliminating traffic disruption of preempted Traffic
-    Engineering Label Switched Paths (TE LSPs).  Initially, MPLS RSVP-TE was defined
-    with support for only immediate TE LSP displacement upon preemption.  The utilization
-    of a reroute request notification helps more gracefully mitigate the reroute process
-    of preempted TE LSP.  For the brief period soft preemption is activated, reservations
-    (though not necessarily traffic levels) are in effect under-provisioned until
-    the TE LSP(s) can be rerouted.  For this reason, the feature is primarily, but
-    not exclusively, interesting in MPLS-enabled IP networks with Differentiated Services
-    and Traffic Engineering capabilities. [STANDARDS-TRACK]
+- content: "<p>This document specifies Multiprotocol Label Switching (MPLS) Traffic
+    Engineering Soft Preemption, a suite of protocol modifications extending the concept
+    of preemption with the goal of reducing or eliminating traffic disruption of preempted
+    Traffic Engineering Label Switched Paths (TE LSPs).  Initially, MPLS RSVP-TE was
+    defined with support for only immediate TE LSP displacement upon preemption.  The
+    utilization of a reroute request notification helps more gracefully mitigate the
+    reroute process of preempted TE LSP.  For the brief period soft preemption is
+    activated, reservations (though not necessarily traffic levels) are in effect
+    under-provisioned until the TE LSP(s) can be rerouted.  For this reason, the feature
+    is primarily, but not exclusively, interesting in MPLS-enabled IP networks with
+    Differentiated Services and Traffic Engineering capabilities. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5712'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching
 - mpls-te

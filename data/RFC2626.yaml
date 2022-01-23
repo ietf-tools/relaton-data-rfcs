@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nesser II
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Nesser II
         language:
@@ -37,8 +49,8 @@ language:
 script:
 - Latn
 abstract:
-- content: The Year 2000 Working Group (WG) has conducted an investigation into the
-    millennium problem as it regards Internet related protocols.  This investigation
+- content: <p>The Year 2000 Working Group (WG) has conducted an investigation into
+    the millennium problem as it regards Internet related protocols.  This investigation
     only targeted the protocols as documented in the Request For Comments Series (RFCs).  This
     investigation discovered little reason for concern with regards to the functionality
     of the protocols.  A few minor cases of older implementations still using two
@@ -49,13 +61,18 @@ abstract:
     of the number of seconds since January 1, 1970 which will turn negative at Tue
     Jan 19 03:14:07 GMT 2038.  Areas whose protocols will be effected by such problems
     have been notified so that new revisions will remove this limitation.  This memo
-    provides information for the Internet community.
+    provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2626'
+fetched: '2022-01-23'
 keyword:
 - Y2K
 editorialgroup:

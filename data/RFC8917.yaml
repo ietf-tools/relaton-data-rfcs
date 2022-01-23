@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Rosen
         language:
@@ -48,13 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document adds the 'LoST-Validation' service tag to the Straightforward-Naming
+- content: "<p>This document adds the 'LoST-Validation' service tag to the Straightforward-Naming
     Authority PoinTeR (S-NAPTR) Application Service Tag IANA registry.  This tag can
     appear in a Naming Authority Pointer (NAPTR) Domain Name System (DNS) record to
     assist clients of the Location-to-Service Translation (LoST) Protocol in identifying
     LoST servers designated for location validation.  This tag and the information
     about its use update RFC 5222, which enables the explicit discovery of a server
-    that supports location validation.
+    that supports location validation.</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC5222
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8917'
+fetched: '2022-01-23'
 keyword:
 - location
 - LoST

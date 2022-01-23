@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hornquist Astrand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Hornquist Astrand
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Zhu
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cullen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Cullen
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hudson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Hudson
         language:
@@ -68,13 +116,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates the Public Key Cryptography for Initial Authentication
+- content: "<p>This document updates the Public Key Cryptography for Initial Authentication
     in Kerberos (PKINIT) standard (RFC 4556) to remove protocol structures tied to
     specific cryptographic algorithms. The PKINIT key derivation function is made
     negotiable, and the digest algorithms for signing the pre-authentication data
-    and the client's X.509 certificates are made discoverable. These changes provide
-    preemptive protection against vulnerabilities discovered in the future in any
-    specific cryptographic algorithm and allow incremental deployment of newer algorithms.
+    and the client's X.509 certificates are made discoverable.</p><p>These changes
+    provide preemptive protection against vulnerabilities discovered in the future
+    in any specific cryptographic algorithm and allow incremental deployment of newer
+    algorithms.</p>"
   language:
   - en
   script:
@@ -86,6 +135,11 @@ relation:
     formattedref:
       content: RFC4556
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8636'
+fetched: '2022-01-23'
 editorialgroup:
 - name: kitten

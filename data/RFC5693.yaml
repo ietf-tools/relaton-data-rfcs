@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Seedorf
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Seedorf
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Burger
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Distributed applications -- such as file sharing, real-time communication,
+- content: "<p>Distributed applications -- such as file sharing, real-time communication,
     and live and on-demand media streaming -- prevalent on the Internet use a significant
     amount of network resources. Such applications often transfer large amounts of
     data through connections established between nodes distributed across the Internet
@@ -55,16 +79,21 @@ abstract:
     so designed that they choose a random subset of peers from a larger set with which
     to exchange data. Absent any topology information guiding such choices, or acting
     on suboptimal or local information obtained from measurements and statistics,
-    these applications often make less than desirable choices. This document discusses
-    issues related to an information-sharing service that enables applications to
-    perform better-than-random peer selection. This memo provides information for
-    the Internet community.
+    these applications often make less than desirable choices.</p><p>This document
+    discusses issues related to an information-sharing service that enables applications
+    to perform better-than-random peer selection. This memo provides information for
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5693'
+fetched: '2022-01-23'
 keyword:
 - peer-to-peer
 - p2p

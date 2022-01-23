@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shah
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Shah
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Heron
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Heron
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kompella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Kompella
         language:
@@ -68,7 +116,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Virtual Private Wire Service (VPWS), detailed in RFC 4664, provides
+- content: <p>The Virtual Private Wire Service (VPWS), detailed in RFC 4664, provides
     point-to-point connections between pairs of Customer Edge (CE) devices.  It does
     so by binding two Attachment Circuits (each connecting a CE device with a Provider
     Edge (PE) device) to a pseudowire (connecting the two PEs).  In general, the Attachment
@@ -81,12 +129,17 @@ abstract:
     process of resolving Layer 2 addresses when different resolution protocols are
     used on either Attachment Circuit.  The methods described in this document are
     applicable even when the CEs run a routing protocol between them, as long as the
-    routing protocol runs over IP. [STANDARDS-TRACK]
+    routing protocol runs over IP. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6575'
+fetched: '2022-01-23'
 editorialgroup:
 - name: l2vpn

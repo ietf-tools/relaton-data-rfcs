@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Boucadair
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Boucadair
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Petrescu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Petrescu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -57,19 +93,28 @@ language:
 script:
 - Latn
 abstract:
-- content: IPv6 prefix length, as in IPv4, is a parameter conveyed and used in IPv6
-    routing and forwarding processes in accordance with the Classless Inter-domain
+- content: "<p>IPv6 prefix length, as in IPv4, is a parameter conveyed and used in
+    IPv6 routing and forwarding processes in accordance with the Classless Inter-domain
     Routing (CIDR) architecture.  The length of an IPv6 prefix may be any number from
     zero to 128, although subnets using stateless address autoconfiguration (SLAAC)
     for address allocation conventionally use a /64 prefix.  Hardware and software
     implementations of routing and forwarding should therefore impose no rules on
-    prefix length, but implement longest-match-first on prefixes of any valid length.
+    prefix length, but implement longest-match-first on prefixes of any valid length.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '198'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7608'
+fetched: '2022-01-23'
 keyword:
 - IPv6 Routing
 - CIDR

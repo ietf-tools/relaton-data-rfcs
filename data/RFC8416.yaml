@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ma
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ma
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mandelberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Mandelberg
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bruijnzeels
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Bruijnzeels
         language:
@@ -57,21 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: The Resource Public Key Infrastructure (RPKI) is a global authorization
+- content: "<p>The Resource Public Key Infrastructure (RPKI) is a global authorization
     infrastructure that allows the holder of Internet Number Resources (INRs) to make
     verifiable statements about those resources.  Network operators, e.g., Internet
-    Service Providers (ISPs), can use the RPKI to validate BGP route origin assertions.  ISPs
-    can also use the RPKI to validate the path of a BGP route.  However, ISPs may
-    want to establish a local view of exceptions to the RPKI data in the form of local
-    filters and additions.  The mechanisms described in this document provide a simple
-    way to enable INR holders to establish a local, customized view of the RPKI, overriding
-    global RPKI repository data as needed.
+    Service Providers (ISPs), can use the RPKI to validate BGP route origin assertions.
+    \ ISPs can also use the RPKI to validate the path of a BGP route.  However, ISPs
+    may want to establish a local view of exceptions to the RPKI data in the form
+    of local filters and additions.  The mechanisms described in this document provide
+    a simple way to enable INR holders to establish a local, customized view of the
+    RPKI, overriding global RPKI repository data as needed.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8416'
+fetched: '2022-01-23'
 keyword:
 - RPKI
 - Local Trust Anchor

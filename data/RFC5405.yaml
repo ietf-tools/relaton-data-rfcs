@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Eggert
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -47,17 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: The User Datagram Protocol (UDP) provides a minimal message-passing transport
-    that has no inherent congestion control mechanisms.  Because congestion control
-    is critical to the stable operation of the Internet, applications and upper-layer
-    protocols that choose to use UDP as an Internet transport must employ mechanisms
-    to prevent congestion collapse and to establish some degree of fairness with concurrent
-    traffic.  This document provides guidelines on the use of UDP for the designers
-    of unicast applications and upper-layer protocols.  Congestion control guidelines
-    are a primary focus, but the document also provides guidance on other topics,
-    including message sizes, reliability, checksums, and middlebox traversal.  This
-    document specifies an Internet Best Current Practices for the Internet Community,
-    and requests discussion and suggestions for improvements.
+- content: "<p>The User Datagram Protocol (UDP) provides a minimal message-passing
+    transport that has no inherent congestion control mechanisms.  Because congestion
+    control is critical to the stable operation of the Internet, applications and
+    upper-layer protocols that choose to use UDP as an Internet transport must employ
+    mechanisms to prevent congestion collapse and to establish some degree of fairness
+    with concurrent traffic.  This document provides guidelines on the use of UDP
+    for the designers of unicast applications and upper-layer protocols.  Congestion
+    control guidelines are a primary focus, but the document also provides guidance
+    on other topics, including message sizes, reliability, checksums, and middlebox
+    traversal.  This document specifies an Internet Best Current Practices for the
+    Internet Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC8085
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5405'
+fetched: '2022-01-23'
 keyword:
 - user datagram protocol
 - congestion control

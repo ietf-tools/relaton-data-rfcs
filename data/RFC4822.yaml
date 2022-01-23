@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atkinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Atkinson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fanto
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Fanto
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This note describes a revision to the RIPv2 Cryptographic Authentication
+- content: "<p>This note describes a revision to the RIPv2 Cryptographic Authentication
     mechanism originally specified in RFC 2082.  This document obsoletes RFC 2082
     and updates RFC 2453.  This document adds details of how the SHA family of hash
     algorithms can be used with RIPv2 Cryptographic Authentication, whereas the original
     document only specified the use of Keyed-MD5.  Also, this document clarifies a
     potential issue with an active attack on this mechanism and adds significant text
-    to the Security Considerations section. [STANDARDS-TRACK]
+    to the Security Considerations section. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC2453
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4822'
+fetched: '2022-01-23'
 keyword:
 - RIP2-MD5
 - Routing Information Protocol

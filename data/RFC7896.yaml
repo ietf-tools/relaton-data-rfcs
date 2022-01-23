@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dhody
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Dhody
         language:
@@ -38,14 +50,15 @@ language:
 script:
 - Latn
 abstract:
-- content: The Path Computation Element Communication Protocol (PCEP) enables communications
-    between a Path Computation Client (PCC) and a PCE, or between two PCEs. RFC 5440
-    defines the Include Route Object (IRO) to specify network elements to be traversed
-    in the computed path. The specification does not specify if the IRO contains an
-    ordered or unordered list of subobjects. During recent discussions, it was determined
-    that there was a need to define a standard representation to ensure interoperability.
-    It was also noted that there is a benefit in the handling of an attribute of the
-    IRO's subobject, the L bit. This document updates RFC 5440 regarding the IRO specification.
+- content: "<p>The Path Computation Element Communication Protocol (PCEP) enables
+    communications between a Path Computation Client (PCC) and a PCE, or between two
+    PCEs. RFC 5440 defines the Include Route Object (IRO) to specify network elements
+    to be traversed in the computed path. The specification does not specify if the
+    IRO contains an ordered or unordered list of subobjects. During recent discussions,
+    it was determined that there was a need to define a standard representation to
+    ensure interoperability. It was also noted that there is a benefit in the handling
+    of an attribute of the IRO's subobject, the L bit.</p><p>This document updates
+    RFC 5440 regarding the IRO specification.</p>"
   language:
   - en
   script:
@@ -57,7 +70,12 @@ relation:
     formattedref:
       content: RFC5440
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7896'
+fetched: '2022-01-23'
 keyword:
 - PCEP
 - PCE

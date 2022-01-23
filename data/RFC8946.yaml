@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Peterson
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The Personal Assertion Token (PASSporT) is specified in RFC 8225 to convey
-    cryptographically signed information about the people involved in personal communications.
-    This document extends PASSporT to include an indication that a call has been diverted
-    from its original destination to a new one. This information can greatly improve
-    the decisions made by verification services in call forwarding scenarios. Also
-    specified here is an encapsulation mechanism for nesting a PASSporT within another
-    PASSporT that assists relying parties in some diversion scenarios. This document
-    updates RFC 8224.
+- content: "<p>The Personal Assertion Token (PASSporT) is specified in RFC 8225 to
+    convey cryptographically signed information about the people involved in personal
+    communications. This document extends PASSporT to include an indication that a
+    call has been diverted from its original destination to a new one. This information
+    can greatly improve the decisions made by verification services in call forwarding
+    scenarios. Also specified here is an encapsulation mechanism for nesting a PASSporT
+    within another PASSporT that assists relying parties in some diversion scenarios.</p><p>This
+    document updates RFC 8224.</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC8224
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8946'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - STIR

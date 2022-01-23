@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kurapati
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Kurapati
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Desetti
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Desetti
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Joshi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Joshi
         language:
@@ -57,15 +93,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Some relay agents extract lease information from the DHCP messages exchanged
-    between the client and DHCP server.  This lease information is used by relay agents
-    for various purposes like antispoofing and prevention of flooding.  RFC 4388 defines
-    a mechanism for relay agents to retrieve the lease information from the DHCP server
-    when this information is lost.  The existing lease query mechanism is data-driven,
-    which means that a relay agent can initiate the lease query only when it starts
-    receiving data to and from the clients.  In certain scenarios, this model is not
-    scalable.  This document first looks at issues in the existing mechanism and then
-    proposes a new query type, query by Remote ID, to address these issues. [STANDARDS-TRACK]
+- content: "<p>Some relay agents extract lease information from the DHCP messages
+    exchanged between the client and DHCP server.  This lease information is used
+    by relay agents for various purposes like antispoofing and prevention of flooding.
+    \ RFC 4388 defines a mechanism for relay agents to retrieve the lease information
+    from the DHCP server when this information is lost.  The existing lease query
+    mechanism is data-driven, which means that a relay agent can initiate the lease
+    query only when it starts receiving data to and from the clients.  In certain
+    scenarios, this model is not scalable.  This document first looks at issues in
+    the existing mechanism and then proposes a new query type, query by Remote ID,
+    to address these issues. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -77,7 +114,12 @@ relation:
     formattedref:
       content: RFC4388
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6148'
+fetched: '2022-01-23'
 keyword:
 - dynamic host configuration protocol
 editorialgroup:

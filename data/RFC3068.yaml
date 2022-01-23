@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huitema
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Huitema
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo introduces a "6to4 anycast address" in order to simplify the
+- content: <p>This memo introduces a "6to4 anycast address" in order to simplify the
     configuration of 6to4 routers.  It also defines how this address will be used
     by 6to4 relay routers, how the corresponding "6to4 anycast prefix" will be advertised
     in the IGP and in the EGP.  The memo documents the reservation by IANA (Internet
-    Assigned Numbers Authority) of the "6to4 relay anycast prefix." [STANDARDS-TRACK]
+    Assigned Numbers Authority) of the "6to4 relay anycast prefix." [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC7526
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3068'
+fetched: '2022-01-23'
 keyword:
 - exterior
 - gateway

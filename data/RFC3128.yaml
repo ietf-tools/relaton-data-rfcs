@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Miller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Miller
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document discusses how RFC 1858 compliant filters can be vulnerable
+- content: <p>This document discusses how RFC 1858 compliant filters can be vulnerable
     to a variant of the "Tiny Fragment Attack" described in section 3.1 of the RFC.  This
     document describes the attack and recommends corrective action.  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC1858
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3128'
+fetched: '2022-01-23'
 keyword:
 - firewalls
 - internet

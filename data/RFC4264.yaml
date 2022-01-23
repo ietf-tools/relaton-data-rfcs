@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Griffin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Griffin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: It has commonly been assumed that the Border Gateway Protocol (BGP) is
-    a tool for distributing reachability information in a manner that creates forwarding
+- content: <p>It has commonly been assumed that the Border Gateway Protocol (BGP)
+    is a tool for distributing reachability information in a manner that creates forwarding
     paths in a deterministic manner.  In this memo we will describe a class of BGP
     configurations for which there is more than one potential outcome, and where forwarding
     states other than the intended state are equally stable.  Also, the stable state
     where BGP converges may be selected by BGP in a non-deterministic manner.  These
     stable, but unintended, BGP states are termed here "BGP Wedgies".  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4264'
+fetched: '2022-01-23'
 keyword:
 - border gateway protocol
 editorialgroup:

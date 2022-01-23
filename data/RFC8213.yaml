@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Volz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Volz
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Pal
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: The Dynamic Host Configuration Protocol for IPv4 (DHCPv4) has no guidance
+- content: "<p>The Dynamic Host Configuration Protocol for IPv4 (DHCPv4) has no guidance
     for how to secure messages exchanged between servers and relay agents.  The Dynamic
     Host Configuration Protocol for IPv6 (DHCPv6) states that IPsec should be used
     to secure messages exchanged between servers and relay agents but does not require
     encryption.  With recent concerns about pervasive monitoring and other attacks,
     it is appropriate to require securing relay-to-relay and relay-to-server communication
-    for DHCPv6 and relay-to-server communication for DHCPv4.
+    for DHCPv6 and relay-to-server communication for DHCPv4.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8213'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dhc

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nir
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Nir
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wierbowski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wierbowski
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Detienne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Detienne
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sethi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Sethi
         language:
@@ -67,19 +115,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an extension to the Internet Key Exchange Protocol
+- content: "<p>This document describes an extension to the Internet Key Exchange Protocol
     version 2 (IKEv2) that allows for faster detection of Security Association (SA)
-    desynchronization using a saved token. When an IPsec tunnel between two IKEv2
-    peers is disconnected due to a restart of one peer, it can take as much as several
-    minutes for the other peer to discover that the reboot has occurred, thus delaying
-    recovery. In this text, we propose an extension to the protocol that allows for
-    recovery immediately following the restart. [STANDARDS-TRACK]
+    desynchronization using a saved token.</p><p>When an IPsec tunnel between two
+    IKEv2 peers is disconnected due to a restart of one peer, it can take as much
+    as several minutes for the other peer to discover that the reboot has occurred,
+    thus delaying recovery. In this text, we propose an extension to the protocol
+    that allows for recovery immediately following the restart. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6290'
+fetched: '2022-01-23'
 keyword:
 - QCD
 editorialgroup:

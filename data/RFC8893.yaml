@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bush
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bush
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Volk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Volk
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Heitz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Heitz
         language:
@@ -57,14 +93,14 @@ language:
 script:
 - Latn
 abstract:
-- content: A BGP speaker may perform Resource Public Key Infrastructure (RPKI) origin
-    validation not only on routes received from BGP neighbors and routes that are
-    redistributed from other routing protocols, but also on routes it sends to BGP
-    neighbors.  For egress policy, it is important that the classification use the
-    'effective origin AS' of the processed route, which may specifically be altered
+- content: "<p>A BGP speaker may perform Resource Public Key Infrastructure (RPKI)
+    origin validation not only on routes received from BGP neighbors and routes that
+    are redistributed from other routing protocols, but also on routes it sends to
+    BGP neighbors.  For egress policy, it is important that the classification use
+    the 'effective origin AS' of the processed route, which may specifically be altered
     by the commonly available knobs, such as removing private ASes, confederation
     handling, and other modifications of the origin AS.  This document updates RFC
-    6811.
+    6811.</p>"
   language:
   - en
   script:
@@ -76,7 +112,12 @@ relation:
     formattedref:
       content: RFC6811
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8893'
+fetched: '2022-01-23'
 keyword:
 - routing
 - security

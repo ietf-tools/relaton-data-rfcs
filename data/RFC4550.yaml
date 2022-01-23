@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Maes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Maes
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -47,17 +71,17 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a profile (a set of required extensions, restrictions,
+- content: "<p>This document describes a profile (a set of required extensions, restrictions,
     and usage modes) of the IMAP and mail submission protocols. This profile allows
     clients (especially those that are constrained in memory, bandwidth, processing
     power, or other areas) to efficiently use IMAP and Submission to access and submit
     mail. This includes the ability to forward received mail without needing to download
     and upload the mail, to optimize submission, and to efficiently resynchronize
-    in case of loss of connectivity with the server. The Internet Email to Support
+    in case of loss of connectivity with the server.</p><p>The Internet Email to Support
     Diverse Service Environments (Lemonade) profile relies upon extensions to IMAP
     and Mail Submission protocols; specifically, the URLAUTH and CATENATE IMAP protocol
     (RFC 3501) extensions and the BURL extension to the SUBMIT protocol (RFC 4409).
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC5550
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4550'
+fetched: '2022-01-23'
 keyword:
 - internet message access protocol,
 editorialgroup:

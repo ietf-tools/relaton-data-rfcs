@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sciberras
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Sciberras
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is an integral part of the Lightweight Directory Access Protocol
-    (LDAP) technical specification.  It provides a technical specification of attribute
-    types and object classes intended for use by LDAP directory clients for many directory
-    services, such as White Pages.  These objects are widely used as a basis for the
-    schema in many LDAP directories.  This document does not cover attributes used
-    for the administration of directory servers, nor does it include directory objects
-    defined for specific uses in other documents. [STANDARDS-TRACK]
+- content: "<p>This document is an integral part of the Lightweight Directory Access
+    Protocol (LDAP) technical specification.  It provides a technical specification
+    of attribute types and object classes intended for use by LDAP directory clients
+    for many directory services, such as White Pages.  These objects are widely used
+    as a basis for the schema in many LDAP directories.  This document does not cover
+    attributes used for the administration of directory servers, nor does it include
+    directory objects defined for specific uses in other documents. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -65,7 +77,12 @@ relation:
     formattedref:
       content: RFC2377
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4519'
+fetched: '2022-01-23'
 keyword:
 - Lightweight Directory Access Protocol
 - syntax

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huque
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Huque
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aras
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Aras
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dickinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Dickinson
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vcelak
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Vcelak
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blacka
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Blacka
         language:
@@ -77,21 +137,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Many enterprises today employ the service of multiple DNS providers to
-    distribute their authoritative DNS service.  Deploying DNSSEC in such an environment
+- content: "<p>Many enterprises today employ the service of multiple DNS providers
+    to distribute their authoritative DNS service.  Deploying DNSSEC in such an environment
     may present some challenges, depending on the configuration and feature set in
     use.  In particular, when each DNS provider independently signs zone data with
     their own keys, additional key-management mechanisms are necessary.  This document
     presents deployment models that accommodate this scenario and describes these
     key-management requirements.  These models do not require any changes to the behavior
     of validating resolvers, nor do they impose the new key-management requirements
-    on authoritative servers not involved in multi-signer configurations.
+    on authoritative servers not involved in multi-signer configurations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8901'
+fetched: '2022-01-23'
 keyword:
 - DNSSEC
 - Multiple

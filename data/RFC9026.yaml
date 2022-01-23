@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Morin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Morin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kebler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Kebler
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mirsky
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Mirsky
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines Multicast Virtual Private Network (VPN) extensions
+- content: <p>This document defines Multicast Virtual Private Network (VPN) extensions
     and procedures that allow fast failover for upstream failures by allowing downstream
     Provider Edges (PEs) to consider the status of Provider-Tunnels (P-tunnels) when
     selecting the Upstream PE for a VPN multicast flow.  The fast failover is enabled
     by using "Bidirectional Forwarding Detection (BFD) for Multipoint Networks" (RFC
     8562) and the new BGP Attribute, BFD Discriminator.  Also, this document introduces
     a new BGP Community, Standby PE, extending BGP Multicast VPN (MVPN) routing so
-    that a C-multicast route can be advertised toward a Standby Upstream PE.
+    that a C-multicast route can be advertised toward a Standby Upstream PE.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9026'
+fetched: '2022-01-23'
 keyword:
 - BFD
 - P2MP

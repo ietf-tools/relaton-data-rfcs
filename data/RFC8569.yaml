@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mosko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Mosko
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Solis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Solis
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wood
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Wood
         language:
@@ -57,23 +93,28 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes the core concepts of the Content-Centric Networking
+- content: "<p>This document describes the core concepts of the Content-Centric Networking
     (CCNx) architecture and presents a network protocol based on two messages: Interests
     and Content Objects. It specifies the set of mandatory and optional fields within
     those messages and describes their behavior and interpretation. This architecture
-    and protocol specification is independent of a specific wire encoding. The protocol
-    also uses a control message called an Interest Return, whereby one system can
-    return an Interest message to the previous hop due to an error condition. This
-    indicates to the previous hop that the current system will not respond to the
-    Interest. This document is a product of the Information-Centric Networking Research
-    Group (ICNRG). The document received wide review among ICNRG participants. Two
-    full implementations are in active use and have informed the technical maturity
-    of the protocol specification.'
+    and protocol specification is independent of a specific wire encoding.</p><p>The
+    protocol also uses a control message called an Interest Return, whereby one system
+    can return an Interest message to the previous hop due to an error condition.
+    This indicates to the previous hop that the current system will not respond to
+    the Interest.</p><p>This document is a product of the Information-Centric Networking
+    Research Group (ICNRG). The document received wide review among ICNRG participants.
+    Two full implementations are in active use and have informed the technical maturity
+    of the protocol specification.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8569'
+fetched: '2022-01-23'
 keyword:
 - Content Centric Networking

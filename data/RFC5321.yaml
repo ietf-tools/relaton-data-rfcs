@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is a specification of the basic protocol for Internet electronic
-    mail transport.  It consolidates, updates, and clarifies several previous documents,
-    making all or parts of most of them obsolete.  It covers the SMTP extension mechanisms
-    and best practices for the contemporary Internet, but does not provide details
-    about particular extensions.  Although SMTP was designed as a mail transport and
-    delivery protocol, this specification also contains information that is important
+- content: <p>This document is a specification of the basic protocol for Internet
+    electronic mail transport.  It consolidates, updates, and clarifies several previous
+    documents, making all or parts of most of them obsolete.  It covers the SMTP extension
+    mechanisms and best practices for the contemporary Internet, but does not provide
+    details about particular extensions.  Although SMTP was designed as a mail transport
+    and delivery protocol, this specification also contains information that is important
     to its use as a "mail submission" protocol for "split-UA" (User Agent) mail reading
-    systems and mobile environments. [STANDARDS-TRACK]
+    systems and mobile environments. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC1123
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5321'
+fetched: '2022-01-23'
 keyword:
 - SMTP]
 editorialgroup:

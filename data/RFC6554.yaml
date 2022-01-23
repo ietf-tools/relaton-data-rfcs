@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Hui
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Culler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Culler
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manral
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Manral
         language:
@@ -68,21 +116,26 @@ language:
 script:
 - Latn
 abstract:
-- content: In Low-Power and Lossy Networks (LLNs), memory constraints on routers may
-    limit them to maintaining, at most, a few routes.  In some configurations, it
-    is necessary to use these memory-constrained routers to deliver datagrams to nodes
-    within the LLN.  The Routing Protocol for Low-Power and Lossy Networks (RPL) can
-    be used in some deployments to store most, if not all, routes on one (e.g., the
-    Directed Acyclic Graph (DAG) root) or a few routers and forward the IPv6 datagram
+- content: "<p>In Low-Power and Lossy Networks (LLNs), memory constraints on routers
+    may limit them to maintaining, at most, a few routes.  In some configurations,
+    it is necessary to use these memory-constrained routers to deliver datagrams to
+    nodes within the LLN.  The Routing Protocol for Low-Power and Lossy Networks (RPL)
+    can be used in some deployments to store most, if not all, routes on one (e.g.,
+    the Directed Acyclic Graph (DAG) root) or a few routers and forward the IPv6 datagram
     using a source routing technique to avoid large routing tables on memory-constrained
     routers.  This document specifies a new IPv6 Routing header type for delivering
-    datagrams within a RPL routing domain. [STANDARDS-TRACK]
+    datagrams within a RPL routing domain. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6554'
+fetched: '2022-01-23'
 keyword:
 - LLN
 - LLNs

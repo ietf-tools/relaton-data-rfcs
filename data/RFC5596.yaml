@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fairhurst
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies an update to the Datagram Congestion Control Protocol
-    (DCCP), a connection-oriented and datagram-based transport protocol.  The update
-    adds support for the DCCP-Listen packet.  This assists DCCP applications to communicate
-    through middleboxes (e.g., a Network Address Port Translator or a DCCP server
-    behind a firewall), where peering endpoints need to initiate communication in
-    a near- simultaneous manner to establish necessary middlebox state. [STANDARDS-TRACK]
+- content: "<p>This document specifies an update to the Datagram Congestion Control
+    Protocol (DCCP), a connection-oriented and datagram-based transport protocol.
+    \ The update adds support for the DCCP-Listen packet.  This assists DCCP applications
+    to communicate through middleboxes (e.g., a Network Address Port Translator or
+    a DCCP server behind a firewall), where peering endpoints need to initiate communication
+    in a near- simultaneous manner to establish necessary middlebox state. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC4340
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5596'
+fetched: '2022-01-23'
 keyword:
 - DCCP
 - NAT traversal

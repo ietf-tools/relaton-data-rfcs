@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melsen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Melsen
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blake
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Blake
         language:
@@ -48,20 +72,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism to ensure layer-2 separation of Local
-    Area Network (LAN) stations accessing an IPv4 gateway over a bridged Ethernet
-    segment. The mechanism - called "MAC-Forced Forwarding" - implements an Address
-    Resolution Protocol (ARP) proxy function that prohibits Ethernet Media Access
-    Control (MAC) address resolution between hosts located within the same IPv4 subnet
-    but at different customer premises, and in effect directs all upstream traffic
-    to an IPv4 gateway. The IPv4 gateway provides IP-layer connectivity between these
-    same hosts. This memo provides information for the Internet community.
+- content: <p>This document describes a mechanism to ensure layer-2 separation of
+    Local Area Network (LAN) stations accessing an IPv4 gateway over a bridged Ethernet
+    segment.</p><p>The mechanism - called "MAC-Forced Forwarding" - implements an
+    Address Resolution Protocol (ARP) proxy function that prohibits Ethernet Media
+    Access Control (MAC) address resolution between hosts located within the same
+    IPv4 subnet but at different customer premises, and in effect directs all upstream
+    traffic to an IPv4 gateway. The IPv4 gateway provides IP-layer connectivity between
+    these same hosts. This memo provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4562'
+fetched: '2022-01-23'
 keyword:
 - Ethernet
 - Access Network

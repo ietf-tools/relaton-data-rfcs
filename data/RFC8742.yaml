@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bormann
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the Concise Binary Object Representation (CBOR)
+- content: <p>This document describes the Concise Binary Object Representation (CBOR)
     Sequence format and associated media type "application/cbor-seq". A CBOR Sequence
-    consists of any number of encoded CBOR data items, simply concatenated in sequence.
-    Structured syntax suffixes for media types allow other media types to build on
-    them and make it explicit that they are built on an existing media type as their
-    foundation. This specification defines and registers "+cbor-seq" as a structured
-    syntax suffix for CBOR Sequences.
+    consists of any number of encoded CBOR data items, simply concatenated in sequence.</p><p>Structured
+    syntax suffixes for media types allow other media types to build on them and make
+    it explicit that they are built on an existing media type as their foundation.
+    This specification defines and registers "+cbor-seq" as a structured syntax suffix
+    for CBOR Sequences.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8742'
+fetched: '2022-01-23'
 keyword:
 - binary format
 - data interchange format

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Toorop
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Toorop
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dickinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Dickinson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sahib
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Sahib
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aras
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Aras
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mankin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Mankin
         language:
@@ -77,15 +137,15 @@ language:
 script:
 - Latn
 abstract:
-- content: 'DNS zone transfers are transmitted in cleartext, which gives attackers
-    the opportunity to collect the content of a zone by eavesdropping on network connections.  The
-    DNS Transaction Signature (TSIG) mechanism is specified to restrict direct zone
-    transfer to authorized clients only, but it does not add confidentiality.  This
-    document specifies the use of TLS, rather than cleartext, to prevent zone content
-    collection via passive monitoring of zone transfers: XFR over TLS (XoT).  Additionally,
-    this specification updates RFC 1995 and RFC 5936 with respect to efficient use
-    of TCP connections and RFC 7766 with respect to the recommended number of connections
-    between a client and server for each transport.'
+- content: "<p>DNS zone transfers are transmitted in cleartext, which gives attackers
+    the opportunity to collect the content of a zone by eavesdropping on network connections.
+    \ The DNS Transaction Signature (TSIG) mechanism is specified to restrict direct
+    zone transfer to authorized clients only, but it does not add confidentiality.
+    \ This document specifies the use of TLS, rather than cleartext, to prevent zone
+    content collection via passive monitoring of zone transfers: XFR over TLS (XoT).
+    \ Additionally, this specification updates RFC 1995 and RFC 5936 with respect
+    to efficient use of TCP connections and RFC 7766 with respect to the recommended
+    number of connections between a client and server for each transport.</p>"
   language:
   - en
   script:
@@ -107,7 +167,12 @@ relation:
     formattedref:
       content: RFC7766
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9103'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - operations

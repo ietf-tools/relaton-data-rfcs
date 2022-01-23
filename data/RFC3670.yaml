@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moore
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Moore
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Durham
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Durham
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Strassner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Strassner
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Westerinen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Westerinen
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Weiss
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Weiss
         language:
@@ -77,25 +137,30 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The purpose of this document is to define an information model to describe
+- content: "<p>The purpose of this document is to define an information model to describe
     the quality of service (QoS) mechanisms inherent in different network devices,
     including hosts.  Broadly speaking, these mechanisms describe the properties common
     to selecting and conditioning traffic through the forwarding path (datapath) of
     a network device.  This selection and conditioning of traffic in the datapath
-    spans both major QoS architectures: Differentiated Services and Integrated Services.  This
-    document should be used with the QoS Policy Information Model (QPIM) to model
-    how policies can be defined to manage and configure the QoS mechanisms (i.e.,
+    spans both major QoS architectures: Differentiated Services and Integrated Services.
+    \ This document should be used with the QoS Policy Information Model (QPIM) to
+    model how policies can be defined to manage and configure the QoS mechanisms (i.e.,
     the classification, marking, metering, dropping, queuing, and scheduling functionality)
     of devices.  Together, these two documents describe how to write QoS policy rules
-    to configure and manage the QoS mechanisms present in the datapaths of devices.  This
-    document, as well as QPIM, are information models.  That is, they represent information
-    independent of a binding to a specific type of repository'
+    to configure and manage the QoS mechanisms present in the datapaths of devices.
+    \ This document, as well as QPIM, are information models.  That is, they represent
+    information independent of a binding to a specific type of repository</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3670'
+fetched: '2022-01-23'
 keyword:
 - quality of service
 - host

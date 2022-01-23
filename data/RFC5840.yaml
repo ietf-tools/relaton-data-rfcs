@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Grewal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Grewal
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Montenegro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Montenegro
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bhatia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bhatia
         language:
@@ -57,9 +93,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the Wrapped Encapsulating Security Payload (WESP)
-    protocol, which builds on the Encapsulating Security Payload (ESP) RFC 4303 and
-    is designed to allow intermediate devices to (1) ascertain if data confidentiality
+- content: "<p>This document describes the Wrapped Encapsulating Security Payload
+    (WESP) protocol, which builds on the Encapsulating Security Payload (ESP) RFC
+    4303 and is designed to allow intermediate devices to (1) ascertain if data confidentiality
     is being employed within ESP, and if not, (2) inspect the IPsec packets for network
     monitoring and access control functions.  Currently, in the IPsec ESP standard,
     there is no deterministic way to differentiate between encrypted and unencrypted
@@ -67,13 +103,18 @@ abstract:
     devices that need to deep inspect the packet before making a decision on what
     should be done with that packet (Inspect and/or Allow/Drop).  The mechanism described
     in this document can be used to easily disambiguate integrity-only ESP from ESP-encrypted
-    packets, without compromising on the security provided by ESP. [STANDARDS-TRACK]
+    packets, without compromising on the security provided by ESP. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5840'
+fetched: '2022-01-23'
 keyword:
 - wesp
 editorialgroup:

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document specifies a new ASN.1 type for representing time: BinaryTime.  This
-    document also specifies an alternate to the signing-time attribute for use with
-    the Cryptographic Message Syntax(CMS) SignedData and AuthenticatedData content
-    types; the binary-signing-time attribute uses BinaryTime.  CMS and the signing-time
-    attribute are defined in RFC 3852.  This memo defines an Experimental Protocol
-    for the Internet community.'
+- content: "<p>This document specifies a new ASN.1 type for representing time: BinaryTime.
+    \ This document also specifies an alternate to the signing-time attribute for
+    use with the Cryptographic Message Syntax(CMS) SignedData and AuthenticatedData
+    content types; the binary-signing-time attribute uses BinaryTime.  CMS and the
+    signing-time attribute are defined in RFC 3852.  This memo defines an Experimental
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -54,7 +66,12 @@ relation:
     formattedref:
       content: RFC6019
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4049'
+fetched: '2022-01-23'
 keyword:
 - signing-time attribute
 - cryptographic message syntax

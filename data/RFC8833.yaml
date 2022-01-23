@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Thomson
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document specifies two Application-Layer Protocol Negotiation (ALPN)
-    labels for use with Web Real-Time Communication (WebRTC).  The "webrtc" label
-    identifies regular WebRTC: a DTLS session that is used to establish keys for the
-    Secure Real-time Transport Protocol (SRTP) or to establish data channels using
-    the Stream Control Transmission Protocol (SCTP) over DTLS.  The "c-webrtc" label
-    describes the same protocol, but the peers also agree to maintain the confidentiality
-    of the media by not sharing it with other applications.'
+- content: '<p>This document specifies two Application-Layer Protocol Negotiation
+    (ALPN) labels for use with Web Real-Time Communication (WebRTC).  The "webrtc"
+    label identifies regular WebRTC: a DTLS session that is used to establish keys
+    for the Secure Real-time Transport Protocol (SRTP) or to establish data channels
+    using the Stream Control Transmission Protocol (SCTP) over DTLS.  The "c-webrtc"
+    label describes the same protocol, but the peers also agree to maintain the confidentiality
+    of the media by not sharing it with other applications.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8833'
+fetched: '2022-01-23'
 keyword:
 - ALPN
 - Protocol

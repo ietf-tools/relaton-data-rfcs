@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Eggert
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: The TCP user timeout controls how long transmitted data may remain unacknowledged
-    before a connection is forcefully closed.  It is a local, per-connection parameter.  This
-    document specifies a new TCP option -- the TCP User Timeout Option -- that allows
-    one end of a TCP connection to advertise its current user timeout value.  This
-    information provides advice to the other end of the TCP connection to adapt its
-    user timeout accordingly.  Increasing the user timeouts on both ends of a TCP
-    connection allows it to survive extended periods without end-to-end connectivity.  Decreasing
-    the user timeouts allows busy servers to explicitly notify their clients that
-    they will maintain the connection state only for a short time without connectivity.
-    [STANDARDS-TRACK]
+- content: "<p>The TCP user timeout controls how long transmitted data may remain
+    unacknowledged before a connection is forcefully closed.  It is a local, per-connection
+    parameter.  This document specifies a new TCP option -- the TCP User Timeout Option
+    -- that allows one end of a TCP connection to advertise its current user timeout
+    value.  This information provides advice to the other end of the TCP connection
+    to adapt its user timeout accordingly.  Increasing the user timeouts on both ends
+    of a TCP connection allows it to survive extended periods without end-to-end connectivity.
+    \ Decreasing the user timeouts allows busy servers to explicitly notify their
+    clients that they will maintain the connection state only for a short time without
+    connectivity. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5482'
+fetched: '2022-01-23'
 keyword:
 - Transmission Control Protocol
 editorialgroup:

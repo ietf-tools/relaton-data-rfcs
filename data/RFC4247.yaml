@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ash
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Ash
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Goode
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Goode
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Hand
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Zhang
         language:
@@ -67,24 +115,29 @@ language:
 script:
 - Latn
 abstract:
-- content: Voice over IP (VoIP) typically uses the encapsulation voice/RTP/UDP/IP.  When
-    MPLS labels are added, this becomes voice/RTP/UDP/IP/MPLS-labels.  For an MPLS
-    VPN, the packet header is typically 48 bytes, while the voice payload is often
-    no more than 30 bytes, for example.  Header compression can significantly reduce
-    the overhead through various compression mechanisms, such as enhanced compressed
+- content: "<p>Voice over IP (VoIP) typically uses the encapsulation voice/RTP/UDP/IP.
+    \ When MPLS labels are added, this becomes voice/RTP/UDP/IP/MPLS-labels.  For
+    an MPLS VPN, the packet header is typically 48 bytes, while the voice payload
+    is often no more than 30 bytes, for example.  Header compression can significantly
+    reduce the overhead through various compression mechanisms, such as enhanced compressed
     RTP (ECRTP) and robust header compression (ROHC).  We consider using MPLS to route
     compressed packets over an MPLS Label Switched Path (LSP) without compression/decompression
     cycles at each router.  This approach can increase the bandwidth efficiency as
     well as processing scalability of the maximum number of simultaneous flows that
     use header compression at each router.  In this document, we give a problem statement,
     goals and requirements, and an example scenario.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4247'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching
 - voip

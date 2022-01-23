@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ott
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Ott
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wenger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Wenger
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sato
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Sato
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burmeister
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Burmeister
         language:
@@ -64,6 +112,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rey
         language:
@@ -78,22 +138,28 @@ language:
 script:
 - Latn
 abstract:
-- content: Real-time media streams that use RTP are, to some degree, resilient against
-    packet losses.  Receivers may use the base mechanisms of the Real-time Transport
-    Control Protocol (RTCP) to report packet reception statistics and thus allow a
-    sender to adapt its transmission behavior in the mid-term.  This is the sole means
-    for feedback and feedback-based error repair (besides a few codec-specific mechanisms).  This
-    document defines an extension to the Audio-visual Profile (AVP) that enables receivers
-    to provide, statistically, more immediate feedback to the senders and thus allows
-    for short-term adaptation and efficient feedback-based repair mechanisms to be
-    implemented.  This early feedback profile (AVPF) maintains the AVP bandwidth constraints
-    for RTCP and preserves scalability to large groups. [STANDARDS-TRACK]
+- content: "<p>Real-time media streams that use RTP are, to some degree, resilient
+    against packet losses.  Receivers may use the base mechanisms of the Real-time
+    Transport Control Protocol (RTCP) to report packet reception statistics and thus
+    allow a sender to adapt its transmission behavior in the mid-term.  This is the
+    sole means for feedback and feedback-based error repair (besides a few codec-specific
+    mechanisms).  This document defines an extension to the Audio-visual Profile (AVP)
+    that enables receivers to provide, statistically, more immediate feedback to the
+    senders and thus allows for short-term adaptation and efficient feedback-based
+    repair mechanisms to be implemented.  This early feedback profile (AVPF) maintains
+    the AVP bandwidth constraints for RTCP and preserves scalability to large groups.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4585'
+fetched: '2022-01-23'
 keyword:
 - media stream
 - feedback based error

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Thomson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Beverloo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Beverloo
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: An application server can use the Voluntary Application Server Identification
+- content: <p>An application server can use the Voluntary Application Server Identification
     (VAPID) method described in this document to voluntarily identify itself to a
     push service.  The "vapid" authentication scheme allows a client to include its
     identity in a signed token with requests that it makes.  The signature can be
@@ -55,13 +79,18 @@ abstract:
     server to a single entity.  The identification information can allow the operator
     of a push service to contact the operator of the application server.  The signature
     can be used to restrict the use of a push message subscription to a single application
-    server.
+    server.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8292'
+fetched: '2022-01-23'
 keyword:
 - authentication
 - restricted

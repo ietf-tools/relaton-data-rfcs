@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -37,17 +54,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism that allows Signaling Compression (SigComp)
-    implementations to report precise error information upon receipt of a message
-    which cannot be decompressed.  This negative feedback can be used by the recipient
-    to make fine-grained adjustments to the compressed message before retransmitting
-    it, allowing for rapid and efficient recovery from error situations. [STANDARDS-TRACK]
+- content: "<p>This document describes a mechanism that allows Signaling Compression
+    (SigComp) implementations to report precise error information upon receipt of
+    a message which cannot be decompressed.  This negative feedback can be used by
+    the recipient to make fine-grained adjustments to the compressed message before
+    retransmitting it, allowing for rapid and efficient recovery from error situations.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4077'
+fetched: '2022-01-23'
 keyword:
 - sigcomp
 - negative feedback

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Smyshlyaev
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Smyshlyaev
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: A certain maximum amount of data can be safely encrypted when encryption
+- content: <p>A certain maximum amount of data can be safely encrypted when encryption
     is performed under a single key. This amount is called the "key lifetime". This
     specification describes a variety of methods for increasing the lifetime of symmetric
     keys. It provides two types of re-keying mechanisms based on hash functions and
     block ciphers that can be used with modes of operations such as CTR, GCM, CBC,
-    CFB, and OMAC. This document is a product of the Crypto Forum Research Group (CFRG)
-    in the IRTF.
+    CFB, and OMAC.</p><p>This document is a product of the Crypto Forum Research Group
+    (CFRG) in the IRTF.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8645'
+fetched: '2022-01-23'
 keyword:
 - re-keying
 - key

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Oki
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Oki
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Takeda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Takeda
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -58,21 +94,26 @@ language:
 script:
 - Latn
 abstract:
-- content: The Path Computation Element (PCE) provides functions of path computation
+- content: <p>The Path Computation Element (PCE) provides functions of path computation
     in support of traffic engineering (TE) in Multi-Protocol Label Switching (MPLS)
-    and Generalized MPLS (GMPLS) networks. When a Path Computation Client (PCC) requests
-    a PCE for a route, it may be useful for the PCC to specify, as constraints to
-    the path computation, abstract nodes, resources, and Shared Risk Link Groups (SRLGs)
-    that are to be explicitly excluded from the computed route. Such constraints are
-    termed "route exclusions". The PCE Communication Protocol (PCEP) is designed as
-    a communication protocol between PCCs and PCEs. This document presents PCEP extensions
-    for route exclusions. [STANDARDS-TRACK]
+    and Generalized MPLS (GMPLS) networks.</p><p>When a Path Computation Client (PCC)
+    requests a PCE for a route, it may be useful for the PCC to specify, as constraints
+    to the path computation, abstract nodes, resources, and Shared Risk Link Groups
+    (SRLGs) that are to be explicitly excluded from the computed route. Such constraints
+    are termed "route exclusions".</p><p>The PCE Communication Protocol (PCEP) is
+    designed as a communication protocol between PCCs and PCEs. This document presents
+    PCEP extensions for route exclusions. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5521'
+fetched: '2022-01-23'
 keyword:
 - MPLS
 - GMPLS

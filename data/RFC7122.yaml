@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kruse
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Kruse
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jero
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Jero
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ostermann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Ostermann
         language:
@@ -58,19 +94,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the preferred method for transporting Delay- and
-    Disruption-Tolerant Networking (DTN) protocol data over the Internet using datagrams.  It
-    covers convergence layers for the Bundle Protocol (RFC 5050), as well as the transportation
-    of segments using the Licklider Transmission Protocol (LTP) (RFC 5326).  UDP and
-    the Datagram Congestion Control Protocol (DCCP) are the candidate datagram protocols
-    discussed.  UDP can only be used on a local network or in cases where the DTN
-    node implements explicit congestion control.  DCCP addresses the congestion control
-    problem, and its use is recommended whenever possible.  This document is a product
-    of the Delay-Tolerant Networking Research Group (DTNRG) and represents the consensus
-    of the DTNRG.
+- content: "<p>This document specifies the preferred method for transporting Delay-
+    and Disruption-Tolerant Networking (DTN) protocol data over the Internet using
+    datagrams.  It covers convergence layers for the Bundle Protocol (RFC 5050), as
+    well as the transportation of segments using the Licklider Transmission Protocol
+    (LTP) (RFC 5326).  UDP and the Datagram Congestion Control Protocol (DCCP) are
+    the candidate datagram protocols discussed.  UDP can only be used on a local network
+    or in cases where the DTN node implements explicit congestion control.  DCCP addresses
+    the congestion control problem, and its use is recommended whenever possible.
+    \ This document is a product of the Delay-Tolerant Networking Research Group (DTNRG)
+    and represents the consensus of the DTNRG.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7122'
+fetched: '2022-01-23'

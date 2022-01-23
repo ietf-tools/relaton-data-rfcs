@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: U
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Herberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: U. Herberg
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dearlove
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Dearlove
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Clausen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Clausen
         language:
@@ -58,14 +94,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies integrity and replay protection for the Mobile
+- content: "<p>This document specifies integrity and replay protection for the Mobile
     Ad Hoc Network (MANET) Neighborhood Discovery Protocol (NHDP) and the Optimized
     Link State Routing Protocol version 2 (OLSRv2). This protection is achieved by
     using an HMAC-SHA-256 Integrity Check Value (ICV) TLV and a Timestamp TLV based
-    on Portable Operating System Interface (POSIX) time. The mechanism in this specification
-    can also be used for other protocols that use the generalized packet/message format
-    described in RFC 5444. This document updates RFC 6130 and RFC 7181 by mandating
-    the implementation of this integrity and replay protection in NHDP and OLSRv2.
+    on Portable Operating System Interface (POSIX) time.</p><p>The mechanism in this
+    specification can also be used for other protocols that use the generalized packet/message
+    format described in RFC 5444.</p><p>This document updates RFC 6130 and RFC 7181
+    by mandating the implementation of this integrity and replay protection in NHDP
+    and OLSRv2.</p>"
   language:
   - en
   script:
@@ -82,7 +119,12 @@ relation:
     formattedref:
       content: RFC7181
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7183'
+fetched: '2022-01-23'
 keyword:
 - MANET
 - OLSRv2

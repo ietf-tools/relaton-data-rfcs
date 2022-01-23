@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Burger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Burger
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dolly
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Dolly
         language:
@@ -48,7 +72,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a SIP Event Package "kpml" that enables monitoring
+- content: <p>This document describes a SIP Event Package "kpml" that enables monitoring
     of Dual Tone Multi-Frequency (DTMF) signals and uses Extensible Markup Language
     (XML) documents referred to as Key Press Markup Language (KPML).  The kpml Event
     Package may be used to support applications consistent with the principles defined
@@ -59,13 +83,18 @@ abstract:
     Agent (UA).  The event package uses NOTIFY messages and allows for XML documents
     to report the captured key presses (DTMF tones), consistent with the filter specifications,
     to an Application Server.  The scope of this package is for collecting supplemental
-    key presses or mid-call key presses (triggers). [STANDARDS-TRACK]
+    key presses or mid-call key presses (triggers). [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4730'
+fetched: '2022-01-23'
 keyword:
 - ua
 - user agent

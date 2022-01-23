@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a method for generating IPv6 Interface Identifiers
+- content: "<p>This document specifies a method for generating IPv6 Interface Identifiers
     to be used with IPv6 Stateless Address Autoconfiguration (SLAAC), such that an
     IPv6 address configured using this method is stable within each subnet, but the
     corresponding Interface Identifier changes when the host moves from one network
@@ -47,12 +59,17 @@ abstract:
     addresses), such that the benefits of stable addresses can be achieved without
     sacrificing the security and privacy of users.  The method specified in this document
     applies to all prefixes a host may be employing, including link-local, global,
-    and unique-local prefixes (and their corresponding addresses).
+    and unique-local prefixes (and their corresponding addresses).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7217'
+fetched: '2022-01-23'
 editorialgroup:
 - name: 6man

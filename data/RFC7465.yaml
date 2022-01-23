@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Popov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Popov
         language:
@@ -37,9 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document requires that Transport Layer Security (TLS) clients and
-    servers never negotiate the use of RC4 cipher suites when they establish connections.  This
-    applies to all TLS versions.  This document updates RFCs 5246, 4346, and 2246.
+- content: "<p>This document requires that Transport Layer Security (TLS) clients
+    and servers never negotiate the use of RC4 cipher suites when they establish connections.
+    \ This applies to all TLS versions.  This document updates RFCs 5246, 4346, and
+    2246.</p>"
   language:
   - en
   script:
@@ -61,7 +74,12 @@ relation:
     formattedref:
       content: RFC2246
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7465'
+fetched: '2022-01-23'
 keyword:
 - TLS
 - transport layer security

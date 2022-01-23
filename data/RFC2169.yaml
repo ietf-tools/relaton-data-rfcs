@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Daniel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Daniel
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Uniform Resource Names Working Group (URN-WG) was formed to specify
+- content: <p>The Uniform Resource Names Working Group (URN-WG) was formed to specify
     persistent, location-independent names for network accessible resources, as well
     as resolution mechanisms to retrieve the resources given such a name. At this
     time the URN-WG is considering one particular resolution mechanism, the NAPTR
@@ -47,17 +59,22 @@ abstract:
     or even the resource itself. The protocol used for the client to communicate with
     the resolver is not specified in the NAPTR proposal. Instead, the NAPTR resource
     record provides a field that indicates the "resolution protocol" and "resolution
-    service requests" offered by the resolver. This document specifies the "THTTP"
+    service requests" offered by the resolver.</p><p>This document specifies the "THTTP"
     resolution protocol - a trivial convention for encoding resolution service requests
     and responses as HTTP 1.0 or 1.1 requests and responses. The primary goal of THTTP
     is to be simple to implement so that existing HTTP servers may easily add support
     for URN resolution. We expect that the databases used by early resolvers will
-    be useful when more sophisticated resolution protocols are developed later.
+    be useful when more sophisticated resolution protocols are developed later.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2169'
+fetched: '2022-01-23'
 editorialgroup:
 - name: urn

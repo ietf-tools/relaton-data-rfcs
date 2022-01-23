@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Damas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Damas
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Kumari
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The DNS Security Extensions (DNSSEC) were developed to provide origin authentication
-    and integrity protection for DNS data by using digital signatures.  These digital
-    signatures can be verified by building a chain of trust starting from a trust
-    anchor and proceeding down to a particular node in the DNS.  This document specifies
-    a mechanism that will allow an end user and third parties to determine the trusted
-    key state for the root key of the resolvers that handle that user's DNS queries.  Note
-    that this method is only applicable for determining which keys are in the trust
-    store for the root key.
+- content: "<p>The DNS Security Extensions (DNSSEC) were developed to provide origin
+    authentication and integrity protection for DNS data by using digital signatures.
+    \ These digital signatures can be verified by building a chain of trust starting
+    from a trust anchor and proceeding down to a particular node in the DNS.  This
+    document specifies a mechanism that will allow an end user and third parties to
+    determine the trusted key state for the root key of the resolvers that handle
+    that user's DNS queries.  Note that this method is only applicable for determining
+    which keys are in the trust store for the root key.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8509'
+fetched: '2022-01-23'
 keyword:
 - DNSSEC
 - KSK

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,12 @@ contributor:
   - author
 - person:
     name:
+      surname:
+        content: " K. Zeilenga"
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: " K. Zeilenga"
         language:
@@ -47,22 +65,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The Simple Authentication and Security Layer (SASL) is a framework for
-    providing authentication and data security services in connection-oriented protocols
-    via replaceable mechanisms. It provides a structured interface between protocols
-    and mechanisms. The resulting framework allows new protocols to reuse existing
-    mechanisms and allows old protocols to make use of new mechanisms. The framework
-    also provides a protocol for securing subsequent protocol exchanges within a data
-    security layer. This document describes how a SASL mechanism is structured, describes
-    how protocols include support for SASL, and defines the protocol for carrying
-    a data security layer over a connection. In addition, this document defines one
-    SASL mechanism, the EXTERNAL mechanism. This document obsoletes RFC 2222. [STANDARDS-TRACK]
+- content: "<p>The Simple Authentication and Security Layer (SASL) is a framework
+    for providing authentication and data security services in connection-oriented
+    protocols via replaceable mechanisms. It provides a structured interface between
+    protocols and mechanisms. The resulting framework allows new protocols to reuse
+    existing mechanisms and allows old protocols to make use of new mechanisms. The
+    framework also provides a protocol for securing subsequent protocol exchanges
+    within a data security layer.</p><p>This document describes how a SASL mechanism
+    is structured, describes how protocols include support for SASL, and defines the
+    protocol for carrying a data security layer over a connection. In addition, this
+    document defines one SASL mechanism, the EXTERNAL mechanism.</p><p>This document
+    obsoletes RFC 2222. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4422'
+fetched: '2022-01-23'
 keyword:
 - SASL
 - encryption

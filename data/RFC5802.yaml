@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Newman
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Menon-Sen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Menon-Sen
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Williams
         language:
@@ -68,26 +116,32 @@ language:
 script:
 - Latn
 abstract:
-- content: The secure authentication mechanism most widely deployed and used by Internet
-    application protocols is the transmission of clear-text passwords over a channel
-    protected by Transport Layer Security (TLS). There are some significant security
-    concerns with that mechanism, which could be addressed by the use of a challenge
-    response authentication mechanism protected by TLS. Unfortunately, the challenge
-    response mechanisms presently on the standards track all fail to meet requirements
-    necessary for widespread deployment, and have had success only in limited use.
-    This specification describes a family of Simple Authentication and Security Layer
-    (SASL; RFC 4422) authentication mechanisms called the Salted Challenge Response
-    Authentication Mechanism (SCRAM), which addresses the security concerns and meets
-    the deployability requirements. When used in combination with TLS or an equivalent
-    security layer, a mechanism from this family could improve the status quo for
-    application protocol authentication and provide a suitable choice for a mandatory-to-implement
-    mechanism for future application protocol standards. [STANDARDS-TRACK]
+- content: "<p>The secure authentication mechanism most widely deployed and used by
+    Internet application protocols is the transmission of clear-text passwords over
+    a channel protected by Transport Layer Security (TLS). There are some significant
+    security concerns with that mechanism, which could be addressed by the use of
+    a challenge response authentication mechanism protected by TLS. Unfortunately,
+    the challenge response mechanisms presently on the standards track all fail to
+    meet requirements necessary for widespread deployment, and have had success only
+    in limited use.</p><p>This specification describes a family of Simple Authentication
+    and Security Layer (SASL; RFC 4422) authentication mechanisms called the Salted
+    Challenge Response Authentication Mechanism (SCRAM), which addresses the security
+    concerns and meets the deployability requirements. When used in combination with
+    TLS or an equivalent security layer, a mechanism from this family could improve
+    the status quo for application protocol authentication and provide a suitable
+    choice for a mandatory-to-implement mechanism for future application protocol
+    standards. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5802'
+fetched: '2022-01-23'
 keyword:
 - simple authentication and security layer
 editorialgroup:

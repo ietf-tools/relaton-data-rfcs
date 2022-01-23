@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Urpalainen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Urpalainen
         language:
@@ -48,20 +72,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines a document format that can be used to indicate
+- content: "<p>This specification defines a document format that can be used to indicate
     that a change has occurred in a document managed by the Extensible Markup Language
     (XML) Configuration Access Protocol (XCAP).  This format reports which document
     has changed and its former and new entity tags.  It can report the differences
     between versions of the document, using an XML patch format.  It can report existing
-    element and attribute content when versions of an XCAP server document change.  XCAP
-    diff documents can be delivered to diff clients using a number of means, including
-    a Session Initiation Protocol (SIP) event package. [STANDARDS-TRACK]
+    element and attribute content when versions of an XCAP server document change.
+    \ XCAP diff documents can be delivered to diff clients using a number of means,
+    including a Session Initiation Protocol (SIP) event package. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5874'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - Instant Messaging

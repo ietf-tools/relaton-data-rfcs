@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Haynes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Haynes
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the requirements that individual Parallel NFS (pNFS)
-    layout types need to meet in order to work within the pNFS framework as defined
-    in RFC 5661.  In so doing, this document aims to clearly distinguish between requirements
-    for pNFS as a whole and those specifically directed to the pNFS file layout.  The
-    lack of a clear separation between the two sets of requirements has been troublesome
-    for those specifying and evaluating new layout types.  In this regard, this document
-    updates RFC 5661.
+- content: "<p>This document defines the requirements that individual Parallel NFS
+    (pNFS) layout types need to meet in order to work within the pNFS framework as
+    defined in RFC 5661.  In so doing, this document aims to clearly distinguish between
+    requirements for pNFS as a whole and those specifically directed to the pNFS file
+    layout.  The lack of a clear separation between the two sets of requirements has
+    been troublesome for those specifying and evaluating new layout types.  In this
+    regard, this document updates RFC 5661.</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC5661
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8434'
+fetched: '2022-01-23'
 keyword:
 - NFSv4
 editorialgroup:

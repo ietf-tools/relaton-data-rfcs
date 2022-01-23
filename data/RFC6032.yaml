@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Turner
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the Cryptographic Message Syntax (CMS) encrypted
+- content: "<p>This document defines the Cryptographic Message Syntax (CMS) encrypted
     key package content type, which can be used to encrypt a content that includes
     a key package, such as a symmetric key package or an asymmetric key package.  It
     is transport independent.  CMS can be used to digitally sign, digest, authenticate,
     or further encrypt this content type.  It is designed to be used with the CMS
     Content Constraints (CCC) extension, which does not constrain the EncryptedData,
-    EnvelopedData, and AuthEnvelopedData. [STANDARDS-TRACK]
+    EnvelopedData, and AuthEnvelopedData. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6032'
+fetched: '2022-01-23'
 keyword:
 - CCC
 - CMS content constraints

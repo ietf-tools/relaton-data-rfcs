@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arnold
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Arnold
         language:
@@ -47,21 +71,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how a Push Notification Service (PNS) can be used
-    to wake a suspended Session Initiation Protocol (SIP) User Agent (UA) with push
-    notifications, and it also describes how the UA can send binding-refresh REGISTER
-    requests and receive incoming SIP requests in an environment in which the UA may
-    be suspended.  The document defines new SIP URI parameters to exchange PNS information
-    between the UA and the SIP entity that will then request that push notifications
-    be sent to the UA.  It also defines the parameters to trigger such push notification
-    requests.  The document also defines new feature-capability indicators that can
-    be used to indicate support of this mechanism.
+- content: "<p>This document describes how a Push Notification Service (PNS) can be
+    used to wake a suspended Session Initiation Protocol (SIP) User Agent (UA) with
+    push notifications, and it also describes how the UA can send binding-refresh
+    REGISTER requests and receive incoming SIP requests in an environment in which
+    the UA may be suspended.  The document defines new SIP URI parameters to exchange
+    PNS information between the UA and the SIP entity that will then request that
+    push notifications be sent to the UA.  It also defines the parameters to trigger
+    such push notification requests.  The document also defines new feature-capability
+    indicators that can be used to indicate support of this mechanism.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8599'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - Push

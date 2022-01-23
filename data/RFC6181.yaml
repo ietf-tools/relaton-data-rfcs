@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bagnulo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bagnulo
         language:
@@ -38,21 +50,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Multipath TCP (MPTCP for short) describes the extensions proposed for TCP
-    so that endpoints of a given TCP connection can use multiple paths to exchange
+- content: "<p>Multipath TCP (MPTCP for short) describes the extensions proposed for
+    TCP so that endpoints of a given TCP connection can use multiple paths to exchange
     data.  Such extensions enable the exchange of segments using different source-destination
     address pairs, resulting in the capability of using multiple paths in a significant
     number of scenarios.  Some level of multihoming and mobility support can be achieved
     through these extensions.  However, the support for multiple IP addresses per
     endpoint may have implications on the security of the resulting MPTCP.  This note
     includes a threat analysis for MPTCP.  This document is not an Internet Standards
-    Track specification; it is published for informational purposes.
+    Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6181'
+fetched: '2022-01-23'
 keyword:
 - Multipath TCP
 - threats

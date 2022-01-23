@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reschke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Reschke
         language:
@@ -38,25 +50,30 @@ language:
 script:
 - Latn
 abstract:
-- content: The Hypertext Transfer Protocol (HTTP) Extensions for the Web Distributed
+- content: <p>The Hypertext Transfer Protocol (HTTP) Extensions for the Web Distributed
     Authoring and Versioning (WebDAV) do not define the behavior for the "POST" method
     when applied to collections, as the base specification (HTTP) leaves implementers
-    lots of freedom for the semantics of "POST". This has led to a situation where
-    many WebDAV servers do not implement POST for collections at all, although it
-    is well suited to be used for the purpose of adding new members to a collection,
+    lots of freedom for the semantics of "POST".</p><p>This has led to a situation
+    where many WebDAV servers do not implement POST for collections at all, although
+    it is well suited to be used for the purpose of adding new members to a collection,
     where the server remains in control of the newly assigned URL. In fact, the Atom
     Publishing Protocol (AtomPub) uses POST exactly for that purpose. On the other
     hand, WebDAV-based protocols, such as the Calendaring Extensions to WebDAV (CalDAV),
     frequently require clients to pick a unique URL, although the server could easily
-    perform that task. This specification defines a discovery mechanism through which
-    servers can advertise support for POST requests with the aforementioned "add collection
-    member" semantics. [STANDARDS-TRACK]
+    perform that task.</p><p>This specification defines a discovery mechanism through
+    which servers can advertise support for POST requests with the aforementioned
+    "add collection member" semantics. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5995'
+fetched: '2022-01-23'
 keyword:
 - HTTP
 - POST

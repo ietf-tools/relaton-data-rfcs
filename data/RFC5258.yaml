@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: 'IMAP4 has two commands for listing mailboxes: LIST and LSUB.  As we have
-    added extensions, such as Mailbox Referrals, that have required specialized lists
-    we have had to expand the number of list commands, since each extension must add
-    its function to both LIST and LSUB, and these commands are not, as they are defined,
-    extensible.  If we''ve needed the extensions to work together, we''ve had to add
-    a set of commands to mix the different options, the set increasing in size with
-    each new extension.  This document describes an extension to the base LIST command
-    that will allow these additions to be done with mutually compatible options to
-    the LIST command, avoiding the exponential increase in specialized list commands.
-    [STANDARDS-TRACK]'
+- content: "<p>IMAP4 has two commands for listing mailboxes: LIST and LSUB.  As we
+    have added extensions, such as Mailbox Referrals, that have required specialized
+    lists we have had to expand the number of list commands, since each extension
+    must add its function to both LIST and LSUB, and these commands are not, as they
+    are defined, extensible.  If we've needed the extensions to work together, we've
+    had to add a set of commands to mix the different options, the set increasing
+    in size with each new extension.  This document describes an extension to the
+    base LIST command that will allow these additions to be done with mutually compatible
+    options to the LIST command, avoiding the exponential increase in specialized
+    list commands. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5258'
+fetched: '2022-01-23'
 keyword:
 - imap4 ,list
 - lsub

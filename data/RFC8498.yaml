@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mohali
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Mohali
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The P-Served-User header field was defined based on a requirement from
+- content: <p>The P-Served-User header field was defined based on a requirement from
     the 3rd Generation Partnership Project (3GPP) IMS (IP Multimedia Subsystem) in
     order to convey the identity of the served user, his/ her registration state,
     and the session case that applies to that particular communication session and
@@ -49,7 +61,7 @@ abstract:
     parameter conveys the session case used by a proxy when handling an originating
     session after Call Diversion (CDIV) services have been invoked for the served
     user.  This document also fixes the ABNF in RFC 5502 and provides more guidance
-    for using the P-Served-User header field in IP networks.
+    for using the P-Served-User header field in IP networks.</p>
   language:
   - en
   script:
@@ -61,7 +73,12 @@ relation:
     formattedref:
       content: RFC5502
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8498'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - RFC5502

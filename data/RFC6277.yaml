@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Santesson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Santesson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hallam-Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hallam-Baker
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The Online Certificate Status Protocol (OCSP) requires server responses
+- content: "<p>The Online Certificate Status Protocol (OCSP) requires server responses
     to be signed but does not specify a mechanism for selecting the signature algorithm
     to be used.  This may lead to avoidable interoperability failures in contexts
     where multiple signature algorithms are in use.  This document specifies rules
     for server signature algorithm selection and an extension that allows a client
-    to advise a server that specific signature algorithms are supported. [STANDARDS-TRACK]
+    to advise a server that specific signature algorithms are supported. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC2560
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6277'
+fetched: '2022-01-23'
 keyword:
 - ocsp
 editorialgroup:

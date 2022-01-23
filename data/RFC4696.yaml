@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lazzaro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lazzaro
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wawrzynek
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Wawrzynek
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo offers non-normative implementation guidance for the Real-time
+- content: "<p>This memo offers non-normative implementation guidance for the Real-time
     Protocol (RTP) MIDI (Musical Instrument Digital Interface) payload format.  The
-    memo presents its advice in the context of a network musical performance application.  In
-    this application two musicians, located in different physical locations, interact
-    over a network to perform as they would if located in the same room.  Underlying
-    the performances are RTP MIDI sessions over unicast UDP.  Algorithms for sending
-    and receiving recovery journals (the resiliency structure for the payload format)
-    are described in detail.  Although the memo focuses on network musical performance,
-    the presented implementation advice is relevant to other RTP MIDI applications.
-    [STANDARDS-TRACK]
+    memo presents its advice in the context of a network musical performance application.
+    \ In this application two musicians, located in different physical locations,
+    interact over a network to perform as they would if located in the same room.
+    \ Underlying the performances are RTP MIDI sessions over unicast UDP.  Algorithms
+    for sending and receiving recovery journals (the resiliency structure for the
+    payload format) are described in detail.  Although the memo focuses on network
+    musical performance, the presented implementation advice is relevant to other
+    RTP MIDI applications. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4696'
+fetched: '2022-01-23'
 keyword:
 - checkpoint packet
 - checkpoint history

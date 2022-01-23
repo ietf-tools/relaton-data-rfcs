@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Petit-Huguenin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Petit-Huguenin
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Salgueiro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Salgueiro
         language:
@@ -48,12 +72,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines how Datagram Transport Layer Security (DTLS), Real-time
-    Transport Protocol (RTP), RTP Control Protocol (RTCP), Session Traversal Utilities
-    for NAT (STUN), Traversal Using Relays around NAT (TURN), and ZRTP packets are
-    multiplexed on a single receiving socket. It overrides the guidance from RFC 5764
-    ("SRTP Extension for DTLS"), which suffered from four issues described and fixed
-    in this document. This document updates RFC 5764.
+- content: <p>This document defines how Datagram Transport Layer Security (DTLS),
+    Real-time Transport Protocol (RTP), RTP Control Protocol (RTCP), Session Traversal
+    Utilities for NAT (STUN), Traversal Using Relays around NAT (TURN), and ZRTP packets
+    are multiplexed on a single receiving socket. It overrides the guidance from RFC
+    5764 ("SRTP Extension for DTLS"), which suffered from four issues described and
+    fixed in this document.</p><p>This document updates RFC 5764.</p>
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC5764
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7983'
+fetched: '2022-01-23'
 keyword:
 - TLS
 - STUN

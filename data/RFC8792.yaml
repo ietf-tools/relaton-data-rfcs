@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Watsen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Watsen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Auerswald
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Auerswald
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Wu
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines two strategies for handling long lines in width-bounded
+- content: <p>This document defines two strategies for handling long lines in width-bounded
     text content.  One strategy, called the "single backslash" strategy, is based
     on the historical use of a single backslash ('\') character to indicate where
     line-folding has occurred, with the continuation occurring with the first character
@@ -75,13 +123,18 @@ abstract:
     the "double backslash" strategy, extends the first strategy by adding a second
     backslash character to identify where the continuation begins and is thereby able
     to handle cases not supported by the first strategy.  Both strategies use a self-describing
-    header enabling automated reconstitution of the original content.
+    header enabling automated reconstitution of the original content.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8792'
+fetched: '2022-01-23'
 keyword:
 - sourcecode
 - artwork

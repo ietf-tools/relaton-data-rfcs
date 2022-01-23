@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gutmann
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Gutmann
         language:
@@ -38,16 +50,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a means of negotiating the use of the encrypt-then-MAC
+- content: "<p>This document describes a means of negotiating the use of the encrypt-then-MAC
     security mechanism in place of the existing MAC-then-encrypt mechanism in Transport
     Layer Security (TLS) and Datagram Transport Layer Security (DTLS).  The MAC-then-encrypt
     mechanism has been the subject of a number of security vulnerabilities over a
-    period of many years.
+    period of many years.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7366'
+fetched: '2022-01-23'
 editorialgroup:
 - name: tls

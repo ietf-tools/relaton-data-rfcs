@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Loomans
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Loomans
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Michaelson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Michaelson
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a profile for the structure of the Resource Public
+- content: "<p>This document defines a profile for the structure of the Resource Public
     Key Infrastructure (RPKI) distributed repository.  Each individual repository
     publication point is a directory that contains files that correspond to X.509/PKIX
     Resource Certificates, Certificate Revocation Lists and signed objects.  This
@@ -65,13 +101,18 @@ abstract:
     points (directories), and a suggested internal structure of a local repository
     cache that is intended to facilitate synchronization across a distributed collection
     of repository publication points and to facilitate certification path construction.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6481'
+fetched: '2022-01-23'
 keyword:
 - rpki
 - Resource Public Key Infrastructure

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ravindranath
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Ravindranath
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reddy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Reddy
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Salgueiro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Salgueiro
         language:
@@ -58,21 +94,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs) are
-    often designed to be on the media path rather than just intercepting signaling.
+- content: "<p>Session Initiation Protocol (SIP) Back-to-Back User Agents (B2BUAs)
+    are often designed to be on the media path rather than just intercepting signaling.
     This means that B2BUAs often act on the media path leading to separate media legs
     that the B2BUA correlates and bridges together. When acting on the media path,
     B2BUAs are likely to receive Session Traversal Utilities for NAT (STUN) packets
-    as part of Interactive Connectivity Establishment (ICE) processing. This document
-    defines behavior for a B2BUA performing ICE processing. The goal of this document
-    is to ensure that B2BUAs properly handle SIP messages that carry ICE semantics
-    in Session Description Protocol (SDP) and STUN messages received as part of the
-    ICE procedures for NAT and Firewall traversal of multimedia sessions.
+    as part of Interactive Connectivity Establishment (ICE) processing.</p><p>This
+    document defines behavior for a B2BUA performing ICE processing. The goal of this
+    document is to ensure that B2BUAs properly handle SIP messages that carry ICE
+    semantics in Session Description Protocol (SDP) and STUN messages received as
+    part of the ICE procedures for NAT and Firewall traversal of multimedia sessions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7584'
+fetched: '2022-01-23'
 editorialgroup:
 - name: straw

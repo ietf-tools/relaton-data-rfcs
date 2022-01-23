@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Wen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fioccola
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Fioccola
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Xie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Xie
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jalil
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Jalil
         language:
@@ -67,22 +115,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a YANG data model that can be used to configure a
-    Layer 2 provider-provisioned VPN service. It is up to a management system to take
-    this as an input and generate specific configuration models to configure the different
-    network elements to deliver the service. How this configuration of network elements
-    is done is out of scope for this document. The YANG data model defined in this
-    document includes support for point-to-point Virtual Private Wire Services (VPWSs)
-    and multipoint Virtual Private LAN Services (VPLSs) that use Pseudowires signaled
-    using the Label Distribution Protocol (LDP) and the Border Gateway Protocol (BGP)
-    as described in RFCs 4761 and 6624. The YANG data model defined in this document
-    conforms to the Network Management Datastore Architecture defined in RFC 8342.
+- content: "<p>This document defines a YANG data model that can be used to configure
+    a Layer 2 provider-provisioned VPN service. It is up to a management system to
+    take this as an input and generate specific configuration models to configure
+    the different network elements to deliver the service. How this configuration
+    of network elements is done is out of scope for this document.</p><p>The YANG
+    data model defined in this document includes support for point-to-point Virtual
+    Private Wire Services (VPWSs) and multipoint Virtual Private LAN Services (VPLSs)
+    that use Pseudowires signaled using the Label Distribution Protocol (LDP) and
+    the Border Gateway Protocol (BGP) as described in RFCs 4761 and 6624.</p><p>The
+    YANG data model defined in this document conforms to the Network Management Datastore
+    Architecture defined in RFC 8342.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8466'
+fetched: '2022-01-23'
 keyword:
 - L2SM
 - Service Model

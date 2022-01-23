@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Filsfils
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Previdi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Previdi
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dawra
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Dawra
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aries
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Aries
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Afanasiev
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Afanasiev
         language:
@@ -77,23 +137,28 @@ language:
 script:
 - Latn
 abstract:
-- content: Segment Routing (SR) leverages source routing. A node steers a packet through
-    a controlled set of instructions, called segments, by prepending the packet with
-    an SR header. A segment can represent any instruction, topological or service
+- content: "<p>Segment Routing (SR) leverages source routing. A node steers a packet
+    through a controlled set of instructions, called segments, by prepending the packet
+    with an SR header. A segment can represent any instruction, topological or service
     based. SR allows for the enforcement of a flow through any topological path while
-    maintaining per-flow state only at the ingress node of the SR domain. The Segment
-    Routing architecture can be directly applied to the MPLS data plane with no change
-    on the forwarding plane. It requires a minor extension to the existing link-state
-    routing protocols. This document illustrates the application of Segment Routing
-    to solve the BGP Egress Peer Engineering (BGP-EPE) requirement. The SR-based BGP-EPE
-    solution allows a centralized (Software-Defined Networking, or SDN) controller
-    to program any egress peer policy at ingress border routers or at hosts within
-    the domain.
+    maintaining per-flow state only at the ingress node of the SR domain.</p><p>The
+    Segment Routing architecture can be directly applied to the MPLS data plane with
+    no change on the forwarding plane. It requires a minor extension to the existing
+    link-state routing protocols.</p><p>This document illustrates the application
+    of Segment Routing to solve the BGP Egress Peer Engineering (BGP-EPE) requirement.
+    The SR-based BGP-EPE solution allows a centralized (Software-Defined Networking,
+    or SDN) controller to program any egress peer policy at ingress border routers
+    or at hosts within the domain.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9087'
+fetched: '2022-01-23'
 editorialgroup:
 - name: spring

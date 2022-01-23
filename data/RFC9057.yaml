@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -37,24 +49,29 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Internet mail defines the From: header field to indicate the author of
-    the message''s content and the Sender: field to indicate who initially handled
-    the message on the author''s behalf. The Sender: field is optional if it has the
+- content: "<p>Internet mail defines the From: header field to indicate the author
+    of the message's content and the Sender: field to indicate who initially handled
+    the message on the author's behalf. The Sender: field is optional if it has the
     same information as the From: field. This was not a problem until development
     of stringent protections on use of the From: field. It has prompted Mediators,
     such as mailing lists, to modify the From: field to circumvent mail rejection
     caused by those protections. In effect, the From: field has become dominated by
-    its role as a handling identifier. The current specification augments the altered
-    use of the From: field by specifying the Author: field, which ensures identification
-    of the original author of the message and is not subject to modification by Mediators.
-    This document is published as an Experimental RFC to assess community interest,
-    functional efficacy, and technical adequacy.'
+    its role as a handling identifier.</p><p>The current specification augments the
+    altered use of the From: field by specifying the Author: field, which ensures
+    identification of the original author of the message and is not subject to modification
+    by Mediators. This document is published as an Experimental RFC to assess community
+    interest, functional efficacy, and technical adequacy.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9057'
+fetched: '2022-01-23'
 keyword:
 - domain
 - email

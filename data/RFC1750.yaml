@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Crocker
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schiller
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schiller
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: Choosing random quantities to foil a resourceful and motivated adversary
+- content: "<p>Choosing random quantities to foil a resourceful and motivated adversary
     is surprisingly difficult.  This paper points out many pitfalls in using traditional
     pseudo-random number generation techniques for choosing such quantities.  It recommends
     the use of truly random hardware techniques and shows that the existing hardware
     on many systems can be used for this purpose.  This memo provides information
     for the Internet community.  This memo does not specify an Internet standard of
-    any kind.
+    any kind.</p>"
   language:
   - en
   script:
@@ -75,7 +111,12 @@ relation:
     formattedref:
       content: RFC4086
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1750'
+fetched: '2022-01-23'
 keyword:
 - Random
 - Numbers

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kelly
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kelly
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Frankel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Frankel
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification describes the use of Hashed Message Authentication Mode
-    (HMAC) in conjunction with the SHA-256, SHA-384, and SHA-512 algorithms in IPsec.  These
-    algorithms may be used as the basis for data origin authentication and integrity
-    verification mechanisms for the Authentication Header (AH), Encapsulating Security
-    Payload (ESP), Internet Key Exchange Protocol (IKE), and IKEv2 protocols, and
-    also as Pseudo-Random Functions (PRFs) for IKE and IKEv2.  Truncated output lengths
-    are specified for the authentication-related variants, with the corresponding
-    algorithms designated as HMAC-SHA-256-128, HMAC-SHA-384-192, and HMAC-SHA-512-256.  The
-    PRF variants are not truncated, and are called PRF-HMAC-SHA-256, PRF-HMAC-SHA-384,
-    and PRF-HMAC-SHA-512. [STANDARDS-TRACK]
+- content: "<p>This specification describes the use of Hashed Message Authentication
+    Mode (HMAC) in conjunction with the SHA-256, SHA-384, and SHA-512 algorithms in
+    IPsec.  These algorithms may be used as the basis for data origin authentication
+    and integrity verification mechanisms for the Authentication Header (AH), Encapsulating
+    Security Payload (ESP), Internet Key Exchange Protocol (IKE), and IKEv2 protocols,
+    and also as Pseudo-Random Functions (PRFs) for IKE and IKEv2.  Truncated output
+    lengths are specified for the authentication-related variants, with the corresponding
+    algorithms designated as HMAC-SHA-256-128, HMAC-SHA-384-192, and HMAC-SHA-512-256.
+    \ The PRF variants are not truncated, and are called PRF-HMAC-SHA-256, PRF-HMAC-SHA-384,
+    and PRF-HMAC-SHA-512. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4868'
+fetched: '2022-01-23'
 keyword:
 - hashed authentication mode
 - data authentication

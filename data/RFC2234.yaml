@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Overell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Overell
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: In the early days of the Arpanet, each specification contained its own
-    definition of ABNF.  This included the email specifications, RFC733 and then RFC822
-    which have come to be the common citations for defining ABNF.  The current document
-    separates out that definition, to permit selective reference.  Predictably, it
-    also provides some modifications and enhancements. [STANDARDS-TRACK]
+- content: "<p>In the early days of the Arpanet, each specification contained its
+    own definition of ABNF.  This included the email specifications, RFC733 and then
+    RFC822 which have come to be the common citations for defining ABNF.  The current
+    document separates out that definition, to permit selective reference.  Predictably,
+    it also provides some modifications and enhancements. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC4234
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2234'
+fetched: '2022-01-23'
 keyword:
 - ABNF
 - Augmented

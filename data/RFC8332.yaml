@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bider
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Bider
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo updates RFCs 4252 and 4253 to define new public key algorithms
+- content: "<p>This memo updates RFCs 4252 and 4253 to define new public key algorithms
     for use of RSA keys with SHA-256 and SHA-512 for server and client authentication
-    in SSH connections.
+    in SSH connections.</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC4253
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8332'
+fetched: '2022-01-23'
 keyword:
 - rsa-sha2-256
 - rsa-sha2-512

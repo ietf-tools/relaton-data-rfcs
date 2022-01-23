@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nelson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Nelson
         language:
@@ -37,21 +49,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines a set of extensions that instrument RADIUS accounting
+- content: "<p>This memo defines a set of extensions that instrument RADIUS accounting
     server functions. These extensions represent a portion of the Management Information
     Base (MIB) for use with network management protocols in the Internet community.
     Using these extensions, IP-based management stations can manage RADIUS accounting
-    servers. This memo obsoletes RFC 2621 by deprecating the MIB table containing
+    servers.</p><p>This memo obsoletes RFC 2621 by deprecating the MIB table containing
     IPv4-only address formats and defining a new table to add support for version-neutral
     IP address formats. The remaining MIB objects from RFC 2621 are carried forward
     into this document. This memo also adds UNITS and REFERENCE clauses to selected
-    objects. This memo provides information for the Internet community.
+    objects. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4671'
+fetched: '2022-01-23'
 keyword:
 - management information base
 - security

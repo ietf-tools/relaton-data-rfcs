@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Camarillo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Camarillo
         language:
@@ -34,6 +46,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -44,6 +73,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Levin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Levin
         language:
@@ -58,12 +99,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a way to create subscription to a list of resources
+- content: "<p>This document specifies a way to create subscription to a list of resources
     in SIP.  This is achieved by including the list of resources in the body of a
     SUBSCRIBE request.  Instead of having a subscriber send a SUBSCRIBE request for
     each resource individually, the subscriber defines the resource list, subscribes
     to it, and gets notifications about changes in the resources' states using a single
-    SUBSCRIBE dialog. [STANDARDS-TRACK]
+    SUBSCRIBE dialog. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -75,7 +116,12 @@ relation:
     formattedref:
       content: RFC3265
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5367'
+fetched: '2022-01-23'
 keyword:
 - subscribe request
 - resrouce list

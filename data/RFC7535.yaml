@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Abley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Abley
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dickson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Dickson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Kumari
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Michaelson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Michaelson
         language:
@@ -67,19 +115,24 @@ language:
 script:
 - Latn
 abstract:
-- content: AS112 provides a mechanism for handling reverse lookups on IP addresses
+- content: "<p>AS112 provides a mechanism for handling reverse lookups on IP addresses
     that are not unique (e.g., RFC 1918 addresses). This document describes modifications
     to the deployment and use of AS112 infrastructure that will allow zones to be
-    added and dropped much more easily, using DNAME resource records. This approach
+    added and dropped much more easily, using DNAME resource records.</p><p>This approach
     makes it possible for any DNS zone administrator to sink traffic relating to parts
     of the global DNS namespace under their control to the AS112 infrastructure without
-    coordination with the operators of AS112 infrastructure.
+    coordination with the operators of AS112 infrastructure.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7535'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - root server

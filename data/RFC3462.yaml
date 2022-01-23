@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vaudreuil
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Vaudreuil
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Multipart/Report Multipurpose Internet Mail Extensions (MIME) content-type
+- content: <p>The Multipart/Report Multipurpose Internet Mail Extensions (MIME) content-type
     is a general "family" or "container" type for electronic mail reports of any kind.  Although
     this memo defines only the use of the Multipart/Report content-type with respect
     to delivery status reports, mail processing programs will benefit if a single
@@ -47,7 +59,7 @@ abstract:
     includes the Simple Mail Transfer Protocol (SMTP) extensions to request delivery
     status reports, a MIME content for the reporting of delivery reports, an enumeration
     of extended status codes, and a multipart container for the delivery report, the
-    original message, and a human-friendly summary of the failure. [STANDARDS-TRACK]
+    original message, and a human-friendly summary of the failure. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -59,7 +71,12 @@ relation:
     formattedref:
       content: RFC6522
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3462'
+fetched: '2022-01-23'
 keyword:
 - MIME-RPT
 - Multipurpose

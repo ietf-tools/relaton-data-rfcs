@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Multiprotocol Label Switching (MPLS) systems will be used in core networks
+- content: <p>Multiprotocol Label Switching (MPLS) systems will be used in core networks
     where system downtime must be kept to an absolute minimum.  Many MPLS Label Switching
     Routers (LSRs) may, therefore, exploit Fault Tolerant (FT) hardware or software
     to provide high availability of the core networks.  The details of how FT is achieved
@@ -47,13 +59,18 @@ abstract:
     make it difficult to implement an FT LSR using the current LDP protocols, and
     defines enhancements to the LDP specification to ease such FT LSR implementations.  The
     issues and extensions described here are equally applicable to RFC 3212, "Constraint-Based
-    LSP Setup Using LDP" (CR-LDP). [STANDARDS-TRACK]
+    LSP Setup Using LDP" (CR-LDP). [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3479'
+fetched: '2022-01-23'
 keyword:
 - mpls
 - multiprotocol label switching

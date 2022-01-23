@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ash
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Ash
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hand
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Hand
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Malis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Malis
         language:
@@ -57,24 +93,29 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines how to use Multi-Protocol Label Switching (MPLS)
-    to route Header-Compressed (HC) packets over an MPLS label switched path.  HC
-    can significantly reduce packet-header overhead and, in combination with MPLS,
-    can also increases bandwidth efficiency and processing scalability in terms of
-    the maximum number of simultaneous compressed flows that use HC at each router).  Here
-    we define how MPLS pseudowires are used to transport the HC context and control
-    messages between the ingress and egress MPLS label switching routers.  This is
-    defined for a specific set of existing HC mechanisms that might be used, for example,
-    to support voice over IP.  This specification also describes extension mechanisms
-    to allow support for future, as yet to be defined, HC protocols.  In this specification,
-    each HC protocol operates independently over a single pseudowire instance, very
-    much as it would over a single point-to-point link. [STANDARDS-TRACK]
+- content: "<p>This specification defines how to use Multi-Protocol Label Switching
+    (MPLS) to route Header-Compressed (HC) packets over an MPLS label switched path.
+    \ HC can significantly reduce packet-header overhead and, in combination with
+    MPLS, can also increases bandwidth efficiency and processing scalability in terms
+    of the maximum number of simultaneous compressed flows that use HC at each router).
+    \ Here we define how MPLS pseudowires are used to transport the HC context and
+    control messages between the ingress and egress MPLS label switching routers.
+    \ This is defined for a specific set of existing HC mechanisms that might be used,
+    for example, to support voice over IP.  This specification also describes extension
+    mechanisms to allow support for future, as yet to be defined, HC protocols.  In
+    this specification, each HC protocol operates independently over a single pseudowire
+    instance, very much as it would over a single point-to-point link. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4901'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching
 - hc

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cui
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Cui
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sun
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Sun
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lemon
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Lemon
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: DHCPv6 is not specific about handling messages with unknown types.  This
-    memo describes the problems associated with receiving DHCPv6 messages with unknown
-    types, and defines how a DHCPv6 server, client, or relay agent should behave when
-    receiving unknown DHCPv6 messages.  This document also provides advice for authors
-    of future documents that define new messages to be sent from DHCP servers to DHCP
-    relay agents.  This document updates RFC 3315.
+- content: "<p>DHCPv6 is not specific about handling messages with unknown types.
+    \ This memo describes the problems associated with receiving DHCPv6 messages with
+    unknown types, and defines how a DHCPv6 server, client, or relay agent should
+    behave when receiving unknown DHCPv6 messages.  This document also provides advice
+    for authors of future documents that define new messages to be sent from DHCP
+    servers to DHCP relay agents.  This document updates RFC 3315.</p>"
   language:
   - en
   script:
@@ -79,7 +115,12 @@ relation:
     formattedref:
       content: RFC3315
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7283'
+fetched: '2022-01-23'
 keyword:
 - DHCPv6
 - Unknown Messages

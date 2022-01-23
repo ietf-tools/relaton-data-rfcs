@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hansen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Hansen
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The Message-Context header defined in RFC 3458 describes the context of
-    a message (for example: fax-message or voice-message).  This specification extends
-    the Message-Context header with one additional context value: "video-message".  A
+- content: '<p>The Message-Context header defined in RFC 3458 describes the context
+    of a message (for example: fax-message or voice-message).  This specification
+    extends the Message-Context header with one additional context value: "video-message".  A
     receiving user agent (UA) may use this information as a hint to optimally present
-    the message. [STANDARDS-TRACK]'
+    the message. [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC3458
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3938'
+fetched: '2022-01-23'
 keyword:
 - user agent
 - ua

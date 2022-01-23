@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nikander
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Nikander
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Henderson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vogt
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Vogt
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arkko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Arkko
         language:
@@ -67,15 +115,15 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines mobility and multihoming extensions to the Host Identity
-    Protocol (HIP).  Specifically, this document defines a general "LOCATOR" parameter
-    for HIP messages that allows for a HIP host to notify peers about alternate addresses
-    at which it may be reached.  This document also defines elements of procedure
-    for mobility of a HIP host -- the process by which a host dynamically changes
-    the primary locator that it uses to receive packets.  While the same LOCATOR parameter
-    can also be used to support end-host multihoming, detailed procedures are left
-    for further study.  This memo defines an Experimental Protocol for the Internet
-    community.
+- content: <p>This document defines mobility and multihoming extensions to the Host
+    Identity Protocol (HIP).  Specifically, this document defines a general "LOCATOR"
+    parameter for HIP messages that allows for a HIP host to notify peers about alternate
+    addresses at which it may be reached.  This document also defines elements of
+    procedure for mobility of a HIP host -- the process by which a host dynamically
+    changes the primary locator that it uses to receive packets.  While the same LOCATOR
+    parameter can also be used to support end-host multihoming, detailed procedures
+    are left for further study.  This memo defines an Experimental Protocol for the
+    Internet community.</p>
   language:
   - en
   script:
@@ -87,7 +135,12 @@ relation:
     formattedref:
       content: RFC8046
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5206'
+fetched: '2022-01-23'
 keyword:
 - hip
 - multihoming extensions

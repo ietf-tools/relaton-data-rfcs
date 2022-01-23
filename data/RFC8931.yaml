@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Thubert
         language:
@@ -38,9 +50,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 4944 with a protocol that forwards individual
+- content: "<p>This document updates RFC 4944 with a protocol that forwards individual
     fragments across a route-over mesh and recovers them end to end, with congestion
-    control capabilities to protect the network.
+    control capabilities to protect the network.</p>"
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC4944
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8931'
+fetched: '2022-01-23'
 keyword:
 - LLN
 - Route-Over

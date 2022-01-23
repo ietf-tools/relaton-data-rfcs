@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Drage
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Drage
         language:
@@ -38,24 +50,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes private extensions to the Session Initiation Protocol
-    (SIP) that enable a network of trusted SIP servers to assert the service of authenticated
-    users. The use of these extensions is only applicable inside an administrative
-    domain with previously agreed-upon policies for generation, transport, and usage
-    of such information. This document does NOT offer a general service identification
-    model suitable for use between different trust domains or for use in the Internet
-    at large. The document also defines a URN to identify both services and User Agent
-    (UA) applications. This URN can be used within the SIP header fields defined in
-    this document to identify services, and also within the framework defined for
-    caller preferences and callee capabilities to identify usage of both services
-    and applications between end UAs. This document is not an Internet Standards Track
-    specification; it is published for informational purposes.
+- content: "<p>This document describes private extensions to the Session Initiation
+    Protocol (SIP) that enable a network of trusted SIP servers to assert the service
+    of authenticated users. The use of these extensions is only applicable inside
+    an administrative domain with previously agreed-upon policies for generation,
+    transport, and usage of such information. This document does NOT offer a general
+    service identification model suitable for use between different trust domains
+    or for use in the Internet at large.</p><p>The document also defines a URN to
+    identify both services and User Agent (UA) applications. This URN can be used
+    within the SIP header fields defined in this document to identify services, and
+    also within the framework defined for caller preferences and callee capabilities
+    to identify usage of both services and applications between end UAs. This document
+    is not an Internet Standards Track specification; it is published for informational
+    purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6050'
+fetched: '2022-01-23'
 keyword:
 - SIP
 - trust domain

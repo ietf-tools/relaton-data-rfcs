@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gieben
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gieben
         language:
@@ -37,15 +49,20 @@ language:
 script:
 - Latn
 abstract:
-- content: This document presents a technique for using a Markdown syntax variant,
+- content: "<p>This document presents a technique for using a Markdown syntax variant,
     called Pandoc, and a bit of XML (as defined in RFC 2629) as a source format for
-    documents that are Internet-Drafts (I-Ds) or RFCs. The goal of this technique
+    documents that are Internet-Drafts (I-Ds) or RFCs.</p><p>The goal of this technique
     (which is called Pandoc2rfc) is to let an author of an I-D focus on the main body
     of text without being distracted too much by XML tags; however, it does not alleviate
-    the need to typeset some files in XML.
+    the need to typeset some files in XML.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7328'
+fetched: '2022-01-23'

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. DeKok
         language:
@@ -38,11 +50,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a deployed extension to the Remote Authentication
+- content: "<p>This document describes a deployed extension to the Remote Authentication
     Dial In User Service (RADIUS) protocol, enabling clients to query the status of
     a RADIUS server.  This extension utilizes the Status-Server (12) Code, which was
     reserved for experimental use in RFC 2865.  This document is not an Internet Standards
-    Track specification; it is published for informational purposes.
+    Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
@@ -54,7 +66,12 @@ relation:
     formattedref:
       content: RFC2866
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5997'
+fetched: '2022-01-23'
 keyword:
 - status-server
 editorialgroup:

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wouters
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Wouters
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sury
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Sury
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: The DNSSEC protocol makes use of various cryptographic algorithms in order
-    to provide authentication of DNS data and proof of nonexistence.  To ensure interoperability
-    between DNS resolvers and DNS authoritative servers, it is necessary to specify
-    a set of algorithm implementation requirements and usage guidelines to ensure
-    that there is at least one algorithm that all implementations support.  This document
-    defines the current algorithm implementation requirements and usage guidance for
-    DNSSEC.  This document obsoletes RFC 6944.
+- content: "<p>The DNSSEC protocol makes use of various cryptographic algorithms in
+    order to provide authentication of DNS data and proof of nonexistence.  To ensure
+    interoperability between DNS resolvers and DNS authoritative servers, it is necessary
+    to specify a set of algorithm implementation requirements and usage guidelines
+    to ensure that there is at least one algorithm that all implementations support.
+    \ This document defines the current algorithm implementation requirements and
+    usage guidance for DNSSEC.  This document obsoletes RFC 6944.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8624'
+fetched: '2022-01-23'
 editorialgroup:
 - name: dnsop

@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mills
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D.L. Mills
         language:
@@ -37,7 +54,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes the Network Time Protocol (NTP) designed to distribute
+- content: "<p>This memo describes the Network Time Protocol (NTP) designed to distribute
     time information in a large, diverse internet system operating at speeds from
     mundane to lightwave.  It uses a returnable- time architecture in which a distributed
     subnet of time servers operating in a self-organizing, hierarchical, master-slave
@@ -50,12 +67,17 @@ abstract:
     along with performance data which shows that timekeeping accuracy throughout most
     portions of the Internet can be ordinarily maintained to within a few tens of
     milliseconds, even in cases of failure or disruption of clocks, time servers or
-    networks.  This memo describes the Network Time Protocol in RFC-1119.
+    networks.  This memo describes the Network Time Protocol in RFC-1119.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1129'
+fetched: '2022-01-23'
 keyword:
 - NTP

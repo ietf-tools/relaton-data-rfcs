@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Floyd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Floyd
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kohler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Kohler
         language:
@@ -48,18 +72,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document contains the profile for Congestion Control Identifier 2
-    (CCID 2), TCP-like Congestion Control, in the Datagram Congestion Control Protocol
+- content: "<p>This document contains the profile for Congestion Control Identifier
+    2 (CCID 2), TCP-like Congestion Control, in the Datagram Congestion Control Protocol
     (DCCP).  CCID 2 should be used by senders who would like to take advantage of
     the available bandwidth in an environment with rapidly changing conditions, and
     who are able to adapt to the abrupt changes in the congestion window typical of
-    TCP's Additive Increase Multiplicative Decrease (AIMD) congestion control. [STANDARDS-TRACK]
+    TCP's Additive Increase Multiplicative Decrease (AIMD) congestion control. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4341'
+fetched: '2022-01-23'
 keyword:
 - transport protocol
 - amid

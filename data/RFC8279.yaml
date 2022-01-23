@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dolganow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Dolganow
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Przygienda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Przygienda
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aldrin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Aldrin
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a new architecture for the forwarding of multicast
+- content: <p>This document specifies a new architecture for the forwarding of multicast
     data packets.  It provides optimal forwarding of multicast packets through a "multicast
     domain".  However, it does not require a protocol for explicitly building multicast
     distribution trees, nor does it require intermediate nodes to maintain any per-flow
@@ -89,13 +149,18 @@ abstract:
     the packet to a given set of egress routers, the bits corresponding to those routers
     are set in the BIER header.  The procedures for forwarding a packet based on its
     BIER header are specified in this document.  Elimination of the per-flow state
-    and the explicit tree-building protocols results in a considerable simplification.
+    and the explicit tree-building protocols results in a considerable simplification.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8279'
+fetched: '2022-01-23'
 keyword:
 - Multicast
 editorialgroup:

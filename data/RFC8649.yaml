@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the Hash Of Root Key certificate extension.  This
-    certificate extension is carried in the self-signed certificate for a trust anchor,
-    which is often called a Root Certification Authority (CA) certificate.  This certificate
-    extension unambiguously identifies the next public key that will be used at some
-    point in the future as the next Root CA certificate, eventually replacing the
-    current one.
+- content: "<p>This document specifies the Hash Of Root Key certificate extension.
+    \ This certificate extension is carried in the self-signed certificate for a trust
+    anchor, which is often called a Root Certification Authority (CA) certificate.
+    \ This certificate extension unambiguously identifies the next public key that
+    will be used at some point in the future as the next Root CA certificate, eventually
+    replacing the current one.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8649'
+fetched: '2022-01-23'
 keyword:
 - trust anchor
 editorialgroup:

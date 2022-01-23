@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellovin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bellovin
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: The TCP-MD5 option is most commonly used to secure BGP sessions between
+- content: "<p>The TCP-MD5 option is most commonly used to secure BGP sessions between
     routers.  However, changing the long-term key is difficult, since the change needs
     to be synchronized between different organizations.  We describe single-ended
     strategies that will permit (mostly) unsynchronized key changes.  This memo provides
-    information for the Internet community.
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4808'
+fetched: '2022-01-23'
 keyword:
 - bgp
 - border gateway protocol

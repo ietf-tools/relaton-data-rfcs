@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Foster
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Foster
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sivachelvan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Sivachelvan
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides implementation guidelines for the use of return
+- content: "<p>This document provides implementation guidelines for the use of return
     codes in RFC 3435, Media Gateway Control Protocol (MGCP) Version 1.0.  Return
     codes in RFC 3435 do not cover all possible specific situations that may ever
     occur in a gateway.  That is not possible and not necessary.  What is important
     is to ensure that the Call Agent that receives a return code behaves appropriately
     and consistently for the given situation.  The purpose of this document is to
-    provide implementation guidelines to ensure that consistency.
+    provide implementation guidelines to ensure that consistency.</p>"
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC3435
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3661'
+fetched: '2022-01-23'
 keyword:
 - guidelines
 - call agent

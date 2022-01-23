@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Turner
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the conventions for using several Elliptic Curve
-    cryptographic algorithms with the Cryptographic Message Syntax (CMS) encrypted
+- content: "<p>This document describes the conventions for using several Elliptic
+    Curve cryptographic algorithms with the Cryptographic Message Syntax (CMS) encrypted
     key package content type.  Specifically, it includes conventions necessary to
     implement Elliptic Curve Diffie-Hellman (ECDH) with EnvelopedData and Elliptic
     Curve Digital Signature Algorithm (ECDSA) with SignedData.  This document extends
-    RFC 6033. [STANDARDS-TRACK]
+    RFC 6033. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC6033
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6161'
+fetched: '2022-01-23'
 keyword:
 - ecdsa
 - ecdh

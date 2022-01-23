@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lennox
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lennox
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Holmberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Holmberg
         language:
@@ -48,20 +72,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies how to establish secure connection-oriented media
-    transport sessions over the Transport Layer Security (TLS) protocol using the
-    Session Description Protocol (SDP). It defines the SDP protocol identifier, 'TCP/TLS'.
-    It also defines the syntax and semantics for an SDP 'fingerprint' attribute that
-    identifies the certificate that will be presented for the TLS session. This mechanism
-    allows media transport over TLS connections to be established securely, so long
-    as the integrity of session descriptions is assured. This document obsoletes RFC
-    4572 by clarifying the usage of multiple fingerprints.
+- content: "<p>This document specifies how to establish secure connection-oriented
+    media transport sessions over the Transport Layer Security (TLS) protocol using
+    the Session Description Protocol (SDP). It defines the SDP protocol identifier,
+    'TCP/TLS'. It also defines the syntax and semantics for an SDP 'fingerprint' attribute
+    that identifies the certificate that will be presented for the TLS session. This
+    mechanism allows media transport over TLS connections to be established securely,
+    so long as the integrity of session descriptions is assured.</p><p>This document
+    obsoletes RFC 4572 by clarifying the usage of multiple fingerprints.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8122'
+fetched: '2022-01-23'
 keyword:
 - SDP
 - TLS

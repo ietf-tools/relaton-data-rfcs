@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dugal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Dugal
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dunn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Dunn
         language:
@@ -57,21 +93,26 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo provides a method for protecting a router's control plane from
-    undesired or malicious traffic. In this approach, all legitimate router control
+- content: "<p>This memo provides a method for protecting a router's control plane
+    from undesired or malicious traffic. In this approach, all legitimate router control
     plane traffic is identified. Once legitimate traffic has been identified, a filter
     is deployed in the router's forwarding plane. That filter prevents traffic not
     specifically identified as legitimate from reaching the router's control plane,
-    or rate-limits such traffic to an acceptable level. Note that the filters described
-    in this memo are applied only to traffic that is destined for the router, and
-    not to all traffic that is passing through the router. This document is not an
-    Internet Standards Track specification; it is published for informational purposes.
+    or rate-limits such traffic to an acceptable level.</p><p>Note that the filters
+    described in this memo are applied only to traffic that is destined for the router,
+    and not to all traffic that is passing through the router. This document is not
+    an Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6192'
+fetched: '2022-01-23'
 keyword:
 - ACL
 - Router Control Plane Protection

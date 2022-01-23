@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Traina
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Traina
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McPherson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. McPherson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scudder
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Scudder
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an extension to BGP which may be used to create
+- content: <p>This document describes an extension to BGP which may be used to create
     a confederation of autonomous systems that is represented as a single autonomous
     system to BGP peers external to the confederation, thereby removing the "full
     mesh" requirement.  The intention of this extension is to aid in policy administration
     and reduce the management complexity of maintaining a large autonomous system.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -74,7 +110,12 @@ relation:
     formattedref:
       content: RFC5065
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3065'
+fetched: '2022-01-23'
 keyword:
 - BGP-ASC
 - AS

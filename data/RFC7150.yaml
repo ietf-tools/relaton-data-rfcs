@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Zhang
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -48,13 +72,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The Path Computation Element Communication Protocol (PCEP) is used to convey
-    path computation requests and responses both between Path Computation Clients
-    (PCCs) and Path Computation Elements (PCEs) and between cooperating PCEs. In PCEP,
-    the path computation requests carry details of the constraints and objective functions
-    that the PCC wishes the PCE to apply in its computation. This document defines
-    a facility to carry vendor-specific information in PCEP using a dedicated object
-    and a new Type-Length-Variable that can be carried in any existing PCEP object.
+- content: "<p>The Path Computation Element Communication Protocol (PCEP) is used
+    to convey path computation requests and responses both between Path Computation
+    Clients (PCCs) and Path Computation Elements (PCEs) and between cooperating PCEs.
+    In PCEP, the path computation requests carry details of the constraints and objective
+    functions that the PCC wishes the PCE to apply in its computation.</p><p>This
+    document defines a facility to carry vendor-specific information in PCEP using
+    a dedicated object and a new Type-Length-Variable that can be carried in any existing
+    PCEP object.</p>"
   language:
   - en
   script:
@@ -66,6 +91,11 @@ relation:
     formattedref:
       content: RFC7470
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7150'
+fetched: '2022-01-23'
 editorialgroup:
 - name: pce

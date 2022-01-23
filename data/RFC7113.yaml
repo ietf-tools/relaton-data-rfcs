@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPv6 Router Advertisement Guard (RA-Guard) mechanism is commonly employed
-    to mitigate attack vectors based on forged ICMPv6 Router Advertisement messages.  Many
-    existing IPv6 deployments rely on RA-Guard as the first line of defense against
-    the aforementioned attack vectors.  However, some implementations of RA-Guard
-    have been found to be prone to circumvention by employing IPv6 Extension Headers.  This
-    document describes the evasion techniques that affect the aforementioned implementations
-    and formally updates RFC 6105, such that the aforementioned RA-Guard evasion vectors
-    are eliminated.
+- content: "<p>The IPv6 Router Advertisement Guard (RA-Guard) mechanism is commonly
+    employed to mitigate attack vectors based on forged ICMPv6 Router Advertisement
+    messages.  Many existing IPv6 deployments rely on RA-Guard as the first line of
+    defense against the aforementioned attack vectors.  However, some implementations
+    of RA-Guard have been found to be prone to circumvention by employing IPv6 Extension
+    Headers.  This document describes the evasion techniques that affect the aforementioned
+    implementations and formally updates RFC 6105, such that the aforementioned RA-Guard
+    evasion vectors are eliminated.</p>"
   language:
   - en
   script:
@@ -56,6 +68,11 @@ relation:
     formattedref:
       content: RFC6105
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7113'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

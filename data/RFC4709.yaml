@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reschke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Reschke
         language:
@@ -37,22 +49,27 @@ language:
 script:
 - Latn
 abstract:
-- content: In current Web browsers, there is no uniform way to specify that a user
+- content: <p>In current Web browsers, there is no uniform way to specify that a user
     clicking on a link will be presented with an editable view of a Web Distinguished
     Authoring and Versioning (WebDAV) server. For example, it is frequently desirable
     to be able to click on a link and have this link open a window that can handle
-    drag-and-drop interaction with the resources of a WebDAV server. This document
+    drag-and-drop interaction with the resources of a WebDAV server.</p><p>This document
     specifies a mechanism and a document format that enables WebDAV servers to send
     "mounting" information to a WebDAV client. The mechanism is designed to work on
     any platform and with any combination of browser and WebDAV client, relying solely
     on the well-understood dispatch of documents through their MIME type. This memo
-    provides information for the Internet community.
+    provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4709'
+fetched: '2022-01-23'
 keyword:
 - drag-and-drop
 editorialgroup:

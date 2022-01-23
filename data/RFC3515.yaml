@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sparks
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sparks
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the REFER method.  This Session Initiation Protocol
+- content: "<p>This document defines the REFER method.  This Session Initiation Protocol
     (SIP) extension requests that the recipient REFER to a resource provided in the
     request.  It provides a mechanism allowing the party sending the REFER to be notified
     of the outcome of the referenced request.  This can be used to enable many applications,
     including call transfer.  In addition to the REFER method, this document defines
-    the refer event package and the Refer-To request header. [STANDARDS-TRACK]
+    the refer event package and the Refer-To request header. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3515'
+fetched: '2022-01-23'
 keyword:
 - resource request
 - call transfer

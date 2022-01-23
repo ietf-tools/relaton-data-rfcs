@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Niven-Jenkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Niven-Jenkins
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: van Brandenburg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. van Brandenburg
         language:
@@ -48,20 +72,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The Request Routing interface comprises (1) the asynchronous advertisement
+- content: "<p>The Request Routing interface comprises (1) the asynchronous advertisement
     of footprint and capabilities by a downstream Content Delivery Network (CDN) that
     allows an upstream CDN to decide whether to redirect particular user requests
     to that downstream CDN; and (2) the synchronous operation of an upstream CDN requesting
     whether a downstream CDN is prepared to accept a user request and of a downstream
     CDN responding with how to actually redirect the user request.  This document
     describes an interface for the latter part, i.e., the CDNI Request Routing Redirection
-    interface.
+    interface.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7975'
+fetched: '2022-01-23'
 keyword:
 - HTTP
 - DNS

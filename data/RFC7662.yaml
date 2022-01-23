@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Richer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Richer
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines a method for a protected resource to query an
-    OAuth 2.0 authorization server to determine the active state of an OAuth 2.0 token
-    and to determine meta-information about this token.  OAuth 2.0 deployments can
-    use this method to convey information about the authorization context of the token
-    from the authorization server to the protected resource.
+- content: "<p>This specification defines a method for a protected resource to query
+    an OAuth 2.0 authorization server to determine the active state of an OAuth 2.0
+    token and to determine meta-information about this token.  OAuth 2.0 deployments
+    can use this method to convey information about the authorization context of the
+    token from the authorization server to the protected resource.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7662'
+fetched: '2022-01-23'
 keyword:
 - token validation
 - oauth token validation

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Partridge
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Partridge
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This RFC presents a description of how mail systems on the Internet are
-    expected to route messages based on information from the domain system.  This
+- content: "<p>This RFC presents a description of how mail systems on the Internet
+    are expected to route messages based on information from the domain system.  This
     involves a discussion of how mailers interpret MX RRs, which are used for message
-    routing.
+    routing.</p>"
   language:
   - en
   script:
@@ -52,6 +64,15 @@ relation:
     formattedref:
       content: RFC2821
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '10'
+- title:
+    content: RFC
+    format: text/plain
+  number: '974'
+fetched: '2022-01-23'
 keyword:
 - DNS-MX

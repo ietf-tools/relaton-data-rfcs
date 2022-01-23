@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blanchet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Blanchet
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Parent
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Parent
         language:
@@ -47,21 +71,26 @@ language:
 script:
 - Latn
 abstract:
-- content: A tunnel broker with the Tunnel Setup Protocol (TSP) enables the establishment
+- content: "<p>A tunnel broker with the Tunnel Setup Protocol (TSP) enables the establishment
     of tunnels of various inner protocols, such as IPv6 or IPv4, inside various outer
-    protocols packets, such as IPv4, IPv6, or UDP over IPv4 for IPv4 NAT traversal.  The
-    control protocol (TSP) is used by the tunnel client to negotiate the tunnel with
-    the broker.  A mobile node implementing TSP can be connected to both IPv4 and
-    IPv6 networks whether it is on IPv4 only, IPv4 behind a NAT, or on IPv6 only.  A
-    tunnel broker may terminate the tunnels on remote tunnel servers or on itself.  This
-    document describes the TSP within the model of the tunnel broker model.  This
-    document defines an Experimental Protocol for the Internet community.
+    protocols packets, such as IPv4, IPv6, or UDP over IPv4 for IPv4 NAT traversal.
+    \ The control protocol (TSP) is used by the tunnel client to negotiate the tunnel
+    with the broker.  A mobile node implementing TSP can be connected to both IPv4
+    and IPv6 networks whether it is on IPv4 only, IPv4 behind a NAT, or on IPv6 only.
+    \ A tunnel broker may terminate the tunnels on remote tunnel servers or on itself.
+    \ This document describes the TSP within the model of the tunnel broker model.
+    \ This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5572'
+fetched: '2022-01-23'
 keyword:
 - IPv6
 - Tunnel

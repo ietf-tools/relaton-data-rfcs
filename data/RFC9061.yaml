@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Marin-Lopez
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Marin-Lopez
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lopez-Millan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Lopez-Millan
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pereniguez-Garcia
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Pereniguez-Garcia
         language:
@@ -58,24 +94,29 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document describes how to provide IPsec-based flow protection (integrity
-    and confidentiality) by means of an Interface to Network Security Function (I2NSF)
-    Controller. It considers two main well-known scenarios in IPsec: gateway-to-gateway
+- content: "<p>This document describes how to provide IPsec-based flow protection
+    (integrity and confidentiality) by means of an Interface to Network Security Function
+    (I2NSF) Controller. It considers two main well-known scenarios in IPsec: gateway-to-gateway
     and host-to-host. The service described in this document allows the configuration
     and monitoring of IPsec Security Associations (IPsec SAs) from an I2NSF Controller
     to one or several flow-based Network Security Functions (NSFs) that rely on IPsec
-    to protect data traffic. This document focuses on the I2NSF NSF-Facing Interface
+    to protect data traffic.</p><p>This document focuses on the I2NSF NSF-Facing Interface
     by providing YANG data models for configuring the IPsec databases, namely Security
     Policy Database (SPD), Security Association Database (SAD), Peer Authorization
     Database (PAD), and Internet Key Exchange Version 2 (IKEv2). This allows IPsec
     SA establishment with minimal intervention by the network administrator. This
-    document defines three YANG modules, but it does not define any new protocol.'
+    document defines three YANG modules, but it does not define any new protocol.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9061'
+fetched: '2022-01-23'
 keyword:
 - NSF
 - SDN

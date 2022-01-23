@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Savola
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Savola
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Patel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Patel
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPv6 interim mechanism 6to4 (RFC3056) uses automatic IPv6-over-IPv4
+- content: <p>The IPv6 interim mechanism 6to4 (RFC3056) uses automatic IPv6-over-IPv4
     tunneling to interconnect IPv6 networks.  The architecture includes 6to4 routers
     and 6to4 relay routers, which accept and decapsulate IPv4 protocol-41 ("IPv6-in-IPv4")
     traffic from any node in the IPv4 internet.  This characteristic enables a number
     of security threats, mainly Denial of Service.  It also makes it easier for nodes
     to spoof IPv6 addresses.  This document discusses these issues in more detail
     and suggests enhancements to alleviate the problems.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3964'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

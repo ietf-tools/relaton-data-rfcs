@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes how to use DNSSEC digital signatures covering requests
+- content: "<p>This memo describes how to use DNSSEC digital signatures covering requests
     and data to secure updates and restrict updates to those authorized to perform
-    them as indicated by the updater's possession of cryptographic keys. [STANDARDS-TRACK]
+    them as indicated by the updater's possession of cryptographic keys. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2137'
+fetched: '2022-01-23'
 keyword:
 - SDNSDU
 - DNS

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kuarsingh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Kuarsingh
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Lee
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vautrin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Vautrin
         language:
@@ -57,18 +93,18 @@ language:
 script:
 - Latn
 abstract:
-- content: 6to4 Provider Managed Tunnels (6to4-PMT) provide a framework that can help
-    manage 6to4 tunnels operating in an anycast configuration.  The 6to4-PMT framework
-    is intended to serve as an option for operators to help improve the experience
-    of 6to4 operation when conditions of the network may provide sub-optimal performance
-    or break normal 6to4 operation.  6to4-PMT supplies a stable provider prefix and
-    forwarding environment by utilizing existing 6to4 relays with an added function
-    of IPv6 Prefix Translation.  This operation may be particularly important in NAT444
-    infrastructures where a customer endpoint may be assigned a non-RFC1918 address,
-    thus breaking the return path for anycast-based 6to4 operation.  6to4-PMT has
-    been successfully used in a production network, implemented as open source code,
-    and implemented by a major routing vendor.  This document is not an Internet Standards
-    Track specification; it is published for informational purposes.
+- content: "<p>6to4 Provider Managed Tunnels (6to4-PMT) provide a framework that can
+    help manage 6to4 tunnels operating in an anycast configuration.  The 6to4-PMT
+    framework is intended to serve as an option for operators to help improve the
+    experience of 6to4 operation when conditions of the network may provide sub-optimal
+    performance or break normal 6to4 operation.  6to4-PMT supplies a stable provider
+    prefix and forwarding environment by utilizing existing 6to4 relays with an added
+    function of IPv6 Prefix Translation.  This operation may be particularly important
+    in NAT444 infrastructures where a customer endpoint may be assigned a non-RFC1918
+    address, thus breaking the return path for anycast-based 6to4 operation.  6to4-PMT
+    has been successfully used in a production network, implemented as open source
+    code, and implemented by a major routing vendor.  This document is not an Internet
+    Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
@@ -80,6 +116,11 @@ relation:
     formattedref:
       content: RFC7526
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6732'
+fetched: '2022-01-23'
 keyword:
 - 6to4-PMT

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jenkins
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Jenkins
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The United States Government has published the National Security Agency
+- content: "<p>The United States Government has published the National Security Agency
     (NSA) Commercial National Security Algorithm (CNSA) Suite, which defines cryptographic
     algorithm policy for national security applications.  This document specifies
     the conventions for using the United States National Security Agency's CNSA Suite
@@ -48,13 +60,18 @@ abstract:
     National Security Systems are described in NIST Special Publication 800-59.  It
     is also appropriate for all other US Government systems that process high-value
     information.  It is made publicly available for use by developers and operators
-    of these and any other system deployments.
+    of these and any other system deployments.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8755'
+fetched: '2022-01-23'
 keyword:
 - NSA
 - CNSA

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mizrahi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Mizrahi
         language:
@@ -37,22 +49,27 @@ language:
 script:
 - Latn
 abstract:
-- content: The Network Time Protocol (NTP) allows clients to synchronize to a time
-    server using timestamped protocol messages.  To facilitate accurate timestamping,
+- content: "<p>The Network Time Protocol (NTP) allows clients to synchronize to a
+    time server using timestamped protocol messages.  To facilitate accurate timestamping,
     some implementations use hardware-based timestamping engines that integrate the
-    accurate transmission time into every outgoing NTP packet during transmission.  Since
-    these packets are transported over UDP, the UDP Checksum field is then updated
-    to reflect this modification.  This document proposes an extension field that
-    includes a 2-octet Checksum Complement, allowing timestamping engines to reflect
-    the checksum modification in the last 2 octets of the packet rather than in the
-    UDP Checksum field.  The behavior defined in this document is interoperable with
-    existing NTP implementations.
+    accurate transmission time into every outgoing NTP packet during transmission.
+    \ Since these packets are transported over UDP, the UDP Checksum field is then
+    updated to reflect this modification.  This document proposes an extension field
+    that includes a 2-octet Checksum Complement, allowing timestamping engines to
+    reflect the checksum modification in the last 2 octets of the packet rather than
+    in the UDP Checksum field.  The behavior defined in this document is interoperable
+    with existing NTP implementations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7821'
+fetched: '2022-01-23'
 keyword:
 - NTP
 - UDP

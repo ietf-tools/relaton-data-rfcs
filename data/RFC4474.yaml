@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Peterson
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jennings
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Jennings
         language:
@@ -48,13 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The existing security mechanisms in the Session Initiation Protocol (SIP)
-    are inadequate for cryptographically assuring the identity of the end users that
-    originate SIP requests, especially in an interdomain context.  This document defines
-    a mechanism for securely identifying originators of SIP messages.  It does so
-    by defining two new SIP header fields, Identity, for conveying a signature used
-    for validating the identity, and Identity-Info, for conveying a reference to the
-    certificate of the signer. [STANDARDS-TRACK]
+- content: "<p>The existing security mechanisms in the Session Initiation Protocol
+    (SIP) are inadequate for cryptographically assuring the identity of the end users
+    that originate SIP requests, especially in an interdomain context.  This document
+    defines a mechanism for securely identifying originators of SIP messages.  It
+    does so by defining two new SIP header fields, Identity, for conveying a signature
+    used for validating the identity, and Identity-Info, for conveying a reference
+    to the certificate of the signer. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC8224
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4474'
+fetched: '2022-01-23'
 keyword:
 - security
 - identity

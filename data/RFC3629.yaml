@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yergeau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Yergeau
         language:
@@ -37,20 +49,29 @@ language:
 script:
 - Latn
 abstract:
-- content: ISO/IEC 10646-1 defines a large character set called the Universal Character
-    Set (UCS) which encompasses most of the world's writing systems.  The originally
-    proposed encodings of the UCS, however, were not compatible with many current
-    applications and protocols, and this has led to the development of UTF-8, the
-    object of this memo.  UTF-8 has the characteristic of preserving the full US-ASCII
-    range, providing compatibility with file systems, parsers and other software that
-    rely on US-ASCII values but are transparent to other values.  This memo obsoletes
-    and replaces RFC 2279.
+- content: "<p>ISO/IEC 10646-1 defines a large character set called the Universal
+    Character Set (UCS) which encompasses most of the world's writing systems.  The
+    originally proposed encodings of the UCS, however, were not compatible with many
+    current applications and protocols, and this has led to the development of UTF-8,
+    the object of this memo.  UTF-8 has the characteristic of preserving the full
+    US-ASCII range, providing compatibility with file systems, parsers and other software
+    that rely on US-ASCII values but are transparent to other values.  This memo obsoletes
+    and replaces RFC 2279.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '63'
+- title:
+    content: RFC
+    format: text/plain
+  number: '3629'
+fetched: '2022-01-23'
 keyword:
 - UTF-8
 - UCS

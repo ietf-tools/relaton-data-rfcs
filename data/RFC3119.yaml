@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Finlayson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Finlayson
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a RTP (Real-Time Protocol) payload format for transporting
-    MPEG (Moving Picture Experts Group) 1 or 2, layer III audio (commonly known as
-    "MP3").  This format is an alternative to that described in RFC 2250, and performs
-    better if there is packet loss. [STANDARDS-TRACK]
+- content: <p>This document describes a RTP (Real-Time Protocol) payload format for
+    transporting MPEG (Moving Picture Experts Group) 1 or 2, layer III audio (commonly
+    known as "MP3").  This format is an alternative to that described in RFC 2250,
+    and performs better if there is packet loss. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC5219
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3119'
+fetched: '2022-01-23'
 keyword:
 - real-time
 - protocol

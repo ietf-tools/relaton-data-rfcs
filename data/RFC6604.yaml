@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The Domain Name System (DNS) has long provided means, such as the CNAME
+- content: "<p>The Domain Name System (DNS) has long provided means, such as the CNAME
     (Canonical Name), whereby a DNS query can be redirected to a different name.  A
     DNS response header has an RCODE (Response Code) field, used for indicating errors,
     and response status bits.  This document clarifies, in the case of such redirected
     queries, how the RCODE and status bits correspond to the initial query cycle (where
-    the CNAME or the like was detected) and subsequent or final query cycles. [STANDARDS-TRACK]
+    the CNAME or the like was detected) and subsequent or final query cycles. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -64,7 +76,12 @@ relation:
     formattedref:
       content: RFC2672
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6604'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - DNSSEC

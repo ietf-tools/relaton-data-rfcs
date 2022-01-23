@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bellis
         language:
@@ -37,14 +49,14 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 6155 specifies an extension for the HTTP-Enabled Location Delivery
+- content: "<p>RFC 6155 specifies an extension for the HTTP-Enabled Location Delivery
     (HELD) protocol, allowing the use of an IP address and port number to request
-    a Device location based on an individual packet flow. However, certain kinds of
-    NAT require that identifiers for both ends of the packet flow must be specified
-    in order to unambiguously satisfy the location request. This document specifies
+    a Device location based on an individual packet flow.</p><p>However, certain kinds
+    of NAT require that identifiers for both ends of the packet flow must be specified
+    in order to unambiguously satisfy the location request.</p><p>This document specifies
     an XML Schema and a URN Sub-Namespace for a Flow Identity Extension for HELD to
-    support this requirement. This document updates RFC 6155 by deprecating the port
-    number elements specified therein.
+    support this requirement.</p><p>This document updates RFC 6155 by deprecating
+    the port number elements specified therein.</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC6155
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6915'
+fetched: '2022-01-23'
 keyword:
 - HELD
 - Flow

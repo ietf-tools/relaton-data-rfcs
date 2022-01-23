@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gashinsky
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Gashinsky
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jaeggli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Jaeggli
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Kumari
         language:
@@ -57,8 +93,8 @@ language:
 script:
 - Latn
 abstract:
-- content: In IPv4, subnets are generally small, made just large enough to cover the
-    actual number of machines on the subnet. In contrast, the default IPv6 subnet
+- content: <p>In IPv4, subnets are generally small, made just large enough to cover
+    the actual number of machines on the subnet. In contrast, the default IPv6 subnet
     size is a /64, a number so large it covers trillions of addresses, the overwhelming
     number of which will be unassigned. Consequently, simplistic implementations of
     Neighbor Discovery (ND) can be vulnerable to deliberate or accidental denial of
@@ -67,15 +103,20 @@ abstract:
     (by an attacker) or result from legitimate operational tools or accident conditions.
     As a result of these vulnerabilities, new devices may not be able to "join" a
     network, it may be impossible to establish new IPv6 flows, and existing IPv6 transported
-    flows may be interrupted. This document describes the potential for DoS in detail
-    and suggests possible implementation improvements as well as operational mitigation
-    techniques that can, in some cases, be used to protect against or at least alleviate
-    the impact of such attacks. [STANDARDS-TRACK]
+    flows may be interrupted.</p><p>This document describes the potential for DoS
+    in detail and suggests possible implementation improvements as well as operational
+    mitigation techniques that can, in some cases, be used to protect against or at
+    least alleviate the impact of such attacks. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6583'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

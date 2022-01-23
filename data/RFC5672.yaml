@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 4871, "DomainKeys Identified Mail (DKIM) Signatures".  Specifically,
+- content: <p>This document updates RFC 4871, "DomainKeys Identified Mail (DKIM) Signatures".  Specifically,
     the document clarifies the nature, roles, and relationship of the two DKIM identifier
     tag values that are candidates for payload delivery to a receiving processing
     module.  The Update is in the style of an Errata entry, albeit a rather long one.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -58,7 +70,12 @@ relation:
     formattedref:
       content: RFC4871
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5672'
+fetched: '2022-01-23'
 keyword:
 - DKIM
 - email

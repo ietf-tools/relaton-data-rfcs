@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rivest
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Rivest
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the MD4 message-digest algorithm [1].  The algorithm
+- content: <p>This document describes the MD4 message-digest algorithm [1].  The algorithm
     takes as input a message of arbitrary length and produces as output a 128-bit
     "fingerprint" or "message digest" of the input.  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.
+    for the Internet community.  It does not specify an Internet standard.</p>
   language:
   - en
   script:
@@ -52,7 +64,12 @@ relation:
     formattedref:
       content: RFC6150
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1320'
+fetched: '2022-01-23'
 keyword:
 - MD4
 - security

@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Housley
         language:
@@ -38,11 +50,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an additional content type for the Cryptographic
+- content: "<p>This document describes an additional content type for the Cryptographic
     Message Syntax (CMS).  The authenticated-enveloped-data content type is intended
     for use with authenticated encryption modes.  All of the various key management
     techniques that are supported in the CMS enveloped-data content type are also
-    supported by the CMS authenticated-enveloped-data content type. [STANDARDS-TRACK]
+    supported by the CMS authenticated-enveloped-data content type. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -54,7 +66,12 @@ relation:
     formattedref:
       content: RFC3852
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5083'
+fetched: '2022-01-23'
 keyword:
 - encryption mode
 editorialgroup:

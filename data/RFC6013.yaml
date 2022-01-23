@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Simpson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Simpson
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: TCP Cookie Transactions (TCPCT) deter spoofing of connections and prevent
-    resource exhaustion, eliminating Responder (server) state during the initial handshake.  The
-    Initiator (client) has sole responsibility for ensuring required delays between
-    connections.  The cookie exchange may carry data, limited to inhibit amplification
+- content: "<p>TCP Cookie Transactions (TCPCT) deter spoofing of connections and prevent
+    resource exhaustion, eliminating Responder (server) state during the initial handshake.
+    \ The Initiator (client) has sole responsibility for ensuring required delays
+    between connections.  The cookie exchange may carry data, limited to inhibit amplification
     and reflection denial of service attacks.  This document defines an Experimental
-    Protocol for the Internet community.
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -54,4 +66,9 @@ relation:
     formattedref:
       content: RFC7805
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6013'
+fetched: '2022-01-23'

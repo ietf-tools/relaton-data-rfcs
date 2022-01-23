@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gould
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Gould
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wilhelm
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Wilhelm
         language:
@@ -48,22 +72,27 @@ language:
 script:
 - Latn
 abstract:
-- content: The Extensible Provisioning Protocol (EPP) (RFC 5730) defines the use of
-    authorization information to authorize a transfer of an EPP object, such as a
-    domain name, between clients that are referred to as "registrars".  Object-specific,
+- content: <p>The Extensible Provisioning Protocol (EPP) (RFC 5730) defines the use
+    of authorization information to authorize a transfer of an EPP object, such as
+    a domain name, between clients that are referred to as "registrars".  Object-specific,
     password-based authorization information (see RFCs 5731 and 5733) is commonly
     used but raises issues related to the security, complexity, storage, and lifetime
     of authentication information.  This document defines an operational practice,
     using the EPP RFCs, that leverages the use of strong random authorization information
     values that are short lived, not stored by the client, and stored by the server
     using a cryptographic hash that provides for secure authorization information
-    that can safely be used for object transfers.
+    that can safely be used for object transfers.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9154'
+fetched: '2022-01-23'
 keyword:
 - EPP
 - authinfo

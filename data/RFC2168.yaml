@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Daniel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Daniel
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mealling
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Mealling
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The requirements document for URN resolution systems defines the concept
+- content: <p>The requirements document for URN resolution systems defines the concept
     of a "resolver discovery service".  This document describes the first, experimental,
     RDS.  It is implemented by a new DNS Resource Record, NAPTR (Naming Authority
     PoinTeR), that provides rules for mapping parts of URIs to domain names.  This
-    memo defines an Experimental Protocol for the Internet community.
+    memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
@@ -78,6 +102,11 @@ relation:
     formattedref:
       content: RFC3404
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2168'
+fetched: '2022-01-23'
 editorialgroup:
 - name: urn

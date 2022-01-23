@@ -24,6 +24,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Roux
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J.-L. Le Roux
         language:
@@ -38,24 +55,29 @@ language:
 script:
 - Latn
 abstract:
-- content: For scalability purposes, a network may comprise multiple Interior Gateway
-    Protocol (IGP) areas.  An inter-area Traffic Engineered Label Switched Path (TE-LSP)
-    is an LSP that transits through at least two IGP areas.  In a multi-area network,
-    topology visibility remains local to a given area, and a head-end Label Switching
-    Router (LSR) cannot compute an inter-area shortest constrained path.  One key
-    application of the Path Computation Element (PCE)-based architecture is the computation
-    of inter-area TE-LSP paths.  The PCE Communication Protocol (PCECP) is used to
-    communicate computation requests from Path Computation Clients (PCCs) to PCEs,
-    and to return computed paths in responses.  This document lists a detailed set
-    of PCECP-specific requirements for support of inter-area TE-LSP path computation.  It
-    complements the generic requirements for a PCE Communication Protocol.  This memo
-    provides information for the Internet community.
+- content: "<p>For scalability purposes, a network may comprise multiple Interior
+    Gateway Protocol (IGP) areas.  An inter-area Traffic Engineered Label Switched
+    Path (TE-LSP) is an LSP that transits through at least two IGP areas.  In a multi-area
+    network, topology visibility remains local to a given area, and a head-end Label
+    Switching Router (LSR) cannot compute an inter-area shortest constrained path.
+    \ One key application of the Path Computation Element (PCE)-based architecture
+    is the computation of inter-area TE-LSP paths.  The PCE Communication Protocol
+    (PCECP) is used to communicate computation requests from Path Computation Clients
+    (PCCs) to PCEs, and to return computed paths in responses.  This document lists
+    a detailed set of PCECP-specific requirements for support of inter-area TE-LSP
+    path computation.  It complements the generic requirements for a PCE Communication
+    Protocol.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4927'
+fetched: '2022-01-23'
 keyword:
 - gmpls
 - te-lsp

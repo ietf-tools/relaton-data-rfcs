@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yevstifeyev
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Yevstifeyev
         language:
@@ -37,11 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is the specification of the 'tn3270' Uniform Resource Identifier
-    (URI) scheme, which is used to designate the access to the resources available
-    via Telnet 3270 mode (TN3270) and Telnet 3270 Enhanced mode (TN3270E).  It updates
-    RFC 1041 and RFC 2355, which specify these protocols, and RFC 1738, which firstly
-    mentioned this URI scheme without defining its syntax and semantics. [STANDARDS-TRACK]
+- content: "<p>This document is the specification of the 'tn3270' Uniform Resource
+    Identifier (URI) scheme, which is used to designate the access to the resources
+    available via Telnet 3270 mode (TN3270) and Telnet 3270 Enhanced mode (TN3270E).
+    \ It updates RFC 1041 and RFC 2355, which specify these protocols, and RFC 1738,
+    which firstly mentioned this URI scheme without defining its syntax and semantics.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +76,12 @@ relation:
     formattedref:
       content: RFC1041
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6270'
+fetched: '2022-01-23'
 keyword:
 - URI
 - Telnet

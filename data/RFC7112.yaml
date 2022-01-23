@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manral
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Manral
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bonica
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bonica
         language:
@@ -57,14 +93,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The IPv6 specification allows IPv6 Header Chains of an arbitrary size.  The
-    specification also allows options that can, in turn, extend each of the headers.  In
-    those scenarios in which the IPv6 Header Chain or options are unusually long and
-    packets are fragmented, or scenarios in which the fragment size is very small,
-    the First Fragment of a packet may fail to include the entire IPv6 Header Chain.  This
-    document discusses the interoperability and security problems of such traffic,
-    and updates RFC 2460 such that the First Fragment of a packet is required to contain
-    the entire IPv6 Header Chain.
+- content: "<p>The IPv6 specification allows IPv6 Header Chains of an arbitrary size.
+    \ The specification also allows options that can, in turn, extend each of the
+    headers.  In those scenarios in which the IPv6 Header Chain or options are unusually
+    long and packets are fragmented, or scenarios in which the fragment size is very
+    small, the First Fragment of a packet may fail to include the entire IPv6 Header
+    Chain.  This document discusses the interoperability and security problems of
+    such traffic, and updates RFC 2460 such that the First Fragment of a packet is
+    required to contain the entire IPv6 Header Chain.</p>"
   language:
   - en
   script:
@@ -76,6 +112,11 @@ relation:
     formattedref:
       content: RFC2460
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7112'
+fetched: '2022-01-23'
 editorialgroup:
 - name: 6man

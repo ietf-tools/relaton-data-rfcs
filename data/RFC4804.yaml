@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Le Faucheur
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3175 specifies aggregation of Resource ReSerVation Protocol (RSVP)
+- content: "<p>RFC 3175 specifies aggregation of Resource ReSerVation Protocol (RSVP)
     end-to-end reservations over aggregate RSVP reservations.  This document specifies
     aggregation of RSVP end-to-end reservations over MPLS Traffic Engineering (TE)
     tunnels or MPLS Diffserv-aware MPLS Traffic Engineering (DS-TE) tunnels.  This
@@ -47,13 +59,18 @@ abstract:
     approach can be used to achieve admission control of a very large number of flows
     in a scalable manner since the devices in the core of the network are unaware
     of the end-to-end RSVP reservations and are only aware of the MPLS TE tunnels.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4804'
+fetched: '2022-01-23'
 keyword:
 - multiprotocol label switching
 - traffic engineering

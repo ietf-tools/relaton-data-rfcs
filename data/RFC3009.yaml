@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The RTP (Real-time Transport Protocol) payload format for generic forward
+- content: "<p>The RTP (Real-time Transport Protocol) payload format for generic forward
     error correction allows RTP participants to improve loss resiliency through the
     use of traditional parity-based channel codes.  This payload format requires four
-    new MIME types, audio/parityfec, video/parityfec, text/parityfec and application/parityfec.  This
-    document serves as the MIME type registration for those formats. [STANDARDS-TRACK]
+    new MIME types, audio/parityfec, video/parityfec, text/parityfec and application/parityfec.
+    \ This document serves as the MIME type registration for those formats. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC5109
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3009'
+fetched: '2022-01-23'
 keyword:
 - media-type
 - multimedia

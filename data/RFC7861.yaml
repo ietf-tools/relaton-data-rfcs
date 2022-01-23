@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Adamson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Adamson
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Williams
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Williams
         language:
@@ -47,11 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies version 3 of the Remote Procedure Call (RPC) security
-    protocol (RPCSEC_GSS).  This protocol provides support for multi-principal authentication
-    of client hosts and user principals to a server (constructed by generic composition),
-    security label assertions for multi-level security and type enforcement, structured
-    privilege assertions, and channel bindings.  This document updates RFC 5403.
+- content: "<p>This document specifies version 3 of the Remote Procedure Call (RPC)
+    security protocol (RPCSEC_GSS).  This protocol provides support for multi-principal
+    authentication of client hosts and user principals to a server (constructed by
+    generic composition), security label assertions for multi-level security and type
+    enforcement, structured privilege assertions, and channel bindings.  This document
+    updates RFC 5403.</p>"
   language:
   - en
   script:
@@ -63,7 +88,12 @@ relation:
     formattedref:
       content: RFC5403
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7861'
+fetched: '2022-01-23'
 keyword:
 - RPCSEC_GSS
 - ONC

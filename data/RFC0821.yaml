@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Postel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Postel
         language:
@@ -37,10 +49,10 @@ language:
 script:
 - Latn
 abstract:
-- content: The objective of Simple Mail Transfer Protocol (SMTP) is to transfer mail
-    reliably and efficiently.  SMTP is independent of the particular transmission
+- content: "<p>The objective of Simple Mail Transfer Protocol (SMTP) is to transfer
+    mail reliably and efficiently.  SMTP is independent of the particular transmission
     subsystem and requires only a reliable ordered data stream channel.  Obsoletes
-    RFC 788, 780, and 772.
+    RFC 788, 780, and 772.</p>"
   language:
   - en
   script:
@@ -52,6 +64,15 @@ relation:
     formattedref:
       content: RFC2821
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '10'
+- title:
+    content: RFC
+    format: text/plain
+  number: '821'
+fetched: '2022-01-23'
 keyword:
 - SMTP

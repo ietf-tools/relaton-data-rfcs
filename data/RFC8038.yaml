@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aitken
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Aitken
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Claise
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Claise
         language:
@@ -43,6 +67,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: S
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. B S
         language:
@@ -53,6 +94,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McDowall
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. McDowall
         language:
@@ -63,6 +116,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schoenwaelder
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Schoenwaelder
         language:
@@ -77,19 +142,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a way to complement IP Flow Information Export
+- content: "<p>This document specifies a way to complement IP Flow Information Export
     (IPFIX) Data Records with Management Information Base (MIB) objects, avoiding
     the need to define new IPFIX Information Elements for existing MIB objects that
-    are already fully specified. Two IPFIX Options Templates, as well as a method
+    are already fully specified.</p><p>Two IPFIX Options Templates, as well as a method
     for creating IPFIX Options Templates that are used to export the extra data required
     to fully describe Simple Network Management Protocol (SNMP) MIB objects in IPFIX,
-    are specified herein.
+    are specified herein.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8038'
+fetched: '2022-01-23'
 keyword:
 - IPFIX
 - MIB

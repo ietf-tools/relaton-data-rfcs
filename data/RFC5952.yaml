@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kawamura
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kawamura
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kawashima
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Kawashima
         language:
@@ -47,15 +71,15 @@ language:
 script:
 - Latn
 abstract:
-- content: As IPv6 deployment increases, there will be a dramatic increase in the
-    need to use IPv6 addresses in text.  While the IPv6 address architecture in Section
-    2.2 of RFC 4291 describes a flexible model for text representation of an IPv6
-    address, this flexibility has been causing problems for operators, system engineers,
-    and users.  This document defines a canonical textual representation format.  It
-    does not define a format for internal storage, such as within an application or
-    database.  It is expected that the canonical format will be followed by humans
+- content: "<p>As IPv6 deployment increases, there will be a dramatic increase in
+    the need to use IPv6 addresses in text.  While the IPv6 address architecture in
+    Section 2.2 of RFC 4291 describes a flexible model for text representation of
+    an IPv6 address, this flexibility has been causing problems for operators, system
+    engineers, and users.  This document defines a canonical textual representation
+    format.  It does not define a format for internal storage, such as within an application
+    or database.  It is expected that the canonical format will be followed by humans
     and systems when representing IPv6 addresses as text, but all implementations
-    must accept and be able to handle any legitimate RFC 4291 format. [STANDARDS-TRACK]
+    must accept and be able to handle any legitimate RFC 4291 format. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -67,7 +91,12 @@ relation:
     formattedref:
       content: RFC4291
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5952'
+fetched: '2022-01-23'
 keyword:
 - IPv6
 - text representation

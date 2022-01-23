@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pettersen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Pettersen
         language:
@@ -38,13 +50,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the Transport Layer Security (TLS) Certificate Status
-    Version 2 Extension to allow clients to specify and support several certificate
+- content: <p>This document defines the Transport Layer Security (TLS) Certificate
+    Status Version 2 Extension to allow clients to specify and support several certificate
     status methods. (The use of the Certificate Status extension is commonly referred
     to as "OCSP stapling".) Also defined is a new method based on the Online Certificate
     Status Protocol (OCSP) that servers can use to provide status information about
     not only the server's own certificate but also the status of intermediate certificates
-    in the chain.
+    in the chain.</p>
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC8446
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6961'
+fetched: '2022-01-23'
 keyword:
 - RFC 6066
 - RFC 2560

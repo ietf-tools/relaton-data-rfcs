@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a Session Initiation Protocol (SIP) event package
+- content: "<p>This document defines a Session Initiation Protocol (SIP) event package
     for registrations.  Through its REGISTER method, SIP allows a user agent to create,
     modify, and delete registrations.  Registrations can also be altered by administrators
     in order to enforce policy.  As a result, these registrations represent a piece
     of state in the network that can change dynamically.  There are many cases where
     a user agent would like to be notified of changes in this state.  This event package
     defines a mechanism by which those user agents can request and obtain such notifications.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3680'
+fetched: '2022-01-23'
 keyword:
 - REGISTER
 - event package name

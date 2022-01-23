@@ -25,6 +25,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. DeKok
         language:
@@ -39,14 +51,14 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 5247 is updated to define and clarify EAP Session-Id derivation for
-    multiple Extensible Authentication Protocol (EAP) methods.  The derivation of
-    Session-Id was not given for EAP Subscriber Identity Module (EAP-SIM) or EAP Authentication
-    and Key Agreement (EAP-AKA) when using the fast reconnect exchange instead of
-    full authentication.  The derivation of Session-Id for full authentication is
-    clarified for both EAP-SIM and EAP-AKA.  The derivation of Session-Id for Protected
+- content: "<p>RFC 5247 is updated to define and clarify EAP Session-Id derivation
+    for multiple Extensible Authentication Protocol (EAP) methods.  The derivation
+    of Session-Id was not given for EAP Subscriber Identity Module (EAP-SIM) or EAP
+    Authentication and Key Agreement (EAP-AKA) when using the fast reconnect exchange
+    instead of full authentication.  The derivation of Session-Id for full authentication
+    is clarified for both EAP-SIM and EAP-AKA.  The derivation of Session-Id for Protected
     EAP (PEAP) is also given.  The definition for PEAP follows the definition for
-    other TLS-based EAP methods.
+    other TLS-based EAP methods.</p>"
   language:
   - en
   script:
@@ -58,7 +70,12 @@ relation:
     formattedref:
       content: RFC5247
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8940'
+fetched: '2022-01-23'
 keyword:
 - EAP
 - PEAP

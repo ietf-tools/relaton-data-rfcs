@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Le Faucheur
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Maglione
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Maglione
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Taylor
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Taylor
         language:
@@ -57,18 +93,18 @@ language:
 script:
 - Latn
 abstract:
-- content: 'This document specifies the extensions to the Access Node Control Protocol
+- content: "<p>This document specifies the extensions to the Access Node Control Protocol
     (ANCP) (RFC 6320) required for support of the multicast use cases defined in the
     Access Node Control Protocol framework document (RFC 5851) and one additional
     use case described in this document. These use cases are organized into the following
-    ANCP capabilities: o multicast replication initiated by the Network Access Server
-    (NAS); o conditional access and admission control with white and black lists;
-    o conditional access and admission control with grey lists; o bandwidth delegation;
-    and o committed bandwidth reporting. These capabilities may be combined according
-    to the rules given in this specification. This document updates RFC 6320 by assigning
-    capability type 3 to a capability specified in this document and by changing the
-    starting point for IANA allocation of result codes determined by IETF Consensus
-    from 0x100 to 0x64.'
+    ANCP capabilities:</p><p>o multicast replication initiated by the Network Access
+    Server (NAS);</p><p>o conditional access and admission control with white and
+    black lists;</p><p>o conditional access and admission control with grey lists;</p><p>o
+    bandwidth delegation; and</p><p>o committed bandwidth reporting.</p><p>These capabilities
+    may be combined according to the rules given in this specification.</p><p>This
+    document updates RFC 6320 by assigning capability type 3 to a capability specified
+    in this document and by changing the starting point for IANA allocation of result
+    codes determined by IETF Consensus from 0x100 to 0x64.</p>"
   language:
   - en
   script:
@@ -80,6 +116,11 @@ relation:
     formattedref:
       content: RFC6320
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7256'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ancp

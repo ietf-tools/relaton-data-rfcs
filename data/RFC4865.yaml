@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: White
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. White
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vaudreuil
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Vaudreuil
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo defines an extension to the SMTP submission protocol for a client
-    to indicate a future time for the message to be released for delivery.  This extension
-    permits a client to use server-based storage for a message that should be held
-    in queue until an appointed time in the future.  This is useful for clients which
-    do not have local storage or are otherwise unable to release a message for delivery
-    at an appointed time. [STANDARDS-TRACK]
+- content: "<p>This memo defines an extension to the SMTP submission protocol for
+    a client to indicate a future time for the message to be released for delivery.
+    \ This extension permits a client to use server-based storage for a message that
+    should be held in queue until an appointed time in the future.  This is useful
+    for clients which do not have local storage or are otherwise unable to release
+    a message for delivery at an appointed time. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -69,7 +93,12 @@ relation:
     formattedref:
       content: RFC3464
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4865'
+fetched: '2022-01-23'
 keyword:
 - simple mail transfer protocol
 - future-release-integer

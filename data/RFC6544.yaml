@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Keranen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Keranen
         language:
@@ -43,6 +67,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lowekamp
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. B. Lowekamp
         language:
@@ -53,6 +94,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. B. Roach
         language:
@@ -67,20 +125,25 @@ language:
 script:
 - Latn
 abstract:
-- content: Interactive Connectivity Establishment (ICE) defines a mechanism for NAT
-    traversal for multimedia communication protocols based on the offer/answer model
-    of session negotiation.  ICE works by providing a set of candidate transport addresses
-    for each media stream, which are then validated with peer-to-peer connectivity
+- content: "<p>Interactive Connectivity Establishment (ICE) defines a mechanism for
+    NAT traversal for multimedia communication protocols based on the offer/answer
+    model of session negotiation.  ICE works by providing a set of candidate transport
+    addresses for each media stream, which are then validated with peer-to-peer connectivity
     checks based on Session Traversal Utilities for NAT (STUN).  ICE provides a general
-    framework for describing candidates but only defines UDP-based media streams.  This
-    specification extends ICE to TCP-based media, including the ability to offer a
-    mix of TCP and UDP-based candidates for a single stream. [STANDARDS-TRACK]
+    framework for describing candidates but only defines UDP-based media streams.
+    \ This specification extends ICE to TCP-based media, including the ability to
+    offer a mix of TCP and UDP-based candidates for a single stream. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6544'
+fetched: '2022-01-23'
 keyword:
 - ICE
 - TCP

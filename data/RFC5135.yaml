@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wing
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Wing
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eckert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Eckert
         language:
@@ -48,19 +72,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies requirements for a for a Network Address Translator
+- content: "<p>This document specifies requirements for a for a Network Address Translator
     (NAT) and a Network Address Port Translator (NAPT) that support Any Source IP
     Multicast or Source-Specific IP Multicast.  An IP multicast-capable NAT device
     that adheres to the requirements of this document can optimize the operation of
-    IP multicast applications that are generally unaware of IP multicast NAT devices.  This
-    document specifies an Internet Best Current Practices for the Internet Community,
-    and requests discussion and suggestions for improvements.
+    IP multicast applications that are generally unaware of IP multicast NAT devices.
+    \ This document specifies an Internet Best Current Practices for the Internet
+    Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '135'
+- title:
+    content: RFC
+    format: text/plain
+  number: '5135'
+fetched: '2022-01-23'
 keyword:
 - multicast application
 - multicast nat

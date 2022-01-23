@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sparks
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sparks
         language:
@@ -33,6 +45,23 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -47,10 +76,11 @@ language:
 script:
 - Latn
 abstract:
-- content: The SIP REFER method relies on the SIP-Specific Event Notification framework.  That
-    framework was revised by RFC 6665.  This document highlights the implications
-    of the requirement changes in RFC 6665, and updates the definition of the REFER
-    method described in RFC 3515 to clarify and disambiguate the impact of those changes.
+- content: "<p>The SIP REFER method relies on the SIP-Specific Event Notification
+    framework.  That framework was revised by RFC 6665.  This document highlights
+    the implications of the requirement changes in RFC 6665, and updates the definition
+    of the REFER method described in RFC 3515 to clarify and disambiguate the impact
+    of those changes.</p>"
   language:
   - en
   script:
@@ -62,6 +92,11 @@ relation:
     formattedref:
       content: RFC3515
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7647'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sipcore

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zeilenga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Zeilenga
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the LDAP/X.500 \'entryUUID' operational attribute
+- content: "<p>This document describes the LDAP/X.500 \\'entryUUID' operational attribute
     and associated matching rules and syntax.  The attribute holds a server-assigned
     Universally Unique Identifier (UUID) for the object.  Directory clients may use
     this attribute to distinguish objects identified by a distinguished name or to
-    locate an object after renaming. [STANDARDS-TRACK]
+    locate an object after renaming. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4530'
+fetched: '2022-01-23'
 keyword:
 - x.500
 - universally unique identifier

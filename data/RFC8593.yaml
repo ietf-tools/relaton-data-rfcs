@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: X
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: X. Zhu
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mena
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Mena
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sarker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Sarker
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes two reference video traffic models for evaluating
+- content: "<p>This document describes two reference video traffic models for evaluating
     RTP congestion control algorithms.  The first model statistically characterizes
     the behavior of a live video encoder in response to changing requests on the target
     video rate.  The second model is trace-driven and emulates the output of actual
@@ -65,13 +101,18 @@ abstract:
     designed to strike a balance between simplicity, repeatability, and authenticity
     in modeling the interactions between a live video traffic source and the congestion
     control module.  Finally, the document describes how both approaches can be combined
-    into a hybrid model.
+    into a hybrid model.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8593'
+fetched: '2022-01-23'
 keyword:
 - Multimedia
 - Congestion Control

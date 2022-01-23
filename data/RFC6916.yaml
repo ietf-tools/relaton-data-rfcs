@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gagliano
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gagliano
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kent
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kent
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Turner
         language:
@@ -58,19 +94,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the process that Certification Authorities (CAs)
-    and Relying Parties (RPs) participating in the Resource Public Key Infrastructure
+- content: "<p>This document specifies the process that Certification Authorities
+    (CAs) and Relying Parties (RPs) participating in the Resource Public Key Infrastructure
     (RPKI) will need to follow to transition to a new (and probably cryptographically
     stronger) algorithm set.  The process is expected to be completed over a timescale
     of several years.  Consequently, no emergency transition is specified.  The transition
     procedure defined in this document supports only a top-down migration (parent
-    migrates before children).
+    migrates before children).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '182'
+- title:
+    content: RFC
+    format: text/plain
+  number: '6916'
+fetched: '2022-01-23'
 keyword:
 - Resource Public Key Infrastructure
 - RPKI

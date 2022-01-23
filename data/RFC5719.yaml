@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Romascanu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Romascanu
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Tschofenig
         language:
@@ -47,10 +71,10 @@ language:
 script:
 - Latn
 abstract:
-- content: The Diameter base specification, described in RFC 3588, provides a number
-    of ways to extend Diameter, with new Diameter commands (i.e., messages used by
-    Diameter applications) and applications as the most extensive enhancements. RFC
-    3588 illustrates the conditions that lead to the need to define a new Diameter
+- content: "<p>The Diameter base specification, described in RFC 3588, provides a
+    number of ways to extend Diameter, with new Diameter commands (i.e., messages
+    used by Diameter applications) and applications as the most extensive enhancements.
+    RFC 3588 illustrates the conditions that lead to the need to define a new Diameter
     application or a new command code. Depending on the scope of the Diameter extension,
     IETF actions are necessary. Although defining new Diameter applications does not
     require IETF consensus, defining new Diameter commands requires IETF consensus
@@ -59,10 +83,10 @@ abstract:
     commands -- rather than asking for assignment of new command codes -- for the
     pure purpose of avoiding bringing their specifications to the IETF. In some cases,
     interoperability problems were an effect of the poor design caused by overloading
-    existing commands. This document aligns the extensibility rules of the Diameter
+    existing commands.</p><p>This document aligns the extensibility rules of the Diameter
     application with the Diameter commands, offering ways to delegate work on Diameter
     to other SDOs to extend Diameter in a way that does not lead to poor design choices.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -79,7 +103,12 @@ relation:
     formattedref:
       content: RFC3588
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5719'
+fetched: '2022-01-23'
 keyword:
 - diameter application
 - diameter commands

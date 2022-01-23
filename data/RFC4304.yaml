@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kent
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kent
         language:
@@ -38,19 +50,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The IP Security Authentication Header (AH) and Encapsulating Security Payload
-    (ESP) protocols use a sequence number to detect replay.  This document describes
-    extensions to the Internet IP Security Domain of Interpretation (DOI) for the
-    Internet Security Association and Key Management Protocol (ISAKMP).  These extensions
-    support negotiation of the use of traditional 32-bit sequence numbers or extended
-    (64-bit) sequence numbers (ESNs) for a particular AH or ESP security association.
-    [STANDARDS-TRACK]
+- content: "<p>The IP Security Authentication Header (AH) and Encapsulating Security
+    Payload (ESP) protocols use a sequence number to detect replay.  This document
+    describes extensions to the Internet IP Security Domain of Interpretation (DOI)
+    for the Internet Security Association and Key Management Protocol (ISAKMP).  These
+    extensions support negotiation of the use of traditional 32-bit sequence numbers
+    or extended (64-bit) sequence numbers (ESNs) for a particular AH or ESP security
+    association. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4304'
+fetched: '2022-01-23'
 keyword:
 - ipsecurity
 - anti-replay

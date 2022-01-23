@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wasserman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Wasserman
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Zhang
         language:
@@ -57,22 +93,27 @@ language:
 script:
 - Latn
 abstract:
-- content: As the Extensible Authentication Protocol (EAP) evolves, EAP peers rely
-    increasingly on information received from the EAP server.  EAP extensions such
-    as channel binding or network posture information are often carried in tunnel
+- content: "<p>As the Extensible Authentication Protocol (EAP) evolves, EAP peers
+    rely increasingly on information received from the EAP server.  EAP extensions
+    such as channel binding or network posture information are often carried in tunnel
     methods; peers are likely to rely on this information.  Cryptographic binding
     is a facility described in RFC 3748 that protects tunnel methods against man-in-the-middle
     attacks.  However, cryptographic binding focuses on protecting the server rather
     than the peer.  This memo explores attacks possible when the peer is not protected
     from man-in-the-middle attacks and recommends cryptographic binding based on an
     Extended Master Session Key, a new form of cryptographic binding that protects
-    both peer and server along with other mitigations.
+    both peer and server along with other mitigations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7029'
+fetched: '2022-01-23'
 keyword:
 - MITM
 - man-in-the-middle

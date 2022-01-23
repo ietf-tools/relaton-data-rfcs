@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -47,24 +71,29 @@ language:
 script:
 - Latn
 abstract:
-- content: The Internet Message Access Protocol Version 4rev2 (IMAP4rev2) allows a
-    client to access and manipulate electronic mail messages on a server. IMAP4rev2
+- content: "<p>The Internet Message Access Protocol Version 4rev2 (IMAP4rev2) allows
+    a client to access and manipulate electronic mail messages on a server. IMAP4rev2
     permits manipulation of mailboxes (remote message folders) in a way that is functionally
     equivalent to local folders. IMAP4rev2 also provides the capability for an offline
-    client to resynchronize with the server. IMAP4rev2 includes operations for creating,
-    deleting, and renaming mailboxes; checking for new messages; removing messages
-    permanently; setting and clearing flags; parsing per RFCs 5322, 2045, and 2231;
-    searching; and selective fetching of message attributes, texts, and portions thereof.
-    Messages in IMAP4rev2 are accessed by the use of numbers. These numbers are either
-    message sequence numbers or unique identifiers. IMAP4rev2 does not specify a means
-    of posting mail; this function is handled by a mail submission protocol such as
-    the one specified in RFC 6409.
+    client to resynchronize with the server.</p><p>IMAP4rev2 includes operations for
+    creating, deleting, and renaming mailboxes; checking for new messages; removing
+    messages permanently; setting and clearing flags; parsing per RFCs 5322, 2045,
+    and 2231; searching; and selective fetching of message attributes, texts, and
+    portions thereof. Messages in IMAP4rev2 are accessed by the use of numbers. These
+    numbers are either message sequence numbers or unique identifiers.</p><p>IMAP4rev2
+    does not specify a means of posting mail; this function is handled by a mail submission
+    protocol such as the one specified in RFC 6409.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9051'
+fetched: '2022-01-23'
 keyword:
 - IMAP4rev2
 - imap

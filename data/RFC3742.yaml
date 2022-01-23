@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Floyd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Floyd
         language:
@@ -37,25 +49,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes an optional modification for TCP's slow-start for
-    use with TCP connections with large congestion windows.  For TCP connections that
-    are able to use congestion windows of thousands (or tens of thousands) of MSS-sized
-    segments (for MSS the sender's MAXIMUM SEGMENT SIZE), the current slow-start procedure
-    can result in increasing the congestion window by thousands of segments in a single
-    round-trip time.  Such an increase can easily result in thousands of packets being
-    dropped in one round-trip time.  This is often counter-productive for the TCP
-    flow itself, and is also hard on the rest of the traffic sharing the congested
-    link.  This note describes Limited Slow-Start as an optional mechanism for limiting
-    the number of segments by which the congestion window is increased for one window
-    of data during slow-start, in order to improve performance for TCP connections
-    with large congestion windows.  This memo defines an Experimental Protocol for
-    the Internet community.
+- content: "<p>This document describes an optional modification for TCP's slow-start
+    for use with TCP connections with large congestion windows.  For TCP connections
+    that are able to use congestion windows of thousands (or tens of thousands) of
+    MSS-sized segments (for MSS the sender's MAXIMUM SEGMENT SIZE), the current slow-start
+    procedure can result in increasing the congestion window by thousands of segments
+    in a single round-trip time.  Such an increase can easily result in thousands
+    of packets being dropped in one round-trip time.  This is often counter-productive
+    for the TCP flow itself, and is also hard on the rest of the traffic sharing the
+    congested link.  This note describes Limited Slow-Start as an optional mechanism
+    for limiting the number of segments by which the congestion window is increased
+    for one window of data during slow-start, in order to improve performance for
+    TCP connections with large congestion windows.  This memo defines an Experimental
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3742'
+fetched: '2022-01-23'
 keyword:
 - transmission control protocol
 editorialgroup:

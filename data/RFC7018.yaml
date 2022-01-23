@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Manral
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Manral
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hanna
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hanna
         language:
@@ -47,18 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the problem of enabling a large number of systems
+- content: "<p>This document describes the problem of enabling a large number of systems
     to communicate directly using IPsec to protect the traffic between them. It then
-    expands on the requirements for such a solution. Manual configuration of all possible
-    tunnels is too cumbersome in many such cases. In other cases, the IP addresses
-    of endpoints change, or the endpoints may be behind NAT gateways, making static
-    configuration impossible. The Auto-Discovery VPN solution will address these requirements.
+    expands on the requirements for such a solution.</p><p>Manual configuration of
+    all possible tunnels is too cumbersome in many such cases. In other cases, the
+    IP addresses of endpoints change, or the endpoints may be behind NAT gateways,
+    making static configuration impossible. The Auto-Discovery VPN solution will address
+    these requirements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7018'
+fetched: '2022-01-23'
 keyword:
 - IPsec
 - Overlay

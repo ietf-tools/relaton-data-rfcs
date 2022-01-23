@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo documents a long-standing technique, supported by a large number
-    of mail servers, which allows users to be notified of new mail. In addition to
-    server support, there are a number of clients that support this, ranging from
+- content: <p>This memo documents a long-standing technique, supported by a large
+    number of mail servers, which allows users to be notified of new mail. In addition
+    to server support, there are a number of clients that support this, ranging from
     full email clients to specialized clients whose only purpose is to receive new
-    mail notifications and alert a mail client. In brief, the server sends the string
-    "nm_notifyuser" CRLF to the finger port on the IP address (either configured or
-    last used) of the user who has received new mail. This memo provides information
-    for the Internet community.
+    mail notifications and alert a mail client.</p><p>In brief, the server sends the
+    string "nm_notifyuser" CRLF to the finger port on the IP address (either configured
+    or last used) of the user who has received new mail. This memo provides information
+    for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4146'
+fetched: '2022-01-23'
 keyword:
 - mail client
 - nm_notifyuser

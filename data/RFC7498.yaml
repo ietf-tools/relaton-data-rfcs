@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Quinn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Quinn
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nadeau
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Nadeau
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document provides an overview of the issues associated with the deployment
-    of service functions (such as firewalls, load balancers, etc.) in large-scale
+- content: <p>This document provides an overview of the issues associated with the
+    deployment of service functions (such as firewalls, load balancers, etc.) in large-scale
     environments. The term "service function chaining" is used to describe the definition
     and instantiation of an ordered list of instances of such service functions, and
-    the subsequent "steering" of traffic flows through those service functions. The
+    the subsequent "steering" of traffic flows through those service functions.</p><p>The
     set of enabled service function chains reflects operator service offerings and
-    is designed in conjunction with application delivery and service and network policy.
-    This document also identifies several key areas that the Service Function Chaining
+    is designed in conjunction with application delivery and service and network policy.</p><p>This
+    document also identifies several key areas that the Service Function Chaining
     (SFC) working group will investigate to guide its architectural and protocol work
-    and associated documents.
+    and associated documents.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7498'
+fetched: '2022-01-23'
 keyword:
 - service function chaining
 - steering

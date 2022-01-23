@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -37,14 +49,15 @@ language:
 script:
 - Latn
 abstract:
-- content: Extensions to the Path Computation Element Communication Protocol (PCEP)
+- content: "<p>Extensions to the Path Computation Element Communication Protocol (PCEP)
     to support stateful Path Computation Elements (PCEs) are defined in RFC 8231.
     One of the extensions is the Stateful PCE Request Parameters (SRP) object. That
     object includes a Flags field that is a set of 32 bit flags, and RFC 8281 defines
     an IANA registry for tracking assigned flags. However, RFC 8231 does not explain
     how an implementation should set unassigned flags in transmitted messages, nor
     how an implementation should process unassigned, unknown, or unsupported flags
-    in received messages. This document updates RFC 8231 by defining the correct behaviors.
+    in received messages.</p><p>This document updates RFC 8231 by defining the correct
+    behaviors.</p>"
   language:
   - en
   script:
@@ -56,7 +69,12 @@ relation:
     formattedref:
       content: RFC8231
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8786'
+fetched: '2022-01-23'
 keyword:
 - PCEP
 - Path Computation Element

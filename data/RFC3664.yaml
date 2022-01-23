@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoffman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hoffman
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: Some implementations of IP Security (IPsec) may want to use a pseudo-random
+- content: "<p>Some implementations of IP Security (IPsec) may want to use a pseudo-random
     function derived from the Advanced Encryption Standard (AES).  This document describes
-    such an algorithm, called AES-XCBC-PRF-128.
+    such an algorithm, called AES-XCBC-PRF-128.</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC4434
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3664'
+fetched: '2022-01-23'
 keyword:
 - security
 - ipsec

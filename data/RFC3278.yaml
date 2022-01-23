@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Blake-Wilson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Blake-Wilson
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Brown
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Brown
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lambert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Lambert
         language:
@@ -58,12 +94,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to use Elliptic Curve Cryptography (ECC) public-key
-    algorithms in the Cryptographic Message Syntax (CMS).  The ECC algorithms support
-    the creation of digital signatures and the exchange of keys to encrypt or authenticate
-    content.  The definition of the algorithm processing is based on the ANSI X9.62
-    standard, developed by the ANSI X9F1 working group, the IEEE 1363 standard, and
-    the SEC 1 standard.  This memo provides information for the Internet community.
+- content: "<p>This document describes how to use Elliptic Curve Cryptography (ECC)
+    public-key algorithms in the Cryptographic Message Syntax (CMS).  The ECC algorithms
+    support the creation of digital signatures and the exchange of keys to encrypt
+    or authenticate content.  The definition of the algorithm processing is based
+    on the ANSI X9.62 standard, developed by the ANSI X9F1 working group, the IEEE
+    1363 standard, and the SEC 1 standard.  This memo provides information for the
+    Internet community.</p>"
   language:
   - en
   script:
@@ -75,7 +112,12 @@ relation:
     formattedref:
       content: RFC5753
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3278'
+fetched: '2022-01-23'
 keyword:
 - public key
 - digital signatures

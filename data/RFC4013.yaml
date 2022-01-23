@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zeilenga
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Zeilenga
         language:
@@ -37,12 +49,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to prepare Unicode strings representing user
-    names and passwords for comparison.  The document defines the "SASLprep" profile
-    of the "stringprep" algorithm to be used for both user names and passwords.  This
+- content: <p>This document describes how to prepare Unicode strings representing
+    user names and passwords for comparison.  The document defines the "SASLprep"
+    profile of the "stringprep" algorithm to be used for both user names and passwords.  This
     profile is intended to be used by Simple Authentication and Security Layer (SASL)
     mechanisms (such as PLAIN, CRAM-MD5, and DIGEST-MD5), as well as other protocols
-    exchanging simple user names and/or passwords. [STANDARDS-TRACK]
+    exchanging simple user names and/or passwords. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -54,7 +66,12 @@ relation:
     formattedref:
       content: RFC7613
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4013'
+fetched: '2022-01-23'
 keyword:
 - unicode strings
 - saslprep

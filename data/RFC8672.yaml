@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sheffer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Sheffer
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Migault
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Migault
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: Misissued public-key certificates can prevent TLS clients from appropriately
+- content: "<p>Misissued public-key certificates can prevent TLS clients from appropriately
     authenticating the TLS server. Several alternatives have been proposed to detect
     this situation and prevent a client from establishing a TLS session with a TLS
     end point authenticated with an illegitimate public-key certificate. These mechanisms
-    are either not widely deployed or limited to public web browsing. This document
+    are either not widely deployed or limited to public web browsing.</p><p>This document
     proposes experimental extensions to TLS with opaque pinning tickets as a way to
     pin the server's identity. During an initial TLS session, the server provides
     an original encrypted pinning ticket. In subsequent TLS session establishment,
@@ -59,12 +83,17 @@ abstract:
     pinning ticket and thus the ownership of the pinning protection key. The client
     can now safely conclude that the TLS session is established with the same TLS
     server as the original TLS session. One of the important properties of this proposal
-    is that no manual management actions are required.
+    is that no manual management actions are required.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8672'
+fetched: '2022-01-23'
 keyword:
 - transport layer security

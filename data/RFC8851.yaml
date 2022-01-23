@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roach
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A.B. Roach
         language:
@@ -37,14 +54,14 @@ language:
 script:
 - Latn
 abstract:
-- content: In this specification, we define a framework for specifying restrictions
+- content: <p>In this specification, we define a framework for specifying restrictions
     on RTP streams in the Session Description Protocol (SDP). This framework defines
     a new "rid" ("restriction identifier") SDP attribute to unambiguously identify
     the RTP streams within an RTP session and restrict the streams' payload format
     parameters in a codec-agnostic way beyond what is provided with the regular payload
-    types. This specification updates RFC 4855 to give additional guidance on choice
-    of Format Parameter (fmtp) names and their relation to the restrictions defined
-    by this document.
+    types.</p><p>This specification updates RFC 4855 to give additional guidance on
+    choice of Format Parameter (fmtp) names and their relation to the restrictions
+    defined by this document.</p>
   language:
   - en
   script:
@@ -56,6 +73,11 @@ relation:
     formattedref:
       content: RFC4855
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8851'
+fetched: '2022-01-23'
 editorialgroup:
 - name: mmusic

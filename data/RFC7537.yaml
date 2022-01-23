@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Decraene
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Akiya
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Akiya
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andersson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Andersson
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Aldrin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Aldrin
         language:
@@ -77,13 +137,13 @@ language:
 script:
 - Latn
 abstract:
-- content: RFCs 4379 and 6424 created name spaces for Multi-Protocol Label Switching
+- content: "<p>RFCs 4379 and 6424 created name spaces for Multi-Protocol Label Switching
     (MPLS) Label Switched Path (LSP) Ping. However, those RFCs did not create the
     corresponding IANA registries for Downstream Mapping object Flags (DS Flags),
-    Multipath Types, Pad TLVs, and Interface and Label Stack Address Types. There
+    Multipath Types, Pad TLVs, and Interface and Label Stack Address Types.</p><p>There
     is now a need to make further code point allocations from these name spaces. This
     document updates RFCs 4379 and 6424 in that it creates IANA registries for that
-    purpose.
+    purpose.</p>"
   language:
   - en
   script:
@@ -105,7 +165,12 @@ relation:
     formattedref:
       content: RFC6424
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7537'
+fetched: '2022-01-23'
 keyword:
 - MPLS OAM
 - lsp ping

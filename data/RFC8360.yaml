@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huston
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Huston
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Michaelson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Michaelson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Martinez
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Martinez
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bruijnzeels
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Bruijnzeels
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newton
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Newton
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shaw
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Shaw
         language:
@@ -87,31 +159,36 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies an alternative to the certificate validation procedure
-    specified in RFC 6487 that reduces aspects of operational fragility in the management
-    of certificates in the Resource Public Key Infrastructure (RPKI), while retaining
-    essential security features. The procedure specified in RFC 6487 requires that
-    Resource Certificates are rejected entirely if they are found to overclaim any
-    resources not contained on the issuing certificate, whereas the validation process
-    defined here allows an issuing Certification Authority (CA) to chose to communicate
-    that such Resource Certificates should be accepted for the intersection of their
-    resources and the issuing certificate. It should be noted that the validation
-    process defined here considers validation under a single trust anchor (TA) only.
-    In particular, concerns regarding overclaims where multiple configured TAs claim
-    overlapping resources are considered out of scope for this document. This choice
-    is signaled by a set of alternative Object Identifiers (OIDs) per "X.509 Extensions
-    for IP Addresses and AS Identifiers" (RFC 3779) and "Certificate Policy (CP) for
-    the Resource Public Key Infrastructure (RPKI)" (RFC 6484). It should be noted
-    that in case these OIDs are not used for any certificate under a trust anchor,
-    the validation procedure defined here has the same outcome as the procedure defined
-    in RFC 6487. Furthermore, this document provides an alternative to Route Origin
-    Authorization (ROA) (RFC 6482) and BGPsec Router Certificate (BGPsec PKI Profiles
-    -- publication requested) validation.
+- content: <p>This document specifies an alternative to the certificate validation
+    procedure specified in RFC 6487 that reduces aspects of operational fragility
+    in the management of certificates in the Resource Public Key Infrastructure (RPKI),
+    while retaining essential security features.</p><p>The procedure specified in
+    RFC 6487 requires that Resource Certificates are rejected entirely if they are
+    found to overclaim any resources not contained on the issuing certificate, whereas
+    the validation process defined here allows an issuing Certification Authority
+    (CA) to chose to communicate that such Resource Certificates should be accepted
+    for the intersection of their resources and the issuing certificate.</p><p>It
+    should be noted that the validation process defined here considers validation
+    under a single trust anchor (TA) only. In particular, concerns regarding overclaims
+    where multiple configured TAs claim overlapping resources are considered out of
+    scope for this document.</p><p>This choice is signaled by a set of alternative
+    Object Identifiers (OIDs) per "X.509 Extensions for IP Addresses and AS Identifiers"
+    (RFC 3779) and "Certificate Policy (CP) for the Resource Public Key Infrastructure
+    (RPKI)" (RFC 6484). It should be noted that in case these OIDs are not used for
+    any certificate under a trust anchor, the validation procedure defined here has
+    the same outcome as the procedure defined in RFC 6487.</p><p>Furthermore, this
+    document provides an alternative to Route Origin Authorization (ROA) (RFC 6482)
+    and BGPsec Router Certificate (BGPsec PKI Profiles -- publication requested) validation.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8360'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sidr

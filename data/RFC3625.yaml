@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Garudadri
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Garudadri
         language:
@@ -47,8 +71,8 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 2658 specifies the streaming format for 3GPP2 13KK vocoder (High Rate
-    Speech Service Option 17 for Wideband Spread Spectrum Communications Systems,
+- content: <p>RFC 2658 specifies the streaming format for 3GPP2 13KK vocoder (High
+    Rate Speech Service Option 17 for Wideband Spread Spectrum Communications Systems,
     also known as QCELP 13K vocoder) data, but does not specify a storage format.  Many
     implementations have been using the "QCP" file format (named for its file extension)
     for exchanging QCELP 13K data as well as Enhanced Variable Rate Coder (EVRC) and
@@ -56,7 +80,7 @@ abstract:
     cmda2000(r) handsets).  This document specifies the QCP file format and updates
     the audio/qcelp media registration to specify this format for storage, and registers
     the audio/evrc-qcp and audio/smv-qcp media types for EVRC and SMV (respectively)
-    data stored in this format.
+    data stored in this format.</p>
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC3555
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3625'
+fetched: '2022-01-23'
 keyword:
 - 13k
 - qcelp

@@ -21,18 +21,25 @@ date:
 - type: published
   value: 1996-01
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: Audio-Video Transport Working Group
-        language:
-        - en
-        script:
-        - Latn
+    - Audio-Video Transport Working Group
   role:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -47,9 +54,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes a profile for the use of the real-time transport protocol
-    (RTP), version 2, and the associated control protocol, RTCP, within audio and
-    video multiparticipant conferences with minimal control. [STANDARDS-TRACK]
+- content: "<p>This memo describes a profile for the use of the real-time transport
+    protocol (RTP), version 2, and the associated control protocol, RTCP, within audio
+    and video multiparticipant conferences with minimal control. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -61,7 +68,12 @@ relation:
     formattedref:
       content: RFC3551
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1890'
+fetched: '2022-01-23'
 keyword:
 - RTP-AV
 - end-to-end

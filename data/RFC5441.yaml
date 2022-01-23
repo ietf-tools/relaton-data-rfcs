@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Zhang
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: N
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bitar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: N. Bitar
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JL
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Roux
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JL. Le Roux
         language:
@@ -68,23 +116,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The ability to compute shortest constrained Traffic Engineering Label Switched
-    Paths (TE LSPs) in Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS)
-    networks across multiple domains has been identified as a key requirement.  In
-    this context, a domain is a collection of network elements within a common sphere
-    of address management or path computational responsibility such as an IGP area
-    or an Autonomous Systems.  This document specifies a procedure relying on the
-    use of multiple Path Computation Elements (PCEs) to compute such inter-domain
+- content: "<p>The ability to compute shortest constrained Traffic Engineering Label
+    Switched Paths (TE LSPs) in Multiprotocol Label Switching (MPLS) and Generalized
+    MPLS (GMPLS) networks across multiple domains has been identified as a key requirement.
+    \ In this context, a domain is a collection of network elements within a common
+    sphere of address management or path computational responsibility such as an IGP
+    area or an Autonomous Systems.  This document specifies a procedure relying on
+    the use of multiple Path Computation Elements (PCEs) to compute such inter-domain
     shortest constrained paths across a predetermined sequence of domains, using a
     backward-recursive path computation technique.  This technique preserves confidentiality
     across domains, which is sometimes required when domains are managed by different
-    service providers. [STANDARDS-TRACK]
+    service providers. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5441'
+fetched: '2022-01-23'
 keyword:
 - te lsp
 - path computation element

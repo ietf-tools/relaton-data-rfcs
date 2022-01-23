@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hurtig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hurtig
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Brunstrom
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Brunstrom
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Petlund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Petlund
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Welzl
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Welzl
         language:
@@ -67,20 +115,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a modified sender-side algorithm for managing the
-    TCP and Stream Control Transmission Protocol (SCTP) retransmission timers that
-    provides faster loss recovery when there is a small amount of outstanding data
-    for a connection.  The modification, RTO Restart (RTOR), allows the transport
+- content: "<p>This document describes a modified sender-side algorithm for managing
+    the TCP and Stream Control Transmission Protocol (SCTP) retransmission timers
+    that provides faster loss recovery when there is a small amount of outstanding
+    data for a connection.  The modification, RTO Restart (RTOR), allows the transport
     to restart its retransmission timer using a smaller timeout duration, so that
     the effective retransmission timeout (RTO) becomes more aggressive in situations
     where fast retransmit cannot be used.  This enables faster loss detection and
-    recovery for connections that are short lived or application limited.
+    recovery for connections that are short lived or application limited.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7765'
+fetched: '2022-01-23'
 keyword:
 - tcp
 - retransmission timer

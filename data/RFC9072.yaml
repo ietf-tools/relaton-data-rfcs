@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Chen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Scudder
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Scudder
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The Optional Parameters in the BGP OPEN message as defined in the base
+- content: "<p>The Optional Parameters in the BGP OPEN message as defined in the base
     BGP specification are limited to 255 octets due to a one-octet length field. BGP
     capabilities are carried in this field and may foreseeably exceed 255 octets in
-    the future, leading to concerns about this limitation. This document updates RFC
-    4271 by extending, in a backward-compatible manner, the length of the Optional
+    the future, leading to concerns about this limitation.</p><p>This document updates
+    RFC 4271 by extending, in a backward-compatible manner, the length of the Optional
     Parameters in a BGP OPEN message. The Parameter Length field of individual Optional
-    Parameters is also extended.
+    Parameters is also extended.</p>"
   language:
   - en
   script:
@@ -65,7 +89,12 @@ relation:
     formattedref:
       content: RFC4271
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9072'
+fetched: '2022-01-23'
 keyword:
 - IDR
 - BGP

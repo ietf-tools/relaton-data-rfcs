@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bush
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bush
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Patel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Patel
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ward
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ward
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The BGP specification (RFC 4271) mandates a maximum BGP message size of
-    4,096 octets.  As BGP is extended to support new Address Family Identifiers (AFIs),
-    Subsequent AFIs (SAFIs), and other features, there is a need to extend the maximum
-    message size beyond 4,096 octets.  This document updates the BGP specification
+- content: "<p>The BGP specification (RFC 4271) mandates a maximum BGP message size
+    of 4,096 octets.  As BGP is extended to support new Address Family Identifiers
+    (AFIs), Subsequent AFIs (SAFIs), and other features, there is a need to extend
+    the maximum message size beyond 4,096 octets.  This document updates the BGP specification
     by extending the maximum message size from 4,096 octets to 65,535 octets for all
-    messages except for OPEN and KEEPALIVE messages.
+    messages except for OPEN and KEEPALIVE messages.</p>"
   language:
   - en
   script:
@@ -74,7 +110,12 @@ relation:
     formattedref:
       content: RFC4271
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8654'
+fetched: '2022-01-23'
 keyword:
 - border gateway protocol
 - address family identifiers

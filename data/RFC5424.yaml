@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gerhards
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gerhards
         language:
@@ -37,26 +49,31 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the syslog protocol, which is used to convey event
-    notification messages. This protocol utilizes a layered architecture, which allows
-    the use of any number of transport protocols for transmission of syslog messages.
-    It also provides a message format that allows vendor-specific extensions to be
-    provided in a structured way. This document has been written with the original
-    design goals for traditional syslog in mind. The need for a new layered specification
-    has arisen because standardization efforts for reliable and secure syslog extensions
-    suffer from the lack of a Standards-Track and transport-independent RFC. Without
-    this document, each other standard needs to define its own syslog packet format
-    and transport mechanism, which over time will introduce subtle compatibility issues.
-    This document tries to provide a foundation that syslog extensions can build on.
-    This layered architecture approach also provides a solid basis that allows code
-    to be written once for each syslog feature rather than once for each transport.
-    [STANDARDS-TRACK]
+- content: "<p>This document describes the syslog protocol, which is used to convey
+    event notification messages. This protocol utilizes a layered architecture, which
+    allows the use of any number of transport protocols for transmission of syslog
+    messages. It also provides a message format that allows vendor-specific extensions
+    to be provided in a structured way.</p><p>This document has been written with
+    the original design goals for traditional syslog in mind. The need for a new layered
+    specification has arisen because standardization efforts for reliable and secure
+    syslog extensions suffer from the lack of a Standards-Track and transport-independent
+    RFC. Without this document, each other standard needs to define its own syslog
+    packet format and transport mechanism, which over time will introduce subtle compatibility
+    issues. This document tries to provide a foundation that syslog extensions can
+    build on. This layered architecture approach also provides a solid basis that
+    allows code to be written once for each syslog feature rather than once for each
+    transport. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5424'
+fetched: '2022-01-23'
 keyword:
 - event notification message
 - syslog message

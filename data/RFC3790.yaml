@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mickles
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Mickles
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nesser
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Nesser
         language:
@@ -44,6 +68,12 @@ contributor:
   - author
 - person:
     name:
+      surname:
+        content: II
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: II
         language:
@@ -58,20 +88,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document seeks to document all usage of IPv4 addresses in currently
+- content: "<p>This document seeks to document all usage of IPv4 addresses in currently
     deployed IETF Internet Area documented standards.  In order to successfully transition
     from an all IPv4 Internet to an all IPv6 Internet, many interim steps will be
     taken.  One of these steps is the evolution of current protocols that have IPv4
     dependencies.  It is hoped that these protocols (and their implementations) will
     be redesigned to be network address independent, but failing that will at least
     dually support IPv4 and IPv6.  To this end, all Standards (Full, Draft, and Proposed)
-    as well as Experimental RFCs will be surveyed and any dependencies will be documented.  This
-    memo provides information for the Internet community.
+    as well as Experimental RFCs will be surveyed and any dependencies will be documented.
+    \ This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3790'
+fetched: '2022-01-23'
 editorialgroup:
 - name: v6ops

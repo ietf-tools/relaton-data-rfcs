@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Arkko
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Arkko
         language:
@@ -47,13 +71,13 @@ language:
 script:
 - Latn
 abstract:
-- content: OSPFv3 is a candidate for deployments in environments where autoconfiguration
+- content: "<p>OSPFv3 is a candidate for deployments in environments where autoconfiguration
     is a requirement.  One such environment is the IPv6 home network where users expect
     to simply plug in a router and have it automatically use OSPFv3 for intra-domain
-    routing.  This document describes the necessary mechanisms for OSPFv3 to be self-configuring.  This
-    document updates RFC 5340 by relaxing the HelloInterval/ RouterDeadInterval checking
-    during OSPFv3 adjacency formation and adding hysteresis to the update of self-originated
-    Link State Advertisements (LSAs).
+    routing.  This document describes the necessary mechanisms for OSPFv3 to be self-configuring.
+    \ This document updates RFC 5340 by relaxing the HelloInterval/ RouterDeadInterval
+    checking during OSPFv3 adjacency formation and adding hysteresis to the update
+    of self-originated Link State Advertisements (LSAs).</p>"
   language:
   - en
   script:
@@ -65,6 +89,11 @@ relation:
     formattedref:
       content: RFC5340
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7503'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ospf

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Allan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Woolley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Woolley
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: As part of providing wireline access to the 5G Core (5GC), deployed wireline
-    networks carry user data between 5G residential gateways and the 5G Access Gateway
-    Function (AGF).  The encapsulation method specified in this document supports
+- content: "<p>As part of providing wireline access to the 5G Core (5GC), deployed
+    wireline networks carry user data between 5G residential gateways and the 5G Access
+    Gateway Function (AGF).  The encapsulation method specified in this document supports
     the multiplexing of traffic for multiple PDU sessions within a VLAN-delineated
     access circuit, permits legacy equipment in the data path to inspect certain packet
     fields, carries 5G QoS information associated with the packet data, and provides
     efficient encoding.  It achieves this by specific points of similarity with the
-    Point-to-Point Protocol over Ethernet (PPPoE) data packet encapsulation (RFC 2516).
+    Point-to-Point Protocol over Ethernet (PPPoE) data packet encapsulation (RFC 2516).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8822'
+fetched: '2022-01-23'
 keyword:
 - PPPoE
 - W-AGF

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fette
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Fette
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The WebSocket Protocol enables two-way communication between a client running
-    untrusted code in a controlled environment to a remote host that has opted-in
+- content: "<p>The WebSocket Protocol enables two-way communication between a client
+    running untrusted code in a controlled environment to a remote host that has opted-in
     to communications from that code.  The security model used for this is the origin-based
     security model commonly used by web browsers.  The protocol consists of an opening
     handshake followed by basic message framing, layered over TCP.  The goal of this
     technology is to provide a mechanism for browser-based applications that need
     two-way communication with servers that does not rely on opening multiple HTTP
-    connections (e.g., using XMLHttpRequest or <iframe>s and long polling). [STANDARDS-TRACK]
+    connections (e.g., using XMLHttpRequest or <iframe>s and long polling). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6455'
+fetched: '2022-01-23'
 keyword:
 - HyBi Working Group
 - HYBI

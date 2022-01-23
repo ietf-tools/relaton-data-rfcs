@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Troan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Troan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Volz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Volz
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Siodelski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Siodelski
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification
+- content: "<p>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification
     defined two stateful options, IA_NA and IA_TA, but did not anticipate the development
     of additional stateful options.  DHCPv6 Prefix Delegation added the IA_PD option,
     which is stateful.  Applications that use IA_NA and IA_PD together have revealed
     issues that need to be addressed.  This document updates RFCs 3315 and 3633 to
-    address these issues.
+    address these issues.</p>"
   language:
   - en
   script:
@@ -84,7 +120,12 @@ relation:
     formattedref:
       content: RFC3633
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7550'
+fetched: '2022-01-23'
 keyword:
 - CPE
 - CER

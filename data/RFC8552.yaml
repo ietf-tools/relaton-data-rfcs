@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -38,7 +50,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Formally, any DNS Resource Record (RR) may occur under any domain name.  However,
+- content: <p>Formally, any DNS Resource Record (RR) may occur under any domain name.  However,
     some services use an operational convention for defining specific interpretations
     of an RRset by locating the records in a DNS branch under the parent domain to
     which the RRset actually applies.  The top of this subordinate branch is defined
@@ -48,13 +60,22 @@ abstract:
     underscored branch.  This specification explores the nature of this DNS usage
     and defines the "Underscored and Globally Scoped DNS Node Names" registry with
     IANA.  The purpose of this registry is to avoid collisions resulting from the
-    use of the same underscored name for different services.
+    use of the same underscored name for different services.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '222'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8552'
+fetched: '2022-01-23'
 keyword:
 - DNS
 - Domain Name System

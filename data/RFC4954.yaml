@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Siemborski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Siemborski
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a Simple Mail Transport Protocol (SMTP) extension
+- content: "<p>This document defines a Simple Mail Transport Protocol (SMTP) extension
     whereby an SMTP client may indicate an authentication mechanism to the server,
     perform an authentication protocol exchange, and optionally negotiate a security
     layer for subsequent protocol interactions during this session. This extension
     includes a profile of the Simple Authentication and Security Layer (SASL) for
-    SMTP. This document obsoletes RFC 2554. [STANDARDS-TRACK]
+    SMTP.</p><p>This document obsoletes RFC 2554. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -64,7 +88,12 @@ relation:
     formattedref:
       content: RFC3463
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4954'
+fetched: '2022-01-23'
 keyword:
 - simple mail transport protocol
 - security layer

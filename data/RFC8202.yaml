@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ginsberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Ginsberg
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Previdi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Previdi
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Henderickx
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Henderickx
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism that allows a single router to share
-    one or more circuits among multiple Intermediate System to Intermediate System
-    (IS-IS) routing protocol instances. Multiple instances allow the isolation of
-    resources associated with each instance. Routers will form instance-specific adjacencies.
-    Each instance can support multiple topologies. Each topology has a unique Link
-    State Database (LSDB). Each Protocol Data Unit (PDU) will contain a new Type-Length-Value
-    (TLV) identifying the instance and the topology (or topologies) to which the PDU
-    belongs. This document obsoletes RFC 6822.
+- content: "<p>This document describes a mechanism that allows a single router to
+    share one or more circuits among multiple Intermediate System to Intermediate
+    System (IS-IS) routing protocol instances.</p><p>Multiple instances allow the
+    isolation of resources associated with each instance. Routers will form instance-specific
+    adjacencies. Each instance can support multiple topologies. Each topology has
+    a unique Link State Database (LSDB). Each Protocol Data Unit (PDU) will contain
+    a new Type-Length-Value (TLV) identifying the instance and the topology (or topologies)
+    to which the PDU belongs.</p><p>This document obsoletes RFC 6822.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8202'
+fetched: '2022-01-23'
 editorialgroup:
 - name: isis

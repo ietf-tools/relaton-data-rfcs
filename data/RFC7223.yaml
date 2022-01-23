@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bjorklund
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bjorklund
         language:
@@ -37,10 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines a YANG data model for the management of network interfaces.  It
-    is expected that interface-type-specific data models augment the generic interfaces
-    data model defined in this document.  The data model includes configuration data
-    and state data (status information and counters for the collection of statistics).
+- content: "<p>This document defines a YANG data model for the management of network
+    interfaces.  It is expected that interface-type-specific data models augment the
+    generic interfaces data model defined in this document.  The data model includes
+    configuration data and state data (status information and counters for the collection
+    of statistics).</p>"
   language:
   - en
   script:
@@ -52,7 +65,12 @@ relation:
     formattedref:
       content: RFC8343
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7223'
+fetched: '2022-01-23'
 keyword:
 - NETCONF
 - ietf-interfaces

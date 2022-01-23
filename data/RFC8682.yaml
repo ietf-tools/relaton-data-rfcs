@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Saito
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Saito
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Matsumoto
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Matsumoto
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roca
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Roca
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baccelli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Baccelli
         language:
@@ -67,19 +115,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the TinyMT32 Pseudorandom Number Generator (PRNG),
-    which produces 32-bit pseudorandom unsigned integers and aims at having a simple-to-use
-    and deterministic solution.  This PRNG is a small-sized variant of the Mersenne
-    Twister (MT) PRNG.  The main advantage of TinyMT32 over MT is the use of a small
-    internal state, compatible with most target platforms that include embedded devices,
-    while keeping reasonably good randomness that represents a significant improvement
-    compared to the Park-Miller Linear Congruential PRNG.  However, neither the TinyMT
-    nor MT PRNG is meant to be used for cryptographic applications.
+- content: "<p>This document describes the TinyMT32 Pseudorandom Number Generator
+    (PRNG), which produces 32-bit pseudorandom unsigned integers and aims at having
+    a simple-to-use and deterministic solution.  This PRNG is a small-sized variant
+    of the Mersenne Twister (MT) PRNG.  The main advantage of TinyMT32 over MT is
+    the use of a small internal state, compatible with most target platforms that
+    include embedded devices, while keeping reasonably good randomness that represents
+    a significant improvement compared to the Park-Miller Linear Congruential PRNG.
+    \ However, neither the TinyMT nor MT PRNG is meant to be used for cryptographic
+    applications.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8682'
+fetched: '2022-01-23'
 editorialgroup:
 - name: tsvwg

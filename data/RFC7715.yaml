@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raza
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Raza
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atlas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Atlas
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tantsura
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Tantsura
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Q
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Q. Zhao
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes procedures to support node protection for Point-to-Multipoint
+- content: "<p>This document describes procedures to support node protection for Point-to-Multipoint
     and Multipoint-to-Multipoint Label Switched Paths (P2MP and MP2MP LSPs) that have
     been built by the Multipoint Label Distribution Protocol (mLDP).  In order to
     protect a node N, the Point of Local Repair (PLR) Label Switching Router (LSR)
@@ -85,12 +145,17 @@ abstract:
     redirected to them in case node N fails.  Redirecting the traffic around the failed
     node N depends on existing Point-to-Point (P2P) Label Switched Paths (LSPs).  The
     pre-established LSPs originate from the PLR LSR and terminate on the MPT LSRs
-    while bypassing LSR N.
+    while bypassing LSR N.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7715'
+fetched: '2022-01-23'
 editorialgroup:
 - name: mpls

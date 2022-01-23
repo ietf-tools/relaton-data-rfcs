@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Newman
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The submission profile of Simple Mail Transfer Protocol (SMTP) provides
-    a standard way for an email client to submit a complete message for delivery.  This
-    specification extends the submission profile by adding a new BURL command that
-    can be used to fetch submission data from an Internet Message Access Protocol
+- content: "<p>The submission profile of Simple Mail Transfer Protocol (SMTP) provides
+    a standard way for an email client to submit a complete message for delivery.
+    \ This specification extends the submission profile by adding a new BURL command
+    that can be used to fetch submission data from an Internet Message Access Protocol
     (IMAP) server.  This permits a mail client to inject content from an IMAP server
     into the SMTP infrastructure without downloading it to the client and uploading
-    it back to the server. [STANDARDS-TRACK]
+    it back to the server. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC3463
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4468'
+fetched: '2022-01-23'
 keyword:
 - URLAUTH
 - IMAP

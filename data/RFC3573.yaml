@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Goyret
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Goyret
         language:
@@ -37,23 +49,29 @@ language:
 script:
 - Latn
 abstract:
-- content: The Layer 2 Tunneling Protocol (L2TP) defines a mechanism for tunneling
+- content: "<p>The Layer 2 Tunneling Protocol (L2TP) defines a mechanism for tunneling
     Point-to-Point Protocol (PPP) sessions.  It is common for these PPP sessions to
-    be established using modems connected over the public switched telephone network.  One
-    of the standards governing modem operation defines procedures that enable a client
-    modem to put the call on hold and later, re-establish the modem link with minimal
-    delay and without having to redial.  While the modem call is on hold, the client
-    phone line can be used to place or receive other calls.  The L2TP base protocol
-    does not provide any means to signal these events from the L2TP Access Controller
-    (LAC), where the modem is physically connected, to the L2TP Network Server (LNS),
-    where the PPP session is handled.  This document describes a method to let the
-    LNS know when a client modem connected to a LAC has placed the call on hold. [STANDARDS-TRACK]
+    be established using modems connected over the public switched telephone network.
+    \ One of the standards governing modem operation defines procedures that enable
+    a client modem to put the call on hold and later, re-establish the modem link
+    with minimal delay and without having to redial.  While the modem call is on hold,
+    the client phone line can be used to place or receive other calls.  The L2TP base
+    protocol does not provide any means to signal these events from the L2TP Access
+    Controller (LAC), where the modem is physically connected, to the L2TP Network
+    Server (LNS), where the PPP session is handled.  This document describes a method
+    to let the LNS know when a client modem connected to a LAC has placed the call
+    on hold. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3573'
+fetched: '2022-01-23'
 keyword:
 - ppp
 - point to point

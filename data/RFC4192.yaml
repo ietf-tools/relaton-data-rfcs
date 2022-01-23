@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Baker
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lear
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Lear
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Droms
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Droms
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a procedure that can be used to renumber a network
+- content: <p>This document describes a procedure that can be used to renumber a network
     from one prefix to another.  It uses IPv6's intrinsic ability to assign multiple
     addresses to a network interface to provide continuity of network service through
     a "make-before-break" transition, as well as addresses naming and configuration
     management issues.  It also uses other IPv6 features to minimize the effort and
     time required to complete the transition from the old prefix to the new prefix.  This
-    memo provides information for the Internet community.
+    memo provides information for the Internet community.</p>
   language:
   - en
   script:
@@ -75,7 +111,12 @@ relation:
     formattedref:
       content: RFC2072
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4192'
+fetched: '2022-01-23'
 keyword:
 - prefix
 - internet protocol

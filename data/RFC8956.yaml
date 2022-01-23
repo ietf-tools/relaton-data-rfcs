@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Loibl
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Loibl
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Raszuk
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Raszuk
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hares
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hares
         language:
@@ -57,11 +93,11 @@ language:
 script:
 - Latn
 abstract:
-- content: '"Dissemination of Flow Specification Rules" (RFC 8955) provides a Border
+- content: <p>"Dissemination of Flow Specification Rules" (RFC 8955) provides a Border
     Gateway Protocol (BGP) extension for the propagation of traffic flow information
-    for the purpose of rate limiting or filtering IPv4 protocol data packets. This
+    for the purpose of rate limiting or filtering IPv4 protocol data packets.</p><p>This
     document extends RFC 8955 with IPv6 functionality. It also updates RFC 8955 by
-    changing the IANA Flow Spec Component Types registry.'
+    changing the IANA Flow Spec Component Types registry.</p>
   language:
   - en
   script:
@@ -73,7 +109,12 @@ relation:
     formattedref:
       content: RFC8955
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8956'
+fetched: '2022-01-23'
 keyword:
 - BGP Flow Specification
 - V6

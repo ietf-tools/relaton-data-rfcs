@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ludwig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Ludwig
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Meyer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Meyer
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Eifel detection algorithm allows a TCP sender to detect a posteriori
+- content: "<p>The Eifel detection algorithm allows a TCP sender to detect a posteriori
     whether it has entered loss recovery unnecessarily.  It requires that the TCP
     Timestamps option defined in RFC 1323 be enabled for a connection.  The Eifel
     detection algorithm makes use of the fact that the TCP Timestamps option eliminates
@@ -56,13 +80,18 @@ abstract:
     unnecessarily.  The Eifel detection algorithm provides a basis for future TCP
     enhancements.  This includes response algorithms to back out of loss recovery
     by restoring a TCP sender's congestion control state.  This memo defines an Experimental
-    Protocol for the Internet community.
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3522'
+fetched: '2022-01-23'
 keyword:
 - transmission control protocol
 - loss recovery

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Rosen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schulzrinne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Schulzrinne
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Tschofenig
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gellens
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gellens
         language:
@@ -67,23 +115,28 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Use of the Internet for emergency calling is described in RFC 6443, ''Framework
-    for Emergency Calling Using Internet Multimedia''.  In some cases of emergency
-    calls, the transmission of application data is all that is needed, and no interactive
-    media channel is established: a situation referred to as ''non-interactive emergency
-    calls'', where, unlike most emergency calls, there is no two-way interactive media
-    such as voice or video or text.  This document describes use of a SIP MESSAGE
+- content: "<p>Use of the Internet for emergency calling is described in RFC 6443,
+    'Framework for Emergency Calling Using Internet Multimedia'.  In some cases of
+    emergency calls, the transmission of application data is all that is needed, and
+    no interactive media channel is established: a situation referred to as 'non-interactive
+    emergency calls', where, unlike most emergency calls, there is no two-way interactive
+    media such as voice or video or text.  This document describes use of a SIP MESSAGE
     transaction that includes a container for the data based on the Common Alerting
     Protocol (CAP).  That type of emergency request does not establish a session,
     distinguishing it from SIP INVITE, which does.  Any device that needs to initiate
     a request for emergency services without an interactive media channel would use
-    the mechanisms in this document.'
+    the mechanisms in this document.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8876'
+fetched: '2022-01-23'
 keyword:
 - CAP
 - Common Alerting Protocol

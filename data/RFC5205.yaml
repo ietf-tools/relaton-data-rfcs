@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nikander
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Nikander
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Laganier
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Laganier
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a new resource record (RR) for the Domain Name
+- content: "<p>This document specifies a new resource record (RR) for the Domain Name
     System (DNS), and how to use it with the Host Identity Protocol (HIP).  This RR
     allows a HIP node to store in the DNS its Host Identity (HI, the public component
     of the node public-private key pair), Host Identity Tag (HIT, a truncated hash
     of its public key), and the Domain Names of its rendezvous servers (RVSs).  This
-    memo defines an Experimental Protocol for the Internet community.
+    memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -64,7 +88,12 @@ relation:
     formattedref:
       content: RFC8005
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5205'
+fetched: '2022-01-23'
 keyword:
 - hip
 - host identity protocol

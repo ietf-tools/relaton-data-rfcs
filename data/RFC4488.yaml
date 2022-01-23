@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Levin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Levin
         language:
@@ -38,18 +50,23 @@ language:
 script:
 - Latn
 abstract:
-- content: The Session Initiation Protocol (SIP) REFER extension as defined in RFC
-    3515 automatically establishes a typically short-lived event subscription used
-    to notify the party sending a REFER request about the receiver's status in executing
-    the transaction requested by the REFER.  These notifications are not needed in
-    all cases.  This specification provides a way to prevent the automatic establishment
-    of an event subscription and subsequent notifications using a new SIP extension
-    header field that may be included in a REFER request. [STANDARDS-TRACK]
+- content: "<p>The Session Initiation Protocol (SIP) REFER extension as defined in
+    RFC 3515 automatically establishes a typically short-lived event subscription
+    used to notify the party sending a REFER request about the receiver's status in
+    executing the transaction requested by the REFER.  These notifications are not
+    needed in all cases.  This specification provides a way to prevent the automatic
+    establishment of an event subscription and subsequent notifications using a new
+    SIP extension header field that may be included in a REFER request. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4488'
+fetched: '2022-01-23'
 editorialgroup:
 - name: sip

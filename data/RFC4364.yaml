@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rekhter
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Rekhter
         language:
@@ -47,19 +71,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a method by which a Service Provider may use an
-    IP backbone to provide IP Virtual Private Networks (VPNs) for its customers.  This
+- content: <p>This document describes a method by which a Service Provider may use
+    an IP backbone to provide IP Virtual Private Networks (VPNs) for its customers.  This
     method uses a "peer model", in which the customers' edge routers (CE routers)
     send their routes to the Service Provider's edge routers (PE routers); there is
     no "overlay" visible to the customer's routing algorithm, and CE routers at different
     sites do not peer with each other.  Data packets are tunneled through the backbone,
-    so that the core routers do not need to know the VPN routes. [STANDARDS-TRACK]
+    so that the core routers do not need to know the VPN routes. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4364'
+fetched: '2022-01-23'
 keyword:
 - service provider
 - ip backbone

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Decraene
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: JL
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Le Roux
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JL. Le Roux
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Minei
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Minei
         language:
@@ -57,19 +93,24 @@ language:
 script:
 - Latn
 abstract:
-- content: To facilitate the establishment of Label Switched Paths (LSPs) that would
-    span multiple IGP areas in a given Autonomous System (AS), this document describes
-    a new optional Longest-Match Label Mapping Procedure for the Label Distribution
-    Protocol (LDP). This procedure allows the use of a label if the Forwarding Equivalence
-    Class (FEC) Element matches an entry in the Routing Information Base (RIB). Matching
-    is defined by an IP longest-match search and does not mandate an exact match.
-    [STANDARDS-TRACK]
+- content: "<p>To facilitate the establishment of Label Switched Paths (LSPs) that
+    would span multiple IGP areas in a given Autonomous System (AS), this document
+    describes a new optional Longest-Match Label Mapping Procedure for the Label Distribution
+    Protocol (LDP).</p><p>This procedure allows the use of a label if the Forwarding
+    Equivalence Class (FEC) Element matches an entry in the Routing Information Base
+    (RIB). Matching is defined by an IP longest-match search and does not mandate
+    an exact match. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5283'
+fetched: '2022-01-23'
 keyword:
 - LDP label mapping procedures
 - longest-match

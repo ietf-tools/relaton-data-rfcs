@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lacan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Lacan
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roca
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Roca
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peltotalo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Peltotalo
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peltotalo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Peltotalo
         language:
@@ -67,25 +115,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a Fully-Specified Forward Error Correction (FEC)
-    Scheme for the Reed-Solomon FEC codes over GF(2^^m), where m is in {2..16}, and
-    its application to the reliable delivery of data objects on the packet erasure
+- content: "<p>This document describes a Fully-Specified Forward Error Correction
+    (FEC) Scheme for the Reed-Solomon FEC codes over GF(2^^m), where m is in {2..16},
+    and its application to the reliable delivery of data objects on the packet erasure
     channel (i.e., a communication path where packets are either received without
     any corruption or discarded during transmission). This document also describes
     a Fully-Specified FEC Scheme for the special case of Reed-Solomon codes over GF(2^^8)
     when there is no encoding symbol group. Finally, in the context of the Under-Specified
     Small Block Systematic FEC Scheme (FEC Encoding ID 129), this document assigns
-    an FEC Instance ID to the special case of Reed-Solomon codes over GF(2^^8). Reed-Solomon
+    an FEC Instance ID to the special case of Reed-Solomon codes over GF(2^^8).</p><p>Reed-Solomon
     codes belong to the class of Maximum Distance Separable (MDS) codes, i.e., they
     enable a receiver to recover the k source symbols from any set of k received symbols.
     The schemes described here are compatible with the implementation from Luigi Rizzo.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5510'
+fetched: '2022-01-23'
 keyword:
 - maximum distance separable
 - MDS

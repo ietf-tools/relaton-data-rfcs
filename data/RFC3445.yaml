@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Massey
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Massey
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rose
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Rose
         language:
@@ -47,15 +71,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This document limits the Domain Name System (DNS) KEY Resource Record (RR)
-    to only keys used by the Domain Name System Security Extensions (DNSSEC).  The
-    original KEY RR used sub-typing to store both DNSSEC keys and arbitrary application
-    keys.  Storing both DNSSEC and application keys with the same record type is a
-    mistake.  This document removes application keys from the KEY record by redefining
-    the Protocol Octet field in the KEY RR Data.  As a result of removing application
-    keys, all but one of the flags in the KEY record become unnecessary and are redefined.  Three
-    existing application key sub-types are changed to reserved, but the format of
-    the KEY record is not changed.  This document updates RFC 2535. [STANDARDS-TRACK]
+- content: "<p>This document limits the Domain Name System (DNS) KEY Resource Record
+    (RR) to only keys used by the Domain Name System Security Extensions (DNSSEC).
+    \ The original KEY RR used sub-typing to store both DNSSEC keys and arbitrary
+    application keys.  Storing both DNSSEC and application keys with the same record
+    type is a mistake.  This document removes application keys from the KEY record
+    by redefining the Protocol Octet field in the KEY RR Data.  As a result of removing
+    application keys, all but one of the flags in the KEY record become unnecessary
+    and are redefined.  Three existing application key sub-types are changed to reserved,
+    but the format of the KEY record is not changed.  This document updates RFC 2535.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -82,7 +107,12 @@ relation:
     formattedref:
       content: RFC2535
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3445'
+fetched: '2022-01-23'
 keyword:
 - DNS-SECEXT
 - dns

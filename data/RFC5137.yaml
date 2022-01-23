@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Klensin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Klensin
         language:
@@ -37,8 +49,8 @@ language:
 script:
 - Latn
 abstract:
-- content: There are a number of circumstances in which an escape mechanism is needed
-    in conjunction with a protocol to encode characters that cannot be represented
+- content: "<p>There are a number of circumstances in which an escape mechanism is
+    needed in conjunction with a protocol to encode characters that cannot be represented
     or transmitted directly.  With ASCII coding, the traditional escape has been either
     the decimal or hexadecimal numeric value of the character, written in a variety
     of different ways.  The move to Unicode, where characters occupy two or more octets
@@ -46,13 +58,22 @@ abstract:
     of escapes.  This document discusses some options now in use and discusses considerations
     for selecting one for use in new IETF protocols, and protocols that are now being
     internationalized.  This document specifies an Internet Best Current Practices
-    for the Internet Community, and requests discussion and suggestions for improvements.
+    for the Internet Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '137'
+- title:
+    content: RFC
+    format: text/plain
+  number: '5137'
+fetched: '2022-01-23'
 keyword:
 - Text
 - internationalization

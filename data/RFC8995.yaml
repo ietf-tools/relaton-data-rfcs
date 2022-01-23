@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pritikin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Pritikin
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Richardson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Richardson
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eckert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Eckert
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Behringer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Behringer
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Watsen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Watsen
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies automated bootstrapping of an Autonomic Control
+- content: "<p>This document specifies automated bootstrapping of an Autonomic Control
     Plane.  To do this, a Secure Key Infrastructure is bootstrapped.  This is done
     using manufacturer-installed X.509 certificates, in combination with a manufacturer's
     authorizing service, both online and offline.  We call this process the Bootstrapping
@@ -85,15 +145,20 @@ abstract:
     can occur when using a routable address and a cloud service, only link-local connectivity,
     or limited/disconnected networks.  Support for deployment models with less stringent
     security requirements is included.  Bootstrapping is complete when the cryptographic
-    identity of the new key infrastructure is successfully deployed to the device.  The
-    established secure connection can be used to deploy a locally issued certificate
-    to the device as well.
+    identity of the new key infrastructure is successfully deployed to the device.
+    \ The established secure connection can be used to deploy a locally issued certificate
+    to the device as well.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8995'
+fetched: '2022-01-23'
 keyword:
 - Autonomic Networking
 - Autonomous Operation

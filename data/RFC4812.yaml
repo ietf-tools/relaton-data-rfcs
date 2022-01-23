@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nguyen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Nguyen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Roy
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zinin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Zinin
         language:
@@ -57,26 +93,31 @@ language:
 script:
 - Latn
 abstract:
-- content: OSPF is a link-state intra-domain routing protocol used in IP networks.
+- content: "<p>OSPF is a link-state intra-domain routing protocol used in IP networks.
     Routers find new and detect unreachable neighbors via the Hello subprotocol. Hello
     OSPF packets are also used to ensure two-way connectivity within time. When a
     router restarts its OSPF software, it may not know its neighbors. If such a router
     sends a Hello packet on an interface, its neighbors are going to reset the adjacency,
-    which may not be desirable in certain conditions. This memo describes a vendor-specific
-    mechanism that allows OSPF routers to inform their neighbors about the restart
-    process. Note that this mechanism requires support from neighboring routers. The
-    mechanism described in this document was proposed before Graceful OSPF Restart,
-    as described in RFC 3623, came into existence. It is implemented/supported by
-    at least one major vendor and is currently deployed in the field. The purpose
+    which may not be desirable in certain conditions.</p><p>This memo describes a
+    vendor-specific mechanism that allows OSPF routers to inform their neighbors about
+    the restart process. Note that this mechanism requires support from neighboring
+    routers. The mechanism described in this document was proposed before Graceful
+    OSPF Restart, as described in RFC 3623, came into existence. It is implemented/supported
+    by at least one major vendor and is currently deployed in the field. The purpose
     of this document is to capture the details of this mechanism for public use. This
     mechanism is not an IETF standard. This memo provides information for the Internet
-    community.
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4812'
+fetched: '2022-01-23'
 keyword:
 - open shortest path first
 editorialgroup:

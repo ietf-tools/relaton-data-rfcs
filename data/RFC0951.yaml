@@ -23,6 +23,23 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Croft
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W.J. Croft
         language:
@@ -33,6 +50,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gilmore
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Gilmore
         language:
@@ -47,22 +76,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This RFC describes an IP/UDP bootstrap protocol (BOOTP) which allows a
-    diskless client machine to discover its own IP address, the address of a server
+- content: "<p>This RFC describes an IP/UDP bootstrap protocol (BOOTP) which allows
+    a diskless client machine to discover its own IP address, the address of a server
     host, and the name of a file to be loaded into memory and executed.  The bootstrap
     operation can be thought of as consisting of TWO PHASES.  This RFC describes the
-    first phase, which could be labeled `address determination and bootfile selection'.  After
-    this address and filename information is obtained, control passes to the second
-    phase of the bootstrap where a file transfer occurs.  The file transfer will typically
-    use the TFTP protocol, since it is intended that both phases reside in PROM on
-    the client.  However BOOTP could also work with other protocols such as SFTP or
-    FTP.  This RFC suggests a proposed protocol for the ARPA-Internet community, and
-    requests discussion and suggestions for improvements.
+    first phase, which could be labeled `address determination and bootfile selection'.
+    \ After this address and filename information is obtained, control passes to the
+    second phase of the bootstrap where a file transfer occurs.  The file transfer
+    will typically use the TFTP protocol, since it is intended that both phases reside
+    in PROM on the client.  However BOOTP could also work with other protocols such
+    as SFTP or FTP.  This RFC suggests a proposed protocol for the ARPA-Internet community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '951'
+fetched: '2022-01-23'
 keyword:
 - BOOTP

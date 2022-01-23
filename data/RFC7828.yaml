@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wouters
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Wouters
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Abley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Abley
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dickinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Dickinson
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bellis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bellis
         language:
@@ -67,22 +115,27 @@ language:
 script:
 - Latn
 abstract:
-- content: DNS messages between clients and servers may be received over either UDP
-    or TCP. UDP transport involves keeping less state on a busy server, but can cause
-    truncation and retries over TCP. Additionally, UDP can be exploited for reflection
-    attacks. Using TCP would reduce retransmits and amplification. However, clients
-    commonly use TCP only for retries and servers typically use idle timeouts on the
-    order of seconds. This document defines an EDNS0 option ("edns-tcp-keepalive")
+- content: <p>DNS messages between clients and servers may be received over either
+    UDP or TCP. UDP transport involves keeping less state on a busy server, but can
+    cause truncation and retries over TCP. Additionally, UDP can be exploited for
+    reflection attacks. Using TCP would reduce retransmits and amplification. However,
+    clients commonly use TCP only for retries and servers typically use idle timeouts
+    on the order of seconds.</p><p>This document defines an EDNS0 option ("edns-tcp-keepalive")
     that allows DNS servers to signal a variable idle timeout. This signalling encourages
     the use of long-lived TCP connections by allowing the state associated with TCP
     transport to be managed effectively with minimal impact on the DNS transaction
-    time.
+    time.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7828'
+fetched: '2022-01-23'
 keyword:
 - long-lived
 - dnssec

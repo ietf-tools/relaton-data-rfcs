@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bakke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bakke
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how to prepare internationalized iSCSI names to
-    increase the likelihood that name input and comparison work in ways that make
+- content: "<p>This document describes how to prepare internationalized iSCSI names
+    to increase the likelihood that name input and comparison work in ways that make
     sense for typical users throughout the world.  The Internet Small Computer Systems
     Interface (iSCSI) protocol provides a way for hosts to access SCSI devices over
     an IP network.  The iSCSI end-points, called initiators and targets, each have
     a globally-unique name that must be transcribable, as well as easily compared.
-    [STANDARDS-TRACK]
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3722'
+fetched: '2022-01-23'
 keyword:
 - transport
 - unique

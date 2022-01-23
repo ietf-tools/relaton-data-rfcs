@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Warnicke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Warnicke
         language:
@@ -37,17 +49,22 @@ language:
 script:
 - Latn
 abstract:
-- content: This document suggests a method of using DNS to determine the network that
-    contains a specified IP address, the netmask of that network, and the address(es)
+- content: "<p>This document suggests a method of using DNS to determine the network
+    that contains a specified IP address, the netmask of that network, and the address(es)
     of first-hop routers(s) on that network.  This method supports variable-length
     subnet masks, delegation of subnets on non-octet boundaries, and multiple routers
-    per subnet.  This memo provides information for the Internet community.
+    per subnet.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4183'
+fetched: '2022-01-23'
 keyword:
 - domain name space
 - ip address

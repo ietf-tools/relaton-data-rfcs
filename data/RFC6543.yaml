@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gundavelli
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Gundavelli
         language:
@@ -37,16 +49,16 @@ language:
 script:
 - Latn
 abstract:
-- content: Proxy Mobile IPv6 (RFC 5213) requires that all mobile access gateways use
-    a fixed link-local address and a fixed link-layer address on any of their access
-    links that they share with mobile nodes.  This requirement was intended to ensure
-    that a mobile node does not detect any change with respect to its Layer 3 attachment,
-    even after it roams from one mobile access gateway to another.  In the absence
-    of any reserved addresses for this use, coordination across vendors and manual
-    configuration of these addresses on all of the mobility elements in a Proxy Mobile
-    IPv6 domain are required.  This document attempts to simplify this operational
-    requirement by making a reservation for special addresses that can be used for
-    this purpose.  This document also updates RFC 5213. [STANDARDS-TRACK]
+- content: "<p>Proxy Mobile IPv6 (RFC 5213) requires that all mobile access gateways
+    use a fixed link-local address and a fixed link-layer address on any of their
+    access links that they share with mobile nodes.  This requirement was intended
+    to ensure that a mobile node does not detect any change with respect to its Layer
+    3 attachment, even after it roams from one mobile access gateway to another.  In
+    the absence of any reserved addresses for this use, coordination across vendors
+    and manual configuration of these addresses on all of the mobility elements in
+    a Proxy Mobile IPv6 domain are required.  This document attempts to simplify this
+    operational requirement by making a reservation for special addresses that can
+    be used for this purpose.  This document also updates RFC 5213. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -58,6 +70,11 @@ relation:
     formattedref:
       content: RFC5213
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6543'
+fetched: '2022-01-23'
 editorialgroup:
 - name: NON WORKING GROUP

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: CJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bernardos
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: CJ. Bernardos
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mourad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Mourad
         language:
@@ -47,23 +71,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The IEEE originally structured the 48-bit Media Access Control (MAC) address
-    space in such a way that half of it was reserved for local use. In 2017, the IEEE
-    published a new standard (IEEE Std 802c) with a new optional Structured Local
-    Address Plan (SLAP). It specifies different assignment approaches in four specified
-    regions of the local MAC address space. The IEEE is developing protocols to assign
-    addresses (IEEE P802.1CQ). There is also work in the IETF on specifying a new
-    mechanism that extends DHCPv6 operation to handle the local MAC address assignments.
-    This document proposes extensions to DHCPv6 protocols to enable a DHCPv6 client
-    or a DHCPv6 relay to indicate a preferred SLAP quadrant to the server so that
-    the server may allocate MAC addresses in the quadrant requested by the relay or
-    client. A new DHCPv6 option (QUAD) is defined for this purpose.
+- content: "<p>The IEEE originally structured the 48-bit Media Access Control (MAC)
+    address space in such a way that half of it was reserved for local use. In 2017,
+    the IEEE published a new standard (IEEE Std 802c) with a new optional Structured
+    Local Address Plan (SLAP). It specifies different assignment approaches in four
+    specified regions of the local MAC address space.</p><p>The IEEE is developing
+    protocols to assign addresses (IEEE P802.1CQ). There is also work in the IETF
+    on specifying a new mechanism that extends DHCPv6 operation to handle the local
+    MAC address assignments.</p><p>This document proposes extensions to DHCPv6 protocols
+    to enable a DHCPv6 client or a DHCPv6 relay to indicate a preferred SLAP quadrant
+    to the server so that the server may allocate MAC addresses in the quadrant requested
+    by the relay or client. A new DHCPv6 option (QUAD) is defined for this purpose.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8948'
+fetched: '2022-01-23'
 keyword:
 - IEEE 802c
 - ELI

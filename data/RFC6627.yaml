@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Karagiannis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Karagiannis
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Chan
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moncaster
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Moncaster
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Menth
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Menth
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eardley
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Eardley
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Briscoe
         language:
@@ -87,23 +159,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The objective of Pre-Congestion Notification (PCN) is to protect the quality
-    of service (QoS) of inelastic flows within a Diffserv domain. On every link in
-    the PCN-domain, the overall rate of PCN-traffic is metered, and PCN-packets are
-    appropriately marked when certain configured rates are exceeded. Egress nodes
+- content: "<p>The objective of Pre-Congestion Notification (PCN) is to protect the
+    quality of service (QoS) of inelastic flows within a Diffserv domain. On every
+    link in the PCN-domain, the overall rate of PCN-traffic is metered, and PCN-packets
+    are appropriately marked when certain configured rates are exceeded. Egress nodes
     provide decision points with information about the PCN-marks of PCN-packets that
     allows them to take decisions about whether to admit or block a new flow request,
-    and to terminate some already admitted flows during serious \%pre-congestion.
-    The PCN working group explored a number of approaches for encoding this pre-congestion
+    and to terminate some already admitted flows during serious \\%pre-congestion.</p><p>The
+    PCN working group explored a number of approaches for encoding this pre-congestion
     information into the IP header. This document provides details of those approaches
     along with an explanation of the constraints that apply to any solution. This
     document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6627'
+fetched: '2022-01-23'
 editorialgroup:
 - name: pcn

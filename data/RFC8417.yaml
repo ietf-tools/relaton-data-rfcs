@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hunt
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hunt
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Jones
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Denniss
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Denniss
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ansari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Ansari
         language:
@@ -67,20 +115,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This specification defines the Security Event Token (SET) data structure.  A
-    SET describes statements of fact from the perspective of an issuer about a subject.  These
-    statements of fact represent an event that occurred directly to or about a security
-    subject, for example, a statement about the issuance or revocation of a token
-    on behalf of a subject.  This specification is intended to enable representing
+- content: "<p>This specification defines the Security Event Token (SET) data structure.
+    \ A SET describes statements of fact from the perspective of an issuer about a
+    subject.  These statements of fact represent an event that occurred directly to
+    or about a security subject, for example, a statement about the issuance or revocation
+    of a token on behalf of a subject.  This specification is intended to enable representing
     security- and identity-related events.  A SET is a JSON Web Token (JWT), which
     can be optionally signed and/or encrypted.  SETs can be distributed via protocols
-    such as HTTP.
+    such as HTTP.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8417'
+fetched: '2022-01-23'
 keyword:
 - Identity
 - Security

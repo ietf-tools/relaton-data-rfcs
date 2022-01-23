@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Zhang
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Agarwal
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Agarwal
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perlman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Perlman
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dutt
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Dutt
         language:
@@ -77,7 +137,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The IETF has standardized Transparent Interconnection of Lots of Links
+- content: "<p>The IETF has standardized Transparent Interconnection of Lots of Links
     (TRILL), a protocol for least-cost transparent frame routing in multi-hop networks
     with arbitrary topologies and link technologies, using link-state routing and
     a hop count.  The TRILL base protocol standard supports the labeling of TRILL
@@ -86,7 +146,7 @@ abstract:
     updates RFC 6325 by specifying optional extensions to the TRILL base protocol
     to safely accomplish this.  These extensions, called fine-grained labeling, are
     primarily intended for use in large data centers, that is, those with more than
-    4K users requiring configurable data isolation from each other.
+    4K users requiring configurable data isolation from each other.</p>"
   language:
   - en
   script:
@@ -98,7 +158,12 @@ relation:
     formattedref:
       content: RFC6325
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7172'
+fetched: '2022-01-23'
 keyword:
 - TRILL
 - VLAN

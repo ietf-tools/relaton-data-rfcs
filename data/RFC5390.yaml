@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: Overload occurs in Session Initiation Protocol (SIP) networks when proxies
-    and user agents have insufficient resources to complete the processing of a request.  SIP
-    provides limited support for overload handling through its 503 response code,
-    which tells an upstream element that it is overloaded.  However, numerous problems
-    have been identified with this mechanism.  This document summarizes the problems
-    with the existing 503 mechanism, and provides some requirements for a solution.  This
-    memo provides information for the Internet community.
+- content: "<p>Overload occurs in Session Initiation Protocol (SIP) networks when
+    proxies and user agents have insufficient resources to complete the processing
+    of a request.  SIP provides limited support for overload handling through its
+    503 response code, which tells an upstream element that it is overloaded.  However,
+    numerous problems have been identified with this mechanism.  This document summarizes
+    the problems with the existing 503 mechanism, and provides some requirements for
+    a solution.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5390'
+fetched: '2022-01-23'
 keyword:
 - sip
 - overload handling

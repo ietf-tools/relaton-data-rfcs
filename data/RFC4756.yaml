@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Li
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document defines the semantics that allow for grouping of Forward
+- content: <p>This document defines the semantics that allow for grouping of Forward
     Error Correction (FEC) streams with the protected payload streams in Session Description
     Protocol (SDP).  The semantics defined in this document are to be used with "Grouping
     of Media Lines in the Session Description Protocol" (RFC 3388) to group together
-    "m" lines in the same session. [STANDARDS-TRACK]
+    "m" lines in the same session. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -53,7 +65,12 @@ relation:
     formattedref:
       content: RFC5956
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4756'
+fetched: '2022-01-23'
 keyword:
 - fec
 - sdp

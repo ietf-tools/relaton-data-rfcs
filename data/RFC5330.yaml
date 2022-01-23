@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: JP
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vasseur
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: JP. Vasseur
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Meyer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Meyer
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumaki
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kumaki
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bonda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bonda
         language:
@@ -68,8 +116,8 @@ language:
 script:
 - Latn
 abstract:
-- content: Several Link-type sub-Type-Length-Values (sub-TLVs) have been defined for
-    Open Shortest Path First (OSPF) and Intermediate System to Intermediate System
+- content: <p>Several Link-type sub-Type-Length-Values (sub-TLVs) have been defined
+    for Open Shortest Path First (OSPF) and Intermediate System to Intermediate System
     (IS-IS) in the context of Multiprotocol Label Switching (MPLS) Traffic Engineering
     (TE), in order to advertise some link characteristics such as the available bandwidth,
     traffic engineering metric, administrative group, and so on.  By making statistical
@@ -79,13 +127,18 @@ abstract:
     configured) unconstrained TE LSP across a set of equal cost paths.  This requires
     knowledge of the number of unconstrained TE LSPs signalled across a link.  This
     document specifies a new Link-type Traffic Engineering sub-TLV used to advertise
-    the number of unconstrained TE LSPs signalled across a link. [STANDARDS-TRACK]
+    the number of unconstrained TE LSPs signalled across a link. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5330'
+fetched: '2022-01-23'
 keyword:
 - te
 - lsp

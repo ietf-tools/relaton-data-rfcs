@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Gont
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Gont
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lichvar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Lichvar
         language:
@@ -57,14 +93,14 @@ language:
 script:
 - Latn
 abstract:
-- content: The Network Time Protocol (NTP) can operate in several modes.  Some of
-    these modes are based on the receipt of unsolicited packets and therefore require
+- content: "<p>The Network Time Protocol (NTP) can operate in several modes.  Some
+    of these modes are based on the receipt of unsolicited packets and therefore require
     the use of a well-known port as the local port.  However, in the case of NTP modes
     where the use of a well-known port is not required, employing such a well-known
     port unnecessarily facilitates the ability of attackers to perform blind/off-path
     attacks.  This document formally updates RFC 5905, recommending the use of transport-protocol
     ephemeral port randomization for those modes where use of the NTP well-known port
-    is not required.
+    is not required.</p>"
   language:
   - en
   script:
@@ -76,7 +112,12 @@ relation:
     formattedref:
       content: RFC5905
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9109'
+fetched: '2022-01-23'
 keyword:
 - security
 - transport protocols

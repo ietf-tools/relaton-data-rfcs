@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Asati
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Asati
         language:
@@ -48,13 +72,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The Generalized TTL Security Mechanism (GTSM) describes a generalized use
-    of a packet's Time to Live (TTL) (IPv4) or Hop Limit (IPv6) to verify that the
-    packet was sourced by a node on a connected link, thereby protecting the router\'s
+- content: "<p>The Generalized TTL Security Mechanism (GTSM) describes a generalized
+    use of a packet's Time to Live (TTL) (IPv4) or Hop Limit (IPv6) to verify that
+    the packet was sourced by a node on a connected link, thereby protecting the router\\'s
     IP control plane from CPU utilization-based attacks. This technique improves security
     and is used by many protocols. This document defines the GTSM use for the Label
-    Distribution Protocol (LDP). This specification uses a bit reserved in RFC 5036
-    and therefore updates RFC 5036. [STANDARDS-TRACK]
+    Distribution Protocol (LDP).</p><p>This specification uses a bit reserved in RFC
+    5036 and therefore updates RFC 5036. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -66,7 +90,12 @@ relation:
     formattedref:
       content: RFC5036
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6720'
+fetched: '2022-01-23'
 keyword:
 - GTSM
 - LDP

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Overell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Overell
         language:
@@ -47,14 +71,15 @@ language:
 script:
 - Latn
 abstract:
-- content: Internet technical specifications often need to define a formal syntax.  Over
-    the years, a modified version of Backus-Naur Form (BNF), called Augmented BNF
-    (ABNF), has been popular among many Internet specifications.  The current specification
-    documents ABNF.  It balances compactness and simplicity, with reasonable representational
-    power.  The differences between standard BNF and ABNF involve naming rules, repetition,
-    alternatives, order-independence, and value ranges.  This specification also supplies
-    additional rule definitions and encoding for a core lexical analyzer of the type
-    common to several Internet specifications. [STANDARDS-TRACK]
+- content: "<p>Internet technical specifications often need to define a formal syntax.
+    \ Over the years, a modified version of Backus-Naur Form (BNF), called Augmented
+    BNF (ABNF), has been popular among many Internet specifications.  The current
+    specification documents ABNF.  It balances compactness and simplicity, with reasonable
+    representational power.  The differences between standard BNF and ABNF involve
+    naming rules, repetition, alternatives, order-independence, and value ranges.
+    \ This specification also supplies additional rule definitions and encoding for
+    a core lexical analyzer of the type common to several Internet specifications.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -66,7 +91,12 @@ relation:
     formattedref:
       content: RFC5234
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4234'
+fetched: '2022-01-23'
 keyword:
 - ABNF]
 - backus-naur form

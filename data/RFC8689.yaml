@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Fenton
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Fenton
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The SMTP STARTTLS option, used in negotiating transport-level encryption
+- content: "<p>The SMTP STARTTLS option, used in negotiating transport-level encryption
     of SMTP connections, is not as useful from a security standpoint as it might be
     because of its opportunistic nature; message delivery is, by default, prioritized
     over security.  This document describes an SMTP service extension, REQUIRETLS,
@@ -47,13 +59,18 @@ abstract:
     by requiring that TLS be negotiated when the message is relayed or by requesting
     that recipient-side policy mechanisms such as MTA-STS and DNS-Based Authentication
     of Named Entities (DANE) be ignored when relaying a message for which security
-    is unimportant.
+    is unimportant.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8689'
+fetched: '2022-01-23'
 keyword:
 - SMTP
 editorialgroup:

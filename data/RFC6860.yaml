@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Yang
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Retana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Retana
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Roy
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Roy
         language:
@@ -57,16 +93,16 @@ language:
 script:
 - Latn
 abstract:
-- content: A transit-only network is defined as a network connecting routers only.
+- content: "<p>A transit-only network is defined as a network connecting routers only.
     In OSPF, transit-only networks are usually configured with routable IP addresses,
     which are advertised in Link State Advertisements (LSAs) but are not needed for
     data traffic. In addition, remote attacks can be launched against routers by sending
     packets to these transit-only networks. This document presents a mechanism to
     hide transit-only networks to speed up network convergence and reduce vulnerability
-    to remote attacks. In the context of this document, 'hiding' implies that the
-    prefixes are not installed in the routing tables on OSPF routers. In some cases,
-    IP addresses may still be visible when using OSPFv2. This document updates RFCs
-    2328 and 5340. [STANDARDS-TRACK]
+    to remote attacks.</p><p>In the context of this document, 'hiding' implies that
+    the prefixes are not installed in the routing tables on OSPF routers. In some
+    cases, IP addresses may still be visible when using OSPFv2.</p><p>This document
+    updates RFCs 2328 and 5340. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -83,6 +119,11 @@ relation:
     formattedref:
       content: RFC5340
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6860'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ospf

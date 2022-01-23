@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: McManus
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. McManus
         language:
@@ -37,15 +49,20 @@ language:
 script:
 - Latn
 abstract:
-- content: The immutable HTTP response Cache-Control extension allows servers to identify
-    resources that will not be updated during their freshness lifetime.  This ensures
-    that a client never needs to revalidate a cached fresh resource to be certain
-    it has not been modified.
+- content: "<p>The immutable HTTP response Cache-Control extension allows servers
+    to identify resources that will not be updated during their freshness lifetime.
+    \ This ensures that a client never needs to revalidate a cached fresh resource
+    to be certain it has not been modified.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8246'
+fetched: '2022-01-23'
 editorialgroup:
 - name: httpbis

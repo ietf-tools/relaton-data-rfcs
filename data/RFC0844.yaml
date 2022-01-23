@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Clements
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Clements
         language:
@@ -37,11 +49,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This survey determines how many hosts are able to respond to TELENET connections
-    from a user at a class C site.  This requires, in addition to IP and TCP, participation
-    in gateway routing via ICMP and handling of Class C addresses.  The list of hosts
-    was taken from RFC 843, extracting only those hosts which are listed there as
-    accepting TELNET connection.  The tests were run on 18-Feb-83.
+- content: "<p>This survey determines how many hosts are able to respond to TELENET
+    connections from a user at a class C site.  This requires, in addition to IP and
+    TCP, participation in gateway routing via ICMP and handling of Class C addresses.
+    \ The list of hosts was taken from RFC 843, extracting only those hosts which
+    are listed there as accepting TELNET connection.  The tests were run on 18-Feb-83.</p>"
   language:
   - en
   script:
@@ -53,4 +65,9 @@ relation:
     formattedref:
       content: RFC0843
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '844'
+fetched: '2022-01-23'

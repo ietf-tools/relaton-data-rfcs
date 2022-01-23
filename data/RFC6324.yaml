@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nakibly
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Nakibly
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Templin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Templin
         language:
@@ -48,23 +72,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document is concerned with security vulnerabilities in IPv6-in- IPv4
-    automatic tunnels.  These vulnerabilities allow an attacker to take advantage
-    of inconsistencies between the IPv4 routing state and the IPv6 routing state.  The
-    attack forms a routing loop that can be abused as a vehicle for traffic amplification
-    to facilitate denial- of-service (DoS) attacks.  The first aim of this document
-    is to inform on this attack and its root causes.  The second aim is to present
-    some possible mitigation measures.  It should be noted that at the time of this
-    writing there are no known reports of malicious attacks exploiting these vulnerabilities.  Nonetheless,
-    these vulnerabilities can be activated by accidental misconfiguration.  This document
-    is not an Internet Standards Track specification; it is published for informational
-    purposes.
+- content: "<p>This document is concerned with security vulnerabilities in IPv6-in-
+    IPv4 automatic tunnels.  These vulnerabilities allow an attacker to take advantage
+    of inconsistencies between the IPv4 routing state and the IPv6 routing state.
+    \ The attack forms a routing loop that can be abused as a vehicle for traffic
+    amplification to facilitate denial- of-service (DoS) attacks.  The first aim of
+    this document is to inform on this attack and its root causes.  The second aim
+    is to present some possible mitigation measures.  It should be noted that at the
+    time of this writing there are no known reports of malicious attacks exploiting
+    these vulnerabilities.  Nonetheless, these vulnerabilities can be activated by
+    accidental misconfiguration.  This document is not an Internet Standards Track
+    specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6324'
+fetched: '2022-01-23'
 keyword:
 - Encapsulation
 - ISATAP

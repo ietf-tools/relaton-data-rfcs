@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lawrence
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Lawrence
         language:
@@ -37,13 +49,13 @@ language:
 script:
 - Latn
 abstract:
-- content: The IQUERY method of performing inverse DNS lookups, specified in RFC 1035,
-    has not been generally implemented and has usually been operationally disabled
+- content: "<p>The IQUERY method of performing inverse DNS lookups, specified in RFC
+    1035, has not been generally implemented and has usually been operationally disabled
     where it has been implemented.  Both reflect a general view in the community that
     the concept was unwise and that the widely-used alternate approach of using pointer
     (PTR) queries and reverse-mapping records is preferable.  Consequently, this document
     deprecates the IQUERY operation, declaring it entirely obsolete.  This document
-    updates RFC 1035. [STANDARDS-TRACK]
+    updates RFC 1035. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3425'
+fetched: '2022-01-23'
 keyword:
 - dns lookups
 - domain

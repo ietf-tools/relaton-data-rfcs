@@ -21,14 +21,9 @@ date:
 - type: published
   value: 1988-04
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: Sun Microsystems
-        language:
-        - en
-        script:
-        - Latn
+    - Sun Microsystems
   role:
   - author
 revdate: 1988-04
@@ -37,10 +32,10 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo specifies a message protocol used in implementing Sun's Remote
+- content: "<p>This memo specifies a message protocol used in implementing Sun's Remote
     Procedure Call (RPC) package.  This RFC describes a standard that Sun Microsystems
-    and others are using and is one they wish to propose for the Internet's consideration.  It
-    is not an Internet standard at this time.
+    and others are using and is one they wish to propose for the Internet's consideration.
+    \ It is not an Internet standard at this time.</p>"
   language:
   - en
   script:
@@ -52,6 +47,11 @@ relation:
     formattedref:
       content: RFC1057
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1050'
+fetched: '2022-01-23'
 keyword:
 - SUN-RPC

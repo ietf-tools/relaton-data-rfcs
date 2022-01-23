@@ -22,18 +22,25 @@ date:
 - type: published
   value: 1993-09
 contributor:
-- person:
+- organization:
     name:
-      completename:
-        content: Internet Engineering Steering Group
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Engineering Steering Group
   role:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hinden
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Hinden
         language:
@@ -48,14 +55,20 @@ language:
 script:
 - Latn
 abstract:
-- content: Classless Inter-Domain Routing (CIDR) defines a mechanism to slow the growth
-    of routing tables and reduce the need to allocate new IP network numbers. [STANDARDS-TRACK]
+- content: "<p>Classless Inter-Domain Routing (CIDR) defines a mechanism to slow the
+    growth of routing tables and reduce the need to allocate new IP network numbers.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1517'
+fetched: '2022-01-23'
 keyword:
 - CIDR
 - Address

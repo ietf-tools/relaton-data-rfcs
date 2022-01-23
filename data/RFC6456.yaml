@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Li
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zheng
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Zheng
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Farrel
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Farrel
         language:
@@ -57,31 +93,36 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the application of MPLS multi-segment pseudowires
+- content: "<p>This document describes the application of MPLS multi-segment pseudowires
     (MS-PWs) in a dual-technology environment comprising a Passive Optical Network
-    (PON) and an MPLS Packet Switched Network (PSN). PON technology may be used in
-    mobile backhaul networks to support the end segments closest to the aggregation
+    (PON) and an MPLS Packet Switched Network (PSN).</p><p>PON technology may be used
+    in mobile backhaul networks to support the end segments closest to the aggregation
     devices. In these cases, there may be a very large number of pseudowire (PW) Terminating
     Provider Edge (T-PE) nodes. The MPLS control plane could be used to provision
     these end segments, but support for the necessary protocols would complicate the
     management of the T-PEs and would significantly increase their expense. Alternatively,
     static, or management plane, configuration could be used to configure the end
     segments, but the very large number of such segments in a PON places a very heavy
-    burden on the network manager. This document describes how to set up the end segment
-    of an end-to- end MPLS PW over a Gigabit-capable Passive Optical Network (G-PON)
-    or 10 Gigabit-capable Passive Optical Network (XG-PON) using the G-PON and XG-PON
-    management protocol, Optical Network Termination Management and Control Interface
-    (OMCI). This simplifies and speeds up PW provisioning compared with manual configuration.
-    This document also shows how an MS-PW may be constructed from an end segment supported
-    over a PON, and switched to one or more segments supported over an MPLS PSN. This
-    document is not an Internet Standards Track specification; it is published for
-    informational purposes.
+    burden on the network manager.</p><p>This document describes how to set up the
+    end segment of an end-to- end MPLS PW over a Gigabit-capable Passive Optical Network
+    (G-PON) or 10 Gigabit-capable Passive Optical Network (XG-PON) using the G-PON
+    and XG-PON management protocol, Optical Network Termination Management and Control
+    Interface (OMCI). This simplifies and speeds up PW provisioning compared with
+    manual configuration.</p><p>This document also shows how an MS-PW may be constructed
+    from an end segment supported over a PON, and switched to one or more segments
+    supported over an MPLS PSN. This document is not an Internet Standards Track specification;
+    it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6456'
+fetched: '2022-01-23'
 keyword:
 - MPLS
 - PSN

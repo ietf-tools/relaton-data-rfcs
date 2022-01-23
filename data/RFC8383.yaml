@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Hao
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Eastlake 3rd
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Li
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Umair
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Umair
         language:
@@ -67,23 +115,28 @@ language:
 script:
 - Latn
 abstract:
-- content: The TRILL (Transparent Interconnection of Lots of Links) protocol, by default,
-    learns end station addresses from observing the data plane. In particular, it
-    learns local Media Access Control (MAC) addresses and the edge switch port of
-    attachment from the receipt of local data frames and learns remote MAC addresses
+- content: "<p>The TRILL (Transparent Interconnection of Lots of Links) protocol,
+    by default, learns end station addresses from observing the data plane. In particular,
+    it learns local Media Access Control (MAC) addresses and the edge switch port
+    of attachment from the receipt of local data frames and learns remote MAC addresses
     and the edge switch port of attachment from the decapsulation of remotely sourced
-    TRILL Data packets. This document specifies a message by which a TRILL switch
+    TRILL Data packets.</p><p>This document specifies a message by which a TRILL switch
     can explicitly request other TRILL switches to flush certain MAC reachability
     learned through the decapsulation of TRILL Data packets. This is a supplement
     to the TRILL automatic address forgetting (see Section 4.8.3 of RFC 6325) and
     can assist in achieving more rapid convergence in case of topology or configuration
-    change.
+    change.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8383'
+fetched: '2022-01-23'
 keyword:
 - convergence
 - VLAN

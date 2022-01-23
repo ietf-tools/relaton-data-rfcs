@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lewis
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Lewis
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hoenes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Hoenes
         language:
@@ -47,14 +71,15 @@ language:
 script:
 - Latn
 abstract:
-- content: The standard means within the Domain Name System protocol for maintaining
+- content: "<p>The standard means within the Domain Name System protocol for maintaining
     coherence among a zone's authoritative name servers consists of three mechanisms.
     Authoritative Transfer (AXFR) is one of the mechanisms and is defined in RFC 1034
-    and RFC 1035. The definition of AXFR has proven insufficient in detail, thereby
-    forcing implementations intended to be compliant to make assumptions, impeding
-    interoperability. Yet today we have a satisfactory set of implementations that
-    do interoperate. This document is a new definition of AXFR -- new in the sense
-    that it records an accurate definition of an interoperable AXFR mechanism. [STANDARDS-TRACK]
+    and RFC 1035.</p><p>The definition of AXFR has proven insufficient in detail,
+    thereby forcing implementations intended to be compliant to make assumptions,
+    impeding interoperability. Yet today we have a satisfactory set of implementations
+    that do interoperate. This document is a new definition of AXFR -- new in the
+    sense that it records an accurate definition of an interoperable AXFR mechanism.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -71,7 +96,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5936'
+fetched: '2022-01-23'
 keyword:
 - authoritative transfer
 - AXFR mechanism

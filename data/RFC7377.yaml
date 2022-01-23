@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Leiba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Leiba
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -47,15 +71,15 @@ language:
 script:
 - Latn
 abstract:
-- content: The IMAP4 specification allows the searching of only the selected mailbox.  A
-    user often wants to search multiple mailboxes, and a client that wishes to support
-    this must issue a series of SELECT and SEARCH commands, waiting for each to complete
-    before moving on to the next.  This extension allows a client to search multiple
-    mailboxes with one command, limiting the delays caused by many round trips and
-    not requiring disruption of the currently selected mailbox.  This extension also
-    uses MAILBOX, UIDVALIDITY, and TAG fields in ESEARCH responses, allowing a client
-    to pipeline the searches if it chooses.  This document updates RFC 4466 and obsoletes
-    RFC 6237.
+- content: "<p>The IMAP4 specification allows the searching of only the selected mailbox.
+    \ A user often wants to search multiple mailboxes, and a client that wishes to
+    support this must issue a series of SELECT and SEARCH commands, waiting for each
+    to complete before moving on to the next.  This extension allows a client to search
+    multiple mailboxes with one command, limiting the delays caused by many round
+    trips and not requiring disruption of the currently selected mailbox.  This extension
+    also uses MAILBOX, UIDVALIDITY, and TAG fields in ESEARCH responses, allowing
+    a client to pipeline the searches if it chooses.  This document updates RFC 4466
+    and obsoletes RFC 6237.</p>"
   language:
   - en
   script:
@@ -67,7 +91,12 @@ relation:
     formattedref:
       content: RFC4466
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7377'
+fetched: '2022-01-23'
 keyword:
 - IMAP
 - email

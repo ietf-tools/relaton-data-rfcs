@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: de Bont
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. de Bont
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Doehla
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Doehla
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schmidt
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Schmidt
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sperschneider
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Sperschneider
         language:
@@ -68,13 +116,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes extensions for the RTP payload format defined in RFC
-    3640 for the transport of MPEG Surround multi-channel audio.  Additional Media
+- content: "<p>This memo describes extensions for the RTP payload format defined in
+    RFC 3640 for the transport of MPEG Surround multi-channel audio.  Additional Media
     Type parameters are defined to signal backwards- compatible transmission inside
     an MPEG-4 Audio elementary stream.  In addition, a layered transmission scheme
     that doesn't use the MPEG-4 systems framework is presented to transport an MPEG
     Surround elementary stream via RTP in parallel with an RTP stream containing the
-    downmixed audio data. [STANDARDS-TRACK]
+    downmixed audio data. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -86,7 +134,12 @@ relation:
     formattedref:
       content: RFC3640
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5691'
+fetched: '2022-01-23'
 keyword:
 - MPEG Surround
 - RFC 3640

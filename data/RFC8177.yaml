@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Lindem
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Qu
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Qu
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yeung
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Yeung
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Chen
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Zhang
         language:
@@ -77,18 +137,23 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the key chain YANG data model.  Key chains are
-    commonly used for routing protocol authentication and other applications requiring
+- content: "<p>This document describes the key chain YANG data model.  Key chains
+    are commonly used for routing protocol authentication and other applications requiring
     symmetric keys.  A key chain is a list containing one or more elements containing
     a Key ID, key string, send/accept lifetimes, and the associated authentication
     or encryption algorithm.  By properly overlapping the send and accept lifetimes
-    of multiple key chain elements, key strings and algorithms may be gracefully updated.  By
-    representing them in a YANG data model, key distribution can be automated.
+    of multiple key chain elements, key strings and algorithms may be gracefully updated.
+    \ By representing them in a YANG data model, key distribution can be automated.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8177'
+fetched: '2022-01-23'
 editorialgroup:
 - name: rtgwg

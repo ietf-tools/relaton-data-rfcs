@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vixie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Vixie
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This memo describes the NOTIFY opcode for DNS, by which a master server
+- content: "<p>This memo describes the NOTIFY opcode for DNS, by which a master server
     advises a set of slave servers that the master's data has been changed and that
-    a query should be initiated to discover the new data. [STANDARDS-TRACK]
+    a query should be initiated to discover the new data. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC1035
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '1996'
+fetched: '2022-01-23'
 keyword:
 - DNS-NOTIFY
 - Domain

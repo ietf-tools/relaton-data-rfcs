@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Howlett
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Howlett
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hartman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hartman
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perez-Mendez
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Perez-Mendez
         language:
@@ -58,11 +94,11 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the use of the Security Assertion Markup Language
+- content: "<p>This document describes the use of the Security Assertion Markup Language
     (SAML) with RADIUS in the context of the Application Bridging for Federated Access
     Beyond web (ABFAB) architecture.  It defines two RADIUS attributes, a SAML binding,
-    a SAML name identifier format, two SAML profiles, and two SAML confirmation methods.  The
-    RADIUS attributes permit encapsulation of SAML Assertions and protocol messages
+    a SAML name identifier format, two SAML profiles, and two SAML confirmation methods.
+    \ The RADIUS attributes permit encapsulation of SAML Assertions and protocol messages
     within RADIUS, allowing SAML entities to communicate using the binding.  The two
     profiles describe the application of this binding for ABFAB authentication and
     assertion Query/Request, enabling a Relying Party to request authentication of,
@@ -72,13 +108,18 @@ abstract:
     authenticated user or machine without needing to explicitly identify them as the
     subject.  The use of the artifacts defined in this document is not exclusive to
     ABFAB.  They can be applied in any Authentication, Authorization, and Accounting
-    (AAA) scenario, such as network access control.
+    (AAA) scenario, such as network access control.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7833'
+fetched: '2022-01-23'
 keyword:
 - ABFAB
 - AAA

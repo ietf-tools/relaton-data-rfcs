@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kitterman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Kitterman
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wicinski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Wicinski
         language:
@@ -48,22 +72,27 @@ language:
 script:
 - Latn
 abstract:
-- content: Domain-based Message Authentication, Reporting, and Conformance (DMARC),
+- content: "<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC),
     defined in RFC 7489, permits a domain-controlling organization to express domain-level
     policies and preferences for message validation, disposition, and reporting, which
-    a mail-receiving organization can use to improve mail handling. DMARC distinguishes
+    a mail-receiving organization can use to improve mail handling.</p><p>DMARC distinguishes
     the portion of a name that is a Public Suffix Domain (PSD), below which Organizational
     Domain names are created. The basic DMARC capability allows Organizational Domains
     to specify policies that apply to their subdomains, but it does not give that
     capability to PSDs. This document describes an extension to DMARC to fully enable
-    DMARC functionality for PSDs. Some implementations of DMARC consider a PSD to
-    be ineligible for DMARC enforcement. This specification addresses that case.
+    DMARC functionality for PSDs.</p><p>Some implementations of DMARC consider a PSD
+    to be ineligible for DMARC enforcement. This specification addresses that case.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9091'
+fetched: '2022-01-23'
 keyword:
 - DMARC
 - email authentication

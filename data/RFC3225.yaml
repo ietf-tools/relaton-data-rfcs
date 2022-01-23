@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Conrad
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Conrad
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: In order to deploy DNSSEC (Domain Name System Security Extensions) operationally,
-    DNSSEC aware servers should only perform automatic inclusion of DNSSEC RRs when
-    there is an explicit indication that the resolver can understand those RRs.  This
-    document proposes the use of a bit in the EDNS0 header to provide that explicit
-    indication and describes the necessary protocol changes to implement that notification.
-    [STANDARDS-TRACK]
+- content: "<p>In order to deploy DNSSEC (Domain Name System Security Extensions)
+    operationally, DNSSEC aware servers should only perform automatic inclusion of
+    DNSSEC RRs when there is an explicit indication that the resolver can understand
+    those RRs.  This document proposes the use of a bit in the EDNS0 header to provide
+    that explicit indication and describes the necessary protocol changes to implement
+    that notification. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3225'
+fetched: '2022-01-23'
 keyword:
 - domain
 - name

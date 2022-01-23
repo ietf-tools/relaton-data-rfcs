@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Giacalone
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Giacalone
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ward
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Ward
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Drake
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atlas
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Atlas
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Previdi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Previdi
         language:
@@ -77,22 +137,27 @@ language:
 script:
 - Latn
 abstract:
-- content: In certain networks, such as, but not limited to, financial information
+- content: <p>In certain networks, such as, but not limited to, financial information
     networks (e.g., stock market data providers), network performance information
-    (e.g., link propagation delay) is becoming critical to data path selection. This
+    (e.g., link propagation delay) is becoming critical to data path selection.</p><p>This
     document describes common extensions to RFC 3630 "Traffic Engineering (TE) Extensions
     to OSPF Version 2" and RFC 5329 "Traffic Engineering Extensions to OSPF Version
     3" to enable network performance information to be distributed in a scalable fashion.
     The information distributed using OSPF TE Metric Extensions can then be used to
-    make path selection decisions based on network performance. Note that this document
-    only covers the mechanisms by which network performance information is distributed.
-    The mechanisms for measuring network performance information or using that information,
-    once distributed, are outside the scope of this document.
+    make path selection decisions based on network performance.</p><p>Note that this
+    document only covers the mechanisms by which network performance information is
+    distributed. The mechanisms for measuring network performance information or using
+    that information, once distributed, are outside the scope of this document.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7471'
+fetched: '2022-01-23'
 editorialgroup:
 - name: ospf

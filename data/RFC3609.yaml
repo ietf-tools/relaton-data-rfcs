@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bonica
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bonica
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kompella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kompella
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Meyer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Meyer
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies requirements for a generic route-tracing application.  It
+- content: <p>This document specifies requirements for a generic route-tracing application.  It
     also specifies requirements for a protocol that will support that application.  Network
     operators will use the generic route-tracing application to verify proper operation
     of the IP forwarding plane.  They will also use the application to discover details
@@ -66,13 +102,18 @@ abstract:
     offers.  Like traceroute, the generic route-tracing application can discover the
     forwarding path between two interfaces that are contained by an IP network.  Unlike
     traceroute, this application can reveal details regarding tunnels that support
-    the IP forwarding path.
+    the IP forwarding path.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3609'
+fetched: '2022-01-23'
 keyword:
 - traceroute
 - application

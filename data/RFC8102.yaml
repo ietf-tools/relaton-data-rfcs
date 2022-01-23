@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sarkar
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Sarkar
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hegde
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Hegde
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bowers
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Bowers
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gredler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Gredler
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Litkowski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Litkowski
         language:
@@ -77,22 +137,27 @@ language:
 script:
 - Latn
 abstract:
-- content: The loop-free alternates (LFAs) computed following the current remote-LFA
+- content: <p>The loop-free alternates (LFAs) computed following the current remote-LFA
     specification guarantees only link protection. The resulting remote-LFA next hops
     (also called "PQ-nodes") may not guarantee node protection for all destinations
-    being protected by it. This document describes an extension to the remote-loop-free-based
+    being protected by it.</p><p>This document describes an extension to the remote-loop-free-based
     IP fast reroute mechanisms that specifies procedures for determining whether or
     not a given PQ-node provides node protection for a specific destination. The document
     also shows how the same procedure can be utilized for the collection of complete
     characteristics for alternate paths. Knowledge about the characteristics of all
     alternate paths is a precursor to applying the operator-defined policy for eliminating
-    paths not fitting the constraints.
+    paths not fitting the constraints.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8102'
+fetched: '2022-01-23'
 keyword:
 - LFA
 - Remote-LFA

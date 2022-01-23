@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Martin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Martin
         language:
@@ -47,18 +71,23 @@ language:
 script:
 - Latn
 abstract:
-- content: Sieve scripts allow users to filter incoming email.  Message stores are
-    commonly sealed servers so users cannot log into them, yet users must be able
+- content: <p>Sieve scripts allow users to filter incoming email.  Message stores
+    are commonly sealed servers so users cannot log into them, yet users must be able
     to update their scripts on them.  This document describes a protocol "ManageSieve"
     for securely managing Sieve scripts on a remote server.  This protocol allows
     a user to have multiple scripts, and also alerts a user to syntactically flawed
-    scripts. [STANDARDS TRACK]
+    scripts. [STANDARDS TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5804'
+fetched: '2022-01-23'
 keyword:
 - managesieve
 editorialgroup:

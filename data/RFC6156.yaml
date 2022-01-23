@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Camarillo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Camarillo
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: O
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Novo
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: O. Novo
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Perreault
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Perreault
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: This document adds IPv6 support to Traversal Using Relays around NAT (TURN).  IPv6
-    support in TURN includes IPv4-to-IPv6, IPv6-to-IPv6, and IPv6-to-IPv4 relaying.  This
-    document defines the REQUESTED- ADDRESS-FAMILY attribute for TURN.  The REQUESTED-ADDRESS-FAMILY
-    attribute allows a client to explicitly request the address type the TURN server
-    will allocate (e.g., an IPv4-only node may request the TURN server to allocate
-    an IPv6 address). [STANDARDS-TRACK]
+- content: "<p>This document adds IPv6 support to Traversal Using Relays around NAT
+    (TURN).  IPv6 support in TURN includes IPv4-to-IPv6, IPv6-to-IPv6, and IPv6-to-IPv4
+    relaying.  This document defines the REQUESTED- ADDRESS-FAMILY attribute for TURN.
+    \ The REQUESTED-ADDRESS-FAMILY attribute allows a client to explicitly request
+    the address type the TURN server will allocate (e.g., an IPv4-only node may request
+    the TURN server to allocate an IPv6 address). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -74,7 +110,12 @@ relation:
     formattedref:
       content: RFC8656
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6156'
+fetched: '2022-01-23'
 keyword:
 - STUN
 - TURN

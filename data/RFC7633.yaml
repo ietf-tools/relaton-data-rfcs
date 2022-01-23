@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hallam-Baker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Hallam-Baker
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: The purpose of the TLS feature extension is to prevent downgrade attacks
+- content: "<p>The purpose of the TLS feature extension is to prevent downgrade attacks
     that are not otherwise prevented by the TLS protocol.  In particular, the TLS
     feature extension may be used to mandate support for revocation checking features
-    in the TLS protocol such as Online Certificate Status Protocol (OCSP) stapling.  Informing
-    clients that an OCSP status response will always be stapled permits an immediate
-    failure in the case that the response is not stapled.  This in turn prevents a
-    denial-of-service attack that might otherwise be possible.
+    in the TLS protocol such as Online Certificate Status Protocol (OCSP) stapling.
+    \ Informing clients that an OCSP status response will always be stapled permits
+    an immediate failure in the case that the response is not stapled.  This in turn
+    prevents a denial-of-service attack that might otherwise be possible.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7633'
+fetched: '2022-01-23'
 keyword:
 - PKIX
 - Transport Layer Security

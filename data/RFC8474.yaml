@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gondwana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Gondwana
         language:
@@ -37,9 +49,9 @@ language:
 script:
 - Latn
 abstract:
-- content: This document updates RFC 3501 (IMAP4rev1) with persistent identifiers
+- content: "<p>This document updates RFC 3501 (IMAP4rev1) with persistent identifiers
     on mailboxes and messages to allow clients to more efficiently reuse cached data
-    when resources have changed location on the server.
+    when resources have changed location on the server.</p>"
   language:
   - en
   script:
@@ -51,7 +63,12 @@ relation:
     formattedref:
       content: RFC3501
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8474'
+fetched: '2022-01-23'
 keyword:
 - IMAP
 - email

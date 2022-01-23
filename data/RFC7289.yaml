@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kuarsingh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Kuarsingh
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cianfarani
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Cianfarani
         language:
@@ -47,26 +71,31 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a framework to integrate a Network Address Translation
-    (NAT) layer into an operator's network to function as a Carrier-Grade NAT (also
-    known as CGN or Large-Scale NAT).  The CGN infrastructure will often form a NAT444
-    environment as the subscriber home network will likely also maintain a subscriber-side
-    NAT function.  Exhaustion of the IPv4 address pool is a major driver compelling
-    some operators to implement CGN.  Although operators may wish to deploy IPv6 to
-    strategically overcome IPv4 exhaustion, near- term needs may not be satisfied
-    with an IPv6 deployment alone.  This document provides a practical integration
-    model that allows the CGN platform to be integrated into the network, meeting
-    the connectivity needs of the subscriber while being mindful of not disrupting
+- content: "<p>This document specifies a framework to integrate a Network Address
+    Translation (NAT) layer into an operator's network to function as a Carrier-Grade
+    NAT (also known as CGN or Large-Scale NAT).  The CGN infrastructure will often
+    form a NAT444 environment as the subscriber home network will likely also maintain
+    a subscriber-side NAT function.  Exhaustion of the IPv4 address pool is a major
+    driver compelling some operators to implement CGN.  Although operators may wish
+    to deploy IPv6 to strategically overcome IPv4 exhaustion, near- term needs may
+    not be satisfied with an IPv6 deployment alone.  This document provides a practical
+    integration model that allows the CGN platform to be integrated into the network,
+    meeting the connectivity needs of the subscriber while being mindful of not disrupting
     existing services and meeting the technical challenges that CGN brings.  The model
     included in this document utilizes BGP/MPLS IP VPNs, which allow for virtual routing
     separation, helping ease the CGN's impact on the network.  This document does
-    not intend to defend the merits of CGN.
+    not intend to defend the merits of CGN.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7289'
+fetched: '2022-01-23'
 keyword:
 - NAT444
 - LSN

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosenberg
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rosenberg
         language:
@@ -31,14 +43,9 @@ contributor:
         - Latn
   role:
   - author
-- person:
+- organization:
     name:
-      completename:
-        content: IAB
-        language:
-        - en
-        script:
-        - Latn
+    - Internet Architecture Board
   role:
   - author
 revdate: 2006-02
@@ -47,7 +54,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The Domain Name System (DNS) provides an essential service on the Internet,
+- content: "<p>The Domain Name System (DNS) provides an essential service on the Internet,
     mapping structured names to a variety of data, usually IP addresses.  These names
     appear in email addresses, Uniform Resource Identifiers (URIs), and other application-layer
     identifiers that are often rendered to human users.  Because of this, there has
@@ -59,12 +66,17 @@ abstract:
     with the names.  Those assumptions can often be false, resulting in a variety
     of failure conditions.  This document discusses this problem in more detail and
     makes recommendations on how it can be avoided.  This memo provides information
-    for the Internet community.
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4367'
+fetched: '2022-01-23'
 keyword:
 - domain name system

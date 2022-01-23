@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ash
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Ash
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bader
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Bader
         language:
@@ -44,6 +68,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kappler
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Kappler
         language:
@@ -54,6 +90,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Oran
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Oran
         language:
@@ -68,9 +116,9 @@ language:
 script:
 - Latn
 abstract:
-- content: The Quality-of-Service (QoS) NSIS signaling layer protocol (NSLP) is used
-    to signal QoS reservations and is independent of a specific QoS model (QOSM) such
-    as IntServ or Diffserv.  Rather, all information specific to a QOSM is encapsulated
+- content: "<p>The Quality-of-Service (QoS) NSIS signaling layer protocol (NSLP) is
+    used to signal QoS reservations and is independent of a specific QoS model (QOSM)
+    such as IntServ or Diffserv.  Rather, all information specific to a QOSM is encapsulated
     in a separate object, the QSPEC.  This document defines a template for the QSPEC
     including a number of QSPEC parameters.  The QSPEC parameters provide a common
     language to be reused in several QOSMs and thereby aim to ensure the extensibility
@@ -80,12 +128,17 @@ abstract:
     QSPEC, which indicates the QSPEC parameters that must be interpreted by the downstream
     nodes less the reservation fails, thereby ensuring the intention of the NSIS initiator
     is preserved along the signaling path.  This document defines an Experimental
-    Protocol for the Internet community.
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5975'
+fetched: '2022-01-23'
 editorialgroup:
 - name: nsis

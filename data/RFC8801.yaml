@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pfister
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Pfister
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: É
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vyncke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: É. Vyncke
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pauly
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Pauly
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schinazi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Schinazi
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Shao
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Shao
         language:
@@ -77,21 +137,26 @@ language:
 script:
 - Latn
 abstract:
-- content: Provisioning Domains (PvDs) are defined as consistent sets of network configuration
-    information. PvDs allows hosts to manage connections to multiple networks and
-    interfaces simultaneously, such as when a home router provides connectivity through
-    both a broadband and cellular network provider. This document defines a mechanism
-    for explicitly identifying PvDs through a Router Advertisement (RA) option. This
-    RA option announces a PvD identifier, which hosts can compare to differentiate
-    between PvDs. The option can directly carry some information about a PvD and can
-    optionally point to PvD Additional Information that can be retrieved using HTTP
-    over TLS.
+- content: "<p>Provisioning Domains (PvDs) are defined as consistent sets of network
+    configuration information. PvDs allows hosts to manage connections to multiple
+    networks and interfaces simultaneously, such as when a home router provides connectivity
+    through both a broadband and cellular network provider.</p><p>This document defines
+    a mechanism for explicitly identifying PvDs through a Router Advertisement (RA)
+    option. This RA option announces a PvD identifier, which hosts can compare to
+    differentiate between PvDs. The option can directly carry some information about
+    a PvD and can optionally point to PvD Additional Information that can be retrieved
+    using HTTP over TLS.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8801'
+fetched: '2022-01-23'
 keyword:
 - IPv6
 - Provisioning

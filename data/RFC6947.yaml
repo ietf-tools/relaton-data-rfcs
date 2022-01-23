@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Boucadair
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Boucadair
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kaplan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Kaplan
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gilman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Gilman
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Veikkolainen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Veikkolainen
         language:
@@ -67,16 +115,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This document proposes a mechanism that allows the same SDP offer to carry
-    multiple IP addresses of different address families (e.g., IPv4 and IPv6). The
-    proposed attribute, the "altc" attribute, solves the backward-compatibility problem
-    that plagued Alternative Network Address Types (ANAT) due to their syntax. The
+- content: <p>This document proposes a mechanism that allows the same SDP offer to
+    carry multiple IP addresses of different address families (e.g., IPv4 and IPv6).
+    The proposed attribute, the "altc" attribute, solves the backward-compatibility
+    problem that plagued Alternative Network Address Types (ANAT) due to their syntax.</p><p>The
     proposed solution is applicable to scenarios where connectivity checks are not
     required. If connectivity checks are required, Interactive Connectivity Establishment
-    (ICE), as specified in RFC 5245, provides such a solution.
+    (ICE), as specified in RFC 5245, provides such a solution.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6947'
+fetched: '2022-01-23'

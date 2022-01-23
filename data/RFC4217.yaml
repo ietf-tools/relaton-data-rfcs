@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: P
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ford-Hutchinson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: P. Ford-Hutchinson
         language:
@@ -37,8 +49,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a mechanism that can be used by FTP clients and
-    servers to implement security and authentication using the TLS protocol defined
+- content: <p>This document describes a mechanism that can be used by FTP clients
+    and servers to implement security and authentication using the TLS protocol defined
     by RFC 2246, "The TLS Protocol Version 1.0.", and the extensions to the FTP protocol
     defined by RFC 2228, "FTP Security Extensions". It describes the subset of the
     extensions that are required and the parameters to be used, discusses some of
@@ -47,15 +59,20 @@ abstract:
     implementations to allow interoperation. This document is intended to provide
     TLS support for FTP in a similar way to that provided for SMTP in RFC 2487, "SMTP
     Service Extension for Secure SMTP over Transport Layer Security", and HTTP in
-    RFC 2817, "Upgrading to TLS Within HTTP/1.1.". This specification is in accordance
-    with RFC 959, "File Transfer Protocol". It relies on RFC 2246, "The TLS Protocol
-    Version 1.0.", and RFC 2228, "FTP Security Extensions". [STANDARDS-TRACK]
+    RFC 2817, "Upgrading to TLS Within HTTP/1.1.".</p><p>This specification is in
+    accordance with RFC 959, "File Transfer Protocol". It relies on RFC 2246, "The
+    TLS Protocol Version 1.0.", and RFC 2228, "FTP Security Extensions". [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4217'
+fetched: '2022-01-23'
 keyword:
 - security
 - authentication

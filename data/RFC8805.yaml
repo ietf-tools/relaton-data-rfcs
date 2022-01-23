@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kline
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Kline
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Duleba
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Duleba
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Z
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Szamonek
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Z. Szamonek
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moser
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Moser
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Kumari
         language:
@@ -77,22 +137,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document records a format whereby a network operator can publish a
-    mapping of IP address prefixes to simplified geolocation information, colloquially
+- content: <p>This document records a format whereby a network operator can publish
+    a mapping of IP address prefixes to simplified geolocation information, colloquially
     termed a "geolocation feed". Interested parties can poll and parse these feeds
     to update or merge with other geolocation data sources and procedures. This format
-    intentionally only allows specifying coarse-level location. Some technical organizations
-    operating networks that move from one conference location to the next have already
-    experimentally published small geolocation feeds. This document describes a currently
-    deployed format. At least one consumer (Google) has incorporated these feeds into
-    a geolocation data pipeline, and a significant number of ISPs are using it to
-    inform them where their prefixes should be geolocated.
+    intentionally only allows specifying coarse-level location.</p><p>Some technical
+    organizations operating networks that move from one conference location to the
+    next have already experimentally published small geolocation feeds.</p><p>This
+    document describes a currently deployed format. At least one consumer (Google)
+    has incorporated these feeds into a geolocation data pipeline, and a significant
+    number of ISPs are using it to inform them where their prefixes should be geolocated.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8805'
+fetched: '2022-01-23'
 keyword:
 - geo-location
 - geolocation

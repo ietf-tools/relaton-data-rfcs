@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Anderson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Anderson
         language:
@@ -37,22 +49,27 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes the use of the Stateless IP/ICMP Translation Algorithm
-    (SIIT) in an IPv6 Internet Data Center (IDC). In this deployment model, traffic
-    from legacy IPv4-only clients on the Internet is translated to IPv6 upon reaching
-    the IDC operator's network infrastructure. From that point on, it may be treated
-    the same as traffic from native IPv6 end users. The IPv6 endpoints may be numbered
-    using arbitrary (non-IPv4-translatable) IPv6 addresses. This facilitates a single-stack
-    IPv6-only network infrastructure, as well as efficient utilization of public IPv4
-    addresses. The primary audience is IDC operators who are deploying IPv6, running
-    out of available IPv4 addresses, and/or feeling that dual stack causes undesirable
-    operational complexity.
+- content: "<p>This document describes the use of the Stateless IP/ICMP Translation
+    Algorithm (SIIT) in an IPv6 Internet Data Center (IDC). In this deployment model,
+    traffic from legacy IPv4-only clients on the Internet is translated to IPv6 upon
+    reaching the IDC operator's network infrastructure. From that point on, it may
+    be treated the same as traffic from native IPv6 end users. The IPv6 endpoints
+    may be numbered using arbitrary (non-IPv4-translatable) IPv6 addresses. This facilitates
+    a single-stack IPv6-only network infrastructure, as well as efficient utilization
+    of public IPv4 addresses.</p><p>The primary audience is IDC operators who are
+    deploying IPv6, running out of available IPv4 addresses, and/or feeling that dual
+    stack causes undesirable operational complexity.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7755'
+fetched: '2022-01-23'
 keyword:
 - Data Centre
 - Data Center

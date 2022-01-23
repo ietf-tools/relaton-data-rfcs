@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Toyoda
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Toyoda
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Crocker
         language:
@@ -47,20 +71,26 @@ language:
 script:
 - Latn
 abstract:
-- content: A message originator sometimes sends content in a form the recipient cannot
-    process or would prefer not to process a form of lower quality than is preferred.  Such
-    content needs to be converted to an acceptable form, with the same information
-    or constrained information (e.g., changing from color to black and white).  In
-    a store-and-forward environment, it may be convenient to have this conversion
-    performed by an intermediary.  This specification integrates two ESMTP extensions
-    and three MIME content header fields, which defines a cooperative service that
-    permits authorized, accountable content form conversion by intermediaries. [STANDARDS-TRACK]
+- content: "<p>A message originator sometimes sends content in a form the recipient
+    cannot process or would prefer not to process a form of lower quality than is
+    preferred.  Such content needs to be converted to an acceptable form, with the
+    same information or constrained information (e.g., changing from color to black
+    and white).  In a store-and-forward environment, it may be convenient to have
+    this conversion performed by an intermediary.  This specification integrates two
+    ESMTP extensions and three MIME content header fields, which defines a cooperative
+    service that permits authorized, accountable content form conversion by intermediaries.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4141'
+fetched: '2022-01-23'
 keyword:
 - esmtp
 - simple mail transfer protocol

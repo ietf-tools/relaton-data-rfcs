@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bocci
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Bocci
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vigoureux
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Vigoureux
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bryant
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bryant
         language:
@@ -57,13 +93,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document generalizes the applicability of the pseudowire (PW) Associated
-    Channel Header (ACH), enabling the realization of a control channel associated
-    to MPLS Label Switched Paths (LSPs) and MPLS Sections in addition to MPLS pseudowires.  In
-    order to identify the presence of this Associated Channel Header in the label
-    stack, this document also assigns one of the reserved MPLS label values to the
-    Generic Associated Channel Label (GAL), to be used as a label based exception
-    mechanism.
+- content: "<p>This document generalizes the applicability of the pseudowire (PW)
+    Associated Channel Header (ACH), enabling the realization of a control channel
+    associated to MPLS Label Switched Paths (LSPs) and MPLS Sections in addition to
+    MPLS pseudowires.  In order to identify the presence of this Associated Channel
+    Header in the label stack, this document also assigns one of the reserved MPLS
+    label values to the Generic Associated Channel Label (GAL), to be used as a label
+    based exception mechanism.</p>"
   language:
   - en
   script:
@@ -85,7 +121,12 @@ relation:
     formattedref:
       content: RFC5085
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5586'
+fetched: '2022-01-23'
 keyword:
 - mpls-tp
 - oam

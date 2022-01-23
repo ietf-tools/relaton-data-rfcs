@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Andersson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Andersson
         language:
@@ -34,6 +46,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Swallow
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: G. Swallow
         language:
@@ -48,11 +72,11 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 6514 created a space of Tunnel Type code points for a new BGP attribute
+- content: <p>RFC 6514 created a space of Tunnel Type code points for a new BGP attribute
     called the "P-Multicast Service Interface Tunnel (PMSI Tunnel) attribute". However,
-    the RFC did not create a corresponding IANA registry. There now is need to make
-    further code point allocations from this name space. This document serves to update
-    RFC 6514 in that it creates an IANA registry for that purpose.
+    the RFC did not create a corresponding IANA registry.</p><p>There now is need
+    to make further code point allocations from this name space. This document serves
+    to update RFC 6514 in that it creates an IANA registry for that purpose.</p>
   language:
   - en
   script:
@@ -64,6 +88,11 @@ relation:
     formattedref:
       content: RFC6514
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7385'
+fetched: '2022-01-23'
 editorialgroup:
 - name: l3vpn

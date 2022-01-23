@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hotz
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Hotz
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Allbery
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Allbery
         language:
@@ -47,20 +71,25 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a protocol, called kx509, for using Kerberos tickets
-    to acquire X.509 certificates. These certificates may be used for many of the
-    same purposes as X.509 certificates acquired by other means, but if a Kerberos
-    infrastructure already exists, then the overhead of using kx509 may be much less.
-    While not standardized, this protocol is already in use at several large organizations,
+- content: "<p>This document describes a protocol, called kx509, for using Kerberos
+    tickets to acquire X.509 certificates. These certificates may be used for many
+    of the same purposes as X.509 certificates acquired by other means, but if a Kerberos
+    infrastructure already exists, then the overhead of using kx509 may be much less.</p><p>While
+    not standardized, this protocol is already in use at several large organizations,
     and certificates issued with this protocol are recognized by the International
     Grid Trust Federation. This document is not an Internet Standards Track specification;
-    it is published for informational purposes.
+    it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6717'
+fetched: '2022-01-23'
 keyword:
 - Kerberos
 - X.509

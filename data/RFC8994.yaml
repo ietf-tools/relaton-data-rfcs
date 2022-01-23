@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Eckert
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Eckert
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Behringer
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Behringer
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bjarnason
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Bjarnason
         language:
@@ -57,7 +93,7 @@ language:
 script:
 - Latn
 abstract:
-- content: Autonomic functions need a control plane to communicate, which depends
+- content: <p>Autonomic functions need a control plane to communicate, which depends
     on some addressing and routing.  This Autonomic Control Plane should ideally be
     self-managing and be as independent as possible of configuration.  This document
     defines such a plane and calls it the "Autonomic Control Plane", with the primary
@@ -65,13 +101,18 @@ abstract:
     out-of-band channel" for Operations, Administration, and Management (OAM) communications
     over a network that provides automatically configured, hop-by-hop authenticated
     and encrypted communications via automatically configured IPv6 even when the network
-    is not configured or is misconfigured.
+    is not configured or is misconfigured.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8994'
+fetched: '2022-01-23'
 keyword:
 - addressing-scheme
 - ANI

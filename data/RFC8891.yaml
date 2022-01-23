@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: V
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dolmatov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: V. Dolmatov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Baryshkov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Baryshkov
         language:
@@ -47,7 +71,7 @@ language:
 script:
 - Latn
 abstract:
-- content: In addition to a new cipher with a block length of n=128 bits (referred
+- content: <p>In addition to a new cipher with a block length of n=128 bits (referred
     to as "Kuznyechik" and described in RFC 7801), Russian Federal standard GOST R
     34.12-2015 includes an updated version of the block cipher with a block length
     of n=64 bits and key length of k=256 bits, which is also referred to as "Magma".  The
@@ -56,7 +80,7 @@ abstract:
     be a source of information about the updated version of the 64-bit cipher.  It
     may facilitate the use of the block cipher in Internet applications by providing
     information for developers and users of the GOST 64-bit cipher with the revised
-    version of the cipher for encryption and decryption.
+    version of the cipher for encryption and decryption.</p>
   language:
   - en
   script:
@@ -68,7 +92,12 @@ relation:
     formattedref:
       content: RFC5830
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8891'
+fetched: '2022-01-23'
 keyword:
 - Magma
 - Block Cipher

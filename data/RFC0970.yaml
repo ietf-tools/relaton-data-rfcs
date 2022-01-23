@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Nagle
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Nagle
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: The purpose of this RFC is to focus discussion on a particular problem
+- content: "<p>The purpose of this RFC is to focus discussion on a particular problem
     in the ARPA-Internet and possible methods of solution.  Most prior work on congestion
     in datagram systems focuses on buffer management.  In this memo the case of a
     packet switch with infinite storage is considered.  Such a packet switch can never
@@ -48,10 +60,15 @@ abstract:
     overload, drop all packets.  By attacking the problem of congestion for the infinite-storage
     case, new solutions applicable to switches with finite storage may be found.  No
     proposed solutions this document are intended as standards for the ARPA-Internet
-    at this time.
+    at this time.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '970'
+fetched: '2022-01-23'

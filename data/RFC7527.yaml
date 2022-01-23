@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Asati
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Asati
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Singh
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Singh
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Beebee
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. Beebee
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pignataro
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Pignataro
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dart
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Dart
         language:
@@ -73,6 +133,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: George
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: W. George
         language:
@@ -87,17 +159,17 @@ language:
 script:
 - Latn
 abstract:
-- content: IPv6 Loopback Suppression and Duplicate Address Detection (DAD) are discussed
-    in Appendix A of RFC 4862.  That specification mentions a hardware-assisted mechanism
-    to detect looped back DAD messages.  If hardware cannot suppress looped back DAD
-    messages, a software solution is required.  Several service provider communities
-    have expressed a need for automated detection of looped back Neighbor Discovery
-    (ND) messages used by DAD.  This document includes mitigation techniques and outlines
-    the Enhanced DAD algorithm to automate the detection of looped back IPv6 ND messages
-    used by DAD.  For network loopback tests, the Enhanced DAD algorithm allows IPv6
-    to self-heal after a loopback is placed and removed.  Further, for certain access
-    networks, this document automates resolving a specific duplicate address conflict.  This
-    document updates RFCs 4429, 4861, and 4862.
+- content: "<p>IPv6 Loopback Suppression and Duplicate Address Detection (DAD) are
+    discussed in Appendix A of RFC 4862.  That specification mentions a hardware-assisted
+    mechanism to detect looped back DAD messages.  If hardware cannot suppress looped
+    back DAD messages, a software solution is required.  Several service provider
+    communities have expressed a need for automated detection of looped back Neighbor
+    Discovery (ND) messages used by DAD.  This document includes mitigation techniques
+    and outlines the Enhanced DAD algorithm to automate the detection of looped back
+    IPv6 ND messages used by DAD.  For network loopback tests, the Enhanced DAD algorithm
+    allows IPv6 to self-heal after a loopback is placed and removed.  Further, for
+    certain access networks, this document automates resolving a specific duplicate
+    address conflict.  This document updates RFCs 4429, 4861, and 4862.</p>"
   language:
   - en
   script:
@@ -119,7 +191,12 @@ relation:
     formattedref:
       content: RFC4862
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7527'
+fetched: '2022-01-23'
 keyword:
 - Automated DAD
 - loopback detection

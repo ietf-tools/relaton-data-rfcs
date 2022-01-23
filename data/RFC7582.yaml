@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: IJ
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: IJ. Wijnands
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cai
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Cai
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Boers
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Boers
         language:
@@ -67,7 +115,7 @@ language:
 script:
 - Latn
 abstract:
-- content: A set of prior RFCs specify procedures for supporting multicast in BGP/MPLS
+- content: <p>A set of prior RFCs specify procedures for supporting multicast in BGP/MPLS
     IP VPNs.  These procedures allow customer multicast data to travel across a service
     provider's backbone network through a set of multicast tunnels.  The tunnels are
     advertised in certain BGP multicast auto-discovery routes, by means of a BGP attribute
@@ -79,7 +127,7 @@ abstract:
     those procedures.  In particular, it specifies the procedures for assigning customer
     multicast flows (unidirectional or bidirectional) to specific bidirectional tunnels
     in the provider backbone, for advertising such assignments, and for determining
-    which flows have been assigned to which tunnels.
+    which flows have been assigned to which tunnels.</p>
   language:
   - en
   script:
@@ -101,6 +149,11 @@ relation:
     formattedref:
       content: RFC6625
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7582'
+fetched: '2022-01-23'
 editorialgroup:
 - name: bess

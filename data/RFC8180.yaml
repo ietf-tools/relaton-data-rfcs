@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: X
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Vilajosana
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: X. Vilajosana
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pister
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Pister
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Watteyne
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Watteyne
         language:
@@ -57,8 +93,8 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a minimal mode of operation for an IPv6 over the
-    TSCH mode of IEEE 802.15.4e (6TiSCH) network.  This minimal mode of operation
+- content: "<p>This document describes a minimal mode of operation for an IPv6 over
+    the TSCH mode of IEEE 802.15.4e (6TiSCH) network.  This minimal mode of operation
     specifies the baseline set of protocols that need to be supported and the recommended
     configurations and modes of operation sufficient to enable a 6TiSCH functional
     network.  6TiSCH provides IPv6 connectivity over a Time-Slotted Channel Hopping
@@ -67,13 +103,23 @@ abstract:
     Low-Power Wireless Personal Area Network (6LoWPAN) framework, enabling interoperable
     IPv6 connectivity over IEEE Std 802.15.4 TSCH.  This minimal configuration provides
     the necessary bandwidth for network and security bootstrapping and defines the
-    proper link between the IETF protocols that interface to IEEE Std 802.15.4 TSCH.  This
-    minimal mode of operation should be implemented by all 6TiSCH-compliant devices.
+    proper link between the IETF protocols that interface to IEEE Std 802.15.4 TSCH.
+    \ This minimal mode of operation should be implemented by all 6TiSCH-compliant
+    devices.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '210'
+- title:
+    content: RFC
+    format: text/plain
+  number: '8180'
+fetched: '2022-01-23'
 editorialgroup:
 - name: 6tisch

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bernet
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Bernet
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Smith
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Smith
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Davie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Davie
         language:
@@ -57,20 +93,25 @@ language:
 script:
 - Latn
 abstract:
-- content: The Null Service allows applications to identify themselves to network
+- content: "<p>The Null Service allows applications to identify themselves to network
     Quality of Service (QoS) policy agents, using RSVP signaling.  However, it does
     not require them to specify resource requirements.  QoS policy agents in the network
     respond by applying QoS policies appropriate for the application (as determined
     by the network administrator).  This mode of RSVP usage is particularly applicable
     to networks that combine differentiated service (diffserv) QoS mechanisms with
     RSVP signaling.  In this environment, QoS policy agents may direct the signaled
-    application's traffic to a particular diffserv class of service. [STANDARDS-TRACK]
+    application's traffic to a particular diffserv class of service. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '2997'
+fetched: '2022-01-23'
 keyword:
 - resource
 - reservation

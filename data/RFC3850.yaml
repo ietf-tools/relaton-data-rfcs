@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ramsdell
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Ramsdell
         language:
@@ -38,13 +50,13 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies conventions for X.509 certificate usage by Secure/Multipurpose
-    Internet Mail Extensions (S/MIME) agents.  S/MIME provides a method to send and
-    receive secure MIME messages, and certificates are an integral part of S/MIME
-    agent processing.  S/MIME agents validate certificates as described in RFC 3280,
-    the Internet X.509 Public Key Infrastructure Certificate and CRL Profile.  S/MIME
-    agents must meet the certificate processing requirements in this document as well
-    as those in RFC 3280. [STANDARDS-TRACK]
+- content: "<p>This document specifies conventions for X.509 certificate usage by
+    Secure/Multipurpose Internet Mail Extensions (S/MIME) agents.  S/MIME provides
+    a method to send and receive secure MIME messages, and certificates are an integral
+    part of S/MIME agent processing.  S/MIME agents validate certificates as described
+    in RFC 3280, the Internet X.509 Public Key Infrastructure Certificate and CRL
+    Profile.  S/MIME agents must meet the certificate processing requirements in this
+    document as well as those in RFC 3280. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -56,7 +68,12 @@ relation:
     formattedref:
       content: RFC5750
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3850'
+fetched: '2022-01-23'
 keyword:
 - x.509
 - encryption

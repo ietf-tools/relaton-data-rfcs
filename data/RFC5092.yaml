@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Newman
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: C. Newman
         language:
@@ -47,11 +71,11 @@ language:
 script:
 - Latn
 abstract:
-- content: IMAP (RFC 3501) is a rich protocol for accessing remote message stores.
+- content: "<p>IMAP (RFC 3501) is a rich protocol for accessing remote message stores.
     It provides an ideal mechanism for accessing public mailing list archives as well
     as private and shared message stores. This document defines a URL scheme for referencing
-    objects on an IMAP server. This document obsoletes RFC 2192. It also updates RFC
-    4467. [STANDARDS-TRACK]
+    objects on an IMAP server.</p><p>This document obsoletes RFC 2192. It also updates
+    RFC 4467. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -63,7 +87,12 @@ relation:
     formattedref:
       content: RFC4467
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5092'
+fetched: '2022-01-23'
 keyword:
 - IMAP-URL
 - remote access store

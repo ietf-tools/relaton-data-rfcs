@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Donovan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Donovan
         language:
@@ -37,18 +49,23 @@ language:
 script:
 - Latn
 abstract:
-- content: When making routing and resource allocation decisions, Diameter nodes currently
-    have no generic mechanism to determine the relative priority of Diameter messages.  This
-    document addresses this by defining a mechanism to allow Diameter endpoints to
-    indicate the relative priority of Diameter transactions.  With this information,
-    Diameter nodes can factor that priority into routing, resource allocation, and
-    overload abatement decisions.
+- content: "<p>When making routing and resource allocation decisions, Diameter nodes
+    currently have no generic mechanism to determine the relative priority of Diameter
+    messages.  This document addresses this by defining a mechanism to allow Diameter
+    endpoints to indicate the relative priority of Diameter transactions.  With this
+    information, Diameter nodes can factor that priority into routing, resource allocation,
+    and overload abatement decisions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7944'
+fetched: '2022-01-23'
 keyword:
 - Diameter
 - Overload

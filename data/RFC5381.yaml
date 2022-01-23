@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Iijima
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Iijima
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: Y
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Atarashi
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: Y. Atarashi
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kimura
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Kimura
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kitani
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Kitani
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: H
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Okita
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: H. Okita
         language:
@@ -77,23 +137,28 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes how the authors developed a SOAP (Simple Object
-    Access Protocol)-based NETCONF (Network Configuration Protocol) client and server.  It
-    describes an alternative SOAP binding for NETCONF that does not interoperate with
-    an RFC 4743 conformant implementation making use of cookies on top of the persistent
-    transport connections of HTTP.  When SOAP is used as a transport protocol for
-    NETCONF, various kinds of development tools are available.  By making full use
-    of these tools, developers can significantly reduce their workload.  The authors
+- content: "<p>This document describes how the authors developed a SOAP (Simple Object
+    Access Protocol)-based NETCONF (Network Configuration Protocol) client and server.
+    \ It describes an alternative SOAP binding for NETCONF that does not interoperate
+    with an RFC 4743 conformant implementation making use of cookies on top of the
+    persistent transport connections of HTTP.  When SOAP is used as a transport protocol
+    for NETCONF, various kinds of development tools are available.  By making full
+    use of these tools, developers can significantly reduce their workload.  The authors
     developed an NMS (Network Management System) and network equipment that can deal
     with NETCONF messages sent over SOAP.  This document aims to provide NETCONF development
     guidelines gained from the experience of implementing a SOAP-based NETCONF client
-    and server.  This memo provides information for the Internet community.
+    and server.  This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5381'
+fetched: '2022-01-23'
 keyword:
 - simple object access protocol
 - network configuration protocol

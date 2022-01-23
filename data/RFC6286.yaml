@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Chen
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yuan
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Yuan
         language:
@@ -47,12 +71,12 @@ language:
 script:
 - Latn
 abstract:
-- content: To accommodate situations where the current requirements for the BGP Identifier
-    are not met, this document relaxes the definition of the BGP Identifier to be
-    a 4-octet, unsigned, non-zero integer and relaxes the "uniqueness" requirement
+- content: <p>To accommodate situations where the current requirements for the BGP
+    Identifier are not met, this document relaxes the definition of the BGP Identifier
+    to be a 4-octet, unsigned, non-zero integer and relaxes the "uniqueness" requirement
     so that only Autonomous-System-wide (AS-wide) uniqueness of the BGP Identifiers
     is required.  These revisions to the base BGP specification do not introduce any
-    backward compatibility issues.  This document updates RFC 4271. [STANDARDS-TRACK]
+    backward compatibility issues.  This document updates RFC 4271. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -64,6 +88,11 @@ relation:
     formattedref:
       content: RFC4271
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6286'
+fetched: '2022-01-23'
 editorialgroup:
 - name: idr

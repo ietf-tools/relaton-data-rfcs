@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bonica
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. Bonica
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Minei
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: I. Minei
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Conn
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: M. Conn
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pacella
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Pacella
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Tomotaki
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Tomotaki
         language:
@@ -77,24 +137,30 @@ language:
 script:
 - Latn
 abstract:
-- content: When certain RSVP-TE optimizations are implemented, ingress Label Switching
+- content: "<p>When certain RSVP-TE optimizations are implemented, ingress Label Switching
     Router (LSRs) can receive RSVP RESV messages before forwarding state has been
     installed on all downstream nodes. According to the RSVP-TE specification, the
     ingress LSR can forward traffic through a Label Switched Path (LSP) as soon as
     it receives a RESV message. However, if the ingress LSR forwards traffic through
     the LSP before forwarding state has been installed on all downstream nodes, traffic
-    can be lost. This document describes LSP Self-ping. When an ingress LSR receives
-    an RESV message, it can invoke LSP Self-ping procedures to ensure that forwarding
-    state has been installed on all downstream nodes. LSP Self-ping is a new protocol.
-    It is not an extension of LSP Ping. Although LSP Ping and LSP Self-ping are named
-    similarly, each is designed for a unique purpose. Each protocol listens on its
-    own UDP port and executes its own procedures. LSP Self-ping is an extremely lightweight
-    mechanism. It does not consume control-plane resources on transit or egress LSRs.
+    can be lost.</p><p>This document describes LSP Self-ping. When an ingress LSR
+    receives an RESV message, it can invoke LSP Self-ping procedures to ensure that
+    forwarding state has been installed on all downstream nodes.</p><p>LSP Self-ping
+    is a new protocol. It is not an extension of LSP Ping. Although LSP Ping and LSP
+    Self-ping are named similarly, each is designed for a unique purpose. Each protocol
+    listens on its own UDP port and executes its own procedures.</p><p>LSP Self-ping
+    is an extremely lightweight mechanism. It does not consume control-plane resources
+    on transit or egress LSRs.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7746'
+fetched: '2022-01-23'
 editorialgroup:
 - name: mpls

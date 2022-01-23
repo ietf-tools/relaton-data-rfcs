@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Berger
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: L. Berger
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: White
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: R. White
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: E. Rosen
         language:
@@ -57,12 +93,12 @@ language:
 script:
 - Latn
 abstract:
-- content: The BGP Encapsulation Subsequent Address Family Identifier (SAFI) provides
+- content: "<p>The BGP Encapsulation Subsequent Address Family Identifier (SAFI) provides
     a method for the dynamic exchange of encapsulation information and for the indication
     of encapsulation protocol types to be used for different next hops.  Currently,
     support for Generic Routing Encapsulation (GRE), Layer 2 Tunneling Protocol (L2TPv3),
     and IP in IP tunnel types are defined.  This document defines support for IPsec
-    tunnel types. [STANDARDS-TRACK]
+    tunnel types. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -74,7 +110,12 @@ relation:
     formattedref:
       content: RFC9012
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5566'
+fetched: '2022-01-23'
 keyword:
 - border gateway protocol
 - safi

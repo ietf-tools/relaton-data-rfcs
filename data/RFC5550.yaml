@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Cridland
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Cridland
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Melnikov
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Maes
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Maes
         language:
@@ -57,16 +93,16 @@ language:
 script:
 - Latn
 abstract:
-- content: This document describes a profile (a set of required extensions, restrictions,
+- content: "<p>This document describes a profile (a set of required extensions, restrictions,
     and usage modes), dubbed Lemonade, of the IMAP, mail submission, and Sieve protocols.
     This profile allows clients (especially those that are constrained in memory,
     bandwidth, processing power, or other areas) to efficiently use IMAP and Submission
     to access and submit mail. This includes the ability to forward received mail
     without needing to download and upload the mail, to optimize submission, and to
-    efficiently resynchronize in case of loss of connectivity with the server. The
+    efficiently resynchronize in case of loss of connectivity with the server.</p><p>The
     Lemonade Profile relies upon several extensions to IMAP, Sieve, and Mail Submission
     protocols. The document also defines a new IMAP extension and registers several
-    new IMAP keywords. [STANDARDS-TRACK]
+    new IMAP keywords. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -83,7 +119,12 @@ relation:
     formattedref:
       content: RFC4467
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5550'
+fetched: '2022-01-23'
 keyword:
 - IMAP
 - Sieve

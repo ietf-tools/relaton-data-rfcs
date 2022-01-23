@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Ikonin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Ikonin
         language:
@@ -37,16 +49,21 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies the payload format for packetization of SPIRIT
+- content: "<p>This document specifies the payload format for packetization of SPIRIT
     IP-MR encoded speech signals into the Real-time Transport Protocol (RTP).  The
     payload format supports transmission of multiple frames per packet and introduces
-    redundancy for robustness against packet loss and bit errors. [STANDARDS-TRACK]
+    redundancy for robustness against packet loss and bit errors. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '6262'
+fetched: '2022-01-23'
 keyword:
 - ipmr
 - vocoder

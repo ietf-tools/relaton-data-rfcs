@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Peterson
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: RFC 3261 introduces the concept of adding an S/MIME body to a Session Initiation
-    Protocol (SIP) request or response in order to provide reference integrity over
-    its headers.  This document provides a more specific mechanism to derive integrity
-    and authentication properties from an 'authenticated identity body', a digitally-signed
-    SIP message, or message fragment.  A standard format for such bodies (known as
-    Authenticated Identity Bodies, or AIBs) is given in this document.  Some considerations
-    for the processing of AIBs by recipients of SIP messages with such bodies are
-    also given. [STANDARDS-TRACK]
+- content: "<p>RFC 3261 introduces the concept of adding an S/MIME body to a Session
+    Initiation Protocol (SIP) request or response in order to provide reference integrity
+    over its headers.  This document provides a more specific mechanism to derive
+    integrity and authentication properties from an 'authenticated identity body',
+    a digitally-signed SIP message, or message fragment.  A standard format for such
+    bodies (known as Authenticated Identity Bodies, or AIBs) is given in this document.
+    \ Some considerations for the processing of AIBs by recipients of SIP messages
+    with such bodies are also given. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3893'
+fetched: '2022-01-23'
 keyword:
 - authenticated identity body
 - digitally-signed SIP message

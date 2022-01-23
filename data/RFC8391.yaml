@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Huelsing
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Huelsing
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Butin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: D. Butin
         language:
@@ -43,6 +67,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: S
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Gazdag
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: S. Gazdag
         language:
@@ -53,6 +89,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Rijneveld
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Rijneveld
         language:
@@ -63,6 +111,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mohaisen
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: A. Mohaisen
         language:
@@ -77,24 +137,30 @@ language:
 script:
 - Latn
 abstract:
-- content: This note describes the eXtended Merkle Signature Scheme (XMSS), a hash-based
-    digital signature system that is based on existing descriptions in scientific
-    literature.  This note specifies Winternitz One-Time Signature Plus (WOTS+), a
-    one-time signature scheme; XMSS, a single-tree scheme; and XMSS^MT, a multi-tree
-    variant of XMSS.  Both XMSS and XMSS^MT use WOTS+ as a main building block.  XMSS
-    provides cryptographic digital signatures without relying on the conjectured hardness
-    of mathematical problems.  Instead, it is proven that it only relies on the properties
-    of cryptographic hash functions.  XMSS provides strong security guarantees and
-    is even secure when the collision resistance of the underlying hash function is
-    broken.  It is suitable for compact implementations, is relatively simple to implement,
-    and naturally resists side-channel attacks.  Unlike most other signature systems,
-    hash-based signatures can so far withstand known attacks using quantum computers.
+- content: "<p>This note describes the eXtended Merkle Signature Scheme (XMSS), a
+    hash-based digital signature system that is based on existing descriptions in
+    scientific literature.  This note specifies Winternitz One-Time Signature Plus
+    (WOTS+), a one-time signature scheme; XMSS, a single-tree scheme; and XMSS^MT,
+    a multi-tree variant of XMSS.  Both XMSS and XMSS^MT use WOTS+ as a main building
+    block.  XMSS provides cryptographic digital signatures without relying on the
+    conjectured hardness of mathematical problems.  Instead, it is proven that it
+    only relies on the properties of cryptographic hash functions.  XMSS provides
+    strong security guarantees and is even secure when the collision resistance of
+    the underlying hash function is broken.  It is suitable for compact implementations,
+    is relatively simple to implement, and naturally resists side-channel attacks.
+    \ Unlike most other signature systems, hash-based signatures can so far withstand
+    known attacks using quantum computers.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8391'
+fetched: '2022-01-23'
 keyword:
 - Digital signature
 - cryptography

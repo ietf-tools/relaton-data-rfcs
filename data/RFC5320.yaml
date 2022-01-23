@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: F
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Templin
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: F. Templin
         language:
@@ -37,20 +49,25 @@ language:
 script:
 - Latn
 abstract:
-- content: For the purpose of this document, subnetworks are defined as virtual topologies
-    that span connected network regions bounded by encapsulating border nodes.  These
-    virtual topologies may span multiple IP and/or sub-IP layer forwarding hops, and
-    can introduce failure modes due to packet duplication and/or links with diverse
-    Maximum Transmission Units (MTUs).  This document specifies a Subnetwork Encapsulation
-    and Adaptation Layer (SEAL) that accommodates such virtual topologies over diverse
-    underlying link technologies.  This document defines an Experimental Protocol
-    for the Internet community.
+- content: "<p>For the purpose of this document, subnetworks are defined as virtual
+    topologies that span connected network regions bounded by encapsulating border
+    nodes.  These virtual topologies may span multiple IP and/or sub-IP layer forwarding
+    hops, and can introduce failure modes due to packet duplication and/or links with
+    diverse Maximum Transmission Units (MTUs).  This document specifies a Subnetwork
+    Encapsulation and Adaptation Layer (SEAL) that accommodates such virtual topologies
+    over diverse underlying link technologies.  This document defines an Experimental
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5320'
+fetched: '2022-01-23'
 keyword:
 - virtual topologies
 - mtu

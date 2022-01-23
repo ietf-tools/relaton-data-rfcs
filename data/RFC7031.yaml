@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mrugalski
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Mrugalski
         language:
@@ -33,6 +45,18 @@ contributor:
   - author
 - person:
     name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kinnear
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: K. Kinnear
         language:
@@ -47,22 +71,27 @@ language:
 script:
 - Latn
 abstract:
-- content: The DHCPv6 protocol, defined in RFC 3315, allows for multiple servers to
-    operate on a single network; however, it does not define any way the servers could
-    share information about currently active clients and their leases.  Some sites
-    are interested in running multiple servers in such a way as to provide increased
+- content: "<p>The DHCPv6 protocol, defined in RFC 3315, allows for multiple servers
+    to operate on a single network; however, it does not define any way the servers
+    could share information about currently active clients and their leases.  Some
+    sites are interested in running multiple servers in such a way as to provide increased
     availability in case of server failure.  In order for this to work reliably, the
     cooperating primary and secondary servers must maintain a consistent database
     of the lease information.  RFC 3315 allows for, but does not define, any redundancy
     or failover mechanisms.  This document outlines requirements for DHCPv6 failover,
-    enumerates related problems, and discusses the proposed scope of work to be conducted.  This
-    document does not define a DHCPv6 failover protocol.
+    enumerates related problems, and discusses the proposed scope of work to be conducted.
+    \ This document does not define a DHCPv6 failover protocol.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7031'
+fetched: '2022-01-23'
 keyword:
 - DHCPv6
 - Failover

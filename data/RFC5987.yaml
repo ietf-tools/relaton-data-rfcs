@@ -24,6 +24,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Reschke
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: J. Reschke
         language:
@@ -38,12 +50,12 @@ language:
 script:
 - Latn
 abstract:
-- content: By default, message header field parameters in Hypertext Transfer Protocol
-    (HTTP) messages cannot carry characters outside the ISO- 8859-1 character set.  RFC
-    2231 defines an encoding mechanism for use in Multipurpose Internet Mail Extensions
-    (MIME) headers.  This document specifies an encoding suitable for use in HTTP
-    header fields that is compatible with a profile of the encoding defined in RFC
-    2231. [STANDARDS-TRACK]
+- content: "<p>By default, message header field parameters in Hypertext Transfer Protocol
+    (HTTP) messages cannot carry characters outside the ISO- 8859-1 character set.
+    \ RFC 2231 defines an encoding mechanism for use in Multipurpose Internet Mail
+    Extensions (MIME) headers.  This document specifies an encoding suitable for use
+    in HTTP header fields that is compatible with a profile of the encoding defined
+    in RFC 2231. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -55,7 +67,12 @@ relation:
     formattedref:
       content: RFC8187
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5987'
+fetched: '2022-01-23'
 keyword:
 - HTTP
 - header field parameter

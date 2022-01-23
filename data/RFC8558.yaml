@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hardie
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: T. Hardie
         language:
@@ -37,19 +49,24 @@ language:
 script:
 - Latn
 abstract:
-- content: This document discusses the nature of signals seen by on-path elements
+- content: "<p>This document discusses the nature of signals seen by on-path elements
     examining transport protocols, contrasting implicit and explicit signals.  For
     example, TCP's state machine uses a series of well-known messages that are exchanged
     in the clear.  Because these are visible to network elements on the path between
     the two nodes setting up the transport connection, they are often used as signals
     by those network elements.  In transports that do not exchange these messages
     in the clear, on-path network elements lack those signals.  Often, the removal
-    of those signals is intended by those moving the messages to confidential channels.  Where
-    the endpoints desire that network elements along the path receive these signals,
-    this document recommends explicit signals be used.
+    of those signals is intended by those moving the messages to confidential channels.
+    \ Where the endpoints desire that network elements along the path receive these
+    signals, this document recommends explicit signals be used.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8558'
+fetched: '2022-01-23'

@@ -23,6 +23,18 @@ date:
 contributor:
 - person:
     name:
+      initial:
+      - content: B
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Moore
+        language:
+        - en
+        script:
+        - Latn
       completename:
         content: B. Moore
         language:
@@ -37,7 +49,7 @@ language:
 script:
 - Latn
 abstract:
-- content: This document specifies a number of changes to the Policy Core Information
+- content: "<p>This document specifies a number of changes to the Policy Core Information
     Model (PCIM, RFC 3060).  Two types of changes are included.  First, several completely
     new elements are introduced, for example, classes for header filtering, that extend
     PCIM into areas that it did not previously cover.  Second, there are cases where
@@ -45,7 +57,7 @@ abstract:
     elements are defined (in this case, priorities tied to associations that refer
     to policy rules).  Both types of changes are done in such a way that, to the extent
     possible, interoperability with implementations of the original PCIM model is
-    preserved.  This document updates RFC 3060. [STANDARDS-TRACK]
+    preserved.  This document updates RFC 3060. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -57,7 +69,12 @@ relation:
     formattedref:
       content: RFC3060
       format: text/plain
-fetched: '2022-01-21'
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '3460'
+fetched: '2022-01-23'
 keyword:
 - CIM
 - common
