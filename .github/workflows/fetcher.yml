@@ -21,12 +21,12 @@ jobs:
           gem install relaton-cli
       - name: Fetch documents
         run: |
-          rm -f data/*
+          rm -rf data
           relaton fetch-data ietf-rfc-entries
       - name: Push data
         run: |
           echo `date` > flag.txt
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/* flag.txt
+          git add data flag.txt
           git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
