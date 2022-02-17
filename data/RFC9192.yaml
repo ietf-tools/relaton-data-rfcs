@@ -1,0 +1,142 @@
+---
+id: RFC9192
+title:
+- type: main
+  content: Network Service Header (NSH) Fixed-Length Context Header Allocation
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9192
+  type: src
+type: standard
+docid:
+- id: RFC 9192
+  type: IETF
+  primary: true
+- id: RFC9192
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9192
+  type: DOI
+docnumber: RFC9192
+date:
+- type: published
+  value: 2022-02
+contributor:
+- person:
+    name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mizrahi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Mizrahi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: I
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Yerushalmi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Yerushalmi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Melman
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Melman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Browne
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Browne
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Network Service Header (NSH) specification defines two possible
+    methods of including metadata (MD): MD Type 0x1 and MD Type 0x2. MD Type 0x1 uses
+    a fixed-length Context Header. The allocation of this Context Header, i.e., its
+    structure and semantics, has not been standardized. This memo defines the Timestamp
+    Context Header, which is an NSH fixed-length Context Header that incorporates
+    the packet's timestamp, a sequence number, and a source interface identifier.</p><p>Although
+    the definition of the Context Header presented in this document has not been standardized
+    by the IETF, it has been implemented in silicon by several manufacturers and is
+    published here to facilitate interoperability.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9192'
+fetched: '2022-02-17'
+keyword:
+- NSH
+- Context Header
+- timestamp
