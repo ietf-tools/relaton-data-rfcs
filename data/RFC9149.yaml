@@ -1,0 +1,125 @@
+---
+id: RFC9149
+title:
+- type: main
+  content: TLS Ticket Requests
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9149
+  type: src
+type: standard
+docid:
+- id: RFC 9149
+  type: IETF
+  primary: true
+- id: RFC9149
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9149
+  type: DOI
+docnumber: RFC9149
+date:
+- type: published
+  value: 2022-04
+contributor:
+- person:
+    name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Pauly
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Pauly
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: D
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Schinazi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Schinazi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: C
+        language:
+        - en
+        script:
+        - Latn
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Wood
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C.A. Wood
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>TLS session tickets enable stateless connection resumption for clients
+    without server-side, per-client state.  Servers vend an arbitrary number of session
+    tickets to clients, at their discretion, upon connection establishment.  Clients
+    store and use tickets when resuming future connections.  This document describes
+    a mechanism by which clients can specify the desired number of tickets needed
+    for future connections.  This extension aims to provide a means for servers to
+    determine the number of tickets to generate in order to reduce ticket waste while
+    simultaneously priming clients for future connection attempts.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9149'
+fetched: '2022-04-26'
+keyword:
+- TLS
+- Tickets
+editorialgroup:
+- name: tls
