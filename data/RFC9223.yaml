@@ -1,0 +1,173 @@
+---
+id: RFC9223
+title:
+- type: main
+  content: Real-Time Transport Object Delivery over Unidirectional Transport (ROUTE)
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9223
+  type: src
+type: standard
+docid:
+- id: RFC 9223
+  type: IETF
+  primary: true
+- id: RFC9223
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9223
+  type: DOI
+docnumber: RFC9223
+date:
+- type: published
+  value: 2022-04
+contributor:
+- person:
+    name:
+      initial:
+      - content: W
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Zia
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Zia
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: T
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Stockhammer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Stockhammer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: L
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Chaponniere
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Chaponniere
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: G
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Mandyam
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mandyam
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: M
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Luby
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Luby
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Real-time Transport Object delivery over Unidirectional Transport
+    (ROUTE) protocol is specified for robust delivery of Application Objects, including
+    Application Objects with real-time delivery constraints, to receivers over a unidirectional
+    transport. Application Objects consist of data that has meaning to applications
+    that use the ROUTE protocol for delivery of data to receivers; for example, it
+    can be a file, a Dynamic Adaptive Streaming over HTTP (DASH) or HTTP Live Streaming
+    (HLS) segment, a WAV audio clip, etc. The ROUTE protocol also supports low-latency
+    streaming applications.</p><p>The ROUTE protocol is suitable for unicast, broadcast,
+    and multicast transport. Therefore, it can be run over UDP/IP, including multicast
+    IP. The ROUTE protocol can leverage the features of the underlying protocol layer,
+    e.g., to provide security, it can leverage IP security protocols such as IPsec.</p><p>This
+    document specifies the ROUTE protocol such that it could be used by a variety
+    of services for delivery of Application Objects by specifying their own profiles
+    of this protocol (e.g., by adding or constraining some features).</p><p>This is
+    not an IETF specification and does not have IETF consensus.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9223'
+fetched: '2022-04-28'
+keyword:
+- Multicast
+- Broadcast
+- FEC
+- DASH
+- HLS
+- FLUTE
