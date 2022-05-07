@@ -1,0 +1,171 @@
+---
+id: RFC9234
+title:
+- type: main
+  content: Route Leak Prevention and Detection Using Roles in UPDATE and OPEN Messages
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9234
+  type: src
+type: standard
+docid:
+- id: RFC 9234
+  type: IETF
+  primary: true
+- id: RFC9234
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9234
+  type: DOI
+docnumber: RFC9234
+date:
+- type: published
+  value: 2022-05
+contributor:
+- person:
+    name:
+      initial:
+      - content: A
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Azimov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Azimov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: E
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bogomazov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Bogomazov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: R
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Bush
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Bush
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Patel
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Patel
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: K
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Sriram
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Sriram
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Route leaks are the propagation of BGP prefixes that violate assumptions
+    of BGP topology relationships, e.g., announcing a route learned from one transit
+    provider to another transit provider or a lateral (i.e., non-transit) peer or
+    announcing a route learned from one lateral peer to another lateral peer or a
+    transit provider.  These are usually the result of misconfigured or absent BGP
+    route filtering or lack of coordination between autonomous systems (ASes).  Existing
+    approaches to leak prevention rely on marking routes by operator configuration,
+    with no check that the configuration corresponds to that of the External BGP (eBGP)
+    neighbor, or enforcement of the two eBGP speakers agreeing on the peering relationship.
+    \ This document enhances the BGP OPEN message to establish an agreement of the
+    peering relationship on each eBGP session between autonomous systems in order
+    to enforce appropriate configuration on both sides.  Propagated routes are then
+    marked according to the agreed relationship, allowing both prevention and detection
+    of route leaks.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9234'
+fetched: '2022-05-07'
+keyword:
+- BGP
+- Route leak
+- BGP Role
+editorialgroup:
+- name: idr
