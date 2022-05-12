@@ -1,0 +1,100 @@
+---
+id: RFC9235
+title:
+- type: main
+  content: TCP Authentication Option (TCP-AO) Test Vectors
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9235
+  type: src
+type: standard
+docid:
+- id: RFC 9235
+  type: IETF
+  primary: true
+- id: RFC9235
+  type: IETF
+  scope: anchor
+- id: 10.17487/RFC9235
+  type: DOI
+docnumber: RFC9235
+date:
+- type: published
+  value: 2022-05
+contributor:
+- person:
+    name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Touch
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Touch
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: J
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Kuusisaari
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Kuusisaari
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document provides test vectors to validate implementations of
+    the two mandatory authentication algorithms specified for the TCP Authentication
+    Option over both IPv4 and IPv6.  This includes validation of the key derivation
+    function (KDF) based on a set of test connection parameters as well as validation
+    of the message authentication code (MAC).  Vectors are provided for both currently
+    required pairs of KDF and MAC algorithms: KDF_HMAC_SHA1 and HMAC- SHA-1-96, and
+    KDF_AES_128_CMAC and AES-128-CMAC-96.  The vectors also validate both whole TCP
+    segments as well as segments whose options are excluded for middlebox traversal.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9235'
+fetched: '2022-05-12'
+keyword:
+- TCP
+- authentication
+- option
+- test vector
+editorialgroup:
+- name: tcpm
