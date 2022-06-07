@@ -103,12 +103,23 @@ abstract:
   script:
   - Latn
   format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9111
+    docid:
+    - id: RFC9111
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9111
+      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
   number: '7234'
-fetched: '2022-06-06'
+fetched: '2022-06-07'
 keyword:
 - HTTP caching
 - HyperText Transfer Protocol
