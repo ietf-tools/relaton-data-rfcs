@@ -1,0 +1,111 @@
+---
+id: RFC9276
+title:
+- type: main
+  content: Guidance for NSEC3 Parameter Settings
+  format: text/plain
+link:
+- content: https://www.rfc-editor.org/info/rfc9276
+  type: src
+type: standard
+docid:
+- id: RFC 9276
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9276
+  type: DOI
+docnumber: RFC9276
+date:
+- type: published
+  value: 2022-08
+contributor:
+- person:
+    name:
+      initial:
+      - content: W.
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Hardaker
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Hardaker
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      initial:
+      - content: V.
+        language:
+        - en
+        script:
+        - Latn
+      surname:
+        content: Dukhovni
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Dukhovni
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>NSEC3 is a DNSSEC mechanism providing proof of nonexistence by asserting
+    that there are no names that exist between two domain names within a zone.  Unlike
+    its counterpart NSEC, NSEC3 avoids directly disclosing the bounding domain name
+    pairs.  This document provides guidance on setting NSEC3 parameters based on recent
+    operational deployment experience.  This document updates RFC 5155 with guidance
+    about selecting NSEC3 iteration and salt parameters.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5155
+    docid:
+    - id: RFC5155
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5155
+      format: text/plain
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '236'
+- title:
+    content: RFC
+    format: text/plain
+  number: '9276'
+fetched: '2022-08-11'
+keyword:
+- DNSSEC
+- DNS
+- NSEC3
+- NSEC
+- Denial of Existence
+editorialgroup:
+- name: dnsop
