@@ -1,0 +1,106 @@
+---
+id: RFC9297
+title:
+- content: HTTP Datagrams and the Capsule Protocol
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9297
+  type: src
+type: standard
+docid:
+- id: RFC 9297
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9297
+  type: DOI
+docnumber: RFC9297
+date:
+- type: published
+  value: 2022-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+      surname:
+        content: Schinazi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Schinazi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+      surname:
+        content: Pardue
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Pardue
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes HTTP Datagrams, a convention for conveying
+    multiplexed, potentially unreliable datagrams inside an HTTP connection.</p><p>In
+    HTTP/3, HTTP Datagrams can be sent unreliably using the QUIC DATAGRAM extension.
+    When the QUIC DATAGRAM frame is unavailable or undesirable, HTTP Datagrams can
+    be sent using the Capsule Protocol, which is a more general convention for conveying
+    data in HTTP connections.</p><p>HTTP Datagrams and the Capsule Protocol are intended
+    for use by HTTP extensions, not applications.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9297'
+fetched: '2022-08-25'
+keyword:
+- content: quic
+- content: http
+- content: datagram
+- content: fast
+- content: tunnels
+- content: turtles all the way down
+- content: masque
+- content: http-ng
+editorialgroup:
+- name: masque
