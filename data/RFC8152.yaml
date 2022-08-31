@@ -62,12 +62,33 @@ abstract:
   script:
   - Latn
   format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9052
+    docid:
+    - id: RFC9052
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9052
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
+    id: RFC9053
+    docid:
+    - id: RFC9053
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9053
+      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
   number: '8152'
-fetched: '2022-08-30'
+fetched: '2022-08-31'
 keyword:
 - content: CoAP
 - content: ECC
