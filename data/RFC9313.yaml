@@ -1,23 +1,23 @@
 ---
-id: RFC3820
+id: RFC9313
 title:
-- content: Internet X.509 Public Key Infrastructure (PKI) Proxy Certificate Profile
+- content: Pros and Cons of IPv6 Transition Technologies for IPv4-as-a-Service (IPv4aaS)
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3820
+- content: https://www.rfc-editor.org/info/rfc9313
   type: src
 type: standard
 docid:
-- id: RFC 3820
+- id: RFC 9313
   type: IETF
   primary: true
-- id: 10.17487/RFC3820
+- id: 10.17487/RFC9313
   type: DOI
-docnumber: RFC3820
+docnumber: RFC9313
 date:
 - type: published
-  value: 2004-06
+  value: 2022-10
 contributor:
 - person:
     name:
@@ -27,17 +27,17 @@ contributor:
           - en
           script:
           - Latn
-          initial: S
+          initial: G
         formatted_initials:
-          content: S.
+          content: G.
       surname:
-        content: Tuecke
+        content: Lencse
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Tuecke
+        content: G. Lencse
         language:
         - en
         script:
@@ -52,42 +52,17 @@ contributor:
           - en
           script:
           - Latn
-          initial: V
+          initial: J
         formatted_initials:
-          content: V.
+          content: J.
       surname:
-        content: Welch
+        content: Palet Martinez
         language:
         - en
         script:
         - Latn
       completename:
-        content: V. Welch
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D.
-      surname:
-        content: Engert
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: D. Engert
+        content: J. Palet Martinez
         language:
         - en
         script:
@@ -106,13 +81,13 @@ contributor:
         formatted_initials:
           content: L.
       surname:
-        content: Pearlman
+        content: Howard
         language:
         - en
         script:
         - Latn
       completename:
-        content: L. Pearlman
+        content: L. Howard
         language:
         - en
         script:
@@ -127,35 +102,62 @@ contributor:
           - en
           script:
           - Latn
-          initial: M
+          initial: R
         formatted_initials:
-          content: M.
+          content: R.
       surname:
-        content: Thompson
+        content: Patterson
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Thompson
+        content: R. Patterson
         language:
         - en
         script:
         - Latn
   role:
   - author
-revdate: 2004-06
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I.
+      surname:
+        content: Farrer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Farrer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document forms a certificate profile for Proxy Certificates, based
-    on X.509 Public Key Infrastructure (PKI) certificates as defined in RFC 3280,
-    for use in the Internet.  The term Proxy Certificate is used to describe a certificate
-    that is derived from, and signed by, a normal X.509 Public Key End Entity Certificate
-    or by another Proxy Certificate for the purpose of providing restricted proxying
-    and delegation within a PKI based authentication system. [STANDARDS-TRACK]</p>"
+- content: "<p>Several IPv6 transition technologies have been developed to provide
+    customers with IPv4-as-a-Service (IPv4aaS) for ISPs with an IPv6-only access and/or
+    core network. These technologies have their advantages and disadvantages. Depending
+    on existing topology, skills, strategy, and other preferences, one of these technologies
+    may be the most appropriate solution for a network operator.</p><p>This document
+    examines the five most prominent IPv4aaS technologies and considers a number of
+    different aspects to provide network operators with an easy-to-use reference to
+    assist in selecting the technology that best suits their needs.</p>"
   language:
   - en
   script:
@@ -165,15 +167,18 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '3820'
+  number: '9313'
 keyword:
-- content: X.509
-- content: PKI
-- content: Public Key Infrastructure
-- content: authentication
-- content: security credentials
-- content: restricted delegation
-- content: single-signon
-- content: delegation of rights
+- content: IPv6
+- content: Transition Technologies
+- content: Comparison
+- content: IPv4aaS
+- content: IPv6-only
+- content: 464XLAT
+- content: DNS64
+- content: Dual Stack Lite
+- content: Lightweight 4over6
+- content: MAP-E
+- content: MAP-T
 editorialgroup:
-- name: pkix
+- name: v6ops

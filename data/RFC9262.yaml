@@ -1,0 +1,140 @@
+---
+id: RFC9262
+title:
+- content: Tree Engineering for Bit Index Explicit Replication (BIER-TE)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9262
+  type: src
+type: standard
+docid:
+- id: RFC 9262
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9262
+  type: DOI
+docnumber: RFC9262
+date:
+- type: published
+  value: 2022-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+      surname:
+        content: Eckert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Eckert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+      surname:
+        content: Menth
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Menth
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+      surname:
+        content: Cauchie
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Cauchie
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This memo describes per-packet stateless strict and loose path steered
+    replication and forwarding for "Bit Index Explicit Replication" (BIER) packets
+    (RFC 8279); it is called "Tree Engineering for Bit Index Explicit Replication"
+    (BIER-TE) and is intended to be used as the path steering mechanism for Traffic
+    Engineering with BIER.</p><p>BIER-TE introduces a new semantic for "bit positions"
+    (BPs). These BPs indicate adjacencies of the network topology, as opposed to (non-TE)
+    BIER in which BPs indicate "Bit-Forwarding Egress Routers" (BFERs). A BIER-TE
+    "packets BitString" therefore indicates the edges of the (loop-free) tree across
+    which the packets are forwarded by BIER-TE. BIER-TE can leverage BIER forwarding
+    engines with little changes. Co-existence of BIER and BIER-TE forwarding in the
+    same domain is possible -- for example, by using separate BIER "subdomains" (SDs).
+    Except for the optional routed adjacencies, BIER-TE does not require a BIER routing
+    underlay and can therefore operate without depending on a routing protocol such
+    as the "Interior Gateway Protocol" (IGP).</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9262'
+keyword:
+- content: BIER
+- content: BIER-TE
+- content: controller
+- content: ECMP
+- content: forwarding
+- content: traffic-engineering
+- content: multicast
+- content: pseudocode
+- content: routing
+- content: traffic-steering
+- content: tree-steering
+editorialgroup:
+- name: bier
