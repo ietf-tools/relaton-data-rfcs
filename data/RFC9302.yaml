@@ -1,0 +1,139 @@
+---
+id: RFC9302
+title:
+- content: Locator/ID Separation Protocol (LISP) Map-Versioning
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9302
+  type: src
+type: standard
+docid:
+- id: RFC 9302
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9302
+  type: DOI
+docnumber: RFC9302
+date:
+- type: published
+  value: 2022-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Iannone
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Iannone
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saucez
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Saucez
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: O
+        formatted_initials:
+          content: O.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bonaventure
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: O. Bonaventure
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+revdate: 2022-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes the Locator/ID Separation Protocol (LISP) Map-Versioning
+    mechanism, which provides in-packet information about Endpoint-ID-to-Routing-Locator
+    (EID-to-RLOC) mappings used to encapsulate LISP data packets. This approach is
+    based on associating a version number to EID-to-RLOC mappings and transporting
+    such a version number in the LISP-specific header of LISP-encapsulated packets.
+    LISP Map-Versioning is particularly useful to inform communicating Ingress Tunnel
+    Routers (ITRs) and Egress Tunnel Routers (ETRs) about modifications of the mappings
+    used to encapsulate packets. The mechanism is optional and transparent to implementations
+    not supporting this feature, since in the LISP-specific header and in the Map
+    Records, bits used for Map-Versioning can be safely ignored by ITRs and ETRs that
+    do not support or do not want to use the mechanism.</p><p>This document obsoletes
+    RFC 6834, which is the initial experimental specifications of the mechanisms updated
+    by this document.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9302'
+editorialgroup:
+- name: lisp

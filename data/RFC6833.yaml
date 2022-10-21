@@ -30,6 +30,10 @@ contributor:
           initial: V
         formatted_initials:
           content: V.
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Fuller
         language:
@@ -55,6 +59,10 @@ contributor:
           initial: D
         formatted_initials:
           content: D.
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Farinacci
         language:
@@ -92,6 +100,17 @@ abstract:
   script:
   - Latn
   format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9301
+    docid:
+    - id: RFC9301
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9301
+      format: text/plain
 series:
 - title:
     content: RFC

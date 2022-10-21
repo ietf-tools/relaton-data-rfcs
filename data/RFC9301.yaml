@@ -1,0 +1,167 @@
+---
+id: RFC9301
+title:
+- content: Locator/ID Separation Protocol (LISP) Control Plane
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9301
+  type: src
+type: standard
+docid:
+- id: RFC 9301
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9301
+  type: DOI
+docnumber: RFC9301
+date:
+- type: published
+  value: 2022-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Farinacci
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Farinacci
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maino
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Maino
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fuller
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Fuller
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cabellos
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Cabellos
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - editor
+revdate: 2022-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document describes the control plane and Mapping Service for the
+    Locator/ID Separation Protocol (LISP), implemented by two types of LISP-speaking
+    devices -- the LISP Map-Resolver and LISP Map-Server -- that provide a simplified
+    "front end" for one or more Endpoint IDs (EIDs) to Routing Locator mapping databases.</p><p>By
+    using this control plane service interface and communicating with Map-Resolvers
+    and Map-Servers, LISP Ingress Tunnel Routers (ITRs) and Egress Tunnel Routers
+    (ETRs) are not dependent on the details of mapping database systems; this behavior
+    facilitates modularity with different database designs. Since these devices implement
+    the "edge" of the LISP control plane infrastructure, connecting EID addressable
+    nodes of a LISP site, the implementation and operational complexity of the overall
+    cost and effort of deploying LISP is reduced.</p><p>This document obsoletes RFCs
+    6830 and 6833.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9301'
+editorialgroup:
+- name: lisp

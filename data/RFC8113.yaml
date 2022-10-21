@@ -31,6 +31,10 @@ contributor:
           initial: M
         formatted_initials:
           content: M.
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Boucadair
         language:
@@ -56,6 +60,10 @@ contributor:
           initial: C
         formatted_initials:
           content: C.
+          language:
+          - en
+          script:
+          - Latn
       surname:
         content: Jacquenet
         language:
@@ -86,6 +94,16 @@ abstract:
   - Latn
   format: text/html
 relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9304
+    docid:
+    - id: RFC9304
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9304
+      format: text/plain
 - type: updates
   bibitem:
     id: RFC6830
