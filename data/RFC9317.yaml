@@ -1,23 +1,23 @@
 ---
-id: RFC3947
+id: RFC9317
 title:
-- content: Negotiation of NAT-Traversal in the IKE
+- content: Operational Considerations for Streaming Media
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3947
+- content: https://www.rfc-editor.org/info/rfc9317
   type: src
 type: standard
 docid:
-- id: RFC 3947
+- id: RFC 9317
   type: IETF
   primary: true
-- id: 10.17487/RFC3947
+- id: 10.17487/RFC9317
   type: DOI
-docnumber: RFC3947
+docnumber: RFC9317
 date:
 - type: published
-  value: 2005-01
+  value: 2022-10
 contributor:
 - person:
     name:
@@ -27,50 +27,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: T
+          initial: J
         formatted_initials:
-          content: T.
+          content: J.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Kivinen
+        content: Holland
         language:
         - en
         script:
         - Latn
       completename:
-        content: T. Kivinen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: B
-        formatted_initials:
-          content: B.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Swander
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: B. Swander
+        content: J. Holland
         language:
         - en
         script:
@@ -93,13 +64,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Huttunen
+        content: Begen
         language:
         - en
         script:
         - Latn
       completename:
-        content: A. Huttunen
+        content: A. Begen
         language:
         - en
         script:
@@ -114,36 +85,41 @@ contributor:
           - en
           script:
           - Latn
-          initial: V
+          initial: S
         formatted_initials:
-          content: V.
+          content: S.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Volpe
+        content: Dawkins
         language:
         - en
         script:
         - Latn
       completename:
-        content: V. Volpe
+        content: S. Dawkins
         language:
         - en
         script:
         - Latn
   role:
   - type: author
-revdate: 2005-01
+revdate: 2022-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes how to detect one or more network address translation
-    devices (NATs) between IPsec hosts, and how to negotiate the use of UDP encapsulation
-    of IPsec packets through NAT boxes in Internet Key Exchange (IKE). [STANDARDS-TRACK]</p>"
+- content: "<p>This document provides an overview of operational networking and transport
+    protocol issues that pertain to the quality of experience (QoE) when streaming
+    video and other high-bitrate media over the Internet.</p><p>This document explains
+    the characteristics of streaming media delivery that have surprised network designers
+    or transport experts who lack specific media expertise, since streaming media
+    highlights key differences between common assumptions in existing networking practices
+    and observations of media delivery issues encountered when streaming media over
+    those existing networks.</p>"
   language:
   - en
   script:
@@ -153,9 +129,14 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '3947'
+  number: '9317'
 keyword:
-- content: IKE
-- content: Internet Key Exchange
+- content: DASH
+- content: HLS
+- content: ABR
+- content: adaptive streaming
+- content: live streaming
+- content: live latency
+- content: media transport
 editorialgroup:
-- name: ipsec
+- name: mops
