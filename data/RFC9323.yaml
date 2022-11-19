@@ -1,0 +1,142 @@
+---
+id: RFC9323
+title:
+- content: A Profile for RPKI Signed Checklists (RSCs)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9323
+  type: src
+type: standard
+docid:
+- id: RFC 9323
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9323
+  type: DOI
+docnumber: RFC9323
+date:
+- type: published
+  value: 2022-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snijders
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Snijders
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Harrison
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Harrison
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Maddison
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Maddison
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2022-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document defines a Cryptographic Message Syntax (CMS) protected
+    content type for use with the Resource Public Key Infrastructure (RPKI) to carry
+    a general-purpose listing of checksums (a 'checklist').  The objective is to allow
+    for the creation of an attestation, termed an "RPKI Signed Checklist (RSC)", which
+    contains one or more checksums of arbitrary digital objects (files) that are signed
+    with a specific set of Internet Number Resources.  When validated, an RSC confirms
+    that the respective Internet resource holder produced the RSC.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9323'
+keyword:
+- content: security
+- content: cryptography
+- content: X.509
+editorialgroup:
+- name: sidrops
