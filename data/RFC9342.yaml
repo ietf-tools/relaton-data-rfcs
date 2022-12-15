@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.1
-id: RFC8321
+id: RFC9342
 title:
-- content: Alternate-Marking Method for Passive and Hybrid Performance Monitoring
+- content: Clustered Alternate-Marking Method
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8321
+- content: https://www.rfc-editor.org/info/rfc9342
   type: src
 type: standard
 docid:
-- id: RFC 8321
+- id: RFC 9342
   type: IETF
   primary: true
-- id: 10.17487/RFC8321
+- id: 10.17487/RFC9342
   type: DOI
-docnumber: RFC8321
+docnumber: RFC9342
 date:
 - type: published
-  value: 2018-01
+  value: 2022-12
 contributor:
 - person:
     name:
@@ -57,35 +57,6 @@ contributor:
           - en
           script:
           - Latn
-          initial: A
-        formatted_initials:
-          content: A.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Capello
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: A. Capello
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
           initial: M
         formatted_initials:
           content: M.
@@ -115,21 +86,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: L
+          initial: A
         formatted_initials:
-          content: L.
+          content: A.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Castaldelli
+        content: Sapio
         language:
         - en
         script:
         - Latn
       completename:
-        content: L. Castaldelli
+        content: A. Sapio
         language:
         - en
         script:
@@ -144,79 +115,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: M
+          initial: R
         formatted_initials:
-          content: M.
+          content: R.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Chen
+        content: Sisto
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Chen
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zheng
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: L. Zheng
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: G
-        formatted_initials:
-          content: G.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mirsky
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: G. Mirsky
+        content: R. Sisto
         language:
         - en
         script:
@@ -239,13 +152,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Mizrahi
+        content: Zhou
         language:
         - en
         script:
         - Latn
       completename:
-        content: T. Mizrahi
+        content: T. Zhou
         language:
         - en
         script:
@@ -257,43 +170,40 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2018-01
+revdate: 2022-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes a method to perform packet loss, delay, and
-    jitter measurements on live traffic.  This method is based on an Alternate-Marking
-    (coloring) technique.  A report is provided in order to explain an example and
-    show the method applicability.  This technology can be applied in various situations,
-    as detailed in this document, and could be considered Passive or Hybrid depending
-    on the application.</p>"
+- content: <p>This document generalizes and expands the Alternate-Marking methodology
+    to measure any kind of unicast flow whose packets can follow several different
+    paths in the network; this can result in a multipoint-to-multipoint network.  The
+    network clustering approach is presented and, for this reason, the technique described
+    here is called "Clustered Alternate Marking".  This document obsoletes RFC 8889.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9341
-    docid:
-    - id: RFC9341
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9341
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8321'
+  number: '9342'
 keyword:
-- content: Alternate Marking
-- content: Marking Method
-- content: Coloring Technique
+- content: Multipoint
+- content: Cluster
+- content: Performance
+- content: Measurement
+- content: Monitoring
+- content: Passive
+- content: Hybrid
+- content: Loss
+- content: Delay
+- content: Delay Variation
+- content: Hashing
+- content: Closed-Loop
 editorialgroup:
 - name: ippm
 ext:
