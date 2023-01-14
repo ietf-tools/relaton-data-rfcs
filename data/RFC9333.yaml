@@ -1,0 +1,121 @@
+---
+schema-version: v1.2.1
+id: RFC9333
+title:
+- content: Minimal IP Encapsulating Security Payload (ESP)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9333
+  type: src
+type: standard
+docid:
+- id: RFC 9333
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9333
+  type: DOI
+docnumber: RFC9333
+date:
+- type: published
+  value: 2023-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Migault
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Migault
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guggemos
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Guggemos
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes the minimal properties that an IP Encapsulating
+    Security Payload (ESP) implementation needs to meet to remain interoperable with
+    the standard ESP as defined in RFC 4303. Such a minimal version of ESP is not
+    intended to become a replacement of ESP in RFC 4303. Instead, a minimal implementation
+    is expected to be optimized for constrained environments while remaining interoperable
+    with implementations of ESP. In addition, this document provides some considerations
+    for implementing minimal ESP in a constrained environment, such as limiting the
+    number of flash writes, handling frequent wakeup and sleep states, limiting wakeup
+    time, and reducing the use of random generation.</p><p>This document does not
+    update or modify RFC 4303. It provides a compact description of how to implement
+    the minimal version of that protocol. RFC 4303 remains the authoritative description.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9333'
+editorialgroup:
+- name: lwig
+ext:
+  schema-version: v1.0.0
