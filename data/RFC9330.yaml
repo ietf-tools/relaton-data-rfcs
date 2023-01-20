@@ -1,0 +1,203 @@
+---
+schema-version: v1.2.1
+id: RFC9330
+title:
+- content: 'Low Latency, Low Loss, and Scalable Throughput (L4S) Internet Service:
+    Architecture'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9330
+  type: src
+type: standard
+docid:
+- id: RFC 9330
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9330
+  type: DOI
+docnumber: RFC9330
+date:
+- type: published
+  value: 2023-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Briscoe
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: De Schepper
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. De Schepper
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bagnulo
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Bagnulo
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: White
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. White
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes the L4S architecture, which enables Internet
+    applications to achieve low queuing latency, low congestion loss, and scalable
+    throughput control. L4S is based on the insight that the root cause of queuing
+    delay is in the capacity-seeking congestion controllers of senders, not in the
+    queue itself. With the L4S architecture, all Internet applications could (but
+    do not have to) transition away from congestion control algorithms that cause
+    substantial queuing delay and instead adopt a new class of congestion controls
+    that can seek capacity with very little queuing. These are aided by a modified
+    form of Explicit Congestion Notification (ECN) from the network. With this new
+    architecture, applications can have both low latency and high throughput.</p><p>The
+    architecture primarily concerns incremental deployment. It defines mechanisms
+    that allow the new class of L4S congestion controls to coexist with 'Classic'
+    congestion controls in a shared network. The aim is for L4S latency and throughput
+    to be usually much better (and rarely worse) while typically not impacting Classic
+    performance.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9330'
+keyword:
+- content: Performance
+- content: Queuing Delay
+- content: One Way Delay
+- content: Round-Trip Time
+- content: RTT
+- content: Jitter
+- content: Congestion Control
+- content: Congestion Avoidance
+- content: Quality of Service
+- content: QoS
+- content: Quality of Experience
+- content: QoE
+- content: Active Queue Management
+- content: AQM
+- content: Explicit Congestion Notification
+- content: ECN
+- content: Pacing
+- content: Burstiness
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.0
