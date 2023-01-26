@@ -1,0 +1,161 @@
+---
+schema-version: v1.2.1
+id: RFC9335
+title:
+- content: Completely Encrypting RTP Header Extensions and Contributing Sources
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9335
+  type: src
+type: standard
+docid:
+- id: RFC 9335
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9335
+  type: DOI
+docnumber: RFC9335
+date:
+- type: published
+  value: 2023-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uberti
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Uberti
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jennings
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Jennings
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Murillo
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Murillo
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>While the Secure Real-time Transport Protocol (SRTP) provides confidentiality
+    for the contents of a media packet, a significant amount of metadata is left unprotected,
+    including RTP header extensions and contributing sources (CSRCs). However, this
+    data can be moderately sensitive in many applications. While there have been previous
+    attempts to protect this data, they have had limited deployment, due to complexity
+    as well as technical limitations.</p><p>This document updates RFC 3711, the SRTP
+    specification, and defines Cryptex as a new mechanism that completely encrypts
+    header extensions and CSRCs and uses simpler Session Description Protocol (SDP)
+    signaling with the goal of facilitating deployment.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC3711
+    docid:
+    - id: RFC3711
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3711
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9335'
+keyword:
+- content: SRTP
+editorialgroup:
+- name: avtcore
+ext:
+  schema-version: v1.0.0
