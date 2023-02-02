@@ -1,25 +1,25 @@
 ---
 schema-version: v1.2.1
-id: RFC5316
+id: RFC9346
 title:
-- content: ISIS Extensions in Support of Inter-Autonomous System (AS) MPLS and GMPLS
+- content: IS-IS Extensions in Support of Inter-Autonomous System (AS) MPLS and GMPLS
     Traffic Engineering
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc5316
+- content: https://www.rfc-editor.org/info/rfc9346
   type: src
 type: standard
 docid:
-- id: RFC 5316
+- id: RFC 9346
   type: IETF
   primary: true
-- id: 10.17487/RFC5316
+- id: 10.17487/RFC9346
   type: DOI
-docnumber: RFC5316
+docnumber: RFC9346
 date:
 - type: published
-  value: 2008-12
+  value: 2023-02
 contributor:
 - person:
     name:
@@ -58,21 +58,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: R
+          initial: L
         formatted_initials:
-          content: R.
+          content: L.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zhang
+        content: Ginsberg
         language:
         - en
         script:
         - Latn
       completename:
-        content: R. Zhang
+        content: L. Ginsberg
         language:
         - en
         script:
@@ -87,21 +87,50 @@ contributor:
           - en
           script:
           - Latn
-          initial: X
+          initial: S
         formatted_initials:
-          content: X.
+          content: S.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Duan
+        content: Previdi
         language:
         - en
         script:
         - Latn
       completename:
-        content: X. Duan
+        content: S. Previdi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xiaodong
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Xiaodong
         language:
         - en
         script:
@@ -118,47 +147,35 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2008-12
+revdate: 2023-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes extensions to the ISIS (ISIS) protocol to support
-    Multiprotocol Label Switching (MPLS) and Generalized MPLS (GMPLS) Traffic Engineering
-    (TE) for multiple Autonomous Systems (ASes). It defines ISIS-TE extensions for
-    the flooding of TE information about inter-AS links, which can be used to perform
-    inter- AS TE path computation.</p><p>No support for flooding information from
-    within one AS to another AS is proposed or defined in this document. [STANDARDS-TRACK]</p>"
+- content: "<p>This document describes extensions to the Intermediate System to Intermediate
+    System (IS-IS) protocol to support Multiprotocol Label Switching (MPLS) and Generalized
+    MPLS (GMPLS) Traffic Engineering (TE) for multiple Autonomous Systems (ASes).
+    It defines IS-IS extensions for the flooding of TE information about inter-AS
+    links, which can be used to perform inter-AS TE path computation.</p><p>No support
+    for flooding information from within one AS to another AS is proposed or defined
+    in this document.</p><p>This document builds on RFC 5316 by adding support for
+    IPv6-only operation.</p><p>This document obsoletes RFC 5316.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9346
-    docid:
-    - id: RFC9346
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9346
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '5316'
+  number: '9346'
 keyword:
-- content: multiprotocol label switching
-- content: generalized mpls
-- content: gmpls-te
-- content: mpls-te
-- content: isis-te
-- content: flooding
+- content: ISIS
+- content: Inter-AS
+- content: TE
 editorialgroup:
-- name: ccamp
+- name: lsr
 ext:
   schema-version: v1.0.0
