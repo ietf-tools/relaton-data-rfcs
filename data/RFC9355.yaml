@@ -1,0 +1,192 @@
+---
+schema-version: v1.2.1
+id: RFC9355
+title:
+- content: OSPF Bidirectional Forwarding Detection (BFD) Strict-Mode
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9355
+  type: src
+type: standard
+docid:
+- id: RFC 9355
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9355
+  type: DOI
+docnumber: RFC9355
+date:
+- type: published
+  value: 2023-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Talaulikar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Talaulikar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Psenak
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Psenak
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fu
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Fu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rajesh
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Rajesh
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: |-
+    <p>This document specifies the extensions to OSPF that enable an OSPF
+    router to signal the requirement for a Bidirectional Forwarding
+    Detection (BFD) session prior to adjacency formation. Link-Local
+    Signaling (LLS) is used to advertise the requirement for strict-mode
+    BFD session establishment for an OSPF adjacency. If both OSPF
+    neighbors advertise BFD strict-mode, adjacency formation will be
+    blocked until a BFD session has been successfully established.</p><p>This document updates RFC 2328 by augmenting the OSPF neighbor state
+    machine with a check for BFD session up before progression from Init
+    to 2-Way state when operating in OSPF BFD strict-mode.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2328
+    docid:
+    - id: RFC2328
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2328
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9355'
+keyword:
+- content: IGP
+- content: OSPF
+editorialgroup:
+- name: lsr
+ext:
+  schema-version: v1.0.0
