@@ -1,0 +1,133 @@
+---
+schema-version: v1.2.1
+id: RFC9362
+title:
+- content: Distributed Denial-of-Service Open Threat Signaling (DOTS) Signal Channel
+    Configuration Attributes for Robust Block Transmission
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9362
+  type: src
+type: standard
+docid:
+- id: RFC 9362
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9362
+  type: DOI
+docnumber: RFC9362
+date:
+- type: published
+  value: 2023-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boucadair
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Boucadair
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shallow
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Shallow
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document specifies new DDoS Open Threat Signaling (DOTS) signal
+    channel configuration parameters that can be negotiated between DOTS peers to
+    enable the use of Q-Block1 and Q-Block2 Constrained Application Protocol (CoAP)
+    options. These options enable robust and faster transmission rates for large amounts
+    of data with less packet interchanges as well as support for faster recovery should
+    any of the blocks get lost in transmission (especially during DDoS attacks).</p><p>Also,
+    this document defines a YANG data model for representing these new DOTS signal
+    channel configuration parameters. This model augments the DOTS signal YANG module
+    ("ietf-dots-signal-channel") defined in RFC 9132.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9362'
+keyword:
+- content: Quick-Block
+- content: Robust-Block
+- content: R-Block
+- content: Tough-Block
+- content: Resilient-Block
+- content: Fast-Block
+- content: Resilience
+- content: Filtering
+- content: Faster transmission
+- content: Large amounts of data
+- content: Less packet interchange
+- content: Fast recovery
+editorialgroup:
+- name: dots
+ext:
+  schema-version: v1.0.0
