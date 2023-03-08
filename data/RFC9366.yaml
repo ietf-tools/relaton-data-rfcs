@@ -1,0 +1,97 @@
+---
+schema-version: v1.2.1
+id: RFC9366
+title:
+- content: Multiple SIP Reason Header Field Values
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9366
+  type: src
+type: standard
+docid:
+- id: RFC 9366
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9366
+  type: DOI
+docnumber: RFC9366
+date:
+- type: published
+  value: 2023-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sparks
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Sparks
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The SIP Reason header field as defined in RFC 3326 allows only one
+    Reason value per protocol value.  Experience with more recently defined protocols
+    shows it is useful to allow multiple values with the same protocol value.  This
+    document updates RFC 3326 to allow multiple values for an indicated registered
+    protocol when that protocol defines what the presence of multiple values means.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC3326
+    docid:
+    - id: RFC3326
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3326
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9366'
+editorialgroup:
+- name: sipcore
+ext:
+  schema-version: v1.0.0
