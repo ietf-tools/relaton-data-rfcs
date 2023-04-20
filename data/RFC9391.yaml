@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.1
-id: RFC6036
+id: RFC9391
 title:
-- content: Emerging Service Provider Scenarios for IPv6 Deployment
+- content: Static Context Header Compression over Narrowband Internet of Things
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6036
+- content: https://www.rfc-editor.org/info/rfc9391
   type: src
 type: standard
 docid:
-- id: RFC 6036
+- id: RFC 9391
   type: IETF
   primary: true
-- id: 10.17487/RFC6036
+- id: 10.17487/RFC9391
   type: DOI
-docnumber: RFC6036
+docnumber: RFC9391
 date:
 - type: published
-  value: 2010-10
+  value: 2023-04
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: B
+          initial: E
         formatted_initials:
-          content: B.
+          content: E.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Carpenter
+        content: Ramos
         language:
         - en
         script:
         - Latn
       completename:
-        content: B. Carpenter
+        content: E. Ramos
         language:
         - en
         script:
@@ -57,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: S
+          initial: A
         formatted_initials:
-          content: S.
+          content: A.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jiang
+        content: Minaburo
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Jiang
+        content: A. Minaburo
         language:
         - en
         script:
@@ -88,43 +88,40 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2010-10
+revdate: 2023-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes practices and plans that are emerging among
-    Internet Service Providers for the deployment of IPv6 services.  They are based
-    on practical experience so far, as well as current plans and requirements, reported
-    in a survey of a number of ISPs carried out in early 2010.  This document identifies
-    a number of technology gaps, but it does not make recommendations.  This document
-    is not an Internet Standards Track specification; it is published for informational
-    purposes.</p>"
+- content: "<p>This document describes Static Context Header Compression and fragmentation
+    (SCHC) specifications, RFCs 8724 and 8824, in combination with the 3rd Generation
+    Partnership Project (3GPP) and the Narrowband Internet of Things (NB-IoT).</p><p>This
+    document has two parts: one normative part that specifies the use of SCHC over
+    NB-IoT and one informational part that recommends some values if 3GPP wants to
+    use SCHC inside their architectures.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9386
-    docid:
-    - id: RFC9386
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9386
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6036'
+  number: '9391'
 keyword:
-- content: isp
+- content: SCHC
+- content: Header Compression
+- content: Fragmentation
+- content: 3GPP
+- content: 5G
+- content: IoT
+- content: Sensor network
+- content: cellular network
+- content: LTE
+- content: LTE-M
 editorialgroup:
-- name: v6ops
+- name: lpwan
 ext:
   schema-version: v1.0.0
