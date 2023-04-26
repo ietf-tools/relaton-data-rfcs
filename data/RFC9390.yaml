@@ -1,0 +1,148 @@
+---
+schema-version: v1.2.1
+id: RFC9390
+title:
+- content: Diameter Group Signaling
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9390
+  type: src
+type: standard
+docid:
+- id: RFC 9390
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9390
+  type: DOI
+docnumber: RFC9390
+date:
+- type: published
+  value: 2023-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liebsch
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Liebsch
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Morand
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Morand
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In large network deployments, a single Diameter node can support over
+    a million concurrent Diameter sessions.  In some use cases, Diameter nodes need
+    to apply the same operation to a large group of Diameter sessions concurrently.
+    \ The Diameter base protocol commands operate on a single session so these use
+    cases can result in many thousands of command exchanges enforcing the same operation
+    on each session in the group.  In order to reduce signaling, it is desirable to
+    enable bulk operations on all (or part of) the sessions managed by a Diameter
+    node using a single or a few command exchanges.  This document specifies the Diameter
+    protocol extensions to achieve this signaling optimization.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9390'
+editorialgroup:
+- name: dime
+ext:
+  schema-version: v1.0.0
