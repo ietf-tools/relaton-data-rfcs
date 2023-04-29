@@ -1,25 +1,24 @@
 ---
 schema-version: v1.2.1
-id: RFC1528
+id: RFC9121
 title:
-- content: 'Principles of Operation for the TPC.INT Subdomain: Remote Printing --
-    Technical Procedures'
+- content: Deprecating Infrastructure "int" Domains
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc1528
+- content: https://www.rfc-editor.org/info/rfc9121
   type: src
 type: standard
 docid:
-- id: RFC 1528
+- id: RFC 9121
   type: IETF
   primary: true
-- id: 10.17487/RFC1528
+- id: 10.17487/RFC9121
   type: DOI
-docnumber: RFC1528
+docnumber: RFC9121
 date:
 - type: published
-  value: 1993-10
+  value: 2023-04
 contributor:
 - person:
     name:
@@ -29,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: C
+          initial: K
         formatted_initials:
-          content: C.
+          content: K.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Malamud
+        content: Davies
         language:
         - en
         script:
         - Latn
       completename:
-        content: C. Malamud
+        content: K. Davies
         language:
         - en
         script:
@@ -58,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: M
+          initial: A
         formatted_initials:
-          content: M.
+          content: A.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Rose
+        content: Baber
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Rose
+        content: A. Baber
         language:
         - en
         script:
@@ -89,41 +88,37 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 1993-10
+revdate: 2023-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: <p>This memo describes a technique for "remote printing" using the Internet
-    mail infrastructure.  In particular, this memo focuses on the case in which remote
-    printers are connected to the international telephone network.  This memo defines
-    an Experimental Protocol for the Internet community.  It does not specify an Internet
-    standard.</p>
+- content: <p>This document deprecates the use of any "int" domain names that were
+    designated for infrastructure purposes by the IETF, and it identifies them for
+    removal from the "int" top-level domain.  Any implementations that involve these
+    domains are now deprecated.  This document also changes the status of RFC 1528
+    and RFC 1706 to Historic.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9121
+    id: RFC1706
     docid:
-    - id: RFC9121
+    - id: RFC1706
       type: IETF
       primary: true
     formattedref:
-      content: RFC9121
+      content: RFC1706
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '1528'
-keyword:
-- content: REM-PRINT
-- content: FAX
-- content: Facsimile
+  number: '9121'
 ext:
   schema-version: v1.0.0
