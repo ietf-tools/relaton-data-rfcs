@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.1
-id: RFC6170
+id: RFC9399
 title:
-- content: Internet X.509 Public Key Infrastructure -- Certificate Image
+- content: 'Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates'
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6170
+- content: https://www.rfc-editor.org/info/rfc9399
   type: src
 type: standard
 docid:
-- id: RFC 6170
+- id: RFC 9399
   type: IETF
   primary: true
-- id: 10.17487/RFC6170
+- id: 10.17487/RFC9399
   type: DOI
-docnumber: RFC6170
+docnumber: RFC9399
 date:
 - type: published
-  value: 2011-05
+  value: 2023-05
 contributor:
 - person:
     name:
@@ -86,21 +86,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: S
+          initial: T
         formatted_initials:
-          content: S.
+          content: T.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Bajaj
+        content: Freeman
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Bajaj
+        content: T. Freeman
         language:
         - en
         script:
@@ -146,50 +146,32 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2011-05
+revdate: 2023-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: <p>This document specifies a method to bind a visual representation of
-    a certificate in the form of a certificate image to a public key certificate as
-    defined in RFC 5280, by defining a new "otherLogos" image type according to RFC
-    3709. [STANDARDS-TRACK]</p>
+- content: "<p>This document specifies a certificate extension for including logotypes
+    in public key certificates and attribute certificates.  This document obsoletes
+    RFCs 3709 and 6170.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9399
-    docid:
-    - id: RFC9399
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9399
-      format: text/plain
-- type: updates
-  bibitem:
-    id: RFC3709
-    docid:
-    - id: RFC3709
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC3709
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6170'
+  number: '9399'
 keyword:
-- content: otherLogos
+- content: X.509
+- content: Public Key Infrastructure
+- content: authentication
+- content: security identification
+- content: certificates
 editorialgroup:
-- name: pkix
+- name: lamps
 ext:
   schema-version: v1.0.0
