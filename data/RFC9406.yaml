@@ -1,0 +1,148 @@
+---
+schema-version: v1.2.1
+id: RFC9406
+title:
+- content: 'HyStart++: Modified Slow Start for TCP'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9406
+  type: src
+type: standard
+docid:
+- id: RFC 9406
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9406
+  type: DOI
+docnumber: RFC9406
+date:
+- type: published
+  value: 2023-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Balasubramanian
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Balasubramanian
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Huang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Huang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Olson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Olson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes HyStart++, a simple modification to the slow
+    start phase of congestion control algorithms.  Slow start can overshoot the ideal
+    send rate in many cases, causing high packet loss and poor performance.  HyStart++
+    uses increase in round-trip delay as a heuristic to find an exit point before
+    possible overshoot.  It also adds a mitigation to prevent jitter from causing
+    premature slow start exit.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9406'
+keyword:
+- content: TCP
+- content: congestion control
+editorialgroup:
+- name: tcpm
+ext:
+  schema-version: v1.0.0
