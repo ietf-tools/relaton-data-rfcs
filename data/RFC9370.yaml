@@ -1,0 +1,291 @@
+---
+schema-version: v1.2.1
+id: RFC9370
+title:
+- content: Multiple Key Exchanges in the Internet Key Exchange Protocol Version 2
+    (IKEv2)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9370
+  type: src
+type: standard
+docid:
+- id: RFC 9370
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9370
+  type: DOI
+docnumber: RFC9370
+date:
+- type: published
+  value: 2023-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: CJ
+        formatted_initials:
+          content: CJ.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tjhai
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: CJ. Tjhai
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tomlinson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Tomlinson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bartlett
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Bartlett
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fluhrer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Fluhrer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Van Geest
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Van Geest
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: O
+        formatted_initials:
+          content: O.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garcia-Morchon
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: O. Garcia-Morchon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smyslov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Smyslov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document describes how to extend the Internet Key Exchange Protocol
+    Version 2 (IKEv2) to allow multiple key exchanges to take place while computing
+    a shared secret during a Security Association (SA) setup.</p><p>This document
+    utilizes the IKE_INTERMEDIATE exchange, where multiple key exchanges are performed
+    when an IKE SA is being established. It also introduces a new IKEv2 exchange,
+    IKE_FOLLOWUP_KE, which is used for the same purpose when the IKE SA is being rekeyed
+    or is creating additional Child SAs.</p><p>This document updates RFC 7296 by renaming
+    a Transform Type 4 from "Diffie-Hellman Group (D-H)" to "Key Exchange Method (KE)"
+    and renaming a field in the Key Exchange Payload from "Diffie-Hellman Group Num"
+    to "Key Exchange Method". It also renames an IANA registry for this Transform
+    Type from "Transform Type 4 - Diffie- Hellman Group Transform IDs" to "Transform
+    Type 4 - Key Exchange Method Transform IDs". These changes generalize key exchange
+    algorithms that can be used in IKEv2.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7296
+    docid:
+    - id: RFC7296
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7296
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9370'
+keyword:
+- content: post-quantum
+- content: PQC
+- content: hybrid
+- content: hybridization
+- content: hybrid key exchange
+- content: key encapsulation
+- content: quantum
+- content: quantum-safe
+- content: KEM
+- content: PQ
+editorialgroup:
+- name: ipsecme
+ext:
+  schema-version: v1.0.0
