@@ -1,0 +1,136 @@
+---
+schema-version: v1.2.1
+id: RFC9368
+title:
+- content: Compatible Version Negotiation for QUIC
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9368
+  type: src
+type: standard
+docid:
+- id: RFC 9368
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9368
+  type: DOI
+docnumber: RFC9368
+date:
+- type: published
+  value: 2023-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schinazi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Schinazi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rescorla
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Rescorla
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>QUIC does not provide a complete version negotiation mechanism but
+    instead only provides a way for the server to indicate that the version the client
+    chose is unacceptable.  This document describes a version negotiation mechanism
+    that allows a client and server to select a mutually supported version.  Optionally,
+    if the client's chosen version and the negotiated version share a compatible first
+    flight format, the negotiation can take place without incurring an extra round
+    trip.  This document updates RFC 8999.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8999
+    docid:
+    - id: RFC8999
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8999
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9368'
+keyword:
+- content: quic
+- content: version
+- content: negotiation
+- content: compatible
+- content: incompatible
+- content: not quite tls
+- content: tls-ng
+editorialgroup:
+- name: quic
+ext:
+  schema-version: v1.0.0
