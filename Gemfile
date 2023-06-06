@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 source "https://rubygems.org"
 
-gem 'relaton-cli', "=1.15.1"
+gem 'relaton-ietf', github: 'relaton/relaton-ietf', branch: 'main'
