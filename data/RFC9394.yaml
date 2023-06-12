@@ -1,0 +1,201 @@
+---
+schema-version: v1.2.1
+id: RFC9394
+title:
+- content: IMAP PARTIAL Extension for Paged SEARCH and FETCH
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9394
+  type: src
+type: standard
+docid:
+- id: RFC 9394
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9394
+  type: DOI
+docnumber: RFC9394
+date:
+- type: published
+  value: 2023-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Melnikov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: A. P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Achuthan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. P. Achuthan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nagulakonda
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Nagulakonda
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alves
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Alves
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The PARTIAL extension of the Internet Message Access Protocol (see
+    RFCs 3501 and 9051) allows clients to limit the number of SEARCH results returned,
+    as well as to perform incremental (paged) searches. This also helps servers to
+    optimize resource usage when performing searches.</p><p>This document extends
+    the PARTIAL SEARCH return option originally specified in RFC 5267. It also clarifies
+    some interactions between RFC 5267 and RFCs 4731 and 9051.</p><p>This document
+    updates RFCs 4731 and 5267.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4731
+    docid:
+    - id: RFC4731
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4731
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5267
+    docid:
+    - id: RFC5267
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5267
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9394'
+editorialgroup:
+- name: extra
+ext:
+  schema-version: v1.0.0
