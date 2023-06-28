@@ -1,0 +1,125 @@
+---
+schema-version: v1.2.1
+id: RFC9427
+title:
+- content: TLS-Based Extensible Authentication Protocol (EAP) Types for Use with TLS
+    1.3
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9427
+  type: src
+type: standard
+docid:
+- id: RFC 9427
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9427
+  type: DOI
+docnumber: RFC9427
+date:
+- type: published
+  value: 2023-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. DeKok
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Extensible Authentication Protocol-TLS (EAP-TLS) (RFC 5216) has
+    been updated for TLS 1.3 in RFC 9190.  Many other EAP Types also depend on TLS,
+    such as EAP-Flexible Authentication via Secure Tunneling (EAP-FAST) (RFC 4851),
+    EAP-Tunneled TLS (EAP-TTLS) (RFC 5281), the Tunnel Extensible Authentication Protocol
+    (TEAP) (RFC 7170).  It is possible that many vendor-specific EAP methods, such
+    as the Protected Extensible Authentication Protocol (PEAP), depend on TLS as well.
+    \ This document updates those methods in order to use the new key derivation methods
+    available in TLS 1.3.  Additional changes necessitated by TLS 1.3 are also discussed.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4851
+    docid:
+    - id: RFC4851
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4851
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5281
+    docid:
+    - id: RFC5281
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5281
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7170
+    docid:
+    - id: RFC7170
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7170
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9427'
+keyword:
+- content: TTLS
+- content: PEAP. FAST
+- content: TEAP
+editorialgroup:
+- name: emu
+ext:
+  schema-version: v1.0.0
