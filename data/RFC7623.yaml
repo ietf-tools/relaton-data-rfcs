@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7623
 title:
 - content: Provider Backbone Bridging Combined with Ethernet VPN (PBB-EVPN)
@@ -187,13 +187,17 @@ abstract:
     via Provider Backbone MAC (B-MAC) address, provide client MAC address mobility
     using C-MAC aggregation, confine the scope of C-MAC learning to only active flows,
     offer per-site policies, and avoid C-MAC address flushing on topology changes.
-    \ The combined solution is referred to as PBB-EVPN.</p>"
+    The combined solution is referred to as PBB-EVPN.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

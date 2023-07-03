@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8100
 title:
 - content: Diffserv-Interconnection Classes and Practice
@@ -97,20 +97,24 @@ abstract:
 - content: "<p>This document defines a limited common set of Diffserv Per-Hop Behaviors
     (PHBs) and Diffserv Codepoints (DSCPs) to be applied at (inter)connections of
     two separately administered and operated networks, and it explains how this approach
-    can simplify network configuration and operation.  Many network providers operate
+    can simplify network configuration and operation. Many network providers operate
     Multiprotocol Label Switching (MPLS) using Treatment Aggregates for traffic marked
     with different Diffserv Per-Hop Behaviors and use MPLS for interconnection with
-    other networks.  This document offers a simple interconnection approach that may
+    other networks. This document offers a simple interconnection approach that may
     simplify operation of Diffserv for network interconnection among providers that
-    use MPLS and apply the Short Pipe Model.  While motivated by the requirements
-    of MPLS network operators that use Short Pipe Model tunnels, this document is
-    applicable to other networks, both MPLS and non-MPLS.</p>"
+    use MPLS and apply the Short Pipe Model. While motivated by the requirements of
+    MPLS network operators that use Short Pipe Model tunnels, this document is applicable
+    to other networks, both MPLS and non-MPLS.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

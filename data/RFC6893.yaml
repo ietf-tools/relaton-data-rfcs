@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6893
 title:
 - content: A Uniform Resource Name (URN) Namespace for the Open IPTV Forum (OIPF)
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document describes a Uniform Resource Name (URN) namespace for
     the Open IPTV Forum (OIPF) for naming persistent resources defined within OIPF
-    specifications.  Example resources include technical documents and specifications,
+    specifications. Example resources include technical documents and specifications,
     eXtensible Markup Language (XML) schemas, classification schemes, XML Document
     Type Definitions (DTDs), namespaces, style sheets, media assets, and other types
     of resources produced or managed by the OIPF.</p>"
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

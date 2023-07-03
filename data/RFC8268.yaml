@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8268
 title:
 - content: More Modular Exponentiation (MODP) Diffie-Hellman (DH) Key Exchange (KEX)
@@ -67,8 +67,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines added Modular Exponentiation (MODP) groups for
-    the Secure Shell (SSH) protocol using SHA-2 hashes.  This document updates RFC
-    4250.  This document updates RFC 4253 by correcting an error regarding checking
+    the Secure Shell (SSH) protocol using SHA-2 hashes. This document updates RFC
+    4250. This document updates RFC 4253 by correcting an error regarding checking
     the Peer's DH Public Key.</p>"
   language:
   - en
@@ -97,6 +97,10 @@ relation:
       content: RFC4253
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

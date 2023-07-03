@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7526
 title:
 - content: Deprecating the Anycast Prefix for 6to4 Relay Routers
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: <p>Experience with the 6to4 transition mechanism defined in RFC 3056 ("Connection
     of IPv6 Domains via IPv4 Clouds") has shown that the mechanism is unsuitable for
-    widespread deployment and use in the Internet when used in its anycast mode.  Therefore,
+    widespread deployment and use in the Internet when used in its anycast mode. Therefore,
     this document requests that RFC 3068 ("An Anycast Prefix for 6to4 Relay Routers")
     and RFC 6732 ("6to4 Provider Managed Tunnels") be made obsolete and moved to Historic
-    status.  It recommends that future products should not support 6to4 anycast and
-    that existing deployments should be reviewed.  This complements the guidelines
+    status. It recommends that future products should not support 6to4 anycast and
+    that existing deployments should be reviewed. This complements the guidelines
     in RFC 6343.</p>
   language:
   - en
@@ -112,6 +112,10 @@ series:
     content: BCP
     format: text/plain
   number: '196'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

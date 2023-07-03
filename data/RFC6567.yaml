@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6567
 title:
 - content: Problem Statement and Requirements for Transporting User-to-User Call Control
@@ -97,19 +97,23 @@ script:
 abstract:
 - content: "<p>This document introduces the transport of call control User-to-User
     Information (UUI) using the Session Initiation Protocol (SIP) and develops several
-    requirements for a new SIP mechanism.  Some SIP sessions are established by or
-    related to a non-SIP application.  This application may have information that
-    needs to be transported between the SIP User Agents during session establishment.
-    \ In addition to interworking with the Integrated Services Digital Network (ISDN)
-    UUI Service, this extension will also be used for native SIP endpoints requiring
-    application UUI.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.</p>"
+    requirements for a new SIP mechanism. Some SIP sessions are established by or
+    related to a non-SIP application. This application may have information that needs
+    to be transported between the SIP User Agents during session establishment. In
+    addition to interworking with the Integrated Services Digital Network (ISDN) UUI
+    Service, this extension will also be used for native SIP endpoints requiring application
+    UUI. This document is not an Internet Standards Track specification; it is published
+    for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

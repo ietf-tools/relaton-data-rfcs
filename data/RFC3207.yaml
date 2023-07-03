@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3207
 title:
 - content: SMTP Service Extension for Secure SMTP over Transport Layer Security
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>This document describes an extension to the SMTP (Simple Mail Transfer
     Protocol) service that allows an SMTP server and client to use TLS (Transport
     Layer Security) to provide private, authenticated communication over the Internet.
-    \ This gives SMTP agents the ability to protect some or all of their communications
+    This gives SMTP agents the ability to protect some or all of their communications
     from eavesdroppers and attackers. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

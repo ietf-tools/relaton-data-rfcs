@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7103
 title:
 - content: Advice for Safe Handling of Malformed Messages
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: "<p>Although Internet message formats have been precisely defined since
     the 1970s, authoring and handling software often shows only mild conformance to
-    the specifications.  The malformed messages that result are non-standard.  Nonetheless,
+    the specifications. The malformed messages that result are non-standard. Nonetheless,
     decades of experience have shown that using some tolerance in the handling of
     the malformations that result is often an acceptable approach and is better than
-    rejecting the messages outright as nonconformant.  This document includes a collection
+    rejecting the messages outright as nonconformant. This document includes a collection
     of the best advice available regarding a variety of common malformed mail situations;
     it is to be used as implementation guidance.</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

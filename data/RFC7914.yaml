@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7914
 title:
 - content: The scrypt Password-Based Key Derivation Function
@@ -95,15 +95,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the password-based key derivation function
-    scrypt.  The function derives one or more secret keys from a secret string.  It
+    scrypt. The function derives one or more secret keys from a secret string. It
     is based on memory-hard functions, which offer added protection against attacks
-    using custom hardware.  The document also provides an ASN.1 schema.</p>"
+    using custom hardware. The document also provides an ASN.1 schema.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

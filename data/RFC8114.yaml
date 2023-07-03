@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8114
 title:
 - content: Delivery of IPv4 Multicast Services to IPv4 Clients over an IPv6 Multicast
@@ -183,17 +183,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a solution for the delivery of IPv4 multicast
-    services to IPv4 clients over an IPv6 multicast network.  The solution relies
-    upon a stateless IPv4-in-IPv6 encapsulation scheme and uses an IPv6 multicast
-    distribution tree to deliver IPv4 multicast traffic.  The solution is particularly
-    useful for the delivery of multicast service offerings to customers serviced by
-    Dual-Stack Lite (DS-Lite).</p>"
+    services to IPv4 clients over an IPv6 multicast network. The solution relies upon
+    a stateless IPv4-in-IPv6 encapsulation scheme and uses an IPv6 multicast distribution
+    tree to deliver IPv4 multicast traffic. The solution is particularly useful for
+    the delivery of multicast service offerings to customers serviced by Dual-Stack
+    Lite (DS-Lite).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

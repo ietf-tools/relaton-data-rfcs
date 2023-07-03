@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7723
 title:
 - content: Port Control Protocol (PCP) Anycast Addresses
@@ -97,14 +97,18 @@ abstract:
 - content: "<p>The Port Control Protocol (PCP) anycast addresses enable PCP clients
     to transmit signaling messages to their closest PCP-aware on-path NAT, firewall,
     or other middlebox without having to learn the IP address of that middlebox via
-    some external channel.  This document establishes one well-known IPv4 address
-    and one well-known IPv6 address to be used as PCP anycast addresses.</p>"
+    some external channel. This document establishes one well-known IPv4 address and
+    one well-known IPv6 address to be used as PCP anycast addresses.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

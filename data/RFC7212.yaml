@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7212
 title:
 - content: MPLS Generic Associated Channel (G-ACh) Advertisement Protocol
@@ -125,19 +125,23 @@ script:
 abstract:
 - content: "<p>The MPLS Generic Associated Channel (G-ACh) provides an auxiliary logical
     data channel associated with a Label Switched Path (LSP), a pseudowire, or a section
-    (link) over which a variety of protocols may flow.  These protocols are commonly
+    (link) over which a variety of protocols may flow. These protocols are commonly
     used to provide Operations, Administration, and Maintenance (OAM) mechanisms associated
-    with the primary data channel.  This document specifies simple procedures by which
+    with the primary data channel. This document specifies simple procedures by which
     an endpoint of an LSP, pseudowire, or section may inform the other endpoints of
     its capabilities and configuration parameters, or other application-specific information.
-    \ This information may then be used by the receiver to validate or adjust its
-    local configuration, and by the network operator for diagnostic purposes.</p>"
+    This information may then be used by the receiver to validate or adjust its local
+    configuration, and by the network operator for diagnostic purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

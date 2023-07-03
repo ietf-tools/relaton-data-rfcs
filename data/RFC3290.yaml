@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3290
 title:
 - content: An Informal Management Model for Diffserv Routers
@@ -153,19 +153,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document proposes an informal management model of Differentiated
-    Services (Diffserv) routers for use in their management and configuration.  This
+    Services (Diffserv) routers for use in their management and configuration. This
     model defines functional datapath elements (e.g., classifiers, meters, actions,
     marking, absolute dropping, counting, multiplexing), algorithmic droppers, queues
-    and schedulers.  It describes possible configuration parameters for these elements
+    and schedulers. It describes possible configuration parameters for these elements
     and how they might be interconnected to realize the range of traffic conditioning
     and per-hop behavior (PHB) functionalities described in the Diffserv Architecture.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

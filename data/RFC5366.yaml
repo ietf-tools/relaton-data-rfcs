@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5366
 title:
 - content: Conference Establishment Using Request-Contained Lists in the Session Initiation
@@ -96,7 +96,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how to create a conference using SIP URI-list
-    services.  In particular, it describes a mechanism that allows a User Agent Client
+    services. In particular, it describes a mechanism that allows a User Agent Client
     to provide a conference server with the initial list of participants using an
     INVITE-contained URI list. [STANDARDS-TRACK]</p>"
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

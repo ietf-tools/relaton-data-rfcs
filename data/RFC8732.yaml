@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8732
 title:
 - content: Generic Security Service Application Program Interface (GSS-API) Key Exchange
@@ -95,9 +95,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies additions and amendments to RFC 4462.  It defines
+- content: "<p>This document specifies additions and amendments to RFC 4462. It defines
     a new key exchange method that uses SHA-2 for integrity and deprecates weak Diffie-Hellman
-    (DH) groups.  The purpose of this specification is to modernize the cryptographic
+    (DH) groups. The purpose of this specification is to modernize the cryptographic
     primitives used by Generic Security Service (GSS) key exchanges.</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC4462
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

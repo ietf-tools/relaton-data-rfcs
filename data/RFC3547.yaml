@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3547
 title:
 - content: The Group Domain of Interpretation
@@ -153,9 +153,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document presents an ISAMKP Domain of Interpretation (DOI) for
-    group key management to support secure group communications.  The GDOI manages
+    group key management to support secure group communications. The GDOI manages
     group security associations, which are used by IPSEC and potentially other data
-    security protocols running at the IP or application layers.  These security associations
+    security protocols running at the IP or application layers. These security associations
     protect one or more key-encrypting keys, traffic-encrypting keys, or data shared
     by group members. [STANDARDS-TRACK]</p>"
   language:
@@ -175,6 +175,10 @@ relation:
       content: RFC6407
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

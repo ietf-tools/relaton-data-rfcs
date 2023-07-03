@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8456
 title:
 - content: Benchmarking Methodology for Software-Defined Networking (SDN) Controller
@@ -183,13 +183,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines methodologies for benchmarking the control-plane
-    performance of Software-Defined Networking (SDN) Controllers.  The SDN Controller
+    performance of Software-Defined Networking (SDN) Controllers. The SDN Controller
     is a core component in the SDN architecture that controls the behavior of the
-    network.  SDN Controllers have been implemented with many varying designs in order
-    to achieve their intended network functionality.  Hence, the authors of this document
+    network. SDN Controllers have been implemented with many varying designs in order
+    to achieve their intended network functionality. Hence, the authors of this document
     have taken the approach of considering an SDN Controller to be a black box, defining
     the methodology in a manner that is agnostic to protocols and network services
-    supported by controllers.  This document provides a method for measuring the performance
+    supported by controllers. This document provides a method for measuring the performance
     of all controller implementations.</p>"
   language:
   - en
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4489
 title:
 - content: A Method for Generating Link-Scoped IPv6 Multicast Addresses
@@ -85,13 +85,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies an extension to the multicast addressing architecture
-    of the IPv6 protocol.  The extension allows the use of Interface Identifiers (IIDs)
-    to allocate multicast addresses.  When a link-local unicast address is configured
-    at each interface of a node, an IID is uniquely determined.  After that, each
-    node can generate its unique multicast addresses automatically without conflicts.
-    \ The alternative method for creating link-local multicast addresses proposed
-    in this document is better than known methods like unicast-prefix-based IPv6 multicast
-    addresses.  This memo updates RFC 3306. [STANDARDS-TRACK]</p>"
+    of the IPv6 protocol. The extension allows the use of Interface Identifiers (IIDs)
+    to allocate multicast addresses. When a link-local unicast address is configured
+    at each interface of a node, an IID is uniquely determined. After that, each node
+    can generate its unique multicast addresses automatically without conflicts. The
+    alternative method for creating link-local multicast addresses proposed in this
+    document is better than known methods like unicast-prefix-based IPv6 multicast
+    addresses. This memo updates RFC 3306. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -109,6 +109,10 @@ relation:
       content: RFC3306
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

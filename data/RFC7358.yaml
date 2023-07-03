@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7358
 title:
 - content: Label Advertisement Discipline for LDP Forwarding Equivalence Classes (FECs)
@@ -154,10 +154,9 @@ script:
 abstract:
 - content: "<p>The label advertising behavior of an LDP speaker for a given Forwarding
     Equivalence Class (FEC) is governed by the FEC type and not necessarily by the
-    LDP session's negotiated label advertisement mode.  This document updates RFC
-    5036 to make that fact clear.  It also updates RFCs 3212, 4447, 5918, 6388, and
-    7140 by specifying the label advertisement mode for all currently defined LDP
-    FEC types.</p>"
+    LDP session's negotiated label advertisement mode. This document updates RFC 5036
+    to make that fact clear. It also updates RFCs 3212, 4447, 5918, 6388, and 7140
+    by specifying the label advertisement mode for all currently defined LDP FEC types.</p>"
   language:
   - en
   script:
@@ -225,6 +224,10 @@ relation:
       content: RFC7140
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

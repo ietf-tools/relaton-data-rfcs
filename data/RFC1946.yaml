@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1946
 title:
 - content: Native ATM Support for ST2+
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This memo describes a working implementation which enables applications
     to directly invoke ATM services in the following environments: ATM to internet,
-    internet to ATM, and internet to internet across ATM.  This memo provides information
-    for the Internet community.  This memo does not specify an Internet standard of
+    internet to ATM, and internet to internet across ATM. This memo provides information
+    for the Internet community. This memo does not specify an Internet standard of
     any kind.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

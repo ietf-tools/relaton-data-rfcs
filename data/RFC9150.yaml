@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9150
 title:
 - content: TLS 1.3 Authentication and Integrity-Only Cipher Suites
@@ -95,18 +95,18 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the use of cipher suites for TLS 1.3 based on
-    Hashed Message Authentication Code (HMAC).  Using these cipher suites provides
+    Hashed Message Authentication Code (HMAC). Using these cipher suites provides
     server and, optionally, mutual authentication and data authenticity, but not data
-    confidentiality.  Cipher suites with these properties are not of general applicability,
+    confidentiality. Cipher suites with these properties are not of general applicability,
     but there are use cases, specifically in Internet of Things (IoT) and constrained
     environments, that do not require confidentiality of exchanged messages while
     still requiring integrity protection, server authentication, and optional client
-    authentication.  This document gives examples of such use cases, with the caveat
+    authentication. This document gives examples of such use cases, with the caveat
     that prior to using these integrity-only cipher suites, a threat model for the
     situation at hand is needed, and a threat analysis must be performed within that
     model to determine whether the use of integrity-only cipher suites is appropriate.
-    \ The approach described in this document is not endorsed by the IETF and does
-    not have IETF consensus, but it is presented here to enable interoperable implementation
+    The approach described in this document is not endorsed by the IETF and does not
+    have IETF consensus, but it is presented here to enable interoperable implementation
     of a reduced-security mechanism that provides authentication and message integrity
     without supporting confidentiality.</p>"
   language:
@@ -115,6 +115,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

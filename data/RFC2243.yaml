@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2243
 title:
 - content: OTP Extended Responses
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document provides a specification for a type of response to an
     OTP [RFC 1938] challenge that carries explicit indication of the response's encoding.
-    \ This document also provides a specification for a response that allows an OTP
+    This document also provides a specification for a response that allows an OTP
     generator to request that a server re-initialize a sequence and change parameters
     such as the secret pass phrase. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5942
 title:
 - content: 'IPv6 Subnet Model: The Relationship between Links and Subnet Prefixes'
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: '<p>IPv6 specifies a model of a subnet that is different than the IPv4
-    subnet model.  The subtlety of the differences has resulted in incorrect implementations
-    that do not interoperate.  This document spells out the most important difference:
-    that an IPv6 address isn''t automatically associated with an IPv6 on-link prefix.  This
-    document also updates (partially due to security concerns caused by incorrect
+    subnet model. The subtlety of the differences has resulted in incorrect implementations
+    that do not interoperate. This document spells out the most important difference:
+    that an IPv6 address isn''t automatically associated with an IPv6 on-link prefix.
+    This document also updates (partially due to security concerns caused by incorrect
     implementations) a part of the definition of "on-link" from RFC 4861. [STANDARDS-TRACK]</p>'
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC4861
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

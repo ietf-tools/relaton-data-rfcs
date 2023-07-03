@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3670
 title:
 - content: Information Model for Describing Network Device QoS Datapath Mechanisms
@@ -183,16 +183,16 @@ script:
 abstract:
 - content: "<p>The purpose of this document is to define an information model to describe
     the quality of service (QoS) mechanisms inherent in different network devices,
-    including hosts.  Broadly speaking, these mechanisms describe the properties common
+    including hosts. Broadly speaking, these mechanisms describe the properties common
     to selecting and conditioning traffic through the forwarding path (datapath) of
-    a network device.  This selection and conditioning of traffic in the datapath
-    spans both major QoS architectures: Differentiated Services and Integrated Services.
-    \ This document should be used with the QoS Policy Information Model (QPIM) to
-    model how policies can be defined to manage and configure the QoS mechanisms (i.e.,
+    a network device. This selection and conditioning of traffic in the datapath spans
+    both major QoS architectures: Differentiated Services and Integrated Services.
+    This document should be used with the QoS Policy Information Model (QPIM) to model
+    how policies can be defined to manage and configure the QoS mechanisms (i.e.,
     the classification, marking, metering, dropping, queuing, and scheduling functionality)
-    of devices.  Together, these two documents describe how to write QoS policy rules
+    of devices. Together, these two documents describe how to write QoS policy rules
     to configure and manage the QoS mechanisms present in the datapaths of devices.
-    \ This document, as well as QPIM, are information models.  That is, they represent
+    This document, as well as QPIM, are information models. That is, they represent
     information independent of a binding to a specific type of repository</p>"
   language:
   - en
@@ -200,6 +200,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

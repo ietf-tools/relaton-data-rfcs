@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3841
 title:
 - content: Caller Preferences for the Session Initiation Protocol (SIP)
@@ -125,17 +125,21 @@ script:
 abstract:
 - content: "<p>This document describes a set of extensions to the Session Initiation
     Protocol (SIP) which allow a caller to express preferences about request handling
-    in servers.  These preferences include the ability to select which Uniform Resource
+    in servers. These preferences include the ability to select which Uniform Resource
     Identifiers (URI) a request gets routed to, and to specify certain request handling
-    directives in proxies and redirect servers.  It does so by defining three new
-    request header fields, Accept-Contact, Reject-Contact, and Request-Disposition,
-    which specify the caller's preferences. [STANDARDS-TRACK]</p>"
+    directives in proxies and redirect servers. It does so by defining three new request
+    header fields, Accept-Contact, Reject-Contact, and Request-Disposition, which
+    specify the caller's preferences. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

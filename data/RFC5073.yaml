@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5073
 title:
 - content: IGP Routing Protocol Extensions for Discovery of Traffic Engineering Node
@@ -109,8 +109,8 @@ abstract:
     Engineering (TE) node capabilities during Multi Protocol Label Switching (MPLS)
     and Generalized MPLS (GMPLS) Traffic Engineered Label Switched Path (TE-LSP) selection,
     such as, for instance, the capability to act as a branch Label Switching Router
-    (LSR) of a Point-To-MultiPoint (P2MP) LSP.  This requires advertising these capabilities
-    within the Interior Gateway Protocol (IGP).  For that purpose, this document specifies
+    (LSR) of a Point-To-MultiPoint (P2MP) LSP. This requires advertising these capabilities
+    within the Interior Gateway Protocol (IGP). For that purpose, this document specifies
     Open Shortest Path First (OSPF) and Intermediate System-Intermediate System (IS-IS)
     traffic engineering extensions for the advertisement of control plane and data
     plane traffic engineering node capabilities. [STANDARDS-TRACK]</p>"
@@ -120,6 +120,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

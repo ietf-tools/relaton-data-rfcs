@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7859
 title:
 - content: Identity-Based Signatures for Mobile Ad Hoc Network (MANET) Routing Protocols
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document extends RFC 7182, which specifies a framework for (and
     specific examples of) Integrity Check Values (ICVs) for packets and messages using
-    the generalized packet/message format specified in RFC 5444.  It does so by defining
+    the generalized packet/message format specified in RFC 5444. It does so by defining
     an additional cryptographic function that allows the creation of an ICV that is
     an Identity-Based Signature (IBS), defined according to the Elliptic Curve-Based
     Certificateless Signatures for Identity-Based Encryption (ECCSI) algorithm specified
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

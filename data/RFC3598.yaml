@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3598
 title:
 - content: Sieve Email Filtering -- Subaddress Extension
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>On email systems that allow for "subaddressing" or "detailed addressing"
     (e.g., "ken+sieve@example.org"), it is sometimes desirable to make comparisons
-    against these sub-parts of addresses.  This document defines an extension to the
+    against these sub-parts of addresses. This document defines an extension to the
     Sieve mail filtering language that allows users to compare against the user and
     detail parts of an address. [STANDARDS-TRACK]</p>
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC5233
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

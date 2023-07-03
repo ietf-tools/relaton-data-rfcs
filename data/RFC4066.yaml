@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4066
 title:
 - content: Candidate Access Router Discovery (CARD)
@@ -184,19 +184,22 @@ abstract:
 - content: '<p>To enable seamless IP-layer handover of a mobile node (MN) from one
     access router (AR) to another, the MN is required to discover the identities and
     capabilities of candidate ARs (CARs) for handover prior to the initiation of the
-    handover.  The act of discovery of CARs has two aspects: identifying the IP addresses
-    of the CARs and finding their capabilities.  This process is called "candidate
-    access router discovery" (CARD).  At the time of IP-layer handover, the CAR, whose
+    handover. The act of discovery of CARs has two aspects: identifying the IP addresses
+    of the CARs and finding their capabilities. This process is called "candidate
+    access router discovery" (CARD). At the time of IP-layer handover, the CAR, whose
     capabilities are a good match to the preferences of the MN, is chosen as the target
-    AR for handover.  The protocol described in this document allows a mobile node
-    to perform CARD.  This memo defines an Experimental Protocol for the Internet
-    community.</p>'
+    AR for handover. The protocol described in this document allows a mobile node
+    to perform CARD. This memo defines an Experimental Protocol for the Internet community.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

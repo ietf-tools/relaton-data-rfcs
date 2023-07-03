@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2376
 title:
 - content: XML Media Types
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document proposes two new media subtypes, text/xml and application/xml,
     for use in exchanging network entities which are conforming Extensible Markup
-    Language (XML).  This memo provides information for the Internet community.  It
+    Language (XML). This memo provides information for the Internet community. It
     does not specify an Internet standard of any kind.</p>"
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC3023
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7546
 title:
 - content: Structure of the Generic Security Service (GSS) Negotiation Loop
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies the generic structure of the negotiation loop
     to establish a Generic Security Service (GSS) security context between initiator
-    and acceptor.  The control flow of the loop is indicated for both parties, including
+    and acceptor. The control flow of the loop is indicated for both parties, including
     error conditions, and indications are given for where application-specific behavior
     must be specified.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

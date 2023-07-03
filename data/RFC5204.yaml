@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5204
 title:
 - content: Host Identity Protocol (HIP) Rendezvous Extension
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a rendezvous extension for the Host Identity
-    Protocol (HIP).  The rendezvous extension extends HIP and the HIP registration
+    Protocol (HIP). The rendezvous extension extends HIP and the HIP registration
     extension for initiating communication between HIP nodes via HIP rendezvous servers.
-    \ Rendezvous servers improve reachability and operation when HIP nodes are multi-homed
-    or mobile.  This memo defines an Experimental Protocol for the Internet community.</p>"
+    Rendezvous servers improve reachability and operation when HIP nodes are multi-homed
+    or mobile. This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC8004
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

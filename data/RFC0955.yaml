@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC955
 title:
 - content: Towards a transport service for transaction processing applications
@@ -71,23 +71,28 @@ script:
 - Latn
 abstract:
 - content: <p>The DoD Internet protocol suite includes two alternative transport service
-    protocols, TCP and UDP, which provide virtual circuit and datagram service, respectively.  These
-    two protocols represent points in the space of possible transport service attributes
-    which are quite "far apart".  We want to examine an important class of applications,
-    those which perform what is often called "transaction processing".  We will see
-    that the communication needs for these applications fall into the gap "between"
-    TCP and UDP -- neither protocol is very appropriate.  This RFC is concerned with
-    the possible design of one or more new protocols for the ARPA-Internet, to support
-    kinds of applications which are not well supported at present.  The RFC is intended
-    to spur discussion in the Internet research community towards the development
-    of new protocols and/or concepts, in order to meet these unmet application requirements.  It
-    does not represent a standard, nor even a concrete protocol proposal.</p>
+    protocols, TCP and UDP, which provide virtual circuit and datagram service, respectively.
+    These two protocols represent points in the space of possible transport service
+    attributes which are quite "far apart". We want to examine an important class
+    of applications, those which perform what is often called "transaction processing".
+    We will see that the communication needs for these applications fall into the
+    gap "between" TCP and UDP -- neither protocol is very appropriate. This RFC is
+    concerned with the possible design of one or more new protocols for the ARPA-Internet,
+    to support kinds of applications which are not well supported at present. The
+    RFC is intended to spur discussion in the Internet research community towards
+    the development of new protocols and/or concepts, in order to meet these unmet
+    application requirements. It does not represent a standard, nor even a concrete
+    protocol proposal.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4222
 title:
 - content: Prioritized Treatment of Specific OSPF Version 2 Packets and Congestion
@@ -68,9 +68,9 @@ script:
 abstract:
 - content: "<p>This document recommends methods that are intended to improve the scalability
     and stability of large networks using Open Shortest Path First (OSPF) Version
-    2 protocol.  The methods include processing OSPF Hellos and Link State Advertisement
+    2 protocol. The methods include processing OSPF Hellos and Link State Advertisement
     (LSA) Acknowledgments at a higher priority compared to other OSPF packets, and
-    other congestion avoidance procedures.  This document specifies an Internet Best
+    other congestion avoidance procedures. This document specifies an Internet Best
     Current Practices for the Internet Community, and requests discussion and suggestions
     for improvements.</p>"
   language:
@@ -83,6 +83,10 @@ series:
     content: BCP
     format: text/plain
   number: '112'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

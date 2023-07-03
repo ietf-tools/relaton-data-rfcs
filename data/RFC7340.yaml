@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7340
 title:
 - content: Secure Telephone Identity Problem Statement and Requirements
@@ -124,24 +124,28 @@ script:
 - Latn
 abstract:
 - content: "<p>Over the past decade, Voice over IP (VoIP) systems based on SIP have
-    replaced many traditional telephony deployments.  Interworking VoIP systems with
+    replaced many traditional telephony deployments. Interworking VoIP systems with
     the traditional telephone network has reduced the overall level of calling party
     number and Caller ID assurances by granting attackers new and inexpensive tools
     to impersonate or obscure calling party numbers when orchestrating bulk commercial
     calling schemes, hacking voicemail boxes, or even circumventing multi-factor authentication
-    systems trusted by banks.  Despite previous attempts to provide a secure assurance
+    systems trusted by banks. Despite previous attempts to provide a secure assurance
     of the origin of SIP communications, we still lack effective standards for identifying
-    the calling party in a VoIP session.  This document examines the reasons why providing
+    the calling party in a VoIP session. This document examines the reasons why providing
     identity for telephone numbers on the Internet has proven so difficult and shows
     how changes in the last decade may provide us with new strategies for attaching
-    a secure identity to SIP sessions.  It also gives high-level requirements for
-    a solution in this space.</p>"
+    a secure identity to SIP sessions. It also gives high-level requirements for a
+    solution in this space.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

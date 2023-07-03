@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2050
 title:
 - content: Internet Registry IP Allocation Guidelines
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the registry system for the distribution of
-    globally unique Internet address space and registry operations.  Particularly
-    this document describes the rules and guidelines governing the distribution of
-    this address space.  This document specifies an Internet Best Current Practices
-    for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+    globally unique Internet address space and registry operations. Particularly this
+    document describes the rules and guidelines governing the distribution of this
+    address space. This document specifies an Internet Best Current Practices for
+    the Internet Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -203,6 +203,10 @@ relation:
       content: RFC7020
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

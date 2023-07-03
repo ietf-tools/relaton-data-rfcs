@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3767
 title:
 - content: Securely Available Credentials Protocol
@@ -68,16 +68,20 @@ abstract:
 - content: "<p>This document describes a protocol whereby a user can acquire cryptographic
     credentials (e.g., private keys, PKCS #15 structures) from a credential server,
     using a workstation that has locally trusted software installed, but with no user-specific
-    configuration.  The protocol's payloads are described in XML.  This memo also
-    specifies a Blocks Extensible Exchange Protocol (BEEP) profile of the protocol.
-    \ Security requirements are met by mandating support for TLS and/or DIGEST-MD5
-    (through BEEP). [STANDARDS-TRACK]</p>"
+    configuration. The protocol's payloads are described in XML. This memo also specifies
+    a Blocks Extensible Exchange Protocol (BEEP) profile of the protocol. Security
+    requirements are met by mandating support for TLS and/or DIGEST-MD5 (through BEEP).
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

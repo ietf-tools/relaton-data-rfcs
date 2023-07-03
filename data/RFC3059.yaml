@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3059
 title:
 - content: Attribute List Extension for the Service Location Protocol
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies a SLPv2 extension which allows a User Agent
     (UA) to request a service's attributes be included as an extension to Service
-    Reply messages.  This will eliminate the need for multiple round trip messages
+    Reply messages. This will eliminate the need for multiple round trip messages
     for a UA to acquire all service information. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

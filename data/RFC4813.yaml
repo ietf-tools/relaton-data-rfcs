@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4813
 title:
 - content: OSPF Link-Local Signaling
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: "<p>OSPF is a link-state intra-domain routing protocol used in IP networks.
-    \ OSPF routers exchange information on a link using packets that follow a well-defined
-    format.  The format of OSPF packets is not flexible enough to enable applications
-    to exchange arbitrary data, which may be necessary in certain situations.  This
+    OSPF routers exchange information on a link using packets that follow a well-defined
+    format. The format of OSPF packets is not flexible enough to enable applications
+    to exchange arbitrary data, which may be necessary in certain situations. This
     memo describes a vendor-specific, backward-compatible technique to perform link-local
-    signaling, i.e., exchange arbitrary data on a link.  This memo defines an Experimental
+    signaling, i.e., exchange arbitrary data on a link. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -205,6 +205,10 @@ relation:
       content: RFC5613
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

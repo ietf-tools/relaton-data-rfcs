@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4873
 title:
 - content: GMPLS Segment Recovery
@@ -155,9 +155,9 @@ abstract:
 - content: "<p>This document describes protocol specific procedures for GMPLS (Generalized
     Multi-Protocol Label Switching) RSVP-TE (Resource ReserVation Protocol - Traffic
     Engineering) signaling extensions to support label switched path (LSP) segment
-    protection and restoration.  These extensions are intended to complement and be
+    protection and restoration. These extensions are intended to complement and be
     consistent with the RSVP-TE Extensions for End-to-End GMPLS Recovery (RFC 4872).
-    \ Implications and interactions with fast reroute are also addressed.  This document
+    Implications and interactions with fast reroute are also addressed. This document
     also updates the handling of NOTIFY_REQUEST objects. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -186,6 +186,10 @@ relation:
       content: RFC4872
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

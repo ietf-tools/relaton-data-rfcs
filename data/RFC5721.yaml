@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5721
 title:
 - content: POP3 Support for UTF-8
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This specification extends the Post Office Protocol version 3 (POP3)
     to support un-encoded international characters in user names, passwords, mail
-    addresses, message headers, and protocol-level textual error strings.  This document
+    addresses, message headers, and protocol-level textual error strings. This document
     defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC6856
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

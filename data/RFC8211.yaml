@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8211
 title:
 - content: Adverse Actions by a Certification Authority (CA) or Repository Manager
@@ -98,10 +98,10 @@ abstract:
 - content: "<p>This document analyzes actions by or against a Certification Authority
     (CA) or an independent repository manager in the RPKI that can adversely affect
     the Internet Number Resources (INRs) associated with that CA or its subordinate
-    CAs.  The analysis is done from the perspective of an affected INR holder.  The
+    CAs. The analysis is done from the perspective of an affected INR holder. The
     analysis is based on examination of the data items in the RPKI repository, as
     controlled by a CA (or an independent repository manager) and fetched by Relying
-    Parties (RPs).  The analysis does not purport to be comprehensive; it does represent
+    Parties (RPs). The analysis does not purport to be comprehensive; it does represent
     an orderly way to analyze a number of ways that errors by or attacks against a
     CA or repository manager can affect the RPKI and routing decisions based on RPKI
     data.</p>"
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

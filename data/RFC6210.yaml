@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6210
 title:
 - content: 'Experiment: Hash Functions with Parameters in the Cryptographic Message
@@ -67,17 +67,21 @@ script:
 - Latn
 abstract:
 - content: "<p>New hash algorithms are being developed that may include parameters.
-    \ Cryptographic Message Syntax (CMS) has not currently defined any hash algorithms
+    Cryptographic Message Syntax (CMS) has not currently defined any hash algorithms
     with parameters, but anecdotal evidence suggests that defining one could cause
-    major problems.  This document defines just such an algorithm and describes how
+    major problems. This document defines just such an algorithm and describes how
     to use it so that experiments can be run to find out how bad including hash parameters
-    will be.  This document defines an Experimental Protocol for the Internet community.</p>"
+    will be. This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

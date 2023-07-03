@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3491
 title:
 - content: 'Nameprep: A Stringprep Profile for Internationalized Domain Names (IDN)'
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document describes how to prepare internationalized domain name
     (IDN) labels in order to increase the likelihood that name input and name comparison
-    work in ways that make sense for typical users throughout the world.  This profile
+    work in ways that make sense for typical users throughout the world. This profile
     of the stringprep protocol is used as part of a suite of on-the-wire protocols
     for internationalizing the Domain Name System (DNS). [STANDARDS-TRACK]</p>"
   language:
@@ -116,6 +116,10 @@ relation:
       content: RFC5891
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

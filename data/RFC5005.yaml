@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5005
 title:
 - content: Feed Paging and Archiving
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: <p>This specification defines three types of syndicated Web feeds that
-    enable publication of entries across one or more feed documents.  This includes
+    enable publication of entries across one or more feed documents. This includes
     "paged" feeds for piecemeal access, "archived" feeds that allow reconstruction
     of the feed's contents, and feeds that are explicitly "complete". [STANDARDS-TRACK]</p>
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7765
 title:
 - content: TCP and Stream Control Transmission Protocol (SCTP) RTO Restart
@@ -155,17 +155,21 @@ abstract:
 - content: "<p>This document describes a modified sender-side algorithm for managing
     the TCP and Stream Control Transmission Protocol (SCTP) retransmission timers
     that provides faster loss recovery when there is a small amount of outstanding
-    data for a connection.  The modification, RTO Restart (RTOR), allows the transport
+    data for a connection. The modification, RTO Restart (RTOR), allows the transport
     to restart its retransmission timer using a smaller timeout duration, so that
     the effective retransmission timeout (RTO) becomes more aggressive in situations
-    where fast retransmit cannot be used.  This enables faster loss detection and
-    recovery for connections that are short lived or application limited.</p>"
+    where fast retransmit cannot be used. This enables faster loss detection and recovery
+    for connections that are short lived or application limited.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

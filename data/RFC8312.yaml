@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8312
 title:
 - content: CUBIC for Fast Long-Distance Networks
@@ -210,12 +210,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>CUBIC is an extension to the current TCP standards.  It differs from
+- content: "<p>CUBIC is an extension to the current TCP standards. It differs from
     the current TCP standards only in the congestion control algorithm on the sender
-    side.  In particular, it uses a cubic function instead of a linear window increase
+    side. In particular, it uses a cubic function instead of a linear window increase
     function of the current TCP standards to improve scalability and stability under
-    fast and long-distance networks.  CUBIC and its predecessor algorithm have been
-    adopted as defaults by Linux and have been used for many years.  This document
+    fast and long-distance networks. CUBIC and its predecessor algorithm have been
+    adopted as defaults by Linux and have been used for many years. This document
     provides a specification of CUBIC to enable third-party implementations and to
     solicit community feedback through experimentation on the performance of CUBIC.</p>"
   language:
@@ -224,6 +224,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

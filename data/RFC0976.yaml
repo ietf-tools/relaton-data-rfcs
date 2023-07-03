@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC976
 title:
 - content: UUCP mail interchange format standard
@@ -71,16 +71,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the standard format for the transmission of mail
-    messages between computers in the UUCP Project.  It does not however, address
-    the format for storage of messages on one machine, nor the lower level transport
-    mechanisms used to get the date from one machine to the next.  It represents a
-    standard for conformance by hosts in the UUCP zone.</p>"
+    messages between computers in the UUCP Project. It does not however, address the
+    format for storage of messages on one machine, nor the lower level transport mechanisms
+    used to get the date from one machine to the next. It represents a standard for
+    conformance by hosts in the UUCP zone.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

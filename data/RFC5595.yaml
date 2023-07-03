@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5595
 title:
 - content: The Datagram Congestion Control Protocol (DCCP) Service Codes
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the usage of Service Codes by the Datagram
-    Congestion Control Protocol, RFC 4340.  It motivates the setting of a Service
-    Code by applications.  Service Codes provide a method to identify the intended
-    service/application to process a DCCP connection request.  This provides improved
-    flexibility in the use and assignment of port numbers for connection multiplexing.
-    \ The use of a DCCP Service Code can also enable more explicit coordination of
-    services with middleboxes (e.g., network address translators and firewalls).  This
-    document updates the specification provided in RFC 4340. [STANDARDS-TRACK]</p>"
+    Congestion Control Protocol, RFC 4340. It motivates the setting of a Service Code
+    by applications. Service Codes provide a method to identify the intended service/application
+    to process a DCCP connection request. This provides improved flexibility in the
+    use and assignment of port numbers for connection multiplexing. The use of a DCCP
+    Service Code can also enable more explicit coordination of services with middleboxes
+    (e.g., network address translators and firewalls). This document updates the specification
+    provided in RFC 4340. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -90,6 +90,10 @@ relation:
       content: RFC4340
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

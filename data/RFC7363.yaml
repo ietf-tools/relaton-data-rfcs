@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7363
 title:
 - content: Self-Tuning Distributed Hash Table (DHT) for REsource LOcation And Discovery
@@ -96,10 +96,10 @@ script:
 - Latn
 abstract:
 - content: "<p>REsource LOcation And Discovery (RELOAD) is a peer-to-peer (P2P) signaling
-    protocol that provides an overlay network service.  Peers in a RELOAD overlay
-    network collectively run an overlay algorithm to organize the overlay and to store
-    and retrieve data.  This document describes how the default topology plugin of
-    RELOAD can be extended to support self-tuning, that is, to adapt to changing operating
+    protocol that provides an overlay network service. Peers in a RELOAD overlay network
+    collectively run an overlay algorithm to organize the overlay and to store and
+    retrieve data. This document describes how the default topology plugin of RELOAD
+    can be extended to support self-tuning, that is, to adapt to changing operating
     conditions such as churn and network size.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2667
 title:
 - content: IP Tunnel MIB
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a Management Information Base (MIB) for use with
-    network management protocols in the Internet community.  In particular, it describes
+    network management protocols in the Internet community. In particular, it describes
     managed objects used for managing tunnels of any type over IPv4 networks. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC4087
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

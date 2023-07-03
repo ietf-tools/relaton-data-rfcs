@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1075
 title:
 - content: Distance Vector Multicast Routing Protocol
@@ -129,8 +129,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC describes a distance-vector-style routing protocol for routing
-    multicast datagrams through an internet.  It is derived from the Routing Information
-    Protocol (RIP), and implements multicasting as described in RFC-1054.  This is
+    multicast datagrams through an internet. It is derived from the Routing Information
+    Protocol (RIP), and implements multicasting as described in RFC-1054. This is
     an experimental protocol, and its implementation is not recommended at this time.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

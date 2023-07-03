@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1298
 title:
 - content: SNMP over IPX
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>This memo defines a convention for encapsulating Simple Network Management
     Protocol (SNMP) packets over the transport mechanism provided via the Internetwork
-    Packet Exchange (IPX) protocol.  This memo provides information for the Internet
-    community.  It does not specify an Internet standard.</p>"
+    Packet Exchange (IPX) protocol. This memo provides information for the Internet
+    community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
@@ -115,6 +115,10 @@ relation:
       content: RFC1420
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

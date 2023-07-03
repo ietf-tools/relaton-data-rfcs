@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7609
 title:
 - content: IBM's Shared Memory Communications over RDMA (SMC-R) Protocol
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes IBM's Shared Memory Communications over RDMA
-    (SMC-R) protocol.  This protocol provides Remote Direct Memory Access (RDMA) communications
-    to TCP endpoints in a manner that is transparent to socket applications.  It further
+    (SMC-R) protocol. This protocol provides Remote Direct Memory Access (RDMA) communications
+    to TCP endpoints in a manner that is transparent to socket applications. It further
     provides for dynamic discovery of partner RDMA capabilities and dynamic setup
     of RDMA connections, as well as transparent high availability and load balancing
-    when redundant RDMA network paths are available.  It maintains many of the traditional
+    when redundant RDMA network paths are available. It maintains many of the traditional
     TCP/IP qualities of service such as filtering that enterprise users demand, as
     well as TCP socket semantics such as urgent data.</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

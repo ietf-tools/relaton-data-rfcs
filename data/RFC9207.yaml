@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9207
 title:
 - content: OAuth 2.0 Authorization Server Issuer Identification
@@ -94,16 +94,20 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document specifies a new parameter called iss.  This parameter
-    is used to explicitly include the issuer identifier of the authorization server
-    in the authorization response of an OAuth authorization flow.  The iss parameter
-    serves as an effective countermeasure to "mix-up attacks".</p>
+- content: <p>This document specifies a new parameter called iss. This parameter is
+    used to explicitly include the issuer identifier of the authorization server in
+    the authorization response of an OAuth authorization flow. The iss parameter serves
+    as an effective countermeasure to "mix-up attacks".</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

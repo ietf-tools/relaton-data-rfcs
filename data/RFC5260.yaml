@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5260
 title:
 - content: 'Sieve Email Filtering: Date and Index Extensions'
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the "date" and "index" extensions to the Sieve
-    email filtering language.  The "date" extension gives Sieve the ability to test
-    date and time values in various ways.  The "index" extension provides a means
-    to limit header and address tests to specific instances of header fields when
-    header fields are repeated. [STANDARDS-TRACK]</p>
+    email filtering language. The "date" extension gives Sieve the ability to test
+    date and time values in various ways. The "index" extension provides a means to
+    limit header and address tests to specific instances of header fields when header
+    fields are repeated. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

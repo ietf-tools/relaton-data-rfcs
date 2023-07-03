@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5539
 title:
 - content: NETCONF over Transport Layer Security (TLS)
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The Network Configuration Protocol (NETCONF) provides mechanisms to
-    install, manipulate, and delete the configuration of network devices.  This document
+    install, manipulate, and delete the configuration of network devices. This document
     describes how to use the Transport Layer Security (TLS) protocol to secure NETCONF
     exchanges. [STANDARDS-TRACK]</p>"
   language:
@@ -86,6 +86,10 @@ relation:
       content: RFC7589
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC916
 title:
 - content: Reliable Asynchronous Transfer Protocol (RATP)
@@ -71,11 +71,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC suggests a proposed protocol for the ARPA-Internet community,
-    and requests discussion and suggestions for improvements.  This paper proposes
+    and requests discussion and suggestions for improvements. This paper proposes
     and specifies a protocol which allows two programs to reliably communicate over
-    a communication link.  It ensures that the data entering one end of the link if
-    received arrives at the other end intact and unaltered.  The protocol, named RATP,
-    is designed to operate over a full duplex point-to-point connection.  It contains
+    a communication link. It ensures that the data entering one end of the link if
+    received arrives at the other end intact and unaltered. The protocol, named RATP,
+    is designed to operate over a full duplex point-to-point connection. It contains
     some features which tailor it to the RS-232 links now in common use.</p>"
   language:
   - en
@@ -83,6 +83,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

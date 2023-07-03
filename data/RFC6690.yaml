@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6690
 title:
 - content: Constrained RESTful Environments (CoRE) Link Format
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: <p>This specification defines Web Linking using a link format for use by
     constrained web servers to describe hosted resources, their attributes, and other
-    relationships between links.  Based on the HTTP Link Header field defined in RFC
+    relationships between links. Based on the HTTP Link Header field defined in RFC
     5988, the Constrained RESTful Environments (CoRE) Link Format is carried as a
     payload and is assigned an Internet media type. "RESTful" refers to the Representational
-    State Transfer (REST) architecture.  A well-known URI is defined as a default
-    entry point for requesting the links hosted by a server. [STANDARDS-TRACK]</p>
+    State Transfer (REST) architecture. A well-known URI is defined as a default entry
+    point for requesting the links hosted by a server. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

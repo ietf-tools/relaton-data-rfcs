@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1379
 title:
 - content: Extending TCP for Transactions -- Concepts
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo discusses extension of TCP to provide transaction-oriented
-    service, without altering its virtual-circuit operation.  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.</p>"
+    service, without altering its virtual-circuit operation. This memo provides information
+    for the Internet community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
@@ -85,6 +85,10 @@ relation:
       content: RFC6247
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

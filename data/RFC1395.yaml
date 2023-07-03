@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1395
 title:
 - content: BOOTP Vendor Information Extensions
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC is a slight revision and extension of RFC-1048 by Philip Prindeville,
-    who should be credited with the original work in this memo.  This memo will be
-    updated as additional tags are defined.  This edition introduces Tag 14 for Merit
+    who should be credited with the original work in this memo. This memo will be
+    updated as additional tags are defined. This edition introduces Tag 14 for Merit
     Dump File, Tag 15 for Domain Name, Tag 16 for Swap Server and Tag 17 for Root
-    Path.  This memo is a status report on the vendor information extensions used
-    int the Bootstrap Protocol (BOOTP).</p>"
+    Path. This memo is a status report on the vendor information extensions used int
+    the Bootstrap Protocol (BOOTP).</p>"
   language:
   - en
   script:
@@ -108,6 +108,10 @@ relation:
       content: RFC0951
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

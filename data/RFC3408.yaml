@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3408
 title:
 - content: Zero-byte Support for Bidirectional Reliable Mode (R-mode) in Extended
@@ -97,10 +97,10 @@ script:
 abstract:
 - content: "<p>This document defines an additional mode of the link-layer assisted
     RObust Header Compression (ROHC) profile, also known as the zero-byte profile,
-    beyond the two defined in RFC 3242.  Zero-byte header compression exists in order
+    beyond the two defined in RFC 3242. Zero-byte header compression exists in order
     to prevent the single-octet ROHC header from pushing a packet voice stream into
-    the next higher fixed packet size for the radio.  It is usable in certain widely
-    deployed older air interfaces.  This document adds the zero-byte operation for
+    the next higher fixed packet size for the radio. It is usable in certain widely
+    deployed older air interfaces. This document adds the zero-byte operation for
     ROHC Bidirectional Reliable mode (R-mode) to the ones specified for Unidirectional
     (U-mode) and Bidirectional Optimistic (O-mode) modes of header compression in
     RFC 3242. [STANDARDS-TRACK]</p>"
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

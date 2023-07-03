@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9020
 title:
 - content: YANG Data Model for Segment Routing
@@ -181,10 +181,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document defines three YANG data models.  The first is for Segment
+- content: "<p>This document defines three YANG data models. The first is for Segment
     Routing (SR) configuration and operation, which is to be augmented by different
-    Segment Routing data planes.  The next is a YANG data model that defines a collection
-    of generic types and groupings for SR.  The third module defines the configuration
+    Segment Routing data planes. The next is a YANG data model that defines a collection
+    of generic types and groupings for SR. The third module defines the configuration
     and operational states for the Segment Routing MPLS data plane.</p>"
   language:
   - en
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7210
 title:
 - content: Database of Long-Lived Symmetric Cryptographic Keys
@@ -154,10 +154,10 @@ script:
 abstract:
 - content: "<p>This document specifies the information contained in a conceptual database
     of long-lived cryptographic keys used by many different routing protocols for
-    message security.  The database is designed to support both manual and automated
-    key management.  In addition to describing the schema for the database, this document
+    message security. The database is designed to support both manual and automated
+    key management. In addition to describing the schema for the database, this document
     describes the operations that can be performed on the database as well as the
-    requirements for the routing protocols that wish to use the database.  In many
+    requirements for the routing protocols that wish to use the database. In many
     typical scenarios, the protocols do not directly use the long-lived key, but rather
     a key derivation function is used to derive a short-lived key from a long-lived
     key.</p>"
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

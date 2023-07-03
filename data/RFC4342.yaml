@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4342
 title:
 - content: 'Profile for Datagram Congestion Control Protocol (DCCP) Congestion Control
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>This document contains the profile for Congestion Control Identifier
     3, TCP-Friendly Rate Control (TFRC), in the Datagram Congestion Control Protocol
-    (DCCP).  CCID 3 should be used by senders that want a TCP-friendly sending rate,
+    (DCCP). CCID 3 should be used by senders that want a TCP-friendly sending rate,
     possibly with Explicit Congestion Notification (ECN), while minimizing abrupt
     rate changes. [STANDARDS-TRACK]</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

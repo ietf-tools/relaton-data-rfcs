@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3715
 title:
 - content: IPsec-Network Address Translation (NAT) Compatibility Requirements
@@ -96,19 +96,23 @@ script:
 abstract:
 - content: "<p>This document describes known incompatibilities between Network Address
     Translation (NAT) and IPsec, and describes the requirements for addressing them.
-    \ Perhaps the most common use of IPsec is in providing virtual private networking
-    capabilities.  One very popular use of Virtual Private Networks (VPNs) is to provide
-    telecommuter access to the corporate Intranet.  Today, NATs are widely deployed
+    Perhaps the most common use of IPsec is in providing virtual private networking
+    capabilities. One very popular use of Virtual Private Networks (VPNs) is to provide
+    telecommuter access to the corporate Intranet. Today, NATs are widely deployed
     in home gateways, as well as in other locations likely to be used by telecommuters,
-    such as hotels.  The result is that IPsec-NAT incompatibilities have become a
-    major barrier in the deployment of IPsec in one of its principal uses.  This memo
-    provides information for the Internet community.</p>"
+    such as hotels. The result is that IPsec-NAT incompatibilities have become a major
+    barrier in the deployment of IPsec in one of its principal uses. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

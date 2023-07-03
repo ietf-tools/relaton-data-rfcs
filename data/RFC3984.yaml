@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3984
 title:
 - content: RTP Payload Format for H.264 Video
@@ -188,9 +188,9 @@ script:
 abstract:
 - content: "<p>This memo describes an RTP Payload format for the ITU-T Recommendation
     H.264 video codec and the technically identical ISO/IEC International Standard
-    14496-10 video codec.  The RTP payload format allows for packetization of one
-    or more Network Abstraction Layer Units (NALUs), produced by an H.264 video encoder,
-    in each RTP payload.  The payload format has wide applicability, as it supports
+    14496-10 video codec. The RTP payload format allows for packetization of one or
+    more Network Abstraction Layer Units (NALUs), produced by an H.264 video encoder,
+    in each RTP payload. The payload format has wide applicability, as it supports
     applications from simple low bit-rate conversational usage, to Internet video
     streaming with interleaved transmission, to high bit-rate video-on-demand. [STANDARDS-TRACK]</p>"
   language:
@@ -210,6 +210,10 @@ relation:
       content: RFC6184
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

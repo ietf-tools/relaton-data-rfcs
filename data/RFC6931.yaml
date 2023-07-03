@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6931
 title:
 - content: Additional XML Security Uniform Resource Identifiers (URIs)
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document expands, updates, and establishes an IANA registry for
     the list of URIs intended for use with XML digital signatures, encryption, canonicalization,
-    and key management.  These URIs identify algorithms and types of information.
-    \ This document obsoletes RFC 4051.</p>"
+    and key management. These URIs identify algorithms and types of information. This
+    document obsoletes RFC 4051.</p>"
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC9231
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

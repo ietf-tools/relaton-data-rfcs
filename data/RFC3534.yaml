@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3534
 title:
 - content: The application/ogg Media Type
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>The Ogg Bitstream Format aims at becoming a general, freely-available
     standard for transporting multimedia content across computing platforms and networks.
-    \ The intention of this document is to define the MIME media type application/ogg
-    to refer to this kind of content when transported across the Internet.  It is
-    the intention of the Ogg Bitstream Format developers that it be usable without
-    intellectual property concerns. [STANDARDS-TRACK]</p>"
+    The intention of this document is to define the MIME media type application/ogg
+    to refer to this kind of content when transported across the Internet. It is the
+    intention of the Ogg Bitstream Format developers that it be usable without intellectual
+    property concerns. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC5334
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

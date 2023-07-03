@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7039
 title:
 - content: Source Address Validation Improvement (SAVI) Framework
@@ -184,15 +184,19 @@ abstract:
 - content: "<p>Source Address Validation Improvement (SAVI) methods were developed
     to prevent nodes attached to the same IP link from spoofing each other's IP addresses,
     so as to complement ingress filtering with finer-grained, standardized IP source
-    address validation.  This document is a framework document that describes and
-    motivates the design of the SAVI methods.  Particular SAVI methods are described
-    in other documents.</p>"
+    address validation. This document is a framework document that describes and motivates
+    the design of the SAVI methods. Particular SAVI methods are described in other
+    documents.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

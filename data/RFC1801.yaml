@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1801
 title:
 - content: MHS use of the X.500 Directory to support MHS Routing
@@ -66,15 +66,19 @@ script:
 - Latn
 abstract:
 - content: <p>The key problem in routing is to map from an O/R Address onto an MTA
-    (next hop).  This shall be an MTA which in some sense is "nearer" to the destination
-    UA.  This is done repeatedly until the message can be directly delivered to the
-    recipient UA.  This memo defines an Experimental Protocol for the Internet community.</p>
+    (next hop). This shall be an MTA which in some sense is "nearer" to the destination
+    UA. This is done repeatedly until the message can be directly delivered to the
+    recipient UA. This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4760
 title:
 - content: Multiprotocol Extensions for BGP-4
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This document defines extensions to BGP-4 to enable it to carry routing
     information for multiple Network Layer protocols (e.g., IPv6, IPX, L3VPN, etc.).
-    \ The extensions are backward compatible - a router that supports the extensions
+    The extensions are backward compatible - a router that supports the extensions
     can interoperate with a router that doesn't support the extensions. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

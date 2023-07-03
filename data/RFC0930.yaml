@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC930
 title:
 - content: Telnet terminal type option
@@ -94,10 +94,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the ARPA Internet community.  Hosts
+- content: "<p>This RFC specifies a standard for the ARPA Internet community. Hosts
     on the ARPA Internet that exchange terminal type information within the Telnet
-    protocol are expected to adopt and implement this standard.  This standard supersedes
-    RFC-884.  The only change is to specify that the TERMINAL-TYPE IS sub-negotiation
+    protocol are expected to adopt and implement this standard. This standard supersedes
+    RFC-884. The only change is to specify that the TERMINAL-TYPE IS sub-negotiation
     should be sent only in response to the TERMINAL-TYPE SEND sub-negotiation.</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC1091
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

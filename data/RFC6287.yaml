@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6287
 title:
 - content: 'OCRA: OATH Challenge-Response Algorithm'
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an algorithm for challenge-response authentication
-    developed by the Initiative for Open Authentication (OATH).  The specified mechanisms
+    developed by the Initiative for Open Authentication (OATH). The specified mechanisms
     leverage the HMAC-based One-Time Password (HOTP) algorithm and offer one-way and
-    mutual authentication, and electronic signature capabilities.  This document is
+    mutual authentication, and electronic signature capabilities. This document is
     not an Internet Standards Track specification; it is published for informational
     purposes.</p>"
   language:
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

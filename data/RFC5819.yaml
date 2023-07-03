@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5819
 title:
 - content: IMAP4 Extension for Returning STATUS Information in Extended LIST
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Many IMAP clients display information about total number of messages
-    / total number of unseen messages in IMAP mailboxes.  In order to do that, they
+    / total number of unseen messages in IMAP mailboxes. In order to do that, they
     are forced to issue a LIST or LSUB command and to list all available mailboxes,
-    followed by a STATUS command for each mailbox found.  This document provides an
+    followed by a STATUS command for each mailbox found. This document provides an
     extension to LIST command that allows the client to request STATUS information
     for mailboxes together with other information typically returned by the LIST command.
     [STANDARDS-TRACK]</p>"
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

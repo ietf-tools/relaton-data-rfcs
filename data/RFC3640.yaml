@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3640
 title:
 - content: RTP Payload Format for Transport of MPEG-4 Elementary Streams
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The Motion Picture Experts Group (MPEG) Committee (ISO/IEC JTC1/SC29
-    WG11) is a working group in ISO that produced the MPEG-4 standard.  MPEG defines
+    WG11) is a working group in ISO that produced the MPEG-4 standard. MPEG defines
     tools to compress content such as audio-visual information into elementary streams.
-    \ This specification defines a simple, but generic RTP payload format for transport
+    This specification defines a simple, but generic RTP payload format for transport
     of any non-multiplexed MPEG-4 elementary stream.</p>"
   language:
   - en
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

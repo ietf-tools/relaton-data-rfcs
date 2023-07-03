@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7324
 title:
 - content: Updates to MPLS Transport Profile Linear Protection
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: <p>This document contains a number of updates to the Protection State Coordination
-    (PSC) logic defined in RFC 6378, "MPLS Transport Profile (MPLS-TP) Linear Protection".  These
-    updates provide some rules and recommendations around the use of TLVs in PSC,
-    address some issues raised in an ITU-T liaison statement, and clarify PSC's behavior
-    in a case not well explained in RFC 6378.</p>
+    (PSC) logic defined in RFC 6378, "MPLS Transport Profile (MPLS-TP) Linear Protection".
+    These updates provide some rules and recommendations around the use of TLVs in
+    PSC, address some issues raised in an ITU-T liaison statement, and clarify PSC's
+    behavior in a case not well explained in RFC 6378.</p>
   language:
   - en
   script:
@@ -87,6 +87,10 @@ relation:
       content: RFC6378
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

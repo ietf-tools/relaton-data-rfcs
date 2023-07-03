@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5515
 title:
 - content: Layer 2 Tunneling Protocol (L2TP) Access Line Information Attribute Value
@@ -186,18 +186,21 @@ abstract:
     Attribute Value Pair (AVP) extensions designed to carry the subscriber Access
     Line identification and characterization information that arrives at the Broadband
     Remote Access Server (BRAS) with L2TP Access Concentrator (LAC) functionality.
-    \ It also describes a mechanism to report connection speed changes, after the
-    initial connection speeds are sent during session establishment.  The primary
-    purpose of this document is to provide a reference for DSL equipment vendors wishing
-    to interoperate with other vendors' products.  The L2TP AVPs defined in this document
-    are applicable to both L2TPv2 and L2TPv3.  This memo provides information for
-    the Internet community.</p>"
+    It also describes a mechanism to report connection speed changes, after the initial
+    connection speeds are sent during session establishment. The primary purpose of
+    this document is to provide a reference for DSL equipment vendors wishing to interoperate
+    with other vendors' products. The L2TP AVPs defined in this document are applicable
+    to both L2TPv2 and L2TPv3. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

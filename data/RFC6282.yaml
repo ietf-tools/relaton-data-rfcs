@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6282
 title:
 - content: Compression Format for IPv6 Datagrams over IEEE 802.15.4-Based Networks
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: <p>This document updates RFC 4944, "Transmission of IPv6 Packets over IEEE
-    802.15.4 Networks".  This document specifies an IPv6 header compression format
-    for IPv6 packet delivery in Low Power Wireless Personal Area Networks (6LoWPANs).  The
-    compression format relies on shared context to allow compression of arbitrary
-    prefixes.  How the information is maintained in that shared context is out of
-    scope.  This document specifies compression of multicast addresses and a framework
-    for compressing next headers.  UDP header compression is specified within this
-    framework. [STANDARDS-TRACK]</p>
+    802.15.4 Networks". This document specifies an IPv6 header compression format
+    for IPv6 packet delivery in Low Power Wireless Personal Area Networks (6LoWPANs).
+    The compression format relies on shared context to allow compression of arbitrary
+    prefixes. How the information is maintained in that shared context is out of scope.
+    This document specifies compression of multicast addresses and a framework for
+    compressing next headers. UDP header compression is specified within this framework.
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -119,6 +119,10 @@ relation:
       content: RFC4944
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

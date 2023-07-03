@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC835
 title:
 - content: Who talks TCP?
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC is a survey of hosts to identify the implementation status
-    of Telnet, FTP, and Mail on TCP.  The list of hosts was taken from the NIC hostname
-    table of 2-Dec-82.  The tests were run on 28-Dec-82 through 5-Jan-83.</p>"
+    of Telnet, FTP, and Mail on TCP. The list of hosts was taken from the NIC hostname
+    table of 2-Dec-82. The tests were run on 28-Dec-82 through 5-Jan-83.</p>"
   language:
   - en
   script:
@@ -85,6 +85,10 @@ relation:
       content: RFC0836
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

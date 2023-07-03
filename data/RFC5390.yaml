@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5390
 title:
 - content: Requirements for Management of Overload in the Session Initiation Protocol
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>Overload occurs in Session Initiation Protocol (SIP) networks when
     proxies and user agents have insufficient resources to complete the processing
-    of a request.  SIP provides limited support for overload handling through its
-    503 response code, which tells an upstream element that it is overloaded.  However,
-    numerous problems have been identified with this mechanism.  This document summarizes
+    of a request. SIP provides limited support for overload handling through its 503
+    response code, which tells an upstream element that it is overloaded. However,
+    numerous problems have been identified with this mechanism. This document summarizes
     the problems with the existing 503 mechanism, and provides some requirements for
-    a solution.  This memo provides information for the Internet community.</p>"
+    a solution. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

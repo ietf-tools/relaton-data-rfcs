@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4027
 title:
 - content: Domain Name System Media Types
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document registers the media types application/dns and text/dns
-    in accordance with RFC 2048.  The application/dns media type is used to identify
-    data on the detached Domain Name System (DNS) format described in RFC 2540.  The
+    in accordance with RFC 2048. The application/dns media type is used to identify
+    data on the detached Domain Name System (DNS) format described in RFC 2540. The
     text/dns media type is used to identify master files as described in RFC 1035.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

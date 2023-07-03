@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8873
 title:
 - content: Message Session Relay Protocol (MSRP) over Data Channels
@@ -98,10 +98,9 @@ abstract:
     data channel can be used as a transport mechanism for the Message Session Relay
     Protocol (MSRP) and how the Session Description Protocol (SDP) offer/answer mechanism
     can be used to negotiate such a data channel, referred to as an MSRP data channel.
-    \ Two network configurations are supported: the connection of two MSRP data channel
+    Two network configurations are supported: the connection of two MSRP data channel
     endpoints; and a gateway configuration, which connects an MSRP data channel endpoint
-    with an MSRP endpoint that uses either TCP or TLS.  This document updates RFC
-    4975.</p>"
+    with an MSRP endpoint that uses either TCP or TLS. This document updates RFC 4975.</p>"
   language:
   - en
   script:
@@ -119,6 +118,10 @@ relation:
       content: RFC4975
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

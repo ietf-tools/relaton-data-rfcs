@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8882
 title:
 - content: DNS-Based Service Discovery (DNS-SD) Privacy and Security Requirements
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>DNS-SD (DNS-based Service Discovery) normally discloses information
-    about devices offering and requesting services.  This information includes hostnames,
+    about devices offering and requesting services. This information includes hostnames,
     network parameters, and possibly a further description of the corresponding service
-    instance.  Especially when mobile devices engage in DNS-based Service Discovery
-    at a public hotspot, serious privacy problems arise.  We analyze the requirements
+    instance. Especially when mobile devices engage in DNS-based Service Discovery
+    at a public hotspot, serious privacy problems arise. We analyze the requirements
     of a privacy-respecting discovery service.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4107
 title:
 - content: Guidelines for Cryptographic Key Management
@@ -96,12 +96,12 @@ script:
 abstract:
 - content: "<p>The question often arises of whether a given security system requires
     some form of automated key management, or whether manual keying is sufficient.
-    \ This memo provides guidelines for making such decisions.  When symmetric cryptographic
+    This memo provides guidelines for making such decisions. When symmetric cryptographic
     mechanisms are used in a protocol, the presumption is that automated key management
-    is generally but not always needed.  If manual keying is proposed, the burden
-    of proving that automated key management is not required falls to the proposer.
-    \ This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+    is generally but not always needed. If manual keying is proposed, the burden of
+    proving that automated key management is not required falls to the proposer. This
+    document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -112,6 +112,10 @@ series:
     content: BCP
     format: text/plain
   number: '107'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1000
 title:
 - content: Request For Comments reference guide
@@ -101,7 +101,7 @@ script:
 abstract:
 - content: "<p>This RFC Reference Guide is intended to provide a historical account
     by categorizing and summarizing of the Request for Comments numbers 1 through
-    999 issued between the years 1969-1987.  These documents have been crossed referenced
+    999 issued between the years 1969-1987. These documents have been crossed referenced
     to indicate which RFCs are current, obsolete, or revised.</p>"
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

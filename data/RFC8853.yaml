@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8853
 title:
 - content: Using Simulcast in Session Description Protocol (SDP) and RTP Sessions
@@ -154,11 +154,11 @@ script:
 abstract:
 - content: "<p>In some application scenarios, it may be desirable to send multiple
     differently encoded versions of the same media source in different RTP streams.
-    \ This is called simulcast.  This document describes how to accomplish simulcast
-    in RTP and how to signal it in the Session Description Protocol (SDP).  The described
+    This is called simulcast. This document describes how to accomplish simulcast
+    in RTP and how to signal it in the Session Description Protocol (SDP). The described
     solution uses an RTP/RTCP identification method to identify RTP streams belonging
     to the same media source and makes an extension to SDP to indicate that those
-    RTP streams are different simulcast formats of that media source.  The SDP extension
+    RTP streams are different simulcast formats of that media source. The SDP extension
     consists of a new media-level SDP attribute that expresses capability to send
     and/or receive simulcast RTP streams.</p>"
   language:
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

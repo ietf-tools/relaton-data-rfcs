@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1047
 title:
 - content: Duplicate messages and SMTP
@@ -66,15 +66,19 @@ script:
 - Latn
 abstract:
 - content: "<p>An examination of a synchronization problem in the Simple Mail Transfer
-    Protocol (SMTP) is presented.  This synchronization problem can cause a message
-    to be delivered multiple times.  A method for avoiding this problem is suggested.
-    \ Nodding familiarity with the SMTP specification, RFC-821, is required.</p>"
+    Protocol (SMTP) is presented. This synchronization problem can cause a message
+    to be delivered multiple times. A method for avoiding this problem is suggested.
+    Nodding familiarity with the SMTP specification, RFC-821, is required.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

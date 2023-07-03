@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8575
 title:
 - content: YANG Data Model for the Precision Time Protocol (PTP)
@@ -154,8 +154,8 @@ script:
 abstract:
 - content: "<p>This document defines a YANG data model for the configuration of devices
     and clocks using the Precision Time Protocol (PTP) as specified in IEEE Std 1588-2008.
-    \ It also defines the retrieval of the configuration information, the data sets
-    and the running states of PTP clocks.  The YANG module in this document conforms
+    It also defines the retrieval of the configuration information, the data sets
+    and the running states of PTP clocks. The YANG module in this document conforms
     to the Network Management Datastore Architecture (NMDA).</p>"
   language:
   - en
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

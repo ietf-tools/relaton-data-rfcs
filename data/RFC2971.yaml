@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2971
 title:
 - content: IMAP4 ID extension
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document describes an ID extension which will enable Internet
     Message Access Protocol - Version 4rev1 (IMAP4rev1) to advertise what program
-    a client or server uses to provide service.  The ID extension allows the server
+    a client or server uses to provide service. The ID extension allows the server
     and client to exchange identification information on their implementation in order
     to make bug reports and usage statistics more complete. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

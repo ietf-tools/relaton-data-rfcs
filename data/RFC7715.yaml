@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7715
 title:
 - content: Multipoint LDP (mLDP) Node Protection
@@ -183,19 +183,23 @@ script:
 abstract:
 - content: "<p>This document describes procedures to support node protection for Point-to-Multipoint
     and Multipoint-to-Multipoint Label Switched Paths (P2MP and MP2MP LSPs) that have
-    been built by the Multipoint Label Distribution Protocol (mLDP).  In order to
-    protect a node N, the Point of Local Repair (PLR) Label Switching Router (LSR)
-    of N must learn the Merge Point (MPT) LSR(s) of node N such that traffic can be
-    redirected to them in case node N fails.  Redirecting the traffic around the failed
-    node N depends on existing Point-to-Point (P2P) Label Switched Paths (LSPs).  The
-    pre-established LSPs originate from the PLR LSR and terminate on the MPT LSRs
-    while bypassing LSR N.</p>"
+    been built by the Multipoint Label Distribution Protocol (mLDP). In order to protect
+    a node N, the Point of Local Repair (PLR) Label Switching Router (LSR) of N must
+    learn the Merge Point (MPT) LSR(s) of node N such that traffic can be redirected
+    to them in case node N fails. Redirecting the traffic around the failed node N
+    depends on existing Point-to-Point (P2P) Label Switched Paths (LSPs). The pre-established
+    LSPs originate from the PLR LSR and terminate on the MPT LSRs while bypassing
+    LSR N.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

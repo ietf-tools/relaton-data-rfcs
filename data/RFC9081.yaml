@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9081
 title:
 - content: Interoperation between Multicast Virtual Private Network (MVPN) and Multicast
@@ -99,9 +99,9 @@ abstract:
     Virtual Private Network (MVPN) Source-Active (SA) routes and customer Multicast
     Source Discovery Protocol (MSDP) SA routes, which is useful for MVPN provider
     networks offering services to customers with an existing MSDP infrastructure.
-    \ Without the procedures described in this document, VPN-specific MSDP sessions
+    Without the procedures described in this document, VPN-specific MSDP sessions
     are required among the Provider Edge (PE) routers that are customer MSDP peers.
-    \ This document updates RFC 6514.</p>"
+    This document updates RFC 6514.</p>"
   language:
   - en
   script:
@@ -119,6 +119,10 @@ relation:
       content: RFC6514
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

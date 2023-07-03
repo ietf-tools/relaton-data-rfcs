@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8166
 title:
 - content: Remote Direct Memory Access Transport for Remote Procedure Call Version
@@ -126,15 +126,19 @@ script:
 abstract:
 - content: "<p>This document specifies a protocol for conveying Remote Procedure Call
     (RPC) messages on physical transports capable of Remote Direct Memory Access (RDMA).
-    \ This protocol is referred to as the RPC-over- RDMA version 1 protocol in this
-    document.  It requires no revision to application RPC protocols or the RPC protocol
-    itself.  This document obsoletes RFC 5666.</p>"
+    This protocol is referred to as the RPC-over- RDMA version 1 protocol in this
+    document. It requires no revision to application RPC protocols or the RPC protocol
+    itself. This document obsoletes RFC 5666.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6012
 title:
 - content: Datagram Transport Layer Security (DTLS) Transport Mapping for Syslog
@@ -153,14 +153,18 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the transport of syslog messages over the Datagram
-    Transport Layer Security (DTLS) protocol.  It provides a secure transport for
-    syslog messages in cases where a connectionless transport is desired. [STANDARDS-TRACK]</p>"
+    Transport Layer Security (DTLS) protocol. It provides a secure transport for syslog
+    messages in cases where a connectionless transport is desired. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

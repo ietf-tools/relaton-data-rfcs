@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5353
 title:
 - content: Endpoint Handlespace Redundancy Protocol (ENRP)
@@ -184,16 +184,20 @@ abstract:
 - content: "<p>The Endpoint Handlespace Redundancy Protocol (ENRP) is designed to
     work in conjunction with the Aggregate Server Access Protocol (ASAP) to accomplish
     the functionality of the Reliable Server Pooling (RSerPool) requirements and architecture.
-    \ Within the operational scope of RSerPool, ENRP defines the procedures and message
+    Within the operational scope of RSerPool, ENRP defines the procedures and message
     formats of a distributed, fault-tolerant registry service for storing, bookkeeping,
-    retrieving, and distributing pool operation and membership information.  This
-    memo defines an Experimental Protocol for the Internet community.</p>"
+    retrieving, and distributing pool operation and membership information. This memo
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

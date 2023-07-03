@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3248
 title:
 - content: A Delay Bound alternative revision of RFC 2598
@@ -241,22 +241,26 @@ script:
 abstract:
 - content: "<p>For historical interest, this document captures the EF Design Team's
     proposed solution, preferred by the original authors of RFC 2598 but not adopted
-    by the working group in December 2000.  The original definition of EF was based
-    on comparison of forwarding on an unloaded network.  This experimental Delay Bound
+    by the working group in December 2000. The original definition of EF was based
+    on comparison of forwarding on an unloaded network. This experimental Delay Bound
     (DB) PHB requires a bound on the delay of packets due to other traffic in the
-    network.  At the Pittsburgh IETF meeting in August 2000, the Differentiated Services
+    network. At the Pittsburgh IETF meeting in August 2000, the Differentiated Services
     working group faced serious questions regarding RFC 2598 - the group's standards
-    track definition of the Expedited Forwarding (EF) Per Hop Behavior (PHB).  An
-    'EF Design Team' volunteered to develop a re-expression of RFC 2598, bearing in
-    mind the issues raised in the DiffServ group.  At the San Diego IETF meeting in
-    December 2000 the DiffServ working group decided to pursue an alternative re-expression
-    of the EF PHB.  This memo provides information for the Internet community.</p>"
+    track definition of the Expedited Forwarding (EF) Per Hop Behavior (PHB). An 'EF
+    Design Team' volunteered to develop a re-expression of RFC 2598, bearing in mind
+    the issues raised in the DiffServ group. At the San Diego IETF meeting in December
+    2000 the DiffServ working group decided to pursue an alternative re-expression
+    of the EF PHB. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

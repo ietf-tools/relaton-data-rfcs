@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2096
 title:
 - content: IP Forwarding Table MIB
@@ -65,7 +65,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo defines an update to RFC 1354.  The significant difference
+- content: "<p>This memo defines an update to RFC 1354. The significant difference
     between this MIB and RFC 1354 is the recognition (explicitly discussed but by
     consensus left to future work) that CIDR routes may have the same network number
     but different network masks. [STANDARDS-TRACK]</p>"
@@ -86,6 +86,10 @@ relation:
       content: RFC4292
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

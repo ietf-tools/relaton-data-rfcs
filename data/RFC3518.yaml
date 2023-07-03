@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3518
 title:
 - content: Point-to-Point Protocol (PPP) Bridging Control Protocol (BCP)
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The Point-to-Point Protocol (PPP) provides a standard method for transporting
-    multi-protocol datagrams over point-to-point links.  PPP defines an extensible
+    multi-protocol datagrams over point-to-point links. PPP defines an extensible
     Link Control Protocol (LCP) and proposes a family of Network Control Protocols
-    (NCP) for establishing and configuring different network-layer protocols.  This
+    (NCP) for establishing and configuring different network-layer protocols. This
     document defines the NCP for establishing and configuring Remote Bridging for
-    PPP links.  This document obsoletes RFC 2878, which was based on the IEEE 802.1D-
-    1993 MAC Bridge.  This document extends that specification by improving support
+    PPP links. This document obsoletes RFC 2878, which was based on the IEEE 802.1D-
+    1993 MAC Bridge. This document extends that specification by improving support
     for bridge control packets. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

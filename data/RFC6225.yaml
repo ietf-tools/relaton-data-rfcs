@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6225
 title:
 - content: Dynamic Host Configuration Protocol Options for Coordinate-Based Location
@@ -155,9 +155,9 @@ script:
 abstract:
 - content: "<p>This document specifies Dynamic Host Configuration Protocol options
     (both DHCPv4 and DHCPv6) for the coordinate-based geographic location of the client.
-    \ The Location Configuration Information (LCI) includes Latitude, Longitude, and
-    Altitude, with resolution or uncertainty indicators for each.  Separate parameters
-    indicate the reference datum for each of these values.  This document obsoletes
+    The Location Configuration Information (LCI) includes Latitude, Longitude, and
+    Altitude, with resolution or uncertainty indicators for each. Separate parameters
+    indicate the reference datum for each of these values. This document obsoletes
     RFC 3825. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

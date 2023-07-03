@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7757
 title:
 - content: Explicit Address Mappings for Stateless IP/ICMP Translation
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document extends the Stateless IP/ICMP Translation Algorithm (SIIT)
     with an Explicit Address Mapping (EAM) algorithm and formally updates RFC 6145.
-    \ The EAM algorithm facilitates stateless IP/ICMP translation between arbitrary
+    The EAM algorithm facilitates stateless IP/ICMP translation between arbitrary
     (non-IPv4-translatable) IPv6 endpoints and IPv4.</p>"
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC6145
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

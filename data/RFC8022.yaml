@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8022
 title:
 - content: A YANG Data Model for Routing Management
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document contains a specification of three YANG modules and one
-    submodule.  Together they form the core routing data model that serves as a framework
-    for configuring and managing a routing subsystem.  It is expected that these modules
+    submodule. Together they form the core routing data model that serves as a framework
+    for configuring and managing a routing subsystem. It is expected that these modules
     will be augmented by additional YANG modules defining data models for control-plane
-    protocols, route filters, and other functions.  The core routing data model provides
+    protocols, route filters, and other functions. The core routing data model provides
     common building blocks for such extensions -- routes, Routing Information Bases
     (RIBs), and control-plane protocols.</p>"
   language:
@@ -118,6 +118,10 @@ relation:
       content: RFC8349
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

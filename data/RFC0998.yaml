@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC998
 title:
 - content: 'NETBLT: A bulk data transfer protocol'
@@ -134,22 +134,26 @@ script:
 - Latn
 abstract:
 - content: "<p>This document is a description of, and a specification for, the NETBLT
-    protocol.  It is a revision of the specification published in RFC-969.  NETBLT
-    (NETwork BLock Transfer) is a transport level protocol intended for the rapid
-    transfer of a large quantity of data between computers.  It provides a transfer
-    that is reliable and flow controlled, and is designed to provide maximum throughput
-    over a wide variety of networks.  Although NETBLT currently runs on top of the
-    Internet Protocol (IP), it should be able to operate on top of any datagram protocol
-    similar in function to IP.  This document is published for discussion and comment,
-    and does not constitute a standard.  The proposal may change and certain parts
-    of the protocol have not yet been specified; implementation of this document is
-    therefore not advised.  Obsoletes RFC-969.</p>"
+    protocol. It is a revision of the specification published in RFC-969. NETBLT (NETwork
+    BLock Transfer) is a transport level protocol intended for the rapid transfer
+    of a large quantity of data between computers. It provides a transfer that is
+    reliable and flow controlled, and is designed to provide maximum throughput over
+    a wide variety of networks. Although NETBLT currently runs on top of the Internet
+    Protocol (IP), it should be able to operate on top of any datagram protocol similar
+    in function to IP. This document is published for discussion and comment, and
+    does not constitute a standard. The proposal may change and certain parts of the
+    protocol have not yet been specified; implementation of this document is therefore
+    not advised. Obsoletes RFC-969.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

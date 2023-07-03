@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6495
 title:
 - content: Subject Key Identifier (SKI) SEcure Neighbor Discovery (SEND) Name Type
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: "<p>SEcure Neighbor Discovery (SEND) defines the Name Type field in the
-    ICMPv6 Trust Anchor option.  This document specifies new Name Type fields based
+    ICMPv6 Trust Anchor option. This document specifies new Name Type fields based
     on certificate Subject Key Identifiers (SKIs). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -144,6 +144,10 @@ relation:
       content: RFC3971
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3625
 title:
 - content: The QCP File Format and Media Types for Speech Data
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: <p>RFC 2658 specifies the streaming format for 3GPP2 13KK vocoder (High
     Rate Speech Service Option 17 for Wideband Spread Spectrum Communications Systems,
-    also known as QCELP 13K vocoder) data, but does not specify a storage format.  Many
-    implementations have been using the "QCP" file format (named for its file extension)
-    for exchanging QCELP 13K data as well as Enhanced Variable Rate Coder (EVRC) and
-    Selectable Mode Vocoders (SMV) data. (For example, Eudora(r), QuickTime(r), and
-    cmda2000(r) handsets).  This document specifies the QCP file format and updates
+    also known as QCELP 13K vocoder) data, but does not specify a storage format.
+    Many implementations have been using the "QCP" file format (named for its file
+    extension) for exchanging QCELP 13K data as well as Enhanced Variable Rate Coder
+    (EVRC) and Selectable Mode Vocoders (SMV) data. (For example, Eudora(r), QuickTime(r),
+    and cmda2000(r) handsets). This document specifies the QCP file format and updates
     the audio/qcelp media registration to specify this format for storage, and registers
     the audio/evrc-qcp and audio/smv-qcp media types for EVRC and SMV (respectively)
     data stored in this format.</p>
@@ -121,6 +121,10 @@ relation:
       content: RFC3555
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

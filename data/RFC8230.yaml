@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8230
 title:
 - content: Using RSA Algorithms with CBOR Object Signing and Encryption (COSE) Messages
@@ -67,17 +67,20 @@ script:
 abstract:
 - content: "<p>The CBOR Object Signing and Encryption (COSE) specification defines
     cryptographic message encodings using Concise Binary Object Representation (CBOR).
-    \ This specification defines algorithm encodings and representations enabling
-    RSA algorithms to be used for COSE messages.  Encodings are specified for the
-    use of RSA Probabilistic Signature Scheme (RSASSA-PSS) signatures, RSA Encryption
-    Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) encryption, and RSA
-    keys.</p>"
+    This specification defines algorithm encodings and representations enabling RSA
+    algorithms to be used for COSE messages. Encodings are specified for the use of
+    RSA Probabilistic Signature Scheme (RSASSA-PSS) signatures, RSA Encryption Scheme
+    - Optimal Asymmetric Encryption Padding (RSAES-OAEP) encryption, and RSA keys.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5089
 title:
 - content: IS-IS Protocol Extensions for Path Computation Element (PCE) Discovery
@@ -155,10 +155,10 @@ abstract:
 - content: "<p>There are various circumstances where it is highly desirable for a
     Path Computation Client (PCC) to be able to dynamically and automatically discover
     a set of Path Computation Elements (PCEs), along with information that can be
-    used by the PCC for PCE selection.  When the PCE is a Label Switching Router (LSR)
+    used by the PCC for PCE selection. When the PCE is a Label Switching Router (LSR)
     participating in the Interior Gateway Protocol (IGP), or even a server participating
     passively in the IGP, a simple and efficient way to announce PCEs consists of
-    using IGP flooding.  For that purpose, this document defines extensions to the
+    using IGP flooding. For that purpose, this document defines extensions to the
     Intermediate System to Intermediate System (IS-IS) routing protocol for the advertisement
     of PCE Discovery information within an IS-IS area or within the entire IS-IS routing
     domain. [STANDARDS-TRACK]</p>"
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

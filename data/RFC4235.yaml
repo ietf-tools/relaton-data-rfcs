@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4235
 title:
 - content: An INVITE-Initiated Dialog Event Package for the Session Initiation Protocol
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a dialog event package for the SIP Events architecture,
-    along with a data format used in notifications for this package.  The dialog package
+    along with a data format used in notifications for this package. The dialog package
     allows users to subscribe to another user and to receive notification of the changes
     in state of INVITE-initiated dialog usages in which the subscribed-to user is
     involved. [STANDARDS-TRACK]</p>"
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

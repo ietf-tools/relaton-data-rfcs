@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5336
 title:
 - content: SMTP Extension for Internationalized Email Addresses
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>This document specifies an SMTP extension for transport and delivery
     of email messages with internationalized email addresses or header information.
-    \ Communication with systems that do not implement this specification is specified
-    in another document.  This document updates some syntaxes and rules defined in
+    Communication with systems that do not implement this specification is specified
+    in another document. This document updates some syntaxes and rules defined in
     RFC 2821 and RFC 2822, and has some material updating RFC 4952This memo defines
     an Experimental Protocol for the Internet community.</p>"
   language:
@@ -147,6 +147,10 @@ relation:
       content: RFC4952
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

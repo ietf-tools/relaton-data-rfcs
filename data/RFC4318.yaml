@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4318
 title:
 - content: Definitions of Managed Objects for Bridges with Rapid Spanning Tree Protocol
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This memo defines an SMIv2 MIB module for managing the Rapid Spanning
     Tree capability defined by the IEEE P802.1t and P802.1w amendments to IEEE Std
-    802.1D-1998 for bridging between Local Area Network (LAN) segments.  The objects
+    802.1D-1998 for bridging between Local Area Network (LAN) segments. The objects
     in this MIB are defined to apply both to transparent bridging and to bridges connected
     by subnetworks other than LAN segments. [STANDARDS-TRACK]</p>"
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

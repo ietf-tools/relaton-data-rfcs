@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6055
 title:
 - content: IAB Thoughts on Encodings for Internationalized Domain Names
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>This document explores issues with Internationalized Domain Names (IDNs)
     that result from the use of various encoding schemes such as UTF-8 and the ASCII-Compatible
-    Encoding produced by the Punycode algorithm.  It focuses on the importance of
-    agreeing on a single encoding and how complicated the state of affairs ends up
-    being as a result of using different encodings today.</p>"
+    Encoding produced by the Punycode algorithm. It focuses on the importance of agreeing
+    on a single encoding and how complicated the state of affairs ends up being as
+    a result of using different encodings today.</p>"
   language:
   - en
   script:
@@ -145,6 +145,10 @@ relation:
       content: RFC2130
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

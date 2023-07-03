@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7369
 title:
 - content: GMPLS RSVP-TE Extensions for Ethernet Operations, Administration, and Maintenance
@@ -126,14 +126,14 @@ script:
 abstract:
 - content: "<p>The work related to GMPLS Ethernet Label Switching (GELS) extended
     GMPLS RSVP-TE to support the establishment of Ethernet Label Switching Paths (LSPs).
-    \ IEEE Ethernet Connectivity Fault Management (CFM) specifies an adjunct Operations,
+    IEEE Ethernet Connectivity Fault Management (CFM) specifies an adjunct Operations,
     Administration, and Maintenance (OAM) flow to check connectivity in Ethernet networks.
-    \ CFM can also be used with Ethernet LSPs for fault detection and triggering recovery
-    mechanisms.  The ITU-T Y.1731 specification builds on CFM and specifies additional
-    OAM mechanisms, including Performance Monitoring, for Ethernet networks.  This
+    CFM can also be used with Ethernet LSPs for fault detection and triggering recovery
+    mechanisms. The ITU-T Y.1731 specification builds on CFM and specifies additional
+    OAM mechanisms, including Performance Monitoring, for Ethernet networks. This
     document specifies extensions of the GMPLS RSVP-TE protocol to support the setup
     of the associated Ethernet OAM entities of Ethernet LSPs and defines the Ethernet
-    technology-specific TLVs based on the GMPLS OAM Configuration Framework.  This
+    technology-specific TLVs based on the GMPLS OAM Configuration Framework. This
     document supports, but does not modify, the IEEE and ITU-T OAM mechanisms.</p>"
   language:
   - en
@@ -141,6 +141,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

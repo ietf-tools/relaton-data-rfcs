@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC946
 title:
 - content: Telnet terminal location number option
@@ -67,21 +67,25 @@ script:
 abstract:
 - content: "<p>Many systems provide a mechanism for finding out where a user is logged
     in from usually including information about telephone extension and office occupants
-    names.  The information is useful for physically locating people and/or calling
-    them on the phone.  In 1982 CMU designed and implemented a terminal location database
+    names. The information is useful for physically locating people and/or calling
+    them on the phone. In 1982 CMU designed and implemented a terminal location database
     and modified existing network software to handle a 64-bit number called the Terminal
-    Location Number (or TTYLOC).  It now seems appropriate to incorporate this mechanism
-    into the TCP-based network protocol family.  The mechanism is not viewed as a
-    replacement for the Terminal Location Telnet Option (SEND-LOCATION) but as a shorthand
-    mechansim for communicating terminal location information between hosts in a localized
-    community.  This RFC proposes a new option for Telnet for the ARPA-Internet community,
-    and requests discussion and suggestions for improvements.</p>"
+    Location Number (or TTYLOC). It now seems appropriate to incorporate this mechanism
+    into the TCP-based network protocol family. The mechanism is not viewed as a replacement
+    for the Terminal Location Telnet Option (SEND-LOCATION) but as a shorthand mechansim
+    for communicating terminal location information between hosts in a localized community.
+    This RFC proposes a new option for Telnet for the ARPA-Internet community, and
+    requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

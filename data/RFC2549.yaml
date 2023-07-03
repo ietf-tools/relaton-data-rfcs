@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2549
 title:
 - content: IP over Avian Carriers with Quality of Service
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>This memo amends RFC 1149, "A Standard for the Transmission of IP Datagrams
-    on Avian Carriers", with Quality of Service information.  This is an experimental,
-    not recommended standard.  This memo defines an Experimental Protocol for the
-    Internet community.</p>
+    on Avian Carriers", with Quality of Service information. This is an experimental,
+    not recommended standard. This memo defines an Experimental Protocol for the Internet
+    community.</p>
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC1149
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

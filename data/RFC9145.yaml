@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9145
 title:
 - content: Integrity Protection for the Network Service Header (NSH) and Encryption
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>This specification presents an optional method to add integrity protection
     directly to the Network Service Header (NSH) used for Service Function Chaining
-    (SFC).  Also, this specification allows for the encryption of sensitive metadata
+    (SFC). Also, this specification allows for the encryption of sensitive metadata
     (MD) that is carried in the NSH.</p>"
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

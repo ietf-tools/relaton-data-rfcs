@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8501
 title:
 - content: Reverse DNS in IPv6 for Internet Service Providers
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>In IPv4, Internet Service Providers (ISPs) commonly provide IN-ADDR.ARPA
     information for their customers by prepopulating the zone with one PTR record
-    for every available address.  This practice does not scale in IPv6.  This document
+    for every available address. This practice does not scale in IPv6. This document
     analyzes different approaches and considerations for ISPs in managing the IP6.ARPA
     zone.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

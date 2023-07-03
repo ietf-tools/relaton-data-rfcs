@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5924
 title:
 - content: Extended Key Usage (EKU) for Session Initiation Protocol (SIP) X.509 Certificates
@@ -96,15 +96,19 @@ script:
 abstract:
 - content: "<p>This memo documents an extended key usage (EKU) X.509 certificate extension
     for restricting the applicability of a certificate to use with a Session Initiation
-    Protocol (SIP) service.  As such, in addition to providing rules for SIP implementations,
+    Protocol (SIP) service. As such, in addition to providing rules for SIP implementations,
     this memo also provides guidance to issuers of certificates for use with SIP.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

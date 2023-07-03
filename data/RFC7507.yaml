@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7507
 title:
 - content: TLS Fallback Signaling Cipher Suite Value (SCSV) for Preventing Protocol
@@ -97,8 +97,8 @@ script:
 abstract:
 - content: "<p>This document defines a Signaling Cipher Suite Value (SCSV) that prevents
     protocol downgrade attacks on the Transport Layer Security (TLS) and Datagram
-    Transport Layer Security (DTLS) protocols.  It updates RFCs 2246, 4346, 4347,
-    5246, and 6347.  Server update considerations are included.</p>"
+    Transport Layer Security (DTLS) protocols. It updates RFCs 2246, 4346, 4347, 5246,
+    and 6347. Server update considerations are included.</p>"
   language:
   - en
   script:
@@ -166,6 +166,10 @@ relation:
       content: RFC6347
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

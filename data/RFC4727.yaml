@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4727
 title:
 - content: Experimental Values In IPv4, IPv6, ICMPv4, ICMPv6, UDP, and TCP Headers
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>When experimenting with or extending protocols, it is often necessary
     to use some sort of protocol number or constant in order to actually test or experiment
-    with the new function, even when testing in a closed environment.  This document
+    with the new function, even when testing in a closed environment. This document
     reserves some ranges of numbers for experimentation purposes in specific protocols
     where the need to support experimentation has been identified, and it describes
     the numbers that have already been reserved by other documents. [STANDARDS-TRACK]</p>"
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8481
 title:
 - content: Clarifications to BGP Origin Validation Based on Resource Public Key Infrastructure
@@ -69,7 +69,7 @@ abstract:
 - content: "<p>Deployment of BGP origin validation based on Resource Public Key Infrastructure
     (RPKI) is hampered by, among other things, vendor misimplementations in two critical
     areas: which routes are validated and whether policy is applied when not specified
-    by configuration.  This document is meant to clarify possible misunderstandings
+    by configuration. This document is meant to clarify possible misunderstandings
     causing those misimplementations; it thus updates RFC 6811 by clarifying that
     all prefixes should have their validation state set and that policy must not be
     applied without operator configuration.</p>"
@@ -90,6 +90,10 @@ relation:
       content: RFC6811
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

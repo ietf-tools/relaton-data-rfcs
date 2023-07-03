@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4714
 title:
 - content: Requirements for IETF Technical Publication Service
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: "<p>The work of the IETF is to discuss, develop, and disseminate technical
-    specifications to support the Internet's operation.  Technical publication is
-    the process by which that output is disseminated to the community at large.  As
-    such, it is important to understand the requirements on the publication process.
-    \ This memo provides information for the Internet community.</p>"
+    specifications to support the Internet's operation. Technical publication is the
+    process by which that output is disseminated to the community at large. As such,
+    it is important to understand the requirements on the publication process. This
+    memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7871
 title:
 - content: Client Subnet in DNS Queries
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This document describes an Extension Mechanisms for DNS (EDNS0) option
     that is in active use to carry information about the network that originated a
-    DNS query and the network for which the subsequent response can be cached.  Since
+    DNS query and the network for which the subsequent response can be cached. Since
     it has some known operational and privacy shortcomings, a revision will be worked
     through the IETF for improvement.</p>"
   language:
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

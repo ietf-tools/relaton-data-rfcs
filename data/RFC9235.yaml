@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9235
 title:
 - content: TCP Authentication Option (TCP-AO) Test Vectors
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>This document provides test vectors to validate implementations of
     the two mandatory authentication algorithms specified for the TCP Authentication
-    Option over both IPv4 and IPv6.  This includes validation of the key derivation
+    Option over both IPv4 and IPv6. This includes validation of the key derivation
     function (KDF) based on a set of test connection parameters as well as validation
-    of the message authentication code (MAC).  Vectors are provided for both currently
+    of the message authentication code (MAC). Vectors are provided for both currently
     required pairs of KDF and MAC algorithms: KDF_HMAC_SHA1 and HMAC- SHA-1-96, and
-    KDF_AES_128_CMAC and AES-128-CMAC-96.  The vectors also validate both whole TCP
+    KDF_AES_128_CMAC and AES-128-CMAC-96. The vectors also validate both whole TCP
     segments as well as segments whose options are excluded for middlebox traversal.</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

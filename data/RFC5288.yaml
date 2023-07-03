@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5288
 title:
 - content: AES Galois Counter Mode (GCM) Cipher Suites for TLS
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>This memo describes the use of the Advanced Encryption Standard (AES)
     in Galois/Counter Mode (GCM) as a Transport Layer Security (TLS) authenticated
-    encryption operation.  GCM provides both confidentiality and data origin authentication,
+    encryption operation. GCM provides both confidentiality and data origin authentication,
     can be efficiently implemented in hardware for speeds of 10 gigabits per second
-    and above, and is also well-suited to software implementations.  This memo defines
+    and above, and is also well-suited to software implementations. This memo defines
     TLS cipher suites that use AES-GCM with RSA, DSA, and Diffie-Hellman-based key
     exchange mechanisms. [STANDARDS-TRACK]</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

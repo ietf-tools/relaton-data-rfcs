@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8416
 title:
 - content: Simplified Local Internet Number Resource Management with the RPKI (SLURM)
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>The Resource Public Key Infrastructure (RPKI) is a global authorization
     infrastructure that allows the holder of Internet Number Resources (INRs) to make
-    verifiable statements about those resources.  Network operators, e.g., Internet
+    verifiable statements about those resources. Network operators, e.g., Internet
     Service Providers (ISPs), can use the RPKI to validate BGP route origin assertions.
-    \ ISPs can also use the RPKI to validate the path of a BGP route.  However, ISPs
+    ISPs can also use the RPKI to validate the path of a BGP route. However, ISPs
     may want to establish a local view of exceptions to the RPKI data in the form
-    of local filters and additions.  The mechanisms described in this document provide
+    of local filters and additions. The mechanisms described in this document provide
     a simple way to enable INR holders to establish a local, customized view of the
     RPKI, overriding global RPKI repository data as needed.</p>"
   language:
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

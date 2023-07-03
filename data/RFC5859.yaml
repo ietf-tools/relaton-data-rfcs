@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5859
 title:
 - content: TFTP Server Address Option for DHCPv4
@@ -65,20 +65,24 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This memo documents existing usage for the "TFTP Server Address" option.  The
-    option number currently in use is 150.  This memo documents the current usage
+- content: <p>This memo documents existing usage for the "TFTP Server Address" option.
+    The option number currently in use is 150. This memo documents the current usage
     of the option in agreement with RFC 3942, which declares that any pre-existing
     usages of option numbers in the range 128-223 should be documented, and the Dynamic
     Host Configuration working group will try to officially assign those numbers to
-    those options.  The option is defined for DHCPv4 and works only with IPv4 addresses.  This
-    document is not an Internet Standards Track specification; it is published for
-    informational purposes.</p>
+    those options. The option is defined for DHCPv4 and works only with IPv4 addresses.
+    This document is not an Internet Standards Track specification; it is published
+    for informational purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

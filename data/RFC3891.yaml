@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3891
 title:
 - content: The Session Initiation Protocol (SIP) "Replaces" Header
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: '<p>This document defines a new header for use with Session Initiation
-    Protocol (SIP) multi-party applications and call control.  The Replaces header
-    is used to logically replace an existing SIP dialog with a new SIP dialog.  This
+    Protocol (SIP) multi-party applications and call control. The Replaces header
+    is used to logically replace an existing SIP dialog with a new SIP dialog. This
     primitive can be used to enable a variety of features, for example: "Attended
-    Transfer" and "Call Pickup".  Note that the definition of these example features
+    Transfer" and "Call Pickup". Note that the definition of these example features
     is non-normative. [STANDARDS-TRACK]</p>'
   language:
   - en
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8909
 title:
 - content: Registry Data Escrow Specification
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the format and contents of data escrow deposits
-    targeted primarily for domain name registries.  The specification is designed
-    to be independent of the underlying objects that are being escrowed, and therefore
+    targeted primarily for domain name registries. The specification is designed to
+    be independent of the underlying objects that are being escrowed, and therefore
     it could also be used for purposes other than domain name registries.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

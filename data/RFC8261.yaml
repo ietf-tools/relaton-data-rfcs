@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8261
 title:
 - content: Datagram Transport Layer Security (DTLS) Encapsulation of SCTP Packets
@@ -153,11 +153,11 @@ script:
 - Latn
 abstract:
 - content: "<p>The Stream Control Transmission Protocol (SCTP) is a transport protocol
-    originally defined to run on top of the network protocols IPv4 or IPv6.  This
-    document specifies how SCTP can be used on top of the Datagram Transport Layer
-    Security (DTLS) protocol.  Using the encapsulation method described in this document,
-    SCTP is unaware of the protocols being used below DTLS; hence, explicit IP addresses
-    cannot be used in the SCTP control chunks.  As a consequence, the SCTP associations
+    originally defined to run on top of the network protocols IPv4 or IPv6. This document
+    specifies how SCTP can be used on top of the Datagram Transport Layer Security
+    (DTLS) protocol. Using the encapsulation method described in this document, SCTP
+    is unaware of the protocols being used below DTLS; hence, explicit IP addresses
+    cannot be used in the SCTP control chunks. As a consequence, the SCTP associations
     carried over DTLS can only be single-homed.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

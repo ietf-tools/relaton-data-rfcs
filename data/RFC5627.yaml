@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5627
 title:
 - content: Obtaining and Using Globally Routable User Agent URIs (GRUUs) in the Session
@@ -68,8 +68,8 @@ script:
 abstract:
 - content: "<p>Several applications of the Session Initiation Protocol (SIP) require
     a user agent (UA) to construct and distribute a URI that can be used by anyone
-    on the Internet to route a call to that specific UA instance.  A URI that routes
-    to a specific UA instance is called a Globally Routable UA URI (GRUU).  This document
+    on the Internet to route a call to that specific UA instance. A URI that routes
+    to a specific UA instance is called a Globally Routable UA URI (GRUU). This document
     describes an extension to SIP for obtaining a GRUU from a registrar and for communicating
     a GRUU to a peer within a dialog. [STANDARDS-TRACK]</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

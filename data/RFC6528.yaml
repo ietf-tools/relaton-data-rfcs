@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6528
 title:
 - content: Defending against Sequence Number Attacks
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document specifies an algorithm for the generation of TCP Initial
     Sequence Numbers (ISNs), such that the chances of an off-path attacker guessing
-    the sequence numbers in use by a target connection are reduced.  This document
+    the sequence numbers in use by a target connection are reduced. This document
     revises (and formally obsoletes) RFC 1948, and takes the ISN generation algorithm
     originally proposed in that document to Standards Track, formally updating RFC
     793. [STANDARDS-TRACK]</p>"
@@ -127,6 +127,10 @@ relation:
       content: RFC0793
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

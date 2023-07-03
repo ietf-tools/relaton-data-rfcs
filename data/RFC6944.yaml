@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6944
 title:
 - content: 'Applicability Statement: DNS Security (DNSSEC) DNSKEY Algorithm Implementation
@@ -67,13 +67,13 @@ script:
 - Latn
 abstract:
 - content: "<p>The DNS Security Extensions (DNSSEC) requires the use of cryptographic
-    algorithm suites for generating digital signatures over DNS data.  There is currently
+    algorithm suites for generating digital signatures over DNS data. There is currently
     an IANA registry for these algorithms, but there is no record of the recommended
-    implementation status of each algorithm.  This document provides an applicability
-    statement on algorithm implementation status for DNSSEC component software.  This
-    document lists each algorithm's status based on the current reference.  In the
+    implementation status of each algorithm. This document provides an applicability
+    statement on algorithm implementation status for DNSSEC component software. This
+    document lists each algorithm's status based on the current reference. In the
     case that an algorithm is specified without an implementation status, this document
-    assigns one.  This document updates RFCs 2536, 2539, 3110, 4034, 4398, 5155, 5702,
+    assigns one. This document updates RFCs 2536, 2539, 3110, 4034, 4398, 5155, 5702,
     and 5933.</p>"
   language:
   - en
@@ -172,6 +172,10 @@ relation:
       content: RFC5933
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

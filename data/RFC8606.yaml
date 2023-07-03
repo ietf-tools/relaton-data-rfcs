@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8606
 title:
 - content: ISDN User Part (ISUP) Cause Location Parameter for the SIP Reason Header
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The SIP Reason header field is defined to carry ISUP (ISDN User Part)
-    cause values as well as SIP response codes.  Some services in SIP networks may
+    cause values as well as SIP response codes. Some services in SIP networks may
     need to know the ISUP location where the call was released in the PSTN (Public
-    Switched Telephone Network) to correctly interpret the reason of release.  This
+    Switched Telephone Network) to correctly interpret the reason of release. This
     document updates RFC 3326 by adding a location parameter for this purpose.</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC3326
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

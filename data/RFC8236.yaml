@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8236
 title:
 - content: 'J-PAKE: Password-Authenticated Key Exchange by Juggling'
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a Password-Authenticated Key Exchange by Juggling
-    (J-PAKE) protocol.  This protocol allows the establishment of a secure end-to-end
+    (J-PAKE) protocol. This protocol allows the establishment of a secure end-to-end
     communication channel between two remote parties over an insecure network solely
     based on a shared password, without requiring a Public Key Infrastructure (PKI)
     or any trusted third party.</p>"
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

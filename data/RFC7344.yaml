@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7344
 title:
 - content: Automating DNSSEC Delegation Trust Maintenance
@@ -124,15 +124,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a method to allow DNS Operators to more easily
-    update DNSSEC Key Signing Keys using the DNS as a communication channel.  The
-    technique described is aimed at delegations in which it is currently hard to move
-    information from the Child to Parent.</p>"
+    update DNSSEC Key Signing Keys using the DNS as a communication channel. The technique
+    described is aimed at delegations in which it is currently hard to move information
+    from the Child to Parent.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

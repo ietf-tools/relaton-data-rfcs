@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3046
 title:
 - content: DHCP Relay Agent Information Option
@@ -67,18 +67,21 @@ script:
 abstract:
 - content: <p>Newer high-speed public Internet access technologies call for a high-
     speed modem to have a local area network (LAN) attachment to one or more customer
-    premise hosts.  It is advantageous to use the Dynamic Host Configuration Protocol
+    premise hosts. It is advantageous to use the Dynamic Host Configuration Protocol
     (DHCP) as defined in RFC 2131 to assign customer premise host IP addresses in
-    this environment.  However, a number of security and scaling problems arise with
-    such "public" DHCP use.  This document describes a new DHCP option to address
-    these issues.  This option extends the set of DHCP options as defined in RFC 2132.
-    [STANDARDS-TRACK]</p>
+    this environment. However, a number of security and scaling problems arise with
+    such "public" DHCP use. This document describes a new DHCP option to address these
+    issues. This option extends the set of DHCP options as defined in RFC 2132. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

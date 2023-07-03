@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2237
 title:
 - content: Japanese Character Encoding for Internet Messages
@@ -67,15 +67,19 @@ script:
 abstract:
 - content: <p>This memo defines an encoding scheme for the Japanese Characters, describes
     "ISO-2022-JP-1", which is used in electronic mail [RFC-822], and network news
-    [RFC 1036].  Also this memo provides a listing of the Japanese Character Set that
-    can be used in this encoding scheme.  This memo provides information for the Internet
-    community.  It does not specify an Internet standard of any kind.</p>
+    [RFC 1036]. Also this memo provides a listing of the Japanese Character Set that
+    can be used in this encoding scheme. This memo provides information for the Internet
+    community. It does not specify an Internet standard of any kind.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

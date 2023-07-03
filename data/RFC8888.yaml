@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8888
 title:
 - content: RTP Control Protocol (RTCP) Feedback for Congestion Control
@@ -155,11 +155,11 @@ abstract:
 - content: "<p>An effective RTP congestion control algorithm requires more fine-grained
     feedback on packet loss, timing, and Explicit Congestion Notification (ECN) marks
     than is provided by the standard RTP Control Protocol (RTCP) Sender Report (SR)
-    and Receiver Report (RR) packets.  This document describes an RTCP feedback message
+    and Receiver Report (RR) packets. This document describes an RTCP feedback message
     intended to enable congestion control for interactive real-time traffic using
-    RTP.  The feedback message is designed for use with a sender-based congestion
-    control algorithm, in which the receiver of an RTP flow sends back to the sender
-    RTCP feedback packets containing the information the sender needs to perform congestion
+    RTP. The feedback message is designed for use with a sender-based congestion control
+    algorithm, in which the receiver of an RTP flow sends back to the sender RTCP
+    feedback packets containing the information the sender needs to perform congestion
     control.</p>"
   language:
   - en
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

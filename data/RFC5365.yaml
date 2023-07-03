@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5365
 title:
 - content: Multiple-Recipient MESSAGE Requests in the Session Initiation Protocol
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document specifies a mechanism that allows a SIP User Agent Client
     (UAC) to send a SIP MESSAGE request to a set of destinations, by using a SIP URI-list
-    (Uniform Resource Identifier list) service.  The UAC sends a SIP MESSAGE request
+    (Uniform Resource Identifier list) service. The UAC sends a SIP MESSAGE request
     that includes the payload along with the URI list to the MESSAGE URI-list service,
     which sends a MESSAGE request including the payload to each of the URIs included
     in the list. [STANDARDS-TRACK]</p>"
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8300
 title:
 - content: Network Service Header (NSH)
@@ -124,8 +124,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a Network Service Header (NSH) imposed on packets
-    or frames to realize Service Function Paths (SFPs).  The NSH also provides a mechanism
-    for metadata exchange along the instantiated service paths.  The NSH is the Service
+    or frames to realize Service Function Paths (SFPs). The NSH also provides a mechanism
+    for metadata exchange along the instantiated service paths. The NSH is the Service
     Function Chaining (SFC) encapsulation required to support the SFC architecture
     (defined in RFC 7665).</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

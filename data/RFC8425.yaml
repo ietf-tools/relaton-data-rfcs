@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8425
 title:
 - content: IANA Considerations for IPv6 Neighbor Discovery Prefix Information Option
@@ -68,10 +68,10 @@ script:
 abstract:
 - content: "<p>The Prefix Information Option (PIO) in the IPv6 Neighbor Discovery
     Router Advertisement message defines an 8-bit flag field; this field has two flags
-    defined, and the remaining 6 bits are reserved (Reserved1).  RFC 6275 defines
-    a flag from this field without creating an IANA registry or updating RFC 4861.
-    \ The purpose of this document is to create an IANA registry for the PIO flags.
-    \ This document updates RFC 4861.</p>"
+    defined, and the remaining 6 bits are reserved (Reserved1). RFC 6275 defines a
+    flag from this field without creating an IANA registry or updating RFC 4861. The
+    purpose of this document is to create an IANA registry for the PIO flags. This
+    document updates RFC 4861.</p>"
   language:
   - en
   script:
@@ -89,6 +89,10 @@ relation:
       content: RFC4861
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

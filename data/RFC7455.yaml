@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7455
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Fault Management'
@@ -240,11 +240,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies Transparent Interconnection of Lots of Links
-    (TRILL) Operations, Administration, and Maintenance (OAM) fault management.  Methods
+    (TRILL) Operations, Administration, and Maintenance (OAM) fault management. Methods
     in this document follow the CFM (Connectivity Fault Management) framework defined
-    in IEEE 802.1 and reuse OAM tools where possible.  Additional messages and TLVs
+    in IEEE 802.1 and reuse OAM tools where possible. Additional messages and TLVs
     are defined for TRILL-specific applications or for cases where a different set
-    of information is required other than CFM as defined in IEEE 802.1.  This document
+    of information is required other than CFM as defined in IEEE 802.1. This document
     updates RFC 6325.</p>"
   language:
   - en
@@ -263,6 +263,10 @@ relation:
       content: RFC6325
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

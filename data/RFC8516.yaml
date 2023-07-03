@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8516
 title:
 - content: '"Too Many Requests" Response Code for the Constrained Application Protocol'
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>A Constrained Application Protocol (CoAP) server can experience temporary
     overload because one or more clients are sending requests to the server at a higher
-    rate than the server is capable or willing to handle.  This document defines a
+    rate than the server is capable or willing to handle. This document defines a
     new CoAP response code for a server to indicate that a client should reduce the
     rate of requests.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

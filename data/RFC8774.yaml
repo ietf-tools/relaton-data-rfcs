@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8774
 title:
 - content: The Quantum Bug
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: '<p>The age of quantum networking is upon us, and with it comes "entanglement":
     a procedure in which a state (i.e., a bit) can be transferred instantly, with
-    no measurable delay between peers.  This will lead to a perceived round-trip time
+    no measurable delay between peers. This will lead to a perceived round-trip time
     of zero seconds on some Internet paths, a capability which was not predicted and
-    so not included as a possibility in many protocol specifications.  Worse than
-    the millennium bug, this unexpected value is bound to cause serious Internet failures
+    so not included as a possibility in many protocol specifications. Worse than the
+    millennium bug, this unexpected value is bound to cause serious Internet failures
     unless the specifications are fixed in time.</p>'
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

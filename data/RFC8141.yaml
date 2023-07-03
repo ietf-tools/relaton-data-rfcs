@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8141
 title:
 - content: Uniform Resource Names (URNs)
@@ -96,20 +96,24 @@ script:
 abstract:
 - content: <p>A Uniform Resource Name (URN) is a Uniform Resource Identifier (URI)
     that is assigned under the "urn" URI scheme and a particular URN namespace, with
-    the intent that the URN will be a persistent, location-independent resource identifier.  With
-    regard to URN syntax, this document defines the canonical syntax for URNs (in
-    a way that is consistent with URI syntax), specifies methods for determining URN-equivalence,
-    and discusses URI conformance.  With regard to URN namespaces, this document specifies
-    a method for defining a URN namespace and associating it with a namespace identifier,
-    and it describes procedures for registering namespace identifiers with the Internet
-    Assigned Numbers Authority (IANA).  This document obsoletes both RFCs 2141 and
-    3406.</p>
+    the intent that the URN will be a persistent, location-independent resource identifier.
+    With regard to URN syntax, this document defines the canonical syntax for URNs
+    (in a way that is consistent with URI syntax), specifies methods for determining
+    URN-equivalence, and discusses URI conformance. With regard to URN namespaces,
+    this document specifies a method for defining a URN namespace and associating
+    it with a namespace identifier, and it describes procedures for registering namespace
+    identifiers with the Internet Assigned Numbers Authority (IANA). This document
+    obsoletes both RFCs 2141 and 3406.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

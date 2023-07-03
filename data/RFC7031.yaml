@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7031
 title:
 - content: DHCPv6 Failover Requirements
@@ -96,20 +96,24 @@ script:
 abstract:
 - content: "<p>The DHCPv6 protocol, defined in RFC 3315, allows for multiple servers
     to operate on a single network; however, it does not define any way the servers
-    could share information about currently active clients and their leases.  Some
+    could share information about currently active clients and their leases. Some
     sites are interested in running multiple servers in such a way as to provide increased
-    availability in case of server failure.  In order for this to work reliably, the
+    availability in case of server failure. In order for this to work reliably, the
     cooperating primary and secondary servers must maintain a consistent database
-    of the lease information.  RFC 3315 allows for, but does not define, any redundancy
-    or failover mechanisms.  This document outlines requirements for DHCPv6 failover,
+    of the lease information. RFC 3315 allows for, but does not define, any redundancy
+    or failover mechanisms. This document outlines requirements for DHCPv6 failover,
     enumerates related problems, and discusses the proposed scope of work to be conducted.
-    \ This document does not define a DHCPv6 failover protocol.</p>"
+    This document does not define a DHCPv6 failover protocol.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8753
 title:
 - content: Internationalized Domain Names for Applications (IDNA) Review for New Unicode
@@ -99,11 +99,11 @@ abstract:
     require a review of each new version of Unicode to determine whether incompatibilities
     with prior versions or other issues exist and, where appropriate, to allow the
     IETF to decide on the trade-offs between compatibility with prior IDNA versions
-    and compatibility with Unicode going forward.  That requirement, and its relationship
-    to tables maintained by IANA, has caused significant confusion in the past.  This
+    and compatibility with Unicode going forward. That requirement, and its relationship
+    to tables maintained by IANA, has caused significant confusion in the past. This
     document makes adjustments to the review procedure based on experience and updates
     IDNA, specifically RFC 5892, to reflect those changes and to clarify the various
-    relationships involved.  It also makes other minor adjustments to align that document
+    relationships involved. It also makes other minor adjustments to align that document
     with experience.</p>"
   language:
   - en
@@ -122,6 +122,10 @@ relation:
       content: RFC5892
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

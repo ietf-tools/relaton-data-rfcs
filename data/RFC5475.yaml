@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5475
 title:
 - content: Sampling and Filtering Techniques for IP Packet Selection
@@ -182,18 +182,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes Sampling and Filtering techniques for IP packet
-    selection.  It provides a categorization of schemes and defines what parameters
-    are needed to describe the most common selection schemes.  Furthermore, it shows
-    how techniques can be combined to build more elaborate packet Selectors.  The
-    document provides the basis for the definition of information models for configuring
-    selection techniques in Metering Processes and for reporting the technique in
-    use to a Collector. [STANDARDS-TRACK]</p>"
+    selection. It provides a categorization of schemes and defines what parameters
+    are needed to describe the most common selection schemes. Furthermore, it shows
+    how techniques can be combined to build more elaborate packet Selectors. The document
+    provides the basis for the definition of information models for configuring selection
+    techniques in Metering Processes and for reporting the technique in use to a Collector.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8514
 title:
 - content: Internet Message Access Protocol (IMAP) - SAVEDATE Extension
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>This document adds a new capability called "SAVEDATE" to the Internet
-    Message Access Protocol (IMAP).  It defines a new IMAP message attribute called
+    Message Access Protocol (IMAP). It defines a new IMAP message attribute called
     "save date" that, unlike the existing "internal date" attribute, always indicates
-    the moment at which the message was saved in its current mailbox.  The SAVEDATE
+    the moment at which the message was saved in its current mailbox. The SAVEDATE
     capability extends the FETCH command with the means to retrieve the save date
     attribute and extends the SEARCH command to allow using the save date attribute
     in searching criteria.</p>
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

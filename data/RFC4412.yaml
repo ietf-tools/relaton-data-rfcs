@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4412
 title:
 - content: Communications Resource Priority for the Session Initiation Protocol (SIP)
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines two new Session Initiation Protocol (SIP) header
-    fields for communicating resource priority, namely, "Resource-Priority" and "Accept-Resource-Priority".  The
-    "Resource-Priority" header field can influence the behavior of SIP user agents
-    (such as telephone gateways and IP telephones) and SIP proxies.  It does not directly
+    fields for communicating resource priority, namely, "Resource-Priority" and "Accept-Resource-Priority".
+    The "Resource-Priority" header field can influence the behavior of SIP user agents
+    (such as telephone gateways and IP telephones) and SIP proxies. It does not directly
     influence the forwarding behavior of IP routers. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

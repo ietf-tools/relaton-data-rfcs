@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7740
 title:
 - content: Simulating Partial Mesh of Multipoint-to-Multipoint (MP2MP) Provider Tunnels
@@ -126,8 +126,8 @@ script:
 abstract:
 - content: <p>RFC 6513 ("Multicast in MPLS/BGP IP VPNs") describes a method to support
     bidirectional customer multicast flows using a partial mesh of Multipoint-to-Multipoint
-    (MP2MP) tunnels.  This document specifies how a partial mesh of MP2MP tunnels
-    can be simulated using Ingress Replication.  This solution enables a service provider
+    (MP2MP) tunnels. This document specifies how a partial mesh of MP2MP tunnels can
+    be simulated using Ingress Replication. This solution enables a service provider
     to use Ingress Replication to offer transparent bidirectional multicast service
     to its VPN customers.</p>
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

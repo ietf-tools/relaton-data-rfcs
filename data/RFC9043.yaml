@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9043
 title:
 - content: FFV1 Video Coding Format Versions 0, 1, and 3
@@ -124,8 +124,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines FFV1, a lossless, intra-frame video encoding
-    format.  FFV1 is designed to efficiently compress video data in a variety of pixel
-    formats.  Compared to uncompressed video, FFV1 offers storage compression, frame
+    format. FFV1 is designed to efficiently compress video data in a variety of pixel
+    formats. Compared to uncompressed video, FFV1 offers storage compression, frame
     fixity, and self-description, which makes FFV1 useful as a preservation or intermediate
     video format.</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

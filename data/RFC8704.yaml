@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8704
 title:
 - content: Enhanced Feasible-Path Unicast Reverse Path Forwarding
@@ -125,17 +125,17 @@ script:
 abstract:
 - content: "<p>This document identifies a need for and proposes improvement of the
     unicast Reverse Path Forwarding (uRPF) techniques (see RFC 3704) for detection
-    and mitigation of source address spoofing (see BCP 38).  Strict uRPF is inflexible
+    and mitigation of source address spoofing (see BCP 38). Strict uRPF is inflexible
     about directionality, the loose uRPF is oblivious to directionality, and the current
     feasible-path uRPF attempts to strike a balance between the two (see RFC 3704).
-    \ However, as shown in this document, the existing feasible-path uRPF still has
-    shortcomings.  This document describes enhanced feasible-path uRPF (EFP-uRPF)
-    techniques that are more flexible (in a meaningful way) about directionality than
-    the feasible-path uRPF (RFC 3704).  The proposed EFP-uRPF methods aim to significantly
-    reduce false positives regarding invalid detection in source address validation
-    (SAV).  Hence, they can potentially alleviate ISPs' concerns about the possibility
-    of disrupting service for their customers and encourage greater deployment of
-    uRPF techniques.  This document updates RFC 3704.</p>"
+    However, as shown in this document, the existing feasible-path uRPF still has
+    shortcomings. This document describes enhanced feasible-path uRPF (EFP-uRPF) techniques
+    that are more flexible (in a meaningful way) about directionality than the feasible-path
+    uRPF (RFC 3704). The proposed EFP-uRPF methods aim to significantly reduce false
+    positives regarding invalid detection in source address validation (SAV). Hence,
+    they can potentially alleviate ISPs' concerns about the possibility of disrupting
+    service for their customers and encourage greater deployment of uRPF techniques.
+    This document updates RFC 3704.</p>"
   language:
   - en
   script:
@@ -157,6 +157,10 @@ series:
     content: BCP
     format: text/plain
   number: '84'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

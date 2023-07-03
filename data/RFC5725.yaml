@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5725
 title:
 - content: Post-Repair Loss RLE Report Block Type for RTP Control Protocol (RTCP)
@@ -125,23 +125,27 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a new report block type within the framework
-    of RTP Control Protocol (RTCP) Extended Reports (XRs).  One of the initial XR
-    report block types is the Loss Run Length Encoding (RLE) Report Block.  This report
-    conveys information regarding the individual Real-time Transport Protocol (RTP)
-    packet receipt and loss events experienced during the RTCP interval preceding
-    the transmission of the report.  The new report, which is referred to as the Post-repair
-    Loss RLE report, carries information regarding the packets that remain lost after
-    all loss-repair methods are applied.  By comparing the RTP packet receipts/losses
-    before and after the loss repair is completed, one can determine the effectiveness
-    of the loss- repair methods in an aggregated fashion.  This document also defines
-    the signaling of the Post-repair Loss RLE report in the Session Description Protocol
-    (SDP). [STANDARDS-TRACK]</p>"
+    of RTP Control Protocol (RTCP) Extended Reports (XRs). One of the initial XR report
+    block types is the Loss Run Length Encoding (RLE) Report Block. This report conveys
+    information regarding the individual Real-time Transport Protocol (RTP) packet
+    receipt and loss events experienced during the RTCP interval preceding the transmission
+    of the report. The new report, which is referred to as the Post-repair Loss RLE
+    report, carries information regarding the packets that remain lost after all loss-repair
+    methods are applied. By comparing the RTP packet receipts/losses before and after
+    the loss repair is completed, one can determine the effectiveness of the loss-
+    repair methods in an aggregated fashion. This document also defines the signaling
+    of the Post-repair Loss RLE report in the Session Description Protocol (SDP).
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

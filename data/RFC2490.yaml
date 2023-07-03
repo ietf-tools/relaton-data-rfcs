@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2490
 title:
 - content: A Simulation Model for IP Multicast with RSVP
@@ -212,13 +212,17 @@ script:
 abstract:
 - content: "<p>This document describes a detailed model of IPv4 multicast with RSVP
     that has been developed using the OPNET simulation package, with protocol procedures
-    defined in the C language.  This memo provides information for the Internet community.</p>"
+    defined in the C language. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4135
 title:
 - content: Goals of Detecting Network Attachment in IPv6
@@ -95,20 +95,24 @@ script:
 - Latn
 abstract:
 - content: "<p>When a host establishes a new link-layer connection, it may or may
-    not have a valid IP configuration for Internet connectivity.  The host may check
+    not have a valid IP configuration for Internet connectivity. The host may check
     for link change (i.e., determine whether a link change has occurred), and then,
     based on the result, it can automatically decide whether its IP configuration
-    is still valid.  During link identity detection, the host may also collect necessary
-    information to initiate a new IP configuration if the IP subnet has changed.  In
-    this memo, this procedure is called Detecting Network Attachment (DNA).  DNA schemes
-    should be precise, sufficiently fast, secure, and of limited signaling.  This
-    memo provides information for the Internet community.</p>"
+    is still valid. During link identity detection, the host may also collect necessary
+    information to initiate a new IP configuration if the IP subnet has changed. In
+    this memo, this procedure is called Detecting Network Attachment (DNA). DNA schemes
+    should be precise, sufficiently fast, secure, and of limited signaling. This memo
+    provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

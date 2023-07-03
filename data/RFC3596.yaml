@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3596
 title:
 - content: DNS Extensions to Support IP Version 6
@@ -153,10 +153,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the changes that need to be made to the Domain
-    Name System (DNS) to support hosts running IP version 6 (IPv6).  The changes include
+    Name System (DNS) to support hosts running IP version 6 (IPv6). The changes include
     a resource record type to store an IPv6 address, a domain to support lookups based
     on an IPv6 address, and updated definitions of existing query types that return
-    Internet addresses as part of additional section processing.  The extensions are
+    Internet addresses as part of additional section processing. The extensions are
     designed to be compatible with existing applications and, in particular, DNS implementations
     themselves. [STANDARDS-TRACK]</p>"
   language:
@@ -169,6 +169,10 @@ series:
     content: STD
     format: text/plain
   number: '88'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

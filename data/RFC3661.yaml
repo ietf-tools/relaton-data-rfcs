@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3661
 title:
 - content: Media Gateway Control Protocol (MGCP) Return Code Usage
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides implementation guidelines for the use of return
-    codes in RFC 3435, Media Gateway Control Protocol (MGCP) Version 1.0.  Return
-    codes in RFC 3435 do not cover all possible specific situations that may ever
-    occur in a gateway.  That is not possible and not necessary.  What is important
-    is to ensure that the Call Agent that receives a return code behaves appropriately
-    and consistently for the given situation.  The purpose of this document is to
-    provide implementation guidelines to ensure that consistency.</p>"
+    codes in RFC 3435, Media Gateway Control Protocol (MGCP) Version 1.0. Return codes
+    in RFC 3435 do not cover all possible specific situations that may ever occur
+    in a gateway. That is not possible and not necessary. What is important is to
+    ensure that the Call Agent that receives a return code behaves appropriately and
+    consistently for the given situation. The purpose of this document is to provide
+    implementation guidelines to ensure that consistency.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC3435
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

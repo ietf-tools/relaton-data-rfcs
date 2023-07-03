@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9046
 title:
 - content: Babel Information Model
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>The Babel information model provides structured data elements for a
     Babel implementation reporting its current state and may allow limited configuration
-    of some such data elements.  This information model can be used as a basis for
-    creating data models under various data modeling regimes.  This information model
+    of some such data elements. This information model can be used as a basis for
+    creating data models under various data modeling regimes. This information model
     only includes parameters and parameter values useful for managing Babel over IPv6.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

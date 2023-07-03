@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6354
 title:
 - content: Forward-Shifted RTP Redundancy Payload Support
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document defines a simple enhancement to support RTP sessions
     with forward-shifted redundant encodings, i.e., redundant data sent before the
-    corresponding primary data.  Forward-shifted redundancy can be used to conceal
+    corresponding primary data. Forward-shifted redundancy can be used to conceal
     losses of a large number of consecutive media frames (e.g., consecutive loss of
     seconds or even tens of seconds of media). [STANDARDS-TRACK]</p>"
   language:
@@ -97,6 +97,10 @@ relation:
       content: RFC4102
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

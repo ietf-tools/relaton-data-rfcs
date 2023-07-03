@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1393
 title:
 - content: Traceroute Using an IP Option
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies a new IP option and ICMP message type which
     duplicates the functionality of the existing traceroute method while generating
-    fewer packets and completing in a shorter time.  This memo defines an Experimental
+    fewer packets and completing in a shorter time. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -86,6 +86,10 @@ relation:
       content: RFC6814
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

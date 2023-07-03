@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2683
 title:
 - content: IMAP4 Implementation Recommendations
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>The IMAP4 specification describes a rich protocol for use in building
     clients and servers for storage, retrieval, and manipulation of electronic mail.
-    \ Because the protocol is so rich and has so many implementation choices, there
+    Because the protocol is so rich and has so many implementation choices, there
     are often trade-offs that must be made and issues that must be considered when
-    designing such clients and servers.  This document attempts to outline these issues
+    designing such clients and servers. This document attempts to outline these issues
     and to make recommendations in order to make the end products as interoperable
-    as possible.  This memo provides information for the Internet community.</p>"
+    as possible. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

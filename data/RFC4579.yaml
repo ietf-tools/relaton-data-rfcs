@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4579
 title:
 - content: Session Initiation Protocol (SIP) Call Control - Conferencing for User
@@ -96,13 +96,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines conferencing call control features for the
-    Session Initiation Protocol (SIP).  This document builds on the Conferencing Requirements
+    Session Initiation Protocol (SIP). This document builds on the Conferencing Requirements
     and Framework documents to define how a tightly coupled SIP conference works.
-    \ The approach is explored from the perspective of different user agent (UA) types:
-    conference-unaware, conference-aware, and focus UAs.  The use of Uniform Resource
+    The approach is explored from the perspective of different user agent (UA) types:
+    conference-unaware, conference-aware, and focus UAs. The use of Uniform Resource
     Identifiers (URIs) in conferencing, OPTIONS for capabilities discovery, and call
-    control using REFER are covered in detail with example call flow diagrams.  The
-    usage of the isfocus feature tag is defined.  This document specifies an Internet
+    control using REFER are covered in detail with example call flow diagrams. The
+    usage of the isfocus feature tag is defined. This document specifies an Internet
     Best Current Practices for the Internet Community, and requests discussion and
     suggestions for improvements.</p>"
   language:
@@ -115,6 +115,10 @@ series:
     content: BCP
     format: text/plain
   number: '119'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

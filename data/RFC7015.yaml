@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7015
 title:
 - content: Flow Aggregation for the IP Flow Information Export (IPFIX) Protocol
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document provides a common implementation-independent basis for
     the interoperable application of the IP Flow Information Export (IPFIX) protocol
     to the handling of Aggregated Flows, which are IPFIX Flows representing packets
-    from multiple Original Flows sharing some set of common properties.  It does this
+    from multiple Original Flows sharing some set of common properties. It does this
     through a detailed terminology and a descriptive Intermediate Aggregation Process
     architecture, including a specification of methods for Original Flow counting
     and counter distribution across intervals.</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

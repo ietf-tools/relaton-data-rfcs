@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5705
 title:
 - content: Keying Material Exporters for Transport Layer Security (TLS)
@@ -67,14 +67,17 @@ script:
 abstract:
 - content: "<p>A number of protocols wish to leverage Transport Layer Security (TLS)
     to perform key establishment but then use some of the keying material for their
-    own purposes.  This document describes a general mechanism for allowing that.
-    [STANDARDS-TRACK]</p>"
+    own purposes. This document describes a general mechanism for allowing that. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6156
 title:
 - content: Traversal Using Relays around NAT (TURN) Extension for IPv6
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document adds IPv6 support to Traversal Using Relays around NAT
-    (TURN).  IPv6 support in TURN includes IPv4-to-IPv6, IPv6-to-IPv6, and IPv6-to-IPv4
-    relaying.  This document defines the REQUESTED- ADDRESS-FAMILY attribute for TURN.
-    \ The REQUESTED-ADDRESS-FAMILY attribute allows a client to explicitly request
-    the address type the TURN server will allocate (e.g., an IPv4-only node may request
+    (TURN). IPv6 support in TURN includes IPv4-to-IPv6, IPv6-to-IPv6, and IPv6-to-IPv4
+    relaying. This document defines the REQUESTED- ADDRESS-FAMILY attribute for TURN.
+    The REQUESTED-ADDRESS-FAMILY attribute allows a client to explicitly request the
+    address type the TURN server will allocate (e.g., an IPv4-only node may request
     the TURN server to allocate an IPv6 address). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC8656
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

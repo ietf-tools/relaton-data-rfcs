@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1231
 title:
 - content: IEEE 802.5 Token Ring MIB
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This memo defines an experimental portion of the Management Information
     Base (MIB) for use with network management protocols in TCP/IP-based internets.
-    \ In particular, this memo defines managed objects used for managing subnetworks
+    In particular, this memo defines managed objects used for managing subnetworks
     which use the IEEE 802.5 Token Ring technology described in 802.5 Token Ring Access
     Method and Physical Layer Specifications, IEEE Standard 802.5-1989. [STANDARDS-TRACK]</p>"
   language:
@@ -155,6 +155,10 @@ relation:
       content: RFC1748
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

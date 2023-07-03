@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1295
 title:
 - content: User Bill of Rights for entries and listings in the Public Directory
@@ -42,11 +42,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in TCP/IP-based internets.  In particular,
+    for use with network management protocols in TCP/IP-based internets. In particular,
     it defines objects for managing Synchronous Optical Network/Synchronous Digital
-    Hierarchy (SONET/SDH) objects.  This document is a companion document with Definitions
+    Hierarchy (SONET/SDH) objects. This document is a companion document with Definitions
     of Managed Objects for the DS1/E1 and DS3/E3 Interface Types, RFC1406 and RFC1407.
-    \ This memo provides information for the Internet community.  This memo does not
+    This memo provides information for the Internet community. This memo does not
     specify an Internet standard of any kind.</p>"
   language:
   - en
@@ -65,6 +65,10 @@ relation:
       content: RFC1417
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

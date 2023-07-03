@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3943
 title:
 - content: Transport Layer Security (TLS) Protocol Compression Using Lempel-Ziv-Stac
@@ -69,18 +69,22 @@ abstract:
 - content: "<p>The Transport Layer Security (TLS) protocol (RFC 2246) includes features
     to negotiate selection of a lossless data compression method as part of the TLS
     Handshake Protocol and then to apply the algorithm associated with the selected
-    method as part of the TLS Record Protocol.  TLS defines one standard compression
+    method as part of the TLS Record Protocol. TLS defines one standard compression
     method, which specifies that data exchanged via the record protocol will not be
-    compressed.  This document describes an additional compression method associated
+    compressed. This document describes an additional compression method associated
     with the Lempel-Ziv-Stac (LZS) lossless data compression algorithm for use with
-    TLS.  This document also defines the application of the LZS algorithm to the TLS
-    Record Protocol.  This memo provides information for the Internet community.</p>"
+    TLS. This document also defines the application of the LZS algorithm to the TLS
+    Record Protocol. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

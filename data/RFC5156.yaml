@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5156
 title:
 - content: Special-Use IPv6 Addresses
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document is a compilation of special IPv6 addresses defined in
-    other RFCs.  It can be used as a checklist of invalid routing prefixes for developing
-    filtering policies for routes and IP packets.  It does not discuss addresses that
+    other RFCs. It can be used as a checklist of invalid routing prefixes for developing
+    filtering policies for routes and IP packets. It does not discuss addresses that
     are assigned to operators and users through the Regional Internet Registries.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -87,6 +87,10 @@ relation:
       content: RFC6890
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

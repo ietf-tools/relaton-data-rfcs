@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6791
 title:
 - content: Stateless Source Address Mapping for ICMPv6 Packets
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>A stateless IPv4/IPv6 translator may receive ICMPv6 packets containing
-    non-IPv4-translatable addresses as the source.  These packets should be passed
-    across the translator as ICMP packets directed to the IPv4 destination.  This
-    document presents recommendations for source address translation in ICMPv6 headers
-    to handle such cases. [STANDARDS-TRACK]</p>"
+    non-IPv4-translatable addresses as the source. These packets should be passed
+    across the translator as ICMP packets directed to the IPv4 destination. This document
+    presents recommendations for source address translation in ICMPv6 headers to handle
+    such cases. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -203,6 +203,10 @@ relation:
       content: RFC6145
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

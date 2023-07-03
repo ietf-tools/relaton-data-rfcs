@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9108
 title:
 - content: YANG Types for DNS Classes and Resource Record Types
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: '<p>This document introduces the YANG module "iana-dns-class-rr-type",
     which contains derived types reflecting two IANA registries: DNS CLASSes and Resource
-    Record (RR) TYPEs.  These YANG types are intended as the minimum basis for future
+    Record (RR) TYPEs. These YANG types are intended as the minimum basis for future
     data modeling work.</p>'
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

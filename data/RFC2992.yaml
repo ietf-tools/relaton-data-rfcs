@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2992
 title:
 - content: Analysis of an Equal-Cost Multi-Path Algorithm
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Equal-cost multi-path (ECMP) is a routing technique for routing packets
-    along multiple paths of equal cost.  The forwarding engine identifies paths by
-    next-hop.  When forwarding a packet the router must decide which next-hop (path)
-    to use.  This document gives an analysis of one method for making that decision.
-    \ The analysis includes the performance of the algorithm and the disruption caused
-    by changes to the set of next-hops.  This memo provides information for the Internet
+    along multiple paths of equal cost. The forwarding engine identifies paths by
+    next-hop. When forwarding a packet the router must decide which next-hop (path)
+    to use. This document gives an analysis of one method for making that decision.
+    The analysis includes the performance of the algorithm and the disruption caused
+    by changes to the set of next-hops. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

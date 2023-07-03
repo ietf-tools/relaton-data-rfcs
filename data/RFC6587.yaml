@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6587
 title:
 - content: Transmission of Syslog Messages over TCP
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>There have been many implementations and deployments of legacy syslog
-    over TCP for many years.  That protocol has evolved without being standardized
-    and has proven to be quite interoperable in practice.  This memo describes how
-    TCP has been used as a transport for syslog messages.  This document defines a
+    over TCP for many years. That protocol has evolved without being standardized
+    and has proven to be quite interoperable in practice. This memo describes how
+    TCP has been used as a transport for syslog messages. This document defines a
     Historic Document for the Internet community.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

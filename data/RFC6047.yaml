@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6047
 title:
 - content: iCalendar Message-Based Interoperability Protocol (iMIP)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This document, "iCalendar Message-Based Interoperability Protocol (iMIP)",
     specifies a binding from the iCalendar Transport-independent Interoperability
-    Protocol (iTIP) to Internet email-based transports.  Calendaring entries defined
+    Protocol (iTIP) to Internet email-based transports. Calendaring entries defined
     by the iCalendar Object Model (iCalendar) are wrapped using constructs from RFC
     5322 and MIME (RFC 2045, RFC 2046, RFC 2047, and RFC 2049), and then transported
     over SMTP. [STANDARDS-TRACK]</p>
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

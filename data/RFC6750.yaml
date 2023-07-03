@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6750
 title:
 - content: 'The OAuth 2.0 Authorization Framework: Bearer Token Usage'
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: <p>This specification describes how to use bearer tokens in HTTP requests
-    to access OAuth 2.0 protected resources.  Any party in possession of a bearer
-    token (a "bearer") can use it to get access to the associated resources (without
-    demonstrating possession of a cryptographic key).  To prevent misuse, bearer tokens
-    need to be protected from disclosure in storage and in transport. [STANDARDS-TRACK]</p>
+    to access OAuth 2.0 protected resources. Any party in possession of a bearer token
+    (a "bearer") can use it to get access to the associated resources (without demonstrating
+    possession of a cryptographic key). To prevent misuse, bearer tokens need to be
+    protected from disclosure in storage and in transport. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

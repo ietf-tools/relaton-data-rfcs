@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3739
 title:
 - content: 'Internet X.509 Public Key Infrastructure: Qualified Certificates Profile'
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document forms a certificate profile, based on RFC 3280, for identity
-    certificates issued to natural persons.  The profile defines specific conventions
+    certificates issued to natural persons. The profile defines specific conventions
     for certificates that are qualified within a defined legal framework, named Qualified
-    Certificates.  However, the profile does not define any legal requirements for
-    such Qualified Certificates.  The goal of this document is to define a certificate
+    Certificates. However, the profile does not define any legal requirements for
+    such Qualified Certificates. The goal of this document is to define a certificate
     profile that supports the issuance of Qualified Certificates independent of local
-    legal requirements.  The profile is however not limited to Qualified Certificates
+    legal requirements. The profile is however not limited to Qualified Certificates
     and further profiling may facilitate specific local needs. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

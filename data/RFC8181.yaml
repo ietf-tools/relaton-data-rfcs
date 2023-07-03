@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8181
 title:
 - content: A Publication Protocol for the Resource Public Key Infrastructure (RPKI)
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a protocol for publishing Resource Public Key
-    Infrastructure (RPKI) objects.  Even though the RPKI will have many participants
+    Infrastructure (RPKI) objects. Even though the RPKI will have many participants
     issuing certificates and creating other objects, it is operationally useful to
-    consolidate the publication of those objects.  Even in cases where a certificate
+    consolidate the publication of those objects. Even in cases where a certificate
     issuer runs its own publication repository, it can be useful to run the certificate
-    engine itself on a different machine from the publication repository.  This document
+    engine itself on a different machine from the publication repository. This document
     defines a protocol which addresses these needs.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

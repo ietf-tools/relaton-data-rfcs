@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5097
 title:
 - content: MIB for the UDP-Lite protocol
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a Management Information Base (MIB) module
-    for the Lightweight User Datagram Protocol (UDP-Lite).  It defines a set of new
+    for the Lightweight User Datagram Protocol (UDP-Lite). It defines a set of new
     MIB objects to characterise the behaviour and performance of transport layer endpoints
-    deploying UDP-Lite.  UDP-Lite resembles UDP, but differs from the semantics of
-    UDP by the addition of a single option.  This adds the capability for variable-length
+    deploying UDP-Lite. UDP-Lite resembles UDP, but differs from the semantics of
+    UDP by the addition of a single option. This adds the capability for variable-length
     data checksum coverage, which can benefit a class of applications that prefer
     delivery of (partially) corrupted datagram payload data in preference to discarding
     the datagram. [STANDARDS-TRACK]</p>"
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6631
 title:
 - content: Password Authenticated Connection Establishment with the Internet Key Exchange
@@ -97,10 +97,10 @@ script:
 abstract:
 - content: "<p>The Internet Key Exchange protocol version 2 (IKEv2) does not allow
     secure peer authentication when using short credential strings, i.e., passwords.
-    \ Several proposals have been made to integrate password-authentication protocols
-    into IKE.  This document provides an adaptation of Password Authenticated Connection
+    Several proposals have been made to integrate password-authentication protocols
+    into IKE. This document provides an adaptation of Password Authenticated Connection
     Establishment (PACE) to the setting of IKEv2 and demonstrates the advantages of
-    this integration.  This document defines an Experimental Protocol for the Internet
+    this integration. This document defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3287
 title:
 - content: Remote Monitoring MIB Extensions for Differentiated Services
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in the Internet community.  In particular,
+    for use with network management protocols in the Internet community. In particular,
     it describes managed objects used for monitoring Differentiated Services (DS)
     Codepoint usage in packets which contain a DS field, utilizing the monitoring
     framework defined in the RMON-2 (Remote Network Monitoring Management Version
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

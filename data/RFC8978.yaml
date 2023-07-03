@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8978
 title:
 - content: Reaction of IPv6 Stateless Address Autoconfiguration (SLAAC) to Flash-Renumbering
@@ -129,8 +129,8 @@ abstract:
     (such as when a Customer Edge router crashes and reboots without knowledge of
     the previously employed prefixes), hosts on the local network may continue using
     stale prefixes for an unacceptably long time (on the order of several days), thus
-    resulting in connectivity problems.  This document describes this issue and discusses
-    operational workarounds that may help to improve network robustness.  Additionally,
+    resulting in connectivity problems. This document describes this issue and discusses
+    operational workarounds that may help to improve network robustness. Additionally,
     it highlights areas where further work may be needed.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

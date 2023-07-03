@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2790
 title:
 - content: Host Resources MIB
@@ -94,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This memo obsoletes RFC 1514, the "Host Resources MIB".  This memo extends
+- content: <p>This memo obsoletes RFC 1514, the "Host Resources MIB". This memo extends
     that specification by clarifying changes based on implementation and deployment
     experience and documenting the Host Resources MIB in SMIv2 format while remaining
     semantically identical to the existing SMIv1-based MIB. [STANDARDS-TRACK]</p>
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

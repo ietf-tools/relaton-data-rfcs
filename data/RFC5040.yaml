@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5040
 title:
 - content: A Remote Direct Memory Access Protocol Specification
@@ -182,16 +182,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Remote Direct Memory Access Protocol (RDMAP)
-    that operates over the Direct Data Placement Protocol (DDP protocol).  RDMAP provides
+    that operates over the Direct Data Placement Protocol (DDP protocol). RDMAP provides
     read and write services directly to applications and enables data to be transferred
     directly into Upper Layer Protocol (ULP) Buffers without intermediate data copies.
-    \ It also enables a kernel bypass implementation. [STANDARDS-TRACK]</p>"
+    It also enables a kernel bypass implementation. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

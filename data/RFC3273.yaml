@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3273
 title:
 - content: Remote Network Monitoring Management Information Base for High Capacity
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in TCP/IP-based internets.  In particular,
+    for use with network management protocols in TCP/IP-based internets. In particular,
     it defines objects for managing remote network monitoring (RMON) devices for use
-    on high speed networks.  This document contains a MIB Module that defines these
+    on high speed networks. This document contains a MIB Module that defines these
     new objects and also contains definitions of some updated objects from the RMON-MIB
     in RFC 2819 and the RMON2-MIB in RFC 2021. [PROPOSED STANDARD]</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

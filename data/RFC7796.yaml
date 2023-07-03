@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7796
 title:
 - content: Ethernet-Tree (E-Tree) Support in Virtual Private LAN Service (VPLS)
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>This document specifies a generic Virtual Private LAN Service (VPLS)
     solution, which uses VLANs to indicate root or leaf traffic to support Ethernet-Tree
-    (E-Tree) services.  A VPLS Provider Edge (PE) model is illustrated as an example
-    for the solution.  In the solution, E-Tree VPLS PEs are interconnected by Pseudowires
-    (PWs), which carry the VLAN indicating the E-Tree attribute.  The MAC address-based
+    (E-Tree) services. A VPLS Provider Edge (PE) model is illustrated as an example
+    for the solution. In the solution, E-Tree VPLS PEs are interconnected by Pseudowires
+    (PWs), which carry the VLAN indicating the E-Tree attribute. The MAC address-based
     Ethernet forwarding engine and the PW work in the same way as specified in RFC
-    4762 and RFC 4448, respectively.  A signaling mechanism is described to support
+    4762 and RFC 4448, respectively. A signaling mechanism is described to support
     E-Tree capability and VLAN mapping negotiation.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

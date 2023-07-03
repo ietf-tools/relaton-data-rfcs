@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8120
 title:
 - content: Mutual Authentication Protocol for HTTP
@@ -212,9 +212,9 @@ script:
 abstract:
 - content: "<p>This document specifies an authentication scheme for the Hypertext
     Transfer Protocol (HTTP) that is referred to as either the Mutual authentication
-    scheme or the Mutual authentication protocol.  This scheme provides true mutual
+    scheme or the Mutual authentication protocol. This scheme provides true mutual
     authentication between an HTTP client and an HTTP server using password-based
-    authentication.  Unlike the Basic and Digest authentication schemes, the Mutual
+    authentication. Unlike the Basic and Digest authentication schemes, the Mutual
     authentication scheme specified in this document assures the user that the server
     truly knows the user's encrypted password.</p>"
   language:
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

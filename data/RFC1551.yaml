@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1551
 title:
 - content: Novell IPX Over Various WAN Media (IPXWAN)
@@ -65,11 +65,12 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document describes how Novell IPX operates over various WAN media.  Specifically,
-    it describes the common "IPX WAN" protocol Novell uses to exchange necessary router
-    to router information prior to exchanging standard IPX routing information and
-    traffic over WAN datalinks.  This memo provides information for the Internet community.  This
-    memo does not specify an Internet standard of any kind.</p>
+- content: <p>This document describes how Novell IPX operates over various WAN media.
+    Specifically, it describes the common "IPX WAN" protocol Novell uses to exchange
+    necessary router to router information prior to exchanging standard IPX routing
+    information and traffic over WAN datalinks. This memo provides information for
+    the Internet community. This memo does not specify an Internet standard of any
+    kind.</p>
   language:
   - en
   script:
@@ -87,6 +88,10 @@ relation:
       content: RFC1634
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

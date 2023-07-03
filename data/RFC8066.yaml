@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8066
 title:
 - content: IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) ESC Dispatch
@@ -154,11 +154,11 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 4944 defines the ESC dispatch type to allow additional dispatch
-    octets in the 6LoWPAN header.  The value of the ESC dispatch type was updated
-    by RFC 6282; however, its usage was not defined in either RFC 6282 or RFC 4944.
-    \ This document updates RFC 4944 and RFC 6282 by defining the ESC extension octet
-    code points and listing registration entries for known use cases at the time of
-    writing of this document.</p>"
+    octets in the 6LoWPAN header. The value of the ESC dispatch type was updated by
+    RFC 6282; however, its usage was not defined in either RFC 6282 or RFC 4944. This
+    document updates RFC 4944 and RFC 6282 by defining the ESC extension octet code
+    points and listing registration entries for known use cases at the time of writing
+    of this document.</p>"
   language:
   - en
   script:
@@ -186,6 +186,10 @@ relation:
       content: RFC6282
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

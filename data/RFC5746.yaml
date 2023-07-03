@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5746
 title:
 - content: Transport Layer Security (TLS) Renegotiation Indication Extension
@@ -155,9 +155,9 @@ abstract:
 - content: "<p>Secure Socket Layer (SSL) and Transport Layer Security (TLS) renegotiation
     are vulnerable to an attack in which the attacker forms a TLS connection with
     the target server, injects content of his choice, and then splices in a new TLS
-    connection from a client.  The server treats the client's initial TLS handshake
+    connection from a client. The server treats the client's initial TLS handshake
     as a renegotiation and thus believes that the initial data transmitted by the
-    attacker is from the same entity as the subsequent client data.  This specification
+    attacker is from the same entity as the subsequent client data. This specification
     defines a TLS extension to cryptographically tie renegotiations to the TLS connections
     they are being performed over, thus preventing this attack. [STANDARDS-TRACK]</p>"
   language:
@@ -217,6 +217,10 @@ relation:
       content: RFC2246
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

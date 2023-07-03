@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6613
 title:
 - content: RADIUS over TCP
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>The Remote Authentication Dial-In User Server (RADIUS) protocol has,
     until now, required the User Datagram Protocol (UDP) as the underlying transport
-    layer.  This document defines RADIUS over the Transmission Control Protocol (RADIUS/TCP),
+    layer. This document defines RADIUS over the Transmission Control Protocol (RADIUS/TCP),
     in order to address handling issues related to RADIUS over Transport Layer Security
-    (RADIUS/TLS).  It permits TCP to be used as a transport protocol for RADIUS only
+    (RADIUS/TLS). It permits TCP to be used as a transport protocol for RADIUS only
     when a transport layer such as TLS or IPsec provides confidentiality and security.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

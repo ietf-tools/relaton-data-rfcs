@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6916
 title:
 - content: Algorithm Agility Procedure for the Resource Public Key Infrastructure
@@ -127,8 +127,8 @@ abstract:
 - content: "<p>This document specifies the process that Certification Authorities
     (CAs) and Relying Parties (RPs) participating in the Resource Public Key Infrastructure
     (RPKI) will need to follow to transition to a new (and probably cryptographically
-    stronger) algorithm set.  The process is expected to be completed over a timescale
-    of several years.  Consequently, no emergency transition is specified.  The transition
+    stronger) algorithm set. The process is expected to be completed over a timescale
+    of several years. Consequently, no emergency transition is specified. The transition
     procedure defined in this document supports only a top-down migration (parent
     migrates before children).</p>"
   language:
@@ -141,6 +141,10 @@ series:
     content: BCP
     format: text/plain
   number: '182'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

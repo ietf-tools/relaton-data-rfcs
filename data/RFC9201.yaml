@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9201
 title:
 - content: Additional OAuth Parameters for Authentication and Authorization for Constrained
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This specification defines new parameters and encodings for the OAuth
     2.0 token and introspection endpoints when used with the framework for Authentication
-    and Authorization for Constrained Environments (ACE).  These are used to express
+    and Authorization for Constrained Environments (ACE). These are used to express
     the proof-of-possession (PoP) key the client wishes to use, the PoP key that the
     authorization server has selected, and the PoP key the resource server uses to
     authenticate to the client.</p>"
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

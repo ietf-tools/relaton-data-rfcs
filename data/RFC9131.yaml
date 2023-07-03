@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9131
 title:
 - content: 'Gratuitous Neighbor Discovery: Creating Neighbor Cache Entries on First-Hop
@@ -68,12 +68,12 @@ script:
 abstract:
 - content: "<p>Neighbor Discovery (RFC 4861) is used by IPv6 nodes to determine the
     link-layer addresses of neighboring nodes as well as to discover and maintain
-    reachability information.  This document updates RFC 4861 to allow routers to
-    proactively create a Neighbor Cache entry when a new IPv6 address is assigned
-    to a node.  It also updates RFC 4861 and recommends that nodes send unsolicited
-    Neighbor Advertisements upon assigning a new IPv6 address.  These changes will
-    minimize the delay and packet loss when a node initiates connections to an off-link
-    destination from a new IPv6 address.</p>"
+    reachability information. This document updates RFC 4861 to allow routers to proactively
+    create a Neighbor Cache entry when a new IPv6 address is assigned to a node. It
+    also updates RFC 4861 and recommends that nodes send unsolicited Neighbor Advertisements
+    upon assigning a new IPv6 address. These changes will minimize the delay and packet
+    loss when a node initiates connections to an off-link destination from a new IPv6
+    address.</p>"
   language:
   - en
   script:
@@ -91,6 +91,10 @@ relation:
       content: RFC4861
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

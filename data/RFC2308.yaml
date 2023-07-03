@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2308
 title:
 - content: Negative Caching of DNS Queries (DNS NCACHE)
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC1034 provided a description of how to cache negative responses.
-    \ It however had a fundamental flaw in that it did not allow a name server to
-    hand out those cached responses to other resolvers, thereby greatly reducing the
-    effect of the caching.  This document addresses issues raise in the light of experience
+    It however had a fundamental flaw in that it did not allow a name server to hand
+    out those cached responses to other resolvers, thereby greatly reducing the effect
+    of the caching. This document addresses issues raise in the light of experience
     and replaces RFC1034 Section 4.3.4. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -97,6 +97,10 @@ relation:
       content: RFC1035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5674
 title:
 - content: Alarms in Syslog
@@ -94,8 +94,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes how to send alarm information in syslog.  It
-    includes the mapping of ITU perceived severities onto syslog message fields.  It
+- content: "<p>This document describes how to send alarm information in syslog. It
+    includes the mapping of ITU perceived severities onto syslog message fields. It
     also includes a number of alarm-specific SD-PARAM definitions from X.733 and the
     IETF Alarm MIB. [STANDARDS-TRACK]</p>"
   language:
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

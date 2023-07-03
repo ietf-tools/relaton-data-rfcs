@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2487
 title:
 - content: SMTP Service Extension for Secure SMTP over TLS
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document describes an extension to the SMTP service that allows
     an SMTP server and client to use transport-layer security to provide private,
-    authenticated communication over the Internet.  This gives SMTP agents the ability
+    authenticated communication over the Internet. This gives SMTP agents the ability
     to protect some or all of their communications from eavesdroppers and attackers.
     [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC3207
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

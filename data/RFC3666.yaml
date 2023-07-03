@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3666
 title:
 - content: Session Initiation Protocol (SIP) Public Switched Telephone Network (PSTN)
@@ -184,13 +184,13 @@ script:
 abstract:
 - content: "<p>This document contains best current practice examples of Session Initiation
     Protocol (SIP) call flows showing interworking with the Public Switched Telephone
-    Network (PSTN).  Elements in these call flows include SIP User Agents, SIP Proxy
-    Servers, and PSTN Gateways.  Scenarios include SIP to PSTN, PSTN to SIP, and PSTN
-    to PSTN via SIP.  PSTN telephony protocols are illustrated using ISDN (Integrated
+    Network (PSTN). Elements in these call flows include SIP User Agents, SIP Proxy
+    Servers, and PSTN Gateways. Scenarios include SIP to PSTN, PSTN to SIP, and PSTN
+    to PSTN via SIP. PSTN telephony protocols are illustrated using ISDN (Integrated
     Services Digital Network), ISUP (ISDN User Part), and FGB (Feature Group B) circuit
-    associated signaling.  PSTN calls are illustrated using global telephone numbers
+    associated signaling. PSTN calls are illustrated using global telephone numbers
     from the PSTN and private extensions served on by a PBX (Private Branch Exchange).
-    \ Call flow diagrams and message details are shown.</p>"
+    Call flow diagrams and message details are shown.</p>"
   language:
   - en
   script:
@@ -201,6 +201,10 @@ series:
     content: BCP
     format: text/plain
   number: '76'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

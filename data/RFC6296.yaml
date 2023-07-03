@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6296
 title:
 - content: IPv6-to-IPv6 Network Prefix Translation
@@ -98,7 +98,7 @@ abstract:
     Network Prefix Translation (NPTv6) function that provides the address-independence
     benefit associated with IPv4-to-IPv4 NAT (NAPT44) and provides a 1:1 relationship
     between addresses in the "inside" and "outside" prefixes, preserving end-to-end
-    reachability at the network layer.  This document defines an Experimental Protocol
+    reachability at the network layer. This document defines an Experimental Protocol
     for the Internet community.</p>
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5828
 title:
 - content: Generalized Multiprotocol Label Switching (GMPLS) Ethernet Label Switching
@@ -125,15 +125,15 @@ script:
 - Latn
 abstract:
 - content: <p>There has been significant recent work in increasing the capabilities
-    of Ethernet switches and Ethernet forwarding models.  As a consequence, the role
+    of Ethernet switches and Ethernet forwarding models. As a consequence, the role
     of Ethernet is rapidly expanding into "transport networks" that previously were
     the domain of other technologies such as Synchronous Optical Network (SONET) /
     Synchronous Digital Hierarchy (SDH), Time-Division Multiplexing (TDM), and Asynchronous
-    Transfer Mode (ATM).  This document defines an architecture and framework for
-    a Generalized- MPLS-based control plane for Ethernet in this "transport network"
-    capacity.  GMPLS has already been specified for similar technologies.  Some additional
+    Transfer Mode (ATM). This document defines an architecture and framework for a
+    Generalized- MPLS-based control plane for Ethernet in this "transport network"
+    capacity. GMPLS has already been specified for similar technologies. Some additional
     extensions to the GMPLS control plane are needed, and this document provides a
-    framework for these extensions.  This document is not an Internet Standards Track
+    framework for these extensions. This document is not an Internet Standards Track
     specification; it is published for informational purposes.</p>
   language:
   - en
@@ -141,6 +141,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

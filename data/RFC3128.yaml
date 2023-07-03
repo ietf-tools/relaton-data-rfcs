@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3128
 title:
 - content: Protection Against a Variant of the Tiny Fragment Attack (RFC 1858)
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>This document discusses how RFC 1858 compliant filters can be vulnerable
-    to a variant of the "Tiny Fragment Attack" described in section 3.1 of the RFC.  This
-    document describes the attack and recommends corrective action.  This memo provides
-    information for the Internet community.</p>
+    to a variant of the "Tiny Fragment Attack" described in section 3.1 of the RFC.
+    This document describes the attack and recommends corrective action. This memo
+    provides information for the Internet community.</p>
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC1858
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

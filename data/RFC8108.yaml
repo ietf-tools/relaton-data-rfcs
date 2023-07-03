@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8108
 title:
 - content: Sending Multiple RTP Streams in a Single RTP Session
@@ -153,11 +153,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo expands and clarifies the behavior of Real-time Transport
-    Protocol (RTP) endpoints that use multiple synchronization sources (SSRCs).  This
+    Protocol (RTP) endpoints that use multiple synchronization sources (SSRCs). This
     occurs, for example, when an endpoint sends multiple RTP streams in a single RTP
-    session.  This memo updates RFC 3550 with regard to handling multiple SSRCs per
+    session. This memo updates RFC 3550 with regard to handling multiple SSRCs per
     endpoint in RTP sessions, with a particular focus on RTP Control Protocol (RTCP)
-    behavior.  It also updates RFC 4585 to change and clarify the calculation of the
+    behavior. It also updates RFC 4585 to change and clarify the calculation of the
     timeout of SSRCs and the inclusion of feedback messages.</p>"
   language:
   - en
@@ -186,6 +186,10 @@ relation:
       content: RFC4585
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

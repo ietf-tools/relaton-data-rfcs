@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5586
 title:
 - content: MPLS Generic Associated Channel
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document generalizes the applicability of the pseudowire (PW)
     Associated Channel Header (ACH), enabling the realization of a control channel
     associated to MPLS Label Switched Paths (LSPs) and MPLS Sections in addition to
-    MPLS pseudowires.  In order to identify the presence of this Associated Channel
+    MPLS pseudowires. In order to identify the presence of this Associated Channel
     Header in the label stack, this document also assigns one of the reserved MPLS
     label values to the Generic Associated Channel Label (GAL), to be used as a label
     based exception mechanism.</p>"
@@ -167,6 +167,10 @@ relation:
       content: RFC5085
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

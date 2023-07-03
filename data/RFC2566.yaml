@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2566
 title:
 - content: 'Internet Printing Protocol/1.0: Model and Semantics'
@@ -183,8 +183,8 @@ script:
 abstract:
 - content: "<p>This document describes a simplified model consisting of abstract objects,
     their attributes, and their operations that is independent of encoding and transport.
-    \ This document also addresses security, internationalization, and directory issues.
-    \ This memo defines an Experimental Protocol for the Internet community.</p>"
+    This document also addresses security, internationalization, and directory issues.
+    This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -202,6 +202,10 @@ relation:
       content: RFC2911
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7231
 title:
 - content: 'Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content'
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>The Hypertext Transfer Protocol (HTTP) is a stateless \\%application-
     level protocol for distributed, collaborative, hypertext information systems.
-    \ This document defines the semantics of HTTP/1.1 messages, as expressed by request
+    This document defines the semantics of HTTP/1.1 messages, as expressed by request
     methods, request header fields, response status codes, and response header fields,
     along with the payload of messages (metadata and body content) and mechanisms
     for content negotiation.</p>"
@@ -127,6 +127,10 @@ relation:
       content: RFC2817
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

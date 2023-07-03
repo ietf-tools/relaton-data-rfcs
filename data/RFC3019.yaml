@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3019
 title:
 - content: IP Version 6 Management Information Base for The Multicast Listener Discovery
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document defines a portion of the Management Information Base
     (MIB) for use with network management protocols in Internet Protocol Version 6
-    internets.  Specifically, this document is the MIB module that defines managed
+    internets. Specifically, this document is the MIB module that defines managed
     objects for implementations of the Multicast Listener Discovery Protocol [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC5519
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

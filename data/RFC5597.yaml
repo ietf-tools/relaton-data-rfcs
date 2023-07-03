@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5597
 title:
 - content: Network Address Translation (NAT) Behavioral Requirements for the Datagram
@@ -67,12 +67,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a set of requirements for NATs handling the Datagram
-    Congestion Control Protocol (DCCP).  These requirements allow DCCP applications,
+    Congestion Control Protocol (DCCP). These requirements allow DCCP applications,
     such as streaming applications, to operate consistently, and they are very similar
     to the TCP requirements for NATs, which have already been published by the IETF.
-    \ Ensuring that NATs meet this set of requirements will greatly increase the likelihood
-    that applications using DCCP will function properly.  This document specifies
-    an Internet Best Current Practices for the Internet Community, and requests discussion
+    Ensuring that NATs meet this set of requirements will greatly increase the likelihood
+    that applications using DCCP will function properly. This document specifies an
+    Internet Best Current Practices for the Internet Community, and requests discussion
     and suggestions for improvements.</p>"
   language:
   - en
@@ -84,6 +84,10 @@ series:
     content: BCP
     format: text/plain
   number: '150'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

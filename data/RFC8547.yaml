@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8547
 title:
 - content: 'TCP-ENO: Encryption Negotiation Option'
@@ -182,12 +182,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Despite growing adoption of TLS, a significant fraction of TCP traffic
-    on the Internet remains unencrypted.  The persistence of unencrypted traffic can
-    be attributed to at least two factors.  First, some legacy protocols lack a signaling
+    on the Internet remains unencrypted. The persistence of unencrypted traffic can
+    be attributed to at least two factors. First, some legacy protocols lack a signaling
     mechanism (such as a STARTTLS command) by which to convey support for encryption,
-    thus making incremental deployment impossible.  Second, legacy applications themselves
+    thus making incremental deployment impossible. Second, legacy applications themselves
     cannot always be upgraded and therefore require a way to implement encryption
-    transparently entirely within the transport layer.  The TCP Encryption Negotiation
+    transparently entirely within the transport layer. The TCP Encryption Negotiation
     Option (TCP-ENO) addresses both of these problems through a new TCP option kind
     providing out-of-band, fully backward-compatible negotiation of encryption.</p>"
   language:
@@ -196,6 +196,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

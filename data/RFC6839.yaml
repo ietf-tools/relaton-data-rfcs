@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6839
 title:
 - content: Additional Media Type Structured Syntax Suffixes
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: <p>A content media type name sometimes includes partitioned meta- information
     distinguished by a structured syntax to permit noting an attribute of the media
-    as a suffix to the name.  This document defines several structured syntax suffixes
-    for use with media type registrations.  In particular, it defines and registers
+    as a suffix to the name. This document defines several structured syntax suffixes
+    for use with media type registrations. In particular, it defines and registers
     the "+json", "+ber", "+der", "+fastinfoset", "+wbxml" and "+zip" structured syntax
     suffixes, and provides a media type structured syntax suffix registration form
-    for the "+xml" structured syntax suffix.  This document is not an Internet Standards
+    for the "+xml" structured syntax suffix. This document is not an Internet Standards
     Track specification; it is published for informational purposes.</p>
   language:
   - en
@@ -119,6 +119,10 @@ relation:
       content: RFC3023
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

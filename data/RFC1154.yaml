@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1154
 title:
 - content: Encoding header field for internet messages
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC proposes an elective experimental Encoding header field to
-    permit the mailing of multi-part, multi-structured messages.  The use of Encoding
+    permit the mailing of multi-part, multi-structured messages. The use of Encoding
     updates RFC 1049 (Content-Type), and is a suggested update to RFCs 1113, 1114,
     and 1115 (Privacy Enhancement).</p>"
   language:
@@ -115,6 +115,10 @@ relation:
       content: RFC1505
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

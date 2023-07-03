@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9271
 title:
 - content: Uninterruptible Power Supply (UPS) Management Protocol -- Commands and
@@ -69,12 +69,12 @@ abstract:
 - content: "<p>This document describes the command/response protocol currently used
     in the management of Uninterruptible Power Supply (UPS) units and other power
     devices often deployed in small offices and in IT installations subject to an
-    erratic public power supply.  The UPS units typically interface to an Attachment
-    Daemon in the system they protect.  This daemon is in turn polled by a Management
+    erratic public power supply. The UPS units typically interface to an Attachment
+    Daemon in the system they protect. This daemon is in turn polled by a Management
     Daemon that notifies users and system administrators of power supply incidents
-    and automates system shutdown decisions.  The commands and responses described
+    and automates system shutdown decisions. The commands and responses described
     by this document are exchanged between the UPS Attachment Daemon and the Management
-    Daemon.  The practice current when this protocol was first developed risks weak
+    Daemon. The practice current when this protocol was first developed risks weak
     security, and this is addressed in the Security Considerations sections of this
     document.</p>"
   language:
@@ -83,6 +83,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4389
 title:
 - content: Neighbor Discovery Proxies (ND Proxy)
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Bridging multiple links into a single entity has several operational
-    advantages.  A single subnet prefix is sufficient to support multiple physical
-    links.  There is no need to allocate subnet numbers to the different networks,
-    simplifying management.  Bridging some types of media requires network-layer support,
-    however.  This document describes these cases and specifies the IP-layer support
-    that enables bridging under these circumstances.  This memo defines an Experimental
+    advantages. A single subnet prefix is sufficient to support multiple physical
+    links. There is no need to allocate subnet numbers to the different networks,
+    simplifying management. Bridging some types of media requires network-layer support,
+    however. This document describes these cases and specifies the IP-layer support
+    that enables bridging under these circumstances. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

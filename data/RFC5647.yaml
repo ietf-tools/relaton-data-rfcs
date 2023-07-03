@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5647
 title:
 - content: AES Galois Counter Mode for the Secure Shell Transport Layer Protocol
@@ -94,11 +94,11 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Secure shell (SSH) is a secure remote-login protocol.  SSH provides
+- content: "<p>Secure shell (SSH) is a secure remote-login protocol. SSH provides
     for algorithms that provide authentication, key agreement, confidentiality, and
-    data-integrity services.  The purpose of this document is to show how the AES
-    Galois Counter Mode can be used to provide both confidentiality and data integrity
-    to the SSH Transport Layer Protocol.  This memo provides information for the Internet
+    data-integrity services. The purpose of this document is to show how the AES Galois
+    Counter Mode can be used to provide both confidentiality and data integrity to
+    the SSH Transport Layer Protocol. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1328
 title:
 - content: X.400 1988 to 1984 downgrading
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document considers issues of downgrading from X.400(1988) to X.400(1984)
-    [MHS88a, MHS84].  Annexe B of X.419 specifies some downgrading rules [MHS88b],
+    [MHS88a, MHS84]. Annexe B of X.419 specifies some downgrading rules [MHS88b],
     but these are not sufficient for provision of service in an environment containing
-    both 1984 and 1988 components.  This document defines a number of extensions to
+    both 1984 and 1988 components. This document defines a number of extensions to
     this annexe. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

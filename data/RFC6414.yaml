@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6414
 title:
 - content: Benchmarking Terminology for Protection Performance
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides common terminology and metrics for benchmarking
-    the performance of sub-IP layer protection mechanisms.  The performance benchmarks
+    the performance of sub-IP layer protection mechanisms. The performance benchmarks
     are measured at the IP layer; protection may be provided at the sub-IP layer.
-    \ The benchmarks and terminology can be applied in methodology documents for different
+    The benchmarks and terminology can be applied in methodology documents for different
     sub-IP layer protection mechanisms such as Automatic Protection Switching (APS),
     Virtual Router Redundancy Protocol (VRRP), Stateful High Availability (HA), and
-    Multiprotocol Label Switching Fast Reroute (MPLS-FRR).  This document is not an
+    Multiprotocol Label Switching Fast Reroute (MPLS-FRR). This document is not an
     Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

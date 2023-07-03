@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8429
 title:
 - content: Deprecate Triple-DES (3DES) and RC4 in Kerberos
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>The triple-DES (3DES) and RC4 encryption types are steadily weakening
     in cryptographic strength, and the deprecation process should begin for their
-    use in Kerberos.  Accordingly, RFC 4757 has been moved to Historic status, as
-    none of the encryption types it specifies should be used, and RFC 3961 has been
-    updated to note the deprecation of the triple-DES encryption types.  RFC 4120
-    is likewise updated to remove the recommendation to implement triple-DES encryption
-    and checksum types.</p>"
+    use in Kerberos. Accordingly, RFC 4757 has been moved to Historic status, as none
+    of the encryption types it specifies should be used, and RFC 3961 has been updated
+    to note the deprecation of the triple-DES encryption types. RFC 4120 is likewise
+    updated to remove the recommendation to implement triple-DES encryption and checksum
+    types.</p>"
   language:
   - en
   script:
@@ -132,6 +132,10 @@ series:
     content: BCP
     format: text/plain
   number: '218'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

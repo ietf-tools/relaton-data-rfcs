@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7803
 title:
 - content: Changing the Registration Policy for the NETCONF Capability URNs Registry
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>The registration policy for the "Network Configuration Protocol (NETCONF)
     Capability URNs" registry, set up by RFC 6241, has turned out to be unnecessarily
-    strict.  This document changes that registration policy to "IETF Review", allowing
+    strict. This document changes that registration policy to "IETF Review", allowing
     registrations from certain well-reviewed Experimental RFCs, in addition to Standards
     Track RFCs.</p>
   language:
@@ -91,6 +91,10 @@ series:
     content: BCP
     format: text/plain
   number: '203'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

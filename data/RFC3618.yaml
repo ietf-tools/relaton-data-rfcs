@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3618
 title:
 - content: Multicast Source Discovery Protocol (MSDP)
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>The Multicast Source Discovery Protocol (MSDP) describes a mechanism
     to connect multiple IP Version 4 Protocol Independent Multicast Sparse-Mode (PIM-SM)
-    domains together.  Each PIM-SM domain uses its own independent Rendezvous Point
-    (RP) and does not have to depend on RPs in other domains.  This document reflects
+    domains together. Each PIM-SM domain uses its own independent Rendezvous Point
+    (RP) and does not have to depend on RPs in other domains. This document reflects
     existing MSDP implementations.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

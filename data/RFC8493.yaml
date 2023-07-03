@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8493
 title:
 - content: The BagIt File Packaging Format (V1.0)
@@ -182,16 +182,20 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes BagIt, a set of hierarchical file layout conventions
-    for storage and transfer of arbitrary digital content.  A "bag" has just enough
+    for storage and transfer of arbitrary digital content. A "bag" has just enough
     structure to enclose descriptive metadata "tags" and a file "payload" but does
-    not require knowledge of the payload's internal semantics.  This BagIt format
-    is suitable for reliable storage and transfer.</p>
+    not require knowledge of the payload's internal semantics. This BagIt format is
+    suitable for reliable storage and transfer.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

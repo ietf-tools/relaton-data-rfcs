@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6541
 title:
 - content: DomainKeys Identified Mail (DKIM) Authorized Third-Party Signatures
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>This experimental specification proposes a modification to DomainKeys
     Identified Mail (DKIM) allowing advertisement of third-party signature authorizations
     that are to be interpreted as equivalent to a signature added by the administrative
-    domain of the message's author.  This document defines an Experimental Protocol
+    domain of the message's author. This document defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

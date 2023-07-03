@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7163
 title:
 - content: URN for Country-Specific Emergency Services
@@ -97,7 +97,7 @@ abstract:
 - content: <p>This document updates the registration guidance provided in Section
     4.2 of RFC 5031, which allows the registration of service URNs with the 'sos'
     service type only for emergency services "that are offered widely and in different
-    countries".  This document updates those instructions to allow such registrations
+    countries". This document updates those instructions to allow such registrations
     when, at the time of registration, those services are offered in only one country.</p>
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC5031
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

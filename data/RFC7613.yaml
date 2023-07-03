@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7613
 title:
 - content: Preparation, Enforcement, and Comparison of Internationalized Strings Representing
@@ -96,10 +96,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes updated methods for handling Unicode strings
-    representing usernames and passwords.  The previous approach was known as SASLprep
-    (RFC 4013) and was based on stringprep (RFC 3454).  The methods specified in this
+    representing usernames and passwords. The previous approach was known as SASLprep
+    (RFC 4013) and was based on stringprep (RFC 3454). The methods specified in this
     document provide a more sustainable approach to the handling of internationalized
-    usernames and passwords.  The preparation, enforcement, and comparison of internationalized
+    usernames and passwords. The preparation, enforcement, and comparison of internationalized
     strings (PRECIS) framework, RFC 7564, obsoletes RFC 3454, and this document obsoletes
     RFC 4013.</p>"
   language:
@@ -119,6 +119,10 @@ relation:
       content: RFC8265
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

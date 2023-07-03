@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8592
 title:
 - content: Key Performance Indicator (KPI) Stamping for the Network Service Header
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes methods of carrying Key Performance Indicators
-    (KPIs) using the Network Service Header (NSH).  These methods may be used, for
+    (KPIs) using the Network Service Header (NSH). These methods may be used, for
     example, to monitor latency and QoS marking to identify problems on some links
     or service functions.</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

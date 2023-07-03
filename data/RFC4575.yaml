@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4575
 title:
 - content: A Session Initiation Protocol (SIP) Event Package for Conference State
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>This document defines a conference event package for tightly coupled
     conferences using the Session Initiation Protocol (SIP) events framework, along
-    with a data format used in notifications for this package.  The conference package
-    allows users to subscribe to a conference Uniform Resource Identifier (URI).  Notifications
+    with a data format used in notifications for this package. The conference package
+    allows users to subscribe to a conference Uniform Resource Identifier (URI). Notifications
     are sent about changes in the membership of this conference and optionally about
     changes in the state of additional conference components. [STANDARDS-TRACK]</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5309
 title:
 - content: Point-to-Point Operation over LAN in Link State Routing Protocols
@@ -95,17 +95,21 @@ script:
 - Latn
 abstract:
 - content: "<p>The two predominant circuit types used by link state routing protocols
-    are point-to-point and broadcast.  It is important to identify the correct circuit
+    are point-to-point and broadcast. It is important to identify the correct circuit
     type when forming adjacencies, flooding link state database packets, and representing
-    the circuit topologically.  This document describes a simple mechanism to treat
+    the circuit topologically. This document describes a simple mechanism to treat
     the broadcast network as a point-to-point connection from the standpoint of IP
-    routing.  This memo provides information for the Internet community.</p>"
+    routing. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

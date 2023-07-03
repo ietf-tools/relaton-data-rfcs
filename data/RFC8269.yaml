@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8269
 title:
 - content: The ARIA Algorithm and Its Use with the Secure Real-Time Transport Protocol
@@ -183,8 +183,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the use of the ARIA block cipher algorithm within
-    the Secure Real-time Transport Protocol (SRTP).  It details two modes of operation
-    (CTR and GCM) and the SRTP key derivation functions for ARIA.  Additionally, this
+    the Secure Real-time Transport Protocol (SRTP). It details two modes of operation
+    (CTR and GCM) and the SRTP key derivation functions for ARIA. Additionally, this
     document defines DTLS-SRTP protection profiles and Multimedia Internet KEYing
     (MIKEY) parameter sets for use with ARIA.</p>"
   language:
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

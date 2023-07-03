@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8929
 title:
 - content: IPv6 Backbone Router
@@ -129,7 +129,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document updates RFCs 6775 and 8505 in order to enable proxy services
-    for IPv6 Neighbor Discovery by Routing Registrars called "Backbone Routers".  Backbone
+    for IPv6 Neighbor Discovery by Routing Registrars called "Backbone Routers". Backbone
     Routers are placed along the wireless edge of a backbone and federate multiple
     wireless links to form a single Multi-Link Subnet (MLSN).</p>
   language:
@@ -159,6 +159,10 @@ relation:
       content: RFC8505
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8997
 title:
 - content: Deprecation of TLS 1.1 for Email Submission and Access
@@ -97,7 +97,7 @@ abstract:
 - content: "<p>This specification updates the current recommendation for the use of
     the Transport Layer Security (TLS) protocol to provide confidentiality of email
     between a Mail User Agent (MUA) and a Mail Submission Server or Mail Access Server.
-    \ This document updates RFC 8314.</p>"
+    This document updates RFC 8314.</p>"
   language:
   - en
   script:
@@ -115,6 +115,10 @@ relation:
       content: RFC8314
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

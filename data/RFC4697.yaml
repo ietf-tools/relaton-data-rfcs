@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4697
 title:
 - content: Observed DNS Resolution Misbehavior
@@ -96,12 +96,12 @@ script:
 abstract:
 - content: "<p>This memo describes DNS iterative resolver behavior that results in
     a significant query volume sent to the root and top-level domain (TLD) name servers.
-    \ We offer implementation advice to iterative resolver developers to alleviate
-    these unnecessary queries.  The recommendations made in this document are a direct
-    byproduct of observation and analysis of abnormal query traffic patterns seen
-    at two of the thirteen root name servers and all thirteen com/net TLD name servers.
-    \ This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+    We offer implementation advice to iterative resolver developers to alleviate these
+    unnecessary queries. The recommendations made in this document are a direct byproduct
+    of observation and analysis of abnormal query traffic patterns seen at two of
+    the thirteen root name servers and all thirteen com/net TLD name servers. This
+    document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -112,6 +112,10 @@ series:
     content: BCP
     format: text/plain
   number: '123'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

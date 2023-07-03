@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2783
 title:
 - content: Pulse-Per-Second API for UNIX-like Operating Systems, Version 1.0
@@ -182,14 +182,18 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 1589 did not define an API for managing the PPS facility, leaving
-    implementors without a portable means for using PPS sources.  This document specifies
-    such an API.  This memo provides information for the Internet community.</p>"
+    implementors without a portable means for using PPS sources. This document specifies
+    such an API. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

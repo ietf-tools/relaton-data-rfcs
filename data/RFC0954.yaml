@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC954
 title:
 - content: NICNAME/WHOIS
@@ -134,7 +134,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC is the official specification of the NICNAME/WHOIS protocol.
-    \ This memo describes the protocol and the service.  This is an update of RFC-812.</p>"
+    This memo describes the protocol and the service. This is an update of RFC-812.</p>"
   language:
   - en
   script:
@@ -152,6 +152,10 @@ relation:
       content: RFC3912
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

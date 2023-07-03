@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2587
 title:
 - content: Internet X.509 Public Key Infrastructure LDAPv2 Schema
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The schema defined in this document is a minimal schema to support
-    PKIX in an LDAPv2 environment, as defined in RFC 2559.  Only PKIX-specific components
+    PKIX in an LDAPv2 environment, as defined in RFC 2559. Only PKIX-specific components
     are specified here. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -143,6 +143,10 @@ relation:
       content: RFC4523
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

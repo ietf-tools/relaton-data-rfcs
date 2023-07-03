@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8768
 title:
 - content: Constrained Application Protocol (CoAP) Hop-Limit Option
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The presence of Constrained Application Protocol (CoAP) proxies may
-    lead to infinite forwarding loops, which is undesirable.  To prevent and detect
+    lead to infinite forwarding loops, which is undesirable. To prevent and detect
     such loops, this document specifies the Hop-Limit CoAP option.</p>"
   language:
   - en
@@ -132,6 +132,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

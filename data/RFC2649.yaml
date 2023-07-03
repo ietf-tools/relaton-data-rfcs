@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2649
 title:
 - content: An LDAP Control and Schema for Holding Operation Signatures
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an LDAP message control which allows for the
-    retrieval of digitally signed information.  This document defines an LDAP v3 based
+    retrieval of digitally signed information. This document defines an LDAP v3 based
     mechanism for signing directory operations in order to create a secure journal
-    of changes that have been made to each directory entry.  This memo defines an
-    Experimental Protocol for the Internet community.</p>"
+    of changes that have been made to each directory entry. This memo defines an Experimental
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6874
 title:
 - content: Representing IPv6 Zone Identifiers in Address Literals and Uniform Resource
@@ -125,9 +125,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how the zone identifier of an IPv6 scoped address,
-    defined as   in the IPv6 Scoped Address Architecture (RFC 4007), can be represented
+    defined as in the IPv6 Scoped Address Architecture (RFC 4007), can be represented
     in a literal IPv6 address and in a Uniform Resource Identifier that includes such
-    a literal address.  It updates the URI Generic Syntax specification (RFC 3986)
+    a literal address. It updates the URI Generic Syntax specification (RFC 3986)
     accordingly.</p>"
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC3986
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

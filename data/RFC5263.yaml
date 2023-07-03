@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5263
 title:
 - content: Session Initiation Protocol (SIP) Extension for Partial Notification of
@@ -155,10 +155,10 @@ script:
 abstract:
 - content: "<p>By default, presence delivered using the presence event package for
     the Session Initiation Protocol (SIP) is represented in the Presence Information
-    Data Format (PIDF).  A PIDF document contains a set of elements, each representing
-    a different aspect of the presence being reported.  When any subset of the elements
+    Data Format (PIDF). A PIDF document contains a set of elements, each representing
+    a different aspect of the presence being reported. When any subset of the elements
     change, even just a single element, a new document containing the full set of
-    elements is delivered.  This memo defines an extension allowing delivery of only
+    elements is delivered. This memo defines an extension allowing delivery of only
     the presence data that has actually changed. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

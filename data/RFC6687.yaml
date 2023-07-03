@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6687
 title:
 - content: Performance Evaluation of the Routing Protocol for Low-Power and Lossy
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>This document presents a performance evaluation of the Routing Protocol
     for Low-Power and Lossy Networks (RPL) for a small outdoor deployment of sensor
-    nodes and for a large-scale smart meter network.  Detailed simulations are carried
+    nodes and for a large-scale smart meter network. Detailed simulations are carried
     out to produce several routing performance metrics using these real-life deployment
-    scenarios.  Please refer to the PDF version of this document, which includes several
-    plots for the performance metrics not shown in the plain-text version.  This document
+    scenarios. Please refer to the PDF version of this document, which includes several
+    plots for the performance metrics not shown in the plain-text version. This document
     is not an Internet Standards Track specification; it is published for informational
     purposes.</p>"
   language:
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

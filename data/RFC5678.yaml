@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5678
 title:
 - content: Dynamic Host Configuration Protocol (DHCPv4 and DHCPv6) Options for IEEE
@@ -98,9 +98,9 @@ abstract:
 - content: "<p>This document defines new Dynamic Host Configuration Protocol (DHCPv4
     and DHCPv6) options that contain a list of IP addresses and a list of domain names
     that can be mapped to servers providing IEEE 802.21 type of Mobility Service (MoS)
-    (see RFC 5677).  These Mobility Services are used to assist a mobile node (MN)
+    (see RFC 5677). These Mobility Services are used to assist a mobile node (MN)
     in handover preparation (network discovery) and handover decision (network selection).
-    \ The services addressed in this document are the Media Independent Handover Services
+    The services addressed in this document are the Media Independent Handover Services
     defined in IEEE 802.21. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2042
 title:
 - content: Registering New BGP Attribute Types
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the process for creating new BGP attribute
-    type codes.  Basic attribute type codes are described in RFC 1771, pages 12 through
-    15.  These, and new attribute type codes that are used in the Internet are registered
-    with the IANA.  This memo provides information for the Internet community.  This
+    type codes. Basic attribute type codes are described in RFC 1771, pages 12 through
+    15. These, and new attribute type codes that are used in the Internet are registered
+    with the IANA. This memo provides information for the Internet community. This
     memo does not specify an Internet standard of any kind.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

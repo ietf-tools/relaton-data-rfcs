@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6322
 title:
 - content: Datatracker States and Annotations for the IAB, IRTF, and Independent Submission
@@ -68,13 +68,13 @@ script:
 abstract:
 - content: "<p>This document describes extending the IETF Datatracker to capture and
     display the progression of Internet-Drafts that are intended to be published as
-    RFCs by the IAB, IRTF, or Independent Submissions Editor.  The states and annotations
+    RFCs by the IAB, IRTF, or Independent Submissions Editor. The states and annotations
     that are to be added to the Datatracker will be applied to Internet-Drafts as
     soon as any of these streams identify the Internet-Draft as a potential eventual
-    RFC, and will continue through the lifetime of the Internet-Draft.  The goal of
+    RFC, and will continue through the lifetime of the Internet-Draft. The goal of
     adding this information to the Datatracker is to give the whole Internet community
     more information about the status of these Internet-Drafts and the streams from
-    which they originate.  This document is not an Internet Standards Track specification;
+    which they originate. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

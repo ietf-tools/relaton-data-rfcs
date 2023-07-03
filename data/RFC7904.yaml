@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7904
 title:
 - content: A SIP Usage for REsource LOcation And Discovery (RELOAD)
@@ -211,11 +211,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a SIP Usage for REsource LOcation And Discovery
-    (RELOAD).  The SIP Usage provides the functionality of a SIP proxy or registrar
+    (RELOAD). The SIP Usage provides the functionality of a SIP proxy or registrar
     in a fully distributed system and includes a lookup service for Address of Records
-    (AORs) stored in the overlay.  It also defines Globally Routable User Agent URIs
+    (AORs) stored in the overlay. It also defines Globally Routable User Agent URIs
     (GRUUs) that allow the registrations to map an AOR to a specific node reachable
-    through the overlay.  After such initial contact of a Peer, the RELOAD AppAttach
+    through the overlay. After such initial contact of a Peer, the RELOAD AppAttach
     method is used to establish a direct connection between nodes through which SIP
     messages are exchanged.</p>"
   language:
@@ -224,6 +224,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

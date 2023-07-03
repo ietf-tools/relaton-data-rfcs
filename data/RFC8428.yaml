@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8428
 title:
 - content: Sensor Measurement Lists (SenML)
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines a format for representing simple sensor
-    measurements and device parameters in Sensor Measurement Lists (SenML).  Representations
+    measurements and device parameters in Sensor Measurement Lists (SenML). Representations
     are defined in JavaScript Object Notation (JSON), Concise Binary Object Representation
     (CBOR), Extensible Markup Language (XML), and Efficient XML Interchange (EXI),
-    which share the common SenML data model.  A simple sensor, such as a temperature
+    which share the common SenML data model. A simple sensor, such as a temperature
     sensor, could use one of these media types in protocols such as HTTP or the Constrained
     Application Protocol (CoAP) to transport the measurements of the sensor or to
     be configured.</p>"
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

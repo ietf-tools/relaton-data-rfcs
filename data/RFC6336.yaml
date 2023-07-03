@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6336
 title:
 - content: IANA Registry for Interactive Connectivity Establishment (ICE) Options
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: '<p>It has been identified that "Interactive Connectivity Establishment
     (ICE): A Protocol for Network Address Translator (NAT) Traversal for Offer/Answer
-    Protocols" (RFC 5245) is missing a registry for ICE options.  This document defines
+    Protocols" (RFC 5245) is missing a registry for ICE options. This document defines
     this missing IANA registry and updates RFC 5245. [STANDARDS-TRACK]</p>'
   language:
   - en
@@ -125,6 +125,10 @@ relation:
       content: RFC5245
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

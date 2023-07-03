@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3833
 title:
 - content: Threat Analysis of the Domain Name System (DNS)
@@ -96,19 +96,22 @@ script:
 abstract:
 - content: "<p>Although the DNS Security Extensions (DNSSEC) have been under development
     for most of the last decade, the IETF has never written down the specific set
-    of threats against which DNSSEC is designed to protect.  Among other drawbacks,
+    of threats against which DNSSEC is designed to protect. Among other drawbacks,
     this cart-before-the-horse situation has made it difficult to determine whether
     DNSSEC meets its design goals, since its design goals are not well specified.
-    \ This note attempts to document some of the known threats to the DNS, and, in
-    doing so, attempts to measure to what extent (if any) DNSSEC is a useful tool
-    in defending against these threats.  This memo provides information for the Internet
-    community.</p>"
+    This note attempts to document some of the known threats to the DNS, and, in doing
+    so, attempts to measure to what extent (if any) DNSSEC is a useful tool in defending
+    against these threats. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

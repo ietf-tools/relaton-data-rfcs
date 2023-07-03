@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1137
 title:
 - content: Mapping between full RFC 822 and RFC 822 with restricted encoding
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This RFC suggests an electronic mail protocol mapping for the Internet
     community and UK Academic Community, and requests discussion and suggestions for
-    improvements.  This memo does not specify an Internet standard.</p>"
+    improvements. This memo does not specify an Internet standard.</p>"
   language:
   - en
   script:
@@ -85,6 +85,10 @@ relation:
       content: RFC0976
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

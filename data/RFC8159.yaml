@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8159
 title:
 - content: Keyed IPv6 Tunnel
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This document describes a tunnel encapsulation for Ethernet over IPv6
     with a mandatory 64-bit cookie for connecting Layer 2 (L2) Ethernet attachment
-    circuits identified by IPv6 addresses.  The encapsulation is based on the Layer
+    circuits identified by IPv6 addresses. The encapsulation is based on the Layer
     2 Tunneling Protocol Version 3 (L2TPv3) over IP and does not use the L2TPv3 control
     plane.</p>"
   language:
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3264
 title:
 - content: An Offer/Answer Model with Session Description Protocol (SDP)
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>This document defines a mechanism by which two entities can make use
     of the Session Description Protocol (SDP) to arrive at a common view of a multimedia
-    session between them.  In the model, one participant offers the other a description
+    session between them. In the model, one participant offers the other a description
     of the desired session from their perspective, and the other participant answers
-    with the desired session from their perspective.  This offer/answer model is most
+    with the desired session from their perspective. This offer/answer model is most
     useful in unicast sessions where information from both participants is needed
-    for the complete view of the session.  The offer/answer model is used by protocols
+    for the complete view of the session. The offer/answer model is used by protocols
     like the Session Initiation Protocol (SIP). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

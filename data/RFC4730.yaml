@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4730
 title:
 - content: A Session Initiation Protocol (SIP) Event Package for Key Press Stimulus
@@ -97,15 +97,15 @@ script:
 abstract:
 - content: <p>This document describes a SIP Event Package "kpml" that enables monitoring
     of Dual Tone Multi-Frequency (DTMF) signals and uses Extensible Markup Language
-    (XML) documents referred to as Key Press Markup Language (KPML).  The kpml Event
+    (XML) documents referred to as Key Press Markup Language (KPML). The kpml Event
     Package may be used to support applications consistent with the principles defined
     in the document titled "A Framework for Application Interaction in the Session
-    Initiation Protocol (SIP)".  The event package uses SUBSCRIBE messages and allows
+    Initiation Protocol (SIP)". The event package uses SUBSCRIBE messages and allows
     for XML documents that define and describe filter specifications for capturing
     key presses (DTMF Tones) entered at a presentation-free User Interface SIP User
-    Agent (UA).  The event package uses NOTIFY messages and allows for XML documents
+    Agent (UA). The event package uses NOTIFY messages and allows for XML documents
     to report the captured key presses (DTMF tones), consistent with the filter specifications,
-    to an Application Server.  The scope of this package is for collecting supplemental
+    to an Application Server. The scope of this package is for collecting supplemental
     key presses or mid-call key presses (triggers). [STANDARDS-TRACK]</p>
   language:
   - en
@@ -113,6 +113,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

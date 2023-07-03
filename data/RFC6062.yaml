@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6062
 title:
 - content: Traversal Using Relays around NAT (TURN) Extensions for TCP Allocations
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines an extension of Traversal Using Relays around
-    NAT (TURN), a relay protocol for Network Address Translator (NAT) traversal.  This
+    NAT (TURN), a relay protocol for Network Address Translator (NAT) traversal. This
     extension allows a TURN client to request TCP allocations, and defines new requests
     and indications for the TURN server to open and accept TCP connections with the
-    client\\'s peers.  TURN and this extension both purposefully restrict the ways
-    in which the relayed address can be used.  In particular, it prevents users from
+    client\\'s peers. TURN and this extension both purposefully restrict the ways
+    in which the relayed address can be used. In particular, it prevents users from
     running general-purpose servers from ports obtained from the TURN server. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

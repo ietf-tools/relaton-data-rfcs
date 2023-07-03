@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1876
 title:
 - content: A Means for Expressing Location Information in the Domain Name System
@@ -152,10 +152,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo defines a new DNS RR type for experimental purposes.  This
+- content: "<p>This memo defines a new DNS RR type for experimental purposes. This
     RFC describes a mechanism to allow the DNS to carry location information about
-    hosts, networks, and subnets.  This memo defines an Experimental Protocol for
-    the Internet community.</p>"
+    hosts, networks, and subnets. This memo defines an Experimental Protocol for the
+    Internet community.</p>"
   language:
   - en
   script:
@@ -183,6 +183,10 @@ relation:
       content: RFC1035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

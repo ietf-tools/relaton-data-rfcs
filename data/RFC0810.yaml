@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC810
 title:
 - content: DoD Internet host table specification
@@ -158,10 +158,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC specifies a new host table format applicable to both ARPANET
-    and Internet needs.  In addition to host name to host address translation and
-    selected protocol information, we have also included network and gateway name
-    to address correspondence, and host operating system information.  This RFC obsoletes
-    the host table described in RFC 608.</p>"
+    and Internet needs. In addition to host name to host address translation and selected
+    protocol information, we have also included network and gateway name to address
+    correspondence, and host operating system information. This RFC obsoletes the
+    host table described in RFC 608.</p>"
   language:
   - en
   script:
@@ -179,6 +179,10 @@ relation:
       content: RFC0952
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3910
 title:
 - content: The SPIRITS (Services in PSTN requesting Internet Services) Protocol
@@ -211,12 +211,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Services in PSTN (Public Switched Telephone
-    Network) requesting Internet Services (SPIRITS) protocol.  The purpose of the
-    SPIRITS protocol is to support services that originate in the cellular or wireline
-    PSTN and necessitate interactions between the PSTN and the Internet.  On the PSTN
-    side, the SPIRITS services are most often initiated from the Intelligent Network
-    (IN) entities.  Internet Call Waiting and Internet Caller-ID Delivery are examples
-    of SPIRITS services, as are location-based services on the cellular network.  The
+    Network) requesting Internet Services (SPIRITS) protocol. The purpose of the SPIRITS
+    protocol is to support services that originate in the cellular or wireline PSTN
+    and necessitate interactions between the PSTN and the Internet. On the PSTN side,
+    the SPIRITS services are most often initiated from the Intelligent Network (IN)
+    entities. Internet Call Waiting and Internet Caller-ID Delivery are examples of
+    SPIRITS services, as are location-based services on the cellular network. The
     protocol defines the building blocks from which many other services can be built.
     [STANDARDS-TRACK]</p>"
   language:
@@ -225,6 +225,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

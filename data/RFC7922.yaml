@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7922
 title:
 - content: 'Interface to the Routing System (I2RS) Traceability: Framework and Information
@@ -125,11 +125,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a framework for traceability in the Interface
-    to the Routing System (I2RS) and the information model for that framework.  It
+    to the Routing System (I2RS) and the information model for that framework. It
     specifies the motivation, requirements, and use cases, and defines an information
     model for recording interactions between elements implementing the I2RS protocol.
-    \ This framework provides a consistent tracing interface for components implementing
-    the I2RS architecture to record what was done, by which component, and when.  It
+    This framework provides a consistent tracing interface for components implementing
+    the I2RS architecture to record what was done, by which component, and when. It
     aims to improve the management of I2RS implementations, and can be used for troubleshooting,
     auditing, forensics, and accounting purposes.</p>"
   language:
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

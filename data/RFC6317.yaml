@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6317
 title:
 - content: Basic Socket Interface Extensions for the Host Identity Protocol (HIP)
@@ -95,19 +95,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines extensions to the current sockets API for the
-    Host Identity Protocol (HIP).  The extensions focus on the use of public-key-based
+    Host Identity Protocol (HIP). The extensions focus on the use of public-key-based
     identifiers discovered via DNS resolution, but also define interfaces for manual
-    bindings between Host Identity Tags (HITs) and locators.  With the extensions,
+    bindings between Host Identity Tags (HITs) and locators. With the extensions,
     the application can also support more relaxed security models where communication
-    can be non-HIP-based, according to local policies.  The extensions in this document
+    can be non-HIP-based, according to local policies. The extensions in this document
     are experimental and provide basic tools for further experimentation with policies.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

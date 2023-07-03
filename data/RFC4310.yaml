@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4310
 title:
 - content: Domain Name System (DNS) Security Extensions Mapping for the Extensible
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document describes an Extensible Provisioning Protocol (EPP) extension
     mapping for the provisioning and management of Domain Name System security extensions
-    (DNSSEC) for domain names stored in a shared central repository.  Specified in
+    (DNSSEC) for domain names stored in a shared central repository. Specified in
     XML, this mapping extends the EPP domain name mapping to provide additional features
     required for the provisioning of DNS security extensions. [STANDARDS-TRACK]</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC5910
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

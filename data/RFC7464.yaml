@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7464
 title:
 - content: JavaScript Object Notation (JSON) Text Sequences
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the JavaScript Object Notation (JSON) text sequence
-    format and associated media type "application/json-seq".  A JSON text sequence
+    format and associated media type "application/json-seq". A JSON text sequence
     consists of any number of JSON texts, all encoded in UTF-8, each prefixed by an
     ASCII Record Separator (0x1E), and each ending with an ASCII Line Feed character
     (0x0A).</p>
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

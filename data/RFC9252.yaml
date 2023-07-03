@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9252
 title:
 - content: BGP Overlay Services Based on Segment Routing over IPv6 (SRv6)
@@ -212,7 +212,7 @@ script:
 abstract:
 - content: <p>This document defines procedures and messages for SRv6-based BGP services,
     including Layer 3 Virtual Private Network (L3VPN), Ethernet VPN (EVPN), and Internet
-    services.  It builds on "BGP/MPLS IP Virtual Private Networks (VPNs)" (RFC 4364)
+    services. It builds on "BGP/MPLS IP Virtual Private Networks (VPNs)" (RFC 4364)
     and "BGP MPLS-Based Ethernet VPN" (RFC 7432).</p>
   language:
   - en
@@ -220,6 +220,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

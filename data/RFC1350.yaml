@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1350
 title:
 - content: The TFTP Protocol (Revision 2)
@@ -65,10 +65,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>TFTP is a very simple protocol used to transfer files.  It is from
-    this that its name comes, Trivial File Transfer Protocol or TFTP.  Each nonterminal
-    packet is acknowledged separately.  This document describes the protocol and its
-    types of packets.  The document also explains the reasons behind some of the design
+- content: "<p>TFTP is a very simple protocol used to transfer files. It is from this
+    that its name comes, Trivial File Transfer Protocol or TFTP. Each nonterminal
+    packet is acknowledged separately. This document describes the protocol and its
+    types of packets. The document also explains the reasons behind some of the design
     decisions. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -80,6 +80,10 @@ series:
     content: STD
     format: text/plain
   number: '33'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

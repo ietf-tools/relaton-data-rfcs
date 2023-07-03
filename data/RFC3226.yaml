@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3226
 title:
 - content: DNSSEC and IPv6 A6 aware server/resolver message size requirements
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This document mandates support for EDNS0 (Extension Mechanisms for
     DNS) in DNS entities claiming to support either DNS Security Extensions or A6
-    records.  This requirement is necessary because these new features increase the
-    size of DNS messages.  If EDNS0 is not supported fall back to TCP will happen,
-    having a detrimental impact on query latency and DNS server load.  This document
+    records. This requirement is necessary because these new features increase the
+    size of DNS messages. If EDNS0 is not supported fall back to TCP will happen,
+    having a detrimental impact on query latency and DNS server load. This document
     updates RFC 2535 and RFC 2874, by adding new requirements. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -98,6 +98,10 @@ relation:
       content: RFC2874
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

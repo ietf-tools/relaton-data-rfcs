@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7230
 title:
 - content: 'Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing'
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: <p>The Hypertext Transfer Protocol (HTTP) is a stateless application-level
-    protocol for distributed, collaborative, hypertext information systems.  This
-    document provides an overview of HTTP architecture and its associated terminology,
-    defines the "http" and "https" Uniform Resource Identifier (URI) schemes, defines
-    the HTTP/1.1 message syntax and parsing requirements, and describes related security
+    protocol for distributed, collaborative, hypertext information systems. This document
+    provides an overview of HTTP architecture and its associated terminology, defines
+    the "http" and "https" Uniform Resource Identifier (URI) schemes, defines the
+    HTTP/1.1 message syntax and parsing requirements, and describes related security
     concerns for implementations.</p>
   language:
   - en
@@ -147,6 +147,10 @@ relation:
       content: RFC2818
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

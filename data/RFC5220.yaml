@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5220
 title:
 - content: 'Problem Statement for Default Address Selection in Multi-Prefix Environments:
@@ -153,21 +153,25 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>A single physical link can have multiple prefixes assigned to it.  In
+- content: "<p>A single physical link can have multiple prefixes assigned to it. In
     that environment, end hosts might have multiple IP addresses and be required to
-    use them selectively.  RFC 3484 defines default source and destination address
-    selection rules and is implemented in a variety of OSs.  But, it has been too
-    difficult to use operationally for several reasons.  In some environments where
-    multiple prefixes are assigned on a single physical link, the host using the default
-    address selection rules will experience some trouble in communication.  This document
-    describes the possible problems that end hosts could encounter in an environment
-    with multiple prefixes.  This memo provides information for the Internet community.</p>"
+    use them selectively. RFC 3484 defines default source and destination address
+    selection rules and is implemented in a variety of OSs. But, it has been too difficult
+    to use operationally for several reasons. In some environments where multiple
+    prefixes are assigned on a single physical link, the host using the default address
+    selection rules will experience some trouble in communication. This document describes
+    the possible problems that end hosts could encounter in an environment with multiple
+    prefixes. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

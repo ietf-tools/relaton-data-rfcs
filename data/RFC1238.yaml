@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1238
 title:
 - content: CLNS MIB for use with Connectionless Network Protocol (ISO 8473) and End
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This memo defines an experimental portion of the Management Information
     Base (MIB) for use with network management protocols in TCP/IP-based internets.
-    \ This is an Experimental Protocol for the Internet community.  It does not specify
+    This is an Experimental Protocol for the Internet community. It does not specify
     an Internet standard.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

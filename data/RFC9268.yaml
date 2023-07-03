@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9268
 title:
 - content: IPv6 Minimum Path MTU Hop-by-Hop Option
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document specifies a new IPv6 Hop-by-Hop Option that is used to
     record the Minimum Path MTU (PMTU) along the forward path between a source host
-    to a destination host.  The recorded value can then be communicated back to the
+    to a destination host. The recorded value can then be communicated back to the
     source using the return Path MTU field in the Option.</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

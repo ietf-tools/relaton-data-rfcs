@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1307
 title:
 - content: Dynamically Switched Link Control Protocol
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>This memo describes an experimental protocol developed by a project
     team at Cray Research, Inc., in implementing support for circuit-switched T3 services.
-    \ The protocol is used for the control of network connections external to a host,
-    but known to the host.  This memo defines an Experimental Protocol for the Internet
+    The protocol is used for the control of network connections external to a host,
+    but known to the host. This memo defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

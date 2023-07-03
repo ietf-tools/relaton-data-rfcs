@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8378
 title:
 - content: Signal-Free Locator/ID Separation Protocol (LISP) Multicast
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>When multicast sources and receivers are active at Locator/ID Separation
     Protocol (LISP) sites, the core network is required to use native multicast so
-    packets can be delivered from sources to group members.  When multicast is not
+    packets can be delivered from sources to group members. When multicast is not
     available to connect the multicast sites together, a signal-free mechanism can
-    be used to allow traffic to flow between sites.  The mechanism described in this
+    be used to allow traffic to flow between sites. The mechanism described in this
     document uses unicast replication and encapsulation over the core network for
     the data plane and uses the LISP mapping database system so encapsulators at the
     source LISP multicast site can find decapsulators at the receiver LISP multicast
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

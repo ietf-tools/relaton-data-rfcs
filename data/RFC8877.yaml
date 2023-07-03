@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8877
 title:
 - content: Guidelines for Defining Packet Timestamps
@@ -125,20 +125,24 @@ script:
 abstract:
 - content: <p>Various network protocols make use of binary-encoded timestamps that
     are incorporated in the protocol packet format, referred to as "packet timestamps"
-    for short.  This document specifies guidelines for defining packet timestamp formats
-    in networking protocols at various layers.  It also presents three recommended
-    timestamp formats.  The target audience of this document includes network protocol
-    designers.  It is expected that a new network protocol that requires a packet
-    timestamp will, in most cases, use one of the recommended timestamp formats.  If
-    none of the recommended formats fits the protocol requirements, the new protocol
-    specification should specify the format of the packet timestamp according to the
-    guidelines in this document.</p>
+    for short. This document specifies guidelines for defining packet timestamp formats
+    in networking protocols at various layers. It also presents three recommended
+    timestamp formats. The target audience of this document includes network protocol
+    designers. It is expected that a new network protocol that requires a packet timestamp
+    will, in most cases, use one of the recommended timestamp formats. If none of
+    the recommended formats fits the protocol requirements, the new protocol specification
+    should specify the format of the packet timestamp according to the guidelines
+    in this document.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

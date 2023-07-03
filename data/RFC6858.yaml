@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6858
 title:
 - content: Simplified POP and IMAP Downgrading for Internationalized Email
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a method for IMAP and POP servers to serve
-    internationalized messages to conventional clients.  The specification is simple,
+    internationalized messages to conventional clients. The specification is simple,
     easy to implement, and provides only rudimentary results.</p>"
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC3501
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

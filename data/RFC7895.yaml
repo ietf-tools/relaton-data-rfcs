@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7895
 title:
 - content: YANG Module Library
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document describes a YANG library that provides information about
     all the YANG modules used by a network management server (e.g., a Network Configuration
-    Protocol (NETCONF) server).  Simple caching mechanisms are provided to allow clients
+    Protocol (NETCONF) server). Simple caching mechanisms are provided to allow clients
     to minimize retrieval of this information.</p>"
   language:
   - en
@@ -144,6 +144,10 @@ relation:
       content: RFC8525
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

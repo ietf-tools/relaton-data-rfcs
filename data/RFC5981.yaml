@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5981
 title:
 - content: Authorization for NSIS Signaling Layer Protocols
@@ -154,13 +154,13 @@ script:
 abstract:
 - content: "<p>Signaling layer protocols specified within the Next Steps in Signaling
     (NSIS) framework may rely on the General Internet Signaling Transport (GIST) protocol
-    to handle authorization.  Still, the signaling layer protocol above GIST itself
+    to handle authorization. Still, the signaling layer protocol above GIST itself
     may require separate authorization to be performed when a node receives a request
-    for a certain kind of service or resources.  This document presents a generic
-    model and object formats for session authorization within the NSIS signaling layer
-    protocols.  The goal of session authorization is to allow the exchange of information
-    between network elements in order to authorize the use of resources for a service
-    and to coordinate actions between the signaling and transport planes.  This document
+    for a certain kind of service or resources. This document presents a generic model
+    and object formats for session authorization within the NSIS signaling layer protocols.
+    The goal of session authorization is to allow the exchange of information between
+    network elements in order to authorize the use of resources for a service and
+    to coordinate actions between the signaling and transport planes. This document
     defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

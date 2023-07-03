@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8679
 title:
 - content: MPLS Egress Protection Framework
@@ -212,11 +212,11 @@ script:
 abstract:
 - content: "<p>This document specifies a fast reroute framework for protecting IP/MPLS
     services and MPLS transport tunnels against egress node and egress link failures.
-    \ For each type of egress failure, it defines the roles of Point of Local Repair
+    For each type of egress failure, it defines the roles of Point of Local Repair
     (PLR), protector, and backup egress router and the procedures of establishing
-    a bypass tunnel from a PLR to a protector.  It describes the behaviors of these
+    a bypass tunnel from a PLR to a protector. It describes the behaviors of these
     routers in handling an egress failure, including local repair on the PLR and context-based
-    forwarding on the protector.  The framework can be used to develop egress protection
+    forwarding on the protector. The framework can be used to develop egress protection
     mechanisms to reduce traffic loss before global repair reacts to an egress failure
     and control-plane protocols converge on the topology changes due to the egress
     failure.</p>"
@@ -226,6 +226,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

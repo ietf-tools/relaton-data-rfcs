@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8660
 title:
 - content: Segment Routing with the MPLS Data Plane
@@ -210,10 +210,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Segment Routing (SR) leverages the source-routing paradigm.  A node
+- content: "<p>Segment Routing (SR) leverages the source-routing paradigm. A node
     steers a packet through a controlled set of instructions, called segments, by
-    prepending the packet with an SR header.  In the MPLS data plane, the SR header
-    is instantiated through a label stack.  This document specifies the forwarding
+    prepending the packet with an SR header. In the MPLS data plane, the SR header
+    is instantiated through a label stack. This document specifies the forwarding
     behavior to allow instantiating SR over the MPLS data plane (SR-MPLS).</p>"
   language:
   - en
@@ -221,6 +221,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

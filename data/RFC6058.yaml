@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6058
 title:
 - content: Transient Binding for Proxy Mobile IPv6
@@ -126,21 +126,24 @@ abstract:
 - content: "<p>This document specifies a mechanism that enhances Proxy Mobile IPv6
     protocol signaling to support the creation of a transient binding cache entry
     that is used to optimize the performance of dual radio handover, as well as single
-    radio handover.  This mechanism is applicable to the mobile node's inter-MAG (Mobility
+    radio handover. This mechanism is applicable to the mobile node's inter-MAG (Mobility
     Access Gateway) handover while using a single interface or different interfaces.
-    \ The handover problem space using the Proxy Mobile IPv6 base protocol is analyzed
+    The handover problem space using the Proxy Mobile IPv6 base protocol is analyzed
     and the use of transient binding cache entries at the local mobility anchor is
-    described.  The specified extension to the Proxy Mobile IPv6 protocol ensures
-    optimized forwarding of downlink as well as uplink packets between mobile nodes
-    and the network infrastructure and avoids superfluous packet forwarding delay
-    or even packet loss.  This document defines an Experimental Protocol for the Internet
-    community.</p>"
+    described. The specified extension to the Proxy Mobile IPv6 protocol ensures optimized
+    forwarding of downlink as well as uplink packets between mobile nodes and the
+    network infrastructure and avoids superfluous packet forwarding delay or even
+    packet loss. This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

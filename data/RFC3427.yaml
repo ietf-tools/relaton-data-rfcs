@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3427
 title:
 - content: Change Process for the Session Initiation Protocol (SIP)
@@ -211,14 +211,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo documents a process intended to apply architectural discipline
-    to the future development of the Session Initiation Protocol (SIP).  There have
-    been concerns with regards to new SIP proposals.  Specifically, that the addition
+    to the future development of the Session Initiation Protocol (SIP). There have
+    been concerns with regards to new SIP proposals. Specifically, that the addition
     of new SIP features can be damaging towards security and/or greatly increase the
-    complexity of the protocol.  The Transport Area directors, along with the SIP
-    and Session Initiation Proposal Investigation (SIPPING) working group chairs,
-    have provided suggestions for SIP modifications and extensions.  This document
-    specifies an Internet Best Current Practices for the Internet Community, and requests
-    discussion and suggestions for improvements.</p>"
+    complexity of the protocol. The Transport Area directors, along with the SIP and
+    Session Initiation Proposal Investigation (SIPPING) working group chairs, have
+    provided suggestions for SIP modifications and extensions. This document specifies
+    an Internet Best Current Practices for the Internet Community, and requests discussion
+    and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -236,6 +236,10 @@ relation:
       content: RFC5727
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

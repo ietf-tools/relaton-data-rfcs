@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6929
 title:
 - content: Remote Authentication Dial In User Service (RADIUS) Protocol Extensions
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The Remote Authentication Dial-In User Service (RADIUS) protocol is
-    nearing exhaustion of its current 8-bit Attribute Type space.  In addition, experience
+    nearing exhaustion of its current 8-bit Attribute Type space. In addition, experience
     shows a growing need for complex grouping, along with attributes that can carry
-    more than 253 octets of data.  This document defines changes to RADIUS that address
+    more than 253 octets of data. This document defines changes to RADIUS that address
     all of the above problems.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ relation:
       content: RFC6158
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

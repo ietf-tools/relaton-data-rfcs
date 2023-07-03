@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1542
 title:
 - content: Clarifications and Extensions for the Bootstrap Protocol
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>Some aspects of the BOOTP protocol were rather loosely defined in its
-    original specification.  In particular, only a general description was provided
+    original specification. In particular, only a general description was provided
     for the behavior of "BOOTP relay agents" (originally called "BOOTP forwarding
-    agents").  The client behavior description also suffered in certain ways.  This
+    agents"). The client behavior description also suffered in certain ways. This
     memo attempts to clarify and strengthen the specification in these areas. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC0951
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

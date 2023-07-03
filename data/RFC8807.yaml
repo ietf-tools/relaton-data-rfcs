@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8807
 title:
 - content: Login Security Extension for the Extensible Provisioning Protocol (EPP)
@@ -95,18 +95,22 @@ script:
 - Latn
 abstract:
 - content: "<p>The Extensible Provisioning Protocol (EPP) includes a client authentication
-    scheme that is based on a user identifier and password.  The structure of the
-    password field is defined by an XML Schema data type that specifies minimum and
-    maximum password length values, but there are no other provisions for password
-    management other than changing the password.  This document describes an EPP extension
-    that allows longer passwords to be created and adds additional security features
-    to the EPP login command and response.</p>"
+    scheme that is based on a user identifier and password. The structure of the password
+    field is defined by an XML Schema data type that specifies minimum and maximum
+    password length values, but there are no other provisions for password management
+    other than changing the password. This document describes an EPP extension that
+    allows longer passwords to be created and adds additional security features to
+    the EPP login command and response.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

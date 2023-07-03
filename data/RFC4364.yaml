@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4364
 title:
 - content: BGP/MPLS IP Virtual Private Networks (VPNs)
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes a method by which a Service Provider may use
-    an IP backbone to provide IP Virtual Private Networks (VPNs) for its customers.  This
-    method uses a "peer model", in which the customers' edge routers (CE routers)
+    an IP backbone to provide IP Virtual Private Networks (VPNs) for its customers.
+    This method uses a "peer model", in which the customers' edge routers (CE routers)
     send their routes to the Service Provider's edge routers (PE routers); there is
     no "overlay" visible to the customer's routing algorithm, and CE routers at different
-    sites do not peer with each other.  Data packets are tunneled through the backbone,
+    sites do not peer with each other. Data packets are tunneled through the backbone,
     so that the core routers do not need to know the VPN routes. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

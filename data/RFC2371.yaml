@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2371
 title:
 - content: Transaction Internet Protocol Version 3.0
@@ -124,16 +124,20 @@ script:
 - Latn
 abstract:
 - content: "<p>In many applications where different nodes cooperate on some work,
-    there is a need to guarantee that the work happens atomically.  That is, each
-    node must reach the same conclusion as to whether the work is to be completed,
-    even in the face of failures.  This document proposes a simple, easily-implemented
-    protocol for achieving this end. [STANDARDS-TRACK]</p>"
+    there is a need to guarantee that the work happens atomically. That is, each node
+    must reach the same conclusion as to whether the work is to be completed, even
+    in the face of failures. This document proposes a simple, easily-implemented protocol
+    for achieving this end. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

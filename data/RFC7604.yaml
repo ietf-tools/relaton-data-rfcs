@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7604
 title:
 - content: Comparison of Different NAT Traversal Techniques for Media Controlled by
@@ -97,11 +97,11 @@ script:
 abstract:
 - content: "<p>This document describes several Network Address Translator (NAT) traversal
     techniques that were considered to be used for establishing the RTP media flows
-    controlled by the Real-Time Streaming Protocol (RTSP).  Each technique includes
+    controlled by the Real-Time Streaming Protocol (RTSP). Each technique includes
     a description of how it would be used, the security implications of using it,
-    and any other deployment considerations it has.  There are also discussions on
+    and any other deployment considerations it has. There are also discussions on
     how NAT traversal techniques relate to firewalls and how each technique can be
-    applied in different use cases.  These findings were used when selecting the NAT
+    applied in different use cases. These findings were used when selecting the NAT
     traversal for RTSP 2.0, which is specified in a separate document.</p>"
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

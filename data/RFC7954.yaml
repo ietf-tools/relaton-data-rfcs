@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7954
 title:
 - content: Locator/ID Separation Protocol (LISP) Endpoint Identifier (EID) Block
@@ -153,15 +153,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This document directs IANA to allocate a /32 IPv6 prefix for use with
-    the Locator/ID Separation Protocol (LISP).  The prefix will be used for local
-    intra-domain routing and global endpoint identification, by sites deploying LISP
-    as Endpoint Identifier (EID) addressing space.</p>"
+    the Locator/ID Separation Protocol (LISP). The prefix will be used for local intra-domain
+    routing and global endpoint identification, by sites deploying LISP as Endpoint
+    Identifier (EID) addressing space.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6482
 title:
 - content: A Profile for Route Origin Authorizations (ROAs)
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a standard profile for Route Origin Authorizations
-    (ROAs).  A ROA is a digitally signed object that provides a means of verifying
+    (ROAs). A ROA is a digitally signed object that provides a means of verifying
     that an IP address block holder has authorized an Autonomous System (AS) to originate
     routes to one or more prefixes within the address block. [STANDARDS-TRACK]</p>"
   language:
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

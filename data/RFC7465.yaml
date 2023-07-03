@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7465
 title:
 - content: Prohibiting RC4 Cipher Suites
@@ -67,8 +67,7 @@ script:
 abstract:
 - content: "<p>This document requires that Transport Layer Security (TLS) clients
     and servers never negotiate the use of RC4 cipher suites when they establish connections.
-    \ This applies to all TLS versions.  This document updates RFCs 5246, 4346, and
-    2246.</p>"
+    This applies to all TLS versions. This document updates RFCs 5246, 4346, and 2246.</p>"
   language:
   - en
   script:
@@ -106,6 +105,10 @@ relation:
       content: RFC2246
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

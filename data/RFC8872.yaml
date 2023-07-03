@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8872
 title:
 - content: Guidelines for Using the Multiplexing Features of RTP to Support Multiple
@@ -184,9 +184,9 @@ script:
 abstract:
 - content: "<p>The Real-time Transport Protocol (RTP) is a flexible protocol that
     can be used in a wide range of applications, networks, and system topologies.
-    \ That flexibility makes for wide applicability but can complicate the application
-    design process.  One particular design question that has received much attention
-    is how to support multiple media streams in RTP.  This memo discusses the available
+    That flexibility makes for wide applicability but can complicate the application
+    design process. One particular design question that has received much attention
+    is how to support multiple media streams in RTP. This memo discusses the available
     options and design trade-offs, and provides guidelines on how to use the multiplexing
     features of RTP to support multiple media streams.</p>"
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

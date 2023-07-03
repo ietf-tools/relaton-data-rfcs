@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3697
 title:
 - content: IPv6 Flow Label Specification
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>This document specifies the IPv6 Flow Label field and the minimum requirements
     for IPv6 source nodes labeling flows, IPv6 nodes forwarding labeled packets, and
-    flow state establishment methods.  Even when mentioned as examples of possible
+    flow state establishment methods. Even when mentioned as examples of possible
     uses of the flow labeling, more detailed requirements for specific use cases are
-    out of scope for this document.  The usage of the Flow Label field enables efficient
+    out of scope for this document. The usage of the Flow Label field enables efficient
     IPv6 flow classification based only on IPv6 main header fields in fixed positions.
     [STANDARDS-TRACK]</p>"
   language:
@@ -176,6 +176,10 @@ relation:
       content: RFC6437
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

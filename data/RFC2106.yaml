@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2106
 title:
 - content: Data Link Switching Remote Access Protocol
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>This memo describes the Data Link Switching Remote Access Protocol
     that is used between workstations and routers to transport SNA/ NetBIOS traffic
-    over TCP sessions.  This memo provides information for the Internet community.
-    \ This memo does not specify an Internet standard of any kind.</p>"
+    over TCP sessions. This memo provides information for the Internet community.
+    This memo does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -144,6 +144,10 @@ relation:
       content: RFC2114
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

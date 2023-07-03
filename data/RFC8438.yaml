@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8438
 title:
 - content: IMAP Extension for STATUS=SIZE
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document adds a new capability called "STATUS=SIZE" to the Internet
-    Message Access Protocol (IMAP).  It allows retrieving the total storage size of
+    Message Access Protocol (IMAP). It allows retrieving the total storage size of
     a mailbox with a single STATUS command rather than retrieving and summing the
     sizes of all individual messages in that mailbox.</p>
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

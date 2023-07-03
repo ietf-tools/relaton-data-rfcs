@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1326
 title:
 - content: Mutual Encapsulation Considered Dangerous
@@ -66,15 +66,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a packet explosion problem that can occur with
-    mutual encapsulation of protocols (A encapsulates B and B encapsulates A).  This
-    memo provides information for the Internet community.  It does not specify an
-    Internet standard.</p>"
+    mutual encapsulation of protocols (A encapsulates B and B encapsulates A). This
+    memo provides information for the Internet community. It does not specify an Internet
+    standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

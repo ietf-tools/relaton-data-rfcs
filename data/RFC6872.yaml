@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6872
 title:
 - content: 'The Common Log Format (CLF) for the Session Initiation Protocol (SIP):
@@ -183,24 +183,28 @@ script:
 - Latn
 abstract:
 - content: "<p>Well-known web servers such as Apache and web proxies like Squid support
-    event logging using a common log format.  The logs produced using these de facto
+    event logging using a common log format. The logs produced using these de facto
     standard formats are invaluable to system administrators for troubleshooting a
     server and tool writers to craft tools that mine the log files and produce reports
-    and trends.  Furthermore, these log files can also be used to train anomaly detection
-    systems and feed events into a security event management system.  The Session
-    Initiation Protocol (SIP) does not have a common log format, and, as a result,
-    each server supports a distinct log format that makes it unnecessarily complex
-    to produce tools to do trend analysis and security detection.  This document describes
-    a framework, including requirements and analysis of existing approaches, and specifies
-    an information model for development of a SIP common log file format that can
-    be used uniformly by user agents, proxies, registrars, and redirect servers as
-    well as back-to-back user agents.</p>"
+    and trends. Furthermore, these log files can also be used to train anomaly detection
+    systems and feed events into a security event management system. The Session Initiation
+    Protocol (SIP) does not have a common log format, and, as a result, each server
+    supports a distinct log format that makes it unnecessarily complex to produce
+    tools to do trend analysis and security detection. This document describes a framework,
+    including requirements and analysis of existing approaches, and specifies an information
+    model for development of a SIP common log file format that can be used uniformly
+    by user agents, proxies, registrars, and redirect servers as well as back-to-back
+    user agents.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

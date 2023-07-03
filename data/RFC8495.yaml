@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8495
 title:
 - content: Allocation Token Extension for the Extensible Provisioning Protocol (EPP)
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes an Extensible Provisioning Protocol (EPP) extension
-    for including an Allocation Token in "query" and "transform" commands.  The Allocation
+    for including an Allocation Token in "query" and "transform" commands. The Allocation
     Token is used as a credential that authorizes a client to request the allocation
     of a specific object from the server using one of the EPP transform commands,
     including "create" and "transfer".</p>
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

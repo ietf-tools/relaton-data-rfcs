@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC848
 title:
 - content: Who provides the "little" TCP services?
@@ -66,14 +66,18 @@ script:
 - Latn
 abstract:
 - content: '<p>This RFC lists those hosts which provide any of these "little" TCP
-    services: The list of hosts were taken from the NIC hostname table of 24-Feb-83.  The
-    tests were run on February 23 and 24, and March 3 and 5 from ISI-VAXA.ARPA.</p>'
+    services: The list of hosts were taken from the NIC hostname table of 24-Feb-83.
+    The tests were run on February 23 and 24, and March 3 and 5 from ISI-VAXA.ARPA.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

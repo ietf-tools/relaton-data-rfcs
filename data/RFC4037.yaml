@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4037
 title:
 - content: Open Pluggable Edge Services (OPES) Callout Protocol (OCP) Core
@@ -66,19 +66,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the core of the Open Pluggable Edge Services
-    (OPES) Callout Protocol (OCP).  OCP marshals application messages from other communication
+    (OPES) Callout Protocol (OCP). OCP marshals application messages from other communication
     protocols: An OPES intermediary sends original application messages to a callout
     server; the callout server sends adapted application messages back to the processor.
-    \ OCP is designed with typical adaptation tasks in mind (e.g., virus and spam
-    management, language and format translation, message anonymization, or advertisement
-    manipulation).  As defined in this document, the OCP Core consists of application-agnostic
-    mechanisms essential for efficient support of typical adaptations. [STANDARDS-TRACK]</p>"
+    OCP is designed with typical adaptation tasks in mind (e.g., virus and spam management,
+    language and format translation, message anonymization, or advertisement manipulation).
+    As defined in this document, the OCP Core consists of application-agnostic mechanisms
+    essential for efficient support of typical adaptations. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

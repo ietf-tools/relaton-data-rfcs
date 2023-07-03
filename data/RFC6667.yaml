@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6667
 title:
 - content: LDP 'Typed Wildcard' Forwarding Equivalence Class (FEC) for PWid and Generalized
@@ -126,16 +126,21 @@ script:
 abstract:
 - content: <p>The "Typed Wildcard Forwarding Equivalence Class (FEC) Element" defines
     an extension to the Label Distribution Protocol (LDP) that can be used when requesting,
-    withdrawing, or releasing all label bindings for a given FEC Element type is desired.  However,
-    a Typed Wildcard FEC Element must be individually defined for each FEC Element
-    type.  This specification defines the Typed Wildcard FEC Elements for the Pseudowire
-    Identifier (PWid) (0x80) and Generalized PWid (0x81) FEC Element types. [STANDARDS-TRACK]</p>
+    withdrawing, or releasing all label bindings for a given FEC Element type is desired.
+    However, a Typed Wildcard FEC Element must be individually defined for each FEC
+    Element type. This specification defines the Typed Wildcard FEC Elements for the
+    Pseudowire Identifier (PWid) (0x80) and Generalized PWid (0x81) FEC Element types.
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

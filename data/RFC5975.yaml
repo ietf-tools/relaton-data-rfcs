@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5975
 title:
 - content: QSPEC Template for the Quality-of-Service NSIS Signaling Layer Protocol
@@ -155,23 +155,27 @@ script:
 abstract:
 - content: "<p>The Quality-of-Service (QoS) NSIS signaling layer protocol (NSLP) is
     used to signal QoS reservations and is independent of a specific QoS model (QOSM)
-    such as IntServ or Diffserv.  Rather, all information specific to a QOSM is encapsulated
-    in a separate object, the QSPEC.  This document defines a template for the QSPEC
-    including a number of QSPEC parameters.  The QSPEC parameters provide a common
+    such as IntServ or Diffserv. Rather, all information specific to a QOSM is encapsulated
+    in a separate object, the QSPEC. This document defines a template for the QSPEC
+    including a number of QSPEC parameters. The QSPEC parameters provide a common
     language to be reused in several QOSMs and thereby aim to ensure the extensibility
-    and interoperability of QoS NSLP.  While the base protocol is QOSM-agnostic, the
+    and interoperability of QoS NSLP. While the base protocol is QOSM-agnostic, the
     parameters that can be carried in the QSPEC object are possibly closely coupled
-    to specific models.  The node initiating the NSIS signaling adds an Initiator
-    QSPEC, which indicates the QSPEC parameters that must be interpreted by the downstream
+    to specific models. The node initiating the NSIS signaling adds an Initiator QSPEC,
+    which indicates the QSPEC parameters that must be interpreted by the downstream
     nodes less the reservation fails, thereby ensuring the intention of the NSIS initiator
-    is preserved along the signaling path.  This document defines an Experimental
-    Protocol for the Internet community.</p>"
+    is preserved along the signaling path. This document defines an Experimental Protocol
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

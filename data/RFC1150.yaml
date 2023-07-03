@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1150
 title:
 - content: 'FYI on FYI: Introduction to the FYI Notes'
@@ -105,8 +105,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo is the first in a new sub-series of RFCs called FYIs (For
-    Your Information).  This memo provides information for the Internet community.
-    \ It does not specify any standard. [Also FYI 1.]</p>"
+    Your Information). This memo provides information for the Internet community.
+    It does not specify any standard. [Also FYI 1.]</p>"
   language:
   - en
   script:
@@ -124,6 +124,10 @@ relation:
       content: RFC6360
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

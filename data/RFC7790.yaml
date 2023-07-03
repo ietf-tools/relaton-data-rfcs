@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7790
 title:
 - content: Mapping Characters for Classes of the Preparation, Enforcement, and Comparison
@@ -97,15 +97,15 @@ script:
 abstract:
 - content: "<p>The framework for the preparation, enforcement, and comparison of internationalized
     strings (PRECIS) defines several classes of strings for use in application protocols.
-    \ Because many protocols perform case-sensitive or case-insensitive string comparison,
-    it is necessary to define methods for case mapping.  In addition, both the Internationalized
+    Because many protocols perform case-sensitive or case-insensitive string comparison,
+    it is necessary to define methods for case mapping. In addition, both the Internationalized
     Domain Names in Applications (IDNA) and the PRECIS problem statement describe
     mappings for internationalized strings that are not limited to case, but include
     width mapping and mapping of delimiters and other special characters that can
-    be taken into consideration.  This document provides guidelines for designers
-    of PRECIS profiles and describes several mappings that can be applied between
-    receiving user input and passing permitted code points to internationalized protocols.
-    \ In particular, this document describes both locale-dependent and context-depending
+    be taken into consideration. This document provides guidelines for designers of
+    PRECIS profiles and describes several mappings that can be applied between receiving
+    user input and passing permitted code points to internationalized protocols. In
+    particular, this document describes both locale-dependent and context-depending
     case mappings as well as additional mappings for delimiters and special characters.</p>"
   language:
   - en
@@ -113,6 +113,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5459
 title:
 - content: 'G.729.1 RTP Payload Format Update: Discontinuous Transmission (DTX) Support'
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document updates the Real-time Transport Protocol (RTP) payload
     format to be used for the International Telecommunication Union (ITU-T) Recommendation
-    G.729.1 audio codec.  It adds Discontinuous Transmission (DTX) support to the
-    RFC 4749 specification, in a backward-compatible way.  An updated media type registration
+    G.729.1 audio codec. It adds Discontinuous Transmission (DTX) support to the RFC
+    4749 specification, in a backward-compatible way. An updated media type registration
     is included for this payload format. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC4749
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

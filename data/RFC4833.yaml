@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4833
 title:
 - content: Timezone Options for DHCP
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>Two common ways to communicate timezone information are POSIX 1003.1
-    timezone strings and timezone database names.  This memo specifies DHCP options
-    for each of those methods.  The DHCPv4 time offset option is deprecated. [STANDARDS-TRACK]</p>"
+    timezone strings and timezone database names. This memo specifies DHCP options
+    for each of those methods. The DHCPv4 time offset option is deprecated. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -114,6 +114,10 @@ relation:
       content: RFC2132
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

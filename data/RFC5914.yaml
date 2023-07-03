@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5914
 title:
 - content: Trust Anchor Format
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a structure for representing trust anchor information.
-    \ A trust anchor is an authoritative entity represented by a public key and associated
-    data.  The public key is used to verify digital signatures, and the associated
+    A trust anchor is an authoritative entity represented by a public key and associated
+    data. The public key is used to verify digital signatures, and the associated
     data is used to constrain the types of information or actions for which the trust
-    anchor is authoritative.  The structures defined in this document are intended
+    anchor is authoritative. The structures defined in this document are intended
     to satisfy the format-related requirements defined in Trust Anchor Management
     Requirements. [STANDARDS-TRACK]</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

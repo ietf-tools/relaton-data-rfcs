@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3720
 title:
 - content: Internet Small Computer Systems Interface (iSCSI)
@@ -182,14 +182,14 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes a transport protocol for Internet Small Computer
-    Systems Interface (iSCSI) that works on top of TCP.  The iSCSI protocol aims to
-    be fully compliant with the standardized SCSI architecture model.  SCSI is a popular
+    Systems Interface (iSCSI) that works on top of TCP. The iSCSI protocol aims to
+    be fully compliant with the standardized SCSI architecture model. SCSI is a popular
     family of protocols that enable systems to communicate with I/O devices, especially
-    storage devices.  SCSI protocols are request/response application protocols with
+    storage devices. SCSI protocols are request/response application protocols with
     a common standardized architecture model and basic command set, as well as standardized
-    command sets for different device classes (disks, tapes, media-changers etc.).  As
-    system interconnects move from the classical bus structure to a network structure,
-    SCSI has to be mapped to network transport protocols.  IP networks now meet the
+    command sets for different device classes (disks, tapes, media-changers etc.).
+    As system interconnects move from the classical bus structure to a network structure,
+    SCSI has to be mapped to network transport protocols. IP networks now meet the
     performance requirements of fast system interconnects and as such are good candidates
     to "carry" SCSI. [STANDARDS-TRACK]</p>
   language:
@@ -209,6 +209,10 @@ relation:
       content: RFC7143
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

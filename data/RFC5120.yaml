@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5120
 title:
 - content: 'M-ISIS: Multi Topology (MT) Routing in Intermediate System to Intermediate
@@ -126,9 +126,9 @@ script:
 abstract:
 - content: <p>This document describes an optional mechanism within Intermediate System
     to Intermediate Systems (IS-ISs) used today by many ISPs for IGP routing within
-    their clouds.  This document describes how to run, within a single IS-IS domain,
-    a set of independent IP topologies that we call Multi-Topologies (MTs).  This
-    MT extension can be used for a variety of purposes, such as an in-band management
+    their clouds. This document describes how to run, within a single IS-IS domain,
+    a set of independent IP topologies that we call Multi-Topologies (MTs). This MT
+    extension can be used for a variety of purposes, such as an in-band management
     network "on top" of the original IGP topology, maintaining separate IGP routing
     domains for isolated multicast or IPv6 islands within the backbone, or forcing
     a subset of an address space to follow a different topology. [STANDARDS-TRACK]</p>
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1447
 title:
 - content: Party MIB for version 2 of the Simple Network Management Protocol (SNMPv2)
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>The Administrative Model for SNMPv2 document [3] defines the properties
     associated with SNMPv2 parties, SNMPv2 contexts, and access control policies.
-    \ It is the purpose of this document, the Party MIB for SNMPv2, to define managed
+    It is the purpose of this document, the Party MIB for SNMPv2, to define managed
     objects which correspond to these properties. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

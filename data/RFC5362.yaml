@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5362
 title:
 - content: The Session Initiation Protocol (SIP) Pending Additions Event Package
@@ -65,7 +65,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document defines the SIP Pending Additions event package.  This
+- content: "<p>This document defines the SIP Pending Additions event package. This
     event package is used by SIP relays to inform user agents about the consent-related
     status of the entries to be added to a resource list. [STANDARDS-TRACK]</p>"
   language:
@@ -74,6 +74,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8386
 title:
 - content: Privacy Considerations for Protocols Relying on IP Broadcast or Multicast
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: "<p>A number of application-layer protocols make use of IP broadcast or
     multicast messages for functions such as local service discovery or name resolution.
-    \ Some of these functions can only be implemented efficiently using such mechanisms.
-    \ When using broadcast or multicast messages, a passive observer in the same broadcast
+    Some of these functions can only be implemented efficiently using such mechanisms.
+    When using broadcast or multicast messages, a passive observer in the same broadcast
     or multicast domain can trivially record these messages and analyze their content.
-    \ Therefore, designers of protocols that make use of broadcast or multicast messages
+    Therefore, designers of protocols that make use of broadcast or multicast messages
     need to take special care when designing their protocols.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

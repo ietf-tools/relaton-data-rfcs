@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4425
 title:
 - content: RTP Payload Format for Video Codec 1 (VC-1)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This memo specifies an RTP payload format for encapsulating Video Codec
     1 (VC-1) compressed bit streams, as defined by the Society of Motion Picture and
-    Television Engineers (SMPTE) standard, SMPTE 421M.  SMPTE is the main standardizing
+    Television Engineers (SMPTE) standard, SMPTE 421M. SMPTE is the main standardizing
     body in the motion imaging industry, and the SMPTE 421M standard defines a compressed
     video bit stream format and decoding process for television. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

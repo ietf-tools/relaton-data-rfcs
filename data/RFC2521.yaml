@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2521
 title:
 - content: ICMP Security Failures Messages
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies ICMP messages for indicating failures when
-    using IP Security Protocols (AH and ESP).  This document defines an Experimental
+    using IP Security Protocols (AH and ESP). This document defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -103,6 +103,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

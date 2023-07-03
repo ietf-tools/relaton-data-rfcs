@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7673
 title:
 - content: Using DNS-Based Authentication of Named Entities (DANE) TLSA Records with
@@ -128,9 +128,9 @@ abstract:
     (RFC 6698) describes how to use TLSA resource records secured by DNSSEC (RFC 4033)
     to associate a server's connection endpoint with its Transport Layer Security
     (TLS) certificate (thus enabling administrators of domain names to specify the
-    keys used in that domain's TLS servers).  However, application protocols that
-    use SRV records (RFC 2782) to indirectly name the target server connection endpoints
-    for a service domain name cannot apply the rules from RFC 6698.  Therefore, this
+    keys used in that domain's TLS servers). However, application protocols that use
+    SRV records (RFC 2782) to indirectly name the target server connection endpoints
+    for a service domain name cannot apply the rules from RFC 6698. Therefore, this
     document provides guidelines that enable such protocols to locate and use TLSA
     records.</p>"
   language:
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

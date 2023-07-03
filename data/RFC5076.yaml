@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5076
 title:
 - content: ENUM Validation Information Mapping for the Extensible Provisioning Protocol
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>This document describes an Extensible Provisioning Protocol (EPP) extension
     framework for mapping information about the validation process that has been applied
     for the E.164 number (or number range) that the E.164 Number Mapping (ENUM) domain
-    name is based on.  Specified in the Extensible Markup Language (XML), this mapping
+    name is based on. Specified in the Extensible Markup Language (XML), this mapping
     extends the EPP domain name mapping to provide an additional feature required
     for the provisioning of ENUM Domain Names. [STANDARDS-TRACK]</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

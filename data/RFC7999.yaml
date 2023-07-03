@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7999
 title:
 - content: BLACKHOLE Community
@@ -182,7 +182,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the use of a well-known Border Gateway Protocol
-    (BGP) community for destination-based blackholing in IP networks.  This well-known
+    (BGP) community for destination-based blackholing in IP networks. This well-known
     advisory transitive BGP community named "BLACKHOLE" allows an origin Autonomous
     System (AS) to specify that a neighboring network should discard any traffic destined
     towards the tagged IP prefix.</p>
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

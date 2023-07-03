@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4684
 title:
 - content: Constrained Route Distribution for Border Gateway Protocol/MultiProtocol
@@ -241,11 +241,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines Multi-Protocol BGP (MP-BGP) procedures that allow
-    BGP speakers to exchange Route Target reachability information.  This information
+    BGP speakers to exchange Route Target reachability information. This information
     can be used to build a route distribution graph in order to limit the propagation
     of Virtual Private Network (VPN) Network Layer Reachability Information (NLRI)
     between different autonomous systems or distinct clusters of the same autonomous
-    system.  This document updates RFC 4364. [STANDARDS-TRACK]</p>"
+    system. This document updates RFC 4364. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -263,6 +263,10 @@ relation:
       content: RFC4364
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

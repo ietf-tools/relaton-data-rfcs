@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8940
 title:
 - content: Extensible Authentication Protocol (EAP) Session-Id Derivation for EAP
@@ -68,13 +68,13 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 5247 is updated to define and clarify EAP Session-Id derivation
-    for multiple Extensible Authentication Protocol (EAP) methods.  The derivation
+    for multiple Extensible Authentication Protocol (EAP) methods. The derivation
     of Session-Id was not given for EAP Subscriber Identity Module (EAP-SIM) or EAP
     Authentication and Key Agreement (EAP-AKA) when using the fast reconnect exchange
-    instead of full authentication.  The derivation of Session-Id for full authentication
-    is clarified for both EAP-SIM and EAP-AKA.  The derivation of Session-Id for Protected
-    EAP (PEAP) is also given.  The definition for PEAP follows the definition for
-    other TLS-based EAP methods.</p>"
+    instead of full authentication. The derivation of Session-Id for full authentication
+    is clarified for both EAP-SIM and EAP-AKA. The derivation of Session-Id for Protected
+    EAP (PEAP) is also given. The definition for PEAP follows the definition for other
+    TLS-based EAP methods.</p>"
   language:
   - en
   script:
@@ -92,6 +92,10 @@ relation:
       content: RFC5247
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

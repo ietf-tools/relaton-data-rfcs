@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7089
 title:
 - content: HTTP Framework for Time-Based Access to Resource States -- Memento
@@ -124,18 +124,22 @@ script:
 - Latn
 abstract:
 - content: "<p>The HTTP-based Memento framework bridges the present and past Web.
-    \ It facilitates obtaining representations of prior states of a given resource
-    by introducing datetime negotiation and TimeMaps.  Datetime negotiation is a variation
+    It facilitates obtaining representations of prior states of a given resource by
+    introducing datetime negotiation and TimeMaps. Datetime negotiation is a variation
     on content negotiation that leverages the given resource's URI and a user agent's
-    preferred datetime.  TimeMaps are lists that enumerate URIs of resources that
-    encapsulate prior states of the given resource.  The framework also facilitates
-    recognizing a resource that encapsulates a frozen prior state of another resource.</p>"
+    preferred datetime. TimeMaps are lists that enumerate URIs of resources that encapsulate
+    prior states of the given resource. The framework also facilitates recognizing
+    a resource that encapsulates a frozen prior state of another resource.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

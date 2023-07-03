@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3656
 title:
 - content: The Mailbox Update (MUPDATE) Distributed Mailbox Database Protocol
@@ -68,10 +68,10 @@ abstract:
 - content: "<p>As the demand for high-performance mail delivery agents increases,
     it becomes apparent that single-machine solutions are inadequate to the task,
     both because of capacity limits and that the failure of the single machine means
-    a loss of mail delivery for all users.  It is preferable to allow many machines
-    to share the responsibility of mail delivery.  The Mailbox Update (MUPDATE) protocol
+    a loss of mail delivery for all users. It is preferable to allow many machines
+    to share the responsibility of mail delivery. The Mailbox Update (MUPDATE) protocol
     allows a group of Internet Message Access Protocol (IMAP) or Post Office Protocol
-    - Version 3 (POP3) servers to function with a unified mailbox namespace.  This
+    - Version 3 (POP3) servers to function with a unified mailbox namespace. This
     document is intended to serve as a reference guide to that protocol.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

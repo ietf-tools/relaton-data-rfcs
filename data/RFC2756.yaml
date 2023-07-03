@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2756
 title:
 - content: Hyper Text Caching Protocol (HTCP/0.0)
@@ -96,14 +96,18 @@ script:
 abstract:
 - content: "<p>This document describes HTCP, a protocol for discovering HTTP caches
     and cached data, managing sets of HTTP caches, and monitoring cache activity.
-    \ This is an experimental protocol, one among several proposals to perform these
-    functions.  This memo defines an Experimental Protocol for the Internet community.</p>"
+    This is an experimental protocol, one among several proposals to perform these
+    functions. This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

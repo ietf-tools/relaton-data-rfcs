@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8564
 title:
 - content: Support of Point-to-Multipoint Bidirectional Forwarding Detection (BFD)
@@ -125,10 +125,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Point-to-multipoint (P2MP) Bidirectional Forwarding Detection (BFD)
-    is designed to verify multipoint connectivity.  This document specifies the support
-    of P2MP BFD in Transparent Interconnection of Lots of Links (TRILL).  Similar
-    to TRILL point-to-point BFD, BFD Control packets in TRILL P2MP BFD are transmitted
-    using RBridge Channel messages.  This document updates RFCs 7175 and 7177.</p>"
+    is designed to verify multipoint connectivity. This document specifies the support
+    of P2MP BFD in Transparent Interconnection of Lots of Links (TRILL). Similar to
+    TRILL point-to-point BFD, BFD Control packets in TRILL P2MP BFD are transmitted
+    using RBridge Channel messages. This document updates RFCs 7175 and 7177.</p>"
   language:
   - en
   script:
@@ -156,6 +156,10 @@ relation:
       content: RFC7177
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

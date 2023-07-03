@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8138
 title:
 - content: IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) Routing Header
@@ -155,7 +155,7 @@ abstract:
 - content: "<p>This specification introduces a new IPv6 over Low-Power Wireless Personal
     Area Network (6LoWPAN) dispatch type for use in 6LoWPAN route-over topologies,
     which initially covers the needs of Routing Protocol for Low-Power and Lossy Networks
-    (RPL) data packet compression (RFC 6550).  Using this dispatch type, this specification
+    (RPL) data packet compression (RFC 6550). Using this dispatch type, this specification
     defines a method to compress the RPL Option (RFC 6553) information and Routing
     Header type 3 (RFC 6554), an efficient IP-in-IP technique, and is extensible for
     more applications.</p>"
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

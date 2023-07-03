@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8305
 title:
 - content: 'Happy Eyeballs Version 2: Better Connectivity Using Concurrency'
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: <p>Many communication protocols operating over the modern Internet use
-    hostnames.  These often resolve to multiple IP addresses, each of which may have
-    different performance and connectivity characteristics.  Since specific addresses
+    hostnames. These often resolve to multiple IP addresses, each of which may have
+    different performance and connectivity characteristics. Since specific addresses
     or address families (IPv4 or IPv6) may be blocked, broken, or sub-optimal on a
     network, clients that attempt multiple connections in parallel have a chance of
-    establishing a connection more quickly.  This document specifies requirements
-    for algorithms that reduce this user-visible delay and provides an example algorithm,
-    referred to as "Happy Eyeballs".  This document obsoletes the original algorithm
+    establishing a connection more quickly. This document specifies requirements for
+    algorithms that reduce this user-visible delay and provides an example algorithm,
+    referred to as "Happy Eyeballs". This document obsoletes the original algorithm
     description in RFC 6555.</p>
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4405
 title:
 - content: SMTP Service Extension for Indicating the Responsible Submitter of an E-Mail
@@ -97,17 +97,21 @@ script:
 abstract:
 - content: "<p>This memo defines an extension to the Simple Mail Transfer Protocol
     (SMTP) service that allows an SMTP client to specify the responsible submitter
-    of an e-mail message.  The responsible submitter is the e-mail address of the
-    entity most recently responsible for introducing a message into the transport
-    stream.  This extension helps receiving e-mail servers efficiently determine whether
-    the SMTP client is authorized to transmit mail on behalf of the responsible submitter's
-    domain.  This memo defines an Experimental Protocol for the Internet community.</p>"
+    of an e-mail message. The responsible submitter is the e-mail address of the entity
+    most recently responsible for introducing a message into the transport stream.
+    This extension helps receiving e-mail servers efficiently determine whether the
+    SMTP client is authorized to transmit mail on behalf of the responsible submitter's
+    domain. This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

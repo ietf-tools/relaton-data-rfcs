@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6957
 title:
 - content: Duplicate Address Detection Proxy
@@ -142,17 +142,21 @@ abstract:
 - content: <p>The document describes a proxy-based mechanism allowing the use of Duplicate
     Address Detection (DAD) by IPv6 nodes in a point-to-multipoint architecture with
     a "split-horizon" forwarding scheme, primarily deployed for Digital Subscriber
-    Line (DSL) and Fiber access architectures.  Based on the DAD signaling, the first-hop
+    Line (DSL) and Fiber access architectures. Based on the DAD signaling, the first-hop
     router stores in a Binding Table all known IPv6 addresses used on a point-to-multipoint
-    domain (e.g., VLAN).  When a node performs DAD for an address already used by
-    another node, the first-hop router defends the address rather than the device
-    using the address.</p>
+    domain (e.g., VLAN). When a node performs DAD for an address already used by another
+    node, the first-hop router defends the address rather than the device using the
+    address.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

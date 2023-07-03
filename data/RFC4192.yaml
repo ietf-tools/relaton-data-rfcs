@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4192
 title:
 - content: Procedures for Renumbering an IPv6 Network without a Flag Day
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes a procedure that can be used to renumber a network
-    from one prefix to another.  It uses IPv6's intrinsic ability to assign multiple
+    from one prefix to another. It uses IPv6's intrinsic ability to assign multiple
     addresses to a network interface to provide continuity of network service through
     a "make-before-break" transition, as well as addresses naming and configuration
-    management issues.  It also uses other IPv6 features to minimize the effort and
-    time required to complete the transition from the old prefix to the new prefix.  This
-    memo provides information for the Internet community.</p>
+    management issues. It also uses other IPv6 features to minimize the effort and
+    time required to complete the transition from the old prefix to the new prefix.
+    This memo provides information for the Internet community.</p>
   language:
   - en
   script:
@@ -147,6 +147,10 @@ relation:
       content: RFC2072
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

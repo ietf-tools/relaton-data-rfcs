@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6959
 title:
 - content: Source Address Validation Improvement (SAVI) Threat Scope
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>The Source Address Validation Improvement (SAVI) effort aims to complement
     ingress filtering with finer-grained, standardized IP source address validation.
-    \ This document describes threats enabled by IP source address spoofing both in
+    This document describes threats enabled by IP source address spoofing both in
     the global and finer-grained context, describes currently available solutions
     and challenges, and provides a starting point analysis for finer-grained (host
     granularity) anti-spoofing work.</p>"
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

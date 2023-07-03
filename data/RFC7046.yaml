@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7046
 title:
 - content: A Common API for Transparent Hybrid Multicast
@@ -124,21 +124,21 @@ script:
 - Latn
 abstract:
 - content: "<p>Group communication services exist in a large variety of flavors and
-    technical implementations at different protocol layers.  Multicast data distribution
+    technical implementations at different protocol layers. Multicast data distribution
     is most efficiently performed on the lowest available layer, but a heterogeneous
     deployment status of multicast technologies throughout the Internet requires an
-    adaptive service binding at runtime.  Today, it is difficult to write an application
+    adaptive service binding at runtime. Today, it is difficult to write an application
     that runs everywhere and at the same time makes use of the most efficient multicast
-    service available in the network.  Facing robustness requirements, developers
-    are frequently forced to use a stable upper-layer protocol provided by the application
-    itself.  This document describes a common multicast API that is suitable for transparent
+    service available in the network. Facing robustness requirements, developers are
+    frequently forced to use a stable upper-layer protocol provided by the application
+    itself. This document describes a common multicast API that is suitable for transparent
     communication in underlay and overlay and that grants access to the different
-    flavors of multicast.  It proposes an abstract naming scheme that uses multicast
+    flavors of multicast. It proposes an abstract naming scheme that uses multicast
     URIs, and it discusses mapping mechanisms between different namespaces and distribution
-    technologies.  Additionally, this document describes the application of this API
+    technologies. Additionally, this document describes the application of this API
     for building gateways that interconnect current Multicast Domains throughout the
-    Internet.  It reports on an implementation of the programming Interface, including
-    service middleware.  This document is a product of the Scalable Adaptive Multicast
+    Internet. It reports on an implementation of the programming Interface, including
+    service middleware. This document is a product of the Scalable Adaptive Multicast
     (SAM) Research Group.</p>"
   language:
   - en
@@ -146,6 +146,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IRTF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

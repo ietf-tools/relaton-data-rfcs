@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8893
 title:
 - content: Resource Public Key Infrastructure (RPKI) Origin Validation for BGP Export
@@ -126,10 +126,10 @@ abstract:
 - content: "<p>A BGP speaker may perform Resource Public Key Infrastructure (RPKI)
     origin validation not only on routes received from BGP neighbors and routes that
     are redistributed from other routing protocols, but also on routes it sends to
-    BGP neighbors.  For egress policy, it is important that the classification use
+    BGP neighbors. For egress policy, it is important that the classification use
     the 'effective origin AS' of the processed route, which may specifically be altered
     by the commonly available knobs, such as removing private ASes, confederation
-    handling, and other modifications of the origin AS.  This document updates RFC
+    handling, and other modifications of the origin AS. This document updates RFC
     6811.</p>"
   language:
   - en
@@ -148,6 +148,10 @@ relation:
       content: RFC6811
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

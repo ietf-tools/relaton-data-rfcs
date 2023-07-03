@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8052
 title:
 - content: Group Domain of Interpretation (GDOI) Protocol Support for IEC 62351 Security
@@ -126,16 +126,20 @@ script:
 abstract:
 - content: "<p>The IEC 61850 power utility automation family of standards describes
     methods using Ethernet and IP for distributing control and data frames within
-    and between substations.  The IEC 61850-90-5 and IEC 62351-9 standards specify
+    and between substations. The IEC 61850-90-5 and IEC 62351-9 standards specify
     the use of the Group Domain of Interpretation (GDOI) protocol (RFC 6407) to distribute
-    security transforms for some IEC 61850 security protocols.  This memo defines
-    GDOI payloads to support those security protocols.</p>"
+    security transforms for some IEC 61850 security protocols. This memo defines GDOI
+    payloads to support those security protocols.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

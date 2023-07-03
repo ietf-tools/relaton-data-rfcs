@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6679
 title:
 - content: Explicit Congestion Notification (ECN) for RTP over UDP
@@ -183,11 +183,11 @@ script:
 abstract:
 - content: "<p>This memo specifies how Explicit Congestion Notification (ECN) can
     be used with the Real-time Transport Protocol (RTP) running over UDP, using the
-    RTP Control Protocol (RTCP) as a feedback mechanism.  It defines a new RTCP Extended
+    RTP Control Protocol (RTCP) as a feedback mechanism. It defines a new RTCP Extended
     Report (XR) block for periodic ECN feedback, a new RTCP transport feedback message
     for timely reporting of congestion events, and a Session Traversal Utilities for
     NAT (STUN) extension used in the optional initialisation method using Interactive
-    Connectivity Establishment (ICE).  Signalling and procedures for negotiation of
+    Connectivity Establishment (ICE). Signalling and procedures for negotiation of
     capabilities and initialisation methods are also defined. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

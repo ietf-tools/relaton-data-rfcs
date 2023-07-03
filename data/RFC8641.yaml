@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8641
 title:
 - content: Subscription to YANG Notifications for Datastore Updates
@@ -96,14 +96,18 @@ script:
 abstract:
 - content: "<p>This document describes a mechanism that allows subscriber applications
     to request a continuous and customized stream of updates from a YANG datastore.
-    \ Providing such visibility into updates enables new capabilities based on the
-    remote mirroring and monitoring of configuration and operational state.</p>"
+    Providing such visibility into updates enables new capabilities based on the remote
+    mirroring and monitoring of configuration and operational state.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

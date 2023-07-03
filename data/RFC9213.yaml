@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9213
 title:
 - content: Targeted HTTP Cache Control
@@ -125,14 +125,18 @@ script:
 abstract:
 - content: "<p>This specification defines a convention for HTTP response header fields
     that allow cache directives to be targeted at specific caches or classes of caches.
-    \ It also defines one such header field, the CDN-Cache-Control response header
-    field, which is targeted at content delivery network (CDN) caches.</p>"
+    It also defines one such header field, the CDN-Cache-Control response header field,
+    which is targeted at content delivery network (CDN) caches.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

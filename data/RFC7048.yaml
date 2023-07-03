@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7048
 title:
 - content: Neighbor Unreachability Detection Is Too Impatient
@@ -95,14 +95,14 @@ script:
 - Latn
 abstract:
 - content: "<p>IPv6 Neighbor Discovery includes Neighbor Unreachability Detection.
-    \ That function is very useful when a host has an alternative neighbor -- for
-    instance, when there are multiple default routers -- since it allows the host
-    to switch to the alternative neighbor in a short time.  By default, this time
-    is 3 seconds after the node starts probing.  However, if there are no alternative
-    neighbors, this timeout behavior is far too impatient.  This document specifies
-    relaxed rules for Neighbor Discovery retransmissions that allow an implementation
-    to choose different timeout behavior based on whether or not there are alternative
-    neighbors.  This document updates RFC 4861.</p>"
+    That function is very useful when a host has an alternative neighbor -- for instance,
+    when there are multiple default routers -- since it allows the host to switch
+    to the alternative neighbor in a short time. By default, this time is 3 seconds
+    after the node starts probing. However, if there are no alternative neighbors,
+    this timeout behavior is far too impatient. This document specifies relaxed rules
+    for Neighbor Discovery retransmissions that allow an implementation to choose
+    different timeout behavior based on whether or not there are alternative neighbors.
+    This document updates RFC 4861.</p>"
   language:
   - en
   script:
@@ -120,6 +120,10 @@ relation:
       content: RFC4861
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

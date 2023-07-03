@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2845
 title:
 - content: Secret Key Transaction Authentication for DNS (TSIG)
@@ -153,7 +153,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This protocol allows for transaction level authentication using shared
-    secrets and one way hashing.  It can be used to authenticate dynamic updates as
+    secrets and one way hashing. It can be used to authenticate dynamic updates as
     coming from an approved client, or to authenticate responses as coming from an
     approved recursive name server. [STANDARDS-TRACK]</p>"
   language:
@@ -183,6 +183,10 @@ relation:
       content: RFC1035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8104
 title:
 - content: Pseudowire (PW) Endpoint Fast Failure Protection
@@ -155,12 +155,12 @@ abstract:
 - content: "<p>This document specifies a fast mechanism for protecting pseudowires
     (PWs) transported by IP/MPLS tunnels against egress endpoint failures, including
     egress attachment circuit (AC) failure, egress provider edge (PE) failure, multi-segment
-    PW terminating PE failure, and multi-segment PW switching PE failure.  Operating
+    PW terminating PE failure, and multi-segment PW switching PE failure. Operating
     on the basis of multihomed customer edge (CE), redundant PWs, upstream label assignment,
     and context-specific label switching, the mechanism enables local repair to be
-    performed by the router upstream adjacent to a failure.  The router can restore
+    performed by the router upstream adjacent to a failure. The router can restore
     a PW in the order of tens of milliseconds, by rerouting traffic around the failure
-    to a protector through a pre-established bypass tunnel.  Therefore, the mechanism
+    to a protector through a pre-established bypass tunnel. Therefore, the mechanism
     can be used to reduce traffic loss before global repair reacts to the failure
     and the network converges on the topology changes due to the failure.</p>"
   language:
@@ -169,6 +169,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

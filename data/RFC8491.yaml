@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8491
 title:
 - content: Signaling Maximum SID Depth (MSD) Using IS-IS
@@ -154,18 +154,22 @@ script:
 abstract:
 - content: "<p>This document defines a way for an Intermediate System to Intermediate
     System (IS-IS) router to advertise multiple types of supported Maximum SID Depths
-    (MSDs) at node and/or link granularity.  Such advertisements allow entities (e.g.,
+    (MSDs) at node and/or link granularity. Such advertisements allow entities (e.g.,
     centralized controllers) to determine whether a particular Segment ID (SID) stack
-    can be supported in a given network.  This document only defines one type of MSD:
-    Base MPLS Imposition.  However, it defines an encoding that can support other
-    MSD types.  This document focuses on MSD use in a network that is Segment Routing
-    (SR) enabled, but MSD may also be useful when SR is not enabled.</p>"
+    can be supported in a given network. This document only defines one type of MSD:
+    Base MPLS Imposition. However, it defines an encoding that can support other MSD
+    types. This document focuses on MSD use in a network that is Segment Routing (SR)
+    enabled, but MSD may also be useful when SR is not enabled.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3224
 title:
 - content: Vendor Extensions for Service Location Protocol, Version 2
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: '<p>This document specifies how the features of the Service Location Protocol,
-    Version 2 allow for vendor extensibility safely, with no possibility of collisions.  The
-    specification introduces a new SLPv2 extension: The Vendor Opaque Extension.  While
-    proprietary protocol extensions are not encouraged by IETF standards, it is important
-    that they not hinder interoperability of compliant implementations when they are
-    undertaken.  This document udpates RFC 2608, "The Service Location Protocol."
-    [STANDARDS-TRACK]</p>'
+    Version 2 allow for vendor extensibility safely, with no possibility of collisions.
+    The specification introduces a new SLPv2 extension: The Vendor Opaque Extension.
+    While proprietary protocol extensions are not encouraged by IETF standards, it
+    is important that they not hinder interoperability of compliant implementations
+    when they are undertaken. This document udpates RFC 2608, "The Service Location
+    Protocol." [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
@@ -89,6 +89,10 @@ relation:
       content: RFC2608
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

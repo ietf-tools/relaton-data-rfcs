@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5775
 title:
 - content: Asynchronous Layered Coding (ALC) Protocol Instantiation
@@ -124,18 +124,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Asynchronous Layered Coding (ALC) protocol,
-    a massively scalable reliable content delivery protocol.  Asynchronous Layered
+    a massively scalable reliable content delivery protocol. Asynchronous Layered
     Coding combines the Layered Coding Transport (LCT) building block, a multiple
     rate congestion control building block and the Forward Error Correction (FEC)
     building block to provide congestion controlled reliable asynchronous delivery
     of content to an unlimited number of concurrent receivers from a single sender.
-    \ This document obsoletes RFC 3450. [STANDARDS-TRACK]</p>"
+    This document obsoletes RFC 3450. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

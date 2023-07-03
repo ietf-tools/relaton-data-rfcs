@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6104
 title:
 - content: Rogue IPv6 Router Advertisement Problem Statement
@@ -96,16 +96,16 @@ script:
 abstract:
 - content: "<p>When deploying IPv6, whether IPv6-only or dual-stack, routers are configured
     to send IPv6 Router Advertisements (RAs) to convey information to nodes that enable
-    them to autoconfigure on the network.  This information includes the implied default
+    them to autoconfigure on the network. This information includes the implied default
     router address taken from the observed source address of the RA message, as well
-    as on-link prefix information.  However, unintended misconfigurations by users
+    as on-link prefix information. However, unintended misconfigurations by users
     or administrators, or possibly malicious attacks on the network, may lead to bogus
     RAs being present, which in turn can cause operational problems for hosts on the
-    network.  In this document, we summarise the scenarios in which rogue RAs may
-    be observed and present a list of possible solutions to the problem.  We focus
-    on the unintended causes of rogue RAs in the text.  The goal of this text is to
-    be Informational, and as such to present a framework around which solutions can
-    be proposed and discussed.  This document is not an Internet Standards Track specification;
+    network. In this document, we summarise the scenarios in which rogue RAs may be
+    observed and present a list of possible solutions to the problem. We focus on
+    the unintended causes of rogue RAs in the text. The goal of this text is to be
+    Informational, and as such to present a framework around which solutions can be
+    proposed and discussed. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -113,6 +113,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

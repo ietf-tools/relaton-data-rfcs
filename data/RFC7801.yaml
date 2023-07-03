@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7801
 title:
 - content: 'GOST R 34.12-2015: Block Cipher "Kuznyechik"'
@@ -67,15 +67,19 @@ script:
 abstract:
 - content: <p>This document is intended to be a source of information about the Russian
     Federal standard GOST R 34.12-2015 describing the block cipher with a block length
-    of n=128 bits and a key length of k=256 bits, which is also referred to as "Kuznyechik".  This
-    algorithm is one of the set of Russian cryptographic standard algorithms (called
-    GOST algorithms).</p>
+    of n=128 bits and a key length of k=256 bits, which is also referred to as "Kuznyechik".
+    This algorithm is one of the set of Russian cryptographic standard algorithms
+    (called GOST algorithms).</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

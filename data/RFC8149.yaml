@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8149
 title:
 - content: RSVP Extensions for Reoptimization of Loosely Routed Point-to-Multipoint
@@ -186,12 +186,12 @@ abstract:
     (TE) Label Switched Path (LSP) may be triggered based on the need to reoptimize
     an individual source-to-leaf (S2L) sub-LSP or a set of S2L sub-LSPs, both using
     the Sub-Group-based reoptimization method, or the entire P2MP-TE LSP tree using
-    the Make-Before-Break (MBB) method.  This document discusses the application of
+    the Make-Before-Break (MBB) method. This document discusses the application of
     the existing mechanisms for path reoptimization of loosely routed Point-to-Point
     (P2P) TE LSPs to the P2MP-TE LSPs, identifies issues in doing so, and defines
-    procedures to address them.  When reoptimizing a large number of S2L sub-LSPs
-    in a tree using the Sub-Group-based reoptimization method, the S2L sub-LSP descriptor
-    list may need to be semantically fragmented.  This document defines the notion
+    procedures to address them. When reoptimizing a large number of S2L sub-LSPs in
+    a tree using the Sub-Group-based reoptimization method, the S2L sub-LSP descriptor
+    list may need to be semantically fragmented. This document defines the notion
     of a fragment identifier to help recipient nodes unambiguously reconstruct the
     fragmented S2L sub-LSP descriptor list.</p>"
   language:
@@ -200,6 +200,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

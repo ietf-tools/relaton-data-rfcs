@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7939
 title:
 - content: Definition of Managed Objects for the Neighborhood Discovery Protocol
@@ -153,13 +153,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document replaces RFC 6779; it contains revisions and extensions
-    to the original document.  It defines a portion of the Management Information
-    Base (MIB) for use with network management protocols in the Internet community.
-    \ In particular, it describes objects for configuring parameters of the Neighborhood
-    Discovery Protocol (NHDP) process on a router.  The extensions described in this
+    to the original document. It defines a portion of the Management Information Base
+    (MIB) for use with network management protocols in the Internet community. In
+    particular, it describes objects for configuring parameters of the Neighborhood
+    Discovery Protocol (NHDP) process on a router. The extensions described in this
     document add objects and values to support the NHDP optimization specified in
-    RFC 7466.  The MIB module defined in this document, denoted NHDP-MIB, also reports
-    state, performance information, and notifications about NHDP.  This additional
+    RFC 7466. The MIB module defined in this document, denoted NHDP-MIB, also reports
+    state, performance information, and notifications about NHDP. This additional
     state and performance information is useful to troubleshoot problems and performance
     issues during neighbor discovery.</p>"
   language:
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

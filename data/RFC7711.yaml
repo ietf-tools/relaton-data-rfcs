@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7711
 title:
 - content: PKIX over Secure HTTP (POSH)
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Experience has shown that it is difficult to deploy proper PKIX certificates
-    for Transport Layer Security (TLS) in multi-tenanted environments.  As a result,
+    for Transport Layer Security (TLS) in multi-tenanted environments. As a result,
     domains hosted in such environments often deploy applications using certificates
-    that identify the hosting service, not the hosted domain.  Such deployments force
+    that identify the hosting service, not the hosted domain. Such deployments force
     end users and peer services to accept a certificate with an improper identifier,
-    resulting in degraded security.  This document defines methods that make it easier
+    resulting in degraded security. This document defines methods that make it easier
     to deploy certificates for proper server identity checking in non-HTTP application
-    protocols.  Although these methods were developed for use in the Extensible Messaging
+    protocols. Although these methods were developed for use in the Extensible Messaging
     and Presence Protocol (XMPP) as a Domain Name Association (DNA) prooftype, they
     might also be usable in other non-HTTP application protocols.</p>"
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

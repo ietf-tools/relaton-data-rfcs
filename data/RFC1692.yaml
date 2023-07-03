@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1692
 title:
 - content: Transport Multiplexing Protocol (TMux)
@@ -153,8 +153,8 @@ script:
 - Latn
 abstract:
 - content: "<p>One of the problems with the use of terminal servers is the large number
-    of small packets they can generate.  Frequently, most of these packets are destined
-    for only one or two hosts.  TMux is a protocol which allows multiple short transport
+    of small packets they can generate. Frequently, most of these packets are destined
+    for only one or two hosts. TMux is a protocol which allows multiple short transport
     segments, independent of application type, to be combined between a server and
     host pair.</p>"
   language:
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

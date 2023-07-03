@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6470
 title:
 - content: Network Configuration Protocol (NETCONF) Base Notifications
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The Network Configuration Protocol (NETCONF) provides mechanisms to
-    manipulate configuration datastores.  However, client applications often need
-    to be aware of common events, such as a change in NETCONF server capabilities,
-    that may impact management applications.  Standard mechanisms are needed to support
-    the monitoring of the base system events within the NETCONF server.  This document
+    manipulate configuration datastores. However, client applications often need to
+    be aware of common events, such as a change in NETCONF server capabilities, that
+    may impact management applications. Standard mechanisms are needed to support
+    the monitoring of the base system events within the NETCONF server. This document
     defines a YANG module that allows a NETCONF client to receive notifications for
     some common system events. [STANDARDS-TRACK]</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

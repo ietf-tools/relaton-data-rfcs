@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8227
 title:
 - content: MPLS-TP Shared-Ring Protection (MSRP) Mechanism for Ring Topology
@@ -183,8 +183,8 @@ script:
 abstract:
 - content: "<p>This document describes requirements, architecture, and solutions for
     MPLS-TP Shared-Ring Protection (MSRP) in a ring topology for point- to-point (P2P)
-    services.  The MSRP mechanism is described to meet the ring protection requirements
-    as described in RFC 5654.  This document defines the Ring Protection Switching
+    services. The MSRP mechanism is described to meet the ring protection requirements
+    as described in RFC 5654. This document defines the Ring Protection Switching
     (RPS) protocol that is used to coordinate the protection behavior of the nodes
     on an MPLS ring.</p>"
   language:
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

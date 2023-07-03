@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7135
 title:
 - content: Registering a SIP Resource Priority Header Field Namespace for Local Emergency
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document creates the new Session Initiation Protocol (SIP) Resource
     Priority header field namespace 'esnet' and registers this namespace with IANA.
-    \ The new header field namespace allows for local emergency session establishment
+    The new header field namespace allows for local emergency session establishment
     to a public safety answering point (PSAP), between PSAPs, and between a PSAP and
     first responders and their organizations.</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

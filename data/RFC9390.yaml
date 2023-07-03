@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9390
 title:
 - content: Diameter Group Signaling
@@ -124,13 +124,13 @@ script:
 - Latn
 abstract:
 - content: "<p>In large network deployments, a single Diameter node can support over
-    a million concurrent Diameter sessions.  In some use cases, Diameter nodes need
+    a million concurrent Diameter sessions. In some use cases, Diameter nodes need
     to apply the same operation to a large group of Diameter sessions concurrently.
-    \ The Diameter base protocol commands operate on a single session so these use
-    cases can result in many thousands of command exchanges enforcing the same operation
-    on each session in the group.  In order to reduce signaling, it is desirable to
+    The Diameter base protocol commands operate on a single session so these use cases
+    can result in many thousands of command exchanges enforcing the same operation
+    on each session in the group. In order to reduce signaling, it is desirable to
     enable bulk operations on all (or part of) the sessions managed by a Diameter
-    node using a single or a few command exchanges.  This document specifies the Diameter
+    node using a single or a few command exchanges. This document specifies the Diameter
     protocol extensions to achieve this signaling optimization.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

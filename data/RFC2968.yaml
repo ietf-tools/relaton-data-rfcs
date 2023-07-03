@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2968
 title:
 - content: Mesh of Multiple DAG servers - Results from TISDAG
@@ -96,14 +96,14 @@ script:
 abstract:
 - content: "<p>This document defines the basic principle for establishing a mesh,
     that interoperating services should exchange index objects, according to the architecture
-    of the mesh (e.g., hierarchical, or graph-like, preferably without loops!).  The
+    of the mesh (e.g., hierarchical, or graph-like, preferably without loops!). The
     Common Indexing Protocol (CIP) is designed to facilitate the creation not only
     of query referral indexes, but also of meshes of (loosely) affiliated referral
-    indexes.  The purpose of such a mesh of servers is to implement some kind of distributed
-    sharing of indexing and/or searching tasks across different servers.  So far,
-    the TISDAG (Technical Infrastructure for Swedish Directory Access Gateways) project
+    indexes. The purpose of such a mesh of servers is to implement some kind of distributed
+    sharing of indexing and/or searching tasks across different servers. So far, the
+    TISDAG (Technical Infrastructure for Swedish Directory Access Gateways) project
     has focused on creating a single referral index; the obvious next step is to integrate
-    that into a larger set of interoperating services.  This memo provides information
+    that into a larger set of interoperating services. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

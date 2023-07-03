@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8339
 title:
 - content: Definition of P2MP PW TLV for Label Switched Path (LSP) Ping Mechanisms
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Label Switched Path (LSP) Ping is a widely deployed Operation, Administration,
-    and Maintenance (OAM) mechanism in MPLS networks.  This document describes a mechanism
+    and Maintenance (OAM) mechanism in MPLS networks. This document describes a mechanism
     to verify connectivity of Point-to-Multipoint (P2MP) Pseudowires (PWs) using LSP
     Ping.</p>"
   language:
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

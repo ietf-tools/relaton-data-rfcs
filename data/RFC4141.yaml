@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4141
 title:
 - content: SMTP and MIME Extensions for Content Conversion
@@ -96,12 +96,12 @@ script:
 abstract:
 - content: "<p>A message originator sometimes sends content in a form the recipient
     cannot process or would prefer not to process a form of lower quality than is
-    preferred.  Such content needs to be converted to an acceptable form, with the
+    preferred. Such content needs to be converted to an acceptable form, with the
     same information or constrained information (e.g., changing from color to black
-    and white).  In a store-and-forward environment, it may be convenient to have
-    this conversion performed by an intermediary.  This specification integrates two
-    ESMTP extensions and three MIME content header fields, which defines a cooperative
-    service that permits authorized, accountable content form conversion by intermediaries.
+    and white). In a store-and-forward environment, it may be convenient to have this
+    conversion performed by an intermediary. This specification integrates two ESMTP
+    extensions and three MIME content header fields, which defines a cooperative service
+    that permits authorized, accountable content form conversion by intermediaries.
     [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

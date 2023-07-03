@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5754
 title:
 - content: Using SHA2 Algorithms with Cryptographic Message Syntax
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This document describes the conventions for using the Secure Hash Algorithm
     (SHA) message digest algorithms (SHA-224, SHA-256, SHA-384, SHA-512) with the
-    Cryptographic Message Syntax (CMS).  It also describes the conventions for using
+    Cryptographic Message Syntax (CMS). It also describes the conventions for using
     these algorithms with the CMS and the Digital Signature Algorithm (DSA), Rivest
-    Shamir Adleman (RSA), and Elliptic Curve DSA (ECDSA) signature algorithms.  Further,
+    Shamir Adleman (RSA), and Elliptic Curve DSA (ECDSA) signature algorithms. Further,
     it provides SMIMECapabilities attribute values for each algorithm. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC3370
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

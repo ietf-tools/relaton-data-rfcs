@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1982
 title:
 - content: Serial Number Arithmetic
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>The DNS has long relied upon serial number arithmetic, a concept which
     has never really been defined, certainly not in an IETF document, though which
-    has been widely understood.  This memo supplies the missing definition.  It is
-    intended to update RFC1034 and RFC1035. [STANDARDS-TRACK]</p>"
+    has been widely understood. This memo supplies the missing definition. It is intended
+    to update RFC1034 and RFC1035. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -125,6 +125,10 @@ relation:
       content: RFC1035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3941
 title:
 - content: Negative-Acknowledgment (NACK)-Oriented Reliable Multicast (NORM) Building
@@ -154,13 +154,13 @@ script:
 - Latn
 abstract:
 - content: <p>This document discusses the creation of negative-acknowledgment (NACK)-oriented
-    reliable multicast (NORM) protocols.  The rationale for NORM goals and assumptions
-    are presented.  Technical challenges for NACK-oriented (and in some cases general)
-    reliable multicast protocol operation are identified.  These goals and challenges
+    reliable multicast (NORM) protocols. The rationale for NORM goals and assumptions
+    are presented. Technical challenges for NACK-oriented (and in some cases general)
+    reliable multicast protocol operation are identified. These goals and challenges
     are resolved into a set of functional "building blocks" that address different
-    aspects of NORM protocol operation.  It is anticipated that these building blocks
-    will be useful in generating different instantiations of reliable multicast protocols.  This
-    memo defines an Experimental Protocol for the Internet community.</p>
+    aspects of NORM protocol operation. It is anticipated that these building blocks
+    will be useful in generating different instantiations of reliable multicast protocols.
+    This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
@@ -178,6 +178,10 @@ relation:
       content: RFC5401
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

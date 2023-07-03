@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8582
 title:
 - content: Diameter Overload Rate Control
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification documents an extension to the Diameter Overload
-    Indication Conveyance (DOIC) base solution, which is defined in RFC 7683.  This
-    extension adds a new overload-control abatement algorithm.  This abatement algorithm
+    Indication Conveyance (DOIC) base solution, which is defined in RFC 7683. This
+    extension adds a new overload-control abatement algorithm. This abatement algorithm
     allows for a DOIC reporting node to specify a maximum rate at which a DOIC reacting
     node sends Diameter requests to the DOIC reporting node.</p>"
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

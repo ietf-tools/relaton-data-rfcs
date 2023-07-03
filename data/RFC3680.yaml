@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3680
 title:
 - content: A Session Initiation Protocol (SIP) Event Package for Registrations
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Session Initiation Protocol (SIP) event package
-    for registrations.  Through its REGISTER method, SIP allows a user agent to create,
-    modify, and delete registrations.  Registrations can also be altered by administrators
-    in order to enforce policy.  As a result, these registrations represent a piece
-    of state in the network that can change dynamically.  There are many cases where
-    a user agent would like to be notified of changes in this state.  This event package
+    for registrations. Through its REGISTER method, SIP allows a user agent to create,
+    modify, and delete registrations. Registrations can also be altered by administrators
+    in order to enforce policy. As a result, these registrations represent a piece
+    of state in the network that can change dynamically. There are many cases where
+    a user agent would like to be notified of changes in this state. This event package
     defines a mechanism by which those user agents can request and obtain such notifications.
     [STANDARDS-TRACK]</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

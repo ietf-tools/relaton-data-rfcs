@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6580
 title:
 - content: IANA Registries for the Remote Direct Data Placement (RDDP) Protocols
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>The original RFCs that specified the Remote Direct Data Placement (RDDP)
     protocol suite did not create IANA registries for RDDP error codes, operation
-    codes, and function codes.  Extensions to the RDDP protocols now require these
-    registries to be created.  This memo creates the RDDP registries, populates them
+    codes, and function codes. Extensions to the RDDP protocols now require these
+    registries to be created. This memo creates the RDDP registries, populates them
     with values defined in the original RDDP RFCs, and provides guidance to IANA for
     future assignment of code points within these registries. [STANDARDS-TRACK]</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

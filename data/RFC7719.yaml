@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7719
 title:
 - content: DNS Terminology
@@ -123,10 +123,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>The DNS is defined in literally dozens of different RFCs.  The terminology
+- content: "<p>The DNS is defined in literally dozens of different RFCs. The terminology
     used by implementers and developers of DNS protocols, and by operators of DNS
     systems, has sometimes changed in the decades since the DNS was first defined.
-    \ This document gives current definitions for many of the terms used in the DNS
+    This document gives current definitions for many of the terms used in the DNS
     in a single document.</p>"
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC8499
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3561
 title:
 - content: Ad hoc On-Demand Distance Vector (AODV) Routing
@@ -124,19 +124,23 @@ script:
 - Latn
 abstract:
 - content: <p>The Ad hoc On-Demand Distance Vector (AODV) routing protocol is intended
-    for use by mobile nodes in an ad hoc network.  It offers quick adaptation to dynamic
+    for use by mobile nodes in an ad hoc network. It offers quick adaptation to dynamic
     link conditions, low processing and memory overhead, low network utilization,
-    and determines unicast routes to destinations within the ad hoc network.  It uses
+    and determines unicast routes to destinations within the ad hoc network. It uses
     destination sequence numbers to ensure loop freedom at all times (even in the
     face of anomalous delivery of routing control messages), avoiding problems (such
-    as "counting to infinity") associated with classical distance vector protocols.  This
-    memo defines an Experimental Protocol for the Internet community.</p>
+    as "counting to infinity") associated with classical distance vector protocols.
+    This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

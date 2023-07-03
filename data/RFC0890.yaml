@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC890
 title:
 - content: Exterior Gateway Protocol implementation schedule
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo is a policy statement on the implementation of the Exterior
-    Gateway Protocol in the Internet.  This is an official policy statement of ICCB
-    and DARPA.  After 1-Aug-84 there shall be no dumb gateways in the Internet.  Every
-    gateway must be a member of some autonomous system.  Some gateway of each autonomous
+    Gateway Protocol in the Internet. This is an official policy statement of ICCB
+    and DARPA. After 1-Aug-84 there shall be no dumb gateways in the Internet. Every
+    gateway must be a member of some autonomous system. Some gateway of each autonomous
     system must exchange routing information with some gateway of the core autonomous
     system using the Exterior Gateway Protocol.</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

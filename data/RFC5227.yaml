@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5227
 title:
 - content: IPv4 Address Conflict Detection
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>When two hosts on the same link attempt to use the same IPv4 address
     at the same time (except in rare special cases where this has been arranged by
-    prior coordination), problems ensue for one or both hosts.  This document describes
+    prior coordination), problems ensue for one or both hosts. This document describes
     (i) a simple precaution that a host can take in advance to help prevent this misconfiguration
     from happening, and (ii) if this misconfiguration does occur, a simple mechanism
     by which a host can passively detect, after the fact, that it has happened, so
@@ -89,6 +89,10 @@ relation:
       content: RFC0826
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

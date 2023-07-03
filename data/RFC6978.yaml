@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6978
 title:
 - content: A TCP Authentication Option Extension for NAT Traversal
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document describes an extension to the TCP Authentication Option
     (TCP-AO) to support its use over connections that pass through Network Address
-    Translators and/or Network Address and Port Translators (NATs/NAPTs).  This extension
+    Translators and/or Network Address and Port Translators (NATs/NAPTs). This extension
     changes the data used to compute traffic keys, but it does not alter TCP-AO's
     packet processing or key generation algorithms.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

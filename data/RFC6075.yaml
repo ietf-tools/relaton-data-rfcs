@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6075
 title:
 - content: The Internet Assigned Number Authority (IANA) Application Configuration
@@ -67,7 +67,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The original Application Configuration Access Protocol (ACAP) specification
-    included a vendor registry now used in other protocols.  This document updates
+    included a vendor registry now used in other protocols. This document updates
     the description of this registry, removing the need for a direct normative reference
     to ACAP and removing ambiguity. [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC2244
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

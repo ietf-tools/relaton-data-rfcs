@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5974
 title:
 - content: NSIS Signaling Layer Protocol (NSLP) for Quality-of-Service Signaling
@@ -124,21 +124,25 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification describes the NSIS Signaling Layer Protocol (NSLP)
-    for signaling Quality of Service (QoS) reservations in the Internet.  It is in
-    accordance with the framework and requirements developed in NSIS.  Together with
+    for signaling Quality of Service (QoS) reservations in the Internet. It is in
+    accordance with the framework and requirements developed in NSIS. Together with
     General Internet Signaling Transport (GIST), it provides functionality similar
-    to RSVP and extends it.  The QoS NSLP is independent of the underlying QoS specification
-    or architecture and provides support for different reservation models.  It is
-    simplified by the elimination of support for multicast flows.  This specification
-    explains the overall protocol approach, describes the design decisions made, and
-    provides examples.  It specifies object, message formats, and processing rules.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    to RSVP and extends it. The QoS NSLP is independent of the underlying QoS specification
+    or architecture and provides support for different reservation models. It is simplified
+    by the elimination of support for multicast flows. This specification explains
+    the overall protocol approach, describes the design decisions made, and provides
+    examples. It specifies object, message formats, and processing rules. This document
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

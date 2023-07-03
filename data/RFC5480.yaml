@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5480
 title:
 - content: Elliptic Curve Cryptography Subject Public Key Information
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: <p>This document specifies the syntax and semantics for the Subject Public
-    Key Information field in certificates that support Elliptic Curve Cryptography.  This
-    document updates Sections 2.3.5 and 5, and the ASN.1 module of "Algorithms and
-    Identifiers for the Internet X.509 Public Key Infrastructure Certificate and Certificate
-    Revocation List (CRL) Profile", RFC 3279. [STANDARDS-TRACK]</p>
+    Key Information field in certificates that support Elliptic Curve Cryptography.
+    This document updates Sections 2.3.5 and 5, and the ASN.1 module of "Algorithms
+    and Identifiers for the Internet X.509 Public Key Infrastructure Certificate and
+    Certificate Revocation List (CRL) Profile", RFC 3279. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -203,6 +203,10 @@ relation:
       content: RFC3279
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

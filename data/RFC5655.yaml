@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5655
 title:
 - content: Specification of the IP Flow Information Export (IPFIX) File Format
@@ -182,17 +182,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a file format for the storage of flow data
-    based upon the IP Flow Information Export (IPFIX) protocol.  It proposes a set
+    based upon the IP Flow Information Export (IPFIX) protocol. It proposes a set
     of requirements for flat-file, binary flow data file formats, then specifies the
-    IPFIX File format to meet these requirements based upon IPFIX Messages.  This
-    IPFIX File format is designed to facilitate interoperability and reusability among
-    a wide variety of flow storage, processing, and analysis tools. [STANDARDS TRACK]</p>"
+    IPFIX File format to meet these requirements based upon IPFIX Messages. This IPFIX
+    File format is designed to facilitate interoperability and reusability among a
+    wide variety of flow storage, processing, and analysis tools. [STANDARDS TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

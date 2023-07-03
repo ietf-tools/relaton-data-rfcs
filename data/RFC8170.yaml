@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8170
 title:
 - content: Planning for Protocol Adoption and Subsequent Transitions
@@ -67,18 +67,22 @@ script:
 abstract:
 - content: "<p>Over the many years since the introduction of the Internet Protocol,
     we have seen a number of transitions throughout the protocol stack, such as deploying
-    a new protocol, or updating or replacing an existing protocol.  Many protocols
+    a new protocol, or updating or replacing an existing protocol. Many protocols
     and technologies were not designed to enable smooth transition to alternatives
     or to easily deploy extensions; thus, some transitions, such as the introduction
-    of IPv6, have been difficult.  This document attempts to summarize some basic
-    principles to enable future transitions, and it also summarizes what makes for
-    a good transition plan.</p>"
+    of IPv6, have been difficult. This document attempts to summarize some basic principles
+    to enable future transitions, and it also summarizes what makes for a good transition
+    plan.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

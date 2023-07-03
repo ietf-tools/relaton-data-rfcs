@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7844
 title:
 - content: Anonymity Profiles for DHCP Clients
@@ -123,18 +123,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Some DHCP options carry unique identifiers.  These identifiers can
-    enable device tracking even if the device administrator takes care of randomizing
-    other potential identifications like link-layer addresses or IPv6 addresses.  The
-    anonymity profiles are designed for clients that wish to remain anonymous to the
-    visited network.  The profiles provide guidelines on the composition of DHCP or
-    DHCPv6 messages, designed to minimize disclosure of identifying information.</p>"
+- content: "<p>Some DHCP options carry unique identifiers. These identifiers can enable
+    device tracking even if the device administrator takes care of randomizing other
+    potential identifications like link-layer addresses or IPv6 addresses. The anonymity
+    profiles are designed for clients that wish to remain anonymous to the visited
+    network. The profiles provide guidelines on the composition of DHCP or DHCPv6
+    messages, designed to minimize disclosure of identifying information.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

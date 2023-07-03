@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9350
 title:
 - content: IGP Flexible Algorithm
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: "<p>IGP protocols historically compute the best paths over the network
-    based on the IGP metric assigned to the links.  Many network deployments use RSVP-TE
+    based on the IGP metric assigned to the links. Many network deployments use RSVP-TE
     or Segment Routing - Traffic Engineering (SR-TE) to steer traffic over a path
     that is computed using different metrics or constraints than the shortest IGP
-    path.  This document specifies a solution that allows IGPs themselves to compute
-    constraint-based paths over the network.  This document also specifies a way of
+    path. This document specifies a solution that allows IGPs themselves to compute
+    constraint-based paths over the network. This document also specifies a way of
     using Segment Routing (SR) Prefix-SIDs and SRv6 locators to steer packets along
     the constraint-based paths.</p>"
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

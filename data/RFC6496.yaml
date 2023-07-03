@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6496
 title:
 - content: Secure Proxy ND Support for SEcure Neighbor Discovery (SEND)
@@ -153,14 +153,14 @@ script:
 - Latn
 abstract:
 - content: "<p>SEcure Neighbor Discovery (SEND) specifies a method for securing Neighbor
-    Discovery (ND) signaling against specific threats.  As defined today, SEND assumes
+    Discovery (ND) signaling against specific threats. As defined today, SEND assumes
     that the node sending an ND message is the owner of the address from which the
     message is sent and/or possesses a key that authorizes the node to act as a router,
     so that it is in possession of the private key or keys used to generate the digital
-    signature on each message.  This means that the Proxy ND signaling performed by
+    signature on each message. This means that the Proxy ND signaling performed by
     nodes that do not possess knowledge of the address owner's private key and/or
-    knowledge of a router's key cannot be secured using SEND.  This document extends
-    the current SEND specification in order to secure Proxy ND operation.  This document
+    knowledge of a router's key cannot be secured using SEND. This document extends
+    the current SEND specification in order to secure Proxy ND operation. This document
     defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1900
 title:
 - content: Renumbering Needs Work
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: <p>Hosts in an IP network are identified by IP addresses, and the IP address
-    prefixes of subnets are advertised by routing protocols.  A change in such IP
-    addressing information associated with a host or subnet is known as "renumbering".  This
-    memo provides information for the Internet community.  This memo does not specify
-    an Internet standard of any kind.</p>
+    prefixes of subnets are advertised by routing protocols. A change in such IP addressing
+    information associated with a host or subnet is known as "renumbering". This memo
+    provides information for the Internet community. This memo does not specify an
+    Internet standard of any kind.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

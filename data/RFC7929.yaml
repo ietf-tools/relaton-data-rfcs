@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7929
 title:
 - content: DNS-Based Authentication of Named Entities (DANE) Bindings for OpenPGP
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: <p>OpenPGP is a message format for email (and file) encryption that lacks
-    a standardized lookup mechanism to securely obtain OpenPGP public keys.  DNS-Based
+    a standardized lookup mechanism to securely obtain OpenPGP public keys. DNS-Based
     Authentication of Named Entities (DANE) is a method for publishing public keys
-    in DNS.  This document specifies a DANE method for publishing and locating OpenPGP
+    in DNS. This document specifies a DANE method for publishing and locating OpenPGP
     public keys in DNS for a specific email address using a new OPENPGPKEY DNS resource
-    record.  Security is provided via Secure DNS, however the OPENPGPKEY record is
+    record. Security is provided via Secure DNS, however the OPENPGPKEY record is
     not a replacement for verification of authenticity via the "web of trust" or manual
-    verification.  The OPENPGPKEY record can be used to encrypt an email that would
+    verification. The OPENPGPKEY record can be used to encrypt an email that would
     otherwise have to be sent unencrypted.</p>
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9241
 title:
 - content: Content Delivery Network Interconnection (CDNI) Footprint and Capabilities
@@ -184,10 +184,10 @@ script:
 abstract:
 - content: <p>The Content Delivery Networks Interconnection (CDNI) framework in RFC
     6707 defines a set of protocols to interconnect CDNs to achieve multiple goals,
-    including extending the reach of a given CDN.  A CDNI Request Routing Footprint
+    including extending the reach of a given CDN. A CDNI Request Routing Footprint
     & Capabilities Advertisement interface (FCI) is needed to achieve the goals of
-    a CDNI.  RFC 8008 defines the FCI semantics and provides guidelines on the FCI
-    protocol, but the exact protocol is not specified.  This document defines a new
+    a CDNI. RFC 8008 defines the FCI semantics and provides guidelines on the FCI
+    protocol, but the exact protocol is not specified. This document defines a new
     Application-Layer Traffic Optimization (ALTO) service, called "CDNI Advertisement
     Service", that provides an implementation of the FCI, following the guidelines
     defined in RFC 8008.</p>
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

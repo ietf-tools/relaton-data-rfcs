@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1892
 title:
 - content: The Multipart/Report Content Type for the Reporting of Mail System Administrative
@@ -67,7 +67,7 @@ script:
 - Latn
 abstract:
 - content: <p>The Multipart/Report MIME content-type is a general "family" or "container"
-    type for electronic mail reports of any kind.  Although this memo defines only
+    type for electronic mail reports of any kind. Although this memo defines only
     the use of the Multipart/Report content-type with respect to delivery status reports,
     mail processing programs will benefit if a single content-type is used to for
     all kinds of reports. [STANDARDS-TRACK]</p>
@@ -88,6 +88,10 @@ relation:
       content: RFC3462
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

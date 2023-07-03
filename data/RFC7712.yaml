@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7712
 title:
 - content: Domain Name Associations (DNA) in the Extensible Messaging and Presence
@@ -125,18 +125,22 @@ script:
 - Latn
 abstract:
 - content: <p>This document improves the security of the Extensible Messaging and
-    Presence Protocol (XMPP) in two ways.  First, it specifies how to establish a
-    strong association between a domain name and an XML stream, using the concept
-    of "prooftypes".  Second, it describes how to securely delegate a service domain
-    name (e.g., example.com) to a target server hostname (e.g., hosting.example.net);
-    this is especially important in multi-tenanted environments where the same target
-    server hosts a large number of domains.</p>
+    Presence Protocol (XMPP) in two ways. First, it specifies how to establish a strong
+    association between a domain name and an XML stream, using the concept of "prooftypes".
+    Second, it describes how to securely delegate a service domain name (e.g., example.com)
+    to a target server hostname (e.g., hosting.example.net); this is especially important
+    in multi-tenanted environments where the same target server hosts a large number
+    of domains.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

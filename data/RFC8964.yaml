@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8964
 title:
 - content: 'Deterministic Networking (DetNet) Data Plane: MPLS'
@@ -211,9 +211,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the Deterministic Networking (DetNet) data
-    plane when operating over an MPLS Packet Switched Network.  It leverages existing
+    plane when operating over an MPLS Packet Switched Network. It leverages existing
     pseudowire (PW) encapsulations and MPLS Traffic Engineering (MPLS-TE) encapsulations
-    and mechanisms.  This document builds on the DetNet architecture and data plane
+    and mechanisms. This document builds on the DetNet architecture and data plane
     framework.</p>"
   language:
   - en
@@ -221,6 +221,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

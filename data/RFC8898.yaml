@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8898
 title:
 - content: Third-Party Token-Based Authentication and Authorization for Session Initiation
@@ -127,7 +127,7 @@ abstract:
 - content: <p>This document defines the "Bearer" authentication scheme for the Session
     Initiation Protocol (SIP) and a mechanism by which user authentication and SIP
     registration authorization is delegated to a third party, using the OAuth 2.0
-    framework and OpenID Connect Core 1.0.  This document updates RFC 3261 to provide
+    framework and OpenID Connect Core 1.0. This document updates RFC 3261 to provide
     guidance on how a SIP User Agent Client (UAC) responds to a SIP 401/407 response
     that contains multiple WWW-Authenticate/Proxy-Authenticate header fields.</p>
   language:
@@ -147,6 +147,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

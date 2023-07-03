@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3437
 title:
 - content: Layer-Two Tunneling Protocol Extensions for PPP Link Control Protocol Negotiation
@@ -96,15 +96,15 @@ script:
 abstract:
 - content: "<p>This document defines extensions to the Layer Two Tunneling Protocol
     (L2TP) for enhanced support of link-specific Point to Point Protocol (PPP) options.
-    \ PPP endpoints typically have direct access to the common physical media connecting
-    them and thus have detailed knowledge about the media that is in use.  When the
+    PPP endpoints typically have direct access to the common physical media connecting
+    them and thus have detailed knowledge about the media that is in use. When the
     L2TP is used, the two PPP peers are no longer directly connected over the same
-    physical media.  Instead, L2TP inserts a virtual connection over some or all of
+    physical media. Instead, L2TP inserts a virtual connection over some or all of
     the PPP connection by tunneling PPP frames over a packet switched network such
-    as IP.  Under some conditions, an L2TP endpoint may need to negotiate PPP Link
+    as IP. Under some conditions, an L2TP endpoint may need to negotiate PPP Link
     Control Protocol (LCP) options at a location which may not have access to all
     of the media information necessary for proper participation in the LCP negotiation.
-    \ This document provides a mechanism for communicating desired LCP options between
+    This document provides a mechanism for communicating desired LCP options between
     L2TP endpoints in advance of PPP LCP negotiation at the far end of an L2TP tunnel,
     as well as a mechanism for communicating the negotiated LCP options back to where
     the native PPP link resides. [STANDARDS-TRACK]</p>"
@@ -114,6 +114,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

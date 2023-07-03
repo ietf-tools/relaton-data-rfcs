@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6811
 title:
 - content: BGP Prefix Origin Validation
@@ -184,9 +184,9 @@ abstract:
 - content: "<p>To help reduce well-known threats against BGP including prefix mis-
     announcing and monkey-in-the-middle attacks, one of the security requirements
     is the ability to validate the origination Autonomous System (AS) of BGP routes.
-    \ More specifically, one needs to validate that the AS number claiming to originate
+    More specifically, one needs to validate that the AS number claiming to originate
     an address prefix (as derived from the AS_PATH attribute of the BGP route) is
-    in fact authorized by the prefix holder to do so.  This document describes a simple
+    in fact authorized by the prefix holder to do so. This document describes a simple
     validation mechanism to partially satisfy this requirement. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

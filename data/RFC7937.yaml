@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7937
 title:
 - content: Content Distribution Network Interconnection (CDNI) Logging Interface
@@ -154,8 +154,8 @@ script:
 abstract:
 - content: "<p>This memo specifies the Logging interface between a downstream Content
     Distribution Network (dCDN) and an upstream CDN (uCDN) that are interconnected
-    as per the CDN Interconnection (CDNI) framework.  First, it describes a reference
-    model for CDNI logging.  Then, it specifies the CDNI Logging File format and the
+    as per the CDN Interconnection (CDNI) framework. First, it describes a reference
+    model for CDNI logging. Then, it specifies the CDNI Logging File format and the
     actual protocol for exchange of CDNI Logging Files.</p>"
   language:
   - en
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

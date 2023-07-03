@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9372
 title:
 - content: L-Band Digital Aeronautical Communications System (LDACS)
@@ -125,20 +125,24 @@ script:
 abstract:
 - content: "<p>This document gives an overview of the L-band Digital Aeronautical
     Communications System (LDACS) architecture, which provides a secure, scalable,
-    and spectrum-efficient terrestrial data link for civil aviation.  LDACS is a scheduled
+    and spectrum-efficient terrestrial data link for civil aviation. LDACS is a scheduled
     and reliable multi-application cellular broadband system with support for IPv6.
-    \ It is part of a larger shift of flight guidance communication moving to IP-based
-    communication.  High reliability and availability of IP connectivity over LDACS,
-    as well as security, are therefore essential.  The intent of this document is
-    to introduce LDACS to the IETF community, raise awareness on related activities
-    inside and outside of the IETF, and to seek expertise in shaping the shift of
-    aeronautics to IP.</p>"
+    It is part of a larger shift of flight guidance communication moving to IP-based
+    communication. High reliability and availability of IP connectivity over LDACS,
+    as well as security, are therefore essential. The intent of this document is to
+    introduce LDACS to the IETF community, raise awareness on related activities inside
+    and outside of the IETF, and to seek expertise in shaping the shift of aeronautics
+    to IP.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4130
 title:
 - content: MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability
@@ -98,14 +98,14 @@ abstract:
 - content: <p>This document provides an applicability statement (RFC 2026, Section
     3.2) that describes how to exchange structured business data securely using the
     HTTP transfer protocol, instead of SMTP; the applicability statement for SMTP
-    is found in RFC 3335.  Structured business data may be XML; Electronic Data Interchange
+    is found in RFC 3335. Structured business data may be XML; Electronic Data Interchange
     (EDI) in either the American National Standards Committee (ANSI) X12 format or
     the UN Electronic Data Interchange for Administration, Commerce, and Transport
-    (UN/EDIFACT) format; or other structured data formats.  The data is packaged using
-    standard MIME structures.  Authentication and data confidentiality are obtained
-    by using Cryptographic Message Syntax with S/MIME security body parts.  Authenticated
+    (UN/EDIFACT) format; or other structured data formats. The data is packaged using
+    standard MIME structures. Authentication and data confidentiality are obtained
+    by using Cryptographic Message Syntax with S/MIME security body parts. Authenticated
     acknowledgements make use of multipart/signed Message Disposition Notification
-    (MDN) responses to the original HTTP message.  This applicability statement is
+    (MDN) responses to the original HTTP message. This applicability statement is
     informally referred to as "AS2" because it is the second applicability statement,
     produced after "AS1", RFC 3335. [STANDARDS-TRACK]</p>
   language:
@@ -114,6 +114,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

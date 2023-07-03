@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7267
 title:
 - content: Dynamic Placement of Multi-Segment Pseudowires
@@ -125,12 +125,12 @@ script:
 abstract:
 - content: "<p>RFC 5254 describes the service provider requirements for extending
     the reach of pseudowires (PWs) across multiple Packet Switched Network domains.
-    \ A multi-segment PW is defined as a set of two or more contiguous PW segments
-    that behave and function as a single point-to-point PW.  This document describes
-    extensions to the PW control protocol to dynamically place the segments of the
-    multi-segment pseudowire among a set of Provider Edge (PE) routers.  This document
-    also updates RFC 6073 by updating the value of the Length field of the PW Switching
-    Point PE Sub-TLV Type 0x06 to 14.</p>"
+    A multi-segment PW is defined as a set of two or more contiguous PW segments that
+    behave and function as a single point-to-point PW. This document describes extensions
+    to the PW control protocol to dynamically place the segments of the multi-segment
+    pseudowire among a set of Provider Edge (PE) routers. This document also updates
+    RFC 6073 by updating the value of the Length field of the PW Switching Point PE
+    Sub-TLV Type 0x06 to 14.</p>"
   language:
   - en
   script:
@@ -148,6 +148,10 @@ relation:
       content: RFC6073
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

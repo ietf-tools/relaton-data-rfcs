@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8156
 title:
 - content: DHCPv6 Failover Protocol
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: <p>DHCPv6 as defined in "Dynamic Host Configuration Protocol for IPv6 (DHCPv6)"
-    (RFC 3315) does not offer server redundancy.  This document defines a protocol
+    (RFC 3315) does not offer server redundancy. This document defines a protocol
     implementation to provide DHCPv6 failover, a mechanism for running two servers
     with the capability for either server to take over clients' leases in case of
-    server failure or network partition.  It meets the requirements for DHCPv6 failover
+    server failure or network partition. It meets the requirements for DHCPv6 failover
     detailed in "DHCPv6 Failover Requirements" (RFC 7031).</p>
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

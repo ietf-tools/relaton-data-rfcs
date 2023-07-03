@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7653
 title:
 - content: DHCPv6 Active Leasequery
@@ -125,12 +125,12 @@ script:
 abstract:
 - content: "<p>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) has been
     extended with a Leasequery capability that allows a requestor to request information
-    about DHCPv6 bindings.  That mechanism is limited to queries for DHCPv6 binding
+    about DHCPv6 bindings. That mechanism is limited to queries for DHCPv6 binding
     data updates prior to the time the DHCPv6 server receives the Leasequery request.
-    \ Continuous update of an external requestor with Leasequery data is sometimes
-    desired.  This document expands on the DHCPv6 Leasequery protocol and allows for
-    active transfer of real-time DHCPv6 binding information data via TCP.  This document
-    also updates DHCPv6 Bulk Leasequery (RFC 5460) by adding new options.</p>"
+    Continuous update of an external requestor with Leasequery data is sometimes desired.
+    This document expands on the DHCPv6 Leasequery protocol and allows for active
+    transfer of real-time DHCPv6 binding information data via TCP. This document also
+    updates DHCPv6 Bulk Leasequery (RFC 5460) by adding new options.</p>"
   language:
   - en
   script:
@@ -148,6 +148,10 @@ relation:
       content: RFC5460
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

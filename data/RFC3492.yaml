@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3492
 title:
 - content: 'Punycode: A Bootstring encoding of Unicode for Internationalized Domain
@@ -67,13 +67,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Punycode is a simple and efficient transfer encoding syntax designed
-    for use with Internationalized Domain Names in Applications (IDNA).  It uniquely
-    and reversibly transforms a Unicode string into an ASCII string.  ASCII characters
+    for use with Internationalized Domain Names in Applications (IDNA). It uniquely
+    and reversibly transforms a Unicode string into an ASCII string. ASCII characters
     in the Unicode string are represented literally, and non-ASCII characters are
     represented by ASCII characters that are allowed in host name labels (letters,
-    digits, and hyphens).  This document defines a general algorithm called Bootstring
+    digits, and hyphens). This document defines a general algorithm called Bootstring
     that allows a string of basic code points to uniquely represent any string of
-    code points drawn from a larger set.  Punycode is an instance of Bootstring that
+    code points drawn from a larger set. Punycode is an instance of Bootstring that
     uses particular parameter values specified by this document, appropriate for IDNA.
     [STANDARDS-TRACK]</p>"
   language:
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

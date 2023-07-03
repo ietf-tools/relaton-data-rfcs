@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5827
 title:
 - content: Early Retransmit for TCP and Stream Control Transmission Protocol (SCTP)
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: <p>This document proposes a new mechanism for TCP and Stream Control Transmission
     Protocol (SCTP) that can be used to recover lost segments when a connection's
-    congestion window is small.  The "Early Retransmit" mechanism allows the transport
+    congestion window is small. The "Early Retransmit" mechanism allows the transport
     to reduce, in certain special circumstances, the number of duplicate acknowledgments
-    required to trigger a fast retransmission.  This allows the transport to use fast
+    required to trigger a fast retransmission. This allows the transport to use fast
     retransmit to recover segment losses that would otherwise require a lengthy retransmission
     timeout. [STANDARDS-TRACK]</p>
   language:
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8770
 title:
 - content: Host Router Support for OSPFv2
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>The Open Shortest Path First Version 2 (OSPFv2) protocol does not have
     a mechanism for a node to repel transit traffic if it is on the shortest path.
-    \ This document defines a bit called the Host-bit (H-bit).  This bit enables a
-    router to advertise that it is a non-transit router.  This document also describes
-    the changes needed to support the H-bit in the domain.  In addition, this document
+    This document defines a bit called the Host-bit (H-bit). This bit enables a router
+    to advertise that it is a non-transit router. This document also describes the
+    changes needed to support the H-bit in the domain. In addition, this document
     updates RFC 6987 to advertise Type 2 External and Not-So-Stubby Area (NSSA) Link
     State Advertisements (LSAs) (RFC 3101) with a high cost in order to repel traffic
     effectively.</p>"
@@ -177,6 +177,10 @@ relation:
       content: RFC6987
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

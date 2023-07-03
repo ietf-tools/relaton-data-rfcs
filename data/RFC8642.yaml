@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8642
 title:
 - content: Policy Behavior for Well-Known BGP Communities
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Well-known BGP communities are manipulated differently across various
-    current implementations, resulting in difficulties for operators.  Network operators
+    current implementations, resulting in difficulties for operators. Network operators
     should deploy consistent community handling across their networks while taking
     the inconsistent behaviors from the various BGP implementations into consideration.
-    \ This document recommends specific actions to limit future inconsistency: namely,
+    This document recommends specific actions to limit future inconsistency: namely,
     BGP implementors must not create further inconsistencies from this point forward.
-    \ These behavioral changes, though subtle, actually update RFC 1997.</p>"
+    These behavioral changes, though subtle, actually update RFC 1997.</p>"
   language:
   - en
   script:
@@ -176,6 +176,10 @@ relation:
       content: RFC1997
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

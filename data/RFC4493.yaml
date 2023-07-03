@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4493
 title:
 - content: The AES-CMAC Algorithm
@@ -154,17 +154,21 @@ script:
 abstract:
 - content: "<p>The National Institute of Standards and Technology (NIST) has recently
     specified the Cipher-based Message Authentication Code (CMAC), which is equivalent
-    to the One-Key CBC MAC1 (OMAC1) submitted by Iwata and Kurosawa.  This memo specifies
+    to the One-Key CBC MAC1 (OMAC1) submitted by Iwata and Kurosawa. This memo specifies
     an authentication algorithm based on CMAC with the 128-bit Advanced Encryption
-    Standard (AES).  This new authentication algorithm is named AES-CMAC.  The purpose
+    Standard (AES). This new authentication algorithm is named AES-CMAC. The purpose
     of this document is to make the AES-CMAC algorithm conveniently available to the
-    Internet Community.  This memo provides information for the Internet community.</p>"
+    Internet Community. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

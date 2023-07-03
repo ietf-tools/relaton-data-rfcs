@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6672
 title:
 - content: DNAME Redirection in the DNS
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>The DNAME record provides redirection for a subtree of the domain name
-    tree in the DNS.  That is, all names that end with a particular suffix are redirected
-    to another part of the DNS.  This document obsoletes the original specification
+    tree in the DNS. That is, all names that end with a particular suffix are redirected
+    to another part of the DNS. This document obsoletes the original specification
     in RFC 2672 as well as updates the document on representing IPv6 addresses in
     DNS (RFC 3363). [STANDARDS-TRACK]</p>"
   language:
@@ -116,6 +116,10 @@ relation:
       content: RFC3363
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

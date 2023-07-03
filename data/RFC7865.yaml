@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7865
 title:
 - content: Session Initiation Protocol (SIP) Recording Metadata
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Session recording is a critical requirement in many communications
-    environments, such as call centers and financial trading organizations.  In some
+    environments, such as call centers and financial trading organizations. In some
     of these environments, all calls must be recorded for regulatory, compliance,
-    and consumer protection reasons.  The recording of a session is typically performed
-    by sending a copy of a media stream to a recording device.  This document describes
+    and consumer protection reasons. The recording of a session is typically performed
+    by sending a copy of a media stream to a recording device. This document describes
     the metadata model as viewed by the Session Recording Server (SRS) and the recording
     metadata format.</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

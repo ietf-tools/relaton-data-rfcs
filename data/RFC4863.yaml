@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4863
 title:
 - content: Wildcard Pseudowire Type
@@ -95,19 +95,23 @@ script:
 - Latn
 abstract:
 - content: "<p>Pseudowire signaling requires that the Pseudowire Type (PW Type) be
-    identical in both directions.  For certain applications the configuration of the
+    identical in both directions. For certain applications the configuration of the
     PW Type is most easily accomplished by configuring this information at just one
-    PW endpoint.  In any form of LDP-based signaling, each PW endpoint must initiate
-    the creation of a unidirectional LSP.  In order to allow the initiation of these
+    PW endpoint. In any form of LDP-based signaling, each PW endpoint must initiate
+    the creation of a unidirectional LSP. In order to allow the initiation of these
     two LSPs to remain independent, a means is needed for allowing the PW endpoint
     (lacking a priori knowledge of the PW Type) to initiate the creation of an LSP.
-    \ This document defines a Wildcard PW Type to satisfy this need. [STANDARDS-TRACK]</p>"
+    This document defines a Wildcard PW Type to satisfy this need. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

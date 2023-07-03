@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3786
 title:
 - content: Extending the Number of Intermediate System to Intermediate System (IS-IS)
@@ -127,7 +127,7 @@ abstract:
 - content: "<p>This document describes a mechanism that allows a system to originate
     more than 256 Link State PDU (LSP) fragments, a limit set by the original Intermediate
     System to Intermediate System (IS-IS) Routing protocol, as described in ISO/IEC
-    10589.  This mechanism can be used in IP-only, OSI-only, and dual routers.  This
+    10589. This mechanism can be used in IP-only, OSI-only, and dual routers. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC5311
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

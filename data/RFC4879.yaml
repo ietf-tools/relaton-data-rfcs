@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4879
 title:
 - content: Clarification of the Third Party Disclosure Procedure in RFC 3979
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document clarifies and updates a single sentence in RFC 3979.
-    \ Specifically, when third party Intellectual Property Rights (IPR) disclosures
+    Specifically, when third party Intellectual Property Rights (IPR) disclosures
     are made, the intention is that the IETF Executive Director notify the IPR holder
     that a third party disclosure has been filed, and to ask the IPR holder whether
     they have any disclosure that needs to be made, per applicable RFC 3979 rules.
-    \ This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+    This document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -99,6 +99,10 @@ relation:
       content: RFC3979
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

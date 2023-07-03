@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8698
 title:
 - content: 'Network-Assisted Dynamic Adaptation (NADA): A Unified Congestion Control
@@ -155,18 +155,21 @@ script:
 abstract:
 - content: "<p>This document describes Network-Assisted Dynamic Adaptation (NADA),
     a novel congestion control scheme for interactive real-time media applications
-    such as video conferencing.  In the proposed scheme, the sender regulates its
-    sending rate, based on either implicit or explicit congestion signaling, in a
-    unified approach.  The scheme can benefit from Explicit Congestion Notification
-    (ECN) markings from network nodes.  It also maintains consistent sender behavior
-    in the absence of such markings by reacting to queuing delays and packet losses
-    instead.</p>"
+    such as video conferencing. In the proposed scheme, the sender regulates its sending
+    rate, based on either implicit or explicit congestion signaling, in a unified
+    approach. The scheme can benefit from Explicit Congestion Notification (ECN) markings
+    from network nodes. It also maintains consistent sender behavior in the absence
+    of such markings by reacting to queuing delays and packet losses instead.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

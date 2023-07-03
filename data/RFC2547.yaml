@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2547
 title:
 - content: BGP/MPLS VPNs
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a method by which a Service Provider with an
-    IP backbone may provide VPNs (Virtual Private Networks) for its customers.  This
+    IP backbone may provide VPNs (Virtual Private Networks) for its customers. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -114,6 +114,10 @@ relation:
       content: RFC4364
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4907
 title:
 - content: Architectural Implications of Link Indications
@@ -66,18 +66,22 @@ script:
 - Latn
 abstract:
 - content: "<p>A link indication represents information provided by the link layer
-    to higher layers regarding the state of the link.  This document describes the
-    role of link indications within the Internet architecture.  While the judicious
+    to higher layers regarding the state of the link. This document describes the
+    role of link indications within the Internet architecture. While the judicious
     use of link indications can provide performance benefits, inappropriate use can
-    degrade both robustness and performance.  This document summarizes current proposals,
+    degrade both robustness and performance. This document summarizes current proposals,
     describes the architectural issues, and provides examples of appropriate and inappropriate
-    uses of link indications.  This memo provides information for the Internet community.</p>"
+    uses of link indications. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

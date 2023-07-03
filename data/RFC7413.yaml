@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7413
 title:
 - content: TCP Fast Open
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an experimental TCP mechanism called TCP Fast
-    Open (TFO).  TFO allows data to be carried in the SYN and SYN-ACK packets and
-    consumed by the receiving end during the initial connection handshake, and saves
-    up to one full round-trip time (RTT) compared to the standard TCP, which requires
-    a three-way handshake (3WHS) to complete before data can be exchanged.  However,
+    Open (TFO). TFO allows data to be carried in the SYN and SYN-ACK packets and consumed
+    by the receiving end during the initial connection handshake, and saves up to
+    one full round-trip time (RTT) compared to the standard TCP, which requires a
+    three-way handshake (3WHS) to complete before data can be exchanged. However,
     TFO deviates from the standard TCP semantics, since the data in the SYN could
-    be replayed to an application in some rare circumstances.  Applications should
+    be replayed to an application in some rare circumstances. Applications should
     not use TFO unless they can tolerate this issue, as detailed in the Applicability
     section.</p>"
   language:
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

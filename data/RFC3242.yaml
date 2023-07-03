@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3242
 title:
 - content: 'RObust Header Compression (ROHC): A Link-Layer Assisted Profile for IP/UDP/RTP'
@@ -85,8 +85,8 @@ abstract:
     compression of IP/UDP/RTP (Internet Protocol/User Datagram Protocol/Real-Time
     Transport Protocol) packets, utilizing functionality provided by the lower layers
     to increase compression efficiency by completely eliminating the header for most
-    packets during optimal operation.  The profile is built as an extension to the
-    ROHC RTP profile.  It defines additional mechanisms needed in ROHC, states requirements
+    packets during optimal operation. The profile is built as an extension to the
+    ROHC RTP profile. It defines additional mechanisms needed in ROHC, states requirements
     on the assisting layer to guarantee transparency, and specifies general logic
     for compression and decompression making use of this header-free packet. [STANDARDS-TRACK]</p>"
   language:
@@ -106,6 +106,10 @@ relation:
       content: RFC4362
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

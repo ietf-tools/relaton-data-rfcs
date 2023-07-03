@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9114
 title:
 - content: HTTP/3
@@ -67,15 +67,19 @@ script:
 abstract:
 - content: "<p>The QUIC transport protocol has several features that are desirable
     in a transport for HTTP, such as stream multiplexing, per-stream flow control,
-    and low-latency connection establishment.  This document describes a mapping of
-    HTTP semantics over QUIC.  This document also identifies HTTP/2 features that
-    are subsumed by QUIC and describes how HTTP/2 extensions can be ported to HTTP/3.</p>"
+    and low-latency connection establishment. This document describes a mapping of
+    HTTP semantics over QUIC. This document also identifies HTTP/2 features that are
+    subsumed by QUIC and describes how HTTP/2 extensions can be ported to HTTP/3.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

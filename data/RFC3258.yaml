@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3258
 title:
 - content: Distributing Authoritative Name Servers via Shared Unicast Addresses
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This memo describes a set of practices intended to enable an authoritative
     name server operator to provide access to a single named server in multiple locations.
-    \ The primary motivation for the development and deployment of these practices
-    is to increase the distribution of Domain Name System (DNS) servers to previously
+    The primary motivation for the development and deployment of these practices is
+    to increase the distribution of Domain Name System (DNS) servers to previously
     under- served areas of the network topology and to reduce the latency for DNS
-    query responses in those areas.  This memo provides information for the Internet
+    query responses in those areas. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

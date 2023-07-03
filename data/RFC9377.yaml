@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9377
 title:
 - content: IS-IS Flood Reflection
@@ -182,16 +182,16 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a backward-compatible, optional IS-IS extension
-    that allows the creation of IS-IS flood reflection topologies.  Flood reflection
+    that allows the creation of IS-IS flood reflection topologies. Flood reflection
     permits topologies in which IS-IS Level 1 (L1) areas provide transit-forwarding
-    for IS-IS Level 2 (L2) areas using all available L1 nodes internally.  It accomplishes
-    this by creating L2 flood reflection adjacencies within each L1 area.  Those adjacencies
+    for IS-IS Level 2 (L2) areas using all available L1 nodes internally. It accomplishes
+    this by creating L2 flood reflection adjacencies within each L1 area. Those adjacencies
     are used to flood L2 Link State Protocol Data Units (LSPs) and are used in the
-    L2 Shortest Path First (SPF) computation.  However, they are not ordinarily utilized
-    for forwarding within the flood reflection cluster.  This arrangement gives the
+    L2 Shortest Path First (SPF) computation. However, they are not ordinarily utilized
+    for forwarding within the flood reflection cluster. This arrangement gives the
     L2 topology significantly better scaling properties than prevalently used flat
-    designs.  As an additional benefit, only those routers directly participating
-    in flood reflection are required to support the feature.  This allows for incremental
+    designs. As an additional benefit, only those routers directly participating in
+    flood reflection are required to support the feature. This allows for incremental
     deployment of scalable L1 transit areas in an existing, previously flat network
     design, without the necessity of upgrading all routers in the network.</p>"
   language:
@@ -200,6 +200,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

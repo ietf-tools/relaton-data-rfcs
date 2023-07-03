@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6787
 title:
 - content: Media Resource Control Protocol Version 2 (MRCPv2)
@@ -96,21 +96,25 @@ script:
 abstract:
 - content: <p>The Media Resource Control Protocol Version 2 (MRCPv2) allows client
     hosts to control media service resources such as speech synthesizers, recognizers,
-    verifiers, and identifiers residing in servers on the network.  MRCPv2 is not
-    a "stand-alone" protocol -- it relies on other protocols, such as the Session
-    Initiation Protocol (SIP), to coordinate MRCPv2 clients and servers and manage
-    sessions between them, and the Session Description Protocol (SDP) to describe,
-    discover, and exchange capabilities.  It also depends on SIP and SDP to establish
-    the media sessions and associated parameters between the media source or sink
-    and the media server.  Once this is done, the MRCPv2 exchange operates over the
-    control session established above, allowing the client to control the media processing
-    resources on the speech resource server. [STANDARDS-TRACK]</p>
+    verifiers, and identifiers residing in servers on the network. MRCPv2 is not a
+    "stand-alone" protocol -- it relies on other protocols, such as the Session Initiation
+    Protocol (SIP), to coordinate MRCPv2 clients and servers and manage sessions between
+    them, and the Session Description Protocol (SDP) to describe, discover, and exchange
+    capabilities. It also depends on SIP and SDP to establish the media sessions and
+    associated parameters between the media source or sink and the media server. Once
+    this is done, the MRCPv2 exchange operates over the control session established
+    above, allowing the client to control the media processing resources on the speech
+    resource server. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

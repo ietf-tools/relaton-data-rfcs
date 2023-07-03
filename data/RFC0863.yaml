@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC863
 title:
 - content: Discard Protocol
@@ -65,10 +65,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the ARPA Internet community.  Hosts
+- content: "<p>This RFC specifies a standard for the ARPA Internet community. Hosts
     on the ARPA Internet that choose to implement a Discard Protocol are expected
-    to adopt and implement this standard.  The Discard service simply throws away
-    any data it receives.</p>"
+    to adopt and implement this standard. The Discard service simply throws away any
+    data it receives.</p>"
   language:
   - en
   script:
@@ -79,6 +79,10 @@ series:
     content: STD
     format: text/plain
   number: '21'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1046
 title:
 - content: Queuing algorithm to provide type-of-service for IP links
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: <p>This memo is intended to explore how Type-of-Service might be implemented
-    in the Internet.  The proposal describes a method of queuing which can provide
-    the different classes of service.  The technique also prohibits one class of service
-    from consuming excessive resources or excluding other classes of service.  This
+    in the Internet. The proposal describes a method of queuing which can provide
+    the different classes of service. The technique also prohibits one class of service
+    from consuming excessive resources or excluding other classes of service. This
     is an "idea paper" and discussion is strongly encouraged.</p>
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3951
 title:
 - content: Internet Low Bit Rate Codec (iLBC)
@@ -211,11 +211,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a speech codec suitable for robust voice communication
-    over IP.  The codec is developed by Global IP Sound (GIPS).  It is designed for
+    over IP. The codec is developed by Global IP Sound (GIPS). It is designed for
     narrow band speech and results in a payload bit rate of 13.33 kbit/s for 30 ms
-    frames and 15.20 kbit/s for 20 ms frames.  The codec enables graceful speech quality
+    frames and 15.20 kbit/s for 20 ms frames. The codec enables graceful speech quality
     degradation in the case of lost frames, which occurs in connection with lost or
-    delayed IP packets.  This memo defines an Experimental Protocol for the Internet
+    delayed IP packets. This memo defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

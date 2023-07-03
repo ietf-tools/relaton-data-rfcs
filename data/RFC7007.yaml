@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7007
 title:
 - content: Update to Remove DVI4 from the Recommended Codecs for the RTP Profile for
@@ -70,7 +70,7 @@ abstract:
     (RTP/AVP) is the basis for many other profiles, such as the Secure Real-time Transport
     Protocol (RTP/SAVP), the Extended RTP Profile for Real-time Transport Control
     Protocol (RTCP)-Based Feedback (RTP/AVPF), and the Extended Secure RTP Profile
-    for RTCP-Based Feedback (RTP/SAVPF).  This document updates RFC 3551, the RTP/AVP
+    for RTCP-Based Feedback (RTP/SAVPF). This document updates RFC 3551, the RTP/AVP
     profile (and by extension, the profiles that build upon it), to reflect changes
     in audio codec usage since that document was originally published.</p>"
   language:
@@ -90,6 +90,10 @@ relation:
       content: RFC3551
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

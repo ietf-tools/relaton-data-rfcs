@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1730
 title:
 - content: Internet Message Access Protocol - Version 4
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: <p>The Internet Message Access Protocol, Version 4 (IMAP4) allows a client
-    to access and manipulate electronic mail messages on a server.  IMAP4 permits
-    manipulation of remote message folders, called "mailboxes", in a way that is functionally
-    equivalent to local mailboxes.  IMAP4 also provides the capability for an offline
-    client to resynchronize with the server. [STANDARDS-TRACK]</p>
+    to access and manipulate electronic mail messages on a server. IMAP4 permits manipulation
+    of remote message folders, called "mailboxes", in a way that is functionally equivalent
+    to local mailboxes. IMAP4 also provides the capability for an offline client to
+    resynchronize with the server. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -97,6 +97,10 @@ relation:
       content: RFC2061
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

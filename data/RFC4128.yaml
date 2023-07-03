@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4128
 title:
 - content: 'Bandwidth Constraints Models for Differentiated Services (Diffserv)-aware
@@ -68,11 +68,11 @@ script:
 abstract:
 - content: '<p>"Differentiated Services (Diffserv)-aware MPLS Traffic Engineering
     Requirements", RFC 3564, specifies the requirements and selection criteria for
-    Bandwidth Constraints Models.  Two such models, the Maximum Allocation and the
-    Russian Dolls, are described therein.  This document complements RFC 3564 by presenting
+    Bandwidth Constraints Models. Two such models, the Maximum Allocation and the
+    Russian Dolls, are described therein. This document complements RFC 3564 by presenting
     the results of a performance evaluation of these two models under various operational
     conditions: normal load, overload, preemption fully or partially enabled, pure
-    blocking, or complete sharing.  This memo provides information for the Internet
+    blocking, or complete sharing. This memo provides information for the Internet
     community.</p>'
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

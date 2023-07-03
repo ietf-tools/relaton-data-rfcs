@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3057
 title:
 - content: ISDN Q.921-User Adaptation Layer
@@ -153,9 +153,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a protocol for backhauling of ISDN Q.921 User
-    messages over IP using the Stream Control Transmission Protocol (SCTP).  This
-    protocol would be used between a Signaling Gateway (SG) and Media Gateway Controller
-    (MGC). [STANDARDS-TRACK]</p>"
+    messages over IP using the Stream Control Transmission Protocol (SCTP). This protocol
+    would be used between a Signaling Gateway (SG) and Media Gateway Controller (MGC).
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -173,6 +173,10 @@ relation:
       content: RFC4233
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

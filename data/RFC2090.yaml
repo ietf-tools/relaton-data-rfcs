@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2090
 title:
 - content: TFTP Multicast Option
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes a new TFTP option.  This new option will allow
+- content: "<p>This document describes a new TFTP option. This new option will allow
     the multiple clients to receive the same file concurrently through the use of
-    Multicast packets.  This memo defines an Experimental Protocol for the Internet
+    Multicast packets. This memo defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

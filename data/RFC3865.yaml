@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3865
 title:
 - content: A No Soliciting Simple Mail Transfer Protocol (SMTP) Service Extension
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This document proposes an extension to Soliciting Simple Mail Transfer
     Protocol (SMTP) for an electronic mail equivalent to the real-world "No Soliciting"
-    sign.  In addition to the service extension, a new message header and extensions
+    sign. In addition to the service extension, a new message header and extensions
     to the existing "received" message header are described. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

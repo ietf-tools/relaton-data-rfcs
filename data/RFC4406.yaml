@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4406
 title:
 - content: 'Sender ID: Authenticating E-Mail'
@@ -96,16 +96,20 @@ script:
 abstract:
 - content: <p>Internet mail suffers from the fact that much unwanted mail is sent
     using spoofed addresses -- "spoofed" in this case means that the address is used
-    without the permission of the domain owner.  This document describes a family
-    of tests by which SMTP servers can determine whether an e-mail address in a received
+    without the permission of the domain owner. This document describes a family of
+    tests by which SMTP servers can determine whether an e-mail address in a received
     message was used with the permission of the owner of the domain contained in that
-    e-mail address.  This memo defines an Experimental Protocol for the Internet community.</p>
+    e-mail address. This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

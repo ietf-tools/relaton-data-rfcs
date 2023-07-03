@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4808
 title:
 - content: Key Change Strategies for TCP-MD5
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: "<p>The TCP-MD5 option is most commonly used to secure BGP sessions between
-    routers.  However, changing the long-term key is difficult, since the change needs
-    to be synchronized between different organizations.  We describe single-ended
-    strategies that will permit (mostly) unsynchronized key changes.  This memo provides
-    information for the Internet community.</p>"
+    routers. However, changing the long-term key is difficult, since the change needs
+    to be synchronized between different organizations. We describe single-ended strategies
+    that will permit (mostly) unsynchronized key changes. This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

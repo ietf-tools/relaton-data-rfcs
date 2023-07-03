@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2153
 title:
 - content: PPP Vendor Extensions
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>The Point-to-Point Protocol (PPP) provides a standard method for transporting
-    multi-protocol datagrams over point-to-point links.  PPP defines an extensible
+    multi-protocol datagrams over point-to-point links. PPP defines an extensible
     Link Control Protocol (LCP) for establishing, configuring, and testing the data-link
     connection; and a family of Network Control Protocols (NCPs) for establishing
-    and configuring different network-layer protocols.  This document provides information
-    for the Internet community.  It does not specify an Internet standard of any kind.</p>"
+    and configuring different network-layer protocols. This document provides information
+    for the Internet community. It does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -98,6 +98,10 @@ relation:
       content: RFC1962
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

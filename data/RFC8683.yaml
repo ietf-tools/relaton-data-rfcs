@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8683
 title:
 - content: Additional Deployment Guidelines for NAT64/464XLAT in Operator and Enterprise
@@ -69,16 +69,20 @@ abstract:
 - content: "<p>This document describes how Network Address and Protocol Translation
     from IPv6 Clients to IPv4 Servers (NAT64) (including 464XLAT) can be deployed
     in an IPv6 network -- whether it's cellular ISP, broadband ISP, or enterprise
-    -- and the possible optimizations.  This document also discusses issues to be
-    considered when having IPv6-only connectivity, such as: a) DNS64, b) applications
-    or devices that use literal IPv4 addresses or non-IPv6-compliant APIs, and c)
-    IPv4-only hosts or applications.</p>"
+    -- and the possible optimizations. This document also discusses issues to be considered
+    when having IPv6-only connectivity, such as: a) DNS64, b) applications or devices
+    that use literal IPv4 addresses or non-IPv6-compliant APIs, and c) IPv4-only hosts
+    or applications.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

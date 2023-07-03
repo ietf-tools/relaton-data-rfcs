@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7232
 title:
 - content: 'Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests'
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>The Hypertext Transfer Protocol (HTTP) is a stateless application-
     level protocol for distributed, collaborative, hypertext information systems.
-    \ This document defines HTTP/1.1 conditional requests, including metadata header
+    This document defines HTTP/1.1 conditional requests, including metadata header
     fields for indicating state changes, request header fields for making preconditions
     on such state, and rules for constructing the responses to a conditional request
     when one or more preconditions evaluate to false.</p>"
@@ -117,6 +117,10 @@ relation:
       content: RFC9110
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

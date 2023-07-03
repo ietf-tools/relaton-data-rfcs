@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7775
 title:
 - content: IS-IS Route Preference for Extended IP and IPv6 Reachability
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>In existing specifications, the route preferences for IPv4/IPv6 Extended
-    Reachability TLVs are not explicitly stated.  There are also inconsistencies in
+    Reachability TLVs are not explicitly stated. There are also inconsistencies in
     the definition of how the up/down bit applies to route preference when the prefix
-    advertisement appears in Level 2 Link State Protocol Data Units (LSPs).  This
-    document addresses these issues.</p>"
+    advertisement appears in Level 2 Link State Protocol Data Units (LSPs). This document
+    addresses these issues.</p>"
   language:
   - en
   script:
@@ -145,6 +145,10 @@ relation:
       content: RFC5308
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

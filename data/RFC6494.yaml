@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6494
 title:
 - content: Certificate Profile and Certificate Management for SEcure Neighbor Discovery
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: "<p>SEcure Neighbor Discovery (SEND) utilizes X.509v3 certificates for
-    performing router authorization.  This document specifies a certificate profile
+    performing router authorization. This document specifies a certificate profile
     for SEND based on resource certificates along with extended key usage values required
     for SEND. [STANDARDS-TRACK]</p>"
   language:
@@ -145,6 +145,10 @@ relation:
       content: RFC3971
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

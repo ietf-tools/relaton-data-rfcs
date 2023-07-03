@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8727
 title:
 - content: JSON Binding of the Incident Object Description Exchange Format
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>The Incident Object Description Exchange Format (IODEF) defined in
     RFC 7970 provides an information model and a corresponding XML data model for
-    exchanging incident and indicator information.  This document gives implementers
+    exchanging incident and indicator information. This document gives implementers
     and operators an alternative format to exchange the same information by defining
     an alternative data model implementation in JSON and its encoding in Concise Binary
     Object Representation (CBOR).</p>"
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5453
 title:
 - content: Reserved IPv6 Interface Identifiers
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Interface identifiers in IPv6 unicast addresses are used to identify
-    interfaces on a link.  They are required to be unique within a subnet.  Several
+    interfaces on a link. They are required to be unique within a subnet. Several
     RFCs have specified interface identifiers or identifier ranges that have a special
-    meaning attached to them.  An IPv6 node autoconfiguring an interface identifier
-    in these ranges will encounter unexpected consequences.  Since there is no centralized
+    meaning attached to them. An IPv6 node autoconfiguring an interface identifier
+    in these ranges will encounter unexpected consequences. Since there is no centralized
     repository for such reserved identifiers, this document aims to create one. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

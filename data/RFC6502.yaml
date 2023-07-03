@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6502
 title:
 - content: Conference Event Package Data Format Extension for Centralized Conferencing
@@ -154,8 +154,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the notification mechanism for XCON (centralized
-    conferencing).  This mechanism reuses the SIP (Session Initiation Protocol) event
-    package for conference state.  Additionally, the notification mechanism includes
+    conferencing). This mechanism reuses the SIP (Session Initiation Protocol) event
+    package for conference state. Additionally, the notification mechanism includes
     support for the XCON data model and for partial notifications. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

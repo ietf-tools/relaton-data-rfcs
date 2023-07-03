@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7088
 title:
 - content: Session Initiation Protocol Service Example -- Music on Hold
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: <p>"Music on hold" is one of the features of telephone systems that is
-    most desired by buyers of business telephone systems.  Music on hold means that
+    most desired by buyers of business telephone systems. Music on hold means that
     when one party to a call has the call "on hold", that party's telephone provides
-    an audio stream (often music) to be heard by the other party.  Architectural features
-    of SIP make it difficult to implement music on hold in a way that is fully standards-compliant.  The
-    implementation of music on hold described in this document is fully effective,
+    an audio stream (often music) to be heard by the other party. Architectural features
+    of SIP make it difficult to implement music on hold in a way that is fully standards-compliant.
+    The implementation of music on hold described in this document is fully effective,
     is standards-compliant, and has a number of advantages over the methods previously
-    documented.  In particular, it is less likely to produce peculiar user interface
+    documented. In particular, it is less likely to produce peculiar user interface
     effects and more likely to work in systems that perform authentication than the
     music-on-hold method described in Section 2.3 of RFC 5359.</p>
   language:
@@ -81,6 +81,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

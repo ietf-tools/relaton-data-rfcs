@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3431
 title:
 - content: 'Sieve Extension: Relational Tests'
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the RELATIONAL extension to the Sieve mail
-    filtering language defined in RFC 3028.  This extension extends existing conditional
-    tests in Sieve to allow relational operators.  In addition to testing their content,
+    filtering language defined in RFC 3028. This extension extends existing conditional
+    tests in Sieve to allow relational operators. In addition to testing their content,
     it also allows for testing of the number of entities in header and envelope fields.
     [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC5231
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3479
 title:
 - content: Fault Tolerance for the Label Distribution Protocol (LDP)
@@ -66,15 +66,15 @@ script:
 - Latn
 abstract:
 - content: <p>Multiprotocol Label Switching (MPLS) systems will be used in core networks
-    where system downtime must be kept to an absolute minimum.  Many MPLS Label Switching
+    where system downtime must be kept to an absolute minimum. Many MPLS Label Switching
     Routers (LSRs) may, therefore, exploit Fault Tolerant (FT) hardware or software
-    to provide high availability of the core networks.  The details of how FT is achieved
+    to provide high availability of the core networks. The details of how FT is achieved
     for the various components of an FT LSR, including Label Distribution Protocol
-    (LDP), the switching hardware and TCP, are implementation specific.  This document
+    (LDP), the switching hardware and TCP, are implementation specific. This document
     identifies issues in the LDP specification in RFC 3036, "LDP Specification", that
     make it difficult to implement an FT LSR using the current LDP protocols, and
-    defines enhancements to the LDP specification to ease such FT LSR implementations.  The
-    issues and extensions described here are equally applicable to RFC 3212, "Constraint-Based
+    defines enhancements to the LDP specification to ease such FT LSR implementations.
+    The issues and extensions described here are equally applicable to RFC 3212, "Constraint-Based
     LSP Setup Using LDP" (CR-LDP). [STANDARDS-TRACK]</p>
   language:
   - en
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1759
 title:
 - content: Printer MIB
@@ -184,7 +184,7 @@ abstract:
 - content: "<p>A printer is the physical device that takes media from an input source,
     produces marks on that media according to some page description or page control
     language and puts the result in some output destination, possibly with finishing
-    applied.  The information needed in the management of the physical printer and
+    applied. The information needed in the management of the physical printer and
     the management of a printing job overlap highly and many of the tasks in each
     management area require the same or similar information. [STANDARDS-TRACK]</p>"
   language:
@@ -204,6 +204,10 @@ relation:
       content: RFC3805
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7655
 title:
 - content: RTP Payload Format for G.711.0
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the Real-time Transport Protocol (RTP) payload
-    format for ITU-T Recommendation G.711.0.  ITU-T Rec.  G.711.0 defines a lossless
+    format for ITU-T Recommendation G.711.0. ITU-T Rec. G.711.0 defines a lossless
     and stateless compression for G.711 packet payloads typically used in IP networks.
-    \ This document also defines a storage mode format for G.711.0 and a media type
+    This document also defines a storage mode format for G.711.0 and a media type
     registration for the G.711.0 RTP payload format.</p>"
   language:
   - en
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

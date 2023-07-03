@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4610
 title:
 - content: Anycast-RP Using Protocol Independent Multicast (PIM)
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification allows Anycast-RP (Rendezvous Point) to be used
-    inside a domain that runs Protocol Independent Multicast (PIM) only.  Other multicast
+    inside a domain that runs Protocol Independent Multicast (PIM) only. Other multicast
     protocols (such as Multicast Source Discovery Protocol (MSDP), which has been
     used traditionally to solve this problem) are not required to support Anycast-RP.
     [STANDARDS-TRACK]</p>"
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

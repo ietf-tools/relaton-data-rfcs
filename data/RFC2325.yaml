@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2325
 title:
 - content: Definitions of Managed Objects for Drip-Type Heated Beverage Hardware Devices
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines an extension to the Management Information Base (MIB)
-    for use with network management protocols in the Internet community.  In particular,
+    for use with network management protocols in the Internet community. In particular,
     it defines objects for the management of coffee-brewing and maintenance devices.
-    \ This memo provides information for the Internet community.  It does not specify
+    This memo provides information for the Internet community. It does not specify
     an Internet standard of any kind.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

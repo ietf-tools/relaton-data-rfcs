@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4534
 title:
 - content: Group Security Policy Token v1
@@ -96,17 +96,21 @@ script:
 abstract:
 - content: "<p>The Group Security Policy Token is a structure used to specify the
     security policy and configurable parameters for a cryptographic group, such as
-    a secure multicast group.  Because the security of a group is composed of the
-    totality of multiple security services, mechanisms, and attributes throughout
-    the communications infrastructure, an authenticatable representation of the features
-    that must be supported throughout the system is needed to ensure consistent security.
-    \ This document specifies the structure of such a token. [STANDARDS-TRACK]</p>"
+    a secure multicast group. Because the security of a group is composed of the totality
+    of multiple security services, mechanisms, and attributes throughout the communications
+    infrastructure, an authenticatable representation of the features that must be
+    supported throughout the system is needed to ensure consistent security. This
+    document specifies the structure of such a token. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

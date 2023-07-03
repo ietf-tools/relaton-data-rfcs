@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2787
 title:
 - content: Definitions of Managed Objects for the Virtual Router Redundancy Protocol
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines an extension to the Management Information
-    Base (MIB) for use with SNMP-based network management.  In particular, it defines
+    Base (MIB) for use with SNMP-based network management. In particular, it defines
     objects for configuring, monitoring, and controlling routers that employ the Virtual
     Router Redundancy Protocol (VRRP). [STANDARDS-TRACK]</p>"
   language:
@@ -115,6 +115,10 @@ relation:
       content: RFC6527
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

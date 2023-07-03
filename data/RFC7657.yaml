@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7657
 title:
 - content: Differentiated Services (Diffserv) and Real-Time Communication
@@ -97,15 +97,15 @@ abstract:
 - content: "<p>This memo describes the interaction between Differentiated Services
     (Diffserv) network quality-of-service (QoS) functionality and real- time network
     communication, including communication based on the Real-time Transport Protocol
-    (RTP).  Diffserv is based on network nodes applying different forwarding treatments
+    (RTP). Diffserv is based on network nodes applying different forwarding treatments
     to packets whose IP headers are marked with different Diffserv Codepoints (DSCPs).
-    \ WebRTC applications, as well as some conferencing applications, have begun using
+    WebRTC applications, as well as some conferencing applications, have begun using
     the Session Description Protocol (SDP) bundle negotiation mechanism to send multiple
     traffic streams with different QoS requirements using the same network 5-tuple.
-    \ The results of using multiple DSCPs to obtain different QoS treatments within
+    The results of using multiple DSCPs to obtain different QoS treatments within
     a single network 5-tuple have transport protocol interactions, particularly with
-    congestion control functionality (e.g., reordering).  In addition, DSCP markings
-    may be changed or removed between the traffic source and destination.  This memo
+    congestion control functionality (e.g., reordering). In addition, DSCP markings
+    may be changed or removed between the traffic source and destination. This memo
     covers the implications of these Diffserv aspects for real-time network communication,
     including WebRTC.</p>"
   language:
@@ -114,6 +114,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

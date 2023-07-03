@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9272
 title:
 - content: Underlay Path Calculation Algorithm and Constraints for Bit Index Explicit
@@ -213,9 +213,9 @@ script:
 abstract:
 - content: <p>This document specifies general rules for the interaction between the
     BIER Algorithm (BAR) and the IGP Algorithm (IPA) used for underlay path calculation
-    within the Bit Index Explicit Replication (BIER) architecture.  The semantics
-    defined in this document update RFC 8401 and RFC 8444.  This document also updates
-    the "BIER Algorithm" registry established in RFC 8401.</p>
+    within the Bit Index Explicit Replication (BIER) architecture. The semantics defined
+    in this document update RFC 8401 and RFC 8444. This document also updates the
+    "BIER Algorithm" registry established in RFC 8401.</p>
   language:
   - en
   script:
@@ -243,6 +243,10 @@ relation:
       content: RFC8444
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

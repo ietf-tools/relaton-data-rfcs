@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9140
 title:
 - content: Nimble Out-of-Band Authentication for EAP (EAP-NOOB)
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The Extensible Authentication Protocol (EAP) provides support for multiple
-    authentication methods.  This document defines the EAP-NOOB authentication method
-    for nimble out-of-band (OOB) authentication and key derivation.  The EAP method
+    authentication methods. This document defines the EAP-NOOB authentication method
+    for nimble out-of-band (OOB) authentication and key derivation. The EAP method
     is intended for bootstrapping all kinds of Internet-of-Things (IoT) devices that
-    have no preconfigured authentication credentials.  The method makes use of a user-assisted,
+    have no preconfigured authentication credentials. The method makes use of a user-assisted,
     one-directional, out-of-band (OOB) message between the peer device and authentication
-    server to authenticate the in-band key exchange.  The device must have a nonnetwork
+    server to authenticate the in-band key exchange. The device must have a nonnetwork
     input or output interface, such as a display, microphone, speaker, or blinking
     light, that can send or receive dynamically generated messages of tens of bytes
     in length.</p>"
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

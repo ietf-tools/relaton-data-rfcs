@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7684
 title:
 - content: OSPFv2 Prefix/Link Attribute Advertisement
@@ -212,16 +212,20 @@ script:
 abstract:
 - content: "<p>OSPFv2 requires functional extension beyond what can readily be done
     with the fixed-format Link State Advertisements (LSAs) as described in RFC 2328.
-    \ This document defines OSPFv2 Opaque LSAs based on Type-Length-Value (TLV) tuples
-    that can be used to associate additional attributes with prefixes or links.  Depending
+    This document defines OSPFv2 Opaque LSAs based on Type-Length-Value (TLV) tuples
+    that can be used to associate additional attributes with prefixes or links. Depending
     on the application, these prefixes and links may or may not be advertised in the
-    fixed-format LSAs.  The OSPFv2 Opaque LSAs are optional and fully backward compatible.</p>"
+    fixed-format LSAs. The OSPFv2 Opaque LSAs are optional and fully backward compatible.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

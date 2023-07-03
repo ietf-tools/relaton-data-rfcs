@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6202
 title:
 - content: Known Issues and Best Practices for the Use of Long Polling and Streaming
@@ -155,10 +155,10 @@ script:
 abstract:
 - content: '<p>On today''s Internet, the Hypertext Transfer Protocol (HTTP) is often
     used (some would say abused) to enable asynchronous, "server- initiated" communication
-    from a server to a client as well as communication from a client to a server.  This
-    document describes known issues and best practices related to such "bidirectional
+    from a server to a client as well as communication from a client to a server.
+    This document describes known issues and best practices related to such "bidirectional
     HTTP" applications, focusing on the two most common mechanisms: HTTP long polling
-    and HTTP streaming.  This document is not an Internet Standards Track specification;
+    and HTTP streaming. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>'
   language:
   - en
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

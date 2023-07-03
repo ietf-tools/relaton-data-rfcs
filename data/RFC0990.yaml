@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC990
 title:
 - content: Assigned numbers
@@ -101,8 +101,8 @@ script:
 abstract:
 - content: "<p>This Network Working Group Request for Comments documents the currently
     assigned values from several series of numbers used in network protocol implementations.
-    \ This memo is an official status report on the numbers used in protocols in the
-    ARPA-Internet community.  See RFC-997.  Obsoletes RFC-960, 943, 923 and 900.</p>"
+    This memo is an official status report on the numbers used in protocols in the
+    ARPA-Internet community. See RFC-997. Obsoletes RFC-960, 943, 923 and 900.</p>"
   language:
   - en
   script:
@@ -120,6 +120,10 @@ relation:
       content: RFC1010
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8374
 title:
 - content: BGPsec Design Choices and Summary of Supporting Discussions
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document captures the design rationale of the initial draft version
-    of what became RFC 8205 (the BGPsec protocol specification).  The designers needed
+    of what became RFC 8205 (the BGPsec protocol specification). The designers needed
     to balance many competing factors, and this document lists the decisions that
-    were made in favor of or against each design choice.  This document also presents
-    brief summaries of the arguments that aided the decision process.  Where appropriate,
+    were made in favor of or against each design choice. This document also presents
+    brief summaries of the arguments that aided the decision process. Where appropriate,
     this document also provides brief notes on design decisions that changed as the
     specification was reviewed and updated by the IETF SIDR Working Group and that
-    resulted in RFC 8205.  These notes highlight the differences and provide pointers
+    resulted in RFC 8205. These notes highlight the differences and provide pointers
     to details and rationale regarding those design changes.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

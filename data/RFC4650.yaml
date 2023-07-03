@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4650
 title:
 - content: HMAC-Authenticated Diffie-Hellman for Multimedia Internet KEYing (MIKEY)
@@ -67,11 +67,11 @@ script:
 abstract:
 - content: "<p>This document describes a lightweight point-to-point key management
     protocol variant for the multimedia Internet keying (MIKEY) protocol MIKEY, as
-    defined in RFC 3830.  In particular, this variant deploys the classic Diffie-Hellman
+    defined in RFC 3830. In particular, this variant deploys the classic Diffie-Hellman
     key agreement protocol for key establishment featuring perfect forward secrecy
     in conjunction with a keyed hash message authentication code for achieving mutual
     authentication and message integrity of the key management messages exchanged.
-    \ This protocol addresses the security and performance constraints of multimedia
+    This protocol addresses the security and performance constraints of multimedia
     key management in MIKEY. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

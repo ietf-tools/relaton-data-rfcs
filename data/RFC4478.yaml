@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4478
 title:
 - content: Repeated Authentication in Internet Key Exchange (IKEv2) Protocol
@@ -66,18 +66,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document extends the Internet Key Exchange (IKEv2) Protocol document
-    [IKEv2].  With some IPsec peers, particularly in the remote access scenario, it
-    is desirable to repeat the mutual authentication periodically.  The purpose of
+    [IKEv2]. With some IPsec peers, particularly in the remote access scenario, it
+    is desirable to repeat the mutual authentication periodically. The purpose of
     this is to limit the time that security associations (SAs) can be used by a third
-    party who has gained control of the IPsec peer.  This document describes a mechanism
-    to perform this function.  This memo defines an Experimental Protocol for the
-    Internet community.</p>"
+    party who has gained control of the IPsec peer. This document describes a mechanism
+    to perform this function. This memo defines an Experimental Protocol for the Internet
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

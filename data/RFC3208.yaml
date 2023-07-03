@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3208
 title:
 - content: PGM Reliable Transport Protocol Specification
@@ -444,12 +444,12 @@ script:
 abstract:
 - content: "<p>Pragmatic General Multicast (PGM) is a reliable multicast transport
     protocol for applications that require ordered or unordered, duplicate- free,
-    multicast data delivery from multiple sources to multiple receivers.  PGM guarantees
+    multicast data delivery from multiple sources to multiple receivers. PGM guarantees
     that a receiver in the group either receives all data packets from transmissions
-    and repairs, or is able to detect unrecoverable data packet loss.  PGM is specifically
+    and repairs, or is able to detect unrecoverable data packet loss. PGM is specifically
     intended as a workable solution for multicast applications with basic reliability
-    requirements.  Its central design goal is simplicity of operation with due regard
-    for scalability and network efficiency.  This memo defines an Experimental Protocol
+    requirements. Its central design goal is simplicity of operation with due regard
+    for scalability and network efficiency. This memo defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -457,6 +457,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

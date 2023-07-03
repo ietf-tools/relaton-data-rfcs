@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2140
 title:
 - content: TCP Control Block Interdependence
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This memo makes the case for interdependent TCP control blocks, where
     part of the TCP state is shared among similar concurrent connections, or across
-    similar connection instances.  TCP state includes a combination of parameters,
+    similar connection instances. TCP state includes a combination of parameters,
     such as connection state, current round-trip time estimates, congestion control
-    information, and process information.  This memo provides information for the
-    Internet community.  This memo does not specify an Internet standard of any kind.</p>"
+    information, and process information. This memo provides information for the Internet
+    community. This memo does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC9040
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

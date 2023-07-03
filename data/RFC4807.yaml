@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4807
 title:
 - content: IPsec Security Policy Database Configuration MIB
@@ -183,10 +183,10 @@ script:
 abstract:
 - content: "<p>This document defines a Structure of Management Information Version
     2 (SMIv2) Management Information Base (MIB) module for configuring the security
-    policy database of a device implementing the IPsec protocol.  The policy-based
+    policy database of a device implementing the IPsec protocol. The policy-based
     packet filtering and the corresponding execution of actions described in this
     document are of a more general nature than for IPsec configuration alone, such
-    as for configuration of a firewall.  This MIB module is designed to be extensible
+    as for configuration of a firewall. This MIB module is designed to be extensible
     with other enterprise or standards-based defined packet filters and actions. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

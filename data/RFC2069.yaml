@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2069
 title:
 - content: 'An Extension to HTTP : Digest Access Authentication'
@@ -240,10 +240,10 @@ script:
 - Latn
 abstract:
 - content: <p>The protocol referred to as "HTTP/1.0" includes the specification for
-    a Basic Access Authentication scheme.  This scheme is not considered to be a secure
+    a Basic Access Authentication scheme. This scheme is not considered to be a secure
     method of user authentication, as the user name and password are passed over the
-    network as clear text.  A specification for a different authentication scheme
-    is needed to address this severe limitation.  This document provides specification
+    network as clear text. A specification for a different authentication scheme is
+    needed to address this severe limitation. This document provides specification
     for such a scheme, referred to as "Digest Access Authentication". [STANDARDS-TRACK]</p>
   language:
   - en
@@ -262,6 +262,10 @@ relation:
       content: RFC2617
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

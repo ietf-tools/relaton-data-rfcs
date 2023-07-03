@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8560
 title:
 - content: Seamless Integration of Ethernet VPN (EVPN) with Virtual Private LAN Service
@@ -156,13 +156,13 @@ abstract:
 - content: "<p>This document specifies mechanisms for backward compatibility of Ethernet
     VPN (EVPN) and Provider Backbone Bridge Ethernet VPN (PBB-EVPN) solutions with
     Virtual Private LAN Service (VPLS) and Provider Backbone Bridge VPLS (PBB-VPLS)
-    solutions.  It also provides mechanisms for the seamless integration of these
-    two technologies in the same MPLS/IP network on a per-VPN-instance basis.  Implementation
+    solutions. It also provides mechanisms for the seamless integration of these two
+    technologies in the same MPLS/IP network on a per-VPN-instance basis. Implementation
     of this document enables service providers to introduce EVPN/PBB-EVPN Provider
-    Edges (PEs) in their brownfield deployments of VPLS/PBB-VPLS networks.  This document
+    Edges (PEs) in their brownfield deployments of VPLS/PBB-VPLS networks. This document
     specifies the control-plane and forwarding behavior needed for the auto-discovery
     of the following: 1) a VPN instance, 2) multicast and unicast operation, and 3)
-    a Media Access Control (MAC) mobility operation.  This enables seamless integration
+    a Media Access Control (MAC) mobility operation. This enables seamless integration
     between EVPN and VPLS PEs as well as between PBB-VPLS and PBB-EVPN PEs.</p>"
   language:
   - en
@@ -170,6 +170,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

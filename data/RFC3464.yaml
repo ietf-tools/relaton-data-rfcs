@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3464
 title:
 - content: An Extensible Message Format for Delivery Status Notifications
@@ -96,22 +96,26 @@ script:
 abstract:
 - content: <p>This memo defines a Multipurpose Internet Mail Extensions (MIME) content-type
     that may be used by a message transfer agent (MTA) or electronic mail gateway
-    to report the result of an attempt to deliver a message to one or more recipients.  This
-    content-type is intended as a machine-processable replacement for the various
-    types of delivery status notifications currently used in Internet electronic mail.  Because
-    many messages are sent between the Internet and other messaging systems (such
-    as X.400 or the so-called "Local Area Network (LAN)-based" systems), the Delivery
-    Status Notification (DSN) protocol is designed to be useful in a multi-protocol
-    messaging environment.  To this end, the protocol described in this memo provides
+    to report the result of an attempt to deliver a message to one or more recipients.
+    This content-type is intended as a machine-processable replacement for the various
+    types of delivery status notifications currently used in Internet electronic mail.
+    Because many messages are sent between the Internet and other messaging systems
+    (such as X.400 or the so-called "Local Area Network (LAN)-based" systems), the
+    Delivery Status Notification (DSN) protocol is designed to be useful in a multi-protocol
+    messaging environment. To this end, the protocol described in this memo provides
     for the carriage of "foreign" addresses and error codes, in addition to those
-    normally used in Internet mail.  Additional attributes may also be defined to
-    support "tunneling" of foreign notifications through Internet mail. [STANDARDS-TRACK]</p>
+    normally used in Internet mail. Additional attributes may also be defined to support
+    "tunneling" of foreign notifications through Internet mail. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

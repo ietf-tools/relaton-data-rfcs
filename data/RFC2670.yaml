@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2670
 title:
 - content: Radio Frequency (RF) Interface Management Information Base for MCNS/DOCSIS
@@ -67,7 +67,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in the Internet community.  In particular,
+    for use with network management protocols in the Internet community. In particular,
     it defines a basic set of managed objects for SNMP-based management of MCNS/DOCSIS
     compliant Radio Frequency (RF) interfaces. [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC4546
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

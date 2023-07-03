@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3597
 title:
 - content: Handling of Unknown DNS Resource Record (RR) Types
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Extending the Domain Name System (DNS) with new Resource Record (RR)
-    types currently requires changes to name server software.  This document specifies
+    types currently requires changes to name server software. This document specifies
     the changes necessary to allow future DNS implementations to handle new RR types
     transparently. [STANDARDS-TRACK]</p>"
   language:
@@ -96,6 +96,10 @@ relation:
       content: RFC2535
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

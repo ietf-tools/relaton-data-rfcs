@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7730
 title:
 - content: Resource Public Key Infrastructure (RPKI) Trust Anchor Locator
@@ -153,8 +153,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Trust Anchor Locator (TAL) for the Resource
-    Public Key Infrastructure (RPKI).  This document obsoletes RFC 6490 by adding
-    support for multiple URIs in a TAL.</p>"
+    Public Key Infrastructure (RPKI). This document obsoletes RFC 6490 by adding support
+    for multiple URIs in a TAL.</p>"
   language:
   - en
   script:
@@ -172,6 +172,10 @@ relation:
       content: RFC8630
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7717
 title:
 - content: IKEv2-Derived Shared Secret Key for the One-Way Active Measurement Protocol
@@ -126,11 +126,11 @@ script:
 abstract:
 - content: "<p>The One-Way Active Measurement Protocol (OWAMP) and Two-Way Active
     Measurement Protocol (TWAMP) security mechanisms require that both the client
-    and server endpoints possess a shared secret.  This document describes the use
+    and server endpoints possess a shared secret. This document describes the use
     of keys derived from an IKEv2 security association (SA) as the shared key in OWAMP
-    or TWAMP.  If the shared key can be derived from the IKEv2 SA, OWAMP or TWAMP
-    can support certificate-based key exchange; this would allow for more operational
-    flexibility and efficiency.  The key derivation presented in this document can
+    or TWAMP. If the shared key can be derived from the IKEv2 SA, OWAMP or TWAMP can
+    support certificate-based key exchange; this would allow for more operational
+    flexibility and efficiency. The key derivation presented in this document can
     also facilitate automatic key management.</p>"
   language:
   - en
@@ -159,6 +159,10 @@ relation:
       content: RFC5357
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

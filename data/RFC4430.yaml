@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4430
 title:
 - content: Kerberized Internet Negotiation of Keys (KINK)
@@ -153,10 +153,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Kerberized Internet Negotiation of Keys
-    (KINK) protocol.  KINK defines a low-latency, computationally inexpensive, easily
+    (KINK) protocol. KINK defines a low-latency, computationally inexpensive, easily
     managed, and cryptographically sound protocol to establish and maintain security
-    associations using the Kerberos authentication system.  KINK reuses the Quick
-    Mode payloads of the Internet Key Exchange (IKE), which should lead to substantial
+    associations using the Kerberos authentication system. KINK reuses the Quick Mode
+    payloads of the Internet Key Exchange (IKE), which should lead to substantial
     reuse of existing IKE implementations. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

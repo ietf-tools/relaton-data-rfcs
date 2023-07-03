@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4573
 title:
 - content: MIME Type Registration for RTP Payload Format for H.224
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: "<p>In conversational video applications, far-end camera control protocol
-    is used by participants to control the remote camera.  The protocol that is commonly
-    used is ITU H.281 over H.224.  The document registers the H224 media type.  It
-    defines the syntax and the semantics of the Session Description Protocol (SDP)
-    parameters needed to support far-end camera control protocol using H.224. [STANDARDS-TRACK]</p>"
+    is used by participants to control the remote camera. The protocol that is commonly
+    used is ITU H.281 over H.224. The document registers the H224 media type. It defines
+    the syntax and the semantics of the Session Description Protocol (SDP) parameters
+    needed to support far-end camera control protocol using H.224. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

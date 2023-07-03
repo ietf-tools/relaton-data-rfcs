@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8519
 title:
 - content: YANG Data Model for Network Access Control Lists (ACLs)
@@ -153,8 +153,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a data model for Access Control Lists (ACLs).
-    \ An ACL is a user-ordered set of rules used to configure the forwarding behavior
-    in a device.  Each rule is used to find a match on a packet and define actions
+    An ACL is a user-ordered set of rules used to configure the forwarding behavior
+    in a device. Each rule is used to find a match on a packet and define actions
     that will be performed on the packet.</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

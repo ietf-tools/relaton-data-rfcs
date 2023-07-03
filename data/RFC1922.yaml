@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1922
 title:
 - content: Chinese Character Encoding for Internet Messages
@@ -199,14 +199,18 @@ script:
 abstract:
 - content: "<p>This memo describes methods of transporting Chinese characters in Internet
     services which transport text, such as electronic mail [RFC-822], network news
-    [RFC-1036], telnet [RFC-854] and the World Wide Web [RFC-1866].  This memo provides
-    information for the Internet community.  It does not specify an Internet standard.</p>"
+    [RFC-1036], telnet [RFC-854] and the World Wide Web [RFC-1866]. This memo provides
+    information for the Internet community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

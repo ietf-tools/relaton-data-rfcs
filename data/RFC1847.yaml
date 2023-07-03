@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1847
 title:
 - content: 'Security Multiparts for MIME: Multipart/Signed and Multipart/Encrypted'
@@ -155,11 +155,11 @@ abstract:
 - content: "<p>This document defines a framework within which security services may
     be applied to MIME body parts. [STANDARDS-TRACK] This memo defines a new Simple
     Mail Transfer Protocol (SMTP) [1] reply code, 521, which one may use to indicate
-    that an Internet host does not accept incoming mail.  This memo defines an Experimental
-    Protocol for the Internet community.  This memo defines an extension to the SMTP
+    that an Internet host does not accept incoming mail. This memo defines an Experimental
+    Protocol for the Internet community. This memo defines an extension to the SMTP
     service whereby an interrupted SMTP transaction can be restarted at a later time
     without having to repeat all of the commands and message content sent prior to
-    the interruption.  This memo defines an Experimental Protocol for the Internet
+    the interruption. This memo defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5066
 title:
 - content: Ethernet in the First Mile Copper (EFMCu) Interfaces MIB
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines Management Information Base (MIB) modules for
-    use with network management protocols in TCP/IP-based internets.  This document
+    use with network management protocols in TCP/IP-based internets. This document
     describes extensions to the Ethernet-like Interfaces MIB and Medium Attachment
     Unit (MAU) MIB modules with a set of objects for managing Ethernet in the First
     Mile Copper (EFMCu) interfaces 10PASS-TS and 2BASE-TL, defined in IEEE Std 802.3ah-2004
-    (note: IEEE Std 802.3ah-2004 has been integrated into IEEE Std 802.3- 2005).  In
+    (note: IEEE Std 802.3ah-2004 has been integrated into IEEE Std 802.3- 2005). In
     addition, a set of objects is defined, describing cross- connect capability of
     a managed device with multi-layer (stacked) interfaces, extending the stack management
     objects in the Interfaces Group MIB and the Inverted Stack Table MIB modules.
@@ -81,6 +81,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4304
 title:
 - content: Extended Sequence Number (ESN) Addendum to IPsec Domain of Interpretation
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The IP Security Authentication Header (AH) and Encapsulating Security
-    Payload (ESP) protocols use a sequence number to detect replay.  This document
+    Payload (ESP) protocols use a sequence number to detect replay. This document
     describes extensions to the Internet IP Security Domain of Interpretation (DOI)
-    for the Internet Security Association and Key Management Protocol (ISAKMP).  These
+    for the Internet Security Association and Key Management Protocol (ISAKMP). These
     extensions support negotiation of the use of traditional 32-bit sequence numbers
     or extended (64-bit) sequence numbers (ESNs) for a particular AH or ESP security
     association. [STANDARDS-TRACK]</p>"
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

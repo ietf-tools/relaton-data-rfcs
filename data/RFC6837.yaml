@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6837
 title:
 - content: 'NERD: A Not-so-novel Endpoint ID (EID) to Routing Locator (RLOC) Database'
@@ -67,11 +67,11 @@ script:
 abstract:
 - content: "<p>The Locator/ID Separation Protocol (LISP) is a protocol to encapsulate
     IP packets in order to allow end sites to route to one another without injecting
-    routes from one end of the Internet to another.  This memo presents an experimental
+    routes from one end of the Internet to another. This memo presents an experimental
     database and a discussion of methods to transport the mapping of Endpoint IDs
     (EIDs) to Routing Locators (RLOCs) to routers in a reliable, scalable, and secure
-    manner.  Our analysis concludes that transport of all EID-to- RLOC mappings scales
-    well to at least 10^8 entries.  This document defines an Experimental Protocol
+    manner. Our analysis concludes that transport of all EID-to- RLOC mappings scales
+    well to at least 10^8 entries. This document defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

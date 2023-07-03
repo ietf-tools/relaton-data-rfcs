@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6927
 title:
 - content: Variants in Second-Level Names Registered in Top-Level Domains
@@ -95,22 +95,26 @@ script:
 - Latn
 abstract:
 - content: <p>Internationalized Domain Names for Applications (IDNA) provides a method
-    to map a subset of names written in Unicode into the DNS.  Because of Unicode
-    decisions, appearance, language and writing system conventions, and historical
-    reasons, it often has been asserted that there is more than one way to write what
-    competent readers and writers think of as the same host name; these different
-    ways of writing are often called "variants". (The authors note that there are
-    many conflicting definitions for the term "variant" in the IDNA community.) This
-    document surveys the approaches that top-level domains have taken to the registration
-    and provisioning of domain names that have variants.  This document is not a product
-    of the IETF, does not propose any method to make variants work "correctly", and
-    is not an introduction to internationalization or IDNA.</p>
+    to map a subset of names written in Unicode into the DNS. Because of Unicode decisions,
+    appearance, language and writing system conventions, and historical reasons, it
+    often has been asserted that there is more than one way to write what competent
+    readers and writers think of as the same host name; these different ways of writing
+    are often called "variants". (The authors note that there are many conflicting
+    definitions for the term "variant" in the IDNA community.) This document surveys
+    the approaches that top-level domains have taken to the registration and provisioning
+    of domain names that have variants. This document is not a product of the IETF,
+    does not propose any method to make variants work "correctly", and is not an introduction
+    to internationalization or IDNA.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

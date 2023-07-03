@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6763
 title:
 - content: DNS-Based Service Discovery
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies how DNS resource records are named and structured
-    to facilitate service discovery.  Given a type of service that a client is looking
+    to facilitate service discovery. Given a type of service that a client is looking
     for, and a domain in which the client is looking for that service, this mechanism
     allows clients to discover a list of named instances of that desired service,
-    using standard DNS queries.  This mechanism is referred to as DNS-based Service
+    using standard DNS queries. This mechanism is referred to as DNS-based Service
     Discovery, or DNS-SD.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

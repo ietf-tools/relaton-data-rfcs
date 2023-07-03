@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9427
 title:
 - content: TLS-Based Extensible Authentication Protocol (EAP) Types for Use with TLS
@@ -67,13 +67,13 @@ script:
 - Latn
 abstract:
 - content: "<p>The Extensible Authentication Protocol-TLS (EAP-TLS) (RFC 5216) has
-    been updated for TLS 1.3 in RFC 9190.  Many other EAP Types also depend on TLS,
+    been updated for TLS 1.3 in RFC 9190. Many other EAP Types also depend on TLS,
     such as EAP-Flexible Authentication via Secure Tunneling (EAP-FAST) (RFC 4851),
     EAP-Tunneled TLS (EAP-TTLS) (RFC 5281), the Tunnel Extensible Authentication Protocol
-    (TEAP) (RFC 7170).  It is possible that many vendor-specific EAP methods, such
+    (TEAP) (RFC 7170). It is possible that many vendor-specific EAP methods, such
     as the Protected Extensible Authentication Protocol (PEAP), depend on TLS as well.
-    \ This document updates those methods in order to use the new key derivation methods
-    available in TLS 1.3.  Additional changes necessitated by TLS 1.3 are also discussed.</p>"
+    This document updates those methods in order to use the new key derivation methods
+    available in TLS 1.3. Additional changes necessitated by TLS 1.3 are also discussed.</p>"
   language:
   - en
   script:
@@ -111,6 +111,10 @@ relation:
       content: RFC7170
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

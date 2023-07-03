@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7442
 title:
 - content: Carrying Protocol Independent Multicast - Sparse Mode (PIM-SM) in Any-Source
@@ -214,7 +214,7 @@ abstract:
 - content: "<p>When IP multicast trees created by Protocol Independent Multicast -
     Sparse Mode (PIM-SM) in Any-Source Multicast (ASM) mode need to pass through an
     MPLS domain, it may be desirable to map such trees to Point-to-Multipoint Label
-    Switched Paths (P2MP LSPs).  This document describes how to accomplish this in
+    Switched Paths (P2MP LSPs). This document describes how to accomplish this in
     the case where such P2MP LSPs are established using Label Distribution Protocol
     (LDP) Extensions for P2MP and Multipoint-to-Multipoint LSPs: Multipoint LDP (mLDP).</p>"
   language:
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

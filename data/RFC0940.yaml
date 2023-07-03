@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC940
 title:
 - content: Toward an Internet standard scheme for subnetting
@@ -42,13 +42,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Several sites now contain a complex of local links connected to the
-    Internet via a gateway.  The details of the internal connectivity are of little
-    interest to the rest of the Internet.  One way of organizing these local complexes
+    Internet via a gateway. The details of the internal connectivity are of little
+    interest to the rest of the Internet. One way of organizing these local complexes
     of links is to use the same strategy as the Internet uses to organize networks,
     that is, to declare each link to be an entity (like a network) and to interconnect
-    the links with devices that perform routing functions (like gateways).  This general
+    the links with devices that perform routing functions (like gateways). This general
     scheme is called subnetting, the individual links are called subnets, and the
-    connecting devices are called subgateways (or bridges, or gateways).  This RFC
+    connecting devices are called subgateways (or bridges, or gateways). This RFC
     discusses standardizing the protocol used in subnetted environments in the ARPA-Internet.</p>"
   language:
   - en
@@ -56,6 +56,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

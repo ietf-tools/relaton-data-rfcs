@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5004
 title:
 - content: Avoid BGP Best Path Transitions from One External to Another
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>In this document, we propose an extension to the BGP route selection
     rules that would avoid unnecessary best path transitions between external paths
-    under certain conditions.  The proposed extension would help the overall network
+    under certain conditions. The proposed extension would help the overall network
     stability, and more importantly, would eliminate certain BGP route oscillations
     in which more than one external path from one BGP speaker contributes to the churn.
     [STANDARDS-TRACK]</p>"
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

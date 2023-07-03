@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4049
 title:
 - content: 'BinaryTime: An Alternate Format for Representing Date and Time in ASN.1'
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a new ASN.1 type for representing time: BinaryTime.
-    \ This document also specifies an alternate to the signing-time attribute for
-    use with the Cryptographic Message Syntax(CMS) SignedData and AuthenticatedData
-    content types; the binary-signing-time attribute uses BinaryTime.  CMS and the
-    signing-time attribute are defined in RFC 3852.  This memo defines an Experimental
-    Protocol for the Internet community.</p>"
+    This document also specifies an alternate to the signing-time attribute for use
+    with the Cryptographic Message Syntax(CMS) SignedData and AuthenticatedData content
+    types; the binary-signing-time attribute uses BinaryTime. CMS and the signing-time
+    attribute are defined in RFC 3852. This memo defines an Experimental Protocol
+    for the Internet community.</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC6019
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

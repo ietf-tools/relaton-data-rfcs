@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5447
 title:
 - content: 'Diameter Mobile IPv6: Support for Network Access Server to Diameter Server
@@ -184,18 +184,22 @@ script:
 abstract:
 - content: "<p>A Mobile IPv6 node requires a home agent address, a home address, and
     a security association with its home agent before it can start utilizing Mobile
-    IPv6.  RFC 3775 requires that some or all of these parameters be statically configured.
-    \ Mobile IPv6 bootstrapping work aims to make this information dynamically available
-    to the mobile node.  An important aspect of the Mobile IPv6 bootstrapping solution
+    IPv6. RFC 3775 requires that some or all of these parameters be statically configured.
+    Mobile IPv6 bootstrapping work aims to make this information dynamically available
+    to the mobile node. An important aspect of the Mobile IPv6 bootstrapping solution
     is to support interworking with existing Authentication, Authorization, and Accounting
-    (AAA) infrastructures.  This document describes MIPv6 bootstrapping using the
-    Diameter Network Access Server to home AAA server interface. [STANDARDS-TRACK]</p>"
+    (AAA) infrastructures. This document describes MIPv6 bootstrapping using the Diameter
+    Network Access Server to home AAA server interface. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

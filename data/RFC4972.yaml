@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4972
 title:
 - content: Routing Extensions for Discovery of Multiprotocol (MPLS) Label Switch Router
@@ -214,9 +214,9 @@ abstract:
 - content: "<p>The setup of a full mesh of Multi-Protocol Label Switching (MPLS) Traffic
     Engineering (TE) Label Switched Paths (LSP) among a set of Label Switch Routers
     (LSR) is a common deployment scenario of MPLS Traffic Engineering either for bandwidth
-    optimization, bandwidth guarantees or fast rerouting with MPLS Fast Reroute.  Such
+    optimization, bandwidth guarantees or fast rerouting with MPLS Fast Reroute. Such
     deployment may require the configuration of a potentially large number of TE LSPs
-    (on the order of the square of the number of LSRs).  This document specifies Interior
+    (on the order of the square of the number of LSRs). This document specifies Interior
     Gateway Protocol (IGP) routing extensions for Intermediate System-to-Intermediate
     System (IS-IS) and Open Shortest Path First (OSPF) so as to provide an automatic
     discovery of the set of LSRs members of a mesh in order to automate the creation
@@ -227,6 +227,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8511
 title:
 - content: TCP Alternative Backoff with ECN (ABE)
@@ -154,14 +154,14 @@ script:
 abstract:
 - content: "<p>Active Queue Management (AQM) mechanisms allow for burst tolerance
     while enforcing short queues to minimise the time that packets spend enqueued
-    at a bottleneck.  This can cause noticeable performance degradation for TCP connections
+    at a bottleneck. This can cause noticeable performance degradation for TCP connections
     traversing such a bottleneck, especially if there are only a few flows or their
-    bandwidth-delay product (BDP) is large.  The reception of a Congestion Experienced
+    bandwidth-delay product (BDP) is large. The reception of a Congestion Experienced
     (CE) Explicit Congestion Notification (ECN) mark indicates that an AQM mechanism
     is used at the bottleneck, and the bottleneck network queue is therefore likely
-    to be short.  Feedback of this signal allows the TCP sender-side ECN reaction
-    in congestion avoidance to reduce the Congestion Window (cwnd) by a smaller amount
-    than the congestion control algorithm's reaction to inferred packet loss.  Therefore,
+    to be short. Feedback of this signal allows the TCP sender-side ECN reaction in
+    congestion avoidance to reduce the Congestion Window (cwnd) by a smaller amount
+    than the congestion control algorithm's reaction to inferred packet loss. Therefore,
     this specification defines an experimental change to the TCP reaction specified
     in RFC 3168, as permitted by RFC 8311.</p>"
   language:
@@ -170,6 +170,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

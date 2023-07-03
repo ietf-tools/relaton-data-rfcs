@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5777
 title:
 - content: Traffic Classification and Quality of Service (QoS) Attributes for Diameter
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document defines a number of Diameter attribute-value pairs (AVPs)
     for traffic classification with actions for filtering and Quality of Service (QoS)
-    treatment.  These AVPs can be used in existing and future Diameter applications
+    treatment. These AVPs can be used in existing and future Diameter applications
     where permitted by the Augmented Backus-Naur Form (ABNF) specification of the
     respective Diameter command extension policy. [STANDARDS-TRACK]</p>"
   language:
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

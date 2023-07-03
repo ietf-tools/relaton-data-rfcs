@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8858
 title:
 - content: Indicating Exclusive Support of RTP and RTP Control Protocol (RTCP) Multiplexing
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document defines a new Session Description Protocol (SDP) media-level
     attribute, 'rtcp-mux-only', that can be used by an endpoint to indicate exclusive
-    support of RTP and RTP Control Protocol (RTCP) multiplexing.  The document also
+    support of RTP and RTP Control Protocol (RTCP) multiplexing. The document also
     updates RFC 5761 by clarifying that an offerer can use a mechanism to indicate
     that it is not able to send and receive RTCP on separate ports.</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC5761
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

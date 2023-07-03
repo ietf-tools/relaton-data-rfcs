@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5198
 title:
 - content: Unicode Format for Network Interchange
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: <p>The Internet today is in need of a standardized form for the transmission
     of internationalized "text" information, paralleling the specifications for the
-    use of ASCII that date from the early days of the ARPANET.  This document specifies
+    use of ASCII that date from the early days of the ARPANET. This document specifies
     that format, using UTF-8 with normalization and specific line-ending sequences.
     [STANDARDS-TRACK]</p>
   language:
@@ -116,6 +116,10 @@ relation:
       content: RFC0854
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

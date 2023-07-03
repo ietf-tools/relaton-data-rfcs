@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4646
 title:
 - content: Tags for Identifying Languages
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>This document describes the structure, content, construction, and semantics
     of language tags for use in cases where it is desirable to indicate the language
-    used in an information object.  It also describes how to register values for use
+    used in an information object. It also describes how to register values for use
     in language tags and the creation of user-defined extensions for private interchange.
-    \ This document, in combination with RFC 4647, replaces RFC 3066, which replaced
-    RFC 1766.  This document specifies an Internet Best Current Practices for the
-    Internet Community, and requests discussion and suggestions for improvements.</p>"
+    This document, in combination with RFC 4647, replaces RFC 3066, which replaced
+    RFC 1766. This document specifies an Internet Best Current Practices for the Internet
+    Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC5646
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

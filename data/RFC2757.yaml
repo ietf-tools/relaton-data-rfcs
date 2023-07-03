@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2757
 title:
 - content: Long Thin Networks
@@ -182,13 +182,17 @@ script:
 - Latn
 abstract:
 - content: "<p>Our goal is to identify a TCP that works for all users, including users
-    of long thin networks.  This memo provides information for the Internet community.</p>"
+    of long thin networks. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

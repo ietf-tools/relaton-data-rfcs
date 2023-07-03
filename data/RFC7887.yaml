@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7887
 title:
 - content: Hierarchical Join/Prune Attributes
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document defines a hierarchical method of encoding Join/Prune
     attributes that provides a more efficient encoding when the same attribute values
-    need to be specified for multiple sources in a PIM Join/Prune message.  This document
+    need to be specified for multiple sources in a PIM Join/Prune message. This document
     updates RFC 5384 by renaming the encoding type registry specified there.</p>"
   language:
   - en
@@ -144,6 +144,10 @@ relation:
       content: RFC5384
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

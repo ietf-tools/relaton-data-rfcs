@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3776
 title:
 - content: Using IPsec to Protect Mobile IPv6 Signaling Between Mobile Nodes and Home
@@ -125,16 +125,20 @@ script:
 - Latn
 abstract:
 - content: "<p>Mobile IPv6 uses IPsec to protect signaling between the home agent
-    and the mobile node.  Mobile IPv6 base document defines the main requirements
-    these nodes must follow.  This document discusses these requirements in more depth,
-    illustrates the used packet formats, describes suitable configuration procedures,
-    and shows how implementations can process the packets in the right order. [STANDARDS-TRACK]</p>"
+    and the mobile node. Mobile IPv6 base document defines the main requirements these
+    nodes must follow. This document discusses these requirements in more depth, illustrates
+    the used packet formats, describes suitable configuration procedures, and shows
+    how implementations can process the packets in the right order. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

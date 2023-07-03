@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8367
 title:
 - content: Wrongful Termination of Internet Protocol (IP) Packets
@@ -94,16 +94,20 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Routers and middleboxes terminate packets for various reasons.  In
-    some cases, these packets are wrongfully terminated.  This memo describes some
-    of the most common scenarios of wrongful termination of Internet Protocol (IP)
-    packets and presents recommendations for mitigating them.</p>"
+- content: "<p>Routers and middleboxes terminate packets for various reasons. In some
+    cases, these packets are wrongfully terminated. This memo describes some of the
+    most common scenarios of wrongful termination of Internet Protocol (IP) packets
+    and presents recommendations for mitigating them.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

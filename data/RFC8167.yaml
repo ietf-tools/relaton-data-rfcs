@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8167
 title:
 - content: Bidirectional Remote Procedure Call on RPC-over-RDMA Transports
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>Minor versions of Network File System (NFS) version 4 newer than minor
     version 0 work best when Remote Procedure Call (RPC) transports can send RPC transactions
-    in both directions on the same connection.  This document describes how RPC transport
+    in both directions on the same connection. This document describes how RPC transport
     endpoints capable of Remote Direct Memory Access (RDMA) convey RPCs in both directions
     on a single connection.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

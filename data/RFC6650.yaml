@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6650
 title:
 - content: 'Creation and Use of Email Feedback Reports: An Applicability Statement
@@ -96,12 +96,12 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 5965 defines an extensible, machine-readable format intended for
-    mail operators to report feedback about received email to other parties.  This
+    mail operators to report feedback about received email to other parties. This
     applicability statement describes common methods for utilizing this format for
-    reporting both abuse and authentication failure events.  Mailbox Providers of
-    any size, mail-sending entities, and end users can use these methods as a basis
-    to create procedures that best suit them.  Some related optional mechanisms are
-    also discussed. [STANDARDS-TRACK]</p>"
+    reporting both abuse and authentication failure events. Mailbox Providers of any
+    size, mail-sending entities, and end users can use these methods as a basis to
+    create procedures that best suit them. Some related optional mechanisms are also
+    discussed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -119,6 +119,10 @@ relation:
       content: RFC5965
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

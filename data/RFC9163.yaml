@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9163
 title:
 - content: Expect-CT Extension for HTTP
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: <p>This document defines a new HTTP header field named "Expect-CT", which
     allows web host operators to instruct user agents (UAs) to expect valid Signed
-    Certificate Timestamps (SCTs) to be served on connections to these hosts.  Expect-CT
+    Certificate Timestamps (SCTs) to be served on connections to these hosts. Expect-CT
     allows web host operators to discover misconfigurations in their Certificate Transparency
-    (CT) deployments.  Further, web host operators can use Expect-CT to ensure that
+    (CT) deployments. Further, web host operators can use Expect-CT to ensure that
     if a UA that supports Expect-CT accepts a misissued certificate, that certificate
     will be discoverable in Certificate Transparency logs.</p>
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

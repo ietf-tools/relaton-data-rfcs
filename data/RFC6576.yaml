@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6576
 title:
 - content: IP Performance Metrics (IPPM) Standard Advancement Testing
@@ -154,12 +154,12 @@ script:
 abstract:
 - content: "<p>This document specifies tests to determine if multiple independent
     instantiations of a performance-metric RFC have implemented the specifications
-    in the same way.  This is the performance-metric equivalent of interoperability,
-    required to advance RFCs along the Standards Track.  Results from different implementations
+    in the same way. This is the performance-metric equivalent of interoperability,
+    required to advance RFCs along the Standards Track. Results from different implementations
     of metric RFCs will be collected under the same underlying network conditions
-    and compared using statistical methods.  The goal is an evaluation of the metric
+    and compared using statistical methods. The goal is an evaluation of the metric
     RFC itself to determine whether its definitions are clear and unambiguous to implementors
-    and therefore a candidate for advancement on the IETF Standards Track.  This document
+    and therefore a candidate for advancement on the IETF Standards Track. This document
     is an Internet Best Current Practice.</p>"
   language:
   - en
@@ -171,6 +171,10 @@ series:
     content: BCP
     format: text/plain
   number: '176'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

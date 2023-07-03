@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4666
 title:
 - content: Signaling System 7 (SS7) Message Transfer Part 3 (MTP3) - User Adaptation
@@ -97,19 +97,23 @@ script:
 abstract:
 - content: "<p>This memo defines a protocol for supporting the transport of any SS7
     MTP3-User signalling (e.g., ISUP and SCCP messages) over IP using the services
-    of the Stream Control Transmission Protocol.  Also, provision is made for protocol
+    of the Stream Control Transmission Protocol. Also, provision is made for protocol
     elements that enable a seamless operation of the MTP3-User peers in the SS7 and
-    IP domains.  This protocol would be used between a Signalling Gateway (SG) and
+    IP domains. This protocol would be used between a Signalling Gateway (SG) and
     a Media Gateway Controller (MGC) or IP-resident Database, or between two IP-based
-    applications.  It is assumed that the SG receives SS7 signalling over a standard
+    applications. It is assumed that the SG receives SS7 signalling over a standard
     SS7 interface using the SS7 Message Transfer Part (MTP) to provide transport.
-    \ This document obsoletes RFC 3332. [STANDARDS-TRACK]</p>"
+    This document obsoletes RFC 3332. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

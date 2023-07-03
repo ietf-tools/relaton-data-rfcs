@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6511
 title:
 - content: Non-Penultimate Hop Popping Behavior and Out-of-Band Mapping for RSVP-TE
@@ -127,8 +127,8 @@ abstract:
 - content: <p>There are many deployment scenarios that require an egress Label Switching
     Router (LSR) to receive binding of the Resource Reservation Protocol - Traffic
     Engineering (RSVP-TE) Label Switched Path (LSP) to an application and a payload
-    identifier using some "out-of-band" (OOB) mechanism.  This document defines protocol
-    mechanisms to address this requirement.  The procedures described in this document
+    identifier using some "out-of-band" (OOB) mechanism. This document defines protocol
+    mechanisms to address this requirement. The procedures described in this document
     are equally applicable for point-to-point (P2P) and point-to-multipoint (P2MP)
     LSPs. [STANDARDS-TRACK]</p>
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

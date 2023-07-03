@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5985
 title:
 - content: HTTP-Enabled Location Delivery (HELD)
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This document defines a Layer 7 Location Configuration Protocol (L7
     LCP) and describes the use of HTTP and HTTP/TLS as transports for the L7 LCP.
-    \ The L7 LCP is used for retrieving location information from a server within
-    an access network.  It includes options for retrieving location information in
-    two forms: by value and by reference.  The protocol is an extensible application-layer
+    The L7 LCP is used for retrieving location information from a server within an
+    access network. It includes options for retrieving location information in two
+    forms: by value and by reference. The protocol is an extensible application-layer
     protocol that is independent of the session layer. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

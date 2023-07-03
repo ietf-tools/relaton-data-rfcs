@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3495
 title:
 - content: Dynamic Host Configuration Protocol (DHCP) Option for CableLabs Client
@@ -97,16 +97,20 @@ script:
 abstract:
 - content: "<p>This document defines a Dynamic Host Configuration Protocol (DHCP)
     option that will be used to configure various devices deployed within CableLabs
-    architectures.  Specifically, the document describes DHCP option content that
-    will be used to configure one class of CableLabs client device: a PacketCable
-    Media Terminal Adapter (MTA).  The option content defined within this document
-    will be extended as future CableLabs client devices are developed. [STANDARDS-TRACK]</p>"
+    architectures. Specifically, the document describes DHCP option content that will
+    be used to configure one class of CableLabs client device: a PacketCable Media
+    Terminal Adapter (MTA). The option content defined within this document will be
+    extended as future CableLabs client devices are developed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

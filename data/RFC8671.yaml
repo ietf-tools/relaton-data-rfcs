@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8671
 title:
 - content: Support for Adj-RIB-Out in the BGP Monitoring Protocol (BMP)
@@ -182,8 +182,8 @@ script:
 - Latn
 abstract:
 - content: "<p>The BGP Monitoring Protocol (BMP) only defines access to the Adj-RIB-In
-    Routing Information Bases (RIBs).  This document updates BMP (RFC 7854) by adding
-    access to the Adj-RIB-Out RIBs.  It also adds a new flag to the peer header to
+    Routing Information Bases (RIBs). This document updates BMP (RFC 7854) by adding
+    access to the Adj-RIB-Out RIBs. It also adds a new flag to the peer header to
     distinguish between Adj-RIB-In and Adj-RIB-Out.</p>"
   language:
   - en
@@ -202,6 +202,10 @@ relation:
       content: RFC7854
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

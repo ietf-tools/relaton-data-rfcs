@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7448
 title:
 - content: MIB Transfer from the IETF to the IEEE 802.3 WG
@@ -97,7 +97,7 @@ abstract:
 - content: "<p>This document records the transfer of responsibility for the Ethernet-related
     MIB modules DOT3-OAM-MIB, SNMP-REPEATER-MIB, POWER-ETHERNET-MIB, DOT3-EPON-MIB,
     EtherLike-MIB, EFM-CU-MIB, ETHER-WIS, and MAU-MIB from the IETF to the IEEE 802.3
-    Working Group (WG).  This document also describes the procedures associated with
+    Working Group (WG). This document also describes the procedures associated with
     the transfer in a similar way to how RFC 4663 records the transfer of the IETF
     Bridge MIB work to the IEEE 802.1 WG.</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

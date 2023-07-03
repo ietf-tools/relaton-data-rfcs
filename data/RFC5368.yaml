@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5368
 title:
 - content: Referring to Multiple Resources in the Session Initiation Protocol (SIP)
@@ -182,7 +182,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines extensions to the SIP REFER method so that it
-    can be used to refer to multiple resources in a single request.  These extensions
+    can be used to refer to multiple resources in a single request. These extensions
     include the use of pointers to Uniform Resource Identifier (URI) lists in the
     Refer-To header field and the "multiple-refer" SIP option-tag. [STANDARDS-TRACK]</p>
   language:
@@ -191,6 +191,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

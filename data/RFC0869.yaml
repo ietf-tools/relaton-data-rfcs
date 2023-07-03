@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC869
 title:
 - content: Host Monitoring Protocol
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC specifies the Host Monitoring Protocol used to collect information
-    from various types of hosts in the Internet.  Designers of Internet communications
+    from various types of hosts in the Internet. Designers of Internet communications
     software are encouraged to consider this protocol as a means of monitoring the
     behavior of their creations.</p>"
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

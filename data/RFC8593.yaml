@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8593
 title:
 - content: Video Traffic Models for RTP Congestion Control Evaluations
@@ -124,13 +124,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes two reference video traffic models for evaluating
-    RTP congestion control algorithms.  The first model statistically characterizes
+    RTP congestion control algorithms. The first model statistically characterizes
     the behavior of a live video encoder in response to changing requests on the target
-    video rate.  The second model is trace-driven and emulates the output of actual
-    encoded video frame sizes from a high-resolution test sequence.  Both models are
+    video rate. The second model is trace-driven and emulates the output of actual
+    encoded video frame sizes from a high-resolution test sequence. Both models are
     designed to strike a balance between simplicity, repeatability, and authenticity
     in modeling the interactions between a live video traffic source and the congestion
-    control module.  Finally, the document describes how both approaches can be combined
+    control module. Finally, the document describes how both approaches can be combined
     into a hybrid model.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

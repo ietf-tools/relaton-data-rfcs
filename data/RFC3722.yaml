@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3722
 title:
 - content: String Profile for Internet Small Computer Systems Interface (iSCSI) Names
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This document describes how to prepare internationalized iSCSI names
     to increase the likelihood that name input and comparison work in ways that make
-    sense for typical users throughout the world.  The Internet Small Computer Systems
+    sense for typical users throughout the world. The Internet Small Computer Systems
     Interface (iSCSI) protocol provides a way for hosts to access SCSI devices over
-    an IP network.  The iSCSI end-points, called initiators and targets, each have
+    an IP network. The iSCSI end-points, called initiators and targets, each have
     a globally-unique name that must be transcribable, as well as easily compared.
     [STANDARDS-TRACK]</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

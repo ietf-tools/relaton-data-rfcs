@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5642
 title:
 - content: Dynamic Hostname Exchange Mechanism for OSPF
@@ -155,14 +155,18 @@ abstract:
 - content: "<p>This document defines a new OSPF Router Information (RI) TLV that allows
     OSPF routers to flood their hostname-to-Router-ID mapping information across an
     OSPF network to provide a simple and dynamic mechanism for routers running OSPF
-    to learn about symbolic hostnames, just like for routers running IS-IS.  This
-    mechanism is applicable to both OSPFv2 and OSPFv3. [STANDARDS-TRACK]</p>"
+    to learn about symbolic hostnames, just like for routers running IS-IS. This mechanism
+    is applicable to both OSPFv2 and OSPFv3. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

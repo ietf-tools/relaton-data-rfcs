@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8000
 title:
 - content: Requirements for NFSv4 Multi-Domain Namespace Deployment
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>This document presents requirements for the deployment of the NFSv4
     protocols for the construction of an NFSv4 file namespace in environments with
-    multiple NFSv4 Domains.  To participate in an NFSv4 multi-domain file namespace,
+    multiple NFSv4 Domains. To participate in an NFSv4 multi-domain file namespace,
     the server must offer a multi-domain-capable file system and support RPCSEC_GSS
-    for user authentication.  In most instances, the server must also support identity-mapping
+    for user authentication. In most instances, the server must also support identity-mapping
     services.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

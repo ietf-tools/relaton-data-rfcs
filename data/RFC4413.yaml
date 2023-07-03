@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4413
 title:
 - content: TCP/IP Field Behavior
@@ -95,19 +95,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes TCP/IP field behavior in the context of header
-    compression.  Header compression is possible because most header fields do not
-    vary randomly from packet to packet.  Many of the fields exhibit static behavior
-    or change in a more or less predictable way.  When a header compression scheme
+    compression. Header compression is possible because most header fields do not
+    vary randomly from packet to packet. Many of the fields exhibit static behavior
+    or change in a more or less predictable way. When a header compression scheme
     is designed, it is of fundamental importance to understand the behavior of the
-    fields in detail.  An example of this analysis can be seen in RFC 3095.  This
-    memo performs a similar role for the compression of TCP/IP headers.  This memo
-    provides information for the Internet community.</p>"
+    fields in detail. An example of this analysis can be seen in RFC 3095. This memo
+    performs a similar role for the compression of TCP/IP headers. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

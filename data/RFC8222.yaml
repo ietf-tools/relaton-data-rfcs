@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8222
 title:
 - content: Selecting Labels for Use with Conventional DNS and Other Resolution Systems
@@ -67,15 +67,15 @@ script:
 - Latn
 abstract:
 - content: "<p>Despite its name, DNS-Based Service Discovery (DNS-SD) can use naming
-    systems other than DNS when looking for services.  Moreover, when it uses DNS,
+    systems other than DNS when looking for services. Moreover, when it uses DNS,
     DNS-SD uses the full capability of DNS, rather than using a subset of available
-    octets.  This is of particular relevance where some environments use DNS labels
+    octets. This is of particular relevance where some environments use DNS labels
     that conform to Internationalized Domain Names for Applications (IDNA), and other
     environments use labels containing Unicode characters (such as containing octets
-    corresponding to characters encoded as UTF-8).  In order for DNS-SD to be used
+    corresponding to characters encoded as UTF-8). In order for DNS-SD to be used
     effectively in environments where multiple different name systems and conventions
     for their operation are in use, it is important to attend to differences in the
-    underlying technology and operational environment.  This memo presents an outline
+    underlying technology and operational environment. This memo presents an outline
     of the requirements for the selection of labels for conventional DNS and other
     resolution systems when they are expected to interoperate in this manner.</p>"
   language:
@@ -84,6 +84,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

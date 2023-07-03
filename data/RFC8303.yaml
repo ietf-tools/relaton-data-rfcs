@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8303
 title:
 - content: On the Usage of Transport Features Provided by IETF Transport Protocols
@@ -127,9 +127,9 @@ abstract:
     Protocol (TCP), MultiPath TCP (MPTCP), Stream Control Transmission Protocol (SCTP),
     User Datagram Protocol (UDP), and Lightweight User Datagram Protocol (UDP-Lite)
     expose services to applications and how an application can configure and use the
-    features that make up these services.  It also discusses the service provided
-    by the Low Extra Delay Background Transport (LEDBAT) congestion control mechanism.
-    \ The description results in a set of transport abstractions that can be exported
+    features that make up these services. It also discusses the service provided by
+    the Low Extra Delay Background Transport (LEDBAT) congestion control mechanism.
+    The description results in a set of transport abstractions that can be exported
     in a transport services (TAPS) API.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

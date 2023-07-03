@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7457
 title:
 - content: Summarizing Known Attacks on Transport Layer Security (TLS) and Datagram
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>Over the last few years, there have been several serious attacks on
     Transport Layer Security (TLS), including attacks on its most commonly used ciphers
-    and modes of operation.  This document summarizes these attacks, with the goal
+    and modes of operation. This document summarizes these attacks, with the goal
     of motivating generic and protocol-specific recommendations on the usage of TLS
     and Datagram TLS (DTLS).</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

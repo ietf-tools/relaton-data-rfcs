@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5128
 title:
 - content: State of Peer-to-Peer (P2P) Communication across Network Address Translators
@@ -126,19 +126,23 @@ script:
 abstract:
 - content: "<p>This memo documents the various methods known to be in use by applications
     to establish direct communication in the presence of Network Address Translators
-    (NATs) at the current time.  Although this memo is intended to be mainly descriptive,
+    (NATs) at the current time. Although this memo is intended to be mainly descriptive,
     the Security Considerations section makes some purely advisory recommendations
     about how to deal with security vulnerabilities the applications could inadvertently
-    create when using the methods described.  This memo covers NAT traversal approaches
-    used by both TCP- and UDP-based applications.  This memo is not an endorsement
+    create when using the methods described. This memo covers NAT traversal approaches
+    used by both TCP- and UDP-based applications. This memo is not an endorsement
     of the methods described, but merely an attempt to capture them in a document.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

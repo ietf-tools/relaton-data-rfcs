@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4401
 title:
 - content: A Pseudo-Random Function (PRF) API Extension for the Generic Security Service
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document defines a Pseudo-Random Function (PRF) extension to the
     Generic Security Service Application Program Interface (GSS-API) for keying application
-    protocols given an established GSS-API security context.  The primary intended
+    protocols given an established GSS-API security context. The primary intended
     use of this function is to key secure session layers that do not or cannot use
     GSS-API per-message message integrity check (MIC) and wrap tokens for session
     protection. [STANDARDS-TRACK]</p>"
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

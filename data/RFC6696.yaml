@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6696
 title:
 - content: EAP Extensions for the EAP Re-authentication Protocol (ERP)
@@ -182,12 +182,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The Extensible Authentication Protocol (EAP) is a generic framework
-    supporting multiple types of authentication methods.  In systems where EAP is
-    used for authentication, it is desirable to avoid repeating the entire EAP exchange
-    with another authenticator.  This document specifies extensions to EAP and the
+    supporting multiple types of authentication methods. In systems where EAP is used
+    for authentication, it is desirable to avoid repeating the entire EAP exchange
+    with another authenticator. This document specifies extensions to EAP and the
     EAP keying hierarchy to support an EAP method-independent protocol for efficient
     re- authentication between the peer and an EAP re-authentication server through
-    any authenticator.  The re-authentication server may be in the home network or
+    any authenticator. The re-authentication server may be in the home network or
     in the local network to which the peer is connecting. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

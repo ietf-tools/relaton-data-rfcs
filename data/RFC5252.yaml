@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5252
 title:
 - content: OSPF-Based Layer 1 VPN Auto-Discovery
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines an Open Shortest Path First (OSPF) based Layer
-    1 Virtual Private Network (L1VPN) auto-discovery mechanism.  This mechanism enables
+    1 Virtual Private Network (L1VPN) auto-discovery mechanism. This mechanism enables
     provider edge (PE) devices using OSPF to dynamically learn about the existence
     of each other, and attributes of configured customer edge (CE) links and their
-    associations with L1VPNs.  This document builds on the L1VPN framework and requirements
+    associations with L1VPNs. This document builds on the L1VPN framework and requirements
     and provides a L1VPN basic mode auto-discovery mechanism. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

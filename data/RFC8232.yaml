@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8232
 title:
 - content: Optimizations of Label Switched Path State Synchronization Procedures for
@@ -214,20 +214,24 @@ abstract:
 - content: "<p>A stateful Path Computation Element (PCE) has access to not only the
     information disseminated by the network's Interior Gateway Protocol (IGP) but
     also the set of active paths and their reserved resources for its computation.
-    \ The additional Label Switched Path (LSP) state information allows the PCE to
-    compute constrained paths while considering individual LSPs and their interactions.
-    \ This requires a State Synchronization mechanism between the PCE and the network,
-    the PCE and Path Computation Clients (PCCs), and cooperating PCEs.  The basic
-    mechanism for State Synchronization is part of the stateful PCE specification.
-    \ This document presents motivations for optimizations to the base State Synchronization
-    procedure and specifies the required Path Computation Element Communication Protocol
-    (PCEP) extensions.</p>"
+    The additional Label Switched Path (LSP) state information allows the PCE to compute
+    constrained paths while considering individual LSPs and their interactions. This
+    requires a State Synchronization mechanism between the PCE and the network, the
+    PCE and Path Computation Clients (PCCs), and cooperating PCEs. The basic mechanism
+    for State Synchronization is part of the stateful PCE specification. This document
+    presents motivations for optimizations to the base State Synchronization procedure
+    and specifies the required Path Computation Element Communication Protocol (PCEP)
+    extensions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

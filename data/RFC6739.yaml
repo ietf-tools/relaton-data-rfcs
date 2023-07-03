@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6739
 title:
 - content: Synchronizing Service Boundaries and <mapping> Elements Based on the Location-to-Service
@@ -99,22 +99,25 @@ abstract:
     protocol for mapping service identifiers and geodetic or civic location information
     to service URIs and service boundaries. In particular, it can be used to determine
     the location-appropriate Public Safety Answering Point (PSAP) for emergency services.</p><p>The
-    \  element in the LoST protocol specification encapsulates information about service
+    element in the LoST protocol specification encapsulates information about service
     boundaries and circumscribes the region within which all locations map to the
     same service Uniform Resource Identifier (URI) or set of URIs for a given service.</p><p>This
     document defines an XML protocol to exchange these mappings between two nodes.
-    This mechanism is designed for the exchange of authoritative   elements between
-    two entities. Exchanging cached   elements, i.e., non-authoritative elements,
-    is possible but not envisioned. Even though the   element format is reused from
-    the LoST specification, the mechanism in this document can be used without the
-    LoST protocol. This document defines an Experimental Protocol for the Internet
-    community.</p>"
+    This mechanism is designed for the exchange of authoritative elements between
+    two entities. Exchanging cached elements, i.e., non-authoritative elements, is
+    possible but not envisioned. Even though the element format is reused from the
+    LoST specification, the mechanism in this document can be used without the LoST
+    protocol. This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8621
 title:
 - content: The JSON Meta Application Protocol (JMAP) for Mail
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a data model for synchronising email data with
-    a server using the JSON Meta Application Protocol (JMAP).  Clients can use this
+    a server using the JSON Meta Application Protocol (JMAP). Clients can use this
     to efficiently search, access, organise, and send messages, and to get push notifications
     for fast resynchronisation when new messages are delivered or a change is made
     in another client.</p>"
@@ -116,6 +116,10 @@ relation:
       content: RFC5788
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

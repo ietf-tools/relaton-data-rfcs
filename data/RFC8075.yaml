@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8075
 title:
 - content: 'Guidelines for Mapping Implementations: HTTP to the Constrained Application
@@ -184,10 +184,10 @@ script:
 abstract:
 - content: "<p>This document provides reference information for implementing a cross-protocol
     network proxy that performs translation from the HTTP protocol to the Constrained
-    Application Protocol (CoAP).  This will enable an HTTP client to access resources
-    on a CoAP server through the proxy.  This document describes how an HTTP request
+    Application Protocol (CoAP). This will enable an HTTP client to access resources
+    on a CoAP server through the proxy. This document describes how an HTTP request
     is mapped to a CoAP request and how a CoAP response is mapped back to an HTTP
-    response.  This includes guidelines for status code, URI, and media type mappings,
+    response. This includes guidelines for status code, URI, and media type mappings,
     as well as additional interworking advice.</p>"
   language:
   - en
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

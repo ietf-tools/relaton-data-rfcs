@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2755
 title:
 - content: Security Negotiation for WebNFS
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>This document describes a protocol for a WebNFS client (RFC2054) to
     negotiate the desired security mechanism with a WebNFS server (RFC2055) before
-    the WebNFS client falls back to the MOUNT v3 protocol (RFC1813).  This document
-    is provided so that people can write compatible implementations.  This memo provides
+    the WebNFS client falls back to the MOUNT v3 protocol (RFC1813). This document
+    is provided so that people can write compatible implementations. This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

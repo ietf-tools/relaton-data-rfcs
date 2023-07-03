@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8492
 title:
 - content: Secure Password Ciphersuites for Transport Layer Security (TLS)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This memo defines several new ciphersuites for the Transport Layer Security
     (TLS) protocol to support certificateless, secure authentication using only a
-    simple, low-entropy password.  The exchange is called "TLS-PWD".  The ciphersuites
+    simple, low-entropy password. The exchange is called "TLS-PWD". The ciphersuites
     are all based on an authentication and key exchange protocol, named "dragonfly",
     that is resistant to offline dictionary attacks.</p>
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

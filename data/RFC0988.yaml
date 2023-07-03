@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC988
 title:
 - content: Host extensions for IP multicasting
@@ -71,9 +71,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo specifies the extensions required of a host implementation
-    of the Internet Protocol (IP) to support internetwork multicasting.  This specification
+    of the Internet Protocol (IP) to support internetwork multicasting. This specification
     supersedes that given in RFC-966, and constitutes a proposed protocol standard
-    for IP multicasting in the ARPA-Internet.  The reader is directed to RFC-966 for
+    for IP multicasting in the ARPA-Internet. The reader is directed to RFC-966 for
     a discussion of the motivation and rationale behind the multicasting extension
     specified here.</p>"
   language:
@@ -103,6 +103,10 @@ relation:
       content: RFC1112
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

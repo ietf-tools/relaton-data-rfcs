@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4429
 title:
 - content: Optimistic Duplicate Address Detection (DAD) for IPv6
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>Optimistic Duplicate Address Detection is an interoperable modification
     of the existing IPv6 Neighbor Discovery (RFC 2461) and Stateless Address Autoconfiguration
-    (RFC 2462) processes.  The intention is to minimize address configuration delays
+    (RFC 2462) processes. The intention is to minimize address configuration delays
     in the successful case, to reduce disruption as far as possible in the failure
     case, and to remain interoperable with unmodified hosts and routers. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

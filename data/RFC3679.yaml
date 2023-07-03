@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3679
 title:
 - content: Unused Dynamic Host Configuration Protocol (DHCP) Option Codes
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>Prior to the publication of RFC 2489 (which was updated by RFC 2939),
     several option codes were assigned to proposed Dynamic Host Configuration Protocol
-    (DHCP) options that were subsequently never used.  This document lists those unused
+    (DHCP) options that were subsequently never used. This document lists those unused
     option codes and directs IANA to make these option codes available for assignment
-    to other DHCP options in the future.  The document also lists several option codes
+    to other DHCP options in the future. The document also lists several option codes
     that are not currently documented in an RFC but should not be made available for
     reassignment to future DHCP options.</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

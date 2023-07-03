@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1186
 title:
 - content: MD4 Message Digest Algorithm
@@ -70,9 +70,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC is the specification of the MD4 Digest Algorithm.  If you
-    are going to implement MD4, it is suggested you do it this way.  This memo is
-    for informational use and does not constitute a standard.</p>"
+- content: "<p>This RFC is the specification of the MD4 Digest Algorithm. If you are
+    going to implement MD4, it is suggested you do it this way. This memo is for informational
+    use and does not constitute a standard.</p>"
   language:
   - en
   script:
@@ -90,6 +90,10 @@ relation:
       content: RFC1320
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

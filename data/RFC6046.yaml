@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6046
 title:
 - content: Transport of Real-time Inter-network Defense (RID) Messages
@@ -97,10 +97,10 @@ abstract:
 - content: "<p>The Incident Object Description Exchange Format (IODEF) defines a common
     XML format for document exchange, and Real-time Inter-network Defense (RID) defines
     extensions to IODEF intended for the cooperative handling of security incidents
-    within consortia of network operators and enterprises.  This document specifies
+    within consortia of network operators and enterprises. This document specifies
     a transport protocol for RID based upon the passing of RID messages over HTTP/TLS
-    (Transport Layer Security).  This document is not an Internet Standards Track
-    specification; it is published for informational purposes.</p>"
+    (Transport Layer Security). This document is not an Internet Standards Track specification;
+    it is published for informational purposes.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC6546
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

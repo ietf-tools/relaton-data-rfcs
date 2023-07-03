@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9157
 title:
 - content: Revised IANA Considerations for DNSSEC
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document changes the review requirements needed to get DNSSEC
-    algorithms and resource records added to IANA registries.  It updates RFC 6014
+    algorithms and resource records added to IANA registries. It updates RFC 6014
     to include hash algorithms for Delegation Signer (DS) records and NextSECure version
-    3 (NSEC3) parameters (for Hashed Authenticated Denial of Existence).  It also
-    updates RFCs 5155 and 6014, which have requirements for DNSSEC algorithms, and
-    updates RFC 8624 to clarify the implementation recommendation related to the algorithms
-    described in RFCs that are not on the standards track.  The rationale for these
+    3 (NSEC3) parameters (for Hashed Authenticated Denial of Existence). It also updates
+    RFCs 5155 and 6014, which have requirements for DNSSEC algorithms, and updates
+    RFC 8624 to clarify the implementation recommendation related to the algorithms
+    described in RFCs that are not on the standards track. The rationale for these
     changes is to bring the requirements for DS records and hash algorithms used in
     NSEC3 in line with the requirements for all other DNSSEC algorithms.</p>"
   language:
@@ -111,6 +111,10 @@ relation:
       content: RFC8624
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

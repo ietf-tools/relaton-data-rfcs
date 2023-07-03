@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3759
 title:
 - content: 'RObust Header Compression (ROHC): Terminology and Channel Mapping Examples'
@@ -53,14 +53,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This document aims to clarify terms and concepts presented in RFC 3095.
-    \ RFC 3095 defines a Proposed Standard framework with profiles for RObust Header
-    Compression (ROHC).  The standard introduces various concepts which might be difficult
+    RFC 3095 defines a Proposed Standard framework with profiles for RObust Header
+    Compression (ROHC). The standard introduces various concepts which might be difficult
     to understand and especially to relate correctly to the surrounding environments
-    where header compression may be used.  This document aims at clarifying these
-    aspects of ROHC, discussing terms such as ROHC instances, ROHC channels, ROHC
-    feedback, and ROHC contexts, and how these terms relate to other terms, like network
-    elements and IP interfaces, commonly used, for example, when addressing MIB issues.
-    \ This memo provides information for the Internet community.</p>"
+    where header compression may be used. This document aims at clarifying these aspects
+    of ROHC, discussing terms such as ROHC instances, ROHC channels, ROHC feedback,
+    and ROHC contexts, and how these terms relate to other terms, like network elements
+    and IP interfaces, commonly used, for example, when addressing MIB issues. This
+    memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -78,6 +78,10 @@ relation:
       content: RFC3095
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

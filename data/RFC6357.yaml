@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6357
 title:
 - content: Design Considerations for Session Initiation Protocol (SIP) Overload Control
@@ -154,17 +154,21 @@ script:
 abstract:
 - content: "<p>Overload occurs in Session Initiation Protocol (SIP) networks when
     SIP servers have insufficient resources to handle all SIP messages they receive.
-    \ Even though the SIP protocol provides a limited overload control mechanism through
+    Even though the SIP protocol provides a limited overload control mechanism through
     its 503 (Service Unavailable) response code, SIP servers are still vulnerable
-    to overload.  This document discusses models and design considerations for a SIP
-    overload control mechanism.  This document is not an Internet Standards Track
-    specification; it is published for informational purposes.</p>"
+    to overload. This document discusses models and design considerations for a SIP
+    overload control mechanism. This document is not an Internet Standards Track specification;
+    it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

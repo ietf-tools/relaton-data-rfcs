@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5524
 title:
 - content: Extended URLFETCH for Binary and Converted Parts
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>The URLFETCH command defined as part of URLAUTH provides a mechanism
     for third parties to gain access to data held within messages in a user's private
     store; however, this data is sent verbatim, which is not suitable for a number
-    of applications.  This memo specifies a method for obtaining data in forms suitable
+    of applications. This memo specifies a method for obtaining data in forms suitable
     for non-mail applications. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

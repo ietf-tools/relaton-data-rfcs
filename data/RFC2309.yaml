@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2309
 title:
 - content: Recommendations on Queue Management and Congestion Avoidance in the Internet
@@ -472,13 +472,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo presents two recommendations to the Internet community concerning
-    measures to improve and preserve Internet performance.  It presents a strong recommendation
+    measures to improve and preserve Internet performance. It presents a strong recommendation
     for testing, standardization, and widespread deployment of active queue management
-    in routers, to improve the performance of today's Internet.  It also urges a concerted
+    in routers, to improve the performance of today's Internet. It also urges a concerted
     effort of research, measurement, and ultimate deployment of router mechanisms
     to protect the Internet from flows that are not sufficiently responsive to congestion
-    notification.  This memo provides information for the Internet community.  It
-    does not specify an Internet standard of any kind.</p>"
+    notification. This memo provides information for the Internet community. It does
+    not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -496,6 +496,10 @@ relation:
       content: RFC7567
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

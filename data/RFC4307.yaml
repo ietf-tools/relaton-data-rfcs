@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4307
 title:
 - content: Cryptographic Algorithms for Use in the Internet Key Exchange Version 2
@@ -67,14 +67,14 @@ script:
 - Latn
 abstract:
 - content: "<p>The IPsec series of protocols makes use of various cryptographic algorithms
-    in order to provide security services.  The Internet Key Exchange (IKE (RFC 2409)
+    in order to provide security services. The Internet Key Exchange (IKE (RFC 2409)
     and IKEv2) provide a mechanism to negotiate which algorithms should be used in
-    any given association.  However, to ensure interoperability between disparate
-    implementations, it is necessary to specify a set of mandatory-to-implement algorithms
-    to ensure that there is at least one algorithm that all implementations will have
-    available.  This document defines the current set of algorithms that are mandatory
-    to implement as part of IKEv2, as well as algorithms that should be implemented
-    because they may be promoted to mandatory at some future time. [STANDARDS-TRACK]</p>"
+    any given association. However, to ensure interoperability between disparate implementations,
+    it is necessary to specify a set of mandatory-to-implement algorithms to ensure
+    that there is at least one algorithm that all implementations will have available.
+    This document defines the current set of algorithms that are mandatory to implement
+    as part of IKEv2, as well as algorithms that should be implemented because they
+    may be promoted to mandatory at some future time. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -92,6 +92,10 @@ relation:
       content: RFC8247
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

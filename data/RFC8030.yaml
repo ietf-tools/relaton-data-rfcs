@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8030
 title:
 - content: Generic Event Delivery Using HTTP Push
@@ -124,13 +124,17 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a simple protocol for the delivery of real-
-    time events to user agents.  This scheme uses HTTP/2 server push.</p>"
+    time events to user agents. This scheme uses HTTP/2 server push.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

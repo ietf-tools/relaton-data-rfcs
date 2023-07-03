@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8635
 title:
 - content: Router Keying for BGPsec
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>BGPsec-speaking routers are provisioned with private keys in order
-    to sign BGPsec announcements.  The corresponding public keys are published in
-    the Global Resource Public Key Infrastructure (RPKI), enabling verification of
-    BGPsec messages.  This document describes two methods of generating the public-private
+    to sign BGPsec announcements. The corresponding public keys are published in the
+    Global Resource Public Key Infrastructure (RPKI), enabling verification of BGPsec
+    messages. This document describes two methods of generating the public-private
     key pairs: router-driven and operator-driven.</p>"
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1815
 title:
 - content: Character Sets ISO-10646 and ISO-10646-J-1
@@ -67,16 +67,20 @@ script:
 abstract:
 - content: "<p>For the practical use of ISO 10646, a lot of external profiling such
     as restriction of characters, restriction of combination of characters and addition
-    of language information is necessary.  This memo provides information on such
-    profiling, along with charset names to each profiled instance.  This memo provides
-    information for the Internet community.  This memo does not specify an Internet
-    standard of any kind.</p>"
+    of language information is necessary. This memo provides information on such profiling,
+    along with charset names to each profiled instance. This memo provides information
+    for the Internet community. This memo does not specify an Internet standard of
+    any kind.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

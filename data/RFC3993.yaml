@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3993
 title:
 - content: Subscriber-ID Suboption for the Dynamic Host Configuration Protocol (DHCP)
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: <p>This memo defines a new Subscriber-ID suboption for the Dynamic Host
-    Configuration Protocol's (DHCP) relay agent information option.  The suboption
+    Configuration Protocol's (DHCP) relay agent information option. The suboption
     allows a DHCP relay agent to associate a stable "Subscriber-ID" with DHCP client
     messages in a way that is independent of the client and of the underlying physical
     network infrastructure. [STANDARDS-TRACK]</p>
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4385
 title:
 - content: Pseudowire Emulation Edge-to-Edge (PWE3) Control Word for Use over an MPLS
@@ -155,7 +155,7 @@ script:
 abstract:
 - content: "<p>This document describes the preferred design of a Pseudowire Emulation
     Edge-to-Edge (PWE3) Control Word to be used over an MPLS packet switched network,
-    and the Pseudowire Associated Channel Header.  The design of these fields is chosen
+    and the Pseudowire Associated Channel Header. The design of these fields is chosen
     so that an MPLS Label Switching Router performing MPLS payload inspection will
     not confuse a PWE3 payload with an IP payload. [STANDARDS-TRACK]</p>"
   language:
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

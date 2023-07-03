@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7479
 title:
 - content: Using Ed25519 in SSHFP Resource Records
@@ -65,7 +65,7 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>The Ed25519 signature algorithm has been implemented in OpenSSH.  This
+- content: <p>The Ed25519 signature algorithm has been implemented in OpenSSH. This
     document updates the IANA "SSHFP RR Types for public key algorithms" registry
     by adding an algorithm number for Ed25519.</p>
   language:
@@ -74,6 +74,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

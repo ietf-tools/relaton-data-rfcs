@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5195
 title:
 - content: BGP-Based Auto-Discovery for Layer-1 VPNs
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: <p>The purpose of this document is to define a BGP-based auto-discovery
-    mechanism for Layer-1 VPNs (L1VPNs).  The auto-discovery mechanism for L1VPNs
-    allows the provider network devices to dynamically discover the set of Provider
-    Edges (PEs) having ports attached to Customer Edge (CE) members of the same VPN.  That
-    information is necessary for completing the signaling phase of L1VPN connections.  One
-    main objective of a L1VPN auto-discovery mechanism is to support the "single-end
+    mechanism for Layer-1 VPNs (L1VPNs). The auto-discovery mechanism for L1VPNs allows
+    the provider network devices to dynamically discover the set of Provider Edges
+    (PEs) having ports attached to Customer Edge (CE) members of the same VPN. That
+    information is necessary for completing the signaling phase of L1VPN connections.
+    One main objective of a L1VPN auto-discovery mechanism is to support the "single-end
     provisioning" model, where addition of a new port to a given L1VPN would involve
     configuration changes only on the PE that has this port and on the CE that is
     connected to the PE via this port. [STANDARDS-TRACK]</p>
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

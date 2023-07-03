@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1626
 title:
 - content: Default IP MTU for use over ATM AAL5
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>There are a number of good reasons to have a reasonably large default
-    MTU value for IP over ATM AAL5.  This paper presents the default IP MIU for use
+    MTU value for IP over ATM AAL5. This paper presents the default IP MIU for use
     over ATM AAL5. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC2225
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

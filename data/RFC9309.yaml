@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9309
 title:
 - content: Robots Exclusion Protocol
@@ -155,14 +155,18 @@ abstract:
 - content: <p>This document specifies and extends the "Robots Exclusion Protocol"
     method originally defined by Martijn Koster in 1994 for service owners to control
     how content served by their services may be accessed, if at all, by automatic
-    clients known as crawlers.  Specifically, it adds definition language for the
-    protocol, instructions for handling errors, and instructions for caching.</p>
+    clients known as crawlers. Specifically, it adds definition language for the protocol,
+    instructions for handling errors, and instructions for caching.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

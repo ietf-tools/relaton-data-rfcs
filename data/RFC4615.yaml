@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4615
 title:
 - content: The Advanced Encryption Standard-Cipher-based Message Authentication Code-Pseudo-Random
@@ -155,8 +155,8 @@ script:
 - Latn
 abstract:
 - content: "<p>Some implementations of IP Security (IPsec) may want to use a pseudo-random
-    function (PRF) based on the Advanced Encryption Standard (AES).  This memo describes
-    such an algorithm, called AES-CMAC-PRF-128.  It supports fixed and variable key
+    function (PRF) based on the Advanced Encryption Standard (AES). This memo describes
+    such an algorithm, called AES-CMAC-PRF-128. It supports fixed and variable key
     sizes. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

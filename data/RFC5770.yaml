@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5770
 title:
 - content: Basic Host Identity Protocol (HIP) Extensions for Traversal of Network
@@ -183,14 +183,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies extensions to the Host Identity Protocol (HIP)
-    to facilitate Network Address Translator (NAT) traversal.  The extensions are
-    based on the use of the Interactive Connectivity Establishment (ICE) methodology
-    to discover a working path between two end-hosts, and on standard techniques for
+    to facilitate Network Address Translator (NAT) traversal. The extensions are based
+    on the use of the Interactive Connectivity Establishment (ICE) methodology to
+    discover a working path between two end-hosts, and on standard techniques for
     encapsulating Encapsulating Security Payload (ESP) packets within the User Datagram
-    Protocol (UDP).  This document also defines elements of a procedure for NAT traversal,
-    including the optional use of a HIP relay server.  With these extensions HIP is
+    Protocol (UDP). This document also defines elements of a procedure for NAT traversal,
+    including the optional use of a HIP relay server. With these extensions HIP is
     able to work in environments that have NATs and provides a generic NAT traversal
-    solution to higher-layer networking applications.  This document defines an Experimental
+    solution to higher-layer networking applications. This document defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -198,6 +198,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

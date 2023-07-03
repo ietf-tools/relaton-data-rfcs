@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8324
 title:
 - content: 'DNS Privacy, Authorization, Special Uses, Encoding, Characters, Matching,
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The basic design of the Domain Name System was completed almost 30
-    years ago.  The last half of that period has been characterized by significant
+    years ago. The last half of that period has been characterized by significant
     changes in requirements and expectations, some of which either require changes
-    to how the DNS is used or can be accommodated only poorly or not at all.  This
+    to how the DNS is used or can be accommodated only poorly or not at all. This
     document asks the question of whether it is time to either redesign and replace
     the DNS to match contemporary requirements and expectations (rather than continuing
     to try to design and implement incremental patches that are not fully satisfactory)
@@ -81,6 +81,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

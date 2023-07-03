@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4336
 title:
 - content: Problem Statement for the Datagram Congestion Control Protocol (DCCP)
@@ -125,15 +125,19 @@ script:
 abstract:
 - content: "<p>This document describes for the historical record the motivation behind
     the Datagram Congestion Control Protocol (DCCP), an unreliable transport protocol
-    incorporating end-to-end congestion control.  DCCP implements a congestion-controlled,
+    incorporating end-to-end congestion control. DCCP implements a congestion-controlled,
     unreliable flow of datagrams for use by applications such as streaming media or
-    on-line games.  This memo provides information for the Internet community.</p>"
+    on-line games. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

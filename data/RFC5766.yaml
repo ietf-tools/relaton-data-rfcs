@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5766
 title:
 - content: 'Traversal Using Relays around NAT (TURN): Relay Extensions to Session
@@ -126,12 +126,12 @@ script:
 abstract:
 - content: "<p>If a host is located behind a NAT, then in certain situations it can
     be impossible for that host to communicate directly with other hosts (peers).
-    \ In these situations, it is necessary for the host to use the services of an
-    intermediate node that acts as a communication relay.  This specification defines
-    a protocol, called TURN (Traversal Using Relays around NAT), that allows the host
-    to control the operation of the relay and to exchange packets with its peers using
-    the relay.  TURN differs from some other relay control protocols in that it allows
-    a client to communicate with multiple peers using a single relay address. [STANDARDS-TRACK]</p>"
+    In these situations, it is necessary for the host to use the services of an intermediate
+    node that acts as a communication relay. This specification defines a protocol,
+    called TURN (Traversal Using Relays around NAT), that allows the host to control
+    the operation of the relay and to exchange packets with its peers using the relay.
+    TURN differs from some other relay control protocols in that it allows a client
+    to communicate with multiple peers using a single relay address. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -149,6 +149,10 @@ relation:
       content: RFC8656
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

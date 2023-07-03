@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9155
 title:
 - content: Deprecating MD5 and SHA-1 Signature Hashes in TLS 1.2 and DTLS 1.2
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>The MD5 and SHA-1 hashing algorithms are increasingly vulnerable to
     attack, and this document deprecates their use in TLS 1.2 and DTLS 1.2 digital
-    signatures.  However, this document does not deprecate SHA-1 with Hashed Message
-    Authentication Code (HMAC), as used in record protection.  This document updates
+    signatures. However, this document does not deprecate SHA-1 with Hashed Message
+    Authentication Code (HMAC), as used in record protection. This document updates
     RFC 5246.</p>"
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC5246
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

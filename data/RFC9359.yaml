@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9359
 title:
 - content: Echo Request/Reply for Enabled In Situ OAM (IOAM) Capabilities
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document describes a generic format for use in echo request/reply
     mechanisms, which can be used within an IOAM-Domain, allowing the IOAM encapsulating
     node to discover the enabled IOAM capabilities of each IOAM transit and IOAM decapsulating
-    node.  The generic format is intended to be used with a variety of data planes
+    node. The generic format is intended to be used with a variety of data planes
     such as IPv6, MPLS, Service Function Chain (SFC), and Bit Index Explicit Replication
     (BIER).</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

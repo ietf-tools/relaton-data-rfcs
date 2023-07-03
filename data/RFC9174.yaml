@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9174
 title:
 - content: Delay-Tolerant Networking TCP Convergence-Layer Protocol Version 4
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a TCP convergence layer (TCPCL) for Delay-Tolerant
-    Networking (DTN).  This version of the TCPCL protocol resolves implementation
-    issues in the earlier TCPCL version 3 as defined in RFC 7242 and provides updates
-    to the Bundle Protocol (BP) contents, encodings, and convergence-layer requirements
-    in BP version 7 (BPv7).  Specifically, TCPCLv4 uses BPv7 bundles encoded by the
+    Networking (DTN). This version of the TCPCL protocol resolves implementation issues
+    in the earlier TCPCL version 3 as defined in RFC 7242 and provides updates to
+    the Bundle Protocol (BP) contents, encodings, and convergence-layer requirements
+    in BP version 7 (BPv7). Specifically, TCPCLv4 uses BPv7 bundles encoded by the
     Concise Binary Object Representation (CBOR) as its service data unit being transported
-    and provides a reliable transport of such bundles.  This TCPCL version also includes
+    and provides a reliable transport of such bundles. This TCPCL version also includes
     security and extensibility mechanisms.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5322
 title:
 - content: Internet Message Format
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This document specifies the Internet Message Format (IMF), a syntax
     for text messages that are sent between computer users, within the framework of
-    "electronic mail" messages.  This specification is a revision of Request For Comments
+    "electronic mail" messages. This specification is a revision of Request For Comments
     (RFC) 2822, which itself superseded Request For Comments (RFC) 822, "Standard
     for the Format of ARPA Internet Text Messages", updating it to reflect current
     practice and incorporating incremental changes that were specified in other RFCs.
@@ -89,6 +89,10 @@ relation:
       content: RFC4021
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

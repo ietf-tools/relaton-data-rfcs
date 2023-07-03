@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6540
 title:
 - content: IPv6 Support Required for All IP-Capable Nodes
@@ -154,10 +154,10 @@ script:
 abstract:
 - content: <p>Given the global lack of available IPv4 space, and limitations in IPv4
     extension and transition technologies, this document advises that IPv6 support
-    is no longer considered optional.  It also cautions that there are places in existing
+    is no longer considered optional. It also cautions that there are places in existing
     IETF documents where the term "IP" is used in a way that could be misunderstood
     by implementers as the term "IP" becomes a generic that can mean IPv4 + IPv6,
-    IPv6-only, or IPv4-only, depending on context and application.  This memo documents
+    IPv6-only, or IPv4-only, depending on context and application. This memo documents
     an Internet Best Current Practice.</p>
   language:
   - en
@@ -169,6 +169,10 @@ series:
     content: BCP
     format: text/plain
   number: '177'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

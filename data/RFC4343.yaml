@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4343
 title:
 - content: Domain Name System (DNS) Case Insensitivity Clarification
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>Domain Name System (DNS) names are "case insensitive".  This document
-    explains exactly what that means and provides a clear specification of the rules.  This
-    clarification updates RFCs 1034, 1035, and 2181. [STANDARDS-TRACK]</p>
+- content: <p>Domain Name System (DNS) names are "case insensitive". This document
+    explains exactly what that means and provides a clear specification of the rules.
+    This clarification updates RFCs 1034, 1035, and 2181. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -105,6 +105,10 @@ relation:
       content: RFC2181
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

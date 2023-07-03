@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6729
 title:
 - content: Indicating Email Handling States in Trace Fields
@@ -96,16 +96,20 @@ script:
 abstract:
 - content: "<p>This document registers a trace field clause for use in indicating
     transitions between handling queues or processing states, including enacting inter-
-    and intra-host message transitions.  This might include message quarantining,
-    mailing list moderation, timed delivery, queuing for further analysis, content
-    conversion, or other similar causes, as well as optionally identifying normal
-    handling queues. [STANDARDS-TRACK]</p>"
+    and intra-host message transitions. This might include message quarantining, mailing
+    list moderation, timed delivery, queuing for further analysis, content conversion,
+    or other similar causes, as well as optionally identifying normal handling queues.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

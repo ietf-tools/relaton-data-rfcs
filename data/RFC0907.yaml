@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC907
 title:
 - content: Host Access Protocol specification
@@ -59,12 +59,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies the Host Access Protocol (HAP).  Although HAP
+- content: "<p>This document specifies the Host Access Protocol (HAP). Although HAP
     was originally designed as the network-access level protocol for the DARPA/DCA
     sponsored Wideband Packet Satellite Network, it is intended that it evolve into
     a standard interface SATNET and TACNET (aka MATNET) as well as the Wideband Network.
-    \ HAP is an experimental protocol, and will undergo further revision as new capabilities
-    are added and/or different satellite networks are suported.  Implementations of
+    HAP is an experimental protocol, and will undergo further revision as new capabilities
+    are added and/or different satellite networks are suported. Implementations of
     HAP should be performed in coordination with satellite network development and
     operations personnel.</p>"
   language:
@@ -77,6 +77,10 @@ series:
     content: STD
     format: text/plain
   number: '40'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8483
 title:
 - content: Yeti DNS Testbed
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>Yeti DNS is an experimental, non-production root server testbed that
     provides an environment where technical and operational experiments can safely
-    be performed without risk to production root server infrastructure.  This document
+    be performed without risk to production root server infrastructure. This document
     aims solely to document the technical and operational experience of deploying
     a system that is similar to but different from the Root Server system (on which
     the Internet's Domain Name System is designed and built).</p>"
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

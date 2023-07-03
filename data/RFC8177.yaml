@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8177
 title:
 - content: YANG Data Model for Key Chains
@@ -181,19 +181,23 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the key chain YANG data model.  Key chains
-    are commonly used for routing protocol authentication and other applications requiring
-    symmetric keys.  A key chain is a list containing one or more elements containing
+- content: "<p>This document describes the key chain YANG data model. Key chains are
+    commonly used for routing protocol authentication and other applications requiring
+    symmetric keys. A key chain is a list containing one or more elements containing
     a Key ID, key string, send/accept lifetimes, and the associated authentication
-    or encryption algorithm.  By properly overlapping the send and accept lifetimes
+    or encryption algorithm. By properly overlapping the send and accept lifetimes
     of multiple key chain elements, key strings and algorithms may be gracefully updated.
-    \ By representing them in a YANG data model, key distribution can be automated.</p>"
+    By representing them in a YANG data model, key distribution can be automated.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

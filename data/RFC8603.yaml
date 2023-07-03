@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8603
 title:
 - content: Commercial National Security Algorithm (CNSA) Suite Certificate and Certificate
@@ -97,12 +97,12 @@ script:
 abstract:
 - content: "<p>This document specifies a base profile for X.509 v3 Certificates and
     X.509 v2 Certificate Revocation Lists (CRLs) for use with the United States National
-    Security Agency's Commercial National Security Algorithm (CNSA) Suite.  The profile
+    Security Agency's Commercial National Security Algorithm (CNSA) Suite. The profile
     applies to the capabilities, configuration, and operation of all components of
-    US National Security Systems that employ such X.509 certificates.  US National
-    Security Systems are described in NIST Special Publication 800-59.  It is also
+    US National Security Systems that employ such X.509 certificates. US National
+    Security Systems are described in NIST Special Publication 800-59. It is also
     appropriate for all other US Government systems that process high-value information.
-    \ It is made publicly available for use by developers and operators of these and
+    It is made publicly available for use by developers and operators of these and
     any other system deployments.</p>"
   language:
   - en
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

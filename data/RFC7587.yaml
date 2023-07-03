@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7587
 title:
 - content: RTP Payload Format for the Opus Speech and Audio Codec
@@ -125,15 +125,19 @@ script:
 abstract:
 - content: "<p>This document defines the Real-time Transport Protocol (RTP) payload
     format for packetization of Opus-encoded speech and audio data necessary to integrate
-    the codec in the most compatible way.  It also provides an applicability statement
-    for the use of Opus over RTP.  Further, it describes media type registrations
-    for the RTP payload format.</p>"
+    the codec in the most compatible way. It also provides an applicability statement
+    for the use of Opus over RTP. Further, it describes media type registrations for
+    the RTP payload format.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

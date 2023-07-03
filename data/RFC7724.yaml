@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7724
 title:
 - content: Active DHCPv4 Lease Query
@@ -154,12 +154,12 @@ script:
 abstract:
 - content: <p>The Dynamic Host Configuration Protocol for IPv4 (DHCPv4) has been extended
     with a Leasequery capability that allows a requestor to request information about
-    DHCPv4 bindings (RFC 4388).  That mechanism is limited to queries for individual
-    bindings.  In some situations, individual binding queries may not be efficient,
-    or even possible.  In addition, continuous update of an external requestor with
-    Leasequery data is sometimes desired.  This document expands on the DHCPv4 Leasequery
+    DHCPv4 bindings (RFC 4388). That mechanism is limited to queries for individual
+    bindings. In some situations, individual binding queries may not be efficient,
+    or even possible. In addition, continuous update of an external requestor with
+    Leasequery data is sometimes desired. This document expands on the DHCPv4 Leasequery
     protocol, and allows for active transfer of near real-time DHCPv4 binding information
-    data via TCP.  This document updates RFC 6926, "DHCPv4 Bulk Leasequery".</p>
+    data via TCP. This document updates RFC 6926, "DHCPv4 Bulk Leasequery".</p>
   language:
   - en
   script:
@@ -177,6 +177,10 @@ relation:
       content: RFC6926
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

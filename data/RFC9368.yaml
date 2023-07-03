@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9368
 title:
 - content: Compatible Version Negotiation for QUIC
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>QUIC does not provide a complete version negotiation mechanism but
     instead only provides a way for the server to indicate that the version the client
-    chose is unacceptable.  This document describes a version negotiation mechanism
-    that allows a client and server to select a mutually supported version.  Optionally,
+    chose is unacceptable. This document describes a version negotiation mechanism
+    that allows a client and server to select a mutually supported version. Optionally,
     if the client's chosen version and the negotiated version share a compatible first
     flight format, the negotiation can take place without incurring an extra round
-    trip.  This document updates RFC 8999.</p>"
+    trip. This document updates RFC 8999.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC8999
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8680
 title:
 - content: Forward Error Correction (FEC) Framework Extension to Sliding Window Codes
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 6363 describes a framework for using Forward Error Correction (FEC)
-    codes to provide protection against packet loss.  The framework supports applying
+    codes to provide protection against packet loss. The framework supports applying
     FEC to arbitrary packet flows over unreliable transport and is primarily intended
-    for real-time, or streaming, media.  However, FECFRAME as per RFC 6363 is restricted
-    to block FEC codes.  This document updates RFC 6363 to support FEC codes based
+    for real-time, or streaming, media. However, FECFRAME as per RFC 6363 is restricted
+    to block FEC codes. This document updates RFC 6363 to support FEC codes based
     on a sliding encoding window, in addition to block FEC codes, in a backward-compatible
-    way.  During multicast/broadcast real-time content delivery, the use of sliding
+    way. During multicast/broadcast real-time content delivery, the use of sliding
     window codes significantly improves robustness in harsh environments, with less
     repair traffic and lower FEC-related added latency.</p>"
   language:
@@ -120,6 +120,10 @@ relation:
       content: RFC6363
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

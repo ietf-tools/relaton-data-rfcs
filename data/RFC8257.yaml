@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8257
 title:
 - content: 'Data Center TCP (DCTCP): TCP Congestion Control for Data Centers'
@@ -182,16 +182,16 @@ script:
 - Latn
 abstract:
 - content: "<p>This Informational RFC describes Data Center TCP (DCTCP): a TCP congestion
-    control scheme for data-center traffic.  DCTCP extends the Explicit Congestion
+    control scheme for data-center traffic. DCTCP extends the Explicit Congestion
     Notification (ECN) processing to estimate the fraction of bytes that encounter
-    congestion rather than simply detecting that some congestion has occurred.  DCTCP
-    then scales the TCP congestion window based on this estimate.  This method achieves
+    congestion rather than simply detecting that some congestion has occurred. DCTCP
+    then scales the TCP congestion window based on this estimate. This method achieves
     high-burst tolerance, low latency, and high throughput with shallow- buffered
-    switches.  This memo also discusses deployment issues related to the coexistence
+    switches. This memo also discusses deployment issues related to the coexistence
     of DCTCP and conventional TCP, discusses the lack of a negotiating mechanism between
-    sender and receiver, and presents some possible mitigations.  This memo documents
-    DCTCP as currently implemented by several major operating systems.  DCTCP, as
-    described in this specification, is applicable to deployments in controlled environments
+    sender and receiver, and presents some possible mitigations. This memo documents
+    DCTCP as currently implemented by several major operating systems. DCTCP, as described
+    in this specification, is applicable to deployments in controlled environments
     like data centers, but it must not be deployed over the public Internet without
     additional measures.</p>"
   language:
@@ -200,6 +200,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

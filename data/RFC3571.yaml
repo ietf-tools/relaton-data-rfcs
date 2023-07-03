@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3571
 title:
 - content: Framework Policy Information Base for Usage Feedback
@@ -182,18 +182,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a portion of the Policy Information Base (PIB)
-    to control policy usage collection and reporting in a device.  The provisioning
+    to control policy usage collection and reporting in a device. The provisioning
     classes specified here allow a Policy Decision Point (PDP) to select which policy
     objects should collect usage information, what information should be collected
-    and when it should be reported.  This PIB requires the presence of other PIBs
-    (defined elsewhere) that provide the policy objects from which usage information
-    is collected.  This memo provides information for the Internet community.</p>"
+    and when it should be reported. This PIB requires the presence of other PIBs (defined
+    elsewhere) that provide the policy objects from which usage information is collected.
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

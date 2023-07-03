@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3520
 title:
 - content: Session Authorization Policy Element
@@ -141,14 +141,14 @@ script:
 abstract:
 - content: "<p>This document describes the representation of a session authorization
     policy element for supporting policy-based per-session authorization and admission
-    control.  The goal of session authorization is to allow the exchange of information
+    control. The goal of session authorization is to allow the exchange of information
     between network elements in order to authorize the use of resources for a service
-    and to co-ordinate actions between the signaling and transport planes.  This document
+    and to co-ordinate actions between the signaling and transport planes. This document
     describes how a process on a system authorizes the reservation of resources by
     a host and then provides that host with a session authorization policy element
     which can be inserted into a resource reservation protocol (e.g., the Resource
     ReSerVation Protocol (RSVP) PATH message) to facilitate proper and secure reservation
-    of those resources within the network.  We describe the encoding of session authorization
+    of those resources within the network. We describe the encoding of session authorization
     information as a policy element conforming to the format of a Policy Data object
     (RFC 2750) and provide details relating to operations, processing rules and error
     scenarios. [STANDARDS-TRACK]</p>"
@@ -158,6 +158,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

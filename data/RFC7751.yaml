@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7751
 title:
 - content: Kerberos Authorization Data Container Authenticated by Multiple Message
@@ -96,10 +96,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a Kerberos authorization data container that
-    supersedes AD-KDC-ISSUED.  It allows for multiple Message Authentication Codes
+    supersedes AD-KDC-ISSUED. It allows for multiple Message Authentication Codes
     (MACs) or signatures to authenticate the contained authorization data elements.
-    \ The multiple MACs are needed to mitigate shortcomings in the existing AD-KDC-ISSUED
-    container.  This document updates RFC 4120.</p>"
+    The multiple MACs are needed to mitigate shortcomings in the existing AD-KDC-ISSUED
+    container. This document updates RFC 4120.</p>"
   language:
   - en
   script:
@@ -117,6 +117,10 @@ relation:
       content: RFC4120
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

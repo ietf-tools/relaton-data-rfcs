@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7944
 title:
 - content: Diameter Routing Message Priority
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>When making routing and resource allocation decisions, Diameter nodes
     currently have no generic mechanism to determine the relative priority of Diameter
-    messages.  This document addresses this by defining a mechanism to allow Diameter
-    endpoints to indicate the relative priority of Diameter transactions.  With this
+    messages. This document addresses this by defining a mechanism to allow Diameter
+    endpoints to indicate the relative priority of Diameter transactions. With this
     information, Diameter nodes can factor that priority into routing, resource allocation,
     and overload abatement decisions.</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

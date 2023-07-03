@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8350
 title:
 - content: Alternate Tunnel Encapsulation for Data Frames in Control and Provisioning
@@ -213,25 +213,29 @@ script:
 abstract:
 - content: "<p>Control and Provisioning of Wireless Access Points (CAPWAP) is a protocol
     for encapsulating a station's data frames between the Wireless Transmission Point
-    (WTP) and Access Controller (AC).  Specifically, the station's IEEE 802.11 data
-    frames can be either locally bridged or tunneled to the AC.  When tunneled, a
-    CAPWAP Data Channel is used for tunneling.  In many deployments, encapsulating
-    data frames to an entity other than the AC (for example, to an Access Router (AR))
-    is desirable.  Furthermore, it may also be desirable to use different tunnel encapsulation
-    modes between the WTP and the Access Router.  This document defines an extension
-    to the CAPWAP protocol that supports this capability and refers to it as alternate
-    tunnel encapsulation.  The alternate tunnel encapsulation allows 1) the WTP to
-    tunnel non-management data frames to an endpoint different from the AC and 2)
-    the WTP to tunnel using one of many known encapsulation types, such as IP-IP,
-    IP-GRE, or CAPWAP.  The WTP may advertise support for alternate tunnel encapsulation
-    during the discovery and join process, and the AC may select one of the supported
-    alternate tunnel encapsulation types while configuring the WTP.</p>"
+    (WTP) and Access Controller (AC). Specifically, the station's IEEE 802.11 data
+    frames can be either locally bridged or tunneled to the AC. When tunneled, a CAPWAP
+    Data Channel is used for tunneling. In many deployments, encapsulating data frames
+    to an entity other than the AC (for example, to an Access Router (AR)) is desirable.
+    Furthermore, it may also be desirable to use different tunnel encapsulation modes
+    between the WTP and the Access Router. This document defines an extension to the
+    CAPWAP protocol that supports this capability and refers to it as alternate tunnel
+    encapsulation. The alternate tunnel encapsulation allows 1) the WTP to tunnel
+    non-management data frames to an endpoint different from the AC and 2) the WTP
+    to tunnel using one of many known encapsulation types, such as IP-IP, IP-GRE,
+    or CAPWAP. The WTP may advertise support for alternate tunnel encapsulation during
+    the discovery and join process, and the AC may select one of the supported alternate
+    tunnel encapsulation types while configuring the WTP.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

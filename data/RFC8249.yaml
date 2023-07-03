@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8249
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): MTU Negotiation'
@@ -185,10 +185,10 @@ abstract:
     protocol has a TRILL campus-wide MTU feature, specified in RFCs 6325 and 7177,
     that assures that link-state changes can be successfully flooded throughout the
     campus while being able to take advantage of a campus-wide capability to support
-    jumbo packets.  This document specifies recommended updates to that MTU feature
+    jumbo packets. This document specifies recommended updates to that MTU feature
     to take advantage, for appropriate link-local packets, of link-local MTUs that
-    exceed the TRILL campus MTU.  In addition, it specifies an efficient algorithm
-    for local MTU testing.  This document updates RFCs 6325, 7177, and 7780.</p>"
+    exceed the TRILL campus MTU. In addition, it specifies an efficient algorithm
+    for local MTU testing. This document updates RFCs 6325, 7177, and 7780.</p>"
   language:
   - en
   script:
@@ -226,6 +226,10 @@ relation:
       content: RFC7780
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

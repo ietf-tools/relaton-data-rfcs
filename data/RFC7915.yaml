@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7915
 title:
 - content: IP/ICMP Translation Algorithm
@@ -183,13 +183,17 @@ script:
 abstract:
 - content: "<p>This document describes the Stateless IP/ICMP Translation Algorithm
     (SIIT), which translates between IPv4 and IPv6 packet headers (including ICMP
-    headers).  This document obsoletes RFC 6145.</p>"
+    headers). This document obsoletes RFC 6145.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5835
 title:
 - content: Framework for Metric Composition
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>This memo describes a detailed framework for composing and aggregating
     metrics (both in time and in space) originally defined by the IP Performance Metrics
-    (IPPM), RFC 2330, and developed by the IETF.  This new framework memo describes
-    the generic composition and aggregation mechanisms.  The memo provides a basis
+    (IPPM), RFC 2330, and developed by the IETF. This new framework memo describes
+    the generic composition and aggregation mechanisms. The memo provides a basis
     for additional documents that implement the framework to define detailed compositions
-    and aggregations of metrics that are useful in practice.  This document is not
+    and aggregations of metrics that are useful in practice. This document is not
     an Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5979
 title:
 - content: NSIS Operation over IP Tunnels
@@ -153,16 +153,16 @@ script:
 - Latn
 abstract:
 - content: "<p>NSIS Quality of Service (QoS) signaling enables applications to perform
-    QoS reservation along a data flow path.  When the data flow path contains IP tunnel
-    segments, NSIS QoS signaling has no effect within those tunnel segments.  Therefore,
+    QoS reservation along a data flow path. When the data flow path contains IP tunnel
+    segments, NSIS QoS signaling has no effect within those tunnel segments. Therefore,
     the resulting tunnel segments could become the weakest QoS link and invalidate
-    the QoS efforts in the rest of the end-to-end path.  The problem with NSIS signaling
+    the QoS efforts in the rest of the end-to-end path. The problem with NSIS signaling
     within the tunnel is caused by the tunnel encapsulation that masks packets' original
-    IP header fields.  Those original IP header fields are needed to intercept NSIS
-    signaling messages and classify QoS data packets.  This document defines a solution
+    IP header fields. Those original IP header fields are needed to intercept NSIS
+    signaling messages and classify QoS data packets. This document defines a solution
     to this problem by mapping end-to-end QoS session requests to corresponding QoS
     sessions in the tunnel, thus extending the end-to-end QoS signaling into the IP
-    tunnel segments.  This document defines an Experimental Protocol for the Internet
+    tunnel segments. This document defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -170,6 +170,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

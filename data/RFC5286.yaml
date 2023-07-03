@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5286
 title:
 - content: 'Basic Specification for IP Fast Reroute: Loop-Free Alternates'
@@ -96,12 +96,12 @@ script:
 abstract:
 - content: "<p>This document describes the use of loop-free alternates to provide
     local protection for unicast traffic in pure IP and MPLS/LDP networks in the event
-    of a single failure, whether link, node, or shared risk link group (SRLG).  The
+    of a single failure, whether link, node, or shared risk link group (SRLG). The
     goal of this technology is to reduce the packet loss that happens while routers
-    converge after a topology change due to a failure.  Rapid failure repair is achieved
+    converge after a topology change due to a failure. Rapid failure repair is achieved
     through use of precalculated backup next-hops that are loop-free and safe to use
-    until the distributed network convergence process completes.  This simple approach
-    does not require any support from other routers.  The extent to which this goal
+    until the distributed network convergence process completes. This simple approach
+    does not require any support from other routers. The extent to which this goal
     can be met by this specification is dependent on the topology of the network.
     [STANDARDS-TRACK]</p>"
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

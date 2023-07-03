@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4570
 title:
 - content: Session Description Protocol (SDP) Source Filters
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: <p>This document describes how to adapt the Session Description Protocol
     (SDP) to express one or more source addresses as a source filter for one or more
-    destination "connection" addresses.  It defines the syntax and semantics for an
+    destination "connection" addresses. It defines the syntax and semantics for an
     SDP "source-filter" attribute that may reference either IPv4 or IPv6 address(es)
     as either an inclusive or exclusive source list for either multicast or unicast
-    destinations.  In particular, an inclusive source-filter can be used to specify
+    destinations. In particular, an inclusive source-filter can be used to specify
     a Source-Specific Multicast (SSM) session. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

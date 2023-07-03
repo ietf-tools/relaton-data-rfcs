@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7861
 title:
 - content: Remote Procedure Call (RPC) Security Version 3
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies version 3 of the Remote Procedure Call (RPC)
-    security protocol (RPCSEC_GSS).  This protocol provides support for multi-principal
+    security protocol (RPCSEC_GSS). This protocol provides support for multi-principal
     authentication of client hosts and user principals to a server (constructed by
     generic composition), security label assertions for multi-level security and type
-    enforcement, structured privilege assertions, and channel bindings.  This document
+    enforcement, structured privilege assertions, and channel bindings. This document
     updates RFC 5403.</p>"
   language:
   - en
@@ -117,6 +117,10 @@ relation:
       content: RFC5403
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5990
 title:
 - content: Use of the RSA-KEM Key Transport Algorithm in the Cryptographic Message
@@ -157,7 +157,7 @@ abstract:
     mechanism for transporting keying data to a recipient using the recipient's RSA
     public key. ("KEM" stands for "key encapsulation mechanism".) This document specifies
     the conventions for using the RSA-KEM Key Transport Algorithm with the Cryptographic
-    Message Syntax (CMS).  The ASN.1 syntax is aligned with an expected forthcoming
+    Message Syntax (CMS). The ASN.1 syntax is aligned with an expected forthcoming
     change to American National Standard (ANS) X9.44.</p>
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

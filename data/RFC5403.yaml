@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5403
 title:
 - content: RPCSEC_GSS Version 2
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes version 2 of the RPCSEC_GSS protocol.  Version
+- content: "<p>This document describes version 2 of the RPCSEC_GSS protocol. Version
     2 is the same as version 1 (specified in RFC 2203) except that support for channel
-    bindings has been added.  RPCSEC_GSS allows remote procedure call (RPC) protocols
+    bindings has been added. RPCSEC_GSS allows remote procedure call (RPC) protocols
     to access the Generic Security Services Application Programming Interface (GSS-API).
     [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC2203
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

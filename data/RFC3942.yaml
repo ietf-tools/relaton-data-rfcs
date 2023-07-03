@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3942
 title:
 - content: Reclassifying Dynamic Host Configuration Protocol version 4 (DHCPv4) Options
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document updates RFC 2132 to reclassify Dynamic Host Configuration
     Protocol version 4 (DHCPv4) option codes 128 to 223 (decimal) as publicly defined
-    options to be managed by IANA in accordance with RFC 2939.  This document directs
+    options to be managed by IANA in accordance with RFC 2939. This document directs
     IANA to make these option codes available for assignment as publicly defined DHCP
     options for future options. [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC2132
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

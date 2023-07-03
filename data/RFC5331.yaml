@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5331
 title:
 - content: MPLS Upstream Label Assignment and Context-Specific Label Space
@@ -123,8 +123,8 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>RFC 3031 limits the MPLS architecture to downstream-assigned MPLS labels.  This
-    document introduces the notion of upstream-assigned MPLS labels.  It describes
+- content: <p>RFC 3031 limits the MPLS architecture to downstream-assigned MPLS labels.
+    This document introduces the notion of upstream-assigned MPLS labels. It describes
     the procedures for upstream MPLS label assignment and introduces the concept of
     a "Context-Specific Label Space". [STANDARDS-TRACK]</p>
   language:
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

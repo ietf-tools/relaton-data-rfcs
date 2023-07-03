@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3853
 title:
 - content: S/MIME Advanced Encryption Standard (AES) Requirement for the Session Initiation
@@ -67,8 +67,8 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 3261 currently specifies 3DES as the mandatory-to-implement ciphersuite
-    for implementations of S/MIME in the Session Initiation Protocol (SIP).  This
-    document updates the normative guidance of RFC 3261 to require the Advanced Encryption
+    for implementations of S/MIME in the Session Initiation Protocol (SIP). This document
+    updates the normative guidance of RFC 3261 to require the Advanced Encryption
     Standard (AES) for S/MIME. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

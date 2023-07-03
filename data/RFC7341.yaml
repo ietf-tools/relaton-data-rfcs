@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7341
 title:
 - content: DHCPv4-over-DHCPv6 (DHCP 4o6) Transport
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>IPv4 connectivity is still needed as networks migrate towards IPv6.
-    \ Users require IPv4 configuration even if the uplink to their service provider
-    supports IPv6 only.  This document describes a mechanism for obtaining IPv4 configuration
+    Users require IPv4 configuration even if the uplink to their service provider
+    supports IPv6 only. This document describes a mechanism for obtaining IPv4 configuration
     information dynamically in IPv6 networks by carrying DHCPv4 messages over DHCPv6
-    transport.  Two new DHCPv6 messages and two new DHCPv6 options are defined for
+    transport. Two new DHCPv6 messages and two new DHCPv6 options are defined for
     this purpose.</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

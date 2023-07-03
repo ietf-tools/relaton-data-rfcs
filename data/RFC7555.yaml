@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7555
 title:
 - content: Proxy MPLS Echo Request
@@ -124,8 +124,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a means of remotely initiating Multiprotocol
-    Label Switched Protocol (MPLS) Pings on Label Switched Paths.  An MPLS Proxy Ping
-    Request is sent to any Label Switching Router along a Label Switched Path.  The
+    Label Switched Protocol (MPLS) Pings on Label Switched Paths. An MPLS Proxy Ping
+    Request is sent to any Label Switching Router along a Label Switched Path. The
     primary motivations for this facility are first to limit the number of messages
     and related processing when using LSP Ping in large Point-to-Multipoint LSPs,
     and second to enable tracing from leaf to leaf (or root).</p>"
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

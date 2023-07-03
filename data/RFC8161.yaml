@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8161
 title:
 - content: Benchmarking the Neighbor Discovery Protocol
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides benchmarking procedures for the Neighbor Discovery
-    Protocol (NDP).  It also proposes metrics by which an NDP implementation's scaling
+    Protocol (NDP). It also proposes metrics by which an NDP implementation's scaling
     capabilities can be measured.</p>"
   language:
   - en
@@ -132,6 +132,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9349
 title:
 - content: Definitions of Managed Objects for IP Traffic Flow Security
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: <p>This document describes managed objects for the management of IP Traffic
     Flow Security additions to Internet Key Exchange Protocol Version 2 (IKEv2) and
-    IPsec.  This document provides a read-only version of the objects defined in the
+    IPsec. This document provides a read-only version of the objects defined in the
     YANG module for the same purpose, which is in "A YANG Data Model for IP Traffic
     Flow Security" (RFC 9348).</p>
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

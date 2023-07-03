@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9089
 title:
 - content: Signaling Entropy Label Capability and Entropy Readable Label Depth Using
@@ -212,14 +212,14 @@ script:
 - Latn
 abstract:
 - content: "<p>Multiprotocol Label Switching (MPLS) has defined a mechanism to load-balance
-    traffic flows using Entropy Labels (EL).  An ingress Label Switching Router (LSR)
+    traffic flows using Entropy Labels (EL). An ingress Label Switching Router (LSR)
     cannot insert ELs for packets going into a given Label Switched Path (LSP) unless
     an egress LSR has indicated via signaling that it has the capability to process
-    ELs, referred to as the Entropy Label Capability (ELC), on that LSP.  In addition,
+    ELs, referred to as the Entropy Label Capability (ELC), on that LSP. In addition,
     it would be useful for ingress LSRs to know each LSR's capability for reading
     the maximum label stack depth and performing EL-based load-balancing, referred
-    to as Entropy Readable Label Depth (ERLD).  This document defines a mechanism
-    to signal these two capabilities using OSPFv2 and OSPFv3, and Border Gateway Protocol
+    to as Entropy Readable Label Depth (ERLD). This document defines a mechanism to
+    signal these two capabilities using OSPFv2 and OSPFv3, and Border Gateway Protocol
     - Link State (BGP-LS).</p>"
   language:
   - en
@@ -227,6 +227,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

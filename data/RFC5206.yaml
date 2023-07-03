@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5206
 title:
 - content: End-Host Mobility and Multihoming with the Host Identity Protocol
@@ -153,14 +153,14 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines mobility and multihoming extensions to the Host
-    Identity Protocol (HIP).  Specifically, this document defines a general "LOCATOR"
+    Identity Protocol (HIP). Specifically, this document defines a general "LOCATOR"
     parameter for HIP messages that allows for a HIP host to notify peers about alternate
-    addresses at which it may be reached.  This document also defines elements of
-    procedure for mobility of a HIP host -- the process by which a host dynamically
-    changes the primary locator that it uses to receive packets.  While the same LOCATOR
-    parameter can also be used to support end-host multihoming, detailed procedures
-    are left for further study.  This memo defines an Experimental Protocol for the
-    Internet community.</p>
+    addresses at which it may be reached. This document also defines elements of procedure
+    for mobility of a HIP host -- the process by which a host dynamically changes
+    the primary locator that it uses to receive packets. While the same LOCATOR parameter
+    can also be used to support end-host multihoming, detailed procedures are left
+    for further study. This memo defines an Experimental Protocol for the Internet
+    community.</p>
   language:
   - en
   script:
@@ -178,6 +178,10 @@ relation:
       content: RFC8046
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

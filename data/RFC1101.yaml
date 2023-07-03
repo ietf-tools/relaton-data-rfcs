@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1101
 title:
 - content: DNS encoding of network names and other types
@@ -68,8 +68,8 @@ abstract:
 - content: "<p>This RFC proposes two extensions to the Domain Name System: - A specific
     method for entering and retrieving RRs which map between network names and numbers.
     - Ideas for a general method for describing mappings between arbitrary identifiers
-    and numbers.  The method for mapping between network names and addresses is a
-    proposed standard, the ideas for a general method are experimental.</p>"
+    and numbers. The method for mapping between network names and addresses is a proposed
+    standard, the ideas for a general method are experimental.</p>"
   language:
   - en
   script:
@@ -97,6 +97,10 @@ relation:
       content: RFC1035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

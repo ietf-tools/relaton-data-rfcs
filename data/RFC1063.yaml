@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1063
 title:
 - content: IP MTU discovery options
@@ -163,8 +163,8 @@ script:
 - Latn
 abstract:
 - content: "<p>A pair of IP options that can be used to learn the minimum MTU of a
-    path through an internet is described, along with its possible uses.  This is
-    a proposal for an Experimental protocol.</p>"
+    path through an internet is described, along with its possible uses. This is a
+    proposal for an Experimental protocol.</p>"
   language:
   - en
   script:
@@ -182,6 +182,10 @@ relation:
       content: RFC1191
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8926
 title:
 - content: 'Geneve: Generic Network Virtualization Encapsulation'
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>Network virtualization involves the cooperation of devices with a wide
     variety of capabilities such as software and hardware tunnel endpoints, transit
-    fabrics, and centralized control clusters.  As a result of their role in tying
+    fabrics, and centralized control clusters. As a result of their role in tying
     together different elements of the system, the requirements on tunnels are influenced
-    by all of these components.  Therefore, flexibility is the most important aspect
+    by all of these components. Therefore, flexibility is the most important aspect
     of a tunneling protocol if it is to keep pace with the evolution of technology.
-    \ This document describes Geneve, an encapsulation protocol designed to recognize
+    This document describes Geneve, an encapsulation protocol designed to recognize
     and accommodate these changing capabilities and needs.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

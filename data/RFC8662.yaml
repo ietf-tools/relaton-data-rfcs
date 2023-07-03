@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8662
 title:
 - content: Entropy Label for Source Packet Routing in Networking (SPRING) Tunnels
@@ -210,10 +210,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Segment Routing (SR) leverages the source-routing paradigm.  A node
-    steers a packet through an ordered list of instructions, called segments.  Segment
+- content: "<p>Segment Routing (SR) leverages the source-routing paradigm. A node
+    steers a packet through an ordered list of instructions, called segments. Segment
     Routing can be applied to the Multiprotocol Label Switching (MPLS) data plane.
-    \ Entropy labels (ELs) are used in MPLS to improve load-balancing.  This document
+    Entropy labels (ELs) are used in MPLS to improve load-balancing. This document
     examines and describes how ELs are to be applied to Segment Routing MPLS.</p>"
   language:
   - en
@@ -221,6 +221,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

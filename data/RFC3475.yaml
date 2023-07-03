@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3475
 title:
 - content: Documentation of IANA assignments for Constraint-Based LSP setup using
@@ -68,22 +68,26 @@ script:
 abstract:
 - content: "<p>Automatic Switched Optical Network (ASON) is an architecture, specified
     by ITU-T Study Group 15, for the introduction of a control plane for optical networks.
-    \ The ASON architecture specifies a set of reference points that defines the relationship
-    between the ASON architectural entities.  Signaling over interfaces defined in
+    The ASON architecture specifies a set of reference points that defines the relationship
+    between the ASON architectural entities. Signaling over interfaces defined in
     those reference points can make use of protocols that are defined by the IETF
-    in the context of Generalized Multi-Protocol Label Switching (GMPLS) work.  This
+    in the context of Generalized Multi-Protocol Label Switching (GMPLS) work. This
     document describes Constraint-Based LSP setup using LDP (CR-LDP) extensions for
-    signaling over the interfaces defined in the ASON reference points.  The purpose
+    signaling over the interfaces defined in the ASON reference points. The purpose
     of the document is to request that the IANA assigns code points necessary for
-    the CR-LDP extensions.  The protocol specifications for the use of the CR-LDP
-    extensions are found in ITU-T documents.  This memo provides information for the
-    Internet community.</p>"
+    the CR-LDP extensions. The protocol specifications for the use of the CR-LDP extensions
+    are found in ITU-T documents. This memo provides information for the Internet
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

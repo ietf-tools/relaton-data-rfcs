@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6928
 title:
 - content: Increasing TCP's Initial Window
@@ -155,10 +155,10 @@ abstract:
 - content: "<p>This document proposes an experiment to increase the permitted TCP
     initial window (IW) from between 2 and 4 segments, as specified in RFC 3390, to
     10 segments with a fallback to the existing recommendation when performance issues
-    are detected.  It discusses the motivation behind the increase, the advantages
+    are detected. It discusses the motivation behind the increase, the advantages
     and disadvantages of the higher initial window, and presents results from several
     large-scale experiments showing that the higher initial window improves the overall
-    performance of many web services without resulting in a congestion collapse.  The
+    performance of many web services without resulting in a congestion collapse. The
     document closes with a discussion of usage and deployment for further experimental
     purposes recommended by the IETF TCP Maintenance and Minor Extensions (TCPM) working
     group.</p>"
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

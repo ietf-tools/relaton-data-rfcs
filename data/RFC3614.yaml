@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3614
 title:
 - content: A Uniform Resource Name (URN) Namespace for the Motion Picture Experts
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document describes a Uniform Resource Name (URN) namespace for
     the Motion Picture Experts Group (MPEG) for naming persistent resources as part
-    of the MPEG standards.  Example resources include technical documents and specifications,
+    of the MPEG standards. Example resources include technical documents and specifications,
     eXtensible Markup Language (XML) Schemas, classification schemes, XML Document
     Type Definitions (DTDs), namespaces, style sheets, media assets, and other types
     of resources produced or managed by MPEG.</p>"
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

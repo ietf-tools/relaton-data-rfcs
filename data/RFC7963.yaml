@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7963
 title:
 - content: RSVP-TE Extension for Additional Signal Types in G.709 Optical Transport
@@ -155,15 +155,19 @@ script:
 abstract:
 - content: "<p>RFCs 4328 and 7139 provide signaling extensions in Resource ReserVation
     Protocol - Traffic Engineering (RSVP-TE) to control the full set of Optical Transport
-    Network (OTN) features.  However, these specifications do not cover the additional
+    Network (OTN) features. However, these specifications do not cover the additional
     Optical channel Data Unit (ODU) containers defined in G.Sup43 (ODU1e, ODU3e1,
-    and ODU3e2).  This document defines new Signal Types for these additional containers.</p>"
+    and ODU3e2). This document defines new Signal Types for these additional containers.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

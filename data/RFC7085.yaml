@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7085
 title:
 - content: Top-Level Domains That Are Already Dotless
@@ -98,9 +98,9 @@ abstract:
     Internet Corporation of Assigned Names and Numbers (ICANN) Security and Stability
     Advisory Committee have focused on the problems that the DNS is likely to experience
     with top-level domains (TLDs) that contain address records (so-called "dotless
-    domains").  In order to help researchers determine the extent of the issues with
+    domains"). In order to help researchers determine the extent of the issues with
     dotless domains, this document lists the current dotless TLDs and gives a script
-    for finding them.  This document lists data about dotless TLDs but does not address
+    for finding them. This document lists data about dotless TLDs but does not address
     the policy and technology issues other than to point to the statements of others.</p>
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

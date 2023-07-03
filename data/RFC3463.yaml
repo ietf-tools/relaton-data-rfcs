@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3463
 title:
 - content: Enhanced Mail System Status Codes
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document defines a set of extended status codes for use within
     the mail system for delivery status reports, tracking, and improved diagnostics.
-    \ In combination with other information provided in the Delivery Status Notification
+    In combination with other information provided in the Delivery Status Notification
     (DSN) delivery report, these codes facilitate media and language independent rendering
     of message delivery status. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

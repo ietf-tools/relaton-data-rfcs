@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4992
 title:
 - content: XML Pipelining with Chunks for the Internet Registry Information Service
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a simple TCP transfer protocol for the Internet
-    Registry Information Service (IRIS).  Data is transferred between clients and
-    servers using chunks to achieve pipelining. [STANDARDS-TRACK]</p>"
+    Registry Information Service (IRIS). Data is transferred between clients and servers
+    using chunks to achieve pipelining. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -85,6 +85,10 @@ relation:
       content: RFC3981
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

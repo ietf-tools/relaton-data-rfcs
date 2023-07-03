@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4030
 title:
 - content: The Authentication Suboption for the Dynamic Host Configuration Protocol
@@ -97,8 +97,8 @@ script:
 abstract:
 - content: "<p>The Dynamic Host Configuration Protocol (DHCP) Relay Agent Information
     Option (RFC 3046) conveys information between a DHCP Relay Agent and a DHCP server.
-    \ This specification defines an authentication suboption for that option, containing
-    a keyed hash in its payload.  The suboption supports data integrity and replay
+    This specification defines an authentication suboption for that option, containing
+    a keyed hash in its payload. The suboption supports data integrity and replay
     protection for relayed DHCP messages. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

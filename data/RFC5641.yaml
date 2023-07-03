@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5641
 title:
 - content: Layer 2 Tunneling Protocol Version 3 (L2TPv3) Extended Circuit Status Values
@@ -97,9 +97,9 @@ abstract:
 - content: <p>This document defines additional Layer 2 Tunneling Protocol Version
     3 (L2TPv3) bit values to be used within the "Circuit Status" Attribute Value Pair
     (AVP) to communicate finer-grained error states for Attachment Circuits (ACs)
-    and pseudowires (PWs).  It also generalizes the Active bit and deprecates the
-    use of the New bit in the Circuit Status AVP, updating RFC 3931, RFC 4349, RFC
-    4454, RFC 4591, and RFC 4719. [STANDARDS-TRACK]</p>
+    and pseudowires (PWs). It also generalizes the Active bit and deprecates the use
+    of the New bit in the Circuit Status AVP, updating RFC 3931, RFC 4349, RFC 4454,
+    RFC 4591, and RFC 4719. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -157,6 +157,10 @@ relation:
       content: RFC4719
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

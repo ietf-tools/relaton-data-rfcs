@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5961
 title:
 - content: Improving TCP's Robustness to Blind In-Window Attacks
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>TCP has historically been considered to be protected against spoofed
     off-path packet injection attacks by relying on the fact that it is difficult
     to guess the 4-tuple (the source and destination IP addresses and the source and
-    destination ports) in combination with the 32-bit sequence number(s).  A combination
+    destination ports) in combination with the 32-bit sequence number(s). A combination
     of increasing window sizes and applications using longer-term connections (e.g.,
     H-323 or Border Gateway Protocol (BGP) [STANDARDS-TRACK]</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

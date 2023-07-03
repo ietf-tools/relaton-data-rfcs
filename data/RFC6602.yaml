@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6602
 title:
 - content: Bulk Binding Update Support for Proxy Mobile IPv6
@@ -183,10 +183,10 @@ script:
 abstract:
 - content: "<p>For extending the lifetime of a mobility session, the Proxy Mobile
     IPv6 specification requires the mobile access gateway to send a Proxy Binding
-    Update message to the local mobility anchor on a per-session basis.  In the absence
+    Update message to the local mobility anchor on a per-session basis. In the absence
     of signaling semantics for performing operations with group-specific scope, this
     results in a significant amount of signaling traffic on a periodic basis between
-    a given mobile access gateway and a local mobility anchor.  This document defines
+    a given mobile access gateway and a local mobility anchor. This document defines
     optimizations to the binding update and revocation operations in Proxy Mobile
     IPv6 for performing operations with group-specific scope with the use of a group
     identifier. [STANDARDS-TRACK]</p>"
@@ -196,6 +196,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

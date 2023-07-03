@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2274
 title:
 - content: User-based Security Model (USM) for version 3 of the Simple Network Management
@@ -96,8 +96,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the User-based Security Model (USM) for SNMP
-    version 3 for use in the SNMP architecture [RFC2261].  It defines the Elements
-    of Procedure for providing SNMP message level security.  This document also includes
+    version 3 for use in the SNMP architecture [RFC2261]. It defines the Elements
+    of Procedure for providing SNMP message level security. This document also includes
     a MIB for remotely monitoring/managing the configuration parameters for this Security
     Model. [STANDARDS-TRACK]</p>"
   language:
@@ -117,6 +117,10 @@ relation:
       content: RFC2574
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

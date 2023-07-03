@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC981
 title:
 - content: Experimental multiple-path routing algorithm
@@ -72,11 +72,11 @@ script:
 abstract:
 - content: "<p>This document introduces wiretap algorithms, a class of experimental,
     multiple routing algorithms that compute quasi-optimum routes for stations sharing
-    a packet-radio broadcast channel.  The primary route (a minimum-distance path),
+    a packet-radio broadcast channel. The primary route (a minimum-distance path),
     and additional paths ordered by distance, which serve as alternate routes should
-    the primary route fail, are computed.  This prototype is presented as an example
+    the primary route fail, are computed. This prototype is presented as an example
     of a class of routing algorithms and data-base management techniques that may
-    find wider application in the Internet community.  Discussions and suggestions
+    find wider application in the Internet community. Discussions and suggestions
     for improvements are welcomed.</p>"
   language:
   - en
@@ -84,6 +84,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

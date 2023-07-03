@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3448
 title:
 - content: 'TCP Friendly Rate Control (TFRC): Protocol Specification'
@@ -152,9 +152,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies TCP-Friendly Rate Control (TFRC).  TFRC is
-    a congestion control mechanism for unicast flows operating in a best- effort Internet
-    environment.  It is reasonably fair when competing for bandwidth with TCP flows,
+- content: "<p>This document specifies TCP-Friendly Rate Control (TFRC). TFRC is a
+    congestion control mechanism for unicast flows operating in a best- effort Internet
+    environment. It is reasonably fair when competing for bandwidth with TCP flows,
     but has a much lower variation of throughput over time compared with TCP, making
     it more suitable for applications such as telephony or streaming media where a
     relatively smooth sending rate is of importance. [STANDARDS-TRACK]</p>"
@@ -175,6 +175,10 @@ relation:
       content: RFC5348
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

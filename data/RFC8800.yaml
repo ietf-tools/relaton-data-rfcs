@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8800
 title:
 - content: Path Computation Element Communication Protocol (PCEP) Extension for Label
@@ -156,7 +156,7 @@ abstract:
 - content: "<p>This document introduces a simple mechanism to associate a group of
     Label Switched Paths (LSPs) via an extension to the Path Computation Element Communication
     Protocol (PCEP) with the purpose of computing diverse (disjointed) paths for those
-    LSPs.  The proposed extension allows a Path Computation Client (PCC) to advertise
+    LSPs. The proposed extension allows a Path Computation Client (PCC) to advertise
     to a Path Computation Element (PCE) that a particular LSP belongs to a particular
     Disjoint Association Group; thus, the PCE knows that the LSPs in the same group
     need to be disjoint from each other.</p>"
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

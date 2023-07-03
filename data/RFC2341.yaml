@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2341
 title:
 - content: Cisco Layer Two Forwarding (Protocol) "L2F"
@@ -125,14 +125,18 @@ script:
 abstract:
 - content: "<p>This document describes the Layer Two Forwarding protocol (L2F) which
     permits the tunneling of the link layer (i.e., HDLC, async HDLC, or SLIP frames)
-    of higher level protocols.  This memo describes a historic protocol for the Internet
-    community.  It does not specify an Internet standard of any kind.</p>"
+    of higher level protocols. This memo describes a historic protocol for the Internet
+    community. It does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

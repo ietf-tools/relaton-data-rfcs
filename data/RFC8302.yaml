@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8302
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): ARP and Neighbor
@@ -184,11 +184,11 @@ script:
 abstract:
 - content: "<p>This document describes mechanisms to optimize the Address Resolution
     Protocol (ARP) and Neighbor Discovery (ND) traffic in a Transparent Interconnection
-    of Lots of Links (TRILL) campus.  TRILL switches maintain a cache of IP / Media
+    of Lots of Links (TRILL) campus. TRILL switches maintain a cache of IP / Media
     Access Control (MAC) address / Data Label bindings that are learned from ARP/ND
-    requests and responses that pass through them.  In many cases, this cache allows
+    requests and responses that pass through them. In many cases, this cache allows
     an edge Routing Bridge (RBridge) to avoid flooding an ARP/ND request by either
-    responding to it directly or encapsulating it and unicasting it.  Such optimization
+    responding to it directly or encapsulating it and unicasting it. Such optimization
     reduces packet flooding over a TRILL campus.</p>"
   language:
   - en
@@ -196,6 +196,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

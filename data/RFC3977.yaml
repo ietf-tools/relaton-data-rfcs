@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3977
 title:
 - content: Network News Transfer Protocol (NNTP)
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>The Network News Transfer Protocol (NNTP) has been in use in the Internet
     for a decade, and remains one of the most popular protocols (by volume) in use
-    today.  This document is a replacement for RFC 977, and officially updates the
-    protocol specification.  It clarifies some vagueness in RFC 977, includes some
+    today. This document is a replacement for RFC 977, and officially updates the
+    protocol specification. It clarifies some vagueness in RFC 977, includes some
     new base functionality, and provides a specific mechanism to add standardized
     extensions to NNTP. [STANDARDS-TRACK]</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC2980
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

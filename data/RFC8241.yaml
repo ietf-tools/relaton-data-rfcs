@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8241
 title:
 - content: Interface to the Routing System (I2RS) Security-Related Requirements
@@ -125,12 +125,12 @@ script:
 abstract:
 - content: "<p>This document presents security-related requirements for the Interface
     to the Routing System (I2RS) protocol, which provides a new interface to the routing
-    system described in the I2RS architecture document (RFC 7921).  The I2RS protocol
+    system described in the I2RS architecture document (RFC 7921). The I2RS protocol
     is implemented by reusing portions of existing IETF protocols and adding new features
-    to them.  One such reuse is of the security features of a secure transport (e.g.,
+    to them. One such reuse is of the security features of a secure transport (e.g.,
     Transport Layer Security (TLS), Secure SHell (SSH) Protocol, Datagram TLS (DTLS))
     such as encryption, message integrity, mutual peer authentication, and anti-replay
-    protection.  The new I2RS features to consider from a security perspective are
+    protection. The new I2RS features to consider from a security perspective are
     as follows: a priority mechanism to handle multi-headed write transactions, an
     opaque secondary identifier that identifies an application using the I2RS client,
     and an extremely constrained read-only non-secure transport.</p>"
@@ -140,6 +140,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

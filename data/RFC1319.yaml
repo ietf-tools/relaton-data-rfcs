@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1319
 title:
 - content: The MD2 Message-Digest Algorithm
@@ -65,10 +65,10 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document describes the MD2 message-digest algorithm.  The algorithm
+- content: <p>This document describes the MD2 message-digest algorithm. The algorithm
     takes as input a message of arbitrary length and produces as output a 128-bit
-    "fingerprint" or "message digest" of the input.  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.</p>
+    "fingerprint" or "message digest" of the input. This memo provides information
+    for the Internet community. It does not specify an Internet standard.</p>
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC6149
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

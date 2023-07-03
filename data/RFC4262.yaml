@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4262
 title:
 - content: X.509 Certificate Extension for Secure/Multipurpose Internet Mail Extensions
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document defines a certificate extension for inclusion of Secure/Multipurpose
     Internet Mail Extensions (S/MIME) Capabilities in X.509 public key certificates,
-    as defined by RFC 3280.  This certificate extension provides an optional method
+    as defined by RFC 3280. This certificate extension provides an optional method
     to indicate the cryptographic capabilities of an entity as a complement to the
     S/MIME Capabilities signed attribute in S/MIME messages according to RFC 3851.
     [STANDARDS-TRACK]</p>"
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

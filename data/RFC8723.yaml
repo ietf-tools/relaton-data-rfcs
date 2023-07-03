@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8723
 title:
 - content: Double Encryption Procedures for the Secure Real-Time Transport Protocol
@@ -160,10 +160,10 @@ script:
 abstract:
 - content: "<p>In some conferencing scenarios, it is desirable for an intermediary
     to be able to manipulate some parameters in Real-time Transport Protocol (RTP)
-    packets, while still providing strong end-to-end security guarantees.  This document
+    packets, while still providing strong end-to-end security guarantees. This document
     defines a cryptographic transform for the Secure Real-time Transport Protocol
     (SRTP) that uses two separate but related cryptographic operations to provide
-    hop-by-hop and end-to-end security guarantees.  Both the end-to-end and hop-by-hop
+    hop-by-hop and end-to-end security guarantees. Both the end-to-end and hop-by-hop
     cryptographic algorithms can utilize an authenticated encryption with associated
     data (AEAD) algorithm or take advantage of future SRTP transforms with different
     properties.</p>"
@@ -173,6 +173,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

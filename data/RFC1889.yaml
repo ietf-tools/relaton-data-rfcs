@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1889
 title:
 - content: 'RTP: A Transport Protocol for Real-Time Applications'
@@ -157,7 +157,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memorandum describes RTP, the real-time transport protocol.  RTP
+- content: "<p>This memorandum describes RTP, the real-time transport protocol. RTP
     provides end-to-end network transport functions suitable for applications transmitting
     real-time data, such as audio, video or simulation data, over multicast or unicast
     network services. [STANDARDS-TRACK]</p>"
@@ -178,6 +178,10 @@ relation:
       content: RFC3550
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6250
 title:
 - content: Evolution of the IP Model
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC attempts to document various aspects of the IP service model
-    and how it has evolved over time.  In particular, it attempts to document the
-    properties of the IP layer as they are seen by upper- layer protocols and applications,
-    especially properties that were (and, at times, still are) incorrectly perceived
-    to exist as well as properties that would cause problems if changed.  The discussion
-    of these properties is organized around evaluating a set of claims, or misconceptions.
-    \ Finally, this document provides some guidance to protocol designers and implementers.
-    \ This document is not an Internet Standards Track specification; it is published
+    and how it has evolved over time. In particular, it attempts to document the properties
+    of the IP layer as they are seen by upper- layer protocols and applications, especially
+    properties that were (and, at times, still are) incorrectly perceived to exist
+    as well as properties that would cause problems if changed. The discussion of
+    these properties is organized around evaluating a set of claims, or misconceptions.
+    Finally, this document provides some guidance to protocol designers and implementers.
+    This document is not an Internet Standards Track specification; it is published
     for informational purposes.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

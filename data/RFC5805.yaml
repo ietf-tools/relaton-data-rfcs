@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5805
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Transactions
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>Lightweight Directory Access Protocol (LDAP) update operations, such
     as Add, Delete, and Modify operations, have atomic, consistency, isolation, durability
-    (ACID) properties.  Each of these update operations act upon an entry.  It is
-    often desirable to update two or more entries in a single unit of interaction,
-    a transaction.  Transactions are necessary to support a number of applications
-    including resource provisioning.  This document extends LDAP to support transactions.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    (ACID) properties. Each of these update operations act upon an entry. It is often
+    desirable to update two or more entries in a single unit of interaction, a transaction.
+    Transactions are necessary to support a number of applications including resource
+    provisioning. This document extends LDAP to support transactions. This document
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

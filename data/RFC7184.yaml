@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7184
 title:
 - content: Definition of Managed Objects for the Optimized Link State Routing Protocol
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>This document defines the Management Information Base (MIB) module
     for configuring and managing the Optimized Link State Routing Protocol version
-    2 (OLSRv2).  The OLSRv2-MIB module is structured into configuration information,
-    state information, performance information, and notifications.  This additional
+    2 (OLSRv2). The OLSRv2-MIB module is structured into configuration information,
+    state information, performance information, and notifications. This additional
     state and performance information is useful for troubleshooting problems and performance
-    issues of the routing protocol.  Two levels of compliance allow this MIB module
+    issues of the routing protocol. Two levels of compliance allow this MIB module
     to be deployed on constrained routers.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

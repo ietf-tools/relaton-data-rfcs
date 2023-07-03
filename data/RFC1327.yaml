@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1327
 title:
 - content: Mapping between X.400(1988) / ISO 10021 and RFC 822
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies a mapping between two protocols.  This specification
+- content: "<p>This document specifies a mapping between two protocols. This specification
     should be used when this mapping is performed on the DARPA Internet or in the
-    UK Academic Community.  This specification may be modified in the light of implementation
+    UK Academic Community. This specification may be modified in the light of implementation
     experience, but no substantial changes are expected. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -96,6 +96,10 @@ relation:
       content: RFC0822
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

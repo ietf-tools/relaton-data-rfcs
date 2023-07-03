@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4788
 title:
 - content: Enhancements to RTP Payload Formats for EVRC Family Codecs
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates the Enhanced Variable Rate Codec (EVRC) RTP payload
-    formats defined in RFC 3558 with several enhancements and extensions.  In particular,
+    formats defined in RFC 3558 with several enhancements and extensions. In particular,
     it defines support for the header-free and interleaved/bundled packet formats
     for the EVRC-B codec, a new compact bundled format for the EVRC and EVRC-B codecs,
     as well as discontinuous transmission (DTX) support for EVRC and EVRC-B-encoded
-    speech transported via RTP.  Voice over IP (VoIP) applications operating over
-    low bandwidth dial-up and wireless networks require such enhancements for efficient
+    speech transported via RTP. Voice over IP (VoIP) applications operating over low
+    bandwidth dial-up and wireless networks require such enhancements for efficient
     use of the bandwidth. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -119,6 +119,10 @@ relation:
       content: RFC3558
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

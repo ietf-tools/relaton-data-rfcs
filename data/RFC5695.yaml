@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5695
 title:
 - content: MPLS Forwarding Benchmarking Methodology for IP Flows
@@ -126,16 +126,20 @@ abstract:
 - content: "<p>This document describes a methodology specific to the benchmarking
     of Multiprotocol Label Switching (MPLS) forwarding devices, limited to the most
     common MPLS packet forwarding scenarios and delay measurements for each, considering
-    IP flows.  It builds upon the tenets set forth in RFC 2544, RFC 1242, and other
-    IETF Benchmarking Methodology Working Group (BMWG) efforts.  This document seeks
-    to extend these efforts to the MPLS paradigm.  This memo provides information
-    for the Internet community.</p>"
+    IP flows. It builds upon the tenets set forth in RFC 2544, RFC 1242, and other
+    IETF Benchmarking Methodology Working Group (BMWG) efforts. This document seeks
+    to extend these efforts to the MPLS paradigm. This memo provides information for
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

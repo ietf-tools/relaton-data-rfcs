@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1119
 title:
 - content: Network Time Protocol (version 2) specification and implementation
@@ -72,11 +72,11 @@ script:
 abstract:
 - content: "<p>This document describes the Network Time Protocol (NTP), specifies
     its formal structure and summarizes information useful for its implementation.
-    \ NTP provides the mechanisms to synchronize time and coordinate time distribution
-    in a large, diverse internet operating at rates from mundane to lightwave.  It
+    NTP provides the mechanisms to synchronize time and coordinate time distribution
+    in a large, diverse internet operating at rates from mundane to lightwave. It
     uses a returnable-time design in which a distributed subnet of time servers operating
     in a self- organizing, hierarchical-master-slave configuration synchronizes local
-    clocks within the subnet and to national time standards via wire or radio.  The
+    clocks within the subnet and to national time standards via wire or radio. The
     servers can also redistribute reference time via local routing algorithms and
     time daemons. [STANDARDS-TRACK]</p>"
   language:
@@ -96,6 +96,10 @@ relation:
       content: RFC1305
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

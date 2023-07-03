@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7713
 title:
 - content: Congestion Exposure (ConEx) Concepts, Abstract Mechanism, and Requirements
@@ -95,23 +95,27 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes an abstract mechanism by which senders inform
-    the network about the congestion recently encountered by packets in the same flow.  Today,
-    network elements at any layer may signal congestion to the receiver by dropping
-    packets or by Explicit Congestion Notification (ECN) markings, and the receiver
-    passes this information back to the sender in transport-layer feedback.  The mechanism
-    described here enables the sender to also relay this congestion information back
-    into the network in-band at the IP layer, such that the total amount of congestion
-    from all elements on the path is revealed to all IP elements along the path, where
-    it could, for example, be used to provide input to traffic management.  This mechanism
-    is called Congestion Exposure, or ConEx.  The companion document, "Congestion
-    Exposure (ConEx) Concepts and Use Cases" (RFC 6789), provides the entry point
-    to the set of ConEx documentation.</p>
+    the network about the congestion recently encountered by packets in the same flow.
+    Today, network elements at any layer may signal congestion to the receiver by
+    dropping packets or by Explicit Congestion Notification (ECN) markings, and the
+    receiver passes this information back to the sender in transport-layer feedback.
+    The mechanism described here enables the sender to also relay this congestion
+    information back into the network in-band at the IP layer, such that the total
+    amount of congestion from all elements on the path is revealed to all IP elements
+    along the path, where it could, for example, be used to provide input to traffic
+    management. This mechanism is called Congestion Exposure, or ConEx. The companion
+    document, "Congestion Exposure (ConEx) Concepts and Use Cases" (RFC 6789), provides
+    the entry point to the set of ConEx documentation.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4387
 title:
 - content: 'Internet X.509 Public Key Infrastructure Operational Protocols: Certificate
@@ -68,9 +68,9 @@ script:
 abstract:
 - content: "<p>The protocol conventions described in this document satisfy some of
     the operational requirements of the Internet Public Key Infrastructure (PKI).
-    \ This document specifies the conventions for using the Hypertext Transfer Protocol
+    This document specifies the conventions for using the Hypertext Transfer Protocol
     (HTTP/HTTPS) as an interface mechanism to obtain certificates and certificate
-    revocation lists (CRLs) from PKI repositories.  Additional mechanisms addressing
+    revocation lists (CRLs) from PKI repositories. Additional mechanisms addressing
     PKIX operational requirements are specified in separate documents. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

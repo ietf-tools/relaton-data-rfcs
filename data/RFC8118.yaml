@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8118
 title:
 - content: The application/pdf Media Type
@@ -183,15 +183,19 @@ script:
 abstract:
 - content: <p>The Portable Document Format (PDF) is an ISO standard (ISO 32000-1:2008)
     defining a final-form document representation language in use for document exchange,
-    including on the Internet, since 1993.  This document provides an overview of
-    the PDF format and updates the media type registration of "application/pdf".  It
-    obsoletes RFC 3778.</p>
+    including on the Internet, since 1993. This document provides an overview of the
+    PDF format and updates the media type registration of "application/pdf". It obsoletes
+    RFC 3778.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

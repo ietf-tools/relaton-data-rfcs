@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2236
 title:
 - content: Internet Group Management Protocol, Version 2
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo documents IGMPv2, used by IP hosts to report their multicast
-    group memberships to routers.  It updates STD 5, RFC 1112. [STANDARDS-TRACK]</p>"
+    group memberships to routers. It updates STD 5, RFC 1112. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -84,6 +84,10 @@ relation:
       content: RFC1112
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

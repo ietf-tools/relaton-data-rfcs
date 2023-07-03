@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7196
 title:
 - content: Making Route Flap Damping Usable
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Route Flap Damping (RFD) was first proposed to reduce BGP churn in
-    routers.  Unfortunately, RFD was found to severely penalize sites for being well
+    routers. Unfortunately, RFD was found to severely penalize sites for being well
     connected because topological richness amplifies the number of update messages
-    exchanged.  Many operators have turned RFD off.  Based on experimental measurement,
+    exchanged. Many operators have turned RFD off. Based on experimental measurement,
     this document recommends adjusting a few RFD algorithmic constants and limits
-    in order to reduce the high risks with RFD.  The result is damping a non-trivial
+    in order to reduce the high risks with RFD. The result is damping a non-trivial
     amount of long-term churn without penalizing well-behaved prefixes' normal convergence
     process.</p>"
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4303
 title:
 - content: IP Encapsulating Security Payload (ESP)
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This document describes an updated version of the Encapsulating Security
     Payload (ESP) protocol, which is designed to provide a mix of security services
-    in IPv4 and IPv6.  ESP is used to provide confidentiality, data origin authentication,
+    in IPv4 and IPv6. ESP is used to provide confidentiality, data origin authentication,
     connectionless integrity, an anti-replay service (a form of partial sequence integrity),
-    and limited traffic flow confidentiality.  This document obsoletes RFC 2406 (November
+    and limited traffic flow confidentiality. This document obsoletes RFC 2406 (November
     1998). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

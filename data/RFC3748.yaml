@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3748
 title:
 - content: Extensible Authentication Protocol (EAP)
@@ -182,19 +182,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the Extensible Authentication Protocol (EAP),
-    an authentication framework which supports multiple authentication methods.  EAP
+    an authentication framework which supports multiple authentication methods. EAP
     typically runs directly over data link layers such as Point-to-Point Protocol
-    (PPP) or IEEE 802, without requiring IP.  EAP provides its own support for duplicate
+    (PPP) or IEEE 802, without requiring IP. EAP provides its own support for duplicate
     elimination and retransmission, but is reliant on lower layer ordering guarantees.
-    \ Fragmentation is not supported within EAP itself; however, individual EAP methods
-    may support this.  This document obsoletes RFC 2284.  A summary of the changes
-    between this document and RFC 2284 is available in Appendix A. [STANDARDS-TRACK]</p>"
+    Fragmentation is not supported within EAP itself; however, individual EAP methods
+    may support this. This document obsoletes RFC 2284. A summary of the changes between
+    this document and RFC 2284 is available in Appendix A. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

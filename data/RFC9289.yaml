@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9289
 title:
 - content: Towards Remote Procedure Call Encryption by Default
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>This document describes a mechanism that, through the use of opportunistic
     Transport Layer Security (TLS), enables encryption of Remote Procedure Call (RPC)
-    transactions while they are in transit.  The proposed mechanism interoperates
-    with Open Network Computing (ONC) RPC implementations that do not support it.
-    \ This document updates RFC 5531.</p>"
+    transactions while they are in transit. The proposed mechanism interoperates with
+    Open Network Computing (ONC) RPC implementations that do not support it. This
+    document updates RFC 5531.</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC5531
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

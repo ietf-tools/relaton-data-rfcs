@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1144
 title:
 - content: Compressing TCP/IP Headers for Low-Speed Serial Links
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC describes a method for compressing the headers of TCP/IP datagrams
-    to improve performance over low speed serial links.  The motivation, implementation
-    and performance of the method are described.  C code for a sample implementation
+    to improve performance over low speed serial links. The motivation, implementation
+    and performance of the method are described. C code for a sample implementation
     is given for reference. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

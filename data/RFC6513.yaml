@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6513
 title:
 - content: Multicast in MPLS/BGP IP VPNs
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>In order for IP multicast traffic within a BGP/MPLS IP VPN (Virtual
     Private Network) to travel from one VPN site to another, special protocols and
-    procedures must be implemented by the VPN Service Provider.  These protocols and
+    procedures must be implemented by the VPN Service Provider. These protocols and
     procedures are specified in this document. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

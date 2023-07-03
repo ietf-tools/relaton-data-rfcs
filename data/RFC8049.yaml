@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8049
 title:
 - content: YANG Data Model for L3VPN Service Delivery
@@ -125,14 +125,14 @@ script:
 abstract:
 - content: "<p>This document defines a YANG data model that can be used for communication
     between customers and network operators and to deliver a Layer 3 provider-provisioned
-    VPN service.  This document is limited to BGP PE-based VPNs as described in RFCs
-    4026, 4110, and 4364.  This model is intended to be instantiated at the management
-    system to deliver the overall service.  It is not a configuration model to be
-    used directly on network elements.  This model provides an abstracted view of
-    the Layer 3 IP VPN service configuration components.  It will be up to the management
-    system to take this model as input and use specific configuration models to configure
-    the different network elements to deliver the service.  How the configuration
-    of network elements is done is out of scope for this document.</p>"
+    VPN service. This document is limited to BGP PE-based VPNs as described in RFCs
+    4026, 4110, and 4364. This model is intended to be instantiated at the management
+    system to deliver the overall service. It is not a configuration model to be used
+    directly on network elements. This model provides an abstracted view of the Layer
+    3 IP VPN service configuration components. It will be up to the management system
+    to take this model as input and use specific configuration models to configure
+    the different network elements to deliver the service. How the configuration of
+    network elements is done is out of scope for this document.</p>"
   language:
   - en
   script:
@@ -150,6 +150,10 @@ relation:
       content: RFC8299
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

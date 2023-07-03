@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5230
 title:
 - content: 'Sieve Email Filtering: Vacation Extension'
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: <p>This document describes an extension to the Sieve email filtering language
     for an autoresponder similar to that of the Unix "vacation" command for replying
-    to messages.  Various safety features are included to prevent problems such as
+    to messages. Various safety features are included to prevent problems such as
     message loops. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

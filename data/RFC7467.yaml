@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7467
 title:
 - content: URN Namespace for the North Atlantic Treaty Organization (NATO)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document allocates a formal Uniform Resource Name (URN) namespace
     for assignment by the North Atlantic Treaty Organization (NATO), as specified
-    in RFC 3406.  At this time, the URN will be used primarily to uniquely identify
+    in RFC 3406. At this time, the URN will be used primarily to uniquely identify
     Extensible Markup Language (XML) artefacts that provide information about NATO
     message text formats and service specifications as described in various NATO standards,
     instructions, and publications.</p>"
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7319
 title:
 - content: IANA Considerations for Connectivity Fault Management (CFM) Code Points
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>IEEE 802.1 has specified Connectivity Fault Management (CFM) Operations,
-    Administration, and Maintenance (OAM) facilities.  CFM messages are structured
+    Administration, and Maintenance (OAM) facilities. CFM messages are structured
     with an OpCode field and have provision for the inclusion of TLV-structured information.
-    \ IEEE 802.1 has allocated blocks of CFM OpCodes and TLV Types to the IETF.  This
+    IEEE 802.1 has allocated blocks of CFM OpCodes and TLV Types to the IETF. This
     document specifies the IANA considerations for the assignment of values from these
     blocks.</p>"
   language:
@@ -81,6 +81,10 @@ series:
     content: BCP
     format: text/plain
   number: '191'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

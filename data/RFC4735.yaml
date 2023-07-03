@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4735
 title:
 - content: Example Media Types for Use in Documentation
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document is registration for the 'example' media type and 'example'
-    subtypes within the standards tree.  The 'example/*' and '*/example' media types
+    subtypes within the standards tree. The 'example/*' and '*/example' media types
     are defined for documentation purposes only. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -74,6 +74,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

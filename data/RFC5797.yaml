@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5797
 title:
 - content: FTP Command and Extension Registry
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Every version of the FTP specification has added a few new commands,
-    with the early ones summarized in RFC 959.  RFC 2389 established a mechanism for
-    specifying and negotiating FTP extensions.  The number of extensions, both those
-    supported by the mechanism and some that are not, continues to increase.  An IANA
+    with the early ones summarized in RFC 959. RFC 2389 established a mechanism for
+    specifying and negotiating FTP extensions. The number of extensions, both those
+    supported by the mechanism and some that are not, continues to increase. An IANA
     registry of FTP Command and Feature names is established to reduce the likelihood
-    of conflict of names and the consequent ambiguity.  This specification establishes
+    of conflict of names and the consequent ambiguity. This specification establishes
     that registry. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -118,6 +118,10 @@ relation:
       content: RFC0959
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

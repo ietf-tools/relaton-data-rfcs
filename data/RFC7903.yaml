@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7903
 title:
 - content: Windows Image Media Types
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>This document registers media types for certain image formats promulgated
     in Microsoft Windows, namely image/wmf, image/x-wmf, image/emf, image/x-emf, and
     image/bmp for use with Windows Metafile, Enhanced Metafile, and Windows Bitmap
-    formats.  Originally designed for Microsoft Windows 2.0 and 3.0, these image files
+    formats. Originally designed for Microsoft Windows 2.0 and 3.0, these image files
     are intended to be portable between applications and devices, and they may contain
     both vector and raster graphics.</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

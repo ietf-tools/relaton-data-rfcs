@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4790
 title:
 - content: Internet Application Protocol Collation Registry
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Many Internet application protocols include string-based lookup, searching,
-    or sorting operations.  However, the problem space for searching and sorting international
+    or sorting operations. However, the problem space for searching and sorting international
     strings is large, not fully explored, and is outside the area of expertise for
-    the Internet Engineering Task Force (IETF).  Rather than attempt to solve such
+    the Internet Engineering Task Force (IETF). Rather than attempt to solve such
     a large problem, this specification creates an abstraction framework so that application
     protocols can precisely identify a comparison function, and the repertoire of
     comparison functions can be extended in the future. [STANDARDS-TRACK]</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5596
 title:
 - content: Datagram Congestion Control Protocol (DCCP) Simultaneous-Open Technique
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document specifies an update to the Datagram Congestion Control
     Protocol (DCCP), a connection-oriented and datagram-based transport protocol.
-    \ The update adds support for the DCCP-Listen packet.  This assists DCCP applications
+    The update adds support for the DCCP-Listen packet. This assists DCCP applications
     to communicate through middleboxes (e.g., a Network Address Port Translator or
     a DCCP server behind a firewall), where peering endpoints need to initiate communication
     in a near- simultaneous manner to establish necessary middlebox state. [STANDARDS-TRACK]</p>"
@@ -89,6 +89,10 @@ relation:
       content: RFC4340
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

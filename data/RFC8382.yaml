@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8382
 title:
 - content: Shared Bottleneck Detection for Coupled Congestion Control for RTP Media
@@ -153,8 +153,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a mechanism to detect whether end-to-end data
-    flows share a common bottleneck.  This mechanism relies on summary statistics
-    that are calculated based on continuous measurements and used as input to a grouping
+    flows share a common bottleneck. This mechanism relies on summary statistics that
+    are calculated based on continuous measurements and used as input to a grouping
     algorithm that runs wherever the knowledge is needed.</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

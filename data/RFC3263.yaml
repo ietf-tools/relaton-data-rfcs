@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3263
 title:
 - content: 'Session Initiation Protocol (SIP): Locating SIP Servers'
@@ -96,15 +96,19 @@ script:
 abstract:
 - content: "<p>The Session Initiation Protocol (SIP) uses DNS procedures to allow
     a client to resolve a SIP Uniform Resource Identifier (URI) into the IP address,
-    port, and transport protocol of the next hop to contact.  It also uses DNS to
-    allow a server to send a response to a backup client if the primary client has
-    failed.  This document describes those DNS procedures in detail. [STANDARDS-TRACK]</p>"
+    port, and transport protocol of the next hop to contact. It also uses DNS to allow
+    a server to send a response to a backup client if the primary client has failed.
+    This document describes those DNS procedures in detail. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6849
 title:
 - content: An Extension to the Session Description Protocol (SDP) and Real-time Transport
@@ -184,17 +184,17 @@ script:
 abstract:
 - content: <p>The wide deployment of Voice over IP (VoIP), real-time text, and Video
     over IP services has introduced new challenges in managing and maintaining real-time
-    voice/text/video quality, reliability, and overall performance.  In particular,
-    media delivery is an area that needs attention.  One method of meeting these challenges
-    is monitoring the media delivery performance by looping media back to the transmitter.  This
-    is typically referred to as "active monitoring" of services.  Media loopback is
-    especially popular in ensuring the quality of transport to the edge of a given
-    VoIP, real-time text, or Video over IP service.  Today, in networks that deliver
+    voice/text/video quality, reliability, and overall performance. In particular,
+    media delivery is an area that needs attention. One method of meeting these challenges
+    is monitoring the media delivery performance by looping media back to the transmitter.
+    This is typically referred to as "active monitoring" of services. Media loopback
+    is especially popular in ensuring the quality of transport to the edge of a given
+    VoIP, real-time text, or Video over IP service. Today, in networks that deliver
     real-time media, short of running 'ping' and 'traceroute' to the edge, administrators
     are left without the necessary tools to actively monitor, manage, and diagnose
-    quality issues with their service.  The extension defined herein adds new Session
+    quality issues with their service. The extension defined herein adds new Session
     Description Protocol (SDP) media types and attributes that enable establishment
-    of media sessions where the media is looped back to the transmitter.  Such media
+    of media sessions where the media is looped back to the transmitter. Such media
     sessions will serve as monitoring and troubleshooting tools by providing the means
     for measurement of more advanced VoIP, real-time text, and Video over IP performance
     metrics.</p>
@@ -204,6 +204,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

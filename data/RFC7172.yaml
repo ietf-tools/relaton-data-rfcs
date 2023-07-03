@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7172
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Fine-Grained Labeling'
@@ -184,13 +184,13 @@ abstract:
 - content: "<p>The IETF has standardized Transparent Interconnection of Lots of Links
     (TRILL), a protocol for least-cost transparent frame routing in multi-hop networks
     with arbitrary topologies and link technologies, using link-state routing and
-    a hop count.  The TRILL base protocol standard supports the labeling of TRILL
-    Data packets with up to 4K IDs.  However, there are applications that require
-    a larger number of labels providing configurable isolation of data.  This document
-    updates RFC 6325 by specifying optional extensions to the TRILL base protocol
-    to safely accomplish this.  These extensions, called fine-grained labeling, are
-    primarily intended for use in large data centers, that is, those with more than
-    4K users requiring configurable data isolation from each other.</p>"
+    a hop count. The TRILL base protocol standard supports the labeling of TRILL Data
+    packets with up to 4K IDs. However, there are applications that require a larger
+    number of labels providing configurable isolation of data. This document updates
+    RFC 6325 by specifying optional extensions to the TRILL base protocol to safely
+    accomplish this. These extensions, called fine-grained labeling, are primarily
+    intended for use in large data centers, that is, those with more than 4K users
+    requiring configurable data isolation from each other.</p>"
   language:
   - en
   script:
@@ -208,6 +208,10 @@ relation:
       content: RFC6325
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

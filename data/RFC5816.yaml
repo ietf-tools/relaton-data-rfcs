@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5816
 title:
 - content: ESSCertIDv2 Update for RFC 3161
@@ -94,8 +94,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document updates RFC 3161.  It allows the use of ESSCertIDv2,
-    as defined in RFC 5035, to specify the hash of a signer certificate when the hash
+- content: "<p>This document updates RFC 3161. It allows the use of ESSCertIDv2, as
+    defined in RFC 5035, to specify the hash of a signer certificate when the hash
     is calculated with a function other than the Secure Hash Algorithm (SHA-1). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -114,6 +114,10 @@ relation:
       content: RFC3161
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

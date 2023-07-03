@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3112
 title:
 - content: LDAP Authentication Password Schema
@@ -67,13 +67,17 @@ script:
 abstract:
 - content: "<p>This document describes schema in support of user/password authentication
     in a LDAP (Lightweight Directory Access Protocol) directory including the authPassword
-    attribute type.  This memo provides information for the Internet community.</p>"
+    attribute type. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

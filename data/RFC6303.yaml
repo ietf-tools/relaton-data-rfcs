@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6303
 title:
 - content: Locally Served DNS Zones
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>Experience with the Domain Name System (DNS) has shown that there are
     a number of DNS zones that all iterative resolvers and recursive nameservers should
-    automatically serve, unless configured otherwise.  RFC 4193 specifies that this
-    should occur for D.F.IP6.ARPA.  This document extends the practice to cover the
+    automatically serve, unless configured otherwise. RFC 4193 specifies that this
+    should occur for D.F.IP6.ARPA. This document extends the practice to cover the
     IN-ADDR.ARPA zones for RFC 1918 address space and other well-known zones with
-    similar characteristics.  This memo documents an Internet Best Current Practice.</p>"
+    similar characteristics. This memo documents an Internet Best Current Practice.</p>"
   language:
   - en
   script:
@@ -81,6 +81,10 @@ series:
     content: BCP
     format: text/plain
   number: '163'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

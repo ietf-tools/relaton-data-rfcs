@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC997
 title:
 - content: Internet numbers
@@ -100,11 +100,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo is an official status report on the network numbers used
-    in the Internet community.  As of 1-Mar-87 the Network Information Center (NIC)
+    in the Internet community. As of 1-Mar-87 the Network Information Center (NIC)
     at SRI International has assumed responsibility for assignment of Network Numbers
-    and Autonomous System Numbers.  This RFC documents the current assignments of
-    these numbers at the time of this transfer of responsibility.  Obsoletes RFC-990,
-    960, 943, 923 and 900.</p>"
+    and Autonomous System Numbers. This RFC documents the current assignments of these
+    numbers at the time of this transfer of responsibility. Obsoletes RFC-990, 960,
+    943, 923 and 900.</p>"
   language:
   - en
   script:
@@ -142,6 +142,10 @@ relation:
       content: RFC0990
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

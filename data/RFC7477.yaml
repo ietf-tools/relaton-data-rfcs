@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7477
 title:
 - content: Child-to-Parent Synchronization in DNS
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies how a child zone in the DNS can publish a record
     to indicate to a parental agent that the parental agent may copy and process certain
-    records from the child zone.  The existence of the record and any change in its
+    records from the child zone. The existence of the record and any change in its
     value can be monitored by a parental agent and acted on depending on local policy.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

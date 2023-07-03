@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1064
 title:
 - content: 'Interactive Mail Access Protocol: Version 2'
@@ -71,8 +71,8 @@ script:
 - Latn
 abstract:
 - content: <p>This memo suggests a method for workstations to dynamically access mail
-    from a mailbox server ("respository").  This RFC specifies a standard for the
-    SUMEX-AIM community and a proposed experimental protocol for the Internet community.  Discussion
+    from a mailbox server ("respository"). This RFC specifies a standard for the SUMEX-AIM
+    community and a proposed experimental protocol for the Internet community. Discussion
     and suggestions for improvement are requested.</p>
   language:
   - en
@@ -101,6 +101,10 @@ relation:
       content: RFC1203
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

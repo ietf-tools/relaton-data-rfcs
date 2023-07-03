@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6276
 title:
 - content: DHCPv6 Prefix Delegation for Network Mobility (NEMO)
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: "<p>One aspect of network mobility support is the assignment of a prefix
-    or prefixes to a mobile router for use on the links in the mobile network.  This
+    or prefixes to a mobile router for use on the links in the mobile network. This
     document specifies how DHCPv6 prefix delegation can be used for this configuration
-    task.  The mobile router plays the role of requesting router, while the home agent
-    assumes the role of delegating router.  When the mobile router is outside its
-    home network, the mobile router also assumes the role of DHCPv6 relay agent, co-located
+    task. The mobile router plays the role of requesting router, while the home agent
+    assumes the role of delegating router. When the mobile router is outside its home
+    network, the mobile router also assumes the role of DHCPv6 relay agent, co-located
     with the requesting router function. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

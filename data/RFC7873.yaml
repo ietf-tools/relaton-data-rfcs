@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7873
 title:
 - content: Domain Name System (DNS) Cookies
@@ -97,7 +97,7 @@ abstract:
 - content: "<p>DNS Cookies are a lightweight DNS transaction security mechanism that
     provides limited protection to DNS servers and clients against a variety of increasingly
     common denial-of-service and amplification/ forgery or cache poisoning attacks
-    by off-path attackers.  DNS Cookies are tolerant of NAT, NAT-PT (Network Address
+    by off-path attackers. DNS Cookies are tolerant of NAT, NAT-PT (Network Address
     Translation - Protocol Translation), and anycast and can be incrementally deployed.
     (Since DNS Cookies are only returned to the IP address from which they were originally
     received, they cannot be used to generally track Internet users.)</p>"
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4211
 title:
 - content: Internet X.509 Public Key Infrastructure Certificate Request Message Format
@@ -67,17 +67,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Certificate Request Message Format (CRMF)
-    syntax and semantics.  This syntax is used to convey a request for a certificate
+    syntax and semantics. This syntax is used to convey a request for a certificate
     to a Certification Authority (CA), possibly via a Registration Authority (RA),
-    for the purposes of X.509 certificate production.  The request will typically
-    include a public key and the associated registration information.  This document
-    does not define a certificate request protocol. [STANDARDS-TRACK]</p>"
+    for the purposes of X.509 certificate production. The request will typically include
+    a public key and the associated registration information. This document does not
+    define a certificate request protocol. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3692
 title:
 - content: Assigning Experimental and Testing Numbers Considered Useful
@@ -67,12 +67,12 @@ script:
 abstract:
 - content: "<p>When experimenting with or extending protocols, it is often necessary
     to use some sort of protocol number or constant in order to actually test or experiment
-    with the new function, even when testing in a closed environment.  For example,
+    with the new function, even when testing in a closed environment. For example,
     to test a new DHCP option, one needs an option number to identify the new function.
-    \ This document recommends that when writing IANA Considerations sections, authors
+    This document recommends that when writing IANA Considerations sections, authors
     should consider assigning a small range of numbers for experimentation purposes
     that implementers can use when testing protocol extensions or other new features.
-    \ This document reserves some ranges of numbers for experimentation purposes in
+    This document reserves some ranges of numbers for experimentation purposes in
     specific protocols where the need to support experimentation has been identified.</p>"
   language:
   - en
@@ -95,6 +95,10 @@ series:
     content: BCP
     format: text/plain
   number: '82'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

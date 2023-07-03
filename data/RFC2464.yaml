@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2464
 title:
 - content: Transmission of IPv6 Packets over Ethernet Networks
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies the frame format for transmission of IPv6 packets
     and the method of forming IPv6 link-local addresses and statelessly autoconfigured
-    addresses on Ethernet networks.  It also specifies the content of the Source/Target
+    addresses on Ethernet networks. It also specifies the content of the Source/Target
     Link-layer Address option used in Router Solicitation, Router Advertisement, Neighbor
     Solicitation, Neighbor Advertisement and Redirect messages when those messages
     are transmitted on an Ethernet. [STANDARDS-TRACK]</p>"
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

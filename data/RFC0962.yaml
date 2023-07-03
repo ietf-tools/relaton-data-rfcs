@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC962
 title:
 - content: TCP-4 prime
@@ -72,13 +72,17 @@ script:
 abstract:
 - content: "<p>This memo is in response to Bob Braden's call for a transaction oriented
     protocol (RFC-955), and continues the discussion of a possible transaction oriented
-    transport protocol.  This memo does not propose a standard.</p>"
+    transport protocol. This memo does not propose a standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

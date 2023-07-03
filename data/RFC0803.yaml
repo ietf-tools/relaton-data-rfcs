@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC803
 title:
 - content: Dacom 450/500 facsimile data transcoding
@@ -134,7 +134,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The first part of this RFC describes in detail the Dacom 450 data compression
-    algorithms and is an update and correction to an earlier memorandum.  The second
+    algorithms and is an update and correction to an earlier memorandum. The second
     part of this RFC describes briefly the Dacom 500 data compression algorithm as
     used by the INTELPOST electronic-mail network under development by the US Postal
     Service and several foreign administrators.</p>"
@@ -144,6 +144,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

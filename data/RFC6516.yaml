@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6516
 title:
 - content: IPv6 Multicast VPN (MVPN) Support Using PIM Control Plane and Selective
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>The specification for Multicast Virtual Private Networks (MVPNs) contains
     an option that allows the use of PIM as the control protocol between provider
-    edge routers.  It also contains an option that allows UDP-based messages, known
+    edge routers. It also contains an option that allows UDP-based messages, known
     as Selective Provider Multicast Service Interface (S-PMSI) Join messages, to be
     used to bind particular customer multicast flows to particular tunnels through
-    a service provider's network.  This document extends the MVPN specification (RFC
+    a service provider's network. This document extends the MVPN specification (RFC
     6513) so that these options can be used when the customer multicast flows are
     IPv6 flows. [STANDARDS-TRACK]</p>"
   language:
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

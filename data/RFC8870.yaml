@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8870
 title:
 - content: Encrypted Key Transport for DTLS and Secure RTP
@@ -184,7 +184,7 @@ abstract:
 - content: "<p>Encrypted Key Transport (EKT) is an extension to DTLS (Datagram Transport
     Layer Security) and the Secure Real-time Transport Protocol (SRTP) that provides
     for the secure transport of SRTP master keys, rollover counters, and other information
-    within SRTP.  This facility enables SRTP for decentralized conferences by distributing
+    within SRTP. This facility enables SRTP for decentralized conferences by distributing
     a common key to all of the conference endpoints.</p>"
   language:
   - en
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

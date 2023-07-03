@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4169
 title:
 - content: Hypertext Transfer Protocol (HTTP) Digest Authentication Using Authentication
@@ -127,17 +127,21 @@ abstract:
 - content: "<p>HTTP Digest, as specified in RFC 2617, is known to be vulnerable to
     man-in-the-middle attacks if the client fails to authenticate the server in TLS,
     or if the same passwords are used for authentication in some other context without
-    TLS.  This is a general problem that exists not just with HTTP Digest, but also
-    with other IETF protocols that use tunneled authentication.  This document specifies
-    version 2 of the HTTP Digest AKA algorithm (RFC 3310).  This algorithm can be
-    implemented in a way that it is resistant to the man-in-the-middle attack.  This
-    memo provides information for the Internet community.</p>"
+    TLS. This is a general problem that exists not just with HTTP Digest, but also
+    with other IETF protocols that use tunneled authentication. This document specifies
+    version 2 of the HTTP Digest AKA algorithm (RFC 3310). This algorithm can be implemented
+    in a way that it is resistant to the man-in-the-middle attack. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

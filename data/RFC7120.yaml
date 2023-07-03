@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7120
 title:
 - content: Early IANA Allocation of Standards Track Code Points
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: <p>This memo describes the process for early allocation of code points
     by IANA from registries for which "Specification Required", "RFC Required", "IETF
-    Review", or "Standards Action" policies apply.  This process can be used to alleviate
+    Review", or "Standards Action" policies apply. This process can be used to alleviate
     the problem where code point allocation is needed to facilitate desired or required
     implementation and deployment experience prior to publication of an RFC, which
-    would normally trigger code point allocation.  The procedures in this document
+    would normally trigger code point allocation. The procedures in this document
     are intended to apply only to IETF Stream documents.</p>
   language:
   - en
@@ -82,6 +82,10 @@ series:
     content: BCP
     format: text/plain
   number: '100'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

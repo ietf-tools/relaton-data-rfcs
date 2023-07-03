@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2573
 title:
 - content: SNMP Applications
@@ -124,9 +124,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes five types of SNMP applications which make use
-    of an SNMP engine.  This memo also defines MIB modules for specifying targets
-    of management operations, for notification filtering, and for proxy fowarding.
-    [STANDARDS-TRACK]</p>"
+    of an SNMP engine. This memo also defines MIB modules for specifying targets of
+    management operations, for notification filtering, and for proxy fowarding. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -144,6 +143,10 @@ relation:
       content: RFC3413
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

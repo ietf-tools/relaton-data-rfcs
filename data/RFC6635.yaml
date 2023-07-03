@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6635
 title:
 - content: RFC Editor Model (Version 2)
@@ -103,11 +103,11 @@ script:
 abstract:
 - content: '<p>The RFC Editor model described in this document divides the responsibilities
     for the RFC Series into three functions: the RFC Series Editor, the RFC Production
-    Center, and the RFC Publisher.  Internet Architecture Board (IAB) oversight via
+    Center, and the RFC Publisher. Internet Architecture Board (IAB) oversight via
     the RFC Series Oversight Committee (RSOC) is described, as is the relationship
-    between the IETF Administrative Oversight Committee (IAOC) and the RSOC.  This
+    between the IETF Administrative Oversight Committee (IAOC) and the RSOC. This
     document reflects the experience gained with "RFC Editor Model (Version 1)", documented
-    in RFC 5620, and obsoletes that document.  This document is not an Internet Standards
+    in RFC 5620, and obsoletes that document. This document is not an Internet Standards
     Track specification; it is published for informational purposes.</p>'
   language:
   - en
@@ -126,6 +126,10 @@ relation:
       content: RFC8728
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

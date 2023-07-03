@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4114
 title:
 - content: E.164 Number Mapping for the Extensible Provisioning Protocol (EPP)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document describes an Extensible Provisioning Protocol (EPP) extension
     mapping for the provisioning and management of E.164 numbers that represent domain
-    names stored in a shared central repository.  Specified in XML, this mapping extends
+    names stored in a shared central repository. Specified in XML, this mapping extends
     the EPP domain name mapping to provide additional features required for the provisioning
     of E.164 numbers. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

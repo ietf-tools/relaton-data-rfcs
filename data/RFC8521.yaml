@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8521
 title:
 - content: Registration Data Access Protocol (RDAP) Object Tagging
@@ -96,13 +96,13 @@ script:
 abstract:
 - content: "<p>The Registration Data Access Protocol (RDAP) includes a method that
     can be used to identify the authoritative server for processing domain name, IP
-    address, and autonomous system number queries.  The method does not describe how
+    address, and autonomous system number queries. The method does not describe how
     to identify the authoritative server for processing other RDAP query types, such
-    as entity queries.  This limitation exists because the identifiers associated
-    with these query types are typically unstructured.  This document updates RFC
-    7484 by describing an operational practice that can be used to add structure to
-    RDAP identifiers and that makes it possible to identify the authoritative server
-    for additional RDAP queries.</p>"
+    as entity queries. This limitation exists because the identifiers associated with
+    these query types are typically unstructured. This document updates RFC 7484 by
+    describing an operational practice that can be used to add structure to RDAP identifiers
+    and that makes it possible to identify the authoritative server for additional
+    RDAP queries.</p>"
   language:
   - en
   script:
@@ -124,6 +124,10 @@ series:
     content: BCP
     format: text/plain
   number: '221'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

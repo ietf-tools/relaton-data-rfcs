@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3663
 title:
 - content: Domain Administrative Data in Lightweight Directory Access Protocol (LDAP)
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Domain registration data has typically been exposed to the general
-    public via Nicname/Whois for administrative purposes.  This document describes
+    public via Nicname/Whois for administrative purposes. This document describes
     the Referral Lightweight Directory Access Protocol (LDAP) Service, an experimental
     service using LDAP and well-known LDAP types to make domain administrative data
     available.</p>"
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5688
 title:
 - content: A Session Initiation Protocol (SIP) Media Feature Tag for MIME Application
@@ -68,11 +68,11 @@ script:
 abstract:
 - content: "<p>The caller preferences specification for the Session Initiation Protocol
     (SIP) allows a caller to express preferences that the call be routed to a User
-    Agent (UA) with particular capabilities.  Similarly, a specification exists to
-    allow a UA to indicate its capabilities in a registration.  Amongst those capabilities
+    Agent (UA) with particular capabilities. Similarly, a specification exists to
+    allow a UA to indicate its capabilities in a registration. Amongst those capabilities
     are the type of media streams the agent supports, described as top-level MIME
-    types.  The 'application' MIME type is used to describe a broad range of stream
-    types, and it provides insufficient granularity as a capability.  This specification
+    types. The 'application' MIME type is used to describe a broad range of stream
+    types, and it provides insufficient granularity as a capability. This specification
     allows a UA to indicate which application subtypes the agent supports. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

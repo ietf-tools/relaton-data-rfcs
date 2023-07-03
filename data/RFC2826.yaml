@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2826
 title:
 - content: IAB Technical Comment on the Unique DNS Root
@@ -44,18 +44,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document discusses the existence of a globally unique public name
-    space in the Internet called the DNS (Domain Name System).  This name space is
-    a hierarchical name space derived from a single, globally unique root.  It is
-    a technical constraint inherent in the design of the DNS.  One root must be supported
+    space in the Internet called the DNS (Domain Name System). This name space is
+    a hierarchical name space derived from a single, globally unique root. It is a
+    technical constraint inherent in the design of the DNS. One root must be supported
     by a set of coordinated root servers administered by a unique naming authority.
-    \ It is not technically feasible for there to be more than one root in the public
-    DNS.  This memo provides information for the Internet community.</p>"
+    It is not technically feasible for there to be more than one root in the public
+    DNS. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

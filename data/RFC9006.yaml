@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9006
 title:
 - content: TCP Usage Guidance in the Internet of Things (IoT)
@@ -125,17 +125,21 @@ script:
 abstract:
 - content: "<p>This document provides guidance on how to implement and use the Transmission
     Control Protocol (TCP) in Constrained-Node Networks (CNNs), which are a characteristic
-    of the Internet of Things (IoT).  Such environments require a lightweight TCP
-    implementation and may not make use of optional functionality.  This document
-    explains a number of known and deployed techniques to simplify a TCP stack as
-    well as corresponding trade-offs.  The objective is to help embedded developers
-    with decisions on which TCP features to use.</p>"
+    of the Internet of Things (IoT). Such environments require a lightweight TCP implementation
+    and may not make use of optional functionality. This document explains a number
+    of known and deployed techniques to simplify a TCP stack as well as corresponding
+    trade-offs. The objective is to help embedded developers with decisions on which
+    TCP features to use.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

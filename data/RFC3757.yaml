@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3757
 title:
 - content: Domain Name System KEY (DNSKEY) Resource Record (RR) Secure Entry Point
@@ -125,14 +125,14 @@ script:
 - Latn
 abstract:
 - content: "<p>With the Delegation Signer (DS) resource record (RR), the concept of
-    a public key acting as a secure entry point (SEP) has been introduced.  During
+    a public key acting as a secure entry point (SEP) has been introduced. During
     exchanges of public keys with the parent there is a need to differentiate SEP
     keys from other public keys in the Domain Name System KEY (DNSKEY) resource record
-    set.  A flag bit in the DNSKEY RR is defined to indicate that DNSKEY is to be
-    used as a SEP.  The flag bit is intended to assist in operational procedures to
-    correctly generate DS resource records, or to indicate what DNSKEYs are intended
-    for static configuration.  The flag bit is not to be used in the DNS verification
-    protocol.  This document updates RFC 2535 and RFC 3755. [STANDARDS-TRACK]</p>"
+    set. A flag bit in the DNSKEY RR is defined to indicate that DNSKEY is to be used
+    as a SEP. The flag bit is intended to assist in operational procedures to correctly
+    generate DS resource records, or to indicate what DNSKEYs are intended for static
+    configuration. The flag bit is not to be used in the DNS verification protocol.
+    This document updates RFC 2535 and RFC 3755. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -190,6 +190,10 @@ relation:
       content: RFC2535
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

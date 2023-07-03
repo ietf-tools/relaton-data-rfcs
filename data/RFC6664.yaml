@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6664
 title:
 - content: S/MIME Capabilities for Public Key Definitions
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: <p>This document defines a set of Secure/Multipurpose Internet Mail Extensions
     (S/MIME) Capability types for ASN.1 encoding for the current set of public keys
-    defined by the PKIX working group.  This facilitates the ability for a requester
+    defined by the PKIX working group. This facilitates the ability for a requester
     to specify information on the public keys and signature algorithms to be used
     in responses. "Online Certificate Status Protocol Algorithm Agility" (RFC 6277)
-    details an example of where this is used.  This document is not an Internet Standards
+    details an example of where this is used. This document is not an Internet Standards
     Track specification; it is published for informational purposes.</p>
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

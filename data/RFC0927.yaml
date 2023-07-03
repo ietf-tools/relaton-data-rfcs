@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC927
 title:
 - content: TACACS user identification Telnet option
@@ -71,17 +71,21 @@ script:
 - Latn
 abstract:
 - content: "<p>The following is the description of a TELNET option designed to facilitate
-    double login avoidance.  It is intended primarily for TAC connections to target
+    double login avoidance. It is intended primarily for TAC connections to target
     hosts on behalf of TAC users, but it can be used between any two consenting hosts.
-    \ For example, all hosts at one site (e.g., BBN) can use this option to avoid
-    double login when TELNETing to one another.  This RFC suggests a proposed protocol
-    for the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
+    For example, all hosts at one site (e.g., BBN) can use this option to avoid double
+    login when TELNETing to one another. This RFC suggests a proposed protocol for
+    the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1195
 title:
 - content: Use of OSI IS-IS for routing in TCP/IP and dual environments
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This memo specifies an integrated routing protocol, based on the OSI
     Intra-Domain IS-IS Routing Protocol, which may be used as an interior gateway
-    protocol (IGP) to support TCP/IP as well as OSI.  This allows a single routing
+    protocol (IGP) to support TCP/IP as well as OSI. This allows a single routing
     protocol to be used to support pure IP environments, pure OSI environments, and
-    dual environments.  This specification was developed by the IS-IS working group
+    dual environments. This specification was developed by the IS-IS working group
     of the Internet Engineering Task Force. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3205
 title:
 - content: On the use of HTTP as a Substrate
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Recently there has been widespread interest in using Hypertext Transfer
-    Protocol (HTTP) as a substrate for other applications-level protocols.  This document
+    Protocol (HTTP) as a substrate for other applications-level protocols. This document
     recommends technical particulars of such use, including use of default ports,
-    URL schemes, and HTTP security mechanisms.  This document specifies an Internet
+    URL schemes, and HTTP security mechanisms. This document specifies an Internet
     Best Current Practices for the Internet Community, and requests discussion and
     suggestions for improvements.</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC9205
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

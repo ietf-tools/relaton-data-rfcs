@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6621
 title:
 - content: Simplified Multicast Forwarding
@@ -67,19 +67,19 @@ script:
 abstract:
 - content: "<p>This document describes a Simplified Multicast Forwarding (SMF) mechanism
     that provides basic Internet Protocol (IP) multicast forwarding suitable for limited
-    wireless mesh and mobile ad hoc network (MANET) use.  It is mainly applicable
-    in situations where efficient flooding represents an acceptable engineering design
-    trade-off.  It defines techniques for multicast duplicate packet detection (DPD),
+    wireless mesh and mobile ad hoc network (MANET) use. It is mainly applicable in
+    situations where efficient flooding represents an acceptable engineering design
+    trade-off. It defines techniques for multicast duplicate packet detection (DPD),
     to be applied in the forwarding process, for both IPv4 and IPv6 protocol use.
-    \ This document also specifies optional mechanisms for using reduced relay sets
+    This document also specifies optional mechanisms for using reduced relay sets
     to achieve more efficient multicast data distribution within a mesh topology as
-    compared to Classic Flooding.  Interactions with other protocols, such as use
-    of information provided by concurrently running unicast routing protocols or interaction
+    compared to Classic Flooding. Interactions with other protocols, such as use of
+    information provided by concurrently running unicast routing protocols or interaction
     with other multicast protocols, as well as multiple deployment approaches are
-    also described.  Distributed algorithms for selecting reduced relay sets and related
-    discussion are provided in the appendices.  Basic issues relating to the operation
+    also described. Distributed algorithms for selecting reduced relay sets and related
+    discussion are provided in the appendices. Basic issues relating to the operation
     of multicast MANET border routers are discussed, but ongoing work remains in this
-    area and is beyond the scope of this document.  This document defines an Experimental
+    area and is beyond the scope of this document. This document defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -87,6 +87,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

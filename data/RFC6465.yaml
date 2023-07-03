@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6465
 title:
 - content: A Real-time Transport Protocol (RTP) Header Extension for Mixer-to-Client
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a mechanism for RTP-level mixers in audio conferences
-    to deliver information about the audio level of individual participants.  Such
+    to deliver information about the audio level of individual participants. Such
     audio level indicators are transported in the same RTP packets as the audio data
     they pertain to. [STANDARDS-TRACK]</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

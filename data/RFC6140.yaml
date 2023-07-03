@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6140
 title:
 - content: Registration for Multiple Phone Numbers in the Session Initiation Protocol
@@ -74,10 +74,10 @@ abstract:
 - content: "<p>This document defines a mechanism by which a Session Initiation Protocol
     (SIP) server acting as a traditional Private Branch Exchange (PBX) can register
     with a SIP Service Provider (SSP) to receive phone calls for SIP User Agents (UAs).
-    \ In order to function properly, this mechanism requires that each of the Addresses
-    of Record (AORs) registered in bulk map to a unique set of contacts.  This requirement
+    In order to function properly, this mechanism requires that each of the Addresses
+    of Record (AORs) registered in bulk map to a unique set of contacts. This requirement
     is satisfied by AORs representing phone numbers regardless of the domain, since
-    phone numbers are fully qualified and globally unique.  This document therefore
+    phone numbers are fully qualified and globally unique. This document therefore
     focuses on this use case. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -96,6 +96,10 @@ relation:
       content: RFC3680
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

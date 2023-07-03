@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6188
 title:
 - content: The Use of AES-192 and AES-256 in Secure RTP
@@ -66,16 +66,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes the use of the Advanced Encryption Standard (AES)
-    with 192- and 256-bit keys within the Secure RTP (SRTP) protocol.  It details
-    counter mode encryption for SRTP and Secure Realtime Transport Control Protocol
-    (SRTCP) and a new SRTP Key Derivation Function (KDF) for AES-192 and AES-256.
-    [STANDARDS-TRACK]</p>"
+    with 192- and 256-bit keys within the Secure RTP (SRTP) protocol. It details counter
+    mode encryption for SRTP and Secure Realtime Transport Control Protocol (SRTCP)
+    and a new SRTP Key Derivation Function (KDF) for AES-192 and AES-256. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

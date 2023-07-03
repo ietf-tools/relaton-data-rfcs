@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5461
 title:
 - content: TCP's Reaction to Soft Errors
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This document describes a non-standard, but widely implemented, modification
     to TCP's handling of ICMP soft error messages that rejects pending connection-requests
-    when those error messages are received.  This behavior reduces the likelihood
-    of long delays between connection-establishment attempts that may arise in a number
+    when those error messages are received. This behavior reduces the likelihood of
+    long delays between connection-establishment attempts that may arise in a number
     of scenarios, including one in which dual-stack nodes that have IPv6 enabled by
-    default are deployed in IPv4 or mixed IPv4 and IPv6 environments.  This memo provides
+    default are deployed in IPv4 or mixed IPv4 and IPv6 environments. This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

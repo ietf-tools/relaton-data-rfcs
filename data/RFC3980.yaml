@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3980
 title:
 - content: T11 Network Address Authority (NAA) Naming Format for iSCSI Node Names
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: <p>Internet Small Computer Systems Interface (iSCSI) is a SCSI transport
-    protocol that maps the SCSI family of protocols onto TCP/IP.  This document defines
+    protocol that maps the SCSI family of protocols onto TCP/IP. This document defines
     an additional iSCSI node name type format to enable use of the "Network Address
     Authority" (NAA) worldwide naming format defined by the InterNational Committee
     for Information Technology Standards (INCITS) T11 - Fibre Channel (FC) protocols
-    and used by Serial Attached SCSI (SAS).  This document updates RFC 3720. [STANDARDS-TRACK]</p>
+    and used by Serial Attached SCSI (SAS). This document updates RFC 3720. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -156,6 +156,10 @@ relation:
       content: RFC3720
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

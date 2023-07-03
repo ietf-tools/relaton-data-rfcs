@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2183
 title:
 - content: 'Communicating Presentation Information in Internet Messages: The Content-Disposition
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: <p>This memo provides a mechanism whereby messages conforming to the MIME
     specifications [RFC 2045, RFC 2046, RFC 2047, RFC 2048, RFC 2049] can convey presentational
-    information.  It specifies the "Content- Disposition" header field, which is optional
+    information. It specifies the "Content- Disposition" header field, which is optional
     and valid for any MIME entity ("message" or "body part"). [STANDARDS-TRACK]</p>
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

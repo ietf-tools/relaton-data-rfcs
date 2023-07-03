@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1079
 title:
 - content: Telnet terminal speed option
@@ -70,7 +70,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the Internet community.  Hosts on
+- content: "<p>This RFC specifies a standard for the Internet community. Hosts on
     the Internet that exchange terminal speed information within the Telnet protocol
     are expected to adopt and implement this standard.</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

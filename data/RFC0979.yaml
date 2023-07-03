@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC979
 title:
 - content: PSN End-to-End functional specification
@@ -73,7 +73,7 @@ abstract:
 - content: <p>This memo is an updated version of BBN Report 5775, "End-to-End Functional
     Specification and describes important changes to the functionality of the interface
     between a Host and the PSN, and should be carefully reviewed by anyone involved
-    in supporting a host on either the ARPANET or MILNET".  The new End-to-End protocol
+    in supporting a host on either the ARPANET or MILNET". The new End-to-End protocol
     (EE) is being developed in order to correct a number of deficiencies in the old
     EE, to improve its performance and overall throughput, and to better equip the
     Packet Switch Node (PSN, also known as the IMP) to support its current and anticipated
@@ -84,6 +84,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

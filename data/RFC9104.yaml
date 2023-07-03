@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9104
 title:
 - content: Distribution of Traffic Engineering Extended Administrative Groups Using
@@ -154,7 +154,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Administrative groups are link attributes used for traffic engineering.
-    \ This document defines an extension to the Border Gateway Protocol - Link State
+    This document defines an extension to the Border Gateway Protocol - Link State
     (BGP-LS) for advertisement of extended administrative groups (EAGs).</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

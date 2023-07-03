@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2707
 title:
 - content: Job Monitoring MIB - V1.0
@@ -156,13 +156,17 @@ abstract:
     monitoring the status and progress of print jobs (2) obtaining resource requirements
     before a job is processed, (3) monitoring resource consumption while a job is
     being processed and (4) collecting resource accounting data after the completion
-    of a job.  This memo provides information for the Internet community.</p>"
+    of a job. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

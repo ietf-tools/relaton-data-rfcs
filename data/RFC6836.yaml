@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6836
 title:
 - content: Locator/ID Separation Protocol Alternative Logical Topology (LISP+ALT)
@@ -155,11 +155,11 @@ abstract:
 - content: "<p>This document describes a simple distributed index system to be used
     by a Locator/ID Separation Protocol (LISP) Ingress Tunnel Router (ITR) or Map-Resolver
     (MR) to find the Egress Tunnel Router (ETR) that holds the mapping information
-    for a particular Endpoint Identifier (EID).  The MR can then query that ETR to
+    for a particular Endpoint Identifier (EID). The MR can then query that ETR to
     obtain the actual mapping information, which consists of a list of Routing Locators
-    (RLOCs) for the EID.  Termed the Alternative Logical Topology (ALT), the index
+    (RLOCs) for the EID. Termed the Alternative Logical Topology (ALT), the index
     is built as an overlay network on the public Internet using the Border Gateway
-    Protocol (BGP) and Generic Routing Encapsulation (GRE).  This document defines
+    Protocol (BGP) and Generic Routing Encapsulation (GRE). This document defines
     an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

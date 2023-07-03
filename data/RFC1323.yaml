@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1323
 title:
 - content: TCP Extensions for High Performance
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This memo presents a set of TCP extensions to improve performance over
     large bandwidth*delay product paths and to provide reliable operation over very
-    high-speed paths.  It defines new TCP options for scaled windows and timestamps,
+    high-speed paths. It defines new TCP options for scaled windows and timestamps,
     which are designed to provide compatible interworking with TCP's that do not implement
     the extensions. [STANDARDS-TRACK]</p>"
   language:
@@ -145,6 +145,10 @@ relation:
       content: RFC7323
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

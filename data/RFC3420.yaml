@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3420
 title:
 - content: Internet Media Type message/sipfrag
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document registers the message/sipfrag Multipurpose Internet Mail
-    Extensions (MIME) media type.  This type is similar to message/sip, but allows
+    Extensions (MIME) media type. This type is similar to message/sip, but allows
     certain subsets of well formed Session Initiation Protocol (SIP) messages to be
-    represented instead of requiring a complete SIP message.  In addition to end-to-end
+    represented instead of requiring a complete SIP message. In addition to end-to-end
     security uses, message/sipfrag is used with the REFER method to convey information
     about the status of a referenced request. [STANDARDS-TRACK]</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

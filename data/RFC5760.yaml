@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5760
 title:
 - content: RTP Control Protocol (RTCP) Extensions for Single-Source Multicast Sessions
@@ -125,10 +125,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies an extension to the Real-time Transport Control
-    Protocol (RTCP) to use unicast feedback to a multicast sender.  The proposed extension
+    Protocol (RTCP) to use unicast feedback to a multicast sender. The proposed extension
     is useful for single-source multicast sessions such as Source-Specific Multicast
     (SSM) communication where the traditional model of many-to-many group communication
-    is either not available or not desired.  In addition, it can be applied to any
+    is either not available or not desired. In addition, it can be applied to any
     group that might benefit from a sender-controlled summarized reporting mechanism.
     [STANDARDS-TRACK]</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

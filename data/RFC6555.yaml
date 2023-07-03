@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6555
 title:
 - content: 'Happy Eyeballs: Success with Dual-Stack Hosts'
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>When a server's IPv4 path and protocol are working, but the server's
     IPv6 path and protocol are not working, a dual-stack client application experiences
-    significant connection delay compared to an IPv4-only client.  This is undesirable
-    because it causes the dual- stack client to have a worse user experience.  This
+    significant connection delay compared to an IPv4-only client. This is undesirable
+    because it causes the dual- stack client to have a worse user experience. This
     document specifies requirements for algorithms that reduce this user-visible delay
     and provides an algorithm. [STANDARDS-TRACK]</p>"
   language:
@@ -117,6 +117,10 @@ relation:
       content: RFC8305
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

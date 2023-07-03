@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5244
 title:
 - content: Definition of Events for Channel-Oriented Telephony Signalling
@@ -96,13 +96,13 @@ script:
 abstract:
 - content: "<p>This memo updates RFC 4733 to add event codes for telephony signals
     used for channel-associated signalling when carried in the telephony event RTP
-    payload.  It supersedes and adds to the original assignment of event codes for
-    this purpose in Section 3.14 of RFC 2833.  As documented in Appendix A of RFC
-    4733, some of the RFC 2833 events have been deprecated because their specification
-    was ambiguous, erroneous, or redundant.  In fact, the degree of change from Section
+    payload. It supersedes and adds to the original assignment of event codes for
+    this purpose in Section 3.14 of RFC 2833. As documented in Appendix A of RFC 4733,
+    some of the RFC 2833 events have been deprecated because their specification was
+    ambiguous, erroneous, or redundant. In fact, the degree of change from Section
     3.14 of RFC 2833 is such that implementations of the present document will be
     fully backward compatible with RFC 2833 implementations only in the case of full
-    ABCD-bit signalling.  This document expands and improves the coverage of signalling
+    ABCD-bit signalling. This document expands and improves the coverage of signalling
     systems compared to RFC 2833. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -121,6 +121,10 @@ relation:
       content: RFC4733
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

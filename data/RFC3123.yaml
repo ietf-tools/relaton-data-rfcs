@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3123
 title:
 - content: A DNS RR Type for Lists of Address Prefixes (APL RR)
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: <p>The Domain Name System (DNS) is primarily used to translate domain names
-    into IPv4 addresses using A RRs (Resource Records).  Several approaches exist
-    to describe networks or address ranges.  This document specifies a new DNS RR
-    type "APL" for address prefix lists.  This memo defines an Experimental Protocol
-    for the Internet community.</p>
+    into IPv4 addresses using A RRs (Resource Records). Several approaches exist to
+    describe networks or address ranges. This document specifies a new DNS RR type
+    "APL" for address prefix lists. This memo defines an Experimental Protocol for
+    the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

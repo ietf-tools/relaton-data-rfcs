@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9000
 title:
 - content: 'QUIC: A UDP-Based Multiplexed and Secure Transport'
@@ -94,11 +94,11 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document defines the core of the QUIC transport protocol.  QUIC
+- content: "<p>This document defines the core of the QUIC transport protocol. QUIC
     provides applications with flow-controlled streams for structured communication,
-    low-latency connection establishment, and network path migration.  QUIC includes
+    low-latency connection establishment, and network path migration. QUIC includes
     security measures that ensure confidentiality, integrity, and availability in
-    a range of deployment circumstances.  Accompanying documents describe the integration
+    a range of deployment circumstances. Accompanying documents describe the integration
     of TLS for key negotiation, loss detection, and an exemplary congestion control
     algorithm.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4173
 title:
 - content: Bootstrapping Clients using the Internet Small Computer System Interface
@@ -126,8 +126,8 @@ script:
 abstract:
 - content: "<p>Internet Small Computer System Interface (iSCSI) is a proposed transport
     protocol for Small Computer Systems Interface (SCSI) that operates on top of TCP.
-    \ This memo describes a standard mechanism for enabling clients to bootstrap themselves
-    using the iSCSI protocol.  The goal of this standard is to enable iSCSI boot clients
+    This memo describes a standard mechanism for enabling clients to bootstrap themselves
+    using the iSCSI protocol. The goal of this standard is to enable iSCSI boot clients
     to obtain the information to open an iSCSI session with the iSCSI boot server.
     [STANDARDS-TRACK]</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

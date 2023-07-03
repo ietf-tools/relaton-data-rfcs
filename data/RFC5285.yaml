@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5285
 title:
 - content: A General Mechanism for RTP Header Extensions
@@ -95,11 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides a general mechanism to use the header extension
-    feature of RTP (the Real-Time Transport Protocol).  It provides the option to
-    use a small number of small extensions in each RTP packet, where the universe
-    of possible extensions is large and registration is de-centralized.  The actual
-    extensions in use in a session are signaled in the setup information for that
-    session. [STANDARDS-TRACK]</p>"
+    feature of RTP (the Real-Time Transport Protocol). It provides the option to use
+    a small number of small extensions in each RTP packet, where the universe of possible
+    extensions is large and registration is de-centralized. The actual extensions
+    in use in a session are signaled in the setup information for that session. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -117,6 +116,10 @@ relation:
       content: RFC8285
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

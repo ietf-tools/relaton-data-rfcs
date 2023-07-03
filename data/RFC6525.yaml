@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6525
 title:
 - content: Stream Control Transmission Protocol (SCTP) Stream Reconfiguration
@@ -124,22 +124,26 @@ script:
 - Latn
 abstract:
 - content: <p>Many applications that use the Stream Control Transmission Protocol
-    (SCTP) want the ability to "reset" a stream.  The intention of resetting a stream
+    (SCTP) want the ability to "reset" a stream. The intention of resetting a stream
     is to set the numbering sequence of the stream back to 'zero' with a corresponding
-    notification to the application layer that the reset has been performed.  Applications
+    notification to the application layer that the reset has been performed. Applications
     requiring this feature want it so that they can "reuse" streams for different
     purposes but still utilize the stream sequence number so that the application
-    can track the message flows.  Thus, without this feature, a new use of an old
-    stream would result in message numbers greater than expected, unless there is
-    a protocol mechanism to "reset the streams back to zero".  This document also
-    includes methods for resetting the transmission sequence numbers, adding additional
-    streams, and resetting all stream sequence numbers. [STANDARDS-TRACK]</p>
+    can track the message flows. Thus, without this feature, a new use of an old stream
+    would result in message numbers greater than expected, unless there is a protocol
+    mechanism to "reset the streams back to zero". This document also includes methods
+    for resetting the transmission sequence numbers, adding additional streams, and
+    resetting all stream sequence numbers. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

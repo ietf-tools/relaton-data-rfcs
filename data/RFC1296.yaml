@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1296
 title:
 - content: Internet Growth (1981-1991)
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document illustrates the growth of the Internet by examination
-    of entries in the Domain Name System (DNS) and pre-DNS host tables.  This memo
-    provides information for the Internet community.  It does not specify an Internet
-    standard.  This memo defines an extension to the Management Information Base (MIB)
-    for use with network management protocols in TCP/IP-based internets.  In particular,
+    of entries in the Domain Name System (DNS) and pre-DNS host tables. This memo
+    provides information for the Internet community. It does not specify an Internet
+    standard. This memo defines an extension to the Management Information Base (MIB)
+    for use with network management protocols in TCP/IP-based internets. In particular,
     it defines objects for managing the Frame Relay Service. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

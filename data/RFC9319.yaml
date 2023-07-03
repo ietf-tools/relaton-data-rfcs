@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9319
 title:
 - content: The Use of maxLength in the Resource Public Key Infrastructure (RPKI)
@@ -183,13 +183,13 @@ script:
 abstract:
 - content: <p>This document recommends ways to reduce the forged-origin hijack attack
     surface by prudently limiting the set of IP prefixes that are included in a Route
-    Origin Authorization (ROA).  One recommendation is to avoid using the maxLength
-    attribute in ROAs except in some specific cases.  The recommendations complement
-    and extend those in RFC 7115.  This document also discusses the creation of ROAs
-    for facilitating the use of Distributed Denial of Service (DDoS) mitigation services.  Considerations
-    related to ROAs and RPKI-based Route Origin Validation (RPKI-ROV) in the context
-    of destination-based Remotely Triggered Discard Route (RTDR) (elsewhere referred
-    to as "Remotely Triggered Black Hole") filtering are also highlighted.</p>
+    Origin Authorization (ROA). One recommendation is to avoid using the maxLength
+    attribute in ROAs except in some specific cases. The recommendations complement
+    and extend those in RFC 7115. This document also discusses the creation of ROAs
+    for facilitating the use of Distributed Denial of Service (DDoS) mitigation services.
+    Considerations related to ROAs and RPKI-based Route Origin Validation (RPKI-ROV)
+    in the context of destination-based Remotely Triggered Discard Route (RTDR) (elsewhere
+    referred to as "Remotely Triggered Black Hole") filtering are also highlighted.</p>
   language:
   - en
   script:
@@ -200,6 +200,10 @@ series:
     content: BCP
     format: text/plain
   number: '185'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

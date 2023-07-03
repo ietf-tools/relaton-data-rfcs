@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5593
 title:
 - content: Internet Message Access Protocol (IMAP) - URL Access Identifier Extension
@@ -65,12 +65,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>The existing IMAP URL specification (RFC 5092) lists several   identifiers
-    and   identifier prefixes that can be used to restrict access to URLAUTH-generated
+- content: "<p>The existing IMAP URL specification (RFC 5092) lists several identifiers
+    and identifier prefixes that can be used to restrict access to URLAUTH-generated
     URLs. However, these identifiers do not provide facilities for new services such
-    as streaming. This document proposes a set of new   identifiers as well as an
-    IANA mechanism to register new   identifiers for future applications.</p><p>This
-    document updates RFC 5092. [STANDARDS-TRACK]</p>"
+    as streaming. This document proposes a set of new identifiers as well as an IANA
+    mechanism to register new identifiers for future applications.</p><p>This document
+    updates RFC 5092. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC5092
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

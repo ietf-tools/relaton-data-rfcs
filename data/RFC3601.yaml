@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3601
 title:
 - content: Text String Notation for Dial Sequences and Global Switched Telephone Network
@@ -67,17 +67,21 @@ script:
 - Latn
 abstract:
 - content: '<p>This memo describes the full set of notations needed to represent a
-    text string in a Dial Sequence.  A Dial Sequence is normally composed of Dual
-    Tone Multi Frequency (DTMF) elements, plus separators and additional "actions"
-    (such as "wait for dialtone", "pause for N secs", etc.) which could be needed
-    to successfully establish the connection with the target service: this includes
-    the cases where subaddresses or DTMF menu navigation apply.</p>'
+    text string in a Dial Sequence. A Dial Sequence is normally composed of Dual Tone
+    Multi Frequency (DTMF) elements, plus separators and additional "actions" (such
+    as "wait for dialtone", "pause for N secs", etc.) which could be needed to successfully
+    establish the connection with the target service: this includes the cases where
+    subaddresses or DTMF menu navigation apply.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

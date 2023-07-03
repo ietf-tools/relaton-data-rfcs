@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8538
 title:
 - content: Notification Message Support for BGP Graceful Restart
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>The BGP Graceful Restart mechanism defined in RFC 4724 limits the usage
     of BGP Graceful Restart to BGP messages other than BGP NOTIFICATION messages.
-    \ This document updates RFC 4724 by defining an extension that permits the Graceful
+    This document updates RFC 4724 by defining an extension that permits the Graceful
     Restart procedures to be performed when the BGP speaker receives a BGP NOTIFICATION
-    message or the Hold Time expires.  This document also defines a new subcode for
+    message or the Hold Time expires. This document also defines a new subcode for
     BGP Cease NOTIFICATION messages; this new subcode requests a full session restart
     instead of a Graceful Restart.</p>"
   language:
@@ -176,6 +176,10 @@ relation:
       content: RFC4724
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

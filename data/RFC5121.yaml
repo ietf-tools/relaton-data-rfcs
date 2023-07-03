@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5121
 title:
 - content: Transmission of IPv6 via the IPv6 Convergence Sublayer over IEEE 802.16
@@ -183,14 +183,14 @@ script:
 - Latn
 abstract:
 - content: "<p>IEEE Std 802.16 is an air interface specification for fixed and mobile
-    Broadband Wireless Access Systems.  Service-specific convergence sublayers to
-    which upper-layer protocols interface are a part of the IEEE 802.16 MAC (Medium
-    Access Control).  The Packet convergence sublayer (CS) is used for the transport
-    of all packet- based protocols such as Internet Protocol (IP) and IEEE 802.3 LAN/MAN
-    CSMA/CD Access Method (Ethernet).  IPv6 packets can be sent and received via the
-    IP-specific part of the Packet CS.  This document specifies the addressing and
+    Broadband Wireless Access Systems. Service-specific convergence sublayers to which
+    upper-layer protocols interface are a part of the IEEE 802.16 MAC (Medium Access
+    Control). The Packet convergence sublayer (CS) is used for the transport of all
+    packet- based protocols such as Internet Protocol (IP) and IEEE 802.3 LAN/MAN
+    CSMA/CD Access Method (Ethernet). IPv6 packets can be sent and received via the
+    IP-specific part of the Packet CS. This document specifies the addressing and
     operation of IPv6 over the IP-specific part of the Packet CS for hosts served
-    by a network that utilizes the IEEE Std 802.16 air interface.  It recommends the
+    by a network that utilizes the IEEE Std 802.16 air interface. It recommends the
     assignment of a unique prefix (or prefixes) to each host and allows the host to
     use multiple identifiers within that prefix, including support for randomly generated
     interface identifiers. [STANDARDS-TRACK]</p>"
@@ -200,6 +200,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

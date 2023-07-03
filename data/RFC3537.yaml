@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3537
 title:
 - content: Wrapping a Hashed Message Authentication Code (HMAC) key with a Triple-Data
@@ -96,17 +96,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines two methods for wrapping an HMAC (Hashed Message
-    Authentication Code) key.  The first method defined uses a Triple DES (Data Encryption
-    Standard) key to encrypt the HMAC key.  The second method defined uses an AES
-    (Advanced Encryption Standard) key to encrypt the HMAC key.  One place that such
-    an algorithm is used is for the Authenticated Data type in CMS (Cryptographic
-    Message Syntax). [PROPOSED STANDARD]</p>"
+    Authentication Code) key. The first method defined uses a Triple DES (Data Encryption
+    Standard) key to encrypt the HMAC key. The second method defined uses an AES (Advanced
+    Encryption Standard) key to encrypt the HMAC key. One place that such an algorithm
+    is used is for the Authenticated Data type in CMS (Cryptographic Message Syntax).
+    [PROPOSED STANDARD]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

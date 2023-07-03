@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8315
 title:
 - content: Cancel-Locks in Netnews Articles
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines an extension to the Netnews Article Format that
-    may be used to authenticate the withdrawal of existing articles.  This document
+    may be used to authenticate the withdrawal of existing articles. This document
     updates RFC 5537.</p>"
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC5537
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

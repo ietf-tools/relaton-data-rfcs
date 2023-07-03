@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6716
 title:
 - content: Definition of the Opus Audio Codec
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the Opus interactive speech and audio codec.
-    \ Opus is designed to handle a wide range of interactive audio applications, including
+    Opus is designed to handle a wide range of interactive audio applications, including
     Voice over IP, videoconferencing, in-game chat, and even live, distributed music
-    performances.  It scales from low bitrate narrowband speech at 6 kbit/s to very
-    high quality stereo music at 510 kbit/s.  Opus uses both Linear Prediction (LP)
+    performances. It scales from low bitrate narrowband speech at 6 kbit/s to very
+    high quality stereo music at 510 kbit/s. Opus uses both Linear Prediction (LP)
     and the Modified Discrete Cosine Transform (MDCT) to achieve good compression
     of both speech and music. [STANDARDS-TRACK]</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

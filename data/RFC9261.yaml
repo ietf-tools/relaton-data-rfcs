@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9261
 title:
 - content: Exported Authenticators in TLS
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document describes a mechanism that builds on Transport Layer
     Security (TLS) or Datagram Transport Layer Security (DTLS) and enables peers to
-    provide proof of ownership of an identity, such as an X.509 certificate.  This
+    provide proof of ownership of an identity, such as an X.509 certificate. This
     proof can be exported by one peer, transmitted out of band to the other peer,
     and verified by the receiving peer.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

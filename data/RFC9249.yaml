@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9249
 title:
 - content: A YANG Data Model for NTP
@@ -182,14 +182,18 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a YANG data model that can be used to configure
-    and manage Network Time Protocol (NTP) version 4.  It can also be used to configure
-    and manage version 3.  The data model includes configuration data and state data.</p>"
+    and manage Network Time Protocol (NTP) version 4. It can also be used to configure
+    and manage version 3. The data model includes configuration data and state data.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4003
 title:
 - content: GMPLS Signaling Procedure for Egress Control
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: <p>This document clarifies the procedures for the control of the label
     used on an output/downstream interface of the egress node of a Label Switched
-    Path (LSP).  This control is also known as "Egress Control".  Support for Egress
-    Control is implicit in Generalized Multi-Protocol Label Switching (GMPLS) Signaling.  This
-    document clarifies the specification of GMPLS Signaling and does not modify GMPLS
-    signaling mechanisms and procedures. [STANDARDS-TRACK]</p>
+    Path (LSP). This control is also known as "Egress Control". Support for Egress
+    Control is implicit in Generalized Multi-Protocol Label Switching (GMPLS) Signaling.
+    This document clarifies the specification of GMPLS Signaling and does not modify
+    GMPLS signaling mechanisms and procedures. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC3473
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

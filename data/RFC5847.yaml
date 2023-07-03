@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5847
 title:
 - content: Heartbeat Mechanism for Proxy Mobile IPv6
@@ -211,9 +211,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Proxy Mobile IPv6 (PMIPv6) is a network-based mobility management protocol.
-    \ The mobility entities involved in the Proxy Mobile IPv6 protocol, the mobile
-    access gateway (MAG) and the local mobility anchor (LMA), set up tunnels dynamically
-    to manage mobility for a mobile node within the Proxy Mobile IPv6 domain.  This
+    The mobility entities involved in the Proxy Mobile IPv6 protocol, the mobile access
+    gateway (MAG) and the local mobility anchor (LMA), set up tunnels dynamically
+    to manage mobility for a mobile node within the Proxy Mobile IPv6 domain. This
     document describes a heartbeat mechanism between the MAG and the LMA to detect
     failures, quickly inform peers in the event of a recovery from node failures,
     and allow a peer to take appropriate action. [STANDARDS TRACK]</p>"
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

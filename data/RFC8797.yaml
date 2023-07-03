@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8797
 title:
 - content: Remote Direct Memory Access - Connection Manager (RDMA-CM) Private Data
@@ -68,9 +68,9 @@ script:
 abstract:
 - content: "<p>This document specifies the format of Remote Direct Memory Access -
     Connection Manager (RDMA-CM) Private Data exchanged between RPC-over-RDMA version
-    1 peers as part of establishing a connection.  The addition of the Private Data
+    1 peers as part of establishing a connection. The addition of the Private Data
     payload specified in this document is an optional extension that does not alter
-    the RPC-over-RDMA version 1 protocol.  This document updates RFC 8166.</p>"
+    the RPC-over-RDMA version 1 protocol. This document updates RFC 8166.</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC8166
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

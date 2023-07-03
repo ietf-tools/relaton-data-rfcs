@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8165
 title:
 - content: Design Considerations for Metadata Insertion
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>The IAB published RFC 7624 in response to several revelations of pervasive
-    attacks on Internet communications.  This document considers the implications
-    of protocol designs that associate metadata with encrypted flows.  In particular,
+    attacks on Internet communications. This document considers the implications of
+    protocol designs that associate metadata with encrypted flows. In particular,
     it asserts that designs that share metadata only by explicit actions at the host
     are preferable to designs in which middleboxes insert metadata.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

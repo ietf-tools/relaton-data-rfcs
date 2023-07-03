@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7202
 title:
 - content: 'Securing the RTP Framework: Why RTP Does Not Mandate a Single Media Security
@@ -96,9 +96,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo discusses the problem of securing real-time multimedia sessions.
-    \ It also explains why the Real-time Transport Protocol (RTP) and the associated
+    It also explains why the Real-time Transport Protocol (RTP) and the associated
     RTP Control Protocol (RTCP) do not mandate a single media security mechanism.
-    \ This is relevant for designers and reviewers of future RTP extensions to ensure
+    This is relevant for designers and reviewers of future RTP extensions to ensure
     that appropriate security mechanisms are mandated and that any such mechanisms
     are specified in a manner that conforms with the RTP architecture.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

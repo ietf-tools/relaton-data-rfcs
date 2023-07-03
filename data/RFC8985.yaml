@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8985
 title:
 - content: The RACK-TLP Loss Detection Algorithm for TCP
@@ -153,21 +153,25 @@ script:
 - Latn
 abstract:
 - content: "<p>This document presents the RACK-TLP loss detection algorithm for TCP.
-    \ RACK-TLP uses per-segment transmit timestamps and selective acknowledgments
-    (SACKs) and has two parts.  Recent Acknowledgment (RACK) starts fast recovery
-    quickly using time-based inferences derived from acknowledgment (ACK) feedback,
-    and Tail Loss Probe (TLP) leverages RACK and sends a probe packet to trigger ACK
-    feedback to avoid retransmission timeout (RTO) events.  Compared to the widely
-    used duplicate acknowledgment (DupAck) threshold approach, RACK-TLP detects losses
-    more efficiently when there are application-limited flights of data, lost retransmissions,
-    or data packet reordering events.  It is intended to be an alternative to the
-    DupAck threshold approach.</p>"
+    RACK-TLP uses per-segment transmit timestamps and selective acknowledgments (SACKs)
+    and has two parts. Recent Acknowledgment (RACK) starts fast recovery quickly using
+    time-based inferences derived from acknowledgment (ACK) feedback, and Tail Loss
+    Probe (TLP) leverages RACK and sends a probe packet to trigger ACK feedback to
+    avoid retransmission timeout (RTO) events. Compared to the widely used duplicate
+    acknowledgment (DupAck) threshold approach, RACK-TLP detects losses more efficiently
+    when there are application-limited flights of data, lost retransmissions, or data
+    packet reordering events. It is intended to be an alternative to the DupAck threshold
+    approach.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

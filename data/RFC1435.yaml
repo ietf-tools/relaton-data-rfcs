@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1435
 title:
 - content: IESG Advice from Experience with Path MTU Discovery
@@ -66,17 +66,21 @@ script:
 - Latn
 abstract:
 - content: "<p>In the course of reviewing the MTU Discovery protocol for possible
-    elevation to Draft Standard, a specific operational problem was uncovered.  The
+    elevation to Draft Standard, a specific operational problem was uncovered. The
     problem results from the optional suppression of ICMP messages implemented in
-    some routers.  This memo outlines a modification to this practice to allow the
-    correct functioning of MTU Discovery.  This memo provides information for the
-    Internet community.  It does not specify an Internet standard.</p>"
+    some routers. This memo outlines a modification to this practice to allow the
+    correct functioning of MTU Discovery. This memo provides information for the Internet
+    community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8387
 title:
 - content: Practical Considerations and Implementation Experiences in Securing Smart
@@ -154,10 +154,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes challenges associated with securing resource- constrained
-    smart object devices.  The memo describes a possible deployment model where resource-constrained
+    smart object devices. The memo describes a possible deployment model where resource-constrained
     devices sign message objects, discusses the availability of cryptographic libraries
     for resource-constrained devices, and presents some preliminary experiences with
-    those libraries for message signing on resource- constrained devices.  Lastly,
+    those libraries for message signing on resource- constrained devices. Lastly,
     the memo discusses trade-offs involving different types of security approaches.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

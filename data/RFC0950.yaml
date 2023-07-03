@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC950
 title:
 - content: Internet Standard Subnetting Procedure
@@ -100,15 +100,15 @@ script:
 - Latn
 abstract:
 - content: <p>This memo discusses the utility of "subnets" of Internet networks, which
-    are logically visible sub-sections of a single Internet network.  For administrative
+    are logically visible sub-sections of a single Internet network. For administrative
     or technical reasons, many organizations have chosen to divide one Internet network
-    into several subnets, instead of acquiring a set of Internet network numbers.  This
-    memo specifies procedures for the use of subnets.  These procedures are for hosts
-    (e.g., workstations).  The procedures used in and between subnet gateways are
-    not fully described.  Important motivation and background information for a subnetting
-    standard is provided in RFC-940.  This RFC specifies a protocol for the ARPA-Internet
-    community.  If subnetting is implemented it is strongly recommended that these
-    procedures be followed.</p>
+    into several subnets, instead of acquiring a set of Internet network numbers.
+    This memo specifies procedures for the use of subnets. These procedures are for
+    hosts (e.g., workstations). The procedures used in and between subnet gateways
+    are not fully described. Important motivation and background information for a
+    subnetting standard is provided in RFC-940. This RFC specifies a protocol for
+    the ARPA-Internet community. If subnetting is implemented it is strongly recommended
+    that these procedures be followed.</p>
   language:
   - en
   script:
@@ -130,6 +130,10 @@ series:
     content: STD
     format: text/plain
   number: '5'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

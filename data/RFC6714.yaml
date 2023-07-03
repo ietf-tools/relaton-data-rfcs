@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6714
 title:
 - content: Connection Establishment for Media Anchoring (CEMA) for the Message Session
@@ -125,11 +125,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Message Session Relay Protocol (MSRP) extension,
-    Connection Establishment for Media Anchoring (CEMA).  Support of this extension
-    is OPTIONAL.  The extension allows middleboxes to anchor the MSRP connection,
-    without the need for middleboxes to modify the MSRP messages; thus, it also enables
-    secure end-to-end MSRP communication in networks where such middleboxes are deployed.
-    \ This document also defines a Session Description Protocol (SDP) attribute, 'msrp-cema',
+    Connection Establishment for Media Anchoring (CEMA). Support of this extension
+    is OPTIONAL. The extension allows middleboxes to anchor the MSRP connection, without
+    the need for middleboxes to modify the MSRP messages; thus, it also enables secure
+    end-to-end MSRP communication in networks where such middleboxes are deployed.
+    This document also defines a Session Description Protocol (SDP) attribute, 'msrp-cema',
     that MSRP endpoints use to indicate support of the CEMA extension. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

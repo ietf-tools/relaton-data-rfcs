@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6472
 title:
 - content: Recommendation for Not Using AS_SET and AS_CONFED_SET in BGP
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document recommends against the use of the AS_SET and AS_CONFED_SET
-    types of the AS_PATH in BGPv4.  This is done to simplify the design and implementation
-    of BGP and to make the semantics of the originator of a route more clear.  This
+    types of the AS_PATH in BGPv4. This is done to simplify the design and implementation
+    of BGP and to make the semantics of the originator of a route more clear. This
     will also simplify the design, implementation, and deployment of ongoing work
-    in the Secure Inter-Domain Routing Working Group.  This memo documents an Internet
+    in the Secure Inter-Domain Routing Working Group. This memo documents an Internet
     Best Current Practice.</p>"
   language:
   - en
@@ -110,6 +110,10 @@ series:
     content: BCP
     format: text/plain
   number: '172'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

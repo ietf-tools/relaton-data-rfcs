@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6408
 title:
 - content: Diameter Straightforward-Naming Authority Pointer (S-NAPTR) Usage
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: <p>The Diameter base protocol specifies mechanisms whereby a given realm
-    may advertise Diameter nodes and the supported transport protocol.  However, these
-    mechanisms do not reveal the Diameter applications that each node supports.  A
+    may advertise Diameter nodes and the supported transport protocol. However, these
+    mechanisms do not reveal the Diameter applications that each node supports. A
     peer outside the realm would have to perform a Diameter capability exchange with
-    every node until it discovers one that supports the required application.  This
+    every node until it discovers one that supports the required application. This
     document updates RFC 3588, "Diameter Base Protocol", and describes an improvement
     using an extended format for the Straightforward-Naming Authority Pointer (S-NAPTR)
     application service tag that allows for discovery of the supported applications
@@ -149,6 +149,10 @@ relation:
       content: RFC3588
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

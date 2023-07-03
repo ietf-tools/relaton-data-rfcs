@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5971
 title:
 - content: 'GIST: General Internet Signalling Transport'
@@ -96,14 +96,14 @@ script:
 abstract:
 - content: <p>This document specifies protocol stacks for the routing and transport
     of per-flow signalling messages along the path taken by that flow through the
-    network.  The design uses existing transport and security protocols under a common
+    network. The design uses existing transport and security protocols under a common
     messaging layer, the General Internet Signalling Transport (GIST), which provides
-    a common service for diverse signalling applications.  GIST does not handle signalling
+    a common service for diverse signalling applications. GIST does not handle signalling
     application state itself, but manages its own internal state and the configuration
     of the underlying transport and security protocols to enable the transfer of messages
-    in both directions along the flow path.  The combination of GIST and the lower
+    in both directions along the flow path. The combination of GIST and the lower
     layer transport and security protocols provides a solution for the base protocol
-    component of the "Next Steps in Signalling" (NSIS) framework.  This document defines
+    component of the "Next Steps in Signalling" (NSIS) framework. This document defines
     an Experimental Protocol for the Internet community.</p>
   language:
   - en
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

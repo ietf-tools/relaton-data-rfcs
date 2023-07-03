@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5405
 title:
 - content: Unicast UDP Usage Guidelines for Application Designers
@@ -95,16 +95,16 @@ script:
 - Latn
 abstract:
 - content: "<p>The User Datagram Protocol (UDP) provides a minimal message-passing
-    transport that has no inherent congestion control mechanisms.  Because congestion
+    transport that has no inherent congestion control mechanisms. Because congestion
     control is critical to the stable operation of the Internet, applications and
     upper-layer protocols that choose to use UDP as an Internet transport must employ
     mechanisms to prevent congestion collapse and to establish some degree of fairness
-    with concurrent traffic.  This document provides guidelines on the use of UDP
-    for the designers of unicast applications and upper-layer protocols.  Congestion
-    control guidelines are a primary focus, but the document also provides guidance
-    on other topics, including message sizes, reliability, checksums, and middlebox
-    traversal.  This document specifies an Internet Best Current Practices for the
-    Internet Community, and requests discussion and suggestions for improvements.</p>"
+    with concurrent traffic. This document provides guidelines on the use of UDP for
+    the designers of unicast applications and upper-layer protocols. Congestion control
+    guidelines are a primary focus, but the document also provides guidance on other
+    topics, including message sizes, reliability, checksums, and middlebox traversal.
+    This document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -122,6 +122,10 @@ relation:
       content: RFC8085
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

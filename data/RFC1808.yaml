@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1808
 title:
 - content: Relative Uniform Resource Locators
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>In situations where the base URL is well-defined and known to the parser
     (human or machine), it is useful to be able to embed URL references which inherit
-    that context rather than re-specifying it in every instance.  This document defines
+    that context rather than re-specifying it in every instance. This document defines
     the syntax and semantics for such Relative Uniform Resource Locators. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -96,6 +96,10 @@ relation:
       content: RFC1738
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6220
 title:
 - content: Defining the Role and Function of IETF Protocol Parameter Registry Operators
@@ -160,14 +160,14 @@ script:
 - Latn
 abstract:
 - content: "<p>Many Internet Engineering Task Force (IETF) protocols make use of commonly
-    defined values that are passed in messages or packets.  To ensure consistent interpretation
+    defined values that are passed in messages or packets. To ensure consistent interpretation
     of these values between independent implementations, there is a need to ensure
-    that the values and associated semantic intent are uniquely defined.  The IETF
+    that the values and associated semantic intent are uniquely defined. The IETF
     uses registry functions to record assigned protocol parameter values and their
-    associated semantic intentions.  For each IETF protocol parameter, it is current
+    associated semantic intentions. For each IETF protocol parameter, it is current
     practice for the IETF to delegate the role of Protocol Parameter Registry Operator
-    to a nominated entity.  This document provides a description of, and the requirements
-    for, these delegated functions.  This document is not an Internet Standards Track
+    to a nominated entity. This document provides a description of, and the requirements
+    for, these delegated functions. This document is not an Internet Standards Track
     specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -186,6 +186,10 @@ relation:
       content: RFC8722
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

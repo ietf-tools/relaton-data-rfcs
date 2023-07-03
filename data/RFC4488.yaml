@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4488
 title:
 - content: Suppression of Session Initiation Protocol (SIP) REFER Method Implicit
@@ -69,8 +69,8 @@ abstract:
 - content: "<p>The Session Initiation Protocol (SIP) REFER extension as defined in
     RFC 3515 automatically establishes a typically short-lived event subscription
     used to notify the party sending a REFER request about the receiver's status in
-    executing the transaction requested by the REFER.  These notifications are not
-    needed in all cases.  This specification provides a way to prevent the automatic
+    executing the transaction requested by the REFER. These notifications are not
+    needed in all cases. This specification provides a way to prevent the automatic
     establishment of an event subscription and subsequent notifications using a new
     SIP extension header field that may be included in a REFER request. [STANDARDS-TRACK]</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

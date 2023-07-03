@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1025
 title:
 - content: TCP and IP bake off
@@ -67,14 +67,18 @@ script:
 abstract:
 - content: "<p>This memo describes some of the procedures, scoring and tests used
     in the TCP and IP bake offs held in the early development of these protocols.
-    \ These procedures and tests may still be of use in testing newly implemented
-    TCP and IP modules.</p>"
+    These procedures and tests may still be of use in testing newly implemented TCP
+    and IP modules.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

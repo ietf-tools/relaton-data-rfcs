@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4975
 title:
 - content: The Message Session Relay Protocol (MSRP)
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document describes the Message Session Relay Protocol, a protocol
     for transmitting a series of related instant messages in the context of a session.
-    \ Message sessions are treated like any other media stream when set up via a rendezvous
+    Message sessions are treated like any other media stream when set up via a rendezvous
     or session creation protocol such as the Session Initiation Protocol. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

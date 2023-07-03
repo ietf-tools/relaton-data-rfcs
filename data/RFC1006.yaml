@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1006
 title:
 - content: 'ISO Transport Service on top of the TCP Version: 3'
@@ -104,12 +104,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo specifies a standard for the Internet community.  Hosts on
+- content: "<p>This memo specifies a standard for the Internet community. Hosts on
     the Internet that choose to implement ISO transport services on top of the TCP
-    are expected to adopt and implement this standard.  TCP port 102 is reserved for
-    hosts which implement this standard.  This memo specifies version 3 of the protocol
-    and supersedes RFC-983.  Changes between the protocol is described in RFC-983
-    and this memo are minor, but unfortunately incompatible.</p>"
+    are expected to adopt and implement this standard. TCP port 102 is reserved for
+    hosts which implement this standard. This memo specifies version 3 of the protocol
+    and supersedes RFC-983. Changes between the protocol is described in RFC-983 and
+    this memo are minor, but unfortunately incompatible.</p>"
   language:
   - en
   script:
@@ -120,6 +120,10 @@ series:
     content: STD
     format: text/plain
   number: '35'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

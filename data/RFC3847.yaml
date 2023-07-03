@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3847
 title:
 - content: Restart Signaling for Intermediate System to Intermediate System (IS-IS)
@@ -97,10 +97,10 @@ abstract:
 - content: "<p>This document describes a mechanism for a restarting router to signal
     to its neighbors that it is restarting, allowing them to reestablish their adjacencies
     without cycling through the down state, while still correctly initiating database
-    synchronization.  This document additionally describes a mechanism for a restarting
+    synchronization. This document additionally describes a mechanism for a restarting
     router to determine when it has achieved LSP database synchronization with its
     neighbors and a mechanism to optimize LSP database synchronization, while minimizing
-    transient routing disruption when a router starts.  This memo provides information
+    transient routing disruption when a router starts. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -119,6 +119,10 @@ relation:
       content: RFC5306
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

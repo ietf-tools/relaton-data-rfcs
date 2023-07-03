@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3524
 title:
 - content: Mapping of Media Streams to Resource Reservation Flows
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines an extension to the Session Description Protocol
-    (SDP) grouping framework.  It allows requesting a group of media streams to be
-    mapped into a single resource reservation flow.  The SDP syntax needed is defined,
+    (SDP) grouping framework. It allows requesting a group of media streams to be
+    mapped into a single resource reservation flow. The SDP syntax needed is defined,
     as well as a new "semantics" attribute called Single Reservation Flow (SRF). [STANDARDS-TRACK]</p>
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

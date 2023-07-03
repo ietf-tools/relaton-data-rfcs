@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8254
 title:
 - content: Uniform Resource Name (URN) Namespace Registration Transition
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>The original registration procedure for formal Uniform Resource Name
-    (URN) namespaces required IETF Consensus.  That requirement discouraged some registrations
-    and increased the risk for problems that could occur as a result.  The requirements
+    (URN) namespaces required IETF Consensus. That requirement discouraged some registrations
+    and increased the risk for problems that could occur as a result. The requirements
     have now been changed by RFC 8141, which adopts a different model, focusing on
     encouraging registration and publication of information for all appropriate namespaces.
-    \ This document clarifies the status of relevant older RFCs and confirms and documents
-    advice to IANA about selected existing registrations.  This document also obsoletes
-    RFCs 3044 and 3187 and moves them to Historic status.  These RFCs describe the
+    This document clarifies the status of relevant older RFCs and confirms and documents
+    advice to IANA about selected existing registrations. This document also obsoletes
+    RFCs 3044 and 3187 and moves them to Historic status. These RFCs describe the
     ISSN and ISBN namespaces, which are now outdated because the descriptions reside
     in registration templates.</p>"
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

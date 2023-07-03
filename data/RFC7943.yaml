@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7943
 title:
 - content: A Method for Generating Semantically Opaque Interface Identifiers (IIDs)
@@ -97,18 +97,22 @@ script:
 abstract:
 - content: "<p>This document describes a method for selecting IPv6 Interface Identifiers
     that can be employed by Dynamic Host Configuration Protocol for IPv6 (DHCPv6)
-    servers when leasing non-temporary IPv6 addresses to DHCPv6 clients.  This method
+    servers when leasing non-temporary IPv6 addresses to DHCPv6 clients. This method
     is a DHCPv6 server-side algorithm that does not require any updates to the existing
-    DHCPv6 specifications.  The aforementioned method results in stable addresses
-    within each subnet, even in the presence of multiple DHCPv6 servers or DHCPv6
-    server reinstallments.  It is a DHCPv6 variant of the method specified in RFC
-    7217 for IPv6 Stateless Address Autoconfiguration.</p>"
+    DHCPv6 specifications. The aforementioned method results in stable addresses within
+    each subnet, even in the presence of multiple DHCPv6 servers or DHCPv6 server
+    reinstallments. It is a DHCPv6 variant of the method specified in RFC 7217 for
+    IPv6 Stateless Address Autoconfiguration.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

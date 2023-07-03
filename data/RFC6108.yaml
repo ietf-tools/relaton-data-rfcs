@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6108
 title:
 - content: Comcast's Web Notification System Design
@@ -183,20 +183,24 @@ script:
 abstract:
 - content: "<p>The objective of this document is to describe a method of providing
     critical end-user notifications to web browsers, which has been deployed by Comcast,
-    an Internet Service Provider (ISP).  Such a notification system is being used
-    to provide near-immediate notifications to customers, such as to warn them that
-    their traffic exhibits patterns that are indicative of malware or virus infection.
-    \ There are other proprietary systems that can perform such notifications, but
-    those systems utilize Deep Packet Inspection (DPI) technology.  In contrast to
-    DPI, this document describes a system that does not rely upon DPI, and is instead
-    based in open IETF standards and open source applications.  This document is not
-    an Internet Standards Track specification; it is published for informational purposes.</p>"
+    an Internet Service Provider (ISP). Such a notification system is being used to
+    provide near-immediate notifications to customers, such as to warn them that their
+    traffic exhibits patterns that are indicative of malware or virus infection. There
+    are other proprietary systems that can perform such notifications, but those systems
+    utilize Deep Packet Inspection (DPI) technology. In contrast to DPI, this document
+    describes a system that does not rely upon DPI, and is instead based in open IETF
+    standards and open source applications. This document is not an Internet Standards
+    Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

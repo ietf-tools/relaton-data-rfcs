@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8143
 title:
 - content: Using Transport Layer Security (TLS) with Network News Transfer Protocol
@@ -68,8 +68,8 @@ script:
 abstract:
 - content: "<p>This document provides recommendations for improving the security of
     the Network News Transfer Protocol (NNTP) when using Transport Layer Security
-    (TLS).  It modernizes the NNTP usage of TLS to be consistent with TLS best current
-    practices.  This document updates RFC 4642.</p>"
+    (TLS). It modernizes the NNTP usage of TLS to be consistent with TLS best current
+    practices. This document updates RFC 4642.</p>"
   language:
   - en
   script:
@@ -87,6 +87,10 @@ relation:
       content: RFC4642
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

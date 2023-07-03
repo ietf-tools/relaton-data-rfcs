@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5576
 title:
 - content: Source-Specific Media Attributes in the Session Description Protocol (SDP)
@@ -126,10 +126,10 @@ abstract:
 - content: "<p>The Session Description Protocol (SDP) provides mechanisms to describe
     attributes of multimedia sessions and of individual media streams (e.g., Real-time
     Transport Protocol (RTP) sessions) within a multimedia session, but does not provide
-    any mechanism to describe individual media sources within a media stream.  This
+    any mechanism to describe individual media sources within a media stream. This
     document defines a mechanism to describe RTP media sources, which are identified
     by their synchronization source (SSRC) identifiers, in SDP, to associate attributes
-    with these sources, and to express relationships among sources.  It also defines
+    with these sources, and to express relationships among sources. It also defines
     several source-level attributes that can be used to describe properties of media
     sources. [STANDARDS-TRACK]</p>"
   language:
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

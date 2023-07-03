@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4586
 title:
 - content: 'Extended RTP Profile for Real-time Transport Control Protocol (RTCP)-Based
@@ -213,10 +213,10 @@ script:
 abstract:
 - content: "<p>This document describes the results achieved when simulating the timing
     rules of the Extended RTP Profile for Real-time Transport Control Protocol (RTCP)-Based
-    Feedback, denoted AVPF.  Unicast and multicast topologies are considered as well
-    as several protocol and environment configurations.  The results show that the
+    Feedback, denoted AVPF. Unicast and multicast topologies are considered as well
+    as several protocol and environment configurations. The results show that the
     timing rules result in better performance regarding feedback delay and still preserve
-    the well-accepted RTP rules regarding allowed bit rates for control traffic.  This
+    the well-accepted RTP rules regarding allowed bit rates for control traffic. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -224,6 +224,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

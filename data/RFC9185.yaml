@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9185
 title:
 - content: DTLS Tunnel between a Media Distributor and Key Distributor to Facilitate
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>This document defines a protocol for tunneling DTLS traffic in multimedia
     conferences that enables a Media Distributor to facilitate key exchange between
-    an endpoint in a conference and the Key Distributor.  The protocol is designed
+    an endpoint in a conference and the Key Distributor. The protocol is designed
     to ensure that the keying material used for hop-by-hop encryption and authentication
     is accessible to the Media Distributor, while the keying material used for end-to-end
     encryption and authentication is inaccessible to the Media Distributor.</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

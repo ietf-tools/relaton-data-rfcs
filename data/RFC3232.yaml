@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3232
 title:
 - content: 'Assigned Numbers: RFC 1700 is Replaced by an On-line Database'
@@ -66,14 +66,18 @@ script:
 - Latn
 abstract:
 - content: <p>This memo obsoletes RFC 1700 (STD 2) "Assigned Numbers", which contained
-    an October 1994 snapshot of assigned Internet protocol parameters.  This memo
-    provides information for the Internet community.</p>
+    an October 1994 snapshot of assigned Internet protocol parameters. This memo provides
+    information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

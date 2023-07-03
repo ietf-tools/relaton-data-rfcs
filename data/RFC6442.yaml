@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6442
 title:
 - content: Location Conveyance for the Session Initiation Protocol
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document defines an extension to the Session Initiation Protocol
     (SIP) to convey geographic location information from one SIP entity to another
-    SIP entity.  The SIP extension covers end-to-end conveyance as well as location-based
+    SIP entity. The SIP extension covers end-to-end conveyance as well as location-based
     routing, where SIP intermediaries make routing decisions based upon the location
     of the Location Target. [STANDARDS-TRACK]</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

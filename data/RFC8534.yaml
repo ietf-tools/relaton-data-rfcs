@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8534
 title:
 - content: Explicit Tracking with Wildcard Routes in Multicast VPN
@@ -155,12 +155,12 @@ abstract:
 - content: <p>The base Multicast VPN (MVPN) specifications (RFCs 6513 and 6514) provide
     procedures to allow a multicast ingress node to invoke "explicit tracking" for
     a multicast flow or set of flows, thus learning the egress nodes for that flow
-    or set of flows.  However, the specifications are not completely clear about how
-    the explicit tracking procedures work in certain scenarios.  This document provides
-    the necessary clarifications.  It also specifies a new, optimized explicit-tracking
-    procedure.  This new procedure allows an ingress node, by sending a single message,
+    or set of flows. However, the specifications are not completely clear about how
+    the explicit tracking procedures work in certain scenarios. This document provides
+    the necessary clarifications. It also specifies a new, optimized explicit-tracking
+    procedure. This new procedure allows an ingress node, by sending a single message,
     to request explicit tracking of each of a set of flows, where the set of flows
-    is specified using a wildcard mechanism.  This document updates RFCs 6514, 6625,
+    is specified using a wildcard mechanism. This document updates RFCs 6514, 6625,
     7524, 7582, and 7900.</p>
   language:
   - en
@@ -219,6 +219,10 @@ relation:
       content: RFC7900
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

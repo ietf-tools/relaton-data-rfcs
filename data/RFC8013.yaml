@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8013
 title:
 - content: Forwarding and Control Element Separation (ForCES) Inter-FE Logical Functional
@@ -97,15 +97,19 @@ script:
 abstract:
 - content: "<p>This document describes how to extend the Forwarding and Control Element
     Separation (ForCES) Logical Functional Block (LFB) topology across Forwarding
-    Elements (FEs) by defining the inter-FE LFB class.  The inter-FE LFB class provides
+    Elements (FEs) by defining the inter-FE LFB class. The inter-FE LFB class provides
     the ability to pass data and metadata across FEs without needing any changes to
-    the ForCES specification.  The document focuses on Ethernet transport.</p>"
+    the ForCES specification. The document focuses on Ethernet transport.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

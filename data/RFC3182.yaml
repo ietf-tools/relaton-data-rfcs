@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3182
 title:
 - content: Identity Representation for RSVP
@@ -241,18 +241,22 @@ script:
 abstract:
 - content: "<p>This document describes the representation of identity information
     in POLICY_DATA object for supporting policy based admission control in the Resource
-    ReSerVation Protocol (RSVP).  The goal of identity representation is to allow
-    a process on a system to securely identify the owner and the application of the
+    ReSerVation Protocol (RSVP). The goal of identity representation is to allow a
+    process on a system to securely identify the owner and the application of the
     communicating process (e.g., user id) and convey this information in RSVP messages
-    (PATH or RESV) in a secure manner.  We describe the encoding of identities as
-    RSVP policy element.  We describe the processing rules to generate identity policy
-    elements for multicast merged flows. [STANDARDS-TRACK]</p>"
+    (PATH or RESV) in a secure manner. We describe the encoding of identities as RSVP
+    policy element. We describe the processing rules to generate identity policy elements
+    for multicast merged flows. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

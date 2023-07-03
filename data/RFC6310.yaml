@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6310
 title:
 - content: Pseudowire (PW) Operations, Administration, and Maintenance (OAM) Message
@@ -200,8 +200,8 @@ script:
 abstract:
 - content: "<p>This document specifies the mapping and notification of defect states
     between a pseudowire (PW) and the Attachment Circuits (ACs) of the end-to-end
-    emulated service.  It standardizes the behavior of Provider Edges (PEs) with respect
-    to PW and AC defects.  It addresses ATM, Frame Relay, Time Division Multiplexing
+    emulated service. It standardizes the behavior of Provider Edges (PEs) with respect
+    to PW and AC defects. It addresses ATM, Frame Relay, Time Division Multiplexing
     (TDM), and Synchronous Optical Network / Synchronous Digital Hierarchy (SONET/SDH)
     PW services, carried over MPLS, MPLS/IP, and Layer 2 Tunneling Protocol version
     3/IP (L2TPv3/IP) Packet Switched Networks (PSNs). [STANDARDS-TRACK]</p>"
@@ -211,6 +211,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

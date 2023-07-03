@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8203
 title:
 - content: BGP Administrative Shutdown Communication
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: <p>This document enhances the BGP Cease NOTIFICATION message "Administrative
     Shutdown" and "Administrative Reset" subcodes for operators to transmit a short
-    freeform message to describe why a BGP session was shutdown or reset.  This document
+    freeform message to describe why a BGP session was shutdown or reset. This document
     updates RFC 4486.</p>
   language:
   - en
@@ -154,6 +154,10 @@ relation:
       content: RFC4486
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

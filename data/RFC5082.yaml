@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5082
 title:
 - content: The Generalized TTL Security Mechanism (GTSM)
@@ -183,14 +183,18 @@ script:
 abstract:
 - content: "<p>The use of a packet's Time to Live (TTL) (IPv4) or Hop Limit (IPv6)
     to verify whether the packet was originated by an adjacent node on a connected
-    link has been used in many recent protocols.  This document generalizes this technique.
-    \ This document obsoletes Experimental RFC 3682. [STANDARDS-TRACK]</p>"
+    link has been used in many recent protocols. This document generalizes this technique.
+    This document obsoletes Experimental RFC 3682. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

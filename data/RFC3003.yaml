@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3003
 title:
 - content: The audio/mpeg Media Type
@@ -67,14 +67,18 @@ script:
 abstract:
 - content: "<p>The audio layers of the MPEG-1 and MPEG-2 standards are in frequent
     use on the internet, but there is no uniform Multipurpose Internet Mail Extension
-    (MIME) type for these files.  The intention of this document is to define the
-    media type audio/mpeg to refer to this kind of contents. [STANDARDS-TRACK]</p>"
+    (MIME) type for these files. The intention of this document is to define the media
+    type audio/mpeg to refer to this kind of contents. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

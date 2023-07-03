@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5133
 title:
 - content: Terminal Endpoint Identifier (TEI) Query Request Number Change
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>The Integrated Services Digital Network (ISDN) Q.921-User Adaptation
     Layer (IUA) Protocol, described in RFC 4233, defines the message type of Terminal
-    Endpoint Identifier (TEI) Query Request messages as 5.  However, this number is
+    Endpoint Identifier (TEI) Query Request messages as 5. However, this number is
     already being used by the Digital Private Network Signaling System (DPNSS)/Digital
     Access Signaling System 2 (DASS 2) Extensions (DUA) to the IUA Protocol described
-    in RFC 4129.  This document updates RFC 4233 such that the message type of TEI
+    in RFC 4129. This document updates RFC 4233 such that the message type of TEI
     Query Request messages is 8. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -118,6 +118,10 @@ relation:
       content: RFC4233
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

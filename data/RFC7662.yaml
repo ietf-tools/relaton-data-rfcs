@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7662
 title:
 - content: OAuth 2.0 Token Introspection
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This specification defines a method for a protected resource to query
     an OAuth 2.0 authorization server to determine the active state of an OAuth 2.0
-    token and to determine meta-information about this token.  OAuth 2.0 deployments
+    token and to determine meta-information about this token. OAuth 2.0 deployments
     can use this method to convey information about the authorization context of the
     token from the authorization server to the protected resource.</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

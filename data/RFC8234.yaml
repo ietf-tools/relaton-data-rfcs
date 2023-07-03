@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8234
 title:
 - content: Updates to MPLS Transport Profile (MPLS-TP) Linear Protection in Automatic
@@ -184,7 +184,7 @@ script:
 abstract:
 - content: "<p>This document contains updates to MPLS Transport Profile (MPLS-TP)
     linear protection in Automatic Protection Switching (APS) mode defined in RFC
-    7271.  The updates provide rules related to the initialization of the Protection
+    7271. The updates provide rules related to the initialization of the Protection
     State Coordination (PSC) Control Logic (in which the state machine resides) when
     operating in APS mode and clarify the operation related to state transition table
     lookup.</p>"
@@ -205,6 +205,10 @@ relation:
       content: RFC7271
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

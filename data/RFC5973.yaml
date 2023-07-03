@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5973
 title:
 - content: NAT/Firewall NSIS Signaling Layer Protocol (NSLP)
@@ -153,20 +153,24 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines the NSIS Signaling Layer Protocol (NSLP) for Network
-    Address Translators (NATs) and firewalls.  This NSLP allows hosts to signal on
+    Address Translators (NATs) and firewalls. This NSLP allows hosts to signal on
     the data path for NATs and firewalls to be configured according to the needs of
-    the application data flows.  For instance, it enables hosts behind NATs to obtain
+    the application data flows. For instance, it enables hosts behind NATs to obtain
     a publicly reachable address and hosts behind firewalls to receive data traffic.
-    \ The overall architecture is given by the framework and requirements defined
-    by the Next Steps in Signaling (NSIS) working group.  The network scenarios, the
-    protocol itself, and examples for path-coupled signaling are given in this memo.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    The overall architecture is given by the framework and requirements defined by
+    the Next Steps in Signaling (NSIS) working group. The network scenarios, the protocol
+    itself, and examples for path-coupled signaling are given in this memo. This document
+    defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

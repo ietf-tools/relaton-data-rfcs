@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4827
 title:
 - content: An Extensible Markup Language (XML) Configuration Access Protocol (XCAP)
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document describes a usage of the Extensible Markup Language (XML)
     Configuration Access Protocol (XCAP) for manipulating the contents of Presence
-    Information Data Format (PIDF) based presence documents.  It is intended to be
+    Information Data Format (PIDF) based presence documents. It is intended to be
     used in Session Initiation Protocol (SIP) based presence systems, where the Event
     State Compositor can use the XCAP-manipulated presence document as one of the
     inputs on which it builds the overall presence state for the presentity. [STANDARDS-TRACK]</p>"
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

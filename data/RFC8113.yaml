@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8113
 title:
 - content: 'Locator/ID Separation Protocol (LISP): Shared Extension Message & IANA
@@ -97,8 +97,8 @@ script:
 abstract:
 - content: "<p>This document specifies a Locator/ID Separation Protocol (LISP) shared
     message type for defining future extensions and conducting experiments without
-    consuming a LISP packet type codepoint for each extension.  It also defines a
-    registry for LISP Packet Type allocations, thus updating RFC 6830.</p>"
+    consuming a LISP packet type codepoint for each extension. It also defines a registry
+    for LISP Packet Type allocations, thus updating RFC 6830.</p>"
   language:
   - en
   script:
@@ -126,6 +126,10 @@ relation:
       content: RFC6830
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

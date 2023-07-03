@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6530
 title:
 - content: Overview and Framework for Internationalized Email
@@ -97,11 +97,11 @@ abstract:
 - content: "<p>Full use of electronic mail throughout the world requires that (subject
     to other constraints) people be able to use close variations on their own names
     (written correctly in their own languages and scripts) as mailbox names in email
-    addresses.  This document introduces a series of specifications that define mechanisms
+    addresses. This document introduces a series of specifications that define mechanisms
     and protocol extensions needed to fully support internationalized email addresses.
-    \ These changes include an SMTP extension and extension of email header syntax
-    to accommodate UTF-8 data.  The document set also includes discussion of key assumptions
-    and issues in deploying fully internationalized email.  This document is a replacement
+    These changes include an SMTP extension and extension of email header syntax to
+    accommodate UTF-8 data. The document set also includes discussion of key assumptions
+    and issues in deploying fully internationalized email. This document is a replacement
     for RFC 4952; it reflects additional issues identified since that document was
     published. [STANDARDS-TRACK]</p>"
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

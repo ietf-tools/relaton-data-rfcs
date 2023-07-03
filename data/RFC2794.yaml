@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2794
 title:
 - content: Mobile IP Network Access Identifier Extension for IPv4
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Our proposal defines a way for the mobile node to identify itself,
-    by including the NAI along with the Mobile IP Registration Request.  This memo
+    by including the NAI along with the Mobile IP Registration Request. This memo
     also updates RFC 2290 which specifies the Mobile-IPv4 Configuration option for
     IPCP, by allowing the Mobile Node's Home Address field of this option to be zero.
     [STANDARDS-TRACK]</p>"
@@ -116,6 +116,10 @@ relation:
       content: RFC2290
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

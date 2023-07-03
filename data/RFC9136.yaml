@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9136
 title:
 - content: IP Prefix Advertisement in Ethernet VPN (EVPN)
@@ -183,10 +183,10 @@ script:
 abstract:
 - content: "<p>The BGP MPLS-based Ethernet VPN (EVPN) (RFC 7432) mechanism provides
     a flexible control plane that allows intra-subnet connectivity in an MPLS and/or
-    Network Virtualization Overlay (NVO) (RFC 7365) network.  In some networks, there
+    Network Virtualization Overlay (NVO) (RFC 7365) network. In some networks, there
     is also a need for dynamic and efficient inter-subnet connectivity across Tenant
     Systems and end devices that can be physical or virtual and do not necessarily
-    participate in dynamic routing protocols.  This document defines a new EVPN route
+    participate in dynamic routing protocols. This document defines a new EVPN route
     type for the advertisement of IP prefixes and explains some use-case examples
     where this new route type is used.</p>"
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

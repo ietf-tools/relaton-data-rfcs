@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3204
 title:
 - content: MIME media types for ISUP and QSIG Objects
@@ -241,7 +241,7 @@ script:
 abstract:
 - content: "<p>This document describes MIME types for application/ISUP and application/QSIG
     objects for use in SIP applications, according to the rules defined in RFC 2048.
-    \ These types can be used to identify ISUP and QSIG objects within a SIP message
+    These types can be used to identify ISUP and QSIG objects within a SIP message
     such as INVITE or INFO, as might be implemented when using SIP in an environment
     where part of the call involves interworking to the PSTN. [STANDARDS-TRACK]</p>"
   language:
@@ -250,6 +250,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

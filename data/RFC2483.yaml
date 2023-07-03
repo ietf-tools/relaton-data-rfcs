@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2483
 title:
 - content: URI Resolution Services Necessary for URN Resolution
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Retrieving the resource identified by a Uniform Resource Identifier
-    (URI) is only one of the operations that can be performed on a URI.  One might
+    (URI) is only one of the operations that can be performed on a URI. One might
     also ask for and get a list of other identifiers that are aliases for the original
     URI or a bibliographic description of the resource the URI denotes, for example.
-    \ This applies to both Uniform Resource Names (URNs) and Uniform Resource Locators
-    (URLs).  Uniform Resource Characteristics (URCs) are discussed in this document
-    but only as descriptions of resources rather than identifiers.  This memo defines
+    This applies to both Uniform Resource Names (URNs) and Uniform Resource Locators
+    (URLs). Uniform Resource Characteristics (URCs) are discussed in this document
+    but only as descriptions of resources rather than identifiers. This memo defines
     an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4822
 title:
 - content: RIPv2 Cryptographic Authentication
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This note describes a revision to the RIPv2 Cryptographic Authentication
-    mechanism originally specified in RFC 2082.  This document obsoletes RFC 2082
-    and updates RFC 2453.  This document adds details of how the SHA family of hash
-    algorithms can be used with RIPv2 Cryptographic Authentication, whereas the original
-    document only specified the use of Keyed-MD5.  Also, this document clarifies a
-    potential issue with an active attack on this mechanism and adds significant text
-    to the Security Considerations section. [STANDARDS-TRACK]</p>"
+    mechanism originally specified in RFC 2082. This document obsoletes RFC 2082 and
+    updates RFC 2453. This document adds details of how the SHA family of hash algorithms
+    can be used with RIPv2 Cryptographic Authentication, whereas the original document
+    only specified the use of Keyed-MD5. Also, this document clarifies a potential
+    issue with an active attack on this mechanism and adds significant text to the
+    Security Considerations section. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC2453
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

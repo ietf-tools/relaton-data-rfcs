@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3502
 title:
 - content: Internet Message Access Protocol (IMAP) - MULTIAPPEND Extension
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the multiappending extension to the Internet
-    Message Access Protocol (IMAP) (RFC 3501).  This extension provides substantial
+    Message Access Protocol (IMAP) (RFC 3501). This extension provides substantial
     performance improvements for IMAP clients which upload multiple messages at a
-    time to a mailbox on the server.  A server which supports this extension indicates
+    time to a mailbox on the server. A server which supports this extension indicates
     this with a capability name of "MULTIAPPEND". [STANDARDS-TRACK]</p>
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

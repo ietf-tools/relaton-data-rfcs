@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6877
 title:
 - content: '464XLAT: Combination of Stateful and Stateless Translation'
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document describes an architecture (464XLAT) for providing limited
     IPv4 connectivity across an IPv6-only network by combining existing and well-known
     stateful protocol translation (as described in RFC 6146) in the core and stateless
-    protocol translation (as described in RFC 6145) at the edge.  464XLAT is a simple
+    protocol translation (as described in RFC 6145) at the edge. 464XLAT is a simple
     and scalable technique to quickly deploy limited IPv4 access service to IPv6-only
     edge networks without encapsulation.</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

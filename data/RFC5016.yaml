@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5016
 title:
 - content: Requirements for a DomainKeys Identified Mail (DKIM) Signing Practices
@@ -67,17 +67,21 @@ script:
 - Latn
 abstract:
 - content: "<p>DomainKeys Identified Mail (DKIM) provides a cryptographic mechanism
-    for domains to assert responsibility for the messages they handle.  A related
-    mechanism will allow an administrator to publish various statements about their
-    DKIM signing practices.  This document defines requirements for this mechanism,
-    distinguishing between those that must be satisfied (MUST), and those that are
-    highly desirable (SHOULD).  This memo provides information for the Internet community.</p>"
+    for domains to assert responsibility for the messages they handle. A related mechanism
+    will allow an administrator to publish various statements about their DKIM signing
+    practices. This document defines requirements for this mechanism, distinguishing
+    between those that must be satisfied (MUST), and those that are highly desirable
+    (SHOULD). This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

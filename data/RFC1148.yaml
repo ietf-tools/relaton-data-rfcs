@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1148
 title:
 - content: Mapping between X.400(1988) / ISO 10021 and RFC 822
@@ -72,8 +72,8 @@ script:
 abstract:
 - content: "<p>This RFC suggests an electronic mail protocol mapping for the Internet
     community and UK Academic Community, and requests discussion and suggestions for
-    improvements.  This memo does not specify an Internet standard.  This edition
-    includes material lost in editing.</p>"
+    improvements. This memo does not specify an Internet standard. This edition includes
+    material lost in editing.</p>"
   language:
   - en
   script:
@@ -141,6 +141,10 @@ relation:
       content: RFC0822
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

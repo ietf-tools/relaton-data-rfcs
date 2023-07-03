@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6826
 title:
 - content: Multipoint LDP In-Band Signaling for Point-to-Multipoint and Multipoint-to-Multipoint
@@ -156,14 +156,14 @@ abstract:
 - content: "<p>Consider an IP multicast tree, constructed by Protocol Independent
     Multicast (PIM), that needs to pass through an MPLS domain in which Multipoint
     LDP (mLDP) point-to-multipoint and/or multipoint-to-multipoint Labels Switched
-    Paths (LSPs) can be created.  The part of the IP multicast tree that traverses
-    the MPLS domain can be instantiated as a multipoint LSP.  When a PIM Join message
+    Paths (LSPs) can be created. The part of the IP multicast tree that traverses
+    the MPLS domain can be instantiated as a multipoint LSP. When a PIM Join message
     is received at the border of the MPLS domain, information from that message is
-    encoded into mLDP messages.  When the mLDP messages reach the border of the next
+    encoded into mLDP messages. When the mLDP messages reach the border of the next
     IP domain, the encoded information is used to generate PIM messages that can be
-    sent through the IP domain.  The result is an IP multicast tree consisting of
-    a set of IP multicast sub-trees that are spliced together with a multipoint LSP.
-    \ This document describes procedures regarding how IP multicast trees are spliced
+    sent through the IP domain. The result is an IP multicast tree consisting of a
+    set of IP multicast sub-trees that are spliced together with a multipoint LSP.
+    This document describes procedures regarding how IP multicast trees are spliced
     together with multipoint LSPs. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -171,6 +171,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

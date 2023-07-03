@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2898
 title:
 - content: 'PKCS #5: Password-Based Cryptography Specification Version 2.0'
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document provides recommendations for the implementation of password-based
     cryptography, covering key derivation functions, encryption schemes, message-authentication
-    schemes, and ASN.1 syntax identifying the techniques.  This memo provides information
+    schemes, and ASN.1 syntax identifying the techniques. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -86,6 +86,10 @@ relation:
       content: RFC8018
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

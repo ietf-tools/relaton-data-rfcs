@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6510
 title:
 - content: Resource Reservation Protocol (RSVP) Message Formats for Label Switched
@@ -97,10 +97,10 @@ script:
 abstract:
 - content: "<p>Multiprotocol Label Switching (MPLS) Label Switched Paths (LSPs) established
     using the Resource Reservation Protocol Traffic Engineering (RSVP-TE) extensions
-    may be signaled with a set of LSP-specific attributes.  These attributes may be
-    carried in both Path and Resv messages.  This document specifies how LSP attributes
+    may be signaled with a set of LSP-specific attributes. These attributes may be
+    carried in both Path and Resv messages. This document specifies how LSP attributes
     are to be carried in RSVP Path and Resv messages using the Routing Backus-Naur
-    Form and clarifies related Resv message formats.  This document updates RFC 4875
+    Form and clarifies related Resv message formats. This document updates RFC 4875
     and RFC 5420. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -129,6 +129,10 @@ relation:
       content: RFC5420
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

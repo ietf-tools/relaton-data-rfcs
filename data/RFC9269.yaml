@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9269
 title:
 - content: Experimental Scenarios of Information-Centric Networking (ICN) Integration
@@ -183,17 +183,17 @@ script:
 - Latn
 abstract:
 - content: "<p>A 4G mobile network uses IP-based transport for the control plane to
-    establish the data session at the user plane for the actual data delivery.  In
+    establish the data session at the user plane for the actual data delivery. In
     the existing architecture, IP-based unicast is used for the delivery of multimedia
     content to a mobile terminal, where each user is receiving a separate stream from
-    the server.  From a bandwidth and routing perspective, this approach is inefficient.
-    \ Evolved multimedia broadcast and multicast service (eMBMS) provides capabilities
+    the server. From a bandwidth and routing perspective, this approach is inefficient.
+    Evolved multimedia broadcast and multicast service (eMBMS) provides capabilities
     for delivering contents to multiple users simultaneously, but its deployment is
-    very limited or at an experimental stage due to numerous challenges.  The focus
+    very limited or at an experimental stage due to numerous challenges. The focus
     of this document is to list the options for using Information-Centric Networking
     (ICN) in 4G mobile networks and elaborate the experimental setups for its further
-    evaluation.  The experimental setups discussed provide guidance for using ICN
-    either natively or with an existing mobility protocol stack.  With further investigations
+    evaluation. The experimental setups discussed provide guidance for using ICN either
+    natively or with an existing mobility protocol stack. With further investigations
     based on the listed experiments, ICN with its inherent capabilities such as network-layer
     multicast, anchorless mobility, security, and optimized data delivery using local
     caching at the edge may provide a viable alternative to IP transport in 4G mobile
@@ -204,6 +204,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IRTF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

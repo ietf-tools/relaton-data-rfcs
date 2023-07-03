@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9336
 title:
 - content: X.509 Certificate General-Purpose Extended Key Usage (EKU) for Document
@@ -125,9 +125,9 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 5280 specifies several extended key purpose identifiers (KeyPurposeIds)
-    for X.509 certificates.  This document defines a general-purpose Document-Signing
+    for X.509 certificates. This document defines a general-purpose Document-Signing
     KeyPurposeId for inclusion in the Extended Key Usage (EKU) extension of X.509
-    public key certificates.  Document-Signing applications may require that the EKU
+    public key certificates. Document-Signing applications may require that the EKU
     extension be present and that a Document-Signing KeyPurposeId be indicated in
     order for the certificate to be acceptable to that Document-Signing application.</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

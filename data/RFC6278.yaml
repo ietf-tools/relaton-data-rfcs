@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6278
 title:
 - content: Use of Static-Static Elliptic Curve Diffie-Hellman Key Agreement in Cryptographic
@@ -98,9 +98,9 @@ abstract:
 - content: "<p>This document describes how to use the 'static-static Elliptic Curve
     Diffie-Hellman key-agreement scheme (i.e., Elliptic Curve Diffie- Hellman where
     both participants use static Diffie-Hellman values) with the Cryptographic Message
-    Syntax.  In this form of key agreement, the Diffie-Hellman values of both the
-    sender and receiver are long-term values contained in certificates.  This document
-    is not an Internet Standards Track specification; it is published for informational
+    Syntax. In this form of key agreement, the Diffie-Hellman values of both the sender
+    and receiver are long-term values contained in certificates. This document is
+    not an Internet Standards Track specification; it is published for informational
     purposes.</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

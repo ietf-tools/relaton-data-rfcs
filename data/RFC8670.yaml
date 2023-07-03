@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8670
 title:
 - content: BGP Prefix Segment in Large-Scale Data Centers
@@ -182,14 +182,18 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the motivation for, and benefits of, applying
-    Segment Routing (SR) in BGP-based large-scale data centers.  It describes the
-    design to deploy SR in those data centers for both the MPLS and IPv6 data planes.</p>"
+    Segment Routing (SR) in BGP-based large-scale data centers. It describes the design
+    to deploy SR in those data centers for both the MPLS and IPv6 data planes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

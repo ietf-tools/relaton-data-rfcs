@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3610
 title:
 - content: Counter with CBC-MAC (CCM)
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Counter with CBC-MAC (CCM) is a generic authenticated encryption block
-    cipher mode.  CCM is defined for use with 128-bit block ciphers, such as the Advanced
+    cipher mode. CCM is defined for use with 128-bit block ciphers, such as the Advanced
     Encryption Standard (AES).</p>"
   language:
   - en
@@ -132,6 +132,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

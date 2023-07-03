@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2735
 title:
 - content: NHRP Support for Virtual Private Networks
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: <p>The NBMA Next Hop Resolution Protocol (NHRP) is used to determine the
     NBMA subnetwork addresses of the "NBMA next hop" towards a public internetworking
-    layer address.  This document describes the enhancements necessary to enable NHRP
+    layer address. This document describes the enhancements necessary to enable NHRP
     to perform the same function for private internetworking layer addresses available
     within the framework of a Virtual Private Network (VPN) service on a shared NBMA
     network. [STANDARDS-TRACK]</p>
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

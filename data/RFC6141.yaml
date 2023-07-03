@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6141
 title:
 - content: Re-INVITE and Target-Refresh Request Handling in the Session Initiation
@@ -125,12 +125,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The procedures for handling SIP re-INVITEs are described in RFC 3261.
-    \ Implementation and deployment experience has uncovered a number of issues with
+    Implementation and deployment experience has uncovered a number of issues with
     the original documentation, and this document provides additional procedures that
-    update the original specification to address those issues.  In particular, this
+    update the original specification to address those issues. In particular, this
     document defines in which situations a UAS (User Agent Server) should generate
     a success response and in which situations a UAS should generate an error response
-    to a re-INVITE.  Additionally, this document defines further details of procedures
+    to a re-INVITE. Additionally, this document defines further details of procedures
     related to target-refresh requests. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -149,6 +149,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

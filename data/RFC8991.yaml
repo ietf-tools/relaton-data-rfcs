@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8991
 title:
 - content: GeneRic Autonomic Signaling Protocol Application Program Interface (GRASP
@@ -154,9 +154,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document is a conceptual outline of an Application Programming
-    Interface (API) for the GeneRic Autonomic Signaling Protocol (GRASP).  Such an
+    Interface (API) for the GeneRic Autonomic Signaling Protocol (GRASP). Such an
     API is needed for Autonomic Service Agents (ASAs) calling the GRASP protocol module
-    to exchange Autonomic Network messages with other ASAs.  Since GRASP is designed
+    to exchange Autonomic Network messages with other ASAs. Since GRASP is designed
     to support asynchronous operations, the API will need to be adapted according
     to the support for asynchronicity in various programming languages and operating
     systems.</p>"
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

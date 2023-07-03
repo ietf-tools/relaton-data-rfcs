@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2808
 title:
 - content: The SecurID(r) SASL Mechanism
@@ -68,16 +68,20 @@ abstract:
 - content: "<p>This document defines a SASL (Simple Authentication and Security Layer)
     authentication mechanism using SecurID (a hardware token card product (or software
     emulation thereof) produced by RSA Security Inc., which is used for end-user authentication),
-    thereby providing a means for such tokens to be used in SASL environments.  This
+    thereby providing a means for such tokens to be used in SASL environments. This
     mechanism is only is only for authentication, and has no effect on the protocol
     encoding and is not designed to provide integrity or confidentiality services.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

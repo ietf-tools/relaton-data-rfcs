@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8180
 title:
 - content: Minimal IPv6 over the TSCH Mode of IEEE 802.15.4e (6TiSCH) Configuration
@@ -124,18 +124,17 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a minimal mode of operation for an IPv6 over
-    the TSCH mode of IEEE 802.15.4e (6TiSCH) network.  This minimal mode of operation
+    the TSCH mode of IEEE 802.15.4e (6TiSCH) network. This minimal mode of operation
     specifies the baseline set of protocols that need to be supported and the recommended
     configurations and modes of operation sufficient to enable a 6TiSCH functional
-    network.  6TiSCH provides IPv6 connectivity over a Time-Slotted Channel Hopping
-    (TSCH) mesh composed of IEEE Std 802.15.4 TSCH links.  This minimal mode uses
-    a collection of protocols with the respective configurations, including the IPv6
+    network. 6TiSCH provides IPv6 connectivity over a Time-Slotted Channel Hopping
+    (TSCH) mesh composed of IEEE Std 802.15.4 TSCH links. This minimal mode uses a
+    collection of protocols with the respective configurations, including the IPv6
     Low-Power Wireless Personal Area Network (6LoWPAN) framework, enabling interoperable
-    IPv6 connectivity over IEEE Std 802.15.4 TSCH.  This minimal configuration provides
+    IPv6 connectivity over IEEE Std 802.15.4 TSCH. This minimal configuration provides
     the necessary bandwidth for network and security bootstrapping and defines the
     proper link between the IETF protocols that interface to IEEE Std 802.15.4 TSCH.
-    \ This minimal mode of operation should be implemented by all 6TiSCH-compliant
-    devices.</p>"
+    This minimal mode of operation should be implemented by all 6TiSCH-compliant devices.</p>"
   language:
   - en
   script:
@@ -146,6 +145,10 @@ series:
     content: BCP
     format: text/plain
   number: '210'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

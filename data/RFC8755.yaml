@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8755
 title:
 - content: Using Commercial National Security Algorithm Suite Algorithms in Secure/Multipurpose
@@ -68,21 +68,25 @@ script:
 abstract:
 - content: "<p>The United States Government has published the National Security Agency
     (NSA) Commercial National Security Algorithm (CNSA) Suite, which defines cryptographic
-    algorithm policy for national security applications.  This document specifies
-    the conventions for using the United States National Security Agency's CNSA Suite
+    algorithm policy for national security applications. This document specifies the
+    conventions for using the United States National Security Agency's CNSA Suite
     algorithms in Secure/Multipurpose Internet Mail Extensions (S/MIME) as specified
-    in RFC 8551.  It applies to the capabilities, configuration, and operation of
-    all components of US National Security Systems that employ S/MIME messaging.  US
-    National Security Systems are described in NIST Special Publication 800-59.  It
-    is also appropriate for all other US Government systems that process high-value
-    information.  It is made publicly available for use by developers and operators
-    of these and any other system deployments.</p>"
+    in RFC 8551. It applies to the capabilities, configuration, and operation of all
+    components of US National Security Systems that employ S/MIME messaging. US National
+    Security Systems are described in NIST Special Publication 800-59. It is also
+    appropriate for all other US Government systems that process high-value information.
+    It is made publicly available for use by developers and operators of these and
+    any other system deployments.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

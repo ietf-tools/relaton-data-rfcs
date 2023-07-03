@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7993
 title:
 - content: Cascading Style Sheets (CSS) Requirements for RFCs
@@ -66,17 +66,21 @@ script:
 - Latn
 abstract:
 - content: <p>The HTML format for RFCs assigns style guidance to a Cascading Style
-    Sheet (CSS) specifically defined for the RFC Series.  The embedded, default CSS
+    Sheet (CSS) specifically defined for the RFC Series. The embedded, default CSS
     as included by the RFC Editor is expected to take into account accessibility needs
-    and to be built along a responsive design model.  This document describes the
-    requirements for the default CSS used by the RFC Editor.  The class names are
-    based on the classes defined in "HTML for RFCs" (RFC 7992).</p>
+    and to be built along a responsive design model. This document describes the requirements
+    for the default CSS used by the RFC Editor. The class names are based on the classes
+    defined in "HTML for RFCs" (RFC 7992).</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

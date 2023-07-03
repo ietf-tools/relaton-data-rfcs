@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7029
 title:
 - content: Extensible Authentication Protocol (EAP) Mutual Cryptographic Binding
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>As the Extensible Authentication Protocol (EAP) evolves, EAP peers
-    rely increasingly on information received from the EAP server.  EAP extensions
+    rely increasingly on information received from the EAP server. EAP extensions
     such as channel binding or network posture information are often carried in tunnel
-    methods; peers are likely to rely on this information.  Cryptographic binding
-    is a facility described in RFC 3748 that protects tunnel methods against man-in-the-middle
-    attacks.  However, cryptographic binding focuses on protecting the server rather
-    than the peer.  This memo explores attacks possible when the peer is not protected
+    methods; peers are likely to rely on this information. Cryptographic binding is
+    a facility described in RFC 3748 that protects tunnel methods against man-in-the-middle
+    attacks. However, cryptographic binding focuses on protecting the server rather
+    than the peer. This memo explores attacks possible when the peer is not protected
     from man-in-the-middle attacks and recommends cryptographic binding based on an
     Extended Master Session Key, a new form of cryptographic binding that protects
     both peer and server along with other mitigations.</p>"
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4469
 title:
 - content: Internet Message Access Protocol (IMAP) CATENATE Extension
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>The CATENATE extension to the Internet Message Access Protocol (IMAP)
     extends the APPEND command to allow clients to create messages on the IMAP server
     that may contain a combination of new data along with parts of (or entire) messages
-    already on the server.  Using this extension, the client can catenate parts of
+    already on the server. Using this extension, the client can catenate parts of
     an already existing message onto a new message without having to first download
     the data and then upload it back to the server. [STANDARDS-TRACK]</p>"
   language:
@@ -98,6 +98,10 @@ relation:
       content: RFC3502
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

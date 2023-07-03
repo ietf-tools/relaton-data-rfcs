@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2221
 title:
 - content: IMAP4 Login Referrals
@@ -67,14 +67,18 @@ script:
 abstract:
 - content: "<p>When dealing with large amounts of users and many IMAP4 [RFC-2060]
     servers, it is often necessary to move users from one IMAP4 server to another.
-    \ Login referrals allow clients to transparently connect to an alternate IMAP4
-    server, if their home IMAP4 server has changed. [STANDARDS-TRACK]</p>"
+    Login referrals allow clients to transparently connect to an alternate IMAP4 server,
+    if their home IMAP4 server has changed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

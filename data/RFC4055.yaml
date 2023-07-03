@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4055
 title:
 - content: Additional Algorithms and Identifiers for RSA Cryptography for use in the
@@ -125,12 +125,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document supplements RFC 3279.  It describes the conventions for
+- content: "<p>This document supplements RFC 3279. It describes the conventions for
     using the RSA Probabilistic Signature Scheme (RSASSA-PSS) signature algorithm,
     the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP)
     key transport algorithm and additional one-way hash functions with the Public-Key
     Cryptography Standards (PKCS) #1 version 1.5 signature algorithm in the Internet
-    X.509 Public Key Infrastructure (PKI).  Encoding formats, algorithm identifiers,
+    X.509 Public Key Infrastructure (PKI). Encoding formats, algorithm identifiers,
     and parameter formats are specified. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -149,6 +149,10 @@ relation:
       content: RFC3279
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5359
 title:
 - content: Session Initiation Protocol Service Examples
@@ -182,14 +182,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This document gives examples of Session Initiation Protocol (SIP) services.
-    \ This covers most features offered in so-called IP Centrex offerings from local
-    exchange carriers and PBX (Private Branch Exchange) features.  Most of the services
+    This covers most features offered in so-called IP Centrex offerings from local
+    exchange carriers and PBX (Private Branch Exchange) features. Most of the services
     shown in this document are implemented in the SIP user agents, although some require
-    the assistance of a SIP proxy.  Some require some extensions to SIP including
-    the REFER, SUBSCRIBE, and NOTIFY methods and the Replaces and Join header fields.
-    \ These features are not intended to be an exhaustive set, but rather show implementations
+    the assistance of a SIP proxy. Some require some extensions to SIP including the
+    REFER, SUBSCRIBE, and NOTIFY methods and the Replaces and Join header fields.
+    These features are not intended to be an exhaustive set, but rather show implementations
     of common features likely to be implemented on SIP IP telephones in a business
-    environment.  This document specifies an Internet Best Current Practices for the
+    environment. This document specifies an Internet Best Current Practices for the
     Internet Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
@@ -201,6 +201,10 @@ series:
     content: BCP
     format: text/plain
   number: '144'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

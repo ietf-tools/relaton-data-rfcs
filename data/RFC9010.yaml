@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9010
 title:
 - content: Routing for RPL (Routing Protocol for Low-Power and Lossy Networks) Leaves
@@ -97,7 +97,7 @@ abstract:
 - content: "<p>This specification provides a mechanism for a host that implements
     a routing-agnostic interface based on IPv6 over Low-Power Wireless Personal Area
     Network (6LoWPAN) Neighbor Discovery to obtain reachability services across a
-    network that leverages RFC 6550 for its routing operations.  It updates RFCs 6550,
+    network that leverages RFC 6550 for its routing operations. It updates RFCs 6550,
     6775, and 8505.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ relation:
       content: RFC8505
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

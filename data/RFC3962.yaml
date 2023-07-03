@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3962
 title:
 - content: Advanced Encryption Standard (AES) Encryption for Kerberos 5
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>The United States National Institute of Standards and Technology (NIST)
     has chosen a new Advanced Encryption Standard (AES), which is significantly faster
     and (it is believed) more secure than the old Data Encryption Standard (DES) algorithm.
-    \ This document is a specification for the addition of this algorithm to the Kerberos
+    This document is a specification for the addition of this algorithm to the Kerberos
     cryptosystem suite. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

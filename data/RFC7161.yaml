@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7161
 title:
 - content: Proxy Mobile IPv6 (PMIPv6) Multicast Handover Optimization by the Subscription
@@ -126,21 +126,25 @@ script:
 abstract:
 - content: "<p>This document specifies an experimental multicast handover optimization
     mechanism for Proxy Mobile IPv6 (PMIPv6) to accelerate the delivery of multicast
-    traffic to mobile nodes after handovers.  The mechanism, called Subscription Information
+    traffic to mobile nodes after handovers. The mechanism, called Subscription Information
     Acquisition through the LMA (SIAL), is based on speeding up the acquisition of
-    mobile nodes' multicast context by the mobile access gateways.  To do that, extensions
-    to the current PMIPv6 protocol are proposed.  These extensions are not only applicable
+    mobile nodes' multicast context by the mobile access gateways. To do that, extensions
+    to the current PMIPv6 protocol are proposed. These extensions are not only applicable
     to the base solution for multicast support in Proxy Mobile IPv6, but they can
     also be applied to other solutions developed to avoid the tunnel convergence problem.
-    \ Furthermore, these extensions are also independent of the role played by the
-    mobile access gateway within the multicast network (acting as either multicast
-    listener discovery proxy or multicast router).</p>"
+    Furthermore, these extensions are also independent of the role played by the mobile
+    access gateway within the multicast network (acting as either multicast listener
+    discovery proxy or multicast router).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

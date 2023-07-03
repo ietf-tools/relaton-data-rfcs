@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8325
 title:
 - content: Mapping Diffserv to IEEE 802.11
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>As Internet traffic is increasingly sourced from and destined to wireless
     endpoints, it is crucial that Quality of Service (QoS) be aligned between wired
-    and wireless networks; however, this is not always the case by default.  This
-    document specifies a set of mappings from Differentiated Services Code Point (DSCP)
-    to IEEE 802.11 User Priority (UP) to reconcile the marking recommendations offered
+    and wireless networks; however, this is not always the case by default. This document
+    specifies a set of mappings from Differentiated Services Code Point (DSCP) to
+    IEEE 802.11 User Priority (UP) to reconcile the marking recommendations offered
     by the IETF and the IEEE so as to maintain consistent QoS treatment between wired
     and IEEE 802.11 wireless networks.</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

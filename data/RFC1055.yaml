@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1055
 title:
 - content: 'Nonstandard for transmission of IP datagrams over serial lines: SLIP'
@@ -72,10 +72,10 @@ script:
 abstract:
 - content: "<p>The TCP/IP protocol family runs over a variety of network media: IEEE
     802.3 (ethernet) and 802.5 (token ring) LAN's, X.25 lines, satellite links, and
-    serial lines.  There are standard encapsulations for IP packets defined for many
-    of these networks, but there is no standard for serial lines.  SLIP, Serial Line
+    serial lines. There are standard encapsulations for IP packets defined for many
+    of these networks, but there is no standard for serial lines. SLIP, Serial Line
     IP, is a currently a de facto standard, commonly used for point-to-point serial
-    connections running TCP/IP.  It is not an Internet standard.</p>"
+    connections running TCP/IP. It is not an Internet standard.</p>"
   language:
   - en
   script:
@@ -86,6 +86,10 @@ series:
     content: STD
     format: text/plain
   number: '47'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

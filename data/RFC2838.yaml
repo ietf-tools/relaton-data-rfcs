@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2838
 title:
 - content: Uniform Resource Identifiers for Television Broadcasts
@@ -98,15 +98,19 @@ abstract:
     Web browsers are starting to appear on a variety of consumer electronic devices,
     such as television sets and television set-top boxes, which are capable of receiving
     television programming from either terrestrial broadcast, satellite broadcast,
-    or cable.  In this context there is a need to reference television broadcasts
-    using the URI format described in RFC 2396.  This memo provides information for
-    the Internet community.</p>"
+    or cable. In this context there is a need to reference television broadcasts using
+    the URI format described in RFC 2396. This memo provides information for the Internet
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

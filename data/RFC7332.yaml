@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7332
 title:
 - content: Loop Detection Mechanisms for Session Initiation Protocol (SIP) Back-to-Back
@@ -97,15 +97,18 @@ script:
 abstract:
 - content: "<p>SIP Back-to-Back User Agents (B2BUAs) can cause unending SIP request
     routing loops because, as User Agent Clients, they can generate SIP requests with
-    new Max-Forwards values.  This document discusses the difficulties associated
-    with loop detection for B2BUAs and the requirements for them to prevent infinite
-    loops.</p>"
+    new Max-Forwards values. This document discusses the difficulties associated with
+    loop detection for B2BUAs and the requirements for them to prevent infinite loops.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

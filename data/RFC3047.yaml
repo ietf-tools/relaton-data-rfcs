@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3047
 title:
 - content: RTP Payload Format for ITU-T Recommendation G.722.1
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the payload format for including G.722.1 generated
-    bit streams within an RTP packet.  Also included here are the necessary details
+    bit streams within an RTP packet. Also included here are the necessary details
     for the use of G.722.1 with MIME and SDP. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC5577
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

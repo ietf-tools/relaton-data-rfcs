@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2290
 title:
 - content: Mobile-IPv4 Configuration Option for PPP IPCP
@@ -97,14 +97,14 @@ abstract:
 - content: "<p>Mobile IP [RFC 2002] defines media-independent procedures by which
     a Mobile Node can maintain existing transport and application-layer connections
     despite changing its point-of-attachment to the Internet and without changing
-    its IP address.  PPP [RFC 1661] provides a standard method for transporting multi-protocol
-    packets over point-to-point links.  As currently specified, Mobile IP Foreign
-    Agents which support Mobile Node connections via PPP can do so only by first assigning
+    its IP address. PPP [RFC 1661] provides a standard method for transporting multi-protocol
+    packets over point-to-point links. As currently specified, Mobile IP Foreign Agents
+    which support Mobile Node connections via PPP can do so only by first assigning
     unique addresses to those Mobile Nodes, defeating one of the primary advantages
-    of Foreign Agents.  This documents corrects this problem by defining the Mobile-IPv4
+    of Foreign Agents. This documents corrects this problem by defining the Mobile-IPv4
     Configuration Option to the Internet Protocol Control Protocol (IPCP) [RFC 1332].
-    \ Using this option, two peers can communicate their support for Mobile IP during
-    the IPCP phase of PPP.  Familiarity with Mobile IP [RFC 2002], IPCP [RFC 1332],
+    Using this option, two peers can communicate their support for Mobile IP during
+    the IPCP phase of PPP. Familiarity with Mobile IP [RFC 2002], IPCP [RFC 1332],
     and PPP [RFC 1661] is assumed. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -123,6 +123,10 @@ relation:
       content: RFC2002
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

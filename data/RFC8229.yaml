@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8229
 title:
 - content: TCP Encapsulation of IKE and IPsec Packets
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: <p>This document describes a method to transport Internet Key Exchange
     Protocol (IKE) and IPsec packets over a TCP connection for traversing network
-    middleboxes that may block IKE negotiation over UDP.  This method, referred to
+    middleboxes that may block IKE negotiation over UDP. This method, referred to
     as "TCP encapsulation", involves sending both IKE packets for Security Association
-    establishment and Encapsulating Security Payload (ESP) packets over a TCP connection.  This
-    method is intended to be used as a fallback option when IKE cannot be negotiated
+    establishment and Encapsulating Security Payload (ESP) packets over a TCP connection.
+    This method is intended to be used as a fallback option when IKE cannot be negotiated
     over UDP.</p>
   language:
   - en
@@ -147,6 +147,10 @@ relation:
       content: RFC9329
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

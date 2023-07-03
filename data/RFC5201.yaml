@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5201
 title:
 - content: Host Identity Protocol
@@ -153,15 +153,15 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo specifies the details of the Host Identity Protocol (HIP).
-    \ HIP allows consenting hosts to securely establish and maintain shared IP-layer
+    HIP allows consenting hosts to securely establish and maintain shared IP-layer
     state, allowing separation of the identifier and locator roles of IP addresses,
-    thereby enabling continuity of communications across IP address changes.  HIP
-    is based on a Sigma-compliant Diffie- Hellman key exchange, using public key identifiers
-    from a new Host Identity namespace for mutual peer authentication.  The protocol
+    thereby enabling continuity of communications across IP address changes. HIP is
+    based on a Sigma-compliant Diffie- Hellman key exchange, using public key identifiers
+    from a new Host Identity namespace for mutual peer authentication. The protocol
     is designed to be resistant to denial-of-service (DoS) and man-in-the- middle
-    (MitM) attacks.  When used together with another suitable security protocol, such
+    (MitM) attacks. When used together with another suitable security protocol, such
     as the Encapsulated Security Payload (ESP), it provides integrity protection and
-    optional encryption for upper- layer protocols, such as TCP and UDP.  This memo
+    optional encryption for upper- layer protocols, such as TCP and UDP. This memo
     defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -180,6 +180,10 @@ relation:
       content: RFC7401
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

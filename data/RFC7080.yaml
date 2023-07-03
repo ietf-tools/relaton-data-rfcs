@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7080
 title:
 - content: Virtual Private LAN Service (VPLS) Interoperability with Provider Backbone
@@ -155,24 +155,27 @@ script:
 abstract:
 - content: "<p>The scalability of Hierarchical Virtual Private LAN Service (H-VPLS)
     with Ethernet access networks (RFC 4762) can be improved by incorporating Provider
-    Backbone Bridge functionality in the VPLS access.  Provider Backbone Bridging
-    has been standardized as IEEE 802.1ah-2008.  It aims to improve the scalability
-    of Media Access Control (MAC) addresses and service instances in Provider Ethernet
-    networks.  This document describes different interoperability scenarios where
-    Provider Backbone Bridge functionality is used in H-VPLS with Ethernet or MPLS
-    access network to attain better scalability in terms of number of customer MAC
-    addresses and number of service instances.  The document also describes the scenarios
-    and the mechanisms for incorporating Provider Backbone Bridge functionality within
-    H-VPLS with existing Ethernet access and interoperability among them.  Furthermore,
-    the document discusses the migration mechanisms and scenarios by which Provider
-    Backbone Bridge functionality can be incorporated into H-VPLS with existing MPLS
-    access.</p>"
+    Backbone Bridge functionality in the VPLS access. Provider Backbone Bridging has
+    been standardized as IEEE 802.1ah-2008. It aims to improve the scalability of
+    Media Access Control (MAC) addresses and service instances in Provider Ethernet
+    networks. This document describes different interoperability scenarios where Provider
+    Backbone Bridge functionality is used in H-VPLS with Ethernet or MPLS access network
+    to attain better scalability in terms of number of customer MAC addresses and
+    number of service instances. The document also describes the scenarios and the
+    mechanisms for incorporating Provider Backbone Bridge functionality within H-VPLS
+    with existing Ethernet access and interoperability among them. Furthermore, the
+    document discusses the migration mechanisms and scenarios by which Provider Backbone
+    Bridge functionality can be incorporated into H-VPLS with existing MPLS access.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

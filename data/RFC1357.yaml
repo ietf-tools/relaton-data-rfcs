@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1357
 title:
 - content: A Format for E-mailing Bibliographic Records
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a format for E-mailing bibliographic records of technical
-    reports.  It is intended to accelerate the dissemination of information about
-    new Computer Science Technical Reports (CS-TR).  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.</p>"
+    reports. It is intended to accelerate the dissemination of information about new
+    Computer Science Technical Reports (CS-TR). This memo provides information for
+    the Internet community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC1807
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

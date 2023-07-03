@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC987
 title:
 - content: Mapping between X.400 and RFC 822
@@ -72,11 +72,11 @@ script:
 abstract:
 - content: "<p>The X.400 series protocols have been defined by CCITT to provide an
     Interpersonal Messaging Service (IPMS), making use of a store and forward Message
-    Transfer Service.  It is expected that this standard will be implemented very
-    widely.  This document describes a set of mappings which will enable interworking
-    between systems operating the X.400 protocols and systems using RFC-822 mail protocol
-    or protocols derived from RFC-822.  This RFC suggests a proposed protocol for
-    the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
+    Transfer Service. It is expected that this standard will be implemented very widely.
+    This document describes a set of mappings which will enable interworking between
+    systems operating the X.400 protocols and systems using RFC-822 mail protocol
+    or protocols derived from RFC-822. This RFC suggests a proposed protocol for the
+    ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -104,6 +104,10 @@ relation:
       content: RFC1327
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

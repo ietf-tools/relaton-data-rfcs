@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5107
 title:
 - content: DHCP Server Identifier Override Suboption
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>This memo defines a new suboption of the DHCP relay information option
     that allows the DHCP relay to specify a new value for the Server Identifier option,
-    which is inserted by the DHCP Server.  This allows the DHCP relay to act as the
+    which is inserted by the DHCP Server. This allows the DHCP relay to act as the
     actual DHCP server such that RENEW DHCPREQUESTs will come to the relay instead
-    of going to the server directly.  This gives the relay the opportunity to include
+    of going to the server directly. This gives the relay the opportunity to include
     the Relay Agent option with appropriate suboptions even on DHCP RENEW messages.
     [STANDARDS-TRACK]</p>"
   language:
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

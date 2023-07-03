@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8796
 title:
 - content: RSVP-TE Summary Fast Reroute Extensions for Label Switched Path (LSP) Tunnels
@@ -212,12 +212,12 @@ script:
 abstract:
 - content: "<p>This document updates RFC 4090 for the Resource Reservation Protocol
     (RSVP) Traffic Engineering (TE) procedures defined for facility backup protection.
-    \ The updates include extensions that reduce the amount of signaling and processing
+    The updates include extensions that reduce the amount of signaling and processing
     that occurs during Fast Reroute (FRR); as a result, scalability when undergoing
-    FRR convergence after a link or node failure is improved.  These extensions allow
+    FRR convergence after a link or node failure is improved. These extensions allow
     the RSVP message exchange between the Point of Local Repair (PLR) and the Merge
     Point (MP) nodes to be independent of the number of protected Label Switched Paths
-    (LSPs) traversing between them when facility bypass FRR protection is used.  The
+    (LSPs) traversing between them when facility bypass FRR protection is used. The
     signaling extensions are fully backwards compatible with nodes that do not support
     them.</p>"
   language:
@@ -237,6 +237,10 @@ relation:
       content: RFC4090
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

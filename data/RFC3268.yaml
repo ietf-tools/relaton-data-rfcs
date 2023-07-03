@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3268
 title:
 - content: Advanced Encryption Standard (AES) Ciphersuites for Transport Layer Security
@@ -66,10 +66,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document proposes several new ciphersuites.  At present, the symmetric
+- content: "<p>This document proposes several new ciphersuites. At present, the symmetric
     ciphers supported by Transport Layer Security (TLS) are RC2, RC4, International
     Data Encryption Algorithm (IDEA), Data Encryption Standard (DES), and triple DES.
-    \ The protocol would be enhanced by the addition of Advanced Encryption Standard
+    The protocol would be enhanced by the addition of Advanced Encryption Standard
     (AES) ciphersuites. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC5246
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

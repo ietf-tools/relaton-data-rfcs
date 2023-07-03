@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5127
 title:
 - content: Aggregation of Diffserv Service Classes
@@ -124,21 +124,25 @@ script:
 - Latn
 abstract:
 - content: "<p>In the core of a high-capacity network, service differentiation may
-    still be needed to support applications' utilization of the network.  Applications
+    still be needed to support applications' utilization of the network. Applications
     with similar traffic characteristics and performance requirements are mapped into
     Diffserv service classes based on end- to-end behavior requirements of the applications.
-    \ However, some network segments may be configured in such a way that a single
-    forwarding treatment may satisfy the traffic characteristics and performance requirements
-    of two or more service classes.  In these cases, it may be desirable to aggregate
-    two or more Diffserv service classes into a single forwarding treatment.  This
+    However, some network segments may be configured in such a way that a single forwarding
+    treatment may satisfy the traffic characteristics and performance requirements
+    of two or more service classes. In these cases, it may be desirable to aggregate
+    two or more Diffserv service classes into a single forwarding treatment. This
     document provides guidelines for the aggregation of Diffserv service classes into
-    forwarding treatments.  This memo provides information for the Internet community.</p>"
+    forwarding treatments. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

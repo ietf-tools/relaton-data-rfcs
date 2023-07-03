@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1830
 title:
 - content: SMTP Service Extensions for Transmission of Large and Binary MIME Messages
@@ -65,11 +65,11 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This memo defines two extensions to the SMTP service.  The first service
+- content: <p>This memo defines two extensions to the SMTP service. The first service
     enables a SMTP client and server to negotiate the use of an alternate DATA command
-    "BDAT" for efficiently sending large MIME messages.  The second extension takes
+    "BDAT" for efficiently sending large MIME messages. The second extension takes
     advantage of the BDAT command to permit the negotiated sending of unencoded binary
-    data.  This memo defines an Experimental Protocol for the Internet community.</p>
+    data. This memo defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
@@ -87,6 +87,10 @@ relation:
       content: RFC3030
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

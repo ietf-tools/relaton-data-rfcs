@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8804
 title:
 - content: Content Delivery Network Interconnection (CDNI) Request Routing Extensions
@@ -97,8 +97,8 @@ abstract:
 - content: "<p>Open Caching architecture is a use case of Content Delivery Network
     Interconnection (CDNI) in which the commercial Content Delivery Network (CDN)
     is the upstream CDN (uCDN) and the ISP caching layer serves as the downstream
-    CDN (dCDN).  This document defines extensions to the CDNI Metadata Interface (MI)
-    and the Footprint & Capabilities Advertisement interface (FCI).  These extensions
+    CDN (dCDN). This document defines extensions to the CDNI Metadata Interface (MI)
+    and the Footprint & Capabilities Advertisement interface (FCI). These extensions
     are derived from requirements raised by Open Caching but are also applicable to
     CDNI use cases in general.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

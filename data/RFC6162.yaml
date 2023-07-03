@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6162
 title:
 - content: Elliptic Curve Algorithms for Cryptographic Message Syntax (CMS) Asymmetric
@@ -68,9 +68,9 @@ script:
 abstract:
 - content: "<p>This document describes conventions for using Elliptic Curve cryptographic
     algorithms with SignedData and EnvelopedData to protect the AsymmetricKeyPackage
-    content type.  Specifically, it includes conventions necessary to implement Elliptic
+    content type. Specifically, it includes conventions necessary to implement Elliptic
     Curve Diffie-Hellman (ECDH) with EnvelopedData and Elliptic Curve Digital Signature
-    Algorithm (ECDSA) with SignedData.  This document extends RFC 5959. [STANDARDS-TRACK]</p>"
+    Algorithm (ECDSA) with SignedData. This document extends RFC 5959. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC5959
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

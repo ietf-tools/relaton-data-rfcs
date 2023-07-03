@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5106
 title:
 - content: The Extensible Authentication Protocol-Internet Key Exchange Protocol version
@@ -183,13 +183,13 @@ script:
 - Latn
 abstract:
 - content: <p>This document specifies EAP-IKEv2, an Extensible Authentication Protocol
-    (EAP) method that is based on the Internet Key Exchange (IKEv2) protocol.  EAP-IKEv2
+    (EAP) method that is based on the Internet Key Exchange (IKEv2) protocol. EAP-IKEv2
     provides mutual authentication and session key establishment between an EAP peer
-    and an EAP server.  It supports authentication techniques that are based on passwords,
-    high-entropy shared keys, and public key certificates.  EAP-IKEv2 further provides
+    and an EAP server. It supports authentication techniques that are based on passwords,
+    high-entropy shared keys, and public key certificates. EAP-IKEv2 further provides
     support for cryptographic ciphersuite negotiation, hash function agility, identity
     confidentiality (in certain modes of operation), fragmentation, and an optional
-    "fast reconnect" mode.  This memo defines an Experimental Protocol for the Internet
+    "fast reconnect" mode. This memo defines an Experimental Protocol for the Internet
     community.</p>
   language:
   - en
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

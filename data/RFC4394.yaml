@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4394
 title:
 - content: A Transport Network View of the Link Management Protocol (LMP)
@@ -183,20 +183,24 @@ script:
 abstract:
 - content: "<p>The Link Management Protocol (LMP) has been developed as part of the
     Generalized MPLS (GMPLS) protocol suite to manage Traffic Engineering (TE) resources
-    and links.  The GMPLS control plane (routing and signaling) uses TE links for
-    establishing Label Switched Paths (LSPs).  This memo describes the relationship
-    of the LMP procedures to 'discovery' as defined in the International Telecommunication
-    Union (ITU-T), and ongoing ITU-T work.  This document provides an overview of
-    LMP in the context of the ITU-T Automatically Switched Optical Networks (ASON)
-    and transport network terminology and relates it to the ITU-T discovery work to
-    promote a common understanding for progressing the work of IETF and ITU-T.  This
-    memo provides information for the Internet community.</p>"
+    and links. The GMPLS control plane (routing and signaling) uses TE links for establishing
+    Label Switched Paths (LSPs). This memo describes the relationship of the LMP procedures
+    to 'discovery' as defined in the International Telecommunication Union (ITU-T),
+    and ongoing ITU-T work. This document provides an overview of LMP in the context
+    of the ITU-T Automatically Switched Optical Networks (ASON) and transport network
+    terminology and relates it to the ITU-T discovery work to promote a common understanding
+    for progressing the work of IETF and ITU-T. This memo provides information for
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

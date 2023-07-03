@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8925
 title:
 - content: IPv6-Only Preferred Option for DHCPv4
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This document specifies a DHCPv4 option to indicate that a host supports
     an IPv6-only mode and is willing to forgo obtaining an IPv4 address if the network
-    provides IPv6 connectivity.  It also updates RFC 2563 to specify DHCPv4 server
+    provides IPv6 connectivity. It also updates RFC 2563 to specify DHCPv4 server
     behavior when the server receives a DHCPDISCOVER not containing the Auto-Configure
     option but containing the new option defined in this document.</p>"
   language:
@@ -174,6 +174,10 @@ relation:
       content: RFC2563
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4848
 title:
 - content: Domain-Based Application Service Location Using URIs and the Dynamic Delegation
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>The purpose of this document is to define a new, straightforward Dynamic
     Delegation Discovery Service (DDDS) application to allow mapping of domain names
-    to URIs for particular application services and protocols.  Although defined as
+    to URIs for particular application services and protocols. Although defined as
     a new DDDS application, dubbed U-NAPTR, this is effectively an extension of the
     Straightforward NAPTR (S-NAPTR) DDDS Application. [STANDARDS-TRACK]</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

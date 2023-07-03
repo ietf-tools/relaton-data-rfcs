@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8930
 title:
 - content: On Forwarding 6LoWPAN Fragments over a Multi-Hop IPv6 Network
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document provides generic rules to enable the forwarding of an
     IPv6 over Low-Power Wireless Personal Area Network (6LoWPAN) fragment over a route-over
-    network.  Forwarding fragments can improve both end-to-end latency and reliability
+    network. Forwarding fragments can improve both end-to-end latency and reliability
     as well as reduce the buffer requirements in intermediate nodes; it may be implemented
     using RFC 4944 and Virtual Reassembly Buffers (VRBs).</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

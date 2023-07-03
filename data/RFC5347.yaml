@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5347
 title:
 - content: Media Gateway Control Protocol Fax Package
@@ -95,17 +95,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Media Gateway Control Protocol (MGCP) package
-    to support fax calls.  The package allows for fax calls to be supported in two
-    different ways.  The first one utilizes ITU-T Recommendation T.38 for fax relay
-    under the control of the Call Agent.  The second one lets the gateway decide upon
+    to support fax calls. The package allows for fax calls to be supported in two
+    different ways. The first one utilizes ITU-T Recommendation T.38 for fax relay
+    under the control of the Call Agent. The second one lets the gateway decide upon
     a method for fax transmission as well as handle the details of the fax call without
-    Call Agent involvement.  This memo provides information for the Internet community.</p>"
+    Call Agent involvement. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

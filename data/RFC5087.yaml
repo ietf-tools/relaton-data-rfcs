@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5087
 title:
 - content: Time Division Multiplexing over IP (TDMoIP)
@@ -141,18 +141,22 @@ script:
 abstract:
 - content: "<p>Time Division Multiplexing over IP (TDMoIP) is a structure-aware method
     for transporting Time Division Multiplexed (TDM) signals using pseudowires (PWs).
-    \ Being structure-aware, TDMoIP is able to ensure TDM structure integrity, and
-    thus withstand network degradations better than structure-agnostic transport.
-    \ Structure-aware methods can distinguish individual channels, enabling packet
-    loss concealment and bandwidth conservation.  Accessibility of TDM signaling facilitates
-    mechanisms that exploit or manipulate signaling.  This memo provides information
-    for the Internet community.</p>"
+    Being structure-aware, TDMoIP is able to ensure TDM structure integrity, and thus
+    withstand network degradations better than structure-agnostic transport. Structure-aware
+    methods can distinguish individual channels, enabling packet loss concealment
+    and bandwidth conservation. Accessibility of TDM signaling facilitates mechanisms
+    that exploit or manipulate signaling. This memo provides information for the Internet
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

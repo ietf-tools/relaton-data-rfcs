@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6076
 title:
 - content: Basic Telephony SIP End-to-End Performance Metrics
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document defines a set of metrics and their usage to evaluate
     the performance of end-to-end Session Initiation Protocol (SIP) for telephony
-    services in both production and testing environments.  The purpose of this document
+    services in both production and testing environments. The purpose of this document
     is to combine a standard set of common metrics, allowing interoperable performance
     measurements, easing the comparison of industry implementations. [STANDARDS-TRACK]</p>"
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

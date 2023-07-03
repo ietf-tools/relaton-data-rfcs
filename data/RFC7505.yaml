@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7505
 title:
 - content: A "Null MX" No Service Resource Record for Domains That Accept No Mail
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: <p>Internet mail determines the address of a receiving server through the
     DNS, first by looking for an MX record and then by looking for an A/AAAA record
-    as a fallback.  Unfortunately, this means that the A/AAAA record is taken to be
-    mail server address even when that address does not accept mail.  The No Service
+    as a fallback. Unfortunately, this means that the A/AAAA record is taken to be
+    mail server address even when that address does not accept mail. The No Service
     MX RR, informally called "null MX", formalizes the existing mechanism by which
     a domain announces that it accepts no mail, without having to provide a mail server;
     this permits significant operational efficiencies.</p>
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7008
 title:
 - content: A Description of the KCipher-2 Encryption Algorithm
@@ -94,20 +94,24 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the KCipher-2 encryption algorithm.  KCipher-2
-    is a stream cipher with a 128-bit key and a 128-bit initialization vector.  Since
+- content: "<p>This document describes the KCipher-2 encryption algorithm. KCipher-2
+    is a stream cipher with a 128-bit key and a 128-bit initialization vector. Since
     the algorithm for KCipher-2 was published in 2007, security and efficiency have
-    been rigorously evaluated through academic and industrial studies.  As of the
-    publication of this document, no security vulnerabilities have been found.  KCipher-2
-    offers fast encryption and decryption by means of simple operations that enable
-    efficient implementation.  KCipher-2 has been used for industrial applications,
-    especially for mobile health monitoring and diagnostic services in Japan.</p>"
+    been rigorously evaluated through academic and industrial studies. As of the publication
+    of this document, no security vulnerabilities have been found. KCipher-2 offers
+    fast encryption and decryption by means of simple operations that enable efficient
+    implementation. KCipher-2 has been used for industrial applications, especially
+    for mobile health monitoring and diagnostic services in Japan.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

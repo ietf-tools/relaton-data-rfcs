@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4036
 title:
 - content: Management Information Base for Data Over Cable Service Interface Specification
@@ -67,12 +67,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in the Internet community.  In particular,
+    for use with network management protocols in the Internet community. In particular,
     it defines a set of managed objects for Simple Network Management Protocol (SNMP)-based
     management of Data-over-Cable Service Interface Specification (DOCSIS)-compliant
-    Cable Modem Termination Systems.  These managed objects facilitate protection
-    of the cable network from misuse by subscribers.  The Differentiated Services
-    MIB (RFC 3289) provides the filtering functions needed here, making use of classification
+    Cable Modem Termination Systems. These managed objects facilitate protection of
+    the cable network from misuse by subscribers. The Differentiated Services MIB
+    (RFC 3289) provides the filtering functions needed here, making use of classification
     items defined in this specification. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

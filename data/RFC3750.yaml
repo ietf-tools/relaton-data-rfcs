@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3750
 title:
 - content: Unmanaged Networks IPv6 Transition Scenarios
@@ -153,15 +153,15 @@ script:
 - Latn
 abstract:
 - content: '<p>This document defines the scenarios in which IPv6 transition mechanisms
-    are to be used in unmanaged networks.  In order to evaluate the suitability of
+    are to be used in unmanaged networks. In order to evaluate the suitability of
     these mechanisms, we need to define the scenarios in which these mechanisms have
-    to be used.  One specific scope is the "unmanaged network", which typically corresponds
-    to a home or small office network.  The scenarios are specific to a single subnet,
+    to be used. One specific scope is the "unmanaged network", which typically corresponds
+    to a home or small office network. The scenarios are specific to a single subnet,
     and are defined in terms of IP connectivity supported by the gateway and the Internet
-    Service Provider (ISP).  We first examine the generic requirements of four classes
-    of applications: local, client, peer to peer and server.  Then, for each scenario,
+    Service Provider (ISP). We first examine the generic requirements of four classes
+    of applications: local, client, peer to peer and server. Then, for each scenario,
     we infer transition requirements by analyzing the needs for smooth migration of
-    applications from IPv4 to IPv6.  This memo provides information for the Internet
+    applications from IPv4 to IPv6. This memo provides information for the Internet
     community.</p>'
   language:
   - en
@@ -169,6 +169,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

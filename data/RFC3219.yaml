@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3219
 title:
 - content: Telephony Routing over IP (TRIP)
@@ -123,10 +123,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document presents the Telephony Routing over IP (TRIP).  TRIP
-    is a policy driven inter-administrative domain protocol for advertising the reachability
+- content: "<p>This document presents the Telephony Routing over IP (TRIP). TRIP is
+    a policy driven inter-administrative domain protocol for advertising the reachability
     of telephony destinations between location servers, and for advertising attributes
-    of the routes to those destinations.  TRIP's operation is independent of any signaling
+    of the routes to those destinations. TRIP's operation is independent of any signaling
     protocol, hence TRIP can serve as the telephony routing protocol for any signaling
     protocol. [STANDARDS-TRACK]</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

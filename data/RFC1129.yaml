@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1129
 title:
 - content: 'Internet Time Synchronization: The Network Time Protocol'
@@ -72,24 +72,28 @@ script:
 abstract:
 - content: "<p>This memo describes the Network Time Protocol (NTP) designed to distribute
     time information in a large, diverse internet system operating at speeds from
-    mundane to lightwave.  It uses a returnable- time architecture in which a distributed
+    mundane to lightwave. It uses a returnable- time architecture in which a distributed
     subnet of time servers operating in a self-organizing, hierarchical, master-slave
     configuration synchronizes local clocks within the subnet and to national time
-    standards via wire or radio.  The servers can also redistribute time information
-    within a network via local routing algorithms and time daemons.  The architectures,
+    standards via wire or radio. The servers can also redistribute time information
+    within a network via local routing algorithms and time daemons. The architectures,
     algorithms and protocols which have evolved to NTP over several years of implementation
-    and refinement are described in this paper.  The synchronization subnet which
-    has been in regular operation in the Internet for the last several years is described
+    and refinement are described in this paper. The synchronization subnet which has
+    been in regular operation in the Internet for the last several years is described
     along with performance data which shows that timekeeping accuracy throughout most
     portions of the Internet can be ordinarily maintained to within a few tens of
     milliseconds, even in cases of failure or disruption of clocks, time servers or
-    networks.  This memo describes the Network Time Protocol in RFC-1119.</p>"
+    networks. This memo describes the Network Time Protocol in RFC-1119.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8381
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Vendor-Specific
@@ -155,9 +155,9 @@ script:
 abstract:
 - content: "<p>The IETF TRILL (Transparent Interconnection of Lots of Links) protocol
     is implemented by devices called TRILL switches or RBridges (Routing Bridges).
-    \ TRILL includes a general mechanism, called an RBridge Channel, for the transmission
+    TRILL includes a general mechanism, called an RBridge Channel, for the transmission
     of typed messages between RBridges in the same campus and between RBridges and
-    end stations on the same link.  This document specifies a method to send vendor-specific
+    end stations on the same link. This document specifies a method to send vendor-specific
     messages over the RBridge Channel facility.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4594
 title:
 - content: Configuration Guidelines for DiffServ Service Classes
@@ -126,16 +126,20 @@ abstract:
 - content: "<p>This document describes service classes configured with Diffserv and
     recommends how they can be used and how to construct them using Differentiated
     Services Code Points (DSCPs), traffic conditioners, Per-Hop Behaviors (PHBs),
-    and Active Queue Management (AQM) mechanisms.  There is no intrinsic requirement
+    and Active Queue Management (AQM) mechanisms. There is no intrinsic requirement
     that particular DSCPs, traffic conditioners, PHBs, and AQM be used for a certain
     service class, but as a policy and for interoperability it is useful to apply
-    them consistently.  This memo provides information for the Internet community.</p>"
+    them consistently. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

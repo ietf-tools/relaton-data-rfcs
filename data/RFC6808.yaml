@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6808
 title:
 - content: Test Plan and Results Supporting Advancement of RFC 2679 on the Standards
@@ -155,20 +155,24 @@ script:
 abstract:
 - content: "<p>This memo provides the supporting test plan and results to advance
     RFC 2679 on one-way delay metrics along the Standards Track, following the process
-    in RFC 6576.  Observing that the metric definitions themselves should be the primary
+    in RFC 6576. Observing that the metric definitions themselves should be the primary
     focus rather than the implementations of metrics, this memo describes the test
     procedures to evaluate specific metric requirement clauses to determine if the
-    requirement has been interpreted and implemented as intended.  Two completely
-    independent implementations have been tested against the key specifications of
-    RFC 2679.  This memo also provides direct input for development of a revision
-    of RFC 2679.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.</p>"
+    requirement has been interpreted and implemented as intended. Two completely independent
+    implementations have been tested against the key specifications of RFC 2679. This
+    memo also provides direct input for development of a revision of RFC 2679. This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

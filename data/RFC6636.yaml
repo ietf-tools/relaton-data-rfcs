@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6636
 title:
 - content: Tuning the Behavior of the Internet Group Management Protocol (IGMP) and
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>The Internet Group Management Protocol (IGMP) and Multicast Listener
     Discovery (MLD) are the protocols used by hosts and multicast routers to exchange
-    their IP multicast group memberships with each other.  This document describes
+    their IP multicast group memberships with each other. This document describes
     ways to achieve IGMPv3 and MLDv2 protocol optimization for mobility and aims to
     become a guideline for the tuning of IGMPv3/MLDv2 Queries, timers, and counter
-    values.  This document is not an Internet Standards Track specification; it is
+    values. This document is not an Internet Standards Track specification; it is
     published for informational purposes.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

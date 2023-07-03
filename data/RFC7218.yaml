@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7218
 title:
 - content: Adding Acronyms to Simplify Conversations about DNS-Based Authentication
@@ -67,8 +67,8 @@ script:
 - Latn
 abstract:
 - content: "<p>Experience has shown that people get confused when discussing the three
-    numeric fields of the TLSA record.  This document specifies descriptive acronyms
-    for the three numeric fields in TLSA records.  This document updates the format
+    numeric fields of the TLSA record. This document specifies descriptive acronyms
+    for the three numeric fields in TLSA records. This document updates the format
     of the IANA registry created by RFC 6698.</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC6698
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

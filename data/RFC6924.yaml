@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6924
 title:
 - content: Registration of Second-Level URN Namespaces under "ietf"
@@ -65,10 +65,10 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>RFC 2648 defines the "ietf" URN namespace and a number of sub- namespaces.  RFC
-    3553 defines an additional sub-namespace, "params", and creates a registry to
-    document allocations under that.  But there is no registry that lists, in one
-    place, all sub-namespaces of "ietf".  This document creates and populates such
+- content: <p>RFC 2648 defines the "ietf" URN namespace and a number of sub- namespaces.
+    RFC 3553 defines an additional sub-namespace, "params", and creates a registry
+    to document allocations under that. But there is no registry that lists, in one
+    place, all sub-namespaces of "ietf". This document creates and populates such
     a registry, thereby changing the mechanism defined in RFC 2648 for adding new
     sub- namespaces of "ietf".</p>
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC2648
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

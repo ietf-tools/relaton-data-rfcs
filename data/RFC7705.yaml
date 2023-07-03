@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7705
 title:
 - content: Autonomous System Migration Mechanisms and Their Effects on the BGP AS_PATH
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document discusses some existing commonly used BGP mechanisms
     for Autonomous System Number (ASN) migration that are not formally part of the
-    BGP4 protocol specification.  It is necessary to document these de facto standards
+    BGP4 protocol specification. It is necessary to document these de facto standards
     to ensure that they are properly supported in future BGP protocol work.</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC4271
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

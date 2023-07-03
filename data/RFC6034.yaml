@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6034
 title:
 - content: Unicast-Prefix-Based IPv4 Multicast Addresses
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines an extension to the multicast addressing
-    architecture of the IP Version 4 protocol.  The extension presented in this document
-    allows for unicast-prefix-based assignment of multicast addresses.  By delegating
+    architecture of the IP Version 4 protocol. The extension presented in this document
+    allows for unicast-prefix-based assignment of multicast addresses. By delegating
     multicast addresses at the same time as unicast prefixes, network operators will
     be able to identify their multicast addresses without needing to run an inter-domain
     allocation protocol. [STANDARDS-TRACK]</p>"
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

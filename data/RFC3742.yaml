@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3742
 title:
 - content: Limited Slow-Start for TCP with Large Congestion Windows
@@ -66,17 +66,17 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an optional modification for TCP's slow-start
-    for use with TCP connections with large congestion windows.  For TCP connections
+    for use with TCP connections with large congestion windows. For TCP connections
     that are able to use congestion windows of thousands (or tens of thousands) of
     MSS-sized segments (for MSS the sender's MAXIMUM SEGMENT SIZE), the current slow-start
     procedure can result in increasing the congestion window by thousands of segments
-    in a single round-trip time.  Such an increase can easily result in thousands
-    of packets being dropped in one round-trip time.  This is often counter-productive
+    in a single round-trip time. Such an increase can easily result in thousands of
+    packets being dropped in one round-trip time. This is often counter-productive
     for the TCP flow itself, and is also hard on the rest of the traffic sharing the
-    congested link.  This note describes Limited Slow-Start as an optional mechanism
+    congested link. This note describes Limited Slow-Start as an optional mechanism
     for limiting the number of segments by which the congestion window is increased
     for one window of data during slow-start, in order to improve performance for
-    TCP connections with large congestion windows.  This memo defines an Experimental
+    TCP connections with large congestion windows. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -84,6 +84,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

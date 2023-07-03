@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7787
 title:
 - content: Distributed Node Consensus Protocol
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document describes the Distributed Node Consensus Protocol (DNCP),
     a generic state synchronization protocol that uses the Trickle algorithm and hash
-    trees.  DNCP is an abstract protocol and must be combined with a specific profile
+    trees. DNCP is an abstract protocol and must be combined with a specific profile
     to make a complete implementable protocol.</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

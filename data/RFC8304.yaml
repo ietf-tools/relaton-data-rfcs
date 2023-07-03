@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8304
 title:
 - content: Transport Features of the User Datagram Protocol (UDP) and Lightweight
@@ -97,13 +97,13 @@ script:
 abstract:
 - content: "<p>This is an informational document that describes the transport protocol
     interface primitives provided by the User Datagram Protocol (UDP) and the Lightweight
-    User Datagram Protocol (UDP-Lite) transport protocols.  It identifies the datagram
+    User Datagram Protocol (UDP-Lite) transport protocols. It identifies the datagram
     services exposed to applications and how an application can configure and use
-    the features offered by the Internet datagram transport service.  RFC 8303 documents
+    the features offered by the Internet datagram transport service. RFC 8303 documents
     the usage of transport features provided by IETF transport protocols, describing
     the way UDP, UDP-Lite, and other transport protocols expose their services to
     applications and how an application can configure and use the features that make
-    up these services.  This document provides input to and context for that document,
+    up these services. This document provides input to and context for that document,
     as well as offers a road map to documentation that may help users of the UDP and
     UDP-Lite protocols.</p>"
   language:
@@ -112,6 +112,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

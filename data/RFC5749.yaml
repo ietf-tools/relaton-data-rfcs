@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5749
 title:
 - content: Distribution of EAP-Based Keys for Handover and Re-Authentication
@@ -126,15 +126,15 @@ abstract:
 - content: "<p>This document describes an abstract mechanism for delivering root keys
     from an Extensible Authentication Protocol (EAP) server to another network server
     that requires the keys for offering security protected services, such as re-authentication,
-    to an EAP peer.  The distributed root key can be either a usage-specific root
-    key (USRK), a domain-specific root key (DSRK), or a domain-specific usage- specific
+    to an EAP peer. The distributed root key can be either a usage-specific root key
+    (USRK), a domain-specific root key (DSRK), or a domain-specific usage- specific
     root key (DSUSRK) that has been derived from an Extended Master Session Key (EMSK)
-    hierarchy previously established between the EAP server and an EAP peer.  This
+    hierarchy previously established between the EAP server and an EAP peer. This
     document defines a template for a key distribution exchange (KDE) protocol that
     can distribute these different types of root keys using a AAA (Authentication,
     Authorization, and Accounting) protocol and discusses its security requirements.
-    \ The described protocol template does not specify message formats, data encoding,
-    or other implementation details.  It thus needs to be instantiated with a specific
+    The described protocol template does not specify message formats, data encoding,
+    or other implementation details. It thus needs to be instantiated with a specific
     protocol (e.g., RADIUS or Diameter) before it can be used. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -142,6 +142,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

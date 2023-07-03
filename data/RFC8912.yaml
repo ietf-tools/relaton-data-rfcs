@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8912
 title:
 - content: Initial Performance Metrics Registry Entries
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: |-
     <p>This memo defines the set of initial entries for the IANA Registry of
-    Performance Metrics.  The set includes UDP Round-Trip Latency and
+    Performance Metrics. The set includes UDP Round-Trip Latency and
     Loss, Packet Delay Variation, DNS Response Latency and Loss, UDP
     Poisson One-Way Delay and Loss, UDP Periodic One-Way Delay and Loss,
     ICMP Round-Trip Latency and Loss, and TCP Round-Trip Delay and Loss.</p>
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

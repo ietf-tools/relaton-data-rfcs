@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3576
 title:
 - content: Dynamic Authorization Extensions to Remote Authentication Dial In User
@@ -184,9 +184,9 @@ script:
 abstract:
 - content: "<p>This document describes a currently deployed extension to the Remote
     Authentication Dial In User Service (RADIUS) protocol, allowing dynamic changes
-    to a user session, as implemented by network access server products.  This includes
+    to a user session, as implemented by network access server products. This includes
     support for disconnecting users and changing authorizations applicable to a user
-    session.  This memo provides information for the Internet community.</p>"
+    session. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -204,6 +204,10 @@ relation:
       content: RFC5176
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

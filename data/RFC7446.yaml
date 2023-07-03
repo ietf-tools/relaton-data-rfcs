@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7446
 title:
 - content: Routing and Wavelength Assignment Information Model for Wavelength Switched
@@ -155,18 +155,21 @@ script:
 abstract:
 - content: "<p>This document provides a model of information needed by the Routing
     and Wavelength Assignment (RWA) process in Wavelength Switched Optical Networks
-    (WSONs).  The purpose of the information described in this model is to facilitate
-    constrained optical path computation in WSONs.  This model takes into account
-    compatibility constraints between WSON signal attributes and network elements
-    but does not include constraints due to optical impairments.  Aspects of this
-    information that may be of use to other technologies utilizing a GMPLS control
-    plane are discussed.</p>"
+    (WSONs). The purpose of the information described in this model is to facilitate
+    constrained optical path computation in WSONs. This model takes into account compatibility
+    constraints between WSON signal attributes and network elements but does not include
+    constraints due to optical impairments. Aspects of this information that may be
+    of use to other technologies utilizing a GMPLS control plane are discussed.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

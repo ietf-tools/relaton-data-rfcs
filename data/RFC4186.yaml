@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4186
 title:
 - content: Extensible Authentication Protocol Method for Global System for Mobile
@@ -97,19 +97,23 @@ script:
 abstract:
 - content: "<p>This document specifies an Extensible Authentication Protocol (EAP)
     mechanism for authentication and session key distribution using the Global System
-    for Mobile Communications (GSM) Subscriber Identity Module (SIM).  GSM is a second
-    generation mobile network standard.  The EAP-SIM mechanism specifies enhancements
+    for Mobile Communications (GSM) Subscriber Identity Module (SIM). GSM is a second
+    generation mobile network standard. The EAP-SIM mechanism specifies enhancements
     to GSM authentication and key agreement whereby multiple authentication triplets
     can be combined to create authentication responses and session keys of greater
-    strength than the individual GSM triplets.  The mechanism also includes network
+    strength than the individual GSM triplets. The mechanism also includes network
     authentication, user anonymity support, result indications, and a fast re-authentication
-    procedure.  This memo provides information for the Internet community.</p>"
+    procedure. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

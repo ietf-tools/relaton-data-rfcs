@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8787
 title:
 - content: Location Source Parameter for the SIP Geolocation Header Field
@@ -153,11 +153,11 @@ script:
 - Latn
 abstract:
 - content: <p>There are some circumstances where a Geolocation header field may contain
-    more than one locationValue.  Knowing the identity of the node adding the locationValue
+    more than one locationValue. Knowing the identity of the node adding the locationValue
     allows the recipient more freedom in selecting the value to look at first rather
-    than relying solely on the order of the locationValues.  This document defines
+    than relying solely on the order of the locationValues. This document defines
     the "loc-src" parameter so that the entity adding the locationValue to the Geolocation
-    header field can identify itself using its hostname.  This document updates RFC
+    header field can identify itself using its hostname. This document updates RFC
     6442.</p>
   language:
   - en
@@ -176,6 +176,10 @@ relation:
       content: RFC6442
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

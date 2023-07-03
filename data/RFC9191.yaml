@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9191
 title:
 - content: Handling Large Certificates and Long Certificate Chains in TLS-Based EAP
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>The Extensible Authentication Protocol (EAP), defined in RFC 3748,
     provides a standard mechanism for support of multiple authentication methods.
-    \ EAP-TLS and other TLS-based EAP methods are widely deployed and used for network
-    access authentication.  Large certificates and long certificate chains combined
+    EAP-TLS and other TLS-based EAP methods are widely deployed and used for network
+    access authentication. Large certificates and long certificate chains combined
     with authenticators that drop an EAP session after only 40 - 50 round trips is
-    a major deployment problem.  This document looks at this problem in detail and
+    a major deployment problem. This document looks at this problem in detail and
     describes the potential solutions available.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

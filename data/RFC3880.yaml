@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3880
 title:
 - content: 'Call Processing Language (CPL): A Language for User Control of Internet
@@ -125,10 +125,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the Call Processing Language (CPL), a language
-    to describe and control Internet telephony services.  It is designed to be implementable
-    on either network servers or user agents.  It is meant to be simple, extensible,
+    to describe and control Internet telephony services. It is designed to be implementable
+    on either network servers or user agents. It is meant to be simple, extensible,
     easily edited by graphical clients, and independent of operating system or signalling
-    protocol.  It is suitable for running on a server where users may not be allowed
+    protocol. It is suitable for running on a server where users may not be allowed
     to execute arbitrary programs, as it has no variables, loops, or ability to run
     external programs. [STANDARDS-TRACK]</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

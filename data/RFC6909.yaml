@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6909
 title:
 - content: IPv4 Traffic Offload Selector Option for Proxy Mobile IPv6
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines a new mobility option, the IPv4 Traffic
-    Offload Selector option, for Proxy Mobile IPv6.  This option can be used by the
+    Offload Selector option, for Proxy Mobile IPv6. This option can be used by the
     local mobility anchor and the mobile access gateway for negotiating IPv4 traffic
-    offload policy for a mobility session.  Based on the negotiated IPv4 traffic offload
+    offload policy for a mobility session. Based on the negotiated IPv4 traffic offload
     policy, a mobile access gateway can selectively offload some of the IPv4 traffic
     flows in the access network instead of tunneling back to the local mobility anchor
     in the home network.</p>"
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

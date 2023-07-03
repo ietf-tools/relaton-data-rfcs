@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3605
 title:
 - content: Real Time Control Protocol (RTCP) attribute in Session Description Protocol
@@ -67,10 +67,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The Session Description Protocol (SDP) is used to describe the parameters
-    of media streams used in multimedia sessions.  When a session requires multiple
-    ports, SDP assumes that these ports have consecutive numbers.  However, when the
+    of media streams used in multimedia sessions. When a session requires multiple
+    ports, SDP assumes that these ports have consecutive numbers. However, when the
     session crosses a network address translation device that also uses port mapping,
-    the ordering of ports can be destroyed by the translation.  To handle this, we
+    the ordering of ports can be destroyed by the translation. To handle this, we
     propose an extension attribute to SDP.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

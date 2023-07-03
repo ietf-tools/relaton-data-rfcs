@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7851
 title:
 - content: Peer-to-Peer (P2P) Overlay Diagnostics
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes mechanisms for Peer-to-Peer (P2P) overlay diagnostics.
-    \ It defines extensions to the REsource LOcation And Discovery (RELOAD) base protocol
+    It defines extensions to the REsource LOcation And Discovery (RELOAD) base protocol
     to collect diagnostic information and details the protocol specifications for
-    these extensions.  Useful diagnostic information for connection and node status
-    monitoring is also defined.  The document also describes the usage scenarios and
+    these extensions. Useful diagnostic information for connection and node status
+    monitoring is also defined. The document also describes the usage scenarios and
     provides examples of how these methods are used to perform diagnostics.</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

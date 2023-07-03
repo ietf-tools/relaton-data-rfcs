@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9161
 title:
 - content: Operational Aspects of Proxy ARP/ND in Ethernet Virtual Private Networks
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: "<p>This document describes the Ethernet Virtual Private Network (EVPN)
     Proxy ARP/ND function augmented by the capability of the ARP/ND Extended Community.
-    \ From that perspective, this document updates the EVPN specification to provide
+    From that perspective, this document updates the EVPN specification to provide
     more comprehensive documentation of the operation of the Proxy ARP/ND function.
-    \ The EVPN Proxy ARP/ND function and the ARP/ND Extended Community help operators
+    The EVPN Proxy ARP/ND function and the ARP/ND Extended Community help operators
     of Internet Exchange Points, Data Centers, and other networks deal with IPv4 and
     IPv6 address resolution issues associated with large Broadcast Domains by reducing
     and even suppressing the flooding produced by address resolution in the EVPN network.</p>"
@@ -206,6 +206,10 @@ relation:
       content: RFC7432
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

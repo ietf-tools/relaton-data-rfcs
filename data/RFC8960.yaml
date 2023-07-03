@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8960
 title:
 - content: A YANG Data Model for MPLS Base
@@ -182,16 +182,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document contains a specification of the MPLS base YANG data model.
-    \ The MPLS base YANG data model serves as a base framework for configuring and
-    managing an MPLS switching subsystem on an MPLS-enabled router.  It is expected
-    that other MPLS YANG data models (e.g., MPLS Label Switched Path (LSP) static,
-    LDP, or RSVP-TE YANG data models) will augment the MPLS base YANG data model.</p>"
+    The MPLS base YANG data model serves as a base framework for configuring and managing
+    an MPLS switching subsystem on an MPLS-enabled router. It is expected that other
+    MPLS YANG data models (e.g., MPLS Label Switched Path (LSP) static, LDP, or RSVP-TE
+    YANG data models) will augment the MPLS base YANG data model.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

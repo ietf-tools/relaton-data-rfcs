@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5251
 title:
 - content: Layer 1 VPN Basic Mode
@@ -181,18 +181,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the Basic Mode of Layer 1 VPNs (L1VPNs).  L1VPN
-    Basic Mode (L1VPN BM) is a port-based VPN.  In L1VPN Basic Mode, the basic unit
+- content: "<p>This document describes the Basic Mode of Layer 1 VPNs (L1VPNs). L1VPN
+    Basic Mode (L1VPN BM) is a port-based VPN. In L1VPN Basic Mode, the basic unit
     of service is a Label Switched Path (LSP) between a pair of customer ports within
-    a given VPN port topology.  This document defines the operational model using
-    either provisioning or a VPN auto-discovery mechanism, and the signaling extensions
-    for the L1VPN BM. [STANDARDS-TRACK]</p>"
+    a given VPN port topology. This document defines the operational model using either
+    provisioning or a VPN auto-discovery mechanism, and the signaling extensions for
+    the L1VPN BM. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

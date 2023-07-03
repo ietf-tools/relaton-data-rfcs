@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5954
 title:
 - content: Essential Correction for IPv6 ABNF and URI Comparison in RFC 3261
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document corrects the Augmented Backus-Naur Form (ABNF) production
-    rule associated with generating IPv6 literals in RFC 3261.  It also clarifies
-    the rule for Uniform Resource Identifier (URI) comparison when the URIs contain
-    textual representation of IP addresses. [STANDARDS-TRACK]</p>"
+    rule associated with generating IPv6 literals in RFC 3261. It also clarifies the
+    rule for Uniform Resource Identifier (URI) comparison when the URIs contain textual
+    representation of IP addresses. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -144,6 +144,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

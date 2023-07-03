@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8590
 title:
 - content: Change Poll Extension for the Extensible Provisioning Protocol (EPP)
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>This document describes an Extensible Provisioning Protocol (EPP) extension
     for notifying clients of operations on client-sponsored objects that were not
-    initiated by the client through EPP.  These operations may include contractual
+    initiated by the client through EPP. These operations may include contractual
     or policy requirements including, but not limited to, regular batch processes,
     customer support actions, Uniform Domain-Name Dispute-Resolution Policy (UDRP)
     or Uniform Rapid Suspension (URS) actions, court-directed actions, and bulk updates
-    based on customer requests.  Since the client is not directly involved or knowledgable
+    based on customer requests. Since the client is not directly involved or knowledgable
     of these operations, the extension is used along with an EPP object mapping to
     provide the resulting state of the postoperation object, and optionally a preoperation
     object, with the operation metadata of what, when, who, and why.</p>"
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

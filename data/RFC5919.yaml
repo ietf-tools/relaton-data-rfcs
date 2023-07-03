@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5919
 title:
 - content: Signaling LDP Label Advertisement Completion
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>There are situations following Label Distribution Protocol (LDP) session
     establishment where it would be useful for an LDP speaker to know when its peer
-    has advertised all of its labels.  The LDP specification provides no mechanism
+    has advertised all of its labels. The LDP specification provides no mechanism
     for an LDP speaker to notify a peer when it has completed its initial label advertisements
-    to that peer.  This document specifies means for an LDP speaker to signal completion
+    to that peer. This document specifies means for an LDP speaker to signal completion
     of its initial label advertisements following session establishment. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

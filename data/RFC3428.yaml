@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3428
 title:
 - content: Session Initiation Protocol (SIP) Extension for Instant Messaging
@@ -182,23 +182,26 @@ script:
 - Latn
 abstract:
 - content: "<p>Instant Messaging (IM) refers to the transfer of messages between users
-    in near real-time.  These messages are usually, but not required to be, short.
-    \ IMs are often used in a conversational mode, that is, the transfer of messages
+    in near real-time. These messages are usually, but not required to be, short.
+    IMs are often used in a conversational mode, that is, the transfer of messages
     back and forth is fast enough for participants to maintain an interactive conversation.
-    \ This document proposes the MESSAGE method, an extension to the Session Initiation
-    Protocol (SIP) that allows the transfer of Instant Messages.  Since the MESSAGE
+    This document proposes the MESSAGE method, an extension to the Session Initiation
+    Protocol (SIP) that allows the transfer of Instant Messages. Since the MESSAGE
     request is an extension to SIP, it inherits all the request routing and security
-    features of that protocol.  MESSAGE requests carry the content in the form of
-    MIME body parts.  MESSAGE requests do not themselves initiate a SIP dialog; under
-    normal usage each Instant Message stands alone, much like pager messages.  MESSAGE
-    requests may be sent in the context of a dialog initiated by some other SIP request.
-    [STANDARDS-TRACK]</p>"
+    features of that protocol. MESSAGE requests carry the content in the form of MIME
+    body parts. MESSAGE requests do not themselves initiate a SIP dialog; under normal
+    usage each Instant Message stands alone, much like pager messages. MESSAGE requests
+    may be sent in the context of a dialog initiated by some other SIP request. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

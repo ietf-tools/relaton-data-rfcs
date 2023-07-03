@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4168
 title:
 - content: The Stream Control Transmission Protocol (SCTP) as a Transport for the
@@ -126,9 +126,9 @@ script:
 abstract:
 - content: "<p>This document specifies a mechanism for usage of SCTP (the Stream Control
     Transmission Protocol) as the transport mechanism between SIP (Session Initiation
-    Protocol) entities.  SCTP is a new protocol that provides several features that
+    Protocol) entities. SCTP is a new protocol that provides several features that
     may prove beneficial for transport between SIP entities that exchange a large
-    amount of messages, including gateways and proxies.  As SIP is transport-independent,
+    amount of messages, including gateways and proxies. As SIP is transport-independent,
     support of SCTP is a relatively straightforward process, nearly identical to support
     for TCP. [STANDARDS-TRACK]</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

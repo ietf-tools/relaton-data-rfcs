@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4853
 title:
 - content: Cryptographic Message Syntax (CMS) Multiple Signer Clarification
@@ -66,9 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates the Cryptographic Message Syntax (CMS), which
-    is published in RFC 3852.  This document clarifies the proper handling of the
-    SignedData protected content type when more than one digital signature is present.
-    [STANDARDS-TRACK]</p>"
+    is published in RFC 3852. This document clarifies the proper handling of the SignedData
+    protected content type when more than one digital signature is present. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -86,6 +85,10 @@ relation:
       content: RFC3852
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

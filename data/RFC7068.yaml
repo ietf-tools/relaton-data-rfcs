@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7068
 title:
 - content: Diameter Overload Control Requirements
@@ -96,17 +96,21 @@ script:
 abstract:
 - content: "<p>When a Diameter server or agent becomes overloaded, it needs to be
     able to gracefully reduce its load, typically by advising clients to reduce traffic
-    for some period of time.  Otherwise, it must continue to expend resources parsing
+    for some period of time. Otherwise, it must continue to expend resources parsing
     and responding to Diameter messages, possibly resulting in a progressively severe
-    overload condition.  The existing Diameter mechanisms are not sufficient for managing
-    overload conditions.  This document describes the limitations of the existing
-    mechanisms.  Requirements for new overload management mechanisms are also provided.</p>"
+    overload condition. The existing Diameter mechanisms are not sufficient for managing
+    overload conditions. This document describes the limitations of the existing mechanisms.
+    Requirements for new overload management mechanisms are also provided.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7610
 title:
 - content: 'DHCPv6-Shield: Protecting against Rogue DHCPv6 Servers'
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a mechanism for protecting hosts connected
-    to a switched network against rogue DHCPv6 servers.  It is based on DHCPv6 packet
-    filtering at the layer 2 device at which the packets are received.  A similar
-    mechanism has been widely deployed in IPv4 networks ('DHCP snooping'); hence,
-    it is desirable that similar functionality be provided for IPv6 networks.  This
-    document specifies a Best Current Practice for the implementation of DHCPv6-Shield.</p>"
+    to a switched network against rogue DHCPv6 servers. It is based on DHCPv6 packet
+    filtering at the layer 2 device at which the packets are received. A similar mechanism
+    has been widely deployed in IPv4 networks ('DHCP snooping'); hence, it is desirable
+    that similar functionality be provided for IPv6 networks. This document specifies
+    a Best Current Practice for the implementation of DHCPv6-Shield.</p>"
   language:
   - en
   script:
@@ -139,6 +139,10 @@ series:
     content: BCP
     format: text/plain
   number: '199'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

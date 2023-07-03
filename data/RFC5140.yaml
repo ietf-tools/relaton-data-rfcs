@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5140
 title:
 - content: A Telephony Gateway REgistration Protocol (TGREP)
@@ -188,12 +188,12 @@ script:
 abstract:
 - content: "<p>This document describes the Telephony Gateway Registration Protocol
     (TGREP) for registration of telephony prefixes supported by telephony gateways
-    and soft switches.  The registration mechanism can also be used to export resource
-    information.  The prefix and resource information can then be passed on to a Telephony
+    and soft switches. The registration mechanism can also be used to export resource
+    information. The prefix and resource information can then be passed on to a Telephony
     Routing over IP (TRIP) Location Server, which in turn can propagate that routing
     information within and between Internet Telephony Administrative Domains (ITADs).
-    \ TGREP shares a lot of similarities with the TRIP protocol.  It has similar procedures
-    and finite state machine for session establishment.  It also shares the same format
+    TGREP shares a lot of similarities with the TRIP protocol. It has similar procedures
+    and finite state machine for session establishment. It also shares the same format
     for messages and a subset of attributes with TRIP. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -201,6 +201,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

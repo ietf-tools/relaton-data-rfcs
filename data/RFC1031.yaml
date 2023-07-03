@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1031
 title:
 - content: MILNET name domain transition
@@ -71,18 +71,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC consolidates information necessary for the implementation
-    of domain style names throughout the DDN/MILNET Internet community.  The introduction
-    of domain style names will impact all hosts in the DDN/MILNET Internet.  This
-    RFC is designed as an aid to implementors and administrators by providing: 1)
-    an overview of the transition process from host tables to domains, 2) a timetable
-    for the transition, and 3) references to documentation and software relating to
-    the domain system.</p>"
+    of domain style names throughout the DDN/MILNET Internet community. The introduction
+    of domain style names will impact all hosts in the DDN/MILNET Internet. This RFC
+    is designed as an aid to implementors and administrators by providing: 1) an overview
+    of the transition process from host tables to domains, 2) a timetable for the
+    transition, and 3) references to documentation and software relating to the domain
+    system.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

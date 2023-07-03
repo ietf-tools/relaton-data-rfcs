@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5807
 title:
 - content: Definition of Master Key between PANA Client and Enforcement Point
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>This document defines a master key used between a client of the Protocol
     for carrying Authentication for Network Access (PANA) and an enforcement point,
-    for bootstrapping lower-layer ciphering.  The master key is derived from the Master
+    for bootstrapping lower-layer ciphering. The master key is derived from the Master
     Session Key of the Extensible Authentication Protocol as a result of successful
-    PANA authentication.  The master key guarantees cryptographic independence among
+    PANA authentication. The master key guarantees cryptographic independence among
     enforcement points bootstrapped from PANA authentication across different address
     families. [STANDARDS-TRACK]</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

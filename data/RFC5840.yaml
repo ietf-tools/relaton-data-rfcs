@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5840
 title:
 - content: Wrapped Encapsulating Security Payload (ESP) for Traffic Visibility
@@ -127,11 +127,11 @@ abstract:
     (WESP) protocol, which builds on the Encapsulating Security Payload (ESP) RFC
     4303 and is designed to allow intermediate devices to (1) ascertain if data confidentiality
     is being employed within ESP, and if not, (2) inspect the IPsec packets for network
-    monitoring and access control functions.  Currently, in the IPsec ESP standard,
+    monitoring and access control functions. Currently, in the IPsec ESP standard,
     there is no deterministic way to differentiate between encrypted and unencrypted
-    payloads by simply examining a packet.  This poses certain challenges to the intermediate
+    payloads by simply examining a packet. This poses certain challenges to the intermediate
     devices that need to deep inspect the packet before making a decision on what
-    should be done with that packet (Inspect and/or Allow/Drop).  The mechanism described
+    should be done with that packet (Inspect and/or Allow/Drop). The mechanism described
     in this document can be used to easily disambiguate integrity-only ESP from ESP-encrypted
     packets, without compromising on the security provided by ESP. [STANDARDS-TRACK]</p>"
   language:
@@ -140,6 +140,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

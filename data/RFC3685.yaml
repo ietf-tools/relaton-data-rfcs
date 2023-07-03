@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3685
 title:
 - content: 'SIEVE Email Filtering: Spamtest and VirusTest Extensions'
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: <p>The SIEVE mail filtering language "spamtest" and "virustest" extensions
     permit users to use simple, portable commands for spam and virus tests on email
-    messages.  Each extension provides a new test using matches against numeric 'scores'.  It
-    is the responsibility of the underlying SIEVE implementation to do the actual
+    messages. Each extension provides a new test using matches against numeric 'scores'.
+    It is the responsibility of the underlying SIEVE implementation to do the actual
     checks that result in values returned by the tests. [PROPOSED STANDARD]</p>
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC5235
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6603
 title:
 - content: Prefix Exclude Option for DHCPv6-based Prefix Delegation
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This specification defines an optional mechanism to allow exclusion
     of one specific prefix from a delegated prefix set when using DHCPv6-based prefix
-    delegation.  The new mechanism updates RFC 3633. [STANDARDS-TRACK]</p>"
+    delegation. The new mechanism updates RFC 3633. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -172,6 +172,10 @@ relation:
       content: RFC3633
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

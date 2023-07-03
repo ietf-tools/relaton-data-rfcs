@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6946
 title:
 - content: Processing of IPv6 "Atomic" Fragments
@@ -67,16 +67,16 @@ script:
 abstract:
 - content: <p>The IPv6 specification allows packets to contain a Fragment Header without
     the packet being actually fragmented into multiple pieces (we refer to these packets
-    as "atomic fragments").  Such packets are typically sent by hosts that have received
+    as "atomic fragments"). Such packets are typically sent by hosts that have received
     an ICMPv6 "Packet Too Big" error message that advertises a Next-Hop MTU smaller
     than 1280 bytes, and are currently processed by some implementations as normal
     "fragmented traffic" (i.e., they are "reassembled" with any other queued fragments
-    that supposedly correspond to the same original packet).  Thus, an attacker can
+    that supposedly correspond to the same original packet). Thus, an attacker can
     cause hosts to employ atomic fragments by forging ICMPv6 "Packet Too Big" error
-    messages, and then launch any fragmentation-based attacks against such traffic.  This
-    document discusses the generation of the aforementioned atomic fragments and the
-    corresponding security implications.  Additionally, this document formally updates
-    RFC 2460 and RFC 5722, such that IPv6 atomic fragments are processed independently
+    messages, and then launch any fragmentation-based attacks against such traffic.
+    This document discusses the generation of the aforementioned atomic fragments
+    and the corresponding security implications. Additionally, this document formally
+    updates RFC 2460 and RFC 5722, such that IPv6 atomic fragments are processed independently
     of any other fragments, thus completely eliminating the aforementioned attack
     vector.</p>
   language:
@@ -106,6 +106,10 @@ relation:
       content: RFC5722
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

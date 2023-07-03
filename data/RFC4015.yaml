@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4015
 title:
 - content: The Eifel Response Algorithm for TCP
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Based on an appropriate detection algorithm, the Eifel response algorithm
-    provides a way for a TCP sender to respond to a detected spurious timeout.  It
+    provides a way for a TCP sender to respond to a detected spurious timeout. It
     adapts the retransmission timer to avoid further spurious timeouts and (depending
     on the detection algorithm) can avoid the often unnecessary go-back-N retransmits
-    that would otherwise be sent.  In addition, the Eifel response algorithm restores
+    that would otherwise be sent. In addition, the Eifel response algorithm restores
     the congestion control state in such a way that packet bursts are avoided. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

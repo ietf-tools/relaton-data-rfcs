@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8936
 title:
 - content: Poll-Based Security Event Token (SET) Delivery Using HTTP
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This specification defines how a series of Security Event Tokens (SETs)
     can be delivered to an intended recipient using HTTP POST over TLS initiated as
-    a poll by the recipient.  The specification also defines how delivery can be assured,
+    a poll by the recipient. The specification also defines how delivery can be assured,
     subject to the SET Recipient's need for assurance.</p>"
   language:
   - en
@@ -191,6 +191,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

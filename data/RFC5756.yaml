@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5756
 title:
 - content: Updates for RSAES-OAEP and RSASSA-PSS Algorithm Parameters
@@ -181,10 +181,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document updates RFC 4055.  It updates the conventions for using
+- content: "<p>This document updates RFC 4055. It updates the conventions for using
     the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP)
     key transport algorithm in the Internet X.509 Public Key Infrastructure (PKI).
-    \ Specifically, it updates the conventions for algorithm parameters in an X.509
+    Specifically, it updates the conventions for algorithm parameters in an X.509
     certificate's subjectPublicKeyInfo field. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -203,6 +203,10 @@ relation:
       content: RFC4055
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

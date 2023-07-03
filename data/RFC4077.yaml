@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4077
 title:
 - content: A Negative Acknowledgement Mechanism for Signaling Compression
@@ -72,7 +72,7 @@ script:
 abstract:
 - content: "<p>This document describes a mechanism that allows Signaling Compression
     (SigComp) implementations to report precise error information upon receipt of
-    a message which cannot be decompressed.  This negative feedback can be used by
+    a message which cannot be decompressed. This negative feedback can be used by
     the recipient to make fine-grained adjustments to the compressed message before
     retransmitting it, allowing for rapid and efficient recovery from error situations.
     [STANDARDS-TRACK]</p>"
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

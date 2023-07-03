@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8129
 title:
 - content: Authentication Indicator in Kerberos Tickets
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates RFC 4120, as it specifies an extension in the
-    Kerberos protocol.  It defines a new authorization data type, AD-AUTHENTICATION-INDICATOR.
-    \ The purpose of introducing this data type is to include an indicator of the
-    strength of a client's authentication in service tickets so that application services
-    can use it as an input into policy decisions.</p>"
+    Kerberos protocol. It defines a new authorization data type, AD-AUTHENTICATION-INDICATOR.
+    The purpose of introducing this data type is to include an indicator of the strength
+    of a client's authentication in service tickets so that application services can
+    use it as an input into policy decisions.</p>"
   language:
   - en
   script:
@@ -145,6 +145,10 @@ relation:
       content: RFC4120
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

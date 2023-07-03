@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5052
 title:
 - content: Forward Error Correction (FEC) Building Block
@@ -125,24 +125,28 @@ script:
 abstract:
 - content: <p>This document describes how to use Forward Error Correction (FEC) codes
     to efficiently provide and/or augment reliability for bulk data transfer over
-    IP multicast.  This document defines a framework for the definition of the information
+    IP multicast. This document defines a framework for the definition of the information
     that needs to be communicated in order to use an FEC code for bulk data transfer,
     in addition to the encoded data itself, and for definition of formats and codes
-    for communication of that information.  Both information communicated with the
+    for communication of that information. Both information communicated with the
     encoded data itself and information that needs to be communicated 'out-of-band'
-    are considered.  The procedures for specifying new FEC codes, defining the information
+    are considered. The procedures for specifying new FEC codes, defining the information
     communication requirements associated with those codes and registering them with
-    the Internet Assigned Numbers Authority (IANA) are also described.  The requirements
+    the Internet Assigned Numbers Authority (IANA) are also described. The requirements
     on Content Delivery Protocols that wish to use FEC codes defined within this framework
-    are also defined.  The companion document titled "The Use of Forward Error Correction
+    are also defined. The companion document titled "The Use of Forward Error Correction
     (FEC) in Reliable Multicast" describes some applications of FEC codes for delivering
-    content.  This document obsoletes RFC 3452. [STANDARDS-TRACK]</p>
+    content. This document obsoletes RFC 3452. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3917
 title:
 - content: Requirements for IP Flow Information Export (IPFIX)
@@ -153,7 +153,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines requirements for the export of measured IP flow information
-    out of routers, traffic measurement probes, and middleboxes.  This memo provides
+    out of routers, traffic measurement probes, and middleboxes. This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -161,6 +161,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

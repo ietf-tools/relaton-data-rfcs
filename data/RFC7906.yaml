@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7906
 title:
 - content: NSA's Cryptographic Message Syntax (CMS) Key Management Attributes
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines key management attributes used by the National
-    Security Agency (NSA).  The attributes can appear in asymmetric and/or symmetric
+    Security Agency (NSA). The attributes can appear in asymmetric and/or symmetric
     key packages as well as the Cryptographic Message Syntax (CMS) content types that
-    subsequently envelope the key packages.  Key packages described in RFCs 5958 and
+    subsequently envelope the key packages. Key packages described in RFCs 5958 and
     6031 are examples of where these attributes can be used.</p>"
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

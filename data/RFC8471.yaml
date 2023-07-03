@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8471
 title:
 - content: The Token Binding Protocol Version 1.0
@@ -153,10 +153,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies version 1.0 of the Token Binding protocol.
-    \ The Token Binding protocol allows client/server applications to create long-lived,
+    The Token Binding protocol allows client/server applications to create long-lived,
     uniquely identifiable TLS bindings spanning multiple TLS sessions and connections.
-    \ Applications are then enabled to cryptographically bind security tokens to the
-    TLS layer, preventing token export and replay attacks.  To protect privacy, the
+    Applications are then enabled to cryptographically bind security tokens to the
+    TLS layer, preventing token export and replay attacks. To protect privacy, the
     Token Binding identifiers are only conveyed over TLS and can be reset by the user
     at any time.</p>"
   language:
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

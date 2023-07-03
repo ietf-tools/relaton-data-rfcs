@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7519
 title:
 - content: JSON Web Token (JWT)
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>JSON Web Token (JWT) is a compact, URL-safe means of representing claims
-    to be transferred between two parties.  The claims in a JWT are encoded as a JSON
+    to be transferred between two parties. The claims in a JWT are encoded as a JSON
     object that is used as the payload of a JSON Web Signature (JWS) structure or
     as the plaintext of a JSON Web Encryption (JWE) structure, enabling the claims
     to be digitally signed or integrity protected with a Message Authentication Code
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

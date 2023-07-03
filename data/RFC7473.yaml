@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7473
 title:
 - content: Controlling State Advertisements of Non-negotiated LDP Applications
@@ -97,10 +97,10 @@ abstract:
 - content: "<p>There is no capability negotiation done for Label Distribution Protocol
     (LDP) applications that set up Label Switched Paths (LSPs) for IP prefixes or
     that signal point-to-point (P2P) Pseudowires (PWs) for Layer 2 Virtual Private
-    Networks (L2VPNs).  When an LDP session comes up, an LDP speaker may unnecessarily
+    Networks (L2VPNs). When an LDP session comes up, an LDP speaker may unnecessarily
     advertise its local state for such LDP applications even when the peer session
     is established for some other applications like Multipoint LDP (mLDP) or the Inter-Chassis
-    Communication Protocol (ICCP).  This document defines a solution by which an LDP
+    Communication Protocol (ICCP). This document defines a solution by which an LDP
     speaker announces to its peer its disinterest in such non-negotiated applications,
     thus disabling the unnecessary advertisement of corresponding application state,
     which would have otherwise been advertised over the established LDP session.</p>"
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

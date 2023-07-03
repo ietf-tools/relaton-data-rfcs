@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5563
 title:
 - content: WiMAX Forum / 3GPP2 Proxy Mobile IPv4
@@ -153,14 +153,14 @@ script:
 - Latn
 abstract:
 - content: "<p>Mobile IPv4 is a standard mobility protocol that enables an IPv4 device
-    to move among networks while maintaining its IP address.  The mobile device has
+    to move among networks while maintaining its IP address. The mobile device has
     the Mobile IPv4 client function to signal its location to the routing anchor,
-    known as the Home Agent.  However, there are many IPv4 devices without such capability
-    due to various reasons.  This document describes Proxy Mobile IPv4 (PMIPv4), a
+    known as the Home Agent. However, there are many IPv4 devices without such capability
+    due to various reasons. This document describes Proxy Mobile IPv4 (PMIPv4), a
     scheme based on having the Mobile IPv4 client function in a network entity to
-    provide mobility support for an unaltered and mobility-unaware IPv4 device.  This
+    provide mobility support for an unaltered and mobility-unaware IPv4 device. This
     document also describes a particular application of PMIPv4 as specified in the
-    WiMAX Forum and another application that is to be adopted in 3GPP2.  This document
+    WiMAX Forum and another application that is to be adopted in 3GPP2. This document
     is not an Internet Standards Track specification; it is published for informational
     purposes.</p>"
   language:
@@ -169,6 +169,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

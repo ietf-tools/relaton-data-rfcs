@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC925
 title:
 - content: Multi-LAN address resolution
@@ -66,16 +66,16 @@ script:
 - Latn
 abstract:
 - content: '<p>The problem of treating a set of local area networks (LANs) as one
-    Internet network has generated some interest and concern.  It is inappropriate
-    to give each LAN within an site a distinct Internet network number.  It is desirable
+    Internet network has generated some interest and concern. It is inappropriate
+    to give each LAN within an site a distinct Internet network number. It is desirable
     to hide the details of the interconnections between the LANs within an site from
-    people, gateways, and hosts outside the site.  The question arises on how to best
-    do this, and even how to do it at all.  In RFC-917 Jeffery Mogul makes a case
-    for the use of "explicit subnets" in a multi-LAN environment.  The explicit subnet
+    people, gateways, and hosts outside the site. The question arises on how to best
+    do this, and even how to do it at all. In RFC-917 Jeffery Mogul makes a case for
+    the use of "explicit subnets" in a multi-LAN environment. The explicit subnet
     scheme is a call to recursively apply the mechanisms the Internet uses to manage
-    networks to the problem of managing LANs within one network.  In this note I urge
+    networks to the problem of managing LANs within one network. In this note I urge
     another approach: the use of "transparent subnets" supported by a multi-LAN extension
-    of the Address Resolution Protocol.  This RFC suggests a proposed protocol for
+    of the Address Resolution Protocol. This RFC suggests a proposed protocol for
     the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>'
   language:
   - en
@@ -83,6 +83,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

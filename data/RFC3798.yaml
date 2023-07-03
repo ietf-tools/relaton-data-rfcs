@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3798
 title:
 - content: Message Disposition Notification
@@ -96,19 +96,19 @@ script:
 abstract:
 - content: <p>This memo defines a MIME content-type that may be used by a mail user
     agent (MUA) or electronic mail gateway to report the disposition of a message
-    after it has been successfully delivered to a recipient.  This content-type is
-    intended to be machine-processable.  Additional message headers are also defined
+    after it has been successfully delivered to a recipient. This content-type is
+    intended to be machine-processable. Additional message headers are also defined
     to permit Message Disposition Notifications (MDNs) to be requested by the sender
-    of a message.  The purpose is to extend Internet Mail to support functionality
+    of a message. The purpose is to extend Internet Mail to support functionality
     often found in other messaging systems, such as X.400 and the proprietary "LAN-based"
     systems, and often referred to as "read receipts," "acknowledgements", or "receipt
     notifications." The intention is to do this while respecting privacy concerns,
     which have often been expressed when such functions have been discussed in the
-    past.  Because many messages are sent between the Internet and other messaging
+    past. Because many messages are sent between the Internet and other messaging
     systems (such as X.400 or the proprietary "LAN-based" systems), the MDN protocol
-    is designed to be useful in a multi-protocol messaging environment.  To this end,
+    is designed to be useful in a multi-protocol messaging environment. To this end,
     the protocol described in this memo provides for the carriage of "foreign" addresses,
-    in addition to those normally used in Internet Mail.  Additional attributes may
+    in addition to those normally used in Internet Mail. Additional attributes may
     also be defined to support "tunneling" of foreign notifications through Internet
     Mail. [STANDARDS-TRACK]</p>
   language:
@@ -148,6 +148,10 @@ relation:
       content: RFC2046
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

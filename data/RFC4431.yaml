@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4431
 title:
 - content: The DNSSEC Lookaside Validation (DLV) DNS Resource Record
@@ -96,13 +96,17 @@ script:
 abstract:
 - content: "<p>This document defines a new DNS resource record, called the DNSSEC
     Lookaside Validation (DLV) RR, for publishing DNSSEC trust anchors outside of
-    the DNS delegation chain.  This memo provides information for the Internet community.</p>"
+    the DNS delegation chain. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

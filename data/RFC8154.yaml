@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8154
 title:
 - content: Parallel NFS (pNFS) Small Computer System Interface (SCSI) Layout
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>The Parallel Network File System (pNFS) allows a separation between
     the metadata (onto a metadata server) and data (onto a storage device) for a file.
-    \ The Small Computer System Interface (SCSI) layout type is defined in this document
+    The Small Computer System Interface (SCSI) layout type is defined in this document
     as an extension to pNFS to allow the use of SCSI-based block storage devices.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

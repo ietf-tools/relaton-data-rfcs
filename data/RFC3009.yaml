@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3009
 title:
 - content: Registration of parityfec MIME types
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>The RTP (Real-time Transport Protocol) payload format for generic forward
     error correction allows RTP participants to improve loss resiliency through the
-    use of traditional parity-based channel codes.  This payload format requires four
+    use of traditional parity-based channel codes. This payload format requires four
     new MIME types, audio/parityfec, video/parityfec, text/parityfec and application/parityfec.
-    \ This document serves as the MIME type registration for those formats. [STANDARDS-TRACK]</p>"
+    This document serves as the MIME type registration for those formats. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC5109
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

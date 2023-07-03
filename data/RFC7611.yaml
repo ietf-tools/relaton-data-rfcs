@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7611
 title:
 - content: BGP ACCEPT_OWN Community Attribute
@@ -185,10 +185,10 @@ abstract:
     (BGP) route reflector to be able to modify the Route Target (RT) list of a Virtual
     Private Network (VPN) route that the route reflector distributes, enabling the
     route reflector to control how a route originated within one VPN Routing and Forwarding
-    table (VRF) is imported into other VRFs.  This technique works effectively as
-    long as the VRF that exports the route is not on the same Provider Edge (PE) router
-    as the VRF(s) that imports the route.  However, due to the constraints of BGP,
-    it does not work if the two are on the same PE.  This document describes a modification
+    table (VRF) is imported into other VRFs. This technique works effectively as long
+    as the VRF that exports the route is not on the same Provider Edge (PE) router
+    as the VRF(s) that imports the route. However, due to the constraints of BGP,
+    it does not work if the two are on the same PE. This document describes a modification
     to BGP allowing this technique to work when the VRFs are on the same PE and to
     be used in a standard manner throughout an autonomous system.</p>"
   language:
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

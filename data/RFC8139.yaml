@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8139
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Appointed Forwarders'
@@ -183,12 +183,12 @@ script:
 abstract:
 - content: <p>TRILL (Transparent Interconnection of Lots of Links) supports multi-access
     LAN (Local Area Network) links where a single link can have multiple end stations
-    and TRILL switches attached.  Where multiple TRILL switches are attached to a
-    link, native traffic to and from end stations on that link is handled by a subset
-    of those TRILL switches called "Appointed Forwarders" as originally specified
-    in RFC 6325, with the intent that native traffic in each VLAN be handled by at
-    most one TRILL switch.  This document clarifies and updates the Appointed Forwarder
-    mechanism.  It updates RFCs 6325 and 7177 and obsoletes RFC 6439.</p>
+    and TRILL switches attached. Where multiple TRILL switches are attached to a link,
+    native traffic to and from end stations on that link is handled by a subset of
+    those TRILL switches called "Appointed Forwarders" as originally specified in
+    RFC 6325, with the intent that native traffic in each VLAN be handled by at most
+    one TRILL switch. This document clarifies and updates the Appointed Forwarder
+    mechanism. It updates RFCs 6325 and 7177 and obsoletes RFC 6439.</p>
   language:
   - en
   script:
@@ -216,6 +216,10 @@ relation:
       content: RFC7177
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

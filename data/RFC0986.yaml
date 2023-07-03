@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC986
 title:
 - content: Guidelines for the use of Internet-IP addresses in the ISO Connectionless-Mode
@@ -102,10 +102,10 @@ script:
 abstract:
 - content: <p>This RFC suggests a method to allow the existing IP addressing, including
     the IP protocol field, to be used for the ISO Connectionless Network Protocol
-    (CLNP).  This is a draft solution to one of the problems inherent in the use of
-    "ISO-grams" in the DOD Internet.  Related issues will be discussed in subsequent
-    RFCs.  This RFC suggests a proposed protocol for the ARPA-Internet community,
-    and requests discussion and suggestions for improvements.</p>
+    (CLNP). This is a draft solution to one of the problems inherent in the use of
+    "ISO-grams" in the DOD Internet. Related issues will be discussed in subsequent
+    RFCs. This RFC suggests a proposed protocol for the ARPA-Internet community, and
+    requests discussion and suggestions for improvements.</p>
   language:
   - en
   script:
@@ -123,6 +123,10 @@ relation:
       content: RFC1069
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

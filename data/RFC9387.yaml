@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9387
 title:
 - content: Use Cases for DDoS Open Threat Signaling (DOTS) Telemetry
@@ -125,15 +125,19 @@ script:
 abstract:
 - content: "<p>DDoS Open Threat Signaling (DOTS) telemetry enriches the base DOTS
     protocols to assist the mitigator in using efficient DDoS attack mitigation techniques
-    in a network.  This document presents sample use cases for DOTS telemetry.  It
-    discusses what components are deployed in the network, how they cooperate, and
-    what information is exchanged to effectively use these techniques.</p>"
+    in a network. This document presents sample use cases for DOTS telemetry. It discusses
+    what components are deployed in the network, how they cooperate, and what information
+    is exchanged to effectively use these techniques.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

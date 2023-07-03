@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5896
 title:
 - content: 'Generic Security Service Application Program Interface (GSS-API): Delegate
@@ -98,13 +98,13 @@ abstract:
 - content: "<p>Several Generic Security Service Application Program Interface (GSS-API)
     applications work in a multi-tiered architecture, where the server takes advantage
     of delegated user credentials to act on behalf of the user and contact additional
-    servers.  In effect, the server acts as an agent on behalf of the user.  Examples
+    servers. In effect, the server acts as an agent on behalf of the user. Examples
     include web applications that need to access e-mail or file servers, including
-    CIFS (Common Internet File System) file servers.  However, delegating the user
+    CIFS (Common Internet File System) file servers. However, delegating the user
     credentials to a party who is not sufficiently trusted is problematic from a security
-    standpoint.  Kerberos provides a flag called OK-AS-DELEGATE that allows the administrator
+    standpoint. Kerberos provides a flag called OK-AS-DELEGATE that allows the administrator
     of a Kerberos realm to communicate that a particular service is trusted for delegation.
-    \ This specification adds support for this flag and similar facilities in other
+    This specification adds support for this flag and similar facilities in other
     authentication mechanisms to GSS-API (RFC 2743). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -153,6 +153,10 @@ relation:
       content: RFC4121
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

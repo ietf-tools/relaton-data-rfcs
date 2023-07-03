@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6728
 title:
 - content: Configuration Data Model for the IP Flow Information Export (IPFIX) and
@@ -125,11 +125,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a data model for the IP Flow Information Export
-    (IPFIX) and Packet Sampling (PSAMP) protocols.  It is for configuring and monitoring
+    (IPFIX) and Packet Sampling (PSAMP) protocols. It is for configuring and monitoring
     Selection Processes, Caches, Exporting Processes, and Collecting Processes of
     IPFIX- and PSAMP-compliant Monitoring Devices using the Network Configuration
-    Protocol (NETCONF).  The data model is defined using UML (Unified Modeling Language)
-    class diagrams and formally specified using YANG.  The configuration data is encoded
+    Protocol (NETCONF). The data model is defined using UML (Unified Modeling Language)
+    class diagrams and formally specified using YANG. The configuration data is encoded
     in Extensible Markup Language (XML). [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

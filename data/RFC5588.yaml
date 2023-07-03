@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5588
 title:
 - content: Generic Security Service Application Program Interface (GSS-API) Extension
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document defines a new function for the Generic Security Service
     Application Program Interface (GSS-API), which allows applications to store delegated
-    (and other) credentials in the implicit GSS-API credential store.  This is needed
+    (and other) credentials in the implicit GSS-API credential store. This is needed
     for GSS-API applications to use delegated credentials as they would use other
     credentials. [STANDARDS-TRACK]</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

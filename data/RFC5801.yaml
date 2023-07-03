@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5801
 title:
 - content: 'Using Generic Security Service Application Program Interface (GSS-API)
@@ -98,10 +98,10 @@ script:
 abstract:
 - content: '<p>This document describes how to use a Generic Security Service Application
     Program Interface (GSS-API) mechanism in the Simple Authentication and Security
-    Layer (SASL) framework.  This is done by defining a new SASL mechanism family,
-    called GS2.  This mechanism family offers a number of improvements over the previous
+    Layer (SASL) framework. This is done by defining a new SASL mechanism family,
+    called GS2. This mechanism family offers a number of improvements over the previous
     "SASL/ GSSAPI" mechanism: it is more general, uses fewer messages for the authentication
-    phase in some cases, and supports negotiable use of channel binding.  Only GSS-API
+    phase in some cases, and supports negotiable use of channel binding. Only GSS-API
     mechanisms that support channel binding and mutual authentication are supported.
     [STANDARDS-TRACK]</p>'
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

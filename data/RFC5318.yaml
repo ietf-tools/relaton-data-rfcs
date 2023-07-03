@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5318
 title:
 - content: The Session Initiation Protocol (SIP) P-Refused-URI-List Private-Header
@@ -96,18 +96,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the Session Initiation Protocol (SIP) P-Refused-URI-List
-    Private-Header (P-Header).  This P-Header is used in the Open Mobile Alliance's
-    (OMA) Push to talk over Cellular (PoC) system.  It enables URI-list servers to
-    refuse the handling of incoming URI lists that have embedded URI lists.  This
-    P-Header also makes it possible for the URI-list server to inform the client about
-    the embedded URI list that caused the rejection and the individual URIs that form
-    such a URI list.  This memo provides information for the Internet community.</p>"
+    Private-Header (P-Header). This P-Header is used in the Open Mobile Alliance's
+    (OMA) Push to talk over Cellular (PoC) system. It enables URI-list servers to
+    refuse the handling of incoming URI lists that have embedded URI lists. This P-Header
+    also makes it possible for the URI-list server to inform the client about the
+    embedded URI list that caused the rejection and the individual URIs that form
+    such a URI list. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

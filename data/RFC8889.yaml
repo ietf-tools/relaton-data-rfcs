@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8889
 title:
 - content: Multipoint Alternate-Marking Method for Passive and Hybrid Performance
@@ -155,10 +155,10 @@ script:
 abstract:
 - content: <p>The Alternate-Marking method, as presented in RFC 8321, can only be
     applied to point-to-point flows, because it assumes that all the packets of the
-    flow measured on one node are measured again by a single second node.  This document
+    flow measured on one node are measured again by a single second node. This document
     generalizes and expands this methodology to measure any kind of unicast flow whose
     packets can follow several different paths in the network -- in wider terms, a
-    multipoint-to-multipoint network.  For this reason, the technique here described
+    multipoint-to-multipoint network. For this reason, the technique here described
     is called "Multipoint Alternate Marking".</p>
   language:
   - en
@@ -177,6 +177,10 @@ relation:
       content: RFC9342
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

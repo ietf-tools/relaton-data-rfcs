@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5055
 title:
 - content: Server-Based Certificate Validation Protocol (SCVP)
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: "<p>The Server-Based Certificate Validation Protocol (SCVP) allows a client
     to delegate certification path construction and certification path validation
-    to a server.  The path construction or validation (e.g., making sure that none
+    to a server. The path construction or validation (e.g., making sure that none
     of the certificates in the path are revoked) is performed according to a validation
-    policy, which contains one or more trust anchors.  It allows simplification of
+    policy, which contains one or more trust anchors. It allows simplification of
     client implementations and use of a set of predefined validation policies. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

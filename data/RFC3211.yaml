@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3211
 title:
 - content: Password-based Encryption for CMS
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document provides a method of encrypting data using user-supplied
     passwords and, by extension, any form of variable-length keying material which
-    is not necessarily an algorithm-specific fixed-format key.  The Cryptographic
-    Message Syntax data format does not currently contain any provisions for password-based
+    is not necessarily an algorithm-specific fixed-format key. The Cryptographic Message
+    Syntax data format does not currently contain any provisions for password-based
     data encryption. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -97,6 +97,10 @@ relation:
       content: RFC3370
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

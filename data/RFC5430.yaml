@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5430
 title:
 - content: Suite B Profile for Transport Layer Security (TLS)
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: <p>The United States government has published guidelines for "NSA Suite
     B Cryptography", which defines cryptographic algorithm policy for national security
-    applications.  This document defines a profile of Transport Layer Security (TLS)
-    version 1.2 that is fully conformant with Suite B.  This document also defines
+    applications. This document defines a profile of Transport Layer Security (TLS)
+    version 1.2 that is fully conformant with Suite B. This document also defines
     a transitional profile for use with TLS version 1.0 and TLS version 1.1 which
-    employs Suite B algorithms to the greatest extent possible.  This memo provides
+    employs Suite B algorithms to the greatest extent possible. This memo provides
     information for the Internet community.</p>
   language:
   - en
@@ -147,6 +147,10 @@ relation:
       content: RFC6460
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

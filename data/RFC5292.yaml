@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5292
 title:
 - content: Address-Prefix-Based Outbound Route Filter for BGP-4
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: <p>This document defines a new Outbound Router Filter (ORF) type for BGP,
     termed "Address Prefix Outbound Route Filter", that can be used to perform address-prefix-based
-    route filtering.  This ORF-type supports prefix-length- or range-based matching,
+    route filtering. This ORF-type supports prefix-length- or range-based matching,
     wild-card-based address prefix matching, as well as the exact address prefix matching
     for address families. [STANDARDS-TRACK]</p>
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

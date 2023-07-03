@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2958
 title:
 - content: The application/whoispp-response Content-type
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>The intention of this document, in conjunction with RFC 2957, is to
     enable MIME-enabled mail software, and other systems using Internet media types,
-    to carry out Whois++ transactions.  This memo provides information for the Internet
+    to carry out Whois++ transactions. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

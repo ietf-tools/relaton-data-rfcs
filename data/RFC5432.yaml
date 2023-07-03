@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5432
 title:
 - content: Quality of Service (QoS) Mechanism Selection in the Session Description
@@ -126,11 +126,11 @@ script:
 abstract:
 - content: "<p>The offer/answer model for the Session Description Protocol (SDP) assumes
     that endpoints somehow establish the Quality of Service (QoS) required for the
-    media streams they establish.  Endpoints in closed environments typically agree
+    media streams they establish. Endpoints in closed environments typically agree
     out-of-band (e.g., using configuration information) regarding which QoS mechanism
-    to use.  However, on the Internet, there is more than one QoS service available.
-    \ Consequently, there is a need for a mechanism to negotiate which QoS mechanism
-    to use for a particular media stream.  This document defines such a mechanism.
+    to use. However, on the Internet, there is more than one QoS service available.
+    Consequently, there is a need for a mechanism to negotiate which QoS mechanism
+    to use for a particular media stream. This document defines such a mechanism.
     [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

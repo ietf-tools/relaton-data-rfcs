@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6862
 title:
 - content: Keying and Authentication for Routing Protocols (KARP) Overview, Threats,
@@ -125,21 +125,25 @@ script:
 - Latn
 abstract:
 - content: <p>Different routing protocols employ different mechanisms for securing
-    protocol packets on the wire.  While most already have some method for accomplishing
+    protocol packets on the wire. While most already have some method for accomplishing
     cryptographic message authentication, in many cases the existing methods are dated,
-    vulnerable to attack, and employ cryptographic algorithms that have been deprecated.  The
-    "Keying and Authentication for Routing Protocols" (KARP) effort aims to overhaul
-    and improve these mechanisms.  This document does not contain protocol specifications.  Instead,
-    it defines the areas where protocol specification work is needed.  This document
-    is a companion document to RFC 6518, "Keying and Authentication for Routing Protocols
-    (KARP) Design Guidelines"; together they form the guidance and instruction KARP
-    design teams will use to review and overhaul routing protocol transport security.</p>
+    vulnerable to attack, and employ cryptographic algorithms that have been deprecated.
+    The "Keying and Authentication for Routing Protocols" (KARP) effort aims to overhaul
+    and improve these mechanisms. This document does not contain protocol specifications.
+    Instead, it defines the areas where protocol specification work is needed. This
+    document is a companion document to RFC 6518, "Keying and Authentication for Routing
+    Protocols (KARP) Design Guidelines"; together they form the guidance and instruction
+    KARP design teams will use to review and overhaul routing protocol transport security.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

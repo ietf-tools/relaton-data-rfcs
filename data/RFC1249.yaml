@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1249
 title:
 - content: DIXIE Protocol Specification
@@ -125,14 +125,18 @@ script:
 abstract:
 - content: "<p>This RFC defines a mechanism by which TCP/UDP based clients can access
     OSI Directory Service without the overhead of the ISO transport and presentation
-    protocols required to implement full-blown DAP.  This memo provides information
-    for the Internet community.  It does not specify any standard.</p>"
+    protocols required to implement full-blown DAP. This memo provides information
+    for the Internet community. It does not specify any standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

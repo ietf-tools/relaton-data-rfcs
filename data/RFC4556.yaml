@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4556
 title:
 - content: Public Key Cryptography for Initial Authentication in Kerberos (PKINIT)
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes protocol extensions (hereafter called PKINIT)
-    to the Kerberos protocol specification.  These extensions provide a method for
+    to the Kerberos protocol specification. These extensions provide a method for
     integrating public key cryptography into the initial authentication exchange,
     by using asymmetric-key signature and/or encryption algorithms in pre-authentication
     data fields. [STANDARDS-TRACK]</p>"
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8351
 title:
 - content: 'The PKCS #8 EncryptedPrivateKeyInfo Media Type'
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document registers the application/pkcs8-encrypted media type
-    for the EncryptedPrivateKeyInfo type of PKCS #8.  An instance of this media type
+    for the EncryptedPrivateKeyInfo type of PKCS #8. An instance of this media type
     carries a single encrypted private key, BER-encoded as a single EncryptedPrivateKeyInfo
     value.</p>"
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

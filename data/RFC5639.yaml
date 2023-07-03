@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5639
 title:
 - content: Elliptic Curve Cryptography (ECC) Brainpool Standard Curves and Curve Generation
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo proposes several elliptic curve domain parameters over finite
-    prime fields for use in cryptographic applications.  The domain parameters are
+    prime fields for use in cryptographic applications. The domain parameters are
     consistent with the relevant international standards, and can be used in X.509
     certificates and certificate revocation lists (CRLs), for Internet Key Exchange
     (IKE), Transport Layer Security (TLS), XML signatures, and all applications or
-    protocols based on the cryptographic message syntax (CMS).  This document is not
+    protocols based on the cryptographic message syntax (CMS). This document is not
     an Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

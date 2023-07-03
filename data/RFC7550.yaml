@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7550
 title:
 - content: Issues and Recommendations with Multiple Stateful DHCPv6 Options
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) specification
     defined two stateful options, IA_NA and IA_TA, but did not anticipate the development
-    of additional stateful options.  DHCPv6 Prefix Delegation added the IA_PD option,
-    which is stateful.  Applications that use IA_NA and IA_PD together have revealed
-    issues that need to be addressed.  This document updates RFCs 3315 and 3633 to
+    of additional stateful options. DHCPv6 Prefix Delegation added the IA_PD option,
+    which is stateful. Applications that use IA_NA and IA_PD together have revealed
+    issues that need to be addressed. This document updates RFCs 3315 and 3633 to
     address these issues.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ relation:
       content: RFC3633
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

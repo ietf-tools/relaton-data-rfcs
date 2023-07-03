@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7690
 title:
 - content: Close Encounters of the ICMP Type 2 Kind (Near Misses with ICMPv6 Packet
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: <p>This document calls attention to the problem of delivering ICMPv6 type
     2 "Packet Too Big" (PTB) messages to the intended destination (typically the server)
-    in ECMP load-balanced or anycast network architectures.  It discusses operational
+    in ECMP load-balanced or anycast network architectures. It discusses operational
     mitigations that can be employed to address this class of failures.</p>
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

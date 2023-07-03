@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8097
 title:
 - content: BGP Prefix Origin Validation State Extended Community
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document defines a new BGP opaque extended community to carry
     the origination Autonomous System (AS) validation state inside an autonomous system.
-    \ Internal BGP (IBGP) speakers that receive this validation state can configure
+    Internal BGP (IBGP) speakers that receive this validation state can configure
     local policies that allow it to influence their decision process.</p>"
   language:
   - en
@@ -191,6 +191,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

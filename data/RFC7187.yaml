@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7187
 title:
 - content: Routing Multipoint Relay Optimization for the Optimized Link State Routing
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This specification updates the Optimized Link State Routing Protocol
     version 2 (OLSRv2) with an optimization to improve the selection of routing multipoint
-    relays.  The optimization retains full interoperability between implementations
+    relays. The optimization retains full interoperability between implementations
     of OLSRv2 with and without this optimization.</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC7181
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

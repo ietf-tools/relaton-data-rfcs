@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1784
 title:
 - content: TFTP Timeout Interval and Transfer Size Options
@@ -94,8 +94,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes two TFTP options.  The first allows the client
-    and server to negotiate the Timeout Interval.  The second allows the side receiving
+- content: "<p>This document describes two TFTP options. The first allows the client
+    and server to negotiate the Timeout Interval. The second allows the side receiving
     the file to determine the ultimate size of the transfer before it begins. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -124,6 +124,10 @@ relation:
       content: RFC1350
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

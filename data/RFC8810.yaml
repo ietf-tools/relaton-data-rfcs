@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8810
 title:
 - content: Revision to Capability Codes Registration Procedures
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: '<p>This document updates RFC 5492 by making a change to the registration
-    procedures for BGP Capability Codes.  Specifically, the range formerly designated
+    procedures for BGP Capability Codes. Specifically, the range formerly designated
     "Private Use" is divided into three new ranges: "First Come First Served", "Experimental
     Use", and "Reserved".</p>'
   language:
@@ -86,6 +86,10 @@ relation:
       content: RFC5492
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3632
 title:
 - content: VeriSign Registry Registrar Protocol (RRP) Version 2.0.0
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates version 1.1.0 of the Network Solutions Inc. (NSI)
-    Registry Registrar Protocol (RRP) specified in RFC 2832.  The changes described
+    Registry Registrar Protocol (RRP) specified in RFC 2832. The changes described
     in this document combined with the base specification documented in RFC 2832 specify
     version 2.0.0 of the VeriSign Registry Registrar Protocol.</p>"
   language:
@@ -144,6 +144,10 @@ relation:
       content: RFC2832
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

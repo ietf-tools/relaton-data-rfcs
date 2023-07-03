@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7427
 title:
 - content: Signature Authentication in the Internet Key Exchange Version 2 (IKEv2)
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The Internet Key Exchange Version 2 (IKEv2) protocol has limited support
-    for the Elliptic Curve Digital Signature Algorithm (ECDSA).  The current version
+    for the Elliptic Curve Digital Signature Algorithm (ECDSA). The current version
     only includes support for three Elliptic Curve groups, and there is a fixed hash
-    algorithm tied to each group.  This document generalizes IKEv2 signature support
+    algorithm tied to each group. This document generalizes IKEv2 signature support
     to allow any signature method supported by PKIX and also adds signature hash algorithm
-    negotiation.  This is a generic mechanism and is not limited to ECDSA; it can
-    also be used with other signature algorithms.</p>"
+    negotiation. This is a generic mechanism and is not limited to ECDSA; it can also
+    be used with other signature algorithms.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC7296
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

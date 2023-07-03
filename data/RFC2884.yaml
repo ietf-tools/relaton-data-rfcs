@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2884
 title:
 - content: Performance Evaluation of Explicit Congestion Notification (ECN) in IP
@@ -97,13 +97,17 @@ script:
 abstract:
 - content: "<p>This memo presents a performance study of the Explicit Congestion Notification
     (ECN) mechanism in the TCP/IP protocol using our implementation on the Linux Operating
-    System.  This memo provides information for the Internet community.</p>"
+    System. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5169
 title:
 - content: Handover Key Management and Re-Authentication Problem Statement
@@ -153,11 +153,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Handover Keying (HOKEY) re-authentication
-    problem statement.  The current Extensible Authentication Protocol (EAP) keying
+    problem statement. The current Extensible Authentication Protocol (EAP) keying
     framework is not designed to support re-authentication and handovers without re-executing
-    an EAP method.  This often causes unacceptable latency in various mobile wireless
-    environments.  This document details the problem and defines design goals for
-    a generic mechanism to reuse derived EAP keying material for handover.  This memo
+    an EAP method. This often causes unacceptable latency in various mobile wireless
+    environments. This document details the problem and defines design goals for a
+    generic mechanism to reuse derived EAP keying material for handover. This memo
     provides information for the Internet community.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

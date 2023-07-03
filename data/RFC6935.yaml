@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6935
 title:
 - content: IPv6 and UDP Checksums for Tunneled Packets
@@ -124,13 +124,13 @@ script:
 - Latn
 abstract:
 - content: <p>This document updates the IPv6 specification (RFC 2460) to improve performance
-    when a tunnel protocol uses UDP with IPv6 to tunnel packets.  The performance
-    improvement is obtained by relaxing the IPv6 UDP checksum requirement for tunnel
-    protocols whose header information is protected on the "inner" packet being carried.  Relaxing
+    when a tunnel protocol uses UDP with IPv6 to tunnel packets. The performance improvement
+    is obtained by relaxing the IPv6 UDP checksum requirement for tunnel protocols
+    whose header information is protected on the "inner" packet being carried. Relaxing
     this requirement removes the overhead associated with the computation of UDP checksums
-    on IPv6 packets that carry the tunnel protocol packets.  This specification describes
+    on IPv6 packets that carry the tunnel protocol packets. This specification describes
     how the IPv6 UDP checksum requirement can be relaxed when the encapsulated packet
-    itself contains a checksum.  It also describes the limitations and risks of this
+    itself contains a checksum. It also describes the limitations and risks of this
     approach and discusses the restrictions on the use of this method.</p>
   language:
   - en
@@ -149,6 +149,10 @@ relation:
       content: RFC2460
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

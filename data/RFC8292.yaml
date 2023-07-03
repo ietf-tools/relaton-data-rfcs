@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8292
 title:
 - content: Voluntary Application Server Identification (VAPID) for Web Push
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: <p>An application server can use the Voluntary Application Server Identification
     (VAPID) method described in this document to voluntarily identify itself to a
-    push service.  The "vapid" authentication scheme allows a client to include its
-    identity in a signed token with requests that it makes.  The signature can be
-    used by the push service to attribute requests that are made by the same application
-    server to a single entity.  The identification information can allow the operator
-    of a push service to contact the operator of the application server.  The signature
+    push service. The "vapid" authentication scheme allows a client to include its
+    identity in a signed token with requests that it makes. The signature can be used
+    by the push service to attribute requests that are made by the same application
+    server to a single entity. The identification information can allow the operator
+    of a push service to contact the operator of the application server. The signature
     can be used to restrict the use of a push message subscription to a single application
     server.</p>
   language:
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

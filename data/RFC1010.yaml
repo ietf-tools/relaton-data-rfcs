@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1010
 title:
 - content: Assigned numbers
@@ -100,7 +100,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo is an official status report on the numbers used in protocols
-    in the Internet community.  It documents the currently assigned values from several
+    in the Internet community. It documents the currently assigned values from several
     series of numbers including link, socket, port, and protocol, used in network
     protocol implementations.</p>"
   language:
@@ -120,6 +120,10 @@ relation:
       content: RFC1060
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

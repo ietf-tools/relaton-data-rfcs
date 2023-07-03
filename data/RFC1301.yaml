@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1301
 title:
 - content: Multicast Transport Protocol
@@ -124,21 +124,25 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a protocol for reliable transport that utilizes
-    the multicast capability of applicable lower layer networking architectures.  The
+    the multicast capability of applicable lower layer networking architectures. The
     transport definition permits an arbitrary number of transport providers to perform
     realtime collaborations without requiring networking clients (aka, applications)
     to possess detailed knowledge of the population or geographical dispersion of
-    the participating members.  It is not network architectural specific, but does
+    the participating members. It is not network architectural specific, but does
     implicitly require some form of multicasting (or broadcasting) at the data link
     level, as well as some means of communicating that capability up through the layers
-    to the transport.  This memo provides information for the Internet community.
-    \ It does not specify an Internet standard.</p>"
+    to the transport. This memo provides information for the Internet community. It
+    does not specify an Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

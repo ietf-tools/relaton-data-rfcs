@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8314
 title:
 - content: 'Cleartext Considered Obsolete: Use of Transport Layer Security (TLS) for
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This specification outlines current recommendations for the use of
     Transport Layer Security (TLS) to provide confidentiality of email traffic between
-    a Mail User Agent (MUA) and a Mail Submission Server or Mail Access Server.  This
+    a Mail User Agent (MUA) and a Mail Submission Server or Mail Access Server. This
     document updates RFCs 1939, 2595, 3501, 5068, 6186, and 6409.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ relation:
       content: RFC6409
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

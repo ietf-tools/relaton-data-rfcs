@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7408
 title:
 - content: Forwarding and Control Element Separation (ForCES) Model Extension
@@ -68,9 +68,9 @@ abstract:
 - content: "<p>This memo extends the Forwarding and Control Element Separation (ForCES)
     model defined in RFC 5812 and updates that RFC to allow complex data types for
     metadata, optional default values for data types, and optional access types for
-    structures.  It also fixes an issue with Logical Functional Block (LFB) inheritance
+    structures. It also fixes an issue with Logical Functional Block (LFB) inheritance
     and introduces two new features: a new event condition called eventBecomesEqualTo
-    and LFB properties.  The changes introduced in this memo do not alter the protocol
+    and LFB properties. The changes introduced in this memo do not alter the protocol
     and retain backward compatibility with older LFB models.</p>"
   language:
   - en
@@ -89,6 +89,10 @@ relation:
       content: RFC5812
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

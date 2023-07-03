@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8583
 title:
 - content: Diameter Load Information Conveyance
@@ -123,18 +123,22 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>RFC 7068 describes requirements for Overload Control in Diameter.  This
+- content: <p>RFC 7068 describes requirements for Overload Control in Diameter. This
     includes a requirement to allow Diameter nodes to send "load" information, even
-    when the node is not overloaded.  The base solution defined in RFC 7683 (Diameter
+    when the node is not overloaded. The base solution defined in RFC 7683 (Diameter
     Overload Information Conveyance (DOIC)) describes a mechanism meeting most of
-    the requirements but does not currently include the ability to send load information.  This
-    document defines a mechanism for the conveying of Diameter load information.</p>
+    the requirements but does not currently include the ability to send load information.
+    This document defines a mechanism for the conveying of Diameter load information.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

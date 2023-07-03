@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8977
 title:
 - content: Registration Data Access Protocol (RDAP) Query Parameters for Result Sorting
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>The Registration Data Access Protocol (RDAP) does not include core
     functionality for clients to provide sorting and paging parameters for control
-    of large result sets.  This omission can lead to unpredictable server processing
-    of queries and client processing of responses.  This unpredictability can be greatly
+    of large result sets. This omission can lead to unpredictable server processing
+    of queries and client processing of responses. This unpredictability can be greatly
     reduced if clients can provide servers with their preferences for managing large
-    responses.  This document describes RDAP query extensions that allow clients to
+    responses. This document describes RDAP query extensions that allow clients to
     specify their preferences for sorting and paging result sets.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

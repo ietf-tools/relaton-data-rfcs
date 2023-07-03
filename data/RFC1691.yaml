@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1691
 title:
 - content: The Document Architecture for the Cornell Digital Library
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This memo defines an architecture for the storage and retrieval of
     the digital representations for books, journals, photographic images, etc., which
-    are collected in a large organized digital library.  This memo provides information
-    for the Internet community.  This memo does not specify an Internet standard of
+    are collected in a large organized digital library. This memo provides information
+    for the Internet community. This memo does not specify an Internet standard of
     any kind.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

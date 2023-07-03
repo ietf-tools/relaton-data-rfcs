@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5558
 title:
 - content: Virtual Enterprise Traversal (VET)
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Enterprise networks connect routers over various link types, and may
-    also connect to provider networks and/or the global Internet.  Enterprise network
+    also connect to provider networks and/or the global Internet. Enterprise network
     nodes require a means to automatically provision IP addresses/prefixes and support
     internetworking operation in a wide variety of use cases including Small Office,
     Home Office (SOHO) networks, Mobile Ad hoc Networks (MANETs), multi-organizational
-    corporate networks and the interdomain core of the global Internet itself.  This
+    corporate networks and the interdomain core of the global Internet itself. This
     document specifies a Virtual Enterprise Traversal (VET) abstraction for autoconfiguration
-    and operation of nodes in enterprise networks.  This document is not an Internet
+    and operation of nodes in enterprise networks. This document is not an Internet
     Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

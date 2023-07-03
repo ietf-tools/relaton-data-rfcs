@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5532
 title:
 - content: Network File System (NFS) Remote Direct Memory Access (RDMA) Problem Statement
@@ -95,18 +95,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document addresses enabling the use of Remote Direct Memory Access
-    (RDMA) by the Network File System (NFS) protocols.  NFS implementations historically
+    (RDMA) by the Network File System (NFS) protocols. NFS implementations historically
     incur significant overhead due to data copies on end-host systems, as well as
-    other processing overhead.  This document explores the potential benefits of RDMA
+    other processing overhead. This document explores the potential benefits of RDMA
     to these implementations and evaluates the reasons why RDMA is especially well-suited
-    to NFS and network file protocols in general.  This memo provides information
-    for the Internet community.</p>"
+    to NFS and network file protocols in general. This memo provides information for
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

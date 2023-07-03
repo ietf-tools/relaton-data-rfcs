@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7866
 title:
 - content: Session Recording Protocol
@@ -184,14 +184,14 @@ abstract:
 - content: "<p>This document specifies the use of the Session Initiation Protocol
     (SIP), the Session Description Protocol (SDP), and the Real-time Transport Protocol
     (RTP) for delivering real-time media and metadata from a Communication Session
-    (CS) to a recording device.  The Session Recording Protocol specifies the use
-    of SIP, SDP, and RTP to establish a Recording Session (RS) between the Session
-    Recording Client (SRC), which is on the path of the CS, and a Session Recording
-    Server (SRS) at the recording device.  This document considers only active recording,
-    where the SRC purposefully streams media to an SRS and all participating user
-    agents (UAs) are notified of the recording.  Passive recording, where a recording
-    device detects media directly from the network (e.g., using port-mirroring techniques),
-    is outside the scope of this document.  In addition, lawful intercept is outside
+    (CS) to a recording device. The Session Recording Protocol specifies the use of
+    SIP, SDP, and RTP to establish a Recording Session (RS) between the Session Recording
+    Client (SRC), which is on the path of the CS, and a Session Recording Server (SRS)
+    at the recording device. This document considers only active recording, where
+    the SRC purposefully streams media to an SRS and all participating user agents
+    (UAs) are notified of the recording. Passive recording, where a recording device
+    detects media directly from the network (e.g., using port-mirroring techniques),
+    is outside the scope of this document. In addition, lawful intercept is outside
     the scope of this document.</p>"
   language:
   - en
@@ -199,6 +199,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

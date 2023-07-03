@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4740
 title:
 - content: Diameter Session Initiation Protocol (SIP) Application
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the Diameter Session Initiation Protocol (SIP)
-    application.  This is a Diameter application that allows a Diameter client to
-    request authentication and authorization information.  This application is designed
-    to be used in conjunction with SIP and provides a Diameter client co-located with
+    application. This is a Diameter application that allows a Diameter client to request
+    authentication and authorization information. This application is designed to
+    be used in conjunction with SIP and provides a Diameter client co-located with
     a SIP server, with the ability to request the authentication of users and authorization
     of SIP resources usage from a Diameter server. [STANDARDS-TRACK]</p>"
   language:
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

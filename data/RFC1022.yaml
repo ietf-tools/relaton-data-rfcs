@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1022
 title:
 - content: High-level Entity Management Protocol (HEMP)
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo presents an application protocol for managing network entities
-    such as hosts, gateways, and front end machines.  This protocol is a component
-    of the High-level Entity Management System HEMS), described is RFC-1021.  This
+    such as hosts, gateways, and front end machines. This protocol is a component
+    of the High-level Entity Management System HEMS), described is RFC-1021. This
     memo also assumes a knowledge of the ISO data encoding standard, ASN.1.</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

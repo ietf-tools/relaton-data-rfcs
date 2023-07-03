@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2416
 title:
 - content: When TCP Starts Up With Four Packets Into Only Three Buffers
@@ -94,12 +94,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo is to document a simple experiment.  The experiment showed
+- content: "<p>This memo is to document a simple experiment. The experiment showed
     that in the case of a TCP receiver behind a 9600 bps modem link at the edge of
     a fast Internet where there are only 3 buffers before the modem (and the fourth
     packet of a four-packet start will surely be dropped), no significant degradation
     in performance is experienced by a TCP sending with a four-packet start when compared
-    with a normal slow start (which starts with just one packet).  This memo provides
+    with a normal slow start (which starts with just one packet). This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

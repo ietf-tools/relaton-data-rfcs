@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4014
 title:
 - content: Remote Authentication Dial-In User Service (RADIUS) Attributes Suboption
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>The RADIUS Attributes suboption enables a network element to pass identification
     and authorization attributes received during RADIUS authentication to a DHCP server.
-    \ When the DHCP server receives a message from a relay agent containing a RADIUS
+    When the DHCP server receives a message from a relay agent containing a RADIUS
     Attributes suboption, it extracts the contents of the suboption and uses that
     information in selecting configuration parameters for the client. [STANDARDS-TRACK]</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

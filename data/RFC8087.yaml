@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8087
 title:
 - content: The Benefits of Using Explicit Congestion Notification (ECN)
@@ -96,18 +96,22 @@ script:
 abstract:
 - content: "<p>The goal of this document is to describe the potential benefits of
     applications using a transport that enables Explicit Congestion Notification (ECN).
-    \ The document outlines the principal gains in terms of increased throughput,
-    reduced delay, and other benefits when ECN is used over a network path that includes
-    equipment that supports Congestion Experienced (CE) marking.  It also discusses
-    challenges for successful deployment of ECN.  It does not propose new algorithms
-    to use ECN nor does it describe the details of implementation of ECN in endpoint
-    devices (Internet hosts), routers, or other network devices.</p>"
+    The document outlines the principal gains in terms of increased throughput, reduced
+    delay, and other benefits when ECN is used over a network path that includes equipment
+    that supports Congestion Experienced (CE) marking. It also discusses challenges
+    for successful deployment of ECN. It does not propose new algorithms to use ECN
+    nor does it describe the details of implementation of ECN in endpoint devices
+    (Internet hosts), routers, or other network devices.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

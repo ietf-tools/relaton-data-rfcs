@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4680
 title:
 - content: TLS Handshake Message for Supplemental Data
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines a TLS handshake message for exchange of
-    supplemental application data.  TLS hello message extensions are used to determine
+    supplemental application data. TLS hello message extensions are used to determine
     which supplemental data types are supported by both the TLS client and the TLS
-    server.  Then, the supplemental data handshake message is used to exchange the
-    data.  Other documents will define the syntax of these extensions and the syntax
+    server. Then, the supplemental data handshake message is used to exchange the
+    data. Other documents will define the syntax of these extensions and the syntax
     of the associated supplemental data types. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC4346
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

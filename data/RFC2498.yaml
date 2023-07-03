@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2498
 title:
 - content: IPPM Metrics for Measuring Connectivity
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a series of metrics for connectivity between a pair
-    of Internet hosts.  It builds on notions introduced and discussed in RFC 2330,
-    the IPPM framework document.  This memo defines an Experimental Protocol for the
+    of Internet hosts. It builds on notions introduced and discussed in RFC 2330,
+    the IPPM framework document. This memo defines an Experimental Protocol for the
     Internet community.</p>"
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC2678
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

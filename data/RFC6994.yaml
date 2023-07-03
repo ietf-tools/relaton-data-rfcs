@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6994
 title:
 - content: Shared Use of Experimental TCP Options
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document describes how the experimental TCP option codepoints
     can concurrently support multiple TCP extensions, even within the same connection,
-    using a new IANA TCP experiment identifier.  This approach is robust to experiments
-    that are not registered and to those that do not use this sharing mechanism.  It
+    using a new IANA TCP experiment identifier. This approach is robust to experiments
+    that are not registered and to those that do not use this sharing mechanism. It
     is recommended for all new TCP options that use these codepoints.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

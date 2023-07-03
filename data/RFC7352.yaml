@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7352
 title:
 - content: 'Sieve Email Filtering: Detecting Duplicate Deliveries'
@@ -66,19 +66,22 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines a new test command, "duplicate", for the Sieve
-    email filtering language.  This test adds the ability to detect duplications.  The
+    email filtering language. This test adds the ability to detect duplications. The
     main application for this new test is handling duplicate deliveries commonly caused
-    by mailing list subscriptions or redirected mail addresses.  The detection is
-    normally performed by matching the message ID to an internal list of message IDs
-    from previously delivered messages.  For more complex applications, the "duplicate"
-    test can also use the content of a specific header field or other parts of the
-    message.</p>
+    by mailing list subscriptions or redirected mail addresses. The detection is normally
+    performed by matching the message ID to an internal list of message IDs from previously
+    delivered messages. For more complex applications, the "duplicate" test can also
+    use the content of a specific header field or other parts of the message.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

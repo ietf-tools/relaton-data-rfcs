@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7280
 title:
 - content: IANA Guidance for Managing the Unidirectional Lightweight Encapsulation
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document updates RFC 4326 to clarify and update the allocation
     rules for the Unidirectional Lightweight Encapsulation (ULE) Next- Header registry.
-    \ This registry is used by ULE and Generic Stream Encapsulation (GSE) to record
+    This registry is used by ULE and Generic Stream Encapsulation (GSE) to record
     the code points of Extension Headers and protocols supported by these encapsulation
     protocols.</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC4326
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

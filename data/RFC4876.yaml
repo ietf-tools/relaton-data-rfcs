@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4876
 title:
 - content: A Configuration Profile Schema for Lightweight Directory Access Protocol
@@ -127,19 +127,23 @@ abstract:
 - content: "<p>This document consists of two primary components, a schema for agents
     that make use of the Lightweight Directory Access protocol (LDAP) and a proposed
     use case of that schema, for distributed configuration of similar directory user
-    agents.  A set of attribute types and an object class are proposed.  In the proposed
+    agents. A set of attribute types and an object class are proposed. In the proposed
     use case, directory user agents (DUAs) can use this schema to determine directory
-    data location and access parameters for specific services they support.  In addition,
+    data location and access parameters for specific services they support. In addition,
     in the proposed use case, attribute and object class mapping allows DUAs to reconfigure
-    their expected (default) schema to match that of the end user's environment.  This
+    their expected (default) schema to match that of the end user's environment. This
     document is intended to be a skeleton for future documents that describe configuration
-    of specific DUA services.  This memo provides information for the Internet community.</p>"
+    of specific DUA services. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

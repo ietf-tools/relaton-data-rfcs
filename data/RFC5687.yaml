@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5687
 title:
 - content: 'GEOPRIV Layer 7 Location Configuration Protocol: Problem Statement and
@@ -97,12 +97,12 @@ script:
 abstract:
 - content: "<p>This document provides a problem statement, lists requirements, and
     captures design aspects for a GEOPRIV Layer 7 (L7) Location Configuration Protocol
-    (LCP).  This protocol aims to allow an end host to obtain location information,
+    (LCP). This protocol aims to allow an end host to obtain location information,
     by value or by reference, from a Location Information Server (LIS) that is located
-    in the access network.  The obtained location information can then be used for
-    a variety of different protocols and purposes.  For example, it can be used as
+    in the access network. The obtained location information can then be used for
+    a variety of different protocols and purposes. For example, it can be used as
     input to the Location-to-Service Translation (LoST) Protocol or to convey location
-    within the Session Initiation Protocol (SIP) to other entities.  This document
+    within the Session Initiation Protocol (SIP) to other entities. This document
     is not an Internet Standards Track specification; it is published for informational
     purposes.</p>"
   language:
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

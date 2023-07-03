@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7556
 title:
 - content: Multiple Provisioning Domain Architecture
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document is a product of the work of the Multiple Interfaces Architecture
-    Design team.  It outlines a solution framework for some of the issues experienced
-    by nodes that can be attached to multiple networks simultaneously.  The framework
+    Design team. It outlines a solution framework for some of the issues experienced
+    by nodes that can be attached to multiple networks simultaneously. The framework
     defines the concept of a Provisioning Domain (PvD), which is a consistent set
-    of network configuration information.  PvD-aware nodes learn PvD-specific information
-    from the networks they are attached to and/or other sources.  PvDs are used to
+    of network configuration information. PvD-aware nodes learn PvD-specific information
+    from the networks they are attached to and/or other sources. PvDs are used to
     enable separation and configuration consistency in the presence of multiple concurrent
     connections.</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

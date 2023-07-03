@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7441
 title:
 - content: Encoding Multipoint LDP (mLDP) Forwarding Equivalence Classes (FECs) in
@@ -124,16 +124,16 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>Many service providers offer "BGP/MPLS IP VPN" service to their customers.  Existing
-    IETF standards specify the procedures and protocols that a service provider uses
-    in order to offer this service to customers who have IP unicast and IP multicast
-    traffic in their VPNs.  It is also desirable to be able to support customers who
-    have MPLS multicast traffic in their VPNs.  This document specifies the procedures
+- content: <p>Many service providers offer "BGP/MPLS IP VPN" service to their customers.
+    Existing IETF standards specify the procedures and protocols that a service provider
+    uses in order to offer this service to customers who have IP unicast and IP multicast
+    traffic in their VPNs. It is also desirable to be able to support customers who
+    have MPLS multicast traffic in their VPNs. This document specifies the procedures
     and protocol extensions that are needed to support customers who use the Multipoint
-    LDP (mLDP) as the control protocol for their MPLS multicast traffic.  Existing
+    LDP (mLDP) as the control protocol for their MPLS multicast traffic. Existing
     standards do provide some support for customers who use mLDP, but only under a
-    restrictive set of circumstances.  This document generalizes the existing support
-    to include all cases where the customer uses mLDP, without any restrictions.  This
+    restrictive set of circumstances. This document generalizes the existing support
+    to include all cases where the customer uses mLDP, without any restrictions. This
     document updates RFC 6514.</p>
   language:
   - en
@@ -152,6 +152,10 @@ relation:
       content: RFC6514
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

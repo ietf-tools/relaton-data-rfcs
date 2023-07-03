@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1545
 title:
 - content: FTP Operation Over Big Address Records (FOOBAR)
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: <p>This RFC specifies a method for assigning long addresses in the HOST-
     PORT specification for the data port to be used in establishing a data connection
-    for File Transfer Protocol, FTP (STD 9, RFC 959).  This is a general solution,
+    for File Transfer Protocol, FTP (STD 9, RFC 959). This is a general solution,
     applicable for all "next generation" IP alternatives, and can also be extended
-    to allow FTP operation over transport interfaces other than TCP.  This memo defines
-    an Experimental Protocol for the Internet community.  This memo does not specify
+    to allow FTP operation over transport interfaces other than TCP. This memo defines
+    an Experimental Protocol for the Internet community. This memo does not specify
     an Internet standard of any kind.</p>
   language:
   - en
@@ -89,6 +89,10 @@ relation:
       content: RFC1639
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9009
 title:
 - content: Efficient Route Invalidation
@@ -164,7 +164,7 @@ script:
 abstract:
 - content: <p>This document explains the problems associated with the use of No-Path
     Destination Advertisement Object (NPDAO) messaging in RFC 6550 and also discusses
-    the requirements for an optimized route invalidation messaging scheme.  Further,
+    the requirements for an optimized route invalidation messaging scheme. Further,
     this document specifies a new proactive route invalidation message called the
     "Destination Cleanup Object" (DCO), which fulfills requirements for optimized
     route invalidation messaging.</p>
@@ -174,6 +174,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

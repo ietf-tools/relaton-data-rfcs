@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1605
 title:
 - content: SONET to Sonnet Translation
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>Because Synchronous Optical Network (SONET) transmits data in frames
     of bytes, it is fairly easy to envision ways to compress SONET frames to yield
-    higher bandwidth over a given fiber optic link.  This memo describes a particular
-    method, SONET Over Novel English Translation (SONNET).  This memo provides information
-    for the Internet community.  This memo does not specify an Internet standard of
+    higher bandwidth over a given fiber optic link. This memo describes a particular
+    method, SONET Over Novel English Translation (SONNET). This memo provides information
+    for the Internet community. This memo does not specify an Internet standard of
     any kind.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

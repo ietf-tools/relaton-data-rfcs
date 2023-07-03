@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7198
 title:
 - content: Duplicating RTP Streams
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Packet loss is undesirable for real-time multimedia sessions but can
-    occur due to a variety of reasons including unplanned network outages.  In unicast
+    occur due to a variety of reasons including unplanned network outages. In unicast
     transmissions, recovering from such an outage can be difficult depending on the
-    outage duration, due to the potentially large number of missing packets.  In multicast
+    outage duration, due to the potentially large number of missing packets. In multicast
     transmissions, recovery is even more challenging as many receivers could be impacted
-    by the outage.  For this challenge, one solution that does not incur unbounded
+    by the outage. For this challenge, one solution that does not incur unbounded
     delay is to duplicate the packets and send them in separate redundant streams,
-    provided that the underlying network satisfies certain requirements.  This document
+    provided that the underlying network satisfies certain requirements. This document
     explains how Real-time Transport Protocol (RTP) streams can be duplicated without
     breaking RTP or RTP Control Protocol (RTCP) rules.</p>"
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

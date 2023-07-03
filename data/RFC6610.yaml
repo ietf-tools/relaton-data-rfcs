@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6610
 title:
 - content: DHCP Options for Home Information Discovery in Mobile IPv6 (MIPv6)
@@ -182,7 +182,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a DHCP-based scheme to enable dynamic discovery
-    of Mobile IPv6 home network information.  New DHCP options are defined that allow
+    of Mobile IPv6 home network information. New DHCP options are defined that allow
     a mobile node to request the home agent IP address, Fully Qualified Domain Name
     (FQDN), or home network prefix and obtain it via the DHCP response. [STANDARDS-TRACK]</p>"
   language:
@@ -191,6 +191,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

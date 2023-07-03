@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3631
 title:
 - content: Security Mechanisms for the Internet
@@ -124,13 +124,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Security must be built into Internet Protocols for those protocols
-    to offer their services securely.  Many security problems can be traced to improper
-    implementations.  However, even a proper implementation will have security problems
-    if the fundamental protocol is itself exploitable.  Exactly how security should
+    to offer their services securely. Many security problems can be traced to improper
+    implementations. However, even a proper implementation will have security problems
+    if the fundamental protocol is itself exploitable. Exactly how security should
     be implemented in a protocol will vary, because of the structure of the protocol
-    itself.  However, there are many protocols for which standard Internet security
-    mechanisms, already developed, may be applicable.  The precise one that is appropriate
-    in any given situation can vary.  We review a number of different choices, explaining
+    itself. However, there are many protocols for which standard Internet security
+    mechanisms, already developed, may be applicable. The precise one that is appropriate
+    in any given situation can vary. We review a number of different choices, explaining
     the properties of each.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

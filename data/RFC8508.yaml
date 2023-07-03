@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8508
 title:
 - content: IMAP REPLACE Extension
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines an IMAP extension that can be used to replace
-    an existing message in a message store with a new message.  Message replacement
+    an existing message in a message store with a new message. Message replacement
     is a common operation for clients that automatically save drafts or notes as a
     user composes them.</p>"
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

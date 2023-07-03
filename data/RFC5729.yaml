@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5729
 title:
 - content: Clarifications on the Routing of Diameter Requests Based on the Username
@@ -155,7 +155,7 @@ script:
 abstract:
 - content: <p>This specification defines the behavior required of Diameter agents
     to route requests when the User-Name Attribute Value Pair contains a Network Access
-    Identifier formatted with multiple realms.  These multi-realm, or "Decorated",
+    Identifier formatted with multiple realms. These multi-realm, or "Decorated",
     Network Access Identifiers are used in order to force the routing of request messages
     through a predefined list of mediating realms. [STANDARDS-TRACK]</p>
   language:
@@ -175,6 +175,10 @@ relation:
       content: RFC3588
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

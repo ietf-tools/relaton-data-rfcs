@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5856
 title:
 - content: Integration of Robust Header Compression over IPsec Security Associations
@@ -153,18 +153,22 @@ script:
 - Latn
 abstract:
 - content: "<p>IP Security (IPsec) provides various security services for IP traffic.
-    \ However, the benefits of IPsec come at the cost of increased overhead.  This
-    document outlines a framework for integrating Robust Header Compression (ROHC)
-    over IPsec (ROHCoIPsec).  By compressing the inner headers of IP packets, ROHCoIPsec
-    proposes to reduce the amount of overhead associated with the transmission of
-    traffic over IPsec Security Associations (SAs).  This document is not an Internet
-    Standards Track specification; it is published for informational purposes.</p>"
+    However, the benefits of IPsec come at the cost of increased overhead. This document
+    outlines a framework for integrating Robust Header Compression (ROHC) over IPsec
+    (ROHCoIPsec). By compressing the inner headers of IP packets, ROHCoIPsec proposes
+    to reduce the amount of overhead associated with the transmission of traffic over
+    IPsec Security Associations (SAs). This document is not an Internet Standards
+    Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

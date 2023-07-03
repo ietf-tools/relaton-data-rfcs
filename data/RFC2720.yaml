@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2720
 title:
 - content: 'Traffic Flow Measurement: Meter MIB'
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document defines a Management Information Base (MIB) for use in
     controlling an RTFM Traffic Meter, in particular for specifying the flows to be
-    measured.  It also provides an efficient mechanism for retrieving flow data from
-    the meter using SNMP.  Security issues concerning the operation of traffic meters
+    measured. It also provides an efficient mechanism for retrieving flow data from
+    the meter using SNMP. Security issues concerning the operation of traffic meters
     are summarised. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

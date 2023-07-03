@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8553
 title:
 - content: 'DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node
@@ -67,15 +67,14 @@ script:
 - Latn
 abstract:
 - content: "<p>Using an underscore for a prefix creates a space for constrained interoperation
-    of resource records.  Original uses of an underscore character as a domain node
-    name prefix were specified without the benefit of an IANA registry.  This produced
+    of resource records. Original uses of an underscore character as a domain node
+    name prefix were specified without the benefit of an IANA registry. This produced
     an entirely uncoordinated set of name-creation activities, all drawing from the
-    same namespace.  A registry for these names has now been defined by RFC 8552.
-    \ However, the existing specifications that use underscored naming need to be
-    modified in order to be in line with the new registry.  This document specifies
-    those changes.  The changes preserve existing software and operational practice,
-    while adapting the specifications for those practices to the newer underscore
-    registry model.</p>"
+    same namespace. A registry for these names has now been defined by RFC 8552. However,
+    the existing specifications that use underscored naming need to be modified in
+    order to be in line with the new registry. This document specifies those changes.
+    The changes preserve existing software and operational practice, while adapting
+    the specifications for those practices to the newer underscore registry model.</p>"
   language:
   - en
   script:
@@ -417,6 +416,10 @@ series:
     content: BCP
     format: text/plain
   number: '222'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

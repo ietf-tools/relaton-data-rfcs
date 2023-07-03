@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2443
 title:
 - content: A Distributed MARS Service Using SCSP
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a method for distributing a MARS service within
-    a LIS.  This method uses the Server Cache Synchronization Protocol (SCSP) to synchronize
-    the MARS Server databases within a LIS.  When SCSP is used to synchronize the
-    caches of MARS Servers in a LIS, the LIS defines the boundary of an SCSP Server
-    Group (SG). [STANDARDS-TRACK]</p>"
+    a LIS. This method uses the Server Cache Synchronization Protocol (SCSP) to synchronize
+    the MARS Server databases within a LIS. When SCSP is used to synchronize the caches
+    of MARS Servers in a LIS, the LIS defines the boundary of an SCSP Server Group
+    (SG). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

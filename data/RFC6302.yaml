@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6302
 title:
 - content: Logging Recommendations for Internet-Facing Servers
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>In the wake of IPv4 exhaustion and deployment of IP address sharing
     techniques, this document recommends that Internet-facing servers log port number
-    and accurate timestamps in addition to the incoming IP address.  This memo documents
+    and accurate timestamps in addition to the incoming IP address. This memo documents
     an Internet Best Current Practice.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ series:
     content: BCP
     format: text/plain
   number: '162'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

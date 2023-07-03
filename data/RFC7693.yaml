@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7693
 title:
 - content: The BLAKE2 Cryptographic Hash and Message Authentication Code (MAC)
@@ -70,8 +70,8 @@ script:
 abstract:
 - content: "<p>This document describes the cryptographic hash function BLAKE2 and
     makes the algorithm specification and C source code conveniently available to
-    the Internet community.  BLAKE2 comes in two main flavors: BLAKE2b is optimized
-    for 64-bit platforms and BLAKE2s for smaller architectures.  BLAKE2 can be directly
+    the Internet community. BLAKE2 comes in two main flavors: BLAKE2b is optimized
+    for 64-bit platforms and BLAKE2s for smaller architectures. BLAKE2 can be directly
     keyed, making it functionally equivalent to a Message Authentication Code (MAC).</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

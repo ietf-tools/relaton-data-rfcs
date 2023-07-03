@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3771
 title:
 - content: The Lightweight Directory Access Protocol (LDAP) Intermediate Response
@@ -97,9 +97,9 @@ script:
 abstract:
 - content: "<p>This document defines and describes the IntermediateResponse message,
     a general mechanism for defining single-request/multiple-response operations in
-    Lightweight Directory Access Protocol (LDAP).  The IntermediateResponse message
+    Lightweight Directory Access Protocol (LDAP). The IntermediateResponse message
     is defined in such a way that the protocol behavior of existing LDAP operations
-    is maintained.  This message is intended to be used in conjunction with the LDAP
+    is maintained. This message is intended to be used in conjunction with the LDAP
     ExtendedRequest and ExtendedResponse to define new single-request/multiple-response
     operations or in conjunction with a control when extending existing LDAP operations
     in a way that requires them to return intermediate response information. [STANDARDS-TRACK]</p>"
@@ -140,6 +140,10 @@ relation:
       content: RFC2251
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

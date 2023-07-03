@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3503
 title:
 - content: Message Disposition Notification (MDN) profile for Internet Message Access
@@ -69,9 +69,9 @@ abstract:
 - content: "<p>The Message Disposition Notification (MDN) facility defined in RFC
     2298 provides a means by which a message can request that message processing by
     the recipient be acknowledged as well as a format to be used for such acknowledgements.
-    \ However, it doesn't describe how multiple Mail User Agents (MUAs) should handle
+    However, it doesn't describe how multiple Mail User Agents (MUAs) should handle
     the generation of MDNs in an Internet Message Access Protocol (IMAP4) environment.
-    \ This document describes how to handle MDNs in such an environment and provides
+    This document describes how to handle MDNs in such an environment and provides
     guidelines for implementers of IMAP4 that want to add MDN support to their products.
     [STANDARDS-TRACK]</p>"
   language:
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

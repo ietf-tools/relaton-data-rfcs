@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6165
 title:
 - content: Extensions to IS-IS for Layer-2 Systems
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>This document specifies the Intermediate System to Intermediate System
     (IS-IS) extensions necessary to support link state routing for any protocols running
-    directly over Layer-2.  While supporting this concept involves several pieces,
-    this document only describes extensions to IS-IS.  Furthermore, the Type, Length,
+    directly over Layer-2. While supporting this concept involves several pieces,
+    this document only describes extensions to IS-IS. Furthermore, the Type, Length,
     Value pairs (TLVs) described in this document are generic Layer-2 additions, and
     specific ones as needed are defined in the IS-IS technology-specific extensions.
-    \ We leave it to the systems using these IS-IS extensions to explain how the information
+    We leave it to the systems using these IS-IS extensions to explain how the information
     carried in IS-IS is used. [STANDARDS- TRACK]</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

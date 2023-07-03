@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8168
 title:
 - content: DHCPv6 Prefix-Length Hint Issues
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>DHCPv6 Prefix Delegation allows a client to include a prefix-length
     hint value in the IA_PD option to indicate a preference for the size of the prefix
     to be delegated, but it is unclear about how the client and server should act
-    in different situations involving the prefix-length hint.  This document provides
+    in different situations involving the prefix-length hint. This document provides
     a summary of the existing problems with the prefix-length hint and guidance on
     what the client and server could do in different situations.</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

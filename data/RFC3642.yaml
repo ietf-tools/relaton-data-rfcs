@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3642
 title:
 - content: Common Elements of Generic String Encoding Rules (GSER) Encodings
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>The Generic String Encoding Rules (GSER) describe a human readable
     text encoding for an Abstract Syntax Notation One (ASN.1) value of any ASN.1 type.
-    \ Specifications making use of GSER may wish to provide an equivalent Augmented
+    Specifications making use of GSER may wish to provide an equivalent Augmented
     Backus-Naur Form (ABNF) description of the GSER encoding for a particular ASN.1
-    type as a convenience for implementors.  This document supports such specifications
+    type as a convenience for implementors. This document supports such specifications
     by providing equivalent ABNF for the GSER encodings for ASN.1 types that commonly
     occur in Lightweight Directory Access Protocol (LDAP) syntaxes.</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6487
 title:
 - content: A Profile for X.509 PKIX Resource Certificates
@@ -125,19 +125,23 @@ script:
 abstract:
 - content: <p>This document defines a standard profile for X.509 certificates for
     the purpose of supporting validation of assertions of "right-of-use" of Internet
-    Number Resources (INRs).  The certificates issued under this profile are used
-    to convey the issuer's authorization of the subject to be regarded as the current
-    holder of a "right-of-use" of the INRs that are described in the certificate.  This
-    document contains the normative specification of Certificate and Certificate Revocation
-    List (CRL) syntax in the Resource Public Key Infrastructure (RPKI).  This document
-    also specifies profiles for the format of certificate requests and specifies the
-    Relying Party RPKI certificate path validation procedure. [STANDARDS-TRACK]</p>
+    Number Resources (INRs). The certificates issued under this profile are used to
+    convey the issuer's authorization of the subject to be regarded as the current
+    holder of a "right-of-use" of the INRs that are described in the certificate.
+    This document contains the normative specification of Certificate and Certificate
+    Revocation List (CRL) syntax in the Resource Public Key Infrastructure (RPKI).
+    This document also specifies profiles for the format of certificate requests and
+    specifies the Relying Party RPKI certificate path validation procedure. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

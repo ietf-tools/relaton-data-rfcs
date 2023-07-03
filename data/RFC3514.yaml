@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3514
 title:
 - content: The Security Flag in the IPv4 Header
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>Firewalls, packet filters, intrusion detection systems, and the like
     often have difficulty distinguishing between packets that have malicious intent
-    and those that are merely unusual.  We define a security flag in the IPv4 header
-    as a means of distinguishing the two cases.  This memo provides information for
+    and those that are merely unusual. We define a security flag in the IPv4 header
+    as a means of distinguishing the two cases. This memo provides information for
     the Internet community.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

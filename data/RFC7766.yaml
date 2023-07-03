@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7766
 title:
 - content: DNS Transport over TCP - Implementation Requirements
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document specifies the requirement for support of TCP as a transport
     protocol for DNS implementations and provides guidelines towards DNS-over-TCP
-    performance on par with that of DNS-over-UDP.  This document obsoletes RFC 5966
+    performance on par with that of DNS-over-UDP. This document obsoletes RFC 5966
     and therefore updates RFC 1035 and RFC 1123.</p>"
   language:
   - en
@@ -212,6 +212,10 @@ relation:
       content: RFC1123
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

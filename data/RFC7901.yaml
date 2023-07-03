@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7901
 title:
 - content: CHAIN Query Requests in DNS
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>This document defines an EDNS0 extension that can be used by a security-aware
     validating resolver configured to use a forwarding resolver to send a single query,
-    requesting a complete validation path along with the regular query answer.  The
+    requesting a complete validation path along with the regular query answer. The
     reduction in queries potentially lowers the latency and reduces the need to send
-    multiple queries at once.  This extension mandates the use of source-IP- verified
+    multiple queries at once. This extension mandates the use of source-IP- verified
     transport such as TCP or UDP with EDNS-COOKIE, so it cannot be abused in amplification
     attacks.</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

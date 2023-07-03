@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6544
 title:
 - content: TCP Candidates with Interactive Connectivity Establishment (ICE)
@@ -164,18 +164,22 @@ script:
 abstract:
 - content: "<p>Interactive Connectivity Establishment (ICE) defines a mechanism for
     NAT traversal for multimedia communication protocols based on the offer/answer
-    model of session negotiation.  ICE works by providing a set of candidate transport
+    model of session negotiation. ICE works by providing a set of candidate transport
     addresses for each media stream, which are then validated with peer-to-peer connectivity
-    checks based on Session Traversal Utilities for NAT (STUN).  ICE provides a general
+    checks based on Session Traversal Utilities for NAT (STUN). ICE provides a general
     framework for describing candidates but only defines UDP-based media streams.
-    \ This specification extends ICE to TCP-based media, including the ability to
-    offer a mix of TCP and UDP-based candidates for a single stream. [STANDARDS-TRACK]</p>"
+    This specification extends ICE to TCP-based media, including the ability to offer
+    a mix of TCP and UDP-based candidates for a single stream. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

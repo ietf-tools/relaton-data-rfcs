@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4741
 title:
 - content: NETCONF Configuration Protocol
@@ -67,10 +67,9 @@ script:
 abstract:
 - content: "<p>The Network Configuration Protocol (NETCONF) defined in this document
     provides mechanisms to install, manipulate, and delete the configuration of network
-    devices.  It uses an Extensible Markup Language (XML)-based data encoding for
-    the configuration data as well as the protocol messages.  The NETCONF protocol
-    operations are realized on top of a simple Remote Procedure Call (RPC) layer.
-    [STANDARDS-TRACK]</p>"
+    devices. It uses an Extensible Markup Language (XML)-based data encoding for the
+    configuration data as well as the protocol messages. The NETCONF protocol operations
+    are realized on top of a simple Remote Procedure Call (RPC) layer. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -88,6 +87,10 @@ relation:
       content: RFC6241
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

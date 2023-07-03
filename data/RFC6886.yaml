@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6886
 title:
 - content: NAT Port Mapping Protocol (NAT-PMP)
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes a protocol for automating the process of creating
-    Network Address Translation (NAT) port mappings.  Included in the protocol is
-    a method for retrieving the external IPv4 address of a NAT gateway, thus allowing
+    Network Address Translation (NAT) port mappings. Included in the protocol is a
+    method for retrieving the external IPv4 address of a NAT gateway, thus allowing
     a client to make its external IPv4 address and port known to peers that may wish
-    to communicate with it.  From 2005 onwards, this protocol was implemented in Apple
-    products including Mac OS X, Bonjour for Windows, and AirPort wireless base stations.  In
-    2013, NAT Port Mapping Protocol (NAT-PMP) was superseded by the IETF Standards
+    to communicate with it. From 2005 onwards, this protocol was implemented in Apple
+    products including Mac OS X, Bonjour for Windows, and AirPort wireless base stations.
+    In 2013, NAT Port Mapping Protocol (NAT-PMP) was superseded by the IETF Standards
     Track RFC "Port Control Protocol (PCP)", which builds on NAT-PMP and uses a compatible
     packet format, but adds a number of significant enhancements.</p>
   language:
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9183
 title:
 - content: Single Nickname for an Area Border RBridge in Multilevel Transparent Interconnection
@@ -183,15 +183,19 @@ script:
 - Latn
 abstract:
 - content: "<p>A major issue in multilevel TRILL is how to manage RBridge nicknames.
-    \ In this document, area border RBridges use a single nickname in both Level 1
-    and Level 2.  RBridges in Level 2 must obtain unique nicknames but RBridges in
-    different Level 1 areas may have the same nicknames.</p>"
+    In this document, area border RBridges use a single nickname in both Level 1 and
+    Level 2. RBridges in Level 2 must obtain unique nicknames but RBridges in different
+    Level 1 areas may have the same nicknames.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

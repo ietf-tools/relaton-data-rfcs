@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3659
 title:
 - content: Extensions to FTP
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies new FTP commands to obtain listings of remote
     directories in a defined format, and to permit restarts of interrupted data transfers
-    in STREAM mode.  It allows character sets other than US-ASCII, and also defines
+    in STREAM mode. It allows character sets other than US-ASCII, and also defines
     an optional virtual file storage structure. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -86,6 +86,10 @@ relation:
       content: RFC0959
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

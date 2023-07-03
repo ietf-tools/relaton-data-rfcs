@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2585
 title:
 - content: 'Internet X.509 Public Key Infrastructure Operational Protocols: FTP and
@@ -97,8 +97,8 @@ script:
 abstract:
 - content: "<p>The protocol conventions described in this document satisfy some of
     the operational requirements of the Internet Public Key Infrastructure (PKI).
-    \ This document specifies the conventions for using the File Transfer Protocol
-    (FTP) and the Hypertext Transfer Protocol (HTTP) to obtain certificates and certificate
+    This document specifies the conventions for using the File Transfer Protocol (FTP)
+    and the Hypertext Transfer Protocol (HTTP) to obtain certificates and certificate
     revocation lists (CRLs) from PKI repositories. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

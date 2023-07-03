@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7716
 title:
 - content: Global Table Multicast with BGP Multicast VPN (BGP-MVPN) Procedures
@@ -183,20 +183,24 @@ script:
 abstract:
 - content: <p>RFCs 6513, 6514, and others describe protocols and procedures that a
     Service Provider (SP) may deploy in order to offer Multicast Virtual Private Network
-    (Multicast VPN or MVPN) service to its customers.  Some of these procedures use
+    (Multicast VPN or MVPN) service to its customers. Some of these procedures use
     BGP to distribute VPN-specific multicast routing information across a backbone
-    network.  With a small number of relatively minor modifications, the same BGP
-    procedures can also be used to distribute multicast routing information that is
-    not specific to any VPN.  Multicast that is outside the context of a VPN is known
-    as "Global Table Multicast", or sometimes simply as "Internet multicast".  In
-    this document, we describe the modifications that are needed to use the BGP-MVPN
-    procedures for Global Table Multicast.</p>
+    network. With a small number of relatively minor modifications, the same BGP procedures
+    can also be used to distribute multicast routing information that is not specific
+    to any VPN. Multicast that is outside the context of a VPN is known as "Global
+    Table Multicast", or sometimes simply as "Internet multicast". In this document,
+    we describe the modifications that are needed to use the BGP-MVPN procedures for
+    Global Table Multicast.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

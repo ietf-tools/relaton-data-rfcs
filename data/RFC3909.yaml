@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3909
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Cancel Operation
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification describes a Lightweight Directory Access Protocol
-    (LDAP) extended operation to cancel (or abandon) an outstanding operation.  Unlike
+    (LDAP) extended operation to cancel (or abandon) an outstanding operation. Unlike
     the LDAP Abandon operation, but like the X.511 Directory Access Protocol (DAP)
     Abandon operation, this operation has a response which provides an indication
     of its outcome. [STANDARDS-TRACK]</p>"
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

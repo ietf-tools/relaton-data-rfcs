@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3441
 title:
 - content: Asynchronous Transfer Mode (ATM) Package for the Media Gateway Control
@@ -67,19 +67,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an Asynchronous Transfer Mode (ATM) package
-    for the Media Gateway Control Protocol (MGCP).  This package includes new Local
+    for the Media Gateway Control Protocol (MGCP). This package includes new Local
     Connection Options, ATM-specific events and signals, and ATM connection parameters.
-    \ Also included is a description of codec and profile negotiation.  It extends
-    the MGCP that is currently being deployed in a number of products.  Implementers
-    should be aware of developments in the IETF Megaco Working Group and ITU SG16,
-    which are currently working on a potential successor to this protocol.  This memo
-    provides information for the Internet community.</p>"
+    Also included is a description of codec and profile negotiation. It extends the
+    MGCP that is currently being deployed in a number of products. Implementers should
+    be aware of developments in the IETF Megaco Working Group and ITU SG16, which
+    are currently working on a potential successor to this protocol. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

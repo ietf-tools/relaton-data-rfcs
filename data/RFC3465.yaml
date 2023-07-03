@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3465
 title:
 - content: TCP Congestion Control with Appropriate Byte Counting (ABC)
@@ -66,18 +66,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document proposes a small modification to the way TCP increases
-    its congestion window.  Rather than the traditional method of increasing the congestion
+    its congestion window. Rather than the traditional method of increasing the congestion
     window by a constant amount for each arriving acknowledgment, the document suggests
     basing the increase on the number of previously unacknowledged bytes each ACK
-    covers.  This change improves the performance of TCP, as well as closes a security
+    covers. This change improves the performance of TCP, as well as closes a security
     hole TCP receivers can use to induce the sender into increasing the sending rate
-    too rapidly.  This memo defines an Experimental Protocol for the Internet community.</p>"
+    too rapidly. This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

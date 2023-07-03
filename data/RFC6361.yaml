@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6361
 title:
 - content: PPP Transparent Interconnection of Lots of Links (TRILL) Protocol Control
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>The Point-to-Point Protocol (PPP) defines a Link Control Protocol (LCP)
     and a method for negotiating the use of multiprotocol traffic over point-to-point
-    links.  This document describes PPP support for the Transparent Interconnection
+    links. This document describes PPP support for the Transparent Interconnection
     of Lots of Links (TRILL) Protocol, allowing direct communication between Routing
     Bridges (RBridges) via PPP links. [STANDARDS-TRACK]</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

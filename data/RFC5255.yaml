@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5255
 title:
 - content: Internet Message Access Protocol Internationalization
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Internet Message Access Protocol (IMAP) version 4rev1 has basic support
-    for non-ASCII characters in mailbox names and search substrings.  It also supports
+    for non-ASCII characters in mailbox names and search substrings. It also supports
     non-ASCII message headers and content encoded as specified by Multipurpose Internet
-    Mail Extensions (MIME).  This specification defines a collection of IMAP extensions
+    Mail Extensions (MIME). This specification defines a collection of IMAP extensions
     that improve international support including language negotiation for international
     error text, translations for namespace prefixes, and comparator negotiation for
     search, sort, and thread. [STANDARDS-TRACK]</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

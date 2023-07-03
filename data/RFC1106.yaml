@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1106
 title:
 - content: TCP big window and NAK options
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo discusses two extensions to the TCP protocol to provide a
-    more efficient operation over a network with a high bandwidth*delay product.  The
+    more efficient operation over a network with a high bandwidth*delay product. The
     extensions described in this document have been implemented and shown to work
-    using resources at NASA.  This memo describes an Experimental Protocol, these
-    extensions are not proposed as an Internet standard, but as a starting point for
-    further research.</p>"
+    using resources at NASA. This memo describes an Experimental Protocol, these extensions
+    are not proposed as an Internet standard, but as a starting point for further
+    research.</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC6247
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

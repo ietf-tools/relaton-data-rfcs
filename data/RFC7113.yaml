@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7113
 title:
 - content: Implementation Advice for IPv6 Router Advertisement Guard (RA-Guard)
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>The IPv6 Router Advertisement Guard (RA-Guard) mechanism is commonly
     employed to mitigate attack vectors based on forged ICMPv6 Router Advertisement
-    messages.  Many existing IPv6 deployments rely on RA-Guard as the first line of
-    defense against the aforementioned attack vectors.  However, some implementations
+    messages. Many existing IPv6 deployments rely on RA-Guard as the first line of
+    defense against the aforementioned attack vectors. However, some implementations
     of RA-Guard have been found to be prone to circumvention by employing IPv6 Extension
-    Headers.  This document describes the evasion techniques that affect the aforementioned
+    Headers. This document describes the evasion techniques that affect the aforementioned
     implementations and formally updates RFC 6105, such that the aforementioned RA-Guard
     evasion vectors are eliminated.</p>"
   language:
@@ -90,6 +90,10 @@ relation:
       content: RFC6105
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

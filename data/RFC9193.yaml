@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9193
 title:
 - content: Sensor Measurement Lists (SenML) Fields for Indicating Data Value Content-Format
@@ -95,17 +95,21 @@ script:
 - Latn
 abstract:
 - content: "<p>The Sensor Measurement Lists (SenML) media types support multiple types
-    of values, from numbers to text strings and arbitrary binary Data Values.  In
-    order to facilitate processing of binary Data Values, this document specifies
-    a pair of new SenML fields for indicating the content format of those binary Data
-    Values, i.e., their Internet media type, including parameters as well as any content
-    codings applied.</p>"
+    of values, from numbers to text strings and arbitrary binary Data Values. In order
+    to facilitate processing of binary Data Values, this document specifies a pair
+    of new SenML fields for indicating the content format of those binary Data Values,
+    i.e., their Internet media type, including parameters as well as any content codings
+    applied.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

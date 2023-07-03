@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1637
 title:
 - content: DNS NSAP Resource Records
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the format of one new Resource Record (RR) for
-    the DNS for domain name-to-NSAP mapping.  This memo defines an Experimental Protocol
+    the DNS for domain name-to-NSAP mapping. This memo defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -114,6 +114,10 @@ relation:
       content: RFC1706
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8256
 title:
 - content: Requirements for Hitless MPLS Path Segment Monitoring
@@ -182,21 +182,25 @@ script:
 - Latn
 abstract:
 - content: <p>One of the most important Operations, Administration, and Maintenance
-    (OAM) capabilities for transport-network operation is fault localization.  An
-    in-service, on-demand path segment monitoring function of a transport path is
-    indispensable, particularly when the service monitoring function is activated
-    only between endpoints.  However, the current segment monitoring approach defined
-    for MPLS (including the MPLS Transport Profile (MPLS-TP)) in RFC 6371 "Operations,
-    Administration, and Maintenance Framework for MPLS-Based Transport Networks" has
-    drawbacks.  This document provides an analysis of the existing MPLS-TP OAM mechanisms
-    for the path segment monitoring and provides requirements to guide the development
-    of new OAM tools to support Hitless Path Segment Monitoring (HPSM).</p>
+    (OAM) capabilities for transport-network operation is fault localization. An in-service,
+    on-demand path segment monitoring function of a transport path is indispensable,
+    particularly when the service monitoring function is activated only between endpoints.
+    However, the current segment monitoring approach defined for MPLS (including the
+    MPLS Transport Profile (MPLS-TP)) in RFC 6371 "Operations, Administration, and
+    Maintenance Framework for MPLS-Based Transport Networks" has drawbacks. This document
+    provides an analysis of the existing MPLS-TP OAM mechanisms for the path segment
+    monitoring and provides requirements to guide the development of new OAM tools
+    to support Hitless Path Segment Monitoring (HPSM).</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

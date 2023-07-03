@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5670
 title:
 - content: Metering and Marking Behaviour of PCN-Nodes
@@ -67,19 +67,23 @@ script:
 abstract:
 - content: <p>The objective of Pre-Congestion Notification (PCN) is to protect the
     quality of service (QoS) of inelastic flows within a Diffserv domain in a simple,
-    scalable, and robust fashion.  This document defines the two metering and marking
-    behaviours of PCN-nodes.  Threshold-metering and -marking marks all PCN-packets
-    if the rate of PCN-traffic is greater than a configured rate ("PCN-threshold-rate").  Excess-
-    traffic-metering and -marking marks a proportion of PCN-packets, such that the
-    amount marked equals the rate of PCN-traffic in excess of a configured rate ("PCN-excess-rate").  The
-    level of marking allows PCN-boundary-nodes to make decisions about whether to
-    admit or terminate PCN-flows. [STANDARDS-TRACK]</p>
+    scalable, and robust fashion. This document defines the two metering and marking
+    behaviours of PCN-nodes. Threshold-metering and -marking marks all PCN-packets
+    if the rate of PCN-traffic is greater than a configured rate ("PCN-threshold-rate").
+    Excess- traffic-metering and -marking marks a proportion of PCN-packets, such
+    that the amount marked equals the rate of PCN-traffic in excess of a configured
+    rate ("PCN-excess-rate"). The level of marking allows PCN-boundary-nodes to make
+    decisions about whether to admit or terminate PCN-flows. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

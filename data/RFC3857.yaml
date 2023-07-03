@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3857
 title:
 - content: A Watcher Information Event Template-Package for the Session Initiation
@@ -67,18 +67,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the watcher information template-package for
-    the Session Initiation Protocol (SIP) event framework.  Watcher information refers
+    the Session Initiation Protocol (SIP) event framework. Watcher information refers
     to the set of users subscribed to a particular resource within a particular event
-    package.  Watcher information changes dynamically as users subscribe, unsubscribe,
-    are approved, or are rejected.  A user can subscribe to this information, and
-    therefore learn about changes to it.  This event package is a template-package
-    because it can be applied to any event package, including itself. [STANDARDS-TRACK]</p>"
+    package. Watcher information changes dynamically as users subscribe, unsubscribe,
+    are approved, or are rejected. A user can subscribe to this information, and therefore
+    learn about changes to it. This event package is a template-package because it
+    can be applied to any event package, including itself. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

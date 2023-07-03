@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1111
 title:
 - content: 'Request for comments on Request for Comments: Instructions to RFC authors'
@@ -65,8 +65,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the Internet community.  Authors
-    of RFCs are expected to adopt and implement this standard.</p>"
+- content: "<p>This RFC specifies a standard for the Internet community. Authors of
+    RFCs are expected to adopt and implement this standard.</p>"
   language:
   - en
   script:
@@ -94,6 +94,10 @@ relation:
       content: RFC2223
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5579
 title:
 - content: Transmission of IPv4 Packets over Intra-Site Automatic Tunnel Addressing
@@ -68,10 +68,10 @@ script:
 abstract:
 - content: "<p>The Intra-Site Automatic Tunnel Addressing Protocol (ISATAP) specifies
     a Non-Broadcast, Multiple Access (NBMA) interface type for the transmission of
-    IPv6 packets over IPv4 networks using automatic IPv6-in-IPv4 encapsulation.  The
+    IPv6 packets over IPv4 networks using automatic IPv6-in-IPv4 encapsulation. The
     original specifications make no provisions for the encapsulation and transmission
-    of IPv4 packets, however.  This document specifies a method for transmitting IPv4
-    packets over ISATAP interfaces.  This document is not an Internet Standards Track
+    of IPv4 packets, however. This document specifies a method for transmitting IPv4
+    packets over ISATAP interfaces. This document is not an Internet Standards Track
     specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

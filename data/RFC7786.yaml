@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7786
 title:
 - content: TCP Modifications for Congestion Exposure (ConEx)
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>Congestion Exposure (ConEx) is a mechanism by which senders inform
     the network about expected congestion based on congestion feedback from previous
-    packets in the same flow.  This document describes the necessary modifications
+    packets in the same flow. This document describes the necessary modifications
     to use ConEx with the Transmission Control Protocol (TCP).</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

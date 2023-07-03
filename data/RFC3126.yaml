@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3126
 title:
 - content: Electronic Signature Formats for long term electronic signatures
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the format of an electronic signature that can
-    remain valid over long periods.  This includes evidence as to its validity even
+    remain valid over long periods. This includes evidence as to its validity even
     if the signer or verifying party later attempts to deny (i.e., repudiates the
-    validity of the signature).  This memo provides information for the Internet community.</p>"
+    validity of the signature). This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -144,6 +144,10 @@ relation:
       content: RFC5126
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

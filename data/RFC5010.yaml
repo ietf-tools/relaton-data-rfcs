@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5010
 title:
 - content: The Dynamic Host Configuration Protocol Version 4 (DHCPv4) Relay Agent
@@ -126,8 +126,8 @@ script:
 abstract:
 - content: "<p>This memo defines a new suboption of the Dynamic Host Configuration
     Protocol (DHCP) relay agent information option that allows the DHCP relay to specify
-    flags for the forwarded packet.  One flag is defined to indicate whether the DHCP
-    relay received the packet via a unicast or broadcast packet.  This information
+    flags for the forwarded packet. One flag is defined to indicate whether the DHCP
+    relay received the packet via a unicast or broadcast packet. This information
     may be used by the DHCP server to better serve clients based on whether their
     request was originally broadcast or unicast. [STANDARDS-TRACK]</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

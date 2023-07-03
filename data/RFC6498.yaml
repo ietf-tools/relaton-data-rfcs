@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6498
 title:
 - content: Media Gateway Control Protocol (MGCP) Voiceband Data (VBD) Package and
@@ -127,11 +127,11 @@ abstract:
 - content: "<p>This document defines Media Gateway Control Protocol (MGCP) packages
     that enable a Call Agent to authorize and monitor the transition of a connection
     to and from Voiceband Data (VBD) with or without redundancy and FEC (forward error
-    correction).  Although the focus is on VBD, the General-Purpose Media Descriptor
+    correction). Although the focus is on VBD, the General-Purpose Media Descriptor
     Parameter package can be used to authorize other modes of operation, not relevant
-    to VBD, for a particular codec.  In addition to defining these new packages, this
+    to VBD, for a particular codec. In addition to defining these new packages, this
     document describes the use of the Media Format Parameter package and Fax package
-    with VBD, redundancy, and FEC.  This document is not an Internet Standards Track
+    with VBD, redundancy, and FEC. This document is not an Internet Standards Track
     specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC960
 title:
 - content: Assigned numbers
@@ -100,10 +100,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo documents the currently assigned values from several series
-    of numbers used in network protocol implementations.  This edition of Assigned
-    Numbers updates and obsoletes RFC-943.  This memo is an official status report
-    on the numbers used in protocols in the ARPA-Internet community.  See RFC-990
-    and 997.</p>"
+    of numbers used in network protocol implementations. This edition of Assigned
+    Numbers updates and obsoletes RFC-943. This memo is an official status report
+    on the numbers used in protocols in the ARPA-Internet community. See RFC-990 and
+    997.</p>"
   language:
   - en
   script:
@@ -121,6 +121,10 @@ relation:
       content: RFC0990
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

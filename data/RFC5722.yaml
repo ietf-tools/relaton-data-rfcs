@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5722
 title:
 - content: Handling of Overlapping IPv6 Fragments
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The fragmentation and reassembly algorithm specified in the base IPv6
-    specification allows fragments to overlap.  This document demonstrates the security
+    specification allows fragments to overlap. This document demonstrates the security
     issues associated with allowing overlapping fragments and updates the IPv6 specification
     to explicitly forbid overlapping fragments. [STANDARDS-TRACK]</p>"
   language:
@@ -86,6 +86,10 @@ relation:
       content: RFC2460
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

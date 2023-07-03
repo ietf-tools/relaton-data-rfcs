@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4170
 title:
 - content: Tunneling Multiplexed Compressed RTP (TCRTP)
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: "<p>This document describes a method to improve the bandwidth utilization
     of RTP streams over network paths that carry multiple Real-time Transport Protocol
-    (RTP) streams in parallel between two endpoints, as in voice trunking.  The method
+    (RTP) streams in parallel between two endpoints, as in voice trunking. The method
     combines standard protocols that provide compression, multiplexing, and tunneling
     over a network path for the purpose of reducing the bandwidth used when multiple
-    RTP streams are carried over that path.  This document specifies an Internet Best
+    RTP streams are carried over that path. This document specifies an Internet Best
     Current Practices for the Internet Community, and requests discussion and suggestions
     for improvements.</p>"
   language:
@@ -141,6 +141,10 @@ series:
     content: BCP
     format: text/plain
   number: '110'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

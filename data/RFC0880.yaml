@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC880
 title:
 - content: Official protocols
@@ -100,8 +100,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC identifies the documents specifying the official protocols
-    used in the ARPA Internet.  Annotations identify any revisions or changes planned.
-    \ Obsoletes RFC 840.</p>"
+    used in the ARPA Internet. Annotations identify any revisions or changes planned.
+    Obsoletes RFC 840.</p>"
   language:
   - en
   script:
@@ -119,6 +119,10 @@ relation:
       content: RFC0901
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

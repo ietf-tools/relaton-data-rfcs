@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3477
 title:
 - content: Signalling Unnumbered Links in Resource ReSerVation Protocol - Traffic
@@ -96,7 +96,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Current signalling used by Multi-Protocol Label Switching Traffic Engineering
-    (MPLS TE) does not provide support for unnumbered links.  This document defines
+    (MPLS TE) does not provide support for unnumbered links. This document defines
     procedures and extensions to Resource ReSerVation Protocol (RSVP) for Label Switched
     Path (LSP) Tunnels (RSVP-TE), one of the MPLS TE signalling protocols, that are
     needed in order to support unnumbered links. [STANDARDS-TRACK]</p>"
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

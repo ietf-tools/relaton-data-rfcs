@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7124
 title:
 - content: Ethernet in the First Mile Copper (EFMCu) Interfaces MIB
@@ -65,7 +65,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document updates RFC 5066.  It amends that specification by informing
+- content: "<p>This document updates RFC 5066. It amends that specification by informing
     the Internet community about the transition of the EFM-CU-MIB module from the
     concluded IETF Ethernet Interfaces and Hub MIB Working Group to the Institute
     of Electrical and Electronics Engineers (IEEE) 802.3 working group.</p>"
@@ -86,6 +86,10 @@ relation:
       content: RFC5066
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

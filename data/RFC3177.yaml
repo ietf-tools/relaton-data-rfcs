@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3177
 title:
 - content: IAB/IESG Recommendations on IPv6 Address Allocations to Sites
@@ -52,7 +52,7 @@ script:
 abstract:
 - content: "<p>This document provides recommendations to the addressing registries
     (APNIC, ARIN and RIPE-NCC) on policies for assigning IPv6 address blocks to end
-    sites.  In particular, it recommends the assignment of /48 in the general case,
+    sites. In particular, it recommends the assignment of /48 in the general case,
     /64 when it is known that one and only one subnet is needed and /128 when it is
     absolutely known that one and only one device is connecting.</p>"
   language:
@@ -72,6 +72,10 @@ relation:
       content: RFC6177
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

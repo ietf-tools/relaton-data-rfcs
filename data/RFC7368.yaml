@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7368
 title:
 - content: IPv6 Home Networking Architecture Principles
@@ -183,14 +183,14 @@ script:
 abstract:
 - content: "<p>This text describes evolving networking technology within residential
     home networks with increasing numbers of devices and a trend towards increased
-    internal routing.  The goal of this document is to define a general architecture
+    internal routing. The goal of this document is to define a general architecture
     for IPv6-based home networking, describing the associated principles, considerations,
-    and requirements.  The text briefly highlights specific implications of the introduction
+    and requirements. The text briefly highlights specific implications of the introduction
     of IPv6 for home networking, discusses the elements of the architecture, and suggests
     how standard IPv6 mechanisms and addressing can be employed in home networking.
-    \ The architecture describes the need for specific protocol extensions for certain
-    additional functionality.  It is assumed that the IPv6 home network is not actively
-    managed and runs as an IPv6-only or dual-stack network.  There are no recommendations
+    The architecture describes the need for specific protocol extensions for certain
+    additional functionality. It is assumed that the IPv6 home network is not actively
+    managed and runs as an IPv6-only or dual-stack network. There are no recommendations
     in this text for the IPv4 part of the network.</p>"
   language:
   - en
@@ -198,6 +198,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

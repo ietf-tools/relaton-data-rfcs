@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3106
 title:
 - content: 'ECML v1.1: Field Specifications for E-Commerce'
@@ -96,19 +96,23 @@ script:
 abstract:
 - content: "<p>Customers are frequently required to enter substantial amounts of information
     at an Internet merchant site in order to complete a purchase or other transaction,
-    especially the first time they go there.  A standard set of information fields
+    especially the first time they go there. A standard set of information fields
     is defined as the first version of an Electronic Commerce Modeling Language (ECML)
     so that this task can be more easily automated, for example by wallet software
-    that could fill in fields.  Even for the manual data entry case, customers will
+    that could fill in fields. Even for the manual data entry case, customers will
     be less confused by varying merchant sites if a substantial number adopt these
-    standard fields.  In addition, some fields are defined for merchant to consumer
-    communication.  This memo provides information for the Internet community.</p>"
+    standard fields. In addition, some fields are defined for merchant to consumer
+    communication. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

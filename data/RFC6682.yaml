@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6682
 title:
 - content: RTP Payload Format for Raptor Forward Error Correction (FEC)
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies an RTP payload format for the Forward Error
-    Correction (FEC) repair data produced by the Raptor FEC Schemes.  Raptor FEC Schemes
+    Correction (FEC) repair data produced by the Raptor FEC Schemes. Raptor FEC Schemes
     are specified for use with the IETF FEC Framework that supports the transport
-    of repair data over both UDP and RTP.  This document specifies the payload format
+    of repair data over both UDP and RTP. This document specifies the payload format
     that is required for the use of RTP to carry Raptor repair flows. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

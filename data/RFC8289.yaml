@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8289
 title:
 - content: Controlled Delay Active Queue Management
@@ -154,14 +154,18 @@ script:
 abstract:
 - content: "<p>This document describes CoDel (Controlled Delay) -- a general framework
     that controls bufferbloat-generated excess delay in modern networking environments.
-    \ CoDel consists of an estimator, a setpoint, and a control loop.  It requires
-    no configuration in normal Internet deployments.</p>"
+    CoDel consists of an estimator, a setpoint, and a control loop. It requires no
+    configuration in normal Internet deployments.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

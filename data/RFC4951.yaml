@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4951
 title:
 - content: Fail Over Extensions for Layer 2 Tunneling Protocol (L2TP) "failover"
@@ -66,15 +66,15 @@ script:
 - Latn
 abstract:
 - content: "<p>Layer 2 Tunneling Protocol (L2TP) is a connection-oriented protocol
-    that has a shared state between active endpoints.  Some of this shared state is
+    that has a shared state between active endpoints. Some of this shared state is
     vital for operation, but may be volatile in nature, such as packet sequence numbers
-    used on the L2TP Control Connection.  When failure of one side of a control connection
+    used on the L2TP Control Connection. When failure of one side of a control connection
     occurs, a new control connection is created and associated with the old connection
-    by exchanging information about the old connection.  Such a mechanism is not intended
+    by exchanging information about the old connection. Such a mechanism is not intended
     as a replacement for an active fail over with some mirrored connection states,
     but as an aid for those parameters that are particularly difficult to have immediately
-    available.  Protocol extensions to L2TP defined in this document are intended
-    to facilitate state recovery, providing additional resiliency in an L2TP network,
+    available. Protocol extensions to L2TP defined in this document are intended to
+    facilitate state recovery, providing additional resiliency in an L2TP network,
     and improving a remote system's layer 2 connectivity. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

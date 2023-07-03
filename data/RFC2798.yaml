@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2798
 title:
 - content: Definition of the inetOrgPerson LDAP Object Class
@@ -67,13 +67,17 @@ script:
 abstract:
 - content: "<p>We define a new object class called inetOrgPerson for use in LDAP and
     X.500 directory services that extends the X.521 standard organizationalPerson
-    class to meet these needs.  This memo provides information for the Internet community.</p>"
+    class to meet these needs. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9248
 title:
 - content: Interoperability Profile for Relay User Equipment
@@ -69,14 +69,14 @@ abstract:
     a hearing person can communicate with a sign language speaker who is deaf, deafblind,
     or hard of hearing (HoH) or has a speech disability using an interpreter (i.e.,
     a Communications Assistant (CA)) connected via a videophone to the sign language
-    speaker and an audio telephone call to the hearing user.  The CA interprets using
-    sign language on the videophone link and voice on the telephone link.  Often the
+    speaker and an audio telephone call to the hearing user. The CA interprets using
+    sign language on the videophone link and voice on the telephone link. Often the
     interpreters may be employed by a company or agency, termed a "provider" in this
-    document.  The provider also provides a video service that allows users to connect
+    document. The provider also provides a video service that allows users to connect
     video devices to their service and subsequently to CAs and other sign language
-    speakers.  It is desirable that the videophones used by the sign language speaker
+    speakers. It is desirable that the videophones used by the sign language speaker
     conform to a standard so that any device may be used with any provider and that
-    direct video calls between sign language speakers work.  This document describes
+    direct video calls between sign language speakers work. This document describes
     the interface between a videophone and a provider.</p>
   language:
   - en
@@ -84,6 +84,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4530
 title:
 - content: Lightweight Directory Access Protocol (LDAP) entryUUID Operational Attribute
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the LDAP/X.500 \\'entryUUID' operational attribute
-    and associated matching rules and syntax.  The attribute holds a server-assigned
-    Universally Unique Identifier (UUID) for the object.  Directory clients may use
+    and associated matching rules and syntax. The attribute holds a server-assigned
+    Universally Unique Identifier (UUID) for the object. Directory clients may use
     this attribute to distinguish objects identified by a distinguished name or to
     locate an object after renaming. [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

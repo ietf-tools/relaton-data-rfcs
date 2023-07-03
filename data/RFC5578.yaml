@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5578
 title:
 - content: PPP over Ethernet (PPPoE) Extensions for Credit Flow and Link Metrics
@@ -183,16 +183,20 @@ script:
 abstract:
 - content: "<p>This document extends the Point-to-Point Protocol over Ethernet (PPPoE)
     with an optional credit-based flow control mechanism and an optional Link Quality
-    Metric report.  These optional extensions improve the performance of PPPoE over
+    Metric report. These optional extensions improve the performance of PPPoE over
     media with variable bandwidth and limited buffering, such as mobile point-to-point
-    radio links.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.</p>"
+    radio links. This document is not an Internet Standards Track specification; it
+    is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4189
 title:
 - content: Requirements for End-to-Middle Security for the Session Initiation Protocol
@@ -97,12 +97,12 @@ script:
 abstract:
 - content: <p>A Session Initiation Protocol (SIP) User Agent (UA) does not always
     trust all intermediaries in its request path to inspect its message bodies and/or
-    headers contained in its message.  The UA might want to protect the message bodies
+    headers contained in its message. The UA might want to protect the message bodies
     and/or headers from intermediaries, except those that provide services based on
-    its content.  This situation requires a mechanism called "end-to-middle security"
+    its content. This situation requires a mechanism called "end-to-middle security"
     to secure the information passed between the UA and intermediaries, which does
-    not interfere with end-to-end security.  This document defines a set of requirements
-    for a mechanism to achieve end-to-middle security.  This memo provides information
+    not interfere with end-to-end security. This document defines a set of requirements
+    for a mechanism to achieve end-to-middle security. This memo provides information
     for the Internet community.</p>
   language:
   - en
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

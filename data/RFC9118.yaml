@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9118
 title:
 - content: Enhanced JSON Web Token (JWT) Claim Constraints for Secure Telephone Identity
@@ -68,13 +68,13 @@ script:
 abstract:
 - content: <p>RFC 8226 specifies the use of certificates for Secure Telephone Identity
     Credentials; these certificates are often called "Secure Telephone Identity Revisited
-    (STIR) Certificates".  RFC 8226 provides a certificate extension to constrain
-    the JSON Web Token (JWT) claims that can be included in the Personal Assertion
-    Token (PASSporT), as defined in RFC 8225.  If the PASSporT signer includes a JWT
-    claim outside the constraint boundaries, then the PASSporT recipient will reject
-    the entire PASSporT.  This document updates RFC 8226; it provides all of the capabilities
+    (STIR) Certificates". RFC 8226 provides a certificate extension to constrain the
+    JSON Web Token (JWT) claims that can be included in the Personal Assertion Token
+    (PASSporT), as defined in RFC 8225. If the PASSporT signer includes a JWT claim
+    outside the constraint boundaries, then the PASSporT recipient will reject the
+    entire PASSporT. This document updates RFC 8226; it provides all of the capabilities
     available in the original certificate extension as well as an additional way to
-    constrain the allowable JWT claims.  The enhanced extension can also provide a
+    constrain the allowable JWT claims. The enhanced extension can also provide a
     list of claims that are not allowed to be included in the PASSporT.</p>
   language:
   - en
@@ -93,6 +93,10 @@ relation:
       content: RFC8226
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3955
 title:
 - content: Evaluation of Candidate Protocols for IP Flow Information Export (IPFIX)
@@ -67,17 +67,20 @@ script:
 abstract:
 - content: "<p>This document contains an evaluation of the five candidate protocols
     for an IP Flow Information Export (IPFIX) protocol, based on the requirements
-    document produced by the IPFIX Working Group.  The protocols are characterized
+    document produced by the IPFIX Working Group. The protocols are characterized
     and grouped in broad categories, and evaluated against specific requirements.
-    \ Finally, a recommendation is made to select the NetFlow v9 protocol as the basis
-    for the IPFIX specification.  This memo provides information for the Internet
-    community.</p>"
+    Finally, a recommendation is made to select the NetFlow v9 protocol as the basis
+    for the IPFIX specification. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1050
 title:
 - content: 'RPC: Remote Procedure Call Protocol specification'
@@ -42,9 +42,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo specifies a message protocol used in implementing Sun's Remote
-    Procedure Call (RPC) package.  This RFC describes a standard that Sun Microsystems
+    Procedure Call (RPC) package. This RFC describes a standard that Sun Microsystems
     and others are using and is one they wish to propose for the Internet's consideration.
-    \ It is not an Internet standard at this time.</p>"
+    It is not an Internet standard at this time.</p>"
   language:
   - en
   script:
@@ -62,6 +62,10 @@ relation:
       content: RFC1057
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

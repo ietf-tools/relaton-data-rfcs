@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7965
 title:
 - content: LDP Extensions for Pseudowire Binding to Label Switched Path (LSP) Tunnels
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>Many transport services require that user traffic, in the form of Pseudowires
     (PWs), be delivered via either a single co-routed bidirectional tunnel or two
-    unidirectional tunnels that share the same routes.  This document defines an optional
+    unidirectional tunnels that share the same routes. This document defines an optional
     extension to the Label Distribution Protocol (LDP) that enables the binding between
-    PWs and the underlying Traffic Engineering (TE) tunnels.  The extension applies
+    PWs and the underlying Traffic Engineering (TE) tunnels. The extension applies
     to both single-segment and multi-segment PWs.</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

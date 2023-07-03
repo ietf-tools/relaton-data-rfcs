@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7753
 title:
 - content: Port Control Protocol (PCP) Extension for Port-Set Allocation
@@ -211,15 +211,19 @@ script:
 - Latn
 abstract:
 - content: "<p>In some use cases, e.g., Lightweight 4over6, the client may require
-    not just one port, but a port set.  This document defines an extension to the
-    Port Control Protocol (PCP) that allows clients to manipulate a set of ports as
-    a whole.  This is accomplished using a new MAP option: PORT_SET.</p>"
+    not just one port, but a port set. This document defines an extension to the Port
+    Control Protocol (PCP) that allows clients to manipulate a set of ports as a whole.
+    This is accomplished using a new MAP option: PORT_SET.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

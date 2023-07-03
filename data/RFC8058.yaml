@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8058
 title:
 - content: Signaling One-Click Functionality for List Email Headers
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a method for signaling a one-click function
-    for the List-Unsubscribe email header field.  The need for this arises out of
-    the actuality that mail software sometimes fetches URLs in mail header fields,
-    and thereby accidentally triggers unsubscriptions in the case of the List-Unsubscribe
+    for the List-Unsubscribe email header field. The need for this arises out of the
+    actuality that mail software sometimes fetches URLs in mail header fields, and
+    thereby accidentally triggers unsubscriptions in the case of the List-Unsubscribe
     header field.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

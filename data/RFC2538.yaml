@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2538
 title:
 - content: Storing Certificates in the Domain Name System (DNS)
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Cryptographic public key are frequently published and their authenticity
-    demonstrated by certificates.  A CERT resource record (RR) is defined so that
-    such certificates and related certificate revocation lists can be stored in the
-    Domain Name System (DNS). [STANDARDS-TRACK]</p>"
+    demonstrated by certificates. A CERT resource record (RR) is defined so that such
+    certificates and related certificate revocation lists can be stored in the Domain
+    Name System (DNS). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -115,6 +115,10 @@ relation:
       content: RFC4398
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

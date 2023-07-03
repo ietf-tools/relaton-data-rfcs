@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5038
 title:
 - content: The Label Distribution Protocol (LDP) Implementation Survey Results
@@ -96,15 +96,15 @@ script:
 abstract:
 - content: "<p>Multiprotocol Label Switching (MPLS), described in RFC 3031, is a method
     for forwarding packets that uses short, fixed-length values carried by packets,
-    called labels, to determine packet next hops.  A fundamental concept in MPLS is
+    called labels, to determine packet next hops. A fundamental concept in MPLS is
     that two Label Switching Routers (LSRs) must agree on the meaning of the labels
-    used to forward traffic between and through them.  This common understanding is
+    used to forward traffic between and through them. This common understanding is
     achieved by using a set of procedures, called a Label Distribution Protocol (as
     described in RFC 3036), by which one LSR informs another of label bindings it
-    has made.  One such protocol, called LDP, is used by LSRs to distribute labels
-    to support MPLS forwarding along normally routed paths.  This document reports
+    has made. One such protocol, called LDP, is used by LSRs to distribute labels
+    to support MPLS forwarding along normally routed paths. This document reports
     on a survey of LDP implementations conducted in August 2002 as part of the process
-    of advancing LDP from Proposed to Draft Standard.  This memo provides information
+    of advancing LDP from Proposed to Draft Standard. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -112,6 +112,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4988
 title:
 - content: Mobile IPv4 Fast Handovers
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document adapts the Mobile IPv6 Fast Handovers to improve delay
-    and packet loss resulting from Mobile IPv4 handover operations.  Specifically,
+    and packet loss resulting from Mobile IPv4 handover operations. Specifically,
     this document addresses movement detection, IP address configuration, and location
-    update latencies during a handover.  For reducing the IP address configuration
+    update latencies during a handover. For reducing the IP address configuration
     latency, the document proposes that the new Care-of Address is always made to
-    be the new access router's IP address.  This memo defines an Experimental Protocol
+    be the new access router's IP address. This memo defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

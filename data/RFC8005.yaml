@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8005
 title:
 - content: Host Identity Protocol (HIP) Domain Name System (DNS) Extension
@@ -66,17 +66,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a resource record (RR) for the Domain Name
-    System (DNS) and how to use it with the Host Identity Protocol (HIP).  This RR
+    System (DNS) and how to use it with the Host Identity Protocol (HIP). This RR
     allows a HIP node to store in the DNS its Host Identity (HI), the public component
     of the node public-private key pair; its Host Identity Tag (HIT), a truncated
     hash of its public key (PK); and the domain names of its rendezvous servers (RVSs).
-    \ This document obsoletes RFC 5205.</p>"
+    This document obsoletes RFC 5205.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

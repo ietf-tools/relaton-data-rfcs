@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3976
 title:
 - content: Interworking SIP and Intelligent Network (IN) Applications
@@ -131,19 +131,23 @@ abstract:
 - content: "<p>Public Switched Telephone Network (PSTN) services such as 800-number
     routing (freephone), time-and-day routing, credit-card calling, and virtual private
     network (mapping a private network number into a public number) are realized by
-    the Intelligent Network (IN).  This document addresses means to support existing
+    the Intelligent Network (IN). This document addresses means to support existing
     IN services from Session Initiation Protocol (SIP) endpoints for an IP-host-to-phone
-    call.  The call request is originated on a SIP endpoint, but the services to the
-    call are provided by the data and procedures resident in the PSTN/IN.  To provide
+    call. The call request is originated on a SIP endpoint, but the services to the
+    call are provided by the data and procedures resident in the PSTN/IN. To provide
     IN services in a transparent manner to SIP endpoints, this document describes
     the mechanism for interworking SIP and Intelligent Network Application Part (INAP).
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

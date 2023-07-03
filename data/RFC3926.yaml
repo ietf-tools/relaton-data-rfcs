@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3926
 title:
 - content: FLUTE - File Delivery over Unidirectional Transport
@@ -183,8 +183,8 @@ script:
 abstract:
 - content: "<p>This document defines FLUTE, a protocol for the unidirectional delivery
     of files over the Internet, which is particularly suited to multicast networks.
-    \ The specification builds on Asynchronous Layered Coding, the base protocol designed
-    for massively scalable multicast distribution.  This memo defines an Experimental
+    The specification builds on Asynchronous Layered Coding, the base protocol designed
+    for massively scalable multicast distribution. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -203,6 +203,10 @@ relation:
       content: RFC6726
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

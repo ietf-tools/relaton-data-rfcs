@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6042
 title:
 - content: Transport Layer Security (TLS) Authorization Using KeyNote
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This document specifies the use of the KeyNote trust-management system
     as an authorization extension in the Transport Layer Security (TLS) Handshake
-    Protocol, according to guidelines in RFC 5878.  Extensions carried in the client
+    Protocol, according to guidelines in RFC 5878. Extensions carried in the client
     and server hello messages confirm that both parties support the desired authorization
-    data types.  Then, if supported by both the client and the server, KeyNote credentials
-    are exchanged in the supplemental data handshake message.  This document is not
+    data types. Then, if supported by both the client and the server, KeyNote credentials
+    are exchanged in the supplemental data handshake message. This document is not
     an Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

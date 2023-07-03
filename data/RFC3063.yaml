@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3063
 title:
 - content: MPLS Loop Prevention Mechanism
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: <p>This paper presents a simple mechanism, based on "threads", which can
     be used to prevent Multiprotocol Label Switching (MPLS) from setting up label
-    switched path (LSPs) which have loops.  This memo defines an Experimental Protocol
+    switched path (LSPs) which have loops. This memo defines an Experimental Protocol
     for the Internet community.</p>
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

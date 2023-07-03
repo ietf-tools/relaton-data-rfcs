@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6814
 title:
 - content: Formally Deprecating Some IPv4 Options
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: "<p>A number of IPv4 options have become obsolete in practice, but have
-    never been formally deprecated.  This document deprecates such IPv4 options, thus
-    cleaning up the corresponding IANA registry.  Additionally, it obsoletes RFCs
-    1385, 1393, 1475, and 1770, and requests that the RFC Editor change their status
-    to Historic. [STANDARDS-TRACK]</p>"
+    never been formally deprecated. This document deprecates such IPv4 options, thus
+    cleaning up the corresponding IANA registry. Additionally, it obsoletes RFCs 1385,
+    1393, 1475, and 1770, and requests that the RFC Editor change their status to
+    Historic. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

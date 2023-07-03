@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5878
 title:
 - content: Transport Layer Security (TLS) Authorization Extensions
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies authorization extensions to the Transport Layer
-    Security (TLS) Handshake Protocol.  Extensions are carried in the client and server
+    Security (TLS) Handshake Protocol. Extensions are carried in the client and server
     hello messages to confirm that both parties support the desired authorization
-    data types.  Then, if supported by both the client and the server, authorization
+    data types. Then, if supported by both the client and the server, authorization
     information, such as attribute certificates (ACs) or Security Assertion Markup
     Language (SAML) assertions, is exchanged in the supplemental data handshake message.
-    \ This document defines an Experimental Protocol for the Internet community.</p>"
+    This document defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC5246
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4311
 title:
 - content: IPv6 Host-to-Router Load Sharing
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>The original IPv6 conceptual sending algorithm does not do load sharing
     among equivalent IPv6 routers, and suggests schemes that can be problematic in
-    practice.  This document updates the conceptual sending algorithm in RFC 2461
-    so that traffic to different destinations can be distributed among routers in
-    an efficient fashion. [STANDARDS-TRACK]</p>"
+    practice. This document updates the conceptual sending algorithm in RFC 2461 so
+    that traffic to different destinations can be distributed among routers in an
+    efficient fashion. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC2461
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

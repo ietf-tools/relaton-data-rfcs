@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2781
 title:
 - content: UTF-16, an encoding of ISO 10646
@@ -98,7 +98,7 @@ abstract:
     the issues of serializing UTF-16 as an octet stream for transmission over the
     Internet, discusses MIME charset naming as described in [CHARSET-REG], and contains
     the registration for three MIME charset parameter values: UTF-16BE (big-endian),
-    UTF-16LE (little- endian), and UTF-16.  This memo provides information for the
+    UTF-16LE (little- endian), and UTF-16. This memo provides information for the
     Internet community.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

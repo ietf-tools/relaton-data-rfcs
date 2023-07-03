@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC804
 title:
 - content: CCITT draft recommendation T.4
@@ -44,7 +44,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This is the CCITT standard for group 3 facsimile encoding.  This is
+- content: "<p>This is the CCITT standard for group 3 facsimile encoding. This is
     useful for data compression of bit map data.</p>"
   language:
   - en
@@ -52,6 +52,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

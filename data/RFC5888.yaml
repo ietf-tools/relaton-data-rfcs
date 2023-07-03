@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5888
 title:
 - content: The Session Description Protocol (SDP) Grouping Framework
@@ -95,17 +95,21 @@ script:
 - Latn
 abstract:
 - content: '<p>In this specification, we define a framework to group "m" lines in
-    the Session Description Protocol (SDP) for different purposes.  This framework
-    uses the "group" and "mid" SDP attributes, both of which are defined in this specification.  Additionally,
-    we specify how to use the framework for two different purposes: for lip synchronization
-    and for receiving a media flow consisting of several media streams on different
-    transport addresses.  This document obsoletes RFC 3388. [STANDARDS-TRACK]</p>'
+    the Session Description Protocol (SDP) for different purposes. This framework
+    uses the "group" and "mid" SDP attributes, both of which are defined in this specification.
+    Additionally, we specify how to use the framework for two different purposes:
+    for lip synchronization and for receiving a media flow consisting of several media
+    streams on different transport addresses. This document obsoletes RFC 3388. [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

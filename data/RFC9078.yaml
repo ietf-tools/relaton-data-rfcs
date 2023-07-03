@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9078
 title:
 - content: 'Reaction: Indicating Summary Reaction to a Message'
@@ -125,14 +125,17 @@ script:
 abstract:
 - content: "<p>The popularity of social media has led to user comfort with easily
     signaling basic reactions to an author's posting, such as with a 'thumbs up' or
-    'smiley' graphic.  This specification permits a similar facility for Internet
-    Mail.</p>"
+    'smiley' graphic. This specification permits a similar facility for Internet Mail.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

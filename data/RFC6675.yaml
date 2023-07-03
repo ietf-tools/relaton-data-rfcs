@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6675
 title:
 - content: A Conservative Loss Recovery Algorithm Based on Selective Acknowledgment
@@ -212,10 +212,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document presents a conservative loss recovery algorithm for TCP
-    that is based on the use of the selective acknowledgment (SACK) TCP option.  The
+    that is based on the use of the selective acknowledgment (SACK) TCP option. The
     algorithm presented in this document conforms to the spirit of the current congestion
     control specification (RFC 5681), but allows TCP senders to recover more effectively
-    when multiple segments are lost from a single flight of data.  This document obsoletes
+    when multiple segments are lost from a single flight of data. This document obsoletes
     RFC 3517 and describes changes from it. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

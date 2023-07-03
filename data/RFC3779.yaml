@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3779
 title:
 - content: X.509 Extensions for IP Addresses and AS Identifiers
@@ -123,18 +123,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document defines two X.509 v3 certificate extensions.  The first
+- content: "<p>This document defines two X.509 v3 certificate extensions. The first
     binds a list of IP address blocks, or prefixes, to the subject of a certificate.
-    \ The second binds a list of autonomous system identifiers to the subject of a
-    certificate.  These extensions may be used to convey the authorization of the
-    subject to use the IP addresses and autonomous system identifiers contained in
-    the extensions. [STANDARDS-TRACK]</p>"
+    The second binds a list of autonomous system identifiers to the subject of a certificate.
+    These extensions may be used to convey the authorization of the subject to use
+    the IP addresses and autonomous system identifiers contained in the extensions.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1818
 title:
 - content: Best Current Practices
@@ -124,14 +124,18 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a new series of documents which describe best
-    current practices for the Internet community.  Documents in this series carry
-    the endorsement of the Internet Engineering Steering Group (IESG).</p>"
+    current practices for the Internet community. Documents in this series carry the
+    endorsement of the Internet Engineering Steering Group (IESG).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

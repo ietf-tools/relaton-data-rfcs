@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5277
 title:
 - content: NETCONF Event Notifications
@@ -96,15 +96,19 @@ script:
 abstract:
 - content: "<p>This document defines mechanisms that provide an asynchronous message
     notification delivery service for the Network Configuration protocol (NETCONF).
-    \ This is an optional capability built on top of the base NETCONF definition.
-    \ This document defines the capabilities and operations necessary to support this
-    service. [STANDARDS-TRACK]</p>"
+    This is an optional capability built on top of the base NETCONF definition. This
+    document defines the capabilities and operations necessary to support this service.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

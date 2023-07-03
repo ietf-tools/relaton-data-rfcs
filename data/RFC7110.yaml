@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7110
 title:
 - content: Return Path Specified Label Switched Path (LSP) Ping
@@ -183,15 +183,19 @@ script:
 abstract:
 - content: <p>This document defines extensions to the data-plane failure-detection
     protocol for Multiprotocol Label Switching (MPLS) Label Switched Paths (LSPs)
-    known as "LSP ping".  These extensions allow a selection of the LSP to be used
-    for the echo reply return path.  Enforcing a specific return path can be used
-    to verify bidirectional connectivity and also increase LSP ping robustness.</p>
+    known as "LSP ping". These extensions allow a selection of the LSP to be used
+    for the echo reply return path. Enforcing a specific return path can be used to
+    verify bidirectional connectivity and also increase LSP ping robustness.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

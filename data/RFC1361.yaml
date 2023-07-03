@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1361
 title:
 - content: Simple Network Time Protocol (SNTP)
@@ -67,12 +67,12 @@ script:
 abstract:
 - content: "<p>This memorandum describes the Simple Network Time Protocol (SNTP),
     which is an adaptation of the Network Time Protocol (NTP) used to synchronize
-    computer clocks in the Internet.  This memorandum does not obsolete or update
-    any RFC.  This memo provides information for the Internet community.  It does
-    not specify an Internet standard.  Discussion of the standardization process and
-    the RFC document series is presented first, followed by an explanation of the
-    terms.  Sections 6.2 - 6.9 contain the lists of protocols in each stage of standardization.
-    \ Finally come pointers to references and contacts for further information. [STANDARDS-TRACK]</p>"
+    computer clocks in the Internet. This memorandum does not obsolete or update any
+    RFC. This memo provides information for the Internet community. It does not specify
+    an Internet standard. Discussion of the standardization process and the RFC document
+    series is presented first, followed by an explanation of the terms. Sections 6.2
+    - 6.9 contain the lists of protocols in each stage of standardization. Finally
+    come pointers to references and contacts for further information. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -90,6 +90,10 @@ relation:
       content: RFC1769
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

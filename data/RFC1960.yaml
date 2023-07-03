@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1960
 title:
 - content: A String Representation of LDAP Search Filters
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The Lightweight Directory Access Protocol (LDAP) [1] defines a network
-    representation of a search filter transmitted to an LDAP server.  Some applications
+    representation of a search filter transmitted to an LDAP server. Some applications
     may find it useful to have a common way of representing these search filters in
-    a human-readable form.  This document defines a human-readable string format for
+    a human-readable form. This document defines a human-readable string format for
     representing LDAP search filters. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC2254
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

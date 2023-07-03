@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7009
 title:
 - content: OAuth 2.0 Token Revocation
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>This document proposes an additional endpoint for OAuth authorization
     servers, which allows clients to notify the authorization server that a previously
-    obtained refresh or access token is no longer needed.  This allows the authorization
-    server to clean up security credentials.  A revocation request will invalidate
+    obtained refresh or access token is no longer needed. This allows the authorization
+    server to clean up security credentials. A revocation request will invalidate
     the actual token and, if applicable, other tokens based on the same authorization
     grant.</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3734
 title:
 - content: Extensible Provisioning Protocol (EPP) Transport Over TCP
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document describes how an Extensible Provisioning Protocol (EPP)
     session is mapped onto a single Transmission Control Protocol (TCP) connection.
-    \ This mapping requires use of the Transport Layer Security (TLS) protocol to
-    protect information exchanged between an EPP client and an EPP server. [STANDARDS-TRACK]</p>"
+    This mapping requires use of the Transport Layer Security (TLS) protocol to protect
+    information exchanged between an EPP client and an EPP server. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC4934
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

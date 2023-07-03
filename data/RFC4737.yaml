@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4737
 title:
 - content: Packet Reordering Metrics
@@ -182,15 +182,15 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines metrics to evaluate whether a network has maintained
-    packet order on a packet-by-packet basis.  It provides motivations for the new
+    packet order on a packet-by-packet basis. It provides motivations for the new
     metrics and discusses the measurement issues, including the context information
-    required for all metrics.  The memo first defines a reordered singleton, and then
+    required for all metrics. The memo first defines a reordered singleton, and then
     uses it as the basis for sample metrics to quantify the extent of reordering in
-    several useful dimensions for network characterization or receiver design.  Additional
+    several useful dimensions for network characterization or receiver design. Additional
     metrics quantify the frequency of reordering and the distance between separate
-    occurrences.  We then define a metric oriented toward assessment of reordering
-    effects on TCP.  Several examples of evaluation using the various sample metrics
-    are included.  An appendix gives extended definitions for evaluating order with
+    occurrences. We then define a metric oriented toward assessment of reordering
+    effects on TCP. Several examples of evaluation using the various sample metrics
+    are included. An appendix gives extended definitions for evaluating order with
     packet fragmentation. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -198,6 +198,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

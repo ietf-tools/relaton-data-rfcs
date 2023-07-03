@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6388
 title:
 - content: Label Distribution Protocol Extensions for Point-to-Multipoint and Multipoint-to-Multipoint
@@ -155,13 +155,13 @@ script:
 abstract:
 - content: "<p>This document describes extensions to the Label Distribution Protocol
     (LDP) for the setup of point-to-multipoint (P2MP) and multipoint-to-multipoint
-    (MP2MP) Label Switched Paths (LSPs) in MPLS networks.  These extensions are also
-    referred to as multipoint LDP.  Multipoint LDP constructs the P2MP or MP2MP LSPs
+    (MP2MP) Label Switched Paths (LSPs) in MPLS networks. These extensions are also
+    referred to as multipoint LDP. Multipoint LDP constructs the P2MP or MP2MP LSPs
     without interacting with or relying upon any other multicast tree construction
-    protocol.  Protocol elements and procedures for this solution are described for
-    building such LSPs in a receiver-initiated manner.  There can be various applications
+    protocol. Protocol elements and procedures for this solution are described for
+    building such LSPs in a receiver-initiated manner. There can be various applications
     for multipoint LSPs, for example IP multicast or support for multicast in BGP/MPLS
-    Layer 3 Virtual Private Networks (L3VPNs).  Specification of how such applications
+    Layer 3 Virtual Private Networks (L3VPNs). Specification of how such applications
     can use an LDP signaled multipoint LSP is outside the scope of this document.
     [STANDARDS-TRACK]</p>"
   language:
@@ -170,6 +170,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

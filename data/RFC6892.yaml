@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6892
 title:
 - content: The 'describes' Link Relation Type
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This specification defines the 'describes' link relation type that
     allows resource representations to indicate that they are describing another resource.
-    \ In contexts where applications want to associate described resources and description
+    In contexts where applications want to associate described resources and description
     resources, and want to build services based on these associations, the 'describes'
     link relation type provides the opposite direction of the 'describedby' link relation
     type, which already is a registered link relation type.</p>"
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5044
 title:
 - content: Marker PDU Aligned Framing for TCP Specification
@@ -183,10 +183,10 @@ script:
 abstract:
 - content: <p>Marker PDU Aligned Framing (MPA) is designed to work as an "adaptation
     layer" between TCP and the Direct Data Placement protocol (DDP) as described in
-    RFC 5041.  It preserves the reliable, in-order delivery of TCP, while adding the
-    preservation of higher-level protocol record boundaries that DDP requires.  MPA
+    RFC 5041. It preserves the reliable, in-order delivery of TCP, while adding the
+    preservation of higher-level protocol record boundaries that DDP requires. MPA
     is fully compliant with applicable TCP RFCs and can be utilized with existing
-    TCP implementations.  MPA also supports integrated implementations that combine
+    TCP implementations. MPA also supports integrated implementations that combine
     TCP, MPA and DDP to reduce buffering requirements in the implementation and improve
     performance at the system level. [STANDARDS-TRACK]</p>
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8696
 title:
 - content: Using Pre-Shared Key (PSK) in the Cryptographic Message Syntax (CMS)
@@ -66,22 +66,26 @@ script:
 - Latn
 abstract:
 - content: "<p>The invention of a large-scale quantum computer would pose a serious
-    challenge for the cryptographic algorithms that are widely deployed today.  The
+    challenge for the cryptographic algorithms that are widely deployed today. The
     Cryptographic Message Syntax (CMS) supports key transport and key agreement algorithms
-    that could be broken by the invention of such a quantum computer.  By storing
-    communications that are protected with the CMS today, someone could decrypt them
-    in the future when a large-scale quantum computer becomes available.  Once quantum-secure
-    key management algorithms are available, the CMS will be extended to support the
-    new algorithms if the existing syntax does not accommodate them.  This document
-    describes a mechanism to protect today's communication from the future invention
-    of a large-scale quantum computer by mixing the output of key transport and key
-    agreement algorithms with a pre-shared key.</p>"
+    that could be broken by the invention of such a quantum computer. By storing communications
+    that are protected with the CMS today, someone could decrypt them in the future
+    when a large-scale quantum computer becomes available. Once quantum-secure key
+    management algorithms are available, the CMS will be extended to support the new
+    algorithms if the existing syntax does not accommodate them. This document describes
+    a mechanism to protect today's communication from the future invention of a large-scale
+    quantum computer by mixing the output of key transport and key agreement algorithms
+    with a pre-shared key.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

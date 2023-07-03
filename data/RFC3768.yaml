@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3768
 title:
 - content: Virtual Router Redundancy Protocol (VRRP)
@@ -65,14 +65,14 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo defines the Virtual Router Redundancy Protocol (VRRP).  VRRP
+- content: "<p>This memo defines the Virtual Router Redundancy Protocol (VRRP). VRRP
     specifies an election protocol that dynamically assigns responsibility for a virtual
-    router to one of the VRRP routers on a LAN.  The VRRP router controlling the IP
+    router to one of the VRRP routers on a LAN. The VRRP router controlling the IP
     address(es) associated with a virtual router is called the Master, and forwards
-    packets sent to these IP addresses.  The election process provides dynamic fail
-    over in the forwarding responsibility should the Master become unavailable.  This
+    packets sent to these IP addresses. The election process provides dynamic fail
+    over in the forwarding responsibility should the Master become unavailable. This
     allows any of the virtual router IP addresses on the LAN to be used as the default
-    first hop router by end-hosts.  The advantage gained from using VRRP is a higher
+    first hop router by end-hosts. The advantage gained from using VRRP is a higher
     availability default path without requiring configuration of dynamic routing or
     router discovery protocols on every end-host. [STANDARDS-TRACK]</p>"
   language:
@@ -92,6 +92,10 @@ relation:
       content: RFC5798
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

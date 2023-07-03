@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5644
 title:
 - content: 'IP Performance Metrics (IPPM): Spatial and Multicast'
@@ -124,8 +124,8 @@ script:
 - Latn
 abstract:
 - content: "<p>The IETF has standardized IP Performance Metrics (IPPM) for measuring
-    end-to-end performance between two points.  This memo defines two new categories
-    of metrics that extend the coverage to multiple measurement points.  It defines
+    end-to-end performance between two points. This memo defines two new categories
+    of metrics that extend the coverage to multiple measurement points. It defines
     spatial metrics for measuring the performance of segments of a source to destination
     path, and metrics for measuring the performance between a source and many destinations
     in multiparty communications (e.g., a multicast tree). [STANDARDS-TRACK]</p>"
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

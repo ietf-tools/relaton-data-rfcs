@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9040
 title:
 - content: TCP Control Block Interdependence
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This memo provides guidance to TCP implementers that is intended to
     help improve connection convergence to steady-state operation without affecting
-    interoperability.  It updates and replaces RFC 2140's description of sharing TCP
+    interoperability. It updates and replaces RFC 2140's description of sharing TCP
     state, as typically represented in TCP Control Blocks, among similar concurrent
     or consecutive connections.</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2332
 title:
 - content: NBMA Next Hop Resolution Protocol (NHRP)
@@ -181,8 +181,8 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document describes the NBMA Next Hop Resolution Protocol (NHRP).  NHRP
-    can be used by a source station (host or router) connected to a Non-Broadcast,
+- content: <p>This document describes the NBMA Next Hop Resolution Protocol (NHRP).
+    NHRP can be used by a source station (host or router) connected to a Non-Broadcast,
     Multi-Access (NBMA) subnetwork to determine the internetworking layer address
     and NBMA subnetwork addresses of the "NBMA next hop" towards a destination station.
     [STANDARDS-TRACK]</p>
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

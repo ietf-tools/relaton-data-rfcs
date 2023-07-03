@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1519
 title:
 - content: 'Classless Inter-Domain Routing (CIDR): an Address Assignment and Aggregation
@@ -173,6 +173,10 @@ relation:
       content: RFC4632
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

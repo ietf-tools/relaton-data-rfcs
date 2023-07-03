@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1086
 title:
 - content: ISO-TP0 bridge between TCP and X.25
@@ -104,16 +104,20 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo proposes a standard for the Internet community.  Hosts on
+- content: "<p>This memo proposes a standard for the Internet community. Hosts on
     the Internet that choose to implement ISO TP0 transport connectivity between TCP
-    and X.25 based hosts are expected to experiment with this proposal.  TCP port
-    146 is reserved for this proposal.</p>"
+    and X.25 based hosts are expected to experiment with this proposal. TCP port 146
+    is reserved for this proposal.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

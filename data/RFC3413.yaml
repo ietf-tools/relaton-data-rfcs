@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3413
 title:
 - content: Simple Network Management Protocol (SNMP) Applications
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>This document describes five types of Simple Network Management Protocol
     (SNMP) applications which make use of an SNMP engine as described in STD 62, RFC
-    3411.  The types of application described are Command Generators, Command Responders,
-    Notification Originators, Notification Receivers, and Proxy Forwarders.  This
-    document also defines Management Information Base (MIB) modules for specifying
-    targets of management operations, for notification filtering, and for proxy forwarding.
-    \ This document obsoletes RFC 2573. [STANDARDS-TRACK]</p>"
+    3411. The types of application described are Command Generators, Command Responders,
+    Notification Originators, Notification Receivers, and Proxy Forwarders. This document
+    also defines Management Information Base (MIB) modules for specifying targets
+    of management operations, for notification filtering, and for proxy forwarding.
+    This document obsoletes RFC 2573. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -140,6 +140,10 @@ series:
     content: STD
     format: text/plain
   number: '62'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

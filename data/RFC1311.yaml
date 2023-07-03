@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1311
 title:
 - content: Introduction to the STD Notes
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The STDs are a subseries of notes within the RFC series that are the
-    Internet standards.  The intent is to identify clearly for the Internet community
+    Internet standards. The intent is to identify clearly for the Internet community
     those RFCs which document Internet standards. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -74,6 +74,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

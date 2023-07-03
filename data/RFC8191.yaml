@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8191
 title:
 - content: Home Network Prefix Renumbering in Proxy Mobile IPv6 (PMIPv6)
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>In the basic Proxy Mobile IPv6 (PMIPv6) specification, a Mobile Node
     (MN) is assigned with a Home Network Prefix (HNP) during its initial attachment,
-    and the MN configures its Home Address (HoA) with the HNP.  During the movement
+    and the MN configures its Home Address (HoA) with the HNP. During the movement
     of the MN, the HNP remains unchanged to keep ongoing communications associated
-    with the HoA.  However, the current PMIPv6 specification does not specify related
+    with the HoA. However, the current PMIPv6 specification does not specify related
     operations when HNP renumbering has occurred (e.g., due to change of service provider
-    or site topology, etc.).  In this document, a solution to support HNP renumbering
+    or site topology, etc.). In this document, a solution to support HNP renumbering
     is proposed, as an optional extension of the PMIPv6 specification.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

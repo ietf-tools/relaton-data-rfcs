@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7078
 title:
 - content: Distributing Address Selection Policy Using DHCPv6
@@ -125,18 +125,22 @@ script:
 abstract:
 - content: "<p>RFC 6724 defines default address selection mechanisms for IPv6 that
     allow nodes to select an appropriate address when faced with multiple source and/or
-    destination addresses to choose between.  RFC 6724 allows for the future definition
+    destination addresses to choose between. RFC 6724 allows for the future definition
     of methods to administratively configure the address selection policy information.
-    \ This document defines a new DHCPv6 option for such configuration, allowing a
-    site administrator to distribute address selection policy overriding the default
-    address selection parameters and policy table, and thus allowing the administrator
-    to control the address selection behavior of nodes in their site.</p>"
+    This document defines a new DHCPv6 option for such configuration, allowing a site
+    administrator to distribute address selection policy overriding the default address
+    selection parameters and policy table, and thus allowing the administrator to
+    control the address selection behavior of nodes in their site.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

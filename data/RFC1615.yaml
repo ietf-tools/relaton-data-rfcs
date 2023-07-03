@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1615
 title:
 - content: Migrating from X.400(84) to X.400(88)
@@ -97,14 +97,18 @@ abstract:
 - content: "<p>This document compares X.400(88) to X.400(84) and describes what problems
     can be anticipated in the migration, especially considering the migration from
     the existing X.400(84) infrastructure created by the COSINE MHS project to an
-    X.400(88) infrastructure.  This memo provides information for the Internet community.
-    \ This memo does not specify an Internet standard of any kind.</p>"
+    X.400(88) infrastructure. This memo provides information for the Internet community.
+    This memo does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

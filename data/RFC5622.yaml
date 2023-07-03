@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5622
 title:
 - content: 'Profile for Datagram Congestion Control Protocol (DCCP) Congestion ID
@@ -97,15 +97,15 @@ script:
 abstract:
 - content: "<p>This document specifies a profile for Congestion Control Identifier
     4, the small-packet variant of TCP-Friendly Rate Control (TFRC), in the Datagram
-    Congestion Control Protocol (DCCP).  CCID 4 is for experimental use, and uses
-    TFRC-SP (RFC 4828), a variant of TFRC designed for applications that send small
-    packets.  CCID 4 is considered experimental because TFRC-SP is itself experimental,
-    and is not proposed for widespread deployment in the global Internet at this time.
-    \ The goal for TFRC-SP is to achieve roughly the same bandwidth in bits per second
+    Congestion Control Protocol (DCCP). CCID 4 is for experimental use, and uses TFRC-SP
+    (RFC 4828), a variant of TFRC designed for applications that send small packets.
+    CCID 4 is considered experimental because TFRC-SP is itself experimental, and
+    is not proposed for widespread deployment in the global Internet at this time.
+    The goal for TFRC-SP is to achieve roughly the same bandwidth in bits per second
     (bps) as a TCP flow using packets of up to 1500 bytes but experiencing the same
-    level of congestion.  CCID 4 is for use for senders that send small packets and
+    level of congestion. CCID 4 is for use for senders that send small packets and
     would like a TCP- friendly sending rate, possibly with Explicit Congestion Notification
-    (ECN), while minimizing abrupt rate changes.  This memo defines an Experimental
+    (ECN), while minimizing abrupt rate changes. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -113,6 +113,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

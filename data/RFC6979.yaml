@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6979
 title:
 - content: Deterministic Usage of the Digital Signature Algorithm (DSA) and Elliptic
@@ -67,10 +67,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a deterministic digital signature generation
-    procedure.  Such signatures are compatible with standard Digital Signature Algorithm
+    procedure. Such signatures are compatible with standard Digital Signature Algorithm
     (DSA) and Elliptic Curve Digital Signature Algorithm (ECDSA) digital signatures
     and can be processed with unmodified verifiers, which need not be aware of the
-    procedure described therein.  Deterministic signatures retain the cryptographic
+    procedure described therein. Deterministic signatures retain the cryptographic
     security features associated with digital signatures but can be more easily implemented
     in various environments, since they do not need access to a source of high-quality
     randomness.</p>"
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2268
 title:
 - content: A Description of the RC2(r) Encryption Algorithm
@@ -66,15 +66,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a conventional (secret-key) block encryption algorithm,
-    called RC2, which may be considered as a proposal for a DES replacement.  This
-    memo provides information for the Internet community.  It does not specify an
-    Internet standard of any kind.</p>"
+    called RC2, which may be considered as a proposal for a DES replacement. This
+    memo provides information for the Internet community. It does not specify an Internet
+    standard of any kind.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

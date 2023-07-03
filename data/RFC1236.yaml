@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1236
 title:
 - content: IP to X.121 address mapping for DDN
@@ -96,14 +96,18 @@ script:
 abstract:
 - content: "<p>This memo defines a standard way of converting IP addresses to CCITT
     X.121 addresses and is the recommended standard for use on the Internet, specifically
-    for the Defense Data Network (DDN).  This memo provides information for the Internet
-    community.  It does not specify an Internet standard.</p>"
+    for the Defense Data Network (DDN). This memo provides information for the Internet
+    community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

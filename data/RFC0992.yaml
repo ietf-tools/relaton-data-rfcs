@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC992
 title:
 - content: On communication support for fault tolerant process groups
@@ -105,16 +105,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a collection of multicast communication primitives
-    integrated with a mechanism for handling process failure and recovery.  These
-    primitives facilitate the implementation of fault-tolerant process groups, which
-    can be used to provide distributed services in an environment subject to non-malicious
-    crash failures.</p>"
+    integrated with a mechanism for handling process failure and recovery. These primitives
+    facilitate the implementation of fault-tolerant process groups, which can be used
+    to provide distributed services in an environment subject to non-malicious crash
+    failures.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

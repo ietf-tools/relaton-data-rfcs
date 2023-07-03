@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6135
 title:
 - content: An Alternative Connection Model for the Message Session Relay Protocol
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document defines an alternative connection model for Message Session
     Relay Protocol (MSRP) User Agents (UAs); this model uses the connection-oriented
-    media (COMEDIA) mechanism in order to create the MSRP transport connection.  The
+    media (COMEDIA) mechanism in order to create the MSRP transport connection. The
     model allows MSRP UAs behind Network Address Translators (NATs) to negotiate which
     endpoint initiates the establishment of the Transmission Control Protocol (TCP)
     connection, in order for MSRP messages to traverse the NAT. [STANDARDS-TRACK]</p>"
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2991
 title:
 - content: Multipath Issues in Unicast and Multicast Next-Hop Selection
@@ -96,15 +96,19 @@ script:
 abstract:
 - content: "<p>The effect of multipath routing on a forwarder is that the forwarder
     potentially has several next-hops for any given destination and must use some
-    method to choose which next-hop should be used for a given data packet.  This
-    memo summarizes current practices, problems, and solutions.  This memo provides
-    information for the Internet community.</p>"
+    method to choose which next-hop should be used for a given data packet. This memo
+    summarizes current practices, problems, and solutions. This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

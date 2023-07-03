@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6028
 title:
 - content: Host Identity Protocol (HIP) Multi-Hop Routing Extension
@@ -95,17 +95,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies two extensions to the Host Identity Protocol
-    (HIP) to implement multi-hop routing.  The first extension allows implementing
-    source routing in HIP.  That is, a node sending a HIP packet can define a set
-    of nodes that the HIP packet should traverse.  The second extension allows a HIP
-    packet to carry and record the list of nodes that forwarded it.  This document
-    defines an Experimental Protocol for the Internet community.</p>"
+    (HIP) to implement multi-hop routing. The first extension allows implementing
+    source routing in HIP. That is, a node sending a HIP packet can define a set of
+    nodes that the HIP packet should traverse. The second extension allows a HIP packet
+    to carry and record the list of nodes that forwarded it. This document defines
+    an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

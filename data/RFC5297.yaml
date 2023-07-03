@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5297
 title:
 - content: Synthetic Initialization Vector (SIV) Authenticated Encryption Using the
@@ -67,18 +67,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes SIV (Synthetic Initialization Vector), a block
-    cipher mode of operation.  SIV takes a key, a plaintext, and multiple variable-length
-    octet strings that will be authenticated but not encrypted.  It produces a ciphertext
+    cipher mode of operation. SIV takes a key, a plaintext, and multiple variable-length
+    octet strings that will be authenticated but not encrypted. It produces a ciphertext
     having the same length as the plaintext and a synthetic initialization vector.
-    \ Depending on how it is used, SIV achieves either the goal of deterministic authenticated
+    Depending on how it is used, SIV achieves either the goal of deterministic authenticated
     encryption or the goal of nonce-based, misuse-resistant authenticated encryption.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

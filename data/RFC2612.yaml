@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2612
 title:
 - content: The CAST-256 Encryption Algorithm
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an existing algorithm that can be used to satisfy
-    this requirement.  Included are a description of the cipher and the key scheduling
-    algorithm, the s-boxes, and a set of test vectors (Appendix A).  This memo provides
+    this requirement. Included are a description of the cipher and the key scheduling
+    algorithm, the s-boxes, and a set of test vectors (Appendix A). This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5690
 title:
 - content: Adding Acknowledgement Congestion Control to TCP
@@ -153,17 +153,17 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a possible congestion control mechanism for
-    acknowledgement (ACKs) traffic in TCP.  The document specifies an end-to-end acknowledgement
+    acknowledgement (ACKs) traffic in TCP. The document specifies an end-to-end acknowledgement
     congestion control mechanism for TCP that uses participation from both TCP hosts:
-    the TCP data sender and the TCP data receiver.  The TCP data sender detects lost
+    the TCP data sender and the TCP data receiver. The TCP data sender detects lost
     or Explicit Congestion Notification (ECN)-marked ACK packets, and tells the TCP
     data receiver the ACK Ratio R to use to respond to the congestion on the reverse
-    path from the data receiver to the data sender.  The TCP data receiver sends roughly
-    one ACK packet for every R data packets received.  This mechanism is based on
-    the acknowledgement congestion control in the Datagram Congestion Control Protocol's
-    (DCCP's) Congestion Control Identifier (CCID) 2.  This acknowledgement congestion
+    path from the data receiver to the data sender. The TCP data receiver sends roughly
+    one ACK packet for every R data packets received. This mechanism is based on the
+    acknowledgement congestion control in the Datagram Congestion Control Protocol's
+    (DCCP's) Congestion Control Identifier (CCID) 2. This acknowledgement congestion
     control mechanism is being specified for further evaluation by the network community.
-    \ This document is not an Internet Standards Track specification; it is published
+    This document is not an Internet Standards Track specification; it is published
     for informational purposes.</p>"
   language:
   - en
@@ -171,6 +171,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

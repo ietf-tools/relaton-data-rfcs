@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3044
 title:
 - content: Using The ISSN (International Serial Standard Number) as URN (Uniform Resource
@@ -69,7 +69,7 @@ abstract:
 - content: "<p>This document presents how the ISSN - International Standard Serial
     Number - which is a persistent number for unique identification of serials widely
     recognised and used in the bibliographic world, can be supported within the Uniform
-    Resource Name (URN) framework as a specific URN namespace identifier.  This memo
+    Resource Name (URN) framework as a specific URN namespace identifier. This memo
     provides information for the Internet community.</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC8254
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

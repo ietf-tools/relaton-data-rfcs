@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4505
 title:
 - content: Anonymous Simple Authentication and Security Layer (SASL) Mechanism
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>On the Internet, it is common practice to permit anonymous access to
-    various services.  Traditionally, this has been done with a plain-text password
+    various services. Traditionally, this has been done with a plain-text password
     mechanism using "anonymous" as the user name and using optional trace information,
-    such as an email address, as the password.  As plain-text login commands are not
+    such as an email address, as the password. As plain-text login commands are not
     permitted in new IETF protocols, a new way to provide anonymous login is needed
     within the context of the Simple Authentication and Security Layer (SASL) framework.
     [STANDARDS-TRACK]</p>
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

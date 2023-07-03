@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8596
 title:
 - content: MPLS Transport Encapsulation for the Service Function Chaining (SFC) Network
@@ -156,7 +156,7 @@ abstract:
 - content: "<p>This document describes how to use a Service Function Forwarder (SFF)
     Label (similar to a pseudowire label or VPN label) to indicate the presence of
     a Service Function Chaining (SFC) Network Service Header (NSH) between an MPLS
-    label stack and the packet original packet/ frame.  This allows SFC packets using
+    label stack and the packet original packet/ frame. This allows SFC packets using
     the NSH to be forwarded between SFFs over an MPLS network, and to select one of
     multiple SFFs in the destination MPLS node.</p>"
   language:
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

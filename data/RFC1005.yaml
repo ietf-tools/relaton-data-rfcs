@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1005
 title:
 - content: ARPANET AHIP-E Host Access Protocol (enhanced AHIP)
@@ -102,7 +102,7 @@ abstract:
 - content: "<p>This RFC is a proposed specification for the encoding of Class A IP
     addresses for use on ARPANET-style networks such as the Milnet and Arpanet, and
     for enhancements to the ARPANET AHIP Host Access Protocol (AHIP; formerly known
-    as 1822).  These enhancements increase the size of the PSN field, allow ARPANET
+    as 1822). These enhancements increase the size of the PSN field, allow ARPANET
     hosts to use logical names to address each other, allow for the communication
     of type-of-service information from the host to the PSN and enable the PSN to
     provide congestion feedback to the host on a connection basis.</p>"
@@ -112,6 +112,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

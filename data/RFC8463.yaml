@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8463
 title:
 - content: A New Cryptographic Signature Method for DomainKeys Identified Mail (DKIM)
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document adds a new signing algorithm, Ed25519-SHA256, to "DomainKeys
-    Identified Mail (DKIM) Signatures" (RFC 6376).  DKIM verifiers are required to
+    Identified Mail (DKIM) Signatures" (RFC 6376). DKIM verifiers are required to
     implement this algorithm.</p>
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC6376
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

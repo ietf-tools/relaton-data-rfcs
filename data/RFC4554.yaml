@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4554
 title:
 - content: Use of VLANs for IPv4-IPv6 Coexistence in Enterprise Networks
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Ethernet VLANs are quite commonly used in enterprise networks for the
-    purposes of traffic segregation.  This document describes how such VLANs can be
+    purposes of traffic segregation. This document describes how such VLANs can be
     readily used to deploy IPv6 networking in an enterprise, which focuses on the
     scenario of early deployment prior to availability of IPv6-capable switch-router
-    equipment.  In this method, IPv6 may be routed in parallel with the existing IPv4
-    in the enterprise and delivered at Layer 2 via VLAN technology.  The IPv6 connectivity
-    to the enterprise may or may not enter the site via the same physical link.  This
+    equipment. In this method, IPv6 may be routed in parallel with the existing IPv4
+    in the enterprise and delivered at Layer 2 via VLAN technology. The IPv6 connectivity
+    to the enterprise may or may not enter the site via the same physical link. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

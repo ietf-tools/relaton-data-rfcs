@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7268
 title:
 - content: RADIUS Attributes for IEEE 802 Networks
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 3580 provides guidelines for the use of the Remote Authentication
-    Dial-In User Service (RADIUS) within IEEE 802 local area networks (LANs).  This
+    Dial-In User Service (RADIUS) within IEEE 802 local area networks (LANs). This
     document defines additional attributes for use within IEEE 802 networks and clarifies
-    the usage of the EAP-Key-Name Attribute and the Called-Station-Id Attribute.  This
+    the usage of the EAP-Key-Name Attribute and the Called-Station-Id Attribute. This
     document updates RFCs 3580 and 4072.</p>"
   language:
   - en
@@ -213,6 +213,10 @@ relation:
       content: RFC4072
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

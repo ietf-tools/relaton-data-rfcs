@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5129
 title:
 - content: Explicit Congestion Marking in MPLS
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 3270 defines how to support the Diffserv architecture in MPLS networks,
-    including how to encode Diffserv Code Points (DSCPs) in an MPLS header.  DSCPs
+    including how to encode Diffserv Code Points (DSCPs) in an MPLS header. DSCPs
     may be encoded in the EXP field, while other uses of that field are not precluded.
-    \ RFC 3270 makes no statement about how Explicit Congestion Notification (ECN)
-    marking might be encoded in the MPLS header.  This document defines how an operator
-    might define some of the EXP codepoints for explicit congestion notification,
-    without precluding other uses. [STANDARDS-TRACK]</p>"
+    RFC 3270 makes no statement about how Explicit Congestion Notification (ECN) marking
+    might be encoded in the MPLS header. This document defines how an operator might
+    define some of the EXP codepoints for explicit congestion notification, without
+    precluding other uses. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -147,6 +147,10 @@ relation:
       content: RFC3032
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

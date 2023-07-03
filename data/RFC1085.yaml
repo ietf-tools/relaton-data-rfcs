@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1085
 title:
 - content: ISO presentation services on top of TCP/IP based internets
@@ -71,15 +71,15 @@ script:
 - Latn
 abstract:
 - content: <p>RFC 1006 describes a mechanism for providing the ISO transport service
-    on top of TCP/IP.  Once this method is applied, one may implement "real" ISO applications
+    on top of TCP/IP. Once this method is applied, one may implement "real" ISO applications
     on top of TCP/IP-based internets, by simply implementing OSI session, presentation,
     and application services on top of the transport service access point which is
-    provided on top of the TCP.  Although straight-forward, there are some environments
+    provided on top of the TCP. Although straight-forward, there are some environments
     in which the richness provided by the OSI application layer is desired, but it
     is nonetheless impractical to implement the underlying OSI infrastructure (i.e.,
-    the presentation, session, and transport services on top of the TCP).  This memo
+    the presentation, session, and transport services on top of the TCP). This memo
     describes an approach for providing "stream-lined" support of OSI application
-    services on top of TCP/IP-based internets for such constrained environments.  This
+    services on top of TCP/IP-based internets for such constrained environments. This
     memo proposes a standard for the Internet community.</p>
   language:
   - en
@@ -87,6 +87,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6478
 title:
 - content: Pseudowire Status for Static Pseudowires
@@ -153,11 +153,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a mechanism to signal Pseudowire (PW) status
-    messages using a PW associated channel (ACh).  Such a mechanism is suitable for
+    messages using a PW associated channel (ACh). Such a mechanism is suitable for
     use where no PW dynamic control plane exits, known as static PWs, or where a Terminating
     Provider Edge (T-PE) needs to send a PW status message directly to a far-end T-PE.
-    \ The mechanism allows PW Operations, Administration, and Maintenance (OAM) message
-    mapping and PW redundancy to operate on static PWs.  This document also updates
+    The mechanism allows PW Operations, Administration, and Maintenance (OAM) message
+    mapping and PW redundancy to operate on static PWs. This document also updates
     RFC 5885 in the case when Bi-directional Forwarding Detection (BFD) is used to
     convey PW status-signaling information. [STANDARDS-TRACK]</p>"
   language:
@@ -177,6 +177,10 @@ relation:
       content: RFC5885
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

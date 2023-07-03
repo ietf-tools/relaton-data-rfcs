@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6486
 title:
 - content: Manifests for the Resource Public Key Infrastructure (RPKI)
@@ -153,17 +153,17 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines a "manifest" for use in the Resource Public Key
-    Infrastructure (RPKI).  A manifest is a signed object (file) that contains a listing
+    Infrastructure (RPKI). A manifest is a signed object (file) that contains a listing
     of all the signed objects (files) in the repository publication point (directory)
-    associated with an authority responsible for publishing in the repository.  For
+    associated with an authority responsible for publishing in the repository. For
     each certificate, Certificate Revocation List (CRL), or other type of signed objects
     issued by the authority that are published at this repository publication point,
     the manifest contains both the name of the file containing the object and a hash
-    of the file content.  Manifests are intended to enable a relying party (RP) to
-    detect certain forms of attacks against a repository.  Specifically, if an RP
-    checks a manifest's contents against the signed objects retrieved from a repository
-    publication point, then the RP can detect "stale" (valid) data and deletion of
-    signed objects. [STANDARDS-TRACK]</p>
+    of the file content. Manifests are intended to enable a relying party (RP) to
+    detect certain forms of attacks against a repository. Specifically, if an RP checks
+    a manifest's contents against the signed objects retrieved from a repository publication
+    point, then the RP can detect "stale" (valid) data and deletion of signed objects.
+    [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -181,6 +181,10 @@ relation:
       content: RFC9286
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

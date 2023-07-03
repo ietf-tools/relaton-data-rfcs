@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8424
 title:
 - content: Extensions to RSVP-TE for Label Switched Path (LSP) Ingress Fast Reroute
@@ -98,8 +98,8 @@ abstract:
 - content: "<p>This document describes extensions to Resource Reservation Protocol
     - Traffic Engineering (RSVP-TE) for locally protecting the ingress node of a Point-to-Point
     (P2P) or Point-to-Multipoint (P2MP) Traffic Engineered (TE) Label Switched Path
-    (LSP).  It extends the Fast Reroute (FRR) protection for transit nodes of an LSP
-    to the ingress node of the LSP.  The procedures described in this document are
+    (LSP). It extends the Fast Reroute (FRR) protection for transit nodes of an LSP
+    to the ingress node of the LSP. The procedures described in this document are
     experimental.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7600
 title:
 - content: IPv4 Residual Deployment via IPv6 - A Stateless Solution (4rd)
@@ -212,9 +212,9 @@ script:
 abstract:
 - content: "<p>This document specifies a stateless solution for service providers
     to progressively deploy IPv6-only network domains while still offering IPv4 service
-    to customers.  The solution's distinctive properties are that TCP/UDP IPv4 packets
+    to customers. The solution's distinctive properties are that TCP/UDP IPv4 packets
     are valid TCP/UDP IPv6 packets during domain traversal and that IPv4 fragmentation
-    rules are fully preserved end to end.  Each customer can be assigned one public
+    rules are fully preserved end to end. Each customer can be assigned one public
     IPv4 address, several public IPv4 addresses, or a shared address with a restricted
     port set.</p>"
   language:
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

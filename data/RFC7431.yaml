@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7431
 title:
 - content: Multicast-Only Fast Reroute
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>As IPTV deployments grow in number and size, service providers are
     looking for solutions that minimize the service disruption due to faults in the
-    IP network carrying the packets for these services.  This document describes a
+    IP network carrying the packets for these services. This document describes a
     mechanism for minimizing packet loss in a network when node or link failures occur.
-    \ Multicast-only Fast Reroute (MoFRR) works by making simple enhancements to multicast
+    Multicast-only Fast Reroute (MoFRR) works by making simple enhancements to multicast
     routing protocols such as Protocol Independent Multicast (PIM) and Multipoint
     LDP (mLDP).</p>"
   language:
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

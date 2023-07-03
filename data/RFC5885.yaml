@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5885
 title:
 - content: Bidirectional Forwarding Detection (BFD) for the Pseudowire Virtual Circuit
@@ -97,15 +97,19 @@ script:
 abstract:
 - content: "<p>This document describes Connectivity Verification (CV) Types using
     Bidirectional Forwarding Detection (BFD) with Virtual Circuit Connectivity Verification
-    (VCCV).  VCCV provides a control channel that is associated with a pseudowire
-    (PW), as well as the corresponding operations and management functions such as
-    connectivity verification to be used over that control channel. [STANDARDS-TRACK]</p>"
+    (VCCV). VCCV provides a control channel that is associated with a pseudowire (PW),
+    as well as the corresponding operations and management functions such as connectivity
+    verification to be used over that control channel. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

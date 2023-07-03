@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8091
 title:
 - content: A Media Type Structured Syntax Suffix for JSON Text Sequences
@@ -67,14 +67,18 @@ script:
 abstract:
 - content: <p>Structured syntax suffixes for media types allow other media types to
     build on them and make it explicit that they are built on an existing media type
-    as their foundation.  This specification defines and registers "+json-seq" as
-    a structured syntax suffix for JSON text sequences.</p>
+    as their foundation. This specification defines and registers "+json-seq" as a
+    structured syntax suffix for JSON text sequences.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

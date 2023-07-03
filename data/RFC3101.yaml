@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3101
 title:
 - content: The OSPF Not-So-Stubby Area (NSSA) Option
@@ -66,19 +66,23 @@ script:
 - Latn
 abstract:
 - content: <p>This memo documents an optional type of Open Shortest Path First (OSPF)
-    area that is somewhat humorously referred to as a "not-so-stubby" area (or NSSA).  NSSAs
-    are similar to the existing OSPF stub area configuration option but have the additional
-    capability of importing AS external routes in a limited fashion.  The OSPF NSSA
-    Option was originally defined in RFC 1587.  The functional differences between
-    this memo and RFC 1587 are explained in Appendix F.  All differences, while expanding
-    capability, are backward-compatible in nature.  Implementations of this memo and
-    of RFC 1587 will interoperate. [STANDARDS-TRACK]</p>
+    area that is somewhat humorously referred to as a "not-so-stubby" area (or NSSA).
+    NSSAs are similar to the existing OSPF stub area configuration option but have
+    the additional capability of importing AS external routes in a limited fashion.
+    The OSPF NSSA Option was originally defined in RFC 1587. The functional differences
+    between this memo and RFC 1587 are explained in Appendix F. All differences, while
+    expanding capability, are backward-compatible in nature. Implementations of this
+    memo and of RFC 1587 will interoperate. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

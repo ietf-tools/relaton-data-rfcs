@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5003
 title:
 - content: Attachment Individual Identifier (AII) Types for Aggregation
@@ -154,18 +154,22 @@ script:
 abstract:
 - content: "<p>The signaling protocols used to establish point-to-point pseudowires
     include type-length-value (TLV) fields that identify pseudowire endpoints called
-    attachment individual identifiers (AIIs).  This document defines AII structures
+    attachment individual identifiers (AIIs). This document defines AII structures
     in the form of new AII TLV fields that support AII aggregation for improved scalability
-    and Virtual Private Network (VPN) auto-discovery.  It is envisioned that this
-    would be useful in large inter-domain virtual private wire service networks where
-    pseudowires are established between selected local and remote provider edge (PE)
-    nodes based on customer need. [STANDARDS-TRACK]</p>"
+    and Virtual Private Network (VPN) auto-discovery. It is envisioned that this would
+    be useful in large inter-domain virtual private wire service networks where pseudowires
+    are established between selected local and remote provider edge (PE) nodes based
+    on customer need. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

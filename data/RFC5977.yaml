@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5977
 title:
 - content: 'RMD-QOSM: The NSIS Quality-of-Service Model for Resource Management in
@@ -184,15 +184,15 @@ script:
 abstract:
 - content: "<p>This document describes a Next Steps in Signaling (NSIS) Quality-of-Service
     (QoS) Model for networks that use the Resource Management in Diffserv (RMD) concept.
-    \ RMD is a technique for adding admission control and preemption function to Differentiated
-    Services (Diffserv) networks.  The RMD QoS Model allows devices external to the
-    RMD network to signal reservation requests to Edge nodes in the RMD network.  The
+    RMD is a technique for adding admission control and preemption function to Differentiated
+    Services (Diffserv) networks. The RMD QoS Model allows devices external to the
+    RMD network to signal reservation requests to Edge nodes in the RMD network. The
     RMD Ingress Edge nodes classify the incoming flows into traffic classes and signals
     resource requests for the corresponding traffic class along the data path to the
-    Egress Edge nodes for each flow.  Egress nodes reconstitute the original requests
+    Egress Edge nodes for each flow. Egress nodes reconstitute the original requests
     and continue forwarding them along the data path towards the final destination.
-    \ In addition, RMD defines notification functions to indicate overload situations
-    within the domain to the Edge nodes.  This document defines an Experimental Protocol
+    In addition, RMD defines notification functions to indicate overload situations
+    within the domain to the Edge nodes. This document defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -200,6 +200,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

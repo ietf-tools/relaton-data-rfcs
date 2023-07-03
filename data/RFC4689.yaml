@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4689
 title:
 - content: Terminology for Benchmarking Network-layer Traffic Control Mechanisms
@@ -154,10 +154,10 @@ script:
 abstract:
 - content: "<p>This document describes terminology for the benchmarking of devices
     that implement traffic control using packet classification based on defined criteria.
-    \ The terminology is to be applied to measurements made on the data plane to evaluate
-    IP traffic control mechanisms.  Rules for packet classification can be based on
+    The terminology is to be applied to measurements made on the data plane to evaluate
+    IP traffic control mechanisms. Rules for packet classification can be based on
     any field in the IP header, such as the Differentiated Services Code Point (DSCP),
-    or any field in the packet payload, such as port number.  This memo provides information
+    or any field in the packet payload, such as port number. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

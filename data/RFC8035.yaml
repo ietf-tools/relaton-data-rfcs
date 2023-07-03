@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8035
 title:
 - content: Session Description Protocol (SDP) Offer/Answer Clarifications for RTP/RTCP
@@ -67,7 +67,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document updates RFC 5761 by clarifying the SDP offer/answer negotiation
-    of RTP and RTP Control Protocol (RTCP) multiplexing.  It makes it clear that an
+    of RTP and RTP Control Protocol (RTCP) multiplexing. It makes it clear that an
     answerer can only include an "a=rtcp-mux" attribute in a Session Description Protocol
     (SDP) answer if the associated SDP offer contained the attribute.</p>
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC5761
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

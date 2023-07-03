@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7391
 title:
 - content: Forwarding and Control Element Separation (ForCES) Protocol Extensions
@@ -68,8 +68,8 @@ abstract:
 - content: "<p>Experience in implementing and deploying the Forwarding and Control
     Element Separation (ForCES) architecture has demonstrated the need for a few small
     extensions both to ease programmability and to improve wire efficiency of some
-    transactions.  The ForCES protocol is extended with a table range operation and
-    a new extension for error handling.  This document updates the semantics in RFCs
+    transactions. The ForCES protocol is extended with a table range operation and
+    a new extension for error handling. This document updates the semantics in RFCs
     5810 and 7121 to achieve that end goal.</p>"
   language:
   - en
@@ -98,6 +98,10 @@ relation:
       content: RFC7121
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

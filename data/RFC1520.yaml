@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1520
 title:
 - content: Exchanging Routing Information Across Provider Boundaries in the CIDR Environment
@@ -94,18 +94,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>The purpose of this document is twofold.  First, it describes various
+- content: "<p>The purpose of this document is twofold. First, it describes various
     alternatives for exchanging inter-domain routing information across domain boundaries,
-    where one of the peering domain is CIDR-capable and another is not.  Second, it
+    where one of the peering domain is CIDR-capable and another is not. Second, it
     addresses the implications of running CIDR- capable inter-domain routing protocols
-    (e.g., BGP-4, IDRP) on intra- domain routing.  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.</p>"
+    (e.g., BGP-4, IDRP) on intra- domain routing. This memo provides information for
+    the Internet community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

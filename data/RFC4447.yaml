@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4447
 title:
 - content: Pseudowire Setup and Maintenance Using the Label Distribution Protocol
@@ -184,11 +184,11 @@ script:
 abstract:
 - content: <p>Layer 2 services (such as Frame Relay, Asynchronous Transfer Mode, and
     Ethernet) can be "emulated" over an MPLS backbone by encapsulating the Layer 2
-    Protocol Data Units (PDU) and transmitting them over "pseudowires".  It is also
+    Protocol Data Units (PDU) and transmitting them over "pseudowires". It is also
     possible to use pseudowires to provide low-rate Time Division Multiplexed and
-    a Synchronous Optical NETworking circuit emulation over an MPLS-enabled network.  This
-    document specifies a protocol for establishing and maintaining the pseudowires,
-    using extensions to Label Distribution Protocol (LDP).  Procedures for encapsulating
+    a Synchronous Optical NETworking circuit emulation over an MPLS-enabled network.
+    This document specifies a protocol for establishing and maintaining the pseudowires,
+    using extensions to Label Distribution Protocol (LDP). Procedures for encapsulating
     Layer 2 PDUs are specified in a set of companion documents. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -207,6 +207,10 @@ relation:
       content: RFC8077
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

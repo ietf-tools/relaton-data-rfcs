@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1980
 title:
 - content: 'A Proposed Extension to HTML : Client-Side Image Maps'
@@ -65,12 +65,12 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>The markup language known as "HTML/2.0" provides for image maps.  Image
+- content: <p>The markup language known as "HTML/2.0" provides for image maps. Image
     maps are document elements which allow clicking different areas of an image to
-    reference different network resources, as specified by Uniform Identifier (URIs).  The
-    image map capability in HTML/2.0 is limited in several ways, such as the restriction
+    reference different network resources, as specified by Uniform Identifier (URIs).
+    The image map capability in HTML/2.0 is limited in several ways, such as the restriction
     that it only works with documents served via the "HTTP" protocol, and the lack
-    of a viable fallback for users of text-only browsers.  This document specifies
+    of a viable fallback for users of text-only browsers. This document specifies
     an extension to the HTML language, referred to as "Client- Side Image Maps," which
     resolves these limitations.</p>
   language:
@@ -90,6 +90,10 @@ relation:
       content: RFC2854
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

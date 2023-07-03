@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6297
 title:
 - content: A Survey of Lower-than-Best-Effort Transport Protocols
@@ -96,17 +96,20 @@ script:
 abstract:
 - content: <p>This document provides a survey of transport protocols that are designed
     to have a smaller bandwidth and/or delay impact on standard TCP than standard
-    TCP itself when they share a bottleneck with it.  Such protocols could be used
+    TCP itself when they share a bottleneck with it. Such protocols could be used
     for delay-insensitive "background" traffic, as they provide what is sometimes
-    called a "less than" (or "lower than") best-effort service.  This document is
-    not an Internet Standards Track specification; it is published for informational
-    purposes.</p>
+    called a "less than" (or "lower than") best-effort service. This document is not
+    an Internet Standards Track specification; it is published for informational purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

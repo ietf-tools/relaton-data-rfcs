@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2529
 title:
 - content: Transmission of IPv6 over IPv4 Domains without Explicit Tunnels
@@ -96,16 +96,20 @@ script:
 abstract:
 - content: "<p>This memo specifies the frame format for transmission of IPv6 (IPV6)
     packets and the method of forming IPv6 link-local addresses over IPv4 domains.
-    \ It also specifies the content of the Source/Target Link-layer Address option
-    used in the Router Solicitation, Router Advertisement, Neighbor Solicitation,
-    and Neighbor Advertisement and Redirect messages, when those messages are transmitted
-    on an IPv4 multicast network. [STANDARDS-TRACK]</p>"
+    It also specifies the content of the Source/Target Link-layer Address option used
+    in the Router Solicitation, Router Advertisement, Neighbor Solicitation, and Neighbor
+    Advertisement and Redirect messages, when those messages are transmitted on an
+    IPv4 multicast network. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

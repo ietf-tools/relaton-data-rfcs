@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7412
 title:
 - content: Requirements for MPLS Transport Profile (MPLS-TP) Shared Mesh Protection
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: <p>This document presents the basic network objectives for the behavior
-    of Shared Mesh Protection (SMP) that are not based on control-plane support.  This
+    of Shared Mesh Protection (SMP) that are not based on control-plane support. This
     document provides an expansion of the basic requirements presented in RFC 5654
     ("Requirements of an MPLS Transport Profile") and RFC 6372 ("MPLS Transport Profile
-    (MPLS-TP) Survivability Framework").  This document provides requirements for
-    any mechanism that would be used to implement SMP for MPLS-TP data paths, in networks
+    (MPLS-TP) Survivability Framework"). This document provides requirements for any
+    mechanism that would be used to implement SMP for MPLS-TP data paths, in networks
     that delegate protection switch coordination to the data plane.</p>
   language:
   - en
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

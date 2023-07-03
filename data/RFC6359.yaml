@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6359
 title:
 - content: Datatracker Extensions to Include IANA and RFC Editor Processing Information
@@ -126,18 +126,22 @@ abstract:
 - content: "<p>This document captures the requirements for integrating IANA and RFC
     Editor state information into the Datatracker to provide the community with a
     unified tool to track the status of their document as it progresses from Internet-Draft
-    (I-D) version -00 to RFC.  Extending the Datatracker to hold document data from
+    (I-D) version -00 to RFC. Extending the Datatracker to hold document data from
     I-D version -00 to RFC allows for increased automation between the Datatracker,
     IANA, and RFC Editor, thus reducing manual labor, processing errors, and potential
-    delay.  Therefore, this document also describes the requirements to make such
-    automation possible.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.</p>"
+    delay. Therefore, this document also describes the requirements to make such automation
+    possible. This document is not an Internet Standards Track specification; it is
+    published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

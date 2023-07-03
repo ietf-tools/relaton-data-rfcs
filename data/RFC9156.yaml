@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9156
 title:
 - content: DNS Query Name Minimisation to Improve Privacy
@@ -125,13 +125,17 @@ script:
 abstract:
 - content: <p>This document describes a technique called "QNAME minimisation" to improve
     DNS privacy, where the DNS resolver no longer always sends the full original QNAME
-    and original QTYPE to the upstream name server.  This document obsoletes RFC 7816.</p>
+    and original QTYPE to the upstream name server. This document obsoletes RFC 7816.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

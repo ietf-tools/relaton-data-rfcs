@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2492
 title:
 - content: IPv6 over ATM Networks
@@ -124,18 +124,22 @@ script:
 - Latn
 abstract:
 - content: <p>This document is a companion to the ION working group's architecture
-    document, "IPv6 over Non Broadcast Multiple Access (NBMA) networks".  It provides
-    specific details on how to apply the IPv6 over NBMA architecture to ATM networks.  This
-    architecture allows conventional host-side operation of the IPv6 Neighbor Discovery
-    protocol, while also supporting the establishment of 'shortcut' ATM forwarding
-    paths (when using SVCs).  Operation over administratively configured Point to
-    Point PVCs is also supported. [STANDARDS-TRACK]</p>
+    document, "IPv6 over Non Broadcast Multiple Access (NBMA) networks". It provides
+    specific details on how to apply the IPv6 over NBMA architecture to ATM networks.
+    This architecture allows conventional host-side operation of the IPv6 Neighbor
+    Discovery protocol, while also supporting the establishment of 'shortcut' ATM
+    forwarding paths (when using SVCs). Operation over administratively configured
+    Point to Point PVCs is also supported. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

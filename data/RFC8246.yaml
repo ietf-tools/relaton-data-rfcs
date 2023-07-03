@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8246
 title:
 - content: HTTP Immutable Responses
@@ -67,14 +67,18 @@ script:
 abstract:
 - content: "<p>The immutable HTTP response Cache-Control extension allows servers
     to identify resources that will not be updated during their freshness lifetime.
-    \ This ensures that a client never needs to revalidate a cached fresh resource
-    to be certain it has not been modified.</p>"
+    This ensures that a client never needs to revalidate a cached fresh resource to
+    be certain it has not been modified.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

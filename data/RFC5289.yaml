@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5289
 title:
 - content: TLS Elliptic Curve Cipher Suites with SHA-256/384 and AES Galois Counter
@@ -67,17 +67,21 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 4492 describes elliptic curve cipher suites for Transport Layer
-    Security (TLS).  However, all those cipher suites use HMAC-SHA-1 as their Message
-    Authentication Code (MAC) algorithm.  This document describes sixteen new cipher
-    suites for TLS that specify stronger MAC algorithms.  Eight use Hashed Message
+    Security (TLS). However, all those cipher suites use HMAC-SHA-1 as their Message
+    Authentication Code (MAC) algorithm. This document describes sixteen new cipher
+    suites for TLS that specify stronger MAC algorithms. Eight use Hashed Message
     Authentication Code (HMAC) with SHA-256 or SHA-384, and eight use AES in Galois
-    Counter Mode (GCM).  This memo provides information for the Internet community.</p>"
+    Counter Mode (GCM). This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

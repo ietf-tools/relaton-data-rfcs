@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8176
 title:
 - content: Authentication Method Reference Values
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: <p>The "amr" (Authentication Methods References) claim is defined and registered
     in the IANA "JSON Web Token Claims" registry, but no standard Authentication Method
-    Reference values are currently defined.  This specification establishes a registry
+    Reference values are currently defined. This specification establishes a registry
     for Authentication Method Reference values and defines an initial set of Authentication
     Method Reference values.</p>
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

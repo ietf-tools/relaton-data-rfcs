@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5153
 title:
 - content: IP Flow Information Export (IPFIX) Implementation Guidelines
@@ -183,17 +183,21 @@ script:
 abstract:
 - content: "<p>The IP Flow Information Export (IPFIX) protocol defines how IP Flow
     information can be exported from routers, measurement probes, or other devices.
-    \ This document provides guidelines for the implementation and use of the IPFIX
-    protocol.  Several sets of guidelines address Template management, transport-specific
+    This document provides guidelines for the implementation and use of the IPFIX
+    protocol. Several sets of guidelines address Template management, transport-specific
     issues, implementation of Exporting and Collecting Processes, and IPFIX implementation
     on middleboxes (such as firewalls, network address translators, tunnel endpoints,
-    packet classifiers, etc.).  This memo provides information for the Internet community.</p>"
+    packet classifiers, etc.). This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6031
 title:
 - content: Cryptographic Message Syntax (CMS) Symmetric Key Package Content Type
@@ -94,15 +94,19 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document defines the symmetric key format content type.  It is
-    transport independent.  The Cryptographic Message Syntax (CMS) can be used to
-    digitally sign, digest, authenticate, or encrypt this content type. [STANDARDS-TRACK]</p>"
+- content: "<p>This document defines the symmetric key format content type. It is
+    transport independent. The Cryptographic Message Syntax (CMS) can be used to digitally
+    sign, digest, authenticate, or encrypt this content type. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

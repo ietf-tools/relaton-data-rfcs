@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7444
 title:
 - content: Security Labels in Internet Email
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a header field, SIO-Label, for use in Internet
-    email to convey the sensitivity of the message.  This header field may carry a
+    email to convey the sensitivity of the message. This header field may carry a
     textual representation (a display marking) and/or a structural representation
-    (a security label) of the sensitivity of the message.  This document also describes
+    (a security label) of the sensitivity of the message. This document also describes
     a header field, SIO-Label-History, for recording changes in the message's label.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

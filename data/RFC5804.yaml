@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5804
 title:
 - content: A Protocol for Remotely Managing Sieve Scripts
@@ -94,11 +94,11 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>Sieve scripts allow users to filter incoming email.  Message stores
-    are commonly sealed servers so users cannot log into them, yet users must be able
-    to update their scripts on them.  This document describes a protocol "ManageSieve"
-    for securely managing Sieve scripts on a remote server.  This protocol allows
-    a user to have multiple scripts, and also alerts a user to syntactically flawed
+- content: <p>Sieve scripts allow users to filter incoming email. Message stores are
+    commonly sealed servers so users cannot log into them, yet users must be able
+    to update their scripts on them. This document describes a protocol "ManageSieve"
+    for securely managing Sieve scripts on a remote server. This protocol allows a
+    user to have multiple scripts, and also alerts a user to syntactically flawed
     scripts. [STANDARDS TRACK]</p>
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

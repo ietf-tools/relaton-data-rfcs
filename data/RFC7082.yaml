@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7082
 title:
 - content: Indication of Conference Focus Support for the Centralized Conferencing
@@ -104,14 +104,18 @@ abstract:
     CCMP operations on the conference.</p><p>This document describes two mechanisms,
     depending upon the need of the User Agent (UA), to address the above limitation.
     The first mechanism uses the Call-Info header field, and the second mechanism
-    defines a new value for the "purpose" header field parameter in the   element
-    in the SIP conferencing event package.</p>
+    defines a new value for the "purpose" header field parameter in the element in
+    the SIP conferencing event package.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

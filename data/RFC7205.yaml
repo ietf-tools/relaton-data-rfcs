@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7205
 title:
 - content: Use Cases for Telepresence Multistreams
@@ -155,12 +155,12 @@ abstract:
 - content: "<p>Telepresence conferencing systems seek to create an environment that
     gives users (or user groups) that are not co-located a feeling of co-located presence
     through multimedia communication that includes at least audio and video signals
-    of high fidelity.  A number of techniques for handling audio and video streams
-    are used to create this experience.  When these techniques are not similar, interoperability
-    between different systems is difficult at best, and often not possible.  Conveying
+    of high fidelity. A number of techniques for handling audio and video streams
+    are used to create this experience. When these techniques are not similar, interoperability
+    between different systems is difficult at best, and often not possible. Conveying
     information about the relationships between multiple streams of media would enable
     senders and receivers to make choices to allow telepresence systems to interwork.
-    \ This memo describes the most typical and important use cases for sending multiple
+    This memo describes the most typical and important use cases for sending multiple
     streams in a telepresence conference.</p>"
   language:
   - en
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9347
 title:
 - content: Aggregation and Fragmentation Mode for Encapsulating Security Payload (ESP)
@@ -68,19 +68,22 @@ script:
 abstract:
 - content: "<p>This document describes a mechanism for aggregation and fragmentation
     of IP packets when they are being encapsulated in Encapsulating Security Payload
-    (ESP).  This new payload type can be used for various purposes, such as decreasing
+    (ESP). This new payload type can be used for various purposes, such as decreasing
     encapsulation overhead for small IP packets; however, the focus in this document
     is to enhance IP Traffic Flow Security (IP-TFS) by adding Traffic Flow Confidentiality
-    (TFC) to encrypted IP-encapsulated traffic.  TFC is provided by obscuring the
-    size and frequency of IP traffic using a fixed-size, constant-send-rate IPsec
-    tunnel.  The solution allows for congestion control, as well as nonconstant send-rate
-    usage.</p>"
+    (TFC) to encrypted IP-encapsulated traffic. TFC is provided by obscuring the size
+    and frequency of IP traffic using a fixed-size, constant-send-rate IPsec tunnel.
+    The solution allows for congestion control, as well as nonconstant send-rate usage.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

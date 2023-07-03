@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5123
 title:
 - content: Considerations in Validating the Path in BGP
@@ -96,13 +96,17 @@ script:
 abstract:
 - content: "<p>This document examines the implications of hop-by-hop forwarding, route
     aggregation, and route filtering on the concept of validation within a BGP Autonomous
-    System (AS) Path.  This memo provides information for the Internet community.</p>"
+    System (AS) Path. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

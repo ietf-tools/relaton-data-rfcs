@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1091
 title:
 - content: Telnet terminal-type option
@@ -65,10 +65,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the Internet community.  Hosts on
+- content: "<p>This RFC specifies a standard for the Internet community. Hosts on
     the Internet that exchange terminal type information within the Telnet protocol
-    are expected to adopt and implement this standard.  This standard supersedes RFC
-    930.  A change is made to permit cycling through a list of possible terminal types
+    are expected to adopt and implement this standard. This standard supersedes RFC
+    930. A change is made to permit cycling through a list of possible terminal types
     and selecting the most appropriate</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

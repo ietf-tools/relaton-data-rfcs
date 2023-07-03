@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7884
 title:
 - content: OSPF Extensions to Advertise Seamless Bidirectional Forwarding Detection
@@ -155,7 +155,7 @@ script:
 abstract:
 - content: "<p>This document defines a new OSPF Router Information (RI) TLV that allows
     OSPF routers to flood the Seamless Bidirectional Forwarding Detection (S-BFD)
-    Discriminator values associated with a target network identifier.  This mechanism
+    Discriminator values associated with a target network identifier. This mechanism
     is applicable to both OSPFv2 and OSPFv3.</p>"
   language:
   - en
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

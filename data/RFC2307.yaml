@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2307
 title:
 - content: An Approach for Using LDAP as a Network Information Service
@@ -67,15 +67,19 @@ script:
 abstract:
 - content: "<p>This document describes an experimental mechanism for mapping entities
     related to TCP/IP and the UNIX system into X.500 entries so that they may be resolved
-    with the Lightweight Directory Access Protocol [RFC2251].  This memo defines an
-    Experimental Protocol for the Internet community.  It does not specify an Internet
-    standard of any kind.  Discussion and suggestions for improvement are requested.</p>"
+    with the Lightweight Directory Access Protocol [RFC2251]. This memo defines an
+    Experimental Protocol for the Internet community. It does not specify an Internet
+    standard of any kind. Discussion and suggestions for improvement are requested.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

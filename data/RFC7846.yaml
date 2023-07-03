@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7846
 title:
 - content: Peer-to-Peer Streaming Tracker Protocol (PPSTP)
@@ -212,10 +212,10 @@ script:
 abstract:
 - content: "<p>This document specifies the base Peer-to-Peer Streaming Tracker Protocol
     (PPSTP) version 1, an application-layer control (signaling) protocol for the exchange
-    of meta information between trackers and peers.  The specification outlines the
+    of meta information between trackers and peers. The specification outlines the
     architecture of the protocol and its functionality; it also describes message
     flows, message processing instructions, message formats, formal syntax, and semantics.
-    \ The PPSTP enables cooperating peers to form content-streaming overlay networks
+    The PPSTP enables cooperating peers to form content-streaming overlay networks
     to support near real-time delivery of structured media content (audio, video,
     and associated timed text and metadata), such as adaptive multi-rate, layered
     (scalable), and multi-view (3D) videos in live, time-shifted, and on-demand modes.</p>"
@@ -225,6 +225,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

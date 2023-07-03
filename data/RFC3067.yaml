@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3067
 title:
 - content: TERENA'S Incident Object Description and Exchange Format Requirements
@@ -156,15 +156,19 @@ abstract:
     is to define a common data format for the description, archiving and exchange
     of information about incidents between CSIRTs (Computer Security Incident Response
     Teams) (including alert, incident in investigation, archiving, statistics, reporting,
-    etc.).  This document describes the high-level requirements for such a description
-    and exchange format, including the reasons for those requirements.  This memo
-    provides information for the Internet community.</p>"
+    etc.). This document describes the high-level requirements for such a description
+    and exchange format, including the reasons for those requirements. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

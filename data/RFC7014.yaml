@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7014
 title:
 - content: Flow Selection Techniques
@@ -153,20 +153,24 @@ script:
 - Latn
 abstract:
 - content: "<p>The Intermediate Flow Selection Process is the process of selecting
-    a subset of Flows from all observed Flows.  The Intermediate Flow Selection Process
+    a subset of Flows from all observed Flows. The Intermediate Flow Selection Process
     may be located at an IP Flow Information Export (IPFIX) Exporter or Collector,
-    or within an IPFIX Mediator.  It reduces the effort of post-processing Flow data
-    and transferring Flow Records.  This document describes motivations for using
-    the Intermediate Flow Selection process and presents Intermediate Flow Selection
-    techniques.  It provides an information model for configuring Intermediate Flow
-    Selection Process techniques and discusses what information about an Intermediate
-    Flow Selection Process should be exported.</p>"
+    or within an IPFIX Mediator. It reduces the effort of post-processing Flow data
+    and transferring Flow Records. This document describes motivations for using the
+    Intermediate Flow Selection process and presents Intermediate Flow Selection techniques.
+    It provides an information model for configuring Intermediate Flow Selection Process
+    techniques and discusses what information about an Intermediate Flow Selection
+    Process should be exported.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8417
 title:
 - content: Security Event Token (SET)
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This specification defines the Security Event Token (SET) data structure.
-    \ A SET describes statements of fact from the perspective of an issuer about a
-    subject.  These statements of fact represent an event that occurred directly to
-    or about a security subject, for example, a statement about the issuance or revocation
-    of a token on behalf of a subject.  This specification is intended to enable representing
-    security- and identity-related events.  A SET is a JSON Web Token (JWT), which
-    can be optionally signed and/or encrypted.  SETs can be distributed via protocols
+    A SET describes statements of fact from the perspective of an issuer about a subject.
+    These statements of fact represent an event that occurred directly to or about
+    a security subject, for example, a statement about the issuance or revocation
+    of a token on behalf of a subject. This specification is intended to enable representing
+    security- and identity-related events. A SET is a JSON Web Token (JWT), which
+    can be optionally signed and/or encrypted. SETs can be distributed via protocols
     such as HTTP.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

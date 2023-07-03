@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7840
 title:
 - content: A Routing Request Extension for the HTTP-Enabled Location Delivery (HELD)
@@ -126,9 +126,9 @@ script:
 abstract:
 - content: "<p>For cases where location servers have access to emergency routing information,
     they are able to return routing information with the location information if the
-    location request includes a request for the desired routing information.  This
+    location request includes a request for the desired routing information. This
     document specifies an extension to the HTTP-Enabled Location Delivery (HELD) protocol
-    that updates RFC 5985 to support this function.  Allowing location and routing
+    that updates RFC 5985 to support this function. Allowing location and routing
     information to be acquired in a single request response exchange updates RFC 6881,
     as current location acquisition and route determination procedures are separate
     operations.</p>"
@@ -159,6 +159,10 @@ relation:
       content: RFC6881
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

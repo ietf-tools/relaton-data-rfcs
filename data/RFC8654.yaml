@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8654
 title:
 - content: Extended Message Support for BGP
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The BGP specification (RFC 4271) mandates a maximum BGP message size
-    of 4,096 octets.  As BGP is extended to support new Address Family Identifiers
+    of 4,096 octets. As BGP is extended to support new Address Family Identifiers
     (AFIs), Subsequent AFIs (SAFIs), and other features, there is a need to extend
-    the maximum message size beyond 4,096 octets.  This document updates the BGP specification
+    the maximum message size beyond 4,096 octets. This document updates the BGP specification
     by extending the maximum message size from 4,096 octets to 65,535 octets for all
     messages except for OPEN and KEEPALIVE messages.</p>"
   language:
@@ -146,6 +146,10 @@ relation:
       content: RFC4271
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

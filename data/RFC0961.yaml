@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC961
 title:
 - content: Official ARPA-Internet protocols
@@ -100,10 +100,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo identifies the documents specifying the official protocols
-    used in the Internet, and comments on any revisions or changes planned.  This
-    edition of the Official Protocols updates and obsoletes RFC-944.  This memo is
-    an official status report on the protocols used in the ARPA-Internet community.
-    \ See RFC-991.</p>"
+    used in the Internet, and comments on any revisions or changes planned. This edition
+    of the Official Protocols updates and obsoletes RFC-944. This memo is an official
+    status report on the protocols used in the ARPA-Internet community. See RFC-991.</p>"
   language:
   - en
   script:
@@ -121,6 +120,10 @@ relation:
       content: RFC0991
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

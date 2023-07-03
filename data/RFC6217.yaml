@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6217
 title:
 - content: Regional Broadcast Using an Atmospheric Link Layer
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Broadcasting is a technology that has been largely discarded in favor
-    of technologies like multicast.  This document builds on RFC 919 and describes
+    of technologies like multicast. This document builds on RFC 919 and describes
     a more efficient routing mechanism for broadcast packets destined for multiple
     Local Area Networks (LANs) or Metropolitan Area Networks (MANs) using an alternative
-    link layer.  It significantly reduces congestion on network equipment and does
-    not require additional physical infrastructure investment.  This document is not
+    link layer. It significantly reduces congestion on network equipment and does
+    not require additional physical infrastructure investment. This document is not
     an Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

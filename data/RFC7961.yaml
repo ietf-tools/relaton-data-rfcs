@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7961
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Interface Addresses
@@ -97,11 +97,11 @@ script:
 abstract:
 - content: "<p>This document specifies a TRILL (Transparent Interconnection of Lots
     of Links) IS-IS application sub-TLV that enables the reporting by a TRILL switch
-    of sets of addresses.  Each set of addresses reports all of the addresses that
+    of sets of addresses. Each set of addresses reports all of the addresses that
     designate the same interface (port) and also reports the TRILL switch by which
-    that interface is reachable.  For example, a 48-bit MAC (Media Access Control)
+    that interface is reachable. For example, a 48-bit MAC (Media Access Control)
     address, IPv4 address, and IPv6 address can be reported as all corresponding to
-    the same interface reachable by a particular TRILL switch.  Such information could
+    the same interface reachable by a particular TRILL switch. Such information could
     be used in some cases to synthesize responses to, or bypass the need for, the
     Address Resolution Protocol (ARP), the IPv6 Neighbor Discovery (ND) protocol,
     or the flooding of unknown MAC addresses.</p>"
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

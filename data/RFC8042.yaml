@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8042
 title:
 - content: OSPF Two-Part Metric
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>This document specifies an optional OSPF protocol extension to represent
     router metrics in a multi-access network in two parts: the metric from the router
-    to the network and the metric from the network to the router.  For such networks,
+    to the network and the metric from the network to the router. For such networks,
     the router-to-router metric for OSPF route computation is the sum of the two parts.
-    \ This document updates RFC 2328.</p>"
+    This document updates RFC 2328.</p>"
   language:
   - en
   script:
@@ -145,6 +145,10 @@ relation:
       content: RFC2328
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5135
 title:
 - content: IP Multicast Requirements for a Network Address Translator (NAT) and a
@@ -97,11 +97,11 @@ script:
 abstract:
 - content: "<p>This document specifies requirements for a for a Network Address Translator
     (NAT) and a Network Address Port Translator (NAPT) that support Any Source IP
-    Multicast or Source-Specific IP Multicast.  An IP multicast-capable NAT device
+    Multicast or Source-Specific IP Multicast. An IP multicast-capable NAT device
     that adheres to the requirements of this document can optimize the operation of
     IP multicast applications that are generally unaware of IP multicast NAT devices.
-    \ This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+    This document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -112,6 +112,10 @@ series:
     content: BCP
     format: text/plain
   number: '135'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

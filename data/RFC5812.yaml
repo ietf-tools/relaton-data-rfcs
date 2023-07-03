@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5812
 title:
 - content: Forwarding and Control Element Separation (ForCES) Forwarding Element Model
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the forwarding element (FE) model used in the
-    Forwarding and Control Element Separation (ForCES) protocol.  The model represents
+    Forwarding and Control Element Separation (ForCES) protocol. The model represents
     the capabilities, state, and configuration of forwarding elements within the context
     of the ForCES protocol, so that control elements (CEs) can control the FEs accordingly.
-    \ More specifically, the model describes the logical functions that are present
+    More specifically, the model describes the logical functions that are present
     in an FE, what capabilities these functions support, and how these functions are
-    or can be interconnected.  This FE model is intended to satisfy the model requirements
+    or can be interconnected. This FE model is intended to satisfy the model requirements
     specified in RFC 3654. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

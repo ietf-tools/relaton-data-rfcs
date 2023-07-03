@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7781
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Pseudo-Nickname
@@ -184,11 +184,11 @@ script:
 abstract:
 - content: "<p>The IETF TRILL (Transparent Interconnection of Lots of Links) protocol
     provides support for flow-level multipathing for both unicast and multi-destination
-    traffic in networks with arbitrary topology.  Active-active access at the TRILL
+    traffic in networks with arbitrary topology. Active-active access at the TRILL
     edge is the extension of these characteristics to end stations that are multiply
-    connected to a TRILL campus as discussed in RFC 7379.  In this document, the edge
+    connected to a TRILL campus as discussed in RFC 7379. In this document, the edge
     RBridge (Routing Bridge, or TRILL switch) group providing active-active access
-    to such an end station is represented as a virtual RBridge.  Based on the concept
+    to such an end station is represented as a virtual RBridge. Based on the concept
     of the virtual RBridge, along with its pseudo-nickname, this document specifies
     a method for TRILL active-active access by such end stations.</p>"
   language:
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

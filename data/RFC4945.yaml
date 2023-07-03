@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4945
 title:
 - content: The Internet IP Security PKI Profile of IKEv1/ISAKMP, IKEv2, and PKIX
@@ -67,18 +67,22 @@ script:
 abstract:
 - content: "<p>The Internet Key Exchange (IKE) and Public Key Infrastructure for X.509
     (PKIX) certificate profile both provide frameworks that must be profiled for use
-    in a given application.  This document provides a profile of IKE and PKIX that
+    in a given application. This document provides a profile of IKE and PKIX that
     defines the requirements for using PKI technology in the context of IKE/IPsec.
-    \ The document complements protocol specifications such as IKEv1 and IKEv2, which
+    The document complements protocol specifications such as IKEv1 and IKEv2, which
     assume the existence of public key certificates and related keying materials,
-    but which do not address PKI issues explicitly.  This document addresses those
-    issues.  The intended audience is implementers of PKI for IPsec. [STANDARDS-TRACK]</p>"
+    but which do not address PKI issues explicitly. This document addresses those
+    issues. The intended audience is implementers of PKI for IPsec. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

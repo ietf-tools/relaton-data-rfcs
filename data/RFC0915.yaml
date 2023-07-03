@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC915
 title:
 - content: Network mail path service
@@ -100,18 +100,22 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC proposed a new service for the ARPA-Internet community and
-    requests discussion and suggestions for improvements.  The network mail path service
+    requests discussion and suggestions for improvements. The network mail path service
     fills the current need of people to determine mailbox addresses for hosts that
     are not part of the ARPA-Internet but can be reached by one or more relay hosts
     that have Unix to Unix Copy (UUCP) mail, CSNET mail, MAILNET mail, BITNET mail,
-    etc.  Anyone can use the service if they have TCP/TELENET to one of the hosts
-    with a mail path server.</p>"
+    etc. Anyone can use the service if they have TCP/TELENET to one of the hosts with
+    a mail path server.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

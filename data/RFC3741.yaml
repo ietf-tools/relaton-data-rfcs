@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3741
 title:
 - content: Exclusive XML Canonicalization, Version 1.0
@@ -125,19 +125,23 @@ script:
 abstract:
 - content: <p>Canonical XML specifies a standard serialization of XML that, when applied
     to a subdocument, includes the subdocument's ancestor context including all of
-    the namespace declarations and attributes in the "xml:" namespace.  However, some
+    the namespace declarations and attributes in the "xml:" namespace. However, some
     applications require a method which, to the extent practical, excludes ancestor
-    context from a canonicalized subdocument.  For example, one might require a digital
+    context from a canonicalized subdocument. For example, one might require a digital
     signature over an XML payload (subdocument) in an XML message that will not break
     when that subdocument is removed from its original message and/or inserted into
-    a different context.  This requirement is satisfied by Exclusive XML Canonicalization.  This
-    memo provides information for the Internet community.</p>
+    a different context. This requirement is satisfied by Exclusive XML Canonicalization.
+    This memo provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5187
 title:
 - content: OSPFv3 Graceful Restart
@@ -94,9 +94,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the OSPFv3 graceful restart.  The OSPFv3 graceful
+- content: "<p>This document describes the OSPFv3 graceful restart. The OSPFv3 graceful
     restart is identical to that of OSPFv2 except for the differences described in
-    this document.  These differences include the format of the grace Link State Advertisements
+    this document. These differences include the format of the grace Link State Advertisements
     (LSAs) and other considerations. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

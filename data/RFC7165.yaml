@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7165
 title:
 - content: Use Cases and Requirements for JSON Object Signing and Encryption (JOSE)
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Many Internet applications have a need for object-based security mechanisms
-    in addition to security mechanisms at the network layer or transport layer.  For
+    in addition to security mechanisms at the network layer or transport layer. For
     many years, the Cryptographic Message Syntax (CMS) has provided a binary secure
-    object format based on ASN.1.  Over time, binary object encodings such as ASN.1
+    object format based on ASN.1. Over time, binary object encodings such as ASN.1
     have become less common than text-based encodings, such as the JavaScript Object
-    Notation (JSON).  This document defines a set of use cases and requirements for
+    Notation (JSON). This document defines a set of use cases and requirements for
     a secure object format encoded using JSON, drawn from a variety of application
     security mechanisms currently in development.</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

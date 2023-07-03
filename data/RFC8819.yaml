@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8819
 title:
 - content: YANG Module Tags
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides for the association of tags with YANG modules.
-    \ The expectation is for such tags to be used to help classify and organize modules.
-    \ A method for defining, reading, and writing modules tags is provided.  Tags
-    may be registered and assigned during module definition, assigned by implementations,
-    or dynamically defined and set by users.  This document also provides guidance
+    The expectation is for such tags to be used to help classify and organize modules.
+    A method for defining, reading, and writing modules tags is provided. Tags may
+    be registered and assigned during module definition, assigned by implementations,
+    or dynamically defined and set by users. This document also provides guidance
     to future model writers; as such, this document updates RFC 8407.</p>"
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC8407
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

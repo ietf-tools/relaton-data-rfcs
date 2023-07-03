@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC971
 title:
 - content: Survey of data representation standards
@@ -71,19 +71,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC is a comparison of several data representation standards that
-    are currently in use.  The standards discussed are the CCITT X.409 recommendation,
+    are currently in use. The standards discussed are the CCITT X.409 recommendation,
     the NBS Computer Based Message System (CBMS) standard, DARPA Multimedia Mail system,
     the Courier remote procedure call protocol, and the SUN Remote Procedure Call
-    package.  No proposals in this document are intended as standards for the ARPA-Internet
-    at this time.  Rather, it is hoped that a general consensus will emerge as to
-    the appropriate approach to a data representation standard, leading eventually
-    to the adoption of an ARPA-Internet standard.</p>"
+    package. No proposals in this document are intended as standards for the ARPA-Internet
+    at this time. Rather, it is hoped that a general consensus will emerge as to the
+    appropriate approach to a data representation standard, leading eventually to
+    the adoption of an ARPA-Internet standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

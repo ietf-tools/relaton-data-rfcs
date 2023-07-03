@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2180
 title:
 - content: IMAP4 Multi-Accessed Mailbox Practice
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>The behavior described in this document reflects the practice of some
     existing servers or behavior that the consensus of the IMAP mailing list has deemed
-    to be reasonable.  The behavior described within this document is believed to
-    be [RFC-2060] compliant.  However, this document is not meant to define IMAP4
-    compliance, nor is it an exhaustive list of valid IMAP4 behavior.  This memo provides
-    information for the Internet community.  This memo does not specify an Internet
-    standard of any kind.</p>"
+    to be reasonable. The behavior described within this document is believed to be
+    [RFC-2060] compliant. However, this document is not meant to define IMAP4 compliance,
+    nor is it an exhaustive list of valid IMAP4 behavior. This memo provides information
+    for the Internet community. This memo does not specify an Internet standard of
+    any kind.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

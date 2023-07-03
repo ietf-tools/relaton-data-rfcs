@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5032
 title:
 - content: WITHIN Search Extension to the IMAP Protocol
@@ -65,10 +65,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the WITHIN extension to IMAP SEARCH.  IMAP
-    SEARCH returns messages whose internal date is within or outside a specified interval.
-    \ The mechanism described here, OLDER and YOUNGER, differs from BEFORE and SINCE
-    in that the client specifies an interval, rather than a date.  WITHIN is useful
+- content: "<p>This document describes the WITHIN extension to IMAP SEARCH. IMAP SEARCH
+    returns messages whose internal date is within or outside a specified interval.
+    The mechanism described here, OLDER and YOUNGER, differs from BEFORE and SINCE
+    in that the client specifies an interval, rather than a date. WITHIN is useful
     for persistent searches where either the device does not have the capacity to
     perform the search at regular intervals or the network is of limited bandwidth
     and thus there is a desire to reduce network traffic from sending repeated requests
@@ -90,6 +90,10 @@ relation:
       content: RFC3501
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

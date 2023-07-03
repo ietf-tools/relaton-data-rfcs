@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4517
 title:
 - content: 'Lightweight Directory Access Protocol (LDAP): Syntaxes and Matching Rules'
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>Each attribute stored in a Lightweight Directory Access Protocol (LDAP)
     directory, whose values may be transferred in the LDAP protocol, has a defined
-    syntax that constrains the structure and format of its values.  The comparison
+    syntax that constrains the structure and format of its values. The comparison
     semantics for values of a syntax are not part of the syntax definition but are
-    instead provided through separately defined matching rules.  Matching rules specify
-    an argument, an assertion value, which also has a defined syntax.  This document
+    instead provided through separately defined matching rules. Matching rules specify
+    an argument, an assertion value, which also has a defined syntax. This document
     defines a base set of syntaxes and matching rules for use in defining attributes
     for LDAP directories. [STANDARDS-TRACK]</p>"
   language:
@@ -90,6 +90,10 @@ relation:
       content: RFC3698
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

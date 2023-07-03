@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7223
 title:
 - content: A YANG Data Model for Interface Management
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a YANG data model for the management of network
-    interfaces.  It is expected that interface-type-specific data models augment the
-    generic interfaces data model defined in this document.  The data model includes
+    interfaces. It is expected that interface-type-specific data models augment the
+    generic interfaces data model defined in this document. The data model includes
     configuration data and state data (status information and counters for the collection
     of statistics).</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC8343
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3959
 title:
 - content: The Early Session Disposition Type for the Session Initiation Protocol
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines a new disposition type (early-session) for the
-    Content-Disposition header field in the Session Initiation Protocol (SIP).  The
-    treatment of "early-session" bodies is similar to the treatment of "session" bodies.  That
-    is, they follow the offer/answer model.  Their only difference is that session
+    Content-Disposition header field in the Session Initiation Protocol (SIP). The
+    treatment of "early-session" bodies is similar to the treatment of "session" bodies.
+    That is, they follow the offer/answer model. Their only difference is that session
     descriptions whose disposition type is "early-session" are used to establish early
     media sessions within early dialogs, as opposed to regular sessions within regular
     dialogs. [STANDARDS-TRACK]</p>
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

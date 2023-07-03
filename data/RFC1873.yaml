@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1873
 title:
 - content: Message/External-Body Content-ID Access Type
@@ -67,15 +67,19 @@ script:
 abstract:
 - content: "<p>The existing MIME Content-Type Message/External-Body access-types allow
     a MIME entity (body-part) to refer to an object that is not in the message by
-    specifying how to access that object.  The Content-ID access method described
-    in this document provides the capability to refer to an object within the message.
-    \ This memo defines an Experimental Protocol for the Internet community.</p>"
+    specifying how to access that object. The Content-ID access method described in
+    this document provides the capability to refer to an object within the message.
+    This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

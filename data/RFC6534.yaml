@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6534
 title:
 - content: Loss Episode Metrics for IP Performance Metrics (IPPM)
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The IETF has developed a one-way packet loss metric that measures the
-    loss rate on a Poisson and Periodic probe streams between two hosts.  However,
+    loss rate on a Poisson and Periodic probe streams between two hosts. However,
     the impact of packet loss on applications is, in general, sensitive not just to
     the average loss rate but also to the way in which packet losses are distributed
-    in loss episodes (i.e., maximal sets of consecutively lost probe packets).  This
+    in loss episodes (i.e., maximal sets of consecutively lost probe packets). This
     document defines one-way packet loss episode metrics, specifically, the frequency
     and average duration of loss episodes and a probing methodology under which the
     loss episode metrics are to be measured. [STANDARDS-TRACK]</p>"
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

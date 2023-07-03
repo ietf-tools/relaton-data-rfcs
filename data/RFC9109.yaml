@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9109
 title:
 - content: 'Network Time Protocol Version 4: Port Randomization'
@@ -123,12 +123,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>The Network Time Protocol (NTP) can operate in several modes.  Some
+- content: "<p>The Network Time Protocol (NTP) can operate in several modes. Some
     of these modes are based on the receipt of unsolicited packets and therefore require
-    the use of a well-known port as the local port.  However, in the case of NTP modes
+    the use of a well-known port as the local port. However, in the case of NTP modes
     where the use of a well-known port is not required, employing such a well-known
     port unnecessarily facilitates the ability of attackers to perform blind/off-path
-    attacks.  This document formally updates RFC 5905, recommending the use of transport-protocol
+    attacks. This document formally updates RFC 5905, recommending the use of transport-protocol
     ephemeral port randomization for those modes where use of the NTP well-known port
     is not required.</p>"
   language:
@@ -148,6 +148,10 @@ relation:
       content: RFC5905
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

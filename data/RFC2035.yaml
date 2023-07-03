@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2035
 title:
 - content: RTP Payload Format for JPEG-compressed Video
@@ -153,7 +153,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes the RTP payload format for JPEG video streams.
-    \ The packet format is optimized for real-time video streams where codec parameters
+    The packet format is optimized for real-time video streams where codec parameters
     change rarely from frame to frame. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -172,6 +172,10 @@ relation:
       content: RFC2435
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

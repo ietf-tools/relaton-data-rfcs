@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3289
 title:
 - content: Management Information Base for the Differentiated Services Architecture
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes an SMIv2 (Structure of Management Information version
-    2) MIB for a device implementing the Differentiated Services Architecture.  It
+    2) MIB for a device implementing the Differentiated Services Architecture. It
     may be used both for monitoring and configuration of a router or switch capable
     of Differentiated Services functionality. [STANDARDS-TRACK]</p>"
   language:
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

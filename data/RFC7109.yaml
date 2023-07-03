@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7109
 title:
 - content: Flow Bindings Initiated by Home Agents for Mobile IPv6
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>There are scenarios in which the home agent needs to trigger flow binding
     operations towards the mobile node, such as moving a flow from one access network
-    to another based on network resource availability.  In order for the home agent
+    to another based on network resource availability. In order for the home agent
     to be able to initiate interactions for flow bindings with the mobile node, this
-    document defines new signaling messages and sub-options for Mobile IPv6.  Flow
+    document defines new signaling messages and sub-options for Mobile IPv6. Flow
     bindings initiated by a home agent are supported for mobile nodes enabled by both
     IPv4 and IPv6.</p>"
   language:
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

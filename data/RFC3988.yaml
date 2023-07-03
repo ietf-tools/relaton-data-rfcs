@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3988
 title:
 - content: Maximum Transmission Unit Signalling Extensions for the Label Distribution
@@ -97,12 +97,12 @@ script:
 abstract:
 - content: "<p>Proper functioning of RFC 1191 path Maximum Transmission Unit (MTU)
     discovery requires that IP routers have knowledge of the MTU for each link to
-    which they are connected.  As currently specified, the Label Distribution Protocol
+    which they are connected. As currently specified, the Label Distribution Protocol
     (LDP) does not have the ability to signal the MTU for a Label Switched Path (LSP)
-    to the ingress Label Switching Router (LSR).  In the absence of this functionality,
+    to the ingress Label Switching Router (LSR). In the absence of this functionality,
     the MTU for each LSP must be statically configured by network operators or by
-    equivalent off-line mechanisms.  This document specifies experimental extensions
-    to LDP in support of LSP MTU discovery.  This memo defines an Experimental Protocol
+    equivalent off-line mechanisms. This document specifies experimental extensions
+    to LDP in support of LSP MTU discovery. This memo defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

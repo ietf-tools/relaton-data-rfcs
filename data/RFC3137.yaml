@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3137
 title:
 - content: OSPF Stub Router Advertisement
@@ -184,7 +184,7 @@ abstract:
 - content: "<p>This memo describes a backward-compatible technique that may be used
     by OSPF (Open Shortest Path First) implementations to advertise unavailability
     to forward transit traffic or to lower the preference level for the paths through
-    such a router.  This memo provides information for the Internet community.</p>"
+    such a router. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -202,6 +202,10 @@ relation:
       content: RFC6987
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

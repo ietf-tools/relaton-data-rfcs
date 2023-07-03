@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8396
 title:
 - content: 'Managing, Ordering, Distributing, Exposing, and Registering Telephone
@@ -96,20 +96,24 @@ script:
 - Latn
 abstract:
 - content: "<p>The functions of the Public Switched Telephone Network (PSTN) are rapidly
-    migrating to the Internet.  This is generating new requirements for many traditional
-    elements of the PSTN, including Telephone Numbers (TNs).  TNs no longer serve
-    simply as telephone routing addresses: they are now identifiers that may be used
-    by Internet-based services for a variety of purposes including session establishment,
-    identity verification, and service enablement.  This problem statement examines
-    how the existing tools for allocating and managing telephone numbers do not align
-    with the use cases of the Internet environment and proposes a framework for Internet-based
-    services relying on TNs.</p>"
+    migrating to the Internet. This is generating new requirements for many traditional
+    elements of the PSTN, including Telephone Numbers (TNs). TNs no longer serve simply
+    as telephone routing addresses: they are now identifiers that may be used by Internet-based
+    services for a variety of purposes including session establishment, identity verification,
+    and service enablement. This problem statement examines how the existing tools
+    for allocating and managing telephone numbers do not align with the use cases
+    of the Internet environment and proposes a framework for Internet-based services
+    relying on TNs.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

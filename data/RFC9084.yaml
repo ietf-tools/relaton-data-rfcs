@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9084
 title:
 - content: OSPF Prefix Originator Extensions
@@ -182,7 +182,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines OSPF extensions to include information associated
-    with the node originating a prefix along with the prefix advertisement.  These
+    with the node originating a prefix along with the prefix advertisement. These
     extensions do not change the core OSPF route computation functionality but provide
     useful information for network analysis, troubleshooting, and use cases like traffic
     engineering.</p>"
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

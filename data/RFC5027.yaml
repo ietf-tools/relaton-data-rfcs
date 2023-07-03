@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5027
 title:
 - content: Security Preconditions for Session Description Protocol (SDP) Media Streams
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a new security precondition for the Session Description
-    Protocol (SDP) precondition framework described in RFCs 3312 and 4032.  A security
+    Protocol (SDP) precondition framework described in RFCs 3312 and 4032. A security
     precondition can be used to delay session establishment or modification until
     media stream security for a secure media stream has been negotiated successfully.
     [STANDARDS-TRACK]</p>"
@@ -116,6 +116,10 @@ relation:
       content: RFC3312
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

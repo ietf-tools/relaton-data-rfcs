@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7992
 title:
 - content: HTML Format for RFCs
@@ -97,13 +97,17 @@ abstract:
 - content: "<p>In order to meet the evolving needs of the Internet community, the
     canonical format for RFCs is changing from a plain-text, ASCII-only format to
     an XML format that will, in turn, be rendered into several publication formats.
-    \ This document defines the HTML format that will be rendered for an RFC or Internet-Draft.</p>"
+    This document defines the HTML format that will be rendered for an RFC or Internet-Draft.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

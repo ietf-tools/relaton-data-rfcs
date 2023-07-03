@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1128
 title:
 - content: Measured performance of the Network Time Protocol in the Internet system
@@ -72,29 +72,33 @@ script:
 abstract:
 - content: "<p>This paper describes a series of experiments involving over 100,000
     hosts of the Internet system and located in the U.S., Europe and the Pacific.
-    \ The experiments are designed to evaluate the availability, accuracy and reliability
+    The experiments are designed to evaluate the availability, accuracy and reliability
     of international standard time distribution using the DARPA/NSF Internet and the
-    Network Time Protocol (NTP), which is specified in RFC-1119.  NTP is designed
-    specifically for use in a large, diverse internet system operating at speeds from
-    mundane to lightwave.  In NTP a distributed subnet of time servers operating in
-    a self-organizing, hierarchical, master-slave configuration exchange precision
-    timestamps in order to synchronize subnet clocks to each other and national time
-    standards via wire or radio.  The experiments are designed to locate Internet
-    hosts and gateways that provide time by one of three time distribution protocols
-    and evaluate the accuracy of their indications.  For those hosts that support
-    NTP, the experiments determine the distribution of errors and other statistics
-    over paths spanning major portions of the globe.  Finally, the experiments evaluate
-    the accuracy and reliability of precision timekeeping using NTP and typical Internet
-    paths involving DARPA, NSFNET and other agency networks.  The experiments demonstrate
-    that timekeeping accuracy throughout most portions of the Internet can be ordinarily
-    maintained to within a few tens of milliseconds, even in cases of failure or disruption
-    of clocks, time servers or networks.  This memo does not specify a standard.</p>"
+    Network Time Protocol (NTP), which is specified in RFC-1119. NTP is designed specifically
+    for use in a large, diverse internet system operating at speeds from mundane to
+    lightwave. In NTP a distributed subnet of time servers operating in a self-organizing,
+    hierarchical, master-slave configuration exchange precision timestamps in order
+    to synchronize subnet clocks to each other and national time standards via wire
+    or radio. The experiments are designed to locate Internet hosts and gateways that
+    provide time by one of three time distribution protocols and evaluate the accuracy
+    of their indications. For those hosts that support NTP, the experiments determine
+    the distribution of errors and other statistics over paths spanning major portions
+    of the globe. Finally, the experiments evaluate the accuracy and reliability of
+    precision timekeeping using NTP and typical Internet paths involving DARPA, NSFNET
+    and other agency networks. The experiments demonstrate that timekeeping accuracy
+    throughout most portions of the Internet can be ordinarily maintained to within
+    a few tens of milliseconds, even in cases of failure or disruption of clocks,
+    time servers or networks. This memo does not specify a standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

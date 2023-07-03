@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9218
 title:
 - content: Extensible Prioritization Scheme for HTTP
@@ -97,9 +97,9 @@ abstract:
 - content: "<p>This document describes a scheme that allows an HTTP client to communicate
     its preferences for how the upstream server prioritizes responses to its requests,
     and also allows a server to hint to a downstream intermediary how its responses
-    should be prioritized when they are forwarded.  This document defines the Priority
+    should be prioritized when they are forwarded. This document defines the Priority
     header field for communicating the initial priority in an HTTP version-independent
-    manner, as well as HTTP/2 and HTTP/3 frames for reprioritizing responses.  These
+    manner, as well as HTTP/2 and HTTP/3 frames for reprioritizing responses. These
     share a common format structure that is designed to provide future extensibility.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

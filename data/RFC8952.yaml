@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8952
 title:
 - content: Captive Portal Architecture
@@ -123,7 +123,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes a captive portal architecture.  Network provisioning
+- content: "<p>This document describes a captive portal architecture. Network provisioning
     protocols such as DHCP or Router Advertisements (RAs), an optional signaling protocol,
     and an HTTP API are used to provide the solution.</p>"
   language:
@@ -132,6 +132,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

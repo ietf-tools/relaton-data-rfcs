@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7415
 title:
 - content: Session Initiation Protocol (SIP) Rate Control
@@ -97,8 +97,8 @@ abstract:
 - content: "<p>The prevalent use of the Session Initiation Protocol (SIP) in Next
     Generation Networks necessitates that SIP networks provide adequate control mechanisms
     to maintain transaction throughput by preventing congestion collapse during traffic
-    overloads.  A loss-based solution to remedy known vulnerabilities of the SIP 503
-    (Service Unavailable) overload control mechanism has already been proposed.  Using
+    overloads. A loss-based solution to remedy known vulnerabilities of the SIP 503
+    (Service Unavailable) overload control mechanism has already been proposed. Using
     the same signaling, this document proposes a rate-based control scheme to complement
     the loss-based control scheme.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

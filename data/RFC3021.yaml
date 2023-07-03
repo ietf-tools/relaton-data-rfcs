@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3021
 title:
 - content: Using 31-Bit Prefixes on IPv4 Point-to-Point Links
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>With ever-increasing pressure to conserve IP address space on the Internet,
     it makes sense to consider where relatively minor changes can be made to fielded
-    practice to improve numbering efficiency.  One such change, proposed by this document,
+    practice to improve numbering efficiency. One such change, proposed by this document,
     is to halve the amount of address space assigned to point-to-point links (common
     throughout the Internet infrastructure) by allowing the use of 31-bit subnet masks
     in a very limited way. [STANDARDS-TRACK]</p>"
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

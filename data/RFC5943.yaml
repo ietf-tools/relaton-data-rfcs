@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5943
 title:
 - content: A Dedicated Routing Policy Specification Language Interface Identifier
@@ -68,16 +68,20 @@ script:
 abstract:
 - content: "<p>The deployment of new IP connectivity typically results in intermittent
     reachability for numerous reasons that are outside the scope of this document.
-    \ In order to aid in the debugging of these persistent problems, this document
-    proposes the creation of a new Routing Policy Specification Language attribute
-    that allows a network to advertise an IP address that is reachable and can be
-    used as a target for diagnostic tests (e.g., pings). [STANDARDS-TRACK]</p>"
+    In order to aid in the debugging of these persistent problems, this document proposes
+    the creation of a new Routing Policy Specification Language attribute that allows
+    a network to advertise an IP address that is reachable and can be used as a target
+    for diagnostic tests (e.g., pings). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

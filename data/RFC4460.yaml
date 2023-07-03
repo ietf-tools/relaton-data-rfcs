@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4460
 title:
 - content: Stream Control Transmission Protocol (SCTP) Specification Errata and Issues
@@ -183,11 +183,11 @@ script:
 abstract:
 - content: "<p>This document is a compilation of issues found during six interoperability
     events and 5 years of experience with implementing, testing, and using SCTP along
-    with the suggested fixes.  This document provides deltas to RFC 2960 and is organized
-    in a time-based way.  The issues are listed in the order they were brought up.
-    \ Because some text is changed several times, the last delta in the text is the
-    one that should be applied.  In addition to the delta, a description of the problem
-    and the details of the solution are also provided.  This memo provides information
+    with the suggested fixes. This document provides deltas to RFC 2960 and is organized
+    in a time-based way. The issues are listed in the order they were brought up.
+    Because some text is changed several times, the last delta in the text is the
+    one that should be applied. In addition to the delta, a description of the problem
+    and the details of the solution are also provided. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -206,6 +206,10 @@ relation:
       content: RFC9260
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

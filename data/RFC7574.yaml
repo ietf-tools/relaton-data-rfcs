@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7574
 title:
 - content: Peer-to-Peer Streaming Peer Protocol (PPSPP)
@@ -125,25 +125,28 @@ script:
 abstract:
 - content: "<p>The Peer-to-Peer Streaming Peer Protocol (PPSPP) is a protocol for
     disseminating the same content to a group of interested parties in a streaming
-    fashion.  PPSPP supports streaming of both prerecorded (on- demand) and live audio/video
-    content.  It is based on the peer-to- peer paradigm, where clients consuming the
+    fashion. PPSPP supports streaming of both prerecorded (on- demand) and live audio/video
+    content. It is based on the peer-to- peer paradigm, where clients consuming the
     content are put on equal footing with the servers initially providing the content,
-    to create a system where everyone can potentially provide upload bandwidth.  It
+    to create a system where everyone can potentially provide upload bandwidth. It
     has been designed to provide short time-till-playback for the end user and to
-    prevent disruption of the streams by malicious peers.  PPSPP has also been designed
-    to be flexible and extensible.  It can use different mechanisms to optimize peer
+    prevent disruption of the streams by malicious peers. PPSPP has also been designed
+    to be flexible and extensible. It can use different mechanisms to optimize peer
     uploading, prevent freeriding, and work with different peer discovery schemes
-    (centralized trackers or Distributed Hash Tables).  It supports multiple methods
-    for content integrity protection and chunk addressing.  Designed as a generic
-    protocol that can run on top of various transport protocols, it currently runs
-    on top of UDP using Low Extra Delay Background Transport (LEDBAT) for congestion
-    control.</p>"
+    (centralized trackers or Distributed Hash Tables). It supports multiple methods
+    for content integrity protection and chunk addressing. Designed as a generic protocol
+    that can run on top of various transport protocols, it currently runs on top of
+    UDP using Low Extra Delay Background Transport (LEDBAT) for congestion control.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

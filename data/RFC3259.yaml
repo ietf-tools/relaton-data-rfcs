@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3259
 title:
 - content: A Message Bus for Local Coordination
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The local Message Bus (Mbus) is a light-weight message-oriented coordination
-    protocol for group communication between application components.  The Mbus provides
+    protocol for group communication between application components. The Mbus provides
     automatic location of communication peers, subject based addressing, reliable
-    message transfer and different types of communication schemes.  The protocol is
-    layered on top of IP multicast and is specified for IPv4 and IPv6.  The IP multicast
-    scope is limited to link-local multicast.  This document specifies the Mbus protocol,
-    i.e., message syntax, addressing and transport mechanisms.  This memo provides
+    message transfer and different types of communication schemes. The protocol is
+    layered on top of IP multicast and is specified for IPv4 and IPv6. The IP multicast
+    scope is limited to link-local multicast. This document specifies the Mbus protocol,
+    i.e., message syntax, addressing and transport mechanisms. This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

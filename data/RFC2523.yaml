@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2523
 title:
 - content: 'Photuris: Extended Schemes and Attributes'
@@ -94,9 +94,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Photuris is a session-key management protocol.  Extensible Exchange-
+- content: "<p>Photuris is a session-key management protocol. Extensible Exchange-
     Schemes are provided to enable future implementation changes without affecting
-    the basic protocol.  This document defines an Experimental Protocol for the Internet
+    the basic protocol. This document defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

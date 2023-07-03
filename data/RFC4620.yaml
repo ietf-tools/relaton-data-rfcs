@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4620
 title:
 - content: IPv6 Node Information Queries
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>This document describes a protocol for asking an IPv6 node to supply
     certain network information, such as its hostname or fully-qualified domain name.
-    \ IPv6 implementation experience has shown that direct queries for a hostname
-    are useful, and a direct query mechanism for other information has been found
-    useful in serverless environments and for debugging.  This memo defines an Experimental
+    IPv6 implementation experience has shown that direct queries for a hostname are
+    useful, and a direct query mechanism for other information has been found useful
+    in serverless environments and for debugging. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

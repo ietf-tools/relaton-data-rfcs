@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9034
 title:
 - content: Packet Delivery Deadline Time in the Routing Header for IPv6 over Low-Power
@@ -194,9 +194,9 @@ script:
 abstract:
 - content: "<p>This document specifies a new type for the 6LoWPAN routing header containing
     the deadline time for data packets, designed for use over constrained networks.
-    \ The deadline time enables forwarding and scheduling decisions for time-critical
+    The deadline time enables forwarding and scheduling decisions for time-critical
     machine-to-machine (M2M) applications running on Internet-enabled devices that
-    operate within time-synchronized networks.  This document also specifies a representation
+    operate within time-synchronized networks. This document also specifies a representation
     for the deadline time values in such networks.</p>"
   language:
   - en
@@ -204,6 +204,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8624
 title:
 - content: Algorithm Implementation Requirements and Usage Guidance for DNSSEC
@@ -95,18 +95,22 @@ script:
 - Latn
 abstract:
 - content: "<p>The DNSSEC protocol makes use of various cryptographic algorithms in
-    order to provide authentication of DNS data and proof of nonexistence.  To ensure
+    order to provide authentication of DNS data and proof of nonexistence. To ensure
     interoperability between DNS resolvers and DNS authoritative servers, it is necessary
     to specify a set of algorithm implementation requirements and usage guidelines
     to ensure that there is at least one algorithm that all implementations support.
-    \ This document defines the current algorithm implementation requirements and
-    usage guidance for DNSSEC.  This document obsoletes RFC 6944.</p>"
+    This document defines the current algorithm implementation requirements and usage
+    guidance for DNSSEC. This document obsoletes RFC 6944.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7045
 title:
 - content: Transmission and Processing of IPv6 Extension Headers
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Various IPv6 extension headers have been standardised since the IPv6
-    standard was first published.  This document updates RFC 2460 to clarify how intermediate
+    standard was first published. This document updates RFC 2460 to clarify how intermediate
     nodes should deal with such extension headers and with any that are defined in
-    the future.  It also specifies how extension headers should be registered by IANA,
+    the future. It also specifies how extension headers should be registered by IANA,
     with a corresponding minor update to RFC 2780.</p>"
   language:
   - en
@@ -126,6 +126,10 @@ relation:
       content: RFC2780
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

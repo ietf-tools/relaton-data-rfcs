@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3088
 title:
 - content: OpenLDAP Root Service An experimental LDAP referral service
@@ -66,17 +66,21 @@ script:
 - Latn
 abstract:
 - content: <p>The OpenLDAP Project is operating an experimental LDAP (Lightweight
-    Directory Access Protocol) referral service known as the "OpenLDAP Root Service".  The
-    automated system generates referrals based upon service location information published
-    in DNS SRV RRs (Domain Name System location of services resource records).  This
-    document describes this service.  This memo defines an Experimental Protocol for
-    the Internet community.</p>
+    Directory Access Protocol) referral service known as the "OpenLDAP Root Service".
+    The automated system generates referrals based upon service location information
+    published in DNS SRV RRs (Domain Name System location of services resource records).
+    This document describes this service. This memo defines an Experimental Protocol
+    for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

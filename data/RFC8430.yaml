@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8430
 title:
 - content: RIB Information Model
@@ -125,19 +125,23 @@ script:
 abstract:
 - content: "<p>Routing and routing functions in enterprise and carrier networks are
     typically performed by network devices (routers and switches) using a Routing
-    Information Base (RIB).  Protocols and configurations push data into the RIB,
-    and the RIB manager installs state into the hardware for packet forwarding.  This
-    document specifies an information model for the RIB to enable defining a standardized
-    data model.  The IETF's I2RS WG used this document to design the I2RS RIB data
-    model.  This document is being published to record the higher- level information
-    model decisions for RIBs so that other developers of RIBs may benefit from the
-    design concepts.</p>"
+    Information Base (RIB). Protocols and configurations push data into the RIB, and
+    the RIB manager installs state into the hardware for packet forwarding. This document
+    specifies an information model for the RIB to enable defining a standardized data
+    model. The IETF's I2RS WG used this document to design the I2RS RIB data model.
+    This document is being published to record the higher- level information model
+    decisions for RIBs so that other developers of RIBs may benefit from the design
+    concepts.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

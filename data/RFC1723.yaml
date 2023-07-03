@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1723
 title:
 - content: RIP Version 2 - Carrying Additional Information
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This document specifies an extension of the Routing Information Protocol
     (RIP), o expand the amount of useful information carried in RIP messages and to
-    add a measure of security.  This memo obsoletes RFC 1388, which specifies an update
+    add a measure of security. This memo obsoletes RFC 1388, which specifies an update
     to the "Routing Information Protocol" STD 34, RFC 1058. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -96,6 +96,10 @@ relation:
       content: RFC1058
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

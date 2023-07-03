@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3246
 title:
 - content: An Expedited Forwarding PHB (Per-Hop Behavior)
@@ -313,16 +313,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a PHB (per-hop behavior) called Expedited Forwarding
-    (EF).  The PHB is a basic building block in the Differentiated Services architecture.
-    \ EF is intended to provide a building block for low delay, low jitter and low
-    loss services by ensuring that the EF aggregate is served at a certain configured
-    rate.  This document obsoletes RFC 2598. [STANDARDS-TRACK]</p>"
+    (EF). The PHB is a basic building block in the Differentiated Services architecture.
+    EF is intended to provide a building block for low delay, low jitter and low loss
+    services by ensuring that the EF aggregate is served at a certain configured rate.
+    This document obsoletes RFC 2598. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

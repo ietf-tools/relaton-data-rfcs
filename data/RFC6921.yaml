@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6921
 title:
 - content: Design Considerations for Faster-Than-Light (FTL) Communication
@@ -66,18 +66,22 @@ script:
 - Latn
 abstract:
 - content: "<p>We are approaching the time when we will be able to communicate faster
-    than the speed of light.  It is well known that as we approach the speed of light,
-    time slows down.  Logically, it is reasonable to assume that as we go faster than
-    the speed of light, time will reverse.  The major consequence of this for Internet
-    protocols is that packets will arrive before they are sent.  This will have a
-    major impact on the way we design Internet protocols.  This paper outlines some
-    of the issues and suggests some directions for additional analysis of these issues.</p>"
+    than the speed of light. It is well known that as we approach the speed of light,
+    time slows down. Logically, it is reasonable to assume that as we go faster than
+    the speed of light, time will reverse. The major consequence of this for Internet
+    protocols is that packets will arrive before they are sent. This will have a major
+    impact on the way we design Internet protocols. This paper outlines some of the
+    issues and suggests some directions for additional analysis of these issues.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

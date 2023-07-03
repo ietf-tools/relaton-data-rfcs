@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8861
 title:
 - content: 'Sending Multiple RTP Streams in a Single RTP Session: Grouping RTP Control
@@ -155,18 +155,22 @@ script:
 abstract:
 - content: "<p>RTP allows multiple RTP streams to be sent in a single session but
     requires each Synchronization Source (SSRC) to send RTP Control Protocol (RTCP)
-    reception quality reports for every other SSRC visible in the session.  This causes
+    reception quality reports for every other SSRC visible in the session. This causes
     the number of RTCP reception reports to grow with the number of SSRCs, rather
-    than the number of endpoints.  In many cases, most of these RTCP reception reports
+    than the number of endpoints. In many cases, most of these RTCP reception reports
     are unnecessary, since all SSRCs of an endpoint are normally co-located and see
-    the same reception quality.  This memo defines a Reporting Group extension to
-    RTCP to reduce the reporting overhead in such scenarios.</p>"
+    the same reception quality. This memo defines a Reporting Group extension to RTCP
+    to reduce the reporting overhead in such scenarios.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

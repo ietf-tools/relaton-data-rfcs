@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5663
 title:
 - content: Parallel NFS (pNFS) Block/Volume Layout
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>Parallel NFS (pNFS) extends Network File Sharing version 4 (NFSv4)
     to allow clients to directly access file data on the storage used by the NFSv4
-    server.  This ability to bypass the server for data access can increase both performance
+    server. This ability to bypass the server for data access can increase both performance
     and parallelism, but requires additional client functionality for data access,
-    some of which is dependent on the class of storage used.  The main pNFS operations
+    some of which is dependent on the class of storage used. The main pNFS operations
     document specifies storage-class-independent extensions to NFS; this document
     specifies the additional extensions (primarily data structures) for use of pNFS
     with block- and volume-based storage. [STANDARDS-TRACK]</p>"
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3623
 title:
 - content: Graceful OSPF Restart
@@ -124,13 +124,13 @@ script:
 - Latn
 abstract:
 - content: <p>This memo documents an enhancement to the OSPF routing protocol, whereby
-    an OSPF router can stay on the forwarding path even as its OSPF software is restarted.  This
-    is called "graceful restart" or "non-stop forwarding".  A restarting router may
-    not be capable of adjusting its forwarding in a timely manner when the network
-    topology changes.  In order to avoid the possible resulting routing loops, the
+    an OSPF router can stay on the forwarding path even as its OSPF software is restarted.
+    This is called "graceful restart" or "non-stop forwarding". A restarting router
+    may not be capable of adjusting its forwarding in a timely manner when the network
+    topology changes. In order to avoid the possible resulting routing loops, the
     procedure in this memo automatically reverts to a normal OSPF restart when such
     a topology change is detected, or when one or more of the restarting router's
-    neighbors do not support the enhancements in this memo.  Proper network operation
+    neighbors do not support the enhancements in this memo. Proper network operation
     during a graceful restart makes assumptions upon the operating environment of
     the restarting router; these assumptions are also documented.</p>
   language:
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

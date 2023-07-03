@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5021
 title:
 - content: Extended Kerberos Version 5 Key Distribution Center (KDC) Exchanges over
@@ -67,8 +67,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an extensibility mechanism for the Kerberos
-    V5 protocol when used over TCP transports.  The mechanism uses the reserved high-bit
-    in the length field.  It can be used to negotiate TCP-specific Kerberos extensions.
+    V5 protocol when used over TCP transports. The mechanism uses the reserved high-bit
+    in the length field. It can be used to negotiate TCP-specific Kerberos extensions.
     [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC4120
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

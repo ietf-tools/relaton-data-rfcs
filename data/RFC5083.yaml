@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5083
 title:
 - content: Cryptographic Message Syntax (CMS) Authenticated-Enveloped-Data Content
@@ -67,8 +67,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an additional content type for the Cryptographic
-    Message Syntax (CMS).  The authenticated-enveloped-data content type is intended
-    for use with authenticated encryption modes.  All of the various key management
+    Message Syntax (CMS). The authenticated-enveloped-data content type is intended
+    for use with authenticated encryption modes. All of the various key management
     techniques that are supported in the CMS enveloped-data content type are also
     supported by the CMS authenticated-enveloped-data content type. [STANDARDS-TRACK]</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC3852
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

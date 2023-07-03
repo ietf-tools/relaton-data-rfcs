@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7169
 title:
 - content: The NSA (No Secrecy Afforded) Certificate Extension
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This document defines the NSA (No Secrecy Afforded) certificate extension
     appropriate for use in certain PKIX (X.509 Pubic Key Certificates) digital certificates.
-    \ Historically, clients and servers strived to maintain the privacy of their keys;
-    however, the secrecy of their private keys cannot always be maintained.  In certain
+    Historically, clients and servers strived to maintain the privacy of their keys;
+    however, the secrecy of their private keys cannot always be maintained. In certain
     circumstances, a client or a server might feel that they will be compelled in
-    the future to share their keys with a third party.  Some clients and servers also
+    the future to share their keys with a third party. Some clients and servers also
     have been compelled to share their keys and wish to indicate to relying parties
     upon certificate renewal that their keys have in fact been shared with a third
     party.</p>"
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

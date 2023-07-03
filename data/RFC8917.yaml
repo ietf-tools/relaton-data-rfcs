@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8917
 title:
 - content: The LoST-Validation Straightforward-Naming Authority PoinTeR (S-NAPTR)
@@ -96,10 +96,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document adds the 'LoST-Validation' service tag to the Straightforward-Naming
-    Authority PoinTeR (S-NAPTR) Application Service Tag IANA registry.  This tag can
+    Authority PoinTeR (S-NAPTR) Application Service Tag IANA registry. This tag can
     appear in a Naming Authority Pointer (NAPTR) Domain Name System (DNS) record to
     assist clients of the Location-to-Service Translation (LoST) Protocol in identifying
-    LoST servers designated for location validation.  This tag and the information
+    LoST servers designated for location validation. This tag and the information
     about its use update RFC 5222, which enables the explicit discovery of a server
     that supports location validation.</p>"
   language:
@@ -119,6 +119,10 @@ relation:
       content: RFC5222
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

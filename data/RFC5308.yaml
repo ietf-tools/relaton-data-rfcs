@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5308
 title:
 - content: Routing IPv6 with IS-IS
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a method for exchanging IPv6 routing information
-    using the IS-IS routing protocol.  The described method utilizes two new TLVs:
+    using the IS-IS routing protocol. The described method utilizes two new TLVs:
     a reachability TLV and an interface address TLV to distribute the necessary IPv6
-    information throughout a routing domain.  Using this method, one can route IPv6
+    information throughout a routing domain. Using this method, one can route IPv6
     along with IPv4 and OSI using a single intra-domain routing protocol. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

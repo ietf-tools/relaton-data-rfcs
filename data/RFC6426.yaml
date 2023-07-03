@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6426
 title:
 - content: MPLS On-Demand Connectivity Verification and Route Tracing
@@ -154,13 +154,13 @@ script:
 abstract:
 - content: "<p>Label Switched Path Ping (LSP ping) is an existing and widely deployed
     Operations, Administration, and Maintenance (OAM) mechanism for Multi-Protocol
-    Label Switching (MPLS) Label Switched Paths (LSPs).  This document describes extensions
+    Label Switching (MPLS) Label Switched Paths (LSPs). This document describes extensions
     to LSP ping so that LSP ping can be used for on-demand connectivity verification
-    of MPLS Transport Profile (MPLS-TP) LSPs and pseudowires.  This document also
-    clarifies procedures to be used for processing the related OAM packets.  Further,
-    it describes procedures for using LSP ping to perform connectivity verification
-    and route tracing functions in MPLS-TP networks.  Finally, this document updates
-    RFC 4379 by adding a new address type and creating an IANA registry. [STANDARDS-TRACK]</p>"
+    of MPLS Transport Profile (MPLS-TP) LSPs and pseudowires. This document also clarifies
+    procedures to be used for processing the related OAM packets. Further, it describes
+    procedures for using LSP ping to perform connectivity verification and route tracing
+    functions in MPLS-TP networks. Finally, this document updates RFC 4379 by adding
+    a new address type and creating an IANA registry. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -178,6 +178,10 @@ relation:
       content: RFC4379
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

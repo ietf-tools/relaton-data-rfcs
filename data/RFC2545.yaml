@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2545
 title:
 - content: Use of BGP-4 Multiprotocol Extensions for IPv6 Inter-Domain Routing
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>BGP-4 Multiprotocol Extensions (BGP-MP) defines the format of two BGP
     attributes (MP_REACH_NLRI and MP_UNREACH_NLRI) that can be used to announce and
-    withdraw the announcement of reachability information.  This document defines
-    how compliant systems should make use of those attributes for the purpose of conveying
+    withdraw the announcement of reachability information. This document defines how
+    compliant systems should make use of those attributes for the purpose of conveying
     IPv6 routing information. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

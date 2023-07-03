@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5147
 title:
 - content: URI Fragment Identifiers for the text/plain Media Type
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines URI fragment identifiers for text/plain MIME entities.
-    \ These fragment identifiers make it possible to refer to parts of a text/plain
+    These fragment identifiers make it possible to refer to parts of a text/plain
     MIME entity, either identified by character position or range, or by line position
-    or range.  Fragment identifiers may also contain information for integrity checks
+    or range. Fragment identifiers may also contain information for integrity checks
     to make them more robust. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC2046
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

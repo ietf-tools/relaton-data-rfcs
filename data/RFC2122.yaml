@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2122
 title:
 - content: VEMMI URL Specification
@@ -123,17 +123,21 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>A new URL scheme, "vemmi" is defined.  VEMMI is a new international
-    standard for on-line multimedia services, that is both an ITU-T (International
-    Telecommunications Union, ex.  CCITT) International Standard (T.107) and an European
-    Standard (ETSI European Telecommunications Standard Institute) standard (ETS 300
-    382, obsoleted by ETS 300 709). [STANDARDS-TRACK]</p>
+- content: <p>A new URL scheme, "vemmi" is defined. VEMMI is a new international standard
+    for on-line multimedia services, that is both an ITU-T (International Telecommunications
+    Union, ex. CCITT) International Standard (T.107) and an European Standard (ETSI
+    European Telecommunications Standard Institute) standard (ETS 300 382, obsoleted
+    by ETS 300 709). [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

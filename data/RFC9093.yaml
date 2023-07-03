@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9093
 title:
 - content: A YANG Data Model for Layer 0 Types
@@ -182,8 +182,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a collection of common data types and groupings
-    in the YANG data modeling language.  These derived common types and groupings
-    are intended to be imported by modules that model Layer 0 optical Traffic Engineering
+    in the YANG data modeling language. These derived common types and groupings are
+    intended to be imported by modules that model Layer 0 optical Traffic Engineering
     (TE) configuration and state capabilities such as Wavelength Switched Optical
     Networks (WSONs) and flexi-grid Dense Wavelength Division Multiplexing (DWDM)
     networks.</p>"
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8184
 title:
 - content: Dual-Homing Protection for MPLS and the MPLS Transport Profile (MPLS-TP)
@@ -184,17 +184,20 @@ script:
 abstract:
 - content: "<p>This document describes a framework and several scenarios for a pseudowire
     (PW) dual-homing local protection mechanism that avoids unnecessary switchovers
-    and does not depend on whether a control plane is used.  A Dual-Node Interconnection
+    and does not depend on whether a control plane is used. A Dual-Node Interconnection
     (DNI) PW is used to carry traffic between the dual-homing Provider Edge (PE) nodes
-    when a failure occurs in one of the Attachment Circuits (AC) or PWs.  This PW
-    dual-homing local protection mechanism is complementary to existing PW protection
-    mechanisms.</p>"
+    when a failure occurs in one of the Attachment Circuits (AC) or PWs. This PW dual-homing
+    local protection mechanism is complementary to existing PW protection mechanisms.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

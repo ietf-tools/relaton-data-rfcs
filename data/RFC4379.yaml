@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4379
 title:
 - content: Detecting Multi-Protocol Label Switched (MPLS) Data Plane Failures
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: '<p>This document describes a simple and efficient mechanism that can be
     used to detect data plane failures in Multi-Protocol Label Switching (MPLS) Label
-    Switched Paths (LSPs).  There are two parts to this document: information carried
+    Switched Paths (LSPs). There are two parts to this document: information carried
     in an MPLS "echo request" and "echo reply" for the purposes of fault detection
     and isolation, and mechanisms for reliably sending the echo reply. [STANDARDS-TRACK]</p>'
   language:
@@ -126,6 +126,10 @@ relation:
       content: RFC1122
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

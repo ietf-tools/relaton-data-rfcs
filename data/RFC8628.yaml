@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8628
 title:
 - content: OAuth 2.0 Device Authorization Grant
@@ -155,7 +155,7 @@ abstract:
 - content: "<p>The OAuth 2.0 device authorization grant is designed for Internet-
     connected devices that either lack a browser to perform a user-agent- based authorization
     or are input constrained to the extent that requiring the user to input text in
-    order to authenticate during the authorization flow is impractical.  It enables
+    order to authenticate during the authorization flow is impractical. It enables
     OAuth clients on such devices (like smart TVs, media consoles, digital picture
     frames, and printers) to obtain user authorization to access protected resources
     by using a user agent on a separate device.</p>"
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

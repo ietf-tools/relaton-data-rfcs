@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3883
 title:
 - content: Detecting Inactive Neighbors over OSPF Demand Circuits (DC)
@@ -123,13 +123,13 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>OSPF is a link-state intra-domain routing protocol used in IP networks.  OSPF
-    behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the amount
-    of overhead traffic.  A part of the OSPF demand circuit extensions is the Hello
-    suppression mechanism.  This technique allows a demand circuit to go down when
-    no interesting traffic is going through the link.  However, it also introduces
+- content: <p>OSPF is a link-state intra-domain routing protocol used in IP networks.
+    OSPF behavior over demand circuits (DC) is optimized in RFC 1793 to minimize the
+    amount of overhead traffic. A part of the OSPF demand circuit extensions is the
+    Hello suppression mechanism. This technique allows a demand circuit to go down
+    when no interesting traffic is going through the link. However, it also introduces
     a problem, where it becomes impossible to detect an OSPF-inactive neighbor over
-    such a link.  This memo introduces a new mechanism called "neighbor probing" to
+    such a link. This memo introduces a new mechanism called "neighbor probing" to
     address the above problem. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -148,6 +148,10 @@ relation:
       content: RFC1793
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

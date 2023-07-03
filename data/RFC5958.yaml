@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5958
 title:
 - content: Asymmetric Key Packages
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the syntax for private-key information and a
-    content type for it.  Private-key information includes a private key for a specified
-    public-key algorithm and a set of attributes.  The Cryptographic Message Syntax
+    content type for it. Private-key information includes a private key for a specified
+    public-key algorithm and a set of attributes. The Cryptographic Message Syntax
     (CMS), as defined in RFC 5652, can be used to digitally sign, digest, authenticate,
-    or encrypt the asymmetric key format content type.  This document obsoletes RFC
+    or encrypt the asymmetric key format content type. This document obsoletes RFC
     5208. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

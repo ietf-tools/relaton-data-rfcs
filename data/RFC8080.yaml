@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8080
 title:
 - content: Edwards-Curve Digital Security Algorithm (EdDSA) for DNSSEC
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how to specify Edwards-curve Digital Security
-    Algorithm (EdDSA) keys and signatures in DNS Security (DNSSEC).  It uses EdDSA
+    Algorithm (EdDSA) keys and signatures in DNS Security (DNSSEC). It uses EdDSA
     with the choice of two curves: Ed25519 and Ed448.</p>"
   language:
   - en
@@ -103,6 +103,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

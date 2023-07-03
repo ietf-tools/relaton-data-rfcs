@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7275
 title:
 - content: Inter-Chassis Communication Protocol for Layer 2 Virtual Private Network
@@ -213,9 +213,9 @@ script:
 abstract:
 - content: "<p>This document specifies an Inter-Chassis Communication Protocol (ICCP)
     that enables Provider Edge (PE) device redundancy for Virtual Private Wire Service
-    (VPWS) and Virtual Private LAN Service (VPLS) applications.  The protocol runs
+    (VPWS) and Virtual Private LAN Service (VPLS) applications. The protocol runs
     within a set of two or more PEs, forming a Redundancy Group, for the purpose of
-    synchronizing data among the systems.  It accommodates multi-chassis attachment
+    synchronizing data among the systems. It accommodates multi-chassis attachment
     circuit redundancy mechanisms as well as pseudowire redundancy mechanisms.</p>"
   language:
   - en
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

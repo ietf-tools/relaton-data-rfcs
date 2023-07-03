@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4470
 title:
 - content: Minimally Covering NSEC Records and DNSSEC On-line Signing
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how to construct DNSSEC NSEC resource records
-    that cover a smaller range of names than called for by RFC 4034.  By generating
+    that cover a smaller range of names than called for by RFC 4034. By generating
     and signing these records on demand, authoritative name servers can effectively
     stop the disclosure of zone contents otherwise made possible by walking the chain
     of NSEC records in a signed zone. [STANDARDS-TRACK]</p>"
@@ -126,6 +126,10 @@ relation:
       content: RFC4034
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

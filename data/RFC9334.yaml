@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9334
 title:
 - content: Remote ATtestation procedureS (RATS) Architecture
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: "<p>In network protocol exchanges, it is often useful for one end of a
     communication to know whether the other end is in an intended operating state.
-    \ This document provides an architectural overview of the entities involved that
+    This document provides an architectural overview of the entities involved that
     make such tests possible through the process of generating, conveying, and evaluating
-    evidentiary Claims.  It provides a model that is neutral toward processor architectures,
+    evidentiary Claims. It provides a model that is neutral toward processor architectures,
     the content of Claims, and protocols.</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

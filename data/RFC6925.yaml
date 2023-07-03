@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6925
 title:
 - content: The DHCPv4 Relay Agent Identifier Sub-Option
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a new Relay Agent Identifier sub-option for the
-    Dynamic Host Configuration Protocol (DHCP) Relay Agent Information option.  The
+    Dynamic Host Configuration Protocol (DHCP) Relay Agent Information option. The
     sub-option carries a value that uniquely identifies the relay agent device within
-    the administrative domain.  The value is normally administratively configured
-    in the relay agent.  The sub-option allows a DHCP relay agent to include the identifier
+    the administrative domain. The value is normally administratively configured in
+    the relay agent. The sub-option allows a DHCP relay agent to include the identifier
     in the DHCP messages it sends.</p>"
   language:
   - en
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

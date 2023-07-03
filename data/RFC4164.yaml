@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4164
 title:
 - content: 'RObust Header Compression (ROHC): Context Replication for ROHC Profiles'
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This document defines context replication, a complement to the context
     initialization procedure found in Robust Header Compression (ROHC), as specified
-    in RFC 3095.  Profiles defining support for context replication may use the mechanism
+    in RFC 3095. Profiles defining support for context replication may use the mechanism
     described herein to establish a new context based on another already existing
-    context.  Context replication is introduced to reduce the overhead of the context
-    establishment procedure.  It may be especially useful for the compression of multiple
+    context. Context replication is introduced to reduce the overhead of the context
+    establishment procedure. It may be especially useful for the compression of multiple
     short-lived flows that may be occurring simultaneously or near-simultaneously,
     such as short-lived TCP flows. [STANDARDS-TRACK]</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

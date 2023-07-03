@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3775
 title:
 - content: Mobility Support in IPv6
@@ -124,16 +124,16 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a protocol which allows nodes to remain reachable
-    while moving around in the IPv6 Internet.  Each mobile node is always identified
+    while moving around in the IPv6 Internet. Each mobile node is always identified
     by its home address, regardless of its current point of attachment to the Internet.
-    \ While situated away from its home, a mobile node is also associated with a care-of
+    While situated away from its home, a mobile node is also associated with a care-of
     address, which provides information about the mobile node's current location.
-    \ IPv6 packets addressed to a mobile node's home address are transparently routed
-    to its care-of address.  The protocol enables IPv6 nodes to cache the binding
-    of a mobile node's home address with its care-of address, and to then send any
-    packets destined for the mobile node directly to it at this care-of address.  To
-    support this operation, Mobile IPv6 defines a new IPv6 protocol and a new destination
-    option.  All IPv6 nodes, whether mobile or stationary, can communicate with mobile
+    IPv6 packets addressed to a mobile node's home address are transparently routed
+    to its care-of address. The protocol enables IPv6 nodes to cache the binding of
+    a mobile node's home address with its care-of address, and to then send any packets
+    destined for the mobile node directly to it at this care-of address. To support
+    this operation, Mobile IPv6 defines a new IPv6 protocol and a new destination
+    option. All IPv6 nodes, whether mobile or stationary, can communicate with mobile
     nodes. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -152,6 +152,10 @@ relation:
       content: RFC6275
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5460
 title:
 - content: DHCPv6 Bulk Leasequery
@@ -67,16 +67,20 @@ script:
 abstract:
 - content: "<p>The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) has been
     extended with a Leasequery capability that allows a client to request information
-    about DHCPv6 bindings.  That mechanism is limited to queries for individual bindings.
-    \ In some situations individual binding queries may not be efficient, or even
-    possible.  This document expands on the Leasequery protocol, adding new query
-    types and allowing for bulk transfer of DHCPv6 binding data via TCP. [STANDARDS-TRACK]</p>"
+    about DHCPv6 bindings. That mechanism is limited to queries for individual bindings.
+    In some situations individual binding queries may not be efficient, or even possible.
+    This document expands on the Leasequery protocol, adding new query types and allowing
+    for bulk transfer of DHCPv6 binding data via TCP. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4888
 title:
 - content: Network Mobility Route Optimization Problem Statement
@@ -154,20 +154,24 @@ script:
 abstract:
 - content: "<p>With current Network Mobility (NEMO) Basic Support, all communications
     to and from Mobile Network Nodes must go through the bi-directional tunnel established
-    between the Mobile Router and Home Agent when the mobile network is away.  This
+    between the Mobile Router and Home Agent when the mobile network is away. This
     sub-optimal routing results in various inefficiencies associated with packet delivery,
     such as increased delay and bottleneck links leading to traffic congestion, which
     can ultimately disrupt all communications to and from the Mobile Network Nodes.
-    \ Additionally, with nesting of Mobile Networks, these inefficiencies get compounded,
-    and stalemate conditions may occur in specific dispositions.  This document investigates
+    Additionally, with nesting of Mobile Networks, these inefficiencies get compounded,
+    and stalemate conditions may occur in specific dispositions. This document investigates
     such problems and provides the motivation behind Route Optimization (RO) for NEMO.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

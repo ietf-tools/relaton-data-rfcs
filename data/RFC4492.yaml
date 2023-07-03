@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4492
 title:
 - content: Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security
@@ -183,10 +183,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes new key exchange algorithms based on Elliptic
-    Curve Cryptography (ECC) for the Transport Layer Security (TLS) protocol.  In
-    particular, it specifies the use of Elliptic Curve Diffie-Hellman (ECDH) key agreement
-    in a TLS handshake and the use of Elliptic Curve Digital Signature Algorithm (ECDSA)
-    as a new authentication mechanism.  This memo provides information for the Internet
+    Curve Cryptography (ECC) for the Transport Layer Security (TLS) protocol. In particular,
+    it specifies the use of Elliptic Curve Diffie-Hellman (ECDH) key agreement in
+    a TLS handshake and the use of Elliptic Curve Digital Signature Algorithm (ECDSA)
+    as a new authentication mechanism. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -205,6 +205,10 @@ relation:
       content: RFC8422
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

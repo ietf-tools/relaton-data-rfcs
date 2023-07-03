@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6847
 title:
 - content: Fibre Channel over Ethernet (FCoE) over Transparent Interconnection of
@@ -126,11 +126,11 @@ script:
 abstract:
 - content: "<p>Fibre Channel over Ethernet (FCoE) and Transparent Interconnection
     of Lots of Links (TRILL) are two emerging standards in the data center environment.
-    \ While these two protocols are seemingly unrelated, they have a very similar
-    behavior in the forwarding plane, as both perform hop-by-hop forwarding over Ethernet,
-    modifying the packet's Media Access Control (MAC) addresses at each hop.  This
+    While these two protocols are seemingly unrelated, they have a very similar behavior
+    in the forwarding plane, as both perform hop-by-hop forwarding over Ethernet,
+    modifying the packet's Media Access Control (MAC) addresses at each hop. This
     document describes an architecture for the integrated deployment of these two
-    protocols.  This document is not an Internet Standards Track specification; it
+    protocols. This document is not an Internet Standards Track specification; it
     is published for informational purposes.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

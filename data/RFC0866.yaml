@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC866
 title:
 - content: Active users
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the ARPA Internet community.  Hosts
+- content: "<p>This RFC specifies a standard for the ARPA Internet community. Hosts
     on the ARPA Internet that choose to implement an Active Users Protocol are expected
-    to adopt and implement this standard.  The Active Users service simply sends a
+    to adopt and implement this standard. The Active Users service simply sends a
     list of the currently active users on the host without regard to the input.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ series:
     content: STD
     format: text/plain
   number: '24'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

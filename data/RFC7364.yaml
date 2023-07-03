@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7364
 title:
 - content: 'Problem Statement: Overlays for Network Virtualization'
@@ -212,17 +212,17 @@ script:
 abstract:
 - content: "<p>This document describes issues associated with providing multi-tenancy
     in large data center networks and how these issues may be addressed using an overlay-based
-    network virtualization approach.  A key multi-tenancy requirement is traffic isolation
-    so that one tenant's traffic is not visible to any other tenant.  Another requirement
+    network virtualization approach. A key multi-tenancy requirement is traffic isolation
+    so that one tenant's traffic is not visible to any other tenant. Another requirement
     is address space isolation so that different tenants can use the same address
-    space within different virtual networks.  Traffic and address space isolation
-    is achieved by assigning one or more virtual networks to each tenant, where traffic
+    space within different virtual networks. Traffic and address space isolation is
+    achieved by assigning one or more virtual networks to each tenant, where traffic
     within a virtual network can only cross into another virtual network in a controlled
-    fashion (e.g., via a configured router and/or a security gateway).  Additional
+    fashion (e.g., via a configured router and/or a security gateway). Additional
     functionality is required to provision virtual networks, associating a virtual
     machine's network interface(s) with the appropriate virtual network and maintaining
     that association as the virtual machine is activated, migrated, and/or deactivated.
-    \ Use of an overlay-based approach enables scalable deployment on large network
+    Use of an overlay-based approach enables scalable deployment on large network
     infrastructures.</p>"
   language:
   - en
@@ -230,6 +230,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

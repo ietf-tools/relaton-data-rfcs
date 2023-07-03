@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4796
 title:
 - content: The Session Description Protocol (SDP) Content Attribute
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a new Session Description Protocol (SDP) media-
-    level attribute, 'content'.  The 'content' attribute defines the content of the
-    media stream to a more detailed level than the media description line.  The sender
+    level attribute, 'content'. The 'content' attribute defines the content of the
+    media stream to a more detailed level than the media description line. The sender
     of an SDP session description can attach the 'content' attribute to one or more
-    media streams.  The receiving application can then treat each media stream differently
+    media streams. The receiving application can then treat each media stream differently
     (e.g., show it on a big or small screen) based on its content. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

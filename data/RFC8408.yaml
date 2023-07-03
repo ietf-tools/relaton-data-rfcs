@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8408
 title:
 - content: Conveying Path Setup Type in PCE Communication Protocol (PCEP) Messages
@@ -182,17 +182,21 @@ script:
 - Latn
 abstract:
 - content: "<p>A Path Computation Element (PCE) can compute Traffic Engineering (TE)
-    paths through a network; these paths are subject to various constraints.  Currently,
+    paths through a network; these paths are subject to various constraints. Currently,
     TE paths are Label Switched Paths (LSPs) that are set up using the RSVP-TE signaling
-    protocol.  However, other TE path setup methods are possible within the PCE architecture.
-    \ This document proposes an extension to the PCE Communication Protocol (PCEP)
-    to allow support for different path setup methods over a given PCEP session.</p>"
+    protocol. However, other TE path setup methods are possible within the PCE architecture.
+    This document proposes an extension to the PCE Communication Protocol (PCEP) to
+    allow support for different path setup methods over a given PCEP session.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

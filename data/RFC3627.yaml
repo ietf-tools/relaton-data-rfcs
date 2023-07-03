@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3627
 title:
 - content: Use of /127 Prefix Length Between Routers Considered Harmful
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>In some cases, the operational decision may be to use IPv6 /127 prefix
-    lengths, especially on point-to-point links between routers.  Under certain situations,
+    lengths, especially on point-to-point links between routers. Under certain situations,
     this may lead to one router claiming both addresses due to subnet-router anycast
-    being implemented.  This document discusses the issue and offers a couple of solutions
+    being implemented. This document discusses the issue and offers a couple of solutions
     to the problem; nevertheless, /127 should be avoided between two routers.</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC6547
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

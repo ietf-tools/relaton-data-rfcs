@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3611
 title:
 - content: RTP Control Protocol Extended Reports (RTCP XR)
@@ -125,13 +125,13 @@ script:
 abstract:
 - content: "<p>This document defines the Extended Report (XR) packet type for the
     RTP Control Protocol (RTCP), and defines how the use of XR packets can be signaled
-    by an application if it employs the Session Description Protocol (SDP).  XR packets
-    are composed of report blocks, and seven block types are defined here.  The purpose
+    by an application if it employs the Session Description Protocol (SDP). XR packets
+    are composed of report blocks, and seven block types are defined here. The purpose
     of the extended reporting format is to convey information that supplements the
     six statistics that are contained in the report blocks used by RTCP's Sender Report
-    (SR) and Receiver Report (RR) packets.  Some applications, such as multicast inference
+    (SR) and Receiver Report (RR) packets. Some applications, such as multicast inference
     of network characteristics (MINC) or voice over IP (VoIP) monitoring, require
-    other and more detailed statistics.  In addition to the block types defined here,
+    other and more detailed statistics. In addition to the block types defined here,
     additional block types may be defined in the future by adhering to the framework
     that this document provides.</p>"
   language:
@@ -140,6 +140,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4865
 title:
 - content: SMTP Submission Service Extension for Future Message Release
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>This memo defines an extension to the SMTP submission protocol for
     a client to indicate a future time for the message to be released for delivery.
-    \ This extension permits a client to use server-based storage for a message that
-    should be held in queue until an appointed time in the future.  This is useful
+    This extension permits a client to use server-based storage for a message that
+    should be held in queue until an appointed time in the future. This is useful
     for clients which do not have local storage or are otherwise unable to release
     a message for delivery at an appointed time. [STANDARDS-TRACK]</p>"
   language:
@@ -127,6 +127,10 @@ relation:
       content: RFC3464
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

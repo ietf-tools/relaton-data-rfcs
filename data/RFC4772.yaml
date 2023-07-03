@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4772
 title:
 - content: Security Implications of Using the Data Encryption Standard (DES)
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: "<p>The Data Encryption Standard (DES) is susceptible to brute-force attacks,
-    which are well within the reach of a modestly financed adversary.  As a result,
+    which are well within the reach of a modestly financed adversary. As a result,
     DES has been deprecated, and replaced by the Advanced Encryption Standard (AES).
-    \ Nonetheless, many applications continue to rely on DES for security, and designers
-    and implementers continue to support it in new applications.  While this is not
-    always inappropriate, it frequently is.  This note discusses DES security implications
+    Nonetheless, many applications continue to rely on DES for security, and designers
+    and implementers continue to support it in new applications. While this is not
+    always inappropriate, it frequently is. This note discusses DES security implications
     in detail, so that designers and implementers have all the information they need
-    to make judicious decisions regarding its use.  This memo provides information
+    to make judicious decisions regarding its use. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

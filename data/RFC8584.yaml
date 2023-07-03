@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8584
 title:
 - content: Framework for Ethernet VPN Designated Forwarder Election Extensibility
@@ -211,13 +211,13 @@ script:
 - Latn
 abstract:
 - content: "<p>An alternative to the default Designated Forwarder (DF) selection algorithm
-    in Ethernet VPNs (EVPNs) is defined.  The DF is the Provider Edge (PE) router
-    responsible for sending Broadcast, Unknown Unicast, and Multicast (BUM) traffic
-    to a multihomed Customer Edge (CE) device on a given VLAN on a particular Ethernet
-    Segment (ES).  In addition, the ability to influence the DF election result for
-    a VLAN based on the state of the associated Attachment Circuit (AC) is specified.
-    \ This document clarifies the DF election Finite State Machine in EVPN services.
-    \ Therefore, it updates the EVPN specification (RFC 7432).</p>"
+    in Ethernet VPNs (EVPNs) is defined. The DF is the Provider Edge (PE) router responsible
+    for sending Broadcast, Unknown Unicast, and Multicast (BUM) traffic to a multihomed
+    Customer Edge (CE) device on a given VLAN on a particular Ethernet Segment (ES).
+    In addition, the ability to influence the DF election result for a VLAN based
+    on the state of the associated Attachment Circuit (AC) is specified. This document
+    clarifies the DF election Finite State Machine in EVPN services. Therefore, it
+    updates the EVPN specification (RFC 7432).</p>"
   language:
   - en
   script:
@@ -235,6 +235,10 @@ relation:
       content: RFC7432
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

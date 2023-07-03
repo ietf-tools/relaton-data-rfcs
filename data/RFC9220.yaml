@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9220
 title:
 - content: Bootstrapping WebSockets with HTTP/3
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>The mechanism for running the WebSocket Protocol over a single stream
     of an HTTP/2 connection is equally applicable to HTTP/3, but the HTTP-version-specific
-    details need to be specified.  This document describes how the mechanism is adapted
+    details need to be specified. This document describes how the mechanism is adapted
     for HTTP/3.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7074
 title:
 - content: Revised Definition of the GMPLS Switching Capability and Type Fields
@@ -95,15 +95,15 @@ script:
 - Latn
 abstract:
 - content: "<p>GMPLS provides control for multiple switching technologies and for
-    hierarchical switching within a technology.  GMPLS routing and signaling use common
-    values to indicate the type of switching technology.  These values are carried
+    hierarchical switching within a technology. GMPLS routing and signaling use common
+    values to indicate the type of switching technology. These values are carried
     in routing protocols via the Switching Capability field, and in signaling protocols
-    via the Switching Type field.  While the values used in these fields are the primary
+    via the Switching Type field. While the values used in these fields are the primary
     indicators of the technology and hierarchy level being controlled, the values
     are not consistently defined and used across the different technologies supported
-    by GMPLS.  This document is intended to resolve the inconsistent definition and
+    by GMPLS. This document is intended to resolve the inconsistent definition and
     use of the Switching Capability and Type fields by narrowly scoping the meaning
-    and use of the fields.  This document updates all documents that use the GMPLS
+    and use of the fields. This document updates all documents that use the GMPLS
     Switching Capability and Types fields, in particular RFCs 3471, 4202, 4203, and
     5307.</p>"
   language:
@@ -153,6 +153,10 @@ relation:
       content: RFC5307
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

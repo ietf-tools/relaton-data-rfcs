@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8468
 title:
 - content: 'IPv4, IPv6, and IPv4-IPv6 Coexistence: Updates for the IP Performance
@@ -183,13 +183,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo updates the IP Performance Metrics (IPPM) framework defined
-    by RFC 2330 with new considerations for measurement methodology and testing.  It
+    by RFC 2330 with new considerations for measurement methodology and testing. It
     updates the definition of standard-formed packets to include IPv6 packets, deprecates
     the definition of minimal IP packet, and augments distinguishing aspects, referred
-    to as Type-P, for test packets in RFC 2330.  This memo identifies that IPv4-IPv6
+    to as Type-P, for test packets in RFC 2330. This memo identifies that IPv4-IPv6
     coexistence can challenge measurements within the scope of the IPPM framework.
-    \ Example use cases include, but are not limited to, IPv4-IPv6 translation, NAT,
-    and protocol encapsulation.  IPv6 header compression and use of IPv6 over Low-Power
+    Example use cases include, but are not limited to, IPv4-IPv6 translation, NAT,
+    and protocol encapsulation. IPv6 header compression and use of IPv6 over Low-Power
     Wireless Area Networks (6LoWPAN) are considered and excluded from the standard-formed
     packet evaluation.</p>"
   language:
@@ -209,6 +209,10 @@ relation:
       content: RFC2330
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

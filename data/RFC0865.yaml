@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC865
 title:
 - content: Quote of the Day Protocol
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the ARPA Internet community.  Hosts
+- content: "<p>This RFC specifies a standard for the ARPA Internet community. Hosts
     on the ARPA Internet that choose to implement a Quote of the Day Protocol are
-    expected to adopt and implement this standard.  The Quote of the Day service simply
+    expected to adopt and implement this standard. The Quote of the Day service simply
     sends a short message without regard to the input.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ series:
     content: STD
     format: text/plain
   number: '23'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

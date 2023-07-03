@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6455
 title:
 - content: The WebSocket Protocol
@@ -96,18 +96,22 @@ script:
 abstract:
 - content: "<p>The WebSocket Protocol enables two-way communication between a client
     running untrusted code in a controlled environment to a remote host that has opted-in
-    to communications from that code.  The security model used for this is the origin-based
-    security model commonly used by web browsers.  The protocol consists of an opening
-    handshake followed by basic message framing, layered over TCP.  The goal of this
+    to communications from that code. The security model used for this is the origin-based
+    security model commonly used by web browsers. The protocol consists of an opening
+    handshake followed by basic message framing, layered over TCP. The goal of this
     technology is to provide a mechanism for browser-based applications that need
     two-way communication with servers that does not rely on opening multiple HTTP
-    connections (e.g., using XMLHttpRequest or  s and long polling). [STANDARDS-TRACK]</p>"
+    connections (e.g., using XMLHttpRequest or s and long polling). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

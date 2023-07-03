@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8488
 title:
 - content: RIPE NCC's Implementation of Resource Public Key Infrastructure (RPKI)
@@ -97,9 +97,9 @@ script:
 abstract:
 - content: "<p>This document describes an approach to validating the content of the
     Resource Public Key Infrastructure (RPKI) certificate tree, as it is implemented
-    in the RIPE NCC RPKI Validator.  This approach is independent of a particular
-    object retrieval mechanism, which allows it to be used with repositories available
-    over the rsync protocol, the RPKI Repository Delta Protocol (RRDP), and repositories
+    in the RIPE NCC RPKI Validator. This approach is independent of a particular object
+    retrieval mechanism, which allows it to be used with repositories available over
+    the rsync protocol, the RPKI Repository Delta Protocol (RRDP), and repositories
     that use a mix of both.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

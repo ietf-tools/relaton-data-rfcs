@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9294
 title:
 - content: Application-Specific Link Attributes Advertisement Using the Border Gateway
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>Extensions have been defined for link-state routing protocols that
     enable distribution of application-specific link attributes for existing as well
-    as newer applications such as Segment Routing (SR).  This document defines extensions
+    as newer applications such as Segment Routing (SR). This document defines extensions
     to the Border Gateway Protocol - Link State (BGP-LS) to enable the advertisement
     of these application-specific attributes as a part of the topology information
     from the network.</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

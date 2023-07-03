@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7678
 title:
 - content: Attribute-Value Pairs for Provisioning Customer Equipment Supporting IPv4-Over-IPv6
@@ -155,13 +155,13 @@ script:
 abstract:
 - content: "<p>During the transition from IPv4 to IPv6, customer equipment may have
     to support one of the various transition methods that have been defined for carrying
-    IPv4 packets over IPv6.  This document enumerates the information that needs to
+    IPv4 packets over IPv6. This document enumerates the information that needs to
     be provisioned on a customer edge router to support a list of transition techniques
     based on tunneling IPv4 in IPv6, with a view to defining reusable components for
-    a reasonable transition path between these techniques.  To the extent that the
+    a reasonable transition path between these techniques. To the extent that the
     provisioning is done dynamically, Authentication, Authorization, and Accounting
     (AAA) support is needed to provide the information to the network server responsible
-    for passing the information to the customer equipment.  This document specifies
+    for passing the information to the customer equipment. This document specifies
     Diameter (RFC 6733) Attribute-Value Pairs (AVPs) to be used for that purpose.</p>"
   language:
   - en
@@ -169,6 +169,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

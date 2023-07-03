@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7788
 title:
 - content: Home Networking Control Protocol
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>This document describes the Home Networking Control Protocol (HNCP),
     an extensible configuration protocol, and a set of requirements for home network
-    devices.  HNCP is described as a profile of and extension to the Distributed Node
-    Consensus Protocol (DNCP).  HNCP enables discovery of network borders, automated
+    devices. HNCP is described as a profile of and extension to the Distributed Node
+    Consensus Protocol (DNCP). HNCP enables discovery of network borders, automated
     configuration of addresses, name resolution, service discovery, and the use of
     any routing protocol that supports routing based on both the source and destination
     address.</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

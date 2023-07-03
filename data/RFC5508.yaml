@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5508
 title:
 - content: NAT Behavioral Requirements for ICMP
@@ -154,11 +154,11 @@ script:
 abstract:
 - content: "<p>This document specifies the behavioral properties required of the Network
     Address Translator (NAT) devices in conjunction with the Internet Control Message
-    Protocol (ICMP).  The objective of this memo is to make NAT devices more predictable
-    and compatible with diverse application protocols that traverse the devices.  Companion
+    Protocol (ICMP). The objective of this memo is to make NAT devices more predictable
+    and compatible with diverse application protocols that traverse the devices. Companion
     documents provide behavioral recommendations specific to TCP, UDP, and other protocols.
-    \ This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+    This document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -169,6 +169,10 @@ series:
     content: BCP
     format: text/plain
   number: '148'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

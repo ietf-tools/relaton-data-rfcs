@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2348
 title:
 - content: TFTP Blocksize Option
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The Trivial File Transfer Protocol is a simple, lock-step, file transfer
-    protocol which allows a client to get or put a file onto a remote host.  This
-    document describes a TFTP option which allows the client and server to negotiate
-    a blocksize more applicable to the network medium. [STANDARDS-TRACK]</p>"
+    protocol which allows a client to get or put a file onto a remote host. This document
+    describes a TFTP option which allows the client and server to negotiate a blocksize
+    more applicable to the network medium. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -115,6 +115,10 @@ relation:
       content: RFC1350
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

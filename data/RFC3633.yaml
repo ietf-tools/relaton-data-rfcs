@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3633
 title:
 - content: IPv6 Prefix Options for Dynamic Host Configuration Protocol (DHCP) version
@@ -96,7 +96,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The Prefix Delegation options provide a mechanism for automated delegation
-    of IPv6 prefixes using the Dynamic Host Configuration Protocol (DHCP).  This mechanism
+    of IPv6 prefixes using the Dynamic Host Configuration Protocol (DHCP). This mechanism
     is intended for delegating a long-lived prefix from a delegating router to a requesting
     router, across an administrative boundary, where the delegating router does not
     require knowledge about the topology of the links in the network to which the
@@ -118,6 +118,10 @@ relation:
       content: RFC8415
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

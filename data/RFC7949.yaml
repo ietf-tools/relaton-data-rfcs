@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7949
 title:
 - content: OSPFv3 over IPv4 for IPv6 Transition
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a mechanism to use IPv4 to transport OSPFv3 packets.
-    \ Using OSPFv3 over IPv4 with the existing OSPFv3 Address Family extension can
-    simplify transition from an OSPFv2 IPv4-only routing domain to an OSPFv3 dual-stack
-    routing domain.  This document updates RFC 5838 to support virtual links in the
-    IPv4 unicast address family when using OSPFv3 over IPv4.</p>"
+    Using OSPFv3 over IPv4 with the existing OSPFv3 Address Family extension can simplify
+    transition from an OSPFv2 IPv4-only routing domain to an OSPFv3 dual-stack routing
+    domain. This document updates RFC 5838 to support virtual links in the IPv4 unicast
+    address family when using OSPFv3 over IPv4.</p>"
   language:
   - en
   script:
@@ -145,6 +145,10 @@ relation:
       content: RFC5838
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

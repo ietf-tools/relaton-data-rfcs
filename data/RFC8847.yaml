@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8847
 title:
 - content: Protocol for Controlling Multiple Streams for Telepresence (CLUE)
@@ -101,20 +101,24 @@ script:
 abstract:
 - content: <p>The Controlling Multiple Streams for Telepresence (CLUE) protocol is
     an application protocol conceived for the description and negotiation of a telepresence
-    session.  The design of the CLUE protocol takes into account the requirements
-    and the framework defined within the IETF CLUE Working Group.  A companion document,
+    session. The design of the CLUE protocol takes into account the requirements and
+    the framework defined within the IETF CLUE Working Group. A companion document,
     RFC 8848, delves into CLUE signaling details as well as the SIP / Session Description
-    Protocol (SDP) session establishment phase.  CLUE messages flow over the CLUE
-    data channel, based on reliable and ordered SCTP-over-DTLS transport. ("SCTP"
-    stands for "Stream Control Transmission Protocol".) Message details, together
-    with the behavior of CLUE Participants acting as Media Providers and/or Media
-    Consumers, are herein discussed.</p>
+    Protocol (SDP) session establishment phase. CLUE messages flow over the CLUE data
+    channel, based on reliable and ordered SCTP-over-DTLS transport. ("SCTP" stands
+    for "Stream Control Transmission Protocol".) Message details, together with the
+    behavior of CLUE Participants acting as Media Providers and/or Media Consumers,
+    are herein discussed.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

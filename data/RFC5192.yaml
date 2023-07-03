@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5192
 title:
 - content: DHCP Options for Protocol for Carrying Authentication for Network Access
@@ -155,14 +155,18 @@ script:
 abstract:
 - content: "<p>This document defines new DHCPv4 and DHCPv6 options that contain a
     list of IP addresses to locate one or more PANA (Protocol for carrying Authentication
-    for Network Access) Authentication Agents (PAAs).  This is one of the methods
-    that a PANA Client (PaC) can use to locate PAAs. [STANDARDS-TRACK]</p>"
+    for Network Access) Authentication Agents (PAAs). This is one of the methods that
+    a PANA Client (PaC) can use to locate PAAs. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

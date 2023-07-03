@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7160
 title:
 - content: Support for Multiple Clock Rates in an RTP Session
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document clarifies the RTP specification regarding the use of
-    different clock rates in an RTP session.  It also provides guidance on how legacy
+    different clock rates in an RTP session. It also provides guidance on how legacy
     RTP implementations that use multiple clock rates can interoperate with RTP implementations
-    that use the algorithm described in this document.  It updates RFC 3550.</p>"
+    that use the algorithm described in this document. It updates RFC 3550.</p>"
   language:
   - en
   script:
@@ -115,6 +115,10 @@ relation:
       content: RFC3550
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

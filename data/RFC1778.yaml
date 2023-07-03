@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1778
 title:
 - content: The String Representation of Standard Attribute Syntaxes
@@ -153,7 +153,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The Lightweight Directory Access Protocol (LDAP) requires that the
-    contents of AttributeValue fields in protocol elements be octet strings.  This
+    contents of AttributeValue fields in protocol elements be octet strings. This
     document defines the requirements that must be satisfied by encoding rules used
     to render X.500 Directory attribute syntaxes into a form suitable for use in the
     LDAP, then goes on to define the encoding rules for the standard set of attribute
@@ -175,6 +175,10 @@ relation:
       content: RFC3494
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

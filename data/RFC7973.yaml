@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7973
 title:
 - content: Assignment of an Ethertype for IPv6 with Low-Power Wireless Personal Area
@@ -98,7 +98,7 @@ abstract:
 - content: "<p>When carried over Layer 2 technologies such as Ethernet, IPv6 datagrams
     using Low-Power Wireless Personal Area Network (LoWPAN) encapsulation as defined
     in RFC 4944 must be identified so the receiver can correctly interpret the encoded
-    IPv6 datagram.  The IETF officially requested the assignment of an Ethertype for
+    IPv6 datagram. The IETF officially requested the assignment of an Ethertype for
     that purpose and this document reports that assignment.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

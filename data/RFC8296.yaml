@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8296
 title:
 - content: Encapsulation for Bit Index Explicit Replication (BIER) in MPLS and Non-MPLS
@@ -214,21 +214,25 @@ abstract:
 - content: <p>Bit Index Explicit Replication (BIER) is an architecture that provides
     optimal multicast forwarding through a "multicast domain", without requiring intermediate
     routers to maintain any per-flow state or to engage in an explicit tree-building
-    protocol.  When a multicast data packet enters the domain, the ingress router
-    determines the set of egress routers to which the packet needs to be sent.  The
-    ingress router then encapsulates the packet in a BIER header.  The BIER header
-    contains a bit string in which each bit represents exactly one egress router in
-    the domain; to forward the packet to a given set of egress routers, the bits corresponding
-    to those routers are set in the BIER header.  The details of the encapsulation
-    depend on the type of network used to realize the multicast domain.  This document
-    specifies a BIER encapsulation that can be used in an MPLS network or, with slight
-    differences, in a non-MPLS network.</p>
+    protocol. When a multicast data packet enters the domain, the ingress router determines
+    the set of egress routers to which the packet needs to be sent. The ingress router
+    then encapsulates the packet in a BIER header. The BIER header contains a bit
+    string in which each bit represents exactly one egress router in the domain; to
+    forward the packet to a given set of egress routers, the bits corresponding to
+    those routers are set in the BIER header. The details of the encapsulation depend
+    on the type of network used to realize the multicast domain. This document specifies
+    a BIER encapsulation that can be used in an MPLS network or, with slight differences,
+    in a non-MPLS network.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

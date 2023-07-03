@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3726
 title:
 - content: Requirements for Signaling Protocols
@@ -66,16 +66,16 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines requirements for signaling across different network
-    environments, such as across administrative and/or technology domains.  Signaling
+    environments, such as across administrative and/or technology domains. Signaling
     is mainly considered for Quality of Service (Qos) such as the Resource Reservation
-    Protocol (RSVP).  However, in recent years, several other applications of signaling
-    have been defined.  For example, signaling for label distribution in Multiprotocol
-    Label Switching (MPLS) or signaling to middleboxes.  To achieve wide applicability
+    Protocol (RSVP). However, in recent years, several other applications of signaling
+    have been defined. For example, signaling for label distribution in Multiprotocol
+    Label Switching (MPLS) or signaling to middleboxes. To achieve wide applicability
     of the requirements, the starting point is a diverse set of scenarios/use cases
-    concerning various types of networks and application interactions.  This document
-    presents the assumptions before listing the requirements.  The requirements are
+    concerning various types of networks and application interactions. This document
+    presents the assumptions before listing the requirements. The requirements are
     grouped according to areas such as architecture and design goals, signaling flows,
-    layering, performance, flexibility, security, and mobility.  This memo provides
+    layering, performance, flexibility, security, and mobility. This memo provides
     information for the Internet community.</p>"
   language:
   - en
@@ -83,6 +83,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

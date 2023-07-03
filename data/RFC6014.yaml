@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6014
 title:
 - content: Cryptographic Algorithm Identifier Allocation for DNSSEC
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: <p>This document specifies how DNSSEC cryptographic algorithm identifiers
-    in the IANA registries are allocated.  It changes the requirement from "standard
-    required" to "RFC Required".  It does not change the list of algorithms that are
+    in the IANA registries are allocated. It changes the requirement from "standard
+    required" to "RFC Required". It does not change the list of algorithms that are
     recommended or required for DNSSEC implementations. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -106,6 +106,10 @@ relation:
       content: RFC4035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

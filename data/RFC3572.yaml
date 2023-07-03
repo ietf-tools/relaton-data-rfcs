@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3572
 title:
 - content: Internet Protocol Version 6 over MAPOS (Multiple Access Protocol Over SONET/SDH)
@@ -125,18 +125,22 @@ script:
 abstract:
 - content: "<p>Multiple Access Protocol over SONET/SDH (MAPOS) is a high-speed link-
     layer protocol that provides multiple access capability over a Synchronous Optical
-    NETwork/Synchronous Digital Hierarchy (SONET/SDH).  This document specifies the
-    frame format for encapsulating an IPv6 datagram in a MAPOS frame.  It also specifies
+    NETwork/Synchronous Digital Hierarchy (SONET/SDH). This document specifies the
+    frame format for encapsulating an IPv6 datagram in a MAPOS frame. It also specifies
     the method of forming IPv6 interface identifiers, the method of detecting duplicate
     addresses, and the format of the Source/Target Link-layer Addresses option field
-    used in IPv6 Neighbor Discovery messages.  This memo provides information for
-    the Internet community.</p>"
+    used in IPv6 Neighbor Discovery messages. This memo provides information for the
+    Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

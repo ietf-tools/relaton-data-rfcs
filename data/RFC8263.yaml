@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8263
 title:
 - content: Group Domain of Interpretation (GDOI) GROUPKEY-PUSH Acknowledgement Message
@@ -155,7 +155,7 @@ abstract:
 - content: "<p>The Group Domain of Interpretation (GDOI) includes the ability of a
     Group Controller/Key Server (GCKS) to provide a set of current Group Member (GM)
     devices with additional security associations (e.g., to rekey expiring security
-    associations).  This memo adds the ability of a GCKS to request that the GM devices
+    associations). This memo adds the ability of a GCKS to request that the GM devices
     return an acknowledgement of receipt of its rekey message and specifies the acknowledgement
     method.</p>"
   language:
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

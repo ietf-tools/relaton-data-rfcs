@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6934
 title:
 - content: Applicability of the Access Node Control Mechanism to Broadband Networks
@@ -155,16 +155,16 @@ script:
 abstract:
 - content: "<p>The purpose of this document is to provide applicability of the Access
     Node Control Mechanism to broadband access based on Passive Optical Networks (PONs).
-    \ The need for an Access Node Control Mechanism between a Network Access Server
+    The need for an Access Node Control Mechanism between a Network Access Server
     (NAS) and an Access Node Complex, composed of a combination of Optical Line Termination
     (OLT) and Optical Network Termination (ONT) elements, is described in a multi-service
     reference architecture in order to perform QoS-related, service-related, and subscriber-related
-    operations.  The Access Node Control Mechanism is also extended for interaction
-    between components of the Access Node Complex (OLT and ONT).  The Access Node
-    Control Mechanism will ensure that the transmission of information between the
-    NAS and Access Node Complex (ANX) and between the OLT and ONT within an ANX does
-    not need to go through distinct element managers but rather uses direct device-to-device
-    communication and stays on net.  This allows for performing access-link-related
+    operations. The Access Node Control Mechanism is also extended for interaction
+    between components of the Access Node Complex (OLT and ONT). The Access Node Control
+    Mechanism will ensure that the transmission of information between the NAS and
+    Access Node Complex (ANX) and between the OLT and ONT within an ANX does not need
+    to go through distinct element managers but rather uses direct device-to-device
+    communication and stays on net. This allows for performing access-link-related
     operations within those network elements to meet performance objectives.</p>"
   language:
   - en
@@ -172,6 +172,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

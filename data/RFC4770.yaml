@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4770
 title:
 - content: vCard Extensions for Instant Messaging (IM)
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an extension to vCard to support Instant Messaging
-    (IM) and Presence Protocol (PP) applications.  IM and PP are becoming increasingly
+    (IM) and Presence Protocol (PP) applications. IM and PP are becoming increasingly
     common ways of communicating, and users want to save this contact information
-    in their address books.  It allows a URI that is associated with IM or PP to be
+    in their address books. It allows a URI that is associated with IM or PP to be
     specified inside a vCard. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC6350
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

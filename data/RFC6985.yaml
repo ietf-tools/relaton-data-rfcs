@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6985
 title:
 - content: 'IMIX Genome: Specification of Variable Packet Sizes for Additional Testing'
@@ -67,14 +67,14 @@ script:
 abstract:
 - content: <p>Benchmarking methodologies have always relied on test conditions with
     constant packet sizes, with the goal of understanding what network device capability
-    has been tested.  Tests with a constant packet size reveal device capabilities
+    has been tested. Tests with a constant packet size reveal device capabilities
     but differ significantly from the conditions encountered in operational deployment,
     so additional tests are sometimes conducted with a mixture of packet sizes, or
-    "IMIX" ("Internet Mix").  The mixture of sizes a networking device will encounter
-    is highly variable and depends on many factors.  An IMIX suited for one networking
-    device and deployment will not be appropriate for another.  However, the mix of
-    sizes may be known, and the tester may be asked to augment the fixed-size tests.  To
-    address this need and the perpetual goal of specifying repeatable test conditions,
+    "IMIX" ("Internet Mix"). The mixture of sizes a networking device will encounter
+    is highly variable and depends on many factors. An IMIX suited for one networking
+    device and deployment will not be appropriate for another. However, the mix of
+    sizes may be known, and the tester may be asked to augment the fixed-size tests.
+    To address this need and the perpetual goal of specifying repeatable test conditions,
     this document defines a way to specify the exact repeating sequence of packet
     sizes from the usual set of fixed sizes and from other forms of mixed-size specification.</p>
   language:
@@ -83,6 +83,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

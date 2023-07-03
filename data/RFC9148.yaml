@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9148
 title:
 - content: 'EST-coaps: Enrollment over Secure Transport with the Secure Constrained
@@ -154,9 +154,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Enrollment over Secure Transport (EST) is used as a certificate provisioning
-    protocol over HTTPS.  Low-resource devices often use the lightweight Constrained
-    Application Protocol (CoAP) for message exchanges.  This document defines how
-    to transport EST payloads over secure CoAP (EST-coaps), which allows constrained
+    protocol over HTTPS. Low-resource devices often use the lightweight Constrained
+    Application Protocol (CoAP) for message exchanges. This document defines how to
+    transport EST payloads over secure CoAP (EST-coaps), which allows constrained
     devices to use existing EST functionality for provisioning certificates.</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

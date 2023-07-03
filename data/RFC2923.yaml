@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2923
 title:
 - content: TCP Problems with Path MTU Discovery
@@ -69,7 +69,7 @@ abstract:
     implementation problems dealing with Path Maximum Transmission Unit Discovery
     (PMTUD), including the long-standing black hole problem, stretch acknowlegements
     (ACKs) due to confusion between Maximum Segment Size (MSS) and segment size, and
-    MSS advertisement based on PMTU.  This memo provides information for the Internet
+    MSS advertisement based on PMTU. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

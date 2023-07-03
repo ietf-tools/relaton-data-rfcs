@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7050
 title:
 - content: Discovery of the IPv6 Prefix Used for IPv6 Address Synthesis
@@ -124,17 +124,21 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes a method for detecting the presence of DNS64
-    and for learning the IPv6 prefix used for protocol translation on an access network.  The
-    method depends on the existence of a well-known IPv4-only fully qualified domain
-    name "ipv4only.arpa.".  The information learned enables nodes to perform local
-    IPv6 address synthesis and to potentially avoid NAT64 on dual-stack and multi-interface
-    deployments.</p>
+    and for learning the IPv6 prefix used for protocol translation on an access network.
+    The method depends on the existence of a well-known IPv4-only fully qualified
+    domain name "ipv4only.arpa.". The information learned enables nodes to perform
+    local IPv6 address synthesis and to potentially avoid NAT64 on dual-stack and
+    multi-interface deployments.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

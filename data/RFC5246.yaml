@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5246
 title:
 - content: The Transport Layer Security (TLS) Protocol Version 1.2
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies Version 1.2 of the Transport Layer Security
-    (TLS) protocol.  The TLS protocol provides communications security over the Internet.
-    \ The protocol allows client/server applications to communicate in a way that
-    is designed to prevent eavesdropping, tampering, or message forgery. [STANDARDS-TRACK]</p>"
+    (TLS) protocol. The TLS protocol provides communications security over the Internet.
+    The protocol allows client/server applications to communicate in a way that is
+    designed to prevent eavesdropping, tampering, or message forgery. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -125,6 +125,10 @@ relation:
       content: RFC4492
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

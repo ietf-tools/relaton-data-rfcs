@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8586
 title:
 - content: Loop Detection in Content Delivery Networks (CDNs)
@@ -123,17 +123,21 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document defines the CDN-Loop request header field for HTTP.  CDN-Loop
+- content: "<p>This document defines the CDN-Loop request header field for HTTP. CDN-Loop
     addresses an operational need that occurs when an HTTP request is intentionally
     forwarded between Content Delivery Networks (CDNs), but is then accidentally or
     maliciously re-routed back into the original CDN causing a non-terminating loop.
-    \ The new header field can be used to identify the error and terminate the loop.</p>"
+    The new header field can be used to identify the error and terminate the loop.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

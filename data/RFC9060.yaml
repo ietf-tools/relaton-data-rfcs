@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9060
 title:
 - content: Secure Telephone Identity Revisited (STIR) Certificate Delegation
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>The Secure Telephone Identity Revisited (STIR) certificate profile
     provides a way to attest authority over telephone numbers and related identifiers
-    for the purpose of preventing telephone number spoofing.  This specification details
+    for the purpose of preventing telephone number spoofing. This specification details
     how that authority can be delegated from a parent certificate to a subordinate
-    certificate.  This supports a number of use cases, including those where service
+    certificate. This supports a number of use cases, including those where service
     providers grant credentials to enterprises or other customers capable of signing
     calls with STIR.</p>"
   language:
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

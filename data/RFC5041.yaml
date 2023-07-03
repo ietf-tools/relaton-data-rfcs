@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5041
 title:
 - content: Direct Data Placement over Reliable Transports
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>The Direct Data Placement protocol provides information to Place the
     incoming data directly into an upper layer protocol's receive buffer without intermediate
-    buffers.  This removes excess CPU and memory utilization associated with transferring
+    buffers. This removes excess CPU and memory utilization associated with transferring
     data through the intermediate buffers. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5243
 title:
 - content: OSPF Database Exchange Summary List Optimization
@@ -66,13 +66,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a backward-compatible optimization for the
-    Database Exchange process in OSPFv2 and OSPFv3.  In this optimization, a router
+    Database Exchange process in OSPFv2 and OSPFv3. In this optimization, a router
     does not list a Link State Advertisement (LSA) in Database Description packets
     sent to a neighbor, if the same or a more recent instance of the LSA was listed
-    in a Database Description packet already received from the neighbor.  This optimization
-    reduces Database Description overhead by about 50% in large networks.  This optimization
+    in a Database Description packet already received from the neighbor. This optimization
+    reduces Database Description overhead by about 50% in large networks. This optimization
     does not affect synchronization, since it only omits unnecessary information from
-    Database Description packets.  This memo provides information for the Internet
+    Database Description packets. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3784
 title:
 - content: Intermediate System to Intermediate System (IS-IS) Extensions for Traffic
@@ -96,11 +96,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes extensions to the Intermediate System to Intermediate
-    System (IS-IS) protocol to support Traffic Engineering (TE).  This document extends
+    System (IS-IS) protocol to support Traffic Engineering (TE). This document extends
     the IS-IS protocol by specifying new information that an Intermediate System (router)
-    can place in Link State Protocol (LSP) Data Units.  This information describes
+    can place in Link State Protocol (LSP) Data Units. This information describes
     additional details regarding the state of the network that are useful for traffic
-    engineering computations.  This memo provides information for the Internet community.</p>"
+    engineering computations. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -118,6 +118,10 @@ relation:
       content: RFC5305
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

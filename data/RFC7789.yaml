@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7789
 title:
 - content: Impact of BGP Filtering on Inter-Domain Routing Policies
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document describes how unexpected traffic flows can emerge across
     an autonomous system as the result of other autonomous systems filtering or restricting
-    the propagation of more-specific prefixes.  We provide a review of the techniques
+    the propagation of more-specific prefixes. We provide a review of the techniques
     to detect the occurrence of this issue and defend against it.</p>"
   language:
   - en
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5982
 title:
 - content: 'IP Flow Information Export (IPFIX) Mediation: Problem Statement'
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Flow-based measurement is a popular method for various network monitoring
-    usages.  The sharing of flow-based information for monitoring applications having
+    usages. The sharing of flow-based information for monitoring applications having
     different requirements raises some open issues in terms of measurement system
     scalability, flow-based measurement flexibility, and export reliability that IP
-    Flow Information Export (IPFIX) Mediation may help resolve.  This document describes
+    Flow Information Export (IPFIX) Mediation may help resolve. This document describes
     some problems related to flow-based measurement that network administrators have
     been facing, and then it describes IPFIX Mediation applicability examples along
-    with the problems.  This document is not an Internet Standards Track specification;
+    with the problems. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3209
 title:
 - content: 'RSVP-TE: Extensions to RSVP for LSP Tunnels'
@@ -212,9 +212,9 @@ script:
 abstract:
 - content: "<p>This document describes the use of RSVP (Resource Reservation Protocol),
     including all the necessary extensions, to establish label-switched paths (LSPs)
-    in MPLS (Multi-Protocol Label Switching).  Since the flow along an LSP is completely
+    in MPLS (Multi-Protocol Label Switching). Since the flow along an LSP is completely
     identified by the label applied at the ingress node of the path, these paths may
-    be treated as tunnels.  A key application of LSP tunnels is traffic engineering
+    be treated as tunnels. A key application of LSP tunnels is traffic engineering
     with MPLS as specified in RFC 2702. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -222,6 +222,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

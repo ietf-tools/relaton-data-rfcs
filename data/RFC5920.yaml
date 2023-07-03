@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5920
 title:
 - content: Security Framework for MPLS and GMPLS Networks
@@ -67,12 +67,12 @@ script:
 abstract:
 - content: "<p>This document provides a security framework for Multiprotocol Label
     Switching (MPLS) and Generalized Multiprotocol Label Switching (GMPLS) Networks.
-    \ This document addresses the security aspects that are relevant in the context
-    of MPLS and GMPLS.  It describes the security threats, the related defensive techniques,
-    and the mechanisms for detection and reporting.  This document emphasizes RSVP-TE
+    This document addresses the security aspects that are relevant in the context
+    of MPLS and GMPLS. It describes the security threats, the related defensive techniques,
+    and the mechanisms for detection and reporting. This document emphasizes RSVP-TE
     and LDP security considerations, as well as inter-AS and inter-provider security
     considerations for building and maintaining MPLS and GMPLS networks across different
-    domains or different Service Providers.  This document is not an Internet Standards
+    domains or different Service Providers. This document is not an Internet Standards
     Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

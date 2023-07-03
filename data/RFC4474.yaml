@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4474
 title:
 - content: Enhancements for Authenticated Identity Management in the Session Initiation
@@ -97,9 +97,9 @@ script:
 abstract:
 - content: "<p>The existing security mechanisms in the Session Initiation Protocol
     (SIP) are inadequate for cryptographically assuring the identity of the end users
-    that originate SIP requests, especially in an interdomain context.  This document
-    defines a mechanism for securely identifying originators of SIP messages.  It
-    does so by defining two new SIP header fields, Identity, for conveying a signature
+    that originate SIP requests, especially in an interdomain context. This document
+    defines a mechanism for securely identifying originators of SIP messages. It does
+    so by defining two new SIP header fields, Identity, for conveying a signature
     used for validating the identity, and Identity-Info, for conveying a reference
     to the certificate of the signer. [STANDARDS-TRACK]</p>"
   language:
@@ -119,6 +119,10 @@ relation:
       content: RFC8224
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

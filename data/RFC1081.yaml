@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1081
 title:
 - content: 'Post Office Protocol: Version 3'
@@ -71,7 +71,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo suggests a simple method for workstations to dynamically
-    access mail from a mailbox server.  This RFC specifies a proposed protocol for
+    access mail from a mailbox server. This RFC specifies a proposed protocol for
     the Internet community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
@@ -90,6 +90,10 @@ relation:
       content: RFC1225
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

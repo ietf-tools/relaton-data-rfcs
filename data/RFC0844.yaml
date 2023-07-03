@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC844
 title:
 - content: Who talks ICMP, too? - Survey of 18 February 1983
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This survey determines how many hosts are able to respond to TELENET
-    connections from a user at a class C site.  This requires, in addition to IP and
+    connections from a user at a class C site. This requires, in addition to IP and
     TCP, participation in gateway routing via ICMP and handling of Class C addresses.
-    \ The list of hosts was taken from RFC 843, extracting only those hosts which
-    are listed there as accepting TELNET connection.  The tests were run on 18-Feb-83.</p>"
+    The list of hosts was taken from RFC 843, extracting only those hosts which are
+    listed there as accepting TELNET connection. The tests were run on 18-Feb-83.</p>"
   language:
   - en
   script:
@@ -87,6 +87,10 @@ relation:
       content: RFC0843
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

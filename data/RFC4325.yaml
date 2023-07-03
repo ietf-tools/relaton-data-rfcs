@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4325
 title:
 - content: Internet X.509 Public Key Infrastructure Authority Information Access Certificate
@@ -96,8 +96,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates RFC 3280 by defining the Authority Information
-    Access Certificate Revocation List (CRL) extension.  RFC 3280 defines the Authority
-    Information Access certificate extension using the same syntax.  The CRL extension
+    Access Certificate Revocation List (CRL) extension. RFC 3280 defines the Authority
+    Information Access certificate extension using the same syntax. The CRL extension
     provides a means of discovering and retrieving CRL issuer certificates. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -126,6 +126,10 @@ relation:
       content: RFC3280
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

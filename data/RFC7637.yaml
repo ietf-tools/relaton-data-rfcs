@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7637
 title:
 - content: 'NVGRE: Network Virtualization Using Generic Routing Encapsulation'
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>This document describes the usage of the Generic Routing Encapsulation
     (GRE) header for Network Virtualization (NVGRE) in multi-tenant data centers.
-    \ Network Virtualization decouples virtual networks and addresses from physical
+    Network Virtualization decouples virtual networks and addresses from physical
     network infrastructure, providing isolation and concurrency between multiple virtual
-    networks on the same physical network infrastructure.  This document also introduces
+    networks on the same physical network infrastructure. This document also introduces
     a Network Virtualization framework to illustrate the use cases, but the focus
     is on specifying the data-plane aspect of NVGRE.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3546
 title:
 - content: Transport Layer Security (TLS) Extensions
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes extensions that may be used to add functionality
-    to Transport Layer Security (TLS).  It provides both generic extension mechanisms
+    to Transport Layer Security (TLS). It provides both generic extension mechanisms
     for the TLS handshake client and server hellos, and specific extensions using
-    these generic mechanisms.  The extensions may be used by TLS clients and servers.
-    \ The extensions are backwards compatible - communication is possible between
-    TLS 1.0 clients that support the extensions and TLS 1.0 servers that do not support
+    these generic mechanisms. The extensions may be used by TLS clients and servers.
+    The extensions are backwards compatible - communication is possible between TLS
+    1.0 clients that support the extensions and TLS 1.0 servers that do not support
     the extensions, and vice versa. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -215,6 +215,10 @@ relation:
       content: RFC2246
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

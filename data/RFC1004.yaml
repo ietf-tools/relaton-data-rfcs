@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1004
 title:
 - content: Distributed-protocol authentication scheme
@@ -71,10 +71,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The purpose of this RFC is to focus discussion on authentication problems
-    in the Internet and possible methods of solution.  The proposed solutions this
-    document are not intended as standards for the Internet at this time.  Rather,
+    in the Internet and possible methods of solution. The proposed solutions this
+    document are not intended as standards for the Internet at this time. Rather,
     it is hoped that a general consensus will emerge as to the appropriate solution
-    to authentication problems, leading eventually to the adoption of standards.  This
+    to authentication problems, leading eventually to the adoption of standards. This
     document suggests mediated access-control and authentication procedures suitable
     for those cases when an association is to be set up between users belonging to
     different trust environments.</p>"
@@ -84,6 +84,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

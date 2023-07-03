@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC904
 title:
 - content: Exterior Gateway Protocol formal specification
@@ -71,7 +71,7 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC-904 is the specification of the Exterior Gateway Protocol (EGP).
-    \ This memo updates portions of RFC-888 and RFC-827.  This RFC specifies an official
+    This memo updates portions of RFC-888 and RFC-827. This RFC specifies an official
     protocol of the DARPA community for use between gateways of different autonomous
     systems in the ARPA-Internet.</p>"
   language:
@@ -101,6 +101,10 @@ relation:
       content: RFC0888
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

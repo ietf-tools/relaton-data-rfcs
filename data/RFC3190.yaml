@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3190
 title:
 - content: RTP Payload Format for 12-bit DAT Audio and 20- and 24-bit Linear Sampled
@@ -155,16 +155,20 @@ script:
 abstract:
 - content: "<p>This document specifies a packetization scheme for encapsulating 12-bit
     nonlinear, 20-bit linear, and 24-bit linear audio data streams using the Real-time
-    Transport Protocol (RTP).  This document also specifies the format of a Session
+    Transport Protocol (RTP). This document also specifies the format of a Session
     Description Protocol (SDP) parameter to indicate when audio data is preemphasized
-    before sampling.  The parameter may be used with other audio payload formats,
-    in particular L16 (16-bit linear). [STANDARDS-TRACK]</p>"
+    before sampling. The parameter may be used with other audio payload formats, in
+    particular L16 (16-bit linear). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

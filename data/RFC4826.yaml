@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4826
 title:
 - content: Extensible Markup Language (XML) Formats for Representing Resource Lists
@@ -67,22 +67,26 @@ script:
 abstract:
 - content: "<p>In multimedia communications, presence, and instant messaging systems,
     there is a need to define Uniform Resource Identifiers (URIs) that represent services
-    that are associated with a group of users.  One example is a resource list service.
-    \ If a user sends a Session Initiation Protocol (SIP) SUBSCRIBE message to the
-    URI representing the resource list service, the server will obtain the state of
-    the users in the associated group, and provide it to the sender.  To facilitate
-    definition of these services, this specification defines two Extensible Markup
-    Language (XML) documents.  One document contains service URIs, along with their
-    service definition and a reference to the associated group of users.  The second
-    document contains the user lists that are referenced from the first.  This list
-    of users can be utilized by other applications and services.  Both documents can
-    be created and managed with the XML Configuration Access Protocol (XCAP). [STANDARDS-TRACK]</p>"
+    that are associated with a group of users. One example is a resource list service.
+    If a user sends a Session Initiation Protocol (SIP) SUBSCRIBE message to the URI
+    representing the resource list service, the server will obtain the state of the
+    users in the associated group, and provide it to the sender. To facilitate definition
+    of these services, this specification defines two Extensible Markup Language (XML)
+    documents. One document contains service URIs, along with their service definition
+    and a reference to the associated group of users. The second document contains
+    the user lists that are referenced from the first. This list of users can be utilized
+    by other applications and services. Both documents can be created and managed
+    with the XML Configuration Access Protocol (XCAP). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

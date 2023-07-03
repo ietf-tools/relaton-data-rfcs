@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6066
 title:
 - content: 'Transport Layer Security (TLS) Extensions: Extension Definitions'
@@ -65,16 +65,20 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document provides specifications for existing TLS extensions.  It
+- content: <p>This document provides specifications for existing TLS extensions. It
     is a companion document for RFC 5246, "The Transport Layer Security (TLS) Protocol
-    Version 1.2".  The extensions specified are server_name, max_fragment_length,
-    client_certificate_url, trusted_ca_keys, truncated_hmac, and status_request. [STANDARDS-TRACK]</p>
+    Version 1.2". The extensions specified are server_name, max_fragment_length, client_certificate_url,
+    trusted_ca_keys, truncated_hmac, and status_request. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

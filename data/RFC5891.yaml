@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5891
 title:
 - content: 'Internationalized Domain Names in Applications (IDNA): Protocol'
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document is the revised protocol definition for Internationalized
-    Domain Names (IDNs).  The rationale for changes, the relationship to the older
-    specification, and important terminology are provided in other documents.  This
+    Domain Names (IDNs). The rationale for changes, the relationship to the older
+    specification, and important terminology are provided in other documents. This
     document specifies the protocol mechanism, called Internationalized Domain Names
     in Applications (IDNA), for registering and looking up IDNs in a way that does
-    not require changes to the DNS itself.  IDNA is only meant for processing domain
+    not require changes to the DNS itself. IDNA is only meant for processing domain
     names, not free text. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -89,6 +89,10 @@ relation:
       content: RFC3492
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

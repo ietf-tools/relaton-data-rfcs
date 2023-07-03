@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8196
 title:
 - content: IS-IS Autoconfiguration
@@ -181,9 +181,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies IS-IS autoconfiguration mechanisms.  The key
+- content: "<p>This document specifies IS-IS autoconfiguration mechanisms. The key
     components are IS-IS System ID self-generation, duplication detection, and duplication
-    resolution.  These mechanisms provide limited IS-IS functions and are therefore
+    resolution. These mechanisms provide limited IS-IS functions and are therefore
     suitable for networks where plug-and-play configuration is expected.</p>"
   language:
   - en
@@ -191,6 +191,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8385
 title:
 - content: Transparent Interconnection of Lots of Links (TRILL) Transparent Transport
@@ -155,7 +155,7 @@ script:
 abstract:
 - content: "<p>This document specifies methods to interconnect multiple TRILL (Transparent
     Interconnection of Lots of Links) sites with an intervening MPLS network using
-    existing TRILL and VPLS (Virtual Private LAN Service) standards.  This document
+    existing TRILL and VPLS (Virtual Private LAN Service) standards. This document
     addresses two problems: 1) providing connection between more than two TRILL sites
     that are separated by an MPLS provider network and 2) providing a single logical
     virtualized TRILL network for different tenants that are separated by an MPLS
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

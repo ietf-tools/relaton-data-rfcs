@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3825
 title:
 - content: Dynamic Host Configuration Protocol Option for Coordinate-based Location
@@ -125,9 +125,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a Dynamic Host Configuration Protocol Option
-    for the coordinate-based geographic location of the client.  The Location Configuration
+    for the coordinate-based geographic location of the client. The Location Configuration
     Information (LCI) includes latitude, longitude, and altitude, with resolution
-    indicators for each.  The reference datum for these values is also included. [STANDARDS-TRACK]</p>"
+    indicators for each. The reference datum for these values is also included. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -145,6 +145,10 @@ relation:
       content: RFC6225
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

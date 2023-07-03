@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8794
 title:
 - content: Extensible Binary Meta Language
@@ -124,17 +124,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the Extensible Binary Meta Language (EBML) format
-    as a binary container format designed for audio/video storage.  EBML is designed
+    as a binary container format designed for audio/video storage. EBML is designed
     as a binary equivalent to XML and uses a storage-efficient approach to build nested
-    Elements with identifiers, lengths, and values.  Similar to how an XML Schema
-    defines the structure and semantics of an XML Document, this document defines
-    how EBML Schemas are created to convey the semantics of an EBML Document.</p>"
+    Elements with identifiers, lengths, and values. Similar to how an XML Schema defines
+    the structure and semantics of an XML Document, this document defines how EBML
+    Schemas are created to convey the semantics of an EBML Document.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

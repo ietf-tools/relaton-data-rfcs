@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8775
 title:
 - content: PIM Designated Router Load Balancing
@@ -211,9 +211,9 @@ script:
 - Latn
 abstract:
 - content: "<p>On a multi-access network, one of the PIM-SM (PIM Sparse Mode) routers
-    is elected as a Designated Router.  One of the responsibilities of the Designated
+    is elected as a Designated Router. One of the responsibilities of the Designated
     Router is to track local multicast listeners and forward data to these listeners
-    if the group is operating in PIM-SM.  This document specifies a modification to
+    if the group is operating in PIM-SM. This document specifies a modification to
     the PIM-SM protocol that allows more than one of the PIM-SM routers to take on
     this responsibility so that the forwarding load can be distributed among multiple
     routers.</p>"
@@ -223,6 +223,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

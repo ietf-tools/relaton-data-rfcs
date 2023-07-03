@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4578
 title:
 - content: Dynamic Host Configuration Protocol (DHCP) Options for the Intel Preboot
@@ -99,7 +99,7 @@ abstract:
     used by Preboot eXecution Environment (PXE) and Extensible Firmware Interface
     (EFI) clients to uniquely identify booting client machines and their pre-OS runtime
     environment so that the DHCP and/or PXE boot server can return the correct OS
-    bootstrap image (or pre-boot application) name and server to the client.  This
+    bootstrap image (or pre-boot application) name and server to the client. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

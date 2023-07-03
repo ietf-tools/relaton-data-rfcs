@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4527
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Read Entry Controls
@@ -67,15 +67,18 @@ script:
 abstract:
 - content: "<p>This document specifies an extension to the Lightweight Directory Access
     Protocol (LDAP) to allow the client to read the target entry of an update operation.
-    \ The client may request to read the entry before and/or after the modifications
-    are applied.  These reads are done as an atomic part of the update operation.
-    [STANDARDS-TRACK]</p>"
+    The client may request to read the entry before and/or after the modifications
+    are applied. These reads are done as an atomic part of the update operation. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

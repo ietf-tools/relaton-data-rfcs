@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4256
 title:
 - content: Generic Message Exchange Authentication for the Secure Shell Protocol (SSH)
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The Secure Shell Protocol (SSH) is a protocol for secure remote login
-    and other secure network services over an insecure network.  This document describes
+    and other secure network services over an insecure network. This document describes
     a general purpose authentication method for the SSH protocol, suitable for interactive
     authentications where the authentication data should be entered via a keyboard
-    (or equivalent alphanumeric input device).  The major goal of this method is to
+    (or equivalent alphanumeric input device). The major goal of this method is to
     allow the SSH client to support a whole class of authentication mechanism(s) without
     knowing the specifics of the actual authentication mechanism(s). [STANDARDS-TRACK]</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7908
 title:
 - content: Problem Definition and Classification of BGP Route Leaks
@@ -182,13 +182,13 @@ script:
 - Latn
 abstract:
 - content: <p>A systemic vulnerability of the Border Gateway Protocol routing system,
-    known as "route leaks", has received significant attention in recent years.  Frequent
+    known as "route leaks", has received significant attention in recent years. Frequent
     incidents that result in significant disruptions to Internet routing are labeled
-    route leaks, but to date a common definition of the term has been lacking.  This
+    route leaks, but to date a common definition of the term has been lacking. This
     document provides a working definition of route leaks while keeping in mind the
-    real occurrences that have received significant attention.  Further, this document
+    real occurrences that have received significant attention. Further, this document
     attempts to enumerate (though not exhaustively) different types of route leaks
-    based on observed events on the Internet.  The aim is to provide a taxonomy that
+    based on observed events on the Internet. The aim is to provide a taxonomy that
     covers several forms of route leaks that have been observed and are of concern
     to the Internet user community as well as the network operator community.</p>
   language:
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

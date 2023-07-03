@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4635
 title:
 - content: HMAC SHA (Hashed Message Authentication Code, Secure Hash Algorithm) TSIG
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Use of the Domain Name System TSIG resource record requires specification
-    of a cryptographic message authentication code.  Currently, identifiers have been
+    of a cryptographic message authentication code. Currently, identifiers have been
     specified only for HMAC MD5 (Hashed Message Authentication Code, Message Digest
-    5) and GSS (Generic Security Service) TSIG algorithms.  This document standardizes
+    5) and GSS (Generic Security Service) TSIG algorithms. This document standardizes
     identifiers and implementation requirements for additional HMAC SHA (Secure Hash
     Algorithm) TSIG algorithms and standardizes how to specify and handle the truncation
     of HMAC values in TSIG. [STANDARDS-TRACK]</p>"
@@ -100,6 +100,10 @@ relation:
       content: RFC2845
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

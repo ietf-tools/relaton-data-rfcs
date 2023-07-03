@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6438
 title:
 - content: Using the IPv6 Flow Label for Equal Cost Multipath Routing and Link Aggregation
@@ -95,7 +95,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>The IPv6 flow label has certain restrictions on its use.  This document
+- content: "<p>The IPv6 flow label has certain restrictions on its use. This document
     describes how those restrictions apply when using the flow label for load balancing
     by equal cost multipath routing and for link aggregation, particularly for IP-in-IPv6
     tunneled traffic. [STANDARDS-TRACK]</p>"
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

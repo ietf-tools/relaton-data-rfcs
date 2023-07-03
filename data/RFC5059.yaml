@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5059
 title:
 - content: Bootstrap Router (BSR) Mechanism for Protocol Independent Multicast (PIM)
@@ -155,9 +155,9 @@ abstract:
 - content: "<p>This document specifies the Bootstrap Router (BSR) mechanism for the
     class of multicast routing protocols in the PIM (Protocol Independent Multicast)
     family that use the concept of a Rendezvous Point as a means for receivers to
-    discover the sources that send to a particular multicast group.  BSR is one way
+    discover the sources that send to a particular multicast group. BSR is one way
     that a multicast router can learn the set of group-to-RP mappings required in
-    order to function.  The mechanism is dynamic, largely self-configuring, and robust
+    order to function. The mechanism is dynamic, largely self-configuring, and robust
     to router failure. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -176,6 +176,10 @@ relation:
       content: RFC4601
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

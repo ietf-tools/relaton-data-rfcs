@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4678
 title:
 - content: Server/Application State Protocol v1
@@ -67,12 +67,12 @@ script:
 abstract:
 - content: "<p>Entities responsible for distributing work across a group of systems
     traditionally do not know a great deal about the ability of the applications on
-    those systems to complete the work in a satisfactory fashion.  Workload management
+    those systems to complete the work in a satisfactory fashion. Workload management
     systems traditionally know a great deal about the health of applications, but
-    have little control over the rate in which these applications receive work.  The
+    have little control over the rate in which these applications receive work. The
     Server/Application State Protocol (SASP) provides a mechanism for load balancers
     and workload management systems to communicate better ways of distributing the
-    existing workload to the group members.  This memo provides information for the
+    existing workload to the group members. This memo provides information for the
     Internet community.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

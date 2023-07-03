@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2448
 title:
 - content: AT&T's Error Resilient Video Transmission Technique
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document describes a set of techniques for packet loss resilient
     transmission of compressed video bitstreams based on reliable delivery of their
-    vital information-carrying segments.  This memo provides information for the Internet
+    vital information-carrying segments. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9375
 title:
 - content: A YANG Data Model for Network and VPN Service Performance Monitoring
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>The data model for network topologies defined in RFC 8345 introduces
     vertical layering relationships between networks that can be augmented to cover
-    network and service topologies.  This document defines a YANG module for performance
+    network and service topologies. This document defines a YANG module for performance
     monitoring (PM) of both underlay networks and overlay VPN services that can be
     used to monitor and manage network performance on the topology of both layers.</p>"
   language:
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

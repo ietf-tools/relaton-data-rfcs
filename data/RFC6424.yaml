@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6424
 title:
 - content: Mechanism for Performing Label Switched Path Ping (LSP Ping) over MPLS
@@ -126,9 +126,9 @@ script:
 abstract:
 - content: "<p>This document describes methods for performing LSP ping (specified
     in RFC 4379) traceroute over MPLS tunnels and for traceroute of stitched MPLS
-    Label Switched Paths (LSPs).  The techniques outlined in RFC 4379 are insufficient
+    Label Switched Paths (LSPs). The techniques outlined in RFC 4379 are insufficient
     to perform traceroute Forwarding Equivalency Class (FEC) validation and path discovery
-    for an LSP that goes over other MPLS tunnels or for a stitched LSP.  This document
+    for an LSP that goes over other MPLS tunnels or for a stitched LSP. This document
     deprecates the Downstream Mapping TLV (defined in RFC 4379) in favor of a new
     TLV that, along with other procedures outlined in this document, can be used to
     trace such LSPs. [STANDARDS-TRACK]</p>"
@@ -159,6 +159,10 @@ relation:
       content: RFC4379
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

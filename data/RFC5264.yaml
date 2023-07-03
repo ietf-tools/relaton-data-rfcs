@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5264
 title:
 - content: Publication of Partial Presence Information
@@ -125,21 +125,25 @@ script:
 abstract:
 - content: "<p>The Session Initiation Protocol (SIP) Extension for Event State Publication
     describes a mechanism with which a presence user agent is able to publish presence
-    information to a presence agent.  Using the Presence Information Data Format (PIDF),
+    information to a presence agent. Using the Presence Information Data Format (PIDF),
     each presence publication contains full state, regardless of how much of that
-    information has actually changed since the previous update.  As a consequence,
+    information has actually changed since the previous update. As a consequence,
     updating a sizeable presence document with small changes bears a considerable
-    overhead and is therefore inefficient.  Especially with low bandwidth and high
-    latency links, this can constitute a considerable burden to the system.  This
-    memo defines a solution that aids in reducing the impact of those constraints
-    and increases transport efficiency by introducing a mechanism that allows for
-    publication of partial presence information. [STANDARDS-TRACK]</p>"
+    overhead and is therefore inefficient. Especially with low bandwidth and high
+    latency links, this can constitute a considerable burden to the system. This memo
+    defines a solution that aids in reducing the impact of those constraints and increases
+    transport efficiency by introducing a mechanism that allows for publication of
+    partial presence information. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

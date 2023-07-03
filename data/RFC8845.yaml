@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8845
 title:
 - content: Framework for Telepresence Multi-Streams
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a framework for a protocol to enable devices
-    in a telepresence conference to interoperate.  The protocol enables communication
+    in a telepresence conference to interoperate. The protocol enables communication
     of information about multiple media streams so a sending system and receiving
     system can make reasonable decisions about transmitting, selecting, and rendering
-    the media streams.  This protocol is used in addition to SIP signaling and Session
+    the media streams. This protocol is used in addition to SIP signaling and Session
     Description Protocol (SDP) negotiation for setting up a telepresence session.</p>"
   language:
   - en
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

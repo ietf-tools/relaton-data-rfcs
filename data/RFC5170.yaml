@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5170
 title:
 - content: Low Density Parity Check (LDPC) Staircase and Triangle Forward Error Correction
@@ -128,15 +128,19 @@ abstract:
     (FEC) Schemes, Low Density Parity Check (LDPC) Staircase and LDPC Triangle, and
     their application to the reliable delivery of data objects on the packet erasure
     channel (i.e., a communication path where packets are either received without
-    any corruption or discarded during transmission).  These systematic FEC codes
-    belong to the well- known class of "Low Density Parity Check" codes, and are large
-    block FEC codes in the sense of RFC 3453. [STANDARDS-TRACK]</p>
+    any corruption or discarded during transmission). These systematic FEC codes belong
+    to the well- known class of "Low Density Parity Check" codes, and are large block
+    FEC codes in the sense of RFC 3453. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

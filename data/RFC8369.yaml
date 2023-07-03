@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8369
 title:
 - content: Internationalizing IPv6 Using 128-Bit Unicode
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: "<p>It is clear that Unicode will eventually exhaust its supply of code
-    points, and more will be needed.  Assuming ISO and the Unicode Consortium follow
+    points, and more will be needed. Assuming ISO and the Unicode Consortium follow
     the practices of the IETF, the next Unicode code point size will be 128 bits.
-    \ This document describes how this future 128-bit Unicode can be leveraged to
-    improve IPv6 adoption and finally bring internationalization support to IPv6.</p>"
+    This document describes how this future 128-bit Unicode can be leveraged to improve
+    IPv6 adoption and finally bring internationalization support to IPv6.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

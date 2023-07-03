@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7112
 title:
 - content: Implications of Oversized IPv6 Header Chains
@@ -124,13 +124,13 @@ script:
 - Latn
 abstract:
 - content: "<p>The IPv6 specification allows IPv6 Header Chains of an arbitrary size.
-    \ The specification also allows options that can, in turn, extend each of the
-    headers.  In those scenarios in which the IPv6 Header Chain or options are unusually
-    long and packets are fragmented, or scenarios in which the fragment size is very
-    small, the First Fragment of a packet may fail to include the entire IPv6 Header
-    Chain.  This document discusses the interoperability and security problems of
-    such traffic, and updates RFC 2460 such that the First Fragment of a packet is
-    required to contain the entire IPv6 Header Chain.</p>"
+    The specification also allows options that can, in turn, extend each of the headers.
+    In those scenarios in which the IPv6 Header Chain or options are unusually long
+    and packets are fragmented, or scenarios in which the fragment size is very small,
+    the First Fragment of a packet may fail to include the entire IPv6 Header Chain.
+    This document discusses the interoperability and security problems of such traffic,
+    and updates RFC 2460 such that the First Fragment of a packet is required to contain
+    the entire IPv6 Header Chain.</p>"
   language:
   - en
   script:
@@ -148,6 +148,10 @@ relation:
       content: RFC2460
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

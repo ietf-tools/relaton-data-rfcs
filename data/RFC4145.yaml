@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4145
 title:
 - content: TCP-Based Media Transport in the Session Description Protocol (SDP)
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how to express media transport over TCP using
-    the Session Description Protocol (SDP).  It defines the SDP 'TCP' protocol identifier,
+    the Session Description Protocol (SDP). It defines the SDP 'TCP' protocol identifier,
     the SDP 'setup' attribute, which describes the connection setup procedure, and
     the SDP 'connection' attribute, which handles connection reestablishment. [STANDARDS-TRACK]</p>"
   language:
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

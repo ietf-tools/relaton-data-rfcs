@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7400
 title:
 - content: '6LoWPAN-GHC: Generic Header Compression for IPv6 over Low-Power Wireless
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: <p>RFC 6282 defines header compression in 6LoWPAN packets (where "6LoWPAN"
-    refers to "IPv6 over Low-Power Wireless Personal Area Network").  The present
-    document specifies a simple addition that enables the compression of generic headers
-    and header-like payloads, without a need to define a new header compression scheme
+    refers to "IPv6 over Low-Power Wireless Personal Area Network"). The present document
+    specifies a simple addition that enables the compression of generic headers and
+    header-like payloads, without a need to define a new header compression scheme
     for each such new header or header-like payload.</p>
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

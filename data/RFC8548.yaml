@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8548
 title:
 - content: Cryptographic Protection of TCP Streams (tcpcrypt)
@@ -211,14 +211,14 @@ script:
 - Latn
 abstract:
 - content: <p>This document specifies "tcpcrypt", a TCP encryption protocol designed
-    for use in conjunction with the TCP Encryption Negotiation Option (TCP-ENO).  Tcpcrypt
+    for use in conjunction with the TCP Encryption Negotiation Option (TCP-ENO). Tcpcrypt
     coexists with middleboxes by tolerating resegmentation, NATs, and other manipulations
-    of the TCP header.  The protocol is self-contained and specifically tailored to
+    of the TCP header. The protocol is self-contained and specifically tailored to
     TCP implementations, which often reside in kernels or other environments in which
-    large external software dependencies can be undesirable.  Because the size of
-    TCP options is limited, the protocol requires one additional one-way message latency
-    to perform key exchange before application data can be transmitted.  However,
-    the extra latency can be avoided between two hosts that have recently established
+    large external software dependencies can be undesirable. Because the size of TCP
+    options is limited, the protocol requires one additional one-way message latency
+    to perform key exchange before application data can be transmitted. However, the
+    extra latency can be avoided between two hosts that have recently established
     a previous tcpcrypt connection.</p>
   language:
   - en
@@ -226,6 +226,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

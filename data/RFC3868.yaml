@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3868
 title:
 - content: Signalling Connection Control Part User Adaptation Layer (SUA)
@@ -212,7 +212,7 @@ script:
 abstract:
 - content: "<p>This document defines a protocol for the transport of any Signalling
     Connection Control Part-User signalling over IP using the Stream Control Transmission
-    Protocol.  The protocol is designed to be modular and symmetric, to allow it to
+    Protocol. The protocol is designed to be modular and symmetric, to allow it to
     work in diverse architectures, such as a Signalling Gateway to IP Signalling Endpoint
     architecture as well as a peer-to-peer IP Signalling Endpoint architecture. [STANDARDS-TRACK]</p>"
   language:
@@ -221,6 +221,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

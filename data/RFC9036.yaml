@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9036
 title:
 - content: Changing the Location-to-Service Translation (LoST) Location Profiles Registry
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: <p>This document changes the policy of the "Location-to-Service Translation
     (LoST) Location Profiles" IANA registry established by RFC 5222 from Standards
-    Action to Specification Required.  This allows standards development organizations
+    Action to Specification Required. This allows standards development organizations
     (SDOs) other than the IETF to add new values.</p>
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC5222
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

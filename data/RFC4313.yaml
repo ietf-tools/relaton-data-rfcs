@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4313
 title:
 - content: Requirements for Distributed Control of Automatic Speech Recognition (ASR),
@@ -68,20 +68,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document outlines the needs and requirements for a protocol to
-    control distributed speech processing of audio streams.  By speech processing,
+    control distributed speech processing of audio streams. By speech processing,
     this document specifically means automatic speech recognition (ASR), speaker recognition
     -- which includes both speaker identification (SI) and speaker verification (SV)
-    -- and text-to-speech (TTS).  Other IETF protocols, such as SIP and Real Time
-    Streaming Protocol (RTSP), address rendezvous and control for generalized media
-    streams.  However, speech processing presents additional requirements that none
-    of the extant IETF protocols address.  This memo provides information for the
-    Internet community.</p>"
+    -- and text-to-speech (TTS). Other IETF protocols, such as SIP and Real Time Streaming
+    Protocol (RTSP), address rendezvous and control for generalized media streams.
+    However, speech processing presents additional requirements that none of the extant
+    IETF protocols address. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

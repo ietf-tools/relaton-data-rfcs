@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6912
 title:
 - content: Principles for Unicode Code Point Inclusion in Labels in the DNS
@@ -153,20 +153,24 @@ script:
 - Latn
 abstract:
 - content: "<p>Internationalized Domain Names in Applications (IDNA) makes available
-    to DNS zone administrators a very wide range of Unicode code points.  Most operators
+    to DNS zone administrators a very wide range of Unicode code points. Most operators
     of zones should probably not permit registration of U-labels using the entire
-    range.  This is especially true of zones that accept registrations across organizational
-    boundaries, such as top-level domains and, most importantly, the root.  It is
-    unfortunately not possible to generate algorithms to determine whether permitting
-    a code point presents a low risk.  This memo presents a set of principles that
-    can be used to guide the decision of whether a Unicode code point may be wisely
-    included in the repertoire of permissible code points in a U-label in a zone.</p>"
+    range. This is especially true of zones that accept registrations across organizational
+    boundaries, such as top-level domains and, most importantly, the root. It is unfortunately
+    not possible to generate algorithms to determine whether permitting a code point
+    presents a low risk. This memo presents a set of principles that can be used to
+    guide the decision of whether a Unicode code point may be wisely included in the
+    repertoire of permissible code points in a U-label in a zone.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5738
 title:
 - content: IMAP Support for UTF-8
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This specification extends the Internet Message Access Protocol version
     4rev1 (IMAP4rev1) to support UTF-8 encoded international characters in user names,
-    mail addresses, and message headers.  This document defines an Experimental Protocol
+    mail addresses, and message headers. This document defines an Experimental Protocol
     for the Internet community.</p>"
   language:
   - en
@@ -125,6 +125,10 @@ relation:
       content: RFC3501
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

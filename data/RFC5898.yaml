@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5898
 title:
 - content: Connectivity Preconditions for Session Description Protocol (SDP) Media
@@ -154,12 +154,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a new connectivity precondition for the Session
-    Description Protocol (SDP) precondition framework.  A connectivity precondition
+    Description Protocol (SDP) precondition framework. A connectivity precondition
     can be used to delay session establishment or modification until media stream
-    connectivity has been successfully verified.  The method of verification may vary
-    depending on the type of transport used for the media.  For unreliable datagram
+    connectivity has been successfully verified. The method of verification may vary
+    depending on the type of transport used for the media. For unreliable datagram
     transports such as UDP, verification involves probing the stream with data or
-    control packets.  For reliable connection-oriented transports such as TCP, verification
+    control packets. For reliable connection-oriented transports such as TCP, verification
     can be achieved simply by successful connection establishment or by probing the
     connection with data or control packets, depending on the situation. [STANDARDS-TRACK]</p>"
   language:
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

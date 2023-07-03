@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6233
 title:
 - content: IS-IS Registry Extension for Purges
@@ -94,13 +94,13 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>IANA maintains the "IS-IS TLV Codepoints" registry.  This registry documents
+- content: <p>IANA maintains the "IS-IS TLV Codepoints" registry. This registry documents
     which TLVs can appear in different types of IS-IS Protocol Data Units (PDUs),
     but does not document which TLVs can be found in zero Remaining Lifetime Link
-    State PDUs (LSPs), a.k.a.  purges.  This document extends the existing registry
+    State PDUs (LSPs), a.k.a. purges. This document extends the existing registry
     to record the set of TLVs that are permissible in purges and updates the rules
-    for generating and processing purges in the presence of authentication.  This
-    document updates RFC 3563, RFC 5304, and RFC 5310. [STANDARDS-TRACK]</p>
+    for generating and processing purges in the presence of authentication. This document
+    updates RFC 3563, RFC 5304, and RFC 5310. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -138,6 +138,10 @@ relation:
       content: RFC5310
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

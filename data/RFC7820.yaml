@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7820
 title:
 - content: UDP Checksum Complement in the One-Way Active Measurement Protocol (OWAMP)
@@ -68,21 +68,25 @@ script:
 abstract:
 - content: "<p>The One-Way Active Measurement Protocol (OWAMP) and the Two-Way Active
     Measurement Protocol (TWAMP) are used for performance monitoring in IP networks.
-    \ Delay measurement is performed in these protocols by using timestamped test
-    packets.  Some implementations use hardware-based timestamping engines that integrate
-    the accurate transmission time into every outgoing OWAMP/TWAMP test packet during
-    transmission.  Since these packets are transported over UDP, the UDP Checksum
-    field is then updated to reflect this modification.  This document proposes to
-    use the last 2 octets of every test packet as a Checksum Complement, allowing
-    timestamping engines to reflect the checksum modification in the last 2 octets
-    rather than in the UDP Checksum field.  The behavior defined in this document
-    is completely interoperable with existing OWAMP/TWAMP implementations.</p>"
+    Delay measurement is performed in these protocols by using timestamped test packets.
+    Some implementations use hardware-based timestamping engines that integrate the
+    accurate transmission time into every outgoing OWAMP/TWAMP test packet during
+    transmission. Since these packets are transported over UDP, the UDP Checksum field
+    is then updated to reflect this modification. This document proposes to use the
+    last 2 octets of every test packet as a Checksum Complement, allowing timestamping
+    engines to reflect the checksum modification in the last 2 octets rather than
+    in the UDP Checksum field. The behavior defined in this document is completely
+    interoperable with existing OWAMP/TWAMP implementations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

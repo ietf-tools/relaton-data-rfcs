@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6249
 title:
 - content: 'Metalink/HTTP: Mirrors and Hashes'
@@ -183,18 +183,22 @@ script:
 abstract:
 - content: "<p>This document specifies Metalink/HTTP: Mirrors and Cryptographic Hashes
     in HTTP header fields, a different way to get information that is usually contained
-    in the Metalink XML-based download description format.  Metalink/HTTP describes
+    in the Metalink XML-based download description format. Metalink/HTTP describes
     multiple download locations (mirrors), Peer-to-Peer, cryptographic hashes, digital
     signatures, and other information using existing standards for HTTP header fields.
-    \ Metalink clients can use this information to make file transfers more robust
-    and reliable.  Normative requirements for Metalink/HTTP clients and servers are
-    described here. [STANDARDS-TRACK]</p>"
+    Metalink clients can use this information to make file transfers more robust and
+    reliable. Normative requirements for Metalink/HTTP clients and servers are described
+    here. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

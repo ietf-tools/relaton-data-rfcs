@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4595
 title:
 - content: Use of IKEv2 in the Fibre Channel Security Association Management Protocol
@@ -96,11 +96,11 @@ script:
 abstract:
 - content: "<p>This document describes the use of IKEv2 to negotiate security protocols
     and transforms for Fibre Channel as part of the Fibre Channel Security Association
-    Management Protocol.  This usage requires that IKEv2 be extended with Fibre-Channel-specific
-    security protocols, transforms, and name types.  This document specifies these
-    IKEv2 extensions and allocates identifiers for them.  Using new IKEv2 identifiers
+    Management Protocol. This usage requires that IKEv2 be extended with Fibre-Channel-specific
+    security protocols, transforms, and name types. This document specifies these
+    IKEv2 extensions and allocates identifiers for them. Using new IKEv2 identifiers
     for Fibre Channel security protocols avoids any possible confusion between IKEv2
-    negotiation for IP networks and IKEv2 negotiation for Fibre Channel.  This memo
+    negotiation for IP networks and IKEv2 negotiation for Fibre Channel. This memo
     provides information for the Internet community.</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

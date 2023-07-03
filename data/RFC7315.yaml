@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7315
 title:
 - content: Private Header (P-Header) Extensions to the Session Initiation Protocol
@@ -126,9 +126,9 @@ script:
 abstract:
 - content: "<p>This document describes a set of private header (P-header) Session
     Initiation Protocol (SIP) fields used by the 3GPP, along with their applicability,
-    which is limited to particular environments.  The P-header fields are used for
+    which is limited to particular environments. The P-header fields are used for
     a variety of purposes within the networks that the partners implement, including
-    charging and information about the networks a call traverses.  This document obsoletes
+    charging and information about the networks a call traverses. This document obsoletes
     RFC 3455.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5590
 title:
 - content: Transport Subsystem for the Simple Network Management Protocol (SNMP)
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Transport Subsystem, extending the Simple Network
-    Management Protocol (SNMP) architecture defined in RFC 3411.  This document defines
+    Management Protocol (SNMP) architecture defined in RFC 3411. This document defines
     a subsystem to contain Transport Models that is comparable to other subsystems
-    in the RFC 3411 architecture.  As work is being done to expand the transports
-    to include secure transports, such as the Secure Shell (SSH) Protocol and Transport
+    in the RFC 3411 architecture. As work is being done to expand the transports to
+    include secure transports, such as the Secure Shell (SSH) Protocol and Transport
     Layer Security (TLS), using a subsystem will enable consistent design and modularity
-    of such Transport Models.  This document identifies and describes some key aspects
+    of such Transport Models. This document identifies and describes some key aspects
     that need to be considered for any Transport Model for SNMP. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -153,6 +153,10 @@ series:
     content: STD
     format: text/plain
   number: '78'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

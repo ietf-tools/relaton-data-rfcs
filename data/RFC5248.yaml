@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5248
 title:
 - content: A Registry for SMTP Enhanced Mail System Status Codes
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The specification for enhanced mail system status codes, RFC 3463,
-    establishes a new code model and lists a collection of status codes.  While it
+    establishes a new code model and lists a collection of status codes. While it
     anticipated that more codes would be added over time, it did not provide an explicit
-    mechanism for registering and tracking those codes.  This document specifies an
+    mechanism for registering and tracking those codes. This document specifies an
     IANA registry for mail system enhanced status codes, and initializes that registry
     with the codes so far established in published standards-track documents, as well
-    as other codes that have become established in the industry.  This document specifies
+    as other codes that have become established in the industry. This document specifies
     an Internet Best Current Practices for the Internet Community, and requests discussion
     and suggestions for improvements.</p>"
   language:
@@ -144,6 +144,10 @@ series:
     content: BCP
     format: text/plain
   number: '138'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

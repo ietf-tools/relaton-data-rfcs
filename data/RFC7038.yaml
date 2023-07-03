@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7038
 title:
 - content: Use of OSPF-MDR in Single-Hop Broadcast Networks
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>RFC 5614 (OSPF-MDR) extends OSPF to support mobile ad hoc networks
     (MANETs) by specifying its operation on the new OSPF interface of type MANET.
-    \ This document describes the use of OSPF-MDR (MANET Designated Router) in a single-hop
+    This document describes the use of OSPF-MDR (MANET Designated Router) in a single-hop
     broadcast network, which is a special case of a MANET in which each router is
-    a (one-hop) neighbor of each other router.  Unlike an OSPF broadcast interface,
-    such an interface can have a different cost associated with each neighbor.  The
+    a (one-hop) neighbor of each other router. Unlike an OSPF broadcast interface,
+    such an interface can have a different cost associated with each neighbor. The
     document includes configuration recommendations and simplified mechanisms that
     can be used in single-hop broadcast networks.</p>"
   language:
@@ -90,6 +90,10 @@ relation:
       content: RFC5614
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8434
 title:
 - content: Requirements for Parallel NFS (pNFS) Layout Types
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This document defines the requirements that individual Parallel NFS
     (pNFS) layout types need to meet in order to work within the pNFS framework as
-    defined in RFC 5661.  In so doing, this document aims to clearly distinguish between
+    defined in RFC 5661. In so doing, this document aims to clearly distinguish between
     requirements for pNFS as a whole and those specifically directed to the pNFS file
-    layout.  The lack of a clear separation between the two sets of requirements has
-    been troublesome for those specifying and evaluating new layout types.  In this
+    layout. The lack of a clear separation between the two sets of requirements has
+    been troublesome for those specifying and evaluating new layout types. In this
     regard, this document updates RFC 5661.</p>"
   language:
   - en
@@ -89,6 +89,10 @@ relation:
       content: RFC5661
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

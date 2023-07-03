@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1132
 title:
 - content: Standard for the transmission of 802.2 packets over IPX networks
@@ -71,9 +71,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a standard method of encapsulating 802.2 packets
-    on networks supporting Novell's Internet Packet Exchange Protocol (IPX).  It obsoletes
+    on networks supporting Novell's Internet Packet Exchange Protocol (IPX). It obsoletes
     earlier documents detailing the transmission of Internet packets over IPX networks.
-    \ It differs from these earlier documents in that it allows for the transmission
+    It differs from these earlier documents in that it allows for the transmission
     of multiple network protocols over IPX and for the transmission of packets through
     IPX bridges.</p>"
   language:
@@ -86,6 +86,10 @@ series:
     content: STD
     format: text/plain
   number: '49'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

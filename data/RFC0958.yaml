@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC958
 title:
 - content: Network Time Protocol (NTP)
@@ -72,11 +72,10 @@ script:
 abstract:
 - content: "<p>This document describes the Network Time Protocol (NTP), a protocol
     for synchronizing a set of network clocks using a set of distributed clients and
-    servers.  NTP is built on the User Datagram Protocol (UDP), which provides a connectionless
-    transport mechanism.  It is evolved from the Time Protocol and the ICMP Timestamp
-    message and is a suitable replacement for both.  This RFC suggests a proposed
-    protocol for the ARPA-Internet community, and requests discussion and suggestions
-    for improvements.</p>"
+    servers. NTP is built on the User Datagram Protocol (UDP), which provides a connectionless
+    transport mechanism. It is evolved from the Time Protocol and the ICMP Timestamp
+    message and is a suitable replacement for both. This RFC suggests a proposed protocol
+    for the ARPA-Internet community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -114,6 +113,10 @@ relation:
       content: RFC1305
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

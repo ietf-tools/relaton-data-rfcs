@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8457
 title:
 - content: IMAP "$Important" Keyword and "\Important" Special-Use Attribute
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: <p>RFC 6154 created an IMAP special-use LIST extension and defined an initial
-    set of attributes.  This document defines a new attribute, "\Important", and establishes
+    set of attributes. This document defines a new attribute, "\Important", and establishes
     a new IANA registry for IMAP folder attributes, which include the attributes defined
-    in RFCs 5258, 3501, and 6154.  This document also defines a new IMAP keyword,
-    "$Important", and registers it in the registry defined in RFC 5788.</p>
+    in RFCs 5258, 3501, and 6154. This document also defines a new IMAP keyword, "$Important",
+    and registers it in the registry defined in RFC 5788.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

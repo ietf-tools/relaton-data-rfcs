@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6284
 title:
 - content: Port Mapping between Unicast and Multicast RTP Sessions
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document presents a port mapping solution that allows RTP receivers
     to choose their own ports for an auxiliary unicast session in RTP applications
-    using both unicast and multicast services.  The solution provides protection against
+    using both unicast and multicast services. The solution provides protection against
     denial-of-service or packet amplification attacks that could be used to cause
     one or more RTP packets to be sent to a victim client. [STANDARDS-TRACK]</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

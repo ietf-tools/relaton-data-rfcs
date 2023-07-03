@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7525
 title:
 - content: Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram
@@ -126,10 +126,10 @@ script:
 abstract:
 - content: "<p>Transport Layer Security (TLS) and Datagram Transport Layer Security
     (DTLS) are widely used to protect data exchanged over application protocols such
-    as HTTP, SMTP, IMAP, POP, SIP, and XMPP.  Over the last few years, several serious
+    as HTTP, SMTP, IMAP, POP, SIP, and XMPP. Over the last few years, several serious
     attacks on TLS have emerged, including attacks on its most commonly used cipher
-    suites and their modes of operation.  This document provides recommendations for
-    improving the security of deployed services that use TLS and DTLS.  The recommendations
+    suites and their modes of operation. This document provides recommendations for
+    improving the security of deployed services that use TLS and DTLS. The recommendations
     are applicable to the majority of use cases.</p>"
   language:
   - en
@@ -148,6 +148,10 @@ relation:
       content: RFC9325
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

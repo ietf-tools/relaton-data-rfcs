@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7156
 title:
 - content: Diameter Support for Proxy Mobile IPv6 Localized Routing
@@ -125,12 +125,12 @@ script:
 abstract:
 - content: <p>In Proxy Mobile IPv6, packets received from a Mobile Node (MN) by the
     Mobile Access Gateway (MAG) to which it is attached are typically tunneled to
-    a Local Mobility Anchor (LMA) for routing.  The term "localized routing" refers
+    a Local Mobility Anchor (LMA) for routing. The term "localized routing" refers
     to a method by which packets are routed directly between an MN's MAG and the MAG
-    of its Correspondent Node (CN) without involving any LMA.  In a Proxy Mobile IPv6
+    of its Correspondent Node (CN) without involving any LMA. In a Proxy Mobile IPv6
     deployment, it may be desirable to control the establishment of localized routing
     sessions between two MAGs in a Proxy Mobile IPv6 domain by requiring that the
-    session be authorized.  This document specifies how to accomplish this using the
+    session be authorized. This document specifies how to accomplish this using the
     Diameter protocol.</p>
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

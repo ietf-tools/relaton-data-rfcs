@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1948
 title:
 - content: Defending Against Sequence Number Attacks
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>IP spoofing attacks based on sequence number spoofing have become a
-    serious threat on the Internet (CERT Advisory CA-95:01).  While ubiquitous crypgraphic
+    serious threat on the Internet (CERT Advisory CA-95:01). While ubiquitous crypgraphic
     authentication is the right answer, we propose a simple modification to TCP implementations
-    that should be a very substantial block to the current wave of attacks.  This
-    memo provides information for the Internet community.  This memo does not specify
-    an Internet standard of any kind.</p>"
+    that should be a very substantial block to the current wave of attacks. This memo
+    provides information for the Internet community. This memo does not specify an
+    Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC6528
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6611
 title:
 - content: Mobile IPv6 (MIPv6) Bootstrapping for the Integrated Scenario
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Mobile IPv6 bootstrapping can be categorized into two primary scenarios:
-    the split scenario and the integrated scenario.  In the split scenario, the mobile
+    the split scenario and the integrated scenario. In the split scenario, the mobile
     node's mobility service is authorized by a different service authorizer than the
-    network access authorizer.  In the integrated scenario, the mobile node's mobility
+    network access authorizer. In the integrated scenario, the mobile node's mobility
     service is authorized by the same service authorizer as the network access service
-    authorizer.  This document defines a method for home agent information discovery
+    authorizer. This document defines a method for home agent information discovery
     for the integrated scenario. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

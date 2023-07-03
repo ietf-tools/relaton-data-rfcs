@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4454
 title:
 - content: Asynchronous Transfer Mode (ATM) over Layer 2 Tunneling Protocol Version
@@ -125,7 +125,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The Layer 2 Tunneling Protocol, Version 3 (L2TPv3) defines an extensible
-    tunneling protocol to transport layer 2 services over IP networks.  This document
+    tunneling protocol to transport layer 2 services over IP networks. This document
     describes the specifics of how to use the L2TP control plane for Asynchronous
     Transfer Mode (ATM) Pseudowires and provides guidelines for transporting various
     ATM services over an IP network. [STANDARDS-TRACK]</p>"
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1333
 title:
 - content: PPP Link Quality Monitoring
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The Point-to-Point Protocol (PPP) [1] provides a standard method of
-    encapsulating Network Layer protocol information over point-to-point links.  PPP
+    encapsulating Network Layer protocol information over point-to-point links. PPP
     also defines an extensible Link Control Protocol, which allows negotiation of
     a Quality Protocol for continuous monitoring of the viability of the link. [STANDARDS-TRACK]</p>"
   language:
@@ -86,6 +86,10 @@ relation:
       content: RFC1989
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

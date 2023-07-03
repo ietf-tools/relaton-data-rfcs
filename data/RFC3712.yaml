@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3712
 title:
 - content: 'Lightweight Directory Access Protocol (LDAP): Schema for Printer Services'
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>This document defines a schema, object classes and attributes, for
     printers and printer services, for use with directories that support Lightweight
-    Directory Access Protocol v3 (LDAP-TS).  This document is based on the printer
+    Directory Access Protocol v3 (LDAP-TS). This document is based on the printer
     attributes listed in Appendix E of Internet Printing Protocol/1.1 (IPP) (RFC 2911).
-    \ A few additional printer attributes are based on definitions in the Printer
-    MIB (RFC 1759).  This memo provides information for the Internet community.</p>"
+    A few additional printer attributes are based on definitions in the Printer MIB
+    (RFC 1759). This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -117,6 +117,10 @@ relation:
       content: RFC7612
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

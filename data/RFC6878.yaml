@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6878
 title:
 - content: IANA Registry for the Session Initiation Protocol (SIP) "Priority" Header
@@ -72,7 +72,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines a new IANA registry to keep track of the values
-    defined for the Session Initiation Protocol (SIP) "Priority" header field.  It
+    defined for the Session Initiation Protocol (SIP) "Priority" header field. It
     updates RFC 3261.</p>
   language:
   - en
@@ -91,6 +91,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1672
 title:
 - content: Accounting Requirements for IPng
@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This white paper discusses accounting requirements for IPng.  It recommends
-    that all IPng packets carry accounting tags, which would vary in size.  This memo
-    provides information for the Internet community.  This memo does not specify an
+- content: "<p>This white paper discusses accounting requirements for IPng. It recommends
+    that all IPng packets carry accounting tags, which would vary in size. This memo
+    provides information for the Internet community. This memo does not specify an
     Internet standard of any kind.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1029
 title:
 - content: More fault tolerant approach to address resolution for a Multi-LAN system
@@ -68,9 +68,9 @@ script:
 abstract:
 - content: "<p>This memo discusses an extension to a Bridge Protocol to detect and
     disclose changes in heighbouring host address parameters in a Multi-Lan system
-    of Ethernets.  The problem is one which is appearing more and more regularly as
+    of Ethernets. The problem is one which is appearing more and more regularly as
     the interconnected systems grow larger on Campuses and in Commercial Institutions.
-    \ This RFC suggests a protocol enhancement for the Internet community, and requests
+    This RFC suggests a protocol enhancement for the Internet community, and requests
     discussion and suggestions for improvements.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

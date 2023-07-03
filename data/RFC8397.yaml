@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8397
 title:
 - content: Transparent Interconnection of Lots of Links (TRILL) Multilevel Using Unique
@@ -184,17 +184,21 @@ script:
 abstract:
 - content: "<p>TRILL (Transparent Interconnection of Lots of Links) routing can be
     extended to support multiple levels by building on the multilevel feature of IS-IS
-    routing.  Depending on how nicknames are managed, there are two primary alternatives
+    routing. Depending on how nicknames are managed, there are two primary alternatives
     to realize TRILL multilevel: the unique nickname approach and the aggregated nickname
-    approach as discussed in RFC 8243.  This document specifies a unique nickname
-    approach.  This approach gives unique nicknames to all TRILL switches across the
-    multilevel TRILL campus.</p>"
+    approach as discussed in RFC 8243. This document specifies a unique nickname approach.
+    This approach gives unique nicknames to all TRILL switches across the multilevel
+    TRILL campus.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

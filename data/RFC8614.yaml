@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8614
 title:
 - content: Updated Processing of Control Flags for BGP Virtual Private LAN Service
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: <p>This document updates the meaning of the Control Flags field in the
     "Layer2 Info Extended Community" used for BGP Virtual Private LAN Service (VPLS)
-    Network Layer Reachability Information (NLRI) as defined in RFC 4761.  This document
+    Network Layer Reachability Information (NLRI) as defined in RFC 4761. This document
     updates RFC 4761.</p>
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC4761
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

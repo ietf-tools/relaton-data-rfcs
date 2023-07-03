@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9187
 title:
 - content: Sequence Number Extension for Windowed Protocols
@@ -66,19 +66,22 @@ script:
 - Latn
 abstract:
 - content: "<p>Sliding window protocols use finite sequence numbers to determine segment
-    placement and order.  These sequence number spaces wrap around and are reused
-    during the operation of such protocols.  This document describes a way to extend
-    the size of these sequence numbers at the endpoints to avoid the impact of that
-    wrap and reuse without transmitting additional information in the packet header.
-    \ The resulting extended sequence numbers can be used at the endpoints in encryption
-    and authentication algorithms to ensure input bit patterns do not repeat over
-    the lifetime of a connection.</p>"
+    placement and order. These sequence number spaces wrap around and are reused during
+    the operation of such protocols. This document describes a way to extend the size
+    of these sequence numbers at the endpoints to avoid the impact of that wrap and
+    reuse without transmitting additional information in the packet header. The resulting
+    extended sequence numbers can be used at the endpoints in encryption and authentication
+    algorithms to ensure input bit patterns do not repeat over the lifetime of a connection.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

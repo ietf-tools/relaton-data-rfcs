@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5049
 title:
 - content: Applying Signaling Compression (SigComp) to the Session Initiation Protocol
@@ -156,7 +156,7 @@ abstract:
 - content: "<p>This document describes some specifics that apply when Signaling Compression
     (SigComp) is applied to the Session Initiation Protocol (SIP), such as default
     minimum values of SigComp parameters, compartment and state management, and a
-    few issues on SigComp over TCP.  Any implementation of SigComp for use with SIP
+    few issues on SigComp over TCP. Any implementation of SigComp for use with SIP
     must conform to this document and SigComp, and in addition, support the SIP and
     Session Description Protocol (SDP) static dictionary. [STANDARDS-TRACK]</p>"
   language:
@@ -176,6 +176,10 @@ relation:
       content: RFC3486
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC957
 title:
 - content: Experiments in network clock synchronization
@@ -72,12 +72,12 @@ script:
 abstract:
 - content: "<p>This RFC discusses some experiments in clock synchronization in the
     ARPA-Internet community, and requests discussion and suggestions for improvements.
-    \ One of the services frequently neglected in computer network design is a high-quality,
+    One of the services frequently neglected in computer network design is a high-quality,
     time-of-day clock capable of generating accurate timestamps with small errors
-    compared to one-way network delays.  Such a service would be useful for tracing
+    compared to one-way network delays. Such a service would be useful for tracing
     the progress of complex transactions, synchronizing cached data bases, monitoring
-    network performance and isolating problems.  In this memo one such clock service
-    design will be described and its performance assessed.  This design has been incorporated
+    network performance and isolating problems. In this memo one such clock service
+    design will be described and its performance assessed. This design has been incorporated
     as an integral part of the network routing and control protocols of the Distributed
     Computer Network (DCnet) architecture.</p>"
   language:
@@ -86,6 +86,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

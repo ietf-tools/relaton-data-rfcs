@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6154
 title:
 - content: IMAP LIST Extension for Special-Use Mailboxes
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Some IMAP message stores include special-use mailboxes, such as those
-    used to hold draft messages or sent messages.  Many mail clients allow users to
+    used to hold draft messages or sent messages. Many mail clients allow users to
     specify where draft or sent messages should be put, but configuring them requires
     that the user know which mailboxes the server has set aside for these purposes.
-    \ This extension adds new optional mailbox attributes that a server may include
+    This extension adds new optional mailbox attributes that a server may include
     in IMAP LIST command responses to identify special-use mailboxes to the client,
     easing configuration. [STANDARDS-TRACK]</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3723
 title:
 - content: Securing Block Storage Protocols over IP
@@ -183,17 +183,21 @@ script:
 abstract:
 - content: "<p>This document discusses how to secure block storage and storage discovery
     protocols running over IP (Internet Protocol) using IPsec and IKE (Internet Key
-    Exchange).  Threat models and security protocols are developed for iSCSI (Internet
+    Exchange). Threat models and security protocols are developed for iSCSI (Internet
     Protocol Small Computer System Interface), iFCP (Internet Fibre Channel Storage
     Networking) and FCIP (Fibre Channel over TCP/IP), as well as the iSNS (Internet
     Storage Name Server) and SLPv2 (Service Location Protocol v2) discovery protocols.
-    \ Performance issues and resource constraints are analyzed. [STANDARDS-TRACK]</p>"
+    Performance issues and resource constraints are analyzed. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8895
 title:
 - content: Application-Layer Traffic Optimization (ALTO) Incremental Updates Using
@@ -98,7 +98,7 @@ abstract:
 - content: "<p>The Application-Layer Traffic Optimization (ALTO) protocol (RFC 7285)
     provides network-related information, called network information resources, to
     client applications so that clients can make informed decisions in utilizing network
-    resources.  This document presents a mechanism to allow an ALTO server to push
+    resources. This document presents a mechanism to allow an ALTO server to push
     updates to ALTO clients to achieve two benefits: (1) updates can be incremental,
     in that if only a small section of an information resource changes, the ALTO server
     can send just the changes and (2) updates can be immediate, in that the ALTO server
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3876
 title:
 - content: Returning Matched Values with the Lightweight Directory Access Protocol
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: <p>This document describes a control for the Lightweight Directory Access
     Protocol version 3 that is used to return a subset of attribute values from an
-    entry.  Specifically, only those values that match a "values return" filter.  Without
+    entry. Specifically, only those values that match a "values return" filter. Without
     support for this control, a client must retrieve all of an attribute's values
     and search for specific values locally. [STANDARDS-TRACK]</p>
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

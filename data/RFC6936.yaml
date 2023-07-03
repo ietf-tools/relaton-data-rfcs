@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6936
 title:
 - content: Applicability Statement for the Use of IPv6 UDP Datagrams with Zero Checksums
@@ -95,20 +95,24 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides an applicability statement for the use of UDP
-    transport checksums with IPv6.  It defines recommendations and requirements for
-    the use of IPv6 UDP datagrams with a zero UDP checksum.  It describes the issues
+    transport checksums with IPv6. It defines recommendations and requirements for
+    the use of IPv6 UDP datagrams with a zero UDP checksum. It describes the issues
     and design principles that need to be considered when UDP is used with IPv6 to
     support tunnel encapsulations, and it examines the role of the IPv6 UDP transport
-    checksum.  The document also identifies issues and constraints for deployment
-    on network paths that include middleboxes.  An appendix presents a summary of
-    the trade-offs that were considered in evaluating the safety of the update to
-    RFC 2460 that changes the use of the UDP checksum with IPv6.</p>"
+    checksum. The document also identifies issues and constraints for deployment on
+    network paths that include middleboxes. An appendix presents a summary of the
+    trade-offs that were considered in evaluating the safety of the update to RFC
+    2460 that changes the use of the UDP checksum with IPv6.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

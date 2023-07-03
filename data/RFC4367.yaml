@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4367
 title:
 - content: 'What''s in a Name: False Assumptions about DNS Names'
@@ -73,24 +73,28 @@ script:
 - Latn
 abstract:
 - content: "<p>The Domain Name System (DNS) provides an essential service on the Internet,
-    mapping structured names to a variety of data, usually IP addresses.  These names
+    mapping structured names to a variety of data, usually IP addresses. These names
     appear in email addresses, Uniform Resource Identifiers (URIs), and other application-layer
-    identifiers that are often rendered to human users.  Because of this, there has
+    identifiers that are often rendered to human users. Because of this, there has
     been a strong demand to acquire names that have significance to people, through
     equivalence to registered trademarks, company names, types of services, and so
-    on.  There is a danger in this trend; the humans and automata that consume and
+    on. There is a danger in this trend; the humans and automata that consume and
     use such names will associate specific semantics with some names and thereby make
     assumptions about the services that are, or should be, provided by the hosts associated
-    with the names.  Those assumptions can often be false, resulting in a variety
-    of failure conditions.  This document discusses this problem in more detail and
-    makes recommendations on how it can be avoided.  This memo provides information
-    for the Internet community.</p>"
+    with the names. Those assumptions can often be false, resulting in a variety of
+    failure conditions. This document discusses this problem in more detail and makes
+    recommendations on how it can be avoided. This memo provides information for the
+    Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

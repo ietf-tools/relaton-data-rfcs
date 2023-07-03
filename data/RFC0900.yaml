@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC900
 title:
 - content: Assigned Numbers
@@ -101,8 +101,8 @@ script:
 abstract:
 - content: "<p>This RFC specifies parameter values use in the Internet family of protocols,
     such as network numbers, well known ports, protocol types, and version numbers.
-    \ This memo is an official status report on the protocol parameters used in the
-    Internet protocol system.  See RFC-990 and 997.</p>"
+    This memo is an official status report on the protocol parameters used in the
+    Internet protocol system. See RFC-990 and 997.</p>"
   language:
   - en
   script:
@@ -120,6 +120,10 @@ relation:
       content: RFC0923
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

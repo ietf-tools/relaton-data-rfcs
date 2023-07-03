@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC854
 title:
 - content: Telnet Protocol Specification
@@ -100,14 +100,14 @@ script:
 - Latn
 abstract:
 - content: <p>This is the specification of the Telnet protocol used for remote terminal
-    access in the ARPA Internet.  The purpose of the TELNET Protocol is to provide
-    a fairly general, bi-directional, eight-bit byte oriented communications facility.  Its
-    primary goal is to allow a standard method of interfacing terminal devices and
-    terminal-oriented processes to each other.  It is envisioned that the protocol
+    access in the ARPA Internet. The purpose of the TELNET Protocol is to provide
+    a fairly general, bi-directional, eight-bit byte oriented communications facility.
+    Its primary goal is to allow a standard method of interfacing terminal devices
+    and terminal-oriented processes to each other. It is envisioned that the protocol
     may also be used for terminal-terminal communication ("linking") and process-process
-    communication (distributed computation).  This RFC specifies a standard for the
-    ARPA Internet community.  Hosts on the ARPA Internet are expected to adopt and
-    implement this standard.  Obsoletes NIC 18639.</p>
+    communication (distributed computation). This RFC specifies a standard for the
+    ARPA Internet community. Hosts on the ARPA Internet are expected to adopt and
+    implement this standard. Obsoletes NIC 18639.</p>
   language:
   - en
   script:
@@ -118,6 +118,10 @@ series:
     content: STD
     format: text/plain
   number: '8'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

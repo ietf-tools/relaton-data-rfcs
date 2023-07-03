@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8831
 title:
 - content: WebRTC Data Channels
@@ -125,16 +125,20 @@ script:
 abstract:
 - content: "<p>The WebRTC framework specifies protocol support for direct, interactive,
     rich communication using audio, video, and data between two peers' web browsers.
-    \ This document specifies the non-media data transport aspects of the WebRTC framework.
-    \ It provides an architectural overview of how the Stream Control Transmission
-    Protocol (SCTP) is used in the WebRTC context as a generic transport service that
-    allows web browsers to exchange generic data from peer to peer.</p>"
+    This document specifies the non-media data transport aspects of the WebRTC framework.
+    It provides an architectural overview of how the Stream Control Transmission Protocol
+    (SCTP) is used in the WebRTC context as a generic transport service that allows
+    web browsers to exchange generic data from peer to peer.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

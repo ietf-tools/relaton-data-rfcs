@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7398
 title:
 - content: A Reference Path and Measurement Points for Large-Scale Measurement of
@@ -184,16 +184,20 @@ script:
 abstract:
 - content: "<p>This document defines a reference path for Large-scale Measurement
     of Broadband Access Performance (LMAP) and measurement points for commonly used
-    performance metrics.  Other similar measurement projects may also be able to use
-    the extensions described here for measurement point location.  The purpose is
-    to create an efficient way to describe the location of the measurement point(s)
-    used to conduct a particular measurement.</p>"
+    performance metrics. Other similar measurement projects may also be able to use
+    the extensions described here for measurement point location. The purpose is to
+    create an efficient way to describe the location of the measurement point(s) used
+    to conduct a particular measurement.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8357
 title:
 - content: Generalized UDP Source Port for DHCP Relay
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines an extension to the DHCP protocols that allows
-    a relay agent to use any available source port for upstream communications.  The
+    a relay agent to use any available source port for upstream communications. The
     extension also allows inclusion of a DHCP option that can be used to statelessly
     route responses back to the appropriate source port on downstream communications.</p>"
   language:
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

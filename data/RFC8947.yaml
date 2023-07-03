@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8947
 title:
 - content: Link-Layer Address Assignment Mechanism for DHCPv6
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>In certain environments, e.g., large-scale virtualization deployments,
-    new devices are created in an automated manner.  Such devices may have their link-layer
-    addresses assigned in an automated fashion.  With sufficient scale, the likelihood
+    new devices are created in an automated manner. Such devices may have their link-layer
+    addresses assigned in an automated fashion. With sufficient scale, the likelihood
     of a collision using random assignment without duplication detection is not acceptable.
-    \ Therefore, an allocation mechanism is required.  This document proposes an extension
+    Therefore, an allocation mechanism is required. This document proposes an extension
     to DHCPv6 that allows a scalable approach to link-layer address assignments where
     preassigned link-layer address assignments (such as by a manufacturer) are not
     possible or are unnecessary.</p>"
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

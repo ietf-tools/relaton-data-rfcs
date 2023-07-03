@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7614
 title:
 - content: Explicit Subscriptions for the REFER Method
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>The Session Initiation Protocol (SIP) REFER request, as defined by
     RFC 3515, triggers an implicit SIP-Specific Event Notification framework subscription.
-    \ Conflating the start of the subscription with handling the REFER request makes
+    Conflating the start of the subscription with handling the REFER request makes
     negotiating SUBSCRIBE extensions impossible and complicates avoiding SIP dialog
-    sharing.  This document defines extensions to REFER that remove the implicit subscription
+    sharing. This document defines extensions to REFER that remove the implicit subscription
     and, if desired, replace it with an explicit one.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

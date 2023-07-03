@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC885
 title:
 - content: Telnet end of record option
@@ -65,15 +65,18 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC specifies a standard for the ARPA Internet community.  It
-    specifies a method for marking the end of records in data transmitted on Telnet
-    connections.</p>"
+- content: "<p>This RFC specifies a standard for the ARPA Internet community. It specifies
+    a method for marking the end of records in data transmitted on Telnet connections.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

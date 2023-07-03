@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7051
 title:
 - content: Analysis of Solution Proposals for Hosts to Learn NAT64 Prefix
@@ -95,11 +95,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Hosts and applications may benefit from learning if an IPv6 address
-    is synthesized and if NAT64 and DNS64 are present in a network.  This document
+    is synthesized and if NAT64 and DNS64 are present in a network. This document
     analyzes all proposed solutions (known at the time of writing) for communicating
     whether the synthesis is taking place, what address format was used, and what
-    IPv6 prefix was used by the NAT64 and DNS64.  These solutions enable both NAT64
-    avoidance and local IPv6 address synthesis.  The document concludes by recommending
+    IPv6 prefix was used by the NAT64 and DNS64. These solutions enable both NAT64
+    avoidance and local IPv6 address synthesis. The document concludes by recommending
     the standardization of the approach based on heuristic discovery.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

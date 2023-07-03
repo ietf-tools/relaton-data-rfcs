@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6806
 title:
 - content: Kerberos Principal Name Canonicalization and Cross-Realm Referrals
@@ -126,12 +126,12 @@ abstract:
 - content: "<p>This memo documents a method for a Kerberos Key Distribution Center
     (KDC) to respond to client requests for Kerberos tickets when the client does
     not have detailed configuration information on the realms of users or services.
-    \ The KDC will handle requests for principals in other realms by returning either
+    The KDC will handle requests for principals in other realms by returning either
     a referral error or a cross-realm Ticket-Granting Ticket (TGT) to another realm
-    on the referral path.  The clients will use this referral information to reach
-    the realm of the target principal and then receive the ticket.  This memo also
+    on the referral path. The clients will use this referral information to reach
+    the realm of the target principal and then receive the ticket. This memo also
     provides a mechanism for verifying that a request has not been tampered with in
-    transit.  This memo updates RFC 4120. [STANDARDS-TRACK]</p>"
+    transit. This memo updates RFC 4120. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -149,6 +149,10 @@ relation:
       content: RFC4120
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

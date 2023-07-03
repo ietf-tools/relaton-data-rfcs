@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3915
 title:
 - content: Domain Registry Grace Period Mapping for the Extensible Provisioning Protocol
@@ -69,9 +69,9 @@ abstract:
 - content: <p>This document describes an Extensible Provisioning Protocol (EPP) extension
     mapping for the management of Domain Name System (DNS) domain names subject to
     "grace period" policies defined by the Internet Corporation for Assigned Names
-    and Numbers (ICANN).  Grace period policies exist to allow protocol actions to
+    and Numbers (ICANN). Grace period policies exist to allow protocol actions to
     be reversed or otherwise revoked during a short period of time after the protocol
-    action has been performed.  Specified in XML, this mapping extends the EPP domain
+    action has been performed. Specified in XML, this mapping extends the EPP domain
     name mapping to provide additional features required for grace period processing.
     [STANDARDS-TRACK]</p>
   language:
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5846
 title:
 - content: Binding Revocation for IPv6 Mobility
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a binding revocation mechanism to terminate a
-    mobile node's mobility session and the associated resources.  This mechanism can
+    mobile node's mobility session and the associated resources. This mechanism can
     be used both with base Mobile IPv6 and its extensions, such as Proxy Mobile IPv6.
-    \ The mechanism allows the mobility entity which initiates the revocation procedure
+    The mechanism allows the mobility entity which initiates the revocation procedure
     to request its peer to terminate either one, multiple or all specified Binding
     Cache entries. [STANDARDS-TRACK]</p>"
   language:
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

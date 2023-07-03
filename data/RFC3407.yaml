@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3407
 title:
 - content: Session Description Protocol (SDP) Simple Capability Declaration
@@ -67,16 +67,20 @@ script:
 abstract:
 - content: "<p>This document defines a set of Session Description Protocol (SDP) attributes
     that enables SDP to provide a minimal and backwards compatible capability declaration
-    mechanism.  Such capability declarations can be used as input to a subsequent
-    session negotiation, which is done by means outside the scope of this document.
-    \ This provides a simple and limited solution to the general capability negotiation
-    problem being addressed by the next generation of SDP, also known as SDPng. [STANDARDS-TRACK]</p>"
+    mechanism. Such capability declarations can be used as input to a subsequent session
+    negotiation, which is done by means outside the scope of this document. This provides
+    a simple and limited solution to the general capability negotiation problem being
+    addressed by the next generation of SDP, also known as SDPng. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

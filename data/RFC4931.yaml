@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4931
 title:
 - content: Extensible Provisioning Protocol (EPP) Domain Name Mapping
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document describes an Extensible Provisioning Protocol (EPP) mapping
     for the provisioning and management of Internet domain names stored in a shared
-    central repository.  Specified in XML, the mapping defines EPP command syntax
-    and semantics as applied to domain names.  This document obsoletes RFC 3731. [STANDARDS-TRACK]</p>"
+    central repository. Specified in XML, the mapping defines EPP command syntax and
+    semantics as applied to domain names. This document obsoletes RFC 3731. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -86,6 +86,10 @@ relation:
       content: RFC5731
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

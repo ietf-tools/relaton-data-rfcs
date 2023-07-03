@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8144
 title:
 - content: Use of the Prefer Header Field in Web Distributed Authoring and Versioning
@@ -69,7 +69,7 @@ abstract:
 - content: <p>This document defines how the Prefer header field (RFC 7240) can be
     used by a Web Distributed Authoring and Versioning (WebDAV) client to request
     that certain behaviors be employed by a server while constructing a response to
-    a request.  Furthermore, it defines the new "depth-noroot" preference.</p>
+    a request. Furthermore, it defines the new "depth-noroot" preference.</p>
   language:
   - en
   script:
@@ -87,6 +87,10 @@ relation:
       content: RFC7240
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

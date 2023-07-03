@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6254
 title:
 - content: Request to Move RFC 2754 to Historic Status
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>RFC 2754 requested that each time IANA made an address assignment,
     it was to create appropriate inetnum and as-block objects and digitally sign them.
-    \ The purpose was to distribute the IANA-held public key in software implementations
-    of the Distributed Routing Policy System.  In practice, this was never done on
-    the public Internet.  This document requests that RFC 2754 be moved to Historic
-    status.  This document is not an Internet Standards Track specification; it is
+    The purpose was to distribute the IANA-held public key in software implementations
+    of the Distributed Routing Policy System. In practice, this was never done on
+    the public Internet. This document requests that RFC 2754 be moved to Historic
+    status. This document is not an Internet Standards Track specification; it is
     published for informational purposes.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

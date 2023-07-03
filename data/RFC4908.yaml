@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4908
 title:
 - content: Multi-homing for small scale fixed network Using Mobile IP and NEMO
@@ -211,13 +211,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Multihoming technology improves the availability of host and network
-    connectivity.  Since the behaviors of fixed and mobile networks differ, distinct
-    architectures for each have been discussed and proposed.  This document proposes
+    connectivity. Since the behaviors of fixed and mobile networks differ, distinct
+    architectures for each have been discussed and proposed. This document proposes
     a common architecture for both mobile and fixed networking environments, using
-    mobile IP (RFC 3775) and Network Mobility (NEMO; RFC 3963).  The proposed architecture
+    mobile IP (RFC 3775) and Network Mobility (NEMO; RFC 3963). The proposed architecture
     requires a modification of mobile IP and NEMO so that multiple Care-of Addresses
-    (CoAs) can be used.  In addition, multiple Home Agents (HAs) that are located
-    in different places are required for redundancy.  This memo defines an Experimental
+    (CoAs) can be used. In addition, multiple Home Agents (HAs) that are located in
+    different places are required for redundancy. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -225,6 +225,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3744
 title:
 - content: Web Distributed Authoring and Versioning (WebDAV) Access Control Protocol
@@ -154,18 +154,22 @@ script:
 abstract:
 - content: "<p>This document specifies a set of methods, headers, message bodies,
     properties, and reports that define Access Control extensions to the WebDAV Distributed
-    Authoring Protocol.  This protocol permits a client to read and modify access
-    control lists that instruct a server whether to allow or deny operations upon
-    a resource (such as HyperText Transfer Protocol (HTTP) method invocations) by
-    a given principal.  A lightweight representation of principals as Web resources
-    supports integration of a wide range of user management repositories.  Search
-    operations allow discovery and manipulation of principals using human names. [STANDARDS-TRACK]</p>"
+    Authoring Protocol. This protocol permits a client to read and modify access control
+    lists that instruct a server whether to allow or deny operations upon a resource
+    (such as HyperText Transfer Protocol (HTTP) method invocations) by a given principal.
+    A lightweight representation of principals as Web resources supports integration
+    of a wide range of user management repositories. Search operations allow discovery
+    and manipulation of principals using human names. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

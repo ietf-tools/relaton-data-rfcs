@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3068
 title:
 - content: An Anycast Prefix for 6to4 Relay Routers
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>This memo introduces a "6to4 anycast address" in order to simplify the
-    configuration of 6to4 routers.  It also defines how this address will be used
-    by 6to4 relay routers, how the corresponding "6to4 anycast prefix" will be advertised
-    in the IGP and in the EGP.  The memo documents the reservation by IANA (Internet
+    configuration of 6to4 routers. It also defines how this address will be used by
+    6to4 relay routers, how the corresponding "6to4 anycast prefix" will be advertised
+    in the IGP and in the EGP. The memo documents the reservation by IANA (Internet
     Assigned Numbers Authority) of the "6to4 relay anycast prefix." [STANDARDS-TRACK]</p>
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC7526
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

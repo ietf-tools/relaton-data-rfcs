@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9122
 title:
 - content: IANA Registry for Sieve Actions
@@ -95,15 +95,19 @@ script:
 - Latn
 abstract:
 - content: "<p>The Sieve Email Filtering Language (RFC 5228) is a popular email filtering
-    language used upon final mail delivery.  This document creates a registry for
-    Sieve actions to help developers and Sieve extension writers track interactions
-    between different extensions.</p>"
+    language used upon final mail delivery. This document creates a registry for Sieve
+    actions to help developers and Sieve extension writers track interactions between
+    different extensions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

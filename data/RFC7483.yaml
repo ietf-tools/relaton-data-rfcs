@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7483
 title:
 - content: JSON Responses for the Registration Data Access Protocol (RDAP)
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document describes JSON data structures representing registration
     information maintained by Regional Internet Registries (RIRs) and Domain Name
-    Registries (DNRs).  These data structures are used to form Registration Data Access
+    Registries (DNRs). These data structures are used to form Registration Data Access
     Protocol (RDAP) query responses.</p>"
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC9083
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

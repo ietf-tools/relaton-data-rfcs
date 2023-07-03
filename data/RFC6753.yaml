@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6753
 title:
 - content: A Location Dereference Protocol Using HTTP-Enabled Location Delivery (HELD)
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This document describes how to use the Hypertext Transfer Protocol
     (HTTP) over Transport Layer Security (TLS) as a dereference protocol to resolve
-    a reference to a Presence Information Data Format Location Object (PIDF-LO).  This
+    a reference to a Presence Information Data Format Location Object (PIDF-LO). This
     document assumes that a Location Recipient possesses a URI that can be used in
     conjunction with the HTTP-Enabled Location Delivery (HELD) protocol to request
     the location of the Target. [STANDARDS-TRACK]</p>"
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

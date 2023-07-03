@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6464
 title:
 - content: A Real-time Transport Protocol (RTP) Header Extension for Client-to-Mixer
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>This document defines a mechanism by which packets of Real-time Transport
     Protocol (RTP) audio streams can indicate, in an RTP header extension, the audio
-    level of the audio sample carried in the RTP packet.  In large conferences, this
+    level of the audio sample carried in the RTP packet. In large conferences, this
     can reduce the load on an audio mixer or other middlebox that wants to forward
     only a few of the loudest audio streams, without requiring it to decode and measure
     every stream that is received. [STANDARDS-TRACK]</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

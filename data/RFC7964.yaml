@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7964
 title:
 - content: Solutions for BGP Persistent Route Oscillation
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>Routing information reduction by BGP Route Reflection or Confederation
     can result in persistent internal BGP route oscillations with certain routing
-    setups and network topologies.  This document specifies two sets of additional
+    setups and network topologies. This document specifies two sets of additional
     paths that can be used to eliminate these route oscillations in a network.</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

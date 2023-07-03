@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4619
 title:
 - content: Encapsulation Methods for Transport of Frame Relay over Multiprotocol Label
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>A frame relay pseudowire is a mechanism that exists between a provider's
     edge network nodes and that supports as faithfully as possible frame relay services
-    over an MPLS packet switched network (PSN).  This document describes the detailed
+    over an MPLS packet switched network (PSN). This document describes the detailed
     encapsulation necessary to transport frame relay packets over an MPLS network.
     [STANDARDS-TRACK]</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

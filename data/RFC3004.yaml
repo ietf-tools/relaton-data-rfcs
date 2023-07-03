@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3004
 title:
 - content: The User Class Option for DHCP
@@ -241,17 +241,21 @@ script:
 abstract:
 - content: "<p>This option is used by a Dynamic Host Configuration Protocol (DHCP)
     client to optionally identify the type or category of user or applications it
-    represents.  The information contained in this option is an opaque field that
-    represents the user class of which the client is a member.  Based on this class,
-    a DHCP server selects the appropriate address pool to assign an address to the
-    client and the appropriate configuration parameters.  This option should be configurable
-    by a user. [STANDARDS-TRACK]</p>"
+    represents. The information contained in this option is an opaque field that represents
+    the user class of which the client is a member. Based on this class, a DHCP server
+    selects the appropriate address pool to assign an address to the client and the
+    appropriate configuration parameters. This option should be configurable by a
+    user. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

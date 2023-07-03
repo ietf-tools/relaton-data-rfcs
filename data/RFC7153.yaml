@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7153
 title:
 - content: IANA Registries for BGP Extended Communities
@@ -96,14 +96,14 @@ script:
 abstract:
 - content: <p>This document reorganizes the IANA registries for the type values and
     sub-type values of the BGP Extended Communities attribute and the BGP IPv6-Address-Specific
-    Extended Communities attribute.  This is done in order to remove interdependencies
+    Extended Communities attribute. This is done in order to remove interdependencies
     among the registries, thus making it easier for IANA to determine which codepoints
-    are available for assignment in which registries.  This document also clarifies
+    are available for assignment in which registries. This document also clarifies
     the information that must be provided to IANA when requesting an allocation from
-    one or more of these registries.  These changes are compatible with the existing
-    allocations and thus do not affect protocol implementations.  The changes will,
-    however, impact the "IANA Considerations" sections of future protocol specifications.  This
-    document updates RFC 4360 and RFC 5701.</p>
+    one or more of these registries. These changes are compatible with the existing
+    allocations and thus do not affect protocol implementations. The changes will,
+    however, impact the "IANA Considerations" sections of future protocol specifications.
+    This document updates RFC 4360 and RFC 5701.</p>
   language:
   - en
   script:
@@ -131,6 +131,10 @@ relation:
       content: RFC5701
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2632
 title:
 - content: S/MIME Version 3 Certificate Handling
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>S/MIME (Secure/Multipurpose Internet Mail Extensions), provides a method
-    to send and receive secure MIME messages.  Before using a public key to provide
+    to send and receive secure MIME messages. Before using a public key to provide
     security services, the S/MIME agent MUST certify that the public key is valid.
-    \ S/MIME agents MUST use PKIX certificates to validate public keys as described
+    S/MIME agents MUST use PKIX certificates to validate public keys as described
     in the Internet X.509 Public Key Infrastructure (PKIX) Certificate and CRL Profile.
     [STANDARDS-TRACK]</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC3850
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

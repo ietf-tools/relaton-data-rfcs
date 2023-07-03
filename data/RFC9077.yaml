@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9077
 title:
 - content: 'NSEC and NSEC3: TTLs and Aggressive Use'
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>Due to a combination of unfortunate wording in earlier documents, aggressive
     use of NSEC and NSEC3 records may deny the existence of names far beyond the intended
-    lifetime of a denial.  This document changes the definition of the NSEC and NSEC3
-    TTL to correct that situation.  This document updates RFCs 4034, 4035, 5155, and
+    lifetime of a denial. This document changes the definition of the NSEC and NSEC3
+    TTL to correct that situation. This document updates RFCs 4034, 4035, 5155, and
     8198.</p>"
   language:
   - en
@@ -117,6 +117,10 @@ relation:
       content: RFC8198
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

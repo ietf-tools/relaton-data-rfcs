@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7366
 title:
 - content: Encrypt-then-MAC for Transport Layer Security (TLS) and Datagram Transport
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document describes a means of negotiating the use of the encrypt-then-MAC
     security mechanism in place of the existing MAC-then-encrypt mechanism in Transport
-    Layer Security (TLS) and Datagram Transport Layer Security (DTLS).  The MAC-then-encrypt
+    Layer Security (TLS) and Datagram Transport Layer Security (DTLS). The MAC-then-encrypt
     mechanism has been the subject of a number of security vulnerabilities over a
     period of many years.</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

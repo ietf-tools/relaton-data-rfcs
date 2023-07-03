@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6643
 title:
 - content: Translation of Structure of Management Information Version 2 (SMIv2) MIB
@@ -68,18 +68,22 @@ script:
 abstract:
 - content: "<p>YANG is a data modeling language used to model configuration and state
     data manipulated by the Network Configuration Protocol (NETCONF), NETCONF remote
-    procedure calls, and NETCONF notifications.  The Structure of Management Information
+    procedure calls, and NETCONF notifications. The Structure of Management Information
     (SMIv2) defines fundamental data types, an object model, and the rules for writing
     and revising MIB modules for use with the Simple Network Management Protocol (SNMP).
-    \ This document defines a translation of SMIv2 MIB modules into YANG modules,
-    enabling read-only (config false) access to data objects defined in SMIv2 MIB
-    modules via NETCONF. [STANDARDS-TRACK]</p>"
+    This document defines a translation of SMIv2 MIB modules into YANG modules, enabling
+    read-only (config false) access to data objects defined in SMIv2 MIB modules via
+    NETCONF. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

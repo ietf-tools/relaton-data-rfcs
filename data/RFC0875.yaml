@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC875
 title:
 - content: Gateways, architectures, and heffalumps
@@ -72,15 +72,19 @@ script:
 abstract:
 - content: <p>This RFC is a discussion about the role of gateways in an internetwork,
     especially the problems of translating or mapping protocols between different
-    protocol suites.  The discussion notes possible functionality mis-matches, undesirable
+    protocol suites. The discussion notes possible functionality mis-matches, undesirable
     routing "singularity points", flow control issues, and high cost of translating
-    gateways.  Originally published as M82-51 by the MITRE Corporation, Bedford, Massachusetts.</p>
+    gateways. Originally published as M82-51 by the MITRE Corporation, Bedford, Massachusetts.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

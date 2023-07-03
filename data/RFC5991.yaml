@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5991
 title:
 - content: Teredo Security Updates
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The Teredo protocol defines a set of flags that are embedded in every
-    Teredo IPv6 address.  This document specifies a set of security updates that modify
+    Teredo IPv6 address. This document specifies a set of security updates that modify
     the use of this flags field, but are backward compatible. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -143,6 +143,10 @@ relation:
       content: RFC4380
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

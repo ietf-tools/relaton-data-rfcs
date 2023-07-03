@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6197
 title:
 - content: Location-to-Service Translation (LoST) Service List Boundary Extension
@@ -66,21 +66,25 @@ script:
 - Latn
 abstract:
 - content: "<p>Location-to-Service Translation (LoST) maps service identifiers and
-    location information to service contact URIs.  If a LoST client wants to discover
-    available services for a particular location, it will perform a   query to the
-    LoST server.  However, the LoST server, in its response, does not provide context
-    information; that is, it does not provide any additional information about the
-    geographical region within which the returned list of services is considered valid.
-    \ Therefore, this document defines a Service List Boundary that returns a local
-    context along with the list of services returned, in order to assist the client
-    in not missing a change in available services when moving.  This document defines
-    an Experimental Protocol for the Internet community.</p>"
+    location information to service contact URIs. If a LoST client wants to discover
+    available services for a particular location, it will perform a query to the LoST
+    server. However, the LoST server, in its response, does not provide context information;
+    that is, it does not provide any additional information about the geographical
+    region within which the returned list of services is considered valid. Therefore,
+    this document defines a Service List Boundary that returns a local context along
+    with the list of services returned, in order to assist the client in not missing
+    a change in available services when moving. This document defines an Experimental
+    Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7769
 title:
 - content: Media Access Control (MAC) Address Withdrawal over Static Pseudowire
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document specifies a mechanism to signal Media Access Control
     (MAC) address withdrawal notification using a pseudowire (PW) Associated Channel
-    (ACH).  Such notification is useful when statically provisioned PWs are deployed
+    (ACH). Such notification is useful when statically provisioned PWs are deployed
     in a Virtual Private LAN Service (VPLS) or Hierarchical Virtual Private LAN Service
     (H-VPLS) environment.</p>"
   language:
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

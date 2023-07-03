@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2365
 title:
 - content: Administratively Scoped IP Multicast
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines the "administratively scoped IPv4 multicast space"
-    to be the range 239.0.0.0 to 239.255.255.255.  In addition, it describes a simple
-    set of semantics for the implementation of Administratively Scoped IP Multicast.  Finally,
-    it provides a mapping between the IPv6 multicast address classes [RFC1884] and
-    IPv4 multicast address classes.  This document specifies an Internet Best Current
+    to be the range 239.0.0.0 to 239.255.255.255. In addition, it describes a simple
+    set of semantics for the implementation of Administratively Scoped IP Multicast.
+    Finally, it provides a mapping between the IPv6 multicast address classes [RFC1884]
+    and IPv4 multicast address classes. This document specifies an Internet Best Current
     Practices for the Internet Community, and requests discussion and suggestions
     for improvements.</p>
   language:
@@ -82,6 +82,10 @@ series:
     content: BCP
     format: text/plain
   number: '23'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

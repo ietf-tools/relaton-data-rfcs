@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4352
 title:
 - content: RTP Payload Format for the Extended Adaptive Multi-Rate Wideband (AMR-WB+)
@@ -155,9 +155,9 @@ script:
 abstract:
 - content: "<p>This document specifies a Real-time Transport Protocol (RTP) payload
     format for Extended Adaptive Multi-Rate Wideband (AMR-WB+) encoded audio signals.
-    \ The AMR-WB+ codec is an audio extension of the AMR-WB speech codec.  It encompasses
+    The AMR-WB+ codec is an audio extension of the AMR-WB speech codec. It encompasses
     the AMR-WB frame types and a number of new frame types designed to support high-quality
-    music and speech.  A media type registration for AMR-WB+ is included in this specification.
+    music and speech. A media type registration for AMR-WB+ is included in this specification.
     [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

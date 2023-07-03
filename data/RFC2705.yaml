@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2705
 title:
 - content: Media Gateway Control Protocol (MGCP) Version 1.0
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: <p>This document describes an application programming interface and a corresponding
     protocol (MGCP) for controlling Voice over IP (VoIP) Gateways from external call
-    control elements.  MGCP assumes a call control architecture where the call control
-    "intelligence" is outside the gateways and handled by external call control elements.  This
-    memo provides information for the Internet community.</p>
+    control elements. MGCP assumes a call control architecture where the call control
+    "intelligence" is outside the gateways and handled by external call control elements.
+    This memo provides information for the Internet community.</p>
   language:
   - en
   script:
@@ -203,6 +203,10 @@ relation:
       content: RFC3435
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

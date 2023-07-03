@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1868
 title:
 - content: ARP Extension - UNARP
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document specifies a trivial modification to the ARP mechanism,
     not the packet format, which allows a node to announce that it is leaving the
-    network and that all other nodes should modify their ARP tables accordingly.  This
+    network and that all other nodes should modify their ARP tables accordingly. This
     memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

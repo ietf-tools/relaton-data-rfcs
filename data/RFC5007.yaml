@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5007
 title:
 - content: DHCPv6 Leasequery
@@ -154,15 +154,19 @@ script:
 abstract:
 - content: "<p>This document specifies a leasequery exchange for the Dynamic Host
     Configuration Protocol for IPv6 (DHCPv6) that can be used to obtain lease information
-    about DHCPv6 clients from a DHCPv6 server.  This document specifies the scope
-    of data that can be retrieved as well as both DHCPv6 leasequery requestor and
-    server behavior.  This document extends DHCPv6. [STANDARDS-TRACK]</p>"
+    about DHCPv6 clients from a DHCPv6 server. This document specifies the scope of
+    data that can be retrieved as well as both DHCPv6 leasequery requestor and server
+    behavior. This document extends DHCPv6. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

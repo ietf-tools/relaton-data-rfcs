@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6484
 title:
 - content: Certificate Policy (CP) for the Resource Public Key Infrastructure (RPKI)
@@ -154,12 +154,12 @@ script:
 abstract:
 - content: "<p>This document describes the certificate policy for a Public Key Infrastructure
     (PKI) used to support attestations about Internet Number Resource (INR) holdings.
-    \ Each organization that distributes IP addresses or Autonomous System (AS) numbers
+    Each organization that distributes IP addresses or Autonomous System (AS) numbers
     to an organization will, in parallel, issue a (public key) certificate reflecting
-    this distribution.  These certificates will enable verification that the resources
+    this distribution. These certificates will enable verification that the resources
     indicated in the certificate have been distributed to the holder of the associated
     private key and that this organization is the current, unique holder of these
-    resources.  This memo documents an Internet Best Current Practice.</p>"
+    resources. This memo documents an Internet Best Current Practice.</p>"
   language:
   - en
   script:
@@ -170,6 +170,10 @@ series:
     content: BCP
     format: text/plain
   number: '173'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

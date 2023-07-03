@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7912
 title:
 - content: Message Authorizing Email Header Field and Its Use for the Draft and Release
@@ -69,8 +69,8 @@ abstract:
 - content: "<p>This document describes a procedure for when a Military Message Handling
     System (MMHS) message is composed by one user and is only released to the mail
     transfer system when one or more Authorizing Users authorize release of the message
-    by adding the MMHS-Authorizing-Users header field.  The resulting message can
-    be optionally signed by the sender and/or reviewer, allowing recipients to verify
+    by adding the MMHS-Authorizing-Users header field. The resulting message can be
+    optionally signed by the sender and/or reviewer, allowing recipients to verify
     both the original signature (if any) and the review signatures.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

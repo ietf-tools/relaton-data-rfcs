@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC878
 title:
 - content: ARPANET 1822L Host Access Protocol
@@ -71,7 +71,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC specifies the ARPANET 1822L Host Access Protocol, which is
-    a successor to the existing 1822 Host Access Protocol.  The 1822L procedure allows
+    a successor to the existing 1822 Host Access Protocol. The 1822L procedure allows
     ARPANET hosts to use logical identifiers as well as 1822 physical interface identifiers
     to address each other.</p>"
   language:
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

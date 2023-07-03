@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5074
 title:
 - content: DNSSEC Lookaside Validation (DLV)
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: "<p>DNSSEC Lookaside Validation (DLV) is a mechanism for publishing DNS
-    Security (DNSSEC) trust anchors outside of the DNS delegation chain.  It allows
+    Security (DNSSEC) trust anchors outside of the DNS delegation chain. It allows
     validating resolvers to validate DNSSEC-signed data from zones whose ancestors
     either aren't signed or don't publish Delegation Signer (DS) records for their
-    children.  This memo provides information for the Internet community.</p>"
+    children. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

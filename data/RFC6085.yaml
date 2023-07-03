@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6085
 title:
 - content: Address Mapping of IPv6 Multicast Packets on Ethernet
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>When transmitting an IPv6 packet with a multicast destination address,
     the IPv6 destination address is mapped to an Ethernet link-layer multicast address.
-    \ This document clarifies that a mapping of an IPv6 packet with a multicast destination
+    This document clarifies that a mapping of an IPv6 packet with a multicast destination
     address may in some circumstances map to an Ethernet link-layer unicast address.
     [STANDARDS-TRACK]</p>"
   language:
@@ -174,6 +174,10 @@ relation:
       content: RFC2464
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

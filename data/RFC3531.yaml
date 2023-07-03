@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3531
 title:
 - content: A Flexible Method for Managing the Assignment of Bits of an IPv6 Address
@@ -67,14 +67,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This document proposes a method to manage the assignment of bits of
-    an IPv6 address block or range.  When an organisation needs to make an address
+    an IPv6 address block or range. When an organisation needs to make an address
     plan for its subnets or when an ISP needs to make an address plan for its customers,
     this method enables the organisation to postpone the final decision on the number
-    of bits to partition in the address space they have.  It does it by keeping the
-    bits around the borders of the partition to be free as long as possible.  This
+    of bits to partition in the address space they have. It does it by keeping the
+    bits around the borders of the partition to be free as long as possible. This
     scheme is applicable to any bits addressing scheme using bits with partitions
-    in the space, but its first intended use is for IPv6.  It is a generalization
-    of RFC 1219 and can be used for IPv6 assignments.  This memo provides information
+    in the space, but its first intended use is for IPv6. It is a generalization of
+    RFC 1219 and can be used for IPv6 assignments. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

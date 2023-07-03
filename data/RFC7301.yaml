@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7301
 title:
 - content: Transport Layer Security (TLS) Application-Layer Protocol Negotiation Extension
@@ -153,7 +153,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a Transport Layer Security (TLS) extension
-    for application-layer protocol negotiation within the TLS handshake.  For instances
+    for application-layer protocol negotiation within the TLS handshake. For instances
     in which multiple application protocols are supported on the same TCP or UDP port,
     this extension allows the application layer to negotiate which protocol will be
     used within the TLS connection.</p>"
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

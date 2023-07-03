@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4892
 title:
 - content: Requirements for a Mechanism Identifying a Name Server Instance
@@ -97,13 +97,13 @@ abstract:
 - content: "<p>With the increased use of DNS anycast, load balancing, and other mechanisms
     allowing more than one DNS name server to share a single IP address, it is sometimes
     difficult to tell which of a pool of name servers has answered a particular query.
-    \ A standardized mechanism to determine the identity of a name server responding
+    A standardized mechanism to determine the identity of a name server responding
     to a particular query would be useful, particularly as a diagnostic aid for administrators.
-    \ Existing ad hoc mechanisms for addressing this need have some shortcomings,
-    not the least of which is the lack of prior analysis of exactly how such a mechanism
-    should be designed and deployed.  This document describes the existing convention
+    Existing ad hoc mechanisms for addressing this need have some shortcomings, not
+    the least of which is the lack of prior analysis of exactly how such a mechanism
+    should be designed and deployed. This document describes the existing convention
     used in some widely deployed implementations of the DNS protocol, including advantages
-    and disadvantages, and discusses some attributes of an improved mechanism.  This
+    and disadvantages, and discusses some attributes of an improved mechanism. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

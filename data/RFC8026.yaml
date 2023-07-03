@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8026
 title:
 - content: 'Unified IPv4-in-IPv6 Softwire Customer Premises Equipment (CPE): A DHCPv6-Based
@@ -96,19 +96,23 @@ script:
 - Latn
 abstract:
 - content: "<p>In IPv6-only provider networks, transporting IPv4 packets encapsulated
-    in IPv6 is a common solution to the problem of IPv4 service continuity.  A number
+    in IPv6 is a common solution to the problem of IPv4 service continuity. A number
     of differing functional approaches have been developed for this, each having their
-    own specific characteristics.  As these approaches share a similar functional
-    architecture and use the same data plane mechanisms, this memo specifies a DHCPv6
-    option, whereby a single instance of Customer Premises Equipment (CPE) can interwork
-    with all of the standardized and proposed approaches to providing encapsulated
-    IPv4-in-IPv6 services by providing a prioritization mechanism.</p>"
+    own specific characteristics. As these approaches share a similar functional architecture
+    and use the same data plane mechanisms, this memo specifies a DHCPv6 option, whereby
+    a single instance of Customer Premises Equipment (CPE) can interwork with all
+    of the standardized and proposed approaches to providing encapsulated IPv4-in-IPv6
+    services by providing a prioritization mechanism.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2936
 title:
 - content: HTTP MIME Type Handler Detection
@@ -126,8 +126,8 @@ abstract:
 - content: "<p>Entities composing web pages to provide services over the Hypertext
     Transfer Protocol (HTTP) frequently have the problem of not knowing what Multipurpose
     Internet Mail Extensions (MIME) types have handlers installed at a user's browser.
-    \ This document summarizes reasonable techniques to solve this problem for most
-    of the browsers actually deployed on the Internet as of early 2000.  This memo
+    This document summarizes reasonable techniques to solve this problem for most
+    of the browsers actually deployed on the Internet as of early 2000. This memo
     provides information for the Internet community.</p>"
   language:
   - en
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

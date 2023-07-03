@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4588
 title:
 - content: RTP Retransmission Payload Format
@@ -182,19 +182,22 @@ script:
 - Latn
 abstract:
 - content: "<p>RTP retransmission is an effective packet loss recovery technique for
-    real-time applications with relaxed delay bounds.  This document describes an
-    RTP payload format for performing retransmissions.  Retransmitted RTP packets
-    are sent in a separate stream from the original RTP stream.  It is assumed that
-    feedback from receivers to senders is available.  In particular, it is assumed
-    that Real-time Transport Control Protocol (RTCP) feedback as defined in the extended
-    RTP profile for RTCP-based feedback (denoted RTP/AVPF) is available in this memo.
-    [STANDARDS-TRACK]</p>"
+    real-time applications with relaxed delay bounds. This document describes an RTP
+    payload format for performing retransmissions. Retransmitted RTP packets are sent
+    in a separate stream from the original RTP stream. It is assumed that feedback
+    from receivers to senders is available. In particular, it is assumed that Real-time
+    Transport Control Protocol (RTCP) feedback as defined in the extended RTP profile
+    for RTCP-based feedback (denoted RTP/AVPF) is available in this memo. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

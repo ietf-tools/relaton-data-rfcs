@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7878
 title:
 - content: Session Peering Provisioning (SPP) Protocol over SOAP
@@ -141,19 +141,23 @@ script:
 abstract:
 - content: "<p>The Session Peering Provisioning Framework (SPPF) specifies the data
     model and the overall structure to provision Session Establishment Data (SED)
-    into Session Data Registries and SIP Service Provider data stores.  To utilize
-    this framework, one needs a substrate protocol.  Given that the Simple Object
-    Access Protocol (SOAP) is currently widely used for messaging between elements
-    of such provisioning systems, this document specifies the usage of SOAP (via HTTPS)
-    as the substrate protocol for SPPF.  The benefits include leveraging prevalent
-    expertise and a higher probability that existing provisioning systems will be
-    able to easily migrate to using an \\%SPPF- based protocol.</p>"
+    into Session Data Registries and SIP Service Provider data stores. To utilize
+    this framework, one needs a substrate protocol. Given that the Simple Object Access
+    Protocol (SOAP) is currently widely used for messaging between elements of such
+    provisioning systems, this document specifies the usage of SOAP (via HTTPS) as
+    the substrate protocol for SPPF. The benefits include leveraging prevalent expertise
+    and a higher probability that existing provisioning systems will be able to easily
+    migrate to using an \\%SPPF- based protocol.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

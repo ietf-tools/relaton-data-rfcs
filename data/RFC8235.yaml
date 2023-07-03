@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8235
 title:
 - content: Schnorr Non-interactive Zero-Knowledge Proof
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>This document describes the Schnorr non-interactive zero-knowledge
     (NIZK) proof, a non-interactive variant of the three-pass Schnorr identification
-    scheme.  The Schnorr NIZK proof allows one to prove the knowledge of a discrete
-    logarithm without leaking any information about its value.  It can serve as a
-    useful building block for many cryptographic protocols to ensure that participants
-    follow the protocol specification honestly.  This document specifies the Schnorr
-    NIZK proof in both the finite field and the elliptic curve settings.</p>"
+    scheme. The Schnorr NIZK proof allows one to prove the knowledge of a discrete
+    logarithm without leaking any information about its value. It can serve as a useful
+    building block for many cryptographic protocols to ensure that participants follow
+    the protocol specification honestly. This document specifies the Schnorr NIZK
+    proof in both the finite field and the elliptic curve settings.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

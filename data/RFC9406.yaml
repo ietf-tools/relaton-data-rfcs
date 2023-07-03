@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9406
 title:
 - content: 'HyStart++: Modified Slow Start for TCP'
@@ -124,17 +124,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes HyStart++, a simple modification to the slow
-    start phase of congestion control algorithms.  Slow start can overshoot the ideal
-    send rate in many cases, causing high packet loss and poor performance.  HyStart++
+    start phase of congestion control algorithms. Slow start can overshoot the ideal
+    send rate in many cases, causing high packet loss and poor performance. HyStart++
     uses increase in round-trip delay as a heuristic to find an exit point before
-    possible overshoot.  It also adds a mitigation to prevent jitter from causing
-    premature slow start exit.</p>"
+    possible overshoot. It also adds a mitigation to prevent jitter from causing premature
+    slow start exit.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

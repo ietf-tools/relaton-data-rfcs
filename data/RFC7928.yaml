@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7928
 title:
 - content: Characterization Guidelines for Active Queue Management (AQM)
@@ -153,9 +153,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Unmanaged large buffers in today's networks have given rise to a slew
-    of performance issues.  These performance issues can be addressed by some form
+    of performance issues. These performance issues can be addressed by some form
     of Active Queue Management (AQM) mechanism, optionally in combination with a packet-scheduling
-    scheme such as fair queuing.  This document describes various criteria for performing
+    scheme such as fair queuing. This document describes various criteria for performing
     characterizations of AQM schemes that can be used in lab testing during development,
     prior to deployment.</p>"
   language:
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

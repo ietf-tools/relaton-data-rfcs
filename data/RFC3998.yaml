@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3998
 title:
 - content: 'Internet Printing Protocol (IPP): Job and Printer Administrative Operations'
@@ -129,7 +129,7 @@ abstract:
     Printer object to manage printer fan-out and fan-in. (Printer operations: Enable-Printer
     and Disable-Printer, Pause-Printer-After-Current-Job, Hold-New-Jobs and Release-Held-New-Jobs,
     Deactivate-Printer and Activate-Printer, Restart-Printer, Shutdown-Printer and
-    Startup-Printer.  Job operations: Reprocess-Job, Cancel-Current-Job, Suspend-Current-Job,
+    Startup-Printer. Job operations: Reprocess-Job, Cancel-Current-Job, Suspend-Current-Job,
     Resume-Job, Promote-Job, Schedule-Job-After.) [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

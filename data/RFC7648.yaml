@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7648
 title:
 - content: Port Control Protocol (PCP) Proxy Function
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a new Port Control Protocol (PCP) functional
-    element: the PCP proxy.  The PCP proxy relays PCP requests received from PCP clients
-    to upstream PCP server(s).  A typical deployment usage of this function is to
-    help establish successful PCP communications for PCP clients that cannot be configured
+    element: the PCP proxy. The PCP proxy relays PCP requests received from PCP clients
+    to upstream PCP server(s). A typical deployment usage of this function is to help
+    establish successful PCP communications for PCP clients that cannot be configured
     with the address of a PCP server located more than one hop away.</p>"
   language:
   - en
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

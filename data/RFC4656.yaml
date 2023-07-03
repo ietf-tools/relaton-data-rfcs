@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4656
 title:
 - content: A One-way Active Measurement Protocol (OWAMP)
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The One-Way Active Measurement Protocol (OWAMP) measures unidirectional
-    characteristics such as one-way delay and one-way loss.  High-precision measurement
+    characteristics such as one-way delay and one-way loss. High-precision measurement
     of these one-way IP performance metrics became possible with wider availability
-    of good time sources (such as GPS and CDMA).  OWAMP enables the interoperability
+    of good time sources (such as GPS and CDMA). OWAMP enables the interoperability
     of these measurements. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

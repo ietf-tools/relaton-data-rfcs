@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5081
 title:
 - content: Using OpenPGP Keys for Transport Layer Security (TLS) Authentication
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo proposes extensions to the Transport Layer Security (TLS)
-    protocol to support the OpenPGP key format.  The extensions discussed here include
+    protocol to support the OpenPGP key format. The extensions discussed here include
     a certificate type negotiation mechanism, and the required modifications to the
-    TLS Handshake Protocol.  This memo defines an Experimental Protocol for the Internet
+    TLS Handshake Protocol. This memo defines an Experimental Protocol for the Internet
     community.</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC6091
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

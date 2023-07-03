@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5245
 title:
 - content: 'Interactive Connectivity Establishment (ICE): A Protocol for Network Address
@@ -68,11 +68,10 @@ script:
 abstract:
 - content: "<p>This document describes a protocol for Network Address Translator (NAT)
     traversal for UDP-based multimedia sessions established with the offer/answer
-    model.  This protocol is called Interactive Connectivity Establishment (ICE).
-    \ ICE makes use of the Session Traversal Utilities for NAT (STUN) protocol and
-    its extension, Traversal Using Relay NAT (TURN).  ICE can be used by any protocol
-    utilizing the offer/answer model, such as the Session Initiation Protocol (SIP).
-    [STANDARDS-TRACK]</p>"
+    model. This protocol is called Interactive Connectivity Establishment (ICE). ICE
+    makes use of the Session Traversal Utilities for NAT (STUN) protocol and its extension,
+    Traversal Using Relay NAT (TURN). ICE can be used by any protocol utilizing the
+    offer/answer model, such as the Session Initiation Protocol (SIP). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -100,6 +99,10 @@ relation:
       content: RFC8839
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

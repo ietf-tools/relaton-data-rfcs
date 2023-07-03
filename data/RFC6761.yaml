@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6761
 title:
 - content: Special-Use Domain Names
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document describes what it means to say that a Domain Name (DNS
     name) is reserved for special use, when reserving such a name is appropriate,
-    and the procedure for doing so.  It establishes an IANA registry for such domain
+    and the procedure for doing so. It establishes an IANA registry for such domain
     names, and seeds it with entries for some of the already established special domain
     names.</p>"
   language:
@@ -126,6 +126,10 @@ relation:
       content: RFC2606
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

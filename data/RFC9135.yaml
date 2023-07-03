@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9135
 title:
 - content: Integrated Routing and Bridging in Ethernet VPN (EVPN)
@@ -183,10 +183,10 @@ script:
 abstract:
 - content: "<p>Ethernet VPN (EVPN) provides an extensible and flexible multihoming
     VPN solution over an MPLS/IP network for intra-subnet connectivity among Tenant
-    Systems and end devices that can be physical or virtual.  However, there are scenarios
+    Systems and end devices that can be physical or virtual. However, there are scenarios
     for which there is a need for a dynamic and efficient inter-subnet connectivity
     among these Tenant Systems and end devices while maintaining the multihoming capabilities
-    of EVPN.  This document describes an Integrated Routing and Bridging (IRB) solution
+    of EVPN. This document describes an Integrated Routing and Bridging (IRB) solution
     based on EVPN to address such requirements.</p>"
   language:
   - en
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

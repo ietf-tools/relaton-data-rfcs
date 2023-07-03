@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8817
 title:
 - content: RTP Payload Format for Tactical Secure Voice Cryptographic Interoperability
@@ -125,13 +125,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the RTP payload format for the Tactical Secure
-    Voice Cryptographic Interoperability Specification (TSVCIS) speech coder.  TSVCIS
+    Voice Cryptographic Interoperability Specification (TSVCIS) speech coder. TSVCIS
     is a scalable narrowband voice coder supporting varying encoder data rates and
-    fallbacks.  It is implemented as an augmentation to the Mixed Excitation Linear
+    fallbacks. It is implemented as an augmentation to the Mixed Excitation Linear
     Prediction Enhanced (MELPe) speech coder by conveying additional speech coder
-    parameters to enhance voice quality.  TSVCIS augmented speech data is processed
+    parameters to enhance voice quality. TSVCIS augmented speech data is processed
     in conjunction with its temporally matched Mixed Excitation Linear Prediction
-    (MELP) 2400 speech data.  The RTP packetization of TSVCIS and MELPe speech coder
+    (MELP) 2400 speech data. The RTP packetization of TSVCIS and MELPe speech coder
     data is described in detail.</p>"
   language:
   - en
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

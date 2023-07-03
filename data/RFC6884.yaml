@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6884
 title:
 - content: RTP Payload Format for the Enhanced Variable Rate Narrowband-Wideband Codec
@@ -68,15 +68,19 @@ script:
 abstract:
 - content: "<p>This document specifies Real-time Transport Protocol (RTP) payload
     formats to be used for the Enhanced Variable Rate Narrowband-Wideband Codec (EVRC-NW).
-    \ Three media type registrations are included for EVRC-NW RTP payload formats.
-    \ In addition, a file format is specified for transport of EVRC-NW speech data
-    in storage mode applications such as email.</p>"
+    Three media type registrations are included for EVRC-NW RTP payload formats. In
+    addition, a file format is specified for transport of EVRC-NW speech data in storage
+    mode applications such as email.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

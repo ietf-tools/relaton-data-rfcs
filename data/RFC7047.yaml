@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7047
 title:
 - content: The Open vSwitch Database Management Protocol
@@ -95,18 +95,22 @@ script:
 - Latn
 abstract:
 - content: "<p>Open vSwitch is an open-source software switch designed to be used
-    as a vswitch (virtual switch) in virtualized server environments.  A vswitch forwards
+    as a vswitch (virtual switch) in virtualized server environments. A vswitch forwards
     traffic between different virtual machines (VMs) on the same physical host and
-    also forwards traffic between VMs and the physical network.  Open vSwitch is open
+    also forwards traffic between VMs and the physical network. Open vSwitch is open
     to programmatic extension and control using OpenFlow and the OVSDB (Open vSwitch
-    Database) management protocol.  This document defines the OVSDB management protocol.
-    \ The Open vSwitch project includes open-source OVSDB client and server implementations.</p>"
+    Database) management protocol. This document defines the OVSDB management protocol.
+    The Open vSwitch project includes open-source OVSDB client and server implementations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

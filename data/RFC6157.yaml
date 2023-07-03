@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6157
 title:
 - content: IPv6 Transition in the Session Initiation Protocol (SIP)
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document describes how the IPv4 Session Initiation Protocol (SIP)
     user agents can communicate with IPv6 SIP user agents (and vice versa) at the
     signaling layer as well as exchange media once the session has been successfully
-    set up.  Both single- and dual-stack (i.e., IPv4-only and IPv4/IPv6) user agents
+    set up. Both single- and dual-stack (i.e., IPv4-only and IPv4/IPv6) user agents
     are considered. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC3264
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

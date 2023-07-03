@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1196
 title:
 - content: Finger User Information Protocol
@@ -70,12 +70,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo describes the Finger User Information Protocol.  This is
-    a simple protocol which provides an interface to a remote user information program.
-    \ Based on RFC 742, a description of the original Finger protocol, this memo attempts
+- content: "<p>This memo describes the Finger User Information Protocol. This is a
+    simple protocol which provides an interface to a remote user information program.
+    Based on RFC 742, a description of the original Finger protocol, this memo attempts
     to clarify the expected communication between the two ends of a Finger connection.
-    \ It also tries not to invalidate the many existing implementations or add unnecessary
-    restrictions to the original protocol definition.  This edition corrects and clarifies
+    It also tries not to invalidate the many existing implementations or add unnecessary
+    restrictions to the original protocol definition. This edition corrects and clarifies
     in a minor way, RFC 1194. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -94,6 +94,10 @@ relation:
       content: RFC1288
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

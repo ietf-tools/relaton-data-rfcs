@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1631
 title:
 - content: The IP Network Address Translator (NAT)
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo proposes another short-term solution, address reuse, that
-    complements CIDR or even makes it unnecessary.  The address reuse solution is
-    to place Network Address Translators (NAT) at the borders of stub domains.  This
-    memo provides information for the Internet community.  This memo does not specify
-    an Internet standard of any kind.</p>"
+    complements CIDR or even makes it unnecessary. The address reuse solution is to
+    place Network Address Translators (NAT) at the borders of stub domains. This memo
+    provides information for the Internet community. This memo does not specify an
+    Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC3022
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9206
 title:
 - content: Commercial National Security Algorithm (CNSA) Suite Cryptography for Internet
@@ -97,13 +97,13 @@ script:
 abstract:
 - content: "<p>The United States Government has published the National Security Agency's
     Commercial National Security Algorithm (CNSA) Suite, which defines cryptographic
-    algorithm policy for national security applications.  This document specifies
-    the conventions for using the United States National Security Agency's CNSA Suite
-    algorithms in Internet Protocol Security (IPsec).  It applies to the capabilities,
+    algorithm policy for national security applications. This document specifies the
+    conventions for using the United States National Security Agency's CNSA Suite
+    algorithms in Internet Protocol Security (IPsec). It applies to the capabilities,
     configuration, and operation of all components of US National Security Systems
-    (described in NIST Special Publication 800-59) that employ IPsec.  This document
+    (described in NIST Special Publication 800-59) that employ IPsec. This document
     is also appropriate for all other US Government systems that process high-value
-    information.  It is made publicly available for use by developers and operators
+    information. It is made publicly available for use by developers and operators
     of these and any other system deployments.</p>"
   language:
   - en
@@ -111,6 +111,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

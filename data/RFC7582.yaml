@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7582
 title:
 - content: 'Multicast Virtual Private Network (MVPN): Using Bidirectional P-Tunnels'
@@ -153,15 +153,15 @@ script:
 - Latn
 abstract:
 - content: <p>A set of prior RFCs specify procedures for supporting multicast in BGP/MPLS
-    IP VPNs.  These procedures allow customer multicast data to travel across a service
-    provider's backbone network through a set of multicast tunnels.  The tunnels are
+    IP VPNs. These procedures allow customer multicast data to travel across a service
+    provider's backbone network through a set of multicast tunnels. The tunnels are
     advertised in certain BGP multicast auto-discovery routes, by means of a BGP attribute
-    known as the "Provider Multicast Service Interface (PMSI) Tunnel" attribute.  Encodings
+    known as the "Provider Multicast Service Interface (PMSI) Tunnel" attribute. Encodings
     have been defined that allow the PMSI Tunnel attribute to identify bidirectional
-    (multipoint-to-multipoint) multicast distribution trees.  However, the prior RFCs
+    (multipoint-to-multipoint) multicast distribution trees. However, the prior RFCs
     do not provide all the necessary procedures for using bidirectional tunnels to
-    support multicast VPNs.  This document updates RFCs 6513, 6514, and 6625 by specifying
-    those procedures.  In particular, it specifies the procedures for assigning customer
+    support multicast VPNs. This document updates RFCs 6513, 6514, and 6625 by specifying
+    those procedures. In particular, it specifies the procedures for assigning customer
     multicast flows (unidirectional or bidirectional) to specific bidirectional tunnels
     in the provider backbone, for advertising such assignments, and for determining
     which flows have been assigned to which tunnels.</p>
@@ -202,6 +202,10 @@ relation:
       content: RFC6625
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

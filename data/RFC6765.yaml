@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6765
 title:
 - content: xDSL Multi-Pair Bonding (G.Bond) MIB
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Management Information Base (MIB) module for
-    use with network management protocols in TCP/IP-based internets.  This document
+    use with network management protocols in TCP/IP-based internets. This document
     defines an extension to the Interfaces Group MIB with a set of common objects
     for managing multi-pair bonded Digital Subscriber Line (xDSL) interfaces, as defined
-    in ITU-T Recommendations G.998.1, G.998.2, and G.998.3.  The textual conventions
+    in ITU-T Recommendations G.998.1, G.998.2, and G.998.3. The textual conventions
     defining the bonding schemes are contained in a separate MIB module maintained
-    by Internet Assigned Numbers Authority (IANA).  The MIB modules specific to each
+    by Internet Assigned Numbers Authority (IANA). The MIB modules specific to each
     bonding technology are defined in G9981-MIB, G9982-MIB, and G9983-MIB, respectively.</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

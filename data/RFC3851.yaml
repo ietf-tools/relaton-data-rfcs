@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3851
 title:
 - content: Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1 Message
@@ -67,11 +67,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines Secure/Multipurpose Internet Mail Extensions
-    (S/MIME) version 3.1.  S/MIME provides a consistent way to send and receive secure
-    MIME data.  Digital signatures provide authentication, message integrity, and
-    non-repudiation with proof of origin.  Encryption provides data confidentiality.
-    \ Compression can be used to reduce data size.  This document obsoletes RFC 2633.
-    [STANDARDS-TRACK]</p>"
+    (S/MIME) version 3.1. S/MIME provides a consistent way to send and receive secure
+    MIME data. Digital signatures provide authentication, message integrity, and non-repudiation
+    with proof of origin. Encryption provides data confidentiality. Compression can
+    be used to reduce data size. This document obsoletes RFC 2633. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -89,6 +88,10 @@ relation:
       content: RFC5751
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

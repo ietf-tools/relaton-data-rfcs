@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7629
 title:
 - content: Flow-Binding Support for Mobile IP
@@ -155,9 +155,9 @@ abstract:
 - content: "<p>This specification defines extensions to the Mobile IP protocol for
     allowing a mobile node with multiple interfaces to register a care-of address
     for each of its network interfaces and to simultaneously establish multiple IP
-    tunnels with its home agent.  This essentially allows the mobile node to utilize
+    tunnels with its home agent. This essentially allows the mobile node to utilize
     all the available network interfaces and build a higher aggregated logical pipe
-    with its home agent for its home address traffic.  Furthermore, these extensions
+    with its home agent for its home address traffic. Furthermore, these extensions
     also allow the mobile node and the home agent to negotiate IP traffic flow policies
     for binding individual flows with the registered care-of addresses.</p>"
   language:
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

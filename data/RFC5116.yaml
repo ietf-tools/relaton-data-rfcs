@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5116
 title:
 - content: An Interface and Algorithms for Authenticated Encryption
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document defines algorithms for Authenticated Encryption with
     Associated Data (AEAD), and defines a uniform interface and a registry for such
-    algorithms.  The interface and registry can be used as an application-independent
-    set of cryptoalgorithm suites.  This approach provides advantages in efficiency
+    algorithms. The interface and registry can be used as an application-independent
+    set of cryptoalgorithm suites. This approach provides advantages in efficiency
     and security, and promotes the reuse of crypto implementations. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8982
 title:
 - content: Registration Data Access Protocol (RDAP) Partial Response
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The Registration Data Access Protocol (RDAP) does not include capabilities
-    to request partial responses.  Servers will only return full responses that include
-    all of the information that a client is authorized to receive.  A partial response
+    to request partial responses. Servers will only return full responses that include
+    all of the information that a client is authorized to receive. A partial response
     capability that limits the amount of information returned, especially in the case
-    of search queries, could bring benefits to both clients and servers.  This document
+    of search queries, could bring benefits to both clients and servers. This document
     describes an RDAP query extension that allows clients to specify their preference
     for obtaining a partial response.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

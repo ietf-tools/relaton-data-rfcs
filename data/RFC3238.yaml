@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3238
 title:
 - content: IAB Architectural and Policy Considerations for Open Pluggable Edge Services
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>This document includes comments and recommendations by the IAB on some
     architectural and policy issues related to the chartering of Open Pluggable Edge
-    Services (OPES) in the IETF.  OPES are services that would be deployed at application-level
+    Services (OPES) in the IETF. OPES are services that would be deployed at application-level
     intermediaries in the network, for example, at a web proxy cache between the origin
-    server and the client.  These intermediaries would transform or filter content,
-    with the explicit consent of either the content provider or the end user.  This
+    server and the client. These intermediaries would transform or filter content,
+    with the explicit consent of either the content provider or the end user. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

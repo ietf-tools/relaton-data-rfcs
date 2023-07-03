@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2204
 title:
 - content: ODETTE File Transfer Protocol
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a file transfer protocol to facilitate electronic
-    data interchange between trading partners.  This memo provides information for
-    the Internet community.  It does not specify an Internet standard of any kind.</p>"
+    data interchange between trading partners. This memo provides information for
+    the Internet community. It does not specify an Internet standard of any kind.</p>"
   language:
   - en
   script:
@@ -85,6 +85,10 @@ relation:
       content: RFC5024
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9354
 title:
 - content: Transmission of IPv6 Packets over Power Line Communication (PLC) Networks
@@ -170,11 +170,11 @@ script:
 abstract:
 - content: "<p>Power Line Communication (PLC), namely using electric power lines for
     indoor and outdoor communications, has been widely applied to support Advanced
-    Metering Infrastructure (AMI), especially smart meters for electricity.  The existing
+    Metering Infrastructure (AMI), especially smart meters for electricity. The existing
     electricity infrastructure facilitates the expansion of PLC deployments due to
-    its potential advantages in terms of cost and convenience.  Moreover, a wide variety
+    its potential advantages in terms of cost and convenience. Moreover, a wide variety
     of accessible devices raises the potential demand of IPv6 for future applications.
-    \ This document describes how IPv6 packets are transported over constrained PLC
+    This document describes how IPv6 packets are transported over constrained PLC
     networks, such as those described in ITU-T G.9903, IEEE 1901.1, and IEEE 1901.2.</p>"
   language:
   - en
@@ -182,6 +182,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

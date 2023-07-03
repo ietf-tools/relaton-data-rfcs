@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5962
 title:
 - content: Dynamic Extensions to the Presence Information Data Format Location Object
@@ -155,9 +155,9 @@ script:
 abstract:
 - content: "<p>The Geopriv Location Object introduced by the Presence Information
     Data Format - Location Object (PIDF-LO), RFC 4119, defines a basic XML format
-    for carrying geographical information of a presentity.  This document defines
-    PIDF-LO extensions to convey information about moving objects.  Elements are defined
-    that enable expression of spatial orientation, speed, and heading of the presentity.
+    for carrying geographical information of a presentity. This document defines PIDF-LO
+    extensions to convey information about moving objects. Elements are defined that
+    enable expression of spatial orientation, speed, and heading of the presentity.
     [STANDARDS TRACK]</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

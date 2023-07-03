@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6454
 title:
 - content: The Web Origin Concept
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines the concept of an "origin", which is often used
-    as the scope of authority or privilege by user agents.  Typically, user agents
+    as the scope of authority or privilege by user agents. Typically, user agents
     isolate content retrieved from different origins to prevent malicious web site
-    operators from interfering with the operation of benign web sites.  In addition
+    operators from interfering with the operation of benign web sites. In addition
     to outlining the principles that underlie the concept of origin, this document
     details how to determine the origin of a URI and how to serialize an origin into
-    a string.  It also defines an HTTP header field, named "Origin", that indicates
+    a string. It also defines an HTTP header field, named "Origin", that indicates
     which origins are associated with an HTTP request. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

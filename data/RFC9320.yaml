@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9320
 title:
 - content: Deterministic Networking (DetNet) Bounded Latency
@@ -187,9 +187,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document presents a timing model for sources, destinations, and
-    Deterministic Networking (DetNet) transit nodes.  Using the model, it provides
+    Deterministic Networking (DetNet) transit nodes. Using the model, it provides
     a methodology to compute end-to-end latency and backlog bounds for various queuing
-    methods.  The methodology can be used by the management and control planes and
+    methods. The methodology can be used by the management and control planes and
     by resource reservation algorithms to provide bounded latency and zero congestion
     loss for the DetNet service.</p>"
   language:
@@ -198,6 +198,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

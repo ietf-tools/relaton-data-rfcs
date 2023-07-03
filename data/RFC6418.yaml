@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6418
 title:
 - content: Multiple Interfaces and Provisioning Domains Problem Statement
@@ -95,23 +95,26 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes issues encountered by a node attached to multiple
-    provisioning domains.  This node receives configuration information from each
-    of its provisioning domains, where some configuration objects are global to the
-    node and others are local to the interface.  Issues such as selecting the wrong
-    interface to send traffic happen when conflicting node-scoped configuration objects
-    are received and inappropriately used.  Moreover, other issues are the result
-    of simultaneous attachment to multiple networks, such as domain selection or addressing
-    and naming space overlaps, regardless of the provisioning mechanism.  While multiple
-    provisioning domains are typically seen on nodes with multiple interfaces, this
-    document also discusses situations involving single-interface nodes.  This document
-    is not an Internet Standards Track specification; it is published for informational
-    purposes.</p>"
+    provisioning domains. This node receives configuration information from each of
+    its provisioning domains, where some configuration objects are global to the node
+    and others are local to the interface. Issues such as selecting the wrong interface
+    to send traffic happen when conflicting node-scoped configuration objects are
+    received and inappropriately used. Moreover, other issues are the result of simultaneous
+    attachment to multiple networks, such as domain selection or addressing and naming
+    space overlaps, regardless of the provisioning mechanism. While multiple provisioning
+    domains are typically seen on nodes with multiple interfaces, this document also
+    discusses situations involving single-interface nodes. This document is not an
+    Internet Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

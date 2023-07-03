@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9031
 title:
 - content: Constrained Join Protocol (CoJP) for 6TiSCH
@@ -154,17 +154,17 @@ script:
 abstract:
 - content: <p>This document describes the minimal framework required for a new device,
     called a "pledge", to securely join a 6TiSCH (IPv6 over the Time-Slotted Channel
-    Hopping mode of IEEE 802.15.4) network.  The framework requires that the pledge
+    Hopping mode of IEEE 802.15.4) network. The framework requires that the pledge
     and the JRC (Join Registrar/Coordinator, a central entity), share a symmetric
-    key.  How this key is provisioned is out of scope of this document.  Through a
-    single CoAP (Constrained Application Protocol) request-response exchange secured
-    by OSCORE (Object Security for Constrained RESTful Environments), the pledge requests
-    admission into the network, and the JRC configures it with link-layer keying material
-    and other parameters.  The JRC may at any time update the parameters through another
-    request-response exchange secured by OSCORE.  This specification defines the Constrained
+    key. How this key is provisioned is out of scope of this document. Through a single
+    CoAP (Constrained Application Protocol) request-response exchange secured by OSCORE
+    (Object Security for Constrained RESTful Environments), the pledge requests admission
+    into the network, and the JRC configures it with link-layer keying material and
+    other parameters. The JRC may at any time update the parameters through another
+    request-response exchange secured by OSCORE. This specification defines the Constrained
     Join Protocol and its CBOR (Concise Binary Object Representation) data structures,
     and it describes how to configure the rest of the 6TiSCH communication stack for
-    this join process to occur in a secure manner.  Additional security mechanisms
+    this join process to occur in a secure manner. Additional security mechanisms
     may be added on top of this minimal framework.</p>
   language:
   - en
@@ -172,6 +172,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

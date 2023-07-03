@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6990
 title:
 - content: RTP Control Protocol (RTCP) Extended Report (XR) Block for MPEG-2 Transport
@@ -155,18 +155,22 @@ script:
 - Latn
 abstract:
 - content: "<p>An MPEG-2 Transport Stream (TS) is a standard container format used
-    in the transmission and storage of multimedia data.  Unicast/ multicast MPEG-2
-    TS over RTP is widely deployed in IPTV systems.  This document defines an RTP
-    Control Protocol (RTCP) Extended Report (XR) block that allows the reporting of
-    MPEG-2 TS decodability statistics metrics related to transmissions of MPEG-2 TS
-    over RTP.  The metrics specified in the RTCP XR block are not dependent on Program
-    Specific Information (PSI) carried in MPEG-2 TS.</p>"
+    in the transmission and storage of multimedia data. Unicast/ multicast MPEG-2
+    TS over RTP is widely deployed in IPTV systems. This document defines an RTP Control
+    Protocol (RTCP) Extended Report (XR) block that allows the reporting of MPEG-2
+    TS decodability statistics metrics related to transmissions of MPEG-2 TS over
+    RTP. The metrics specified in the RTCP XR block are not dependent on Program Specific
+    Information (PSI) carried in MPEG-2 TS.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

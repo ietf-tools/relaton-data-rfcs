@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3478
 title:
 - content: Graceful Restart Mechanism for Label Distribution Protocol
@@ -127,20 +127,20 @@ abstract:
     effects on MPLS traffic caused by Label Switching Router's (LSR's) control plane
     restart, specifically by the restart of its Label Distribution Protocol (LDP)
     component, on LSRs that are capable of preserving the MPLS forwarding component
-    across the restart.  The mechanism described in this document is applicable to
+    across the restart. The mechanism described in this document is applicable to
     all LSRs, both those with the ability to preserve forwarding state during LDP
     restart and those without (although the latter needs to implement only a subset
-    of the mechanism described in this document).  Supporting (a subset of) the mechanism
+    of the mechanism described in this document). Supporting (a subset of) the mechanism
     described here by the LSRs that can not preserve their MPLS forwarding state across
     the restart would not reduce the negative impact on MPLS traffic caused by their
     control plane restart, but it would minimize the impact if their neighbor(s) are
     capable of preserving the forwarding state across the restart of their control
-    plane and implement the mechanism described here.  The mechanism makes minimalistic
+    plane and implement the mechanism described here. The mechanism makes minimalistic
     assumptions on what has to be preserved across restart - the mechanism assumes
     that only the actual MPLS forwarding state has to be preserved; the mechanism
     does not require any of the LDP-related states to be preserved across the restart.
-    \ The procedures described in this document apply to downstream unsolicited label
-    distribution.  Extending these procedures to downstream on demand label distribution
+    The procedures described in this document apply to downstream unsolicited label
+    distribution. Extending these procedures to downstream on demand label distribution
     is for further study. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -148,6 +148,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

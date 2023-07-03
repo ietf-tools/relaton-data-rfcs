@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6618
 title:
 - content: Mobile IPv6 Security Framework Using Transport Layer Security for Communication
@@ -154,14 +154,14 @@ script:
 - Latn
 abstract:
 - content: "<p>Mobile IPv6 signaling between a Mobile Node (MN) and its Home Agent
-    (HA) is secured using IPsec.  The security association (SA) between an MN and
-    the HA is established using Internet Key Exchange Protocol (IKE) version 1 or
-    2.  The security model specified for Mobile IPv6, which relies on IKE/IPsec, requires
+    (HA) is secured using IPsec. The security association (SA) between an MN and the
+    HA is established using Internet Key Exchange Protocol (IKE) version 1 or 2. The
+    security model specified for Mobile IPv6, which relies on IKE/IPsec, requires
     interaction between the Mobile IPv6 protocol component and the IKE/IPsec module
-    of the IP stack.  This document proposes an alternate security framework for Mobile
+    of the IP stack. This document proposes an alternate security framework for Mobile
     IPv6 and Dual-Stack Mobile IPv6, which relies on Transport Layer Security for
     establishing keying material and other bootstrapping parameters required to protect
-    Mobile IPv6 signaling and data traffic between the MN and HA.  This document defines
+    Mobile IPv6 signaling and data traffic between the MN and HA. This document defines
     an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -169,6 +169,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

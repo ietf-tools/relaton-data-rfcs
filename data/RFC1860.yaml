@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1860
 title:
 - content: Variable Length Subnet Table For IPv4
@@ -94,8 +94,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document itemizes the potential values for IPv4 subnets.  This
-    memo provides information for the Internet community.  This memo does not specify
+- content: "<p>This document itemizes the potential values for IPv4 subnets. This
+    memo provides information for the Internet community. This memo does not specify
     an Internet standard of any kind.</p>"
   language:
   - en
@@ -114,6 +114,10 @@ relation:
       content: RFC1878
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

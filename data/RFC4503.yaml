@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4503
 title:
 - content: A Description of the Rabbit Stream Cipher Algorithm
@@ -123,18 +123,22 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the encryption algorithm Rabbit.  It is a stream
-    cipher algorithm with a 128-bit key and 64-bit initialization vector (IV).  The
+- content: "<p>This document describes the encryption algorithm Rabbit. It is a stream
+    cipher algorithm with a 128-bit key and 64-bit initialization vector (IV). The
     method was published in 2003 and has been subject to public security and performance
-    revision.  Its high performance makes it particularly suited for the use with
-    Internet protocols where large amounts of data have to be processed.  This memo
-    provides information for the Internet community.</p>"
+    revision. Its high performance makes it particularly suited for the use with Internet
+    protocols where large amounts of data have to be processed. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

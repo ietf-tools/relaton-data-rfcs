@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3619
 title:
 - content: Extreme Networks' Ethernet Automatic Protection Switching (EAPS) Version
@@ -97,15 +97,19 @@ script:
 abstract:
 - content: "<p>This document describes the Ethernet Automatic Protection Switching
     (EAPS) (tm) technology invented by Extreme Networks to increase the availability
-    and robustness of Ethernet rings.  An Ethernet ring built using EAPS can have
-    resilience comparable to that provided by SONET rings, at a lower cost and with
-    fewer constraints (e.g., ring size).</p>"
+    and robustness of Ethernet rings. An Ethernet ring built using EAPS can have resilience
+    comparable to that provided by SONET rings, at a lower cost and with fewer constraints
+    (e.g., ring size).</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

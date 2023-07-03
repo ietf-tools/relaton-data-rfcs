@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3439
 title:
 - content: Some Internet Architectural Guidelines and Philosophy
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>This document extends RFC 1958 by outlining some of the philosophical
     guidelines to which architects and designers of Internet backbone networks should
-    adhere.  We describe the Simplicity Principle, which states that complexity is
+    adhere. We describe the Simplicity Principle, which states that complexity is
     the primary mechanism that impedes efficient scaling, and discuss its implications
     on the architecture, design and engineering issues found in large scale Internet
-    backbones.  This memo provides information for the Internet community.</p>"
+    backbones. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
@@ -117,6 +117,10 @@ relation:
       content: RFC1958
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

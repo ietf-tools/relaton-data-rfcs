@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7170
 title:
 - content: Tunnel Extensible Authentication Protocol (TEAP) Version 1
@@ -153,17 +153,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the Tunnel Extensible Authentication Protocol
-    (TEAP) version 1.  TEAP is a tunnel-based EAP method that enables secure communication
+    (TEAP) version 1. TEAP is a tunnel-based EAP method that enables secure communication
     between a peer and a server by using the Transport Layer Security (TLS) protocol
-    to establish a mutually authenticated tunnel.  Within the tunnel, TLV objects
-    are used to convey authentication-related data between the EAP peer and the EAP
-    server.</p>"
+    to establish a mutually authenticated tunnel. Within the tunnel, TLV objects are
+    used to convey authentication-related data between the EAP peer and the EAP server.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

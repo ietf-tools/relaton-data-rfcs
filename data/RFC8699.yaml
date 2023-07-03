@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8699
 title:
 - content: Coupled Congestion Control for RTP Media
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: "<p>When multiple congestion-controlled Real-time Transport Protocol (RTP)
     sessions traverse the same network bottleneck, combining their controls can improve
-    the total on-the-wire behavior in terms of delay, loss, and fairness.  This document
+    the total on-the-wire behavior in terms of delay, loss, and fairness. This document
     describes such a method for flows that have the same sender, in a way that is
     as flexible and simple as possible while minimizing the number of changes needed
-    to existing RTP applications.  This document also specifies how to apply the method
+    to existing RTP applications. This document also specifies how to apply the method
     for the Network-Assisted Dynamic Adaptation (NADA) congestion control algorithm
     and provides suggestions on how to apply it to other congestion control algorithms.</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

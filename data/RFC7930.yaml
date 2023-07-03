@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7930
 title:
 - content: Larger Packets for RADIUS over TCP
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>The RADIUS-over-TLS experiment described in RFC 6614 has opened RADIUS
     to new use cases where the 4096-octet maximum size limit of a RADIUS packet proves
-    problematic.  This specification extends the RADIUS-over-TCP experiment (RFC 6613)
-    to permit larger RADIUS packets.  This specification compliments other ongoing
-    work to permit fragmentation of RADIUS authorization information.  This document
+    problematic. This specification extends the RADIUS-over-TCP experiment (RFC 6613)
+    to permit larger RADIUS packets. This specification compliments other ongoing
+    work to permit fragmentation of RADIUS authorization information. This document
     registers a new RADIUS code, an action that required IESG approval.</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC6613
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

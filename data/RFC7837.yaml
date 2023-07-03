@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7837
 title:
 - content: IPv6 Destination Option for Congestion Exposure (ConEx)
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>Congestion Exposure (ConEx) is a mechanism by which senders inform
     the network about the congestion encountered by packets earlier in the same flow.
-    \ This document specifies an IPv6 destination option that is capable of carrying
+    This document specifies an IPv6 destination option that is capable of carrying
     ConEx markings in IPv6 datagrams.</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1092
 title:
 - content: EGP and policy based routing in the new NSFNET backbone
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo discusses implementation decisions for routing issues in
-    the NSFNET, especially in the NSFNET Backbone.  Of special concern is the restriction
+    the NSFNET, especially in the NSFNET Backbone. Of special concern is the restriction
     of routing information to advertize the best route as established by a policy
     decision.</p>"
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3662
 title:
 - content: A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services
@@ -125,13 +125,13 @@ script:
 abstract:
 - content: <p>This document proposes a differentiated services per-domain behavior
     (PDB) whose traffic may be "starved" (although starvation is not strictly required)
-    in a properly functioning network.  This is in contrast to the Internet's "best-effort"
+    in a properly functioning network. This is in contrast to the Internet's "best-effort"
     or "normal Internet traffic" model, where prolonged starvation indicates network
-    problems.  In this sense, the proposed PDB's traffic is forwarded with a "lower"
+    problems. In this sense, the proposed PDB's traffic is forwarded with a "lower"
     priority than the normal "best-effort" Internet traffic, thus the PDB is called
-    "Lower Effort" (LE).  Use of this PDB permits a network operator to strictly limit
-    the effect of its traffic on "best-effort"/"normal" or all other Internet traffic.  This
-    document gives some example uses, but does not propose constraining the PDB's
+    "Lower Effort" (LE). Use of this PDB permits a network operator to strictly limit
+    the effect of its traffic on "best-effort"/"normal" or all other Internet traffic.
+    This document gives some example uses, but does not propose constraining the PDB's
     use to any particular type of traffic.</p>
   language:
   - en
@@ -150,6 +150,10 @@ relation:
       content: RFC8622
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

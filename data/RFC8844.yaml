@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8844
 title:
 - content: Unknown Key-Share Attacks on Uses of TLS with the Session Description Protocol
@@ -97,10 +97,10 @@ script:
 abstract:
 - content: "<p>This document describes unknown key-share attacks on the use of Datagram
     Transport Layer Security for the Secure Real-Time Transport Protocol (DTLS-SRTP).
-    \ Similar attacks are described on the use of DTLS-SRTP with the identity bindings
-    used in Web Real-Time Communications (WebRTC) and SIP identity.  These attacks
+    Similar attacks are described on the use of DTLS-SRTP with the identity bindings
+    used in Web Real-Time Communications (WebRTC) and SIP identity. These attacks
     are difficult to mount, but they cause a victim to be misled about the identity
-    of a communicating peer.  This document defines mitigation techniques that implementations
+    of a communicating peer. This document defines mitigation techniques that implementations
     of RFC 8122 are encouraged to deploy.</p>"
   language:
   - en
@@ -119,6 +119,10 @@ relation:
       content: RFC8122
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

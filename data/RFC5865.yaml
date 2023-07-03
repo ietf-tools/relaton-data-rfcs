@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5865
 title:
 - content: A Differentiated Services Code Point (DSCP) for Capacity-Admitted Traffic
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>This document requests one Differentiated Services Code Point (DSCP)
     from the Internet Assigned Numbers Authority (IANA) for a class of real-time traffic.
-    \ This traffic class conforms to the Expedited Forwarding Per-Hop Behavior.  This
+    This traffic class conforms to the Expedited Forwarding Per-Hop Behavior. This
     traffic is also admitted by the network using a Call Admission Control (CAC) procedure
-    involving authentication, authorization, and capacity admission.  This differs
+    involving authentication, authorization, and capacity admission. This differs
     from a real-time traffic class that conforms to the Expedited Forwarding Per-Hop
     Behavior but is not subject to capacity admission or subject to very coarse capacity
     admission. [STANDARDS-TRACK]</p>"
@@ -158,6 +158,10 @@ relation:
       content: RFC4594
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

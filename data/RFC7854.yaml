@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7854
 title:
 - content: BGP Monitoring Protocol (BMP)
@@ -124,17 +124,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the BGP Monitoring Protocol (BMP), which can
-    be used to monitor BGP sessions.  BMP is intended to provide a convenient interface
-    for obtaining route views.  Prior to the introduction of BMP, screen scraping
-    was the most commonly used approach to obtaining such views.  The design goals
-    are to keep BMP simple, useful, easily implemented, and minimally service affecting.
-    \ BMP is not suitable for use as a routing protocol.</p>"
+    be used to monitor BGP sessions. BMP is intended to provide a convenient interface
+    for obtaining route views. Prior to the introduction of BMP, screen scraping was
+    the most commonly used approach to obtaining such views. The design goals are
+    to keep BMP simple, useful, easily implemented, and minimally service affecting.
+    BMP is not suitable for use as a routing protocol.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

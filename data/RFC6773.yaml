@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6773
 title:
 - content: 'DCCP-UDP: A Datagram Congestion Control Protocol UDP Encapsulation for
@@ -125,9 +125,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies an alternative encapsulation of the Datagram
-    Congestion Control Protocol (DCCP), referred to as DCCP-UDP.  This encapsulation
+    Congestion Control Protocol (DCCP), referred to as DCCP-UDP. This encapsulation
     allows DCCP to be carried through the current generation of Network Address Translation
-    (NAT) middleboxes without modification of those middleboxes.  This document also
+    (NAT) middleboxes without modification of those middleboxes. This document also
     updates the Session Description Protocol (SDP) information for DCCP defined in
     RFC 5762. [STANDARDS-TRACK]</p>"
   language:
@@ -157,6 +157,10 @@ relation:
       content: RFC5762
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

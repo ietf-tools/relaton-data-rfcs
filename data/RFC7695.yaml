@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7695
 title:
 - content: Distributed Prefix Assignment Algorithm
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document specifies a distributed algorithm for dividing a set
     of prefixes in a manner that allows for automatic assignment of sub-prefixes that
-    are unique and non-overlapping.  Used in conjunction with a protocol that provides
+    are unique and non-overlapping. Used in conjunction with a protocol that provides
     flooding of information among a set of participating nodes, prefix configuration
     within a network may be automated.</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

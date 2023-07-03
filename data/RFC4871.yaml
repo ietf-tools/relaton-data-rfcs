@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4871
 title:
 - content: DomainKeys Identified Mail (DKIM) Signatures
@@ -213,10 +213,10 @@ abstract:
 - content: <p>DomainKeys Identified Mail (DKIM) defines a domain-level authentication
     framework for email using public-key cryptography and key server technology to
     permit verification of the source and contents of messages by either Mail Transfer
-    Agents (MTAs) or Mail User Agents (MUAs).  The ultimate goal of this framework
+    Agents (MTAs) or Mail User Agents (MUAs). The ultimate goal of this framework
     is to permit a signing domain to assert responsibility for a message, thus protecting
     message signer identity and the integrity of the messages they convey while retaining
-    the functionality of Internet email as it is known today.  Protection of email
+    the functionality of Internet email as it is known today. Protection of email
     identity may assist in the global control of "spam" and "phishing". [STANDARDS-TRACK]</p>
   language:
   - en
@@ -235,6 +235,10 @@ relation:
       content: RFC6376
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

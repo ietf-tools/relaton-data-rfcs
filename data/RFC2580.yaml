@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2580
 title:
 - content: Conformance Statements for SMIv2
@@ -123,10 +123,10 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Collections of related objects are defined in MIB modules.  It may
-    be useful to define the acceptable lower-bounds of implementation, along with
-    the actual level of implementation achieved.  It is the purpose of this document
-    to define the notation used for these purposes. [STANDARDS-TRACK]</p>"
+- content: "<p>Collections of related objects are defined in MIB modules. It may be
+    useful to define the acceptable lower-bounds of implementation, along with the
+    actual level of implementation achieved. It is the purpose of this document to
+    define the notation used for these purposes. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -137,6 +137,10 @@ series:
     content: STD
     format: text/plain
   number: '58'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

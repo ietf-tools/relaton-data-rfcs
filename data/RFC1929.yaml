@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1929
 title:
 - content: Username/Password Authentication for SOCKS V5
@@ -67,14 +67,18 @@ script:
 abstract:
 - content: <p>The protocol specification for SOCKS Version 5 specifies a generalized
     framework for the use of arbitrary authentication protocols in the initial socks
-    connection setup.  This document describes one of those protocols, as it fits
-    into the SOCKS Version 5 authentication "subnegotiation". [STANDARDS-TRACK]</p>
+    connection setup. This document describes one of those protocols, as it fits into
+    the SOCKS Version 5 authentication "subnegotiation". [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

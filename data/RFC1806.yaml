@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1806
 title:
 - content: 'Communicating Presentation Information in Internet Messages: The Content-Disposition
@@ -96,7 +96,7 @@ script:
 - Latn
 abstract:
 - content: <p>This memo provides a mechanism whereby messages conforming to the [RFC
-    1521] ("MIME") specification can convey presentational information.  This memo
+    1521] ("MIME") specification can convey presentational information. This memo
     defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC2183
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

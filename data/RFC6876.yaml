@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6876
 title:
 - content: A Posture Transport Protocol over TLS (PT-TLS)
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies PT-TLS, a TLS-based Posture Transport (PT)
-    protocol.  The PT-TLS protocol carries the Network Endpoint Assessment (NEA) message
+    protocol. The PT-TLS protocol carries the Network Endpoint Assessment (NEA) message
     exchange under the protection of a Transport Layer Security (TLS) secured tunnel.</p>"
   language:
   - en
@@ -132,6 +132,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

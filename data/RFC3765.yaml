@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3765
 title:
 - content: NOPEER Community for Border Gateway Protocol (BGP) Route Scope Control
@@ -66,17 +66,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the use of a scope control Border Gateway Protocol
-    (BGP) community.  This well-known advisory transitive community allows an origin
+    (BGP) community. This well-known advisory transitive community allows an origin
     AS to specify the extent to which a specific route should be externally propagated.
-    \ In particular this community, NOPEER, allows an origin AS to specify that a
-    route with this attribute need not be advertised across bilateral peer connections.
-    \ This memo provides information for the Internet community.</p>"
+    In particular this community, NOPEER, allows an origin AS to specify that a route
+    with this attribute need not be advertised across bilateral peer connections.
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

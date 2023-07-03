@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC912
 title:
 - content: Authentication service
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a proposed authentication protocol for verifying
-    the identity of a user of a TCP connection.  Given a TCP port number pair, it
-    returns a character string which identifies the owner of that connection on the
-    server's system.  Suggested uses include automatic identification and verification
-    of a user during an FTP session, additional verification of a TAC dial up user,
-    and access verification for a generalized network file server.</p>"
+    the identity of a user of a TCP connection. Given a TCP port number pair, it returns
+    a character string which identifies the owner of that connection on the server's
+    system. Suggested uses include automatic identification and verification of a
+    user during an FTP session, additional verification of a TAC dial up user, and
+    access verification for a generalized network file server.</p>"
   language:
   - en
   script:
@@ -88,6 +88,10 @@ relation:
       content: RFC0931
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

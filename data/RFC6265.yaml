@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6265
 title:
 - content: HTTP State Management Mechanism
@@ -66,17 +66,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the HTTP Cookie and Set-Cookie header fields.
-    \ These header fields can be used by HTTP servers to store state (called cookies)
+    These header fields can be used by HTTP servers to store state (called cookies)
     at HTTP user agents, letting the servers maintain a stateful session over the
-    mostly stateless HTTP protocol.  Although cookies have many historical infelicities
+    mostly stateless HTTP protocol. Although cookies have many historical infelicities
     that degrade their security and privacy, the Cookie and Set-Cookie header fields
-    are widely used on the Internet.  This document obsoletes RFC 2965. [STANDARDS-TRACK]</p>"
+    are widely used on the Internet. This document obsoletes RFC 2965. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

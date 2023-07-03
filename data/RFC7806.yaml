@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7806
 title:
 - content: On Queuing, Marking, and Dropping
@@ -94,7 +94,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This note discusses queuing and marking/dropping algorithms.  While
+- content: "<p>This note discusses queuing and marking/dropping algorithms. While
     these algorithms may be implemented in a coupled manner, this note argues that
     specifications, measurements, and comparisons should decouple the different algorithms
     and their contributions to system behavior.</p>"
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8086
 title:
 - content: GRE-in-UDP Encapsulation
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a method of encapsulating network protocol
-    packets within GRE and UDP headers.  This GRE-in-UDP encapsulation allows the
-    UDP source port field to be used as an entropy field.  This may be used for load-balancing
+    packets within GRE and UDP headers. This GRE-in-UDP encapsulation allows the UDP
+    source port field to be used as an entropy field. This may be used for load-balancing
     of GRE traffic in transit networks using existing Equal-Cost Multipath (ECMP)
-    mechanisms.  There are two applicability scenarios for GRE-in-UDP with different
+    mechanisms. There are two applicability scenarios for GRE-in-UDP with different
     requirements: (1) general Internet and (2) a traffic-managed controlled environment.
-    \ The controlled environment has less restrictive requirements than the general
+    The controlled environment has less restrictive requirements than the general
     Internet.</p>"
   language:
   - en
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

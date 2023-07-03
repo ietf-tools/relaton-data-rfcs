@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5463
 title:
 - content: 'Sieve Email Filtering:  Ihave Extension'
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the "ihave" extension to the Sieve email filtering
-    language.  The "ihave" extension provides a means to write scripts that can take
+    language. The "ihave" extension provides a means to write scripts that can take
     advantage of optional Sieve features but can still run when those optional features
-    are not available.  The extension also defines a new error control command intended
+    are not available. The extension also defines a new error control command intended
     to be used to report situations where no combination of available extensions satisfies
     the needs of the script. [STANDARDS-TRACK]</p>
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

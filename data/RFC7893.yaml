@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7893
 title:
 - content: Pseudowire Congestion Considerations
@@ -112,18 +112,18 @@ script:
 abstract:
 - content: "<p>Pseudowires (PWs) have become a common mechanism for tunneling traffic
     and may be found in unmanaged scenarios competing for network resources both with
-    other PWs and with non-PW traffic, such as TCP/IP flows.  Thus, it is worthwhile
+    other PWs and with non-PW traffic, such as TCP/IP flows. Thus, it is worthwhile
     specifying under what conditions such competition is acceptable, i.e., the PW
     traffic does not significantly harm other traffic or contribute more than it should
-    to congestion.  We conclude that PWs transporting responsive traffic behave as
-    desired without the need for additional mechanisms.  For inelastic PWs (such as
+    to congestion. We conclude that PWs transporting responsive traffic behave as
+    desired without the need for additional mechanisms. For inelastic PWs (such as
     Time Division Multiplexing (TDM) PWs), we derive a bound under which such PWs
-    consume no more network capacity than a TCP flow.  For TDM PWs, we find that the
+    consume no more network capacity than a TCP flow. For TDM PWs, we find that the
     level of congestion at which the PW can no longer deliver acceptable TDM service
     is never significantly greater, and is typically much lower, than this bound.
-    \ Therefore, as long as the PW is shut down when it can no longer deliver acceptable
+    Therefore, as long as the PW is shut down when it can no longer deliver acceptable
     TDM service, it will never do significantly more harm than even a single TCP flow.
-    \ If the TDM service does not automatically shut down, a mechanism to block persistently
+    If the TDM service does not automatically shut down, a mechanism to block persistently
     unacceptable TDM pseudowires is required.</p>"
   language:
   - en
@@ -131,6 +131,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

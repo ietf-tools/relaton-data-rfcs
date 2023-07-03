@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3691
 title:
 - content: Internet Message Access Protocol (IMAP) UNSELECT command
@@ -67,8 +67,8 @@ script:
 abstract:
 - content: "<p>This document defines an UNSELECT command that can be used to close
     the current mailbox in an Internet Message Access Protocol - version 4 (IMAP4)
-    session without expunging it.  Certain types of IMAP clients need to release resources
-    associated with the selected mailbox without selecting a different mailbox.  While
+    session without expunging it. Certain types of IMAP clients need to release resources
+    associated with the selected mailbox without selecting a different mailbox. While
     IMAP4 provides this functionality (via a SELECT command with a nonexistent mailbox
     name or reselecting the same mailbox with EXAMINE command), a more clean solution
     is desirable. [STANDARDS-TRACK]</p>"
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8327
 title:
 - content: Mitigating the Negative Impact of Maintenance through BGP Session Culling
@@ -153,8 +153,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document outlines an approach to mitigate the negative impact
-    on networks resulting from maintenance activities.  It includes guidance for both
-    IP networks and Internet Exchange Points (IXPs).  The approach is to ensure BGP-4
+    on networks resulting from maintenance activities. It includes guidance for both
+    IP networks and Internet Exchange Points (IXPs). The approach is to ensure BGP-4
     sessions that will be affected by maintenance are forcefully torn down before
     the actual maintenance activities commence.</p>"
   language:
@@ -167,6 +167,10 @@ series:
     content: BCP
     format: text/plain
   number: '214'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

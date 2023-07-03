@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8272
 title:
 - content: TinyIPFIX for Smart Meters in Constrained Networks
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>This document specifies the TinyIPFIX protocol that is used for transmitting
     smart-metering data in constrained networks such as IPv6 over Low-Power Wireless
-    Personal Area Networks (6LoWPAN, RFC 4944).  TinyIPFIX is derived from IP Flow
+    Personal Area Networks (6LoWPAN, RFC 4944). TinyIPFIX is derived from IP Flow
     Information Export (RFC 7011) and adopted to the needs of constrained networks.
-    \ This document specifies how the TinyIPFIX Data and Template Records are transmitted
+    This document specifies how the TinyIPFIX Data and Template Records are transmitted
     in constrained networks such as 6LoWPAN and how TinyIPFIX data can be converted
     into data that is not TinyIPFIX in a proxy device.</p>"
   language:
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

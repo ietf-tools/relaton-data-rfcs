@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1354
 title:
 - content: IP Forwarding Table MIB
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in TCP/IP-based internets.  In particular,
+    for use with network management protocols in TCP/IP-based internets. In particular,
     it defines objects for managing routes in the IP Internet. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -85,6 +85,10 @@ relation:
       content: RFC2096
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

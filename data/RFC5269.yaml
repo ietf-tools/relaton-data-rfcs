@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5269
 title:
 - content: Distributing a Symmetric Fast Mobile IPv6 (FMIPv6) Handover Key Using SEcure
@@ -97,19 +97,19 @@ script:
 abstract:
 - content: "<p>Fast Mobile IPv6 requires that a Fast Binding Update is secured using
     a security association shared between an Access Router and a Mobile Node in order
-    to avoid certain attacks.  In this document, a method for provisioning a shared
+    to avoid certain attacks. In this document, a method for provisioning a shared
     key from the Access Router to the Mobile Node is defined to protect this signaling.
-    \ The Mobile Node generates a public/private key pair using the same public key
-    algorithm as for SEND (RFC 3971).  The Mobile Node sends the public key to the
-    Access Router.  The Access Router encrypts a shared handover key using the public
-    key and sends it back to the Mobile Node.  The Mobile Node decrypts the shared
+    The Mobile Node generates a public/private key pair using the same public key
+    algorithm as for SEND (RFC 3971). The Mobile Node sends the public key to the
+    Access Router. The Access Router encrypts a shared handover key using the public
+    key and sends it back to the Mobile Node. The Mobile Node decrypts the shared
     handover key using the matching private key, and the handover key is then available
-    for generating an authenticator on a Fast Binding Update.  The Mobile Node and
+    for generating an authenticator on a Fast Binding Update. The Mobile Node and
     Access Router use the Router Solicitation for Proxy Advertisement and Proxy Router
-    Advertisement from Fast Mobile IPv6 for the key exchange.  The key exchange messages
+    Advertisement from Fast Mobile IPv6 for the key exchange. The key exchange messages
     are required to have SEND security; that is, the source address is a Cryptographically
     Generated Address (CGA) and the messages are signed using the CGA private key
-    of the sending node.  This allows the Access Router, prior to providing the shared
+    of the sending node. This allows the Access Router, prior to providing the shared
     handover key, to verify the authorization of the Mobile Node to claim the address
     so that the previous care-of CGA in the Fast Binding Update can act as the name
     of the key. [STANDARDS-TRACK]</p>"
@@ -119,6 +119,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7091
 title:
 - content: 'GOST R 34.10-2012: Digital Signature Algorithm'
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>This document provides information about the Russian Federal standard
     for digital signatures (GOST R 34.10-2012), which is one of the Russian cryptographic
-    standard algorithms (called GOST algorithms).  Recently, Russian cryptography
-    is being used in Internet applications, and this document provides information
-    for developers and users of GOST R 34.10-2012 regarding digital signature generation
-    and verification.  This document updates RFC 5832.</p>"
+    standard algorithms (called GOST algorithms). Recently, Russian cryptography is
+    being used in Internet applications, and this document provides information for
+    developers and users of GOST R 34.10-2012 regarding digital signature generation
+    and verification. This document updates RFC 5832.</p>"
   language:
   - en
   script:
@@ -117,6 +117,10 @@ relation:
       content: RFC5832
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

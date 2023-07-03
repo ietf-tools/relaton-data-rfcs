@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC983
 title:
 - content: ISO transport arrives on top of the TCP
@@ -105,14 +105,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a proposed protocol standard for the ARPA Internet
-    community.  The CCITT and the ISO have defined various session, presentation,
-    and application recommendations which have been adopted by the international community
-    and numerous vendors.  To the largest extent possible, it is desirable to offer
+    community. The CCITT and the ISO have defined various session, presentation, and
+    application recommendations which have been adopted by the international community
+    and numerous vendors. To the largest extent possible, it is desirable to offer
     these higher level services directly in the ARPA Internet, without disrupting
-    existing facilities.  This permits users to develop expertise with ISO and CCITT
-    applications which previously were not available in the ARPA Internet.  The intention
+    existing facilities. This permits users to develop expertise with ISO and CCITT
+    applications which previously were not available in the ARPA Internet. The intention
     is that hosts in the ARPA-Internet that choose to implement ISO TSAP services
-    on top of the TCP be expected to adopt and implement this standard.  Suggestions
+    on top of the TCP be expected to adopt and implement this standard. Suggestions
     for improvement are encouraged.</p>"
   language:
   - en
@@ -131,6 +131,10 @@ relation:
       content: RFC1006
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

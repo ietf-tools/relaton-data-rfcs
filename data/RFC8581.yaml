@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8581
 title:
 - content: Diameter Agent Overload and the Peer Overload Report
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This specification documents an extension to the Diameter Overload
     Indication Conveyance (DOIC), a base solution for Diameter overload defined in
-    RFC 7683.  The extension defines the Peer Overload report type.  The initial use
+    RFC 7683. The extension defines the Peer Overload report type. The initial use
     case for the peer report is the handling of occurrences of overload of a Diameter
     Agent.</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC7683
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8074
 title:
 - content: Source Address Validation Improvement (SAVI) for Mixed Address Assignment
@@ -155,7 +155,7 @@ script:
 abstract:
 - content: "<p>In networks that use multiple techniques for address assignment, the
     spoofing of addresses assigned by each technique can be prevented using the appropriate
-    Source Address Validation Improvement (SAVI) methods.  This document reviews how
+    Source Address Validation Improvement (SAVI) methods. This document reviews how
     multiple SAVI methods can coexist in a single SAVI device and how collisions are
     resolved when the same binding entry is discovered by two or more methods.</p>"
   language:
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

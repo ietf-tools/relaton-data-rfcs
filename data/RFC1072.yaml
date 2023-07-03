@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1072
 title:
 - content: TCP extensions for long-delay paths
@@ -100,8 +100,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC proposes a set of extensions to the TCP protocol to provide
-    efficient operation over a path with a high bandwidth*delay product.  These extensions
-    are not proposed as an Internet standard at this time.  Instead, they are intended
+    efficient operation over a path with a high bandwidth*delay product. These extensions
+    are not proposed as an Internet standard at this time. Instead, they are intended
     as a basis for further experimentation and research on transport protocol performance.</p>"
   language:
   - en
@@ -140,6 +140,10 @@ relation:
       content: RFC6247
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

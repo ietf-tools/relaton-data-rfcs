@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8076
 title:
 - content: A Usage for Shared Resources in RELOAD (ShaRe)
@@ -153,12 +153,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a REsource LOcation And Discovery (RELOAD) Usage
-    for managing shared write access to RELOAD Resources.  Shared Resources in RELOAD
+    for managing shared write access to RELOAD Resources. Shared Resources in RELOAD
     (ShaRe) form a basic primitive for enabling various coordination and notification
-    schemes among distributed peers.  Access in ShaRe is controlled by a hierarchical
-    trust delegation scheme maintained within an access list.  A new USER-CHAIN-ACL
+    schemes among distributed peers. Access in ShaRe is controlled by a hierarchical
+    trust delegation scheme maintained within an access list. A new USER-CHAIN-ACL
     access policy allows authorized peers to write a Shared Resource without owning
-    its corresponding certificate.  This specification also adds mechanisms to store
+    its corresponding certificate. This specification also adds mechanisms to store
     Resources with a variable name that is useful whenever peer-independent rendezvous
     processes are required.</p>"
   language:
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

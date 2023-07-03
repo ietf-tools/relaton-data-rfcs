@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8310
 title:
 - content: Usage Profiles for DNS over TLS and DNS over DTLS
@@ -125,12 +125,12 @@ script:
 abstract:
 - content: "<p>This document discusses usage profiles, based on one or more authentication
     mechanisms, which can be used for DNS over Transport Layer Security (TLS) or Datagram
-    TLS (DTLS).  These profiles can increase the privacy of DNS transactions compared
-    to using only cleartext DNS.  This document also specifies new authentication
-    mechanisms -- it describes several ways that a DNS client can use an authentication
-    domain name to authenticate a (D)TLS connection to a DNS server.  Additionally,
-    it defines (D)TLS protocol profiles for DNS clients and servers implementing DNS
-    over (D)TLS.  This document updates RFC 7858.</p>"
+    TLS (DTLS). These profiles can increase the privacy of DNS transactions compared
+    to using only cleartext DNS. This document also specifies new authentication mechanisms
+    -- it describes several ways that a DNS client can use an authentication domain
+    name to authenticate a (D)TLS connection to a DNS server. Additionally, it defines
+    (D)TLS protocol profiles for DNS clients and servers implementing DNS over (D)TLS.
+    This document updates RFC 7858.</p>"
   language:
   - en
   script:
@@ -148,6 +148,10 @@ relation:
       content: RFC7858
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

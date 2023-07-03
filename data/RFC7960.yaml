@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7960
 title:
 - content: Interoperability Issues between Domain-based Message Authentication, Reporting,
@@ -184,10 +184,10 @@ script:
 abstract:
 - content: <p>Domain-based Message Authentication, Reporting, and Conformance (DMARC)
     introduces a mechanism for expressing domain-level policies and preferences for
-    email message validation, disposition, and reporting.  However, the DMARC mechanism
+    email message validation, disposition, and reporting. However, the DMARC mechanism
     enables potentially disruptive interoperability issues when messages do not flow
-    directly from the author's administrative domain to the final Recipients.  Collectively,
-    these email flows are referred to as "indirect email flows".  This document describes
+    directly from the author's administrative domain to the final Recipients. Collectively,
+    these email flows are referred to as "indirect email flows". This document describes
     these interoperability issues and presents possible methods for addressing them.</p>
   language:
   - en
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

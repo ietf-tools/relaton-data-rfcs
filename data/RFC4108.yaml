@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4108
 title:
 - content: Using Cryptographic Message Syntax (CMS) to Protect Firmware Packages
@@ -67,12 +67,12 @@ script:
 abstract:
 - content: "<p>This document describes the use of the Cryptographic Message Syntax
     (CMS) to protect firmware packages, which provide object code for one or more
-    hardware module components.  CMS is specified in RFC 3852.  A digital signature
+    hardware module components. CMS is specified in RFC 3852. A digital signature
     is used to protect the firmware package from undetected modification and to provide
-    data origin authentication.  Encryption is optionally used to protect the firmware
+    data origin authentication. Encryption is optionally used to protect the firmware
     package from disclosure, and compression is optionally used to reduce the size
-    of the protected firmware package.  A firmware package loading receipt can optionally
-    be generated to acknowledge the successful loading of a firmware package.  Similarly,
+    of the protected firmware package. A firmware package loading receipt can optionally
+    be generated to acknowledge the successful loading of a firmware package. Similarly,
     a firmware package load error report can optionally be generated to convey the
     failure to load a firmware package. [STANDARDS-TRACK]</p>"
   language:
@@ -81,6 +81,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

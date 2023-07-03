@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5102
 title:
 - content: Information Model for IP Flow Information Export
@@ -182,9 +182,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines an information model for the IP Flow Information
-    eXport (IPFIX) protocol.  It is used by the IPFIX protocol for encoding measured
+    eXport (IPFIX) protocol. It is used by the IPFIX protocol for encoding measured
     traffic information and information related to the traffic Observation Point,
-    the traffic Metering Process, and the Exporting Process.  Although developed for
+    the traffic Metering Process, and the Exporting Process. Although developed for
     the IPFIX protocol, the model is defined in an open way that easily allows using
     it in other protocols, interfaces, and applications. [STANDARDS-TRACK]</p>"
   language:
@@ -204,6 +204,10 @@ relation:
       content: RFC7012
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7291
 title:
 - content: DHCP Options for the Port Control Protocol (PCP)
@@ -124,8 +124,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies DHCP (IPv4 and IPv6) options to configure hosts
-    with Port Control Protocol (PCP) server IP addresses.  The use of DHCPv4 or DHCPv6
-    depends on the PCP deployment scenarios.  The set of deployment scenarios to which
+    with Port Control Protocol (PCP) server IP addresses. The use of DHCPv4 or DHCPv6
+    depends on the PCP deployment scenarios. The set of deployment scenarios to which
     DHCPv4 or DHCPv6 can be applied is outside the scope of this document.</p>"
   language:
   - en
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

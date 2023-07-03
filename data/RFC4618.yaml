@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4618
 title:
 - content: Encapsulation Methods for Transport of PPP/High-Level Data Link Control
@@ -155,9 +155,9 @@ script:
 abstract:
 - content: <p>A pseudowire (PW) can be used to carry Point to Point Protocol (PPP)
     or High-Level Data Link Control (HDLC) Protocol Data Units over a Multiprotocol
-    Label Switching (MPLS) network without terminating the PPP/HDLC protocol.  This
+    Label Switching (MPLS) network without terminating the PPP/HDLC protocol. This
     enables service providers to offer "emulated" HDLC, or PPP link services over
-    existing MPLS networks.  This document specifies the encapsulation of PPP/HDLC
+    existing MPLS networks. This document specifies the encapsulation of PPP/HDLC
     Packet Data Units (PDUs) within a pseudowire. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

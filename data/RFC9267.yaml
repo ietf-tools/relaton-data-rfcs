@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9267
 title:
 - content: Common Implementation Anti-Patterns Related to Domain Name System (DNS)
@@ -155,8 +155,8 @@ script:
 abstract:
 - content: "<p>This memo describes common vulnerabilities related to Domain Name System
     (DNS) resource record (RR) processing as seen in several DNS client implementations.
-    \ These vulnerabilities may lead to successful Denial-of-Service and Remote Code
-    Execution attacks against the affected software.  Where applicable, violations
+    These vulnerabilities may lead to successful Denial-of-Service and Remote Code
+    Execution attacks against the affected software. Where applicable, violations
     of RFC 1035 are mentioned.</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2588
 title:
 - content: IP Multicast and Firewalls
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>In this document, we discuss the issues surrounding the traversal of
     IP multicast traffic across a firewall, and describe possible ways in which a
-    firewall can implement and control this traversal.  We also explain why some firewall
+    firewall can implement and control this traversal. We also explain why some firewall
     mechanisms - such as SOCKS - that were designed specifically for unicast traffic,
-    are less appropriate for multicast.  This memo provides information for the Internet
+    are less appropriate for multicast. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

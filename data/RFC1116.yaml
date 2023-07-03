@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1116
 title:
 - content: Telnet Linemode option
@@ -71,7 +71,7 @@ script:
 - Latn
 abstract:
 - content: "<p>Hosts on the Internet that support Linemode within the Telnet protocol
-    are expected to adopt and implement this protocol.  Obsoleted by RFC 1184. [STANDARDS-TRACK]</p>"
+    are expected to adopt and implement this protocol. Obsoleted by RFC 1184. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -89,6 +89,10 @@ relation:
       content: RFC1184
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

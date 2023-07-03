@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3519
 title:
 - content: Mobile IP Traversal of Network Address Translation (NAT) Devices
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Mobile IP's datagram tunnelling is incompatible with Network Address
-    Translation (NAT).  This document presents extensions to the Mobile IP protocol
+    Translation (NAT). This document presents extensions to the Mobile IP protocol
     and a tunnelling method which permits mobile nodes using Mobile IP to operate
     in private address networks which are separated from the public internet by NAT
-    devices.  The NAT traversal is based on using the Mobile IP Home Agent UDP port
+    devices. The NAT traversal is based on using the Mobile IP Home Agent UDP port
     for encapsulated data traffic. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

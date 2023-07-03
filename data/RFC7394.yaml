@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7394
 title:
 - content: Definition of Time to Live TLV for LSP-Ping Mechanisms
@@ -211,10 +211,10 @@ script:
 - Latn
 abstract:
 - content: "<p>LSP-Ping is a widely deployed Operation, Administration, and Maintenance
-    (OAM) mechanism in MPLS networks.  However, in the present form, this mechanism
+    (OAM) mechanism in MPLS networks. However, in the present form, this mechanism
     is inadequate to verify connectivity of a segment of a Multi-Segment Pseudowire
     (MS-PW) and/or bidirectional co-routed Label Switched Path (LSP) from any node
-    on the path of the MS-PW and/or bidirectional co-routed LSP.  This document defines
+    on the path of the MS-PW and/or bidirectional co-routed LSP. This document defines
     a TLV to address this shortcoming.</p>"
   language:
   - en
@@ -222,6 +222,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

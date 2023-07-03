@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7287
 title:
 - content: Mobile Multicast Sender Support in Proxy Mobile IPv6 (PMIPv6) Domains
@@ -155,17 +155,21 @@ abstract:
 - content: "<p>Multicast communication can be enabled in Proxy Mobile IPv6 (PMIPv6)
     domains via the Local Mobility Anchors by deploying Multicast Listener Discovery
     (MLD) proxy functions at Mobile Access Gateways, by using direct traffic distribution
-    within an ISP's access network, or by selective route optimization schemes.  This
+    within an ISP's access network, or by selective route optimization schemes. This
     document describes a base solution and an experimental protocol to support mobile
-    multicast senders in PMIPv6 domains for all three scenarios.  Protocol optimizations
+    multicast senders in PMIPv6 domains for all three scenarios. Protocol optimizations
     for synchronizing PMIPv6 with PIM, as well as a peering function for MLD proxies
-    are defined.  Mobile sources always remain agnostic of multicast mobility operations.</p>"
+    are defined. Mobile sources always remain agnostic of multicast mobility operations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7361
 title:
 - content: LDP Extensions for Optimized MAC Address Withdrawal in a Hierarchical Virtual
@@ -184,11 +184,11 @@ script:
 abstract:
 - content: "<p>RFC 4762 describes a mechanism to remove or unlearn Media Access Control
     (MAC) addresses that have been dynamically learned in a Virtual Private LAN Service
-    (VPLS) instance for faster convergence on topology changes.  The procedure also
+    (VPLS) instance for faster convergence on topology changes. The procedure also
     removes MAC addresses in the VPLS that do not require relearning due to such topology
-    changes.  This document defines an enhancement to the MAC address withdraw procedure
+    changes. This document defines an enhancement to the MAC address withdraw procedure
     with an empty MAC list (RFC 4762); this enhancement enables a Provider Edge (PE)
-    device to remove only the MAC addresses that need to be relearned.  Additional
+    device to remove only the MAC addresses that need to be relearned. Additional
     extensions to RFC 4762 MAC withdraw procedures are specified to provide an optimized
     MAC flushing for the Provider Backbone Bridging (PBB) VPLS specified in RFC 7041.</p>"
   language:
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

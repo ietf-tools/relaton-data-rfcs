@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7636
 title:
 - content: Proof Key for Code Exchange by OAuth Public Clients
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: <p>OAuth 2.0 public clients utilizing the Authorization Code Grant are
-    susceptible to the authorization code interception attack.  This specification
+    susceptible to the authorization code interception attack. This specification
     describes the attack as well as a technique to mitigate against the threat through
     the use of Proof Key for Code Exchange (PKCE, pronounced "pixy").</p>
   language:
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

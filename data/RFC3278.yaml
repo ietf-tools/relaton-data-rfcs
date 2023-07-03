@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3278
 title:
 - content: Use of Elliptic Curve Cryptography (ECC) Algorithms in Cryptographic Message
@@ -125,12 +125,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how to use Elliptic Curve Cryptography (ECC)
-    public-key algorithms in the Cryptographic Message Syntax (CMS).  The ECC algorithms
+    public-key algorithms in the Cryptographic Message Syntax (CMS). The ECC algorithms
     support the creation of digital signatures and the exchange of keys to encrypt
-    or authenticate content.  The definition of the algorithm processing is based
-    on the ANSI X9.62 standard, developed by the ANSI X9F1 working group, the IEEE
-    1363 standard, and the SEC 1 standard.  This memo provides information for the
-    Internet community.</p>"
+    or authenticate content. The definition of the algorithm processing is based on
+    the ANSI X9.62 standard, developed by the ANSI X9F1 working group, the IEEE 1363
+    standard, and the SEC 1 standard. This memo provides information for the Internet
+    community.</p>"
   language:
   - en
   script:
@@ -148,6 +148,10 @@ relation:
       content: RFC5753
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

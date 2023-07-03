@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9255
 title:
 - content: The 'I' in RPKI Does Not Stand for Identity
@@ -96,13 +96,17 @@ script:
 abstract:
 - content: "<p>There is a false notion that Internet Number Resources (INRs) in the
     RPKI can be associated with the real-world identity of the 'holder' of an INR.
-    \ This document specifies that RPKI does not associate to the INR holder.</p>"
+    This document specifies that RPKI does not associate to the INR holder.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2671
 title:
 - content: Extension Mechanisms for DNS (EDNS0)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>The Domain Name System's wire protocol includes a number of fixed fields
     whose range has been or soon will be exhausted and does not allow clients to advertise
-    their capabilities to servers.  This document describes backward compatible mechanisms
+    their capabilities to servers. This document describes backward compatible mechanisms
     for allowing the protocol to grow. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -86,6 +86,10 @@ relation:
       content: RFC6891
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

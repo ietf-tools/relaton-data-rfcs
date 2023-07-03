@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5566
 title:
 - content: BGP IPsec Tunnel Encapsulation Attribute
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>The BGP Encapsulation Subsequent Address Family Identifier (SAFI) provides
     a method for the dynamic exchange of encapsulation information and for the indication
-    of encapsulation protocol types to be used for different next hops.  Currently,
+    of encapsulation protocol types to be used for different next hops. Currently,
     support for Generic Routing Encapsulation (GRE), Layer 2 Tunneling Protocol (L2TPv3),
-    and IP in IP tunnel types are defined.  This document defines support for IPsec
+    and IP in IP tunnel types are defined. This document defines support for IPsec
     tunnel types. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC9012
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

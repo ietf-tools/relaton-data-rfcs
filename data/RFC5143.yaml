@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5143
 title:
 - content: Synchronous Optical Network/Synchronous Digital Hierarchy (SONET/SDH) Circuit
@@ -184,11 +184,11 @@ script:
 abstract:
 - content: "<p>This document describes a historical method for encapsulating Synchronous
     Optical Network/Synchronous Digital Hierarchy (SONET/SDH) Path signals for transport
-    across packet-switched networks (PSNs).  The PSNs explicitly supported by this
-    document include MPLS and IP.  Note that RFC 4842 describes the standards-track
+    across packet-switched networks (PSNs). The PSNs explicitly supported by this
+    document include MPLS and IP. Note that RFC 4842 describes the standards-track
     protocol for this functionality, and new implementations must use RFC 4842 rather
     than this document except when interoperability with older implementations is
-    desired.  This memo defines a Historic Document for the Internet community.</p>"
+    desired. This memo defines a Historic Document for the Internet community.</p>"
   language:
   - en
   script:
@@ -206,6 +206,10 @@ relation:
       content: RFC4842
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

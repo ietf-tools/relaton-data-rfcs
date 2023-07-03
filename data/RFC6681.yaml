@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6681
 title:
 - content: Raptor Forward Error Correction (FEC) Schemes for FECFRAME
@@ -125,15 +125,15 @@ script:
 abstract:
 - content: "<p>This document describes Fully-Specified Forward Error Correction (FEC)
     Schemes for the Raptor and RaptorQ codes and their application to reliable delivery
-    of media streams in the context of the FEC Framework.  The Raptor and RaptorQ
-    codes are systematic codes, where a number of repair symbols are generated from
-    a set of source symbols and sent in one or more repair flows in addition to the
-    source symbols that are sent to the receiver(s) within a source flow.  The Raptor
-    and RaptorQ codes offer close to optimal protection against arbitrary packet losses
-    at a low computational complexity.  Six FEC Schemes are defined: two for the protection
+    of media streams in the context of the FEC Framework. The Raptor and RaptorQ codes
+    are systematic codes, where a number of repair symbols are generated from a set
+    of source symbols and sent in one or more repair flows in addition to the source
+    symbols that are sent to the receiver(s) within a source flow. The Raptor and
+    RaptorQ codes offer close to optimal protection against arbitrary packet losses
+    at a low computational complexity. Six FEC Schemes are defined: two for the protection
     of arbitrary packet flows, two that are optimized for small source blocks, and
     two for the protection of a single flow that already contains a sequence number.
-    \ Repair data may be sent over arbitrary datagram transport (e.g., UDP) or using
+    Repair data may be sent over arbitrary datagram transport (e.g., UDP) or using
     RTP. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -141,6 +141,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

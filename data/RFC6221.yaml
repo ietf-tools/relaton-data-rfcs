@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6221
 title:
 - content: Lightweight DHCPv6 Relay Agent
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document proposes a Lightweight DHCPv6 Relay Agent (LDRA) that
     is used to insert relay agent options in DHCPv6 message exchanges identifying
-    client-facing interfaces.  The LDRA can be implemented in existing access nodes
+    client-facing interfaces. The LDRA can be implemented in existing access nodes
     (such as Digital Subscriber Link Access Multiplexers (DSLAMs) and Ethernet switches)
     that do not support IPv6 control or routing functions. [STANDARDS-TRACK]</p>"
   language:
@@ -203,6 +203,10 @@ relation:
       content: RFC3315
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

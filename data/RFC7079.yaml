@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7079
 title:
 - content: The Pseudowire (PW) and Virtual Circuit Connectivity Verification (VCCV)
@@ -97,11 +97,11 @@ script:
 abstract:
 - content: "<p>The IETF Pseudowire Emulation Edge-to-Edge (PWE3) working group has
     defined many encapsulations of various layer 1 and layer 2 service- specific PDUs
-    and circuit data.  In most of these encapsulations, use of the Pseudowire (PW)
-    Control Word is required.  However, there are several encapsulations for which
+    and circuit data. In most of these encapsulations, use of the Pseudowire (PW)
+    Control Word is required. However, there are several encapsulations for which
     the Control Word is optional, and this optionality has been seen in practice to
     possibly introduce interoperability concerns between multiple implementations
-    of those encapsulations.  This survey of the Pseudowire / Virtual Circuit Connectivity
+    of those encapsulations. This survey of the Pseudowire / Virtual Circuit Connectivity
     Verification (VCCV) user community was conducted to determine implementation trends
     and the possibility of always mandating the Control Word.</p>"
   language:
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

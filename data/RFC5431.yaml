@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5431
 title:
 - content: Diameter ITU-T Rw Policy Enforcement Interface Application
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>This document describes the need for a new pair of IANA Diameter Command
     Codes to be used in a vendor-specific new application, namely for the ITU-T Rec.
-    \ Q.3303.3 - Rw interface used to send a request/ response for authorizing network
+    Q.3303.3 - Rw interface used to send a request/ response for authorizing network
     Quality of Service (QoS) resources and policy enforcement in a network element,
     as one of the recommendations of the International Telecommunication Union - Telecommunication
-    Standardization Sector (ITU-T).  This memo provides information for the Internet
+    Standardization Sector (ITU-T). This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2861
 title:
 - content: TCP Congestion Window Validation
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document describes a simple modification to TCP's congestion control
     algorithms to decay the congestion window cwnd after the transition from a sufficiently-long
     application-limited period, while using the slow-start threshold ssthresh to save
-    information about the previous value of the congestion window.  This memo defines
+    information about the previous value of the congestion window. This memo defines
     an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC7661
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

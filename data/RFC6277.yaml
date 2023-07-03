@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6277
 title:
 - content: Online Certificate Status Protocol Algorithm Agility
@@ -96,10 +96,10 @@ script:
 abstract:
 - content: "<p>The Online Certificate Status Protocol (OCSP) requires server responses
     to be signed but does not specify a mechanism for selecting the signature algorithm
-    to be used.  This may lead to avoidable interoperability failures in contexts
-    where multiple signature algorithms are in use.  This document specifies rules
-    for server signature algorithm selection and an extension that allows a client
-    to advise a server that specific signature algorithms are supported. [STANDARDS-TRACK]</p>"
+    to be used. This may lead to avoidable interoperability failures in contexts where
+    multiple signature algorithms are in use. This document specifies rules for server
+    signature algorithm selection and an extension that allows a client to advise
+    a server that specific signature algorithms are supported. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -127,6 +127,10 @@ relation:
       content: RFC2560
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

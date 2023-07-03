@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2643
 title:
 - content: Cabletron's SecureFast VLAN Operational Model
@@ -125,15 +125,19 @@ script:
 abstract:
 - content: "<p>Cabletron's SecureFast VLAN (SFVLAN) product implements a distributed
     connection-oriented switching protocol that provides fast forwarding of data packets
-    at the MAC layer.  The product uses the concept of virtual LANs (VLANs) to determine
+    at the MAC layer. The product uses the concept of virtual LANs (VLANs) to determine
     the validity of call connection requests and to scope the broadcast of certain
-    flooded messages.  This memo provides information for the Internet community.</p>"
+    flooded messages. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

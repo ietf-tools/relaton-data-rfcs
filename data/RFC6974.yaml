@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6974
 title:
 - content: Applicability of MPLS Transport Profile for Ring Topologies
@@ -270,18 +270,22 @@ script:
 abstract:
 - content: <p>This document presents an applicability of existing MPLS protection
     mechanisms, both local and end-to-end, to the MPLS Transport Profile (MPLS-TP)
-    in ring topologies.  This document does not propose any new mechanisms or protocols.  Requirements
-    for MPLS-TP protection especially for protection in ring topologies are discussed
-    in "Requirements of an MPLS Transport Profile" (RFC 5654) and "MPLS Transport
-    Profile (MPLS-TP) Survivability Framework" (RFC 6372).  This document discusses
-    how most of the requirements are met by applying linear protection as defined
-    in RFC 6378 in a ring topology.</p>
+    in ring topologies. This document does not propose any new mechanisms or protocols.
+    Requirements for MPLS-TP protection especially for protection in ring topologies
+    are discussed in "Requirements of an MPLS Transport Profile" (RFC 5654) and "MPLS
+    Transport Profile (MPLS-TP) Survivability Framework" (RFC 6372). This document
+    discusses how most of the requirements are met by applying linear protection as
+    defined in RFC 6378 in a ring topology.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

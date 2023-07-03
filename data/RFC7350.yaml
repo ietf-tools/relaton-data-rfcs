@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7350
 title:
 - content: Datagram Transport Layer Security (DTLS) as Transport for Session Traversal
@@ -97,11 +97,11 @@ script:
 abstract:
 - content: "<p>This document specifies the usage of Datagram Transport Layer Security
     (DTLS) as a transport protocol for Session Traversal Utilities for NAT (STUN).
-    \ It provides guidance on when and how to use DTLS with the currently standardized
-    STUN usages.  It also specifies modifications to the STUN and Traversal Using
-    Relay NAT (TURN) URIs and to the TURN resolution mechanism to facilitate the resolution
+    It provides guidance on when and how to use DTLS with the currently standardized
+    STUN usages. It also specifies modifications to the STUN and Traversal Using Relay
+    NAT (TURN) URIs and to the TURN resolution mechanism to facilitate the resolution
     of STUN and TURN URIs into the IP address and port of STUN and TURN servers supporting
-    DTLS as a transport protocol.  This document updates RFCs 5389 and 5928.</p>"
+    DTLS as a transport protocol. This document updates RFCs 5389 and 5928.</p>"
   language:
   - en
   script:
@@ -129,6 +129,10 @@ relation:
       content: RFC5928
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

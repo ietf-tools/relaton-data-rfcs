@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7351
 title:
 - content: A Media Type for XML Patch Operations
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: <p>The XML patch document format defines an XML document structure for
-    expressing a sequence of patch operations to be applied to an XML document.  The
-    XML patch document format builds on the foundations defined in RFC 5261.  This
+    expressing a sequence of patch operations to be applied to an XML document. The
+    XML patch document format builds on the foundations defined in RFC 5261. This
     specification also provides the media type registration "application/xml-patch+xml",
     to allow the use of XML patch documents in, for example, HTTP conversations.</p>
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

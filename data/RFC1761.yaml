@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1761
 title:
 - content: Snoop Version 2 Packet Capture File Format
@@ -95,16 +95,20 @@ script:
 - Latn
 abstract:
 - content: <p>This paper describes the file format used by "snoop", a packet monitoring
-    and capture program developed by Sun.  This paper is provided so that people can
-    write compatible programs to generate and interpret snoop packet capture files.  This
-    memo provides information for the Internet community.  This memo does not specify
-    an Internet standard of any kind.</p>
+    and capture program developed by Sun. This paper is provided so that people can
+    write compatible programs to generate and interpret snoop packet capture files.
+    This memo provides information for the Internet community. This memo does not
+    specify an Internet standard of any kind.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

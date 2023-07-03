@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4191
 title:
 - content: Default Router Preferences and More-Specific Routes
@@ -96,17 +96,20 @@ script:
 abstract:
 - content: "<p>This document describes an optional extension to Router Advertisement
     messages for communicating default router preferences and more-specific routes
-    from routers to hosts.  This improves the ability of hosts to pick an appropriate
+    from routers to hosts. This improves the ability of hosts to pick an appropriate
     router, especially when the host is multi-homed and the routers are on different
-    links.  The preference values and specific routes advertised to hosts require
-    administrative configuration; they are not automatically derived from routing
-    tables. [STANDARDS-TRACK]</p>"
+    links. The preference values and specific routes advertised to hosts require administrative
+    configuration; they are not automatically derived from routing tables. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

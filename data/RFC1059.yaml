@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1059
 title:
 - content: Network Time Protocol (version 1) specification and implementation
@@ -71,20 +71,20 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes the Network Time Protocol (NTP), specifies its
-    formal structure and summarizes information useful for its implementation.  NTP
+    formal structure and summarizes information useful for its implementation. NTP
     provides the mechanisms to synchronize time and coordinate time distribution in
-    a large, diverse internet operating at rates from mundane to lightwave.  It uses
+    a large, diverse internet operating at rates from mundane to lightwave. It uses
     a returnable-time design in which a distributed subnet of time servers operating
     in a self- organizing, hierarchical master-slave configuration synchronizes logical
-    clocks within the subnet and to national time standards via wire or radio.  The
+    clocks within the subnet and to national time standards via wire or radio. The
     servers can also redistribute reference time via local routing algorithms and
-    time daemons.  The NTP architectures, algorithms and protocols which have evolved
+    time daemons. The NTP architectures, algorithms and protocols which have evolved
     over several years of implementation and refinement are described in this document.
-    \ The prototype system, which has been in regular operation in the Internet for
+    The prototype system, which has been in regular operation in the Internet for
     the last two years, is described in an Appendix along with performance data which
     shows that timekeeping accuracy throughout most portions of the Internet can be
     ordinarily maintained to within a few tens of milliseconds, even the cases of
-    failure or disruption of clocks, time servers or nets.  This is a Draft Standard
+    failure or disruption of clocks, time servers or nets. This is a Draft Standard
     for an Elective protocol.</p>"
   language:
   - en
@@ -113,6 +113,10 @@ relation:
       content: RFC1305
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

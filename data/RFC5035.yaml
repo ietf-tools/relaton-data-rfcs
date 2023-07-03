@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5035
 title:
 - content: 'Enhanced Security Services (ESS) Update: Adding CertID Algorithm Agility'
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>In the original Enhanced Security Services for S/MIME document (RFC
     2634), a structure for cryptographically linking the certificate to be used in
     validation with the signature was introduced; this structure was hardwired to
-    use SHA-1.  This document allows for the structure to have algorithm agility and
+    use SHA-1. This document allows for the structure to have algorithm agility and
     defines a new attribute for this purpose. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC2634
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

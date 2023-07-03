@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8298
 title:
 - content: Self-Clocked Rate Adaptation for Multimedia
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a rate adaptation algorithm for conversational
-    media services such as interactive video.  The solution conforms to the packet
+    media services such as interactive video. The solution conforms to the packet
     conservation principle and uses a hybrid loss-and-delay- based congestion control
-    algorithm.  The algorithm is evaluated over both simulated Internet bottleneck
+    algorithm. The algorithm is evaluated over both simulated Internet bottleneck
     scenarios as well as in a Long Term Evolution (LTE) system simulator and is shown
     to achieve both low latency and high video throughput in these scenarios.</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

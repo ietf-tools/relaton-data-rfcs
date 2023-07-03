@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1037
 title:
 - content: NFILE - a file access protocol
@@ -96,16 +96,20 @@ script:
 abstract:
 - content: "<p>This document includes a specification of the NFILE file access protocol
     and its underlying levels of protocol, the Token List Transport Layer and Byte
-    Stream with Mark.  The goal of this specification is to promote discussion of
-    the ideas described here, and to encourage designers of future file protocols
-    to take advantage of these ideas.  A secondary goal is to make the specification
-    available to sites that might benefit from implementing NFILE.</p>"
+    Stream with Mark. The goal of this specification is to promote discussion of the
+    ideas described here, and to encourage designers of future file protocols to take
+    advantage of these ideas. A secondary goal is to make the specification available
+    to sites that might benefit from implementing NFILE.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

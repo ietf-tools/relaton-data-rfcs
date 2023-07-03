@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2723
 title:
 - content: 'SRL: A Language for Describing Traffic Flows and Specifying Actions for
@@ -66,16 +66,20 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes a language for specifying rulesets, i.e.  configuration
+- content: "<p>This document describes a language for specifying rulesets, i.e. configuration
     files which may be loaded into a traffic flow meter so as to specify which traffic
     flows are measured by the meter, and the information it will store for each flow.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

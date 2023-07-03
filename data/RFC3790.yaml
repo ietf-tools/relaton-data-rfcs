@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3790
 title:
 - content: Survey of IPv4 Addresses in Currently Deployed IETF Internet Area Standards
@@ -96,20 +96,24 @@ script:
 - Latn
 abstract:
 - content: "<p>This document seeks to document all usage of IPv4 addresses in currently
-    deployed IETF Internet Area documented standards.  In order to successfully transition
+    deployed IETF Internet Area documented standards. In order to successfully transition
     from an all IPv4 Internet to an all IPv6 Internet, many interim steps will be
-    taken.  One of these steps is the evolution of current protocols that have IPv4
-    dependencies.  It is hoped that these protocols (and their implementations) will
+    taken. One of these steps is the evolution of current protocols that have IPv4
+    dependencies. It is hoped that these protocols (and their implementations) will
     be redesigned to be network address independent, but failing that will at least
-    dually support IPv4 and IPv6.  To this end, all Standards (Full, Draft, and Proposed)
+    dually support IPv4 and IPv6. To this end, all Standards (Full, Draft, and Proposed)
     as well as Experimental RFCs will be surveyed and any dependencies will be documented.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

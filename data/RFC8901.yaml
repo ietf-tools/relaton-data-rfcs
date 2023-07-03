@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8901
 title:
 - content: Multi-Signer DNSSEC Models
@@ -182,12 +182,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Many enterprises today employ the service of multiple DNS providers
-    to distribute their authoritative DNS service.  Deploying DNSSEC in such an environment
+    to distribute their authoritative DNS service. Deploying DNSSEC in such an environment
     may present some challenges, depending on the configuration and feature set in
-    use.  In particular, when each DNS provider independently signs zone data with
-    their own keys, additional key-management mechanisms are necessary.  This document
+    use. In particular, when each DNS provider independently signs zone data with
+    their own keys, additional key-management mechanisms are necessary. This document
     presents deployment models that accommodate this scenario and describes these
-    key-management requirements.  These models do not require any changes to the behavior
+    key-management requirements. These models do not require any changes to the behavior
     of validating resolvers, nor do they impose the new key-management requirements
     on authoritative servers not involved in multi-signer configurations.</p>"
   language:
@@ -196,6 +196,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

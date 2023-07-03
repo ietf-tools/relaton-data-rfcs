@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6114
 title:
 - content: The 128-Bit Blockcipher CLEFIA
@@ -95,21 +95,25 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the specification of the blockcipher CLEFIA.
-    \ CLEFIA is a 128-bit blockcipher, with key lengths of 128, 192, and 256 bits,
-    which is compatible with the interface of the Advanced Encryption Standard (AES).
-    \ The algorithm of CLEFIA was published in 2007, and its security has been scrutinized
-    in the public community.  CLEFIA is one of the new-generation lightweight blockcipher
-    algorithms designed after AES.  Among them, CLEFIA offers high performance in
-    software and hardware as well as lightweight implementation in hardware.  CLEFIA
-    will be of benefit to the Internet, which will be connected to more distributed
-    and constrained devices.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.</p>"
+    CLEFIA is a 128-bit blockcipher, with key lengths of 128, 192, and 256 bits, which
+    is compatible with the interface of the Advanced Encryption Standard (AES). The
+    algorithm of CLEFIA was published in 2007, and its security has been scrutinized
+    in the public community. CLEFIA is one of the new-generation lightweight blockcipher
+    algorithms designed after AES. Among them, CLEFIA offers high performance in software
+    and hardware as well as lightweight implementation in hardware. CLEFIA will be
+    of benefit to the Internet, which will be connected to more distributed and constrained
+    devices. This document is not an Internet Standards Track specification; it is
+    published for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

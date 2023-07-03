@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC806
 title:
 - content: 'Proposed Federal Information Processing Standard: Specification for message
@@ -46,7 +46,7 @@ script:
 abstract:
 - content: "<p>This RFC deals with Computer Based Message systems which provides a
     basis for interaction between different CBMS by defining the format of messages
-    passed between them.  This RFC is replaced by RFC 841.</p>"
+    passed between them. This RFC is replaced by RFC 841.</p>"
   language:
   - en
   script:
@@ -64,6 +64,10 @@ relation:
       content: RFC0841
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

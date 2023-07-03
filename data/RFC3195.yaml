@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3195
 title:
 - content: Reliable Delivery for syslog
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>The BSD Syslog Protocol describes a number of service options related
-    to propagating event messages.  This memo describes two mappings of the syslog
+    to propagating event messages. This memo describes two mappings of the syslog
     protocol to TCP connections, both useful for reliable delivery of event messages.
     [STANDARDS-TRACK]</p>"
   language:
@@ -104,6 +104,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

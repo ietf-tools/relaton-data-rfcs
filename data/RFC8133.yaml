@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8133
 title:
 - content: The Security Evaluated Standardized Password-Authenticated Key Exchange
@@ -154,17 +154,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Security Evaluated Standardized Password-
-    Authenticated Key Exchange (SESPAKE) protocol.  The SESPAKE protocol provides
-    password-authenticated key exchange for usage in systems for protection of sensitive
-    information.  The security proofs of the protocol were made for situations involving
-    an active adversary in the channel, including man-in-the-middle (MitM) attacks
-    and attacks based on the impersonation of one of the subjects.</p>"
+    Authenticated Key Exchange (SESPAKE) protocol. The SESPAKE protocol provides password-authenticated
+    key exchange for usage in systems for protection of sensitive information. The
+    security proofs of the protocol were made for situations involving an active adversary
+    in the channel, including man-in-the-middle (MitM) attacks and attacks based on
+    the impersonation of one of the subjects.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

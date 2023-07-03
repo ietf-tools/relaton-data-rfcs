@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8152
 title:
 - content: CBOR Object Signing and Encryption (COSE)
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Concise Binary Object Representation (CBOR) is a data format designed
-    for small code size and small message size.  There is a need for the ability to
-    have basic security services defined for this data format.  This document defines
-    the CBOR Object Signing and Encryption (COSE) protocol.  This specification describes
+    for small code size and small message size. There is a need for the ability to
+    have basic security services defined for this data format. This document defines
+    the CBOR Object Signing and Encryption (COSE) protocol. This specification describes
     how to create and process signatures, message authentication codes, and encryption
-    using CBOR for serialization.  This specification additionally describes how to
+    using CBOR for serialization. This specification additionally describes how to
     represent cryptographic keys using CBOR.</p>"
   language:
   - en
@@ -99,6 +99,10 @@ relation:
       content: RFC9053
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

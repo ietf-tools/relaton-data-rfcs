@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5967
 title:
 - content: The application/pkcs10 Media Type
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a media type used to carry PKCS #10 certification
-    requests as defined in RFC 2986.  It carries over the original specification from
+    requests as defined in RFC 2986. It carries over the original specification from
     RFC 2311, which recently has been moved to Historic status, and properly links
-    it to RFC 2986.  This document is not an Internet Standards Track specification;
+    it to RFC 2986. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -87,6 +87,10 @@ relation:
       content: RFC2986
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

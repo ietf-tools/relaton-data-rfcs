@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5677
 title:
 - content: IEEE 802.21 Mobility Services Framework Design (MSFD)
@@ -183,11 +183,11 @@ script:
 abstract:
 - content: "<p>This document describes a mobility services framework design (MSFD)
     for the IEEE 802.21 Media Independent Handover (MIH) protocol that addresses identified
-    issues associated with the transport of MIH messages.  The document also describes
+    issues associated with the transport of MIH messages. The document also describes
     mechanisms for Mobility Services (MoS) discovery and transport-layer mechanisms
-    for the reliable delivery of MIH messages.  This document does not provide mechanisms
+    for the reliable delivery of MIH messages. This document does not provide mechanisms
     for securing the communication between a mobile node (MN) and the Mobility Server.
-    \ Instead, it is assumed that either lower-layer (e.g., link-layer) security mechanisms
+    Instead, it is assumed that either lower-layer (e.g., link-layer) security mechanisms
     or overall system-specific proprietary security solutions are used. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

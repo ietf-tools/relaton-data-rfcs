@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4528
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Assertion Control
@@ -68,7 +68,7 @@ abstract:
 - content: <p>This document defines the Lightweight Directory Access Protocol (LDAP)
     Assertion Control, which allows a client to specify that a directory operation
     should only be processed if an assertion applied to the target entry of the operation
-    is true.  It can be used to construct "test and set", "test and clear", and other
+    is true. It can be used to construct "test and set", "test and clear", and other
     conditional operations. [STANDARDS-TRACK]</p>
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

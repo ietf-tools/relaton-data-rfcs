@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4759
 title:
 - content: The ENUM Dip Indicator Parameter for the "tel" URI
@@ -125,18 +125,22 @@ script:
 abstract:
 - content: <p>This document defines a new parameter "enumdi" for the "tel" Uniform
     Resource Identifier (URI) to support the handling of ENUM queries in Voice over
-    Internet Protocol (VoIP) network elements.  A VoIP network element may receive
-    a URI containing an E.164 number, where that URI contains an "enumdi" parameter.  The
-    presence of the "enumdi" parameter indicates that an ENUM query has already been
-    performed on the E.164 number by a previous VoIP network element.  Equally, if
-    a VoIP network element sends such a URI, it asserts that an ENUM query has been
-    carried out on this number. [STANDARDS-TRACK]</p>
+    Internet Protocol (VoIP) network elements. A VoIP network element may receive
+    a URI containing an E.164 number, where that URI contains an "enumdi" parameter.
+    The presence of the "enumdi" parameter indicates that an ENUM query has already
+    been performed on the E.164 number by a previous VoIP network element. Equally,
+    if a VoIP network element sends such a URI, it asserts that an ENUM query has
+    been carried out on this number. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

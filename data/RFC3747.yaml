@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3747
 title:
 - content: The Differentiated Services Configuration MIB
@@ -98,7 +98,7 @@ abstract:
     high-level "network-wide" policy definitions that effect configuration of the
     Differentiated Services (diffserv) subsystem and the instance-specific information
     that would include such details as the parameters for all the queues associated
-    with each interface in a system.  This essentially provides an interface for configuring
+    with each interface in a system. This essentially provides an interface for configuring
     differentiated services at a conceptually higher layer than that of the Differentiated
     Services MIB. [PROPOSED STANDARD]</p>
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

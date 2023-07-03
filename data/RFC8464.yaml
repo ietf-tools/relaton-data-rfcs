@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8464
 title:
 - content: A URN Namespace for Device Identity and Mobile Equipment Identity (MEID)
@@ -67,17 +67,20 @@ script:
 abstract:
 - content: "<p>This document defines a Uniform Resource Name (URN) namespace for the
     Third Generation Partnership Project 2 (3GPP2) and a Namespace Specific String
-    (NSS) for the Mobile Equipment Identity (MEID).  The structure of an MEID is 15
+    (NSS) for the Mobile Equipment Identity (MEID). The structure of an MEID is 15
     hexadecimal digits long and is defined in the 3GPP2 to uniquely identify each
-    individual mobile equipment (e.g., a handset or mobile phone).  The 3GPP2 has
-    a requirement to be able to use an MEID as a URN.  This document fulfills that
-    requirement.</p>"
+    individual mobile equipment (e.g., a handset or mobile phone). The 3GPP2 has a
+    requirement to be able to use an MEID as a URN. This document fulfills that requirement.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

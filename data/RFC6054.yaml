@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6054
 title:
 - content: Using Counter Modes with Encapsulating Security Payload (ESP) and Authentication
@@ -96,16 +96,20 @@ script:
 - Latn
 abstract:
 - content: "<p>Counter modes have been defined for block ciphers such as the Advanced
-    Encryption Standard (AES).  Counter modes use a counter, which is typically assumed
-    to be incremented by a single sender.  This memo describes the use of counter
-    modes when applied to the Encapsulating Security Payload (ESP) and Authentication
-    Header (AH) in multiple-sender group applications. [STANDARDS-TRACK]</p>"
+    Encryption Standard (AES). Counter modes use a counter, which is typically assumed
+    to be incremented by a single sender. This memo describes the use of counter modes
+    when applied to the Encapsulating Security Payload (ESP) and Authentication Header
+    (AH) in multiple-sender group applications. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

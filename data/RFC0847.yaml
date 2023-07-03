@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC847
 title:
 - content: Summary of Smallberg surveys
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This is a summary of the surveys of Telnet, FTP and Mail (SMTP) servers
     conducted by David Smallberg in December 1982, January and February 1983 as reported
-    in RFC 832-843, 845-846.  This memo extracts the number of hosts that accepted
+    in RFC 832-843, 845-846. This memo extracts the number of hosts that accepted
     the connection to their server for each of Telnet, FTP, and SMTP, and compares
     it to the total host in the Internet (not counting TACs or ECHOS).</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

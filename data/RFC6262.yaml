@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6262
 title:
 - content: RTP Payload Format for IP-MR Speech Codec
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the payload format for packetization of SPIRIT
-    IP-MR encoded speech signals into the Real-time Transport Protocol (RTP).  The
+    IP-MR encoded speech signals into the Real-time Transport Protocol (RTP). The
     payload format supports transmission of multiple frames per packet and introduces
     redundancy for robustness against packet loss and bit errors. [STANDARDS-TRACK]</p>"
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

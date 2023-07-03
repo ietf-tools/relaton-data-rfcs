@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6788
 title:
 - content: The Line-Identification Option
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>In Ethernet-based aggregation networks, several subscriber premises
-    may be logically connected to the same interface of an Edge Router.  This document
+    may be logically connected to the same interface of an Edge Router. This document
     proposes a method for the Edge Router to identify the subscriber premises using
-    the contents of the received Router Solicitation messages.  The applicability
-    is limited to broadband network deployment scenarios in which multiple user ports
+    the contents of the received Router Solicitation messages. The applicability is
+    limited to broadband network deployment scenarios in which multiple user ports
     are mapped to the same virtual interface on the Edge Router. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

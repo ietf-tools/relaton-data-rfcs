@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4681
 title:
 - content: TLS User Mapping Extension
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>This document specifies a TLS extension that enables clients to send
     generic user mapping hints in a supplemental data handshake message defined in
-    RFC 4680.  One such mapping hint is defined in an informative section, the UpnDomainHint,
-    which may be used by a server to locate a user in a directory database.  Other
+    RFC 4680. One such mapping hint is defined in an informative section, the UpnDomainHint,
+    which may be used by a server to locate a user in a directory database. Other
     mapping hints may be defined in other documents in the future. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC4346
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

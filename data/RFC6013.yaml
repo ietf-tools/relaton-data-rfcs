@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6013
 title:
 - content: TCP Cookie Transactions (TCPCT)
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>TCP Cookie Transactions (TCPCT) deter spoofing of connections and prevent
     resource exhaustion, eliminating Responder (server) state during the initial handshake.
-    \ The Initiator (client) has sole responsibility for ensuring required delays
-    between connections.  The cookie exchange may carry data, limited to inhibit amplification
-    and reflection denial of service attacks.  This document defines an Experimental
+    The Initiator (client) has sole responsibility for ensuring required delays between
+    connections. The cookie exchange may carry data, limited to inhibit amplification
+    and reflection denial of service attacks. This document defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC7805
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

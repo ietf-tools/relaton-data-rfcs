@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3065
 title:
 - content: Autonomous System Confederations for BGP
@@ -126,7 +126,7 @@ abstract:
 - content: <p>This document describes an extension to BGP which may be used to create
     a confederation of autonomous systems that is represented as a single autonomous
     system to BGP peers external to the confederation, thereby removing the "full
-    mesh" requirement.  The intention of this extension is to aid in policy administration
+    mesh" requirement. The intention of this extension is to aid in policy administration
     and reduce the management complexity of maintaining a large autonomous system.
     [STANDARDS-TRACK]</p>
   language:
@@ -146,6 +146,10 @@ relation:
       content: RFC5065
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

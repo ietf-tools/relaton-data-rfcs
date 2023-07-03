@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC831
 title:
 - content: Backup access to the European side of SATNET
@@ -72,15 +72,19 @@ script:
 abstract:
 - content: "<p>The purpose of this RFC is to focus discussion on a particular Internet
     problem: a backup path for software maintenance of the European sector of the
-    Internet, for use when SATNET is partitioned.  We propose a mechanism, based upon
+    Internet, for use when SATNET is partitioned. We propose a mechanism, based upon
     the Source Routing option of IP, to reach European Internet sites via the VAN
-    Gateway and UCL.  This proposal is not intended as a standard at this time.</p>"
+    Gateway and UCL. This proposal is not intended as a standard at this time.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

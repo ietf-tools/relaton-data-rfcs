@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3588
 title:
 - content: Diameter Base Protocol
@@ -183,11 +183,11 @@ script:
 abstract:
 - content: "<p>The Diameter base protocol is intended to provide an Authentication,
     Authorization and Accounting (AAA) framework for applications such as network
-    access or IP mobility.  Diameter is also intended to work in both local Authentication,
-    Authorization & Accounting and roaming situations.  This document specifies the
+    access or IP mobility. Diameter is also intended to work in both local Authentication,
+    Authorization & Accounting and roaming situations. This document specifies the
     message format, transport, error reporting, accounting and security services to
-    be used by all Diameter applications.  The Diameter base application needs to
-    be supported by all Diameter implementations. [STANDARDS-TRACK]</p>"
+    be used by all Diameter applications. The Diameter base application needs to be
+    supported by all Diameter implementations. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -205,6 +205,10 @@ relation:
       content: RFC6733
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

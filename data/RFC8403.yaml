@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8403
 title:
 - content: A Scalable and Topology-Aware MPLS Data-Plane Monitoring System
@@ -153,10 +153,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes features of an MPLS path monitoring system
-    and related use cases.  Segment-based routing enables a scalable and simple method
+    and related use cases. Segment-based routing enables a scalable and simple method
     to monitor data-plane liveliness of the complete set of paths belonging to a single
-    domain.  The MPLS monitoring system adds features to the traditional MPLS ping
-    and Label Switched Path (LSP) trace, in a very complementary way.  MPLS topology
+    domain. The MPLS monitoring system adds features to the traditional MPLS ping
+    and Label Switched Path (LSP) trace, in a very complementary way. MPLS topology
     awareness reduces management and control-plane involvement of Operations, Administration,
     and Maintenance (OAM) measurements while enabling new OAM features.</p>"
   language:
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

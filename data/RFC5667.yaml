@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5667
 title:
 - content: Network File System (NFS) Direct Data Placement
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document defines the bindings of the various Network File System
     (NFS) versions to the Remote Direct Memory Access (RDMA) operations supported
-    by the RPC/RDMA transport protocol.  It describes the use of direct data placement
+    by the RPC/RDMA transport protocol. It describes the use of direct data placement
     by means of server-initiated RDMA operations into client-supplied buffers for
     implementations of NFS versions 2, 3, 4, and 4.1 over such an RDMA transport.
     [STANDARDS-TRACK]</p>"
@@ -117,6 +117,10 @@ relation:
       content: RFC8267
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

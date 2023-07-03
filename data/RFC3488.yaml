@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3488
 title:
 - content: Cisco Systems Router-port Group Management Protocol (RGMP)
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Router-port Group Management Protocol (RGMP).
-    \ This protocol was developed by Cisco Systems and is used between multicast routers
+    This protocol was developed by Cisco Systems and is used between multicast routers
     and switches to restrict multicast packet forwarding in switches to those routers
-    where the packets may be needed.  RGMP is designed for backbone switched networks
-    where multiple, high speed routers are interconnected.  This memo provides information
+    where the packets may be needed. RGMP is designed for backbone switched networks
+    where multiple, high speed routers are interconnected. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

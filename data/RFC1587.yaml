@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1587
 title:
 - content: The OSPF NSSA Option
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes a new optional type of OSPF area, somewhat humorously
-    referred to as a "not-so-stubby" area (or NSSA).  NSSAs are similar to the existing
+    referred to as a "not-so-stubby" area (or NSSA). NSSAs are similar to the existing
     OSPF stub area configuration option but have the additional capability of importing
     AS external routes in a limited fashion. [STANDARDS-TRACK]</p>
   language:
@@ -115,6 +115,10 @@ relation:
       content: RFC3101
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

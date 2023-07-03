@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1002
 title:
 - content: 'Protocol standard for a NetBIOS service on a TCP/UDP transport: Detailed
@@ -55,12 +55,12 @@ script:
 - Latn
 abstract:
 - content: '<p>This RFC defines a proposed standard protocol to support NetBIOS services
-    in a TCP/IP environment.  Both local network and internet operation are supported.  Various
-    node types are defined to accommodate local and internet topologies and to allow
-    operation with or without the use of IP broadcast.  This RFC gives the detailed
-    specifications of the netBIOS-over-TCP packets, protocols, and defined constants
-    and variables.  A more general overview is found in a companion RFC, "Protocol
-    Standard For NetBIOS Service on TCP/UDP Transport: Concepts and Methods".</p>'
+    in a TCP/IP environment. Both local network and internet operation are supported.
+    Various node types are defined to accommodate local and internet topologies and
+    to allow operation with or without the use of IP broadcast. This RFC gives the
+    detailed specifications of the netBIOS-over-TCP packets, protocols, and defined
+    constants and variables. A more general overview is found in a companion RFC,
+    "Protocol Standard For NetBIOS Service on TCP/UDP Transport: Concepts and Methods".</p>'
   language:
   - en
   script:
@@ -71,6 +71,10 @@ series:
     content: STD
     format: text/plain
   number: '19'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

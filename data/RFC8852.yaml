@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8852
 title:
 - content: RTP Stream Identifier Source Description (SDES)
@@ -129,8 +129,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines and registers two new Real-time Transport Control
-    Protocol (RTCP) Stream Identifier Source Description (SDES) items.  One, named
-    RtpStreamId, is used for unique identification of RTP streams.  The other, RepairedRtpStreamId,
+    Protocol (RTCP) Stream Identifier Source Description (SDES) items. One, named
+    RtpStreamId, is used for unique identification of RTP streams. The other, RepairedRtpStreamId,
     can be used to identify which stream is to be repaired using a redundancy RTP
     stream.</p>"
   language:
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

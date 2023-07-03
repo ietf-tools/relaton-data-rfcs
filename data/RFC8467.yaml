@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8467
 title:
 - content: Padding Policies for Extension Mechanisms for DNS (EDNS(0))
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: <p>RFC 7830 specifies the "Padding" option for Extension Mechanisms for
-    DNS (EDNS(0)) but does not specify the actual padding length for specific applications.  This
-    memo lists the possible options ("padding policies"), discusses the implications
+    DNS (EDNS(0)) but does not specify the actual padding length for specific applications.
+    This memo lists the possible options ("padding policies"), discusses the implications
     of each option, and provides a recommended (experimental) option.</p>
   language:
   - en
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

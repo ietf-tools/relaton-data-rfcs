@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5849
 title:
 - content: The OAuth 1.0 Protocol
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>OAuth provides a method for clients to access server resources on behalf
-    of a resource owner (such as a different client or an end-user).  It also provides
+    of a resource owner (such as a different client or an end-user). It also provides
     a process for end-users to authorize third-party access to their server resources
     without sharing their credentials (typically, a username and password pair), using
-    user-agent redirections.  This document is not an Internet Standards Track specification;
+    user-agent redirections. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -88,6 +88,10 @@ relation:
       content: RFC6749
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

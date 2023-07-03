@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6489
 title:
 - content: Certification Authority (CA) Key Rollover in the Resource Public Key Infrastructure
@@ -126,11 +126,11 @@ script:
 abstract:
 - content: "<p>This document describes how a Certification Authority (CA) in the Resource
     Public Key Infrastructure (RPKI) performs a planned rollover of its key pair.
-    \ This document also notes the implications of this key rollover procedure for
-    relying parties (RPs).  In general, RPs are expected to maintain a local cache
-    of the objects that have been published in the RPKI repository, and thus the way
-    in which a CA performs key rollover impacts RPs.  This memo documents an Internet
-    Best Current Practice.</p>"
+    This document also notes the implications of this key rollover procedure for relying
+    parties (RPs). In general, RPs are expected to maintain a local cache of the objects
+    that have been published in the RPKI repository, and thus the way in which a CA
+    performs key rollover impacts RPs. This memo documents an Internet Best Current
+    Practice.</p>"
   language:
   - en
   script:
@@ -141,6 +141,10 @@ series:
     content: BCP
     format: text/plain
   number: '174'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

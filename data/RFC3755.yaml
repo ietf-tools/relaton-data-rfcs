@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3755
 title:
 - content: Legacy Resolver Compatibility for Delegation Signer (DS)
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: "<p>As the DNS Security (DNSSEC) specifications have evolved, the syntax
-    and semantics of the DNSSEC resource records (RRs) have changed.  Many deployed
-    nameservers understand variants of these semantics.  Dangerous interactions can
+    and semantics of the DNSSEC resource records (RRs) have changed. Many deployed
+    nameservers understand variants of these semantics. Dangerous interactions can
     occur when a resolver that understands an earlier version of these semantics queries
     an authoritative server that understands the new delegation signer semantics,
     including at least one failure scenario that will cause an unsecured zone to be
-    unresolvable.  This document changes the type codes and mnemonics of the DNSSEC
+    unresolvable. This document changes the type codes and mnemonics of the DNSSEC
     RRs (SIG, KEY, and NXT) to avoid those interactions. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -130,6 +130,10 @@ relation:
       content: RFC2535
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

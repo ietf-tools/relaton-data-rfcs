@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8442
 title:
 - content: ECDHE_PSK with AES-GCM and AES-CCM Cipher Suites for TLS 1.2 and DTLS 1.2
@@ -96,17 +96,21 @@ script:
 abstract:
 - content: "<p>This document defines several new cipher suites for version 1.2 of
     the Transport Layer Security (TLS) protocol and version 1.2 of the Datagram Transport
-    Layer Security (DTLS) protocol.  These cipher suites are based on the Ephemeral
+    Layer Security (DTLS) protocol. These cipher suites are based on the Ephemeral
     Elliptic Curve Diffie-Hellman with Pre-Shared Key (ECDHE_PSK) key exchange together
     with the Authenticated Encryption with Associated Data (AEAD) algorithms AES-GCM
-    and AES-CCM.  PSK provides light and efficient authentication, ECDHE provides
-    forward secrecy, and AES-GCM and AES-CCM provide encryption and integrity protection.</p>"
+    and AES-CCM. PSK provides light and efficient authentication, ECDHE provides forward
+    secrecy, and AES-GCM and AES-CCM provide encryption and integrity protection.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

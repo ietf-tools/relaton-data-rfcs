@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9119
 title:
 - content: Multicast Considerations over IEEE 802 Wireless Media
@@ -182,11 +182,11 @@ script:
 - Latn
 abstract:
 - content: "<p>Well-known issues with multicast have prevented the deployment of multicast
-    in 802.11 (Wi-Fi) and other local-area wireless environments.  This document describes
-    the known limitations of wireless (primarily 802.11) Layer 2 multicast.  Also
-    described are certain multicast enhancement features that have been specified
-    by the IETF and by IEEE 802 for wireless media, as well as some operational choices
-    that can be made to improve the performance of the network.  Finally, some recommendations
+    in 802.11 (Wi-Fi) and other local-area wireless environments. This document describes
+    the known limitations of wireless (primarily 802.11) Layer 2 multicast. Also described
+    are certain multicast enhancement features that have been specified by the IETF
+    and by IEEE 802 for wireless media, as well as some operational choices that can
+    be made to improve the performance of the network. Finally, some recommendations
     are provided about the usage and combination of these features and operational
     choices.</p>"
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

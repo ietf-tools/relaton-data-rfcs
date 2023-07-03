@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6082
 title:
 - content: 'Deprecating Unicode Language Tag Characters: RFC 2482 is Historic'
@@ -183,18 +183,22 @@ script:
 abstract:
 - content: <p>RFC 2482, "Language Tagging in Unicode Plain Text", describes a mechanism
     for using special Unicode language tag characters to identify languages when needed
-    without more general markup such as that provided by XML.  The Unicode Consortium
-    has deprecated that facility and strongly recommends against its use.  RFC 2482
+    without more general markup such as that provided by XML. The Unicode Consortium
+    has deprecated that facility and strongly recommends against its use. RFC 2482
     has been moved to Historic status to reduce the possibility that Internet implementers
-    would consider that system an appropriate mechanism for identifying languages.  This
-    document is not an Internet Standards Track specification; it is published for
-    informational purposes.</p>
+    would consider that system an appropriate mechanism for identifying languages.
+    This document is not an Internet Standards Track specification; it is published
+    for informational purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

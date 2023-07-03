@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7570
 title:
 - content: Label Switched Path (LSP) Attribute in the Explicit Route Object (ERO)
@@ -153,16 +153,19 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 5420 extends RSVP-TE to specify or record generic attributes that
-    apply to the whole of the path of a Label Switched Path (LSP).  This document
-    defines an extension to the RSVP Explicit Route Object (ERO) and Record Route
-    Object (RRO) to allow them to specify or record generic attributes that apply
-    to a given hop.</p>"
+    apply to the whole of the path of a Label Switched Path (LSP). This document defines
+    an extension to the RSVP Explicit Route Object (ERO) and Record Route Object (RRO)
+    to allow them to specify or record generic attributes that apply to a given hop.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

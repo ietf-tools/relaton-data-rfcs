@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7689
 title:
 - content: Signaling Extensions for Wavelength Switched Optical Networks
@@ -183,11 +183,11 @@ script:
 abstract:
 - content: "<p>This document provides extensions to Generalized Multiprotocol Label
     Switching (GMPLS) signaling for control of Wavelength Switched Optical Networks
-    (WSONs).  Such extensions are applicable in WSONs under a number of conditions
+    (WSONs). Such extensions are applicable in WSONs under a number of conditions
     including: (a) when optional processing, such as regeneration, must be configured
     to occur at specific nodes along a path, (b) where equipment must be configured
     to accept an optical signal with specific attributes, or (c) where equipment must
-    be configured to output an optical signal with specific attributes.  This document
+    be configured to output an optical signal with specific attributes. This document
     provides mechanisms to support distributed wavelength assignment with a choice
     of distributed wavelength assignment algorithms.</p>"
   language:
@@ -196,6 +196,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

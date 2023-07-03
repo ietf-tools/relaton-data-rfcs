@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8213
 title:
 - content: Security of Messages Exchanged between Servers and Relay Agents
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The Dynamic Host Configuration Protocol for IPv4 (DHCPv4) has no guidance
-    for how to secure messages exchanged between servers and relay agents.  The Dynamic
+    for how to secure messages exchanged between servers and relay agents. The Dynamic
     Host Configuration Protocol for IPv6 (DHCPv6) states that IPsec should be used
     to secure messages exchanged between servers and relay agents but does not require
-    encryption.  With recent concerns about pervasive monitoring and other attacks,
+    encryption. With recent concerns about pervasive monitoring and other attacks,
     it is appropriate to require securing relay-to-relay and relay-to-server communication
     for DHCPv6 and relay-to-server communication for DHCPv4.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

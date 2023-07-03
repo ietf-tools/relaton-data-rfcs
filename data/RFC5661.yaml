@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5661
 title:
 - content: Network File System (NFS) Version 4 Minor Version 1 Protocol
@@ -126,14 +126,13 @@ abstract:
 - content: "<p>This document describes the Network File System (NFS) version 4 minor
     version 1, including features retained from the base protocol (NFS version 4 minor
     version 0, which is specified in RFC 3530) and protocol extensions made subsequently.
-    \ Major extensions introduced in NFS version 4 minor version 1 include Sessions,
-    Directory Delegations, and parallel NFS (pNFS).  NFS version 4 minor version 1
+    Major extensions introduced in NFS version 4 minor version 1 include Sessions,
+    Directory Delegations, and parallel NFS (pNFS). NFS version 4 minor version 1
     has no dependencies on NFS version 4 minor version 0, and it is considered a separate
-    protocol.  Thus, this document neither updates nor obsoletes RFC 3530.  NFS minor
+    protocol. Thus, this document neither updates nor obsoletes RFC 3530. NFS minor
     version 1 is deemed superior to NFS minor version 0 with no loss of functionality,
-    and its use is preferred over version 0.  Both NFS minor versions 0 and 1 can
-    be used simultaneously on the same network, between the same client and server.
-    [STANDARDS-TRACK]</p>"
+    and its use is preferred over version 0. Both NFS minor versions 0 and 1 can be
+    used simultaneously on the same network, between the same client and server. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -151,6 +150,10 @@ relation:
       content: RFC8881
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

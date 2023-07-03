@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6943
 title:
 - content: Issues in Identifier Comparison for Security Purposes
@@ -67,13 +67,13 @@ script:
 abstract:
 - content: "<p>Identifiers such as hostnames, URIs, IP addresses, and email addresses
     are often used in security contexts to identify security principals and resources.
-    \ In such contexts, an identifier presented via some protocol is often compared
+    In such contexts, an identifier presented via some protocol is often compared
     using some policy to make security decisions such as whether the security principal
     may access the resource, what level of authentication or encryption is required,
-    etc.  If the parties involved in a security decision use different algorithms
-    to compare identifiers, then failure scenarios ranging from denial of service
-    to elevation of privilege can result.  This document provides a discussion of
-    these issues that designers should consider when defining identifiers and protocols,
+    etc. If the parties involved in a security decision use different algorithms to
+    compare identifiers, then failure scenarios ranging from denial of service to
+    elevation of privilege can result. This document provides a discussion of these
+    issues that designers should consider when defining identifiers and protocols,
     and when constructing architectures that use multiple protocols.</p>"
   language:
   - en
@@ -81,6 +81,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

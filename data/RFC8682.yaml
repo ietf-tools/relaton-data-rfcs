@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8682
 title:
 - content: TinyMT32 Pseudorandom Number Generator (PRNG)
@@ -154,19 +154,22 @@ script:
 abstract:
 - content: "<p>This document describes the TinyMT32 Pseudorandom Number Generator
     (PRNG), which produces 32-bit pseudorandom unsigned integers and aims at having
-    a simple-to-use and deterministic solution.  This PRNG is a small-sized variant
-    of the Mersenne Twister (MT) PRNG.  The main advantage of TinyMT32 over MT is
-    the use of a small internal state, compatible with most target platforms that
-    include embedded devices, while keeping reasonably good randomness that represents
-    a significant improvement compared to the Park-Miller Linear Congruential PRNG.
-    \ However, neither the TinyMT nor MT PRNG is meant to be used for cryptographic
-    applications.</p>"
+    a simple-to-use and deterministic solution. This PRNG is a small-sized variant
+    of the Mersenne Twister (MT) PRNG. The main advantage of TinyMT32 over MT is the
+    use of a small internal state, compatible with most target platforms that include
+    embedded devices, while keeping reasonably good randomness that represents a significant
+    improvement compared to the Park-Miller Linear Congruential PRNG. However, neither
+    the TinyMT nor MT PRNG is meant to be used for cryptographic applications.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

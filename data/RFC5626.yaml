@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5626
 title:
 - content: Managing Client-Initiated Connections in the Session Initiation Protocol
@@ -126,12 +126,12 @@ script:
 abstract:
 - content: "<p>The Session Initiation Protocol (SIP) allows proxy servers to initiate
     TCP connections or to send asynchronous UDP datagrams to User Agents in order
-    to deliver requests.  However, in a large number of real deployments, many practical
+    to deliver requests. However, in a large number of real deployments, many practical
     considerations, such as the existence of firewalls and Network Address Translators
     (NATs) or the use of TLS with server-provided certificates, prevent servers from
-    connecting to User Agents in this way.  This specification defines behaviors for
+    connecting to User Agents in this way. This specification defines behaviors for
     User Agents, registrars, and proxy servers that allow requests to be delivered
-    on existing connections established by the User Agent.  It also defines keep-alive
+    on existing connections established by the User Agent. It also defines keep-alive
     behaviors needed to keep NAT bindings open and specifies the usage of multiple
     connections from the User Agent to its registrar. [STANDARDS-TRACK]</p>"
   language:
@@ -161,6 +161,10 @@ relation:
       content: RFC3327
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5618
 title:
 - content: Mixed Security Mode for the Two-Way Active Measurement Protocol (TWAMP)
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes a simple extension to TWAMP (the Two-Way Active
-    Measurement Protocol).  The extension adds the option to use different security
-    modes in the TWAMP-Control and TWAMP-Test protocols simultaneously.  The memo
-    also describes a new IANA registry for additional features, called the TWAMP Modes
+    Measurement Protocol). The extension adds the option to use different security
+    modes in the TWAMP-Control and TWAMP-Test protocols simultaneously. The memo also
+    describes a new IANA registry for additional features, called the TWAMP Modes
     registry. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC5357
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

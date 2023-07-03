@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3705
 title:
 - content: High Capacity Textual Conventions for MIB Modules Using Performance History
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document presents a set of High Capacity Textual Conventions for
     use in MIB modules which require performance history based upon 15 minute intervals.
-    \ The Textual Conventions defined in this document extend the conventions presented
+    The Textual Conventions defined in this document extend the conventions presented
     in RFC 3593 to 64 bit resolution using the conventions presented in RFC 2856.
     [STANDARDS-TRACK]</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

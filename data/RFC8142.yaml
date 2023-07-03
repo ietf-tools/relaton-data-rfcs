@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8142
 title:
 - content: GeoJSON Text Sequences
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the GeoJSON text sequence format and "application/geo+json-seq"
-    media type.  This format is based on JavaScript Object Notation (JSON) text sequences
+    media type. This format is based on JavaScript Object Notation (JSON) text sequences
     and GeoJSON, and it makes arbitrarily large geographic datasets incrementally
     parseable without restricting the form of GeoJSON texts within a sequence.</p>
   language:
@@ -75,6 +75,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

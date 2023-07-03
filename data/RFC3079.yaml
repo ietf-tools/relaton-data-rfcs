@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3079
 title:
 - content: Deriving Keys for use with Microsoft Point-to-Point Encryption (MPPE)
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the method used to derive initial MPPE session
-    keys from a variety of credential types.  It is expected that this memo will be
+    keys from a variety of credential types. It is expected that this memo will be
     updated whenever Microsoft defines a new key derivation method for MPPE, since
     its primary purpose is to provide an open, easily accessible reference for third-parties
-    wishing to interoperate with Microsoft products.  This memo provides information
+    wishing to interoperate with Microsoft products. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6090
 title:
 - content: Fundamental Elliptic Curve Cryptography Algorithms
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This note describes the fundamental algorithms of Elliptic Curve Cryptography
-    (ECC) as they were defined in some seminal references from 1994 and earlier.  These
+    (ECC) as they were defined in some seminal references from 1994 and earlier. These
     descriptions may be useful for implementing the fundamental algorithms without
-    using any of the specialized methods that were developed in following years.  Only
+    using any of the specialized methods that were developed in following years. Only
     elliptic curves defined over fields of characteristic greater than three are in
-    scope; these curves are those used in Suite B.  This document is not an Internet
+    scope; these curves are those used in Suite B. This document is not an Internet
     Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

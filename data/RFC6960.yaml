@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6960
 title:
 - content: X.509 Internet Public Key Infrastructure Online Certificate Status Protocol
@@ -213,8 +213,8 @@ script:
 abstract:
 - content: "<p>This document specifies a protocol useful in determining the current
     status of a digital certificate without requiring Certificate Revocation Lists
-    (CRLs).  Additional mechanisms addressing PKIX operational requirements are specified
-    in separate documents.  This document obsoletes RFCs 2560 and 6277.  It also updates
+    (CRLs). Additional mechanisms addressing PKIX operational requirements are specified
+    in separate documents. This document obsoletes RFCs 2560 and 6277. It also updates
     RFC 5912.</p>"
   language:
   - en
@@ -233,6 +233,10 @@ relation:
       content: RFC5912
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

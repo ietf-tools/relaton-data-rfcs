@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2641
 title:
 - content: Cabletron's VlanHello Protocol Specification Version 4
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: "<p>The VlanHello protocol is part of the InterSwitch Message Protocol
     (ISMP) which provides interswitch communication between switches running Cabletron's
-    SecureFast VLAN (SFVLAN) product.  Switches use the VlanHello protocol to discover
-    their neighboring switches and establish the topology of the switch fabric.  This
+    SecureFast VLAN (SFVLAN) product. Switches use the VlanHello protocol to discover
+    their neighboring switches and establish the topology of the switch fabric. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

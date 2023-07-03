@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3460
 title:
 - content: Policy Core Information Model (PCIM) Extensions
@@ -66,14 +66,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a number of changes to the Policy Core Information
-    Model (PCIM, RFC 3060).  Two types of changes are included.  First, several completely
+    Model (PCIM, RFC 3060). Two types of changes are included. First, several completely
     new elements are introduced, for example, classes for header filtering, that extend
-    PCIM into areas that it did not previously cover.  Second, there are cases where
+    PCIM into areas that it did not previously cover. Second, there are cases where
     elements of PCIM (for example, policy rule priorities) are deprecated, and replacement
     elements are defined (in this case, priorities tied to associations that refer
-    to policy rules).  Both types of changes are done in such a way that, to the extent
+    to policy rules). Both types of changes are done in such a way that, to the extent
     possible, interoperability with implementations of the original PCIM model is
-    preserved.  This document updates RFC 3060. [STANDARDS-TRACK]</p>"
+    preserved. This document updates RFC 3060. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -91,6 +91,10 @@ relation:
       content: RFC3060
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

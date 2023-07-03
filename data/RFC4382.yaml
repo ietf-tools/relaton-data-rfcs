@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4382
 title:
 - content: MPLS/BGP Layer 3 Virtual Private Network (VPN) Management Information Base
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a portion of the Management Information Base (MIB)
-    for use with network management protocols in the Internet community.  In particular,
+    for use with network management protocols in the Internet community. In particular,
     it describes managed objects to configure and/or monitor Multiprotocol Label Switching
     Layer-3 Virtual Private Networks on a Multiprotocol Label Switching (MPLS) Label
     Switching Router (LSR) supporting this feature. [STANDARDS-TRACK]</p>"
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

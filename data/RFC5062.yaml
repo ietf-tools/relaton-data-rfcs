@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5062
 title:
 - content: Security Attacks Found Against the Stream Control Transmission Protocol
@@ -124,19 +124,23 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document describes certain security threats to SCTP.  It also
-    describes ways to mitigate these threats, in particular by using techniques from
-    the SCTP Specification Errata and Issues memo (RFC 4460).  These techniques are
-    included in RFC 4960, which obsoletes RFC 2960.  It is hoped that this information
-    will provide some useful background information for many of the newest requirements
+- content: "<p>This document describes certain security threats to SCTP. It also describes
+    ways to mitigate these threats, in particular by using techniques from the SCTP
+    Specification Errata and Issues memo (RFC 4460). These techniques are included
+    in RFC 4960, which obsoletes RFC 2960. It is hoped that this information will
+    provide some useful background information for many of the newest requirements
     spelled out in the SCTP Specification Errata and Issues and included in RFC 4960.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

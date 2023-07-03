@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7403
 title:
 - content: A Media-Based Traceroute Function for the Session Initiation Protocol (SIP)
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>SIP already provides the ability to perform hop-by-hop traceroute for
     SIP messages using the Max-Forwards header field to determine the reachability
-    path of requests to a target.  A mechanism for media-loopback calls has also been
+    path of requests to a target. A mechanism for media-loopback calls has also been
     defined separately, which enables test calls to be generated that result in media
-    being looped back to the originator.  This document describes a means of performing
+    being looped back to the originator. This document describes a means of performing
     hop-by-hop traceroute-style test calls using the media-loopback mechanism to test
     the media path when SIP sessions go through media-relaying back-to-back user agents
     (B2BUAs).</p>"
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

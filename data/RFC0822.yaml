@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC822
 title:
 - content: STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document revises the specifications in RFC 733, in order to serve
-    the needs of the larger and more complex ARPA Internet.  Some of RFC 733's features
-    failed to gain adequate acceptance.  In order to simplify the standard and the
-    software that follows it, these features have been removed.  A different addressing
+    the needs of the larger and more complex ARPA Internet. Some of RFC 733's features
+    failed to gain adequate acceptance. In order to simplify the standard and the
+    software that follows it, these features have been removed. A different addressing
     scheme is used, to handle the case of internetwork mail; and the concept of re-transmission
-    has been introduced.  Obsoletes RFC 733, NIC 41952.</p>"
+    has been introduced. Obsoletes RFC 733, NIC 41952.</p>"
   language:
   - en
   script:
@@ -92,6 +92,10 @@ series:
     content: STD
     format: text/plain
   number: '11'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

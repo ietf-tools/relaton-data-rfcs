@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8218
 title:
 - content: Multipath Extension for the Optimized Link State Routing Protocol Version
@@ -97,9 +97,9 @@ script:
 abstract:
 - content: "<p>This document specifies a multipath extension for the Optimized Link
     State Routing Protocol version 2 (OLSRv2) to discover multiple disjoint paths
-    for Mobile Ad Hoc Networks (MANETs).  Considering the characteristics of MANETs,
+    for Mobile Ad Hoc Networks (MANETs). Considering the characteristics of MANETs,
     especially the dynamic network topology, using multiple paths can increase aggregated
-    throughput and improve the reliability by avoiding single route failures.  The
+    throughput and improve the reliability by avoiding single route failures. The
     interoperability with OLSRv2 is retained.</p>"
   language:
   - en
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

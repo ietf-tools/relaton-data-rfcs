@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1040
 title:
 - content: 'Privacy enhancement for Internet electronic mail: Part I: Message encipherment
@@ -67,14 +67,14 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC is the Outgrowth of a series of IAB Privacy Task Force meetings
-    and of internal working papers distributed for those meetings.  This memo defines
+    and of internal working papers distributed for those meetings. This memo defines
     message encipherment and authentication procedures, as the initial phase of an
     effort to provide privacy enhancement services for electronic mail transfer in
-    the Internet.  Detailed key management mechanisms to support these procedures
-    will be defined in a subsequent RFC.  As a goal of this initial phase, it is intended
+    the Internet. Detailed key management mechanisms to support these procedures will
+    be defined in a subsequent RFC. As a goal of this initial phase, it is intended
     that the procedures defined here be compatible with a wide range of key management
     approaches, including both conventional (symmetric) and public-key (asymmetric)
-    approaches for encryption of data encrypting keys.  Use of conventional cryptography
+    approaches for encryption of data encrypting keys. Use of conventional cryptography
     for message text encryption and/or integrity check computation is anticipated.</p>"
   language:
   - en
@@ -93,6 +93,10 @@ relation:
       content: RFC1113
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

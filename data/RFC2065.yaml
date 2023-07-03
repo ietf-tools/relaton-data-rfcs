@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2065
 title:
 - content: Domain Name System Security Extensions
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>The Domain Name System (DNS) has become a critical operational part
     of the Internet infrastructure yet it has no strong security mechanisms to assure
-    data integrity or authentication.  Extensions to the DNS are described that provide
+    data integrity or authentication. Extensions to the DNS are described that provide
     these services to security aware resolvers or applications through the use of
     cryptographic digital signatures. [STANDARDS-TRACK]</p>"
   language:
@@ -136,6 +136,10 @@ relation:
       content: RFC1035
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

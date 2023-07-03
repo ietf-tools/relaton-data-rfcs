@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4502
 title:
 - content: Remote Network Monitoring Management Information Base Version 2
@@ -87,6 +87,10 @@ relation:
       content: RFC3273
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

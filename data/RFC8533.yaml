@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8533
 title:
 - content: A YANG Data Model for Retrieval Methods for the Management of Operations,
@@ -183,11 +183,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document presents a retrieval method YANG data model for connectionless
-    Operations, Administration, and Maintenance (OAM) protocols.  It provides technology-independent
-    RPC operations for OAM protocols that use connectionless communication.  The retrieval
+    Operations, Administration, and Maintenance (OAM) protocols. It provides technology-independent
+    RPC operations for OAM protocols that use connectionless communication. The retrieval
     methods model herein presented can be extended to include technology- specific
-    details.  There are two key benefits of this approach: First, it leads to uniformity
-    between OAM protocols.  Second, it supports both nested OAM workflows (i.e., performing
+    details. There are two key benefits of this approach: First, it leads to uniformity
+    between OAM protocols. Second, it supports both nested OAM workflows (i.e., performing
     OAM functions at different or the same levels through a unified interface) as
     well as interactive OAM workflows (i.e., performing OAM functions at the same
     levels through a unified interface).</p>"
@@ -197,6 +197,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

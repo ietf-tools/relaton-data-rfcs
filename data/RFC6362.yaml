@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6362
 title:
 - content: Multiple Attachments for Electronic Data Interchange - Internet Integration
@@ -68,22 +68,26 @@ script:
 abstract:
 - content: "<p>The Electronic Data Interchange - Internet Integration (EDIINT) AS1,
     AS2, and AS3 messages were designed specifically for the transport of EDI documents.
-    \ Since multiple interchanges could be placed within a single EDI document, there
-    was not a need for sending multiple EDI documents in a single message.  As adoption
+    Since multiple interchanges could be placed within a single EDI document, there
+    was not a need for sending multiple EDI documents in a single message. As adoption
     of EDIINT grew, other uses developed aside from single EDI document transport.
-    \ Some transactions required multiple attachments to be interpreted together and
-    stored in a single message.  This Informational RFC describes how multiple documents,
+    Some transactions required multiple attachments to be interpreted together and
+    stored in a single message. This Informational RFC describes how multiple documents,
     including non-EDI payloads, can be attached and transmitted in a single EDIINT
-    transport message.  The attachments are stored within the MIME multipart/related
-    structure.  A minimal list of content-types to be supported as attachments is
-    provided.  This document is not an Internet Standards Track specification; it
-    is published for informational purposes.</p>"
+    transport message. The attachments are stored within the MIME multipart/related
+    structure. A minimal list of content-types to be supported as attachments is provided.
+    This document is not an Internet Standards Track specification; it is published
+    for informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

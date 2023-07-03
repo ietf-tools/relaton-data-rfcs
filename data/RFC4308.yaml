@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4308
 title:
 - content: Cryptographic Suites for IPsec
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>The IPsec, Internet Key Exchange (IKE), and IKEv2 protocols rely on
     security algorithms to provide privacy and authentication between the initiator
-    and responder.  There are many such algorithms available, and two IPsec systems
-    cannot interoperate unless they are using the same algorithms.  This document
-    specifies optional suites of algorithms and attributes that can be used to simplify
-    the administration of IPsec when used in manual keying mode, with IKEv1 or with
-    IKEv2. [STANDARDS-TRACK]</p>"
+    and responder. There are many such algorithms available, and two IPsec systems
+    cannot interoperate unless they are using the same algorithms. This document specifies
+    optional suites of algorithms and attributes that can be used to simplify the
+    administration of IPsec when used in manual keying mode, with IKEv1 or with IKEv2.
+    [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

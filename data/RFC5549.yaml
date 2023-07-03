@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5549
 title:
 - content: Advertising IPv4 Network Layer Reachability Information with an IPv6 Next
@@ -98,13 +98,13 @@ abstract:
 - content: "<p>Multiprotocol BGP (MP-BGP) specifies that the set of network-layer
     protocols to which the address carried in the Next Hop field may belong is determined
     by the Address Family Identifier (AFI) and the Subsequent Address Family Identifier
-    (SAFI).  The current AFI/SAFI definitions for the IPv4 address family only have
+    (SAFI). The current AFI/SAFI definitions for the IPv4 address family only have
     provisions for advertising a Next Hop address that belongs to the IPv4 protocol
     when advertising IPv4 Network Layer Reachability Information (NLRI) or VPN-IPv4
-    NLRI.  This document specifies the extensions necessary to allow advertising IPv4
+    NLRI. This document specifies the extensions necessary to allow advertising IPv4
     NLRI or VPN-IPv4 NLRI with a Next Hop address that belongs to the IPv6 protocol.
-    \ This comprises an extension of the AFI/SAFI definitions to allow the address
-    of the Next Hop for IPv4 NLRI or VPN-IPv4 NLRI to also belong to the IPv6 protocol,
+    This comprises an extension of the AFI/SAFI definitions to allow the address of
+    the Next Hop for IPv4 NLRI or VPN-IPv4 NLRI to also belong to the IPv6 protocol,
     the encoding of the Next Hop in order to determine which of the protocols the
     address actually belongs to, and a new BGP Capability allowing MP-BGP Peers to
     dynamically discover whether they can exchange IPv4 NLRI and VPN-IPv4 NLRI with
@@ -126,6 +126,10 @@ relation:
       content: RFC8950
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

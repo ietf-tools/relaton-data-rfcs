@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5507
 title:
 - content: Design Choices When Expanding the DNS
@@ -131,9 +131,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This note discusses how to extend the DNS with new data for a new application.
-    \ DNS extension discussions too often focus on reuse of the TXT Resource Record
-    Type.  This document lists different mechanisms to extend the DNS, and concludes
-    that the use of a new DNS Resource Record Type is the best solution.  This memo
+    DNS extension discussions too often focus on reuse of the TXT Resource Record
+    Type. This document lists different mechanisms to extend the DNS, and concludes
+    that the use of a new DNS Resource Record Type is the best solution. This memo
     provides information for the Internet community.</p>"
   language:
   - en
@@ -141,6 +141,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

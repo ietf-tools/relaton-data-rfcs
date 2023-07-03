@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1089
 title:
 - content: SNMP over Ethernet
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This memo describes an experimental method by which the Simple Network
     Management Protocol (SNMP) can be used over Ethernet MAC layer framing instead
-    of the Internet UDP/IP protocol stack.  This specification is useful for LAN based
+    of the Internet UDP/IP protocol stack. This specification is useful for LAN based
     network elements that support no higher layer protocols beyond the MAC sub-layer.</p>"
   language:
   - en
@@ -173,6 +173,10 @@ relation:
       content: RFC4789
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

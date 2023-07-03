@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6644
 title:
 - content: Rebind Capability in DHCPv6 Reconfigure Messages
@@ -124,9 +124,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates RFC 3315 (DHCPv6) to allow the Rebind message
-    type to appear in the Reconfigure Message option of a Reconfigure message.  It
+    type to appear in the Reconfigure Message option of a Reconfigure message. It
     extends the Reconfigure message to allow a DHCPv6 server to cause a DHCPv6 client
-    to send a Rebind message.  The document also clarifies how a DHCPv6 client responds
+    to send a Rebind message. The document also clarifies how a DHCPv6 client responds
     to a received Reconfigure message. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -145,6 +145,10 @@ relation:
       content: RFC3315
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

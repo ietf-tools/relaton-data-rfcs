@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3810
 title:
 - content: Multicast Listener Discovery Version 2 (MLDv2) for IPv6
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document updates RFC 2710, and it specifies Version 2 of the ulticast
-    Listener Discovery Protocol (MLDv2).  MLD is used by an IPv6 router to discover
+    Listener Discovery Protocol (MLDv2). MLD is used by an IPv6 router to discover
     the presence of multicast listeners on directly attached links, and to discover
-    which multicast addresses are of interest to those neighboring nodes.  MLDv2 is
-    designed to be interoperable with MLDv1.  MLDv2 adds the ability for a node to
+    which multicast addresses are of interest to those neighboring nodes. MLDv2 is
+    designed to be interoperable with MLDv1. MLDv2 adds the ability for a node to
     report interest in listening to packets with a particular multicast address only
     from specific source addresses or from all sources except for specific source
     addresses. [STANDARDS-TRACK]</p>"
@@ -119,6 +119,10 @@ relation:
       content: RFC2710
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3528
 title:
 - content: Mesh-enhanced Service Location Protocol (mSLP)
@@ -124,19 +124,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the Mesh-enhanced Service Location Protocol
-    (mSLP).  mSLP enhances the Service Location Protocol (SLP) with a scope-based
-    fully-meshed peering Directory Agent (DA) architecture.  Peer DAs exchange new
-    service registrations in shared scopes via anti- entropy and direct forwarding.
-    \ mSLP improves the reliability and consistency of SLP DA services, and simplifies
-    Service Agent (SA) registrations in systems with multiple DAs.  mSLP is backward
-    compatible with SLPv2 and can be deployed incrementally.  This memo defines an
-    Experimental Protocol for the Internet community.</p>"
+    (mSLP). mSLP enhances the Service Location Protocol (SLP) with a scope-based fully-meshed
+    peering Directory Agent (DA) architecture. Peer DAs exchange new service registrations
+    in shared scopes via anti- entropy and direct forwarding. mSLP improves the reliability
+    and consistency of SLP DA services, and simplifies Service Agent (SA) registrations
+    in systems with multiple DAs. mSLP is backward compatible with SLPv2 and can be
+    deployed incrementally. This memo defines an Experimental Protocol for the Internet
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

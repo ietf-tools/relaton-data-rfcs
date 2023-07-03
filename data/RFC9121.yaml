@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9121
 title:
 - content: Deprecating Infrastructure "int" Domains
@@ -96,8 +96,8 @@ script:
 abstract:
 - content: <p>This document deprecates the use of any "int" domain names that were
     designated for infrastructure purposes by the IETF, and it identifies them for
-    removal from the "int" top-level domain.  Any implementations that involve these
-    domains are now deprecated.  This document also changes the status of RFC 1528
+    removal from the "int" top-level domain. Any implementations that involve these
+    domains are now deprecated. This document also changes the status of RFC 1528
     and RFC 1706 to Historic.</p>
   language:
   - en
@@ -116,6 +116,10 @@ relation:
       content: RFC1706
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

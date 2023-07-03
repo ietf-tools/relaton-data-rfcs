@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6669
 title:
 - content: An Overview of the Operations, Administration, and Maintenance (OAM) Toolset
@@ -96,23 +96,27 @@ script:
 - Latn
 abstract:
 - content: "<p>This document provides an overview of the Operations, Administration,
-    and Maintenance (OAM) toolset for MPLS-based transport networks.  The toolset
-    consists of a comprehensive set of fault management and performance monitoring
-    capabilities (operating in the data plane) that are appropriate for transport
-    networks as required in RFC 5860 and support the network and services at different
-    nested levels.  This overview includes a brief recap of the MPLS Transport Profile
-    (MPLS-TP) OAM requirements and functions and the generic mechanisms created in
-    the MPLS data plane that allow the OAM packets to run in-band and share their
-    fate with data packets.  The protocol definitions for each of the MPLS-TP OAM
-    tools are defined in separate documents (RFCs or Working Group documents), which
-    are referenced by this document.  This document is not an Internet Standards Track
-    specification; it is published for informational purposes.</p>"
+    and Maintenance (OAM) toolset for MPLS-based transport networks. The toolset consists
+    of a comprehensive set of fault management and performance monitoring capabilities
+    (operating in the data plane) that are appropriate for transport networks as required
+    in RFC 5860 and support the network and services at different nested levels. This
+    overview includes a brief recap of the MPLS Transport Profile (MPLS-TP) OAM requirements
+    and functions and the generic mechanisms created in the MPLS data plane that allow
+    the OAM packets to run in-band and share their fate with data packets. The protocol
+    definitions for each of the MPLS-TP OAM tools are defined in separate documents
+    (RFCs or Working Group documents), which are referenced by this document. This
+    document is not an Internet Standards Track specification; it is published for
+    informational purposes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

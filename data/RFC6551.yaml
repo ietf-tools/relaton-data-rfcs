@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6551
 title:
 - content: Routing Metrics Used for Path Calculation in Low-Power and Lossy Networks
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>Low-Power and Lossy Networks (LLNs) have unique characteristics compared
     with traditional wired and ad hoc networks that require the specification of new
-    routing metrics and constraints.  By contrast, with typical Interior Gateway Protocol
+    routing metrics and constraints. By contrast, with typical Interior Gateway Protocol
     (IGP) routing metrics using hop counts or link metrics, this document specifies
     a set of link and node routing metrics and constraints suitable to LLNs to be
     used by the Routing Protocol for Low-Power and Lossy Networks (RPL). [STANDARDS-TRACK]</p>"
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

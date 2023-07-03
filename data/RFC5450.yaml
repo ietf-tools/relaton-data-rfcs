@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5450
 title:
 - content: Transmission Time Offsets in RTP Streams
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>This document describes a method to inform Real-time Transport Protocol
     (RTP) clients when RTP packets are transmitted at a time other than their 'nominal'
-    transmission time.  It also provides a mechanism to provide improved inter-arrival
+    transmission time. It also provides a mechanism to provide improved inter-arrival
     jitter reports from the clients, that take into account the reported transmission
     times. [STANDARDS-TRACK]</p>"
   language:
@@ -105,6 +105,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

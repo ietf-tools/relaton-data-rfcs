@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6120
 title:
 - content: 'Extensible Messaging and Presence Protocol (XMPP): Core'
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: '<p>The Extensible Messaging and Presence Protocol (XMPP) is an application
     profile of the Extensible Markup Language (XML) that enables the near-real-time
-    exchange of structured yet extensible data between any two or more network entities.  This
-    document defines XMPP''s core protocol methods: setup and teardown of XML streams,
-    channel encryption, authentication, error handling, and communication primitives
-    for messaging, network availability ("presence"), and request-response interactions.  This
-    document obsoletes RFC 3920. [STANDARDS-TRACK]</p>'
+    exchange of structured yet extensible data between any two or more network entities.
+    This document defines XMPP''s core protocol methods: setup and teardown of XML
+    streams, channel encryption, authentication, error handling, and communication
+    primitives for messaging, network availability ("presence"), and request-response
+    interactions. This document obsoletes RFC 3920. [STANDARDS-TRACK]</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC818
 title:
 - content: Remote User Telnet service
@@ -65,7 +65,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This RFC is the specification of an application protocol.  Any host
+- content: "<p>This RFC is the specification of an application protocol. Any host
     that implements this application level service must follow this protocol.</p>"
   language:
   - en
@@ -73,6 +73,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

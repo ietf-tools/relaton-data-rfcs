@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7619
 title:
 - content: The NULL Authentication Method in the Internet Key Exchange Protocol Version
@@ -97,9 +97,9 @@ script:
 abstract:
 - content: "<p>This document specifies the NULL Authentication method and the ID_NULL
     Identification Payload ID Type for Internet Key Exchange Protocol version 2 (IKEv2).
-    \ This allows two IKE peers to establish single-side authenticated or mutual unauthenticated
+    This allows two IKE peers to establish single-side authenticated or mutual unauthenticated
     IKE sessions for those use cases where a peer is unwilling or unable to authenticate
-    or identify itself.  This ensures IKEv2 can be used for Opportunistic Security
+    or identify itself. This ensures IKEv2 can be used for Opportunistic Security
     (also known as Opportunistic Encryption) to defend against Pervasive Monitoring
     attacks without the need to sacrifice anonymity.</p>"
   language:
@@ -119,6 +119,10 @@ relation:
       content: RFC4301
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

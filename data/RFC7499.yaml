@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7499
 title:
 - content: Support of Fragmentation of RADIUS Packets
@@ -211,11 +211,11 @@ script:
 - Latn
 abstract:
 - content: <p>The Remote Authentication Dial-In User Service (RADIUS) protocol is
-    limited to a total packet size of 4096 bytes.  Provisions exist for fragmenting
+    limited to a total packet size of 4096 bytes. Provisions exist for fragmenting
     large amounts of authentication data across multiple packets, via Access-Challenge
-    packets.  No similar provisions exist for fragmenting large amounts of authorization
-    data.  This document specifies how existing RADIUS mechanisms can be leveraged
-    to provide that functionality.  These mechanisms are largely compatible with existing
+    packets. No similar provisions exist for fragmenting large amounts of authorization
+    data. This document specifies how existing RADIUS mechanisms can be leveraged
+    to provide that functionality. These mechanisms are largely compatible with existing
     implementations, and they are designed to be invisible to proxies and "fail-safe"
     to legacy RADIUS Clients and Servers.</p>
   language:
@@ -224,6 +224,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

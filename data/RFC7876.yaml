@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7876
 title:
 - content: UDP Return Path for Packet Loss and Delay Measurement for MPLS Networks
@@ -124,15 +124,19 @@ script:
 - Latn
 abstract:
 - content: "<p>RFC 6374 defines a protocol for Packet Loss and Delay Measurement for
-    MPLS networks (MPLS-PLDM).  This document specifies the procedures to be used
-    when sending and processing out-of-band MPLS performance management Responses
-    over an UDP/IP return path.</p>"
+    MPLS networks (MPLS-PLDM). This document specifies the procedures to be used when
+    sending and processing out-of-band MPLS performance management Responses over
+    an UDP/IP return path.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

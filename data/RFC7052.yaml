@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7052
 title:
 - content: Locator/ID Separation Protocol (LISP) MIB
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document defines the MIB module that contains managed objects
     to support the monitoring devices of the Locator/ID Separation Protocol (LISP).
-    \ These objects provide information useful for monitoring LISP devices, including
+    These objects provide information useful for monitoring LISP devices, including
     determining basic LISP configuration information, LISP functional status, and
     operational counters and other statistics.</p>"
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

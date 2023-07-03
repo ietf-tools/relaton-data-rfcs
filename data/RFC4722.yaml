@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4722
 title:
 - content: Media Server Control Markup Language (MSCML) and Protocol
@@ -125,9 +125,9 @@ script:
 abstract:
 - content: "<p>Media Server Control Markup Language (MSCML) is a markup language used
     in conjunction with SIP to provide advanced conferencing and interactive voice
-    response (IVR) functions.  MSCML presents an application-level control model,
-    as opposed to device-level control models.  One use of this protocol is for communications
-    between a conference focus and mixer in the IETF SIP Conferencing Framework.  This
+    response (IVR) functions. MSCML presents an application-level control model, as
+    opposed to device-level control models. One use of this protocol is for communications
+    between a conference focus and mixer in the IETF SIP Conferencing Framework. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -146,6 +146,10 @@ relation:
       content: RFC5022
       format: text/plain
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

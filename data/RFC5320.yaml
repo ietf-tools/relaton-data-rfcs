@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5320
 title:
 - content: The Subnetwork Encapsulation and Adaptation Layer (SEAL)
@@ -67,11 +67,11 @@ script:
 abstract:
 - content: "<p>For the purpose of this document, subnetworks are defined as virtual
     topologies that span connected network regions bounded by encapsulating border
-    nodes.  These virtual topologies may span multiple IP and/or sub-IP layer forwarding
+    nodes. These virtual topologies may span multiple IP and/or sub-IP layer forwarding
     hops, and can introduce failure modes due to packet duplication and/or links with
-    diverse Maximum Transmission Units (MTUs).  This document specifies a Subnetwork
+    diverse Maximum Transmission Units (MTUs). This document specifies a Subnetwork
     Encapsulation and Adaptation Layer (SEAL) that accommodates such virtual topologies
-    over diverse underlying link technologies.  This document defines an Experimental
+    over diverse underlying link technologies. This document defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

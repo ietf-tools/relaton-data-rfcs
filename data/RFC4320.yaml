@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4320
 title:
 - content: Actions Addressing Identified Issues with the Session Initiation Protocol's
@@ -68,9 +68,9 @@ script:
 abstract:
 - content: "<p>This document describes modifications to the Session Initiation Protocol
     (SIP) to address problems that have been identified with the SIP non-INVITE transaction.
-    \ These modifications reduce the probability of messages losing the race condition
-    inherent in the non-INVITE transaction and reduce useless network traffic.  They
-    also improve the robustness of SIP networks when elements stop responding.  These
+    These modifications reduce the probability of messages losing the race condition
+    inherent in the non-INVITE transaction and reduce useless network traffic. They
+    also improve the robustness of SIP networks when elements stop responding. These
     changes update behavior defined in RFC 3261. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -89,6 +89,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7978
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): RBridge Channel
@@ -128,11 +128,11 @@ abstract:
     includes an optional mechanism (specified in RFC 7178) called RBridge Channel
     for the transmission of typed messages between TRILL switches in the same campus
     and the transmission of such messages between TRILL switches and end stations
-    on the same link.  This document specifies extensions to the RBridge Channel protocol
+    on the same link. This document specifies extensions to the RBridge Channel protocol
     header to support two features as follows: (1) a standard method to tunnel payloads
     whose type can be indicated by Ethertype through encapsulation in RBridge Channel
     messages; and (2) a method to support security facilities for RBridge Channel
-    messages.  This document updates RFC 7178.</p>"
+    messages. This document updates RFC 7178.</p>"
   language:
   - en
   script:
@@ -150,6 +150,10 @@ relation:
       content: RFC7178
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4004
 title:
 - content: Diameter Mobile IPv4 Application
@@ -183,10 +183,10 @@ script:
 abstract:
 - content: "<p>This document specifies a Diameter application that allows a Diameter
     server to authenticate, authorize and collect accounting information for Mobile
-    IPv4 services rendered to a mobile node.  Combined with the Inter-Realm capability
+    IPv4 services rendered to a mobile node. Combined with the Inter-Realm capability
     of the base protocol, this application allows mobile nodes to receive service
-    from foreign service providers.  Diameter Accounting messages will be used by
-    the foreign and home agents to transfer usage information to the Diameter servers.
+    from foreign service providers. Diameter Accounting messages will be used by the
+    foreign and home agents to transfer usage information to the Diameter servers.
     [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

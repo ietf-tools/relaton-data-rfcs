@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7728
 title:
 - content: RTP Stream Pause and Resume
@@ -154,14 +154,14 @@ script:
 abstract:
 - content: "<p>With the increased popularity of real-time multimedia applications,
     it is desirable to provide good control of resource usage, and users also demand
-    more control over communication sessions.  This document describes how a receiver
+    more control over communication sessions. This document describes how a receiver
     in a multimedia conversation can pause and resume incoming data from a sender
     by sending real-time feedback messages when using the Real-time Transport Protocol
-    (RTP) for real- time data transport.  This document extends the Codec Control
-    Message (CCM) RTP Control Protocol (RTCP) feedback package by explicitly allowing
-    and describing specific use of existing CCMs and adding a group of new real-time
-    feedback messages used to pause and resume RTP data streams.  This document updates
-    RFC 5104.</p>"
+    (RTP) for real- time data transport. This document extends the Codec Control Message
+    (CCM) RTP Control Protocol (RTCP) feedback package by explicitly allowing and
+    describing specific use of existing CCMs and adding a group of new real-time feedback
+    messages used to pause and resume RTP data streams. This document updates RFC
+    5104.</p>"
   language:
   - en
   script:
@@ -179,6 +179,10 @@ relation:
       content: RFC5104
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5739
 title:
 - content: IPv6 Configuration in Internet Key Exchange Protocol Version 2 (IKEv2)
@@ -125,18 +125,22 @@ script:
 abstract:
 - content: <p>When Internet Key Exchange Protocol version 2 (IKEv2) is used for remote
     VPN access (client to VPN gateway), the gateway assigns the client an IP address
-    from the internal network using IKEv2 configuration payloads.  The configuration
+    from the internal network using IKEv2 configuration payloads. The configuration
     payloads specified in RFC 4306 work well for IPv4 but make it difficult to use
-    certain features of IPv6.  This document specifies new configuration attributes
+    certain features of IPv6. This document specifies new configuration attributes
     for IKEv2 that allows the VPN gateway to assign IPv6 prefixes to clients, enabling
-    all features of IPv6 to be used with the client-gateway "virtual link".  This
-    document defines an Experimental Protocol for the Internet community.</p>
+    all features of IPv6 to be used with the client-gateway "virtual link". This document
+    defines an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

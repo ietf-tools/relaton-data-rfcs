@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4710
 title:
 - content: Real-time Application Quality-of-Service Monitoring (RAQMON) Framework
@@ -125,10 +125,10 @@ script:
 abstract:
 - content: "<p>There is a need to monitor end-devices such as IP phones, pagers, Instant
     Messaging clients, mobile phones, and various other handheld computing devices.
-    \ This memo extends the remote network monitoring (RMON) family of specifications
+    This memo extends the remote network monitoring (RMON) family of specifications
     to allow real-time quality-of-service (QoS) monitoring of various applications
     that run on these devices and allows this information to be integrated with the
-    RMON family using the Simple Network Management Protocol (SNMP).  This memo defines
+    RMON family using the Simple Network Management Protocol (SNMP). This memo defines
     the framework, architecture, relevant metrics, and transport requirements for
     real-time QoS monitoring of applications. [STANDARDS-TRACK]</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

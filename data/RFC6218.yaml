@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6218
 title:
 - content: Cisco Vendor-Specific RADIUS Attributes for the Delivery of Keying Material
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>This document defines a set of vendor-specific RADIUS Attributes designed
     to allow both the secure transmission of cryptographic keying material and strong
-    authentication of any RADIUS message.  These attributes have been allocated from
+    authentication of any RADIUS message. These attributes have been allocated from
     the Cisco vendor-specific space and have been implemented by multiple vendors.
-    \ This document is not an Internet Standards Track specification; it is published
+    This document is not an Internet Standards Track specification; it is published
     for informational purposes.</p>"
   language:
   - en
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

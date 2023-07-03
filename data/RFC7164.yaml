@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7164
 title:
 - content: RTP and Leap Seconds
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This document discusses issues that arise when RTP sessions span Coordinated
-    Universal Time (UTC) leap seconds.  It updates RFC 3550 by describing how RTP
-    senders and receivers should behave in the presence of leap seconds.</p>"
+    Universal Time (UTC) leap seconds. It updates RFC 3550 by describing how RTP senders
+    and receivers should behave in the presence of leap seconds.</p>"
   language:
   - en
   script:
@@ -114,6 +114,10 @@ relation:
       content: RFC3550
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

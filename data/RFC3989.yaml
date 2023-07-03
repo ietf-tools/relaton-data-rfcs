@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3989
 title:
 - content: Middlebox Communications (MIDCOM) Protocol Semantics
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>This memo specifies semantics for a Middlebox Communication (MIDCOM)
     protocol to be used by MIDCOM agents for interacting with middleboxes such as
-    firewalls and Network Address Translators (NATs).  The semantics discussion does
-    not include any specification of a concrete syntax or a transport protocol.  However,
+    firewalls and Network Address Translators (NATs). The semantics discussion does
+    not include any specification of a concrete syntax or a transport protocol. However,
     a concrete protocol is expected to implement the specified semantics or, more
-    likely, a superset of it.  The MIDCOM protocol semantics is derived from the MIDCOM
-    requirements, from the MIDCOM framework, and from working group decisions.  This
+    likely, a superset of it. The MIDCOM protocol semantics is derived from the MIDCOM
+    requirements, from the MIDCOM framework, and from working group decisions. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -148,6 +148,10 @@ relation:
       content: RFC5189
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

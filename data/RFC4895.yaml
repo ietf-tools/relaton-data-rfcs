@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4895
 title:
 - content: Authenticated Chunks for the Stream Control Transmission Protocol (SCTP)
@@ -153,15 +153,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a new chunk type, several parameters, and procedures
-    for the Stream Control Transmission Protocol (SCTP).  This new chunk type can
-    be used to authenticate SCTP chunks by using shared keys between the sender and
-    receiver.  The new parameters are used to establish the shared keys. [STANDARDS-TRACK]</p>"
+    for the Stream Control Transmission Protocol (SCTP). This new chunk type can be
+    used to authenticate SCTP chunks by using shared keys between the sender and receiver.
+    The new parameters are used to establish the shared keys. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7122
 title:
 - content: Datagram Convergence Layers for the Delay- and Disruption-Tolerant Networking
@@ -126,13 +126,13 @@ script:
 abstract:
 - content: "<p>This document specifies the preferred method for transporting Delay-
     and Disruption-Tolerant Networking (DTN) protocol data over the Internet using
-    datagrams.  It covers convergence layers for the Bundle Protocol (RFC 5050), as
+    datagrams. It covers convergence layers for the Bundle Protocol (RFC 5050), as
     well as the transportation of segments using the Licklider Transmission Protocol
-    (LTP) (RFC 5326).  UDP and the Datagram Congestion Control Protocol (DCCP) are
-    the candidate datagram protocols discussed.  UDP can only be used on a local network
-    or in cases where the DTN node implements explicit congestion control.  DCCP addresses
+    (LTP) (RFC 5326). UDP and the Datagram Congestion Control Protocol (DCCP) are
+    the candidate datagram protocols discussed. UDP can only be used on a local network
+    or in cases where the DTN node implements explicit congestion control. DCCP addresses
     the congestion control problem, and its use is recommended whenever possible.
-    \ This document is a product of the Delay-Tolerant Networking Research Group (DTNRG)
+    This document is a product of the Delay-Tolerant Networking Research Group (DTNRG)
     and represents the consensus of the DTNRG.</p>"
   language:
   - en
@@ -140,6 +140,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IRTF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3458
 title:
 - content: Message Context for Internet Mail
@@ -152,16 +152,20 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This memo describes a new RFC 2822 message header, "Message-Context".  This
-    header provides information about the context and presentation characteristics
-    of a message.  A receiving user agent (UA) may use this information as a hint
-    to optimally present the message. [STANDARDS-TRACK]</p>
+- content: <p>This memo describes a new RFC 2822 message header, "Message-Context".
+    This header provides information about the context and presentation characteristics
+    of a message. A receiving user agent (UA) may use this information as a hint to
+    optimally present the message. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

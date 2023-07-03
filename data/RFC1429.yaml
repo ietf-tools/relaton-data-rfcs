@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1429
 title:
 - content: Listserv Distribute Protocol
@@ -66,15 +66,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo specifies a subset of the distribution protocol used by the
-    BITNET LISTSERV to deliver mail messages to large amounts of recipients.  This
-    memo provides information for the Internet community.  It does not specify an
-    Internet standard.</p>"
+    BITNET LISTSERV to deliver mail messages to large amounts of recipients. This
+    memo provides information for the Internet community. It does not specify an Internet
+    standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

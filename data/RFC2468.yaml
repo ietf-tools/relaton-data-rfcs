@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2468
 title:
 - content: I REMEMBER IANA
@@ -66,13 +66,17 @@ script:
 - Latn
 abstract:
 - content: "<p>A long time ago, in a network, far far away, a great adventure took
-    place!.  This memo provides information for the Internet community.</p>"
+    place!. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

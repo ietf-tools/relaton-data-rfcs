@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7316
 title:
 - content: The Session Initiation Protocol (SIP) P-Private-Network-Indication Private
@@ -183,9 +183,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the SIP P-Private-Network-Indication P-header
-    used by the 3GPP.  The P-Private-Network-Indication indicates that the message
+    used by the 3GPP. The P-Private-Network-Indication indicates that the message
     is part of the message traffic of a private network and identifies that private
-    network.  A private network indication allows nodes to treat private network traffic
+    network. A private network indication allows nodes to treat private network traffic
     according to a different set of rules than the set applicable to public network
     traffic.</p>"
   language:
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

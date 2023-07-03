@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3858
 title:
 - content: An Extensible Markup Language (XML) Based Format for Watcher Information
@@ -66,12 +66,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Watchers are defined as entities that request (i.e., subscribe to)
-    information about a resource.  There is fairly complex state associated with these
-    subscriptions.  The union of the state for all subscriptions to a particular resource
-    is called the watcher information for that resource.  This state is dynamic, changing
-    as subscribers come and go.  As a result, it is possible, and indeed useful, to
-    subscribe to the watcher information for a particular resource.  In order to enable
-    this, a format is needed to describe the state of watchers on a resource.  This
+    information about a resource. There is fairly complex state associated with these
+    subscriptions. The union of the state for all subscriptions to a particular resource
+    is called the watcher information for that resource. This state is dynamic, changing
+    as subscribers come and go. As a result, it is possible, and indeed useful, to
+    subscribe to the watcher information for a particular resource. In order to enable
+    this, a format is needed to describe the state of watchers on a resource. This
     specification describes an Extensible Markup Language (XML) document format for
     such state. [STANDARDS-TRACK]</p>"
   language:
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

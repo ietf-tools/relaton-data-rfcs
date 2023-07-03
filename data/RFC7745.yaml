@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7745
 title:
 - content: XML Schemas for Reverse DNS Management
@@ -67,16 +67,20 @@ script:
 abstract:
 - content: <p>This document defines an Extensible Markup Language (XML) schema for
     reverse DNS management in a tightly controlled Representational State Transfer
-    (REST) environment.  This document describes a schema that has been developed
-    and deployed by ICANN in a "RESTful" system since 2011 and is being used by the
-    registries responsible for reverse DNS (rDNS) delegations underneath IN-ADDR.ARPA
-    and IP6.ARPA through an HTTPS transaction that is mediated by an X.509 certificate.</p>
+    (REST) environment. This document describes a schema that has been developed and
+    deployed by ICANN in a "RESTful" system since 2011 and is being used by the registries
+    responsible for reverse DNS (rDNS) delegations underneath IN-ADDR.ARPA and IP6.ARPA
+    through an HTTPS transaction that is mediated by an X.509 certificate.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

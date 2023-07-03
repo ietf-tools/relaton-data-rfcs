@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4654
 title:
 - content: 'TCP-Friendly Multicast Congestion Control (TFMCC): Protocol Specification'
@@ -95,19 +95,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies TCP-Friendly Multicast Congestion Control (TFMCC).
-    \ TFMCC is a congestion control mechanism for multicast transmissions in a best-effort
-    Internet environment.  It is a single-rate congestion control scheme, where the
+    TFMCC is a congestion control mechanism for multicast transmissions in a best-effort
+    Internet environment. It is a single-rate congestion control scheme, where the
     sending rate is adapted to the receiver experiencing the worst network conditions.
-    \ TFMCC is reasonably fair when competing for bandwidth with TCP flows and has
-    a relatively low variation of throughput over time, making it suitable for applications
+    TFMCC is reasonably fair when competing for bandwidth with TCP flows and has a
+    relatively low variation of throughput over time, making it suitable for applications
     where a relatively smooth sending rate is of importance, such as streaming media.
-    \ This memo defines an Experimental Protocol for the Internet community.</p>"
+    This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

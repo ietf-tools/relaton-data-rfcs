@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2706
 title:
 - content: 'ECML v1: Field Names for E-Commerce'
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>A standard set of information fields is defined as the first version
     of an Electronic Commerce Modeling Language (ECML) so that this task can be more
-    easily automated, for example by wallet software that could fill in fields.  This
+    easily automated, for example by wallet software that could fill in fields. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -115,6 +115,10 @@ relation:
       content: RFC3106
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

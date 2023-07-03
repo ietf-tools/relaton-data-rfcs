@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5864
 title:
 - content: DNS SRV Resource Records for AFS
@@ -68,7 +68,7 @@ abstract:
 - content: "<p>This document specifies how to use DNS (Domain Name Service) SRV RRs
     (Resource Records) to locate services for the AFS distributed file system and
     how the priority and weight values of the SRV RR should be interpreted in the
-    server ranking system used by AFS.  It updates RFC 1183 to deprecate the use of
+    server ranking system used by AFS. It updates RFC 1183 to deprecate the use of
     the AFSDB RR to locate AFS cell database servers and provides guidance for backward
     compatibility. [STANDARDS TRACK]</p>"
   language:
@@ -88,6 +88,10 @@ relation:
       content: RFC1183
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

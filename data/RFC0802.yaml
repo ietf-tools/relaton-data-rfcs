@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC802
 title:
 - content: ARPANET 1822L Host Access Protocol
@@ -71,12 +71,12 @@ script:
 - Latn
 abstract:
 - content: "<p>This document proposed two major changes to the current ARPANET host
-    access protocol.  The first change will allow hosts to use logical addressing
-    (i.e., host addresses that are independent of their physical location on the ARPANET)
+    access protocol. The first change will allow hosts to use logical addressing (i.e.,
+    host addresses that are independent of their physical location on the ARPANET)
     to communicate with each other, and the second will allow a host to shorten the
     amount of time that it may be blocked by its IMP after it presents a message to
     the network (currently, the IMP can block further input from a host for up to
-    15 seconds).  See RFCs 852 and 851.</p>"
+    15 seconds). See RFCs 852 and 851.</p>"
   language:
   - en
   script:
@@ -94,6 +94,10 @@ relation:
       content: RFC0851
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

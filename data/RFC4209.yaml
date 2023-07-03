@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4209
 title:
 - content: Link Management Protocol (LMP) for Dense Wavelength Division Multiplexing
@@ -96,9 +96,9 @@ script:
 - Latn
 abstract:
 - content: <p>The Link Management Protocol (LMP) is defined to manage traffic engineering
-    (TE) links.  In its present form, LMP focuses on peer nodes, i.e., nodes that
-    peer in signaling and/or routing.  This document proposes extensions to LMP to
-    allow it to be used between a peer node and an adjacent optical line system (OLS).  These
+    (TE) links. In its present form, LMP focuses on peer nodes, i.e., nodes that peer
+    in signaling and/or routing. This document proposes extensions to LMP to allow
+    it to be used between a peer node and an adjacent optical line system (OLS). These
     extensions are intended to satisfy the "Optical Link Interface Requirements" described
     in a companion document. [STANDARDS-TRACK]</p>
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

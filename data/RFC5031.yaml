@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5031
 title:
 - content: A Uniform Resource Name (URN) for Emergency and Other Well-Known Services
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>The content of many communication services depends on the context,
-    such as the user's location.  We describe a 'service' URN that allows well-known
+    such as the user's location. We describe a 'service' URN that allows well-known
     context-dependent services that can be resolved in a distributed manner to be
-    identified.  Examples include emergency services, directory assistance, and call-before-you-dig
+    identified. Examples include emergency services, directory assistance, and call-before-you-dig
     hot lines. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

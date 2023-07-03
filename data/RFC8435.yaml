@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8435
 title:
 - content: Parallel NFS (pNFS) Flexible File Layout
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>Parallel NFS (pNFS) allows a separation between the metadata (onto
-    a metadata server) and data (onto a storage device) for a file.  The flexible
-    file layout type is defined in this document as an extension to pNFS that allows
-    the use of storage devices that require only a limited degree of interaction with
-    the metadata server and use already-existing protocols.  Client-side mirroring
+    a metadata server) and data (onto a storage device) for a file. The flexible file
+    layout type is defined in this document as an extension to pNFS that allows the
+    use of storage devices that require only a limited degree of interaction with
+    the metadata server and use already-existing protocols. Client-side mirroring
     is also added to provide replication of files.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

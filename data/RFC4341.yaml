@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4341
 title:
 - content: 'Profile for Datagram Congestion Control Protocol (DCCP) Congestion Control
@@ -97,16 +97,20 @@ script:
 abstract:
 - content: "<p>This document contains the profile for Congestion Control Identifier
     2 (CCID 2), TCP-like Congestion Control, in the Datagram Congestion Control Protocol
-    (DCCP).  CCID 2 should be used by senders who would like to take advantage of
-    the available bandwidth in an environment with rapidly changing conditions, and
-    who are able to adapt to the abrupt changes in the congestion window typical of
-    TCP's Additive Increase Multiplicative Decrease (AIMD) congestion control. [STANDARDS-TRACK]</p>"
+    (DCCP). CCID 2 should be used by senders who would like to take advantage of the
+    available bandwidth in an environment with rapidly changing conditions, and who
+    are able to adapt to the abrupt changes in the congestion window typical of TCP's
+    Additive Increase Multiplicative Decrease (AIMD) congestion control. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

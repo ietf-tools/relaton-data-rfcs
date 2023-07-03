@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5664
 title:
 - content: Object-Based Parallel NFS (pNFS) Operations
@@ -125,13 +125,13 @@ script:
 abstract:
 - content: "<p>Parallel NFS (pNFS) extends Network File System version 4 (NFSv4) to
     allow clients to directly access file data on the storage used by the NFSv4 server.
-    \ This ability to bypass the server for data access can increase both performance
+    This ability to bypass the server for data access can increase both performance
     and parallelism, but requires additional client functionality for data access,
-    some of which is dependent on the class of storage used, a.k.a.  the Layout Type.
-    \ The main pNFS operations and data types in NFSv4 Minor version 1 specify a layout-
+    some of which is dependent on the class of storage used, a.k.a. the Layout Type.
+    The main pNFS operations and data types in NFSv4 Minor version 1 specify a layout-
     type-independent layer; layout-type-specific information is conveyed using opaque
     data structures whose internal structure is further defined by the particular
-    layout type specification.  This document specifies the NFSv4.1 Object-Based pNFS
+    layout type specification. This document specifies the NFSv4.1 Object-Based pNFS
     Layout Type as a companion to the main NFSv4 Minor version 1 specification. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

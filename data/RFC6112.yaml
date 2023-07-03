@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6112
 title:
 - content: Anonymity Support for Kerberos
@@ -126,9 +126,9 @@ abstract:
 - content: "<p>This document defines extensions to the Kerberos protocol to allow
     a Kerberos client to securely communicate with a Kerberos application service
     without revealing its identity, or without revealing more than its Kerberos realm.
-    \ It also defines extensions that allow a Kerberos client to obtain anonymous
-    credentials without revealing its identity to the Kerberos Key Distribution Center
-    (KDC).  This document updates RFCs 4120, 4121, and 4556. [STANDARDS-TRACK]</p>"
+    It also defines extensions that allow a Kerberos client to obtain anonymous credentials
+    without revealing its identity to the Kerberos Key Distribution Center (KDC).
+    This document updates RFCs 4120, 4121, and 4556. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -176,6 +176,10 @@ relation:
       content: RFC4556
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

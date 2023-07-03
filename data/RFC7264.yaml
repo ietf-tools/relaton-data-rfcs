@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7264
 title:
 - content: An Extension to the REsource LOcation And Discovery (RELOAD) Protocol to
@@ -154,10 +154,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines an optional extension to the REsource LOcation
-    And Discovery (RELOAD) protocol to support the relay peer routing mode.  RELOAD
-    recommends symmetric recursive routing for routing messages.  The new optional
+    And Discovery (RELOAD) protocol to support the relay peer routing mode. RELOAD
+    recommends symmetric recursive routing for routing messages. The new optional
     extension provides a shorter route for responses, thereby reducing overhead on
-    intermediate peers.  This document also describes potential cases where this extension
+    intermediate peers. This document also describes potential cases where this extension
     can be used.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

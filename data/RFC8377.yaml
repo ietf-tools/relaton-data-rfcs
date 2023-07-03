@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8377
 title:
 - content: 'Transparent Interconnection of Lots of Links (TRILL): Multi-Topology'
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document specifies extensions to the IETF TRILL (Transparent Interconnection
     of Lots of Links) protocol to support multi-topology routing of unicast and multi-destination
     traffic based on IS-IS (Intermediate System to Intermediate System) multi-topology
-    specified in RFC 5120.  This document updates RFCs 6325 and 7177.</p>"
+    specified in RFC 5120. This document updates RFCs 6325 and 7177.</p>"
   language:
   - en
   script:
@@ -154,6 +154,10 @@ relation:
       content: RFC7177
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

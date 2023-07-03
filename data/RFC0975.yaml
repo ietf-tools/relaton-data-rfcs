@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC975
 title:
 - content: Autonomous confederations
@@ -72,15 +72,19 @@ script:
 abstract:
 - content: "<p>This RFC proposes enhancements to the Exterior Gateway Protocol (EGP)
     to support a simple, multiple-level routing capability while preserving the robustness
-    features of the current EGP model.  The enhancements generalize the concept of
+    features of the current EGP model. The enhancements generalize the concept of
     core system to include multiple communities of autonomous systems, called autonomous
-    confederations.  Discussion and suggestions for improvement are requested.</p>"
+    confederations. Discussion and suggestions for improvement are requested.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

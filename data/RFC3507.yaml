@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3507
 title:
 - content: Internet Content Adaptation Protocol (ICAP)
@@ -95,19 +95,23 @@ script:
 - Latn
 abstract:
 - content: <p>ICAP, the Internet Content Adaption Protocol, is a protocol aimed at
-    providing simple object-based content vectoring for HTTP services.  ICAP is, in
+    providing simple object-based content vectoring for HTTP services. ICAP is, in
     essence, a lightweight protocol for executing a "remote procedure call" on HTTP
-    messages.  It allows ICAP clients to pass HTTP messages to ICAP servers for some
-    sort of transformation or other processing ("adaptation").  The server executes
+    messages. It allows ICAP clients to pass HTTP messages to ICAP servers for some
+    sort of transformation or other processing ("adaptation"). The server executes
     its transformation service on messages and sends back responses to the client,
-    usually with modified messages.  Typically, the adapted messages are either HTTP
-    requests or HTTP responses.  This memo provides information for the Internet community.</p>
+    usually with modified messages. Typically, the adapted messages are either HTTP
+    requests or HTTP responses. This memo provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

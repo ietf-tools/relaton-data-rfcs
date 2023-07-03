@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8939
 title:
 - content: 'Deterministic Networking (DetNet) Data Plane: IP'
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: "<p>This document specifies the Deterministic Networking (DetNet) data
     plane operation for IP hosts and routers that provide DetNet service to IP-encapsulated
-    data.  No DetNet-specific encapsulation is defined to support IP flows; instead,
+    data. No DetNet-specific encapsulation is defined to support IP flows; instead,
     the existing IP-layer and higher-layer protocol header information is used to
-    support flow identification and DetNet service delivery.  This document builds
+    support flow identification and DetNet service delivery. This document builds
     on the DetNet architecture (RFC 8655) and data plane framework (RFC 8938).</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

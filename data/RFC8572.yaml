@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8572
 title:
 - content: Secure Zero Touch Provisioning (SZTP)
@@ -124,11 +124,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document presents a technique to securely provision a networking
-    device when it is booting in a factory-default state.  Variations in the solution
-    enable it to be used on both public and private networks.  The provisioning steps
+    device when it is booting in a factory-default state. Variations in the solution
+    enable it to be used on both public and private networks. The provisioning steps
     are able to update the boot image, commit an initial configuration, and execute
-    arbitrary scripts to address auxiliary needs.  The updated device is subsequently
-    able to establish secure connections with other systems.  For instance, a device
+    arbitrary scripts to address auxiliary needs. The updated device is subsequently
+    able to establish secure connections with other systems. For instance, a device
     may establish NETCONF (RFC 6241) and/or RESTCONF (RFC 8040) connections with deployment-specific
     network management systems.</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

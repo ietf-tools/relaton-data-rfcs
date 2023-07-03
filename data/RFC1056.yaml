@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1056
 title:
 - content: 'PCMAIL: A distributed mail system for personal computers'
@@ -71,8 +71,8 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo is a discussion of the Pcmail workstation based distributed
-    mail system.  It is identical to the discussion in RFC-993, save that a new, much
-    simpler mail transport protocol is described.  The new transport protocol is the
+    mail system. It is identical to the discussion in RFC-993, save that a new, much
+    simpler mail transport protocol is described. The new transport protocol is the
     result of continued research into ease of protocol implementation and use issues.</p>"
   language:
   - en
@@ -80,6 +80,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

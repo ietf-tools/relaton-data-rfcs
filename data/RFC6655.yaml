@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6655
 title:
 - content: AES-CCM Cipher Suites for Transport Layer Security (TLS)
@@ -97,7 +97,7 @@ abstract:
 - content: "<p>This memo describes the use of the Advanced Encryption Standard (AES)
     in the Counter with Cipher Block Chaining - Message Authentication Code (CBC-MAC)
     Mode (CCM) of operation within Transport Layer Security (TLS) and Datagram TLS
-    (DTLS) to provide confidentiality and data origin authentication.  The AES-CCM
+    (DTLS) to provide confidentiality and data origin authentication. The AES-CCM
     algorithm is amenable to compact implementations, making it suitable for constrained
     environments. [STANDARDS-TRACK]</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

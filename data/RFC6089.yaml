@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6089
 title:
 - content: Flow Bindings in Mobile IPv6 and Network Mobility (NEMO) Basic Support
@@ -182,7 +182,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document introduces extensions to Mobile IPv6 that allow nodes
-    to bind one or more flows to a care-of address.  These extensions allow multihomed
+    to bind one or more flows to a care-of address. These extensions allow multihomed
     nodes to instruct home agents and other Mobile IPv6 entities to direct inbound
     flows to specific addresses. [STANDARDS- TRACK]</p>"
   language:
@@ -202,6 +202,10 @@ relation:
       content: RFC5648
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

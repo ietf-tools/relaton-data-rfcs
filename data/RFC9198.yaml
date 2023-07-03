@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9198
 title:
 - content: Advanced Unidirectional Route Assessment (AURA)
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This memo introduces an advanced unidirectional route assessment (AURA)
     metric and associated measurement methodology based on the IP Performance Metrics
-    (IPPM) framework (RFC 2330).  This memo updates RFC 2330 in the areas of path-related
+    (IPPM) framework (RFC 2330). This memo updates RFC 2330 in the areas of path-related
     terminology and path description, primarily to include the possibility of parallel
     subpaths between a given Source and Destination pair, owing to the presence of
     multipath technologies.</p>"
@@ -204,6 +204,10 @@ relation:
       content: RFC2330
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

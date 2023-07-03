@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7990
 title:
 - content: RFC Format Framework
@@ -68,8 +68,8 @@ abstract:
 - content: "<p>In order to improve the readability of RFCs while supporting their
     archivability, the canonical format of the RFC Series will be transitioning from
     plain-text ASCII to XML using the xml2rfc version 3 vocabulary; different publication
-    formats will be rendered from that base document.  With these changes comes an
-    increase in complexity for authors, consumers, and the publisher of RFCs.  This
+    formats will be rendered from that base document. With these changes comes an
+    increase in complexity for authors, consumers, and the publisher of RFCs. This
     document serves as the framework that provides the problem statement, lays out
     a road map of the documents that capture the specific requirements, and describes
     the transition plan.</p>"
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

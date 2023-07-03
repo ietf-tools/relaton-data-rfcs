@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1023
 title:
 - content: HEMS monitoring and control language
@@ -95,9 +95,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC specifies the High-Level Entity Management System (HEMS) Monitoring
-    and Control Language.  This language defines the requests and replies used in
-    HEMS.  This memo assumes knowledge of the HEMS system described in RFC-1021, and
-    of the ISO data encoding standard, ASN.1.</p>"
+    and Control Language. This language defines the requests and replies used in HEMS.
+    This memo assumes knowledge of the HEMS system described in RFC-1021, and of the
+    ISO data encoding standard, ASN.1.</p>"
   language:
   - en
   script:
@@ -115,6 +115,10 @@ relation:
       content: RFC1076
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4792
 title:
 - content: Encoding Instructions for the Generic String Encoding Rules (GSER)
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>Abstract Syntax Notation One (ASN.1) defines a general framework for
     annotating types in an ASN.1 specification with encoding instructions that alter
-    how values of those types are encoded according to ASN.1 encoding rules.  This
+    how values of those types are encoded according to ASN.1 encoding rules. This
     document defines the supporting notation for encoding instructions that apply
     to the Generic String Encoding Rules (GSER) and, in particular, defines an encoding
     instruction to provide a machine-processable representation for the declaration
@@ -89,6 +89,10 @@ relation:
       content: RFC3641
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

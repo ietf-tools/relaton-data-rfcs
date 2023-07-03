@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8326
 title:
 - content: Graceful BGP Session Shutdown
@@ -182,7 +182,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document standardizes a new well-known BGP community, GRACEFUL_SHUTDOWN,
-    to signal the graceful shutdown of paths.  This document also describes operational
+    to signal the graceful shutdown of paths. This document also describes operational
     procedures that use this well-known community to reduce the amount of traffic
     lost when BGP peering sessions are about to be shut down deliberately, e.g., for
     planned maintenance.</p>"
@@ -192,6 +192,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4515
 title:
 - content: 'Lightweight Directory Access Protocol (LDAP): String Representation of
@@ -97,15 +97,19 @@ script:
 abstract:
 - content: "<p>Lightweight Directory Access Protocol (LDAP) search filters are transmitted
     in the LDAP protocol using a binary representation that is appropriate for use
-    on the network.  This document defines a human-readable string representation
-    of LDAP search filters that is appropriate for use in LDAP URLs (RFC 4516) and
-    in other applications. [STANDARDS-TRACK]</p>"
+    on the network. This document defines a human-readable string representation of
+    LDAP search filters that is appropriate for use in LDAP URLs (RFC 4516) and in
+    other applications. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

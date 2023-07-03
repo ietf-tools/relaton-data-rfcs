@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7850
 title:
 - content: Registering Values of the SDP 'proto' Field for Transporting RTP Media
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>The Real-time Transport Protocol (RTP) specification establishes a
     registry of profile names for use by higher-level control protocols, such as the
-    Session Description Protocol (SDP), to refer to the transport methods.  This specification
+    Session Description Protocol (SDP), to refer to the transport methods. This specification
     describes the following new SDP transport protocol identifiers for transporting
     RTP Media over TCP: 'TCP/RTP/AVPF', 'TCP/RTP/SAVP', 'TCP/RTP/SAVPF', 'TCP/DTLS/RTP/SAVP',
     'TCP/DTLS/RTP/SAVPF', 'TCP/TLS/RTP/AVP', and 'TCP/TLS/RTP/AVPF'.</p>"
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

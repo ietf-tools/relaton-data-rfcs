@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1644
 title:
 - content: T/TCP -- TCP Extensions for Transactions Functional Specification
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo specifies T/TCP, an experimental TCP extension for efficient
-    transaction-oriented (request/response) service.  This memo describes an Experimental
+    transaction-oriented (request/response) service. This memo describes an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -95,6 +95,10 @@ relation:
       content: RFC1379
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

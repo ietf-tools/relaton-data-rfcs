@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4152
 title:
 - content: A Uniform Resource Name (URN) Namespace for the Common Language Equipment
@@ -97,20 +97,24 @@ script:
 abstract:
 - content: "<p>This document describes a Uniform Resource Name (URN) namespace (RFC
     3406) for the assignment of the Common Language Equipment Identifier (CLEI) code,
-    which is used in messages standardized by ANSI.  The URN namespace is managed
-    by Telcordia Technologies, Inc., as the maintenance agent for ANSI T1.213.  The
-    CLEI code is a globally unique, ten-character alphanumeric intelligent code assigned
-    by Telcordia Technologies at the request of equipment suppliers.  The CLEI code
-    identifies communications equipment by specifying product type and features.  There
+    which is used in messages standardized by ANSI. The URN namespace is managed by
+    Telcordia Technologies, Inc., as the maintenance agent for ANSI T1.213. The CLEI
+    code is a globally unique, ten-character alphanumeric intelligent code assigned
+    by Telcordia Technologies at the request of equipment suppliers. The CLEI code
+    identifies communications equipment by specifying product type and features. There
     is a one-to-one relationship between a CLEI code and supplier's product ID (the
-    manufacturer's name and the part number along with its version number).  This
-    memo provides information for the Internet community.</p>"
+    manufacturer's name and the part number along with its version number). This memo
+    provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

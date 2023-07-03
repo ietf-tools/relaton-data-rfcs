@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2257
 title:
 - content: Agent Extensibility (AgentX) Protocol Version 1
@@ -124,7 +124,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo defines a standardized framework for extensible SNMP agents.
-    \ It defines processing entities called master agents and subagents, a protocol
+    It defines processing entities called master agents and subagents, a protocol
     (AgentX) used to communicate between them, and the elements of procedure by which
     the extensible agent processes SNMP protocol messages. [STANDARDS-TRACK]</p>"
   language:
@@ -144,6 +144,10 @@ relation:
       content: RFC2741
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7148
 title:
 - content: Prefix Delegation Support for Proxy Mobile IPv6
@@ -183,18 +183,22 @@ script:
 abstract:
 - content: "<p>This specification defines extensions to the Proxy Mobile IPv6 protocol
     for allowing a mobile router in a Proxy Mobile IPv6 domain to obtain IP prefixes
-    for its attached mobile networks using DHCPv6 prefix delegation.  Network-based
+    for its attached mobile networks using DHCPv6 prefix delegation. Network-based
     mobility management support is provided for those delegated IP prefixes just as
-    it is provided for the mobile node's home address.  Even if the mobile router
-    performs a handoff and changes its network point of attachment, mobility support
-    is ensured for all the delegated IP prefixes and for all the IP nodes in the mobile
-    network that use IP address configuration from those delegated IP prefixes.</p>"
+    it is provided for the mobile node's home address. Even if the mobile router performs
+    a handoff and changes its network point of attachment, mobility support is ensured
+    for all the delegated IP prefixes and for all the IP nodes in the mobile network
+    that use IP address configuration from those delegated IP prefixes.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

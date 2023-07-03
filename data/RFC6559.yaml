@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6559
 title:
 - content: A Reliable Transport Mechanism for PIM
@@ -153,9 +153,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a reliable transport mechanism for the PIM protocol
-    for transmission of Join/Prune messages.  This eliminates the need for periodic
-    Join/Prune message transmission and processing.  The reliable transport mechanism
-    can use either TCP or SCTP as the transport protocol.  This document defines an
+    for transmission of Join/Prune messages. This eliminates the need for periodic
+    Join/Prune message transmission and processing. The reliable transport mechanism
+    can use either TCP or SCTP as the transport protocol. This document defines an
     Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -163,6 +163,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

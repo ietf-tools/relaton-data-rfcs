@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3994
 title:
 - content: Indication of Message Composition for Instant Messaging
@@ -67,10 +67,10 @@ script:
 abstract:
 - content: "<p>In instant messaging (IM) systems, it is useful to know during an IM
     conversation whether the other party is composing a message; e.g., typing or recording
-    an audio message.  This document defines a new status message content type and
-    XML namespace that conveys information about a message being composed.  The status
+    an audio message. This document defines a new status message content type and
+    XML namespace that conveys information about a message being composed. The status
     message can indicate the composition of a message of any type, including text,
-    voice, or video.  The status messages are delivered to the instant messaging recipient
+    voice, or video. The status messages are delivered to the instant messaging recipient
     in the same manner as the instant messages themselves. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

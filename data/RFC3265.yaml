@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3265
 title:
 - content: Session Initiation Protocol (SIP)-Specific Event Notification
@@ -71,7 +71,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes an extension to the Session Initiation Protocol
-    (SIP).  The purpose of this extension is to provide an extensible framework by
+    (SIP). The purpose of this extension is to provide an extensible framework by
     which SIP nodes can request notification from remote nodes indicating that certain
     events have occurred. [STANDARDS-TRACK]</p>"
   language:
@@ -101,6 +101,10 @@ relation:
       content: RFC3261
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

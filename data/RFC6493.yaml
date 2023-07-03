@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6493
 title:
 - content: The Resource Public Key Infrastructure (RPKI) Ghostbusters Record
@@ -68,9 +68,9 @@ abstract:
 - content: "<p>In the Resource Public Key Infrastructure (RPKI), resource certificates
     completely obscure names or any other information that might be useful for contacting
     responsible parties to deal with issues of certificate expiration, maintenance,
-    roll-overs, compromises, etc.  This document describes the RPKI Ghostbusters Record
+    roll-overs, compromises, etc. This document describes the RPKI Ghostbusters Record
     containing human contact information that may be verified (indirectly) by a Certification
-    Authority (CA) certificate.  The data in the record are those of a severely profiled
+    Authority (CA) certificate. The data in the record are those of a severely profiled
     vCard. [STANDARDS- TRACK]</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

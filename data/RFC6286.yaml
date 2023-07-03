@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6286
 title:
 - content: Autonomous-System-Wide Unique BGP Identifier for BGP-4
@@ -98,8 +98,8 @@ abstract:
     Identifier are not met, this document relaxes the definition of the BGP Identifier
     to be a 4-octet, unsigned, non-zero integer and relaxes the "uniqueness" requirement
     so that only Autonomous-System-wide (AS-wide) uniqueness of the BGP Identifiers
-    is required.  These revisions to the base BGP specification do not introduce any
-    backward compatibility issues.  This document updates RFC 4271. [STANDARDS-TRACK]</p>
+    is required. These revisions to the base BGP specification do not introduce any
+    backward compatibility issues. This document updates RFC 4271. [STANDARDS-TRACK]</p>
   language:
   - en
   script:
@@ -117,6 +117,10 @@ relation:
       content: RFC4271
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

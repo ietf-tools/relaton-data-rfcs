@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5295
 title:
 - content: Specification for the Derivation of Root Keys from an Extended Master Session
@@ -154,11 +154,11 @@ script:
 - Latn
 abstract:
 - content: "<p>The Extensible Authentication Protocol (EAP) defined the Extended Master
-    Session Key (EMSK) generation, but reserved it for unspecified future uses.  This
-    memo reserves the EMSK for the sole purpose of deriving root keys.  Root keys
-    are master keys that can be used for multiple purposes, identified by usage definitions.
-    \ This document also specifies a mechanism for avoiding conflicts between root
-    keys by deriving them in a manner that guarantees cryptographic separation.  Finally,
+    Session Key (EMSK) generation, but reserved it for unspecified future uses. This
+    memo reserves the EMSK for the sole purpose of deriving root keys. Root keys are
+    master keys that can be used for multiple purposes, identified by usage definitions.
+    This document also specifies a mechanism for avoiding conflicts between root keys
+    by deriving them in a manner that guarantees cryptographic separation. Finally,
     this document also defines one such root key usage: Domain-Specific Root Keys
     are root keys made available to and used within specific key management domains.
     [STANDARDS-TRACK]</p>"
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6143
 title:
 - content: The Remote Framebuffer Protocol
@@ -96,17 +96,21 @@ script:
 abstract:
 - content: <p>RFB ("remote framebuffer") is a simple protocol for remote access to
     graphical user interfaces that allows a client to view and control a window system
-    on another computer.  Because it works at the framebuffer level, RFB is applicable
-    to all windowing systems and applications.  This document describes the protocol
-    used to communicate between an RFB client and RFB server.  RFB is the protocol
-    used in VNC.  This document is not an Internet Standards Track specification;
-    it is published for informational purposes.</p>
+    on another computer. Because it works at the framebuffer level, RFB is applicable
+    to all windowing systems and applications. This document describes the protocol
+    used to communicate between an RFB client and RFB server. RFB is the protocol
+    used in VNC. This document is not an Internet Standards Track specification; it
+    is published for informational purposes.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9054
 title:
 - content: 'CBOR Object Signing and Encryption (COSE): Hash Algorithms'
@@ -66,10 +66,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The CBOR Object Signing and Encryption (COSE) syntax (see RFC 9052)
-    does not define any direct methods for using hash algorithms.  There are, however,
+    does not define any direct methods for using hash algorithms. There are, however,
     circumstances where hash algorithms are used, such as indirect signatures, where
     the hash of one or more contents are signed, and identification of an X.509 certificate
-    or other object by the use of a fingerprint.  This document defines hash algorithms
+    or other object by the use of a fingerprint. This document defines hash algorithms
     that are identified by COSE algorithm identifiers.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

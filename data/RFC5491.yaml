@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5491
 title:
 - content: GEOPRIV Presence Information Data Format Location Object (PIDF-LO) Usage
@@ -125,15 +125,15 @@ script:
 - Latn
 abstract:
 - content: "<p>The Presence Information Data Format Location Object (PIDF-LO) specification
-    provides a flexible and versatile means to represent location information.  There
+    provides a flexible and versatile means to represent location information. There
     are, however, circumstances that arise when information needs to be constrained
-    in how it is represented.  In these circumstances, the range of options that need
-    to be implemented are reduced.  There is growing interest in being able to use
-    location information contained in a PIDF-LO for routing applications.  To allow
+    in how it is represented. In these circumstances, the range of options that need
+    to be implemented are reduced. There is growing interest in being able to use
+    location information contained in a PIDF-LO for routing applications. To allow
     successful interoperability between applications, location information needs to
     be normative and more tightly constrained than is currently specified in RFC 4119
-    (PIDF-LO).  This document makes recommendations on how to constrain, represent,
-    and interpret locations in a PIDF-LO.  It further recommends a subset of Geography
+    (PIDF-LO). This document makes recommendations on how to constrain, represent,
+    and interpret locations in a PIDF-LO. It further recommends a subset of Geography
     Markup Language (GML) 3.1.1 that is mandatory to implement by applications involved
     in location-based routing. [STANDARDS-TRACK]</p>"
   language:
@@ -153,6 +153,10 @@ relation:
       content: RFC4119
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

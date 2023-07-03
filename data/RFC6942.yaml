@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6942
 title:
 - content: Diameter Support for the EAP Re-authentication Protocol (ERP)
@@ -184,8 +184,8 @@ abstract:
 - content: "<p>The EAP Re-authentication Protocol (ERP) defines extensions to the
     Extensible Authentication Protocol (EAP) to support efficient re-authentication
     between the peer and an EAP Re-authentication (ER) server through a compatible
-    authenticator.  This document specifies Diameter support for ERP.  It defines
-    a new Diameter ERP application to transport ERP messages between an ER authenticator
+    authenticator. This document specifies Diameter support for ERP. It defines a
+    new Diameter ERP application to transport ERP messages between an ER authenticator
     and the ER server, and a set of new Attribute-Value Pairs (AVPs) that can be used
     to transport the cryptographic material needed by the re-authentication server.</p>"
   language:
@@ -194,6 +194,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

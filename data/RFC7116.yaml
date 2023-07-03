@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7116
 title:
 - content: Licklider Transmission Protocol (LTP), Compressed Bundle Header Encoding
@@ -97,18 +97,22 @@ script:
 abstract:
 - content: "<p>The DTNRG Research Group has defined the experimental Licklider Transmission
     Protocol (LTP) and the Compressed Bundle Header Encoding (CBHE) mechanism for
-    the InterPlanetary Network ('ipn' URI scheme).  Moreover, RFC 5050 defines values
-    for the Bundle Protocol administrative record type.  All of these fields are subject
-    to a registry.  For the purpose of its research work, the group has created ad
-    hoc registries.  As the specifications are stable and have multiple interoperable
+    the InterPlanetary Network ('ipn' URI scheme). Moreover, RFC 5050 defines values
+    for the Bundle Protocol administrative record type. All of these fields are subject
+    to a registry. For the purpose of its research work, the group has created ad
+    hoc registries. As the specifications are stable and have multiple interoperable
     implementations, the group would like to hand off the registries to IANA for official
-    management.  This document describes the necessary IANA actions.</p>"
+    management. This document describes the necessary IANA actions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IRTF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

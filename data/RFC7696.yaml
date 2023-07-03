@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7696
 title:
 - content: Guidelines for Cryptographic Algorithm Agility and Selecting Mandatory-to-Implement
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>Many IETF protocols use cryptographic algorithms to provide confidentiality,
-    integrity, authentication, or digital signature.  Communicating peers must support
+    integrity, authentication, or digital signature. Communicating peers must support
     a common set of cryptographic algorithms for these mechanisms to work properly.
-    \ This memo provides guidelines to ensure that protocols have the ability to migrate
+    This memo provides guidelines to ensure that protocols have the ability to migrate
     from one mandatory-to-implement algorithm suite to another over time.</p>"
   language:
   - en
@@ -81,6 +81,10 @@ series:
     content: BCP
     format: text/plain
   number: '201'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

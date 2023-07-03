@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4845
 title:
 - content: Process for Publication of IAB RFCs
@@ -73,15 +73,19 @@ script:
 - Latn
 abstract:
 - content: "<p>From time to time, the Internet Architecture Board (IAB) publishes
-    documents as Requests for Comments (RFCs).  This document defines the process
-    by which those documents are produced, reviewed, and published in the RFC Series.
-    \ This memo provides information for the Internet community.</p>"
+    documents as Requests for Comments (RFCs). This document defines the process by
+    which those documents are produced, reviewed, and published in the RFC Series.
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

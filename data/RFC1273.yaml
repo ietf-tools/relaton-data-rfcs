@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1273
 title:
 - content: 'Measurement Study of Changes in Service-Level Reachability in the Global
@@ -72,15 +72,19 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes plans to carry out a longitudinal measurement study
-    of changes in service-level reachability in the global TCP/IP Internet.  This
-    memo provides information for the Internet community.  It does not specify an
-    Internet standard.</p>"
+    of changes in service-level reachability in the global TCP/IP Internet. This memo
+    provides information for the Internet community. It does not specify an Internet
+    standard.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4494
 title:
 - content: The AES-CMAC-96 Algorithm and Its Use with IPsec
@@ -125,17 +125,21 @@ script:
 abstract:
 - content: "<p>The National Institute of Standards and Technology (NIST) has recently
     specified the Cipher-based Message Authentication Code (CMAC), which is equivalent
-    to the One-Key CBC-MAC1 (OMAC1) algorithm submitted by Iwata and Kurosawa.  OMAC1
+    to the One-Key CBC-MAC1 (OMAC1) algorithm submitted by Iwata and Kurosawa. OMAC1
     efficiently reduces the key size of Extended Cipher Block Chaining mode (XCBC).
-    \ This memo specifies the use of CMAC mode as an authentication mechanism of the
+    This memo specifies the use of CMAC mode as an authentication mechanism of the
     IPsec Encapsulating Security Payload (ESP) and the Authentication Header (AH)
-    protocols.  This new algorithm is named AES-CMAC-96. [STANDARDS-TRACK]</p>"
+    protocols. This new algorithm is named AES-CMAC-96. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

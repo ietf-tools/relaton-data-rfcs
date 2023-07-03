@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7384
 title:
 - content: Security Requirements of Time Protocols in Packet Switched Networks
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>As time and frequency distribution protocols are becoming increasingly
     common and widely deployed, concern about their exposure to various security threats
-    is increasing.  This document defines a set of security requirements for time
-    protocols, focusing on the Precision Time Protocol (PTP) and the Network Time
-    Protocol (NTP).  This document also discusses the security impacts of time protocol
-    practices, the performance implications of external security practices on time
-    protocols, and the dependencies between other security services and time synchronization.</p>"
+    is increasing. This document defines a set of security requirements for time protocols,
+    focusing on the Precision Time Protocol (PTP) and the Network Time Protocol (NTP).
+    This document also discusses the security impacts of time protocol practices,
+    the performance implications of external security practices on time protocols,
+    and the dependencies between other security services and time synchronization.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

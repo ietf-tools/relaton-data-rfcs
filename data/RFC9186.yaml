@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9186
 title:
 - content: Fast Failover in Protocol Independent Multicast - Sparse Mode (PIM-SM)
@@ -97,7 +97,7 @@ script:
 abstract:
 - content: "<p>This document specifies how Bidirectional Forwarding Detection (BFD)
     for multipoint networks can provide sub-second failover for routers that participate
-    in Protocol Independent Multicast - Sparse Mode (PIM-SM).  An extension to the
+    in Protocol Independent Multicast - Sparse Mode (PIM-SM). An extension to the
     PIM Hello message used to bootstrap a point-to-multipoint BFD session is also
     defined in this document.</p>"
   language:
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

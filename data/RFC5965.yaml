@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5965
 title:
 - content: An Extensible Format for Email Feedback Reports
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: "<p>This document defines an extensible format and MIME type that may be
     used by mail operators to report feedback about received email to other parties.
-    \ This format is intended as a machine-readable replacement for various existing
+    This format is intended as a machine-readable replacement for various existing
     report formats currently used in Internet email. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -133,6 +133,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

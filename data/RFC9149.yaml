@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9149
 title:
 - content: TLS Ticket Requests
@@ -129,11 +129,11 @@ script:
 - Latn
 abstract:
 - content: "<p>TLS session tickets enable stateless connection resumption for clients
-    without server-side, per-client state.  Servers vend an arbitrary number of session
-    tickets to clients, at their discretion, upon connection establishment.  Clients
-    store and use tickets when resuming future connections.  This document describes
+    without server-side, per-client state. Servers vend an arbitrary number of session
+    tickets to clients, at their discretion, upon connection establishment. Clients
+    store and use tickets when resuming future connections. This document describes
     a mechanism by which clients can specify the desired number of tickets needed
-    for future connections.  This extension aims to provide a means for servers to
+    for future connections. This extension aims to provide a means for servers to
     determine the number of tickets to generate in order to reduce ticket waste while
     simultaneously priming clients for future connection attempts.</p>"
   language:
@@ -142,6 +142,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

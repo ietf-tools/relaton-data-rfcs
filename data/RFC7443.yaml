@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7443
 title:
 - content: Application-Layer Protocol Negotiation (ALPN) Labels for Session Traversal
@@ -157,7 +157,7 @@ abstract:
     Utilities for NAT (STUN) usages, such as Traversal Using Relays around NAT (TURN)
     and NAT discovery, are defined in this document to allow an application layer
     to negotiate STUN usages within the Transport Layer Security (TLS) connection.
-    \ ALPN protocol identifiers defined in this document apply to both TLS and Datagram
+    ALPN protocol identifiers defined in this document apply to both TLS and Datagram
     Transport Layer Security (DTLS).</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

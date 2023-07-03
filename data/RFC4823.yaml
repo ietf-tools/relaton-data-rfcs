@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4823
 title:
 - content: FTP Transport for Secure Peer-to-Peer Business Data Interchange over the
@@ -99,9 +99,9 @@ abstract:
     business data securely using the File Transfer Protocol (FTP) for XML, Binary,
     Electronic Data Interchange (EDI - ANSI X12 or UN/EDIFACT), or other data used
     for business-to-business data interchange for which MIME packaging can be accomplished
-    using standard MIME content types.  Authentication and data confidentiality are
-    obtained by using Cryptographic Message Syntax (S/MIME) security body parts.  Authenticated
-    acknowledgements employ multipart/signed replies to the original message.  This
+    using standard MIME content types. Authentication and data confidentiality are
+    obtained by using Cryptographic Message Syntax (S/MIME) security body parts. Authenticated
+    acknowledgements employ multipart/signed replies to the original message. This
     memo provides information for the Internet community.</p>"
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

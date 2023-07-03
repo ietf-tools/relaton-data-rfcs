@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4774
 title:
 - content: Specifying Alternate Semantics for the Explicit Congestion Notification
@@ -67,14 +67,13 @@ script:
 - Latn
 abstract:
 - content: "<p>There have been a number of proposals for alternate semantics for the
-    Explicit Congestion Notification (ECN) field in the IP header RFC 3168.  This
-    document discusses some of the issues in defining alternate semantics for the
-    ECN field, and specifies requirements for a safe coexistence in an Internet that
-    could include routers that do not understand the defined alternate semantics.
-    \ This document evolved as a result of discussions with the authors of one recent
-    proposal for such alternate semantics.  This document specifies an Internet Best
-    Current Practices for the Internet Community, and requests discussion and suggestions
-    for improvements.</p>"
+    Explicit Congestion Notification (ECN) field in the IP header RFC 3168. This document
+    discusses some of the issues in defining alternate semantics for the ECN field,
+    and specifies requirements for a safe coexistence in an Internet that could include
+    routers that do not understand the defined alternate semantics. This document
+    evolved as a result of discussions with the authors of one recent proposal for
+    such alternate semantics. This document specifies an Internet Best Current Practices
+    for the Internet Community, and requests discussion and suggestions for improvements.</p>"
   language:
   - en
   script:
@@ -85,6 +84,10 @@ series:
     content: BCP
     format: text/plain
   number: '124'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

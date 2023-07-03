@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5696
 title:
 - content: Baseline Encoding and Transport of Pre-Congestion Information
@@ -125,14 +125,14 @@ script:
 abstract:
 - content: "<p>The objective of the Pre-Congestion Notification (PCN) architecture
     is to protect the quality of service (QoS) of inelastic flows within a Diffserv
-    domain.  It achieves this by marking packets belonging to PCN-flows when the rate
-    of traffic exceeds certain configured thresholds on links in the domain.  These
+    domain. It achieves this by marking packets belonging to PCN-flows when the rate
+    of traffic exceeds certain configured thresholds on links in the domain. These
     marks can then be evaluated to determine how close the domain is to being congested.
-    \ This document specifies how such marks are encoded into the IP header by redefining
-    the Explicit Congestion Notification (ECN) codepoints within such domains.  The
+    This document specifies how such marks are encoded into the IP header by redefining
+    the Explicit Congestion Notification (ECN) codepoints within such domains. The
     baseline encoding described here provides only two PCN encoding states: Not-marked
-    and PCN-marked.  Future extensions to this encoding may be needed in order to
-    provide more than one level of marking severity. [STANDARDS-TRACK]</p>"
+    and PCN-marked. Future extensions to this encoding may be needed in order to provide
+    more than one level of marking severity. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -150,6 +150,10 @@ relation:
       content: RFC6660
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

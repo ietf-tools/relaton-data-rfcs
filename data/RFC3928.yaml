@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3928
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Client Update Protocol (LCUP)
@@ -153,7 +153,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines the Lightweight Directory Access Protocol (LDAP)
-    Client Update Protocol (LCUP).  The protocol is intended to allow an LDAP client
+    Client Update Protocol (LCUP). The protocol is intended to allow an LDAP client
     to synchronize with the content of a directory information tree (DIT) stored by
     an LDAP server and to be notified about the changes to that content. [STANDARDS-TRACK]</p>"
   language:
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

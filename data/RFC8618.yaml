@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8618
 title:
 - content: 'Compacted-DNS (C-DNS): A Format for DNS Packet Capture'
@@ -182,10 +182,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a data representation for collections of DNS
-    messages.  The format is designed for efficient storage and transmission of large
+    messages. The format is designed for efficient storage and transmission of large
     packet captures of DNS traffic; it attempts to minimize the size of such packet
     capture files but retain the full DNS message contents along with the most useful
-    transport metadata.  It is intended to assist with the development of DNS traffic-
+    transport metadata. It is intended to assist with the development of DNS traffic-
     monitoring applications.</p>"
   language:
   - en
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

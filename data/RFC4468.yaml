@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4468
 title:
 - content: Message Submission BURL Extension
@@ -67,9 +67,9 @@ script:
 abstract:
 - content: "<p>The submission profile of Simple Mail Transfer Protocol (SMTP) provides
     a standard way for an email client to submit a complete message for delivery.
-    \ This specification extends the submission profile by adding a new BURL command
+    This specification extends the submission profile by adding a new BURL command
     that can be used to fetch submission data from an Internet Message Access Protocol
-    (IMAP) server.  This permits a mail client to inject content from an IMAP server
+    (IMAP) server. This permits a mail client to inject content from an IMAP server
     into the SMTP infrastructure without downloading it to the client and uploading
     it back to the server. [STANDARDS-TRACK]</p>"
   language:
@@ -89,6 +89,10 @@ relation:
       content: RFC3463
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

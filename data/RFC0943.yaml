@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC943
 title:
 - content: Assigned numbers
@@ -101,12 +101,12 @@ script:
 abstract:
 - content: "<p>This Network Working Group Request for Comments documents the currently
     assigned values from several series of numbers used in network protocol implementations.
-    \ This RFC will be updated periodically, and in any case current information can
-    be obtained from Joyce Reynolds.  The assignment of numbers is also handled by
-    Joyce.  If you are developing a protocol or application that will require the
-    use of a link, socket, port, protocol, network number, etc., please contact Joyce
-    to receive a number assignment.  This memo is an official status report on the
-    numbers used in protocols in the ARPA-Internet community.  See RFC-990 and 997.</p>"
+    This RFC will be updated periodically, and in any case current information can
+    be obtained from Joyce Reynolds. The assignment of numbers is also handled by
+    Joyce. If you are developing a protocol or application that will require the use
+    of a link, socket, port, protocol, network number, etc., please contact Joyce
+    to receive a number assignment. This memo is an official status report on the
+    numbers used in protocols in the ARPA-Internet community. See RFC-990 and 997.</p>"
   language:
   - en
   script:
@@ -124,6 +124,10 @@ relation:
       content: RFC0960
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

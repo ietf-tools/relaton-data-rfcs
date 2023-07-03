@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5937
 title:
 - content: Using Trust Anchor Constraints during Certification Path Processing
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes how to use information associated with a trust
-    anchor public key when validating certification paths.  This information can be
-    used to constrain the usage of a trust anchor.  Typically, constraints are used
+    anchor public key when validating certification paths. This information can be
+    used to constrain the usage of a trust anchor. Typically, constraints are used
     to limit the certificate policies and names that can appear in certification paths
-    validated using a trust anchor.  This document is not an Internet Standards Track
+    validated using a trust anchor. This document is not an Internet Standards Track
     specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

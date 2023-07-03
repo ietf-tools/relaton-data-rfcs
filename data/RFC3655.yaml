@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3655
 title:
 - content: Redefinition of DNS Authenticated Data (AD) bit
@@ -94,11 +94,11 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document alters the specification defined in RFC 2535.  Based
-    on implementation experience, the Authenticated Data (AD) bit in the DNS header
-    is not useful.  This document redefines the AD bit such that it is only set if
-    all answers or records proving that no answers exist in the response has been
-    cryptographically verified or otherwise meets the server's local security policy.</p>"
+- content: "<p>This document alters the specification defined in RFC 2535. Based on
+    implementation experience, the Authenticated Data (AD) bit in the DNS header is
+    not useful. This document redefines the AD bit such that it is only set if all
+    answers or records proving that no answers exist in the response has been cryptographically
+    verified or otherwise meets the server's local security policy.</p>"
   language:
   - en
   script:
@@ -146,6 +146,10 @@ relation:
       content: RFC2535
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

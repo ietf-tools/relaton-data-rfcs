@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6722
 title:
 - content: Publishing the "Tao of the IETF" as a Web Page
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes how the "Tao of the IETF", which has been published
-    as a series of RFCs in the past, is instead being published as a web page.  It
-    also contains the procedure for publishing and editing that web page.  This document
+    as a series of RFCs in the past, is instead being published as a web page. It
+    also contains the procedure for publishing and editing that web page. This document
     is not an Internet Standards Track specification; it is published for informational
     purposes.</p>
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

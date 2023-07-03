@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6989
 title:
 - content: Additional Diffie-Hellman Tests for the Internet Key Exchange Protocol
@@ -97,9 +97,9 @@ script:
 abstract:
 - content: "<p>This document adds a small number of mandatory tests required for the
     secure operation of the Internet Key Exchange Protocol version 2 (IKEv2) with
-    elliptic curve groups.  No change is required to IKE implementations that use
-    modular exponential groups, other than a few rarely used so-called Digital Signature
-    Algorithm (DSA) groups.  This document updates the IKEv2 protocol, RFC 5996.</p>"
+    elliptic curve groups. No change is required to IKE implementations that use modular
+    exponential groups, other than a few rarely used so-called Digital Signature Algorithm
+    (DSA) groups. This document updates the IKEv2 protocol, RFC 5996.</p>"
   language:
   - en
   script:
@@ -117,6 +117,10 @@ relation:
       content: RFC5996
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

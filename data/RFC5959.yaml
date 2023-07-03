@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5959
 title:
 - content: Algorithms for Asymmetric Key Package Content Type
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: "<p>This document describes the conventions for using several cryptographic
     algorithms with the EncryptedPrivateKeyInfo structure, as defined in RFC 5958.
-    \ It also includes conventions necessary to protect the AsymmetricKeyPackage content
+    It also includes conventions necessary to protect the AsymmetricKeyPackage content
     type with SignedData, EnvelopedData, EncryptedData, AuthenticatedData, and AuthEnvelopedData.
     [STANDARDS-TRACK]</p>"
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

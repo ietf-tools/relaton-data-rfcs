@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5485
 title:
 - content: Digital Signatures on Internet-Draft Documents
@@ -66,9 +66,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies the conventions for digital signatures on Internet-Drafts.
-    \ The Cryptographic Message Syntax (CMS) is used to create a detached signature,
+    The Cryptographic Message Syntax (CMS) is used to create a detached signature,
     which is stored in a separate companion file so that no existing utilities are
-    impacted by the addition of the digital signature.  This memo provides information
+    impacted by the addition of the digital signature. This memo provides information
     for the Internet community.</p>"
   language:
   - en
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4305
 title:
 - content: Cryptographic Algorithm Implementation Requirements for Encapsulating Security
@@ -67,12 +67,12 @@ script:
 - Latn
 abstract:
 - content: "<p>The IPsec series of protocols makes use of various cryptographic algorithms
-    in order to provide security services.  The Encapsulating Security Payload (ESP)
+    in order to provide security services. The Encapsulating Security Payload (ESP)
     and the Authentication Header (AH) provide two mechanisms for protecting data
-    being sent over an IPsec Security Association (SA).  To ensure interoperability
+    being sent over an IPsec Security Association (SA). To ensure interoperability
     between disparate implementations, it is necessary to specify a set of mandatory-to-implement
     algorithms to ensure that there is at least one algorithm that all implementations
-    will have available.  This document defines the current set of mandatory-to-implement
+    will have available. This document defines the current set of mandatory-to-implement
     algorithms for ESP and AH as well as specifying algorithms that should be implemented
     because they may be promoted to mandatory at some future time. [STANDARDS-TRACK]</p>"
   language:
@@ -92,6 +92,10 @@ relation:
       content: RFC4835
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

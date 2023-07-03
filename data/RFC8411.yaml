@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8411
 title:
 - content: IANA Registration for the Cryptographic Algorithm Object Identifier Range
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>When the Curdle Security Working Group was chartered, a range of object
-    identifiers was donated by DigiCert, Inc.  for the purpose of registering the
-    Edwards Elliptic Curve key agreement and signature algorithms.  This donated set
-    of OIDs allowed for shorter values than would be possible using the existing S/MIME
-    or PKIX arcs.  This document describes the donated range and the identifiers that
+    identifiers was donated by DigiCert, Inc. for the purpose of registering the Edwards
+    Elliptic Curve key agreement and signature algorithms. This donated set of OIDs
+    allowed for shorter values than would be possible using the existing S/MIME or
+    PKIX arcs. This document describes the donated range and the identifiers that
     were assigned from that range, transfers control of that range to IANA, and establishes
     IANA allocation policies for any future assignments within that range.</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

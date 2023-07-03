@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5443
 title:
 - content: LDP IGP Synchronization
@@ -126,14 +126,14 @@ abstract:
 - content: "<p>In certain networks, there is dependency on the edge-to-edge Label
     Switched Paths (LSPs) setup by the Label Distribution Protocol (LDP), e.g., networks
     that are used for Multiprotocol Label Switching (MPLS) Virtual Private Network
-    (VPN) applications.  For such applications, it is not possible to rely on Internet
-    Protocol (IP) forwarding if the MPLS LSP is not operating appropriately.  Blackholing
+    (VPN) applications. For such applications, it is not possible to rely on Internet
+    Protocol (IP) forwarding if the MPLS LSP is not operating appropriately. Blackholing
     of labeled traffic can occur in situations where the Interior Gateway Protocol
-    (IGP) is operational on a link on which LDP is not.  While the link could still
+    (IGP) is operational on a link on which LDP is not. While the link could still
     be used for IP forwarding, it is not useful for MPLS forwarding, for example,
-    MPLS VPN applications or Border Gateway Protocol (BGP) route-free cores.  This
+    MPLS VPN applications or Border Gateway Protocol (BGP) route-free cores. This
     document describes a mechanism to avoid traffic loss due to this condition without
-    introducing any protocol changes.  This memo provides information for the Internet
+    introducing any protocol changes. This memo provides information for the Internet
     community.</p>"
   language:
   - en
@@ -141,6 +141,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4771
 title:
 - content: Integrity Transform Carrying Roll-Over Counter for the Secure Real-time
@@ -126,9 +126,9 @@ script:
 abstract:
 - content: "<p>This document defines an integrity transform for Secure Real-time Transport
     Protocol (SRTP; see RFC 3711), which allows the roll-over counter (ROC) to be
-    transmitted in SRTP packets as part of the authentication tag.  The need for sending
+    transmitted in SRTP packets as part of the authentication tag. The need for sending
     the ROC in SRTP packets arises in situations where the receiver joins an ongoing
-    SRTP session and needs to quickly and robustly synchronize.  The mechanism also
+    SRTP session and needs to quickly and robustly synchronize. The mechanism also
     enhances SRTP operation in cases where there is a risk of losing sender-receiver
     synchronization. [STANDARDS-TRACK]</p>"
   language:
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

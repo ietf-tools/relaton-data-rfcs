@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6857
 title:
 - content: Post-Delivery Message Downgrading for Internationalized Email Messages
@@ -67,12 +67,12 @@ script:
 abstract:
 - content: "<p>The Email Address Internationalization (SMTPUTF8) extension to SMTP
     allows Unicode characters encoded in UTF-8 and outside the ASCII repertoire in
-    mail header fields.  Upgraded POP and IMAP servers support internationalized messages.
-    \ If a POP or IMAP client does not support Email Address Internationalization,
-    a POP or IMAP server cannot deliver internationalized messages to the client and
-    cannot remove the message.  To avoid that situation, this document describes a
+    mail header fields. Upgraded POP and IMAP servers support internationalized messages.
+    If a POP or IMAP client does not support Email Address Internationalization, a
+    POP or IMAP server cannot deliver internationalized messages to the client and
+    cannot remove the message. To avoid that situation, this document describes a
     mechanism for converting internationalized messages into the traditional message
-    format.  As part of the conversion process, message elements that require internationalized
+    format. As part of the conversion process, message elements that require internationalized
     treatment are recoded or removed, and receivers are able to recognize that they
     received messages containing such elements, even if they cannot process the internationalized
     elements.</p>"
@@ -82,6 +82,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

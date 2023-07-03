@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4756
 title:
 - content: Forward Error Correction Grouping Semantics in Session Description Protocol
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This document defines the semantics that allow for grouping of Forward
     Error Correction (FEC) streams with the protected payload streams in Session Description
-    Protocol (SDP).  The semantics defined in this document are to be used with "Grouping
+    Protocol (SDP). The semantics defined in this document are to be used with "Grouping
     of Media Lines in the Session Description Protocol" (RFC 3388) to group together
     "m" lines in the same session. [STANDARDS-TRACK]</p>
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC5956
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

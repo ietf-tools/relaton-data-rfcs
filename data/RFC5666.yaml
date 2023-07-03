@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5666
 title:
 - content: Remote Direct Memory Access Transport for Remote Procedure Call
@@ -95,7 +95,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes a protocol providing Remote Direct Memory Access
-    (RDMA) as a new transport for Remote Procedure Call (RPC).  The RDMA transport
+    (RDMA) as a new transport for Remote Procedure Call (RPC). The RDMA transport
     binding conveys the benefits of efficient, bulk-data transport over high-speed
     networks, while providing for minimal change to RPC applications and with no required
     revision of the application RPC protocol, or the RPC protocol itself. [STANDARDS-TRACK]</p>"
@@ -116,6 +116,10 @@ relation:
       content: RFC8166
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

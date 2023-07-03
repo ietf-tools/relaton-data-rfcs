@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6802
 title:
 - content: Ericsson Two-Way Active Measurement Protocol (TWAMP) Value-Added Octets
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes an extension to the Two-Way Active Measurement
-    Protocol (TWAMP).  Specifically, it extends the TWAMP-Test protocol, which identifies
+    Protocol (TWAMP). Specifically, it extends the TWAMP-Test protocol, which identifies
     and manages packet trains, in order to measure capacity metrics like the available
     path capacity, tight section capacity, and UDP delivery rate in the forward and
-    reverse path directions.  This document is not an Internet Standards Track specification;
+    reverse path directions. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

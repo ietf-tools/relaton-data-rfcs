@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3991
 title:
 - content: Media Gateway Control Protocol (MGCP) Redirect and Reset Package
@@ -95,17 +95,21 @@ script:
 - Latn
 abstract:
 - content: "<p>The base Media Gateway Control Protocol (MGCP) specification (RFC 3435)
-    allows endpoints to be redirected one endpoint at a time.  This document provides
+    allows endpoints to be redirected one endpoint at a time. This document provides
     extensions in the form of a new MGCP package that provides mechanisms for redirecting
-    and resetting a group of endpoints.  It also includes the ability to more accurately
+    and resetting a group of endpoints. It also includes the ability to more accurately
     redirect endpoints by allowing a list of Call Agents to be specified in a preferred
-    order.  This memo provides information for the Internet community.</p>"
+    order. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

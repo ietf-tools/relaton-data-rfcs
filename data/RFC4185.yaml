@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4185
 title:
 - content: National and Local Characters for DNS Top Level Domain (TLD) Names
@@ -68,21 +68,25 @@ abstract:
 - content: <p>In the context of work on internationalizing the Domain Name System
     (DNS), there have been extensive discussions about "multilingual" or "internationalized"
     top level domain names (TLDs), especially for countries whose predominant language
-    is not written in a Roman-based script.  This document reviews some of the motivations
+    is not written in a Roman-based script. This document reviews some of the motivations
     for such domains, several suggestions that have been made to provide needed functionality,
-    and the constraints that the DNS imposes.  It then suggests an alternative, local
+    and the constraints that the DNS imposes. It then suggests an alternative, local
     translation, that may solve a superset of the problem while avoiding protocol
-    changes, serious deployment delays, and other difficulties.  The suggestion utilizes
+    changes, serious deployment delays, and other difficulties. The suggestion utilizes
     a localization technique in applications to permit any TLD to be accessed using
-    the vocabulary and characters of any language.  It is not restricted to language-
+    the vocabulary and characters of any language. It is not restricted to language-
     or country-specific "multilingual" TLDs in the language(s) and script(s) of that
-    country.  This memo provides information for the Internet community.</p>
+    country. This memo provides information for the Internet community.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

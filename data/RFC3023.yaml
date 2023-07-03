@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3023
 title:
 - content: XML Media Types
@@ -126,7 +126,7 @@ abstract:
 - content: "<p>This document standardizes five new media types -- text/xml, application/xml,
     text/xml-external-parsed-entity, application/xml- external-parsed-entity, and
     application/xml-dtd -- for use in exchanging network entities that are related
-    to the Extensible Markup Language (XML).  This document also standardizes a convention
+    to the Extensible Markup Language (XML). This document also standardizes a convention
     (using the suffix '+xml') for naming media types outside of these five types when
     those media types represent XML MIME (Multipurpose Internet Mail Extensions) entities.
     [STANDARDS-TRACK]</p>"
@@ -157,6 +157,10 @@ relation:
       content: RFC2048
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

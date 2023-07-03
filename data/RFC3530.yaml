@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3530
 title:
 - content: Network File System (NFS) version 4 Protocol
@@ -241,12 +241,12 @@ script:
 abstract:
 - content: "<p>The Network File System (NFS) version 4 is a distributed filesystem
     protocol which owes heritage to NFS protocol version 2, RFC 1094, and version
-    3, RFC 1813.  Unlike earlier versions, the NFS version 4 protocol supports traditional
+    3, RFC 1813. Unlike earlier versions, the NFS version 4 protocol supports traditional
     file access while integrating support for file locking and the mount protocol.
-    \ In addition, support for strong security (and its negotiation), compound operations,
-    client caching, and internationalization have been added.  Of course, attention
+    In addition, support for strong security (and its negotiation), compound operations,
+    client caching, and internationalization have been added. Of course, attention
     has been applied to making NFS version 4 operate well in an Internet environment.
-    \ This document replaces RFC 3010 as the definition of the NFS version 4 protocol.
+    This document replaces RFC 3010 as the definition of the NFS version 4 protocol.
     [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -265,6 +265,10 @@ relation:
       content: RFC7530
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

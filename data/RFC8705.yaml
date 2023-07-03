@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8705
 title:
 - content: OAuth 2.0 Mutual-TLS Client Authentication and Certificate-Bound Access
@@ -155,10 +155,10 @@ script:
 abstract:
 - content: "<p>This document describes OAuth client authentication and certificate-bound
     access and refresh tokens using mutual Transport Layer Security (TLS) authentication
-    with X.509 certificates.  OAuth clients are provided a mechanism for authentication
+    with X.509 certificates. OAuth clients are provided a mechanism for authentication
     to the authorization server using mutual TLS, based on either self-signed certificates
-    or public key infrastructure (PKI).  OAuth authorization servers are provided
-    a mechanism for binding access tokens to a client's mutual-TLS certificate, and
+    or public key infrastructure (PKI). OAuth authorization servers are provided a
+    mechanism for binding access tokens to a client's mutual-TLS certificate, and
     OAuth protected resources are provided a method for ensuring that such an access
     token presented to it was issued to the client presenting the token.</p>"
   language:
@@ -167,6 +167,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

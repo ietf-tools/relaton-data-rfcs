@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3279
 title:
 - content: Algorithms and Identifiers for the Internet X.509 Public Key Infrastructure
@@ -126,8 +126,8 @@ script:
 abstract:
 - content: "<p>This document specifies algorithm identifiers and ASN.1 encoding formats
     for digital signatures and subject public keys used in the Internet X.509 Public
-    Key Infrastructure (PKI).  Digital signatures are used to sign certificates and
-    certificate revocation list (CRLs).  Certificates include the public key of the
+    Key Infrastructure (PKI). Digital signatures are used to sign certificates and
+    certificate revocation list (CRLs). Certificates include the public key of the
     named subject. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6080
 title:
 - content: A Framework for Session Initiation Protocol User Agent Profile Delivery
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a framework to enable configuration of Session
-    Initiation Protocol (SIP) user agents (UAs) in SIP deployments.  The framework
+    Initiation Protocol (SIP) user agents (UAs) in SIP deployments. The framework
     provides a means to deliver profile data that user agents need to be functional,
-    automatically and with minimal or no User and Administrative intervention.  The
+    automatically and with minimal or no User and Administrative intervention. The
     framework describes how SIP user agents can discover sources, request profiles,
-    and receive notifications related to profile modifications.  As part of this framework,
-    a new SIP event package is defined for notification of profile changes.  The framework
-    provides minimal data retrieval options to ensure interoperability.  The framework
+    and receive notifications related to profile modifications. As part of this framework,
+    a new SIP event package is defined for notification of profile changes. The framework
+    provides minimal data retrieval options to ensure interoperability. The framework
     does not include specification of the profile data within its scope. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -109,6 +109,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

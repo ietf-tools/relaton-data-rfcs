@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4448
 title:
 - content: Encapsulation Methods for Transport of Ethernet over MPLS Networks
@@ -153,9 +153,9 @@ script:
 - Latn
 abstract:
 - content: <p>An Ethernet pseudowire (PW) is used to carry Ethernet/802.3 Protocol
-    Data Units (PDUs) over an MPLS network.  This enables service providers to offer
-    "emulated" Ethernet services over existing MPLS networks.  This document specifies
-    the encapsulation of Ethernet/802.3 PDUs within a pseudowire.  It also specifies
+    Data Units (PDUs) over an MPLS network. This enables service providers to offer
+    "emulated" Ethernet services over existing MPLS networks. This document specifies
+    the encapsulation of Ethernet/802.3 PDUs within a pseudowire. It also specifies
     the procedures for using a PW to provide a "point-to-point Ethernet" service.
     [STANDARDS-TRACK]</p>
   language:
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

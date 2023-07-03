@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4523
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Schema Definitions for X.509
@@ -68,7 +68,7 @@ script:
 abstract:
 - content: "<p>This document describes schema for representing X.509 certificates,
     X.521 security information, and related elements in directories accessible using
-    the Lightweight Directory Access Protocol (LDAP).  The LDAP definitions for these
+    the Lightweight Directory Access Protocol (LDAP). The LDAP definitions for these
     X.509 and X.521 schema elements replace those provided in RFCs 2252 and 2256.
     [STANDARDS-TRACK]</p>"
   language:
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

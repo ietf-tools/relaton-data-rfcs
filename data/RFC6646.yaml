@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6646
 title:
 - content: DECoupled Application Data Enroute (DECADE) Problem Statement
@@ -153,14 +153,14 @@ script:
 - Latn
 abstract:
 - content: "<p>Peer-to-peer (P2P) applications have become widely used on the Internet
-    today and make up a large portion of the traffic in many networks.  In P2P applications,
+    today and make up a large portion of the traffic in many networks. In P2P applications,
     one technique for reducing the transit and uplink P2P traffic is to introduce
-    storage capabilities within the network.  Traditional caches (e.g., P2P and Web
+    storage capabilities within the network. Traditional caches (e.g., P2P and Web
     caches) provide such storage, but they can be complex (e.g., P2P caches need to
     explicitly support individual P2P application protocols), and do not allow users
-    to manage resource usage policies for content in the cache.  This document discusses
+    to manage resource usage policies for content in the cache. This document discusses
     the introduction of in-network storage for P2P applications and shows the need
-    for a standard protocol for accessing this storage.  This document is not an Internet
+    for a standard protocol for accessing this storage. This document is not an Internet
     Standards Track specification; it is published for informational purposes.</p>"
   language:
   - en
@@ -168,6 +168,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

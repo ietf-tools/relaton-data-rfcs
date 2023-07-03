@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7503
 title:
 - content: OSPFv3 Autoconfiguration
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>OSPFv3 is a candidate for deployments in environments where autoconfiguration
-    is a requirement.  One such environment is the IPv6 home network where users expect
+    is a requirement. One such environment is the IPv6 home network where users expect
     to simply plug in a router and have it automatically use OSPFv3 for intra-domain
-    routing.  This document describes the necessary mechanisms for OSPFv3 to be self-configuring.
-    \ This document updates RFC 5340 by relaxing the HelloInterval/ RouterDeadInterval
+    routing. This document describes the necessary mechanisms for OSPFv3 to be self-configuring.
+    This document updates RFC 5340 by relaxing the HelloInterval/ RouterDeadInterval
     checking during OSPFv3 adjacency formation and adding hysteresis to the update
     of self-originated Link State Advertisements (LSAs).</p>"
   language:
@@ -118,6 +118,10 @@ relation:
       content: RFC5340
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

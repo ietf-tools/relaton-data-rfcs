@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7706
 title:
 - content: Decreasing Access Time to Root Servers by Running One on Loopback
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>Some DNS recursive resolvers have longer-than-desired round-trip times
-    to the closest DNS root server.  Some DNS recursive resolver operators want to
-    prevent snooping of requests sent to DNS root servers by third parties.  Such
-    resolvers can greatly decrease the round-trip time and prevent observation of
-    requests by running a copy of the full root zone on a loopback address (such as
-    127.0.0.1).  This document shows how to start and maintain such a copy of the
-    root zone that does not pose a threat to other users of the DNS, at the cost of
-    adding some operational fragility for the operator.</p>"
+    to the closest DNS root server. Some DNS recursive resolver operators want to
+    prevent snooping of requests sent to DNS root servers by third parties. Such resolvers
+    can greatly decrease the round-trip time and prevent observation of requests by
+    running a copy of the full root zone on a loopback address (such as 127.0.0.1).
+    This document shows how to start and maintain such a copy of the root zone that
+    does not pose a threat to other users of the DNS, at the cost of adding some operational
+    fragility for the operator.</p>"
   language:
   - en
   script:
@@ -119,6 +119,10 @@ relation:
       content: RFC8806
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

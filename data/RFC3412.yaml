@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3412
 title:
 - content: Message Processing and Dispatching for the Simple Network Management Protocol
@@ -155,10 +155,10 @@ script:
 abstract:
 - content: "<p>This document describes the Message Processing and Dispatching for
     Simple Network Management Protocol (SNMP) messages within the SNMP architecture.
-    \ It defines the procedures for dispatching potentially multiple versions of SNMP
+    It defines the procedures for dispatching potentially multiple versions of SNMP
     messages to the proper SNMP Message Processing Models, and for dispatching PDUs
-    to SNMP applications.  This document also describes one Message Processing Model
-    - the SNMPv3 Message Processing Model.  This document obsoletes RFC 2572. [STANDARDS-TRACK]</p>"
+    to SNMP applications. This document also describes one Message Processing Model
+    - the SNMPv3 Message Processing Model. This document obsoletes RFC 2572. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -169,6 +169,10 @@ series:
     content: STD
     format: text/plain
   number: '62'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

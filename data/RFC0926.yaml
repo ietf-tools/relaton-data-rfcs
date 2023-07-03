@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC926
 title:
 - content: Protocol for providing the connectionless mode network services
@@ -44,10 +44,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This note is the draft ISO protocol roughly similar to the DOD Internet
-    Protocol.  This document has been prepared by retyping the text of ISO DIS 8473
+    Protocol. This document has been prepared by retyping the text of ISO DIS 8473
     of May 1984, which is currently undergoing voting within ISO as a Draft International
-    Standard (DIS).  This document is distributred as an RFC for information only.
-    \ It does not specify a standard for the ARPA-Internet.</p>"
+    Standard (DIS). This document is distributred as an RFC for information only.
+    It does not specify a standard for the ARPA-Internet.</p>"
   language:
   - en
   script:
@@ -65,6 +65,10 @@ relation:
       content: RFC0994
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

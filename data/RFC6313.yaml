@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6313
 title:
 - content: Export of Structured Data in IP Flow Information Export (IPFIX)
@@ -155,9 +155,9 @@ abstract:
 - content: "<p>This document specifies an extension to the IP Flow Information Export
     (IPFIX) protocol specification in RFC 5101 and the IPFIX information model specified
     in RFC 5102 to support hierarchical structured data and lists (sequences) of Information
-    Elements in data records.  This extension allows definition of complex data structures
+    Elements in data records. This extension allows definition of complex data structures
     such as variable-length lists and specification of hierarchical containment relationships
-    between Templates.  Finally, the semantics are provided in order to express the
+    between Templates. Finally, the semantics are provided in order to express the
     relationship among multiple list elements in a structured data record. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -176,6 +176,10 @@ relation:
       content: RFC5102
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

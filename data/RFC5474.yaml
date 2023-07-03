@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5474
 title:
 - content: A Framework for Packet Selection and Reporting
@@ -211,20 +211,24 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies a framework for the PSAMP (Packet SAMPling)
-    protocol.  The functions of this protocol are to select packets from a stream
-    according to a set of standardized Selectors, to form a stream of reports on the
-    selected packets, and to export the reports to a Collector.  This framework details
-    the components of this architecture, then describes some generic requirements,
-    motivated by the dual aims of ubiquitous deployment and utility of the reports
-    for applications.  Detailed requirements for selection, reporting, and exporting
-    are described, along with configuration requirements of the PSAMP functions.  This
-    memo provides information for the Internet community.</p>"
+    protocol. The functions of this protocol are to select packets from a stream according
+    to a set of standardized Selectors, to form a stream of reports on the selected
+    packets, and to export the reports to a Collector. This framework details the
+    components of this architecture, then describes some generic requirements, motivated
+    by the dual aims of ubiquitous deployment and utility of the reports for applications.
+    Detailed requirements for selection, reporting, and exporting are described, along
+    with configuration requirements of the PSAMP functions. This memo provides information
+    for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

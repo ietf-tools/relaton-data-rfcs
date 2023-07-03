@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2338
 title:
 - content: Virtual Router Redundancy Protocol
@@ -297,7 +297,7 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This memo defines the Virtual Router Redundancy Protocol (VRRP).  VRRP
+- content: "<p>This memo defines the Virtual Router Redundancy Protocol (VRRP). VRRP
     specifies an election protocol that dynamically assigns responsibility for a virtual
     router to one of the VRRP routers on a LAN. [STANDARDS-TRACK]</p>"
   language:
@@ -317,6 +317,10 @@ relation:
       content: RFC3768
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

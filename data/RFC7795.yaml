@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7795
 title:
 - content: Pseudowire Redundancy on the Switching Provider Edge (S-PE)
@@ -96,9 +96,9 @@ script:
 abstract:
 - content: "<p>This document describes Multi-Segment Pseudowire (MS-PW) protection
     scenarios in which pseudowire redundancy is provided on the Switching Provider
-    Edge (S-PE) as defined in RFC 5659.  Operations of the S-PEs that provide PW redundancy
-    are specified in this document.  Signaling of the Preferential Forwarding status
-    as defined in RFCs 6870 and 6478 is reused.  This document does not require any
+    Edge (S-PE) as defined in RFC 5659. Operations of the S-PEs that provide PW redundancy
+    are specified in this document. Signaling of the Preferential Forwarding status
+    as defined in RFCs 6870 and 6478 is reused. This document does not require any
     change to the Terminating Provider Edges (T-PEs) of MS-PW.</p>"
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

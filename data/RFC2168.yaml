@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2168
 title:
 - content: Resolution of Uniform Resource Identifiers using the Domain Name System
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: <p>The requirements document for URN resolution systems defines the concept
-    of a "resolver discovery service".  This document describes the first, experimental,
-    RDS.  It is implemented by a new DNS Resource Record, NAPTR (Naming Authority
-    PoinTeR), that provides rules for mapping parts of URIs to domain names.  This
-    memo defines an Experimental Protocol for the Internet community.</p>
+    of a "resolver discovery service". This document describes the first, experimental,
+    RDS. It is implemented by a new DNS Resource Record, NAPTR (Naming Authority PoinTeR),
+    that provides rules for mapping parts of URIs to domain names. This memo defines
+    an Experimental Protocol for the Internet community.</p>
   language:
   - en
   script:
@@ -146,6 +146,10 @@ relation:
       content: RFC3404
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

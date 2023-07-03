@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3820
 title:
 - content: Internet X.509 Public Key Infrastructure (PKI) Proxy Certificate Profile
@@ -183,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document forms a certificate profile for Proxy Certificates, based
     on X.509 Public Key Infrastructure (PKI) certificates as defined in RFC 3280,
-    for use in the Internet.  The term Proxy Certificate is used to describe a certificate
+    for use in the Internet. The term Proxy Certificate is used to describe a certificate
     that is derived from, and signed by, a normal X.509 Public Key End Entity Certificate
     or by another Proxy Certificate for the purpose of providing restricted proxying
     and delegation within a PKI based authentication system. [STANDARDS-TRACK]</p>"
@@ -193,6 +193,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

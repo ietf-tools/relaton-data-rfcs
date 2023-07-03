@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1557
 title:
 - content: Korean Character Encoding for Internet Messages
@@ -125,16 +125,20 @@ script:
 abstract:
 - content: "<p>This document describes the encoding method being used to represent
     Korean characters in both header and body part of the Internet mail messages [RFC822].
-    \ This encoding method was specified in 1991, and has since then been used.  It
-    has now widely being used in Korean IP networks.  This memo provides information
-    for the Internet community.  This memo does not specify an Internet standard of
-    any kind.</p>"
+    This encoding method was specified in 1991, and has since then been used. It has
+    now widely being used in Korean IP networks. This memo provides information for
+    the Internet community. This memo does not specify an Internet standard of any
+    kind.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6768
 title:
 - content: ATM-Based xDSL Bonded Interfaces MIB
@@ -66,7 +66,7 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a Management Information Base (MIB) module for
-    use with network management protocols in TCP/IP-based internets.  This document
+    use with network management protocols in TCP/IP-based internets. This document
     proposes an extension to the GBOND-MIB module with a set of objects for managing
     ATM-based multi-pair bonded xDSL interfaces, as defined in ITU-T Recommendation
     G.998.1.</p>"
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

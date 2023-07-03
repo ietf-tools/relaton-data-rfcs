@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8549
 title:
 - content: Export of BGP Community Information in IP Flow Information Export (IPFIX)
@@ -127,10 +127,10 @@ abstract:
     the existing BGP-related IEs to enable IP Flow Information Export (IPFIX) to export
     BGP community information, including the BGP Standard Communities defined in RFC
     1997, BGP Extended Communities defined in RFC 4360, and BGP Large Communities
-    defined in RFC 8092.  According to the network operator's BGP community planning,
+    defined in RFC 8092. According to the network operator's BGP community planning,
     network traffic information can then be accumulated and analyzed at the BGP community
     granularity, which represents the traffic of different kinds of customers, services,
-    or geographical regions.  Network traffic information at the BGP community granularity
+    or geographical regions. Network traffic information at the BGP community granularity
     is useful for network traffic analysis and engineering.</p>"
   language:
   - en
@@ -138,6 +138,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

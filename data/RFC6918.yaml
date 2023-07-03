@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6918
 title:
 - content: Formally Deprecating Some ICMPv4 Message Types
@@ -95,8 +95,8 @@ script:
 - Latn
 abstract:
 - content: "<p>A number of ICMPv4 message types have become obsolete in practice,
-    but have never been formally deprecated.  This document deprecates such ICMPv4
-    message types, thus cleaning up the corresponding IANA registry.  Additionally,
+    but have never been formally deprecated. This document deprecates such ICMPv4
+    message types, thus cleaning up the corresponding IANA registry. Additionally,
     it updates RFC 792 and RFC 950, obsoletes RFC 1788, and requests the RFC Editor
     to change the status of RFC 1788 to Historic.</p>"
   language:
@@ -126,6 +126,10 @@ relation:
       content: RFC0950
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

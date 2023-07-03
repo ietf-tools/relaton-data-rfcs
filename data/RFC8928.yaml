@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8928
 title:
 - content: Address-Protected Neighbor Discovery for Low-Power and Lossy Networks
@@ -154,12 +154,12 @@ script:
 abstract:
 - content: "<p>This document updates the IPv6 over Low-Power Wireless Personal Area
     Network (6LoWPAN) Neighbor Discovery (ND) protocol defined in RFCs 6775 and 8505.
-    \ The new extension is called Address-Protected Neighbor Discovery (AP-ND), and
+    The new extension is called Address-Protected Neighbor Discovery (AP-ND), and
     it protects the owner of an address against address theft and impersonation attacks
-    in a Low-Power and Lossy Network (LLN).  Nodes supporting this extension compute
+    in a Low-Power and Lossy Network (LLN). Nodes supporting this extension compute
     a cryptographic identifier (Crypto-ID), and use it with one or more of their Registered
-    Addresses.  The Crypto-ID identifies the owner of the Registered Address and can
-    be used to provide proof of ownership of the Registered Addresses.  Once an address
+    Addresses. The Crypto-ID identifies the owner of the Registered Address and can
+    be used to provide proof of ownership of the Registered Addresses. Once an address
     is registered with the Crypto-ID and a proof of ownership is provided, only the
     owner of that address can modify the registration information, thereby enforcing
     Source Address Validation.</p>"
@@ -180,6 +180,10 @@ relation:
       content: RFC8505
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

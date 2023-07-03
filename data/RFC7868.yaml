@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7868
 title:
 - content: Cisco's Enhanced Interior Gateway Routing Protocol (EIGRP)
@@ -211,17 +211,21 @@ script:
 - Latn
 abstract:
 - content: <p>This document describes the protocol design and architecture for Enhanced
-    Interior Gateway Routing Protocol (EIGRP).  EIGRP is a routing protocol based
-    on Distance Vector technology.  The specific algorithm used is called "DUAL",
-    a Diffusing Update Algorithm as referenced in "Loop-Free Routing Using Diffusing
-    Computations" (Garcia-Luna-Aceves 1993).  The algorithm and procedures were researched,
-    developed, and simulated by SRI International.</p>
+    Interior Gateway Routing Protocol (EIGRP). EIGRP is a routing protocol based on
+    Distance Vector technology. The specific algorithm used is called "DUAL", a Diffusing
+    Update Algorithm as referenced in "Loop-Free Routing Using Diffusing Computations"
+    (Garcia-Luna-Aceves 1993). The algorithm and procedures were researched, developed,
+    and simulated by SRI International.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

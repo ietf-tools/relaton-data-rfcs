@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4818
 title:
 - content: RADIUS Delegated-IPv6-Prefix Attribute
@@ -96,13 +96,17 @@ script:
 abstract:
 - content: "<p>This document defines a RADIUS (Remote Authentication Dial In User
     Service) attribute that carries an IPv6 prefix that is to be delegated to the
-    user.  This attribute is usable within either RADIUS or Diameter. [STANDARDS-TRACK]</p>"
+    user. This attribute is usable within either RADIUS or Diameter. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

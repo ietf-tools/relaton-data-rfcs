@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC951
 title:
 - content: Bootstrap Protocol
@@ -101,14 +101,14 @@ script:
 abstract:
 - content: "<p>This RFC describes an IP/UDP bootstrap protocol (BOOTP) which allows
     a diskless client machine to discover its own IP address, the address of a server
-    host, and the name of a file to be loaded into memory and executed.  The bootstrap
-    operation can be thought of as consisting of TWO PHASES.  This RFC describes the
+    host, and the name of a file to be loaded into memory and executed. The bootstrap
+    operation can be thought of as consisting of TWO PHASES. This RFC describes the
     first phase, which could be labeled `address determination and bootfile selection'.
-    \ After this address and filename information is obtained, control passes to the
-    second phase of the bootstrap where a file transfer occurs.  The file transfer
+    After this address and filename information is obtained, control passes to the
+    second phase of the bootstrap where a file transfer occurs. The file transfer
     will typically use the TFTP protocol, since it is intended that both phases reside
-    in PROM on the client.  However BOOTP could also work with other protocols such
-    as SFTP or FTP.  This RFC suggests a proposed protocol for the ARPA-Internet community,
+    in PROM on the client. However BOOTP could also work with other protocols such
+    as SFTP or FTP. This RFC suggests a proposed protocol for the ARPA-Internet community,
     and requests discussion and suggestions for improvements.</p>"
   language:
   - en
@@ -116,6 +116,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

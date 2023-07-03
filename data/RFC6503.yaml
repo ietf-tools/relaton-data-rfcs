@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6503
 title:
 - content: Centralized Conferencing Manipulation Protocol
@@ -154,9 +154,9 @@ script:
 abstract:
 - content: "<p>The Centralized Conferencing Manipulation Protocol (CCMP) allows a
     Centralized Conferencing (XCON) system client to create, retrieve, change, and
-    delete objects that describe a centralized conference.  CCMP is a means to control
+    delete objects that describe a centralized conference. CCMP is a means to control
     basic and advanced conference features such as conference state and capabilities,
-    participants, relative roles, and details.  CCMP is a stateless, XML-based, client
+    participants, relative roles, and details. CCMP is a stateless, XML-based, client
     server protocol that carries, in its request and response messages, conference
     information in the form of XML documents and fragments conforming to the centralized
     conferencing data model schema. [STANDARDS-TRACK]</p>"
@@ -166,6 +166,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

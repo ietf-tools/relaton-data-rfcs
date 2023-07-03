@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5502
 title:
 - content: The SIP P-Served-User Private-Header (P-Header) for the 3GPP IP Multimedia
@@ -66,19 +66,23 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies the SIP P-Served-User P-header.  This header
+- content: "<p>This document specifies the SIP P-Served-User P-header. This header
     field addresses an issue that was found in the 3rd Generation Partnership Project
     (3GPP) IMS (IP Multimedia Subsystem) between an S-CSCF (Serving Call Session Control
     Function) and an AS (Application Server) on the ISC (IMS Service Control) interface.
-    \ This header field conveys the identity of the served user and the session case
+    This header field conveys the identity of the served user and the session case
     that applies to this particular communication session and application invocation.
-    \ This memo provides information for the Internet community.</p>"
+    This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

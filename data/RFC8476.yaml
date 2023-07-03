@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8476
 title:
 - content: Signaling Maximum SID Depth (MSD) Using OSPF
@@ -154,10 +154,10 @@ script:
 abstract:
 - content: <p>This document defines a way for an Open Shortest Path First (OSPF) router
     to advertise multiple types of supported Maximum SID Depths (MSDs) at node and/or
-    link granularity.  Such advertisements allow entities (e.g., centralized controllers)
+    link granularity. Such advertisements allow entities (e.g., centralized controllers)
     to determine whether a particular Segment Identifier (SID) stack can be supported
-    in a given network.  This document only refers to the Signaling MSD as defined
-    in RFC 8491, but it defines an encoding that can support other MSD types.  Here,
+    in a given network. This document only refers to the Signaling MSD as defined
+    in RFC 8491, but it defines an encoding that can support other MSD types. Here,
     the term "OSPF" means both OSPFv2 and OSPFv3.</p>
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

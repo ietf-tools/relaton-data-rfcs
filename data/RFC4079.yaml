@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4079
 title:
 - content: A Presence Architecture for the Distribution of GEOPRIV Location Objects
@@ -66,19 +66,23 @@ script:
 - Latn
 abstract:
 - content: "<p>GEOPRIV defines the concept of a 'using protocol' -- a protocol that
-    carries GEOPRIV location objects.  GEOPRIV also defines various scenarios for
-    the distribution of location objects that require the concepts of subscriptions
-    and asynchronous notifications.  This document examines some existing IETF work
-    on the concept of presence, shows how presence architectures map onto GEOPRIV
-    architectures, and moreover demonstrates that tools already developed for presence
-    could be reused to simplify the standardization and implementation of GEOPRIV.
-    \ This memo provides information for the Internet community.</p>"
+    carries GEOPRIV location objects. GEOPRIV also defines various scenarios for the
+    distribution of location objects that require the concepts of subscriptions and
+    asynchronous notifications. This document examines some existing IETF work on
+    the concept of presence, shows how presence architectures map onto GEOPRIV architectures,
+    and moreover demonstrates that tools already developed for presence could be reused
+    to simplify the standardization and implementation of GEOPRIV. This memo provides
+    information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

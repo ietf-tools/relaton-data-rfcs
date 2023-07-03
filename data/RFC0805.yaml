@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC805
 title:
 - content: Computer mail meeting notes
@@ -67,7 +67,7 @@ script:
 abstract:
 - content: <p>This RFC consists of notes from a meeting that was held at USC Information
     Sciences Institute on 11 January 1982, to discuss addressing issues in computer
-    mail.  The major conclusion reached at the meeting is to extend the "username@hostname"
+    mail. The major conclusion reached at the meeting is to extend the "username@hostname"
     mailbox format to "username@host.domain", where the domain itself can be further
     strutured.</p>
   language:
@@ -76,6 +76,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

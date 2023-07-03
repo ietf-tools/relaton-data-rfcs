@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8832
 title:
 - content: WebRTC Data Channel Establishment Protocol
@@ -125,8 +125,8 @@ script:
 abstract:
 - content: "<p>The WebRTC framework specifies protocol support for direct interactive
     rich communication using audio, video, and data between two peers' web browsers.
-    \ This document specifies a simple protocol for establishing symmetric data channels
-    between the peers.  It uses a two-way handshake and allows sending of user data
+    This document specifies a simple protocol for establishing symmetric data channels
+    between the peers. It uses a two-way handshake and allows sending of user data
     without waiting for the handshake to complete.</p>"
   language:
   - en
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

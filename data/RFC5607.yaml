@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5607
 title:
 - content: Remote Authentication Dial-In User Service (RADIUS) Authorization for Network
@@ -97,8 +97,8 @@ script:
 abstract:
 - content: "<p>This document specifies Remote Authentication Dial-In User Service
     (RADIUS) attributes for authorizing management access to a Network Access Server
-    (NAS).  Both local and remote management are supported, with granular access rights
-    and management privileges.  Specific provisions are made for remote management
+    (NAS). Both local and remote management are supported, with granular access rights
+    and management privileges. Specific provisions are made for remote management
     via Framed Management protocols and for management access over a secure transport
     protocol. [STANDARDS-TRACK]</p>"
   language:
@@ -107,6 +107,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

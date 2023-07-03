@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6467
 title:
 - content: Secure Password Framework for Internet Key Exchange Version 2 (IKEv2)
@@ -67,17 +67,21 @@ script:
 abstract:
 - content: "<p>This document defines a generic way for Internet Key Exchange version
     2 (IKEv2) to use any of the symmetric secure password authentication methods.
-    \ Multiple methods are already specified in other documents, and this document
-    does not add any new one.  This document specifies a way to agree on which method
-    is to be used in the current connection.  This document also provides a common
-    way to transmit, between peers, payloads that are specific to secure password
-    authentication methods.</p>"
+    Multiple methods are already specified in other documents, and this document does
+    not add any new one. This document specifies a way to agree on which method is
+    to be used in the current connection. This document also provides a common way
+    to transmit, between peers, payloads that are specific to secure password authentication
+    methods.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

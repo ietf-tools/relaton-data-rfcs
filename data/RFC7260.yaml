@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7260
 title:
 - content: GMPLS RSVP-TE Extensions for Operations, Administration, and Maintenance
@@ -127,9 +127,9 @@ abstract:
 - content: "<p>Operations, Administration, and Maintenance (OAM) is an integral part
     of transport connections; hence, it is required that OAM functions be activated/deactivated
     in sync with connection commissioning/ decommissioning, in order to avoid spurious
-    alarms and ensure consistent operation.  In certain technologies, OAM entities
+    alarms and ensure consistent operation. In certain technologies, OAM entities
     are inherently established once the connection is set up, while other technologies
-    require extra configuration to establish and configure OAM entities.  This document
+    require extra configuration to establish and configure OAM entities. This document
     specifies extensions to Resource Reservation Protocol - Traffic Engineering (RSVP-TE)
     to support the establishment and configuration of OAM entities along with Label
     Switched Path signaling.</p>"
@@ -139,6 +139,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

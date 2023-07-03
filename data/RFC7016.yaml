@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7016
 title:
 - content: Adobe's Secure Real-Time Media Flow Protocol
@@ -68,8 +68,8 @@ abstract:
 - content: "<p>This memo describes Adobe's Secure Real-Time Media Flow Protocol (RTMFP),
     an endpoint-to-endpoint communication protocol designed to securely transport
     parallel flows of real-time video, audio, and data messages, as well as bulk data,
-    over IP networks.  RTMFP has features that make it effective for peer-to-peer
-    (P2P) as well as client-server communications, even when Network Address Translators
+    over IP networks. RTMFP has features that make it effective for peer-to-peer (P2P)
+    as well as client-server communications, even when Network Address Translators
     (NATs) are used.</p>"
   language:
   - en
@@ -77,6 +77,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

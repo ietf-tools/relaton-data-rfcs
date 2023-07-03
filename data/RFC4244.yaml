@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4244
 title:
 - content: An Extension to the Session Initiation Protocol (SIP) for Request History
@@ -67,9 +67,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This document defines a standard mechanism for capturing the history
-    information associated with a Session Initiation Protocol (SIP) request.  This
+    information associated with a Session Initiation Protocol (SIP) request. This
     capability enables many enhanced services by providing the information as to how
-    and why a call arrives at a specific application or user.  This document defines
+    and why a call arrives at a specific application or user. This document defines
     a new optional SIP header, History-Info, for capturing the history information
     in requests. [STANDARDS-TRACK]</p>"
   language:
@@ -89,6 +89,10 @@ relation:
       content: RFC7044
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

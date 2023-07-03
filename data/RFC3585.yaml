@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3585
 title:
 - content: IPsec Configuration Policy Information Model
@@ -127,20 +127,24 @@ abstract:
     (IPsec) policy designed to facilitate agreement about the content and semantics
     of IPsec policy, and enable derivations of task- specific representations of IPsec
     policy such as storage schema, distribution representations, and policy specification
-    languages used to configure IPsec-enabled endpoints.  The information model described
-    in this document models the configuration parameters defined by IPSec.  The information
+    languages used to configure IPsec-enabled endpoints. The information model described
+    in this document models the configuration parameters defined by IPSec. The information
     model also covers the parameters found by the Internet Key Exchange protocol (IKE).
-    \ Other key exchange protocols could easily be added to the information model
-    by a simple extension.  Further extensions can further be added easily due to
-    the object-oriented nature of the model.  This information model is based upon
-    the core policy classes as defined in the Policy Core Information Model (PCIM)
-    and in the Policy Core Information Model Extensions (PCIMe). [STANDARDS-TRACK]</p>"
+    Other key exchange protocols could easily be added to the information model by
+    a simple extension. Further extensions can further be added easily due to the
+    object-oriented nature of the model. This information model is based upon the
+    core policy classes as defined in the Policy Core Information Model (PCIM) and
+    in the Policy Core Information Model Extensions (PCIMe). [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

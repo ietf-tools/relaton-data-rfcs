@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7641
 title:
 - content: Observing Resources in the Constrained Application Protocol (CoAP)
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: <p>The Constrained Application Protocol (CoAP) is a RESTful application
-    protocol for constrained nodes and networks.  The state of a resource on a CoAP
-    server can change over time.  This document specifies a simple protocol extension
+    protocol for constrained nodes and networks. The state of a resource on a CoAP
+    server can change over time. This document specifies a simple protocol extension
     for CoAP that enables CoAP clients to "observe" resources, i.e., to retrieve a
     representation of a resource and keep this representation updated by the server
-    over a period of time.  The protocol follows a best-effort approach for sending
+    over a period of time. The protocol follows a best-effort approach for sending
     new representations to clients and provides eventual consistency between the state
     observed by each client and the actual resource state at the server.</p>
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6848
 title:
 - content: Specifying Civic Address Extensions in the Presence Information Data Format
@@ -182,13 +182,13 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>New fields are occasionally added to civic addresses.  A backward-
-    compatible mechanism for adding civic address elements to the Geopriv civic address
-    format is described.  A formal mechanism for handling unsupported extensions when
-    translating between XML and DHCP civic address forms is defined for entities that
-    need to perform this translation.  Initial extensions for some new elements are
-    also defined.  The Location-to-Service Translation (LoST) protocol mechanism (defined
-    in RFC 5222) that returns civic address element names used for validation of location
+- content: "<p>New fields are occasionally added to civic addresses. A backward- compatible
+    mechanism for adding civic address elements to the Geopriv civic address format
+    is described. A formal mechanism for handling unsupported extensions when translating
+    between XML and DHCP civic address forms is defined for entities that need to
+    perform this translation. Initial extensions for some new elements are also defined.
+    The Location-to-Service Translation (LoST) protocol mechanism (defined in RFC
+    5222) that returns civic address element names used for validation of location
     information is clarified and is normatively updated to require a qualifying namespace
     identifier on each civic address element returned as part of the validation process.
     [STANDARDS-TRACK]</p>"
@@ -219,6 +219,10 @@ relation:
       content: RFC5222
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

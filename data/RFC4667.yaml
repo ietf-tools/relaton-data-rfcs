@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4667
 title:
 - content: Layer 2 Virtual Private Network (L2VPN) Extensions for Layer 2 Tunneling
@@ -67,10 +67,10 @@ script:
 - Latn
 abstract:
 - content: "<p>The Layer 2 Tunneling Protocol (L2TP) provides a standard method for
-    setting up and managing L2TP sessions to tunnel a variety of L2 protocols.  One
+    setting up and managing L2TP sessions to tunnel a variety of L2 protocols. One
     of the reference models supported by L2TP describes the use of an L2TP session
     to connect two Layer 2 circuits attached to a pair of peering L2TP Access Concentrators
-    (LACs), which is a basic form of Layer 2 Virtual Private Network (L2VPN).  This
+    (LACs), which is a basic form of Layer 2 Virtual Private Network (L2VPN). This
     document defines the protocol extensions for L2TP to set up different types of
     L2VPNs in a unified fashion. [STANDARDS-TRACK]</p>"
   language:
@@ -79,6 +79,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

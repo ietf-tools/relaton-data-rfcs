@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1750
 title:
 - content: Randomness Recommendations for Security
@@ -124,12 +124,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Choosing random quantities to foil a resourceful and motivated adversary
-    is surprisingly difficult.  This paper points out many pitfalls in using traditional
-    pseudo-random number generation techniques for choosing such quantities.  It recommends
+    is surprisingly difficult. This paper points out many pitfalls in using traditional
+    pseudo-random number generation techniques for choosing such quantities. It recommends
     the use of truly random hardware techniques and shows that the existing hardware
-    on many systems can be used for this purpose.  This memo provides information
-    for the Internet community.  This memo does not specify an Internet standard of
-    any kind.</p>"
+    on many systems can be used for this purpose. This memo provides information for
+    the Internet community. This memo does not specify an Internet standard of any
+    kind.</p>"
   language:
   - en
   script:
@@ -147,6 +147,10 @@ relation:
       content: RFC4086
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4076
 title:
 - content: Renumbering Requirements for Stateless Dynamic Host Configuration Protocol
@@ -125,23 +125,27 @@ script:
 - Latn
 abstract:
 - content: "<p>IPv6 hosts using Stateless Address Autoconfiguration are able to configure
-    their IPv6 address and default router settings automatically.  However, further
-    settings are not available.  If these hosts wish to configure their DNS, NTP,
-    or other specific settings automatically, the stateless variant of the Dynamic
-    Host Configuration Protocol for IPv6 (DHCPv6) could be used.  This combination
-    of Stateless Address Autoconfiguration and stateless DHCPv6 could be used quite
-    commonly in IPv6 networks.  However, hosts using this combination currently have
-    no means by which to be informed of changes in stateless DHCPv6 option settings;
-    e.g., the addition of a new NTP server address, a change in DNS search paths,
-    or full site renumbering.  This document is presented as a problem statement from
-    which a solution should be proposed in a subsequent document.  This memo provides
-    information for the Internet community.</p>"
+    their IPv6 address and default router settings automatically. However, further
+    settings are not available. If these hosts wish to configure their DNS, NTP, or
+    other specific settings automatically, the stateless variant of the Dynamic Host
+    Configuration Protocol for IPv6 (DHCPv6) could be used. This combination of Stateless
+    Address Autoconfiguration and stateless DHCPv6 could be used quite commonly in
+    IPv6 networks. However, hosts using this combination currently have no means by
+    which to be informed of changes in stateless DHCPv6 option settings; e.g., the
+    addition of a new NTP server address, a change in DNS search paths, or full site
+    renumbering. This document is presented as a problem statement from which a solution
+    should be proposed in a subsequent document. This memo provides information for
+    the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3850
 title:
 - content: Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1 Certificate
@@ -67,11 +67,11 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies conventions for X.509 certificate usage by
-    Secure/Multipurpose Internet Mail Extensions (S/MIME) agents.  S/MIME provides
+    Secure/Multipurpose Internet Mail Extensions (S/MIME) agents. S/MIME provides
     a method to send and receive secure MIME messages, and certificates are an integral
-    part of S/MIME agent processing.  S/MIME agents validate certificates as described
+    part of S/MIME agent processing. S/MIME agents validate certificates as described
     in RFC 3280, the Internet X.509 Public Key Infrastructure Certificate and CRL
-    Profile.  S/MIME agents must meet the certificate processing requirements in this
+    Profile. S/MIME agents must meet the certificate processing requirements in this
     document as well as those in RFC 3280. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -90,6 +90,10 @@ relation:
       content: RFC5750
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

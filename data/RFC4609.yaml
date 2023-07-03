@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4609
 title:
 - content: Protocol Independent Multicast - Sparse Mode (PIM-SM) Multicast Routing
@@ -125,19 +125,23 @@ script:
 - Latn
 abstract:
 - content: "<p>This memo describes security threats for the larger (intra-domain or
-    inter-domain) multicast routing infrastructures.  Only Protocol Independent Multicast
+    inter-domain) multicast routing infrastructures. Only Protocol Independent Multicast
     - Sparse Mode (PIM-SM) is analyzed, in its three main operational modes: the traditional
     Any-Source Multicast (ASM) model, the source-specific multicast (SSM) model, and
     the ASM model enhanced by the Embedded Rendezvous Point (Embedded-RP) group-to-RP
-    mapping mechanism.  This memo also describes enhancements to the protocol operations
-    that mitigate the identified threats.  This memo provides information for the
-    Internet community.</p>"
+    mapping mechanism. This memo also describes enhancements to the protocol operations
+    that mitigate the identified threats. This memo provides information for the Internet
+    community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

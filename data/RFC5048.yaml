@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5048
 title:
 - content: Internet Small Computer System Interface (iSCSI) Corrections and Clarifications
@@ -66,11 +66,11 @@ script:
 - Latn
 abstract:
 - content: "<p>The Internet Small Computer System Interface (iSCSI) is a SCSI transport
-    protocol and maps the SCSI architecture and command sets onto TCP/IP.  RFC 3720
-    defines the iSCSI protocol.  This document compiles the clarifications to the
-    original protocol definition in RFC 3720 to serve as a companion document for
-    the iSCSI implementers.  This document updates RFC 3720 and the text in this document
-    supersedes the text in RFC 3720 when the two differ. [STANDARDS-TRACK]</p>"
+    protocol and maps the SCSI architecture and command sets onto TCP/IP. RFC 3720
+    defines the iSCSI protocol. This document compiles the clarifications to the original
+    protocol definition in RFC 3720 to serve as a companion document for the iSCSI
+    implementers. This document updates RFC 3720 and the text in this document supersedes
+    the text in RFC 3720 when the two differ. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -98,6 +98,10 @@ relation:
       content: RFC3720
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

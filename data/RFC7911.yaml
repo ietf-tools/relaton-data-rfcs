@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7911
 title:
 - content: Advertisement of Multiple Paths in BGP
@@ -154,7 +154,7 @@ script:
 abstract:
 - content: "<p>This document defines a BGP extension that allows the advertisement
     of multiple paths for the same address prefix without the new paths implicitly
-    replacing any previous ones.  The essence of the extension is that each path is
+    replacing any previous ones. The essence of the extension is that each path is
     identified by a Path Identifier in addition to the address prefix.</p>"
   language:
   - en
@@ -162,6 +162,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

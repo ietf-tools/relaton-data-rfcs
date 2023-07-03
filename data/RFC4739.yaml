@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4739
 title:
 - content: Multiple Authentication Exchanges in the Internet Key Exchange (IKEv2)
@@ -97,14 +97,14 @@ script:
 abstract:
 - content: "<p>The Internet Key Exchange (IKEv2) protocol supports several mechanisms
     for authenticating the parties, including signatures with public-key certificates,
-    shared secrets, and Extensible Authentication Protocol (EAP) methods.  Currently,
-    each endpoint uses only one of these mechanisms to authenticate itself.  This
-    document specifies an extension to IKEv2 that allows the use of multiple authentication
-    exchanges, using either different mechanisms or the same mechanism.  This extension
+    shared secrets, and Extensible Authentication Protocol (EAP) methods. Currently,
+    each endpoint uses only one of these mechanisms to authenticate itself. This document
+    specifies an extension to IKEv2 that allows the use of multiple authentication
+    exchanges, using either different mechanisms or the same mechanism. This extension
     allows, for instance, performing certificate-based authentication of the client
-    host followed by an EAP authentication of the user.  When backend authentication
+    host followed by an EAP authentication of the user. When backend authentication
     servers are used, they can belong to different administrative domains, such as
-    the network access provider and the service provider.  This memo defines an Experimental
+    the network access provider and the service provider. This memo defines an Experimental
     Protocol for the Internet community.</p>"
   language:
   - en
@@ -112,6 +112,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

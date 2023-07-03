@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8258
 title:
 - content: 'Generalized SCSI: A Generic Structure for Interface Switching Capability
@@ -97,18 +97,22 @@ script:
 abstract:
 - content: <p>This document defines a generic information structure for information
     carried in routing protocol Interface Switching Capability Descriptor (ISCD) Switching
-    Capability Specific Information (SCSI) fields.  This "Generalized SCSI" can be
-    used with routing protocols that define GMPLS ISCDs and any specific technology.  This
-    document does not modify any existing technology-specific formats and is defined
-    for use in conjunction with new GMPLS Switching Capability types.  The context
-    for this document is Generalized MPLS, and the reader is expected to be familiar
-    with the GMPLS architecture and associated protocol standards.</p>
+    Capability Specific Information (SCSI) fields. This "Generalized SCSI" can be
+    used with routing protocols that define GMPLS ISCDs and any specific technology.
+    This document does not modify any existing technology-specific formats and is
+    defined for use in conjunction with new GMPLS Switching Capability types. The
+    context for this document is Generalized MPLS, and the reader is expected to be
+    familiar with the GMPLS architecture and associated protocol standards.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7011
 title:
 - content: Specification of the IP Flow Information Export (IPFIX) Protocol for the
@@ -126,12 +126,11 @@ script:
 abstract:
 - content: "<p>This document specifies the IP Flow Information Export (IPFIX) protocol,
     which serves as a means for transmitting Traffic Flow information over the network.
-    \ In order to transmit Traffic Flow information from an Exporting Process to a
-    Collecting Process, a common representation of flow data and a standard means
-    of communicating them are required.  This document describes how the IPFIX Data
-    and Template Records are carried over a number of transport protocols from an
-    IPFIX Exporting Process to an IPFIX Collecting Process.  This document obsoletes
-    RFC 5101.</p>"
+    In order to transmit Traffic Flow information from an Exporting Process to a Collecting
+    Process, a common representation of flow data and a standard means of communicating
+    them are required. This document describes how the IPFIX Data and Template Records
+    are carried over a number of transport protocols from an IPFIX Exporting Process
+    to an IPFIX Collecting Process. This document obsoletes RFC 5101.</p>"
   language:
   - en
   script:
@@ -142,6 +141,10 @@ series:
     content: STD
     format: text/plain
   number: '77'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

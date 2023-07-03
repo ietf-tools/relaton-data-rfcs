@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3566
 title:
 - content: The AES-XCBC-MAC-96 Algorithm and Its Use With IPsec
@@ -95,12 +95,12 @@ script:
 - Latn
 abstract:
 - content: "<p>A Message Authentication Code (MAC) is a key-dependent one way hash
-    function.  One popular way to construct a MAC algorithm is to use a block cipher
-    in conjunction with the Cipher-Block-Chaining (CBC) mode of operation.  The classic
+    function. One popular way to construct a MAC algorithm is to use a block cipher
+    in conjunction with the Cipher-Block-Chaining (CBC) mode of operation. The classic
     CBC-MAC algorithm, while secure for messages of a pre-selected fixed length, has
     been shown to be insecure across messages of varying lengths such as the type
-    found in typical IP datagrams.  This memo specifies the use of AES in CBC mode
-    with a set of extensions to overcome this limitation.  This new algorithm is named
+    found in typical IP datagrams. This memo specifies the use of AES in CBC mode
+    with a set of extensions to overcome this limitation. This new algorithm is named
     AES-XCBC-MAC-96. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -108,6 +108,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2950
 title:
 - content: 'Telnet Encryption: CAST-128 64 bit Cipher Feedback'
@@ -66,14 +66,18 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies how to use the CAST-128 encryption algorithm
-    in cipher feedback mode with the telnet encryption option.  Two key sizes are
-    defined: 40 bit and 128 bit. [STANDARDS-TRACK]</p>"
+    in cipher feedback mode with the telnet encryption option. Two key sizes are defined:
+    40 bit and 128 bit. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

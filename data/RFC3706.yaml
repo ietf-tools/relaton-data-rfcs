@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3706
 title:
 - content: A Traffic-Based Method of Detecting Dead Internet Key Exchange (IKE) Peers
@@ -124,17 +124,21 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the method detecting a dead Internet Key Exchange
-    (IKE) peer that is presently in use by a number of vendors.  The method, called
+    (IKE) peer that is presently in use by a number of vendors. The method, called
     Dead Peer Detection (DPD) uses IPSec traffic patterns to minimize the number of
-    IKE messages that are needed to confirm liveness.  DPD, like other keepalive mechanisms,
+    IKE messages that are needed to confirm liveness. DPD, like other keepalive mechanisms,
     is needed to determine when to perform IKE peer failover, and to reclaim lost
-    resources.  This memo provides information for the Internet community.</p>"
+    resources. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

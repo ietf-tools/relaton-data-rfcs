@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC9059
 title:
 - content: Path Computation Element Communication Protocol (PCEP) Extensions for Associated
@@ -127,8 +127,8 @@ abstract:
 - content: "<p>This document defines Path Computation Element Communication Protocol
     (PCEP) extensions for grouping two unidirectional MPLS-TE Label Switched Paths
     (LSPs), one in each direction in the network, into an associated bidirectional
-    LSP.  These PCEP extensions can be applied either using a stateful PCE for both
-    PCE-initiated and PCC-initiated LSPs or using a stateless PCE.  The PCEP procedures
+    LSP. These PCEP extensions can be applied either using a stateful PCE for both
+    PCE-initiated and PCC-initiated LSPs or using a stateless PCE. The PCEP procedures
     defined are applicable to the LSPs using RSVP-TE for signaling.</p>"
   language:
   - en
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

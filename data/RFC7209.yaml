@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7209
 title:
 - content: Requirements for Ethernet VPN (EVPN)
@@ -213,19 +213,23 @@ abstract:
 - content: "<p>The widespread adoption of Ethernet L2VPN services and the advent of
     new applications for the technology (e.g., data center interconnect) have culminated
     in a new set of requirements that are not readily addressable by the current Virtual
-    Private LAN Service (VPLS) solution.  In particular, multihoming with all-active
+    Private LAN Service (VPLS) solution. In particular, multihoming with all-active
     forwarding is not supported, and there's no existing solution to leverage Multipoint-to-Multipoint
     (MP2MP) Label Switched Paths (LSPs) for optimizing the delivery of multi-destination
-    frames.  Furthermore, the provisioning of VPLS, even in the context of BGP-based
+    frames. Furthermore, the provisioning of VPLS, even in the context of BGP-based
     auto-discovery, requires network operators to specify various network parameters
-    on top of the access configuration.  This document specifies the requirements
-    for an Ethernet VPN (EVPN) solution, which addresses the above issues.</p>"
+    on top of the access configuration. This document specifies the requirements for
+    an Ethernet VPN (EVPN) solution, which addresses the above issues.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

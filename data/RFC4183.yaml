@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4183
 title:
 - content: A Suggested Scheme for DNS Resolution of Networks and Gateways
@@ -67,15 +67,19 @@ script:
 abstract:
 - content: "<p>This document suggests a method of using DNS to determine the network
     that contains a specified IP address, the netmask of that network, and the address(es)
-    of first-hop routers(s) on that network.  This method supports variable-length
+    of first-hop routers(s) on that network. This method supports variable-length
     subnet masks, delegation of subnets on non-octet boundaries, and multiple routers
-    per subnet.  This memo provides information for the Internet community.</p>"
+    per subnet. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

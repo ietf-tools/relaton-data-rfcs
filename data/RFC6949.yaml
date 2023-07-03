@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6949
 title:
 - content: RFC Series Format Requirements and Future Development
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This document describes the current requirements and requests for enhancements
-    for the format of the canonical version of RFCs.  Terms are defined to help clarify
+    for the format of the canonical version of RFCs. Terms are defined to help clarify
     exactly which stages of document production are under discussion for format changes.
-    \ The requirements described in this document will determine what changes will
-    be made to RFC format.  This document updates RFC 2223.</p>"
+    The requirements described in this document will determine what changes will be
+    made to RFC format. This document updates RFC 2223.</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC2223
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

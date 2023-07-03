@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8822
 title:
 - content: 5G Wireless Wireline Convergence User Plane Encapsulation (5WE)
@@ -125,11 +125,11 @@ script:
 abstract:
 - content: "<p>As part of providing wireline access to the 5G Core (5GC), deployed
     wireline networks carry user data between 5G residential gateways and the 5G Access
-    Gateway Function (AGF).  The encapsulation method specified in this document supports
+    Gateway Function (AGF). The encapsulation method specified in this document supports
     the multiplexing of traffic for multiple PDU sessions within a VLAN-delineated
     access circuit, permits legacy equipment in the data path to inspect certain packet
     fields, carries 5G QoS information associated with the packet data, and provides
-    efficient encoding.  It achieves this by specific points of similarity with the
+    efficient encoding. It achieves this by specific points of similarity with the
     Point-to-Point Protocol over Ethernet (PPPoE) data packet encapsulation (RFC 2516).</p>"
   language:
   - en
@@ -137,6 +137,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

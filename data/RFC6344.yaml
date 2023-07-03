@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6344
 title:
 - content: Operating Virtual Concatenation (VCAT) and the Link Capacity Adjustment
@@ -156,10 +156,10 @@ abstract:
 - content: "<p>This document describes requirements for, and the use of, the Generalized
     Multi-Protocol Label Switching (GMPLS) control plane in support of the Virtual
     Concatenation (VCAT) layer 1 inverse multiplexing data plane mechanism and its
-    companion Link Capacity Adjustment Scheme (LCAS).  LCAS can be used for hitless
-    dynamic resizing of the inverse multiplex group.  These techniques apply to Optical
+    companion Link Capacity Adjustment Scheme (LCAS). LCAS can be used for hitless
+    dynamic resizing of the inverse multiplex group. These techniques apply to Optical
     Transport Network (OTN), Synchronous Optical Network (SONET), Synchronous Digital
-    Hierarchy (SDH), and Plesiochronous Digital Hierarchy (PDH) signals.  This document
+    Hierarchy (SDH), and Plesiochronous Digital Hierarchy (PDH) signals. This document
     updates RFC 4606 by making modifications to the procedures for supporting virtual
     concatenation. [STANDARDS-TRACK]</p>"
   language:
@@ -179,6 +179,10 @@ relation:
       content: RFC4606
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

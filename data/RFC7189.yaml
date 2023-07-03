@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7189
 title:
 - content: Virtual Circuit Connectivity Verification (VCCV) Capability Advertisement
@@ -70,7 +70,7 @@ abstract:
     (PW) Virtual Circuit Connectivity Verification (VCCV) are modified to ensure backward
     compatibility and allow use of proactive Connectivity Verification (CV), Continuity
     Check (CC), and Remote Defect Indication (RDI) over MPLS Transport Profile (MPLS-TP)
-    PWs.  This document introduces four new CV types and, to accommodate them, a new
+    PWs. This document introduces four new CV types and, to accommodate them, a new
     VCCV Extended CV parameter for PW Interface Parameters Sub-TLV is defined.</p>"
   language:
   - en
@@ -78,6 +78,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

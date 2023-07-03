@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6267
 title:
 - content: 'MIKEY-IBAKE: Identity-Based Authenticated Key Exchange (IBAKE) Mode of
@@ -97,12 +97,12 @@ script:
 abstract:
 - content: "<p>This document describes a key management protocol variant for the Multimedia
     Internet KEYing (MIKEY) protocol that relies on a trusted key management service.
-    \ In particular, this variant utilizes Identity-Based Authenticated Key Exchange
+    In particular, this variant utilizes Identity-Based Authenticated Key Exchange
     (IBAKE) framework that allows the participating clients to perform mutual authentication
     and derive a session key in an asymmetric Identity-Based Encryption (IBE) framework.
-    \ This protocol, in addition to providing mutual authentication, eliminates the
+    This protocol, in addition to providing mutual authentication, eliminates the
     key escrow problem that is common in standard IBE and provides perfect forward
-    and backward secrecy.  This document is not an Internet Standards Track specification;
+    and backward secrecy. This document is not an Internet Standards Track specification;
     it is published for informational purposes.</p>"
   language:
   - en
@@ -110,6 +110,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

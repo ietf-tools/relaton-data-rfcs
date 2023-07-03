@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8573
 title:
 - content: Message Authentication Code for the Network Time Protocol
@@ -96,7 +96,7 @@ script:
 abstract:
 - content: "<p>The Network Time Protocol (NTP), as described in RFC 5905, states that
     NTP packets should be authenticated by appending NTP data to a 128-bit key and
-    hashing the result with MD5 to obtain a 128-bit tag.  This document deprecates
+    hashing the result with MD5 to obtain a 128-bit tag. This document deprecates
     MD5-based authentication, which is considered too weak, and recommends the use
     of AES-CMAC as described in RFC 4493 as a replacement.</p>"
   language:
@@ -116,6 +116,10 @@ relation:
       content: RFC5905
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

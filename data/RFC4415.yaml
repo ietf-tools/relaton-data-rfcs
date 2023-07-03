@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4415
 title:
 - content: IANA Registration for Enumservice Voice
@@ -125,7 +125,7 @@ script:
 abstract:
 - content: <p>This document registers the Enumservice "voice" (which has a defined
     subtype "tel"), as per the IANA registration process defined in the ENUM specification
-    RFC 3761.  This service indicates that the contact held in the generated Uniform
+    RFC 3761. This service indicates that the contact held in the generated Uniform
     Resource Identifier (URI) can be used to initiate an interactive voice (audio)
     call. [STANDARDS-TRACK]</p>
   language:
@@ -134,6 +134,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8375
 title:
 - content: Special-Use Domain 'home.arpa.'
@@ -97,8 +97,8 @@ abstract:
 - content: "<p>This document specifies the behavior that is expected from the Domain
     Name System with regard to DNS queries for names ending with '.home.arpa.' and
     designates this domain as a special-use domain name. 'home.arpa.' is designated
-    for non-unique use in residential home networks.  The Home Networking Control
-    Protocol (HNCP) is updated to use the 'home.arpa.' domain instead of '.home'.</p>"
+    for non-unique use in residential home networks. The Home Networking Control Protocol
+    (HNCP) is updated to use the 'home.arpa.' domain instead of '.home'.</p>"
   language:
   - en
   script:
@@ -116,6 +116,10 @@ relation:
       content: RFC7788
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

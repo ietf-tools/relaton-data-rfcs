@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC3451
 title:
 - content: Layered Coding Transport (LCT) Building Block
@@ -211,12 +211,12 @@ script:
 - Latn
 abstract:
 - content: "<p>Layered Coding Transport (LCT) provides transport level support for
-    reliable content delivery and stream delivery protocols.  LCT is specifically
-    designed to support protocols using IP multicast, but also provides support to
-    protocols that use unicast.  LCT is compatible with congestion control that provides
-    multiple rate delivery to receivers and is also compatible with coding techniques
-    that provide reliable delivery of content.  This memo defines an Experimental
-    Protocol for the Internet community.</p>"
+    reliable content delivery and stream delivery protocols. LCT is specifically designed
+    to support protocols using IP multicast, but also provides support to protocols
+    that use unicast. LCT is compatible with congestion control that provides multiple
+    rate delivery to receivers and is also compatible with coding techniques that
+    provide reliable delivery of content. This memo defines an Experimental Protocol
+    for the Internet community.</p>"
   language:
   - en
   script:
@@ -234,6 +234,10 @@ relation:
       content: RFC5651
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

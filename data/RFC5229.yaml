@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC5229
 title:
 - content: 'Sieve Email Filtering: Variables Extension'
@@ -66,8 +66,8 @@ script:
 - Latn
 abstract:
 - content: "<p>In advanced mail filtering rule sets, it is useful to keep state or
-    configuration details across rules.  This document updates the Sieve filtering
-    language (RFC 5228) with an extension to support variables.  The extension changes
+    configuration details across rules. This document updates the Sieve filtering
+    language (RFC 5228) with an extension to support variables. The extension changes
     the interpretation of strings, adds an action to store data in variables, and
     supplies a new test so that the value of a string can be examined. [STANDARDS-TRACK]</p>"
   language:
@@ -87,6 +87,10 @@ relation:
       content: RFC5228
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7114
 title:
 - content: Creation of a Registry for smime-type Parameter Values
@@ -66,16 +66,20 @@ script:
 - Latn
 abstract:
 - content: <p>Secure/Multipurpose Internet Mail Extensions (S/MIME) defined the Content-Type
-    parameter "smime-type".  As the list of defined values for that parameter has
-    increased, it has become clear that a registry is needed to document these values.  This
-    document creates the registry, registers the current values, and specifies the
-    policies for registration of new values.</p>
+    parameter "smime-type". As the list of defined values for that parameter has increased,
+    it has become clear that a registry is needed to document these values. This document
+    creates the registry, registers the current values, and specifies the policies
+    for registration of new values.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

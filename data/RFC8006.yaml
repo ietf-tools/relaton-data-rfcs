@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8006
 title:
 - content: Content Delivery Network Interconnection (CDNI) Metadata
@@ -154,10 +154,10 @@ script:
 abstract:
 - content: "<p>The Content Delivery Network Interconnection (CDNI) Metadata interface
     enables interconnected Content Delivery Networks (CDNs) to exchange content distribution
-    metadata in order to enable content acquisition and delivery.  The CDNI Metadata
+    metadata in order to enable content acquisition and delivery. The CDNI Metadata
     associated with a piece of content provides a downstream CDN with sufficient information
     for the downstream CDN to service content requests on behalf of an upstream CDN.
-    \ This document describes both a base set of CDNI Metadata and the protocol for
+    This document describes both a base set of CDNI Metadata and the protocol for
     exchanging that metadata.</p>"
   language:
   - en
@@ -165,6 +165,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

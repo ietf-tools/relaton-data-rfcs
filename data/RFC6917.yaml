@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6917
 title:
 - content: Media Resource Brokering
@@ -124,15 +124,15 @@ script:
 - Latn
 abstract:
 - content: "<p>The MediaCtrl working group in the IETF has proposed an architecture
-    for controlling media services.  The Session Initiation Protocol (SIP) is used
+    for controlling media services. The Session Initiation Protocol (SIP) is used
     as the signaling protocol that provides many inherent capabilities for message
-    routing.  In addition to such signaling properties, a need exists for intelligent,
+    routing. In addition to such signaling properties, a need exists for intelligent,
     application-level media service selection based on non-static signaling properties.
-    \ This is especially true when considered in conjunction with deployment architectures
+    This is especially true when considered in conjunction with deployment architectures
     that include 1:M and M:N combinations of Application Servers and Media Servers.
-    \ This document introduces a Media Resource Broker (MRB) entity, which manages
-    the availability of Media Servers and the media resource demands of Application
-    Servers.  The document includes potential deployment options for an MRB and appropriate
+    This document introduces a Media Resource Broker (MRB) entity, which manages the
+    availability of Media Servers and the media resource demands of Application Servers.
+    The document includes potential deployment options for an MRB and appropriate
     interfaces to Application Servers and Media Servers.</p>"
   language:
   - en
@@ -140,6 +140,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

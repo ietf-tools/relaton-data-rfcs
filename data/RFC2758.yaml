@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2758
 title:
 - content: Definitions of Managed Objects for Service Level Agreements Performance
@@ -68,13 +68,17 @@ script:
 abstract:
 - content: "<p>This memo defines a Management Information Base (MIB) for performance
     monitoring of Service Level Agreements (SLAs) defined via policy definitions.
-    \ This memo defines an Experimental Protocol for the Internet community.</p>"
+    This memo defines an Experimental Protocol for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7330
 title:
 - content: Definitions of Textual Conventions (TCs) for Bidirectional Forwarding Detection
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>This document defines two Management Information Base (MIB) modules
     that contain Textual Conventions to represent commonly used Bidirectional Forwarding
-    Detection (BFD) management information.  The intent is that these TEXTUAL CONVENTIONS
+    Detection (BFD) management information. The intent is that these TEXTUAL CONVENTIONS
     (TCs) will be imported and used in BFD-related MIB modules that would otherwise
     define their own representations.</p>"
   language:
@@ -135,6 +135,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8193
 title:
 - content: Information Model for Large-Scale Measurement Platforms (LMAPs)
@@ -153,9 +153,9 @@ script:
 - Latn
 abstract:
 - content: "<p>This Information Model applies to the Measurement Agent within an LMAP
-    framework.  As such, it outlines the information that is configured or preconfigured
+    framework. As such, it outlines the information that is configured or preconfigured
     on the Measurement Agent or exists in communications with a Controller or Collector
-    within an LMAP framework.  The purpose of such an Information Model is to provide
+    within an LMAP framework. The purpose of such an Information Model is to provide
     a protocol- and device-independent view of the Measurement Agent that can be implemented
     via one or more Control and Report Protocols.</p>"
   language:
@@ -164,6 +164,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

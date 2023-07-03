@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7821
 title:
 - content: UDP Checksum Complement in the Network Time Protocol (NTP)
@@ -66,21 +66,25 @@ script:
 - Latn
 abstract:
 - content: "<p>The Network Time Protocol (NTP) allows clients to synchronize to a
-    time server using timestamped protocol messages.  To facilitate accurate timestamping,
+    time server using timestamped protocol messages. To facilitate accurate timestamping,
     some implementations use hardware-based timestamping engines that integrate the
     accurate transmission time into every outgoing NTP packet during transmission.
-    \ Since these packets are transported over UDP, the UDP Checksum field is then
-    updated to reflect this modification.  This document proposes an extension field
-    that includes a 2-octet Checksum Complement, allowing timestamping engines to
-    reflect the checksum modification in the last 2 octets of the packet rather than
-    in the UDP Checksum field.  The behavior defined in this document is interoperable
-    with existing NTP implementations.</p>"
+    Since these packets are transported over UDP, the UDP Checksum field is then updated
+    to reflect this modification. This document proposes an extension field that includes
+    a 2-octet Checksum Complement, allowing timestamping engines to reflect the checksum
+    modification in the last 2 octets of the packet rather than in the UDP Checksum
+    field. The behavior defined in this document is interoperable with existing NTP
+    implementations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC2919
 title:
 - content: 'List-Id: A Structured Field and Namespace for the Identification of Mailing
@@ -97,15 +97,19 @@ script:
 abstract:
 - content: "<p>Software that handles electronic mailing list messages (servers and
     user agents) needs a way to reliably identify messages that belong to a particular
-    mailing list.  With the advent of list management headers, it has become even
-    more important to provide a unique identifier for a mailing list regardless of
-    the particular host that serves as the list processor at any given time. [STANDARDS-TRACK]</p>"
+    mailing list. With the advent of list management headers, it has become even more
+    important to provide a unique identifier for a mailing list regardless of the
+    particular host that serves as the list processor at any given time. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6398
 title:
 - content: IP Router Alert Considerations and Usage
@@ -66,18 +66,18 @@ script:
 - Latn
 abstract:
 - content: "<p>The IP Router Alert Option is an IP option that alerts transit routers
-    to more closely examine the contents of an IP packet.  The Resource reSerVation
+    to more closely examine the contents of an IP packet. The Resource reSerVation
     Protocol (RSVP), Pragmatic General Multicast (PGM), the Internet Group Management
     Protocol (IGMP), Multicast Listener Discovery (MLD), Multicast Router Discovery
     (MRD), and General Internet Signaling Transport (GIST) are some of the protocols
-    that make use of the IP Router Alert Option.  This document discusses security
+    that make use of the IP Router Alert Option. This document discusses security
     aspects and usage guidelines around the use of the current IP Router Alert Option,
-    thereby updating RFC 2113 and RFC 2711.  Specifically, it provides recommendations
+    thereby updating RFC 2113 and RFC 2711. Specifically, it provides recommendations
     against using the Router Alert in the end-to-end open Internet and identifies
     controlled environments where protocols depending on Router Alert can be used
-    safely.  It also provides recommendations about protection approaches for service
-    providers.  Finally, it provides brief guidelines for Router Alert implementation
-    on routers.  This memo documents an Internet Best Current Practice.</p>"
+    safely. It also provides recommendations about protection approaches for service
+    providers. Finally, it provides brief guidelines for Router Alert implementation
+    on routers. This memo documents an Internet Best Current Practice.</p>"
   language:
   - en
   script:
@@ -109,6 +109,10 @@ series:
     content: BCP
     format: text/plain
   number: '168'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

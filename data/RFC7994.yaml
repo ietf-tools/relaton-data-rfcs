@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7994
 title:
 - content: Requirements for Plain-Text RFCs
@@ -67,19 +67,23 @@ script:
 abstract:
 - content: <p>In 2013, after a great deal of community discussion, the decision was
     made to shift from the plain-text, ASCII-only canonical format for RFCs to XML
-    as the canonical format with more human-readable formats rendered from that XML.  The
-    high-level requirements that informed this change were defined in RFC 6949, "RFC
-    Series Format Requirements and Future Development".  Plain text remains an important
-    format for many in the IETF community, and it will be one of the publication formats
-    rendered from the XML.  This document outlines the rendering requirements for
-    the plain-text RFC publication format.  These requirements do not apply to plain-text
-    RFCs published before the format transition.</p>
+    as the canonical format with more human-readable formats rendered from that XML.
+    The high-level requirements that informed this change were defined in RFC 6949,
+    "RFC Series Format Requirements and Future Development". Plain text remains an
+    important format for many in the IETF community, and it will be one of the publication
+    formats rendered from the XML. This document outlines the rendering requirements
+    for the plain-text RFC publication format. These requirements do not apply to
+    plain-text RFCs published before the format transition.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IAB
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

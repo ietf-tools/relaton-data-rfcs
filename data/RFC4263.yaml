@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4263
 title:
 - content: Media Subtype Registration for Media Type text/troff
@@ -68,13 +68,17 @@ abstract:
 - content: "<p>A text media subtype for tagging content consisting of juxtaposed text
     and formatting directives as used by the troff series of programs and for conveying
     information about the intended processing steps necessary to produce formatted
-    output is described.  This memo provides information for the Internet community.</p>"
+    output is described. This memo provides information for the Internet community.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

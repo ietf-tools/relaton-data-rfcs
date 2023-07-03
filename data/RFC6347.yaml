@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6347
 title:
 - content: Datagram Transport Layer Security Version 1.2
@@ -95,13 +95,13 @@ script:
 - Latn
 abstract:
 - content: "<p>This document specifies version 1.2 of the Datagram Transport Layer
-    Security (DTLS) protocol.  The DTLS protocol provides communications privacy for
-    datagram protocols.  The protocol allows client/server applications to communicate
+    Security (DTLS) protocol. The DTLS protocol provides communications privacy for
+    datagram protocols. The protocol allows client/server applications to communicate
     in a way that is designed to prevent eavesdropping, tampering, or message forgery.
-    \ The DTLS protocol is based on the Transport Layer Security (TLS) protocol and
-    provides equivalent security guarantees.  Datagram semantics of the underlying
-    transport are preserved by the DTLS protocol.  This document updates DTLS 1.0
-    to work with TLS version 1.2. [STANDARDS-TRACK]</p>"
+    The DTLS protocol is based on the Transport Layer Security (TLS) protocol and
+    provides equivalent security guarantees. Datagram semantics of the underlying
+    transport are preserved by the DTLS protocol. This document updates DTLS 1.0 to
+    work with TLS version 1.2. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -119,6 +119,10 @@ relation:
       content: RFC9147
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

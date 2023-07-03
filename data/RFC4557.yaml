@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4557
 title:
 - content: Online Certificate Status Protocol (OCSP) Support for Public Key Cryptography
@@ -126,7 +126,7 @@ script:
 abstract:
 - content: "<p>This document defines a mechanism to enable in-band transmission of
     Online Certificate Status Protocol (OCSP) responses in the Kerberos network authentication
-    protocol.  These responses are used to verify the validity of the certificates
+    protocol. These responses are used to verify the validity of the certificates
     used in Public Key Cryptography for Initial Authentication in Kerberos (PKINIT),
     which is the Kerberos Version 5 extension that provides for the use of public
     key cryptography. [STANDARDS-TRACK]</p>"
@@ -136,6 +136,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

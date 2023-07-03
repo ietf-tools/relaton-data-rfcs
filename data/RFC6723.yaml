@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC6723
 title:
 - content: Update of the Pseudowire Control-Word Negotiation Mechanism
@@ -183,9 +183,9 @@ script:
 abstract:
 - content: "<p>The control-word negotiation mechanism specified in RFC 4447 has a
     problem when a PE (Provider Edge) changes the preference for the use of the control
-    word from NOT PREFERRED to PREFERRED.  This document updates RFC 4447 and RFC
-    6073 by adding the Label Request message to resolve this control-word negotiation
-    issue for single-segment and multi-segment pseudowires. [STANDARDS-TRACK]</p>"
+    word from NOT PREFERRED to PREFERRED. This document updates RFC 4447 and RFC 6073
+    by adding the Label Request message to resolve this control-word negotiation issue
+    for single-segment and multi-segment pseudowires. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -223,6 +223,10 @@ relation:
       content: RFC6073
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

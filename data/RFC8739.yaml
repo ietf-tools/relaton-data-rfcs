@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC8739
 title:
 - content: Support for Short-Term, Automatically Renewed (STAR) Certificates in the
@@ -184,9 +184,9 @@ script:
 abstract:
 - content: "<p>Public key certificates need to be revoked when they are compromised,
     that is, when the associated private key is exposed to an unauthorized entity.
-    \ However, the revocation process is often unreliable.  An alternative to revocation
+    However, the revocation process is often unreliable. An alternative to revocation
     is issuing a sequence of certificates, each with a short validity period, and
-    terminating the sequence upon compromise.  This memo proposes an Automated Certificate
+    terminating the sequence upon compromise. This memo proposes an Automated Certificate
     Management Environment (ACME) extension to enable the issuance of Short-Term,
     Automatically Renewed (STAR) X.509 certificates.</p>"
   language:
@@ -195,6 +195,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

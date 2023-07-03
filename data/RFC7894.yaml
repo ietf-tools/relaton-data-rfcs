@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC7894
 title:
 - content: Alternative Challenge Password Attributes for Enrollment over Secure Transport
@@ -95,10 +95,10 @@ script:
 - Latn
 abstract:
 - content: '<p>This document defines a set of new Certificate Signing Request attributes
-    for use with the Enrollment over Secure Transport (EST) protocol.  These attributes
+    for use with the Enrollment over Secure Transport (EST) protocol. These attributes
     provide disambiguation of the existing overloaded uses for the challengePassword
     attribute defined in "PKCS #9: Selected Object Classes and Attribute Types Version
-    2.0" (RFC 2985).  Uses include the original certificate revocation password, common
+    2.0" (RFC 2985). Uses include the original certificate revocation password, common
     authentication password uses, and EST-defined linking of transport security identity.</p>'
   language:
   - en
@@ -106,6 +106,10 @@ abstract:
   - Latn
   format: text/html
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

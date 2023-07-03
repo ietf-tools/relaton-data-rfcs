@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4408
 title:
 - content: Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail,
@@ -95,12 +95,12 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>E-mail on the Internet can be forged in a number of ways.  In particular,
+- content: "<p>E-mail on the Internet can be forged in a number of ways. In particular,
     existing protocols place no restriction on what a sending host can use as the
     reverse-path of a message or the domain given on the SMTP HELO/EHLO commands.
-    \ This document describes version 1 of the ender Policy Framework (SPF) protocol,
+    This document describes version 1 of the ender Policy Framework (SPF) protocol,
     whereby a domain may explicitly authorize the hosts that are allowed to use its
-    domain name, and a receiving host may check such authorization.  This memo defines
+    domain name, and a receiving host may check such authorization. This memo defines
     an Experimental Protocol for the Internet community.</p>"
   language:
   - en
@@ -119,6 +119,10 @@ relation:
       content: RFC7208
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

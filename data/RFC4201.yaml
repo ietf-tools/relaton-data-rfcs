@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC4201
 title:
 - content: Link Bundling in MPLS Traffic Engineering (TE)
@@ -124,10 +124,10 @@ script:
 - Latn
 abstract:
 - content: "<p>For the purpose of Generalized Multi-Protocol Label Switching (GMPLS)
-    signaling, in certain cases a combination of   is not sufficient to unambiguously
-    identify the appropriate resource used by a Label Switched Path (LSP).  Such cases
+    signaling, in certain cases a combination of is not sufficient to unambiguously
+    identify the appropriate resource used by a Label Switched Path (LSP). Such cases
     are handled by using the link bundling construct, which is described in this document.
-    \ This document updates the interface identification TLVs, which are defined in
+    This document updates the interface identification TLVs, which are defined in
     the GMPLS Signaling Functional Description. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -166,6 +166,10 @@ relation:
       content: RFC3473
       format: text/plain
 series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 - title:
     content: RFC
     format: text/plain

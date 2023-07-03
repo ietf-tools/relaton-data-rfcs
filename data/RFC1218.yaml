@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.1
+schema-version: v1.2.3
 id: RFC1218
 title:
 - content: Naming scheme for c=US
@@ -42,10 +42,10 @@ script:
 - Latn
 abstract:
 - content: "<p>This RFC is a near-verbatim copy of a document, known as NADF-123,
-    which has been produced by the North American Directory Forum (NADF).  As a part
+    which has been produced by the North American Directory Forum (NADF). As a part
     of its charter, the NADF must reach agreement as to how entries are named in the
-    public portions of the North American Directory.  This memo provides information
-    for the Internet community.  It does not specify an Internet standard.</p>"
+    public portions of the North American Directory. This memo provides information
+    for the Internet community. It does not specify an Internet standard.</p>"
   language:
   - en
   script:
@@ -73,6 +73,10 @@ relation:
       content: RFC1417
       format: text/plain
 series:
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 - title:
     content: RFC
     format: text/plain
