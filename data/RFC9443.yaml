@@ -1,0 +1,177 @@
+---
+schema-version: v1.2.3
+id: RFC9443
+title:
+- content: Multiplexing Scheme Updates for QUIC
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9443
+  type: src
+type: standard
+docid:
+- id: RFC 9443
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9443
+  type: DOI
+docnumber: RFC9443
+date:
+- type: published
+  value: 2023-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Aboba
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Aboba
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Salgueiro
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Salgueiro
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Perkins
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>RFC 7983 defines a scheme for a Real-time Transport Protocol (RTP)
+    receiver to demultiplex Datagram Transport Layer Security (DTLS), Session Traversal
+    Utilities for NAT (STUN), Secure Real-time Transport Protocol (SRTP) / Secure
+    Real-time Transport Control Protocol (SRTCP), ZRTP, and Traversal Using Relays
+    around NAT (TURN) channel packets arriving on a single port. This document updates
+    RFC 7983 and RFC 5764 to also allow QUIC packets to be multiplexed on a single
+    receiving socket.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5764
+    docid:
+    - id: RFC5764
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5764
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7983
+    docid:
+    - id: RFC7983
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7983
+      format: text/plain
+series:
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+- title:
+    content: RFC
+    format: text/plain
+  number: '9443'
+keyword:
+- content: RTP
+- content: ZRTP
+- content: STUN
+- content: TURN
+- content: DTLS
+editorialgroup:
+- name: avtcore
+ext:
+  schema-version: v1.0.0
