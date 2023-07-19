@@ -70,17 +70,18 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: Legacy
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '469'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 keyword:
 - content: network
 - content: mail
 - content: meeting
 ext:
   schema-version: v1.0.0
+  stream: Legacy

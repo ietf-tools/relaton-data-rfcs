@@ -65,15 +65,16 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: Legacy
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '759'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 keyword:
 - content: MPM
 ext:
   schema-version: v1.0.0
+  stream: Legacy

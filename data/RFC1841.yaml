@@ -181,14 +181,14 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: Legacy
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '1841'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 keyword:
 - content: point-to-point
 - content: local
@@ -196,3 +196,4 @@ keyword:
 - content: interface,
 ext:
   schema-version: v1.0.0
+  stream: Legacy

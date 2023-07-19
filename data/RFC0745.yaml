@@ -65,17 +65,18 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: Legacy
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '745'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 keyword:
 - content: JANUS
 - content: interface
 - content: specifications
 ext:
   schema-version: v1.0.0
+  stream: Legacy

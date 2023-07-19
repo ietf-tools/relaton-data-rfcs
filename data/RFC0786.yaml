@@ -94,17 +94,18 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: Legacy
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '786'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
 keyword:
 - content: MTP
 - content: NIMAIL
 - content: TOPS20
 ext:
   schema-version: v1.0.0
+  stream: Legacy

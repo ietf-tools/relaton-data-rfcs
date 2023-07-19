@@ -124,17 +124,18 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: IETF
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '3325'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 keyword:
 - content: trust domain
 editorialgroup:
 - name: sip
 ext:
   schema-version: v1.0.0
+  stream: IETF

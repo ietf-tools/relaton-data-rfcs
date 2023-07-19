@@ -94,14 +94,14 @@ language:
 script:
 - Latn
 series:
-- type: stream
-  title:
-    content: IETF
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
   number: '3379'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
 keyword:
 - content: dpv
 - content: Delegated Path Validation
@@ -113,3 +113,4 @@ editorialgroup:
 - name: pkix
 ext:
   schema-version: v1.0.0
+  stream: IETF
