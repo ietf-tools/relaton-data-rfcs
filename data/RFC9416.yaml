@@ -1,0 +1,143 @@
+---
+schema-version: v1.2.3
+id: RFC9416
+title:
+- content: Security Considerations for Transient Numeric Identifiers Employed in Network
+    Protocols
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9416
+  type: src
+type: standard
+docid:
+- id: RFC 9416
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9416
+  type: DOI
+docnumber: RFC9416
+date:
+- type: published
+  value: 2023-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gont
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Gont
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arce
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Arce
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Poor selection of transient numerical identifiers in protocols such
+    as the TCP/IP suite has historically led to a number of attacks on implementations,
+    ranging from Denial of Service (DoS) or data injection to information leakages
+    that can be exploited by pervasive monitoring. Due diligence in the specification
+    of transient numeric identifiers is required even when cryptographic techniques
+    are employed, since these techniques might not mitigate all the associated issues.
+    This document formally updates RFC 3552, incorporating requirements for transient
+    numeric identifiers, to prevent flaws in future protocols and implementations.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC3552
+    docid:
+    - id: RFC3552
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3552
+      format: text/plain
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '72'
+- title:
+    content: RFC
+    format: text/plain
+  number: '9416'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: security
+- content: vulnerability
+- content: algorithm
+- content: attack
+- content: fingerprinting
+ext:
+  schema-version: v1.0.0
+  stream: IETF
