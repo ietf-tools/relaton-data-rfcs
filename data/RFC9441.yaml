@@ -1,0 +1,276 @@
+---
+schema-version: v1.2.3
+id: RFC9441
+title:
+- content: Static Context Header Compression (SCHC) Compound Acknowledgement (ACK)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9441
+  type: src
+type: standard
+docid:
+- id: RFC 9441
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9441
+  type: DOI
+docnumber: RFC9441
+date:
+- type: published
+  value: 2023-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zúñiga
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Zúñiga
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gomez
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Gomez
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Aguilar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Aguilar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Toutain
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Toutain
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Céspedes
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Céspedes
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wistuba
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Wistuba
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document updates the Static Context Header Compression (SCHC)
+    and fragmentation protocol (RFC 8724) and the corresponding YANG module (RFC 9363).
+    It defines a SCHC Compound Acknowledgement (ACK) message format and procedure,
+    which are intended to reduce the number of response transmissions (i.e., SCHC
+    ACKs) in the ACK-on-Error Mode, by accumulating bitmaps of several windows in
+    a single SCHC message (i.e., the SCHC Compound ACK).</p><p>Both the message format
+    and procedure are generic, so they can be used, for instance, by any of the four
+    Low-Power Wide Area Network (LPWAN) technologies defined in RFC 8376, which are
+    Sigfox, Long Range Wide Area Network (LoRaWAN), Narrowband Internet of Things
+    (NB-IoT), and IEEE 802.15.4w.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8724
+    docid:
+    - id: RFC8724
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8724
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9363
+    docid:
+    - id: RFC9363
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9363
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9441'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: SCHC
+- content: LPWAN
+- content: IoT
+- content: Fragmentation
+- content: Reliable Delivery
+- content: Link Layer Protocols
+- content: Cross-Layer Protocols
+- content: Adaptation Layer
+- content: Acknowledgment
+- content: Sigfox
+- content: LoRaWAN
+- content: NB-IoT
+- content: Compound ACK
+editorialgroup:
+- name: lpwan
+ext:
+  schema-version: v1.0.0
+  stream: IETF
