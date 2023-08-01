@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC7807
+id: RFC9457
 title:
 - content: Problem Details for HTTP APIs
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc7807
+- content: https://www.rfc-editor.org/info/rfc9457
   type: src
 type: standard
 docid:
-- id: RFC 7807
+- id: RFC 9457
   type: IETF
   primary: true
-- id: 10.17487/RFC7807
+- id: 10.17487/RFC9457
   type: DOI
-docnumber: RFC7807
+docnumber: RFC9457
 date:
 - type: published
-  value: 2016-03
+  value: 2023-07
 contributor:
 - person:
     name:
@@ -78,6 +78,35 @@ contributor:
         - Latn
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dalal
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Dalal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -88,36 +117,26 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2016-03
+revdate: 2023-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: <p>This document defines a "problem detail" as a way to carry machine-
-    readable details of errors in a HTTP response to avoid the need to define new
-    error response formats for HTTP APIs.</p>
+- content: |-
+    <p>This document defines a "problem detail" to carry machine-readable
+    details of errors in HTTP response content to avoid the need to
+    define new error response formats for HTTP APIs.</p><p>This document obsoletes RFC 7807.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9457
-    docid:
-    - id: RFC9457
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9457
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '7807'
+  number: '9457'
 - type: stream
   title:
     content: IETF
@@ -131,7 +150,7 @@ keyword:
 - content: JSON
 - content: XML
 editorialgroup:
-- name: appsawg
+- name: httpapi
 ext:
   schema-version: v1.0.0
   stream: IETF

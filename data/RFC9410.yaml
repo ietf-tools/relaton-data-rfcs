@@ -1,0 +1,102 @@
+---
+schema-version: v1.2.3
+id: RFC9410
+title:
+- content: Handling of Identity Header Errors for Secure Telephone Identity Revisited
+    (STIR)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9410
+  type: src
+type: standard
+docid:
+- id: RFC 9410
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9410
+  type: DOI
+docnumber: RFC9410
+date:
+- type: published
+  value: 2023-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wendt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Wendt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document extends the current error-handling procedures for mapping
+    of verification failure reasons to 4xx codes for Secure Telephone Identity Revisited
+    (STIR) and the Authenticated Identity Management in the Session Initiation Protocol
+    (SIP). It extends the ability to use the Reason header field as an option for
+    conveying an error associated with an Identity header field to the upstream authentication
+    service when local policy dictates that the call should continue in the presence
+    of a verification failure. This document also defines procedures that enable a
+    failure reason to be mapped to a specific Identity header field for scenarios
+    that use multiple Identity header fields, where some may have errors and others
+    may not. The handling of those situations is also defined.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9410'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Identity
+- content: multiple errors
+- content: passport
+- content: reason header field
+editorialgroup:
+- name: stir
+ext:
+  schema-version: v1.0.0
+  stream: IETF
