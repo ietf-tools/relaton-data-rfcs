@@ -1,54 +1,25 @@
 ---
 schema-version: v1.2.3
-id: RFC8312
+id: RFC9438
 title:
-- content: CUBIC for Fast Long-Distance Networks
+- content: CUBIC for Fast and Long-Distance Networks
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8312
+- content: https://www.rfc-editor.org/info/rfc9438
   type: src
 type: standard
 docid:
-- id: RFC 8312
+- id: RFC 9438
   type: IETF
   primary: true
-- id: 10.17487/RFC8312
+- id: 10.17487/RFC9438
   type: DOI
-docnumber: RFC8312
+docnumber: RFC9438
 date:
 - type: published
-  value: 2018-02
+  value: 2023-08
 contributor:
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: I
-        formatted_initials:
-          content: I.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Rhee
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: I. Rhee
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
 - person:
     name:
       given:
@@ -115,21 +86,50 @@ contributor:
           - en
           script:
           - Latn
-          initial: A
+          initial: I
         formatted_initials:
-          content: A.
+          content: I.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Zimmermann
+        content: Rhee
         language:
         - en
         script:
         - Latn
       completename:
-        content: A. Zimmermann
+        content: I. Rhee
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Goel
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Goel
         language:
         - en
         script:
@@ -164,36 +164,7 @@ contributor:
         script:
         - Latn
   role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scheffenegger
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: R. Scheffenegger
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
+  - type: editor
 - organization:
     name:
     - content: RFC Publisher
@@ -204,45 +175,51 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2018-02
+revdate: 2023-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>CUBIC is an extension to the current TCP standards. It differs from
-    the current TCP standards only in the congestion control algorithm on the sender
-    side. In particular, it uses a cubic function instead of a linear window increase
-    function of the current TCP standards to improve scalability and stability under
-    fast and long-distance networks. CUBIC and its predecessor algorithm have been
-    adopted as defaults by Linux and have been used for many years. This document
-    provides a specification of CUBIC to enable third-party implementations and to
-    solicit community feedback through experimentation on the performance of CUBIC.</p>"
+- content: "<p>CUBIC is a standard TCP congestion control algorithm that uses a cubic
+    function instead of a linear congestion window increase function to improve scalability
+    and stability over fast and long-distance networks. CUBIC has been adopted as
+    the default TCP congestion control algorithm by the Linux, Windows, and Apple
+    stacks.</p><p>This document updates the specification of CUBIC to include algorithmic
+    improvements based on these implementations and recent academic work. Based on
+    the extensive deployment experience with CUBIC, this document also moves the specification
+    to the Standards Track and obsoletes RFC 8312. This document also updates RFC
+    5681, to allow for CUBIC's occasionally more aggressive sending behavior.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9438
+    id: RFC5681
     docid:
-    - id: RFC9438
+    - id: RFC5681
       type: IETF
       primary: true
     formattedref:
-      content: RFC9438
+      content: RFC5681
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8312'
+  number: '9438'
 - type: stream
   title:
     content: IETF
     format: text/plain
+keyword:
+- content: Congestion control
+- content: large BDP
+- content: window scalability
+- content: RTT fairness
 editorialgroup:
 - name: tcpm
 ext:

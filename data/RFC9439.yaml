@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8312
+id: RFC9439
 title:
-- content: CUBIC for Fast Long-Distance Networks
+- content: Application-Layer Traffic Optimization (ALTO) Performance Cost Metrics
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8312
+- content: https://www.rfc-editor.org/info/rfc9439
   type: src
 type: standard
 docid:
-- id: RFC 8312
+- id: RFC 9439
   type: IETF
   primary: true
-- id: 10.17487/RFC8312
+- id: 10.17487/RFC9439
   type: DOI
-docnumber: RFC8312
+docnumber: RFC9439
 date:
 - type: published
-  value: 2018-02
+  value: 2023-08
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: I
+          initial: Q
         formatted_initials:
-          content: I.
+          content: Q.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Rhee
+        content: Wu
         language:
         - en
         script:
         - Latn
       completename:
-        content: I. Rhee
+        content: Q. Wu
         language:
         - en
         script:
@@ -57,21 +57,79 @@ contributor:
           - en
           script:
           - Latn
-          initial: L
+          initial: Y
         formatted_initials:
-          content: L.
+          content: Y.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Xu
+        content: Yang
         language:
         - en
         script:
         - Latn
       completename:
-        content: L. Xu
+        content: Y. Yang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lee
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Lee
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dhody
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Dhody
         language:
         - en
         script:
@@ -94,42 +152,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Ha
+        content: Randriamasy
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Ha
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Zimmermann
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: A. Zimmermann
+        content: S. Randriamasy
         language:
         - en
         script:
@@ -152,42 +181,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Eggert
+        content: Contreras
         language:
         - en
         script:
         - Latn
       completename:
-        content: L. Eggert
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Scheffenegger
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: R. Scheffenegger
+        content: L. Contreras
         language:
         - en
         script:
@@ -204,47 +204,47 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2018-02
+revdate: 2023-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>CUBIC is an extension to the current TCP standards. It differs from
-    the current TCP standards only in the congestion control algorithm on the sender
-    side. In particular, it uses a cubic function instead of a linear window increase
-    function of the current TCP standards to improve scalability and stability under
-    fast and long-distance networks. CUBIC and its predecessor algorithm have been
-    adopted as defaults by Linux and have been used for many years. This document
-    provides a specification of CUBIC to enable third-party implementations and to
-    solicit community feedback through experimentation on the performance of CUBIC.</p>"
+- content: |-
+    <p>The cost metric is a basic concept in Application-Layer Traffic
+    Optimization (ALTO), and different applications may use different
+    types of cost metrics. Since the ALTO base protocol (RFC 7285)
+    defines only a single cost metric (namely, the generic "routingcost"
+    metric), if an application wants to issue a cost map or an endpoint
+    cost request in order to identify a resource provider that offers
+    better performance metrics (e.g., lower delay or loss rate), the base
+    protocol does not define the cost metric to be used.</p><p>This document addresses this issue by extending the specification to
+    provide a variety of network performance metrics, including network
+    delay, delay variation (a.k.a. jitter), packet loss rate, hop count,
+    and bandwidth.</p><p>There are multiple sources (e.g., estimations based on measurements
+    or a Service Level Agreement) available for deriving a performance
+    metric. This document introduces an additional "cost-context" field
+    to the ALTO "cost-type" field to convey the source of a performance
+    metric.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9438
-    docid:
-    - id: RFC9438
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9438
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8312'
+  number: '9439'
 - type: stream
   title:
     content: IETF
     format: text/plain
+keyword:
+- content: JavaScript Object Notation
+- content: Application-Layer Traffic Optimization
 editorialgroup:
-- name: tcpm
+- name: alto
 ext:
   schema-version: v1.0.1
   stream: IETF
