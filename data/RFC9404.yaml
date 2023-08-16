@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.3
+id: RFC9404
+title:
+- content: JSON Meta Application Protocol (JMAP) Blob Management Extension
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9404
+  type: src
+type: standard
+docid:
+- id: RFC 9404
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9404
+  type: DOI
+docnumber: RFC9404
+date:
+- type: published
+  value: 2023-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gondwana
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Gondwana
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The JSON Meta Application Protocol (JMAP) base protocol (RFC 8620) provides
+    the ability to upload and download arbitrary binary data via HTTP POST and GET
+    on a defined endpoint. This binary data is called a "blob".</p><p>This extension
+    adds additional ways to create and access blobs by making inline method calls
+    within a standard JMAP request.</p><p>This extension also adds a reverse lookup
+    mechanism to discover where blobs are referenced within other data types.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8620
+    docid:
+    - id: RFC8620
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8620
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9404'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: jmap
+editorialgroup:
+- name: jmap
+ext:
+  schema-version: v1.0.1
+  stream: IETF
