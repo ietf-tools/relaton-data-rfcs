@@ -1,0 +1,214 @@
+---
+schema-version: v1.2.3
+id: RFC9455
+title:
+- content: Avoiding Route Origin Authorizations (ROAs) Containing Multiple IP Prefixes
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9455
+  type: src
+type: standard
+docid:
+- id: RFC 9455
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9455
+  type: DOI
+docnumber: RFC9455
+date:
+- type: published
+  value: 2023-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Yan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bush
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Bush
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Geng
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Geng
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Kock
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. de Kock
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yao
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Yao
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>When using the Resource Public Key Infrastructure (RPKI), address space
+    holders need to issue Route Origin Authorization (ROA) object(s) to authorize
+    one or more Autonomous Systems (ASes) to originate BGP routes to IP address prefix(es).
+    This memo discusses operational problems that may arise from ROAs containing multiple
+    IP prefixes and recommends that each ROA contain a single IP prefix.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '238'
+- title:
+    content: RFC
+    format: text/plain
+  number: '9455'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: ROA
+- content: Route Origin Authorization
+editorialgroup:
+- name: sidrops
+ext:
+  schema-version: v1.0.1
+  stream: IETF
