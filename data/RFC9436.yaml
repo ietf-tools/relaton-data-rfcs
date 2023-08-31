@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8736
+id: RFC9436
 title:
 - content: PIM Message Type Space Extension and Reserved Bits
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8736
+- content: https://www.rfc-editor.org/info/rfc9436
   type: src
 type: standard
 docid:
-- id: RFC 8736
+- id: RFC 9436
   type: IETF
   primary: true
-- id: 10.17487/RFC8736
+- id: 10.17487/RFC9436
   type: DOI
-docnumber: RFC8736
+docnumber: RFC9436
 date:
 - type: published
-  value: 2020-02
+  value: 2023-08
 contributor:
 - person:
     name:
@@ -88,7 +88,7 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2020-02
+revdate: 2023-08
 language:
 - en
 script:
@@ -96,30 +96,17 @@ script:
 abstract:
 - content: "<p>The PIM version 2 messages share a common message header format. The
     common header definition contains eight reserved bits. This document specifies
-    how these bits may be used by individual message types and creates a registry
-    containing the per-message-type usage. This document also extends the PIM type
-    space by defining three new message types. For each of the new types, four of
-    the previously reserved bits are used to form an extended type range.</p><p>This
-    document updates RFCs 7761 and 3973 by defining the use of the currently Reserved
-    field in the PIM common header. This document further updates RFCs 7761 and 3973,
-    along with RFCs 5015, 5059, 6754, and 8364, by specifying the use of the currently
-    reserved bits for each PIM message.</p><p>This document obsoletes RFC 6166.</p>"
+    how these bits may be used by individual message types and extends the PIM type
+    space.</p><p>This document updates RFCs 7761 and 3973 by defining the use of the
+    Reserved field in the PIM common header. This document further updates RFCs 7761
+    and 3973, along with RFCs 5015, 5059, 6754, and 8364, by specifying the use of
+    the bits for each PIM message.</p><p>This document obsoletes RFC 8736.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9436
-    docid:
-    - id: RFC9436
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9436
-      format: text/plain
 - type: updates
   bibitem:
     id: RFC3973
@@ -184,13 +171,13 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '8736'
+  number: '9436'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: Multicast
+- content: Multicast PIM
 editorialgroup:
 - name: pim
 ext:
