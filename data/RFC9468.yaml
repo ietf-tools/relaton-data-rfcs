@@ -1,0 +1,182 @@
+---
+schema-version: v1.2.3
+id: RFC9468
+title:
+- content: Unsolicited Bidirectional Forwarding Detection (BFD) for Sessionless Applications
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9468
+  type: src
+type: standard
+docid:
+- id: RFC 9468
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9468
+  type: DOI
+docnumber: RFC9468
+date:
+- type: published
+  value: 2023-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Chen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: N
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Shen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raszuk
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Raszuk
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rahman
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Rahman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>For operational simplification of "sessionless" applications using Bidirectional
+    Forwarding Detection (BFD), in this document, we present procedures for "unsolicited
+    BFD" that allow a BFD session to be initiated by only one side and established
+    without explicit per-session configuration or registration by the other side (subject
+    to certain per-interface or global policies).</p><p>We also introduce a new YANG
+    module to configure and manage "unsolicited BFD". The YANG module in this document
+    is based on YANG 1.1, as defined in RFC 7950, and conforms to the Network Management
+    Datastore Architecture (NMDA), as described in RFC 8342. This document augments
+    RFC 9314.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9468'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: bfd
+ext:
+  schema-version: v1.0.1
+  stream: IETF
