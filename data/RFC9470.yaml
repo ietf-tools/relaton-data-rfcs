@@ -1,0 +1,129 @@
+---
+schema-version: v1.2.3
+id: RFC9470
+title:
+- content: OAuth 2.0 Step Up Authentication Challenge Protocol
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9470
+  type: src
+type: standard
+docid:
+- id: RFC 9470
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9470
+  type: DOI
+docnumber: RFC9470
+date:
+- type: published
+  value: 2023-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bertocci
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Bertocci
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Campbell
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Campbell
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>It is not uncommon for resource servers to require different authentication
+    strengths or recentness according to the characteristics of a request. This document
+    introduces a mechanism that resource servers can use to signal to a client that
+    the authentication event associated with the access token of the current request
+    does not meet its authentication requirements and, further, how to meet them.
+    This document also codifies a mechanism for a client to request that an authorization
+    server achieve a specific authentication strength or recentness when processing
+    an authorization request.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9470'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: security
+- content: oauth2
+- content: openid connect
+- content: oauth
+- content: step-up
+editorialgroup:
+- name: oauth
+ext:
+  schema-version: v1.0.1
+  stream: IETF
