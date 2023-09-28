@@ -1,0 +1,94 @@
+---
+schema-version: v1.2.3
+id: RFC9477
+title:
+- content: Complaint Feedback Loop Address Header
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9477
+  type: src
+type: standard
+docid:
+- id: RFC 9477
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9477
+  type: DOI
+docnumber: RFC9477
+date:
+- type: published
+  value: 2023-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Benecke
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Benecke
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes a method that allows a Message Originator to
+    specify a Complaint Feedback Loop (CFBL) address as a message header field. It
+    also defines the rules for processing and forwarding such a complaint. The motivation
+    for this arises out of the absence of a standardized and automated way to provide
+    Mailbox Providers with an address for a CFBL. Currently, providing and maintaining
+    such an address is a manual and time-consuming process for Message Originators
+    and Mailbox Providers.</p><p>The mechanism specified in this document is being
+    published as an experiment to gather feedback and gauge the interest of implementers
+    and deployers. This document is produced through the Independent RFC Stream and
+    was not subject to the IETF's approval process.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9477'
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
+ext:
+  schema-version: v1.0.1
+  stream: INDEPENDENT
