@@ -1,0 +1,184 @@
+---
+schema-version: v1.2.3
+id: RFC9465
+title:
+- content: PIM Null-Register Packing
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9465
+  type: src
+type: standard
+docid:
+- id: RFC 9465
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9465
+  type: DOI
+docnumber: RFC9465
+date:
+- type: published
+  value: 2023-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kamath
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Kamath
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chokkanathapuram Sundaram
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Chokkanathapuram Sundaram
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Banthia
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Banthia
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gopal
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Gopal
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>In PIM Sparse Mode (PIM-SM) networks, PIM Null-Register messages are
+    sent by the Designated Router (DR) to the Rendezvous Point (RP) to signal the
+    presence of multicast sources in the network. There are periodic PIM Null-Registers
+    sent from the DR to the RP to keep the state alive at the RP as long as the source
+    is active. The PIM Null-Register message carries information about a single multicast
+    source and group.</p><p>This document defines a standard to send information about
+    multiple multicast sources and groups in a single PIM message. This document refers
+    to the new messages as the "PIM Packed Null-Register message" and "PIM Packed
+    Register-Stop message".</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9465'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Multicast
+editorialgroup:
+- name: pim
+ext:
+  schema-version: v1.0.1
+  stream: IETF
