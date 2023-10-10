@@ -1,0 +1,140 @@
+---
+schema-version: v1.2.3
+id: RFC5405
+title:
+- content: Unicast UDP Usage Guidelines for Application Designers
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc5405
+  type: src
+type: standard
+docid:
+- id: RFC 5405
+  type: IETF
+  primary: true
+- id: 10.17487/RFC5405
+  type: DOI
+docnumber: RFC5405
+date:
+- type: published
+  value: 2008-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eggert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Eggert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Fairhurst
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2008-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The User Datagram Protocol (UDP) provides a minimal message-passing
+    transport that has no inherent congestion control mechanisms. Because congestion
+    control is critical to the stable operation of the Internet, applications and
+    upper-layer protocols that choose to use UDP as an Internet transport must employ
+    mechanisms to prevent congestion collapse and to establish some degree of fairness
+    with concurrent traffic. This document provides guidelines on the use of UDP for
+    the designers of unicast applications and upper-layer protocols. Congestion control
+    guidelines are a primary focus, but the document also provides guidance on other
+    topics, including message sizes, reliability, checksums, and middlebox traversal.
+    This document specifies an Internet Best Current Practices for the Internet Community,
+    and requests discussion and suggestions for improvements.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC8085
+    docid:
+    - id: RFC8085
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8085
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5405'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: user datagram protocol
+- content: congestion control
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

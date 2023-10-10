@@ -1,0 +1,222 @@
+---
+schema-version: v1.2.3
+id: RFC7829
+title:
+- content: 'SCTP-PF: A Quick Failover Algorithm for the Stream Control Transmission
+    Protocol'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc7829
+  type: src
+type: standard
+docid:
+- id: RFC 7829
+  type: IETF
+  primary: true
+- id: 10.17487/RFC7829
+  type: DOI
+docnumber: RFC7829
+date:
+- type: published
+  value: 2016-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nishida
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Nishida
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Natarajan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Natarajan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Caro
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Caro
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Amer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Amer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nielsen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Nielsen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2016-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The Stream Control Transmission Protocol (SCTP) supports multihoming.
+    However, when the failover operation specified in RFC 4960 is followed, there
+    can be significant delay and performance degradation in the data transfer path
+    failover. This document specifies a quick failover algorithm and introduces the
+    SCTP Potentially Failed (SCTP-PF) destination state in SCTP Path Management.</p><p>This
+    document also specifies a dormant state operation of SCTP that is required to
+    be followed by an SCTP-PF implementation, but it may equally well be applied by
+    a standard SCTP implementation, as described in RFC 4960.</p><p>Additionally,
+    this document introduces an alternative switchback operation mode called "Primary
+    Path Switchover" that will be beneficial in certain situations. This mode of operation
+    applies to both a standard SCTP implementation and an SCTP-PF implementation.</p><p>The
+    procedures defined in the document require only minimal modifications to the specification
+    in RFC 4960. The procedures are sender-side only and do not impact the SCTP receiver.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '7829'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: SCTP
+- content: Failover
+- content: multipath
+- content: multihoming
+- content: Potentially Failed
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

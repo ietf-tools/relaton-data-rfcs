@@ -1,0 +1,227 @@
+---
+schema-version: v1.2.3
+id: RFC5946
+title:
+- content: Resource Reservation Protocol (RSVP) Extensions for Path-Triggered RSVP
+    Receiver Proxy
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc5946
+  type: src
+type: standard
+docid:
+- id: RFC 5946
+  type: IETF
+  primary: true
+- id: 10.17487/RFC5946
+  type: DOI
+docnumber: RFC5946
+date:
+- type: published
+  value: 2010-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Manner
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Manner
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Narayanan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Narayanan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Guillou
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Guillou
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Malik
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Malik
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2010-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Resource Reservation Protocol (RSVP) signaling can be used to make end-to-end
+    resource reservations in an IP network in order to guarantee the Quality of Service
+    (QoS) required by certain flows. With conventional RSVP, both the data sender
+    and receiver of a given flow take part in RSVP signaling. Yet, there are many
+    use cases where resource reservation is required, but the receiver, the sender,
+    or both, is not RSVP-capable. Where the receiver is not RSVP- capable, an RSVP
+    router may behave as an RSVP Receiver Proxy, thereby performing RSVP signaling
+    on behalf of the receiver. This allows resource reservations to be established
+    on the segment of the end-to- end path from the sender to the RSVP Receiver Proxy.
+    However, as discussed in the companion document "RSVP Proxy Approaches", RSVP
+    extensions are needed to facilitate operations with an RSVP Receiver Proxy whose
+    signaling is triggered by receipt of RSVP Path messages from the sender. This
+    document specifies these extensions. [STANDARDS-TRACK]</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2205
+    docid:
+    - id: RFC2205
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2205
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '5946'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

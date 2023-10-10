@@ -1,0 +1,180 @@
+---
+schema-version: v1.2.3
+id: RFC8261
+title:
+- content: Datagram Transport Layer Security (DTLS) Encapsulation of SCTP Packets
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc8261
+  type: src
+type: standard
+docid:
+- id: RFC 8261
+  type: IETF
+  primary: true
+- id: 10.17487/RFC8261
+  type: DOI
+docnumber: RFC8261
+date:
+- type: published
+  value: 2017-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tuexen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Tuexen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stewart
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Stewart
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jesup
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Jesup
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Loreto
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Loreto
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2017-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Stream Control Transmission Protocol (SCTP) is a transport protocol
+    originally defined to run on top of the network protocols IPv4 or IPv6. This document
+    specifies how SCTP can be used on top of the Datagram Transport Layer Security
+    (DTLS) protocol. Using the encapsulation method described in this document, SCTP
+    is unaware of the protocols being used below DTLS; hence, explicit IP addresses
+    cannot be used in the SCTP control chunks. As a consequence, the SCTP associations
+    carried over DTLS can only be single-homed.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8261'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

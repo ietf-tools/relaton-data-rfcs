@@ -1,0 +1,101 @@
+---
+schema-version: v1.2.3
+id: RFC4804
+title:
+- content: Aggregation of Resource ReSerVation Protocol (RSVP) Reservations over MPLS
+    TE/DS-TE Tunnels
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc4804
+  type: src
+type: standard
+docid:
+- id: RFC 4804
+  type: IETF
+  primary: true
+- id: 10.17487/RFC4804
+  type: DOI
+docnumber: RFC4804
+date:
+- type: published
+  value: 2007-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Le Faucheur
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2007-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>RFC 3175 specifies aggregation of Resource ReSerVation Protocol (RSVP)
+    end-to-end reservations over aggregate RSVP reservations. This document specifies
+    aggregation of RSVP end-to-end reservations over MPLS Traffic Engineering (TE)
+    tunnels or MPLS Diffserv-aware MPLS Traffic Engineering (DS-TE) tunnels. This
+    approach is based on RFC 3175 and simply modifies the corresponding procedures
+    for operations over MPLS TE tunnels instead of aggregate RSVP reservations. This
+    approach can be used to achieve admission control of a very large number of flows
+    in a scalable manner since the devices in the core of the network are unaware
+    of the end-to-end RSVP reservations and are only aware of the MPLS TE tunnels.
+    [STANDARDS-TRACK]</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '4804'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: multiprotocol label switching
+- content: traffic engineering
+- content: diffserv-aware mpls traffic engineering
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

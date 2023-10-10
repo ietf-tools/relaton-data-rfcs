@@ -1,0 +1,164 @@
+---
+schema-version: v1.2.3
+id: RFC7141
+title:
+- content: Byte and Packet Congestion Notification
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc7141
+  type: src
+type: standard
+docid:
+- id: RFC 7141
+  type: IETF
+  primary: true
+- id: 10.17487/RFC7141
+  type: DOI
+docnumber: RFC7141
+date:
+- type: published
+  value: 2014-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Briscoe
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Manner
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Manner
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2014-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document provides recommendations of best current practice for
+    dropping or marking packets using any active queue management (AQM) algorithm,
+    including Random Early Detection (RED), BLUE, Pre- Congestion Notification (PCN),
+    and newer schemes such as CoDel (Controlled Delay) and PIE (Proportional Integral
+    controller Enhanced). We give three strong recommendations: (1) packet size should
+    be taken into account when transports detect and respond to congestion indications,
+    (2) packet size should not be taken into account when network equipment creates
+    congestion signals (marking, dropping), and therefore (3) in the specific case
+    of RED, the byte- mode packet drop variant that drops fewer small packets should
+    not be used. This memo updates RFC 2309 to deprecate deliberate preferential treatment
+    of small packets in AQM algorithms.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2309
+    docid:
+    - id: RFC2309
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2309
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC2914
+    docid:
+    - id: RFC2914
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2914
+      format: text/plain
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '41'
+- title:
+    content: RFC
+    format: text/plain
+  number: '7141'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: active queue management
+- content: aqm
+- content: availability
+- content: denial of service
+- content: dos
+- content: quality of service
+- content: qos
+- content: congestion control
+- content: fairness
+- content: incentives
+- content: architecture layering
+- content: protocol
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

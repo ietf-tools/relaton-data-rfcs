@@ -1,0 +1,272 @@
+---
+schema-version: v1.2.3
+id: RFC8899
+title:
+- content: Packetization Layer Path MTU Discovery for Datagram Transports
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc8899
+  type: src
+type: standard
+docid:
+- id: RFC 8899
+  type: IETF
+  primary: true
+- id: 10.17487/RFC8899
+  type: DOI
+docnumber: RFC8899
+date:
+- type: published
+  value: 2020-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Fairhurst
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tüxen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Tüxen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rüngeler
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Rüngeler
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Völker
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Völker
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2020-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies Datagram Packetization Layer Path MTU Discovery
+    (DPLPMTUD). This is a robust method for Path MTU Discovery (PMTUD) for datagram
+    Packetization Layers (PLs). It allows a PL, or a datagram application that uses
+    a PL, to discover whether a network path can support the current size of datagram.
+    This can be used to detect and reduce the message size when a sender encounters
+    a packet black hole. It can also probe a network path to discover whether the
+    maximum packet size can be increased. This provides functionality for datagram
+    transports that is equivalent to the PLPMTUD specification for TCP, specified
+    in RFC 4821, which it updates. It also updates the UDP Usage Guidelines to refer
+    to this method for use with UDP datagrams and updates SCTP.</p><p>The document
+    provides implementation notes for incorporating Datagram PMTUD into IETF datagram
+    transports or applications that use datagram transports.</p><p>This specification
+    updates RFC 4960, RFC 4821, RFC 6951, RFC 8085, and RFC 8261.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4821
+    docid:
+    - id: RFC4821
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4821
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4960
+    docid:
+    - id: RFC4960
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4960
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6951
+    docid:
+    - id: RFC6951
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6951
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8085
+    docid:
+    - id: RFC8085
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8085
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8261
+    docid:
+    - id: RFC8261
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8261
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '8899'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: UDP
+- content: SCTP
+- content: Transport
+- content: PMTUD
+- content: PLPMTUD
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
