@@ -1,0 +1,98 @@
+---
+schema-version: v1.2.3
+id: RFC9495
+title:
+- content: Certification Authority Authorization (CAA) Processing for Email Addresses
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9495
+  type: src
+type: standard
+docid:
+- id: RFC 9495
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9495
+  type: DOI
+docnumber: RFC9495
+date:
+- type: published
+  value: 2023-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bonnell
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Bonnell
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Certification Authority Authorization (CAA) DNS resource record
+    (RR) provides a mechanism for domains to express the allowed set of Certification
+    Authorities that are authorized to issue certificates for the domain. RFC 8659
+    contains the core CAA specification, where Property Tags that restrict the issuance
+    of certificates that certify domain names are defined. This specification defines
+    a Property Tag that grants authorization to Certification Authorities to issue
+    certificates that contain the key purpose in the extension and at least one value
+    or value of type that includes the domain name in the extension.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9495'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: caa
+- content: certification authority authorization
+- content: email address
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
