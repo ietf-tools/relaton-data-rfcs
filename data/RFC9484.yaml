@@ -1,0 +1,229 @@
+---
+schema-version: v1.2.3
+id: RFC9484
+title:
+- content: Proxying IP in HTTP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9484
+  type: src
+type: standard
+docid:
+- id: RFC 9484
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9484
+  type: DOI
+docnumber: RFC9484
+date:
+- type: published
+  value: 2023-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pauly
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Pauly
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schinazi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Schinazi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chernyakhovsky
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Chernyakhovsky
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kühlewind
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Kühlewind
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Westerlund
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Westerlund
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes how to proxy IP packets in HTTP. This protocol
+    is similar to UDP proxying in HTTP but allows transmitting arbitrary IP packets.
+    More specifically, this document defines a protocol that allows an HTTP client
+    to create an IP tunnel through an HTTP server that acts as an IP proxy. This document
+    updates RFC 9298.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC9298
+    docid:
+    - id: RFC9298
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9298
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9484'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: quic
+- content: http
+- content: datagram
+- content: VPN
+- content: proxy
+- content: tunnels
+- content: quic in udp in IP in quic
+- content: turtles all the way down
+- content: masque
+- content: http-ng
+editorialgroup:
+- name: masque
+ext:
+  schema-version: v1.0.1
+  stream: IETF
