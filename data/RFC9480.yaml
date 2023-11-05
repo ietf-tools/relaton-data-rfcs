@@ -1,0 +1,186 @@
+---
+schema-version: v1.2.3
+id: RFC9480
+title:
+- content: Certificate Management Protocol (CMP) Updates
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9480
+  type: src
+type: standard
+docid:
+- id: RFC 9480
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9480
+  type: DOI
+docnumber: RFC9480
+date:
+- type: published
+  value: 2023-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brockhaus
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Brockhaus
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: von Oheimb
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. von Oheimb
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gray
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Gray
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document contains a set of updates to the syntax of Certificate
+    Management Protocol (CMP) version 2 and its HTTP transfer mechanism. This document
+    updates RFCs 4210, 5912, and 6712.</p><p>The aspects of CMP updated in this document
+    are using EnvelopedData instead of EncryptedValue, clarifying the handling of
+    p10cr messages, improving the crypto agility, as well as adding new general message
+    types, extended key usages to identify certificates for use with CMP, and well-known
+    URI path segments.</p><p>CMP version 3 is introduced to enable signaling support
+    of EnvelopedData instead of EncryptedValue and signal the use of an explicit hash
+    AlgorithmIdentifier in certConf messages, as far as needed.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4210
+    docid:
+    - id: RFC4210
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4210
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5912
+    docid:
+    - id: RFC5912
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5912
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6712
+    docid:
+    - id: RFC6712
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6712
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9480'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: CMP
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
