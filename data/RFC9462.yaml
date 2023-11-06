@@ -1,0 +1,221 @@
+---
+schema-version: v1.2.3
+id: RFC9462
+title:
+- content: Discovery of Designated Resolvers
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9462
+  type: src
+type: standard
+docid:
+- id: RFC 9462
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9462
+  type: DOI
+docnumber: RFC9462
+date:
+- type: published
+  value: 2023-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pauly
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Pauly
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kinnear
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Kinnear
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: C. A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. A. Wood
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McManus
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. McManus
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jensen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Jensen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document defines Discovery of Designated Resolvers (DDR), a set
+    of mechanisms for DNS clients to use DNS records to discover a resolver's encrypted
+    DNS configuration. An Encrypted DNS Resolver discovered in this manner is referred
+    to as a "Designated Resolver". These mechanisms can be used to move from unencrypted
+    DNS to encrypted DNS when only the IP address of a resolver is known. These mechanisms
+    are designed to be limited to cases where Unencrypted DNS Resolvers and their
+    Designated Resolvers are operated by the same entity or cooperating entities.
+    It can also be used to discover support for encrypted DNS protocols when the name
+    of an Encrypted DNS Resolver is known.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9462'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: DNS
+- content: DoH
+- content: DoT
+- content: DoQ
+editorialgroup:
+- name: add
+ext:
+  schema-version: v1.0.1
+  stream: IETF

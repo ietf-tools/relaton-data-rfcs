@@ -1,0 +1,167 @@
+---
+schema-version: v1.2.3
+id: RFC9460
+title:
+- content: Service Binding and Parameter Specification via the DNS (SVCB and HTTPS
+    Resource Records)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9460
+  type: src
+type: standard
+docid:
+- id: RFC 9460
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9460
+  type: DOI
+docnumber: RFC9460
+date:
+- type: published
+  value: 2023-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwartz
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Schwartz
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bishop
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Bishop
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nygren
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Nygren
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document specifies the "SVCB" ("Service Binding") and "HTTPS" DNS
+    resource record (RR) types to facilitate the lookup of information needed to make
+    connections to network services, such as for HTTP origins. SVCB records allow
+    a service to be provided from multiple alternative endpoints, each with associated
+    parameters (such as transport protocol configuration), and are extensible to support
+    future uses (such as keys for encrypting the TLS ClientHello). They also enable
+    aliasing of apex domains, which is not possible with CNAME. The HTTPS RR is a
+    variation of SVCB for use with HTTP (see RFC 9110, "HTTP Semantics"). By providing
+    more information to the client before it attempts to establish a connection, these
+    records offer potential benefits to both performance and privacy.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9460'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: multi-CDN
+- content: HSTS
+- content: ECH
+- content: CNAME
+- content: apex
+- content: ALPN
+- content: HTTP/3
+- content: alias
+- content: SvcParam
+- content: AliasMode
+- content: ServiceMode
+editorialgroup:
+- name: dnsop
+ext:
+  schema-version: v1.0.1
+  stream: IETF
