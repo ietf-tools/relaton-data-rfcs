@@ -1,0 +1,110 @@
+---
+schema-version: v1.2.3
+id: RFC9456
+title:
+- content: Updates to the TLS Transport Model for SNMP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9456
+  type: src
+type: standard
+docid:
+- id: RFC 9456
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9456
+  type: DOI
+docnumber: RFC9456
+date:
+- type: published
+  value: 2023-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vaughn
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Vaughn
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document updates RFC 6353 ("Transport Layer Security (TLS) Transport
+    Model for the Simple Network Management Protocol (SNMP)") to reflect changes necessary
+    to support Transport Layer Security version 1.3 (TLS 1.3) and Datagram Transport
+    Layer Security version 1.3 (DTLS 1.3), which are jointly known as "(D)TLS 1.3".
+    This document is compatible with (D)TLS 1.2 and is intended to be compatible with
+    future versions of SNMP and (D)TLS.</p><p>This document updates the SNMP-TLS-TM-MIB
+    as defined in RFC 6353.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC6353
+    docid:
+    - id: RFC6353
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6353
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9456'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: TLSTM
+- content: DTLS
+- content: security
+- content: SNMPv3
+- content: MIB
+editorialgroup:
+- name: opsawg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
