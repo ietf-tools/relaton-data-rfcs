@@ -1,26 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC6125
+id: RFC9525
 title:
-- content: Representation and Verification of Domain-Based Application Service Identity
-    within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the
-    Context of Transport Layer Security (TLS)
+- content: Service Identity in TLS
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6125
+- content: https://www.rfc-editor.org/info/rfc9525
   type: src
 type: standard
 docid:
-- id: RFC 6125
+- id: RFC 9525
   type: IETF
   primary: true
-- id: 10.17487/RFC6125
+- id: 10.17487/RFC9525
   type: DOI
-docnumber: RFC6125
+docnumber: RFC9525
 date:
 - type: published
-  value: 2011-03
+  value: 2023-11
 contributor:
 - person:
     name:
@@ -59,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: J
+          initial: R
         formatted_initials:
-          content: J.
+          content: R.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hodges
+        content: Salz
         language:
         - en
         script:
         - Latn
       completename:
-        content: J. Hodges
+        content: R. Salz
         language:
         - en
         script:
@@ -90,42 +88,33 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2011-03
+revdate: 2023-11
 language:
 - en
 script:
 - Latn
 abstract:
 - content: "<p>Many application technologies enable secure communication between two
-    entities by means of Internet Public Key Infrastructure Using X.509 (PKIX) certificates
-    in the context of Transport Layer Security (TLS). This document specifies procedures
-    for representing and verifying the identity of application services in such interactions.
-    [STANDARDS-TRACK]</p>"
+    entities by means of Transport Layer Security (TLS) with Internet Public Key Infrastructure
+    using X.509 (PKIX) certificates. This document specifies procedures for representing
+    and verifying the identity of application services in such interactions.</p><p>This
+    document obsoletes RFC 6125.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9525
-    docid:
-    - id: RFC9525
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9525
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6125'
+  number: '9525'
 - type: stream
   title:
     content: IETF
     format: text/plain
+editorialgroup:
+- name: uta
 ext:
   schema-version: v1.0.1
   stream: IETF
