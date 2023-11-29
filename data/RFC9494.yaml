@@ -1,0 +1,197 @@
+---
+schema-version: v1.2.3
+id: RFC9494
+title:
+- content: Long-Lived Graceful Restart for BGP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9494
+  type: src
+type: standard
+docid:
+- id: RFC 9494
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9494
+  type: DOI
+docnumber: RFC9494
+date:
+- type: published
+  value: 2023-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uttaro
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Uttaro
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Chen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Decraene
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Scudder
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Scudder
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document introduces a BGP capability called the "Long-Lived Graceful
+    Restart Capability" (or "LLGR Capability"). The benefit of this capability is
+    that stale routes can be retained for a longer time upon session failure than
+    is provided for by BGP Graceful Restart (as described in RFC 4724). A well-known
+    BGP community called "LLGR_STALE" is introduced for marking stale routes retained
+    for a longer time. A second well-known BGP community called "NO_LLGR" is introduced
+    for marking routes for which these procedures should not be applied. We also specify
+    that such long-lived stale routes be treated as the least preferred and that their
+    advertisements be limited to BGP speakers that have advertised the capability.
+    Use of this extension is not advisable in all cases, and we provide guidelines
+    to help determine if it is.</p><p>This memo updates RFC 6368 by specifying that
+    the LLGR_STALE community must be propagated into, or out of, the path attributes
+    exchanged between the Provider Edge (PE) and Customer Edge (CE) routers.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC6368
+    docid:
+    - id: RFC6368
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6368
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9494'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: idr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
