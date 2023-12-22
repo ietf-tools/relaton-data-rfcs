@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.3
+id: RFC9552
+title:
+- content: Distribution of Link-State and Traffic Engineering Information Using BGP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9552
+  type: src
+type: standard
+docid:
+- id: RFC 9552
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9552
+  type: DOI
+docnumber: RFC9552
+date:
+- type: published
+  value: 2023-12
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Talaulikar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Talaulikar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-12
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In many environments, a component external to a network is called upon
+    to perform computations based on the network topology and the current state of
+    the connections within the network, including Traffic Engineering (TE) information.
+    This is information typically distributed by IGP routing protocols within the
+    network.</p><p>This document describes a mechanism by which link-state and TE
+    information can be collected from networks and shared with external components
+    using the BGP routing protocol. This is achieved using a BGP Network Layer Reachability
+    Information (NLRI) encoding format. The mechanism applies to physical and virtual
+    (e.g., tunnel) IGP links. The mechanism described is subject to policy control.</p><p>Applications
+    of this technique include Application-Layer Traffic Optimization (ALTO) servers
+    and Path Computation Elements (PCEs).</p><p>This document obsoletes RFC 7752 by
+    completely replacing that document. It makes some small changes and clarifications
+    to the previous specification. This document also obsoletes RFC 9029 by incorporating
+    the updates that it made to RFC 7752.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9552'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: research
+- content: measurement
+- content: identification
+- content: probing
+- content: out-of-band
+- content: in-band
+editorialgroup:
+- name: idr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
