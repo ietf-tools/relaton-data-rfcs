@@ -1,0 +1,246 @@
+---
+schema-version: v1.2.3
+id: RFC9496
+title:
+- content: The ristretto255 and decaf448 Groups
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9496
+  type: src
+type: standard
+docid:
+- id: RFC 9496
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9496
+  type: DOI
+docnumber: RFC9496
+date:
+- type: published
+  value: 2023-12
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Valence
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. de Valence
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Grigg
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Grigg
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hamburg
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Hamburg
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lovecruft
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Lovecruft
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tankersley
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Tankersley
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Valsorda
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Valsorda
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-12
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This memo specifies two prime-order groups, ristretto255 and decaf448,
+    suitable for safely implementing higher-level and complex cryptographic protocols.
+    The ristretto255 group can be implemented using Curve25519, allowing existing
+    Curve25519 implementations to be reused and extended to provide a prime-order
+    group. Likewise, the decaf448 group can be implemented using edwards448.</p><p>This
+    document is a product of the Crypto Forum Research Group (CFRG) in the IRTF.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9496'
+- type: stream
+  title:
+    content: IRTF
+    format: text/plain
+keyword:
+- content: cryptographic group
+- content: cryptography
+- content: Curve25519
+- content: ecc
+- content: edwards448
+- content: elliptic curve
+- content: elliptic curve cryptography
+- content: nonmalleable encodings
+- content: prime-order
+- content: prime order
+ext:
+  schema-version: v1.0.1
+  stream: IRTF
