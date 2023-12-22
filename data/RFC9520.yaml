@@ -1,0 +1,193 @@
+---
+schema-version: v1.2.3
+id: RFC9520
+title:
+- content: Negative Caching of DNS Resolution Failures
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9520
+  type: src
+type: standard
+docid:
+- id: RFC 9520
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9520
+  type: DOI
+docnumber: RFC9520
+date:
+- type: published
+  value: 2023-12
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wessels
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Wessels
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Carroll
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Carroll
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomas
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Thomas
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2023-12
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In the DNS, resolvers employ caching to reduce both latency for end
+    users and load on authoritative name servers. The process of resolution may result
+    in one of three types of responses: (1) a response containing the requested data,
+    (2) a response indicating the requested data does not exist, or (3) a non-response
+    due to a resolution failure in which the resolver does not receive any useful
+    information regarding the data's existence. This document concerns itself only
+    with the third type.</p><p>RFC 2308 specifies requirements for DNS negative caching.
+    There, caching of TYPE 2 responses is mandatory and caching of TYPE 3 responses
+    is optional. This document updates RFC 2308 to require negative caching for DNS
+    resolution failures.</p><p>RFC 4035 allows DNSSEC validation failure caching.
+    This document updates RFC 4035 to require caching for DNSSEC validation failures.</p><p>RFC
+    4697 prohibits aggressive requerying for NS records at a failed zone's parent
+    zone. This document updates RFC 4697 to expand this requirement to all query types
+    and to all ancestor zones.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2308
+    docid:
+    - id: RFC2308
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2308
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4035
+    docid:
+    - id: RFC4035
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4035
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4697
+    docid:
+    - id: RFC4697
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4697
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9520'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: DNS
+- content: Negative
+- content: Caching
+editorialgroup:
+- name: dnsop
+ext:
+  schema-version: v1.0.1
+  stream: IETF
