@@ -1,0 +1,130 @@
+---
+schema-version: v1.2.3
+id: RFC9458
+title:
+- content: Oblivious HTTP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9458
+  type: src
+type: standard
+docid:
+- id: RFC 9458
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9458
+  type: DOI
+docnumber: RFC9458
+date:
+- type: published
+  value: 2024-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Thomson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: C. A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wood
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. A. Wood
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes Oblivious HTTP, a protocol for forwarding encrypted
+    HTTP messages. Oblivious HTTP allows a client to make multiple requests to an
+    origin server without that server being able to link those requests to the client
+    or to identify the requests as having come from the same client, while placing
+    only limited trust in the nodes used to forward the messages.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9458'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: privacy
+- content: proxy
+- content: partitioning
+- content: tunnel
+editorialgroup:
+- name: ohai
+ext:
+  schema-version: v1.0.1
+  stream: IETF
