@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC3230
+id: RFC9530
 title:
-- content: Instance Digests in HTTP
+- content: Digest Fields
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3230
+- content: https://www.rfc-editor.org/info/rfc9530
   type: src
 type: standard
 docid:
-- id: RFC 3230
+- id: RFC 9530
   type: IETF
   primary: true
-- id: 10.17487/RFC3230
+- id: 10.17487/RFC9530
   type: DOI
-docnumber: RFC3230
+docnumber: RFC9530
 date:
 - type: published
-  value: 2002-01
+  value: 2024-02
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: J
+          initial: R
         formatted_initials:
-          content: J.
+          content: R.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Mogul
+        content: Polli
         language:
         - en
         script:
         - Latn
       completename:
-        content: J. Mogul
+        content: R. Polli
         language:
         - en
         script:
@@ -57,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: A
+          initial: L
         formatted_initials:
-          content: A.
+          content: L.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Van Hoff
+        content: Pardue
         language:
         - en
         script:
         - Latn
       completename:
-        content: A. Van Hoff
+        content: L. Pardue
         language:
         - en
         script:
@@ -88,48 +88,36 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2002-01
+revdate: 2024-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>HTTP/1.1 defines a Content-MD5 header that allows a server to include
-    a digest of the response body. However, this is specifically defined to cover
-    the body of the actual message, not the contents of the full file (which might
-    be quite different, if the response is a Content-Range, or uses a delta encoding).
-    Also, the Content-MD5 is limited to one specific digest algorithm; other algorithms,
-    such as SHA-1 (Secure Hash Standard), may be more appropriate in some circumstances.
-    Finally, HTTP/1.1 provides no explicit mechanism by which a client may request
-    a digest. This document proposes HTTP extensions that solve these problems. [STANDARDS-TRACK]</p>"
+- content: "<p>This document defines HTTP fields that support integrity digests. The
+    Content-Digest field can be used for the integrity of HTTP message content. The
+    Repr-Digest field can be used for the integrity of HTTP representations. Want-Content-Digest
+    and Want-Repr-Digest can be used to indicate a sender's interest and preferences
+    for receiving the respective Integrity fields.</p><p>This document obsoletes RFC
+    3230 and the Digest and Want-Digest HTTP fields.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9530
-    docid:
-    - id: RFC9530
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9530
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '3230'
+  number: '9530'
 - type: stream
   title:
-    content: Legacy
+    content: IETF
     format: text/plain
 keyword:
-- content: HTTP
-- content: hypertext transfer protocol
+- content: Digest
+editorialgroup:
+- name: httpbis
 ext:
   schema-version: v1.0.1
-  stream: Legacy
+  stream: IETF
