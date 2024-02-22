@@ -1,0 +1,184 @@
+---
+schema-version: v1.2.3
+id: RFC9523
+title:
+- content: A Secure Selection and Filtering Mechanism for the Network Time Protocol
+    with Khronos
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9523
+  type: src
+type: standard
+docid:
+- id: RFC 9523
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9523
+  type: DOI
+docnumber: RFC9523
+date:
+- type: published
+  value: 2024-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: N
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rozen-Schiff
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Rozen-Schiff
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dolev
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Dolev
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mizrahi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Mizrahi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schapira
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Schapira
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The Network Time Protocol version 4 (NTPv4), as defined in RFC 5905,
+    is the mechanism used by NTP clients to synchronize with NTP servers across the
+    Internet. This document describes a companion application to the NTPv4 client,
+    named "Khronos", that is used as a "watchdog" alongside NTPv4 and that provides
+    improved security against time-shifting attacks. Khronos involves changes to the
+    NTP client's system process only. Since it does not affect the wire protocol,
+    the Khronos mechanism is applicable to current and future time protocols.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9523'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: NTP
+- content: NTPv4
+editorialgroup:
+- name: ntp
+ext:
+  schema-version: v1.0.1
+  stream: IETF
