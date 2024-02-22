@@ -1,0 +1,157 @@
+---
+schema-version: v1.2.3
+id: RFC9538
+title:
+- content: Content Delivery Network Interconnection (CDNI) Delegation Using the Automated
+    Certificate Management Environment
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9538
+  type: src
+type: standard
+docid:
+- id: RFC 9538
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9538
+  type: DOI
+docnumber: RFC9538
+date:
+- type: published
+  value: 2024-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fieau
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Fieau
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Stephan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Stephan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines metadata to support delegating the delivery of
+    HTTPS content between two or more interconnected Content Delivery Networks (CDNs).
+    Specifically, this document defines a Content Delivery Network Interconnection
+    (CDNI) Metadata interface object to enable delegation of X.509 certificates leveraging
+    delegation schemes defined in RFC 9115. Per RFC 9115, delegating entities can
+    remain in full control of the delegation and can revoke it at any time. This avoids
+    the need to share private cryptographic key material between the involved entities.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9538'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: HTTPS
+- content: delegation
+- content: ACME
+- content: STAR
+editorialgroup:
+- name: cdni
+ext:
+  schema-version: v1.0.1
+  stream: IETF
