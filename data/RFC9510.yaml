@@ -1,0 +1,196 @@
+---
+schema-version: v1.2.3
+id: RFC9510
+title:
+- content: Alternative Delta Time Encoding for Content-Centric Networking (CCNx) Using
+    Compact Floating-Point Arithmetic
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9510
+  type: src
+type: standard
+docid:
+- id: RFC 9510
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9510
+  type: DOI
+docnumber: RFC9510
+date:
+- type: published
+  value: 2024-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gündoğan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Gündoğan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schmidt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Schmidt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Oran
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Oran
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wählisch
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Wählisch
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Content-Centric Networking (CCNx) utilizes delta time for a number of
+    functions. When using CCNx in environments with constrained nodes or bandwidth
+    constrained networks, it is valuable to have a compressed representation of delta
+    time. In order to do so, either accuracy or dynamic range has to be sacrificed.
+    Since the current uses of delta time do not require both simultaneously, one can
+    consider a logarithmic encoding. This document updates RFC 8609 ("CCNx messages
+    in TLV Format") to specify this alternative encoding.</p><p>This document is a
+    product of the IRTF Information-Centric Networking Research Group (ICNRG).</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8609
+    docid:
+    - id: RFC8609
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8609
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9510'
+- type: stream
+  title:
+    content: IRTF
+    format: text/plain
+keyword:
+- content: CCNx
+- content: constrained networks
+- content: compressed delta time
+- content: IoT
+ext:
+  schema-version: v1.0.1
+  stream: IRTF
