@@ -1,0 +1,170 @@
+---
+schema-version: v1.2.3
+id: RFC9539
+title:
+- content: Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative
+    DNS
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9539
+  type: src
+type: standard
+docid:
+- id: RFC 9539
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9539
+  type: DOI
+docnumber: RFC9539
+date:
+- type: published
+  value: 2024-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: D. K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gillmor
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. K. Gillmor
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Salazar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Salazar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hoffman
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Hoffman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document sets out steps that DNS servers (recursive resolvers
+    and authoritative servers) can take unilaterally (without any coordination with
+    other peers) to defend DNS query privacy against a passive network monitor. The
+    protections provided by the guidance in this document can be defeated by an active
+    attacker, but they should be simpler and less risky to deploy than more powerful
+    defenses.</p><p>The goal of this document is to simplify and speed up deployment
+    of opportunistic encrypted transport in the recursive-to-authoritative hop of
+    the DNS ecosystem. Wider easy deployment of the underlying encrypted transport
+    on an opportunistic basis may facilitate the future specification of stronger
+    cryptographic protections against more-powerful attacks.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9539'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: DNS over TLS
+- content: DNS over QUIC
+- content: ToT
+- content: DoQ
+- content: encryption
+- content: unilateral
+- content: recursive
+- content: authoritative
+- content: DNS
+editorialgroup:
+- name: dprive
+ext:
+  schema-version: v1.0.1
+  stream: IETF
