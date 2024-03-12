@@ -1,0 +1,105 @@
+---
+schema-version: v1.2.3
+id: RFC9549
+title:
+- content: Internationalization Updates to RFC 5280
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9549
+  type: src
+type: standard
+docid:
+- id: RFC 9549
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9549
+  type: DOI
+docnumber: RFC9549
+date:
+- type: published
+  value: 2024-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Housley
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Housley
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The updates to RFC 5280 described in this document provide alignment
+    with the 2008 specification for Internationalized Domain Names (IDNs) and includes
+    support for internationalized email addresses in X.509 certificates. The updates
+    ensure that name constraints for email addresses that contain only ASCII characters
+    and internationalized email addresses are handled in the same manner. This document
+    obsoletes RFC 8399.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5280
+    docid:
+    - id: RFC5280
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5280
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9549'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Internationalized Email Address
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
