@@ -1,0 +1,180 @@
+---
+schema-version: v1.2.3
+id: RFC9550
+title:
+- content: 'Deterministic Networking (DetNet): Packet Ordering Function'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9550
+  type: src
+type: standard
+docid:
+- id: RFC 9550
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9550
+  type: DOI
+docnumber: RFC9550
+date:
+- type: published
+  value: 2024-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Varga
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Varga
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Farkas
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Farkas
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kehrer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Kehrer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Heer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Heer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The replication and elimination functions of the Deterministic Networking
+    (DetNet) architecture can result in out-of-order packets, which is not acceptable
+    for some time-sensitive applications. The Packet Ordering Function (POF) algorithms
+    described in this document enable restoration of the correct packet order when
+    the replication and elimination functions are used in DetNet networks. The POF
+    only provides ordering within the latency bound of a DetNet flow; it does not
+    provide any additional reliability.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9550'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: detnet
+ext:
+  schema-version: v1.0.1
+  stream: IETF
