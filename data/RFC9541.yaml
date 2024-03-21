@@ -1,0 +1,215 @@
+---
+schema-version: v1.2.3
+id: RFC9541
+title:
+- content: Flush Mechanism for Customer MAC Addresses Based on Service Instance Identifier
+    (I-SID) in Provider Backbone Bridging EVPN (PBB-EVPN)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9541
+  type: src
+type: standard
+docid:
+- id: RFC 9541
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9541
+  type: DOI
+docnumber: RFC9541
+date:
+- type: published
+  value: 2024-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Rabadan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sathappan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sathappan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nagaraj
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Nagaraj
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Miyake
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Miyake
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Matsuda
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Matsuda
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Provider Backbone Bridging (PBB) can be combined with Ethernet Virtual
+    Private Networks (EVPNs) to deploy Ethernet Local Area Network (E-LAN) services
+    in large Multiprotocol Label Switching (MPLS) networks. That combination is what
+    we refer to as "PBB-EVPN." Single-Active multihoming and per Service Instance
+    Identifier (I-SID) load-balancing can be provided to access devices and aggregation
+    networks. In order to speed up the network convergence in case of failures on
+    Single-Active multihomed Ethernet Segments (ESs), PBB-EVPN defines a flush mechanism
+    for Customer MACs (C-MACs) called "C-MAC flush" that works for different Ethernet
+    Segment Backbone MAC (B-MAC) address allocation models. This document complements
+    those C-MAC flush procedures for cases in which no PBB-EVPN ESs are defined (i.e.,
+    the attachment circuit is associated with a zero Ethernet Segment Identifier (ESI))
+    and the C-MAC flush requires I-SID-level granularity.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9541'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF
