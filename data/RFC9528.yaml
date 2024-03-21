@@ -1,0 +1,160 @@
+---
+schema-version: v1.2.3
+id: RFC9528
+title:
+- content: Ephemeral Diffie-Hellman Over COSE (EDHOC)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9528
+  type: src
+type: standard
+docid:
+- id: RFC 9528
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9528
+  type: DOI
+docnumber: RFC9528
+date:
+- type: published
+  value: 2024-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Selander
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Selander
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Preuß Mattsson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Preuß Mattsson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Palombini
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Palombini
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies Ephemeral Diffie-Hellman Over COSE (EDHOC),
+    a very compact and lightweight authenticated Diffie-Hellman key exchange with
+    ephemeral keys. EDHOC provides mutual authentication, forward secrecy, and identity
+    protection. EDHOC is intended for usage in constrained scenarios, and a main use
+    case is to establish an Object Security for Constrained RESTful Environments (OSCORE)
+    security context. By reusing CBOR Object Signing and Encryption (COSE) for cryptography,
+    Concise Binary Object Representation (CBOR) for encoding, and Constrained Application
+    Protocol (CoAP) for transport, the additional code size can be kept very low.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9528'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: AKE
+- content: LAKE
+- content: COSE
+- content: OSCORE
+- content: lightweight authenticated key exchange
+- content: constrained node networks
+- content: IoT security
+editorialgroup:
+- name: lake
+ext:
+  schema-version: v1.0.1
+  stream: IETF
