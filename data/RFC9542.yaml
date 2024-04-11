@@ -1,25 +1,25 @@
 ---
 schema-version: v1.2.3
-id: RFC7042
+id: RFC9542
 title:
 - content: IANA Considerations and IETF Protocol and Documentation Usage for IEEE
     802 Parameters
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc7042
+- content: https://www.rfc-editor.org/info/rfc9542
   type: src
 type: standard
 docid:
-- id: RFC 7042
+- id: RFC 9542
   type: IETF
   primary: true
-- id: 10.17487/RFC7042
+- id: 10.17487/RFC9542
   type: DOI
-docnumber: RFC7042
+docnumber: RFC9542
 date:
 - type: published
-  value: 2013-10
+  value: 2024-04
 contributor:
 - person:
     name:
@@ -79,6 +79,35 @@ contributor:
         - Latn
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -89,59 +118,50 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2013-10
+revdate: 2024-04
 language:
 - en
 script:
 - Latn
 abstract:
 - content: "<p>Some IETF protocols make use of Ethernet frame formats and IEEE 802
-    parameters. This document discusses several uses of such parameters in IETF protocols,
-    specifies IANA considerations for assignment of points under the IANA OUI (Organizationally
-    Unique Identifier), and provides some values for use in documentation. This document
-    obsoletes RFC 5342.</p>"
+    parameters. This document discusses several aspects of such parameters and their
+    use in IETF protocols, specifies IANA considerations for assignment of points
+    under the IANA Organizationally Unique Identifier (OUI), and provides some values
+    for use in documentation. This document obsoletes RFC 7042.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9542
-    docid:
-    - id: RFC9542
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9542
-      format: text/plain
-- type: updates
-  bibitem:
-    id: RFC2153
-    docid:
-    - id: RFC2153
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC2153
-      format: text/plain
 series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '141'
 - title:
     content: RFC
     format: text/plain
-  number: '7042'
+  number: '9542'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
 - content: Ethernet
-- content: Ethertype
+- content: EtherType
 - content: '802'
 - content: OUI
 - content: EUI
 - content: LSAP
+- content: AFN
+- content: CBOR
+- content: LLC
+- content: SLAP
+- content: SNAP
+- content: CID
+editorialgroup:
+- name: intarea
 ext:
   schema-version: v1.0.1
   stream: IETF
