@@ -1,0 +1,100 @@
+---
+schema-version: v1.2.3
+id: RFC9423
+title:
+- content: Constrained RESTful Environments (CoRE) Target Attributes Registry
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9423
+  type: src
+type: standard
+docid:
+- id: RFC 9423
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9423
+  type: DOI
+docnumber: RFC9423
+date:
+- type: published
+  value: 2024-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Bormann
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The Constrained RESTful Environments (CoRE) specifications apply web
+    technologies to constrained environments. One such important technology is Web
+    Linking (RFC 8288), which CoRE specifications use as the basis for a number of
+    discovery protocols, such as the Link Format (RFC 6690) in the Constrained Application
+    Protocol's (CoAP's) resource discovery process (Section 7.2 of RFC 7252) and the
+    Resource Directory (RD) (RFC 9176).</p><p>Web Links can have target attributes,
+    the names of which are not generally coordinated by the Web Linking specification
+    (Section 2.2 of RFC 8288). This document introduces an IANA registry for coordinating
+    names of target attributes when used in CoRE. It updates the "RD Parameters" IANA
+    registry created by RFC 9176 to coordinate with this registry.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9423'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: CoAP
+- content: Web Linking
+- content: Resource Discovery
+editorialgroup:
+- name: core
+ext:
+  schema-version: v1.0.1
+  stream: IETF
