@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.3
+id: RFC9536
+title:
+- content: Registration Data Access Protocol (RDAP) Reverse Search
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9536
+  type: src
+type: standard
+docid:
+- id: RFC 9536
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9536
+  type: DOI
+docnumber: RFC9536
+date:
+- type: published
+  value: 2024-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Loffredo
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Loffredo
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Martinelli
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Martinelli
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Registration Data Access Protocol (RDAP) does not include query
+    capabilities for finding the list of domains related to a set of entities matching
+    a given search pattern. Considering that an RDAP entity can be associated with
+    any defined object class and other relationships between RDAP object classes exist,
+    a reverse search can be applied to other use cases besides the classic domain-entity
+    scenario. This document describes an RDAP extension that allows servers to provide
+    a reverse search feature based on the relationship defined in RDAP between an
+    object class for search and any related object class. The reverse search based
+    on the domain-entity relationship is treated as a particular case.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9536'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: RDAP
+- content: Reverse search
+editorialgroup:
+- name: regext
+ext:
+  schema-version: v1.0.1
+  stream: IETF
