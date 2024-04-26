@@ -1,0 +1,141 @@
+---
+schema-version: v1.2.3
+id: RFC9557
+title:
+- content: 'Date and Time on the Internet: Timestamps with Additional Information'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9557
+  type: src
+type: standard
+docid:
+- id: RFC 9557
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9557
+  type: DOI
+docnumber: RFC9557
+date:
+- type: published
+  value: 2024-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: U
+        formatted_initials:
+          content: U.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sharma
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: U. Sharma
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Bormann
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document defines an extension to the timestamp format defined in
+    RFC 3339 for representing additional information, including a time zone.</p><p>It
+    updates RFC 3339 in the specific interpretation of the local offset, which is
+    no longer understood to "imply that UTC is the preferred reference point for the
+    specified time".</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC3339
+    docid:
+    - id: RFC3339
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3339
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9557'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Gregorian calendar
+- content: Calendar awareness
+- content: Time zone
+- content: ISO 8601
+- content: Temporal
+- content: RFC 3339
+- content: Extension
+- content: Internet Extended Date/Time Format
+- content: IXDTF
+editorialgroup:
+- name: sedate
+ext:
+  schema-version: v1.0.1
+  stream: IETF
