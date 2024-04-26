@@ -1,0 +1,101 @@
+---
+schema-version: v1.2.3
+id: RFC9560
+title:
+- content: Federated Authentication for the Registration Data Access Protocol (RDAP)
+    Using OpenID Connect
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9560
+  type: src
+type: standard
+docid:
+- id: RFC 9560
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9560
+  type: DOI
+docnumber: RFC9560
+date:
+- type: published
+  value: 2024-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hollenbeck
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Hollenbeck
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Registration Data Access Protocol (RDAP) provides Representational
+    State Transfer (RESTful) web services to retrieve registration metadata from domain
+    name and regional internet registries. RDAP allows a server to make access control
+    decisions based on client identity, and as such, it includes support for client
+    identification features provided by the Hypertext Transfer Protocol (HTTP). Identification
+    methods that require clients to obtain and manage credentials from every RDAP
+    server operator present management challenges for both clients and servers, whereas
+    a federated authentication system would make it easier to operate and use RDAP
+    without the need to maintain server-specific client credentials. This document
+    describes a federated authentication system for RDAP based on OpenID Connect.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9560'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: RDAP
+- content: Federated
+- content: Authentication
+editorialgroup:
+- name: regext
+ext:
+  schema-version: v1.0.1
+  stream: IETF
