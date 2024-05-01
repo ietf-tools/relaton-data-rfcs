@@ -1,0 +1,133 @@
+---
+schema-version: v1.2.3
+id: RFC9568
+title:
+- content: Virtual Router Redundancy Protocol (VRRP) Version 3 for IPv4 and IPv6
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9568
+  type: src
+type: standard
+docid:
+- id: RFC 9568
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9568
+  type: DOI
+docnumber: RFC9568
+date:
+- type: published
+  value: 2024-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lindem
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Lindem
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dogra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Dogra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines version 3 of the Virtual Router Redundancy Protocol
+    (VRRP) for IPv4 and IPv6. It obsoletes RFC 5798, which previously specified VRRP
+    (version 3). RFC 5798 obsoleted RFC 3768, which specified VRRP (version 2) for
+    IPv4. VRRP specifies an election protocol that dynamically assigns responsibility
+    for a Virtual Router to one of the VRRP Routers on a LAN. The VRRP Router controlling
+    the IPv4 or IPv6 address(es) associated with a Virtual Router is called the Active
+    Router, and it forwards packets routed to these IPv4 or IPv6 addresses. Active
+    Routers are configured with virtual IPv4 or IPv6 addresses, and Backup Routers
+    infer the address family of the virtual addresses being advertised based on the
+    IP protocol version. Within a VRRP Router, the Virtual Routers in each of the
+    IPv4 and IPv6 address families are independent of one another and always treated
+    as separate Virtual Router instances. The election process provides dynamic failover
+    in the forwarding responsibility should the Active Router become unavailable.
+    For IPv4, the advantage gained from using VRRP is a higher-availability default
+    path without requiring configuration of dynamic routing or router discovery protocols
+    on every end-host. For IPv6, the advantage gained from using VRRP for IPv6 is
+    a quicker switchover to Backup Routers than can be obtained with standard IPv6
+    Neighbor Discovery mechanisms.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9568'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: rtgwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
