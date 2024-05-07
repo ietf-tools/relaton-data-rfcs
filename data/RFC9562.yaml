@@ -1,25 +1,83 @@
 ---
 schema-version: v1.2.3
-id: RFC4122
+id: RFC9562
 title:
-- content: A Universally Unique IDentifier (UUID) URN Namespace
+- content: Universally Unique IDentifiers (UUIDs)
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc4122
+- content: https://www.rfc-editor.org/info/rfc9562
   type: src
 type: standard
 docid:
-- id: RFC 4122
+- id: RFC 9562
   type: IETF
   primary: true
-- id: 10.17487/RFC4122
+- id: 10.17487/RFC9562
   type: DOI
-docnumber: RFC4122
+docnumber: RFC9562
 date:
 - type: published
-  value: 2005-07
+  value: 2024-05
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Davis
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Davis
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peabody
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Peabody
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -49,64 +107,6 @@ contributor:
         - Latn
   role:
   - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: M
-        formatted_initials:
-          content: M.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Mealling
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: M. Mealling
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Salz
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: R. Salz
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -117,50 +117,41 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2005-07
+revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This specification defines a Uniform Resource Name namespace for UUIDs
-    (Universally Unique IDentifier), also known as GUIDs (Globally Unique IDentifier).
-    A UUID is 128 bits long, and can guarantee uniqueness across space and time. UUIDs
-    were originally used in the Apollo Network Computing System and later in the Open
-    Software Foundation\\'s (OSF) Distributed Computing Environment (DCE), and then
-    in Microsoft Windows platforms.</p><p>This specification is derived from the DCE
-    specification with the kind permission of the OSF (now known as The Open Group).
-    Information from earlier versions of the DCE specification have been incorporated
-    into this document. [STANDARDS-TRACK]</p>"
+- content: |-
+    <p>This specification defines UUIDs (Universally Unique IDentifiers) --
+    also known as GUIDs (Globally Unique IDentifiers) -- and a Uniform
+    Resource Name namespace for UUIDs. A UUID is 128 bits long and is
+    intended to guarantee uniqueness across space and time. UUIDs were
+    originally used in the Apollo Network Computing System (NCS), later
+    in the Open Software Foundation's (OSF's) Distributed Computing
+    Environment (DCE), and then in Microsoft Windows platforms.</p><p>This specification is derived from the OSF DCE specification with the
+    kind permission of the OSF (now known as "The Open Group"). Information from earlier versions of the OSF DCE specification have
+    been incorporated into this document. This document obsoletes RFC
+    4122.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9562
-    docid:
-    - id: RFC9562
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9562
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '4122'
+  number: '9562'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: uniform resource name
-- content: guid
-- content: globally unique identifier
+- content: uuid
+editorialgroup:
+- name: uuidrev
 ext:
   schema-version: v1.0.1
   stream: IETF
