@@ -1,0 +1,140 @@
+---
+schema-version: v1.2.3
+id: RFC9589
+title:
+- content: On the Use of the Cryptographic Message Syntax (CMS) Signing-Time Attribute
+    in Resource Public Key Infrastructure (RPKI) Signed Objects
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9589
+  type: src
+type: standard
+docid:
+- id: RFC 9589
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9589
+  type: DOI
+docnumber: RFC9589
+date:
+- type: published
+  value: 2024-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snijders
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Snijders
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Harrison
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Harrison
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In the Resource Public Key Infrastructure (RPKI), Signed Objects are
+    defined as Cryptographic Message Syntax (CMS) protected content types. A Signed
+    Object contains a signing-time attribute, representing the purported time at which
+    the object was signed by its issuer. RPKI repositories are accessible using the
+    rsync and RPKI Repository Delta protocols, allowing Relying Parties (RPs) to synchronize
+    a local copy of the RPKI repository used for validation with the remote repositories.
+    This document describes how the CMS signing-time attribute can be used to avoid
+    needless retransfers of data when switching between different synchronization
+    protocols. This document updates RFC 6488 by mandating the presence of the CMS
+    signing-time attribute and disallowing the use of the binary-signing-time attribute.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC6488
+    docid:
+    - id: RFC6488
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6488
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9589'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: CMS
+- content: signing-time
+editorialgroup:
+- name: sidrops
+ext:
+  schema-version: v1.0.1
+  stream: IETF
