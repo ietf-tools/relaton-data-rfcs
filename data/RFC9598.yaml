@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8398
+id: RFC9598
 title:
 - content: Internationalized Email Addresses in X.509 Certificates
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8398
+- content: https://www.rfc-editor.org/info/rfc9598
   type: src
 type: standard
 docid:
-- id: RFC 8398
+- id: RFC 9598
   type: IETF
   primary: true
-- id: 10.17487/RFC8398
+- id: 10.17487/RFC9598
   type: DOI
-docnumber: RFC8398
+docnumber: RFC9598
 date:
 - type: published
-  value: 2018-05
+  value: 2024-05
 contributor:
 - person:
     name:
@@ -48,7 +48,7 @@ contributor:
         script:
         - Latn
   role:
-  - type: editor
+  - type: author
 - person:
     name:
       given:
@@ -77,7 +77,36 @@ contributor:
         script:
         - Latn
   role:
-  - type: editor
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bonnell
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Bonnell
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -88,7 +117,7 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2018-05
+revdate: 2024-05
 language:
 - en
 script:
@@ -97,23 +126,13 @@ abstract:
 - content: "<p>This document defines a new name form for inclusion in the otherName
     field of an X.509 Subject Alternative Name and Issuer Alternative Name extension
     that allows a certificate subject to be associated with an internationalized email
-    address.</p><p>This document updates RFC 5280.</p>"
+    address.</p><p>This document updates RFC 5280 and obsoletes RFC 8398.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9598
-    docid:
-    - id: RFC9598
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9598
-      format: text/plain
 - type: updates
   bibitem:
     id: RFC5280
@@ -128,7 +147,7 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '8398'
+  number: '9598'
 - type: stream
   title:
     content: IETF
@@ -136,7 +155,7 @@ series:
 keyword:
 - content: EAI
 - content: PKIX
-- content: emal address
+- content: email address
 editorialgroup:
 - name: lamps
 ext:
