@@ -1,0 +1,253 @@
+---
+schema-version: v1.2.3
+id: RFC9573
+title:
+- content: MVPN/EVPN Tunnel Aggregation with Common Labels
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9573
+  type: src
+type: standard
+docid:
+- id: RFC 9573
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9573
+  type: DOI
+docnumber: RFC9573
+date:
+- type: published
+  value: 2024-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Zhang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Rosen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: IJ
+        formatted_initials:
+          content: IJ.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: IJ. Wijnands
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Multicast VPN (MVPN) specifications allow a single Point-to-Multipoint
+    (P2MP) tunnel to carry traffic of multiple IP VPNs (referred to as VPNs in this
+    document). The EVPN specifications allow a single P2MP tunnel to carry traffic
+    of multiple Broadcast Domains (BDs). These features require the ingress router
+    of the P2MP tunnel to allocate an upstream-assigned MPLS label for each VPN or
+    for each BD. A packet sent on a P2MP tunnel then carries the label that is mapped
+    to its VPN or BD (in some cases, a distinct upstream-assigned label is needed
+    for each flow.) Since each ingress router allocates labels independently, with
+    no coordination among the ingress routers, the egress routers may need to keep
+    track of a large number of labels. The number of labels may need to be as large
+    as, or larger than, the product of the number of ingress routers times the number
+    of VPNs or BDs. However, the number of labels can be greatly reduced if the association
+    between a label and a VPN or BD is made by provisioning, so that all ingress routers
+    assign the same label to a particular VPN or BD. New procedures are needed in
+    order to take advantage of such provisioned labels. These new procedures also
+    apply to Multipoint-to-Multipoint (MP2MP) tunnels. This document updates RFCs
+    6514, 7432, and 7582 by specifying the necessary procedures.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC6514
+    docid:
+    - id: RFC6514
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6514
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7432
+    docid:
+    - id: RFC7432
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7432
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7582
+    docid:
+    - id: RFC7582
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7582
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9573'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: DCB
+- content: Tunnel Aggregation
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF
