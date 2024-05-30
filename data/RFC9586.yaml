@@ -1,0 +1,219 @@
+---
+schema-version: v1.2.3
+id: RFC9586
+title:
+- content: IMAP Extension for Using and Returning Unique Identifiers (UIDs) Only
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9586
+  type: src
+type: standard
+docid:
+- id: RFC 9586
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9586
+  type: DOI
+docnumber: RFC9586
+date:
+- type: published
+  value: 2024-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Melnikov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: A. P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Achuthan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. P. Achuthan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nagulakonda
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Nagulakonda
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Singh
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Singh
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alves
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Alves
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The UIDONLY extension to the Internet Message Access Protocol (RFCs
+    3501 and 9051) allows clients to enable a mode in which information about mailbox
+    changes is returned using only Unique Identifiers (UIDs). Message numbers are
+    not returned in responses and cannot be used in requests once this extension is
+    enabled. This helps both clients and servers to reduce resource usage required
+    to maintain a map between message numbers and UIDs.</p><p>This document defines
+    an experimental IMAP extension.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9586'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: IMAP
+- content: UIDONLY
+- content: IMAP4rev1
+- content: IMAP4rev2
+editorialgroup:
+- name: extra
+ext:
+  schema-version: v1.0.1
+  stream: IETF
