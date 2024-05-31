@@ -1,0 +1,117 @@
+---
+schema-version: v1.2.3
+id: RFC9579
+title:
+- content: 'Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12
+    Syntax'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9579
+  type: src
+type: standard
+docid:
+- id: RFC 9579
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9579
+  type: DOI
+docnumber: RFC9579
+date:
+- type: published
+  value: 2024-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kario
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Kario
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies additions and amendments to RFCs 7292 and 8018.
+    It defines a way to use the Password-Based Message Authentication Code 1 (PBMAC1),
+    defined in RFC 8018, inside the PKCS #12 syntax. The purpose of this specification
+    is to permit the use of more modern Password-Based Key Derivation Functions (PBKDFs)
+    and allow for regulatory compliance.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7292
+    docid:
+    - id: RFC7292
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7292
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8018
+    docid:
+    - id: RFC8018
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8018
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9579'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: pbmac1
+- content: pkcs12
+- content: pbkdf2
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
