@@ -1,0 +1,128 @@
+---
+schema-version: v1.2.3
+id: RFC9596
+title:
+- content: CBOR Object Signing and Encryption (COSE) "typ" (type) Header Parameter
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9596
+  type: src
+type: standard
+docid:
+- id: RFC 9596
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9596
+  type: DOI
+docnumber: RFC9596
+date:
+- type: published
+  value: 2024-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: M.B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jones
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M.B. Jones
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: O
+        formatted_initials:
+          content: O.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steele
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: O. Steele
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This specification adds the equivalent of the JSON Object Signing and
+    Encryption (JOSE) "typ" (type) header parameter to CBOR Object Signing and Encryption
+    (COSE). This enables the benefits of explicit typing (as defined in RFC 8725,
+    "JSON Web Token Best Current Practices") to be brought to COSE objects. The syntax
+    of the COSE type header parameter value is the same as the existing COSE content
+    type header parameter.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9596'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Explicit Typing
+editorialgroup:
+- name: cose
+ext:
+  schema-version: v1.0.1
+  stream: IETF
