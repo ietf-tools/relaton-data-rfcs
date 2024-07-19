@@ -1,0 +1,190 @@
+---
+schema-version: v1.2.3
+id: RFC9611
+title:
+- content: Internet Key Exchange Protocol Version 2 (IKEv2) Support for Per-Resource
+    Child Security Associations (SAs)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9611
+  type: src
+type: standard
+docid:
+- id: RFC 9611
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9611
+  type: DOI
+docnumber: RFC9611
+date:
+- type: published
+  value: 2024-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Antony
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Antony
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brunner
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Brunner
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Klassert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Klassert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wouters
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Wouters
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In order to increase the bandwidth of IPsec traffic between peers,
+    this document defines one Notify Message Status Types and one Notify Message Error
+    Types payload for the Internet Key Exchange Protocol Version 2 (IKEv2) to support
+    the negotiation of multiple Child Security Associations (SAs) with the same Traffic
+    Selectors used on different resources, such as CPUs.</p><p>The SA_RESOURCE_INFO
+    notification is used to convey information that the negotiated Child SA and subsequent
+    new Child SAs with the same Traffic Selectors are a logical group of Child SAs
+    where most or all of the Child SAs are bound to a specific resource, such as a
+    specific CPU. The TS_MAX_QUEUE notify conveys that the peer is unwilling to create
+    more additional Child SAs for this particular negotiated Traffic Selector combination.</p><p>Using
+    multiple Child SAs with the same Traffic Selectors has the benefit that each resource
+    holding the Child SA has its own Sequence Number Counter, ensuring that CPUs don't
+    have to synchronize their cryptographic state or disable their packet replay protection.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9611'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: IKEv2
+- content: IPsec
+editorialgroup:
+- name: ipsecme
+ext:
+  schema-version: v1.0.1
+  stream: IETF
