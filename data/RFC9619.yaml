@@ -1,0 +1,130 @@
+---
+schema-version: v1.2.3
+id: RFC9619
+title:
+- content: In the DNS, QDCOUNT Is (Usually) One
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9619
+  type: src
+type: standard
+docid:
+- id: RFC 9619
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9619
+  type: DOI
+docnumber: RFC9619
+date:
+- type: published
+  value: 2024-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bellis
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Bellis
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Abley
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Abley
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document updates RFC 1035 by constraining the allowed value of
+    the QDCOUNT parameter in DNS messages with OPCODE = 0 (QUERY) to a maximum of
+    one, and it specifies the required behavior when values that are not allowed are
+    encountered.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC1035
+    docid:
+    - id: RFC1035
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1035
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9619'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: dnsop
+ext:
+  schema-version: v1.0.1
+  stream: IETF
