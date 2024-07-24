@@ -1,0 +1,184 @@
+---
+schema-version: v1.2.3
+id: RFC9612
+title:
+- content: Bidirectional Forwarding Detection (BFD) Reverse Path for MPLS Label Switched
+    Paths (LSPs)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9612
+  type: src
+type: standard
+docid:
+- id: RFC 9612
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9612
+  type: DOI
+docnumber: RFC9612
+date:
+- type: published
+  value: 2024-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mirsky
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mirsky
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tantsura
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Tantsura
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Varlashkin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Varlashkin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Chen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Bidirectional Forwarding Detection (BFD) is expected to be able to
+    monitor a wide variety of encapsulations of paths between systems. When a BFD
+    session monitors an explicitly routed unidirectional path, there may be a need
+    to direct the egress BFD peer to use a specific path for the reverse direction
+    of the BFD session. This document describes an extension to the MPLS Label Switched
+    Path (LSP) echo request that allows a BFD system to request that the remote BFD
+    peer transmit BFD control packets over the specified LSP.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9612'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: LSP Ping
+- content: BFD
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
