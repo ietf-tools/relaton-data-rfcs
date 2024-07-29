@@ -1,0 +1,216 @@
+---
+schema-version: v1.2.3
+id: RFC9603
+title:
+- content: Path Computation Element Communication Protocol (PCEP) Extensions for IPv6
+    Segment Routing
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9603
+  type: src
+type: standard
+docid:
+- id: RFC 9603
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9603
+  type: DOI
+docnumber: RFC9603
+date:
+- type: published
+  value: 2024-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kaladharan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Kaladharan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sivabalan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sivabalan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koldychev
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Koldychev
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhu
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Zhu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Segment Routing (SR) can be used to steer packets through a network
+    using the IPv6 or MPLS data plane, employing the source routing paradigm.</p><p>An
+    SR Path can be derived from a variety of mechanisms, including an IGP Shortest
+    Path Tree (SPT), explicit configuration, or a Path Computation Element (PCE).</p><p>Since
+    SR can be applied to both MPLS and IPv6 data planes, a PCE should be able to compute
+    an SR Path for both MPLS and IPv6 data planes. The Path Computation Element Communication
+    Protocol (PCEP) extension and mechanisms to support SR-MPLS have been defined.
+    This document outlines the necessary extensions to support SR for the IPv6 data
+    plane within PCEP.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9603'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: PCEP
+- content: SRv6
+- content: IPv6
+editorialgroup:
+- name: pce
+ext:
+  schema-version: v1.0.1
+  stream: IETF
