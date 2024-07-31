@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC4880
+id: RFC9595
 title:
-- content: OpenPGP Message Format
+- content: YANG Schema Item iDentifier (YANG SID)
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc4880
+- content: https://www.rfc-editor.org/info/rfc9595
   type: src
 type: standard
 docid:
-- id: RFC 4880
+- id: RFC 9595
   type: IETF
   primary: true
-- id: 10.17487/RFC4880
+- id: 10.17487/RFC9595
   type: DOI
-docnumber: RFC4880
+docnumber: RFC9595
 date:
 - type: published
-  value: 2007-11
+  value: 2024-07
 contributor:
 - person:
     name:
@@ -28,21 +28,108 @@ contributor:
           - en
           script:
           - Latn
-          initial: J
+          initial: M
         formatted_initials:
-          content: J.
+          content: M.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Callas
+        content: Veillette
         language:
         - en
         script:
         - Latn
       completename:
-        content: J. Callas
+        content: M. Veillette
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pelov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Pelov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        formatted_initials:
+          content: I.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Petrov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. Petrov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Bormann
         language:
         - en
         script:
@@ -57,108 +144,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: L
+          initial: M
         formatted_initials:
-          content: L.
+          content: M.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Donnerhacke
+        content: Richardson
         language:
         - en
         script:
         - Latn
       completename:
-        content: L. Donnerhacke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Finney
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: H. Finney
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: D
-        formatted_initials:
-          content: D.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Shaw
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: D. Shaw
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Thayer
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: R. Thayer
+        content: M. Richardson
         language:
         - en
         script:
@@ -175,52 +175,37 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2007-11
+revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document is maintained in order to publish all necessary information
-    needed to develop interoperable applications based on the OpenPGP format. It is
-    not a step-by-step cookbook for writing an application. It describes only the
-    format and methods needed to read, check, generate, and write conforming packets
-    crossing any network. It does not deal with storage and implementation questions.
-    It does, however, discuss implementation issues necessary to avoid security flaws.</p><p>OpenPGP
-    software uses a combination of strong public-key and symmetric cryptography to
-    provide security services for electronic communications and data storage. These
-    services include confidentiality, key management, authentication, and digital
-    signatures. This document specifies the message formats used in OpenPGP. [STANDARDS-TRACK]</p>"
+- content: "<p>YANG Schema Item iDentifiers (YANG SIDs) are globally unique 63-bit
+    unsigned integers used to identify YANG items. SIDs provide a more compact method
+    for identifying those YANG items that can be used efficiently, notably in constrained
+    environments (RFC 7228). This document defines the semantics, registration processes,
+    and assignment processes for YANG SIDs for IETF-managed YANG modules. To enable
+    the implementation of these processes, this document also defines a file format
+    used to persist and publish assigned YANG SIDs.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9580
-    docid:
-    - id: RFC9580
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9580
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '4880'
+  number: '9595'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: public-key cryptography
-- content: symmetric cryptography
+- content: CBOR
 editorialgroup:
-- name: openpgp
+- name: core
 ext:
   schema-version: v1.0.1
   stream: IETF

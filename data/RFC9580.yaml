@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC4880
+id: RFC9580
 title:
-- content: OpenPGP Message Format
+- content: OpenPGP
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc4880
+- content: https://www.rfc-editor.org/info/rfc9580
   type: src
 type: standard
 docid:
-- id: RFC 4880
+- id: RFC 9580
   type: IETF
   primary: true
-- id: 10.17487/RFC4880
+- id: 10.17487/RFC9580
   type: DOI
-docnumber: RFC4880
+docnumber: RFC9580
 date:
 - type: published
-  value: 2007-11
+  value: 2024-07
 contributor:
 - person:
     name:
@@ -28,85 +28,27 @@ contributor:
           - en
           script:
           - Latn
-          initial: J
+          initial: P
         formatted_initials:
-          content: J.
+          content: P.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Callas
+        content: Wouters
         language:
         - en
         script:
         - Latn
       completename:
-        content: J. Callas
+        content: P. Wouters
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Donnerhacke
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: L. Donnerhacke
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Finney
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: H. Finney
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
+  - type: editor
 - person:
     name:
       given:
@@ -123,13 +65,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Shaw
+        content: Huigens
         language:
         - en
         script:
         - Latn
       completename:
-        content: D. Shaw
+        content: D. Huigens
         language:
         - en
         script:
@@ -144,21 +86,50 @@ contributor:
           - en
           script:
           - Latn
-          initial: R
+          initial: J
         formatted_initials:
-          content: R.
+          content: J.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Thayer
+        content: Winter
         language:
         - en
         script:
         - Latn
       completename:
-        content: R. Thayer
+        content: J. Winter
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Niibe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Niibe
         language:
         - en
         script:
@@ -175,50 +146,42 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2007-11
+revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document is maintained in order to publish all necessary information
-    needed to develop interoperable applications based on the OpenPGP format. It is
-    not a step-by-step cookbook for writing an application. It describes only the
-    format and methods needed to read, check, generate, and write conforming packets
-    crossing any network. It does not deal with storage and implementation questions.
-    It does, however, discuss implementation issues necessary to avoid security flaws.</p><p>OpenPGP
-    software uses a combination of strong public-key and symmetric cryptography to
-    provide security services for electronic communications and data storage. These
-    services include confidentiality, key management, authentication, and digital
-    signatures. This document specifies the message formats used in OpenPGP. [STANDARDS-TRACK]</p>"
+- content: <p>This document specifies the message formats used in OpenPGP. OpenPGP
+    provides encryption with public key or symmetric cryptographic algorithms, digital
+    signatures, compression, and key management.</p><p>This document is maintained
+    in order to publish all necessary information needed to develop interoperable
+    applications based on the OpenPGP format. It is not a step-by-step cookbook for
+    writing an application. It describes only the format and methods needed to read,
+    check, generate, and write conforming packets crossing any network. It does not
+    deal with storage and implementation questions. It does, however, discuss implementation
+    issues necessary to avoid security flaws.</p><p>This document obsoletes RFCs 4880
+    ("OpenPGP Message Format"), 5581 ("The Camellia Cipher in OpenPGP"), and 6637
+    ("Elliptic Curve Cryptography (ECC) in OpenPGP").</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9580
-    docid:
-    - id: RFC9580
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9580
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '4880'
+  number: '9580'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: public-key cryptography
-- content: symmetric cryptography
+- content: encryption
+- content: digital signatures
+- content: key management
+- content: pgp
 editorialgroup:
 - name: openpgp
 ext:
