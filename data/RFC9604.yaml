@@ -1,0 +1,212 @@
+---
+schema-version: v1.2.3
+id: RFC9604
+title:
+- content: Carrying Binding Label/SID in PCE-Based Networks
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9604
+  type: src
+type: standard
+docid:
+- id: RFC 9604
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9604
+  type: DOI
+docnumber: RFC9604
+date:
+- type: published
+  value: 2024-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sivabalan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sivabalan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Filsfils
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tantsura
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Tantsura
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Previdi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Previdi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In order to provide greater scalability, network confidentiality, and
+    service independence, Segment Routing (SR) utilizes a Binding Segment Identifier
+    (BSID), as described in RFC 8402. It is possible to associate a BSID to an RSVP-TE-signaled
+    Traffic Engineering (TE) Label Switched Path (LSP) or an SR TE path. The BSID
+    can be used by an upstream node for steering traffic into the appropriate TE path
+    to enforce SR policies. This document specifies the concept of binding value,
+    which can be either an MPLS label or a Segment Identifier (SID). It further specifies
+    an extension to Path Computation Element Communication Protocol (PCEP) for reporting
+    the binding value by a Path Computation Client (PCC) to the Path Computation Element
+    (PCE) to support PCE-based TE policies.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9604'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: pce
+ext:
+  schema-version: v1.0.1
+  stream: IETF
