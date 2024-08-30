@@ -1,0 +1,101 @@
+---
+schema-version: v1.2.3
+id: RFC9618
+title:
+- content: Updates to X.509 Policy Validation
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9618
+  type: src
+type: standard
+docid:
+- id: RFC 9618
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9618
+  type: DOI
+docnumber: RFC9618
+date:
+- type: published
+  value: 2024-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Benjamin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Benjamin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document updates RFC 5280 to replace the algorithm for X.509 policy
+    validation with an equivalent, more efficient algorithm. The original algorithm
+    built a structure that scaled exponentially in the worst case, leaving implementations
+    vulnerable to denial-of-service attacks.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5280
+    docid:
+    - id: RFC5280
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5280
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9618'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
