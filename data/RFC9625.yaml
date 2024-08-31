@@ -1,0 +1,250 @@
+---
+schema-version: v1.2.3
+id: RFC9625
+title:
+- content: EVPN Optimized Inter-Subnet Multicast (OISM) Forwarding
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9625
+  type: src
+type: standard
+docid:
+- id: RFC 9625
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9625
+  type: DOI
+docnumber: RFC9625
+date:
+- type: published
+  value: 2024-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Zhang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Drake
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Rosen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Rabadan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajassi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Sajassi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Ethernet VPN (EVPN) provides a service that allows a single Local Area
+    Network (LAN), comprising a single IP subnet, to be divided into multiple segments.
+    Each segment may be located at a different site, and the segments are interconnected
+    by an IP or MPLS backbone. Intra-subnet traffic (either unicast or multicast)
+    always appears to the end users to be bridged, even when it is actually carried
+    over the IP or MPLS backbone. When a single tenant owns multiple such LANs, EVPN
+    also allows IP unicast traffic to be routed between those LANs. This document
+    specifies new procedures that allow inter-subnet IP multicast traffic to be routed
+    among the LANs of a given tenant while still making intra-subnet IP multicast
+    traffic appear to be bridged. These procedures can provide optimal routing of
+    the inter-subnet multicast traffic and do not require any such traffic to egress
+    a given router and then ingress that same router. These procedures also accommodate
+    IP multicast traffic that originates or is destined to be external to the EVPN
+    domain.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9625'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: OISM
+- content: PEG
+- content: MEG
+- content: SBD
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF
