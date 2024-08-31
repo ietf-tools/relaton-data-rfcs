@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.3
+id: RFC9600
+title:
+- content: 'TRansparent Interconnection of Lots of Links (TRILL): Explicit Congestion
+    Notification (ECN) Support'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9600
+  type: src
+type: standard
+docid:
+- id: RFC 9600
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9600
+  type: DOI
+docnumber: RFC9600
+date:
+- type: published
+  value: 2024-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Briscoe
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Explicit Congestion Notification (ECN) allows a forwarding element
+    to notify downstream devices, including the destination, of the onset of congestion
+    without having to drop packets. This can improve network efficiency through better
+    congestion control without packet drops. This document extends ECN to TRansparent
+    Interconnection of Lots of Links (TRILL) switches, including integration with
+    IP ECN, and provides for ECN marking in the TRILL header extension flags word
+    (RFC 7179).</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9600'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Congestion
+- content: L4S
+- content: RBridge
+editorialgroup:
+- name: trill
+ext:
+  schema-version: v1.0.1
+  stream: IETF

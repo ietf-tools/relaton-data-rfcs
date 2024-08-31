@@ -1,0 +1,152 @@
+---
+schema-version: v1.2.3
+id: RFC9599
+title:
+- content: Guidelines for Adding Congestion Notification to Protocols that Encapsulate
+    IP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9599
+  type: src
+type: standard
+docid:
+- id: RFC 9599
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9599
+  type: DOI
+docnumber: RFC9599
+date:
+- type: published
+  value: 2024-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Briscoe
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kaippallimalil
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Kaippallimalil
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The purpose of this document is to guide the design of congestion notification
+    in any lower-layer or tunnelling protocol that encapsulates IP. The aim is for
+    explicit congestion signals to propagate consistently from lower-layer protocols
+    into IP. Then, the IP internetwork layer can act as a portability layer to carry
+    congestion notification from non-IP-aware congested nodes up to the transport
+    layer (L4). Specifications that follow these guidelines, whether produced by the
+    IETF or other standards bodies, should assure interworking among IP-layer and
+    lower-layer congestion notification mechanisms. This document is included in BCP
+    89 and updates the single paragraph of advice to subnetwork designers about Explicit
+    Congestion Notification (ECN) in Section 13 of RFC 3819 by replacing it with a
+    reference to this document.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC3819
+    docid:
+    - id: RFC3819
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3819
+      format: text/plain
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '89'
+- title:
+    content: RFC
+    format: text/plain
+  number: '9599'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Congestion Control and Management
+- content: Congestion Notification
+- content: Information Security
+- content: Tunnelling
+- content: Encapsulation
+- content: Decapsulation
+- content: Protocol
+- content: ECN
+- content: Layering
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

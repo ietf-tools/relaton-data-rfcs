@@ -1,0 +1,168 @@
+---
+schema-version: v1.2.3
+id: RFC9601
+title:
+- content: Propagating Explicit Congestion Notification across IP Tunnel Headers Separated
+    by a Shim
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9601
+  type: src
+type: standard
+docid:
+- id: RFC 9601
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9601
+  type: DOI
+docnumber: RFC9601
+date:
+- type: published
+  value: 2024-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Briscoe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Briscoe
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>RFC 6040 on "Tunnelling of Explicit Congestion Notification" made the
+    rules for propagation of Explicit Congestion Notification (ECN) consistent for
+    all forms of IP-in-IP tunnel. This specification updates RFC 6040 to clarify that
+    its scope includes tunnels where two IP headers are separated by at least one
+    shim header that is not sufficient on its own for wide-area packet forwarding.
+    It surveys widely deployed IP tunnelling protocols that use such shim headers
+    and updates the specifications of those that do not mention ECN propagation (including
+    RFCs 2661, 3931, 2784, 4380 and 7450, which specify L2TPv2, L2TPv3, Generic Routing
+    Encapsulation (GRE), Teredo, and Automatic Multicast Tunneling (AMT), respectively).
+    This specification also updates RFC 6040 with configuration requirements needed
+    to make any legacy tunnel ingress safe.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2661
+    docid:
+    - id: RFC2661
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2661
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC2784
+    docid:
+    - id: RFC2784
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2784
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC3931
+    docid:
+    - id: RFC3931
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC3931
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4380
+    docid:
+    - id: RFC4380
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4380
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6040
+    docid:
+    - id: RFC6040
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6040
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7450
+    docid:
+    - id: RFC7450
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7450
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9601'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Congestion Control and Management
+- content: Congestion Notification
+- content: Information Security
+- content: Tunnelling
+- content: Encapsulation & Decapsulation
+- content: Protocol
+- content: ECN
+- content: Layering
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
