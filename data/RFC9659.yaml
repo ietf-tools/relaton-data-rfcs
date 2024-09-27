@@ -1,0 +1,143 @@
+---
+schema-version: v1.2.3
+id: RFC9659
+title:
+- content: Window Sizing for Zstandard Content Encoding
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9659
+  type: src
+type: standard
+docid:
+- id: RFC 9659
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9659
+  type: DOI
+docnumber: RFC9659
+date:
+- type: published
+  value: 2024-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: N
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jaju
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Jaju
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: W. F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Handte
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. F. Handte
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Deployments of Zstandard, or "zstd", can use different window sizes
+    to limit memory usage during compression and decompression. Some browsers and
+    user agents limit window sizes to mitigate memory usage concerns, thereby causing
+    interoperability issues. This document updates the window size limit in RFC 8878
+    from a recommendation to a requirement in HTTP contexts.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8878
+    docid:
+    - id: RFC8878
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8878
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9659'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: zstd
+- content: zstandard
+- content: compression
+- content: content encoding
+- content: content coding
+- content: application/zstd
+editorialgroup:
+- name: httpbis
+ext:
+  schema-version: v1.0.1
+  stream: IETF
