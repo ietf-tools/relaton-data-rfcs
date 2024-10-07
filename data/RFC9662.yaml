@@ -1,25 +1,83 @@
 ---
 schema-version: v1.2.3
-id: RFC6012
+id: RFC9662
 title:
-- content: Datagram Transport Layer Security (DTLS) Transport Mapping for Syslog
+- content: Updates to the Cipher Suites in Secure Syslog
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6012
+- content: https://www.rfc-editor.org/info/rfc9662
   type: src
 type: standard
 docid:
-- id: RFC 6012
+- id: RFC 9662
   type: IETF
   primary: true
-- id: 10.17487/RFC6012
+- id: 10.17487/RFC9662
   type: DOI
-docnumber: RFC6012
+docnumber: RFC9662
 date:
 - type: published
-  value: 2010-10
+  value: 2024-10
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lonvick
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Lonvick
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Turner
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Turner
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -49,93 +107,6 @@ contributor:
         - Latn
   role:
   - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: T
-        formatted_initials:
-          content: T.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Petch
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: T. Petch
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Gerhards
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: R. Gerhards
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: H
-        formatted_initials:
-          content: H.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Feng
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: H. Feng
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -146,33 +117,61 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2010-10
+revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the transport of syslog messages over the Datagram
-    Transport Layer Security (DTLS) protocol. It provides a secure transport for syslog
-    messages in cases where a connectionless transport is desired.</p>"
+- content: "<p>RFCs 5425 and 6012 describe using TLS and DTLS to securely transport
+    syslog messages. This document updates the cipher suites required by RFC 5245
+    (TLS Transport Mapping for Syslog) and RFC 6012 (DTLS Transport Mapping for Syslog).
+    It also updates the protocol recommended by RFC 6012 for secure datagram transport.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5425
+    docid:
+    - id: RFC5425
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5425
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6012
+    docid:
+    - id: RFC6012
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6012
+      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6012'
+  number: '9662'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
+- content: syslog
+- content: secure syslog
+- content: TLS_RSA_WITH_AES_128_CBC_SHA
+- content: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+- content: DTLS
 - content: TLS
+- content: cipher suite
 editorialgroup:
-- name: syslog
+- name: uta
 ext:
   schema-version: v1.0.1
   stream: IETF
