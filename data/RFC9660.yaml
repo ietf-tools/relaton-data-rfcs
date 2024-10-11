@@ -1,0 +1,157 @@
+---
+schema-version: v1.2.3
+id: RFC9660
+title:
+- content: The DNS Zone Version (ZONEVERSION) Option
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9660
+  type: src
+type: standard
+docid:
+- id: RFC 9660
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9660
+  type: DOI
+docnumber: RFC9660
+date:
+- type: published
+  value: 2024-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Salgado
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Salgado
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vergara
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Vergara
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wessels
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Wessels
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The DNS ZONEVERSION option is a way for DNS clients to request, and
+    for authoritative DNS servers to provide, information regarding the version of
+    the zone from which a response is generated. The SERIAL field from the Start of
+    Authority (SOA) resource record (RR) is a good example of a zone's version, and
+    it is the only one defined by this specification. Additional version types may
+    be defined by future specifications.</p><p>Including zone version data in a response
+    simplifies and improves the quality of debugging and diagnostics since the version
+    and the DNS answer are provided atomically. This can be especially useful for
+    zones and DNS providers that leverage IP anycast or multiple backend systems.
+    It functions similarly to the DNS Name Server Identifier (NSID) option described
+    in RFC 5001.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9660'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: zoneversion
+editorialgroup:
+- name: dnsop
+ext:
+  schema-version: v1.0.1
+  stream: IETF
