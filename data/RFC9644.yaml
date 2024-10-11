@@ -1,0 +1,94 @@
+---
+schema-version: v1.2.3
+id: RFC9644
+title:
+- content: YANG Groupings for SSH Clients and SSH Servers
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9644
+  type: src
+type: standard
+docid:
+- id: RFC 9644
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9644
+  type: DOI
+docnumber: RFC9644
+date:
+- type: published
+  value: 2024-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Watsen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Watsen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document presents three IETF-defined YANG modules and a script
+    used to create four supporting IANA modules.</p><p>The three IETF modules are
+    ietf-ssh-common, ietf-ssh-client, and ietf-ssh-server. The "ietf-ssh-client" and
+    "ietf-ssh-server" modules are the primary productions of this work, supporting
+    the configuration and monitoring of Secure Shell (SSH) clients and servers.</p><p>The
+    four IANA modules are iana-ssh-encryption-algs, iana-ssh-key-exchange-algs, iana-ssh-mac-algs,
+    and iana-ssh-public-key-algs. These modules each define YANG enumerations providing
+    support for an IANA-maintained algorithm registry.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9644'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: netconf
+ext:
+  schema-version: v1.0.1
+  stream: IETF
