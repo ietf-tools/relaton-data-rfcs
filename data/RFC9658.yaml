@@ -1,0 +1,227 @@
+---
+schema-version: v1.2.3
+id: RFC9658
+title:
+- content: Multipoint LDP Extensions for Multi-Topology Routing
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9658
+  type: src
+type: standard
+docid:
+- id: RFC 9658
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9658
+  type: DOI
+docnumber: RFC9658
+date:
+- type: published
+  value: 2024-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: IJ
+        formatted_initials:
+          content: IJ.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wijnands
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: IJ. Wijnands
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Raza
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Raza
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Zhang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gulko
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Gulko
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Multi-Topology Routing (MTR) is a technology that enables service differentiation
+    within an IP network. The Flexible Algorithm (FA) is another mechanism for creating
+    a sub-topology within a topology using defined topology constraints and computation
+    algorithms. In order to deploy Multipoint LDP (mLDP) in a network that supports
+    MTR, FA, or other methods of signaling non-default IGP Algorithms (IPAs), mLDP
+    is required to become topology and algorithm aware. This document specifies extensions
+    to mLDP to support the use of MTR/IPAs such that, when building multipoint Label
+    Switched Paths (LSPs), the LSPs can follow a particular topology and algorithm.
+    This document updates RFC 7307 by allocating eight bits from a previously reserved
+    field to be used as the "IPA" field.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7307
+    docid:
+    - id: RFC7307
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7307
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9658'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: MPLS
+- content: mLDP
+- content: Multi-topology
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
