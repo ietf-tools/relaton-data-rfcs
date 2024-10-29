@@ -71,8 +71,9 @@ abstract:
     contains the core CAA specification, where Property Tags that restrict the issuance
     of certificates that certify domain names are defined. This specification defines
     a Property Tag that grants authorization to Certification Authorities to issue
-    certificates that contain the key purpose in the extension and at least one value
-    or value of type that includes the domain name in the extension.</p>"
+    certificates that contain the id-kp-emailProtection key purpose in the extendedKeyUsage
+    extension and at least one rfc822Name value or otherName value of type id-on-SmtpUTF8Mailbox
+    that includes the domain name in the subjectAltName extension.</p>"
   language:
   - en
   script:
