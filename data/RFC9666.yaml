@@ -1,0 +1,189 @@
+---
+schema-version: v1.2.3
+id: RFC9666
+title:
+- content: Area Proxy for IS-IS
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9666
+  type: src
+type: standard
+docid:
+- id: RFC 9666
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9666
+  type: DOI
+docnumber: RFC9666
+date:
+- type: published
+  value: 2024-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Chen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ilangovan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Ilangovan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Link-state routing protocols have hierarchical abstraction already
+    built into them. However, when lower levels are used for transit, they must expose
+    their internal topologies to each other, thereby leading to scaling issues.</p><p>To
+    avoid such issues, this document discusses extensions to the IS-IS routing protocol
+    that allow Level 1 (L1) areas to provide transit but only inject an abstraction
+    of the Level 1 topology into Level 2 (L2). Each Level 1 area is represented as
+    a single Level 2 node, thereby enabling a greater scale.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9666'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: datacenter
+- content: IGP
+- content: routing
+- content: topology
+- content: level
+- content: abstraction
+- content: IS-IS
+- content: proxy
+editorialgroup:
+- name: lsr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
