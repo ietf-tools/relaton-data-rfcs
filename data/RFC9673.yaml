@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8536
+id: RFC9673
 title:
-- content: The Time Zone Information Format (TZif)
+- content: IPv6 Hop-by-Hop Options Processing Procedures
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8536
+- content: https://www.rfc-editor.org/info/rfc9673
   type: src
 type: standard
 docid:
-- id: RFC 8536
+- id: RFC 9673
   type: IETF
   primary: true
-- id: 10.17487/RFC8536
+- id: 10.17487/RFC9673
   type: DOI
-docnumber: RFC8536
+docnumber: RFC9673
 date:
 - type: published
-  value: 2019-02
+  value: 2024-10
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: A
+          initial: R
         formatted_initials:
-          content: A.
+          content: R.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Olson
+        content: Hinden
         language:
         - en
         script:
         - Latn
       completename:
-        content: A. Olson
+        content: R. Hinden
         language:
         - en
         script:
@@ -57,50 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: P
+          initial: G
         formatted_initials:
-          content: P.
+          content: G.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Eggert
+        content: Fairhurst
         language:
         - en
         script:
         - Latn
       completename:
-        content: P. Eggert
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: K
-        formatted_initials:
-          content: K.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Murchison
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: K. Murchison
+        content: G. Fairhurst
         language:
         - en
         script:
@@ -117,44 +88,44 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2019-02
+revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies the Time Zone Information Format (TZif) for
-    representing and exchanging time zone information, independent of any particular
-    service or protocol. Two media types for this format are also defined.</p>"
+- content: "<p>This document specifies procedures for processing IPv6 Hop-by-Hop options
+    in IPv6 routers and hosts. It modifies the procedures specified in the IPv6 Protocol
+    Specification (RFC 8200) to make processing of the IPv6 Hop-by-Hop Options header
+    practical with the goal of making IPv6 Hop-by-Hop options useful to deploy and
+    use at IPv6 routers and hosts. This document updates RFC 8200.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9636
+    id: RFC8200
     docid:
-    - id: RFC9636
+    - id: RFC8200
       type: IETF
       primary: true
     formattedref:
-      content: RFC9636
+      content: RFC8200
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8536'
+  number: '9673'
 - type: stream
   title:
     content: IETF
     format: text/plain
-keyword:
-- content: time zone
-- content: tzdata
-- content: tzif
+editorialgroup:
+- name: 6man
 ext:
   schema-version: v1.0.1
   stream: IETF
