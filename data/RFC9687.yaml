@@ -1,0 +1,165 @@
+---
+schema-version: v1.2.3
+id: RFC9687
+title:
+- content: Border Gateway Protocol 4 (BGP-4) Send Hold Timer
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9687
+  type: src
+type: standard
+docid:
+- id: RFC 9687
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9687
+  type: DOI
+docnumber: RFC9687
+date:
+- type: published
+  value: 2024-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snijders
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Snijders
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cartwright-Cox
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Cartwright-Cox
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Qu
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Qu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines the SendHoldTimer, along with the SendHoldTimer_Expires
+    event, for the Border Gateway Protocol (BGP) Finite State Machine (FSM). Implementation
+    of the SendHoldTimer helps overcome situations where a BGP connection is not terminated
+    after the local system detects that the remote system is not processing BGP messages.
+    This document specifies that the local system should close the BGP connection
+    and not solely rely on the remote system for connection closure when the SendHoldTimer
+    expires. This document updates RFC 4271.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4271
+    docid:
+    - id: RFC4271
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4271
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9687'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: BGP
+- content: TCP
+editorialgroup:
+- name: idr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
