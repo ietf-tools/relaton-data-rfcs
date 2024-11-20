@@ -1,0 +1,150 @@
+---
+schema-version: v1.2.3
+id: RFC9685
+title:
+- content: Listener Subscription for IPv6 Neighbor Discovery Multicast and Anycast
+    Addresses
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9685
+  type: src
+type: standard
+docid:
+- id: RFC 9685
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9685
+  type: DOI
+docnumber: RFC9685
+date:
+- type: published
+  value: 2024-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Thubert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document updates the 6LoWPAN extensions to IPv6 Neighbor Discovery
+    (specified in RFCs 4861 and 8505) to enable a listener to subscribe to an IPv6
+    anycast or multicast address. This document also updates the Routing Protocol
+    for Low-Power and Lossy Networks (RPL) (specified in RFCs 6550 and 6553) to add
+    a new Non-Storing multicast mode and new support for anycast addresses in Storing
+    and Non-Storing modes. This document extends RFC 9010 to enable a 6LoWPAN Router
+    (6LR) to inject the anycast and multicast addresses in RPL.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4861
+    docid:
+    - id: RFC4861
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4861
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6550
+    docid:
+    - id: RFC6550
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6550
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6553
+    docid:
+    - id: RFC6553
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6553
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8505
+    docid:
+    - id: RFC8505
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8505
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9010
+    docid:
+    - id: RFC9010
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9010
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9685'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: 6lo
+- content: 6LoWPAN
+- content: RPL
+- content: Wi-SUN
+editorialgroup:
+- name: 6lo
+ext:
+  schema-version: v1.0.1
+  stream: IETF
