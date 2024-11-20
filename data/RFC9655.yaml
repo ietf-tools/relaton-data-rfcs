@@ -1,0 +1,221 @@
+---
+schema-version: v1.2.3
+id: RFC9655
+title:
+- content: Egress Validation in Label Switched Path Ping and Traceroute Mechanisms
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9655
+  type: src
+type: standard
+docid:
+- id: RFC 9655
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9655
+  type: DOI
+docnumber: RFC9655
+date:
+- type: published
+  value: 2024-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rathi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Rathi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hegde
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Hegde
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arora
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Arora
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ali
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Ali
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nainar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Nainar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The MPLS ping and traceroute mechanisms described in RFC 8029 and the
+    related extensions for Segment Routing (SR) defined in RFC 8287 are highly valuable
+    for validating control plane and data plane synchronization. In certain environments,
+    only some intermediate or transit nodes may have been upgraded to support these
+    validation procedures. A straightforward MPLS ping and traceroute mechanism allows
+    traversal of any path without validation of the control plane state. RFC 8029
+    supports this mechanism with the Nil Forwarding Equivalence Class (FEC). The procedures
+    outlined in RFC 8029 are primarily applicable when the Nil FEC is used as an intermediate
+    FEC in the FEC stack. However, challenges arise when all labels in the label stack
+    are represented using the Nil FEC.</p><p>This document introduces a new Type-Length-Value
+    (TLV) as an extension to the existing Nil FEC. It describes MPLS ping and traceroute
+    procedures using the Nil FEC with this extension to address and overcome these
+    challenges.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9655'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: FEC
+- content: OAM
+- content: OSPF
+- content: IS-IS
+- content: SPRING
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
