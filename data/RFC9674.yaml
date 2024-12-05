@@ -1,0 +1,106 @@
+---
+schema-version: v1.2.3
+id: RFC9674
+title:
+- content: Same-Origin Policy for the RPKI Repository Delta Protocol (RRDP)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9674
+  type: src
+type: standard
+docid:
+- id: RFC 9674
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9674
+  type: DOI
+docnumber: RFC9674
+date:
+- type: published
+  value: 2024-12
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Snijders
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Snijders
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-12
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes a Same-Origin Policy (SOP) requirement for
+    Resource Public Key Infrastructure (RPKI) Repository Delta Protocol (RRDP) servers
+    and clients. Application of a SOP in RRDP client/server communication isolates
+    resources such as Delta and Snapshot files from different Repository Servers,
+    reducing possible attack vectors. This document updates RFC 8182.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8182
+    docid:
+    - id: RFC8182
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8182
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9674'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: same-origin
+- content: RPKI
+- content: RRDP
+editorialgroup:
+- name: sidrops
+ext:
+  schema-version: v1.0.1
+  stream: IETF
