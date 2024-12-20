@@ -1,0 +1,150 @@
+---
+schema-version: v1.2.3
+id: RFC9679
+title:
+- content: CBOR Object Signing and Encryption (COSE) Key Thumbprint
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9679
+  type: src
+type: standard
+docid:
+- id: RFC 9679
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9679
+  type: DOI
+docnumber: RFC9679
+date:
+- type: published
+  value: 2024-12
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Isobe
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Isobe
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Tschofenig
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: O
+        formatted_initials:
+          content: O.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Steele
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: O. Steele
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-12
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This specification defines a method for computing a hash value over
+    a CBOR Object Signing and Encryption (COSE) Key. It specifies which fields within
+    the COSE Key structure are included in the cryptographic hash computation, the
+    process for creating a canonical representation of these fields, and how to hash
+    the resulting byte sequence. The resulting hash value, referred to as a "thumbprint",
+    can be used to identify or select the corresponding key.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9679'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: cose
+ext:
+  schema-version: v1.0.1
+  stream: IETF
