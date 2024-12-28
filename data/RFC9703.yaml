@@ -1,0 +1,221 @@
+---
+schema-version: v1.2.3
+id: RFC9703
+title:
+- content: Label Switched Path (LSP) Ping/Traceroute for Segment Routing (SR) Egress
+    Peer Engineering (EPE) Segment Identifiers (SIDs) with MPLS Data Plane
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9703
+  type: src
+type: standard
+docid:
+- id: RFC 9703
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9703
+  type: DOI
+docnumber: RFC9703
+date:
+- type: published
+  value: 2024-12
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hegde
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Hegde
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Srivastava
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Srivastava
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arora
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Arora
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ninan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Ninan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: X
+        formatted_initials:
+          content: X.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xu
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: X. Xu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2024-12
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Egress Peer Engineering (EPE) is an application of Segment Routing
+    (SR) that solves the problem of egress peer selection. The SR-based BGP-EPE solution
+    allows a centralized controller, e.g., a Software-Defined Network (SDN) controller,
+    to program any egress peer. The EPE solution requires the node or the SDN controller
+    to program 1) the PeerNode Segment Identifier (SID) describing a session between
+    two nodes, 2) the PeerAdj SID describing the link or links that are used by the
+    sessions between peer nodes, and 3) the PeerSet SID describing any connected interface
+    to any peer in the related group. This document provides new sub-TLVs for EPE-SIDs
+    that are used in the Target FEC Stack TLV (Type 1) in MPLS Ping and Traceroute
+    procedures.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9703'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: OAM
+- content: EPE
+- content: BGP-LS
+- content: BGP
+- content: SPRING
+- content: SDN
+- content: SID
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
