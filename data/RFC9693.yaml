@@ -1,0 +1,136 @@
+---
+schema-version: v1.2.3
+id: RFC9693
+title:
+- content: Benchmarking Methodology for Stateful NATxy Gateways
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9693
+  type: src
+type: standard
+docid:
+- id: RFC 9693
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9693
+  type: DOI
+docnumber: RFC9693
+date:
+- type: published
+  value: 2025-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lencse
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Lencse
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Shima
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Shima
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>RFC 2544 defines a benchmarking methodology for network interconnect
+    devices. RFC 5180 addresses IPv6 specificities, and it also provides a technology
+    update but excludes IPv6 transition technologies. RFC 8219 addresses IPv6 transition
+    technologies, including stateful NAT64. However, none of them discuss how to apply
+    pseudorandom port numbers from RFC 4814 to any stateful NATxy (such as NAT44,
+    NAT64, and NAT66) technologies. This document discusses why using pseudorandom
+    port numbers with stateful NATxy gateways is a difficult problem. It recommends
+    a solution that limits the port number ranges and uses two test phases (phase
+    1 and phase 2). This document shows how the classic performance measurement procedures
+    (e.g., throughput, frame loss rate, latency, etc.) can be carried out. New performance
+    metrics and measurement procedures are also defined for measuring the maximum
+    connection establishment rate, connection tear-down rate, and connection tracking
+    table capacity.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9693'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Benchmarking
+- content: Stateful NATxy
+- content: Measurement Procedure
+- content: Throughput
+- content: Frame Loss Rate
+- content: Latency
+- content: PDV
+editorialgroup:
+- name: bmwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF

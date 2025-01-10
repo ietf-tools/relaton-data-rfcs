@@ -1,25 +1,25 @@
 ---
 schema-version: v1.2.3
-id: RFC8708
+id: RFC9709
 title:
-- content: Use of the HSS/LMS Hash-Based Signature Algorithm in the Cryptographic
-    Message Syntax (CMS)
+- content: Encryption Key Derivation in the Cryptographic Message Syntax (CMS) Using
+    HKDF with SHA-256
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8708
+- content: https://www.rfc-editor.org/info/rfc9709
   type: src
 type: standard
 docid:
-- id: RFC 8708
+- id: RFC 9709
   type: IETF
   primary: true
-- id: 10.17487/RFC8708
+- id: 10.17487/RFC9709
   type: DOI
-docnumber: RFC8708
+docnumber: RFC9709
 date:
 - type: published
-  value: 2020-02
+  value: 2025-01
 contributor:
 - person:
     name:
@@ -60,45 +60,35 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2020-02
+revdate: 2025-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document specifies the conventions for using the Hierarchical
-    Signature System (HSS) / Leighton-Micali Signature (LMS) hash-based signature
-    algorithm with the Cryptographic Message Syntax (CMS). In addition, the algorithm
-    identifier and public key syntax are provided. The HSS/LMS algorithm is one form
-    of hash-based digital signature; it is described in RFC 8554.</p>"
+- content: "<p>This document specifies the derivation of the content-encryption key
+    or the content-authenticated-encryption key in the Cryptographic Message Syntax
+    (CMS) using the HMAC-based Extract-and-Expand Key Derivation Function (HKDF) with
+    SHA-256. The use of this mechanism provides protection against an attacker that
+    manipulates the content-encryption algorithm identifier or the content-authenticated-encryption
+    algorithm identifier.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9708
-    docid:
-    - id: RFC9708
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9708
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8708'
+  number: '9709'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: digital signature
-- content: message content
+- content: content-encryption key
+- content: content-authenticated-encryption key
 editorialgroup:
 - name: lamps
 ext:
