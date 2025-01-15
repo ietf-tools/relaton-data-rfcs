@@ -65,8 +65,13 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>Theoretical and practical motivation for redesign. Multipacket messages;
-    host retransmission; duplicate detection; sequencing; acknowledgement.</p>"
+- content: "<p>This paper presents some theoretical and practical motivations for
+    the redesign of the ARPANET communication protocols. Issues concerning multipacket
+    messages, Host retransmission, duplicate detection, sequencing, and acknowledgment
+    are discussed. Simplifications to the IMP/IMP protocol are proposed on the assumption
+    that new Host level protocols are adopted. Familiarity with the current protocol
+    designs is probably necessary since many of the arguments refer to details in
+    the present protocol design.</p>"
   language:
   - en
   script:
@@ -81,6 +86,13 @@ series:
   title:
     content: Legacy
     format: text/plain
+keyword:
+- content: Theoretical and practical motivation for redesign
+- content: multipacket messages
+- content: host retransmission
+- content: duplicate detection
+- content: sequencing
+- content: acknowledgement
 ext:
   schema-version: v1.0.1
   stream: Legacy

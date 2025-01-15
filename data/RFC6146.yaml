@@ -123,6 +123,17 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This document describes stateful NAT64 translation, which allows IPv6-only
+    clients to contact IPv4 servers using unicast UDP, TCP, or ICMP. One or more public
+    IPv4 addresses assigned to a NAT64 translator are shared among several IPv6-only
+    clients. When stateful NAT64 is used in conjunction with DNS64, no changes are
+    usually required in the IPv6 client or the IPv4 server.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

@@ -122,6 +122,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This memo defines a DHCPv4 Virtual Subnet Selection (VSS) option, a
+    DHCPv6 VSS option, and the DHCPv4 VSS and VSS-Control sub-options carried in the
+    DHCPv4 Relay Agent Information option. These are intended for use by DHCP clients,
+    relay agents, and proxy clients in situations where VSS information needs to be
+    passed to the DHCP server for proper address or prefix allocation to take place.</p><p>For
+    the DHCPv4 option and Relay Agent Information sub-options, this memo documents
+    and extends existing usage as per RFC 3942. This memo updates RFC 3046 regarding
+    details relating to the copying of sub- options (see Section 8).</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 relation:
 - type: updates
   bibitem:
