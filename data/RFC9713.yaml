@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC7990
+id: RFC9713
 title:
-- content: RFC Format Framework
+- content: Bundle Protocol Version 7 Administrative Record Types Registry
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc7990
+- content: https://www.rfc-editor.org/info/rfc9713
   type: src
 type: standard
 docid:
-- id: RFC 7990
+- id: RFC 9713
   type: IETF
   primary: true
-- id: 10.17487/RFC7990
+- id: 10.17487/RFC9713
   type: DOI
-docnumber: RFC7990
+docnumber: RFC9713
 date:
 - type: published
-  value: 2016-12
+  value: 2025-01
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: H
+          initial: B
         formatted_initials:
-          content: H.
+          content: B.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Flanagan
+        content: Sipos
         language:
         - en
         script:
         - Latn
       completename:
-        content: H. Flanagan
+        content: B. Sipos
         language:
         - en
         script:
@@ -59,49 +59,45 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2016-12
+revdate: 2025-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>In order to improve the readability of RFCs while supporting their
-    archivability, the canonical format of the RFC Series will be transitioning from
-    plain-text ASCII to XML using the xml2rfc version 3 vocabulary; different publication
-    formats will be rendered from that base document. With these changes comes an
-    increase in complexity for authors, consumers, and the publisher of RFCs. This
-    document serves as the framework that provides the problem statement, lays out
-    a road map of the documents that capture the specific requirements, and describes
-    the transition plan.</p>"
+- content: <p>This document updates RFC 9171 to clarify that Bundle Protocol Version
+    7 agents are expected to use the IANA "Bundle Administrative Record Types" registry
+    to identify and document administrative record types. This document also designates
+    code points for Private and Experimental Use.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9720
+    id: RFC9171
     docid:
-    - id: RFC9720
+    - id: RFC9171
       type: IETF
       primary: true
     formattedref:
-      content: RFC9720
+      content: RFC9171
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '7990'
+  number: '9713'
 - type: stream
   title:
-    content: IAB
+    content: IETF
     format: text/plain
 keyword:
-- content: Format
-- content: xml2rfcv3
-- content: v3
+- content: DTN
+editorialgroup:
+- name: dtn
 ext:
   schema-version: v1.0.1
-  stream: IAB
+  stream: IETF
