@@ -1,0 +1,310 @@
+---
+schema-version: v1.2.3
+id: RFC9622
+title:
+- content: An Abstract Application Programming Interface (API) for Transport Services
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9622
+  type: src
+type: standard
+docid:
+- id: RFC 9622
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9622
+  type: DOI
+docnumber: RFC9622
+date:
+- type: published
+  value: 2025-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Trammell
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Trammell
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Welzl
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Welzl
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Enghardt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Enghardt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fairhurst
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Fairhurst
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kühlewind
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Kühlewind
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: C. S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Perkins
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. S. Perkins
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: P.S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tiesel
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P.S. Tiesel
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pauly
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Pauly
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes an abstract Application Programming Interface
+    (API) to the transport layer that enables the selection of transport protocols
+    and network paths dynamically at runtime. This API enables faster deployment of
+    new protocols and protocol features without requiring changes to the applications.
+    The specified API follows the Transport Services Architecture by providing asynchronous,
+    atomic transmission of Messages. It is intended to replace the BSD Socket API
+    as the common interface to the transport layer, in an environment where endpoints
+    could select from multiple network paths and potential transport protocols.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9622'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Happy Eyeballs
+- content: Transport Selection
+editorialgroup:
+- name: taps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
