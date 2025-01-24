@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC7958
+id: RFC9718
 title:
 - content: DNSSEC Trust Anchor Publication for the Root Zone
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc7958
+- content: https://www.rfc-editor.org/info/rfc9718
   type: src
 type: standard
 docid:
-- id: RFC 7958
+- id: RFC 9718
   type: IETF
   primary: true
-- id: 10.17487/RFC7958
+- id: 10.17487/RFC9718
   type: DOI
-docnumber: RFC7958
+docnumber: RFC9718
 date:
 - type: published
-  value: 2016-08
+  value: 2025-01
 contributor:
 - person:
     name:
@@ -146,47 +146,36 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2016-08
+revdate: 2025-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>The root zone of the Domain Name System (DNS) has been cryptographically
+- content: "<p>The root zone of the global Domain Name System (DNS) is cryptographically
     signed using DNS Security Extensions (DNSSEC).</p><p>In order to obtain secure
     answers from the root zone of the DNS using DNSSEC, a client must configure a
     suitable trust anchor. This document describes the format and publication mechanisms
-    IANA has used to distribute the DNSSEC trust anchors.</p>"
+    IANA uses to distribute the DNSSEC trust anchors.</p><p>This document obsoletes
+    RFC 7958.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9718
-    docid:
-    - id: RFC9718
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9718
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '7958'
+  number: '9718'
 - type: stream
   title:
-    content: INDEPENDENT
+    content: IETF
     format: text/plain
 keyword:
-- content: DNS
-- content: ICANN
-- content: IANA
 - content: KSK
+editorialgroup:
+- name: dnsop
 ext:
   schema-version: v1.0.1
-  stream: INDEPENDENT
+  stream: IETF
