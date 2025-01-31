@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC6750
+id: RFC9701
 title:
-- content: 'The OAuth 2.0 Authorization Framework: Bearer Token Usage'
+- content: JSON Web Token (JWT) Response for OAuth Token Introspection
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6750
+- content: https://www.rfc-editor.org/info/rfc9701
   type: src
 type: standard
 docid:
-- id: RFC 6750
+- id: RFC 9701
   type: IETF
   primary: true
-- id: 10.17487/RFC6750
+- id: 10.17487/RFC9701
   type: DOI
-docnumber: RFC6750
+docnumber: RFC9701
 date:
 - type: published
-  value: 2012-10
+  value: 2025-01
 contributor:
 - person:
     name:
@@ -28,27 +28,27 @@ contributor:
           - en
           script:
           - Latn
-          initial: M
+          initial: T
         formatted_initials:
-          content: M.
+          content: T.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Jones
+        content: Lodderstedt
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Jones
+        content: T. Lodderstedt
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - person:
     name:
       given:
@@ -57,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: D
+          initial: V
         formatted_initials:
-          content: D.
+          content: V.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Hardt
+        content: Dzhuvinov
         language:
         - en
         script:
         - Latn
       completename:
-        content: D. Hardt
+        content: V. Dzhuvinov
         language:
         - en
         script:
@@ -88,17 +88,14 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2012-10
+revdate: 2025-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: <p>This specification describes how to use bearer tokens in HTTP requests
-    to access OAuth 2.0 protected resources. Any party in possession of a bearer token
-    (a "bearer") can use it to get access to the associated resources (without demonstrating
-    possession of a cryptographic key). To prevent misuse, bearer tokens need to be
-    protected from disclosure in storage and in transport. [STANDARDS-TRACK]</p>
+- content: "<p>This specification proposes an additional response secured by JSON
+    Web Token (JWT) for OAuth 2.0 Token Introspection.</p>"
   language:
   - en
   script:
@@ -108,26 +105,15 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '6750'
+  number: '9701'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: Client
-- content: Resource Owner
-- content: Authorization Server
-- content: Resource Server, Token Endpoint
-- content: Authorization Endpoint
-- content: Authorization Request, Authorization Grant
-- content: Protected Resource
-- content: Access Token
-- content: Refresh Token
-- content: Authorization Code
-- content: Implicit Grant
-- content: Client Identifier, Access Token Scope
-- content: Bearer Authorization Header
-- content: Bearer Access Token Type
+- content: token introspection
+- content: JWT
+- content: oauth2
 editorialgroup:
 - name: oauth
 ext:

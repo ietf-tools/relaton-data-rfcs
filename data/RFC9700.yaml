@@ -1,0 +1,218 @@
+---
+schema-version: v1.2.3
+id: RFC9700
+title:
+- content: Best Current Practice for OAuth 2.0 Security
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9700
+  type: src
+type: standard
+docid:
+- id: RFC 9700
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9700
+  type: DOI
+docnumber: RFC9700
+date:
+- type: published
+  value: 2025-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lodderstedt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Lodderstedt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bradley
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Bradley
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Labunets
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Labunets
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fett
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Fett
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes best current security practice for OAuth 2.0.
+    It updates and extends the threat model and security advice given in RFCs 6749,
+    6750, and 6819 to incorporate practical experiences gathered since OAuth 2.0 was
+    published and covers new threats relevant due to the broader application of OAuth
+    2.0. Further, it deprecates some modes of operation that are deemed less secure
+    or even insecure.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC6749
+    docid:
+    - id: RFC6749
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6749
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6750
+    docid:
+    - id: RFC6750
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6750
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6819
+    docid:
+    - id: RFC6819
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6819
+      format: text/plain
+series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '240'
+- title:
+    content: RFC
+    format: text/plain
+  number: '9700'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: threat model
+- content: attacks
+- content: mitigations
+editorialgroup:
+- name: oauth
+ext:
+  schema-version: v1.0.1
+  stream: IETF
