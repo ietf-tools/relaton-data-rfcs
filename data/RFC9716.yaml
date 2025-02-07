@@ -1,0 +1,220 @@
+---
+schema-version: v1.2.3
+id: RFC9716
+title:
+- content: Mechanisms for MPLS Ping and Traceroute Procedures in Inter-Domain Segment
+    Routing Networks
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9716
+  type: src
+type: standard
+docid:
+- id: RFC 9716
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9716
+  type: DOI
+docnumber: RFC9716
+date:
+- type: published
+  value: 2025-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hegde
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Hegde
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arora
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Arora
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Srivastava
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Srivastava
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ninan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Ninan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kumar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Kumar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Segment Routing (SR) architecture leverages source routing and
+    can be directly applied to the use of an MPLS data plane. A Segment Routing over
+    MPLS (SR-MPLS) network may consist of multiple IGP domains or multiple Autonomous
+    Systems (ASes) under the control of the same organization. It is useful to have
+    the Label Switched Path (LSP) ping and traceroute procedures when an SR end-to-end
+    path traverses multiple ASes or IGP domains. This document outlines mechanisms
+    to enable efficient LSP ping and traceroute procedures in inter-AS and inter-domain
+    SR-MPLS networks. This is achieved through a straightforward extension to the
+    Operations, Administration, and Maintenance (OAM) protocol, relying solely on
+    data plane forwarding for handling echo replies on transit nodes.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9716'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: OAM
+- content: EPE
+- content: BGP-LS
+- content: BGP
+- content: SPRING
+- content: SDN
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
