@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8109
+id: RFC9609
 title:
 - content: Initializing a DNS Resolver with Priming Queries
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8109
+- content: https://www.rfc-editor.org/info/rfc9609
   type: src
 type: standard
 docid:
-- id: RFC 8109
+- id: RFC 9609
   type: IETF
   primary: true
-- id: 10.17487/RFC8109
+- id: 10.17487/RFC9609
   type: DOI
-docnumber: RFC8109
+docnumber: RFC9609
 date:
 - type: published
-  value: 2017-03
+  value: 2025-02
 contributor:
 - person:
     name:
@@ -117,7 +117,7 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2017-03
+revdate: 2025-02
 language:
 - en
 script:
@@ -125,33 +125,29 @@ script:
 abstract:
 - content: "<p>This document describes the queries that a DNS resolver should emit
     to initialize its cache. The result is that the resolver gets both a current NS
-    Resource Record Set (RRset) for the root zone and the necessary address information
-    for reaching the root servers.</p>"
+    resource record set (RRset) for the root zone and the necessary address information
+    for reaching the root servers.</p><p>This document obsoletes RFC 8109.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9609
-    docid:
-    - id: RFC9609
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9609
-      format: text/plain
 series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '209'
 - title:
     content: RFC
     format: text/plain
-  number: '8109'
+  number: '9609'
 - type: stream
   title:
     content: IETF
     format: text/plain
+keyword:
+- content: DNS caching
+- content: root zone
 editorialgroup:
 - name: dnsop
 ext:
