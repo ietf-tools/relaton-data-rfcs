@@ -1,0 +1,158 @@
+---
+schema-version: v1.2.3
+id: RFC9729
+title:
+- content: The Concealed HTTP Authentication Scheme
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9729
+  type: src
+type: standard
+docid:
+- id: RFC 9729
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9729
+  type: DOI
+docnumber: RFC9729
+date:
+- type: published
+  value: 2025-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schinazi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Schinazi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Oliver
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Oliver
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hoyland
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Hoyland
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Most HTTP authentication schemes are probeable in the sense that it
+    is possible for an unauthenticated client to probe whether an origin serves resources
+    that require authentication. It is possible for an origin to hide the fact that
+    it requires authentication by not generating Unauthorized status codes; however,
+    that only works with non-cryptographic authentication schemes: cryptographic signatures
+    require a fresh nonce to be signed. Prior to this document, there was no existing
+    way for the origin to share such a nonce without exposing the fact that it serves
+    resources that require authentication. This document defines a new non-probeable
+    cryptographic authentication scheme.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9729'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: secure
+- content: tunnels
+- content: masque
+- content: http-ng
+editorialgroup:
+- name: httpbis
+ext:
+  schema-version: v1.0.1
+  stream: IETF
