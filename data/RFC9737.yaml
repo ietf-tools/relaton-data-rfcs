@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.3
+id: RFC9737
+title:
+- content: Reporting Errors in NFSv4.2 via LAYOUTRETURN
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9737
+  type: src
+type: standard
+docid:
+- id: RFC 9737
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9737
+  type: DOI
+docnumber: RFC9737
+date:
+- type: published
+  value: 2025-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haynes
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Haynes
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Myklebust
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Myklebust
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Parallel Network File System (pNFS) allows for a file's metadata
+    and data to be on different servers (i.e., the metadata server (MDS) and the data
+    server (DS)). When the MDS is restarted, the client can still modify the data
+    file component. During the recovery phase of startup, the MDS and the DSs work
+    together to recover state. If the client has not encountered errors with the data
+    files, then the state can be recovered and the resilvering of the data files can
+    be avoided. With any errors, there is no means by which the client can report
+    errors to the MDS. As such, the MDS has to assume that a file needs resilvering.
+    This document presents an extension to RFC 8435 to allow the client to update
+    the metadata via LAYOUTRETURN and avoid the resilvering.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9737'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: NFSv4
+editorialgroup:
+- name: nfsv4
+ext:
+  schema-version: v1.0.1
+  stream: IETF
