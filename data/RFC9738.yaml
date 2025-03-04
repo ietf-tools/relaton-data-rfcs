@@ -1,0 +1,185 @@
+---
+schema-version: v1.2.3
+id: RFC9738
+title:
+- content: IMAP MESSAGELIMIT Extension
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9738
+  type: src
+type: standard
+docid:
+- id: RFC 9738
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9738
+  type: DOI
+docnumber: RFC9738
+date:
+- type: published
+  value: 2025-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Melnikov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: A. P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Achuthan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. P. Achuthan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nagulakonda
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Nagulakonda
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Alves
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Alves
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The MESSAGELIMIT extension of the Internet Message Access Protocol
+    (RFCs 3501 and 9051) allows servers to announce a limit on the number of messages
+    that can be processed in a single FETCH, SEARCH, STORE, COPY, or MOVE command
+    (or their UID variants), or in a single APPEND or UID EXPUNGE command. This helps
+    servers to control resource usage when performing various IMAP operations. This
+    helps clients to know the message limit enforced by the corresponding IMAP server
+    and avoid issuing commands that would exceed such limit.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9738'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: extra
+ext:
+  schema-version: v1.0.1
+  stream: IETF

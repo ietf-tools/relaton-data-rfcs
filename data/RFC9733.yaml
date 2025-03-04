@@ -1,0 +1,165 @@
+---
+schema-version: v1.2.3
+id: RFC9733
+title:
+- content: BRSKI with Alternative Enrollment (BRSKI-AE)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9733
+  type: src
+type: standard
+docid:
+- id: RFC 9733
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9733
+  type: DOI
+docnumber: RFC9733
+date:
+- type: published
+  value: 2025-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: von Oheimb
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. von Oheimb
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fries
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Fries
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brockhaus
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Brockhaus
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines enhancements to the Bootstrapping Remote Secure
+    Key Infrastructure (BRSKI) protocol, known as BRSKI with Alternative Enrollment
+    (BRSKI-AE). BRSKI-AE extends BRSKI to support certificate enrollment mechanisms
+    instead of the originally specified use of Enrollment over Secure Transport (EST).
+    It supports certificate enrollment protocols such as the Certificate Management
+    Protocol (CMP) that use authenticated self-contained signed objects for certification
+    messages, allowing for flexibility in network device onboarding scenarios. The
+    enhancements address use cases where the existing enrollment mechanism may not
+    be feasible or optimal, providing a framework for integrating suitable alternative
+    enrollment protocols. This document also updates the BRSKI reference architecture
+    to accommodate these alternative methods, ensuring secure and scalable deployment
+    across a range of network environments.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9733'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: BRSKI
+- content: IoT
+- content: zero-touch onboarding
+- content: alternative enrollment protocols
+- content: CMP
+- content: self-contained signed objects
+- content: end-to-end proof of origin
+- content: auditable source authentication
+editorialgroup:
+- name: anima
+ext:
+  schema-version: v1.0.1
+  stream: IETF
