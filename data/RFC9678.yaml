@@ -1,0 +1,182 @@
+---
+schema-version: v1.2.3
+id: RFC9678
+title:
+- content: Forward Secrecy Extension to the Improved Extensible Authentication Protocol
+    Method for Authentication and Key Agreement (EAP-AKA' FS)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9678
+  type: src
+type: standard
+docid:
+- id: RFC 9678
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9678
+  type: DOI
+docnumber: RFC9678
+date:
+- type: published
+  value: 2025-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Arkko
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Arkko
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Norrman
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Norrman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Preuß Mattsson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Preuß Mattsson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document updates RFC 9048, "Improved Extensible Authentication
+    Protocol Method for 3GPP Mobile Network Authentication and Key Agreement (EAP-AKA')",
+    and its predecessor RFC 5448 with an optional extension providing ephemeral key
+    exchange. The extension EAP-AKA' Forward Secrecy (EAP-AKA' FS), when negotiated,
+    provides forward secrecy for the session keys generated as a part of the authentication
+    run in EAP-AKA'. This prevents an attacker who has gained access to the long-term
+    key from obtaining session keys established in the past. In addition, EAP-AKA'
+    FS mitigates passive attacks (e.g., large-scale pervasive monitoring) against
+    future sessions. This forces attackers to use active attacks instead.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5448
+    docid:
+    - id: RFC5448
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5448
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9048
+    docid:
+    - id: RFC9048
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9048
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9678'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: EAP
+- content: AKA
+- content: AKA'
+- content: EAP-AKA'
+- content: EAP-AKA' FS
+- content: 3GPP
+editorialgroup:
+- name: emu
+ext:
+  schema-version: v1.0.1
+  stream: IETF
