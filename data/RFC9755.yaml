@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC6855
+id: RFC9755
 title:
 - content: IMAP Support for UTF-8
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6855
+- content: https://www.rfc-editor.org/info/rfc9755
   type: src
 type: standard
 docid:
-- id: RFC 6855
+- id: RFC 9755
   type: IETF
   primary: true
-- id: 10.17487/RFC6855
+- id: 10.17487/RFC9755
   type: DOI
-docnumber: RFC6855
+docnumber: RFC9755
 date:
 - type: published
-  value: 2013-03
+  value: 2025-03
 contributor:
 - person:
     name:
@@ -48,7 +48,7 @@ contributor:
         script:
         - Latn
   role:
-  - type: editor
+  - type: author
 - person:
     name:
       given:
@@ -57,27 +57,27 @@ contributor:
           - en
           script:
           - Latn
-          initial: C
+          initial: J
         formatted_initials:
-          content: C.
+          content: J.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Newman
+        content: Yao
         language:
         - en
         script:
         - Latn
       completename:
-        content: C. Newman
+        content: J. Yao
         language:
         - en
         script:
         - Latn
   role:
-  - type: editor
+  - type: author
 - person:
     name:
       given:
@@ -86,27 +86,27 @@ contributor:
           - en
           script:
           - Latn
-          initial: S
+          initial: A
         formatted_initials:
-          content: S.
+          content: A.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Shen
+        content: Gulbrandsen
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Shen
+        content: A. Gulbrandsen
         language:
         - en
         script:
         - Latn
   role:
-  - type: editor
+  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -117,45 +117,35 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2013-03
+revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This specification extends the Internet Message Access Protocol (IMAP)
-    to support UTF-8 encoded international characters in user names, mail addresses,
-    and message headers. This specification replaces RFC 5738.</p>"
+- content: "<p>This specification extends the Internet Message Access Protocol, specifically
+    IMAP4rev1 (RFC 3501), to support UTF-8 encoded international characters in user
+    names, mail addresses, and message headers. This specification replaces RFC 6855.
+    This specification does not extend IMAP4rev2 (RFC 9051), since that protocol includes
+    everything in this extension.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9755
-    docid:
-    - id: RFC9755
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9755
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6855'
+  number: '9755'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
 - content: IMAP
-- content: IDNA
 editorialgroup:
-- name: eai
+- name: extra
 ext:
   schema-version: v1.0.1
   stream: IETF
