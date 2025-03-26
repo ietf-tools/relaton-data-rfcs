@@ -1,0 +1,170 @@
+---
+schema-version: v1.2.3
+id: RFC9705
+title:
+- content: Refresh-Interval Independent RSVP Fast Reroute Facility Protection
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9705
+  type: src
+type: standard
+docid:
+- id: RFC 9705
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9705
+  type: DOI
+docnumber: RFC9705
+date:
+- type: published
+  value: 2025-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ramachandran
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Ramachandran
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saad
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Saad
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Pacella
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Pacella
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The RSVP-TE Fast Reroute (FRR) extensions specified in RFC 4090 define
+    two local repair techniques to reroute Label Switched Path (LSP) traffic over
+    pre-established backup tunnels. Facility backup method allows one or more LSPs
+    traversing a connected link or node to be protected using a bypass tunnel. The
+    many-to-one nature of local repair technique is attractive from a scalability
+    point of view. This document enumerates facility backup procedures in RFC 4090
+    that rely on refresh timeout, hence, making facility backup method refresh-interval
+    dependent. The RSVP-TE extensions defined in this document will enhance the facility
+    backup protection mechanism by making the corresponding procedures refresh-interval
+    independent, and hence, compatible with the Refresh-Interval Independent RSVP
+    (RI-RSVP) capability specified in RFC 8370. Hence, this document updates RFC 4090
+    in order to support the RI-RSVP capability specified in RFC 8370.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4090
+    docid:
+    - id: RFC4090
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4090
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9705'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: ri-rsvp-frr
+- content: RI-RSVP-FRR
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
