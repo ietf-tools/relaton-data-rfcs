@@ -1,0 +1,156 @@
+---
+schema-version: v1.2.3
+id: RFC9626
+title:
+- content: Video Frame Marking RTP Header Extension
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9626
+  type: src
+type: standard
+docid:
+- id: RFC 9626
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9626
+  type: DOI
+docnumber: RFC9626
+date:
+- type: published
+  value: 2025-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zanaty
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Zanaty
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Berger
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Berger
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Nandakumar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Nandakumar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes a Video Frame Marking RTP header extension
+    used to convey information about video frames that is critical for error recovery
+    and packet forwarding in RTP middleboxes or network nodes. It is most useful when
+    media is encrypted and essential when the middlebox or node has no access to the
+    media decryption keys. It is also useful for codec-agnostic processing of encrypted
+    or unencrypted media, while it also supports extensions for codec-specific information.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9626'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Scalable video
+- content: H.264
+- content: H.265
+- content: VP9
+- content: layered video
+editorialgroup:
+- name: avtcore
+ext:
+  schema-version: v1.0.1
+  stream: IETF
