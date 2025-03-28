@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC3228
+id: RFC9777
 title:
-- content: IANA Considerations for IPv4 Internet Group Management Protocol (IGMP)
+- content: Multicast Listener Discovery Version 2 (MLDv2) for IPv6
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3228
+- content: https://www.rfc-editor.org/info/rfc9777
   type: src
 type: standard
 docid:
-- id: RFC 3228
+- id: RFC 9777
   type: IETF
   primary: true
-- id: 10.17487/RFC3228
+- id: 10.17487/RFC9777
   type: DOI
-docnumber: RFC3228
+docnumber: RFC9777
 date:
 - type: published
-  value: 2002-02
+  value: 2025-03
 contributor:
 - person:
     name:
@@ -36,19 +36,19 @@ contributor:
           script:
           - Latn
       surname:
-        content: Fenner
+        content: Haberman
         language:
         - en
         script:
         - Latn
       completename:
-        content: B. Fenner
+        content: B. Haberman
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - organization:
     name:
     - content: RFC Publisher
@@ -59,48 +59,51 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2002-02
+revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This memo requests that the IANA create a registry for fields in the
-    IGMP (Internet Group Management Protocol) protocol header, and provides guidance
-    for the IANA to use in assigning parameters for those fields. This document specifies
-    an Internet Best Current Practices for the Internet Community, and requests discussion
-    and suggestions for improvements.</p>"
+- content: "<p>This document specifies the Multicast Listener Discovery version 2
+    (MLDv2) protocol. MLD is used by an IPv6 router to discover the presence of multicast
+    listeners on directly attached links and to discover which multicast addresses
+    are of interest to those neighboring nodes. MLDv2 is designed to be interoperable
+    with MLDv1. MLDv2 adds the ability for a node to report interest in listening
+    to packets with a particular multicast address only from specific source addresses
+    or from all sources except for specific source addresses.</p><p>This document
+    updates RFC 2710 and obsoletes RFC 3810.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9778
+    id: RFC2710
     docid:
-    - id: RFC9778
+    - id: RFC2710
       type: IETF
       primary: true
     formattedref:
-      content: RFC9778
+      content: RFC2710
       format: text/plain
 series:
 - title:
+    content: STD
+    format: text/plain
+  number: '101'
+- title:
     content: RFC
     format: text/plain
-  number: '3228'
+  number: '9777'
 - type: stream
   title:
     content: IETF
     format: text/plain
-keyword:
-- content: assigned
-- content: numbers
-- content: authority
 editorialgroup:
-- name: magma
+- name: pim
 ext:
   schema-version: v1.0.1
   stream: IETF

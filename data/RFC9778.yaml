@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC3228
+id: RFC9778
 title:
-- content: IANA Considerations for IPv4 Internet Group Management Protocol (IGMP)
+- content: IANA Considerations for Internet Group Management Protocols
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3228
+- content: https://www.rfc-editor.org/info/rfc9778
   type: src
 type: standard
 docid:
-- id: RFC 3228
+- id: RFC 9778
   type: IETF
   primary: true
-- id: 10.17487/RFC3228
+- id: 10.17487/RFC9778
   type: DOI
-docnumber: RFC3228
+docnumber: RFC9778
 date:
 - type: published
-  value: 2002-02
+  value: 2025-03
 contributor:
 - person:
     name:
@@ -36,19 +36,19 @@ contributor:
           script:
           - Latn
       surname:
-        content: Fenner
+        content: Haberman
         language:
         - en
         script:
         - Latn
       completename:
-        content: B. Fenner
+        content: B. Haberman
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - organization:
     name:
     - content: RFC Publisher
@@ -59,48 +59,38 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2002-02
+revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This memo requests that the IANA create a registry for fields in the
-    IGMP (Internet Group Management Protocol) protocol header, and provides guidance
-    for the IANA to use in assigning parameters for those fields. This document specifies
-    an Internet Best Current Practices for the Internet Community, and requests discussion
-    and suggestions for improvements.</p>"
+- content: "<p>This document specifies revised IANA considerations for the Internet
+    Group Management Protocol (IGMP) and the Multicast Listener Discovery (MLD) protocol.
+    This document specifies the guidance provided to IANA to manage values associated
+    with various fields within the protocol headers of the group management protocols.</p><p>This
+    document obsoletes RFC 3228 and unifies guidelines for IPv4 and IPv6 group management
+    protocols.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9778
-    docid:
-    - id: RFC9778
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9778
-      format: text/plain
 series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '57'
 - title:
     content: RFC
     format: text/plain
-  number: '3228'
+  number: '9778'
 - type: stream
   title:
     content: IETF
     format: text/plain
-keyword:
-- content: assigned
-- content: numbers
-- content: authority
 editorialgroup:
-- name: magma
+- name: pim
 ext:
   schema-version: v1.0.1
   stream: IETF

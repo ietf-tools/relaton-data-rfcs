@@ -1,0 +1,112 @@
+---
+schema-version: v1.2.3
+id: RFC9776
+title:
+- content: Internet Group Management Protocol, Version 3
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9776
+  type: src
+type: standard
+docid:
+- id: RFC 9776
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9776
+  type: DOI
+docnumber: RFC9776
+date:
+- type: published
+  value: 2025-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haberman
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Haberman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Internet Group Management Protocol (IGMP) is the protocol used
+    by IPv4 systems to report their IP multicast group memberships to neighboring
+    multicast routers. Version 3 of IGMP (IGMPv3) adds support for source filtering,
+    that is, the ability for a system to report interest in receiving packets only
+    from specific source addresses, or from all but specific source addresses, sent
+    to a particular multicast address. That information may be used by multicast routing
+    protocols to avoid delivering multicast packets from specific sources to networks
+    where there are no interested receivers.</p><p>This document specifies IGMPv3.
+    It is a revised version of RFC 3376 that includes clarifications and fixes for
+    errata, and it is backward compatible with RFC 3376.</p><p>This document updates
+    RFC 2236 and obsoletes RFC 3376.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2236
+    docid:
+    - id: RFC2236
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2236
+      format: text/plain
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '100'
+- title:
+    content: RFC
+    format: text/plain
+  number: '9776'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: pim
+ext:
+  schema-version: v1.0.1
+  stream: IETF
