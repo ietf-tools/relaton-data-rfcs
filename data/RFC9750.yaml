@@ -1,0 +1,221 @@
+---
+schema-version: v1.2.3
+id: RFC9750
+title:
+- content: The Messaging Layer Security (MLS) Architecture
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9750
+  type: src
+type: standard
+docid:
+- id: RFC 9750
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9750
+  type: DOI
+docnumber: RFC9750
+date:
+- type: published
+  value: 2025-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Beurdouche
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Beurdouche
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rescorla
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Rescorla
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Omara
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Omara
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Inguva
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Inguva
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Duric
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Duric
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Messaging Layer Security (MLS) protocol (RFC 9420) provides a group
+    key agreement protocol for messaging applications. MLS is designed to protect
+    against eavesdropping, tampering, and message forgery, and to provide forward
+    secrecy (FS) and post-compromise security (PCS).</p><p>This document describes
+    the architecture for using MLS in a general secure group messaging infrastructure
+    and defines the security goals for MLS. It provides guidance on building a group
+    messaging system and discusses security and privacy trade-offs offered by multiple
+    security mechanisms that are part of the MLS protocol (e.g., frequency of public
+    encryption key rotation). The document also provides guidance for parts of the
+    infrastructure that are not standardized by MLS and are instead left to the application.</p><p>While
+    the recommendations of this document are not mandatory to follow in order to interoperate
+    at the protocol level, they affect the overall security guarantees that are achieved
+    by a messaging application. This is especially true in the case of active adversaries
+    that are able to compromise clients, the Delivery Service (DS), or the Authentication
+    Service (AS).</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9750'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: security
+- content: authenticated key exchange
+- content: end-to-end encryption
+editorialgroup:
+- name: mls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
