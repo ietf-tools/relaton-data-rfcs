@@ -1,0 +1,161 @@
+---
+schema-version: v1.2.3
+id: RFC9765
+title:
+- content: 'RADIUS/1.1: Leveraging Application-Layer Protocol Negotiation (ALPN) to
+    Remove MD5'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9765
+  type: src
+type: standard
+docid:
+- id: RFC 9765
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9765
+  type: DOI
+docnumber: RFC9765
+date:
+- type: published
+  value: 2025-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. DeKok
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document defines Application-Layer Protocol Negotiation (ALPN)
+    extensions for use with RADIUS/TLS and RADIUS/DTLS. These extensions permit the
+    negotiation of an application protocol variant of RADIUS called "RADIUS/1.1".
+    No changes are made to RADIUS/UDP or RADIUS/TCP. The extensions allow the negotiation
+    of a transport profile where the RADIUS shared secret is no longer used, and all
+    MD5-based packet authentication and attribute obfuscation methods are removed.</p><p>This
+    document updates RFCs 2865, 2866, 5176, 6613, 6614, and 7360.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC2865
+    docid:
+    - id: RFC2865
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2865
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC2866
+    docid:
+    - id: RFC2866
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2866
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5176
+    docid:
+    - id: RFC5176
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5176
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6613
+    docid:
+    - id: RFC6613
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6613
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6614
+    docid:
+    - id: RFC6614
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6614
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7360
+    docid:
+    - id: RFC7360
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7360
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9765'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: RADIUS
+- content: ALPN
+- content: MD5
+- content: FIPS 140
+- content: TLS
+editorialgroup:
+- name: radext
+ext:
+  schema-version: v1.0.1
+  stream: IETF
