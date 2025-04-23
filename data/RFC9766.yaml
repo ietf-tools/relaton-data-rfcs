@@ -1,0 +1,123 @@
+---
+schema-version: v1.2.3
+id: RFC9766
+title:
+- content: Extensions for Weak Cache Consistency in NFSv4.2's Flexible File Layout
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9766
+  type: src
+type: standard
+docid:
+- id: RFC 9766
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9766
+  type: DOI
+docnumber: RFC9766
+date:
+- type: published
+  value: 2025-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haynes
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Haynes
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Myklebust
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Myklebust
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies extensions to NFSv4.2 for improving Weak Cache
+    Consistency (WCC). These extensions introduce mechanisms that ensure partial writes
+    performed under a Parallel NFS (pNFS) layout remain coherent and correctly tracked.
+    The solution addresses concurrency and data integrity concerns that may arise
+    when multiple clients write to the same file through separate data servers. By
+    defining additional interactions among clients, metadata servers, and data servers,
+    this specification enhances the reliability of NFSv4 in parallel-access environments
+    and ensures consistency across diverse deployment scenarios.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9766'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: nfsv4
+ext:
+  schema-version: v1.0.1
+  stream: IETF
