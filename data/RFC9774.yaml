@@ -1,0 +1,204 @@
+---
+schema-version: v1.2.3
+id: RFC9774
+title:
+- content: Deprecation of AS_SET and AS_CONFED_SET in BGP
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9774
+  type: src
+type: standard
+docid:
+- id: RFC 9774
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9774
+  type: DOI
+docnumber: RFC9774
+date:
+- type: published
+  value: 2025-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kumari
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Kumari
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sriram
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Sriram
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hannachi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Hannachi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haas
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Haas
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>BCP 172 (i.e., RFC 6472) recommends not using AS_SET and AS_CONFED_SET
+    AS_PATH segment types in the Border Gateway Protocol (BGP). This document advances
+    that recommendation to a standards requirement in BGP; it prohibits the use of
+    the AS_SET and AS_CONFED_SET path segment types in the AS_PATH. This is done to
+    simplify the design and implementation of BGP and to make the semantics of the
+    originator of a BGP route clearer. This will also simplify the design, implementation,
+    and deployment of various BGP security mechanisms. This document updates RFC 4271
+    by deprecating the origination of BGP routes with AS_SET (Type 1 AS_PATH segment)
+    and updates RFC 5065 by deprecating the origination of BGP routes with AS_CONFED_SET
+    (Type 4 AS_PATH segment). Finally, it obsoletes RFC 6472.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4271
+    docid:
+    - id: RFC4271
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4271
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5065
+    docid:
+    - id: RFC5065
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5065
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9774'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: idr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
