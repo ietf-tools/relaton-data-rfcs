@@ -1,0 +1,219 @@
+---
+schema-version: v1.2.3
+id: RFC9723
+title:
+- content: BGP Colored Prefix Routing (CPR) for Services Based on Segment Routing
+    over IPv6 (SRv6)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9723
+  type: src
+type: standard
+docid:
+- id: RFC 9723
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9723
+  type: DOI
+docnumber: RFC9723
+date:
+- type: published
+  value: 2025-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Wang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dong
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Dong
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Talaulikar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Talaulikar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Han
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Han
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Chen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Chen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document describes a mechanism to advertise IPv6 prefixes in BGP
+    that are associated with Color Extended Communities to establish end-to-end intent-aware
+    paths for Segment Routing over IPv6 (SRv6) services. Such IPv6 prefixes are called
+    "Colored Prefixes", and this mechanism is called "Colored Prefix Routing" (CPR).
+    In SRv6 networks, the Colored Prefixes are the SRv6 locators associated with different
+    intents. SRv6 services (e.g., SRv6 VPN services) with a specific intent could
+    be assigned with SRv6 Segment Identifiers (SIDs) under the corresponding SRv6
+    locators, which are advertised as Colored Prefixes.</p><p>This operational methodology
+    allows the SRv6 service traffic to be steered into end-to-end intent-aware paths
+    based on the longest prefix matching of SRv6 Service SIDs to the Colored Prefixes.
+    The existing IPv6 Address Family and Color Extended Community are reused to advertise
+    IPv6 Colored Prefixes without new BGP extensions; thus, this mechanism is easy
+    to interoperate and can be deployed incrementally in multi-Autonomous System (AS)
+    networks that belong to the same trusted domain.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9723'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: intent-aware routing
+editorialgroup:
+- name: idr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
