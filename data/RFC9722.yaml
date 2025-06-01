@@ -1,0 +1,229 @@
+---
+schema-version: v1.2.3
+id: RFC9722
+title:
+- content: Fast Recovery for EVPN Designated Forwarder Election
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9722
+  type: src
+type: standard
+docid:
+- id: RFC 9722
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9722
+  type: DOI
+docnumber: RFC9722
+date:
+- type: published
+  value: 2025-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Brissette
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Brissette
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajassi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Sajassi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: LA
+        formatted_initials:
+          content: LA.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Burdet
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: LA. Burdet
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Drake
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Rabadan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Ethernet Virtual Private Network (EVPN) solution in RFC 7432 provides
+    Designated Forwarder (DF) election procedures for multihomed Ethernet Segments.
+    These procedures have been enhanced further by applying the Highest Random Weight
+    (HRW) algorithm for DF election to avoid unnecessary DF status changes upon a
+    failure. This document improves these procedures by providing a fast DF election
+    upon recovery of the failed link or node associated with the multihomed Ethernet
+    Segment. This document updates RFC 8584 by optionally introducing delays between
+    some of the events therein.</p><p>The solution is independent of the number of
+    EVPN Instances (EVIs) associated with that Ethernet Segment, and it is performed
+    via a simple signaling in BGP between the recovered node and each of the other
+    nodes in the multihoming group.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8584
+    docid:
+    - id: RFC8584
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8584
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9722'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: EVPN
+- content: Designated Forwarder
+- content: Convergence
+- content: Recovery
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF

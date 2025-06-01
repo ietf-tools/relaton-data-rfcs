@@ -1,0 +1,169 @@
+---
+schema-version: v1.2.3
+id: RFC9780
+title:
+- content: Bidirectional Forwarding Detection (BFD) for Multipoint Networks over Point-to-Multipoint
+    MPLS Label Switched Paths (LSPs)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9780
+  type: src
+type: standard
+docid:
+- id: RFC 9780
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9780
+  type: DOI
+docnumber: RFC9780
+date:
+- type: published
+  value: 2025-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mirsky
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mirsky
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Eastlake 3rd
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes procedures for using Bidirectional Forwarding
+    Detection (BFD) for multipoint networks to detect data plane failures in point-to-multipoint
+    MPLS Label Switched Paths (LSPs) and Segment Routing (SR) point-to-multipoint
+    policies with an SR over MPLS (SR-MPLS) data plane.</p><p>Furthermore, this document
+    updates RFC 8562 by recommending the use of an IPv6 address from the Dummy IPv6
+    Prefix address block 100:0:0:1::/64 and discouraging the use of an IPv4 loopback
+    address mapped to IPv6.</p><p>In addition, this document describes the applicability
+    of LSP Ping (as an in-band solution) and the control plane (as an out-of-band
+    solution) to bootstrap a BFD session. The document also describes the behavior
+    of the active tail for head notification.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8562
+    docid:
+    - id: RFC8562
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8562
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9780'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: BFD
+- content: Multipoint LSP
+editorialgroup:
+- name: mpls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
