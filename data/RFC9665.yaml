@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.3
+id: RFC9665
+title:
+- content: Service Registration Protocol for DNS-Based Service Discovery
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9665
+  type: src
+type: standard
+docid:
+- id: RFC 9665
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9665
+  type: DOI
+docnumber: RFC9665
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemon
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Lemon
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cheshire
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Cheshire
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Service Registration Protocol (SRP) for DNS-based Service Discovery
+    (DNS-SD) uses the standard DNS Update mechanism to enable DNS-SD using only unicast
+    packets. This makes it possible to deploy DNS-SD without multicast, which greatly
+    improves scalability and improves performance on networks where multicast service
+    is not an optimal choice, particularly IEEE 802.11 (Wi-Fi) and IEEE 802.15.4 networks.
+    DNS-SD Service registration uses public keys and SIG(0) to allow services to defend
+    their registrations.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9665'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Multicast DNS
+- content: DNS-Based Service Discovery
+- content: DNS Update
+- content: SIG(0)
+editorialgroup:
+- name: dnssd
+ext:
+  schema-version: v1.0.1
+  stream: IETF
