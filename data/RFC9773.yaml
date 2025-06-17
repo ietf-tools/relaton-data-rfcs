@@ -1,0 +1,99 @@
+---
+schema-version: v1.2.3
+id: RFC9773
+title:
+- content: ACME Renewal Information (ARI) Extension
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9773
+  type: src
+type: standard
+docid:
+- id: RFC 9773
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9773
+  type: DOI
+docnumber: RFC9773
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gable
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Gable
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies how an Automated Certificate Management Environment
+    (ACME) server may provide suggestions to ACME clients as to when they should attempt
+    to renew their certificates. This allows servers to mitigate load spikes and ensures
+    that clients do not make false assumptions about appropriate certificate renewal
+    periods.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9773'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: certificate
+- content: CA
+- content: x509
+- content: pki
+- content: webpki
+- content: renew
+- content: replace
+editorialgroup:
+- name: acme
+ext:
+  schema-version: v1.0.1
+  stream: IETF
