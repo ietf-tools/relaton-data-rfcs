@@ -1,0 +1,208 @@
+---
+schema-version: v1.2.3
+id: RFC9762
+title:
+- content: Using Router Advertisements to Signal the Availability of DHCPv6 Prefix
+    Delegation to Clients
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9762
+  type: src
+type: standard
+docid:
+- id: RFC 9762
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9762
+  type: DOI
+docnumber: RFC9762
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Colitti
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: L. Colitti
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Linkova
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Linkova
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: X
+        formatted_initials:
+          content: X.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ma
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: X. Ma
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lamparter
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Lamparter
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines the P flag in the Prefix Information Option (PIO)
+    of IPv6 Router Advertisements (RAs). The flag is used to indicate that the network
+    prefers that clients use the deployment model in RFC 9663 instead of using individual
+    addresses in the on-link prefix assigned using Stateless Address Autoconfiguration
+    (SLAAC) or DHCPv6 address assignment.</p><p>This document updates RFC 4862 to
+    indicate that the Autonomous flag in a PIO needs to be ignored if the PIO has
+    the P flag set. It also updates RFC 4861 to specify that the P flag indicates
+    DHCPv6 prefix delegation support for clients.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4861
+    docid:
+    - id: RFC4861
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4861
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4862
+    docid:
+    - id: RFC4862
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4862
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9762'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: ipv6
+- content: slaac
+- content: pio
+- content: dhcpv6-pd
+editorialgroup:
+- name: 6man
+ext:
+  schema-version: v1.0.1
+  stream: IETF
