@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.3
+id: RFC9806
+title:
+- content: Updates to SIP-Based Media Recording (SIPREC) to Correct Metadata Media
+    Type
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9806
+  type: src
+type: standard
+docid:
+- id: RFC 9806
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9806
+  type: DOI
+docnumber: RFC9806
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mongrain
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Mongrain
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The SIP-based Media Recording (SIPREC) protocol is defined by both "Session
+    Initiation Protocol (SIP) Recording Metadata" (RFC 7865) and "Session Recording
+    Protocol" (RFC 7866). Unfortunately, both RFCs contradict each other regarding
+    how recording metadata is to be labeled. In addition, neither RFC registered the
+    new media type. This document updates RFC 7866 to align with RFC 7865 when labeling
+    recording metadata and also registers the media type.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7866
+    docid:
+    - id: RFC7866
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7866
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9806'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: siprec
+- content: errata
+editorialgroup:
+- name: sipcore
+ext:
+  schema-version: v1.0.1
+  stream: IETF

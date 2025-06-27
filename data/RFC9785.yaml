@@ -1,0 +1,236 @@
+---
+schema-version: v1.2.3
+id: RFC9785
+title:
+- content: Preference-Based EVPN Designated Forwarder (DF) Election
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9785
+  type: src
+type: standard
+docid:
+- id: RFC 9785
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9785
+  type: DOI
+docnumber: RFC9785
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Rabadan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sathappan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sathappan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Drake
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajassi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Sajassi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The Designated Forwarder (DF) in Ethernet Virtual Private Networks (EVPNs)
+    is defined as the Provider Edge (PE) router responsible for sending Broadcast,
+    Unknown Unicast, and Multicast (BUM) traffic to a multihomed device/network in
+    the case of an All-Active multihoming Ethernet Segment (ES) or BUM and unicast
+    in the case of Single-Active multihoming. The Designated Forwarder is selected
+    out of a candidate list of PEs that advertise the same Ethernet Segment Identifier
+    (ESI) to the EVPN network, according to the default DF election algorithm. While
+    the default algorithm provides an efficient and automated way of selecting the
+    Designated Forwarder across different Ethernet Tags in the Ethernet Segment, there
+    are some use cases where a more "deterministic" and user-controlled method is
+    required. At the same time, Network Operators require an easy way to force an
+    on-demand Designated Forwarder switchover in order to carry out some maintenance
+    tasks on the existing Designated Forwarder or control whether a new active PE
+    can preempt the existing Designated Forwarder PE.</p><p>This document proposes
+    use of a DF election algorithm that meets the requirements of determinism and
+    operation control. This document updates RFC 8584 by modifying the definition
+    of the DF Election Extended Community.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8584
+    docid:
+    - id: RFC8584
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8584
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9785'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Highest-Preference
+- content: Lowest-Preference
+- content: Non-Revertive
+- content: Don’t Preempt
+- content: Preemption
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF
