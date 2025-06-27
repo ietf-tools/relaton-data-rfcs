@@ -1,0 +1,152 @@
+---
+schema-version: v1.2.3
+id: RFC9797
+title:
+- content: 'Randomized and Changing Media Access Control (MAC) Addresses: Context,
+    Network Impacts, and Use Cases'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9797
+  type: src
+type: standard
+docid:
+- id: RFC 9797
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9797
+  type: DOI
+docnumber: RFC9797
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Henry
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Henry
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "Y"
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lee
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Lee
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>To limit the privacy issues created by the association between a device,
+    its traffic, its location, and its user in IEEE 802 networks, client vendors and
+    client OS vendors have started implementing Media Access Control (MAC) address
+    randomization. This technology is particularly important in Wi-Fi networks (defined
+    in IEEE 802.11) due to the over-the-air medium and device mobility. When such
+    randomization happens, some in-network states may break, which may affect network
+    connectivity and user experience. At the same time, devices may continue using
+    other stable identifiers, defeating the purpose of MAC address randomization.</p><p>This
+    document lists various network environments and a range of network services that
+    may be affected by such randomization. This document then examines settings where
+    the user experience may be affected by in-network state disruption. Last, this
+    document examines some existing frameworks that maintain user privacy while preserving
+    user quality of experience and network operation efficiency.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9797'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: RCM
+- content: Universal MAC address
+- content: Local MAC address
+- content: Locally Administered MAC address
+- content: Personal Device
+- content: Shared Service Device
+- content: Network Functional Entities
+- content: Human-Related Entities
+- content: Over-the-Air (OTA) observers
+- content: Wireless access network operators
+- content: Network access providers
+- content: Over-the-Wired internal (OTWi) observers
+- content: Over-the-Wired external (OTWe) observers
+- content: full trust
+- content: selective trust
+- content: zero trust
+- content: privacy
+- content: Residential settings
+- content: Managed residential settings
+- content: public guest network
+- content: Enterprises with Bring-Your-Own-Device (BYOD)
+- content: Managed Enterprises
+editorialgroup:
+- name: madinas
+ext:
+  schema-version: v1.0.1
+  stream: IETF
