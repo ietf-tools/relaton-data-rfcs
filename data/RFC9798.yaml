@@ -1,0 +1,134 @@
+---
+schema-version: v1.2.3
+id: RFC9798
+title:
+- content: PIM Join/Prune Attributes for Locator/ID Separation Protocol (LISP) Environments
+    Using Underlay Multicast
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9798
+  type: src
+type: standard
+docid:
+- id: RFC 9798
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9798
+  type: DOI
+docnumber: RFC9798
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Govindan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Govindan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Venaas
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Venaas
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies an update to the Receiver RLOC (Routing Locator)
+    field of the PIM Join/Prune attribute that supports the construction of multicast
+    distribution trees where the source and receivers are located in different Locator/ID
+    Separation Protocol (LISP) sites and are connected using underlay IP multicast.
+    This attribute allows the receiver site to signal the underlay multicast group
+    to the control plane of the root Ingress Tunnel Router (ITR). This document updates
+    RFC 8059.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8059
+    docid:
+    - id: RFC8059
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8059
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9798'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: pim
+ext:
+  schema-version: v1.0.1
+  stream: IETF
