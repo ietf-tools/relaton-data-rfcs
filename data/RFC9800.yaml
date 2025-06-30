@@ -1,0 +1,229 @@
+---
+schema-version: v1.2.3
+id: RFC9800
+title:
+- content: Compressed SRv6 Segment List Encoding
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9800
+  type: src
+type: standard
+docid:
+- id: RFC 9800
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9800
+  type: DOI
+docnumber: RFC9800
+date:
+- type: published
+  value: 2025-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cheng
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Cheng
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Filsfils
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Li
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Decraene
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: F
+        formatted_initials:
+          content: F.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Clad
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: F. Clad
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Segment Routing over IPv6 (SRv6) is the instantiation of Segment Routing
+    (SR) on the IPv6 data plane. This document specifies new flavors for the SRv6
+    endpoint behaviors defined in RFC 8986, which enable the compression of an SRv6
+    segment list. Such compression significantly reduces the size of the SRv6 encapsulation
+    needed to steer packets over long segment lists.</p><p>This document updates RFC
+    8754 by allowing a Segment List entry in the Segment Routing Header (SRH) to be
+    either an IPv6 address, as specified in RFC 8754, or a REPLACE-CSID container
+    in packed format, as specified in this document.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8754
+    docid:
+    - id: RFC8754
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8754
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9800'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Segment Routing
+- content: IPv6 Segment Routing
+- content: Compressed SID
+- content: CSID
+- content: NEXT-CSID
+- content: REPLACE-SID
+- content: SRH Compression
+editorialgroup:
+- name: spring
+ext:
+  schema-version: v1.0.1
+  stream: IETF
