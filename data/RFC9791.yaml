@@ -1,25 +1,112 @@
 ---
 schema-version: v1.2.3
-id: RFC4928
+id: RFC9791
 title:
-- content: Avoiding Equal Cost Multipath Treatment in MPLS Networks
+- content: Use Cases for MPLS Network Action Indicators and Ancillary Data
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc4928
+- content: https://www.rfc-editor.org/info/rfc9791
   type: src
 type: standard
 docid:
-- id: RFC 4928
+- id: RFC 9791
   type: IETF
   primary: true
-- id: 10.17487/RFC4928
+- id: 10.17487/RFC9791
   type: DOI
-docnumber: RFC4928
+docnumber: RFC9791
 date:
 - type: published
-  value: 2007-06
+  value: 2025-07
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saad
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Saad
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Makhijani
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Makhijani
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Song
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Song
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -36,71 +123,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Swallow
+        content: Mirsky
         language:
         - en
         script:
         - Latn
       completename:
-        content: G. Swallow
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: S
-        formatted_initials:
-          content: S.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bryant
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: S. Bryant
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: L
-        formatted_initials:
-          content: L.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Andersson
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: L. Andersson
+        content: G. Mirsky
         language:
         - en
         script:
@@ -117,22 +146,20 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2007-06
+revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the Equal Cost Multipath (ECMP) behavior of
-    currently deployed MPLS networks. This document makes best practice recommendations
-    for anyone defining an application to run over an MPLS network that wishes to
-    avoid the reordering that can result from transmission of different packets from
-    the same flow over multiple different equal cost paths. These recommendations
-    rely on inspection of the IP version number field in packets. Despite the heuristic
-    nature of the recommendations, they provide a relatively safe way to operate MPLS
-    networks, even if future allocations of IP version numbers were made for some
-    purpose. This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+- content: "<p>This document presents use cases that have a common feature that may
+    be addressed by encoding network action indicators and associated ancillary data
+    within MPLS packets. There is community interest in extending the MPLS data plane
+    to carry such indicators and ancillary data to address these use cases.</p><p>The
+    use cases described in this document are not an exhaustive set but rather the
+    ones that have been actively discussed by members of the IETF MPLS, PALS, and
+    DetNet Working Groups from the beginning of work on MPLS Network Action (MNA)
+    until the publication of this document.</p>"
   language:
   - en
   script:
@@ -140,19 +167,16 @@ abstract:
   format: text/html
 series:
 - title:
-    content: BCP
-    format: text/plain
-  number: '128'
-- title:
     content: RFC
     format: text/plain
-  number: '4928'
+  number: '9791'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: ECMP
+- content: Special Purpose Label
+- content: MPLS data plane
 editorialgroup:
 - name: mpls
 ext:

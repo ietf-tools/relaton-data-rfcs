@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC4928
+id: RFC9789
 title:
-- content: Avoiding Equal Cost Multipath Treatment in MPLS Networks
+- content: MPLS Network Actions (MNAs) Framework
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc4928
+- content: https://www.rfc-editor.org/info/rfc9789
   type: src
 type: standard
 docid:
-- id: RFC 4928
+- id: RFC 9789
   type: IETF
   primary: true
-- id: 10.17487/RFC4928
+- id: 10.17487/RFC9789
   type: DOI
-docnumber: RFC4928
+docnumber: RFC9789
 date:
 - type: published
-  value: 2007-06
+  value: 2025-07
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: G
+          initial: L
         formatted_initials:
-          content: G.
+          content: L.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Swallow
+        content: Andersson
         language:
         - en
         script:
         - Latn
       completename:
-        content: G. Swallow
+        content: L. Andersson
         language:
         - en
         script:
@@ -86,21 +86,50 @@ contributor:
           - en
           script:
           - Latn
-          initial: L
+          initial: M
         formatted_initials:
-          content: L.
+          content: M.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Andersson
+        content: Bocci
         language:
         - en
         script:
         - Latn
       completename:
-        content: L. Andersson
+        content: M. Bocci
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Li
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Li
         language:
         - en
         script:
@@ -117,22 +146,19 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2007-06
+revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes the Equal Cost Multipath (ECMP) behavior of
-    currently deployed MPLS networks. This document makes best practice recommendations
-    for anyone defining an application to run over an MPLS network that wishes to
-    avoid the reordering that can result from transmission of different packets from
-    the same flow over multiple different equal cost paths. These recommendations
-    rely on inspection of the IP version number field in packets. Despite the heuristic
-    nature of the recommendations, they provide a relatively safe way to operate MPLS
-    networks, even if future allocations of IP version numbers were made for some
-    purpose. This document specifies an Internet Best Current Practices for the Internet
-    Community, and requests discussion and suggestions for improvements.</p>"
+- content: "<p>This document describes an architectural framework for MPLS Network
+    Action (MNA) technologies. MNA technologies are used to indicate actions that
+    impact the forwarding or other processing (such as monitoring) of the packet along
+    the Label Switched Path (LSP) of the packet and to transfer any additional data
+    needed for these actions.</p><p>This document provides the foundation for the
+    development of a common set of network actions and information elements supporting
+    additional operational models and capabilities of MPLS networks.</p>"
   language:
   - en
   script:
@@ -140,19 +166,16 @@ abstract:
   format: text/html
 series:
 - title:
-    content: BCP
-    format: text/plain
-  number: '128'
-- title:
     content: RFC
     format: text/plain
-  number: '4928'
+  number: '9789'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: ECMP
+- content: network function virtualization
+- content: service chaining
 editorialgroup:
 - name: mpls
 ext:
