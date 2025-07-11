@@ -1,0 +1,128 @@
+---
+schema-version: v1.2.3
+id: RFC9796
+title:
+- content: SIP Call-Info Parameters for Rich Call Data
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9796
+  type: src
+type: standard
+docid:
+- id: RFC 9796
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9796
+  type: DOI
+docnumber: RFC9796
+date:
+- type: published
+  value: 2025-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wendt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Wendt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Peterson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document specifies a usage of the SIP Call-Info header field that
+    incorporates Rich Call Data (RCD) associated with the identity of the originating
+    party in order to provide to the terminating party a description of the caller
+    (including details about the reason for the session). RCD includes information
+    about the caller beyond the telephone number (such as a calling name, logo, photo,
+    or jCard object representing the caller), which can help the called party decide
+    how to handle the session request.</p><p>This document defines three new parameters
+    'call-reason', 'verified', and 'integrity' for the SIP Call-Info header field
+    and also a new token ("jcard") for the 'purpose' parameter of the Call-Info header
+    field. It also provides guidance on the use of the Call-Info 'purpose' parameter
+    token, "icon".</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9796'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Identity
+editorialgroup:
+- name: sipcore
+ext:
+  schema-version: v1.0.1
+  stream: IETF
