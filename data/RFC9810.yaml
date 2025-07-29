@@ -1,25 +1,25 @@
 ---
 schema-version: v1.2.3
-id: RFC4210
+id: RFC9810
 title:
-- content: Internet X.509 Public Key Infrastructure Certificate Management Protocol
+- content: Internet X.509 Public Key Infrastructure -- Certificate Management Protocol
     (CMP)
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc4210
+- content: https://www.rfc-editor.org/info/rfc9810
   type: src
 type: standard
 docid:
-- id: RFC 4210
+- id: RFC 9810
   type: IETF
   primary: true
-- id: 10.17487/RFC4210
+- id: 10.17487/RFC9810
   type: DOI
-docnumber: RFC4210
+docnumber: RFC9810
 date:
 - type: published
-  value: 2005-09
+  value: 2025-07
 contributor:
 - person:
     name:
@@ -29,21 +29,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: C
+          initial: H
         formatted_initials:
-          content: C.
+          content: H.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Adams
+        content: Brockhaus
         language:
         - en
         script:
         - Latn
       completename:
-        content: C. Adams
+        content: H. Brockhaus
         language:
         - en
         script:
@@ -58,21 +58,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: S
+          initial: D
         formatted_initials:
-          content: S.
+          content: D.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Farrell
+        content: von Oheimb
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Farrell
+        content: D. von Oheimb
         language:
         - en
         script:
@@ -87,21 +87,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: T
+          initial: M
         formatted_initials:
-          content: T.
+          content: M.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Kause
+        content: Ounsworth
         language:
         - en
         script:
         - Latn
       completename:
-        content: T. Kause
+        content: M. Ounsworth
         language:
         - en
         script:
@@ -116,21 +116,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: T
+          initial: J
         formatted_initials:
-          content: T.
+          content: J.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Mononen
+        content: Gray
         language:
         - en
         script:
         - Latn
       completename:
-        content: T. Mononen
+        content: J. Gray
         language:
         - en
         script:
@@ -147,7 +147,7 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2005-09
+revdate: 2025-07
 language:
 - en
 script:
@@ -155,46 +155,46 @@ script:
 abstract:
 - content: "<p>This document describes the Internet X.509 Public Key Infrastructure
     (PKI) Certificate Management Protocol (CMP). Protocol messages are defined for
-    X.509v3 certificate creation and management. CMP provides on-line interactions
-    between PKI components, including an exchange between a Certification Authority
-    (CA) and a client system. [STANDARDS-TRACK]</p>"
+    X.509v3 certificate creation and management. CMP provides interactions between
+    client systems and PKI components such as a Registration Authority (RA) and a
+    Certification Authority (CA).</p><p>This document adds support for management
+    of certificates containing a Key Encapsulation Mechanism (KEM) public key and
+    uses EnvelopedData instead of EncryptedValue. This document also includes the
+    updates specified in Section 2 and Appendix A.2 of RFC 9480.</p><p>This document
+    obsoletes RFC 4210, and together with RFC 9811, it also obsoletes RFC 9480. Appendix
+    F of this document updates Section 9 of RFC 5912.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9810
+    id: RFC5912
     docid:
-    - id: RFC9810
+    - id: RFC5912
       type: IETF
       primary: true
     formattedref:
-      content: RFC9810
+      content: RFC5912
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '4210'
+  number: '9810'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: PKICMP security
-- content: cryptographic authentication
-- content: pkix
-- content: pki
-- content: X.509v3
-- content: certificate creation
-- content: certificate management
-- content: ca
-- content: certification authority
+- content: CMP
+- content: HTTP
+- content: Certificate management
+- content: PKI
 editorialgroup:
-- name: pkix
+- name: lamps
 ext:
   schema-version: v1.0.1
   stream: IETF
