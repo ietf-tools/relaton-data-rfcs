@@ -1,25 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC6874
+id: RFC9844
 title:
-- content: Representing IPv6 Zone Identifiers in Address Literals and Uniform Resource
-    Identifiers
+- content: Entering IPv6 Zone Identifiers in User Interfaces
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6874
+- content: https://www.rfc-editor.org/info/rfc9844
   type: src
 type: standard
 docid:
-- id: RFC 6874
+- id: RFC 9844
   type: IETF
   primary: true
-- id: 10.17487/RFC6874
+- id: 10.17487/RFC9844
   type: DOI
-docnumber: RFC6874
+docnumber: RFC9844
 date:
 - type: published
-  value: 2013-02
+  value: 2025-08
 contributor:
 - person:
     name:
@@ -58,38 +57,9 @@ contributor:
           - en
           script:
           - Latn
-          initial: S
+          initial: B
         formatted_initials:
-          content: S.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Cheshire
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: S. Cheshire
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: R
-        formatted_initials:
-          content: R.
+          content: B.
           language:
           - en
           script:
@@ -101,7 +71,7 @@ contributor:
         script:
         - Latn
       completename:
-        content: R. Hinden
+        content: B. Hinden
         language:
         - en
         script:
@@ -118,38 +88,57 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2013-02
+revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
 - content: "<p>This document describes how the zone identifier of an IPv6 scoped address,
-    defined as in the IPv6 Scoped Address Architecture (RFC 4007), can be represented
-    in a literal IPv6 address and in a Uniform Resource Identifier that includes such
-    a literal address. It updates the URI Generic Syntax specification (RFC 3986)
-    accordingly.</p>"
+    defined in the IPv6 Scoped Address Architecture specification (RFC 4007), should
+    be entered into a user interface. This document obsoletes RFC 6874 and updates
+    RFCs 4007, 7622, and 8089.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9844
+    id: RFC4007
     docid:
-    - id: RFC9844
+    - id: RFC4007
       type: IETF
       primary: true
     formattedref:
-      content: RFC9844
+      content: RFC4007
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7622
+    docid:
+    - id: RFC7622
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7622
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8089
+    docid:
+    - id: RFC8089
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8089
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6874'
+  number: '9844'
 - type: stream
   title:
     content: IETF
