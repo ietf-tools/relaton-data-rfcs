@@ -1,0 +1,190 @@
+---
+schema-version: v1.2.3
+id: RFC9788
+title:
+- content: Header Protection for Cryptographically Protected Email
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9788
+  type: src
+type: standard
+docid:
+- id: RFC 9788
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9788
+  type: DOI
+docnumber: RFC9788
+date:
+- type: published
+  value: 2025-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: D. K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Gillmor
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. K. Gillmor
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hoeneisen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Hoeneisen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Melnikov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Melnikov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>S/MIME version 3.1 introduced a mechanism to provide end-to-end cryptographic
+    protection of email message headers. However, few implementations generate messages
+    using this mechanism, and several legacy implementations have revealed rendering
+    or security issues when handling such a message.</p><p>This document updates the
+    S/MIME specification (RFC 8551) to offer a different mechanism that provides the
+    same cryptographic protections but with fewer downsides when handled by legacy
+    clients. Furthermore, it offers more explicit usability, privacy, and security
+    guidance for clients when generating or handling email messages with cryptographic
+    protection of message headers.</p><p>The Header Protection scheme defined here
+    is also applicable to messages with PGP/MIME (Pretty Good Privacy with MIME) cryptographic
+    protections.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8551
+    docid:
+    - id: RFC8551
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8551
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9788'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Header Protection
+- content: Header Confidentiality Policy
+- content: HCP
+- content: cryptographic email
+- content: email encryption
+- content: encryption
+- content: encrypt
+- content: signature
+- content: sign
+- content: S/MIME
+- content: PGP/MIME
+- content: Legacy Display
+- content: Legacy Display Element
+- content: MIME
+- content: Privacy
+- content: HP-Outer
+- content: hp-legacy-display
+- content: hp
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
