@@ -1,0 +1,131 @@
+---
+schema-version: v1.2.3
+id: RFC9828
+title:
+- content: RTP Payload Format for JPEG 2000 Streaming with Sub-Codestream Latency
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9828
+  type: src
+type: standard
+docid:
+- id: RFC 9828
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9828
+  type: DOI
+docnumber: RFC9828
+date:
+- type: published
+  value: 2025-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: P.-A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lemieux
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P.-A. Lemieux
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Taubman
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Taubman
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines the RTP payload format for the streaming of a
+    video signal encoded as a sequence of JPEG 2000 codestreams. The format allows
+    sub-codestream latency, such that the first RTP packet for a given image can be
+    emitted before the entire image is available to or encoded by the sender.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9828'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: JPEG 2000
+- content: J2K
+- content: HTJ2K
+- content: low latency
+- content: scalable
+- content: streaming
+editorialgroup:
+- name: avtcore
+ext:
+  schema-version: v1.0.1
+  stream: IETF
