@@ -1,0 +1,133 @@
+---
+schema-version: v1.2.3
+id: RFC9820
+title:
+- content: Authentication Service Based on the Extensible Authentication Protocol
+    (EAP) for Use with the Constrained Application Protocol (CoAP)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9820
+  type: src
+type: standard
+docid:
+- id: RFC 9820
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9820
+  type: DOI
+docnumber: RFC9820
+date:
+- type: published
+  value: 2025-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Marin-Lopez
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Marin-Lopez
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Garcia-Carrillo
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Garcia-Carrillo
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document specifies an authentication service that uses the Constrained
+    Application Protocol (CoAP) as a transport method to carry the Extensible Authentication
+    Protocol (EAP). As such, it defines an EAP lower layer based on CoAP called "CoAP-EAP".
+    One of the main goals is to authenticate a CoAP-enabled Internet of Things (IoT)
+    device (EAP peer) that intends to join a security domain managed by a Controller
+    (EAP authenticator). Secondly, it allows deriving key material to protect CoAP
+    messages exchanged between them based on Object Security for Constrained RESTful
+    Environments (OSCORE), enabling the establishment of a security association between
+    them.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9820'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: CoAP
+- content: EAP
+- content: EAP lower layer
+- content: Internet of Things
+- content: IoT
+- content: Constrained Node
+- content: Smart Object
+editorialgroup:
+- name: ace
+ext:
+  schema-version: v1.0.1
+  stream: IETF
