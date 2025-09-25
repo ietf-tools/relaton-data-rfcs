@@ -1,0 +1,221 @@
+---
+schema-version: v1.2.3
+id: RFC9856
+title:
+- content: Multicast Source Redundancy in EVPNs
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9856
+  type: src
+type: standard
+docid:
+- id: RFC 9856
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9856
+  type: DOI
+docnumber: RFC9856
+date:
+- type: published
+  value: 2025-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Rabadan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kotalwar
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Kotalwar
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sathappan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sathappan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Zhang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In Ethernet Virtual Private Networks (EVPNs), IP multicast traffic
+    replication and delivery play a crucial role in enabling efficient and scalable
+    Layer 2 and Layer 3 services. A common deployment scenario involves redundant
+    multicast sources that ensure high availability and resiliency. However, the presence
+    of redundant sources can lead to duplicate IP multicast traffic in the network,
+    causing inefficiencies and increased overhead. This document specifies extensions
+    to the EVPN multicast procedures that allow for the suppression of duplicate IP
+    multicast traffic from redundant sources. The proposed mechanisms enhance the
+    EVPN's capability to deliver multicast traffic efficiently while maintaining high
+    availability. These extensions are applicable to various EVPN deployment scenarios
+    and provide guidelines to ensure consistent and predictable behavior across diverse
+    network topologies.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9856'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Warm standby
+- content: hot standby
+- content: OISM
+- content: redundant G-source
+- content: SFG
+- content: Single Flow Group
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF
