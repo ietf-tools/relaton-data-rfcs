@@ -1,0 +1,96 @@
+---
+schema-version: v1.2.3
+id: RFC9866
+title:
+- content: 'Root Node Failure Detector (RNFD): Fast Detection of Border Router Crashes
+    in the Routing Protocol for Low-Power and Lossy Networks (RPL)'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9866
+  type: src
+type: standard
+docid:
+- id: RFC 9866
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9866
+  type: DOI
+docnumber: RFC9866
+date:
+- type: published
+  value: 2025-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Iwanicki
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: K. Iwanicki
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>By and large, correct operation of a network running the Routing Protocol
+    for Low-Power and Lossy Networks (RPL) requires border routers to be up. In many
+    applications, it is beneficial for the nodes to detect a failure of a border router
+    as soon as possible to trigger fallback actions. This document specifies the Root
+    Node Failure Detector (RNFD), an extension to RPL that expedites detection of
+    border router crashes by having nodes collaboratively monitor the status of a
+    given border router. The extension introduces an additional state at each node,
+    a new type of RPL Control Message Option for synchronizing this state among different
+    nodes, and the coordination algorithm itself.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9866'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: roll
+ext:
+  schema-version: v1.0.1
+  stream: IETF
