@@ -1,0 +1,221 @@
+---
+schema-version: v1.2.3
+id: RFC9860
+title:
+- content: Multicast-Only Fast Reroute (MoFRR) Based on Topology Independent Loop-Free
+    Alternate (TI-LFA) Fast Reroute
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9860
+  type: src
+type: standard
+docid:
+- id: RFC 9860
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9860
+  type: DOI
+docnumber: RFC9860
+date:
+- type: published
+  value: 2025-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "Y"
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Liu
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Liu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McBride
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. McBride
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Zhang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Zhang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xie
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Xie
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document specifies the use of Topology Independent Loop-Free Alternate
+    (TI-LFA) mechanisms with Multicast-only Fast Reroute (MoFRR) for Protocol Independent
+    Multicast (PIM). The TI-LFA provides Fast Reroute (FRR) protection for unicast
+    traffic in IP networks by precomputing backup paths that avoid potential failures.
+    By integrating TI-LFA with MoFRR, this document extends the benefits of FRR mechanisms
+    to multicast traffic, enabling enhanced resilience and minimized packet loss in
+    multicast networks. The document outlines an optional approach to implement TI-LFA
+    in conjunction with MoFRR for PIM, ensuring that multicast traffic is rapidly
+    rerouted in the event of a failure.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9860'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: PIM
+- content: MoFRR
+- content: LFA
+- content: TI-LFA
+- content: SR-MPLS
+- content: SRv6
+- content: RPF Vector
+- content: Join attribute
+editorialgroup:
+- name: pim
+ext:
+  schema-version: v1.0.1
+  stream: IETF

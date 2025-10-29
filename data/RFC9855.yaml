@@ -1,0 +1,249 @@
+---
+schema-version: v1.2.3
+id: RFC9855
+title:
+- content: Topology Independent Fast Reroute Using Segment Routing
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9855
+  type: src
+type: standard
+docid:
+- id: RFC 9855
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9855
+  type: DOI
+docnumber: RFC9855
+date:
+- type: published
+  value: 2025-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bashandy
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Bashandy
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Litkowski
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Litkowski
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Filsfils
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Filsfils
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Francois
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Francois
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Decraene
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Decraene
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Voyer
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Voyer
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document presents Topology Independent Loop-Free Alternate (TI-LFA)
+    Fast Reroute (FRR), which is aimed at providing protection of node and Adjacency
+    segments within the Segment Routing (SR) framework. This FRR behavior builds on
+    proven IP FRR concepts being LFAs, Remote LFAs (RLFAs), and Directed Loop-Free
+    Alternates (DLFAs). It extends these concepts to provide guaranteed coverage in
+    any two-connected networks using a link-state IGP. An important aspect of TI-LFA
+    is the FRR path selection approach establishing protection over the expected post-convergence
+    paths from the Point of Local Repair (PLR), reducing the operational need to control
+    the tie-breaks among various FRR options.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9855'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: TILFA
+- content: LFA
+- content: FRR
+- content: fast reroute
+- content: recovery
+- content: " SR"
+- content: protection
+- content: convergence
+editorialgroup:
+- name: rtgwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
