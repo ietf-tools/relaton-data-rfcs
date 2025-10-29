@@ -1,0 +1,256 @@
+---
+schema-version: v1.2.3
+id: RFC9862
+title:
+- content: Path Computation Element Communication Protocol (PCEP) Extensions for Segment
+    Routing (SR) Policy Candidate Paths
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9862
+  type: src
+type: standard
+docid:
+- id: RFC 9862
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9862
+  type: DOI
+docnumber: RFC9862
+date:
+- type: published
+  value: 2025-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Koldychev
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Koldychev
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sivabalan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sivabalan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sidor
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Sidor
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Barth
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Barth
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peng
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Peng
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bidgoli
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Bidgoli
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>A Segment Routing (SR) Policy is an ordered list of instructions called
+    "segments" that represent a source-routed policy. Packet flows are steered into
+    an SR Policy on a node where it is instantiated. An SR Policy is made of one or
+    more Candidate Paths.</p><p>This document specifies the Path Computation Element
+    Communication Protocol (PCEP) extension to signal Candidate Paths of an SR Policy.
+    Additionally, this document updates RFC 8231 to allow delegation and setup of
+    an SR Label Switched Path (LSP) without using the path computation request and
+    reply messages. This document is applicable to both Segment Routing over MPLS
+    (SR-MPLS) and Segment Routing over IPv6 (SRv6).</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8231
+    docid:
+    - id: RFC8231
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8231
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9862'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: PCEP
+- content: SR Policy
+- content: Candidate Path
+editorialgroup:
+- name: pce
+ext:
+  schema-version: v1.0.1
+  stream: IETF
