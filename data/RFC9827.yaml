@@ -1,0 +1,110 @@
+---
+schema-version: v1.2.3
+id: RFC9827
+title:
+- content: Renaming the Extended Sequence Numbers (ESN) Transform Type in the Internet
+    Key Exchange Protocol Version 2 (IKEv2)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9827
+  type: src
+type: standard
+docid:
+- id: RFC 9827
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9827
+  type: DOI
+docnumber: RFC9827
+date:
+- type: published
+  value: 2025-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: V
+        formatted_initials:
+          content: V.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Smyslov
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: V. Smyslov
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: '<p>This document clarifies and extends the meaning of Transform Type 5
+    in Internet Key Exchange Protocol Version 2 (IKEv2). It updates RFC 7296 by renaming
+    Transform Type 5 from "Extended Sequence Numbers (ESN)" to "Sequence Numbers (SN)".
+    It also renames two currently defined values for this Transform Type: value 0
+    from "No Extended Sequence Numbers" to "32-bit Sequential Numbers" and value 1
+    from "Extended Sequence Numbers" to "Partially Transmitted 64-bit Sequential Numbers".</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7296
+    docid:
+    - id: RFC7296
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7296
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9827'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: replay protection
+- content: anti-replay
+- content: IPsec
+- content: ESP
+- content: AH
+editorialgroup:
+- name: ipsecme
+ext:
+  schema-version: v1.0.1
+  stream: IETF
