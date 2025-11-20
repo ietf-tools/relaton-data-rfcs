@@ -1,0 +1,97 @@
+---
+schema-version: v1.2.3
+id: RFC9891
+title:
+- content: Automated Certificate Management Environment (ACME) Delay-Tolerant Networking
+    (DTN) Node ID Validation Extension
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9891
+  type: src
+type: standard
+docid:
+- id: RFC 9891
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9891
+  type: DOI
+docnumber: RFC9891
+date:
+- type: published
+  value: 2025-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sipos
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Sipos
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: '<p>This document specifies an extension to the Automated Certificate Management
+    Environment (ACME) protocol that allows an ACME server to validate the Delay-Tolerant
+    Networking (DTN) Node ID for an ACME client. A DTN Node ID is an identifier used
+    in the Bundle Protocol (BP) to name a "singleton endpoint": an endpoint that is
+    registered on a single BP Node. The DTN Node ID is encoded both as a certificate
+    Subject Alternative Name (SAN) identity of type otherName with an Other Name form
+    of BundleEID and as an ACME Identifier type "bundleEID".</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9891'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: ACME
+- content: DTN
+editorialgroup:
+- name: acme
+ext:
+  schema-version: v1.0.1
+  stream: IETF
