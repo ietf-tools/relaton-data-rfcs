@@ -1,0 +1,224 @@
+---
+schema-version: v1.2.3
+id: RFC9898
+title:
+- content: Neighbor Discovery Considerations in IPv6 Deployments
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9898
+  type: src
+type: standard
+docid:
+- id: RFC 9898
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9898
+  type: DOI
+docnumber: RFC9898
+date:
+- type: published
+  value: 2025-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: X
+        formatted_initials:
+          content: X.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Xiao
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: X. Xiao
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Vasilenko
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Vasilenko
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Metz
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Metz
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: G. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Buraglio
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Buraglio
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2025-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: |-
+    <p>The Neighbor Discovery (ND) protocol is a critical component of the
+    IPv6 architecture. The protocol uses multicast in many messages. It
+    also assumes a security model where all nodes on a link are trusted.
+    Such a design might be inefficient in some scenarios (e.g., use of
+    multicast in wireless networks) or when nodes are not trustworthy
+    (e.g., public access networks). These security and operational issues
+    and the associated mitigation solutions are documented in more than
+    twenty RFCs. There is a need to track these issues and solutions in a
+    single document.</p><p>To that aim, this document summarizes the published ND issues and
+    then describes how all these issues originate from three causes.
+    Addressing the issues is made simpler by addressing the causes. This
+    document also analyzes the mitigation solutions and demonstrates that
+    isolating hosts into different subnets and links can help to address
+    the three causes. Guidance is provided for selecting a suitable
+    isolation method to prevent potential ND issues.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9898'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: ND
+- content: NDP
+- content: SLACC
+- content: DHCPv6-PD
+- content: host isolation
+editorialgroup:
+- name: v6ops
+ext:
+  schema-version: v1.0.1
+  stream: IETF
