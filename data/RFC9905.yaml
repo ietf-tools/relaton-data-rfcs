@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8624
+id: RFC9905
 title:
-- content: Algorithm Implementation Requirements and Usage Guidance for DNSSEC
+- content: Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8624
+- content: https://www.rfc-editor.org/info/rfc9905
   type: src
 type: standard
 docid:
-- id: RFC 8624
+- id: RFC 9905
   type: IETF
   primary: true
-- id: 10.17487/RFC8624
+- id: 10.17487/RFC9905
   type: DOI
-docnumber: RFC8624
+docnumber: RFC9905
 date:
 - type: published
-  value: 2019-06
+  value: 2025-11
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: P
+          initial: W
         formatted_initials:
-          content: P.
+          content: W.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Wouters
+        content: Hardaker
         language:
         - en
         script:
         - Latn
       completename:
-        content: P. Wouters
+        content: W. Hardaker
         language:
         - en
         script:
@@ -57,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: O
+          initial: W
         formatted_initials:
-          content: O.
+          content: W.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sury
+        content: Kumari
         language:
         - en
         script:
         - Latn
       completename:
-        content: O. Sury
+        content: W. Kumari
         language:
         - en
         script:
@@ -88,44 +88,59 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2019-06
+revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>The DNSSEC protocol makes use of various cryptographic algorithms in
-    order to provide authentication of DNS data and proof of nonexistence. To ensure
-    interoperability between DNS resolvers and DNS authoritative servers, it is necessary
-    to specify a set of algorithm implementation requirements and usage guidelines
-    to ensure that there is at least one algorithm that all implementations support.
-    This document defines the current algorithm implementation requirements and usage
-    guidance for DNSSEC. This document obsoletes RFC 6944.</p>"
+- content: |-
+    <p>This document deprecates the use of the RSASHA1 and
+    RSASHA1-NSEC3-SHA1 algorithms for the creation of DNS Public Key
+    (DNSKEY) and Resource Record Signature (RRSIG) records.</p><p>It updates RFCs 4034 and 5155 as it deprecates the use of these
+    algorithms.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9904
+    id: RFC4034
     docid:
-    - id: RFC9904
+    - id: RFC4034
       type: IETF
       primary: true
     formattedref:
-      content: RFC9904
+      content: RFC4034
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5155
+    docid:
+    - id: RFC5155
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5155
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8624'
+  number: '9905'
 - type: stream
   title:
     content: IETF
     format: text/plain
+keyword:
+- content: DNS
+- content: DNSSEC
+- content: rollover
+- content: agility
+- content: algorithm
+- content: SHA1
 editorialgroup:
 - name: dnsop
 ext:

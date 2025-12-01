@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8624
+id: RFC9906
 title:
-- content: Algorithm Implementation Requirements and Usage Guidance for DNSSEC
+- content: Deprecate Usage of ECC-GOST within DNSSEC
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8624
+- content: https://www.rfc-editor.org/info/rfc9906
   type: src
 type: standard
 docid:
-- id: RFC 8624
+- id: RFC 9906
   type: IETF
   primary: true
-- id: 10.17487/RFC8624
+- id: 10.17487/RFC9906
   type: DOI
-docnumber: RFC8624
+docnumber: RFC9906
 date:
 - type: published
-  value: 2019-06
+  value: 2025-11
 contributor:
 - person:
     name:
@@ -28,21 +28,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: P
+          initial: W
         formatted_initials:
-          content: P.
+          content: W.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Wouters
+        content: Hardaker
         language:
         - en
         script:
         - Latn
       completename:
-        content: P. Wouters
+        content: W. Hardaker
         language:
         - en
         script:
@@ -57,21 +57,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: O
+          initial: W
         formatted_initials:
-          content: O.
+          content: W.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Sury
+        content: Kumari
         language:
         - en
         script:
         - Latn
       completename:
-        content: O. Sury
+        content: W. Kumari
         language:
         - en
         script:
@@ -88,44 +88,37 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2019-06
+revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>The DNSSEC protocol makes use of various cryptographic algorithms in
-    order to provide authentication of DNS data and proof of nonexistence. To ensure
-    interoperability between DNS resolvers and DNS authoritative servers, it is necessary
-    to specify a set of algorithm implementation requirements and usage guidelines
-    to ensure that there is at least one algorithm that all implementations support.
-    This document defines the current algorithm implementation requirements and usage
-    guidance for DNSSEC. This document obsoletes RFC 6944.</p>"
+- content: <p>This document retires the use of GOST R 34.10-2001 (mnemonic "ECC-GOST")
+    and GOST R 34.11-94 within DNSSEC.</p><p>RFC 5933 (Historic) defined the use of
+    GOST R 34.10-2001 and GOST R 34.11-94 algorithms with DNS Security Extensions
+    (DNSSEC). This document updates RFC 5933 by deprecating the use of ECC-GOST.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9904
-    docid:
-    - id: RFC9904
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9904
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '8624'
+  number: '9906'
 - type: stream
   title:
     content: IETF
     format: text/plain
+keyword:
+- content: DNS
+- content: DNSSEC
+- content: GOST
+- content: algorithm
+- content: rollover
+- content: agility
 editorialgroup:
 - name: dnsop
 ext:
