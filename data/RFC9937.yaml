@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC6937
+id: RFC9937
 title:
-- content: Proportional Rate Reduction for TCP
+- content: Proportional Rate Reduction (PRR)
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc6937
+- content: https://www.rfc-editor.org/info/rfc9937
   type: src
 type: standard
 docid:
-- id: RFC 6937
+- id: RFC 9937
   type: IETF
   primary: true
-- id: 10.17487/RFC6937
+- id: 10.17487/RFC9937
   type: DOI
-docnumber: RFC6937
+docnumber: RFC9937
 date:
 - type: published
-  value: 2013-05
+  value: 2025-12
 contributor:
 - person:
     name:
@@ -65,13 +65,13 @@ contributor:
           script:
           - Latn
       surname:
-        content: Dukkipati
+        content: Cardwell
         language:
         - en
         script:
         - Latn
       completename:
-        content: N. Dukkipati
+        content: N. Cardwell
         language:
         - en
         script:
@@ -107,6 +107,35 @@ contributor:
         - Latn
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dukkipati
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Dukkipati
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
 - organization:
     name:
     - content: RFC Publisher
@@ -117,47 +146,38 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2013-05
+revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document describes an experimental Proportional Rate Reduction
-    (PRR) algorithm as an alternative to the widely deployed Fast Recovery and Rate-Halving
-    algorithms. These algorithms determine the amount of data sent by TCP during loss
-    recovery. PRR minimizes excess window adjustments, and the actual window size
-    at the end of recovery will be as close as possible to the ssthresh, as determined
-    by the congestion control algorithm.</p>"
+- content: "<p>This document specifies a Standards Track version of the Proportional
+    Rate Reduction (PRR) algorithm that obsoletes the Experimental version described
+    in RFC 6937. PRR regulates the amount of data sent by TCP or other transport protocols
+    during fast recovery. PRR accurately regulates the actual flight size through
+    recovery such that at the end of recovery it will be as close as possible to the
+    slow start threshold (ssthresh), as determined by the congestion control algorithm.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9937
-    docid:
-    - id: RFC9937
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9937
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '6937'
+  number: '9937'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: TCP loss recovery
-- content: packet conservation
+- content: loss recovery
+- content: SACK
 - content: self clock
+- content: fast retransmit
+- content: fast recovery
 editorialgroup:
 - name: tcpm
 ext:
