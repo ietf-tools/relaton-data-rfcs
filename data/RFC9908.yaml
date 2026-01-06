@@ -1,0 +1,211 @@
+---
+schema-version: v1.2.3
+id: RFC9908
+title:
+- content: Clarification and Enhancement of the CSR Attributes Definition in RFC 7030
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9908
+  type: src
+type: standard
+docid:
+- id: RFC 9908
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9908
+  type: DOI
+docnumber: RFC9908
+date:
+- type: published
+  value: 2026-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richardson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Richardson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: O
+        formatted_initials:
+          content: O.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Friel
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: O. Friel
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: von Oheimb
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. von Oheimb
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Harkins
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Harkins
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: '<p>This document updates RFC 7030, "Enrollment over Secure Transport"
+    (EST), clarifying how the Certificate Signing Request (CSR) Attributes Response
+    can be used by an EST server to specify both CSR attribute Object Identifiers
+    (OIDs) and CSR attribute values, particularly X.509 extension values, that the
+    server expects the client to include in a subsequent CSR request. RFC 9148 is
+    derived from RFC 7030 and is also updated.</p><p>RFC 7030 is ambiguous in its
+    specification of the CSR Attributes Response. This has resulted in implementation
+    challenges and implementor confusion because there was no universal understanding
+    of what was specified. This document clarifies the encoding rules.</p><p>This
+    document also provides a new straightforward approach: using a template for CSR
+    contents that may be partially filled in by the server. This also allows an EST
+    server to specify a subject Distinguished Name (DN).</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7030
+    docid:
+    - id: RFC7030
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7030
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9148
+    docid:
+    - id: RFC9148
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9148
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9908'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: SubjectAltName
+- content: SAN
+- content: Certificate Extensions
+- content: Certificate Signing Request
+editorialgroup:
+- name: lamps
+ext:
+  schema-version: v1.0.1
+  stream: IETF
