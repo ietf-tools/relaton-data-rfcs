@@ -1,0 +1,174 @@
+---
+schema-version: v1.2.3
+id: RFC9917
+title:
+- content: IGP Flexible Algorithms Reverse Affinity Constraint
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9917
+  type: src
+type: standard
+docid:
+- id: RFC 9917
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9917
+  type: DOI
+docnumber: RFC9917
+date:
+- type: published
+  value: 2026-01
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Psenak
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Psenak
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Horn
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Horn
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dhamija
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Dhamija
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-01
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>An IGP Flexible Algorithm (Flex-Algorithm) enables the computation
+    of constraint-based paths within an IGP domain, allowing operators to influence
+    path selection according to administrative policies. This document defines an
+    extension to Flex-Algorithm that allows the inclusion or exclusion of links from
+    path computation based on Administrative Groups (also known as link affinities)
+    associated with the reverse direction of the path under computation.</p><p>This
+    document updates RFCs 9350 and 9843 by introducing the new IANA registry that
+    specifies the ordered set of rules that are used to prune links from the topology
+    during the Flex-Algorithm path computation.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC9350
+    docid:
+    - id: RFC9350
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9350
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9843
+    docid:
+    - id: RFC9843
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9843
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9917'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: lsr
+ext:
+  schema-version: v1.0.1
+  stream: IETF
