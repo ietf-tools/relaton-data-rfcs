@@ -1,0 +1,146 @@
+---
+schema-version: v1.2.3
+id: RFC9926
+title:
+- content: Prefix Registration for IPv6 Neighbor Discovery
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9926
+  type: src
+type: standard
+docid:
+- id: RFC 9926
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9926
+  type: DOI
+docnumber: RFC9926
+date:
+- type: published
+  value: 2026-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Thubert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document updates IPv6 Neighbor Discovery (RFC 4861) and IPv6 Subnet
+    Neighbor Discovery (RFC 8505, RFC 8928) to enable a node that owns or is directly
+    connected to a prefix to register that prefix to neighbor routers. The registration
+    indicates that the registered prefix can be reached via the advertising node without
+    a loop. The unicast prefix registration allows the node to request one or more
+    neighbor routers to redistribute the prefix in another routing domain regardless
+    of the routing protocol used in that domain. This document updates the Routing
+    Protocol for Low-Power and Lossy Networks (RPL), as specified in RFCs 6550 and
+    9010, to enable a 6LoWPAN Router (6LR) to inject the registered prefix in RPL.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4861
+    docid:
+    - id: RFC4861
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4861
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6550
+    docid:
+    - id: RFC6550
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6550
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8505
+    docid:
+    - id: RFC8505
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8505
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8928
+    docid:
+    - id: RFC8928
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8928
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9010
+    docid:
+    - id: RFC9010
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9010
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9926'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: 6lo
+ext:
+  schema-version: v1.0.1
+  stream: IETF
