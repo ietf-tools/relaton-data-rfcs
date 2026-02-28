@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC3934
+id: RFC9930
 title:
-- content: Updates to RFC 2418 Regarding the Management of IETF Mailing Lists
+- content: Tunnel Extensible Authentication Protocol (TEAP) Version 1
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3934
+- content: https://www.rfc-editor.org/info/rfc9930
   type: src
 type: standard
 docid:
-- id: RFC 3934
+- id: RFC 9930
   type: IETF
   primary: true
-- id: 10.17487/RFC3934
+- id: 10.17487/RFC9930
   type: DOI
-docnumber: RFC3934
+docnumber: RFC9930
 date:
 - type: published
-  value: 2004-10
+  value: 2026-02
 contributor:
 - person:
     name:
@@ -28,27 +28,27 @@ contributor:
           - en
           script:
           - Latn
-          initial: M
+          initial: A
         formatted_initials:
-          content: M.
+          content: A.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Wasserman
+        content: DeKok
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Wasserman
+        content: A. DeKok
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - organization:
     name:
     - content: RFC Publisher
@@ -59,58 +59,46 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2004-10
+revdate: 2026-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document is an update to RFC 2418 that gives WG chairs explicit
-    responsibility for managing WG mailing lists. In particular, it gives WG chairs
-    the authority to temporarily suspend the mailing list posting privileges of disruptive
-    individuals. This document specifies an Internet Best Current Practices for the
-    Internet Community, and requests discussion and suggestions for improvements.</p>"
+- content: "<p>This document defines the Tunnel Extensible Authentication Protocol
+    (TEAP) version 1. TEAP is a tunnel-based EAP method that enables secure communication
+    between a peer and a server by using the Transport Layer Security (TLS) protocol
+    to establish a mutually authenticated tunnel. Within the tunnel, TLV objects are
+    used to convey authentication-related data between the EAP peer and the EAP server.
+    This document obsoletes RFC 7170 and updates RFC 9427 by moving all TEAP specifications
+    from those documents to this one.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9945
-    docid:
-    - id: RFC9945
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9945
-      format: text/plain
 - type: updates
   bibitem:
-    id: RFC2418
+    id: RFC9427
     docid:
-    - id: RFC2418
+    - id: RFC9427
       type: IETF
       primary: true
     formattedref:
-      content: RFC2418
+      content: RFC9427
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '3934'
+  number: '9930'
 - type: stream
   title:
     content: IETF
     format: text/plain
-keyword:
-- content: BCP
-- content: WG
-- content: escape
-- content: clause
-- content: procedures
+editorialgroup:
+- name: emu
 ext:
   schema-version: v1.0.1
   stream: IETF
