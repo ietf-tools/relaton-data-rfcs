@@ -1,0 +1,115 @@
+---
+schema-version: v1.2.3
+id: RFC9931
+title:
+- content: Security Considerations for Optimistic Protocol Transitions in HTTP/1.1
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9931
+  type: src
+type: standard
+docid:
+- id: RFC 9931
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9931
+  type: DOI
+docnumber: RFC9931
+date:
+- type: published
+  value: 2026-03
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schwartz
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Schwartz
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-03
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>In HTTP/1.1, the client can request a change to a new protocol on the
+    existing connection. This document discusses the security considerations that
+    apply to data sent by the client before this request is confirmed and adds new
+    requirements to RFCs 9112 and 9298 to avoid related security issues.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC9112
+    docid:
+    - id: RFC9112
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9112
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9298
+    docid:
+    - id: RFC9298
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9298
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9931'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Request Smuggling
+- content: False Start
+- content: HTTP CONNECT
+editorialgroup:
+- name: httpbis
+ext:
+  schema-version: v1.0.1
+  stream: IETF
