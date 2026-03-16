@@ -1,21 +1,22 @@
 ---
 schema-version: v1.2.3
-id: RFC9938
+id: RFC9907
 title:
-- content: A Framework for the Deterministic Networking (DetNet) Controller Plane
+- content: Guidelines for Authors and Reviewers of Documents Containing YANG Data
+    Models
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc9938
+- content: https://www.rfc-editor.org/info/rfc9907
   type: src
 type: standard
 docid:
-- id: RFC 9938
+- id: RFC 9907
   type: IETF
   primary: true
-- id: 10.17487/RFC9938
+- id: 10.17487/RFC9907
   type: DOI
-docnumber: RFC9938
+docnumber: RFC9907
 date:
 - type: published
   value: 2026-03
@@ -36,48 +37,19 @@ contributor:
           script:
           - Latn
       surname:
-        content: Malis
+        content: Bierman
         language:
         - en
         script:
         - Latn
       completename:
-        content: A. Malis
+        content: A. Bierman
         language:
         - en
         script:
         - Latn
   role:
   - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: X
-        formatted_initials:
-          content: X.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Geng
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: X. Geng
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: editor
 - person:
     name:
       given:
@@ -94,19 +66,19 @@ contributor:
           script:
           - Latn
       surname:
-        content: Chen
+        content: Boucadair
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Chen
+        content: M. Boucadair
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - person:
     name:
       given:
@@ -115,50 +87,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: B
+          initial: Q
         formatted_initials:
-          content: B.
+          content: Q.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Varga
+        content: Wu
         language:
         - en
         script:
         - Latn
       completename:
-        content: B. Varga
-        language:
-        - en
-        script:
-        - Latn
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: CJ
-        formatted_initials:
-          content: CJ.
-          language:
-          - en
-          script:
-          - Latn
-      surname:
-        content: Bernardos
-        language:
-        - en
-        script:
-        - Latn
-      completename:
-        content: CJ. Bernardos
+        content: Q. Wu
         language:
         - en
         script:
@@ -181,29 +124,48 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document provides a framework overview for the Deterministic Networking
-    (DetNet) Controller Plane. It discusses concepts and requirements for the DetNet
-    Controller Plane, which could be the basis for a future solution specification.</p>"
+- content: "<p>This document provides guidelines for authors and reviewers of specifications
+    containing YANG data models, including IANA-maintained YANG modules. Recommendations
+    and procedures are defined, which are intended to increase interoperability and
+    usability of Network Configuration Protocol (NETCONF) and RESTCONF protocol implementations
+    that utilize YANG modules.</p><p>This document obsoletes RFC 8407; it also updates
+    RFC 8126 by providing additional guidelines for writing the IANA considerations
+    for RFCs that specify IANA-maintained YANG modules.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8126
+    docid:
+    - id: RFC8126
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8126
+      format: text/plain
 series:
+- title:
+    content: BCP
+    format: text/plain
+  number: '216'
 - title:
     content: RFC
     format: text/plain
-  number: '9938'
+  number: '9907'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: DetNet
-- content: Controller plane
-- content: SDN
+- content: NETCONF
+- content: RESTCONF
+- content: Automation
 editorialgroup:
-- name: detnet
+- name: netmod
 ext:
   schema-version: v1.0.1
   stream: IETF
