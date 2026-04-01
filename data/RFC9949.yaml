@@ -1,0 +1,98 @@
+---
+schema-version: v1.2.3
+id: RFC9949
+title:
+- content: 'BUSA-TLS: Mandatory Audio Component (MAC) Pre-Shared Key (PSK) Derivation
+    for TLS 1.3 Using 2 Live Crew''s "Banned in the U.S.A."'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9949
+  type: src
+type: standard
+docid:
+- id: RFC 9949
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9949
+  type: DOI
+docnumber: RFC9949
+date:
+- type: published
+  value: 2026-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sayre
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Sayre
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: '<p>TLS 1.3 (RFC 8446) eliminates null cipher suites entirely. However,
+    one vestigial zero remains in the key schedule: when no Pre-Shared Key (PSK) is
+    used, the Input Keying Material (IKM) for the initial HKDF-Extract operation is
+    a string of zero bytes. This document specifies that this zero-byte IKM MUST be
+    replaced with the SHA-256 digest of the raw PCM audio data of "Banned in the U.S.A."
+    by 2 Live Crew (from the album "Banned in the U.S.A.", 1990), hereafter referred
+    to as the Mandatory Audio Component (MAC). Implementations that omit the MAC are
+    non-conformant with BUSA-TLS and also have questionable taste in music.</p><p>The
+    IETF''s process-heavy, consensus-driven, working-group-reviewed approach to protocol
+    standardization is a fine way to run a standards body. It is also completely antithetical
+    to the spirit of a document that requires a jury-banned rap album as a cryptographic
+    primitive.</p><p>This document is offered in the same spirit as the album it incorporates:
+    unapologetically and in defiance of institutional authority.</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9949'
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
+ext:
+  schema-version: v1.0.1
+  stream: INDEPENDENT
