@@ -1,0 +1,133 @@
+---
+schema-version: v1.2.3
+id: RFC9932
+title:
+- content: Mutually Authenticating TLS in the Context of Federations
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9932
+  type: src
+type: standard
+docid:
+- id: RFC 9932
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9932
+  type: DOI
+docnumber: RFC9932
+date:
+- type: published
+  value: 2026-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Halén
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Halén
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schlyter
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Schlyter
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This Informational Independent Submission to the RFC Series describes
+    a means to use TLS 1.3 to perform machine-to-machine mutual authentication within
+    federations. This memo is not a standard. It does not modify the TLS protocol
+    in any way, nor does it require changes to common TLS libraries. TLS is specified
+    and standardized by the IETF's TLS Working Group.</p><p>The framework enables
+    interoperable trust management for federated machine-to-machine communication.
+    It introduces a centrally managed trust anchor and a controlled metadata publication
+    process, ensuring that only authorized members are identifiable within the federation.
+    These mechanisms support unambiguous entity identification and reduce the risk
+    of impersonation, promoting secure and policy-aligned interaction across organizational
+    boundaries.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9932'
+- type: stream
+  title:
+    content: INDEPENDENT
+    format: text/plain
+keyword:
+- content: machine-to-machine
+- content: trust framework
+- content: mutual TLS
+- content: mTLS
+- content: public key pinning
+- content: SPKI
+- content: federation metadata
+- content: federation
+ext:
+  schema-version: v1.0.1
+  stream: INDEPENDENT
