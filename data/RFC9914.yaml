@@ -1,0 +1,199 @@
+---
+schema-version: v1.2.3
+id: RFC9914
+title:
+- content: Root-Initiated Routing State in the Routing Protocol for Low-Power and
+    Lossy Networks (RPL)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9914
+  type: src
+type: standard
+docid:
+- id: RFC 9914
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9914
+  type: DOI
+docnumber: RFC9914
+date:
+- type: published
+  value: 2026-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Thubert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: R.A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jadhav
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R.A. Jadhav
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Richardson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Richardson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Routing Protocol for Low-Power and Lossy Networks (RPL) (RFC 6550)
+    enables data packet routing along a Destination-Oriented Directed Acyclic Graph
+    (DODAG). However, the default route establishment mechanism relies on hop-by-hop
+    forwarding along the DODAG, which may not always provide optimal routing efficiency.
+    This document introduces the concept of Destination Advertisement Object (DAO)
+    Projection, a mechanism that allows a RPL Root or an external controller to install
+    optimized routes within the RPL domain. DAO Projections enable the creation of
+    optimized unicast or multicast routes that do not strictly follow the DODAG structure,
+    thereby improving routing efficiency, reliability, availability, and resource
+    utilization in the RPL domain. This document specifies two types of Projected
+    Routes (P-Routes) -- Storing Mode and Non-Storing Mode -- and outlines the signaling
+    procedures necessary to establish, maintain, and remove these routes. This document
+    updates RFCs 6550, 6553, and 8138.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC6550
+    docid:
+    - id: RFC6550
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6550
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6553
+    docid:
+    - id: RFC6553
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6553
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8138
+    docid:
+    - id: RFC8138
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8138
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9914'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: IOT
+- content: SDN
+- content: DetNet
+- content: RAW
+editorialgroup:
+- name: roll
+ext:
+  schema-version: v1.0.1
+  stream: IETF

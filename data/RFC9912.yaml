@@ -1,0 +1,97 @@
+---
+schema-version: v1.2.3
+id: RFC9912
+title:
+- content: Reliable and Available Wireless (RAW) Architecture
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9912
+  type: src
+type: standard
+docid:
+- id: RFC 9912
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9912
+  type: DOI
+docnumber: RFC9912
+date:
+- type: published
+  value: 2026-04
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thubert
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Thubert
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Reliable and Available Wireless (RAW) extends the reliability and availability
+    of Deterministic Networking (DetNet) to networks composed of any combination of
+    wired and wireless segments. The RAW architecture leverages and extends RFC 8655
+    ("Deterministic Networking Architecture") to adapt to challenges that prominently
+    affect the wireless medium, notably intermittent transmission loss. This document
+    defines a network control loop that optimizes the use of constrained bandwidth
+    and energy while ensuring the expected DetNet services. The loop involves a new
+    Point of Local Repair (PLR) function in the DetNet Service sub-layer that dynamically
+    selects the DetNet path(s) for packets to route around local connectivity degradation.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9912'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: DetNet
+editorialgroup:
+- name: detnet
+ext:
+  schema-version: v1.0.1
+  stream: IETF
