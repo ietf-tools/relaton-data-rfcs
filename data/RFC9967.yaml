@@ -1,0 +1,209 @@
+---
+schema-version: v1.2.3
+id: RFC9967
+title:
+- content: System for Cross-Domain Identity Management (SCIM) Profile for Security
+    Event Tokens (SETs)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9967
+  type: src
+type: standard
+docid:
+- id: RFC 9967
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9967
+  type: DOI
+docnumber: RFC9967
+date:
+- type: published
+  value: 2026-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Hunt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Hunt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Cam-Winget
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Cam-Winget
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Kiser
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Kiser
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Schreiber
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Schreiber
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This specification defines a set of System for Cross-domain Identity
+    Management (SCIM) Security Events using the Security Event Token (SET) specification
+    (RFC 8417) to enable the asynchronous exchange of messages between SCIM service
+    providers and receivers.</p><p>This specification updates RFC 7643 by defining
+    additional attributes for the "urn:ietf:params:scim:schemas:core:2.0:ServiceProviderConfig"
+    schema, and it updates RFC 7644 with an optional new asynchronous SCIM request
+    capability.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7643
+    docid:
+    - id: RFC7643
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7643
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7644
+    docid:
+    - id: RFC7644
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7644
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9967'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Identity
+- content: Event
+- content: SET
+- content: Provisioning
+- content: Token
+- content: SCIM
+editorialgroup:
+- name: scim
+ext:
+  schema-version: v1.0.1
+  stream: IETF
