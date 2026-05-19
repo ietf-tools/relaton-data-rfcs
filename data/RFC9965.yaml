@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.3
+id: RFC9965
+title:
+- content: The eap.arpa. Domain and Extensible Authentication Protocol (EAP) Provisioning
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9965
+  type: src
+type: standard
+docid:
+- id: RFC 9965
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9965
+  type: DOI
+docnumber: RFC9965
+date:
+- type: published
+  value: 2026-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: DeKok
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. DeKok
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>This document defines the eap.arpa. domain for use only in Network Access
+    Identifiers (NAIs) as a way for Extensible Authentication Protocol (EAP) peers
+    to signal to EAP servers that they wish to obtain limited, and unauthenticated,
+    network access. EAP peers signal which kind of access is required via certain
+    predefined identifiers that use the NAI format of RFC 7542. A table of identifiers
+    and meanings is defined, which includes entries for RFC 9140.</p><p>This document
+    updates RFCs 5216 and 9190 to define an unauthenticated provisioning method. Those
+    specifications suggest that such a method is possible, but they do not define
+    how it would be done. This document also updates RFC 9140 to deprecate "eap-noob.arpa"
+    and replace it with "@noob.eap.arpa".</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5216
+    docid:
+    - id: RFC5216
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5216
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9140
+    docid:
+    - id: RFC9140
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9140
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9190
+    docid:
+    - id: RFC9190
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9190
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9965'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: emu
+ext:
+  schema-version: v1.0.1
+  stream: IETF
