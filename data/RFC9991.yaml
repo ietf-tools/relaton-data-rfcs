@@ -1,25 +1,25 @@
 ---
 schema-version: v1.2.3
-id: RFC9091
+id: RFC9991
 title:
-- content: Experimental Domain-Based Message Authentication, Reporting, and Conformance
-    (DMARC) Extension for Public Suffix Domains
+- content: Domain-Based Message Authentication, Reporting, and Conformance (DMARC)
+    Failure Reporting
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc9091
+- content: https://www.rfc-editor.org/info/rfc9991
   type: src
 type: standard
 docid:
-- id: RFC 9091
+- id: RFC 9991
   type: IETF
   primary: true
-- id: 10.17487/RFC9091
+- id: 10.17487/RFC9991
   type: DOI
-docnumber: RFC9091
+docnumber: RFC9991
 date:
 - type: published
-  value: 2021-07
+  value: 2026-05
 contributor:
 - person:
     name:
@@ -37,19 +37,19 @@ contributor:
           script:
           - Latn
       surname:
-        content: Kitterman
+        content: Jones
         language:
         - en
         script:
         - Latn
       completename:
-        content: S. Kitterman
+        content: S. Jones
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - person:
     name:
       given:
@@ -58,21 +58,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: T
+          initial: A
         formatted_initials:
-          content: T.
+          content: A.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Wicinski
+        content: Vesely
         language:
         - en
         script:
         - Latn
       completename:
-        content: T. Wicinski
+        content: A. Vesely
         language:
         - en
         script:
@@ -89,51 +89,50 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2021-07
+revdate: 2026-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC),
-    defined in RFC 7489, permits a domain-controlling organization to express domain-level
-    policies and preferences for message validation, disposition, and reporting, which
-    a mail-receiving organization can use to improve mail handling.</p><p>DMARC distinguishes
-    the portion of a name that is a Public Suffix Domain (PSD), below which Organizational
-    Domain names are created. The basic DMARC capability allows Organizational Domains
-    to specify policies that apply to their subdomains, but it does not give that
-    capability to PSDs. This document describes an extension to DMARC to fully enable
-    DMARC functionality for PSDs.</p><p>Some implementations of DMARC consider a PSD
-    to be ineligible for DMARC enforcement. This specification addresses that case.</p>"
+- content: '<p>Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+    is a mechanism by which a Domain Owner can request feedback about email messages
+    using their domain in the From: address field. This document describes "failure
+    reports", or "failed message reports", which provide details about individual
+    messages that failed to authenticate according to the DMARC mechanism.</p><p>This
+    document updates RFC 6591 and obsoletes RFC 7489.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC9989
+    id: RFC6591
     docid:
-    - id: RFC9989
+    - id: RFC6591
       type: IETF
       primary: true
     formattedref:
-      content: RFC9989
+      content: RFC6591
       format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '9091'
+  number: '9991'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
 - content: DMARC
-- content: email authentication
-- content: TLD
+- content: DKIM
+- content: SPF
+- content: feedback
+- content: Email Authentication
+- content: Failure report
 editorialgroup:
 - name: dmarc
 ext:
