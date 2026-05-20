@@ -214,6 +214,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This document describes how to implement certain mechanisms in\r\nSigComp
+    (Signaling Compression), RFC XXX, which can significantly\r\nimprove the compression
+    efficiency compared to using simple per-\r\nmessage compression.\r\nSigComp uses
+    a UDVM (Universal Decompressor Virtual Machine) for\r\ndecompression, and the
+    mechanisms described in this document are\r\npossible to implement using the UDVM
+    instructions defined in RFC XXX.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

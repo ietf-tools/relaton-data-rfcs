@@ -64,6 +64,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This document is being written because there are a number of\r\nfirewalls
+    in the Internet that inappropriately reset a TCP connection\r\nupon receiving
+    certain TCP SYN packets, in particular, packets with\r\nflags set in the Reserved
+    field of the TCP header. In this document\r\nwe argue that this practice is not
+    conformant with TCP standards, and\r\nis an inappropriate overloading of the semantics
+    of the TCP reset.\r\nWe also consider the longer-term consequences of this and
+    similar\r\nactions as obstacles to the evolution of the Internet infrastructure.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: BCP

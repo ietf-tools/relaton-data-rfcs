@@ -1,0 +1,107 @@
+---
+schema-version: v1.2.3
+id: RFC822
+title:
+- content: STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc822
+  type: src
+type: standard
+docid:
+- id: RFC 822
+  type: IETF
+  primary: true
+- id: 10.17487/RFC0822
+  type: DOI
+docnumber: RFC822
+date:
+- type: published
+  value: 1982-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Crocker
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Crocker
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 1982-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document revises the specifications in RFC 733, in order to serve
+    the needs of the larger and more complex ARPA Internet. Some of RFC 733's features
+    failed to gain adequate acceptance. In order to simplify the standard and the
+    software that follows it, these features have been removed. A different addressing
+    scheme is used, to handle the case of internetwork mail; and the concept of re-transmission
+    has been introduced. Obsoletes RFC 733, NIC 41952.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC2822
+    docid:
+    - id: RFC2822
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC2822
+      format: text/plain
+series:
+- title:
+    content: STD
+    format: text/plain
+  number: '11'
+- title:
+    content: RFC
+    format: text/plain
+  number: '822'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
+keyword:
+- content: MAIL
+ext:
+  schema-version: v1.0.1
+  stream: Legacy

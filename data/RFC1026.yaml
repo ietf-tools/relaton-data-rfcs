@@ -80,16 +80,6 @@ abstract:
 relation:
 - type: obsoletedBy
   bibitem:
-    id: RFC2156
-    docid:
-    - id: RFC2156
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC2156
-      format: text/plain
-- type: obsoletedBy
-  bibitem:
     id: RFC1327
     docid:
     - id: RFC1327
@@ -98,15 +88,25 @@ relation:
     formattedref:
       content: RFC1327
       format: text/plain
-- type: updates
+- type: obsoletedBy
   bibitem:
-    id: RFC0987
+    id: RFC2156
     docid:
-    - id: RFC0987
+    - id: RFC2156
       type: IETF
       primary: true
     formattedref:
-      content: RFC0987
+      content: RFC2156
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC987
+    docid:
+    - id: RFC987
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC987
       format: text/plain
 series:
 - title:

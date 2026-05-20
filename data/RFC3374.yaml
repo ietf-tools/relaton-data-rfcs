@@ -65,6 +65,24 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>In IP access networks that support host mobility, the routing paths
+    \r\nbetween the host and the network may change frequently and rapidly. \r\nIn
+    some cases, the host may establish certain routing-related \r\nservices on subnets
+    that are left behind when the host moves. \r\nExamples of such services are AAA,
+    header compression, and QoS. In \r\norder for the host to obtain those services
+    on the new subnet, the \r\nhost must explicitly re-establish the service by performing
+    the \r\nnecessary signaling flows from scratch. In some cases, this process \r\nwould
+    considerably slow the process of establishing the mobile host \r\non the new subnet.
+    An alternative is to transfer information on the \r\nexisting state associated
+    with these services, or context, to the \r\nnew subnet, a process called 'context
+    transfer'. This document \r\ndiscusses the desirability of context transfer for
+    facilitating \r\nseamless IP mobility.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

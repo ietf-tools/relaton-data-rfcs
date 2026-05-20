@@ -152,6 +152,30 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>Cyclic redundancy check (CRC) codes [Peterson] are shortened \r\ncyclic
+    codes used for error detection. A number of CRC codes have \r\nbeen adopted in
+    standards: ATM, IEC, IEEE, CCITT, IBM-SDLC, and \r\nmore [Baicheva]. The most
+    important expectation from this kind \r\nof code is a very low probability for
+    undetected errors. The \r\nprobability of undetected errors in such codes has
+    been, and \r\nstill is, subject to extensive studies that have included both \r\nanalytical
+    models and simulations. Those codes have been used \r\nextensively in communications
+    and magnetic recording as they \r\ndemonstrate good 'burst error' detection capabilities,
+    but are \r\nalso good at detecting several independent bit errors. Hardware \r\nimplementations
+    are very simple and well known; their simplicity \r\nhas made them popular with
+    hardware developers for many years. \r\nHowever, algorithms and software for effective
+    implementations of \r\nCRC are now also widely available [Williams]. \r\nThe probability
+    of undetected errors depends on the polynomial \r\nselected to generate the code,
+    the error distribution (error \r\nmodel), and the data length. \r\nIn this memo,
+    we attempt to give some estimates for the \r\nprobability of undetected errors
+    to facilitate the selection of \r\nan error detection code for iSCSI. \r\nWe will
+    also attempt to compare CRCs with other checksum forms \r\n(Fletcher, Adler, weighted
+    checksums), as permitted by available \r\ndata.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

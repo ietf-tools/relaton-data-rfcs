@@ -82,6 +82,16 @@ abstract:
 relation:
 - type: obsoletedBy
   bibitem:
+    id: RFC1327
+    docid:
+    - id: RFC1327
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC1327
+      format: text/plain
+- type: obsoletedBy
+  bibitem:
     id: RFC2156
     docid:
     - id: RFC2156
@@ -90,15 +100,25 @@ relation:
     formattedref:
       content: RFC2156
       format: text/plain
-- type: obsoletedBy
+- type: updates
   bibitem:
-    id: RFC1327
+    id: RFC822
     docid:
-    - id: RFC1327
+    - id: RFC822
       type: IETF
       primary: true
     formattedref:
-      content: RFC1327
+      content: RFC822
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC987
+    docid:
+    - id: RFC987
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC987
       format: text/plain
 - type: updates
   bibitem:
@@ -112,16 +132,6 @@ relation:
       format: text/plain
 - type: updates
   bibitem:
-    id: RFC0987
-    docid:
-    - id: RFC0987
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC0987
-      format: text/plain
-- type: updates
-  bibitem:
     id: RFC1138
     docid:
     - id: RFC1138
@@ -129,16 +139,6 @@ relation:
       primary: true
     formattedref:
       content: RFC1138
-      format: text/plain
-- type: updates
-  bibitem:
-    id: RFC0822
-    docid:
-    - id: RFC0822
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC0822
       format: text/plain
 series:
 - title:

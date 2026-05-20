@@ -94,6 +94,22 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>The REGISTER function is used in a SIP system primarily to associate\r\na
+    temporary contact address with an address-of-record. This contact\r\nis generally
+    in the form of a URI, such as Contact:\r\n and is generally dynamic and associated\r\nwith
+    the IP address or hostname of the SIP UA. The problem is that\r\nnetwork topology
+    may have one or more SIP proxies between the UA and\r\nthe registrar, such that
+    any request travelling from the user's home\r\nnetwork to the registered UA must
+    traverse these proxies. The\r\nREGISTER method does not give us a mechanism to
+    discover and record\r\nthis sequence of proxies in the registrar for future use.
+    This\r\ndocument defines an extension header field, 'Path' which provides\r\nsuch
+    a mechanism</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

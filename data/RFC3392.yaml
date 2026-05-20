@@ -93,6 +93,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>Currently BGP-4 requires that when a BGP speaker receives an OPEN\r\nmessage
+    with one or more unrecognized Optional Parameters, the\r\nspeaker must terminate
+    BGP peering. This complicates introduction of\r\nnew capabilities in BGP.\r\nThis
+    document defines new Optional Parameter, called Capabilities,\r\nthat is expected
+    to facilitate introduction of new capabilities in\r\nBGP by providing graceful
+    capability advertisement without requiring\r\nthat BGP peering be terminated.\r\nThis
+    document obsoletes RFC2842.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 relation:
 - type: obsoletedBy
   bibitem:

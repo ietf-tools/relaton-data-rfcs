@@ -93,6 +93,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This document specifies the processing rules for DHCPv4 options\r\nthat
+    appear multiple times in the same message. Multiple\r\ninstances of the same option
+    are generated when an option exceeds\r\n255 octets in size (the maximum size of
+    a single option) or when\r\nan option needs to be split apart in order to take
+    advantage of\r\nDHCP option overloading. When multiple instances of the same\r\noption
+    appear in the options, file and/or sname fields in a DHCP\r\npacket, the contents
+    of these options are concatenated together\r\nto form a single option prior to
+    processing.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 relation:
 - type: updates
   bibitem:

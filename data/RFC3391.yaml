@@ -64,6 +64,28 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>The Application/Vnd.pwg-multiplexed content-type, like the\r\nMultipart/Related
+    content-type, provides a mechanism for representing\r\nobjects that consist of
+    multiple components. An Application/Vnd.pwg-\r\nmultiplexed entity contains a
+    sequence of chunks. Each chunk contains\r\na MIME message or a part of a MIME
+    message. Each MIME message\r\nrepresents a component of the compound object, just
+    as a body part of\r\na Multipart/Related entity represents a component. With a\r\nMultipart/Related
+    entity, a body part and its reference in some other\r\nbody part may be separated
+    by many octets. With an\r\nApplication/Vnd.pwg-multiplexed entity, a message and
+    its reference\r\nin some other message can be made quite close by chunking the
+    message\r\ncontaining the reference. For example, if a long message contains\r\nreferences
+    to images and the producer does not know of the need for\r\neach image until it
+    generates the reference, then\r\nApplication/Vnd.pwg-multiplexed allows the consumer
+    to process the\r\nreference to the image and the image before it consumes the
+    entire\r\nlong message. This ability is important in printing and scanning\r\napplications.
+    This document defines the Application/Vnd.pwg-\r\nmultiplexed content-type. It
+    also provides examples of its use.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

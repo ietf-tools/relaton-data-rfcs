@@ -64,6 +64,18 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This specification defines the new UPDATE method for the Session\r\nInitiation
+    Protocol (SIP). UPDATE allows a client to update\r\nparameters of a session (such
+    as the set of media streams and their\r\ncodecs) but has no impact on the state
+    of a dialog. In that sense, it\r\nis like a re-INVITE, but can be sent before
+    the initial INVITE has\r\ncompleted. This makes it very useful for updating session
+    parameters\r\nwithin early dialogs.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

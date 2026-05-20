@@ -209,6 +209,19 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This document defines SigComp, a solution for compressing messages\r\ngenerated
+    by application protocols such as SIP [RFC-2543] and RTSP\r\n[RFC-2326]. The architecture
+    and pre-requisites of SigComp are\r\noutlined, along with the format of the SigComp
+    message.\r\nDecompression functionality for SigComp is provided by a 'Universal\r\nDecompressor
+    Virtual Machine' optimized for the task of running\r\ndecompression algorithms.
+    The UDVM can be configured to understand\r\nthe output of many well-known compressors
+    such as DEFLATE [RFC-1951].</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

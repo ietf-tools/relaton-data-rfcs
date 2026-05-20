@@ -64,6 +64,20 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This draft describes an optional extension to IS-IS protocol, used\r\ntoday
+    by several ISPs for routing within their clouds. IS-IS is an\r\ninterior gateway
+    routing protocol developed originally by OSI and\r\nused with IP extensions as
+    IGP. IS-IS originally does not provide\r\nCSNP and PSNP checksums, relying on
+    the underlying layers to verify\r\nthe integrity of information provided. Experience
+    with the protocol\r\nshows that this precondition does not always hold and scenarios\r\ncan
+    be imagined that impact protocol functionality. This document\r\nintroduces a
+    new optional TLV providing checksums.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 series:
 - title:
     content: RFC

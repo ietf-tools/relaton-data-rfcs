@@ -1,0 +1,100 @@
+---
+schema-version: v1.2.3
+id: RFC844
+title:
+- content: Who talks ICMP, too? - Survey of 18 February 1983
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc844
+  type: src
+type: standard
+docid:
+- id: RFC 844
+  type: IETF
+  primary: true
+- id: 10.17487/RFC0844
+  type: DOI
+docnumber: RFC844
+date:
+- type: published
+  value: 1983-02
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: R
+        formatted_initials:
+          content: R.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Clements
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: R. Clements
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 1983-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This survey determines how many hosts are able to respond to TELENET
+    connections from a user at a class C site. This requires, in addition to IP and
+    TCP, participation in gateway routing via ICMP and handling of Class C addresses.
+    The list of hosts was taken from RFC 843, extracting only those hosts which are
+    listed there as accepting TELNET connection. The tests were run on 18-Feb-83.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC843
+    docid:
+    - id: RFC843
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC843
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '844'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
+ext:
+  schema-version: v1.0.1
+  stream: Legacy

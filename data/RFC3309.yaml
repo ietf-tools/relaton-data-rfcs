@@ -122,6 +122,16 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>Stream Control Transmission Protocol [RFC2960] (SCTP) currently uses
+    an \r\nAdler-32 checksum. For small packets Adler-32 provides weak detection \r\nof
+    errors. This document changes that checksum and updates SCTP to \r\nuse a 32 bit
+    CRC checksum.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 relation:
 - type: obsoletedBy
   bibitem:

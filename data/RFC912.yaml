@@ -1,0 +1,101 @@
+---
+schema-version: v1.2.3
+id: RFC912
+title:
+- content: Authentication service
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc912
+  type: src
+type: standard
+docid:
+- id: RFC 912
+  type: IETF
+  primary: true
+- id: 10.17487/RFC0912
+  type: DOI
+docnumber: RFC912
+date:
+- type: published
+  value: 1984-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: St. Johns
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. St. Johns
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 1984-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This memo describes a proposed authentication protocol for verifying
+    the identity of a user of a TCP connection. Given a TCP port number pair, it returns
+    a character string which identifies the owner of that connection on the server's
+    system. Suggested uses include automatic identification and verification of a
+    user during an FTP session, additional verification of a TAC dial up user, and
+    access verification for a generalized network file server.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC931
+    docid:
+    - id: RFC931
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC931
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '912'
+- type: stream
+  title:
+    content: Legacy
+    format: text/plain
+ext:
+  schema-version: v1.0.1
+  stream: Legacy

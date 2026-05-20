@@ -180,6 +180,21 @@ language:
 - en
 script:
 - Latn
+abstract:
+- content: "<p>This document specifies Version 3 of the Internet Group Management\r\nProtocol,
+    IGMPv3. IGMP is the protocol used by IPv4 systems to report\r\ntheir IP multicast
+    group memberships to neighboring multicast routers.\r\nVersion 3 of IGMP adds
+    support for 'source filtering', that is, the\r\nability for a system to report
+    interest in receiving packets *only* from\r\nspecific source addresses, or from
+    *all but* specific source addresses,\r\nsent to a particular multicast address.
+    That information may be used by\r\nmulticast routing protocols to avoid delivering
+    multicast packets from\r\nspecific sources to networks where there are no interested
+    receivers.\r\nThis document obsoletes RFC 2236.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
 relation:
 - type: obsoletedBy
   bibitem:
