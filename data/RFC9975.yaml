@@ -1,0 +1,128 @@
+---
+schema-version: v1.2.3
+id: RFC9975
+title:
+- content: Clarifications on CDS/CDNSKEY and CSYNC Consistency
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9975
+  type: src
+type: standard
+docid:
+- id: RFC 9975
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9975
+  type: DOI
+docnumber: RFC9975
+date:
+- type: published
+  value: 2026-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: P
+        formatted_initials:
+          content: P.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomassen
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: P. Thomassen
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>Maintenance of DNS delegations requires occasional changes of the DS
+    and NS record sets on the parent side of the delegation. For the case of DS records,
+    "Automating DNSSEC Delegation Trust Maintenance" (RFC 7344) provides automation
+    by allowing the child to publish CDS and/or CDNSKEY records holding the prospective
+    DS parameters that the parent can ingest. Similarly, "Child-to-Parent Synchronization
+    in DNS" (RFC 7477) specifies CSYNC records to indicate a desired update of the
+    delegation's NS (and glue) records. Parent-side entities (e.g., Registries and
+    Registrars) can query these records from the child and, after validation, use
+    them to update the parent-side Resource Record Sets (RRsets) of the delegation.</p><p>This
+    document specifies under which conditions the target states expressed via CDS/CDNSKEY
+    and CSYNC records are considered "consistent". Parent-side entities accepting
+    such records from the child have to ensure that update requests retrieved from
+    different authoritative nameservers satisfy these consistency requirements before
+    taking any action based on them.</p><p>This document updates RFCs 7344 and 7477.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7344
+    docid:
+    - id: RFC7344
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7344
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7477
+    docid:
+    - id: RFC7477
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7477
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9975'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: DNSSEC
+- content: DS
+- content: CDS
+- content: CDNSKEY
+- content: CSYNC
+- content: automation
+editorialgroup:
+- name: dnsop
+ext:
+  schema-version: v1.0.1
+  stream: IETF
