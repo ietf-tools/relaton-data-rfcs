@@ -1,0 +1,140 @@
+---
+schema-version: v1.2.3
+id: RFC9993
+title:
+- content: RTP Payload Format for Haptics
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9993
+  type: src
+type: standard
+docid:
+- id: RFC 9993
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9993
+  type: DOI
+docnumber: RFC9993
+date:
+- type: published
+  value: 2026-05
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: HS
+        formatted_initials:
+          content: HS
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Yang
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: HS Yang
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: X
+        formatted_initials:
+          content: X.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: de Foy
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: X. de Foy
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-05
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This memo specifies an RTP payload format for MPEG-I haptic data. A
+    haptic media stream is composed of MPEG-I Haptic Stream (MIHS) units including
+    a MIHS unit header and zero or more MIHS packets. The RTP payload header format
+    allows for packetization of a MIHS unit in an RTP packet payload as well as fragmentation
+    of a MIHS unit into multiple RTP packets. The original subtype registration for
+    'haptics/hmpg' (RFC 9695) did not include any required or optional parameters.
+    This memo updates RFC 9695 and the 'haptics/hmpg' registration to add optional
+    parameters. It also provides Session Description Protocol (SDP) usage information
+    for the 'haptics' media type.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC9695
+    docid:
+    - id: RFC9695
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9695
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9993'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: touch
+- content: tactile
+- content: vibrotactile
+- content: kinesthetic
+editorialgroup:
+- name: avtcore
+ext:
+  schema-version: v1.0.1
+  stream: IETF
