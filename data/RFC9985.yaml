@@ -1,0 +1,212 @@
+---
+schema-version: v1.2.3
+id: RFC9985
+title:
+- content: Optimizing Bidirectional Forwarding Detection (BFD) Authentication
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9985
+  type: src
+type: standard
+docid:
+- id: RFC 9985
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9985
+  type: DOI
+docnumber: RFC9985
+date:
+- type: published
+  value: 2026-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Jethanandani
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Jethanandani
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Mishra
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Mishra
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Haas
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Haas
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Saxena
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Saxena
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bhatia
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Bhatia
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes an experimental optimization to Bidirectional
+    Forwarding Detection (BFD) Authentication. This optimization enables BFD to scale
+    better when there is a desire to use authentication where applying the same authentication
+    mechanism to every BFD Control Packet may adversely impact performance. This optimization
+    partitions BFD Authentication into a more computationally intensive (MCI) mechanism
+    that is applied to BFD significant changes and a less computationally intensive
+    (LCI) mechanism that is applied to the majority of BFD Control Packets.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9985'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: BFD
+- content: authentication
+editorialgroup:
+- name: bfd
+ext:
+  schema-version: v1.0.1
+  stream: IETF
