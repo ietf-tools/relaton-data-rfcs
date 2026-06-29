@@ -1,0 +1,127 @@
+---
+schema-version: v1.2.3
+id: RFC9970
+title:
+- content: Connected Identity for Secure Telephone Identity Revisited (STIR)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9970
+  type: src
+type: standard
+docid:
+- id: RFC 9970
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9970
+  type: DOI
+docnumber: RFC9970
+date:
+- type: published
+  value: 2026-06
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Peterson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Peterson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wendt
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Wendt
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-06
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The Session Initiation Protocol (SIP) Identity header field conveys
+    cryptographic identity information about the originators of SIP requests. However,
+    the Secure Telephone Identity Revisited (STIR) framework provides no means for
+    determining the identity of the called party in a conventional telephone-calling
+    scenario. This document updates prior guidance on the "connected identity" problem
+    to reflect the changes to SIP identity that accompanied STIR. It also considers
+    a revised problem space for connected identity as a means of detecting calls that
+    have been retargeted to a party impersonating the intended destination and preventing
+    the spoofing of mid-dialog or dialog-terminating events by intermediaries or third
+    parties.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9970'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: SIP
+editorialgroup:
+- name: stir
+ext:
+  schema-version: v1.0.1
+  stream: IETF
