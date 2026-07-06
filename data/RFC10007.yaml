@@ -126,7 +126,11 @@ script:
 abstract:
 - content: "<p>RFC 5280 defines the profile of X.509 certificates and Certificate
     Revocation Lists (CRLs) for use in the Internet. Section 4.2.1.3 of RFC 5280 requires
-    CRL issuer certificates to contain the</p>"
+    CRL issuer certificates to contain the keyUsage extension with the cRLSign bit
+    asserted. However, the CRL validation algorithm specified in Section 6.3 of RFC
+    5280 does not explicitly include a corresponding check for the presence of the
+    keyUsage certificate extension. This document updates RFC 5280 to require that
+    check.</p>"
   language:
   - en
   script:
