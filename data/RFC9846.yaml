@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC8446
+id: RFC9846
 title:
 - content: The Transport Layer Security (TLS) Protocol Version 1.3
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc8446
+- content: https://www.rfc-editor.org/info/rfc9846
   type: src
 type: standard
 docid:
-- id: RFC 8446
+- id: RFC 9846
   type: IETF
   primary: true
-- id: 10.17487/RFC8446
+- id: 10.17487/RFC9846
   type: DOI
-docnumber: RFC8446
+docnumber: RFC9846
 date:
 - type: published
-  value: 2018-08
+  value: 2026-07
 contributor:
 - person:
     name:
@@ -59,7 +59,7 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2018-08
+revdate: 2026-07
 language:
 - en
 script:
@@ -68,24 +68,16 @@ abstract:
 - content: "<p>This document specifies version 1.3 of the Transport Layer Security
     (TLS) protocol. TLS allows client/server applications to communicate over the
     Internet in a way that is designed to prevent eavesdropping, tampering, and message
-    forgery.</p><p>This document updates RFCs 5705 and 6066, and obsoletes RFCs 5077,
-    5246, and 6961. This document also specifies new requirements for TLS 1.2 implementations.</p>"
+    forgery.</p><p>This document obsoletes RFC 8446, which specified TLS 1.3. This
+    document obsoletes RFC 5246 (specifying TLS 1.2) and RFCs 5077, 6961, 7627, and
+    8422, all of which pertain to TLS 1.2 or earlier, and updates RFCs 5705 and 6066.
+    This document also specifies new requirements for TLS 1.2 implementations.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC9846
-    docid:
-    - id: RFC9846
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC9846
-      format: text/plain
 - type: updates
   bibitem:
     id: RFC5705
@@ -110,17 +102,11 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '8446'
+  number: '9846'
 - type: stream
   title:
     content: IETF
     format: text/plain
-keyword:
-- content: international data algorithm
-- content: symmetric
-- content: transport protocol layer
-- content: authentication
-- content: privacy
 editorialgroup:
 - name: tls
 ext:
