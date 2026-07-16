@@ -1,0 +1,273 @@
+---
+schema-version: v1.2.3
+id: RFC10015
+title:
+- content: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10015
+  type: src
+type: standard
+docid:
+- id: RFC 10015
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10015
+  type: DOI
+docnumber: RFC10015
+date:
+- type: published
+  value: 2026-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Aviram
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Aviram
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>For (D)TLS 1.2, this document deprecates the use of two key exchanges,
+    namely Diffie-Hellman (DH) over a finite field and RSA. It also discourages the
+    use of static Elliptic Curve Diffie-Hellman (ECDH) cipher suites.</p><p>These
+    prescriptions apply only to (D)TLS 1.2, since (D)TLS 1.0 and TLS 1.1 are deprecated
+    by RFC 8996 and (D)TLS 1.3 either does not use the affected algorithms or does
+    not share the relevant configuration options. (There is no DTLS version 1.1.)</p><p>This
+    document updates RFCs 4162, 4279, 4346, 4785, 5246, 5288, 5289, 5469, 5487, 5932,
+    6209, 6347, 6367, 6655, 7905, 8422, and 9325 to either deprecate or discourage
+    the use of cipher suites using the above key exchange methods in (D)TLS 1.2 connections.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC4162
+    docid:
+    - id: RFC4162
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4162
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4279
+    docid:
+    - id: RFC4279
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4279
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4346
+    docid:
+    - id: RFC4346
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4346
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC4785
+    docid:
+    - id: RFC4785
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC4785
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5246
+    docid:
+    - id: RFC5246
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5246
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5288
+    docid:
+    - id: RFC5288
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5288
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5289
+    docid:
+    - id: RFC5289
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5289
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5469
+    docid:
+    - id: RFC5469
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5469
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5487
+    docid:
+    - id: RFC5487
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5487
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC5932
+    docid:
+    - id: RFC5932
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5932
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6209
+    docid:
+    - id: RFC6209
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6209
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6347
+    docid:
+    - id: RFC6347
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6347
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6367
+    docid:
+    - id: RFC6367
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6367
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC6655
+    docid:
+    - id: RFC6655
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC6655
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7905
+    docid:
+    - id: RFC7905
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7905
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC8422
+    docid:
+    - id: RFC8422
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8422
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC9325
+    docid:
+    - id: RFC9325
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9325
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10015'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: RSA
+- content: Diffie-Hellman
+- content: DH
+- content: DHE
+- content: ECDH
+- content: ECDHE
+editorialgroup:
+- name: tls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
