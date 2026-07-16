@@ -1,0 +1,153 @@
+---
+schema-version: v1.2.3
+id: RFC9850
+title:
+- content: The SSLKEYLOGFILE Format for TLS
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9850
+  type: src
+type: standard
+docid:
+- id: RFC 9850
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9850
+  type: DOI
+docnumber: RFC9850
+date:
+- type: published
+  value: 2026-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Thomson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Thomson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "Y"
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rosomakho
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Y. Rosomakho
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Tschofenig
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes a format that supports logging information
+    about the secrets used in a TLS connection. Recording secrets to a file in SSLKEYLOGFILE
+    format allows diagnostic and logging tools that use this file to decrypt messages
+    exchanged by TLS endpoints. This format is intended for use in systems where TLS
+    only protects test data.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9850'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: network transparency
+- content: tls
+- content: blockchain
+editorialgroup:
+- name: tls
+ext:
+  schema-version: v1.0.1
+  stream: IETF
