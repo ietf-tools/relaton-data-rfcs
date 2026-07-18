@@ -1,24 +1,24 @@
 ---
 schema-version: v1.2.3
-id: RFC5274
+id: RFC10004
 title:
-- content: 'Certificate Management Messages over CMS (CMC): Compliance Requirements'
+- content: 'Certificate Management over CMS (CMC): Compliance Requirements'
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc5274
+- content: https://www.rfc-editor.org/info/rfc10004
   type: src
 type: standard
 docid:
-- id: RFC 5274
+- id: RFC 10004
   type: IETF
   primary: true
-- id: 10.17487/RFC5274
+- id: 10.17487/RFC10004
   type: DOI
-docnumber: RFC5274
+docnumber: RFC10004
 date:
 - type: published
-  value: 2008-06
+  value: 2026-07
 contributor:
 - person:
     name:
@@ -36,19 +36,19 @@ contributor:
           script:
           - Latn
       surname:
-        content: Schaad
+        content: Mandel
         language:
         - en
         script:
         - Latn
       completename:
-        content: J. Schaad
+        content: J. Mandel
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - person:
     name:
       given:
@@ -57,27 +57,27 @@ contributor:
           - en
           script:
           - Latn
-          initial: M
+          initial: S
         formatted_initials:
-          content: M.
+          content: S.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Myers
+        content: Turner
         language:
         - en
         script:
         - Latn
       completename:
-        content: M. Myers
+        content: S. Turner
         language:
         - en
         script:
         - Latn
   role:
-  - type: author
+  - type: editor
 - organization:
     name:
     - content: RFC Publisher
@@ -88,47 +88,38 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2008-06
+revdate: 2026-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document provides a set of compliance statements about the CMC
-    (Certificate Management over CMS) enrollment protocol. The ASN.1 structures and
-    the transport mechanisms for the CMC enrollment protocol are covered in other
-    documents. This document provides the information needed to make a compliant version
-    of CMC. [STANDARDS-TRACK]</p>"
+- content: "<p>This document provides a set of compliance statements about the Certificate
+    Management over CMS (CMC) enrollment protocol. The ASN.1 structures and the transport
+    mechanisms for the CMC enrollment protocol are covered in other documents (RFCs
+    10002 and 10003). This document provides the information needed to make a compliant
+    version of CMC.</p><p>This document obsoletes RFCs 5274 and 6402.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC10004
-    docid:
-    - id: RFC10004
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC10004
-      format: text/plain
 series:
 - title:
     content: RFC
     format: text/plain
-  number: '5274'
+  number: '10004'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
-- content: cryptographic message syntax
-- content: cmc enrollment protocol
+- content: Public Key Infrastructure
+- content: Cryptographic Message Syntax
+- content: Certificate Management
+- content: Compliance
 editorialgroup:
-- name: pkix
+- name: lamps
 ext:
   schema-version: v1.0.1
   stream: IETF
