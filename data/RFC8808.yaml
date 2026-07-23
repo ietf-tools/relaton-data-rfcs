@@ -123,17 +123,28 @@ language:
 script:
 - Latn
 abstract:
-- content: <p>This document defines a YANG data model with the "factory-reset" RPC
-    to allow clients to reset a server back to its factory default condition. It also
-    defines an optional "factory-default" datastore to allow clients to read the factory
-    default configuration for the device.</p><p>The YANG data model in this document
-    conforms to the Network Management Datastore Architecture (NMDA) defined in RFC
-    8342.</p>
+- content: "<p>This document defines a YANG data model with the \"factory-reset\"
+    RPC\r\nto allow clients to reset a server back to its factory default\r\ncondition.
+    It also defines an optional \"factory-default\" datastore to\r\nallow clients
+    to read the factory default configuration for the\r\ndevice.\r\n\r\nThe YANG data
+    model in this document conforms to the Network\r\nManagement Datastore Architecture
+    (NMDA) defined in RFC 8342.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8342
+    docid:
+    - id: RFC8342
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8342
+      format: text/plain
 series:
 - title:
     content: RFC
@@ -143,6 +154,8 @@ series:
   title:
     content: IETF
     format: text/plain
+keyword:
+- {}
 editorialgroup:
 - name: netmod
 ext:
