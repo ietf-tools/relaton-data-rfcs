@@ -1,0 +1,97 @@
+---
+schema-version: v1.2.3
+id: RFC9997
+title:
+- content: 'YANG-CBOR: Allocating SID Ranges for Private Enterprise Number (PEN) Holders'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc9997
+  type: src
+type: standard
+docid:
+- id: RFC 9997
+  type: IETF
+  primary: true
+- id: 10.17487/RFC9997
+  type: DOI
+docnumber: RFC9997
+date:
+- type: published
+  value: 2026-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Bormann
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: C. Bormann
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>YANG-CBOR (RFC 9254, "Encoding of Data Modeled with YANG in the Concise
+    Binary Object Representation (CBOR)") defines YANG Schema Item iDentifiers (YANG
+    SIDs), globally unique 63-bit unsigned integers used to identify YANG items. RFC
+    9595 ("YANG Schema Item iDentifier (YANG SID)") defines ways to allocate these
+    SIDs using IANA registries.</p><p>The present specification employs these SID
+    allocation mechanisms to allocate ranges of 100 000 SIDs (representation size
+    64 bits) to each holder of an IANA Private Enterprise Number (PEN) of a value
+    below 1 000 000. Holders of PENs of values smaller than 100 000 are also allocated
+    ranges of 10 000 SIDs (representation size 32 bits).</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '9997'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: YANG-CBOR
+editorialgroup:
+- name: core
+ext:
+  schema-version: v1.0.1
+  stream: IETF
