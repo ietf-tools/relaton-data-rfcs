@@ -1,0 +1,156 @@
+---
+schema-version: v1.2.3
+id: RFC10019
+title:
+- content: Zeroconf Multicast Address Allocation Problem Statement and Requirements
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10019
+  type: src
+type: standard
+docid:
+- id: RFC 10019
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10019
+  type: DOI
+docnumber: RFC10019
+date:
+- type: published
+  value: 2026-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: "N"
+        formatted_initials:
+          content: N.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Karstens
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: N. Karstens
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Farinacci
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. Farinacci
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: McBride
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. McBride
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document surveys current problems with existing protocols for
+    automatically assigning multicast IP addresses in zero-configuration (zeroconf)
+    networking environments. It addresses key challenges, such as link-layer address
+    collisions, hardware limitations, multicast snooping inefficiencies, and the need
+    to avoid manual configuration. Based on these challenges, it derives requirements
+    for a lightweight, decentralized solution for dynamically allocating unique multicast
+    group addresses without central coordination.</p><p>The document presents explicit
+    requirements covering discovery, allocation, conflict detection and resolution,
+    and lease management. It also evaluates considerations specific to IPv6 and IPv4
+    multicast address ranges, and identifies approaches that are unsuited for zeroconf
+    deployment. This foundation serves as a reference for developing future solutions
+    for multicast address allocation that operate autonomously within local networks.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10019'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: pim
+ext:
+  schema-version: v1.0.1
+  stream: IETF
