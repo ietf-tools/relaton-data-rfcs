@@ -1,0 +1,190 @@
+---
+schema-version: v1.2.3
+id: RFC10013
+title:
+- content: Entity Attestation Token (EAT) Measured Component
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10013
+  type: src
+type: standard
+docid:
+- id: RFC 10013
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10013
+  type: DOI
+docnumber: RFC10013
+date:
+- type: published
+  value: 2026-07
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Frost
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: S. Frost
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Fossati
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: T. Fossati
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tschofenig
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Tschofenig
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Birkholz
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: H. Birkholz
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: '<p>The term "measured component" refers to an object within the attester''s
+    target environment whose state can be sampled and typically digested using a cryptographic
+    hash function. Examples of measured components include firmware stored in flash
+    memory, software loaded into memory at start time, data stored in a file system,
+    or values in a CPU register. This document provides the information model for
+    the measured component and two associated data models. This separation is intentional:
+    The JSON and Concise Binary Object Representation (CBOR) serializations, coupled
+    with the media types and associated Constrained Application Protocol (CoAP) Content-Formats,
+    enable the immediate use of the semantics within the Entity Attestation Token
+    (EAT) framework. Meanwhile, the information model can be reused in future specifications
+    to provide additional serializations, for example, using ASN.1.</p>'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10013'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: EAT
+- content: measurements
+- content: claim
+- content: measured
+- content: component
+editorialgroup:
+- name: rats
+ext:
+  schema-version: v1.0.1
+  stream: IETF
