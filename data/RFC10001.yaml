@@ -1,48 +1,35 @@
 ---
 schema-version: v1.2.3
-id: RFC3901
+id: RFC10001
 title:
-- content: DNS IPv6 Transport Operational Guidelines
+- content: Operational Guidelines for DNS Transport in Mixed IPv4/IPv6 Environments
   format: text/plain
   type: main
 link:
-- content: https://www.rfc-editor.org/info/rfc3901
+- content: https://www.rfc-editor.org/info/rfc10001
   type: src
 type: standard
 docid:
-- id: RFC 3901
+- id: RFC 10001
   type: IETF
   primary: true
-- id: 10.17487/RFC3901
+- id: 10.17487/RFC10001
   type: DOI
-docnumber: RFC3901
+docnumber: RFC10001
 date:
 - type: published
-  value: 2004-09
+  value: 2026-08
 contributor:
 - person:
     name:
-      given:
-        forename:
-        - language:
-          - en
-          script:
-          - Latn
-          initial: A
-        formatted_initials:
-          content: A.
-          language:
-          - en
-          script:
-          - Latn
       surname:
-        content: Durand
+        content: Momoka
         language:
         - en
         script:
         - Latn
       completename:
-        content: A. Durand
+        content: Momoka
         language:
         - en
         script:
@@ -57,21 +44,21 @@ contributor:
           - en
           script:
           - Latn
-          initial: J
+          initial: T
         formatted_initials:
-          content: J.
+          content: T.
           language:
           - en
           script:
           - Latn
       surname:
-        content: Ihren
+        content: Fiebig
         language:
         - en
         script:
         - Latn
       completename:
-        content: J. Ihren
+        content: T. Fiebig
         language:
         - en
         script:
@@ -88,32 +75,24 @@ contributor:
     - content: RFC Series
   role:
   - type: authorizer
-revdate: 2004-09
+revdate: 2026-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This memo provides guidelines and Best Current Practice for operating
-    DNS in a world where queries and responses are carried in a mixed environment
-    of IPv4 and IPv6 networks. This document specifies an Internet Best Current Practices
-    for the Internet Community, and requests discussion and suggestions for improvements.</p>"
+- content: "<p>This document provides guidelines and documents best current practice
+    for operating authoritative DNS servers, recursive resolvers, and stub resolvers
+    in a mixed IPv4/IPv6 environment. This document recommends that both authoritative
+    DNS servers and recursive resolvers support IPv4 and IPv6. It also provides guidance
+    on how recursive DNS resolvers should select upstream DNS servers, including when
+    IPv4-embedded IPv6 addresses are available.</p><p>This document obsoletes RFC
+    3901.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: obsoletedBy
-  bibitem:
-    id: RFC10001
-    docid:
-    - id: RFC10001
-      type: IETF
-      primary: true
-    formattedref:
-      content: RFC10001
-      format: text/plain
 series:
 - title:
     content: BCP
@@ -122,15 +101,14 @@ series:
 - title:
     content: RFC
     format: text/plain
-  number: '3901'
+  number: '10001'
 - type: stream
   title:
     content: IETF
     format: text/plain
 keyword:
 - content: DNS
-- content: domain name system
-- content: internet protocol
+- content: IPv6
 editorialgroup:
 - name: dnsop
 ext:
