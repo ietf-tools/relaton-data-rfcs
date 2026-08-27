@@ -1,0 +1,167 @@
+---
+schema-version: v1.2.3
+id: RFC10035
+title:
+- content: 'YANG Library: Addition of the augmented-by List'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10035
+  type: src
+type: standard
+docid:
+- id: RFC 10035
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10035
+  type: DOI
+docnumber: RFC10035
+date:
+- type: published
+  value: 2026-08
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Z. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Claise
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: B. Claise
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: I
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: I. D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Martinez-Casanueva
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: I. D. Martinez-Casanueva
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>"YANG Library" (RFC 8525) specifies the "ietf-yang-library" YANG module
+    that provides information about the YANG modules, datastores, and datastore schemas
+    used by a network management server.</p><p>This document augments the "ietf-yang-library"
+    module to provide the augmented-by list. It facilitates the process of obtaining
+    all dependencies between YANG modules by querying the network management server's
+    YANG library. This document updates RFC 8525 to also include the augmented-by
+    list.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC8525
+    docid:
+    - id: RFC8525
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC8525
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10035'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+editorialgroup:
+- name: netconf
+ext:
+  schema-version: v1.0.1
+  stream: IETF
