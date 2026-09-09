@@ -1,0 +1,257 @@
+---
+schema-version: v1.2.3
+id: RFC10039
+title:
+- content: Interconnecting EVPN and IPVPN Domains
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10039
+  type: src
+type: standard
+docid:
+- id: RFC 10039
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10039
+  type: DOI
+docnumber: RFC10039
+date:
+- type: published
+  value: 2026-09
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Rabadan
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Rabadan
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Sajassi
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Sajassi
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Drake
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Drake
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Lin
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Lin
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Uttaro
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: J. Uttaro
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Simpson
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Simpson
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Ethernet Virtual Private Network (EVPN) provides a unified BGP control
+    plane for both intra- and inter-subnet forwarding within tenant networks. When
+    a tenant network spans multiple domains, including any combination of EVPN and
+    IPVPN domains, it becomes necessary to define the interworking mechanisms among
+    these BGP domains (EVPN and IPVPN) to ensure seamless end-to-end tenant connectivity.
+    This document defines these interworking procedures.</p><p>In addition, this document
+    defines a new BGP Path Attribute, referred to as Domain Path (D-PATH), which provides
+    loop prevention for gateway nodes by protecting against control plane loops. The
+    introduction of D-PATH modifies the BGP best-path selection process for Multiprotocol
+    BGP inter-subnet forwarding (ISF) routes of Subsequent Address Family Identifiers
+    (SAFIs) 128 (IPVPN) and 70 (EVPN).</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10039'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: BGP
+- content: D-PATH
+- content: Domain Path
+- content: DOMAIN-ID
+- content: Inter-Subnet Forwarding
+- content: ISF
+- content: Gateway PE
+- content: Composite PE
+- content: Interworking PE
+- content: BGP Path Attribute
+- content: loop prevention
+- content: BGP best-path selection
+- content: SAFI 128
+- content: SAFI 70
+editorialgroup:
+- name: bess
+ext:
+  schema-version: v1.0.1
+  stream: IETF
