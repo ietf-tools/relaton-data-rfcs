@@ -1,0 +1,125 @@
+---
+schema-version: v1.2.3
+id: RFC10049
+title:
+- content: 'Roughtime: A Protocol for Rough Time Synchronization'
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10049
+  type: src
+type: standard
+docid:
+- id: RFC 10049
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10049
+  type: DOI
+docnumber: RFC10049
+date:
+- type: published
+  value: 2026-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ladd
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: W. Ladd
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dansarie
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Dansarie
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document describes Roughtime, an experimental protocol that aims
+    to achieve two things: secure, rough time synchronization (even for clients without
+    any idea of what time it is) and a format for clients to report any inconsistencies
+    they observe between timeservers. This document specifies the on-wire protocol
+    required for these goals and discusses aspects of the ecosystem needed for it
+    to work.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10049'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: timing
+- content: authenticity
+- content: roughtime
+editorialgroup:
+- name: ntp
+ext:
+  schema-version: v1.0.1
+  stream: IETF
