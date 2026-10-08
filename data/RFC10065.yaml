@@ -1,0 +1,199 @@
+---
+schema-version: v1.2.3
+id: RFC10065
+title:
+- content: A YANG Data Model and RADIUS Extension for Policy-Based Network Access
+    Control
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10065
+  type: src
+type: standard
+docid:
+- id: RFC 10065
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10065
+  type: DOI
+docnumber: RFC10065
+date:
+- type: published
+  value: 2026-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Q
+        formatted_initials:
+          content: Q.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Ma
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Q. Ma
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: Q
+        formatted_initials:
+          content: Q.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Wu
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: Q. Wu
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Boucadair
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Boucadair
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: editor
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: King
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: D. King
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>This document defines a YANG data model for policy-based network access
+    control, which enables enforcement of network access control policies based on
+    group identity. This YANG data model extends Access Control Lists (ACLs) with
+    date and time parameters to support schedule-aware policy enforcement.</p><p>Specifically
+    in scenarios where network access is triggered by user authentication, this document
+    defines a mechanism that eases the maintenance of the mapping between a user group
+    identifier and a set of packet header fields to enforce policy-based network access
+    control. Moreover, this document defines a Remote Authentication Dial-in User
+    Service (RADIUS) attribute that is used to communicate the user group identifier
+    as part of identification and authorization information.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10065'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: ACL
+- content: BYOD
+- content: Access control
+- content: Policy Enforcement Point
+- content: PEP
+- content: Policy enforcement
+- content: Policy Decision Point
+- content: PDP
+- content: Network Management
+- content: Service Provisioning
+- content: Group-Based Policy
+- content: GBP
+- content: Software-Defined Networking
+- content: SDN
+editorialgroup:
+- name: opsawg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
