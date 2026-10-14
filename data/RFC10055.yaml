@@ -1,0 +1,98 @@
+---
+schema-version: v1.2.3
+id: RFC10055
+title:
+- content: Configuring UDP Sockets for Explicit Congestion Notification (ECN) for
+    Common Platforms
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10055
+  type: src
+type: standard
+docid:
+- id: RFC 10055
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10055
+  type: DOI
+docnumber: RFC10055
+date:
+- type: published
+  value: 2026-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Duke
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Duke
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>Explicit Congestion Notification (ECN) applies to all transport protocols
+    in principle. However, it had limited deployment for UDP until QUIC became widely
+    adopted. As a result, documentation of UDP socket APIs for ECN on various platforms
+    is sparse. This document records the results of experimenting with these APIs
+    in order to get ECN working on UDP for Chromium on Apple, Linux, and Windows platforms.</p><p>This
+    document provides a snapshot of the ECN state of affairs as supported by these
+    platforms at the time of writing. Readers should refer to the documentation of
+    the various platforms for more up-to-date information.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10055'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: udp
+- content: ecn
+editorialgroup:
+- name: tsvwg
+ext:
+  schema-version: v1.0.1
+  stream: IETF
