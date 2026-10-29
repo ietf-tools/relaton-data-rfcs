@@ -11,7 +11,7 @@ on:
 
 jobs:
   crawl:
-    uses: relaton/support/.github/workflows/crawler.yml@master
+    uses: relaton/support/.github/workflows/crawler.yml@main
     with:
       override-files: |
         https://raw.githubusercontent.com/ietf-tools/bibxml-service/main/Gemfile=Gemfile
