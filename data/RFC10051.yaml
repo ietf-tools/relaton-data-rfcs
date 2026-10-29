@@ -1,0 +1,145 @@
+---
+schema-version: v1.2.3
+id: RFC10051
+title:
+- content: Task Extensions to iCalendar
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10051
+  type: src
+type: standard
+docid:
+- id: RFC 10051
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10051
+  type: DOI
+docnumber: RFC10051
+date:
+- type: published
+  value: 2026-10
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Apthorp
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: A. Apthorp
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Douglass
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Douglass
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: <p>The "VTODO" calendar component in the Internet Calendaring and Scheduling
+    Core Object Specification (iCalendar; RFC 5545) has seen limited adoption and
+    use, mainly for personal reminders and to-do lists.</p><p>This document updates
+    RFC 5545 and defines extensions to "VTODO" to provide improved status tracking,
+    scheduling, and specification of tasks to allow its use in other contexts, such
+    as process control and project management.</p><p>It also defines how Calendaring
+    Extensions to WebDAV (CalDAV) (RFC 4791) servers can be extended to support certain
+    automated task management behaviors.</p>
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC5545
+    docid:
+    - id: RFC5545
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC5545
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10051'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: iCalendar
+- content: VTODO
+- content: tasks
+- content: task management
+- content: task scheduling
+- content: task assignment
+- content: task status
+- content: task dependencies
+- content: CalDAV
+- content: iTIP
+editorialgroup:
+- name: calext
+ext:
+  schema-version: v1.0.1
+  stream: IETF

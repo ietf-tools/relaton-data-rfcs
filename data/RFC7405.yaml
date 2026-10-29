@@ -65,9 +65,9 @@ language:
 script:
 - Latn
 abstract:
-- content: "<p>This document extends the base definition of ABNF (Augmented Backus-Naur
-    Form) to include a way to specify US-ASCII string literals that are matched in
-    a case-sensitive manner.</p>"
+- content: "<p>This document extends the base definition of ABNF (Augmented\r\nBackus-Naur
+    Form) to include a way to specify US-ASCII string literals\r\nthat are matched
+    in a case-sensitive manner.</p>"
   language:
   - en
   script:
@@ -85,6 +85,10 @@ relation:
       content: RFC5234
       format: text/plain
 series:
+- title:
+    content: STD
+    format: text/plain
+  number: '68'
 - title:
     content: RFC
     format: text/plain
