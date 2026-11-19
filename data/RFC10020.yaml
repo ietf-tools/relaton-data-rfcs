@@ -1,0 +1,151 @@
+---
+schema-version: v1.2.3
+id: RFC10020
+title:
+- content: Group Communication for the Constrained Application Protocol (CoAP)
+  format: text/plain
+  type: main
+link:
+- content: https://www.rfc-editor.org/info/rfc10020
+  type: src
+type: standard
+docid:
+- id: RFC 10020
+  type: IETF
+  primary: true
+- id: 10.17487/RFC10020
+  type: DOI
+docnumber: RFC10020
+date:
+- type: published
+  value: 2026-11
+contributor:
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: E
+        formatted_initials:
+          content: E.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Dijk
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: E. Dijk
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          script:
+          - Latn
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+          script:
+          - Latn
+      surname:
+        content: Tiloca
+        language:
+        - en
+        script:
+        - Latn
+      completename:
+        content: M. Tiloca
+        language:
+        - en
+        script:
+        - Latn
+  role:
+  - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
+    - content: RFC Series
+  role:
+  - type: authorizer
+revdate: 2026-11
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "<p>The Constrained Application Protocol (CoAP) is a web transfer protocol
+    for constrained devices and constrained networks. In a number of use cases, constrained
+    devices often naturally operate in groups (e.g., in a building automation scenario,
+    all lights in a given room may need to be switched on/off as a group). This document
+    specifies the use of CoAP for group communication, including the use of UDP/IP
+    multicast as the default underlying data transport. Both unsecure and secure CoAP
+    group communication are specified. Security is achieved by use of the Group Object
+    Security for Constrained RESTful Environments (Group OSCORE) protocol. The target
+    application area of this specification is any group communication use cases that
+    involve resource-constrained devices or networks that support CoAP. This document
+    obsoletes RFC 7390 and updates RFCs 7252 and 7641.</p>"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/html
+relation:
+- type: updates
+  bibitem:
+    id: RFC7252
+    docid:
+    - id: RFC7252
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7252
+      format: text/plain
+- type: updates
+  bibitem:
+    id: RFC7641
+    docid:
+    - id: RFC7641
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC7641
+      format: text/plain
+series:
+- title:
+    content: RFC
+    format: text/plain
+  number: '10020'
+- type: stream
+  title:
+    content: IETF
+    format: text/plain
+keyword:
+- content: Multicast
+- content: Constrained environments
+- content: IoT
+editorialgroup:
+- name: core
+ext:
+  schema-version: v1.0.1
+  stream: IETF
